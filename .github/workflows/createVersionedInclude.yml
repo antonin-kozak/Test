@@ -1,0 +1,42 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Create Versioned SQL Include
+
+# Controls when the workflow will run
+on:
+  
+  pull_request:
+    branches: [ "main" ]
+    types: closed
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  generate-versioned-include:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          # token: ${{ secrets.PAT }} # To asi bude potřeba
+
+
+      - name: Create a new file
+        run: |
+          echo "Hello World" > newfile.txt
+
+
+
+      # Commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v5
