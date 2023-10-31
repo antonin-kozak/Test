@@ -29,7 +29,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
-          # token: ${{ secrets.PAT }} # To asi bude potřeba
+          token: ${{ secrets.PAT }} # To asi bude potřeba
 
 
       - name: Create a new file
