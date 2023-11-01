@@ -4,7 +4,7 @@ name: Create Versioned SQL Include
 
 # Controls when the workflow will run
 on:
-  
+
   pull_request:
     branches: [ "main" ]
     types: closed
@@ -34,7 +34,7 @@ jobs:
 
       - name: Create a new file
         run: |
-          echo "Hello World" > newfile.txt
+          echo "Hello World $(date) $(time)" > newfile.txt
 
 
 
