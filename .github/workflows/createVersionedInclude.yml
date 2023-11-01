@@ -34,7 +34,7 @@ jobs:
 
       - name: Create a new file
         run: |
-          echo "Hello World $(date) $(time)" > newfile.txt
+          echo "Hello World $(date)" >> newfile.txt
 
 
 
