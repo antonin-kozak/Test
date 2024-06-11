@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/de/lang.mzdy.reports.de.xml
+   Created on  : 25. 04. 2024, 08:32
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <reports>
+        <rpt name="global">
+        </rpt>
+        <rpt name="5457_26">
+            <prop name="_title">
+                <titl>Erklärung des Steuerpflichtigen zur Einkommensteuer aus abhängigen Tätigkeiten (Muster 26)</titl>
+            </prop>
+        </rpt>
+        <rpt name="5457_27$$NES">
+            <prop name="_title">
+                <titl>Erklärung des Steuerpflichtigen zur Einkommensteuer aus abhängigen Tätigkeiten (Muster 27)</titl>
+            </prop>
+        </rpt>
+        <rpt name="5457_B">
+            <prop name="_title">
+                <titl>Antrag auf jährliche Verrechnung von Vorschüssen und Steuergutschriften (Muster 2)</titl>
+            </prop>
+        </rpt>
+        <rpt name="5457_B_v3">
+            <prop name="_title">
+                <titl>Antrag auf jährliche Verrechnung von Vorschüssen und Steuergutschriften (Muster 3)</titl>
+            </prop>
+        </rpt>
+        <rpt name="cerpaniDovolene">
+            <prop name="_title">
+                <titl>Urlaub beziehen</titl>
+            </prop>
+        </rpt>
+        <rpt name="dovolena">
+            <prop name="_title">
+                <titl>Urlaub</titl>
+            </prop>
+        </rpt>
+        <rpt name="finPodkladyDan">
+            <prop name="_title">
+                <titl>Unterlagen für Berechnung der Vorschusssteuer aus nichtselbständiger Arbeit.</titl>
+            </prop>
+            <prop name="bonus">
+                <titl>Bonus</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Monat</titl>
+            </prop>
+            <prop name="opravaBonusu">
+                <titl>Korrektur von Bonus</titl>
+            </prop>
+            <prop name="opravaDane">
+                <titl>Korrektur von Steuer</titl>
+            </prop>
+            <prop name="pocetZamestnancu">
+                <titl>Arbeitnehmer-Zahl</titl>
+            </prop>
+            <prop name="vyuctovaniPredchoziho">
+                <titl>Verrechnung vom Vorgehenden</titl>
+            </prop>
+            <prop name="zalohovaDan">
+                <titl>Vorschusssteuer</titl>
+            </prop>
+            <prop name="zaRok">
+                <titl>Für das Jahr</titl>
+            </prop>
+        </rpt>
+        <rpt name="finPodkladyDanSrazka">
+            <prop name="_title">
+                <titl>Unterlagen für Verrechnung der Abzugssteuer aus nichtselbständiger Arbeit</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Monat</titl>
+            </prop>
+            <prop name="opravaDane">
+                <titl>Steuer-Korrektur</titl>
+            </prop>
+            <prop name="srazkovaDan">
+                <titl>Abzugssteuer</titl>
+            </prop>
+        </rpt>
+        <rpt name="finPrehledDan">
+            <prop name="_title">
+                <titl>Übersicht Einkommensteuer - Vorschusssteuer</titl>
+            </prop>
+            <prop name="danovyZaklad">
+                <titl>Steuergrundlage</titl>
+            </prop>
+            <prop name="rezidentDan">
+                <titl>Steuer Inländer</titl>
+            </prop>
+            <prop name="srazkovaDan">
+                <titl>Abzugssteuer</titl>
+            </prop>
+            <prop name="zalohovaDan">
+                <titl>Vorschusssteuer</titl>
+            </prop>
+        </rpt>
+        <rpt name="finPrehledDanSrazka">
+            <prop name="_title">
+                <titl>Übersicht Einkommensteuer - Abzugssteuer</titl>
+            </prop>
+        </rpt>
+        <rpt name="mzdSlozVstupAVybery">
+            <prop name="_title">
+                <titl>Übersicht der Lohnkomponenten (Input und Bezüge)</titl>
+            </prop>
+        </rpt>
+        <rpt name="neodpracDobaNemocPojist">
+            <prop name="_title">
+                <titl>Nicht geleistete Arbeitszeit - Krankenversicherung</titl>
+            </prop>
+        </rpt>
+        <rpt name="nepritomnost">
+            <prop name="castMzd">
+                <titl>Summe</titl>
+            </prop>
+            <prop name="cisSlozky">
+                <titl>Komponentennummer</titl>
+            </prop>
+            <prop name="datumDo">
+                <titl>Datum bis</titl>
+            </prop>
+            <prop name="datumOd">
+                <titl>Datum von</titl>
+            </prop>
+            <prop name="dnyKalen">
+                <titl>Kalendertage</titl>
+            </prop>
+            <prop name="dnyPrac">
+                <titl>Arbeitstage</titl>
+            </prop>
+            <prop name="hlavicka">
+                <titl>Haftpflichtversicherung</titl>
+            </prop>
+            <prop name="hodiny">
+                <titl>Stunden</titl>
+            </prop>
+            <prop name="vymerZakl">
+                <titl>Bemessungsgrundlage</titl>
+            </prop>
+        </rpt>
+        <rpt name="pracovniPomery">
+            <prop name="_title">
+                <titl>Arbeitsverhältnisse</titl>
+            </prop>
+        </rpt>
+        <rpt name="pracPravPrumer">
+            <prop name="_title">
+                <titl>Übersicht der arbeitsrechtlichen Durchschnitte</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledMzdSlozek">
+            <prop name="_title">
+                <titl>Liste der Lohnkomponenten</titl>
+            </prop>
+            <prop name="pocetPolozek">
+                <titl>Anzahl</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledZamestnancu">
+            <prop name="_title">
+                <titl>Liste der Arbeitnehmer</titl>
+            </prop>
+        </rpt>
+        <rpt name="prepPocZam">
+            <prop name="_title">
+                <titl>Umgerechnete Arbeitnehmer-Zahl</titl>
+            </prop>
+        </rpt>
+        <rpt name="socPojOdpovednosti">
+            <prop name="_title">
+                <titl>Haftpflichtversicherung Organisation</titl>
+            </prop>
+        </rpt>
+        <rpt name="socPrehledPoj">
+            <prop name="_title">
+                <titl>Übersicht der Sozialversicherung</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Insgesamt</titl>
+            </prop>
+            <prop name="firma">
+                <titl>Firma</titl>
+            </prop>
+            <prop name="pracovnik">
+                <titl>Arbeitnehmer</titl>
+            </prop>
+            <prop name="pracovniPomery">
+                <titl>Arbeitsverhältnisse</titl>
+            </prop>
+            <prop name="prispKar">
+                <titl>###Přísp. kar.</titl>
+            </prop>
+            <prop name="slevaSp">
+                <titl>###Sleva SP</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Grundlage</titl>
+            </prop>
+        </rpt>
+        <rpt name="socPrehledSlevaSp">
+            <prop name="_title">
+                <titl>###Přehled pro slevu SP za firmu pro krácené úvazky</titl>
+            </prop>
+            <prop name="duvod">
+                <titl>###Důvod slevy</titl>
+            </prop>
+            <prop name="hodMzda">
+                <titl>###Částka/hodina</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>###Měsíc</titl>
+            </prop>
+            <prop name="mesMzda">
+                <titl>###Částka/měsíc</titl>
+            </prop>
+            <prop name="pocetHodin">
+                <titl>###Hodin/měsíc</titl>
+            </prop>
+            <prop name="podmHodMzda">
+                <titl>###Podm. částka hod.</titl>
+            </prop>
+            <prop name="podmMesMzda">
+                <titl>###Podm. částka měsíc</titl>
+            </prop>
+            <prop name="podmPocetHodin">
+                <titl>###Podm. počet hodin</titl>
+            </prop>
+            <prop name="podmSplneny">
+                <titl>###Sleva uplatněna</titl>
+            </prop>
+            <prop name="stropHodinMesic">
+                <titl>###Limit hodin/měsíc</titl>
+            </prop>
+        </rpt>
+        <rpt name="vycetkaPlatidel">
+            <prop name="_title">
+                <titl>Verzeichnis der Zahlungsmittel</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Summe</titl>
+            </prop>
+        </rpt>
+        <rpt name="vyplatniPaska">
+            <prop name="_title">
+                <titl>Lohnbescheinigung</titl>
+            </prop>
+            <prop name="pojisteni">
+                <titl>Versicherung</titl>
+            </prop>
+            <prop name="pojistne">
+                <titl>Versicherungsbeitrag</titl>
+            </prop>
+            <prop name="prehledSlozekCastkaMzdy">
+                <titl>[%currency-symbol]</titl>
+            </prop>
+            <prop name="prehledSlozekDny">
+                <titl>[Tage]</titl>
+            </prop>
+            <prop name="prehledSlozekHodiny">
+                <titl>[Stunden]</titl>
+            </prop>
+            <prop name="prehledSlozekZaklad">
+                <titl>Grundlage</titl>
+            </prop>
+            <prop name="prijmeniJmenoATitul">
+                <titl>Familienname, Name und Titel</titl>
+            </prop>
+            <prop name="shrnuti">
+                <titl>Zusammenfassung</titl>
+            </prop>
+            <prop name="zdravotniPojistovna">
+                <titl>Krankenkasse</titl>
+            </prop>
+        </rpt>
+        <rpt name="vypocetPrepPocZam">
+            <prop name="_title">
+                <titl>###Výpočet přepočteného počtu zaměstnanců</titl>
+            </prop>
+            <prop name="do">
+                <titl>###do</titl>
+            </prop>
+            <prop name="hodFond">
+                <titl>###Fond prac. doby [hod]</titl>
+            </prop>
+            <prop name="hodZapoc">
+                <titl>###Započtené hodiny</titl>
+            </prop>
+            <prop name="hodZapocDovolena">
+                <titl>###Započ. dovolená</titl>
+            </prop>
+            <prop name="hodZapocNemoc">
+                <titl>###Započ. nemoc</titl>
+            </prop>
+            <prop name="hodZapocOdpracovano">
+                <titl>###Započ. odprac.</titl>
+            </prop>
+            <prop name="hodZapocPrekazky">
+                <titl>###Započ. překážky</titl>
+            </prop>
+            <prop name="hodZapocVolnoPlacene">
+                <titl>###Započ. volno placené</titl>
+            </prop>
+            <prop name="obdobi">
+                <titl>###Za období</titl>
+            </prop>
+            <prop name="od">
+                <titl>###od</titl>
+            </prop>
+            <prop name="poZaokrouhleni">
+                <titl>###Po zaokrouhlení:</titl>
+            </prop>
+            <prop name="prepPocZam">
+                <titl>###Přep. počet zam.</titl>
+            </prop>
+            <prop name="prepPocZamZtp">
+                <titl>###Přep. počet zam. ZTP</titl>
+            </prop>
+            <prop name="vzorecekVypoctu">
+                <titl>###Přepočtený počet zaměstnanců se počítá jako "započteno\fond".\nDo započtených hodin se započítávají tyto složky: %slozkyVsechny%.\nDo "Započ. odprac." spadá: %slozkyOdprac%. Do "Započ. dovolená" spadá %slozkyDovol%.\nDo "Započ. nemoc" spadá: %slozkyNemoc%.\nDo "Započ. volno placené" spadá: %slozkyVolnoPlac%. Do "Započ. překážky" spadá: %slozkyPrekazky%.\nZahrnují se tyto pracovní poměry: %zahrnovanePP%.</titl>
+            </prop>
+        </rpt>
+        <rpt name="zamestnanci">
+            <prop name="_title">
+                <titl>Personal - Übersicht</titl>
+            </prop>
+        </rpt>
+        <rpt name="zamMzdovyList">
+            <prop name="_title">
+                <titl>Lohnliste</titl>
+            </prop>
+            <prop name="deti">
+                <titl>Kinder</titl>
+            </prop>
+            <prop name="detiJmeno">
+                <titl>Vorname, Nachname</titl>
+            </prop>
+            <prop name="detiRC">
+                <titl>Personenkennzahl</titl>
+            </prop>
+            <prop name="detiSleva">
+                <titl>Rabatt für Kind</titl>
+            </prop>
+            <prop name="detiSleva1">
+                <titl>1. Kind (%p CHF/Monat)</titl>
+            </prop>
+            <prop name="detiSleva1Min">
+                <titl>1. Kind (%p CHF/Monat; %p CZK/Monat ab der Gültigkeit des Gesetzes Nr. 125/2016 Slg.)</titl>
+            </prop>
+            <prop name="detiSleva2">
+                <titl>2. Kind (%p CHF/Monat)</titl>
+            </prop>
+            <prop name="detiSleva2Min">
+                <titl>2. Kind (%p CHF/Monat; %p CZK/Monat ab der Gültigkeit des Gesetzes Nr. 125/2016 Slg.)</titl>
+            </prop>
+            <prop name="detiSleva3">
+                <titl>Weiteres Kind (%p CHF/Monat)</titl>
+            </prop>
+            <prop name="detiSleva3Min">
+                <titl>Weiteres Kind (%p CHF/Monat; %p CHF/Monat ab der Gültigkeit des Gesetzes Nr. 125/2016 Slg.)</titl>
+            </prop>
+            <prop name="detiZTP">
+                <titl>Invalide Kinder</titl>
+            </prop>
+            <prop name="dite">
+                <titl>Kind</titl>
+            </prop>
+            <prop name="do">
+                <titl>Bis</titl>
+            </prop>
+            <prop name="invalidita">
+                <titl>Invalidität</titl>
+            </prop>
+            <prop name="nepBenefity">
+                <titl>Nicht-monetäre Vorteile</titl>
+            </prop>
+            <prop name="nezRodCis">
+                <titl>Personenkennzahl des Partners</titl>
+            </prop>
+            <prop name="od">
+                <titl>Seit</titl>
+            </prop>
+            <prop name="odpracovanaDoba">
+                <titl>Geleistete Zeit</titl>
+            </prop>
+            <prop name="prechodnaAdresa">
+                <titl>Vorübergehende Adresse</titl>
+            </prop>
+            <prop name="prispevky">
+                <titl>Beiträge</titl>
+            </prop>
+            <prop name="rodneJmeno">
+                <titl>Geburtsname</titl>
+            </prop>
+            <prop name="rok">
+                <titl>Jahr</titl>
+            </prop>
+            <prop name="spFirmaSniz">
+                <titl>Sozialversicherung für die Firma vermindert</titl>
+            </prop>
+            <prop name="spolecneProPomery">
+                <titl>Gemeinsam für alle Arbeitsverhältnisse</titl>
+            </prop>
+            <prop name="trvalaAdresa">
+                <titl>Daueradresse</titl>
+            </prop>
+            <prop name="uplatnenaSlevaNaDeti">
+                <titl>Gültiger Kinderabzug</titl>
+            </prop>
+            <prop name="vetaVypocetDane">
+                <titl>Bei der Durchführung der Abrechnung der Lohnsteuer ist integrierender Bestandteil des Lohnscheins das Formblatt Berechnung der Steuer und der Steuerbegünstigung.</titl>
+            </prop>
+            <prop name="vsSocPoj">
+                <titl>VS Sozialversicherung</titl>
+            </prop>
+            <prop name="zalohaNaDanPoSleve">
+                <titl>Steuervorschuss nach Steuerermässigung</titl>
+            </prop>
+            <prop name="zalohaNaDanPoZvyhodneni">
+                <titl>Steuervorschuss nach Begünstigung</titl>
+            </prop>
+            <prop name="zamestnance">
+                <titl>Arbeitnehmer</titl>
+            </prop>
+            <prop name="zdravotniPojistovna">
+                <titl>Krankenkasse</titl>
+            </prop>
+        </rpt>
+        <rpt name="zamPodpisArch">
+            <prop name="_title">
+                <titl>Auszahlung der Löhne - Unterschriftenliste</titl>
+            </prop>
+            <prop name="datumPodpisu">
+                <titl>Datum der Unterschrift</titl>
+            </prop>
+            <prop name="dobirka">
+                <titl>Nachzahlung</titl>
+            </prop>
+            <prop name="odpracovanoDnu">
+                <titl>Geleistete Tage</titl>
+            </prop>
+            <prop name="odpracovanoHodin">
+                <titl>Geleistete Stunden</titl>
+            </prop>
+            <prop name="podpis">
+                <titl>Unterschrift</titl>
+            </prop>
+            <prop name="srazky">
+                <titl>Abzüge</titl>
+            </prop>
+            <prop name="zaloha">
+                <titl>Vorauszahlung</titl>
+            </prop>
+            <prop name="zalohaMimoradna">
+                <titl>Sondervorauszahlung</titl>
+            </prop>
+        </rpt>
+        <rpt name="zamPrehledMezd">
+            <prop name="_title">
+                <titl>Übersicht der Löhne für Arbeitnehmer</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapoctak">
+            <prop name="_title">
+                <titl>Arbeitsbestätigung (Arbeitslaufzettel)</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapoctak$$NES">
+            <prop name="_title">
+                <titl>Arbeitsbestätigung (Arbeitslaufzettel) - mit Geburtsdatum</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapoctak$$SUM">
+            <prop name="_title">
+                <titl>Arbeitsbestätigung (Arbeitslaufzettel) - mit Sozialversicherungsnummer</titl>
+            </prop>
+        </rpt>
+        <rpt name="zdrPrehledPoj">
+            <prop name="_title">
+                <titl>Übersicht der Krankenversicherung</titl>
+            </prop>
+            <prop name="zdrPojNull">
+                <titl>Krankenkasse nicht ausgefüllt</titl>
+            </prop>
+        </rpt>
+    </reports>
+</config>

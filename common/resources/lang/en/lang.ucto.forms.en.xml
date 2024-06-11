@@ -1,0 +1,2059 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/en/lang.ucto.forms.en.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <formsInfo>
+        <fi name="root000">
+            <titl>ABRA Flexi</titl>
+        </fi>
+        <fi name="desktop000">
+            <titl>Working area</titl>
+        </fi>
+        <fi name="dashboard000">
+            <titl>Overviews</titl>
+            <icon>win/dashboard.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="gdpr000">
+            <titl>GDPR</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="dashboard">
+            <titl>Overview</titl>
+            <icon>win/dashboard-vlastni.png</icon>
+        </fi>
+        <fi name="dashboard000-konkretni">
+            <titl>Overviews</titl>
+            <icon>win/dashboard-konkretni.png</icon>
+        </fi>
+        <fi name="dashboard-konkretni">
+            <titl>Overview</titl>
+            <icon>win/dashboard-vlastni-konkretni.png</icon>
+        </fi>
+        <fi name="test000">
+            <titl>* TEST *</titl>
+        </fi>
+        <fi name="firma000">
+            <titl>Company</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="novaFirma">
+            <titl>New company</titl>
+        </fi>
+        <fi name="initFirmaWiz">
+            <titl>Initialize company</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="novaFirmaWiz">
+            <titl>New company</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="noveSezeni">
+            <titl>Open company in a new window</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="pravaFirma">
+            <titl>Company rights</titl>
+        </fi>
+        <fi name="zmenaParFirmy">
+            <titl>Company parameters</titl>
+        </fi>
+        <fi name="vyberFirmyAction">
+            <titl>Change company</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="zmenaUcetniObdobi000">
+            <titl>Change accounting period</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="zalohaDB">
+            <titl>Backup company</titl>
+            <desc>Backup of data on local pc. Backups can be restored also to ABRA Flexi installation.</desc>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="souKonec">
+            <titl>Exit application</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="nImport">
+            <titl>Import</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="importExcel">
+            <titl>Import from Excel</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="importIsDoc">
+            <titl>Import e-invoice ISDOC</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="importXml">
+            <titl>Import from XML</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="opravSklad">
+            <titl>Stock recalculation</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="realizujPozadavky">
+            <titl>Update requests for withdrawal</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="partneri000">
+            <titl>Business partners</titl>
+            <icon>win/obch-partneri.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="zbozi000">
+            <titl>Warehouse</titl>
+            <icon>win/zbozi.png</icon>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="prodej000">
+            <titl>Sales</titl>
+            <icon>win/prodej.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="prodejTypy">
+            <titl>Types</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="prodejTuo">
+            <titl>Account mapping</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="prodejRady">
+            <titl>Series</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="nakup000">
+            <titl>Purchases</titl>
+            <icon>win/nakup.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="nakupTypy">
+            <titl>Types</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="nakupTuo">
+            <titl>Account mapping</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="nakupRady">
+            <titl>Series</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="penize000">
+            <titl>Money</titl>
+            <icon>win/penize.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="penizePolDokl">
+            <titl>Overview of receipts</titl>
+            <desc>Overview of all movements in the various lists of bank and cash modules. There are bank and cash desk items. Through standard filtering you create overviews of document items or you can search groups of movements according to set criteria, independently of documents in which the items originated.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="penizeTypy">
+            <titl>Document type</titl>
+            <icon>win/folder.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="penizeTuo">
+            <titl>Account mapping</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="penizeRady">
+            <titl>Series</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="majetek000">
+            <titl>Assets</titl>
+            <icon>win/majetek.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="majetekTypy">
+            <titl>Types</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="zamestnanc000">
+            <titl>Employees</titl>
+            <icon>win/zamestnanci.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="ucetnictvi000">
+            <titl>Accounting</titl>
+            <icon>win/ucetnictvi.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="ucetnictviPolDokl">
+            <titl>Overview of document items</titl>
+            <desc>Overview of all movements in the various lists of internal receipts, other receivables and liabilities. There are items of already mentioned receipts. Through standard filtering you create overviews of receipt items of the documents or you can search groups of movements according to set criteria independently of receipts in which the items originated.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="ucetnictviTypy">
+            <titl>Types</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="ucetnictviTuo">
+            <titl>Account mapping</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="ucetnictviRady">
+            <titl>Num. series</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="nastav000">
+            <titl>Tools</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="ucetniVystup000">
+            <titl>Reports</titl>
+            <icon>win/logs.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="pomoc000">
+            <titl>Help</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="poslatReakci">
+            <titl>Send opinion on ABRA Flexi</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="koupitWinStrom">
+            <titl>Buy licence</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="nabidkaDoplnku">
+            <titl>Add-ons offer</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="aktualLicenci">
+            <titl>Update licence</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="weboveRozhrani">
+            <titl>Web interface</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="podpora">
+            <titl>User support</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="oAplikaci">
+            <titl>About application</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="napoveda">
+            <titl>Application help</titl>
+            <mnem>80</mnem>
+            <acck>112</acck>
+            <accm>0</accm>
+        </fi>
+        <fi name="casteDotazy">
+            <titl>#Frequently asked questions</titl>
+        </fi>
+        <fi name="nastavProgram">
+            <titl>Application settings</titl>
+        </fi>
+        <fi name="uSazbyDph">
+            <titl>VAT rates</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="nNastav">
+            <titl>Settings</titl>
+            <desc>Basic company settings, company data, logo and stamp, legislative parameters and automated operations.</desc>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="nCiselniky">
+            <titl>Catalogs</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="zodpOsoba">
+            <titl>Responsible person</titl>
+        </fi>
+        <fi name="nUcetniObdobi">
+            <titl>Accounting period</titl>
+        </fi>
+        <fi name="ucDoklUcty">
+            <titl>Chart of accounts</titl>
+            <desc>Update of chart of accounts and properties setting of standard balance sheet and profit and lost account.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="ucPocObraty">
+            <titl>Account opening balances</titl>
+            <icon>win/folder.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="intDokl">
+            <titl>Internal documents</titl>
+            <desc>Actualization and creation of internal accounting documents in set accounting period.</desc>
+            <icon>win/int-dok.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="intDoklNovy">
+            <titl>New internal document</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="intPol">
+            <titl>Internal document items</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intRady">
+            <titl>Num. series - internal documents</titl>
+            <desc>Numerical rows setting for actualization of internal documents.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intTyp">
+            <titl>Internal document types</titl>
+            <desc>Internal document types enable to set basic parameters. Those are bringing to book, document series...</desc>
+            <icon>win/typ-interni-doklad.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="adrDodavatel">
+            <titl>Suppliers</titl>
+            <desc>Update of suppliers, contacts, events and supplier's bank accounts.</desc>
+            <icon>win/adresar.png</icon>
+        </fi>
+        <fi name="adrOdberatel">
+            <titl>Customers</titl>
+            <desc>Actualization of customers, contacts, events and bank accounts of customers.</desc>
+            <icon>win/adresar.png</icon>
+        </fi>
+        <fi name="adrSkupFir">
+            <titl>Company groups</titl>
+            <icon>win/skupiny-firem.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="adrAdresarNovy">
+            <titl>New company address</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="adrAdresar">
+            <titl>Address book</titl>
+            <desc>Update of all addresses, contacts, bank accounts and events.</desc>
+            <icon>win/adresar.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="adrKontakty">
+            <titl>Contacts</titl>
+            <desc>List of all contacts that you record by companies. In the list you can search for contact by entered criterions through all companies. In update form by each company you can see contacts linked to concrete address. In contact you can enter company, position or rank, phone no., e-mail, notes and selective keys for filing and searching the contact.</desc>
+            <icon>win/kontakty.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="adrUdalosti">
+            <titl>Events</titl>
+            <desc>List of all events which are conected with partner. Event can be also understood as negotiation record with partner or task which needs to be fulfilled to certain date. In address edit window you see list of events linked to selected partner. Well managed event list enables company's manger to task the emloyees and to monitor solutions status.</desc>
+            <icon>win/udalosti.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="adrRuUdalosti">
+            <titl>Events from the workflow</titl>
+            <desc>List of all events from workflow</desc>
+            <icon>win/udalosti.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="adrNaklAkt">
+            <titl>Activity costs</titl>
+        </fi>
+        <fi name="adrTypAkt">
+            <titl>Activity type</titl>
+            <desc>Users setting of typical events or activities in your firm.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="adrTypNaklAkt">
+            <titl>Activity costs types</titl>
+            <desc>List of all types of costs associated with an activity or event. It includes a link to pricelist.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="adrBanSpoj">
+            <titl>Bank accounts</titl>
+        </fi>
+        <fi name="adrMistUrc">
+            <titl>Delivery address</titl>
+            <desc>List of all destinations.</desc>
+            <icon>win/mista-urceni.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="adrSmlAkt">
+            <titl>Contracts</titl>
+            <desc>List of all contracts</desc>
+            <icon>win/prehled.png</icon>
+        </fi>
+        <fi name="adrSmlAktView">
+            <titl>Contracts</titl>
+            <desc>List of all contracts</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="adrSmlDodavAkt">
+            <titl>Supply contracts</titl>
+            <desc>List of all supply contracts.</desc>
+            <icon>win/prehled.png</icon>
+        </fi>
+        <fi name="adrSmlDodavAktView">
+            <titl>Supply contracts</titl>
+            <desc>List of all supply contracts.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="adrPolSml">
+            <titl>Contract items</titl>
+        </fi>
+        <fi name="adrPolSmlInt">
+            <titl>Standard contract items</titl>
+        </fi>
+        <fi name="adrPolSmlExt">
+            <titl>External contract items</titl>
+        </fi>
+        <fi name="adrTypSml">
+            <titl>Contract types</titl>
+            <icon>win/folder.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="adrTypDodavSml">
+            <titl>Types of supply contracts</titl>
+            <icon>win/folder.png</icon>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="adrStavSml">
+            <titl>Contract status</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="adrZurnalSml">
+            <titl>Contract journal</titl>
+        </fi>
+        <fi name="adrDodavateleView">
+            <titl>Supplies goods</titl>
+        </fi>
+        <fi name="adrOdberateleView">
+            <titl>Individual prices</titl>
+        </fi>
+        <fi name="cenSku">
+            <titl>Groups of goods/products</titl>
+            <desc>Item and material groups enables to classify price list/catalogue to transparent groups, definition of bringing to book of these groups and also setting pricing for these groups.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="cenSkupCen">
+            <titl>Price groups</titl>
+            <desc>Price groups</desc>
+            <icon>win/folder.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="cenHlad">
+            <titl>Price levels</titl>
+            <desc>Price levels create link between item group and customer group and by it clearly defined pricing.</desc>
+            <icon>win/cenove-urovne.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="cenAkt">
+            <titl>Catalogue</titl>
+            <desc>Price list contains complete goods, material and service overview. Everything is classified into groups. You define goods placement in the stocks.</desc>
+            <icon>win/katalog.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="cenAktNovy">
+            <titl>Add item to catalogue</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="cenSady">
+            <titl>Sets</titl>
+        </fi>
+        <fi name="cenPoplatky">
+            <titl>Charges</titl>
+        </fi>
+        <fi name="cenPodobne">
+            <titl>Similar</titl>
+        </fi>
+        <fi name="cenSpec">
+            <titl>Special pirce list</titl>
+        </fi>
+        <fi name="cenDodavatele">
+            <titl>Suppliers</titl>
+        </fi>
+        <fi name="cenDodavateleView">
+            <titl>Suppliers</titl>
+        </fi>
+        <fi name="cenOdberateleView">
+            <titl>Prices for customers/customers groups, special codes</titl>
+        </fi>
+        <fi name="cenEkoKom">
+            <titl>EkoKom packaging records</titl>
+        </fi>
+        <fi name="sklInventura">
+            <titl>Inventory</titl>
+            <icon>win/computation.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="sklInventuraPol">
+            <titl>Inventory items</titl>
+        </fi>
+        <fi name="sklTyp">
+            <titl>Warehouse types</titl>
+            <icon>win/seznam.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="sklKar">
+            <titl>Warehouse balance</titl>
+            <desc>Stock cards are created in price list. You will create price list item and define goods or material placement in the stocks. Here you can find overviews of stock level and movements on cards including well-arranged reports.</desc>
+            <icon>win/skladove-karty.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="sklAkt">
+            <titl>Warehouse</titl>
+            <desc>Stock cards creation and theirs update. Stock list contains basic parameters for documents posting.</desc>
+            <icon>win/prijem-vydej.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="sklVyrCis">
+            <titl>Serial numbers</titl>
+            <desc>List of serial numbers</desc>
+            <icon>win/generate.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="sklVyrCisVyb">
+            <titl>Selection of serial numbers</titl>
+            <desc>Selection of serial numbers</desc>
+            <icon>win/generate.png</icon>
+        </fi>
+        <fi name="sklVyrCisView">
+            <titl>Documents of serial numbers</titl>
+            <desc>Overview of documents of serial numbers</desc>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="sklVyrCisHlavView">
+            <titl>Serial numbers</titl>
+            <desc>Overview of serial numbers</desc>
+            <icon>win/logs.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="sklVyrCisHlav">
+            <titl>Heading of serial numbers</titl>
+        </fi>
+        <fi name="sklMapSklad">
+            <titl>Warehouse mapping</titl>
+            <desc>This sets priorities of stocks use</desc>
+            <icon>win/folder.png</icon>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="sklAktNovy">
+            <titl>Make out a receipt card/withdrawal card</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="sklPol">
+            <titl>Receipt card//withdrawal card items</titl>
+            <desc>Summary of all stock movements. With help of standard filtration you can make stock items overviews or you can seek a groups of movements by entered criterions independently of stock cards or documents.</desc>
+        </fi>
+        <fi name="sklPolPrehled">
+            <titl>Stock movements - overview</titl>
+            <desc>Summary of all stock movements. With help of standard filtration you can make stock items overviews or you can seek a groups of movements by entered criterions independently of stock cards or documents.</desc>
+            <icon>win/skladove-pohyby.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="stavSklWizard">
+            <titl>Stock status to date</titl>
+            <desc>An overview of the status of all items in the pricelist with their quantity on a particular stock to the specified date.</desc>
+            <icon>win/computation.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="stavSkl">
+            <titl>Stock status to date</titl>
+        </fi>
+        <fi name="sklArch">
+            <titl>Archive</titl>
+        </fi>
+        <fi name="sklRady">
+            <titl>Num. series - stock</titl>
+            <desc>Document series setting for receipt/issue card update.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="sklProtiUcty">
+            <titl>Contra accounts stock</titl>
+        </fi>
+        <fi name="sklRezervace">
+            <titl>Posting</titl>
+            <icon>win/rezervace.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="favTyp">
+            <titl>Outgoing invoices types</titl>
+            <desc>Invoices out types enables to set basic parameters. These are: bringing to book, payment method, document series...</desc>
+            <icon>win/typ-vydana-faktura.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="favAkt">
+            <titl>Outgoing Invoices</titl>
+            <desc>Invoices out update in set accounting period. Invoicing from the stock automatically creates issue cards. Button "Services" enables print of current invoice, gives overal information about customer and creates cash settlement.</desc>
+            <icon>win/fak-vydane.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="favAktNovy">
+            <titl>Add new outgoing invoice</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="favPol">
+            <titl>Invoice items</titl>
+            <desc>Overall overview of all invoice items. With help of standard filtration you can create invoice items overviews or you can search item groups by entered criterions independently on documents. Usage exmaple: You want to see which companies you have invoiced for concrete goods during the last two months.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="favTypProdejky">
+            <titl>Cash invoice types</titl>
+            <icon>win/typ-vydana-faktura.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="favProdejky">
+            <titl>Cash invoices</titl>
+            <desc>Money box is designed for cash sale. It is the most simplified form of sales receipt. Once a day you upload sales to the cash desk, which is attached to the money box. Link is defined in the list of money boxes.</desc>
+            <icon>win/pokladna.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="favProdPlat">
+            <titl>Payment</titl>
+            <desc>Payment of documents in cash register.</desc>
+        </fi>
+        <fi name="cisZakazky">
+            <titl>Projects</titl>
+            <icon>win/folder.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="cisTypZak">
+            <titl>Project types</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="cisStavZak">
+            <titl>Project status</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="cisVyhZak">
+            <titl>Project evaluation</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="polDoklPrehProdej">
+            <titl>Document items overviews</titl>
+            <desc>Overviews of all movements in single lists of sale module. Following items are concerned: issued invoices, received demands, issued offers and received orders. With help of standard filtration you can create items overviews of mentioned documents or you can search movement groups by entered criterions independently on documents in which the items were created.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="favUpo">
+            <titl>Payment reminders</titl>
+        </fi>
+        <fi name="favArch">
+            <titl>e</titl>
+        </fi>
+        <fi name="favRady">
+            <titl>Num. series - Invoice</titl>
+            <desc>Document series setting for invoices out update.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="fapTyp">
+            <titl>Incoming invoices types</titl>
+            <icon>win/typ-prijata-faktura.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="fapAkt">
+            <titl>Incoming invoices</titl>
+            <desc>Invoices in update in set accounting period. Invoicing from the stock automatically creates receipt cards. Button "Services" enables print of current invoice, gives overal information about supplier and creates cash settlement.</desc>
+            <icon>win/fak-prijate.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="fapAktNovy">
+            <titl>Receive new invoice</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="fapPol">
+            <titl>Items of incoming invoices</titl>
+            <desc>Overal overview of all invoice items. With help of standard filtration you create invoice items overviews or you can look for item groups according to entered criterions independently of documents. Example of use: You want to see, which companies invoiced you for concrete goods during the two last moths.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="polDoklNakupProdej">
+            <titl>Document items overviews</titl>
+            <desc>Overviews of all movements in single lists of purchase module. Following items are concerned: received invoices, issued demands, received offers and issued orders. With help of standard filtration you can create items overviews of mentioned documents or you can search movement groups by entered criterions independently on documents in which the items were created.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="fapRady">
+            <titl>Num. series - Invoice</titl>
+            <desc>Document series setting for invoices in update.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="fapProtiUcty">
+            <titl>Recieved contra accounts</titl>
+        </fi>
+        <fi name="phlTyp">
+            <titl>Other receivables</titl>
+            <desc>#Types of other receivables enables to set basic parameters. Those are bringing to book, document series...</desc>
+            <icon>win/typ-ostatni-pohledavka.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="phlAkt">
+            <titl>Other receivables</titl>
+            <desc>Updates and creation of receivables in set accounting period, which aren't placed in outgoing invoices. For example payment a rent regulation at your premises.</desc>
+            <icon>win/ostatni-pohledavky.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="phlAktNovy">
+            <titl>New receivable</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="phlPol">
+            <titl>Items of other receivables</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="phlRady">
+            <titl>Num. series - receivables</titl>
+            <desc>Number series updates for receivables.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="zavTyp">
+            <titl>Other liabilities types</titl>
+            <desc>Other liability types enables to set basic parameters. Those are posting document series...</desc>
+            <icon>win/typ-ostatni-zavazky.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="zavAkt">
+            <titl>Other liabilities</titl>
+            <desc>Updates and creation of obligations in set accounting period, which aren't placed in invoices in. For example leasing, rent etc.</desc>
+            <icon>win/ostatni-zavazky.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="zavAktNovy">
+            <titl>New liability</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="zavPol">
+            <titl>Items of other liabilities</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="zavRady">
+            <titl>Num. series - liabilities</titl>
+            <desc>Number series updates for obligations.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="banTyp">
+            <titl>Bank accounts</titl>
+            <icon>win/bank-ucty.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="banTypZapocty">
+            <titl>Reciprocal credit types</titl>
+            <icon>win/bank-ucty.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="banAkt">
+            <titl>Bank</titl>
+            <desc>Bank statement items update in set accounting period. Button "Services" enables print of current document, match document with invoice, debt or obligation.</desc>
+            <icon>win/banka.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="banZapocty">
+            <titl>Reciprocal credits</titl>
+            <desc>Creation of reciprocal credit is possible through wizard, where you enter a firm you do a reciprocal credit with. Then you select credit documents for accounting. To create a credit you can also do document after document, similar to the creation of bank statements items.</desc>
+            <icon>win/vzajemne-zapocty.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="banDenik">
+            <titl>Bank book</titl>
+            <desc>This will execute calculation and bank book print</desc>
+            <icon>win/logs.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="banAktNovy">
+            <titl>New bank document</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="banPol">
+            <titl>Bank document items</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="banZapoctyPol">
+            <titl>Reciprocal credit items</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="banBanZapoctyPol">
+            <titl>Mutual set-off items</titl>
+        </fi>
+        <fi name="banRady">
+            <titl>Num. series - Bank</titl>
+            <desc>Document series setting for bank statements update.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="banProtiUcty">
+            <titl>Contra accounts bank</titl>
+        </fi>
+        <fi name="pokTyp">
+            <titl>Cash desks types</titl>
+            <icon>win/pokladna.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="pokAkt">
+            <titl>Cash desks</titl>
+            <desc>Cash vouchers update in set accounting period. Button "Services" enables print of current document, match document with invoice, debt or obligation.</desc>
+            <icon>win/pokladna.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="pokDenik">
+            <titl>Cash desk journal</titl>
+            <desc>This will execute calculation and bank book print</desc>
+            <icon>win/logs.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="pokAktNovy">
+            <titl>New cash voucher</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="pokPol">
+            <titl>Cash voucher items</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="pokRady">
+            <titl>Num. series - Cash desk</titl>
+            <desc>Document series setting for Cash vouchers update.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="bspModulFree">
+            <titl>Bank/cash desk/warehouse</titl>
+        </fi>
+        <fi name="banBsp">
+            <titl>Bank account list</titl>
+            <desc>List of bank accounts of the firm, including the definition of the method of electronic communication.</desc>
+            <icon>win/bank-ucty.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="pokBsp">
+            <titl>Cash desk list</titl>
+            <desc>Update of the cash desk list</desc>
+            <icon>win/seznam.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="sklBsp">
+            <titl>Warehouse list</titl>
+            <icon>win/seznam.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="obchodNapDokl">
+            <titl>Offers received</titl>
+            <desc>You can create received supplies manually or by copying the issued demand. By copying demand to supply you save time and you must modify just prices specified by your supplier.</desc>
+            <icon>win/nabidka-prijata.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodNapPol">
+            <titl>Offers received items</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodNapTyp">
+            <titl>Offers received</titl>
+            <icon>win/typ-nabidka-prijata.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodNapRady">
+            <titl>Num. series - offers received</titl>
+            <desc>Updates of number series for offers received.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodNavDokl">
+            <titl>Offers issued</titl>
+            <desc>List records all issued supplies, which were sent to your customers. It is possible to copy supply content to received order. Issued supply can be created by copying of received demand.</desc>
+            <icon>win/nabidka-vydana.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodNavPol">
+            <titl>Offers issued items</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodNavTyp">
+            <titl>Offers issued types</titl>
+            <icon>win/typ-nabidka-vydana.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodNavRady">
+            <titl>Num. series - offers issued</titl>
+            <desc>Updates of number series for offers issued.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodPppDokl">
+            <titl>Requisitions received</titl>
+            <desc>Received requisiitions list records all requisitions of your current or potential customers. It is possible to copy one's requisition's content to issued supply or directly to received order.</desc>
+            <icon>win/poptavka-prijata.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="obchodPppPol">
+            <titl>Requisitions received items</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="obchodPppTyp">
+            <titl>Requisitions received</titl>
+            <icon>win/typ-poptavka-prijata.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="obchodPppRady">
+            <titl>Num. series - requisitions received</titl>
+            <desc>Updates of number series for requisitions received.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="obchodPpvDokl">
+            <titl>Requisitions issued</titl>
+            <desc>Issued requisitons can be created manually or by copying the received order. Here starts the reverse process (against sale), when you need to buy goods or material from your suppliers.</desc>
+            <icon>win/poptavka-vydana.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="obchodPpvPol">
+            <titl>Requisitions issued items</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="obchodPpvTyp">
+            <titl>Requisitions issued types</titl>
+            <icon>win/typ-poptavka-vydana.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="obchodPpvRady">
+            <titl>Num. series - Requisitions issued</titl>
+            <desc>Updates of number series for requisitions issued.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="obchodObpDokl">
+            <titl>Orders received</titl>
+            <desc>Received orders serve for records of requirements of your customers. Agreed sale price is mentioned in order items. By pressing one button, you can create issued invoice.</desc>
+            <icon>win/objednavka-prijata.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="obchodObpDoklNovy">
+            <titl>Receive new order</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="obchodObpPol">
+            <titl>Orders received items</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="obchodObpTyp">
+            <titl>Orders received types</titl>
+            <icon>win/typ-objednavka-prijata.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="obchodObpRady">
+            <titl>Num. series - orders received</titl>
+            <desc>Updates of number series for orders received.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="obchodObvDokl">
+            <titl>Orders issued</titl>
+            <desc>Issued orders are similar (in content) with received orders. Only the ordering direction is opposite and prices are purchasing. It is possible to create issued order on the basis of received order. It means, that you will require from your suppliers only what your customers require.</desc>
+            <icon>win/objednavka-vydana.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="obchodObvDoklNovy">
+            <titl>Issue new order</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="obchodObvPol">
+            <titl>Orders issued items</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="obchodObvTyp">
+            <titl>Issued orders types</titl>
+            <icon>win/typ-objednavka-vydana.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="obchodObvRady">
+            <titl>Num. series - orders issued</titl>
+            <desc>Updates of number series for orders issued.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="upominky">
+            <titl>Payment reminders</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="majSku">
+            <titl>Depreciatiion groups</titl>
+        </fi>
+        <fi name="majAkt">
+            <titl>Property</titl>
+        </fi>
+        <fi name="uSesStdPred">
+            <titl>Standard list regulation</titl>
+        </fi>
+        <fi name="uSesRadky">
+            <titl>List row</titl>
+        </fi>
+        <fi name="uSesRozpadUce">
+            <titl>List rows disintegration to accounts</titl>
+        </fi>
+        <fi name="uSestavy">
+            <titl>List of user's reports</titl>
+            <desc>Users reports seting and calculation. Function enables to you definition sever accounting report, setting accounts placement a value and activate calculation for range of months.</desc>
+            <icon>win/seznam.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="uSesSumace">
+            <titl>Summation in lists</titl>
+        </fi>
+        <fi name="uSesUmisteniUctu">
+            <titl>###Upřesnění umístění účtu</titl>
+        </fi>
+        <fi name="uSesPricteniRozdilu">
+            <titl>###Řádky pro přičtení rozdílu</titl>
+        </fi>
+        <fi name="ucDoklObrat">
+            <titl>Turnovers</titl>
+        </fi>
+        <fi name="ucDanEvid">
+            <titl>Tax record</titl>
+        </fi>
+        <fi name="ucTypOrg">
+            <titl>Organization types</titl>
+        </fi>
+        <fi name="uSesUzivPred">
+            <titl>List regulation</titl>
+        </fi>
+        <fi name="cisStr">
+            <titl>Centre</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="cisCinnost">
+            <titl>Activity</titl>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="cisZak">
+            <titl>Contract</titl>
+            <desc>List of orders. Each document can contains link to order. You can analyze costs of concrete order with standard summaries.</desc>
+            <icon>win/zakazky.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="cisZakNehotov">
+            <titl>Orders (unfinished)</titl>
+            <desc>Orders - not showing finished</desc>
+        </fi>
+        <fi name="cisKlic">
+            <titl>Tags</titl>
+        </fi>
+        <fi name="cisStaty">
+            <titl>Countries</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="cisMeny">
+            <titl>List of currencies</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="cisKurzy">
+            <titl>Exchange rates</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="cisKurzyCen">
+            <titl>Exchange rate for pricing</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="cisKurzyIntr">
+            <titl>Exchange rate for Intrastat</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="cisKurzyPreceneni">
+            <titl>Exchange rates for revaluation</titl>
+        </fi>
+        <fi name="cisKonSym">
+            <titl>Constant symbols</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="cisSmerKod">
+            <titl>Banks</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="cisTexDok">
+            <titl>Help texts for document</titl>
+        </fi>
+        <fi name="cisMj">
+            <titl>Measuring units</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="cisPsc">
+            <titl>Post codes</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="cisVazbyMj">
+            <titl>Link units</titl>
+        </fi>
+        <fi name="cisUceRoz">
+            <titl>Mandatory chart of accounts</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="cisOsoby">
+            <titl>Persons and users</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="zastupnosti">
+            <titl>Substitutability</titl>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="role">
+            <titl>User roles</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="pristPrava">
+            <titl>Permissions</titl>
+        </fi>
+        <fi name="zmenHeslo">
+            <titl>Change password</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="zmenEmail">
+            <titl>Change registration email</titl>
+        </fi>
+        <fi name="twoPhaseAuth">
+            <titl>Two-step verification</titl>
+        </fi>
+        <fi name="nasServer">
+            <titl>Server setting</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="nasSmtp">
+            <titl>SMTP server setting</titl>
+        </fi>
+        <fi name="nastavZurnal">
+            <titl>Journal setting</titl>
+        </fi>
+        <fi name="uzivPristup">
+            <titl>Rights to view data</titl>
+        </fi>
+        <fi name="osCert">
+            <titl>Certificates</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="osCertOsobni">
+            <titl>Personal certificates</titl>
+        </fi>
+        <fi name="osCertEet">
+            <titl>EET certificates</titl>
+        </fi>
+        <fi name="osCertFinbricks">
+            <titl>###Klíče Finbricks</titl>
+        </fi>
+        <fi name="osCertPrehled">
+            <titl>Certificates</titl>
+        </fi>
+        <fi name="adrCert">
+            <titl>Organisation certificates</titl>
+        </fi>
+        <fi name="autCert">
+            <titl>Certificate authority</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="actDefinice">
+            <titl>Workflow definitions</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="actSkupiny">
+            <titl>Groups for workflow</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="actClenstvi">
+            <titl>Membership for workflow</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="actRunProcess">
+            <titl>Start workflow</titl>
+            <icon>win/folder.png</icon>
+        </fi>
+        <fi name="interObch">
+            <titl>eShops</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="cisClenDph">
+            <titl>VAT Categories</titl>
+            <desc>VAT category dictates placement of document values in the VAT return. (Key F2)</desc>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="cisClenKonVykDph">
+            <titl>Lines of VAT control report</titl>
+            <mnem>0</mnem>
+        </fi>
+        <fi name="cisDphPren">
+            <titl>List of goods with VAT transfer regime</titl>
+            <desc>Tax statement per §92a Law on VAT</desc>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="cisLokCis">
+            <titl>Localized codes</titl>
+        </fi>
+        <fi name="cisTypUcOp">
+            <titl>Account mapping</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="cisTypUcOpBan">
+            <titl>Account mapping - bank documents</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="cisTypUcOpFap">
+            <titl>Account mapping - invoices in</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="cisTypUcOpFav">
+            <titl>Account mapping - invoices out</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="cisTypUcOpInt">
+            <titl>Account mapping - internal documents</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="cisTypUcOpPhl">
+            <titl>Account mapping - other receivables</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="cisTypUcOpPok">
+            <titl>Account mapping - cash vouchers</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="cisTypUcOpSkl">
+            <titl>Account mapping - stock</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="cisTypUcOpZav">
+            <titl>Account mapping - other liabilites</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="servIntr">
+            <titl>Intrastat</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intrDodPodm">
+            <titl>Delivery terms</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="intrDruhDopr">
+            <titl>Form of transport</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="intrKrajUrc">
+            <titl>Place of origin</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="intrNomenkla">
+            <titl>Nomenclature codes</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="intrMerJed">
+            <titl>Units of measure</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="skupPlneni">
+            <titl>###Skupiny plnění</titl>
+        </fi>
+        <fi name="intrObchTrans">
+            <titl>Business transaction</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="intrZvlPoh">
+            <titl>Special movements</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="intrVystupy">
+            <titl>Outputs</titl>
+        </fi>
+        <fi name="majUmisteni">
+            <titl>Location</titl>
+            <desc>Location of property pre-defined with 3 categories - building, section and room.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="majSazby">
+            <titl>Types of depreciation</titl>
+            <desc>Groups of depreciation rates contain standard values defined by current legislation. You can insert your specific depreciation rates.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="majTypMaj">
+            <titl>Types of property</titl>
+            <desc>Property types enables the classfication of property into groups with advanced definition. Use of groups simplifies choice and delivers greater trnasparency.</desc>
+            <icon>win/typ-majetek.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="majTypLeas">
+            <titl>Types of leasing</titl>
+            <desc>Leasing property types enables the classfication of property into groups with advanced definition.</desc>
+            <icon>win/typ-leasing.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="majZapujcky">
+            <titl>Loans</titl>
+        </fi>
+        <fi name="majMajetekNovy">
+            <titl>Add new property</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="majLeasingNovy">
+            <titl>Add new leasing</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="majMajetek">
+            <titl>Property</titl>
+            <desc>Fixed assets, low-values fixed assets and not depreicable assets update. Depreicable assets card contain tax depreciations, account depreciation, events and registrations loans and responsible persons. You can stop depreciations anytime. You can modify depreications period during the property life.</desc>
+            <icon>win/maj.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="majBwithE">
+            <titl>Property</titl>
+            <desc>Updates of long-term, small and nondepreciative property.</desc>
+        </fi>
+        <fi name="majUdalosti">
+            <titl>Events</titl>
+        </fi>
+        <fi name="majDanOdpisy">
+            <titl>Tax depreciation</titl>
+        </fi>
+        <fi name="majUcetOdpisy">
+            <titl>Accounting depreciation</titl>
+        </fi>
+        <fi name="majLeasing">
+            <titl>Leasing</titl>
+            <desc>Leasing property update, definition schedule of payments and creating accounting costs. By generation schedule of payments are automatically created debts in accounting module.</desc>
+            <icon>win/leas.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="majSplatKal">
+            <titl>Installmet plan</titl>
+        </fi>
+        <fi name="majDanNakl">
+            <titl>Tax-deductible</titl>
+        </fi>
+        <fi name="majExternalId">
+            <titl>External ID for Property</titl>
+        </fi>
+        <fi name="nezRadyRok">
+            <titl>Year items of numerical series</titl>
+        </fi>
+        <fi name="nezRadyDiry">
+            <titl>Gaps in number series</titl>
+        </fi>
+        <fi name="elPrikaz">
+            <titl>Wire instruction</titl>
+            <desc>Definition payment order from list of invoices in wit possibility his addition. Program support export payment order into most of banks electronical formats .</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="elPrikazPol">
+            <titl>Elements of wire instruction</titl>
+        </fi>
+        <fi name="elPrikazFak">
+            <titl>Selection of documents to be paid</titl>
+        </fi>
+        <fi name="elInkaso">
+            <titl>Inkaso instruction</titl>
+            <desc>Definition of inkaso instruction from list of issued invoices and receivables with possibility of modification. Application supports the export of instructions to most Czech banking instituitions.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="elInkasoPol">
+            <titl>Inkaso item</titl>
+        </fi>
+        <fi name="elInkasoFak">
+            <titl>Selection of documents to be paid</titl>
+        </fi>
+        <fi name="externalId">
+            <titl>External identifiers</titl>
+        </fi>
+        <fi name="vykazCenPohyby">
+            <titl>Purchasing, sales and warehouse movements</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="vykazUcetniDenik">
+            <titl>Journal</titl>
+        </fi>
+        <fi name="vykazObratPolozkaView">
+            <titl>Turnover items</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazUcetniDenikZjednoduseny">
+            <titl>Accounting logbook - simplified</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazUcetniDenikWizard">
+            <titl>Journal</titl>
+            <icon>win/logs.png</icon>
+            <mnem>74</mnem>
+        </fi>
+        <fi name="vykazPohybyNaUctech">
+            <titl>Account movements</titl>
+        </fi>
+        <fi name="vykazPohybyNaUctechWizard">
+            <titl>Account movements</titl>
+            <icon>win/logs.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="vykazPoSplatnostiWizard">
+            <titl>Aging report</titl>
+            <icon>win/logs.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="vykazSaldo">
+            <titl>Control account balances</titl>
+        </fi>
+        <fi name="vykazSaldoKdatu">
+            <titl>Payment status as at</titl>
+        </fi>
+        <fi name="vykazSaldoKdatuWizard">
+            <titl>Calculation of payment balance as at</titl>
+        </fi>
+        <fi name="vykazSaldoWizard">
+            <titl>Control account balances</titl>
+            <icon>win/logs.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="vykazAnalyzaZakazky">
+            <titl>Order accounting analysis</titl>
+            <icon>win/logs.png</icon>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="vykazStavyUctu">
+            <titl>Account balances</titl>
+        </fi>
+        <fi name="vykazStavyUctuWizard">
+            <titl>Account balances</titl>
+            <icon>win/logs.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="vykazPodkladyDph">
+            <titl>Documents VAT</titl>
+        </fi>
+        <fi name="vykazPodkladyDphWizard">
+            <titl>Documents VAT</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="vykazPriznaniDph">
+            <titl>VAT return</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="vykazObratovaPredvaha">
+            <titl>Trial balance</titl>
+        </fi>
+        <fi name="vykazObratovaPredvahaWizard">
+            <titl>Trial balance</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="vykazHlavniKniha">
+            <titl>General ledger</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="uctovnaUzaverka">
+            <titl>Financial statements</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="priznaniDanPo">
+            <titl>Balance and Profit and Loss Statements in XML</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>0</mnem>
+        </fi>
+        <fi name="vykazRadekPriznaniDph">
+            <titl>VAT return saved rows</titl>
+            <icon>win/logs-low.png</icon>
+        </fi>
+        <fi name="ulozenePriznaniDph">
+            <titl>###Uložené přiznání DPH</titl>
+            <icon>win/logs-low.png</icon>
+        </fi>
+        <fi name="vykazRadekPriznaniOss">
+            <titl>Saved OSS return lines</titl>
+            <icon>win/logs-low.png</icon>
+        </fi>
+        <fi name="vykazRozvaha">
+            <titl>Czech balance sheet</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="vykazRozvahaPoUctech">
+            <titl>Assets and liabilities schedule</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="vykazVysledovka">
+            <titl>Czech statement of income</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="vykazVysledovkaPoUctech">
+            <titl>Expenses and gains schedule</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="vykazCashflow">
+            <titl>Cash flow overview</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="vykazVykazHospodareni">
+            <titl>Sales report by month</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="vykazPolozkyFaktur">
+            <titl>Sales analysis</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskOdberatele">
+            <titl>Sales analysis - Sales to companies</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskSkupinyFirem">
+            <titl>Sales analysis - Turnover company groups</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskSkupinyCen">
+            <titl>Analysis of sales - turnover of price groups</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskZbozi">
+            <titl>Sales analysis - Goods movements</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZboziOdberatele">
+            <titl>Sales analysis - Sales to companies by goods</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturOdberatelZbozi">
+            <titl>Sales analysis - Goods movements per company</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturVlastni">
+            <titl>Sales analysis - Custom</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturWizard">
+            <titl>Sales analysis</titl>
+            <desc>Sale analysis will help you to provide following information: Turnover and business margin (income) by customers / groups of cust. / sold goods / groups of goods / centres etc. (entry is in roller list "What do you want to analyse"). You can also enter another more detailed classification (entry is in next list "What will be next classification") again by selected attributes. Result can be for example analysis of sale to individual companies with detailed classification of which goods which company has taken. You analyse everything in given time range.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="analyzaNakupu">
+            <titl>Analysis of purchasing</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskOdberatele">
+            <titl>Analysis of purchasing - Purchases from companies</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskSkupinyFirem">
+            <titl>Analysis of purchasing - Purchases from groups of companies</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskSkupinyCen">
+            <titl>Analysis of purchasing - Purchases from price groups</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskZbozi">
+            <titl>Analysis of purchasing - Purchasing of goods</titl>
+        </fi>
+        <fi name="analyzaNakupuZboziOdberatele">
+            <titl>Analysis of purchasing - Purchasing from companies according to goods</titl>
+        </fi>
+        <fi name="analyzaNakupuOdberatelZbozi">
+            <titl>Analysis of purchasing - Purchasing of goods based on company</titl>
+        </fi>
+        <fi name="analyzaNakupuVlastni">
+            <titl>Analysis of purchasing - Custom</titl>
+        </fi>
+        <fi name="analyzaNakupuWizard">
+            <titl>Analysis of purchasing</titl>
+            <desc>Analysis of purchasing can provide you with the following information: Turnover by clients / groups of clients / sold goods / groups of goods / centres etc. (assignment is in drop-down list “What do you want to analyse?”) You can also enter additional more detailed categorization (entries in the next list “What will the further categorization be?”) again based on named attributes. The result could be, for example, analysis of purchasing from individual companies with detailed categorisation of which goods the company has supplied. You will analyse everything in the particular time range.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="vykazSouhrnneHlaseni">
+            <titl>EU VAT aggregate report</titl>
+        </fi>
+        <fi name="vykazSouhrnneHlaseniWizard">
+            <titl>EU VAT aggregate report</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="vykazPrenDph">
+            <titl>Evidence per §92a</titl>
+        </fi>
+        <fi name="vykazPrenDphWizard">
+            <titl>Evidence per §92a</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="vykazVazbyDokladu">
+            <titl>Established documents</titl>
+        </fi>
+        <fi name="vykazDanEvid">
+            <titl>Tax evidence report</titl>
+        </fi>
+        <fi name="vykazDanEvid_SK">
+            <titl>Simple accounting statement</titl>
+        </fi>
+        <fi name="vykazDanEvidWizard">
+            <titl>Tax evidence report</titl>
+            <icon>win/logs.png</icon>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="vykazDanEvidWizard_SK">
+            <titl>Simple accounting statement</titl>
+        </fi>
+        <fi name="intrastatWizard">
+            <titl>Generate Intrastat</titl>
+            <icon>win/logs.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="intrastatPol">
+            <titl>Items entering the Intrastat</titl>
+        </fi>
+        <fi name="intrastatRadka">
+            <titl>Intrastat lines</titl>
+        </fi>
+        <fi name="uUzaverka">
+            <titl>Period closing</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="banNonPaged">
+            <titl>Bank</titl>
+        </fi>
+        <fi name="pokNonPaged">
+            <titl>Cash desk</titl>
+        </fi>
+        <fi name="fapNonPaged">
+            <titl>Invoices in</titl>
+        </fi>
+        <fi name="favNonPaged">
+            <titl>Invoices out</titl>
+        </fi>
+        <fi name="nezVazbyDokl">
+            <titl>Document links</titl>
+        </fi>
+        <fi name="nezFifoVazby">
+            <titl>FIFO Links</titl>
+        </fi>
+        <fi name="nezVazbyPolSklad">
+            <titl>FIFO links of issue cards disintegartion</titl>
+        </fi>
+        <fi name="nezDPolSkladF">
+            <titl>View DPolSkladF</titl>
+        </fi>
+        <fi name="sklSarzeExpiracebezVC">
+            <titl>Batch and expiration</titl>
+        </fi>
+        <fi name="sklSarzeExpiracebezVCGrouped">
+            <titl>###Šarže a expirace (grupovaná)</titl>
+        </fi>
+        <fi name="doklFakBezModulu">
+            <titl>Receivables/liabilities</titl>
+        </fi>
+        <fi name="doklFakUhrady">
+            <titl>Receipts to be paid</titl>
+        </fi>
+        <fi name="doklIntBezModulu">
+            <titl>Bank / cash / internal document</titl>
+        </fi>
+        <fi name="typDoklBezModulu">
+            <titl>Document types</titl>
+        </fi>
+        <fi name="radaBezModulu">
+            <titl>Number series</titl>
+        </fi>
+        <fi name="cisVybKlice">
+            <titl>Tags</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="cisSkupVybKlic">
+            <titl>Tag groups</titl>
+            <mnem>0</mnem>
+        </fi>
+        <fi name="loginDialog000">
+            <titl>Log in to application</titl>
+        </fi>
+        <fi name="activationDialog">
+            <titl>Activate application</titl>
+        </fi>
+        <fi name="prvniSpusteni">
+            <titl>First launch of application</titl>
+        </fi>
+        <fi name="cServerDialog">
+            <titl>Data source administration</titl>
+        </fi>
+        <fi name="cServerDialogNovy">
+            <titl>Add data source</titl>
+        </fi>
+        <fi name="vyberFirmy">
+            <titl>Company selection</titl>
+        </fi>
+        <fi name="odpojeneFirmy">
+            <titl>Disconnected companies</titl>
+        </fi>
+        <fi name="migraceFirem">
+            <titl>Companies migration from XML files</titl>
+        </fi>
+        <fi name="importLicense">
+            <titl>Import license</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="licence">
+            <titl>Application license</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="startVerzeDialog">
+            <titl>ABRA Flexi</titl>
+        </fi>
+        <fi name="koupitLicenci">
+            <titl>ABRA Flexi</titl>
+        </fi>
+        <fi name="registrovatLicenci">
+            <titl>ABRA Flexi Start registration</titl>
+        </fi>
+        <fi name="aktivaceProduktu">
+            <titl>Guide for activation of ABRA Flexi application</titl>
+        </fi>
+        <fi name="nastrojePrepocet">
+            <titl>States of accounts recalculation</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="nastrojePrepocetDe">
+            <titl>States of tax record</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="nastrojeKontrolaDanOdpisu">
+            <titl>Audit of tax depreciation</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="mzdyKontrolaSlozek">
+            <titl>Check of wage components</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="priloha">
+            <titl>Attachment</titl>
+        </fi>
+        <fi name="prilohaData">
+            <titl>Attachment data</titl>
+        </fi>
+        <fi name="strom">
+            <titl>Tree</titl>
+        </fi>
+        <fi name="wUcel">
+            <titl>Purposes</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="majUcel">
+            <titl>Purposes</titl>
+        </fi>
+        <fi name="wPozadavek">
+            <titl>Requirements</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="wSubjekt">
+            <titl>Subject</titl>
+        </fi>
+        <fi name="wDefiniceUcelu">
+            <titl>Definition of purpose</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="wUcelLog">
+            <titl>List of purposes</titl>
+        </fi>
+        <fi name="uzel">
+            <titl>Tree node</titl>
+        </fi>
+        <fi name="vazUzel">
+            <titl>Node to object link</titl>
+        </fi>
+        <fi name="cisTexty">
+            <titl>Predefined texts</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="zamky">
+            <titl>Period locking</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="zurnal">
+            <titl>Journal</titl>
+        </fi>
+        <fi name="scanner">
+            <titl>Entering of amount of EAN codes</titl>
+        </fi>
+        <fi name="kusovnik">
+            <titl>Bill of materials</titl>
+        </fi>
+        <fi name="report">
+            <titl>User reports</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="reportData">
+            <titl>Data for user reports</titl>
+        </fi>
+        <fi name="autoTisk">
+            <titl>Automatic print</titl>
+        </fi>
+        <fi name="filtry">
+            <titl>User filters</titl>
+        </fi>
+        <fi name="parametry">
+            <titl>Advanced parametrization via parameters</titl>
+        </fi>
+        <fi name="customButton">
+            <titl>Custom button</titl>
+        </fi>
+        <fi name="settings">
+            <titl>Settings store</titl>
+        </fi>
+        <fi name="settingsAll">
+            <titl>Global settings repository</titl>
+        </fi>
+        <fi name="dokladView">
+            <titl>Overview of all documents</titl>
+        </fi>
+        <fi name="dashboardPanel">
+            <titl>Dashboard management</titl>
+            <icon>win/folder.png</icon>
+        </fi>
+        <fi name="dashboardSharing">
+            <titl>Dashboard sharing</titl>
+        </fi>
+        <fi name="insight">
+            <titl>Insight</titl>
+        </fi>
+        <fi name="pravaServeru">
+            <titl>Server permissions</titl>
+        </fi>
+        <fi name="dotaz">
+            <titl>User queries</titl>
+            <mnem>81</mnem>
+        </fi>
+        <fi name="dotazParam">
+            <titl>Parameters</titl>
+        </fi>
+        <fi name="typSazbyDph">
+            <titl>Type of VAT rate</titl>
+        </fi>
+        <fi name="dotazProp">
+            <titl>Properties</titl>
+        </fi>
+        <fi name="dotazView">
+            <titl>User query</titl>
+        </fi>
+        <fi name="xslt">
+            <titl>User transformation</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="sklUmisteni">
+            <titl>Location in warehouse</titl>
+            <icon>win/folder.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="cenyView">
+            <titl>Individual price list</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="cenyViewWizard">
+            <titl>Individual price list</titl>
+            <icon>win/folder.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="formaUhrCis">
+            <titl>Form of payment</titl>
+            <icon>win/folder.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="formaUhrZauc">
+            <titl>Posting forms of payment</titl>
+        </fi>
+        <fi name="formaDopravy">
+            <titl>Forms of transport</titl>
+            <mnem>0</mnem>
+        </fi>
+        <fi name="stavDoklObchCis">
+            <titl>Business document status</titl>
+            <icon>win/folder.png</icon>
+        </fi>
+        <fi name="cisloBal">
+            <titl>Package numbers</titl>
+        </fi>
+        <fi name="migraceS3">
+            <titl>Migration of agenda from Money S3</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="majStavKDatu">
+            <titl>Balance of assets by date</titl>
+        </fi>
+        <fi name="majStavKDatuWizard">
+            <titl>Balance of assets by date</titl>
+        </fi>
+        <fi name="cenPrislusenstvi">
+            <titl>Accessories</titl>
+        </fi>
+        <fi name="cenStav">
+            <titl>Price list itemization</titl>
+            <icon>win/folder.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="cenAtribut">
+            <titl>Attributes</titl>
+        </fi>
+        <fi name="cenTypAtributu">
+            <titl>Types of attributes</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="cenTypAtributuStandard">
+            <titl>Standard types of attributes</titl>
+        </fi>
+        <fi name="cenTypZbozi">
+            <titl>Attribute groups</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="cenTypZboziStandard">
+            <titl>Standard attribute groups</titl>
+        </fi>
+        <fi name="cenCisAtribut000">
+            <titl>Attribute code lists</titl>
+            <icon>win/logs.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="vazbaTyp">
+            <titl>Types of user links</titl>
+            <icon>win/folder.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="vazbaUziv">
+            <titl>User links</titl>
+        </fi>
+        <fi name="vazbaUzivView">
+            <titl>Named records</titl>
+        </fi>
+        <fi name="vykazEkokom">
+            <titl>Data of EKO-KOM packaging</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazEkokomWizard">
+            <titl>Data of EKO-KOM packaging</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazKonVykDphWizard">
+            <titl>VAT control report</titl>
+            <icon>win/logs.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="vykazKonVykDph">
+            <titl>VAT control report</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazMossWizard">
+            <titl>MOSS tax return</titl>
+            <icon>win/logs.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="vykazMoss">
+            <titl>MOSS tax return</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazOssWizard">
+            <titl>OSS tax return</titl>
+            <icon>win/logs.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="vykazOss">
+            <titl>OSS tax return</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="cisElBanFormaty">
+            <titl>Bank formats</titl>
+        </fi>
+        <fi name="eetKom">
+            <titl>EET communication</titl>
+        </fi>
+        <fi name="eetKomView">
+            <titl>EET communication</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="diskUsage">
+            <titl>Disk usage</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="wLocks">
+            <titl>Record locks</titl>
+        </fi>
+        <fi name="zarizeniKom">
+            <titl>Communication with ext. device</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="sablonaMail">
+            <titl>User email templates</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="banPokBsp">
+            <titl>Bank accounts and cash registers</titl>
+        </fi>
+        <fi name="zalohyKOdpoctu">
+            <titl>###Zálohy k odpočtu</titl>
+            <desc>###Seznam záloh, které je možné odpočítat od dané faktury. Pouze jako relace faktury.</desc>
+        </fi>
+        <fi name="castkyKOdpoctu">
+            <titl>###Částky k odpočtu</titl>
+            <desc>###Částky, které ještě zbývá ze zálohy odpočítat. Pouze jako relace faktury.</desc>
+        </fi>
+        <fi name="doporuceni">
+            <titl>###Doporučení</titl>
+            <desc>###Doporučení na úpravu faktury nebo zálohy, aby po odpočtu byla faktura uhrazená.</desc>
+        </fi>
+    </formsInfo>
+</config>

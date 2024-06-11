@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <beans>
+        <bean name="global">
+            <prop name="dic">
+                <titl>St.-ID nr.</titl>
+            </prop>
+            <prop name="vatId">
+                <titl>USt-IdNr.</titl>
+            </prop>
+        </bean>
+    </beans>
+</config>

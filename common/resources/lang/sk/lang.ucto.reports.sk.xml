@@ -1,0 +1,3388 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/sk/lang.ucto.reports.sk.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <reports>
+        <rpt name="global">
+            <prop name="boolean.ano">
+                <titl>Áno</titl>
+            </prop>
+            <prop name="boolean.ne">
+                <titl>Nie</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom:</titl>
+            </prop>
+            <prop name="celkemKc">
+                <titl>Celkom v %currency-symbol</titl>
+            </prop>
+            <prop name="celkemMena">
+                <titl>Celkom v mene</titl>
+            </prop>
+            <prop name="celkemNeucetni">
+                <titl>Celkom neúčtovný:</titl>
+            </prop>
+            <prop name="celkemPrijem">
+                <titl>Celkom príjem:</titl>
+            </prop>
+            <prop name="celkemUcetni">
+                <titl>Celkom účtovný:</titl>
+            </prop>
+            <prop name="celkemVydej">
+                <titl>Celkom výdaj:</titl>
+            </prop>
+            <prop name="cisloUctu">
+                <titl>SÚ</titl>
+            </prop>
+            <prop name="clenEU">
+                <titl>Člen EU</titl>
+            </prop>
+            <prop name="developerMode">
+                <titl>Neplatná tlač</titl>
+            </prop>
+            <prop name="dodaciList">
+                <titl>Dodací list</titl>
+            </prop>
+            <prop name="dodavatel">
+                <titl>Dodávateľ</titl>
+            </prop>
+            <prop name="dph">
+                <titl>DPH</titl>
+            </prop>
+            <prop name="eetBkp">
+                <titl>BKP</titl>
+            </prop>
+            <prop name="error">
+                <titl>CHYBA</titl>
+            </prop>
+            <prop name="juh">
+                <titl>Už uhradené</titl>
+            </prop>
+            <prop name="konSymbol">
+                <titl>Konšt. symbol</titl>
+            </prop>
+            <prop name="konverzniKurz">
+                <titl>konverzný kurz</titl>
+            </prop>
+            <prop name="kUhrade">
+                <titl>K úhrade</titl>
+            </prop>
+            <prop name="kUhradekDatu">
+                <titl>K úhrade k dátumu</titl>
+            </prop>
+            <prop name="kUhradeMen">
+                <titl>K úhrade [mena]</titl>
+            </prop>
+            <prop name="mena">
+                <titl>mena</titl>
+            </prop>
+            <prop name="merJed">
+                <titl>Merné jednotky</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Mesiac</titl>
+            </prop>
+            <prop name="mobil">
+                <titl>Mobil</titl>
+            </prop>
+            <prop name="nazFirmy">
+                <titl>Názov firmy</titl>
+            </prop>
+            <prop name="nevyplnen">
+                <titl>Nevyplnený</titl>
+            </prop>
+            <prop name="odberatel">
+                <titl>Odberateľ</titl>
+            </prop>
+            <prop name="PenUstav">
+                <titl>Peňažný ústav</titl>
+            </prop>
+            <prop name="prevzalDne">
+                <titl>Prevzal dňa</titl>
+            </prop>
+            <prop name="prodejkaNeplatce">
+                <titl>Zjednodušený doklad</titl>
+            </prop>
+            <prop name="prodejkaZaHotove">
+                <titl>Predajka za hotové</titl>
+            </prop>
+            <prop name="prodejkaZaHotoveDobropis">
+                <titl>Predajka za hotové - Dobropis</titl>
+            </prop>
+            <prop name="provozovna">
+                <titl>Prevádzka</titl>
+            </prop>
+            <prop name="razitko">
+                <titl>Pečiatka</titl>
+            </prop>
+            <prop name="reportVytiskl">
+                <titl>Vytlačil</titl>
+            </prop>
+            <prop name="rozdil">
+                <titl>Rozdiel</titl>
+            </prop>
+            <prop name="rozvaha">
+                <titl>Súvaha (Bilancia)</titl>
+            </prop>
+            <prop name="specSymbol">
+                <titl>Špecifický symbol</titl>
+            </prop>
+            <prop name="stornovano">
+                <titl>Stornované</titl>
+            </prop>
+            <prop name="stranka">
+                <titl>Strana</titl>
+            </prop>
+            <prop name="sumacePotlacena">
+                <titl> (bez sumácií)</titl>
+            </prop>
+            <prop name="sumCelkemMen">
+                <titl>Celkom [mena]</titl>
+            </prop>
+            <prop name="syntetickyUcet">
+                <titl>Syntetický účet</titl>
+            </prop>
+            <prop name="tisknutoDne">
+                <titl>vytlačené dňa</titl>
+            </prop>
+            <prop name="ucetniObdobiNeniUzavreno">
+                <titl>Účtovné obdobie nie je uzatvorené!</titl>
+            </prop>
+            <prop name="uhrazeneDoklady">
+                <titl>Uhradené doklady</titl>
+            </prop>
+            <prop name="varSymbol">
+                <titl>Variabilný symbol</titl>
+            </prop>
+            <prop name="vysledovka">
+                <titl>Výkaz ziskov a strát</titl>
+            </prop>
+            <prop name="vytistenoSystemem">
+                <titl>Vytlačené systémom %p</titl>
+            </prop>
+            <prop name="ZbyvaUhradit">
+                <titl>Zostáva k úhrade</titl>
+            </prop>
+        </rpt>
+        <rpt name="adresar">
+            <prop name="_title">
+                <titl>Adresár</titl>
+            </prop>
+            <prop name="nastaveniSidlo">
+                <titl>Adresa sídla</titl>
+            </prop>
+        </rpt>
+        <rpt name="adrUdalosti">
+            <prop name="_title">
+                <titl>Udalosti</titl>
+            </prop>
+        </rpt>
+        <rpt name="analyzaZakazky">
+            <prop name="_title">
+                <titl>Účtovná analýza zákazky</titl>
+            </prop>
+            <prop name="sumaZaUcet">
+                <titl>Suma za účet</titl>
+            </prop>
+            <prop name="sumaZaZakazku">
+                <titl>Suma za zákazku</titl>
+            </prop>
+            <prop name="zisk">
+                <titl>Zisk</titl>
+            </prop>
+        </rpt>
+        <rpt name="analyzaZakazkyRozsirena">
+            <prop name="_title">
+                <titl>Zmluvná karta</titl>
+            </prop>
+            <prop name="celkovaBilanceZakazky">
+                <titl>Celková bilancia zákazky</titl>
+            </prop>
+            <prop name="cisDokl">
+                <titl>Doklad</titl>
+            </prop>
+            <prop name="naklad">
+                <titl>Náklady</titl>
+            </prop>
+            <prop name="polozkyFaktur">
+                <titl>Položky faktúry</titl>
+            </prop>
+            <prop name="polozkyPokladny">
+                <titl>Položky pokladničných dokladov</titl>
+            </prop>
+            <prop name="polozkySkladu">
+                <titl>Položky skladových dokladov</titl>
+            </prop>
+            <prop name="rozdil">
+                <titl>Bilancia</titl>
+            </prop>
+            <prop name="ucetniAnalyzaZakazky">
+                <titl>Účtovná analýza zmluvy</titl>
+            </prop>
+            <prop name="vynos">
+                <titl>Výnosy</titl>
+            </prop>
+        </rpt>
+        <rpt name="analyzaZakazkyRozsirena$$NES">
+            <prop name="_title">
+                <titl>Analýza zákazky</titl>
+            </prop>
+        </rpt>
+        <rpt name="balikNaPostu">
+            <prop name="_title">
+                <titl>Balík na poštu/Balík do ruky</titl>
+            </prop>
+        </rpt>
+        <rpt name="balikovyPodaciArch">
+            <prop name="_title">
+                <titl>Poštový podací arch na balíky</titl>
+            </prop>
+        </rpt>
+        <rpt name="Bsp$$BAN">
+            <prop name="_title">
+                <titl>Zoznam bankových účtov</titl>
+            </prop>
+        </rpt>
+        <rpt name="Bsp$$POK">
+            <prop name="_title">
+                <titl>Zoznam pokladní</titl>
+            </prop>
+        </rpt>
+        <rpt name="Bsp$$SKL">
+            <prop name="_title">
+                <titl>Zoznam skladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="cashFlow">
+            <prop name="_title">
+                <titl>Prehľad peňažných tokov</titl>
+            </prop>
+            <prop name="cashFlow">
+                <titl>Prehľad peňažných tokov</titl>
+            </prop>
+        </rpt>
+        <rpt name="cashFlow$$MIN_OBDOBI">
+            <prop name="_title">
+                <titl>Výkaz peňažných tokov (vrátane historických údajov)</titl>
+            </prop>
+            <prop name="cashFlow">
+                <titl>Prehľad peňažných tokov</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenHladPrehled">
+            <prop name="_title">
+                <titl>Prehľad cenových úrovní</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenik">
+            <prop name="_title">
+                <titl>Cenník s nákupnými cenami</titl>
+            </prop>
+            <prop name="cenaBezDph">
+                <titl>Cena bez DPH</titl>
+            </prop>
+            <prop name="cenaSDph">
+                <titl>Cena s DPH</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikBezNakupni">
+            <prop name="_title">
+                <titl>Cenník bez nákupných cien</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikIndividualniVystupni">
+            <prop name="_title">
+                <titl>Predajný cenník</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikIndividualniVystupniMnoz">
+            <prop name="_title">
+                <titl>Predejný cenník (množstevné zľavy, bez DPH)</titl>
+            </prop>
+            <prop name="od">
+                <titl>od</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikIndividualniVystupniMnozDph">
+            <prop name="_title">
+                <titl>Predejný cenník (množstevné zľavy, s DPH)</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikNakupProdej">
+            <prop name="_title">
+                <titl>Cenník s nákupnými a predajnými cenami</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikVystupni">
+            <prop name="_title">
+                <titl>Predajný cenník</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikVystupniSPoplatky">
+            <prop name="_title">
+                <titl>Predajný cenník (s poplatkami)</titl>
+            </prop>
+            <prop name="cenaVcetnePoplatku">
+                <titl>Cena vrátane poplatkov:</titl>
+            </prop>
+            <prop name="poplatky">
+                <titl>Poplatky:</titl>
+            </prop>
+        </rpt>
+        <rpt name="chart-landscape">
+            <prop name="_title">
+                <titl>-</titl>
+            </prop>
+        </rpt>
+        <rpt name="cisClenDph">
+            <prop name="_title">
+                <titl>Riadok DPH</titl>
+            </prop>
+        </rpt>
+        <rpt name="danovaEvidence">
+            <prop name="_title">
+                <titl>Výkaz daňovej evidencie</titl>
+            </prop>
+            <prop name="danEvid.NeDa">
+                <titl>Nespadá do daňovej evidencie</titl>
+            </prop>
+            <prop name="danEvid.SocP">
+                <titl>Platba sociálneho poistenia</titl>
+            </prop>
+            <prop name="danEvid.Zdra">
+                <titl>Platba zdravotného poistenia</titl>
+            </prop>
+            <prop name="nevyplneno">
+                <titl>Nevyplnené</titl>
+            </prop>
+            <prop name="nevyplnenTypUcOp">
+                <titl>Nevyplnený predpis zaúčtovania</titl>
+            </prop>
+            <prop name="rozdilPrijemVydej">
+                <titl>Rozdiel príjmov a výdajov:</titl>
+            </prop>
+        </rpt>
+        <rpt name="dodaciList">
+            <prop name="_title">
+                <titl>Dodací list</titl>
+            </prop>
+            <prop name="hmotnost">
+                <titl>Hmotnosť [kg]</titl>
+            </prop>
+            <prop name="kFAVtypPohybu.prijem">
+                <titl>k vydanej faktúre</titl>
+            </prop>
+            <prop name="kPOKtypPohybu.prijem">
+                <titl>k príjmovému pokladničnému dokladu</titl>
+            </prop>
+            <prop name="kPOKtypPohybu.vydej">
+                <titl>k výdavkovému pokladničnému dokladu</titl>
+            </prop>
+            <prop name="kSKLtypPohybu.prijem">
+                <titl>k príjemke</titl>
+            </prop>
+            <prop name="kSKLtypPohybu.vydej">
+                <titl>k výdajke</titl>
+            </prop>
+            <prop name="prevzatoDne">
+                <titl>Prevzaté dňa</titl>
+            </prop>
+        </rpt>
+        <rpt name="dodaciList$$SUM_CEN">
+            <prop name="_title">
+                <titl>Dodací list s predajnými cenami</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady">
+            <prop name="_title">
+                <titl>Prehľad dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady$$FAV">
+            <prop name="_title">
+                <titl>Zoznam vydaných faktúr</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady$$PHL">
+            <prop name="_title">
+                <titl>Zoznam ostatných pohľadávok</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady$$ZAV">
+            <prop name="_title">
+                <titl>Zoznam ostatných záväzkov</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyAdresar$$FAV">
+            <prop name="_title">
+                <titl>Zoznam vydaných faktúr (sumácia podľa firmy)</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyAdresarFAP$$FAP">
+            <prop name="_title">
+                <titl>Zoznam prijatých faktúr (sumácia podľa firmy)</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyBanPok$$BAN">
+            <prop name="_title">
+                <titl>Zoznam bankových dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyBanPok$$POK">
+            <prop name="_title">
+                <titl>Zoznam pokladničných dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyFAP$$FAP">
+            <prop name="_title">
+                <titl>Zoznam prijatých faktúr (na šírku)</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyINT$$INT">
+            <prop name="_title">
+                <titl>Zoznam interných dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod">
+            <prop name="zbyvaRealizovat">
+                <titl>Zostáva realizovať</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$NAP">
+            <prop name="_title">
+                <titl>Prehľad prijatých ponúk</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$NAV">
+            <prop name="_title">
+                <titl>Prehľad vydaných ponúk</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$OBP">
+            <prop name="_title">
+                <titl>Prehľad prijatých objednávok</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$OBV">
+            <prop name="_title">
+                <titl>Prehľad vydaných objednávok</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$PPP">
+            <prop name="_title">
+                <titl>Prehľad prijatých dopytov</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$PPV">
+            <prop name="_title">
+                <titl>Prehľad vydaných dopytov</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph">
+            <prop name="_title">
+                <titl>ZOznam dokladov s rekapituláciou DPH</titl>
+            </prop>
+            <prop name="celkemNeucetniPrijem">
+                <titl>Celkom neúčtovný príjem:</titl>
+            </prop>
+            <prop name="celkemNeucetniVydej">
+                <titl>Celkom neúčtovný výdaj:</titl>
+            </prop>
+            <prop name="celkemUcetniPrijem">
+                <titl>Celkom účtovný príjem:</titl>
+            </prop>
+            <prop name="celkemUcetniVydej">
+                <titl>Celkom účtovný výdaj:</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Vystavené</titl>
+            </prop>
+            <prop name="duzpUcto">
+                <titl>DUZP</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Číslo dokladu</titl>
+            </prop>
+            <prop name="snizena">
+                <titl>Znížená</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Celkom [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>Dph [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumOsv">
+                <titl>Oslobodené [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Základ [%currency-symbol]</titl>
+            </prop>
+            <prop name="ucetni">
+                <titl>Účtovný</titl>
+            </prop>
+            <prop name="zakladni">
+                <titl>Základný</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$BAN">
+            <prop name="_title">
+                <titl>Zoznam bankových dokladov (s rekapituláciou DPH)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$FAP">
+            <prop name="_title">
+                <titl>Zoznam prijatých faktúr (s rekapituláciou DPH)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$FAV">
+            <prop name="_title">
+                <titl>Zoznam vydaných faktúr (s rekapituláciou DPH)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$INT">
+            <prop name="_title">
+                <titl>Zoznam interných dokladov (s rekapituláciou DPH)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$PHL">
+            <prop name="_title">
+                <titl>Zoznam ostatných pohľadávok (s rekapituláciou DPH)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$POK">
+            <prop name="_title">
+                <titl>Zoznam pokladničných dokladov (s rekapituláciou DPH)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$ZAV">
+            <prop name="_title">
+                <titl>Zoznam ostatýích záväzkov (s rekapituláciou DPH)</titl>
+            </prop>
+        </rpt>
+        <rpt name="doklSklad">
+            <prop name="_title">
+                <titl>Zoznam skladových dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="eetOznameni">
+            <prop name="duleziteOznameni">
+                <titl>Informačné oznámenia</titl>
+            </prop>
+            <prop name="textBezny">
+                <titl>Podľa zákona o evidencii tržieb je predávajúci povinný vydať kupujúcemu účtenku.\nPredávajúci je zároveň povinný zaevidovať prijatú tržbu\nonline u správcu dane; v prípade technickej poruchy najneskôr do 48 hodín.</titl>
+            </prop>
+            <prop name="textZjednoduseny">
+                <titl>Podľa zákona o evidencii tržieb je predávajúci povinný vydať kupujúcemu účtenku.\nPrijímateľ tržby eviduje tržby v zjednodušenom režime, t. j. je povinný zaevidovať prijatú tržbu u správcu dane najneskôr do 5 dní.</titl>
+            </prop>
+        </rpt>
+        <rpt name="eetOznameni$$NES">
+            <prop name="_title">
+                <titl>Informačné oznámenie o EET - zjednodušený systém</titl>
+            </prop>
+        </rpt>
+        <rpt name="eetOznameni$$SUM">
+            <prop name="_title">
+                <titl>Informačné oznámenia EET - normálny režim</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$FAP">
+            <prop name="_title">
+                <titl>Prehľad položiek prijatých faktúr</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$FAV">
+            <prop name="_title">
+                <titl>Prehľad položiek vydaných faktúr</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$NAP">
+            <prop name="_title">
+                <titl>Prehľad položiek prijatých ponúk</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$NAV">
+            <prop name="_title">
+                <titl>Prehľad položiek vydaných ponúk</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$OBP">
+            <prop name="_title">
+                <titl>Prehľad položiek prijatých objednávok</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$OBV">
+            <prop name="_title">
+                <titl>Prehľad položiek vydaných objednávok</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$POK">
+            <prop name="_title">
+                <titl>Prehľad položiek pokladničných dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$PPP">
+            <prop name="_title">
+                <titl>Prehľad položiek prijatých dopytov</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$PPV">
+            <prop name="_title">
+                <titl>Prehľad položiek vydaných dopytov</titl>
+            </prop>
+        </rpt>
+        <rpt name="Fakt_PRI">
+            <prop name="konSymbol">
+                <titl>Konštantný</titl>
+            </prop>
+            <prop name="specSymbol">
+                <titl>Špecifický</titl>
+            </prop>
+            <prop name="SymbolPlateb">
+                <titl>Symbol platieb</titl>
+            </prop>
+            <prop name="varSymPrikaz">
+                <titl>Variabilný</titl>
+            </prop>
+        </rpt>
+        <rpt name="Fakt_VYD">
+            <prop name="datSmir">
+                <titl>dátum zmieru</titl>
+            </prop>
+            <prop name="datUp1">
+                <titl>Dátum 1. upomienky</titl>
+            </prop>
+            <prop name="datUp2">
+                <titl>2. upomienky</titl>
+            </prop>
+            <prop name="stav">
+                <titl>Stav dokladu</titl>
+            </prop>
+        </rpt>
+        <rpt name="faktura">
+            <prop name="banka">
+                <titl>Banka</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="celkemBezZaloh">
+                <titl>Celkom bez záloh</titl>
+            </prop>
+            <prop name="celkemDph">
+                <titl>Celkom DPH</titl>
+            </prop>
+            <prop name="celkemFakturovano">
+                <titl>Celkom fakturované</titl>
+            </prop>
+            <prop name="celkemKUhrade">
+                <titl>Celkom k úhrade</titl>
+            </prop>
+            <prop name="celkemPredSlevou">
+                <titl>Celkom pred zľavou</titl>
+            </prop>
+            <prop name="celkemZaklad">
+                <titl>Celkom základ</titl>
+            </prop>
+            <prop name="danOdvadiPrijemce">
+                <titl>Prenesenie daňovej povinnosti.</titl>
+            </prop>
+            <prop name="danPriPrijetiPlatby">
+                <titl>Daň sa uplatňuje na základe prijatia platby.</titl>
+            </prop>
+            <prop name="datumZdanitelnehoPlneni">
+                <titl>Dátum daňovej povinnosti</titl>
+            </prop>
+            <prop name="datumZdanitelnehoPlneniOsobUpravaDph">
+                <titl>Dátum dodania</titl>
+            </prop>
+            <prop name="dodavatel-sidlo">
+                <titl>Dodávateľ - sídlo</titl>
+            </prop>
+            <prop name="doprava">
+                <titl>Spôsob dopravy</titl>
+            </prop>
+            <prop name="dph19">
+                <titl>DPH 19%</titl>
+            </prop>
+            <prop name="dph9">
+                <titl>DPH 10%</titl>
+            </prop>
+            <prop name="dphCelkem">
+                <titl>DPH celkom</titl>
+            </prop>
+            <prop name="formaDopravy">
+                <titl>Forma dopravy</titl>
+            </prop>
+            <prop name="jizUhrazeno">
+                <titl>Už uhradené</titl>
+            </prop>
+            <prop name="mistoUrceni">
+                <titl>Miesto určenia/prevádzka</titl>
+            </prop>
+            <prop name="nejsemPlatceDph">
+                <titl>Nie som platcom DPH</titl>
+            </prop>
+            <prop name="objednavka">
+                <titl>Objednávka</titl>
+            </prop>
+            <prop name="odberatel-sidlo">
+                <titl>Odberateľ - sídlo</titl>
+            </prop>
+            <prop name="oznaceniDodavky">
+                <titl>Označenie dodávky</titl>
+            </prop>
+            <prop name="postovniAdresa">
+                <titl>Poštová adresa</titl>
+            </prop>
+            <prop name="predSlevou">
+                <titl>Pred zľavou</titl>
+            </prop>
+            <prop name="preplatky">
+                <titl>Preplatky</titl>
+            </prop>
+            <prop name="puvodniDoklad">
+                <titl>Pôvodný doklad č.</titl>
+            </prop>
+            <prop name="razitkoAPodpis">
+                <titl>Pečiatka a podpis</titl>
+            </prop>
+            <prop name="registraceU">
+                <titl>Registrácia</titl>
+            </prop>
+            <prop name="rekapitulaceDph">
+                <titl>Rekapitulácia DPH v %currency-symbol</titl>
+            </prop>
+            <prop name="rekapitulaceDphV">
+                <titl>Rekapitulácia DPH v</titl>
+            </prop>
+            <prop name="sazbaDph">
+                <titl>Sadzba DPH</titl>
+            </prop>
+            <prop name="za">
+                <titl>za</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Základ</titl>
+            </prop>
+            <prop name="zaklad0">
+                <titl>Základ 0%</titl>
+            </prop>
+            <prop name="zaklad19">
+                <titl>Základ 19%</titl>
+            </prop>
+            <prop name="zaklad9">
+                <titl>Základ 10%</titl>
+            </prop>
+            <prop name="zakladCelkem">
+                <titl>Základ celkom</titl>
+            </prop>
+            <prop name="zakladOdpocet">
+                <titl>Zál. daň. dok. základ</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Zostáva uhradiť</titl>
+            </prop>
+            <prop name="zeDne">
+                <titl>Dátum vystavenia pôvodného dokladu</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig">
+            <prop name="banka">
+                <titl>Banka</titl>
+            </prop>
+            <prop name="bic">
+                <titl>SWIFT:</titl>
+            </prop>
+            <prop name="celkemPredSlevou">
+                <titl>Celkom pred zľavou</titl>
+            </prop>
+            <prop name="cenaMj">
+                <titl>Cena za MJ</titl>
+            </prop>
+            <prop name="cenaSDph">
+                <titl>Cena s DPH</titl>
+            </prop>
+            <prop name="cenaVMene">
+                <titl>Cena v %p</titl>
+            </prop>
+            <prop name="cisloBanUctu">
+                <titl>Číslo bankového účtu</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Dátum splatnosti</titl>
+            </prop>
+            <prop name="datSplatDatTermin">
+                <titl>Dátum splatnosti</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Dátum vydania</titl>
+            </prop>
+            <prop name="dic">
+                <titl>DIČ</titl>
+            </prop>
+            <prop name="dobropisovanyDokladCislo">
+                <titl>Pôvodný doklad</titl>
+            </prop>
+            <prop name="dobropisovanyDokladDatum">
+                <titl>Dátum vystavenia pôvodného dokladu</titl>
+            </prop>
+            <prop name="dodavatel">
+                <titl>DODÁVATEĽ</titl>
+            </prop>
+            <prop name="duzpPuv">
+                <titl>Dátum zdaniteľného plnenia</titl>
+            </prop>
+            <prop name="formaUhrady">
+                <titl>Forma platby</titl>
+            </prop>
+            <prop name="iban">
+                <titl>IBAN:</titl>
+            </prop>
+            <prop name="ic">
+                <titl>ID</titl>
+            </prop>
+            <prop name="icdph">
+                <titl>IČ DPH</titl>
+            </prop>
+            <prop name="kurzKurzMnozstvi">
+                <titl>Sadzba %p %p pre %p %p</titl>
+            </prop>
+            <prop name="mj">
+                <titl>MJ</titl>
+            </prop>
+            <prop name="mnozMj">
+                <titl>Množstvo</titl>
+            </prop>
+            <prop name="neplatceDph">
+                <titl>Nie je platcom DPH</titl>
+            </prop>
+            <prop name="odberatel">
+                <titl>ODBERATEĽ</titl>
+            </prop>
+            <prop name="polozka">
+                <titl>Položka</titl>
+            </prop>
+            <prop name="predSlevou">
+                <titl>Pred zľavou</titl>
+            </prop>
+            <prop name="razitkoAPodpis">
+                <titl>Pečiatka a podpis</titl>
+            </prop>
+            <prop name="rekapitulaceDphVMene">
+                <titl>Rekapitulácia DPH v %p</titl>
+            </prop>
+            <prop name="slevaDokl">
+                <titl>Zľava dokladu</titl>
+            </prop>
+            <prop name="stornovano">
+                <titl>Stornované</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Spolu [%p]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Základ [%p]</titl>
+            </prop>
+            <prop name="uhrazeno">
+                <titl>UŽ JE UHRADENÉ!</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Variabilný symbol</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Základ</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig$$FAV">
+            <prop name="_attachment">
+                <titl>Faktúra</titl>
+                <desc>Názov prílohy</desc>
+            </prop>
+            <prop name="_title">
+                <titl>Konfigurovateľná faktúra</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig$$NAV">
+            <prop name="_attachment">
+                <titl>Ponuka</titl>
+                <desc>Názov prílohy</desc>
+            </prop>
+            <prop name="_title">
+                <titl>Konfigurovateľná ponuka</titl>
+            </prop>
+            <prop name="datSplatDatTermin">
+                <titl>Termín</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig$$OBP">
+            <prop name="_attachment">
+                <titl>Objednávka</titl>
+                <desc>Názov prílohy</desc>
+            </prop>
+            <prop name="_title">
+                <titl>Konfigurovateľná objednávka</titl>
+            </prop>
+            <prop name="datSplatDatTermin">
+                <titl>Termín</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaKB">
+            <prop name="_title">
+                <titl>Faktúra</titl>
+            </prop>
+            <prop name="bspBan">
+                <titl>Bankový účet</titl>
+            </prop>
+            <prop name="konSym">
+                <titl>Konšt. sym.</titl>
+            </prop>
+            <prop name="specSym">
+                <titl>Špec. sym.</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Var. sym.</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaKB$$R_DPH_V_MENE">
+            <prop name="_title">
+                <titl>Faktúra (rekapitulácia DPH v mene dokladu)</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaKB$$SUM_BEZ_QR">
+            <prop name="_title">
+                <titl>Faktúra (bez QR kódu)</titl>
+            </prop>
+        </rpt>
+        <rpt name="geisPredavaciProtokol">
+            <prop name="_title">
+                <titl>Geis Odovzdávací protokol</titl>
+            </prop>
+            <prop name="adresat">
+                <titl>Adresa</titl>
+            </prop>
+            <prop name="balikCislo">
+                <titl>Číslo balíka</titl>
+            </prop>
+            <prop name="celkemBaliku">
+                <titl>Celkom balíkov</titl>
+            </prop>
+            <prop name="celkemCod">
+                <titl>Celkom COD</titl>
+            </prop>
+            <prop name="cod">
+                <titl>Dob. (COD)</titl>
+            </prop>
+            <prop name="datum">
+                <titl>Dátum</titl>
+            </prop>
+            <prop name="exw">
+                <titl>EXW</titl>
+            </prop>
+            <prop name="geisNazev">
+                <titl>GEIS Parcel CZ s.r.o</titl>
+            </prop>
+            <prop name="paticka1">
+                <titl>Prepravy sa uskutočňujú podľa Všeobecných obchodných podmienok, aktuálný stav GEIS PARCEL CZ, spol. s r. o., IČO: 46489592.</titl>
+            </prop>
+            <prop name="paticka2">
+                <titl>Spoločnosť je zapísaná v obchodnom registri Okresného súdu Banská Bystrica, vložka číslo 21503/S.</titl>
+            </prop>
+            <prop name="podpisOdesilatele">
+                <titl>Podpis odosielateľa</titl>
+            </prop>
+            <prop name="podpisRidice">
+                <titl>Podpis vodiča</titl>
+            </prop>
+            <prop name="potvrzeniOPrevzeti">
+                <titl>Potvrzenie o prevzatí zásielok na prepravu</titl>
+            </prop>
+            <prop name="poz">
+                <titl>Položka.</titl>
+            </prop>
+            <prop name="poznam">
+                <titl>Poznámka</titl>
+            </prop>
+            <prop name="prikazce">
+                <titl>Príkazca (odosielateľ)</titl>
+            </prop>
+            <prop name="pripojisteni">
+                <titl>Poistenie</titl>
+            </prop>
+            <prop name="strana">
+                <titl>Strana</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Var. symbol</titl>
+            </prop>
+            <prop name="zasilkyBezPoskozeni">
+                <titl>Vyššie uvedené zásielky boli prevzaté bez poškodenia.</titl>
+            </prop>
+        </rpt>
+        <rpt name="geisstitek">
+            <prop name="_title">
+                <titl>Geis Etiketa (list A4)</titl>
+            </prop>
+            <prop name="geisNazev">
+                <titl>Geis Parcel CZ, s.r.o.</titl>
+            </prop>
+            <prop name="odesilatel">
+                <titl>Odosielateľ</titl>
+            </prop>
+            <prop name="prijemce">
+                <titl>Príjemca</titl>
+            </prop>
+            <prop name="tel">
+                <titl>Tel.</titl>
+            </prop>
+            <prop name="vs">
+                <titl>VS</titl>
+            </prop>
+        </rpt>
+        <rpt name="Hl_Kniha">
+            <prop name="_title">
+                <titl>Hlavná kniha</titl>
+            </prop>
+            <prop name="doklad">
+                <titl>Interné číslo</titl>
+            </prop>
+            <prop name="duzpUcto">
+                <titl>Upl.zd.pl.</titl>
+            </prop>
+            <prop name="obratDAL">
+                <titl>Obrat DAL</titl>
+            </prop>
+            <prop name="obratMD">
+                <titl>Obrat MD</titl>
+            </prop>
+            <prop name="sledovaneObdobi">
+                <titl>Sledované obdobie</titl>
+            </prop>
+            <prop name="sumDal">
+                <titl>Čiastka DAL</titl>
+            </prop>
+            <prop name="sumMd">
+                <titl>Čiastka MD</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Var.sym.</titl>
+            </prop>
+            <prop name="zacatek">
+                <titl>Začiatok</titl>
+            </prop>
+            <prop name="zuctovano">
+                <titl>Umiestnenie.</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol">
+            <prop name="doklad">
+                <titl>Doklad</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$BAN$$SUM_BAN">
+            <prop name="_title">
+                <titl>Prehľad položiek bankových dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$BAN$$SUM_ZAP">
+            <prop name="_title">
+                <titl>Prehľad položiek zápočtov</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$INT">
+            <prop name="_title">
+                <titl>Prehľad položiek interných dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$PHL">
+            <prop name="_title">
+                <titl>Prehľad položiek ostatných pohľadávok</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$ZAV">
+            <prop name="_title">
+                <titl>Prehľad položiek ostatných záväzkov</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventarizacePohledavek">
+            <prop name="_title">
+                <titl>Inventarizácia pohľadávok a záväzkov</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Splatnosť</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Vystavené</titl>
+            </prop>
+            <prop name="dekujeme">
+                <titl>Ďakujeme za spoluprácu a zostávame s pozdravom</titl>
+            </prop>
+            <prop name="dokladyVMenePhl">
+                <titl>Jednotlivé doklady pohľadávok v mene</titl>
+            </prop>
+            <prop name="dokladyVMeneZav">
+                <titl>Jednotlivé doklady záväzkov v mene</titl>
+            </prop>
+            <prop name="dokladyVTuzPhl">
+                <titl>Jednotlivé doklady pohľadávok v %currency-symbol</titl>
+            </prop>
+            <prop name="dokladyVTuzZav">
+                <titl>Jednotlivé doklady záväzkov v %currency-symbol</titl>
+            </prop>
+            <prop name="firma">
+                <titl>Firma:</titl>
+            </prop>
+            <prop name="inventurizace">
+                <titl>Inventarizácia pohľadávok a záväzkov k dátumu</titl>
+            </prop>
+            <prop name="juhSum">
+                <titl>Už uhradené</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Int.č.dokl.</titl>
+            </prop>
+            <prop name="pokudPhl">
+                <titl>V prípade, že nedostaneme potvrdený doklad, alebo vaše vyjadrenie ku stavu pohľadávok do %p, považujeme pohľadávky za odsúhlasené a uznané.</titl>
+            </prop>
+            <prop name="pokudZav">
+                <titl>V prípade, že nedostaneme potvrdený doklad, alebo vaše vyjadrenie ku stavu záväzkov do %p, považujeme záväzkov za odsúhlasené a uznané.</titl>
+            </prop>
+            <prop name="potvrzeny">
+                <titl>Potvrdené tlačivo s event. vyčíslenými rozdielmi zašlite obratom na našu adresu alebo e-mailom na adresu </titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Var.symbol</titl>
+            </prop>
+            <prop name="vDne">
+                <titl>V %p dňa %p</titl>
+            </prop>
+            <prop name="zadamePhl">
+                <titl>Žiadame vás o porovnanie nami vykazovaného stavu s vašou evidenciou. U rozdielnych pohľadávok uveďte prosím vami evidovanú hodnotu, poprípade doložte príslušné doklady vzťahujúce sa k rozdielu.</titl>
+            </prop>
+            <prop name="zadameZav">
+                <titl>Žiadame vás o porovnanie nami vykazovaného stavu s vašou evidenciou. U rozdielnych záväzkov uveďte prosím vami evidovanú hodnotu, poprípade doložte príslušné doklady vzťahujúce sa k rozdielu.</titl>
+            </prop>
+            <prop name="zakonPhl">
+                <titl>V zmysle zákona č. 431/2002 Z. z. o účtovníctve, v znení neskorších predpisov, Vás žiadame o odsúhlasenie pohľadávok našej spoločnosti v stave k dátumu</titl>
+            </prop>
+            <prop name="zakonSkPhl">
+                <titl>V zmysle zákona č. 431/2002 Z. z. o účtovníctve, v znení neskorších predpisov, Vás žiadame o odsúhlasenie pohľadávok našej spoločnosti v stave k dátumu</titl>
+            </prop>
+            <prop name="zakonSkZav">
+                <titl>V zmysle zákona č. 431/2002 Z. z. o účtovníctve, v znení neskorších predpisov, Vás žiadame o odsúhlasenie záväzkov našej spoločnosti v stave k dátumu</titl>
+            </prop>
+            <prop name="zakonZav">
+                <titl>V zmysle zákona č. 431/2002 Z. z. o účtovníctve, v znení neskorších predpisov, Vás žiadame o odsúhlasenie záväzkov našej spoločnosti v stave k dátumu</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Zostáva uhradiť</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventura">
+            <prop name="_title">
+                <titl>Inventúrny súpis tovarov</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventura$$SUM_ROZDILY">
+            <prop name="_title">
+                <titl>Inventúrny súpis tovarov (rozdiely)</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventuraUctu">
+            <prop name="_title">
+                <titl>Inventúra účtov</titl>
+            </prop>
+            <prop name="datum">
+                <titl>Dátum</titl>
+            </prop>
+            <prop name="podpisInventarizacniKomise">
+                <titl>Podpis inventurizačnej komisie</titl>
+            </prop>
+        </rpt>
+        <rpt name="kartaZakazky">
+            <prop name="_title">
+                <titl>Karta zákazky</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk">
+            <prop name="nedoplatek">
+                <titl>Nedoplatok [%currency-symbol]</titl>
+            </prop>
+            <prop name="nedoplatekMen">
+                <titl>Nedoplatok [Mena]</titl>
+            </prop>
+            <prop name="sumaCastka">
+                <titl>Suma čiastka:</titl>
+            </prop>
+            <prop name="sumaNedoplatek">
+                <titl>Suma nedoplatok:</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAP">
+            <prop name="_title">
+                <titl>Zoznam prijatých faktúr (saldo)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAP$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Zoznam prijatých faktúr (zostatok podľa objednávky používateľa)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAV">
+            <prop name="_title">
+                <titl>Zoznam vydaných faktúr (saldo)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAV$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Zoznam vystavených faktúr (zostatok, podľa objednávky používateľa)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$PHL">
+            <prop name="_title">
+                <titl>Zoznam ostatných pohľadávok (saldo)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$PHL$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Zoznam ostatných pohľadávok (zostatok, podľa poradia používateľov)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$vykazSaldoKdatu">
+            <prop name="_title">
+                <titl>Stav úhrad k dátumu</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$vykazSaldoKdatu$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Stav doterajších platieb (podľa príkazu používateľa)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$ZAV">
+            <prop name="_title">
+                <titl>Zoznam ostatných záväzkov (saldo)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$ZAV$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Zoznam ostatných záväzkov (zostatok, podľa poradia používateľov)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$FAP">
+            <prop name="_title">
+                <titl>Zoznam prijatých faktúr (saldo v mene)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$FAV">
+            <prop name="_title">
+                <titl>Zoznam vydaných faktúr (saldo v mene)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$PHL">
+            <prop name="_title">
+                <titl>Zoznam ostatných pohľadávok (saldo v mene)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$vykazSaldoKdatu">
+            <prop name="_title">
+                <titl>Stav úhrad k dátumu v mene</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$ZAV">
+            <prop name="_title">
+                <titl>Zoznam ostatných záväzkov (saldo v mene)</titl>
+            </prop>
+        </rpt>
+        <rpt name="konSym">
+            <prop name="_title">
+                <titl>Konštantný symbol</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontakty">
+            <prop name="_title">
+                <titl>Kontakty</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehled">
+            <prop name="_title">
+                <titl>Kontrolný výkaz DPH (slovenský prehľad)</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Poradové číslo faktúry</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehledCZ">
+            <prop name="44zdph">
+                <titl>§ 44 ZÁKONA O DPH</titl>
+            </prop>
+            <prop name="_title">
+                <titl>Kontrolné výkazy DPH (český prehľad)</titl>
+            </prop>
+            <prop name="duzp">
+                <titl>DUZP</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Registračné číslo\ndaňového dokumentu</titl>
+            </prop>
+            <prop name="kodPredmetuPlneni">
+                <titl>Kód predmetu plnenia</titl>
+            </prop>
+            <prop name="kodRezimuPlneni">
+                <titl>Kód schémy plnenia</titl>
+            </prop>
+            <prop name="pouzityPomer">
+                <titl>Použitý pomer</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehledCZ$$SUM">
+            <prop name="_title">
+                <titl>Kontrolné riadky pre daňové priznanie k DPH</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehledCZ$$SUMACE">
+            <prop name="_title">
+                <titl>Kontrolný výkaz DPH (český súhrn, len súhrnné riadky)</titl>
+            </prop>
+        </rpt>
+        <rpt name="kurzy">
+            <prop name="_title">
+                <titl>Kurzy</titl>
+            </prop>
+        </rpt>
+        <rpt name="kusovnik">
+            <prop name="_title">
+                <titl>Kusovník</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom bez DPH</titl>
+            </prop>
+            <prop name="celkemMj">
+                <titl>Celkom MJ</titl>
+            </prop>
+            <prop name="cenaBezDph">
+                <titl>Cena bez DPH za MJ</titl>
+            </prop>
+            <prop name="cenaSDph">
+                <titl>Cena s DPH za MJ</titl>
+            </prop>
+        </rpt>
+        <rpt name="kusovnikNakup">
+            <prop name="_title">
+                <titl>Kusovník s nákupnými cenami</titl>
+            </prop>
+            <prop name="nakupCenaCelkem">
+                <titl>Nákupná cena celkom</titl>
+            </prop>
+            <prop name="nakupCenaZaMj">
+                <titl>Nákupná cena za MJ</titl>
+            </prop>
+        </rpt>
+        <rpt name="leasing">
+            <prop name="_title">
+                <titl>Prehľad leasingu</titl>
+            </prop>
+            <prop name="kartaLeasingu">
+                <titl>Karta leasingu: </titl>
+            </prop>
+        </rpt>
+        <rpt name="leasingWithSubreports">
+            <prop name="_title">
+                <titl>Leasing (Splátkový kalendár, Daňové náklady)</titl>
+            </prop>
+        </rpt>
+        <rpt name="Majetek">
+            <prop name="datVyst">
+                <titl>Dátum vyradenia</titl>
+            </prop>
+            <prop name="datZar">
+                <titl>Dátum zaradenia</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetek$$SUM">
+            <prop name="_title">
+                <titl>Prehľad majetku</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekStav">
+            <prop name="_title">
+                <titl>Prehľad stavu majetku</titl>
+            </prop>
+            <prop name="aktualniCena">
+                <titl>Aktuálna cena [%currency-symbol]</titl>
+            </prop>
+            <prop name="cenaZarazeni">
+                <titl>Cena zaradenia [%currency-symbol]</titl>
+            </prop>
+            <prop name="datVyr">
+                <titl>Vyradené</titl>
+            </prop>
+            <prop name="datZacatDan">
+                <titl>Daň. zač</titl>
+            </prop>
+            <prop name="datZacatUcet">
+                <titl>Úč. zač</titl>
+            </prop>
+            <prop name="datZar">
+                <titl>Zaradené</titl>
+            </prop>
+            <prop name="odpisovaSkupina">
+                <titl>Odpis. skup. daňová</titl>
+            </prop>
+            <prop name="pocetUcetnichOdpisu">
+                <titl>Počet úč. odpisov</titl>
+            </prop>
+            <prop name="rokDanOdpis">
+                <titl>Daňový odpis za obdobie</titl>
+            </prop>
+            <prop name="rokUcetOdpis">
+                <titl>Účtovný odpis za obdobie</titl>
+            </prop>
+            <prop name="sumDanOdpis">
+                <titl>Celkový daňový odpis</titl>
+            </prop>
+            <prop name="sumUcetOdpis">
+                <titl>Celkový účtovný odpis</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekStavKDatu">
+            <prop name="_title">
+                <titl>Prehľad stavu majetku</titl>
+            </prop>
+            <prop name="cenaAktualni">
+                <titl>Aktuálna\ncena [%currency-symbol]</titl>
+            </prop>
+            <prop name="cenaZarazeni">
+                <titl>Cena\nzaradenia [%currency-symbol]</titl>
+            </prop>
+            <prop name="danoveOdpisy">
+                <titl>Daň. odpis\ncelkový</titl>
+            </prop>
+            <prop name="danoveOdpisyObdobi">
+                <titl>Daň. odpis\nza obdobie</titl>
+            </prop>
+            <prop name="datPoslDanOdpis">
+                <titl>Posl. daň. odpis</titl>
+            </prop>
+            <prop name="datPoslUcetOdpis">
+                <titl>Posl. účt. odpis</titl>
+            </prop>
+            <prop name="datPuvZar">
+                <titl>Zaradené</titl>
+            </prop>
+            <prop name="datVyr">
+                <titl>Vyradené</titl>
+            </prop>
+            <prop name="datZacDan">
+                <titl>Začiatok\ndaň.odpisov</titl>
+            </prop>
+            <prop name="datZacUcet">
+                <titl>Začiatok\núčt.odpisov</titl>
+            </prop>
+            <prop name="dobaOdp">
+                <titl>Doba odpisovania [mesiac]</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Inventárne\nčíslo</titl>
+            </prop>
+            <prop name="odpisovaSkupina">
+                <titl>Odpis. skup. daňová</titl>
+            </prop>
+            <prop name="odpisovaSkupinaSum">
+                <titl>Odpis. skup. daňová</titl>
+            </prop>
+            <prop name="pocetUcetnichOdpisu">
+                <titl>Počet úč. odpisov</titl>
+            </prop>
+            <prop name="sumPoslDanOdpis">
+                <titl>Posl. daň. odpis</titl>
+            </prop>
+            <prop name="sumPoslUcetOdpis">
+                <titl>Posl. účet. odpis</titl>
+            </prop>
+            <prop name="ucetniOdpisy">
+                <titl>Účt. odpis\ncelkový</titl>
+            </prop>
+            <prop name="ucetniOdpisyObdobi">
+                <titl>Účt. odpis\nza obdobie</titl>
+            </prop>
+            <prop name="zustatekDanovy">
+                <titl>Daňový\nzostatok</titl>
+            </prop>
+            <prop name="zustatekUcetni">
+                <titl>Účtovný\nzostatok</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekStavKDatu$$SUM">
+            <prop name="_title">
+                <titl>Prehľad stavu majetku (so sumáciami za skupiny)</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekWithSubreports">
+            <prop name="_title">
+                <titl>Majetok (Daňové odpisy, Udalosti, Účtovné odpisy)</titl>
+            </prop>
+            <prop name="danoveAUcetniStejne">
+                <titl>Daňové odpisy sú rovnaké ako účtovné</titl>
+            </prop>
+            <prop name="kartaMajetku">
+                <titl>Karta majetku: </titl>
+            </prop>
+            <prop name="schvalilVyrazeni">
+                <titl>Schválil vyradenie</titl>
+            </prop>
+            <prop name="schvalilZarazeni">
+                <titl>Schválil zaradenie</titl>
+            </prop>
+        </rpt>
+        <rpt name="majOdpisSkup">
+            <prop name="_title">
+                <titl>Majetok - odpisové skupiny</titl>
+            </prop>
+            <prop name="koefProZrychOdpis">
+                <titl>Koef. pre zrýchlené odpisy</titl>
+            </prop>
+            <prop name="procProRovnOdpis">
+                <titl>Perc. pre rovnomerné odpisy</titl>
+            </prop>
+        </rpt>
+        <rpt name="majTyp">
+            <prop name="_title">
+                <titl>Typy majetkov</titl>
+            </prop>
+        </rpt>
+        <rpt name="majUdalosti">
+            <prop name="_title">
+                <titl>Majetok - udalosti</titl>
+            </prop>
+        </rpt>
+        <rpt name="majUmisteni">
+            <prop name="_title">
+                <titl>Majetok - umiestnenie</titl>
+            </prop>
+        </rpt>
+        <rpt name="meny">
+            <prop name="_title">
+                <titl>Meny</titl>
+            </prop>
+        </rpt>
+        <rpt name="merJed">
+            <prop name="_title">
+                <titl>Merné jednotky</titl>
+            </prop>
+        </rpt>
+        <rpt name="obalkaC5">
+            <prop name="_title">
+                <titl>Adresa na obálku C5 (162x229mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obalkaC6">
+            <prop name="_title">
+                <titl>Adresa na obálku C6 (114x162mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obalkaDL">
+            <prop name="_title">
+                <titl>Adresa na obálku DL (110x220mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDoklad">
+            <prop name="_title">
+                <titl>Interný opis dokladu</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="celkemZakladniSazba">
+                <titl>Vrátane DPH - základná sadzba</titl>
+            </prop>
+            <prop name="ciziMena">
+                <titl>Mena</titl>
+            </prop>
+            <prop name="domaciMena">
+                <titl>Domáca mena</titl>
+            </prop>
+            <prop name="dphSnizenaSazba">
+                <titl>DPH - znížená sadzba</titl>
+            </prop>
+            <prop name="dphZakladniSazba">
+                <titl>DPH - základná sadzba</titl>
+            </prop>
+            <prop name="hotovo">
+                <titl>Hotovo</titl>
+            </prop>
+            <prop name="nakladyNaDoklad">
+                <titl>Náklady na doklad</titl>
+            </prop>
+            <prop name="odberatelDodavatel">
+                <titl>Odberateľ / dodávateľ</titl>
+            </prop>
+            <prop name="titleNAP">
+                <titl>Ponuka prijatá</titl>
+            </prop>
+            <prop name="titleNAV">
+                <titl>Ponuka vydaná</titl>
+            </prop>
+            <prop name="titleOBP">
+                <titl>Objednávka prijatá</titl>
+            </prop>
+            <prop name="titleOBV">
+                <titl>Objednávka vydaná</titl>
+            </prop>
+            <prop name="titlePPP">
+                <titl>Dopyt prijatý</titl>
+            </prop>
+            <prop name="titlePPV">
+                <titl>Dopyt vydaný</titl>
+            </prop>
+            <prop name="zakladOsvobozeno">
+                <titl>Oslobodené alebo bez vplyvu na DPH</titl>
+            </prop>
+            <prop name="zakladSnizenaSazba">
+                <titl>Základ - znížená sadzba</titl>
+            </prop>
+            <prop name="zakladZakladniSazba">
+                <titl>Základ - základná sadzba</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDoklad$$NES">
+            <prop name="_title">
+                <titl>Interný opis dokladu (bez sumácií)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni">
+            <prop name="_title">
+                <titl>Doklad pre klienta</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$BEZ">
+            <prop name="_title">
+                <titl>Doklad pre klienta (bez cien)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$NES">
+            <prop name="_title">
+                <titl>Doklad pre klienta (bez sumácií)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$NES_BEZ_DPH">
+            <prop name="_title">
+                <titl>Doklad pre klienta (bez dph, bez sumácií)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$SUM_BEZ_DPH">
+            <prop name="_title">
+                <titl>Doklad pe klienta (bez dph)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupniOBP">
+            <prop name="_title">
+                <titl>Doklad pre klienta</titl>
+            </prop>
+            <prop name="cisDosle">
+                <titl>Došlé číslo objednávky</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupniOBP$$NES">
+            <prop name="_title">
+                <titl>Doklad pre klienta (bez sumácií)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obratyPocatky">
+            <prop name="_title">
+                <titl>Počiatočné stavy účtov</titl>
+            </prop>
+        </rpt>
+        <rpt name="opisDokladu">
+            <prop name="_title">
+                <titl>Opis dokladu</titl>
+            </prop>
+        </rpt>
+        <rpt name="opravaSkladu">
+            <prop name="_title">
+                <titl>Položky dostávajúce sa do záporu</titl>
+            </prop>
+            <prop name="idPolSklad">
+                <titl>ID Položky skladového dokladu</titl>
+            </prop>
+            <prop name="idSkladKarty">
+                <titl>ID Skladové karty</titl>
+            </prop>
+            <prop name="pocetRozbiti">
+                <titl>Počet položiek v zápore</titl>
+            </prop>
+        </rpt>
+        <rpt name="penezniDenik">
+            <prop name="_title">
+                <titl>Peňažný denník</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Čiastka v %currency-symbol</titl>
+            </prop>
+            <prop name="doklad">
+                <titl>Číslo dokladu</titl>
+            </prop>
+            <prop name="prijem">
+                <titl>Príjem</titl>
+            </prop>
+            <prop name="vydej">
+                <titl>Výdaj</titl>
+            </prop>
+        </rpt>
+        <rpt name="podaciListek">
+            <prop name="_title">
+                <titl>Podací lístok</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDPH">
+            <prop name="bezDane">
+                <titl>Bez dane</titl>
+            </prop>
+            <prop name="castkaZaPlneni">
+                <titl>Čiastka za plnenie</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="ctvrtleti">
+                <titl>štvrťrok</titl>
+            </prop>
+            <prop name="dalsiUdaje">
+                <titl>Ďalšie údaje:</titl>
+            </prop>
+            <prop name="dan">
+                <titl>Daň</titl>
+            </prop>
+            <prop name="danNaVystupu">
+                <titl>Daň na výstupe</titl>
+            </prop>
+            <prop name="danoveIdentifikacniCislo">
+                <titl>Daňové identifikačné číslo</titl>
+            </prop>
+            <prop name="datum">
+                <titl>Dátum</titl>
+            </prop>
+            <prop name="dodaniProstrednikem">
+                <titl>Dodanie tovarov treťou osobou</titl>
+            </prop>
+            <prop name="dodatecne">
+                <titl>dodatočné</titl>
+            </prop>
+            <prop name="doplnujiciUdaje">
+                <titl>Doplňujúce údaje</titl>
+            </prop>
+            <prop name="dph">
+                <titl>daň z pridanej hodnoty</titl>
+            </prop>
+            <prop name="duvodyProDodatecne">
+                <titl>Dôvody pre podanie dodatočného\ndaňového priznania zistené dňa</titl>
+            </prop>
+            <prop name="financnimuUradu">
+                <titl>Daňovému úradu v, pre</titl>
+            </prop>
+            <prop name="financniUradPriznanouDanVymeril">
+                <titl>Daňový úrad priznanú daň vymeral/dodatočne vymeral a predpísal podľa § 46 zákona ČNR č. 337/1992 Sb., o správe daní a poplatkov, v znení</titl>
+            </prop>
+            <prop name="fyzickaOsoba">
+                <titl>Fyzická osoba:</titl>
+            </prop>
+            <prop name="hlavniEkonomickaCinnost">
+                <titl>Hlavná ekonomická činnosť</titl>
+            </prop>
+            <prop name="hodnota">
+                <titl>Hodnota</titl>
+            </prop>
+            <prop name="kDPH">
+                <titl>k dani z pridanej hodnoty</titl>
+            </prop>
+            <prop name="keDni">
+                <titl>ku dňu</titl>
+            </prop>
+            <prop name="koeficient">
+                <titl>Koeficient</titl>
+            </prop>
+            <prop name="kraceniRadek1">
+                <titl>Vypočítaná pomerná časť odpočtu dane (§ 76)</titl>
+            </prop>
+            <prop name="kraceniRadek2">
+                <titl>Vysporiadanie odpočtu dane (§ 76 odst 7-10)</titl>
+            </prop>
+            <prop name="kraceniRadek3">
+                <titl>Úprava odpočtu dane (§ 78)</titl>
+            </prop>
+            <prop name="kraceniRadek4">
+                <titl>Vyrovnanie odpočtu dane (§ 79)</titl>
+            </prop>
+            <prop name="kraceniVyporadavaniUprava">
+                <titl>Krátenie, vysporiadavanie, úprava a vyrovnanie odpočtu dane</titl>
+            </prop>
+            <prop name="kracenyNarok">
+                <titl>Krátený nárok</titl>
+            </prop>
+            <prop name="kraj">
+                <titl>Kraj</titl>
+            </prop>
+            <prop name="MFin5401">
+                <titl>25 5401  MFin 5401 - vzor č. 14</titl>
+            </prop>
+            <prop name="narokNaOdpocet">
+                <titl>Nárok na odpočet dane z plnenia za</titl>
+            </prop>
+            <prop name="nazevPravnickeOsoby">
+                <titl>Názov právnickej osoby</titl>
+            </prop>
+            <prop name="neplatceDane">
+                <titl>Neplatca dane § 19 / 5, 6, § 108</titl>
+            </prop>
+            <prop name="nezZacnete">
+                <titl>Než začnete vyplňovať formulár, prečítajte si, prosím, pokyny.</titl>
+            </prop>
+            <prop name="oddil">
+                <titl>ODDIEL</titl>
+            </prop>
+            <prop name="odOsobNeregistrovanych">
+                <titl>Od osôb neregistrovaných k dani v inom členskom štáte (§ 19 odst. 4)</titl>
+            </prop>
+            <prop name="odOsobRegistrovanych">
+                <titl>Od osôb registrovaných k dani v inom členskom štáte (§ 19 odst. 3)</titl>
+            </prop>
+            <prop name="odpocetDane">
+                <titl>Odpočet dane</titl>
+            </prop>
+            <prop name="odpocetRadek1">
+                <titl>Prijaté zdaniteľné plnenia s miestom plnenia v tuzemsku</titl>
+            </prop>
+            <prop name="odpocetRadek7">
+                <titl>Pri zmene režimu</titl>
+            </prop>
+            <prop name="odpocetRadek8">
+                <titl>Celková suma pre krátenie nároku na odpočet dane\n(ř. 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)</titl>
+            </prop>
+            <prop name="odpocetRadek9">
+                <titl>Celková suma plného nároku na odpočet dane\n(ř. 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)</titl>
+            </prop>
+            <prop name="oprava">
+                <titl>Oprava</titl>
+            </prop>
+            <prop name="opravne">
+                <titl>opravné</titl>
+            </prop>
+            <prop name="osobaIdentifikovanaKDani">
+                <titl>Osoba identifikovaná k dani § 96</titl>
+            </prop>
+            <prop name="osobaOpravnenaKPodpisu">
+                <titl>Osoba oprávnená k podpisu za daňový subjekt</titl>
+            </prop>
+            <prop name="otiskRazitka">
+                <titl>Odtlačok pečiatky</titl>
+            </prop>
+            <prop name="otiskRazitkaFU">
+                <titl>Odtlačok prezentačnej pečiatky daňového úradu</titl>
+            </prop>
+            <prop name="platceDane">
+                <titl>Platca dane § 94</titl>
+            </prop>
+            <prop name="plnyNarok">
+                <titl>Plný nárok</titl>
+            </prop>
+            <prop name="podpis">
+                <titl>Podpis</titl>
+            </prop>
+            <prop name="podpisOpravnenehoPracovnikaDPH">
+                <titl>Podpis oprávneného pracovníka správcu dane</titl>
+            </prop>
+            <prop name="porizeniProstrednikem">
+                <titl>Obstaranie tovarov treťou osobou</titl>
+            </prop>
+            <prop name="postaveniVzhledemKPravnickeOsobe">
+                <titl>U právnickej osoby: postavenie vzhľadom k právnickej osobe</titl>
+            </prop>
+            <prop name="povinnostPriznatDanZa">
+                <titl>Povinnosť priznať daň za</titl>
+            </prop>
+            <prop name="pozdejsichPredpisu">
+                <titl>neskorších predpisov, dňa</titl>
+            </prop>
+            <prop name="pravnickaOsoba">
+                <titl>Právnicka osoba:</titl>
+            </prop>
+            <prop name="priznani">
+                <titl>PRIZNANIE</titl>
+            </prop>
+            <prop name="priznaniSestavil">
+                <titl>Priznanie zostavil</titl>
+            </prop>
+            <prop name="priznatRadek1">
+                <titl>Uskutočnené zdaniteľné plnenia s miestom plnenia v tuzemsku</titl>
+            </prop>
+            <prop name="priznatRadek2">
+                <titl>Obstaranie tovaru z iného členského štátu (§ 16 a § 17 odst. 6 písm. e); mimo § 19)</titl>
+            </prop>
+            <prop name="priznatRadek3">
+                <titl>Poskytnutie služby osobou registrovanou k dani v inom členskom štáte (§ 15 a § 13 odst. 8)</titl>
+            </prop>
+            <prop name="priznatRadek4">
+                <titl>Zasielanie tovaru z iného členského štátu s miestom plnenia v tuzemsku (§ 18)</titl>
+            </prop>
+            <prop name="priznatRadek5">
+                <titl>Obstaranie nového dopravného prostriedku</titl>
+            </prop>
+            <prop name="priznatRadek6">
+                <titl>Dovoz tovaru (§ 20)</titl>
+            </prop>
+            <prop name="priznatRadek7">
+                <titl>Poskytnutie služby zahraničnou osobou povinnou k dani(§ 15 a § 13 odst. 8)</titl>
+            </prop>
+            <prop name="prohlaseni">
+                <titl>Prehlasujem, že všetky mnou uvedené údaje v tomto priznaní sú pravdivé a úplné.</titl>
+            </prop>
+            <prop name="proskrtneteNevzniklaDanovaPovinnost">
+                <titl>Zaškrtnite (X) ak nevznikla daňová povinnosť</titl>
+            </prop>
+            <prop name="radek">
+                <titl>r.</titl>
+            </prop>
+            <prop name="radne">
+                <titl>riadne</titl>
+            </prop>
+            <prop name="rok">
+                <titl>rok</titl>
+            </prop>
+            <prop name="sDani">
+                <titl>S daňou</titl>
+            </prop>
+            <prop name="sidloNeboBydliste">
+                <titl>Sídlo právnickej osoby alebo trvalé bydlisko fyzickej osoby:</titl>
+            </prop>
+            <prop name="sSnizSazbou">
+                <titl>So zníženou sazbou dane</titl>
+            </prop>
+            <prop name="sZklSazbou">
+                <titl>So základnou sazbou dane</titl>
+            </prop>
+            <prop name="ulice">
+                <titl>Ulica a č. orientačné (alebo časť obce a č. popisné)</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek1">
+                <titl>Celková čiastka uskutočnených plnení s nárokom na odpočet dane (§ 72 odst. 2 písm. a) až d)</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek2">
+                <titl>Uskutočnené plnenia, ktoré sa nezapočítavajú do výpočtu koeficientu (§ 76 odst. 3) z uvedených v r. 510</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek3">
+                <titl>Celková čiastka uskutočnených plnení oslobodených od dane bez nároku na odpočet dane (§ 51)</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek4">
+                <titl>Uskutočnené plnenia, ktoré sa nezapočítavajú do výpočtu koeficientu (§ 76 odst. 3) z uvedených v r. 530</titl>
+            </prop>
+            <prop name="uskutecnenaPlneniCelkem">
+                <titl>Uskutočnené plnenia celkom</titl>
+            </prop>
+            <prop name="uskutecnenaPlneniOsvobozena">
+                <titl>Uskutočnené plnenia oslobodené od dane s nárokom na odpočet dane</titl>
+            </prop>
+            <prop name="uskutecnenaRadek1">
+                <titl>Dodanie tovaru do iného členského štátu (§ 64 mimo § 64 odst. 2 a § 17 odst. 2)</titl>
+            </prop>
+            <prop name="uskutecnenaRadek2">
+                <titl>Dodanie nového dopravného prostriedku do iného členského štátu (§ 64 odst. 2)\nosobe registrovanej k dani v členskom štáte</titl>
+            </prop>
+            <prop name="uskutecnenaRadek3">
+                <titl>Dodanie nového dopravného prostriedku do iného členského štátu (§ 64 odst. 2)\nosobe neregistrovanej k dani v členskom štáte</titl>
+            </prop>
+            <prop name="uskutecnenaRadek4">
+                <titl>Vývoz tovaru (§ 66)</titl>
+            </prop>
+            <prop name="uskutecnenaRadek5">
+                <titl>Ostatné plnenia oslobodené od dane s nárokom na odpočet dane</titl>
+            </prop>
+            <prop name="uvedeniHodnotyPriZjednoduseni">
+                <titl>Uvedenie hodnoty pri použití zjednodušeného postupu\npri dodaní tovaru vo vnútri územia Evropského spoločenstva formou trojstranného obchodu (§ 17)</titl>
+            </prop>
+            <prop name="vraceniDane">
+                <titl>Vrátenie dane (§ 84)</titl>
+            </prop>
+            <prop name="vraceniDaneRadek1">
+                <titl>Vrátenie dane</titl>
+            </prop>
+            <prop name="vypocetDaneRadek1">
+                <titl>Vysporiadanie dane na výstupe (§ 91)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek2">
+                <titl>Daň na výstupe (r. 210 + 215 + 220 + 225 + 230 + 235 + 240 + 245 + 250 + 255 + 260 + 265 + 270 + 275 - 600 + 710)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek3">
+                <titl>Odpočet dane (r. 390 + 550 + 560 + 570 + 580)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek4">
+                <titl>Vlastná daňová povinnosť (r. 730 - 750)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek5">
+                <titl>Nadmerný odpočet (r. 750 - 730)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek6">
+                <titl>Zmena daňovej povinnosti pri podaní dodatočného priznania (r. 730 - 750)</titl>
+            </prop>
+            <prop name="vypocetDanovePovinnosti">
+                <titl>Výpočet daňovej povinnosti</titl>
+            </prop>
+            <prop name="zakladDane">
+                <titl>Základ dane</titl>
+            </prop>
+            <prop name="zaObdobi">
+                <titl>Za zdaňovacie obdobie: mesiac</titl>
+            </prop>
+            <prop name="zauctovanoVObdobi">
+                <titl>Zaúčtované v období</titl>
+            </prop>
+            <prop name="zmenaOdpoctuDane">
+                <titl>Zmena odpočtu dane</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDph$$NES">
+            <prop name="_title">
+                <titl>Podklady DPH podľa dátumu zaúčtovania</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDph$$SUM">
+            <prop name="_title">
+                <titl>Podklady DPH</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphBezUctovani$$NES">
+            <prop name="_title">
+                <titl>Podklady DPH podľa dátumu zaúčtovania (zoskupené)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphBezUctovani$$SUM">
+            <prop name="_title">
+                <titl>Podklady DPH (zoskupené)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphNaVysku$$SUMACE">
+            <prop name="_title">
+                <titl>Podklady DPH (len sumačné riadky)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphNaVyskuZRadku$$SUMACE">
+            <prop name="_title">
+                <titl>Podklady DPH pre ostatné štáty DPH (len sumačné riadky)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphZRadku$$SUM">
+            <prop name="_title">
+                <titl>Doklady DPH pre ostatné štáty s DPH</titl>
+            </prop>
+        </rpt>
+        <rpt name="pohybyNaUctech">
+            <prop name="_title">
+                <titl>Pohyby na účtoch</titl>
+            </prop>
+        </rpt>
+        <rpt name="pohybyNaUctechZjednodusene">
+            <prop name="_title">
+                <titl>Inventúra účtov</titl>
+            </prop>
+            <prop name="doklad">
+                <titl>Doklad</titl>
+            </prop>
+            <prop name="pocatek">
+                <titl>Počiatok</titl>
+            </prop>
+            <prop name="sumTuzDal">
+                <titl>Obrat DAL [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumTuzMd">
+                <titl>Obrat MD [%currency-symbol]</titl>
+            </prop>
+            <prop name="ucetDAL">
+                <titl>Účet DAL</titl>
+            </prop>
+            <prop name="ucetMD">
+                <titl>Účet MD</titl>
+            </prop>
+            <prop name="zustatek">
+                <titl>Zostatok</titl>
+            </prop>
+            <prop name="zustatekTuz">
+                <titl>Zostatok [%currency-symbol]</titl>
+            </prop>
+        </rpt>
+        <rpt name="pohybyNaUctechZjednodusene$$SUM">
+            <prop name="_title">
+                <titl>Pohyby na účtoch - Inventúra</titl>
+            </prop>
+        </rpt>
+        <rpt name="pokDoklad">
+            <prop name="_title">
+                <titl>Pokladničný doklad</titl>
+            </prop>
+            <prop name="bezDane2">
+                <titl>DPH 0%</titl>
+            </prop>
+            <prop name="castkaSlovy">
+                <titl>Čiastka slovom</titl>
+            </prop>
+            <prop name="dan2">
+                <titl>DPH</titl>
+            </prop>
+            <prop name="dne">
+                <titl>Dňa</titl>
+            </prop>
+            <prop name="podpisPokladnika">
+                <titl>Podpis pokladníka</titl>
+            </prop>
+            <prop name="prevzal">
+                <titl>Prevzal</titl>
+            </prop>
+            <prop name="prijatoOd">
+                <titl>Prijaté od</titl>
+            </prop>
+            <prop name="prijmovyDoklad">
+                <titl>Príjmový pokladničný doklad</titl>
+            </prop>
+            <prop name="prijmovyDokladVratka">
+                <titl>Príjmový pokladničný doklad - vratka</titl>
+            </prop>
+            <prop name="schvalil">
+                <titl>Schválil</titl>
+            </prop>
+            <prop name="soucet">
+                <titl>Súčet</titl>
+            </prop>
+            <prop name="ucel">
+                <titl>Účel</titl>
+            </prop>
+            <prop name="vydejovyDoklad">
+                <titl>Výdajový pokladničný doklad</titl>
+            </prop>
+            <prop name="vydejovyDokladVratka">
+                <titl>Výdavkový pokladničný doklad - vratka</titl>
+            </prop>
+            <prop name="vyplacenoKomu">
+                <titl>Vyplatené komu</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Základ</titl>
+            </prop>
+            <prop name="zauctoval">
+                <titl>Zaúčtoval</titl>
+            </prop>
+        </rpt>
+        <rpt name="pokDoklad$$SUM_UHR_DOKL">
+            <prop name="_title">
+                <titl>Pokladničný doklad (s uhradenými dokladmi)</titl>
+            </prop>
+        </rpt>
+        <rpt name="pokDoklad$$SUM_ZAUCT">
+            <prop name="_title">
+                <titl>Pokladničný doklad (so zaúčtovaním)</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenik">
+            <prop name="hotove">
+                <titl>Hotovostne</titl>
+            </prop>
+            <prop name="kartou">
+                <titl>Platobnou kartou</titl>
+            </prop>
+            <prop name="koncovyZustatek">
+                <titl>Koncový zostatok:</titl>
+            </prop>
+            <prop name="pocatecniZustatek">
+                <titl>Počiatočný zostatok:</titl>
+            </prop>
+            <prop name="prijem">
+                <titl>Príjem</titl>
+            </prop>
+            <prop name="vydej">
+                <titl>Výdaj</titl>
+            </prop>
+            <prop name="zustatek">
+                <titl>Zostatok</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenik$$BAN">
+            <prop name="_title">
+                <titl>Banková kniha</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenik$$POK">
+            <prop name="_title">
+                <titl>Pokladničná kniha</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenikPort$$BAN">
+            <prop name="_title">
+                <titl>Banková kniha (na výšku)</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenikPort$$POK">
+            <prop name="_title">
+                <titl>Pokladničná kniha (na výšku)</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur">
+            <prop name="_title">
+                <titl>Analýza predaja</titl>
+            </prop>
+            <prop name="idCenik">
+                <titl>Tovar</titl>
+            </prop>
+            <prop name="idFirmy">
+                <titl>Firma</titl>
+            </prop>
+            <prop name="idMistUrc">
+                <titl>Miesto určenia</titl>
+            </prop>
+            <prop name="idSkladu">
+                <titl>Sklad</titl>
+            </prop>
+            <prop name="idSkupCen">
+                <titl>Cenníková skupina</titl>
+            </prop>
+            <prop name="idSkupFir">
+                <titl>Skupina firiem</titl>
+            </prop>
+            <prop name="idSkupZboz">
+                <titl>Skupina tovarov</titl>
+            </prop>
+            <prop name="idStred">
+                <titl>Stredisko</titl>
+            </prop>
+            <prop name="idZakazky">
+                <titl>Zákazka</titl>
+            </prop>
+            <prop name="idZodpOsoba">
+                <titl>Zodpovedná osoba</titl>
+            </prop>
+            <prop name="idZodpOsobaAdresar">
+                <titl>Zodpovedná osoba z adresára</titl>
+            </prop>
+            <prop name="procObchodniRozpeti">
+                <titl>% Rozpätie</titl>
+            </prop>
+            <prop name="procSumZkl">
+                <titl>% Celkom</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur$$NES">
+            <prop name="_title">
+                <titl>Analýza predeja (bez sumácií)</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur$$NES_NAKUP">
+            <prop name="_title">
+                <titl>Analýza nákupu (bez sumácií)</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur$$SUM_NAKUP">
+            <prop name="_title">
+                <titl>Analýza nákupu</titl>
+            </prop>
+        </rpt>
+        <rpt name="poSplatnosti">
+            <prop name="_title">
+                <titl>Neuhradené pohľadávky/záväzky po splatnosti</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="celkemPoSplatnosti">
+                <titl>Celkom po splatnosti</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Splatnosť</titl>
+            </prop>
+            <prop name="datUcto">
+                <titl>Účtovanie</titl>
+            </prop>
+            <prop name="firma">
+                <titl>Firma</titl>
+            </prop>
+            <prop name="firmaNevyplnena">
+                <titl>Nie je vyplnená firma</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Číslo dokladu</titl>
+            </prop>
+            <prop name="neuhrazenePohledavky">
+                <titl>Neuhradené pohľadávky po splatnosti</titl>
+            </prop>
+            <prop name="neuhrazeneZavazky">
+                <titl>Neuhradené záväzky po splatnosti</titl>
+            </prop>
+            <prop name="rozmezi">
+                <titl>%p až %p dní po splatnosti</titl>
+            </prop>
+            <prop name="rozmeziKonec">
+                <titl>%p a viac dní po splatnosti</titl>
+            </prop>
+            <prop name="symbolSplatnosti.stav0">
+                <titl>Nie sú po splatnosti</titl>
+            </prop>
+            <prop name="symbolSplatnosti.stavZnevyplneno">
+                <titl>Splatnosť nie je vyplnená</titl>
+            </prop>
+            <prop name="uhrazeno">
+                <titl>Uhradené</titl>
+            </prop>
+            <prop name="zbyva">
+                <titl>Zostáva</titl>
+            </prop>
+        </rpt>
+        <rpt name="poSplatnostiDleDokladu">
+            <prop name="_title">
+                <titl>Neuhradené pohľadávky/záväzky podľa splatnosti</titl>
+            </prop>
+            <prop name="neuhrazenePohledavky">
+                <titl>Neuhradené pohľadávky podľa splatnosti</titl>
+            </prop>
+            <prop name="neuhrazeneZavazky">
+                <titl>Neuhradené záväzky podľa splatnosti</titl>
+            </prop>
+        </rpt>
+        <rpt name="poSplatnostiDleFirmy">
+            <prop name="_title">
+                <titl>Neuhradené pohľadávky/záväzky po splatnosti (dľa firmy)</titl>
+            </prop>
+            <prop name="neuhrazenePohledavky">
+                <titl>Neuhradené pohľadávky po splatnosti (dľa firmy)</titl>
+            </prop>
+            <prop name="neuhrazeneZavazky">
+                <titl>Neuhradené záväzky po splatnosti (dľa firmy)</titl>
+            </prop>
+        </rpt>
+        <rpt name="postovniPodaciArch">
+            <prop name="_title">
+                <titl>Poštový podací arch</titl>
+            </prop>
+        </rpt>
+        <rpt name="pplstitek">
+            <prop name="_title">
+                <titl>PPL Etiketa (arch A4)</titl>
+            </prop>
+            <prop name="dobirka">
+                <titl>Dobierka:</titl>
+            </prop>
+            <prop name="dokladCislo">
+                <titl>Číslo dokladu:</titl>
+            </prop>
+            <prop name="email">
+                <titl>email: info@ppl.cz</titl>
+            </prop>
+            <prop name="expresnibalikovasluzba">
+                <titl>expresná balíková služba</titl>
+            </prop>
+            <prop name="flexibee">
+                <titl>ABRA Flexi</titl>
+            </prop>
+            <prop name="modralinka">
+                <titl>infolinka: 840 775 775</titl>
+            </prop>
+            <prop name="odesilatel">
+                <titl>Consignor/Odosielateľ:</titl>
+            </prop>
+            <prop name="prijemce">
+                <titl>Consignee/Príjemca:</titl>
+            </prop>
+            <prop name="www">
+                <titl>http://www.ppl.cz</titl>
+            </prop>
+        </rpt>
+        <rpt name="pplstitekJeden">
+            <prop name="_title">
+                <titl>PPL Etiketa (jednotlivé, 102x126mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="predvaha">
+            <prop name="dal">
+                <titl>DAL</titl>
+            </prop>
+            <prop name="koncovyZustatek">
+                <titl>Koncový zostatok</titl>
+            </prop>
+            <prop name="md">
+                <titl>MD</titl>
+            </prop>
+            <prop name="obratyZaObdobi">
+                <titl>Obraty za obdobie</titl>
+            </prop>
+            <prop name="pocatecniZustatek">
+                <titl>Počiatočný zostatok</titl>
+            </prop>
+            <prop name="uctovaTrida">
+                <titl>Účtovná trieda</titl>
+            </prop>
+        </rpt>
+        <rpt name="Predvaha$$SUM">
+            <prop name="_title">
+                <titl>Obratová predvaha</titl>
+            </prop>
+        </rpt>
+        <rpt name="PredvahaPort">
+            <prop name="_title">
+                <titl>Obratová predvaha (na výšku)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehled_a4$$FAP">
+            <prop name="_title">
+                <titl>Zoznam prijatých faktúr (na výšku)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledSmluv">
+            <prop name="_title">
+                <titl>Prehľad zmlúv</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledSmluv$$SUM_POL">
+            <prop name="_title">
+                <titl>Prehľad zmlúv (s výpisom položiek)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prijemkaVydejka">
+            <prop name="_title">
+                <titl>Príjemka alebo výdajka</titl>
+            </prop>
+            <prop name="cisFak">
+                <titl>Číslo faktúry</titl>
+            </prop>
+            <prop name="cislo">
+                <titl>číslo</titl>
+            </prop>
+            <prop name="maFakturu">
+                <titl>Má faktúru</titl>
+            </prop>
+            <prop name="prijemkaVydejkaUmisteni">
+                <titl>Príjemka alebo výdajka (s umiestnením)</titl>
+            </prop>
+            <prop name="typPohybu.prijem">
+                <titl>Príjemka</titl>
+            </prop>
+            <prop name="typPohybu.vydej">
+                <titl>Výdajka</titl>
+            </prop>
+            <prop name="umisteni">
+                <titl>Umiestnenie</titl>
+            </prop>
+            <prop name="vydal">
+                <titl>Vydal</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikaz$$BAN$$elInkaso">
+            <prop name="_title">
+                <titl>HROMADNÝ PRÍKAZ K INKASU</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikaz$$BAN$$elPrikaz">
+            <prop name="_title">
+                <titl>HROMADNÝ PRÍKAZ K ÚHRADE</titl>
+            </prop>
+        </rpt>
+        <rpt name="prikazDoVyroby">
+            <prop name="_title">
+                <titl>Príkaz do výroby</titl>
+            </prop>
+            <prop name="cisloPrikazu">
+                <titl>Číslo príkazu</titl>
+            </prop>
+            <prop name="datumVyhotoveni">
+                <titl>Dátum vyhotovenia</titl>
+            </prop>
+            <prop name="mezioperacniKontrola">
+                <titl>Medzioperačná kontrola</titl>
+            </prop>
+            <prop name="ostatniSuroviny">
+                <titl>Ostatné suroviny a odôvodnenie</titl>
+            </prop>
+            <prop name="sarze">
+                <titl>Šarža</titl>
+            </prop>
+            <prop name="skladVyrobku">
+                <titl>Sklad výrobkov</titl>
+            </prop>
+            <prop name="uzavreni">
+                <titl>Uzatvorenie</titl>
+            </prop>
+            <prop name="vystupniKontrola">
+                <titl>Výstupná kontrola</titl>
+            </prop>
+            <prop name="zamestnanci">
+                <titl>Zamestnanci</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikazy_kniha$$BAN$$elInkaso">
+            <prop name="_title">
+                <titl>Kniha príkazov k inkasu</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikazy_kniha$$BAN$$elPrikaz">
+            <prop name="_title">
+                <titl>Kniha príkazov k úhrade</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH">
+            <prop name="_title">
+                <titl>Priznanie DPH (platné do roku 2008)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2009">
+            <prop name="_title">
+                <titl>Priznanie DPH (platné od roku 2009)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2009SK">
+            <prop name="_title">
+                <titl>Priznanie DPH (Slovenská tlačovina)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2010">
+            <prop name="_title">
+                <titl>Priznanie DPH vzor č. 16 (od 1.1.2010)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2010SK">
+            <prop name="_title">
+                <titl>Priznanie DPH 2010 - 01 (od 1.1.2010) (Slovenské tlačivo)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2011">
+            <prop name="_title">
+                <titl>Priznanie DPH vzor č. 17 (od 1.1.2011)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2011SK">
+            <prop name="_title">
+                <titl>Priznanie DPH 2011 - 01 (od 1.1.2011) (Slovenské tlačivo)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2012SK">
+            <prop name="_title">
+                <titl>Priznanie DPH 2012 - 01 (od 1.1.2012) (Slovenské tlačivo)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2013">
+            <prop name="_title">
+                <titl>Priznanie DPH vzor č. 18 (od 1.1.2013)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2015">
+            <prop name="_title">
+                <titl>Vzor daňového priznania k DPH č. 19 (od 1.1.2015)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2016">
+            <prop name="_title">
+                <titl>Vzor daňového priznania k DPH č. 20 (od 29.7.2016)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2019">
+            <prop name="_title">
+                <titl>Vzor daňového priznania k DPH č. 21 (od 01.05.2019)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2021">
+            <prop name="_title">
+                <titl>Vzor daňového priznania k DPH č. 23 (od 01.10.2021)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2021SK">
+            <prop name="_title">
+                <titl>Daňové priznanie k DPH 2021 (od 1.1.2021) (slovenský formulár)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2024">
+            <prop name="_title">
+                <titl>Vzor daňového priznania k DPH č. 24 (od 01.01.2024)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejka">
+            <prop name="_title">
+                <titl>Zjednodušený daňový doklad</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejka60mm">
+            <prop name="_title">
+                <titl>Zjednodušený daňový doklad (60mm)</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="celkemV">
+                <titl>Celkom v</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Dátum</titl>
+            </prop>
+            <prop name="duzp">
+                <titl>DUZP</titl>
+            </prop>
+            <prop name="mj">
+                <titl>MJ</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejkaZaHotove">
+            <prop name="_title">
+                <titl>Predajka za hotové</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejniPrehled">
+            <prop name="_title">
+                <titl>Predajný prehľad</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Celkom [%p]</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>DPH [%p]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Základ [%p]</titl>
+            </prop>
+            <prop name="uhrazeno">
+                <titl>Uhradené</titl>
+            </prop>
+        </rpt>
+        <rpt name="pruvodka">
+            <prop name="_title">
+                <titl>Sprievodka</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="kBAN">
+                <titl>Bankového dokladu</titl>
+            </prop>
+            <prop name="kFAP">
+                <titl>Prijaté faktúry</titl>
+            </prop>
+            <prop name="kFAV">
+                <titl>Vydané faktúry</titl>
+            </prop>
+            <prop name="kINT">
+                <titl>Interného dokladu</titl>
+            </prop>
+            <prop name="kPHL">
+                <titl>Pohľadávky</titl>
+            </prop>
+            <prop name="kPOK">
+                <titl>Pokladničného dokladu</titl>
+            </prop>
+            <prop name="kSKL">
+                <titl>Skladového dokladu</titl>
+            </prop>
+            <prop name="kZapoctu">
+                <titl>Vzájomného zápočtu</titl>
+            </prop>
+            <prop name="kZAV">
+                <titl>Záväzku</titl>
+            </prop>
+            <prop name="rekapitulaceDph">
+                <titl>Rekapitulácia DPH</titl>
+            </prop>
+            <prop name="sazbaDph">
+                <titl>Sadzba DPH</titl>
+            </prop>
+            <prop name="suma">
+                <titl>Súčet</titl>
+            </prop>
+            <prop name="ucetDal">
+                <titl>Účet Dal</titl>
+            </prop>
+            <prop name="ucetMD">
+                <titl>Účet MD</titl>
+            </prop>
+            <prop name="uctovani">
+                <titl>Účtovanie</titl>
+            </prop>
+            <prop name="zdanitelnePlneni">
+                <titl>Zdaniteľné plnenia</titl>
+            </prop>
+        </rpt>
+        <rpt name="radkySestavy">
+            <prop name="rozsahPredSestavy">
+                <titl>Predchádzajúce obdobie od:</titl>
+            </prop>
+            <prop name="rozsahSestavy">
+                <titl>Za obdobie od:</titl>
+            </prop>
+            <prop name="rozsahSestavyDo">
+                <titl>do:</titl>
+            </prop>
+        </rpt>
+        <rpt name="rady">
+            <prop name="_title">
+                <titl>Dokladové rady</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvaha">
+            <prop name="_title">
+                <titl>Súvaha v plnom rozsahu</titl>
+            </prop>
+            <prop name="bilance">
+                <titl>(bilancia)</titl>
+            </prop>
+            <prop name="doDne">
+                <titl>do</titl>
+            </prop>
+            <prop name="keDni">
+                <titl>ku dňu</titl>
+            </prop>
+            <prop name="nazevASidloUcetniJednotky">
+                <titl>Sídlo, bydlisko alebo miesto\npodnikania účtovnej jednotky</titl>
+            </prop>
+            <prop name="obchodniFirma">
+                <titl>Obchodná firma alebo iný\nnázov účtovnej jednotky</titl>
+            </prop>
+            <prop name="odDne">
+                <titl>od</titl>
+            </prop>
+            <prop name="okamzikSestaveni">
+                <titl>Okamžik zostavenia</titl>
+            </prop>
+            <prop name="podpisOrganu">
+                <titl>Podpisový záznam štatutárneho orgánu alebo fyzickej osoby, ktorá je účtovnou jednotkou</titl>
+            </prop>
+            <prop name="podpisOsoby">
+                <titl>Podpisový záznam osoby zodpovednej za zostavenie účtovnej uzávierky</titl>
+            </prop>
+            <prop name="pravniFormaUcetniJednotky">
+                <titl>Právna forma účtovnej jednotky</titl>
+            </prop>
+            <prop name="predmetPodnikani">
+                <titl>Predmet podnikania alebo inej činnosti</titl>
+            </prop>
+            <prop name="rozvaha">
+                <titl>Súvaha</titl>
+            </prop>
+            <prop name="schvalenoMFCR">
+                <titl>Spracované v súlade s vyhláškou č. 500/2002\nZb. v znení neskorších predpisov</titl>
+            </prop>
+            <prop name="schvalenoMFCRnezisk">
+                <titl>Vypracované v súlade s vyhláškou č. 504/2002\nSb. v znení neskorších predpisov</titl>
+            </prop>
+            <prop name="schvalenoMFCRprispevk">
+                <titl>Spracované v súlade s vyhláškou č. 505/2002\nZb. v znení neskorších predpisov</titl>
+            </prop>
+            <prop name="schvalenoMFCRprispevk2010">
+                <titl>Spracované v súlade s vyhláškou č. 410/2009\nZb. v znení neskorších predpisov</titl>
+            </prop>
+            <prop name="schvalenoMFCRslovaci">
+                <titl>Spracované v súlade s vyhláškou č. 500/2002\nZb. ve znění neskorších predpisov</titl>
+            </prop>
+            <prop name="vKC">
+                <titl>(v celých tisícoch %currency-symbol)</titl>
+            </prop>
+            <prop name="zakladniVerze">
+                <titl>v základnom rozsahu</titl>
+            </prop>
+            <prop name="zjednodusenaVerze">
+                <titl>v zjednodušenom rozsahu</titl>
+            </prop>
+            <prop name="zkracenaVerze">
+                <titl>v skráteném rozsahu</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvaha$$SUM">
+            <prop name="_title">
+                <titl>Súvaha v zjednodušenom rozsahu</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvaha$$SUM_ZAKL">
+            <prop name="_title">
+                <titl>Základná súvaha</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvahaPoUctechObraty">
+            <prop name="_title">
+                <titl>Súpis aktív a pasív (obraty)</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvahaPoUctechStavy">
+            <prop name="_title">
+                <titl>Súpis aktív a pasív (zostatky)</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvahaVysledovkaPoUctech">
+            <prop name="aktiva">
+                <titl>Aktíva</titl>
+            </prop>
+            <prop name="konecnyZustatek">
+                <titl>Konečný zostatok</titl>
+            </prop>
+            <prop name="naklady">
+                <titl>Náklady</titl>
+            </prop>
+            <prop name="pasiva">
+                <titl>Pasíva</titl>
+            </prop>
+            <prop name="soucet">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="uctovaTrida">
+                <titl>Účt. tr.</titl>
+            </prop>
+            <prop name="vynosy">
+                <titl>Výnosy</titl>
+            </prop>
+            <prop name="vysledek">
+                <titl>Výsledok</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldo">
+            <prop name="_title">
+                <titl>Saldo</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldo$$GRUP">
+            <prop name="_title">
+                <titl>Saldo (zoskupené)</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldoNaVysku">
+            <prop name="_title">
+                <titl>Saldo (na výšku)</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldoNaVysku$$GRUP">
+            <prop name="_title">
+                <titl>Saldo (na výšku, zoskupené)</titl>
+            </prop>
+        </rpt>
+        <rpt name="Sazby_DPH">
+            <prop name="_title">
+                <titl>Sadzby DPH</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadky">
+            <prop name="_title">
+                <titl>Riadky zostavy</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyPort$$SES$$uSestavy$$BEZ_ROZPADU">
+            <prop name="_title">
+                <titl>Riadky zostavy</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyPort$$SES$$uSestavy$$ROZPAD_PREDPIS">
+            <prop name="_title">
+                <titl>Riadky zostavy (Štandartný predpis, Používateľský predpis)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyPort$$SES$$uSestavy$$ROZPAD_UCET">
+            <prop name="_title">
+                <titl>Riadky zostavy (Rozpad na účty)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyRozpadUce">
+            <prop name="_title">
+                <titl>Riadky zostavy (Rozpad na účty)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyStdPred">
+            <prop name="_title">
+                <titl>Riadky zostavy (Štandartný predpis, Používateľský predpis)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sestavy">
+            <prop name="_title">
+                <titl>Účtovné zostavy</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKarty">
+            <prop name="_title">
+                <titl>Prehľad skladových kariet</titl>
+            </prop>
+            <prop name="cenaTuz">
+                <titl>Cena [%currency-symbol]</titl>
+            </prop>
+            <prop name="poslCenaTuz">
+                <titl>Posledná</titl>
+            </prop>
+            <prop name="prumCenaTuz">
+                <titl>Priemerná</titl>
+            </prop>
+            <prop name="stav">
+                <titl>Stav zásob</titl>
+            </prop>
+            <prop name="stavMen">
+                <titl>[mena]</titl>
+            </prop>
+            <prop name="stavMJ">
+                <titl>v MJ</titl>
+            </prop>
+            <prop name="stavTuz">
+                <titl>[%currency-symbol]</titl>
+            </prop>
+            <prop name="sumPrijem">
+                <titl>Príjem:</titl>
+            </prop>
+            <prop name="sumVydej">
+                <titl>Výdaj:</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKarty$$SKL$$NES">
+            <prop name="_title">
+                <titl>Prehľad skladových kariet (s pohybmi)</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKarty$$SKL$$NES_STR">
+            <prop name="_title">
+                <titl>Prehľad skladových kariet (s pohybmi, stránkovaný)</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKartyInventura">
+            <prop name="_title">
+                <titl>Inventurný súpis tovaru</titl>
+            </prop>
+            <prop name="naSklade">
+                <titl>Skutočný stav</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKartyInventura$$NES">
+            <prop name="_title">
+                <titl>Inventurný súpis tovaru (bez stavov)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sklPol$$SKL">
+            <prop name="_title">
+                <titl>Zoznam skladových pohybů</titl>
+            </prop>
+        </rpt>
+        <rpt name="sklRezervace">
+            <prop name="_title">
+                <titl>Zoznam rezervací</titl>
+            </prop>
+        </rpt>
+        <rpt name="sklVyrCis">
+            <prop name="_title">
+                <titl>Zoznam výrobných čísiel</titl>
+            </prop>
+        </rpt>
+        <rpt name="skupFir">
+            <prop name="_title">
+                <titl>Skupiny firiem</titl>
+            </prop>
+        </rpt>
+        <rpt name="skupZboz">
+            <prop name="_title">
+                <titl>Skupiny tovarov</titl>
+            </prop>
+        </rpt>
+        <rpt name="slozenkaA">
+            <prop name="_title">
+                <titl>Poštová dobierková poukážka A</titl>
+            </prop>
+        </rpt>
+        <rpt name="smerKod">
+            <prop name="_title">
+                <titl>Kódy bánk</titl>
+            </prop>
+        </rpt>
+        <rpt name="souhrnneHlaseni">
+            <prop name="_title">
+                <titl>Súhrnné hlásenie</titl>
+            </prop>
+        </rpt>
+        <rpt name="souhrnnyVykazOPrijmechAVydajich">
+            <prop name="_title">
+                <titl>Súhrnný výkaz o príjmoch a výdavkoch</titl>
+            </prop>
+            <prop name="danEvidSkupina.nespadaCelkem">
+                <titl>Nespadá do j. ú. celkom</titl>
+            </prop>
+            <prop name="danEvidSkupina.nevyplnenoCelkem">
+                <titl>Nevyplnené celkom</titl>
+            </prop>
+            <prop name="danEvidSkupina.ostatniCelkem">
+                <titl>Ostatné celkom</titl>
+            </prop>
+            <prop name="danEvidSkupina.prijemCelkem">
+                <titl>Príjmy celkom</titl>
+            </prop>
+            <prop name="danEvidSkupina.vydejCelkem">
+                <titl>Výdavky celkom</titl>
+            </prop>
+            <prop name="nevyplneno">
+                <titl>Nevyplnené</titl>
+            </prop>
+            <prop name="rozdilPrijemVydej">
+                <titl>Rozdiel príjmov a výdavkov</titl>
+            </prop>
+        </rpt>
+        <rpt name="Staty">
+            <prop name="_title">
+                <titl>Štáty</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavSkladu">
+            <prop name="_title">
+                <titl>Stav skladu k dátumu</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavyHlavniKniha">
+            <prop name="_title">
+                <titl>Hlavná kniha (súhrnné obraty za mesiac)</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavyUctu">
+            <prop name="_title">
+                <titl>Stavy účtov</titl>
+            </prop>
+            <prop name="Dal">
+                <titl>Dal</titl>
+            </prop>
+            <prop name="Md">
+                <titl>Má dať</titl>
+            </prop>
+            <prop name="obrat">
+                <titl>Obrat</titl>
+            </prop>
+            <prop name="zaUcetObdobi">
+                <titl>Za účtovné obdobie</titl>
+            </prop>
+            <prop name="zustatek">
+                <titl>Zostatok</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavyUctuPocatky">
+            <prop name="_title">
+                <titl>Počiatočné stavy účtov - kontrolná tlač</titl>
+            </prop>
+        </rpt>
+        <rpt name="stitky">
+            <prop name="_title">
+                <titl>Regálové štítky (70x30 mm)</titl>
+            </prop>
+            <prop name="za">
+                <titl>za</titl>
+            </prop>
+        </rpt>
+        <rpt name="strediska">
+            <prop name="_title">
+                <titl>Strediská</titl>
+            </prop>
+        </rpt>
+        <rpt name="TypDokl">
+            <prop name="_title">
+                <titl>Prehľad typov dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="TypDokl$$BAN">
+            <prop name="_title">
+                <titl>Zoznam typov bankových dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="TypDokl$$POK">
+            <prop name="_title">
+                <titl>Zoznam typov pokladničných dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="typDoklSkl$$SKL">
+            <prop name="_title">
+                <titl>Zoznam typov skladových dokladov</titl>
+            </prop>
+        </rpt>
+        <rpt name="typLeasingu">
+            <prop name="_title">
+                <titl>Typy leasingov</titl>
+            </prop>
+        </rpt>
+        <rpt name="typUcetOp">
+            <prop name="_title">
+                <titl>Zoznam predpisov zaúčtovania</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniDenik">
+            <prop name="_title">
+                <titl>Účtovný denník</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniObdobi">
+            <prop name="_title">
+                <titl>Účtovné obdobie</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniOsnova">
+            <prop name="_title">
+                <titl>Účtovná osnova</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniRozvrh">
+            <prop name="_title">
+                <titl>Účtovný rozvrh</titl>
+            </prop>
+        </rpt>
+        <rpt name="uhrazeneDoklady">
+            <prop name="_title">
+                <titl>Uhradené doklady</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Čiastka</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="zbyvaSparovat">
+                <titl>Zostáva spárovať</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Zostáva uhradiť</titl>
+            </prop>
+        </rpt>
+        <rpt name="upominka">
+            <prop name="_title">
+                <titl>Upomienka</titl>
+            </prop>
+            <prop name="adresaDodavatele">
+                <titl>Adresa dodávateľa:</titl>
+            </prop>
+        </rpt>
+        <rpt name="uzaverkoveOperace">
+            <prop name="_title">
+                <titl>Uzávierkové operácie</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="mezisoucetObratu">
+                <titl>Medzisúčet obratov</titl>
+            </prop>
+            <prop name="zisk">
+                <titl>Zisk 710 / 702</titl>
+            </prop>
+            <prop name="ztrata">
+                <titl>Strata 702 / 710</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazCenPohyby">
+            <prop name="_title">
+                <titl>Nákupné, predajné a skladové pohyby</titl>
+            </prop>
+            <prop name="sumCelkemFAP">
+                <titl>Faktúry prijaté</titl>
+            </prop>
+            <prop name="sumCelkemFAV">
+                <titl>Faktúry vydané</titl>
+            </prop>
+            <prop name="sumCelkemPOKPrijem">
+                <titl>Pokladňa - príjem</titl>
+            </prop>
+            <prop name="sumCelkemPOKVydej">
+                <titl>Pokladňa - výdaj</titl>
+            </prop>
+            <prop name="sumCelkemSKLPrijem">
+                <titl>Sklad - príjem</titl>
+            </prop>
+            <prop name="sumCelkemSKLVydej">
+                <titl>Sklad - výdaj</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazDanEvidSK">
+            <prop name="_title">
+                <titl>Položkový výkaz o príjmoch a výdavkoch</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazHospodareni">
+            <prop name="_title">
+                <titl>Výkaz hospodárenia</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Mesiac</titl>
+            </prop>
+            <prop name="rok">
+                <titl>Rok</titl>
+            </prop>
+            <prop name="vykazHospodareniZa">
+                <titl>Výkaz hospodárenia za mesiac</titl>
+            </prop>
+            <prop name="zahrnovany">
+                <titl>zahrňované</titl>
+            </prop>
+            <prop name="ziskZtrata">
+                <titl>Zisk (+), strata (-)</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazMossPrehled">
+            <prop name="_title">
+                <titl>Daňové priznanie MOSS (prehľad)</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka">
+            <prop name="vysledovka">
+                <titl>Výkaz ziskov a strát</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka$$NES">
+            <prop name="_title">
+                <titl>Výkaz ziskov a strát v plnom rozsahu</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka$$SUM">
+            <prop name="_title">
+                <titl>Výkaz ziskov a strát ve zjednodušenom rozsahu</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka$$SUM_ZAKL">
+            <prop name="_title">
+                <titl>Výkaz ziskov a strát v základnom rozsahu</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovkaPoUctechObraty">
+            <prop name="_title">
+                <titl>Súpis nákladov a výnosov (obraty)</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovkaPoUctechStavy">
+            <prop name="_title">
+                <titl>Súpis nákladov a výnosov (zostatky)</titl>
+            </prop>
+        </rpt>
+        <rpt name="Zakazka">
+            <prop name="_title">
+                <titl>Zákazky</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapocetPohledavek">
+            <prop name="_title">
+                <titl>Dohoda o vzájomnom zápočte pohľadávok</titl>
+            </prop>
+            <prop name="a">
+                <titl>a</titl>
+            </prop>
+            <prop name="celkemZapocteno">
+                <titl>Celkom započítané:</titl>
+            </prop>
+            <prop name="cisDokl">
+                <titl>Doklad</titl>
+            </prop>
+            <prop name="cisloZapoctu">
+                <titl>Číslo zápočtu</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Splatnosť</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Vystavené</titl>
+            </prop>
+            <prop name="dohoda">
+                <titl>Dohoda o vzájomnom započítaní pohľadávok</titl>
+            </prop>
+            <prop name="obeStrany">
+                <titl>Obe strany sa ku dňu %p dohodli na vzájomnom zápočte čiastky %p %p.</titl>
+            </prop>
+            <prop name="podleParagrafu">
+                <titl>podľa §364 Obchodného zákonníka a §580 Občianskeho zákonníka</titl>
+            </prop>
+            <prop name="podleParagrafu1982">
+                <titl>podľa §1982 Občianskeho zákonníka</titl>
+            </prop>
+            <prop name="pohledavka">
+                <titl>pohľadávka firmy %p za firmu %p:</titl>
+            </prop>
+            <prop name="potvrzenouKopii">
+                <titl>Potvrdenú kópiu zašlite, prosím, späť na našu adresu.</titl>
+            </prop>
+            <prop name="seDohodli">
+                <titl>uzatvárajú dohodu o vzájomnom zápočte nižšie uvedených pohľadávok a záväzkov</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Fakturované</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>VS</titl>
+            </prop>
+            <prop name="za">
+                <titl>za %p</titl>
+            </prop>
+            <prop name="zapocteno">
+                <titl>Započítané</titl>
+            </prop>
+            <prop name="zavazek">
+                <titl>záväzok firmy %p voči firme %p:</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Zostáva uhradiť</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapocetPohledavekJednostranny">
+            <prop name="_title">
+                <titl>Jednostranný zápočet pohľadávok</titl>
+            </prop>
+            <prop name="dohoda">
+                <titl>Jednostranný zápočet pohľadávok a záväzkov</titl>
+            </prop>
+            <prop name="podleParagrafu">
+                <titl>podľa §364-368 Obchodného zákonníka a §580-581 Občianského zákonníka</titl>
+            </prop>
+            <prop name="podleParagrafu1982">
+                <titl>podľa §1982 Občianského zákonníka</titl>
+            </prop>
+            <prop name="sdelujemeVam">
+                <titl>Oznamujeme Vám, že ku dňu %p započítavame nižšie uvedené pohľadávky a záväzky:</titl>
+            </prop>
+            <prop name="sPozdravem">
+                <titl>S pozdravom</titl>
+            </prop>
+            <prop name="vSidloOrganizaceDne">
+                <titl>V %p dňa %p.</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapujcky">
+            <prop name="_title">
+                <titl>Majetok - zápožičky</titl>
+            </prop>
+        </rpt>
+        <rpt name="zebraStitkyMaster$$cenAkt$$SUM">
+            <prop name="_title">
+                <titl>Regálové štítky (Zebra, 50x30mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="zebraStitkyMaster$$NES">
+            <prop name="_title">
+                <titl>Štítky (Zebra, 50x30mm, pre kus na položke dokladu)</titl>
+            </prop>
+        </rpt>
+        <rpt name="zebraStitkyMaster$$SUM">
+            <prop name="_title">
+                <titl>Štítky (Zebra, 50x30mm, pre položku dokladu)</titl>
+            </prop>
+        </rpt>
+    </reports>
+</config>

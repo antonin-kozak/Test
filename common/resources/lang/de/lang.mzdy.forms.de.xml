@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/de/lang.mzdy.forms.de.xml
+   Created on  : 25. 04. 2024, 08:32
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <formsInfo>
+        <fi name="perDite">
+            <titl>Kind</titl>
+        </fi>
+        <fi name="perOsoba">
+            <titl>Personalwesen</titl>
+            <desc>Alle Informationen über Arbeitnehmer oder Bewerber geben Sie hier ein. Eingabe ist mit Hilfe der Lesezeichen nach Bedeutung der Angaben gegliedert. Im oberen Teil sind Grundinformationen und Parameter für die Lohnberechnung. Im unteren Teil gibt es Arbeitsverhältnisse, feste Lohnkomponenten, Abzüge, Kinder usw. Feste Lohnkomponenten beinhalten auch Vorschrift, welche Lohnkomponenten sich regelmässig wiederholen. Das Programm ergänzt diese automatisch in jeden Monat je nach Umfang der Gültigkeit.</desc>
+            <icon>win/personalistika.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="perOsobaHlav">
+            <titl>Kopfzeile Personen</titl>
+        </fi>
+        <fi name="perNeprit">
+            <titl>Abwesenheit</titl>
+        </fi>
+        <fi name="perCisMzdSloz">
+            <titl>Stammdaten von Lohnkomponenten</titl>
+        </fi>
+        <fi name="perCisMzdSlozUziv">
+            <titl>Einstellung der Lohnkomponenten</titl>
+            <desc>Hier können Sie die Parameter der Zuschläge ändern. Die Stammdaten beinhalten vom Anwender definierte Komponenten der Zuschläge, Belohnungen und Abzüge</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="perPracPom">
+            <titl>Arbeitsverhältnis</titl>
+        </fi>
+        <fi name="perPracPomHlav">
+            <titl>Arbeitsverhältnis</titl>
+        </fi>
+        <fi name="perTypPracPom">
+            <titl>Art von Arbeitsverhältnis</titl>
+        </fi>
+        <fi name="perPrumer">
+            <titl>Durchschnitt</titl>
+        </fi>
+        <fi name="perPraceStred">
+            <titl>Arbeit für Kostenstellen</titl>
+        </fi>
+        <fi name="perSkupOsob">
+            <titl>Personen-Gruppen</titl>
+            <desc>Personen-Gruppen ermöglichen, die Arbeitnehmer oder Bewerber in Gruppen nach gemeinsamen Eigenschaften zu gliedern, z.B. Arbeiter, Landwirte, Büromitarbeiter.</desc>
+            <icon>win/type-skupiny-osob.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="perSmeny">
+            <titl>Schichten</titl>
+        </fi>
+        <fi name="perSrazka">
+            <titl>Abzug</titl>
+        </fi>
+        <fi name="perMzdSloz">
+            <titl>Lohnkomponenten Input und Output</titl>
+            <desc>Input und Auswahl von Lohnkomponenten hat drei wichtige Funktionen. Die erste Funktion stellt die Möglichkeit dar, die Löhne nicht nach Arbeitnehmern, sondern nach Komponenten einzugehen. Ein Beispiel kann Sammeleingabe von Prämien sein. In dem Inputfeld wählen Sie die Komponente der Belohnung, dann Periode und Arbeitnehmer. Sie geben die Summe ein und drücken Taste "Speichern neu". Programm bietet automatisch den nächsten Arbeitnehmer und Sie geben eine andere Summe ein (Die Löhne sind dann in der Funktion "Aktualisierung von Löhnen" zu bearbeiten). Die zweite Funktion ist die Möglichkeit einer einfachen Filterung in allen Lohnkomponenten und des folgenden Ausdruckens. Die dritte Funktion ermöglicht die Rekapitulation von Lohnkomponenten (Gruppierung) nach Jahren, Quartalen, Kostenstellen, usw.</desc>
+            <icon>win/mzdove-slozky.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="perStalaMzdSloz">
+            <titl>Feste Lohnkomponente</titl>
+        </fi>
+        <fi name="perAktualMzdy">
+            <titl>Übersicht der Löhne für Arbeitnehmer</titl>
+            <desc>Sie können die Löhne in allen Monaten aktualisieren, die von dem berechtigten Benutzer nicht gesperrt sind. Sie können den Lohn für alle Arbeitnehmer in der Liste oder für jeden Arbeitnehmer getrennt berechnen. Abwesenheit geben Sie mit der Taste "Aktualisierung der Abwesenheit" ein. Die Eingabe ist nicht von der eingestellten Periode abhängig. Sie können Abwesenheit eingeben, die in einem Monat beginnt und in einem anderen endet. Es kommt zur automatischen Generierung der "monatlichen Komponenten" für jeden Monat getrennt.</desc>
+            <icon>win/aktualizace-mezd.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="perAktualMzdyE">
+            <titl>Aktualisierung von Löhnen</titl>
+        </fi>
+        <fi name="perMzdCalcHlav">
+            <titl>Kopfzeile - Lohnkalkulator</titl>
+        </fi>
+        <fi name="perMzdCalcInit">
+            <titl>Intialisierungszeile von Lohnkalkulator</titl>
+        </fi>
+        <fi name="perMzdCalc">
+            <titl>Lohnberechnung</titl>
+        </fi>
+        <fi name="perTypPracPomParam">
+            <titl>Parameter - Art von Arbeitsverhältnis</titl>
+        </fi>
+        <fi name="perMzdCalcHrom">
+            <titl>Sammeloperation von Lohnkalkulator</titl>
+        </fi>
+        <fi name="perBanSpojMzdy">
+            <titl>Bankverbindung</titl>
+        </fi>
+        <fi name="prehledZamestnancu">
+            <titl>Liste der Arbeitnehmer</titl>
+            <icon>win/adresar.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="mzdyVystup000">
+            <titl>Lohn - Outputs</titl>
+            <desc>Legislative Lohn-Outputs für AHV, Krankenkassen und Finanzamt.</desc>
+            <icon>win/predpis.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="mzdyVystOssz">
+            <titl>Für AHV</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="mzdyVystZdrPoj">
+            <titl>Für Krankenkassen</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystFinUr">
+            <titl>Für Finanzamt</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="mzdyVystMzdVyst">
+            <titl>Lohnoutputs</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="mzdyVystOst">
+            <titl>Sonstige</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszPrehledPoj">
+            <titl>Übersicht von der Höhe des Versicherungsbeitrags (Ges. Nr. 589/1992 Slg.)</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszOznam">
+            <titl>Mitteilung - Berufseinstieg/Berufsende</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszEldp">
+            <titl>AHV-Registration</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszOzuspoj">
+            <titl>###Oznámení záměru uplatňovat slevu na pojistném za zaměstnance</titl>
+        </fi>
+        <fi name="mzdyVystupDanVypocet">
+            <titl>Verrechnung von Steuer und Steuerbegünstigung</titl>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="mzdyVystupPodklVyucDane">
+            <titl>Verrechnungsunterlagen für Einkommensteuer</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="mzdyVystupMzdovyList">
+            <titl>Lohnlisten</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="mzdyVystupZapoctak">
+            <titl>Arbeitsbestätigung (Arbeitslaufzettel)</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="prehledMzdSlozek">
+            <titl>Rekapitulation der Lohnkomponenten</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystupPracPravPrum">
+            <titl>Arbeitsrechtliche Durchschnitte</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="mzdyVystupDovolCerpani">
+            <titl>Übersicht des bezogenen Urlaubs</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="mzdyVystupPrehlPracPom">
+            <titl>Übersicht der Arbeitsverhältnisse</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="mzdyVystupPrilZadosti">
+            <titl>Beilage zu Antrag auf Krankengeld</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="mzdyVystupHzupn">
+            <titl>Arbeitgeberbericht über die Beendigung der Arbeitsunfähigkeit</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystupZdrHromOzn">
+            <titl>Sammelmeldung der Arbeitgeber</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="mzdyVystupZdrPrehledPoj">
+            <titl>Übersicht der Zahlung des Versicherungsbeitrags</titl>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="mzdyVystupPojOdpovednosti">
+            <titl>Haftpflichtversicherung</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="mzdyVystupIspv">
+            <titl>Lohninformationssystem</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="mzdyPotOZdanPrijmech">
+            <titl>Bestätigung der steuerbaren Einkommen</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="mzdyDuchSporHlaseni">
+            <titl>Versicherungshöhe für Rentensparen</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyDuchSporVyuc">
+            <titl>Abrechnung des Beitrags zum Rentensparen</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="mzdyVystupPrepPocZam">
+            <titl>Umgerechnete Zahl der Angestellten</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="mzdyVystupPrumCistyVyd">
+            <titl>Berechnung des durchschnittlichen Nettolohns</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="perMzdSlozFond">
+            <titl>Arbeitszeitfonds</titl>
+        </fi>
+        <fi name="perMzdSlozNeprit">
+            <titl>Abwesenheit</titl>
+        </fi>
+        <fi name="perMzdSlozZaklMzda">
+            <titl>Grundlohn</titl>
+        </fi>
+        <fi name="perMzdSlozOdmeny">
+            <titl>Prämien</titl>
+        </fi>
+        <fi name="perMzdSlozDan">
+            <titl>Steuer</titl>
+        </fi>
+        <fi name="perMzdSlozZdrPoj">
+            <titl>Krankenversicherung</titl>
+        </fi>
+        <fi name="perMzdSlozSocPoj">
+            <titl>Sozialversicherung</titl>
+        </fi>
+        <fi name="perMzdSlozSrazky">
+            <titl>Abzüge</titl>
+        </fi>
+        <fi name="perMzdSlozSum">
+            <titl>Summe</titl>
+        </fi>
+        <fi name="perMzdSlozHruba">
+            <titl>Bruttolohn</titl>
+        </fi>
+        <fi name="perMzdSlozIspv">
+            <titl>Lohninformationssystem</titl>
+        </fi>
+        <fi name="perMzdSlozBenefity">
+            <titl>###Benefity</titl>
+        </fi>
+        <fi name="perMzdSlozPrispevky">
+            <titl>###Příspěvky</titl>
+        </fi>
+        <fi name="mzdExternalId">
+            <titl>Externes ID für Löhne</titl>
+        </fi>
+        <fi name="mzdUcel">
+            <titl>Zwecke</titl>
+        </fi>
+    </formsInfo>
+</config>

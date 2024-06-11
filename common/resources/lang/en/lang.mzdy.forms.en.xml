@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/en/lang.mzdy.forms.en.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <formsInfo>
+        <fi name="perDite">
+            <titl>Child</titl>
+        </fi>
+        <fi name="perOsoba">
+            <titl>Human resources management</titl>
+            <desc>You enter all data about employee or job applicant. Entry is divided into sections according to meaning of data. Basic information and parameters for wage calculation are in the upper part. Labour relations, permanent wage components, deductions, children, etc. are in the lower part. Permanent wage components include rule which wage components are regularly repeated. Program will automatically fill them into each month according to their validity extent.</desc>
+            <icon>win/personalistika.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="perOsobaHlav">
+            <titl>Headings of persons</titl>
+        </fi>
+        <fi name="perNeprit">
+            <titl>Absence</titl>
+        </fi>
+        <fi name="perCisMzdSloz">
+            <titl>Wage items codelist</titl>
+        </fi>
+        <fi name="perCisMzdSlozUziv">
+            <titl>Codelist of wage units</titl>
+            <desc>You can change here parameters of surcharges. Codebook also includes so-called user defined files of surcharges, bonuses and deductions.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="perPracPom">
+            <titl>Labour engagement</titl>
+        </fi>
+        <fi name="perPracPomHlav">
+            <titl>Employment relationship</titl>
+        </fi>
+        <fi name="perTypPracPom">
+            <titl>Labour engagement type</titl>
+        </fi>
+        <fi name="perPrumer">
+            <titl>Average</titl>
+        </fi>
+        <fi name="perPraceStred">
+            <titl>Work for centres</titl>
+        </fi>
+        <fi name="perSkupOsob">
+            <titl>Groups of persons</titl>
+            <desc>Group of persons enable to classify employees or job applicants into groups with common characteristics. For example workers, farmers or working intelligence.</desc>
+            <icon>win/type-skupiny-osob.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="perSmeny">
+            <titl>Shifts</titl>
+        </fi>
+        <fi name="perSrazka">
+            <titl>Deduction</titl>
+        </fi>
+        <fi name="perMzdSloz">
+            <titl>Wage item</titl>
+            <desc>Input and selection of wage components has three basic functions. First function is the possibility of wage input not according to employees but according to components. Multiple bonus entry can be a good example. In the initial window you select corresponding bonus component, period and employees. After entering amount and pushing the button "save and new", program will automatically offer next employee where you enter different amount (It's necessary to process the function "Update wages"). Second function is the possibility of easy filtration in all components of wage and following print. Third function enables recapitulation of wage components (grouping) by years, quarters, centres, etc.</desc>
+            <icon>win/mzdove-slozky.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="perStalaMzdSloz">
+            <titl>Permanent wage item</titl>
+        </fi>
+        <fi name="perAktualMzdy">
+            <titl>Wage update</titl>
+            <desc>You can update wages in all months that aren't locked by entitled user. You can calculate wage for all employees in list or individually for each employee. Entering absence with the button "Update absence". Entry is independent of set period. You can easily enter absence that starts in one month and ends in a different one. Automatic generation of "month components" separately for each month will be executed.</desc>
+            <icon>win/aktualizace-mezd.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="perAktualMzdyE">
+            <titl>Wage update</titl>
+        </fi>
+        <fi name="perMzdCalcHlav">
+            <titl>Wage calculator heading</titl>
+        </fi>
+        <fi name="perMzdCalcInit">
+            <titl>Initialize line of wage calculator</titl>
+        </fi>
+        <fi name="perMzdCalc">
+            <titl>Wage calculator line</titl>
+        </fi>
+        <fi name="perTypPracPomParam">
+            <titl>Labour engagement type parameter</titl>
+        </fi>
+        <fi name="perMzdCalcHrom">
+            <titl>Wage calculator mass operation</titl>
+        </fi>
+        <fi name="perBanSpojMzdy">
+            <titl>Bank connection</titl>
+        </fi>
+        <fi name="prehledZamestnancu">
+            <titl>Employee overview</titl>
+            <icon>win/adresar.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="mzdyVystup000">
+            <titl>Wage outputs</titl>
+            <desc>Legislative wage outputs for ČSSZ, health insurance funds and revenue authorities.</desc>
+            <icon>win/predpis.png</icon>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="mzdyVystOssz">
+            <titl>For OSSZ</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="mzdyVystZdrPoj">
+            <titl>For health insurance funds</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="mzdyVystFinUr">
+            <titl>For financial regulator</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystMzdVyst">
+            <titl>Wage outputs</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="mzdyVystOst">
+            <titl>Other</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszPrehledPoj">
+            <titl>Social insurance overview</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszOznam">
+            <titl>Advice of start/end of working period</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszEldp">
+            <titl>ELDP</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszOzuspoj">
+            <titl>###Oznámení záměru uplatňovat slevu na pojistném za zaměstnance</titl>
+        </fi>
+        <fi name="mzdyVystupDanVypocet">
+            <titl>Calculation of tax and tax preferences</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="mzdyVystupPodklVyucDane">
+            <titl>Inputs for accounting income tax withholding from dependent activities</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="mzdyVystupMzdovyList">
+            <titl>Wage slips</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="mzdyVystupZapoctak">
+            <titl>Certificate of employment (list of offsets)</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="prehledMzdSlozek">
+            <titl>Wage components summary</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="mzdyVystupPracPravPrum">
+            <titl>Employment averages</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="mzdyVystupDovolCerpani">
+            <titl>Overview of leave taking</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="mzdyVystupPrehlPracPom">
+            <titl>Overview of employment relationships</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="mzdyVystupPrilZadosti">
+            <titl>Supplement to sickness benefit application</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="mzdyVystupHzupn">
+            <titl>Employer's report on termination of work incapacity</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="mzdyVystupZdrHromOzn">
+            <titl>Health Insurance funds - Employer batch notice</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="mzdyVystupZdrPrehledPoj">
+            <titl>Health insurance funds - Premium payment overview</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="mzdyVystupPojOdpovednosti">
+            <titl>Legal liability insurance</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="mzdyVystupIspv">
+            <titl>ISPV</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="mzdyPotOZdanPrijmech">
+            <titl>Confirmation of taxable earnings</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="mzdyDuchSporHlaseni">
+            <titl>Premiums for retirement savings</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="mzdyDuchSporVyuc">
+            <titl>Calculation of premiums for retirement savings</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="mzdyVystupPrepPocZam">
+            <titl>Recounted number of employees</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystupPrumCistyVyd">
+            <titl>Calculation of average net earnings</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="perMzdSlozFond">
+            <titl>Working time fund</titl>
+        </fi>
+        <fi name="perMzdSlozNeprit">
+            <titl>Absences</titl>
+        </fi>
+        <fi name="perMzdSlozZaklMzda">
+            <titl>Basic wage</titl>
+        </fi>
+        <fi name="perMzdSlozOdmeny">
+            <titl>Bonuses</titl>
+        </fi>
+        <fi name="perMzdSlozDan">
+            <titl>Income tax</titl>
+        </fi>
+        <fi name="perMzdSlozZdrPoj">
+            <titl>Health insurance</titl>
+        </fi>
+        <fi name="perMzdSlozSocPoj">
+            <titl>Social insurance</titl>
+        </fi>
+        <fi name="perMzdSlozSrazky">
+            <titl>Deductions</titl>
+        </fi>
+        <fi name="perMzdSlozSum">
+            <titl>Summarization</titl>
+        </fi>
+        <fi name="perMzdSlozHruba">
+            <titl>Gross wage</titl>
+        </fi>
+        <fi name="perMzdSlozIspv">
+            <titl>ISPV</titl>
+        </fi>
+        <fi name="perMzdSlozBenefity">
+            <titl>###Benefity</titl>
+        </fi>
+        <fi name="perMzdSlozPrispevky">
+            <titl>###Příspěvky</titl>
+        </fi>
+        <fi name="mzdExternalId">
+            <titl>External ID for wage</titl>
+        </fi>
+        <fi name="mzdUcel">
+            <titl>Purposes</titl>
+        </fi>
+    </formsInfo>
+</config>

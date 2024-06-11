@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/sk/lang.mzdy.reports.sk.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <reports>
+        <rpt name="global">
+        </rpt>
+        <rpt name="5457_26">
+            <prop name="_title">
+                <titl>Vyhlásenie daňovníka dane z príjmov fyzických osôb zo závislej činnosti (vzor číslo 26)</titl>
+            </prop>
+        </rpt>
+        <rpt name="5457_27$$NES">
+            <prop name="_title">
+                <titl>Vyhlásenie daňovníka dane z príjmov fyzických osôb zo závislej činnosti (vzor číslo 27)</titl>
+            </prop>
+        </rpt>
+        <rpt name="5457_B">
+            <prop name="_title">
+                <titl>Žiadosť o ročné zúčtovanie preddavkov a daňový úver (vzor číslo 2)</titl>
+            </prop>
+        </rpt>
+        <rpt name="5457_B_v3">
+            <prop name="_title">
+                <titl>Žiadosť o ročné zúčtovanie preddavkov a daňový úver (vzor číslo 3)</titl>
+            </prop>
+        </rpt>
+        <rpt name="cerpaniDovolene">
+            <prop name="_title">
+                <titl>Čerpanie dovolenky</titl>
+            </prop>
+        </rpt>
+        <rpt name="dovolena">
+            <prop name="_title">
+                <titl>Dovolenka</titl>
+            </prop>
+        </rpt>
+        <rpt name="finPodkladyDan">
+            <prop name="_title">
+                <titl>Podklady pre vyúčtovanie zálohovej dane z príjmu zo závislej činnosti</titl>
+            </prop>
+            <prop name="bonus">
+                <titl>Bonus</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Mesiac</titl>
+            </prop>
+            <prop name="opravaBonusu">
+                <titl>Oprava bonusu</titl>
+            </prop>
+            <prop name="opravaDane">
+                <titl>Oprava dane</titl>
+            </prop>
+            <prop name="pocetZamestnancu">
+                <titl>Počet zamestnancov</titl>
+            </prop>
+            <prop name="vyuctovaniPredchoziho">
+                <titl>Vyúčtovanie predchádzajúceho</titl>
+            </prop>
+            <prop name="zalohovaDan">
+                <titl>Zálohová daň</titl>
+            </prop>
+            <prop name="zaRok">
+                <titl>za rok</titl>
+            </prop>
+        </rpt>
+        <rpt name="finPodkladyDanSrazka">
+            <prop name="_title">
+                <titl>Podklady pre vyúčtovanie zrážkovej dane zo závislej činnosti</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Mesiac</titl>
+            </prop>
+            <prop name="opravaDane">
+                <titl>Oprava dane</titl>
+            </prop>
+            <prop name="srazkovaDan">
+                <titl>Zrážková daň</titl>
+            </prop>
+        </rpt>
+        <rpt name="finPrehledDan">
+            <prop name="_title">
+                <titl>Prehľad daní z príjmu</titl>
+            </prop>
+            <prop name="danovyZaklad">
+                <titl>Základ dane</titl>
+            </prop>
+            <prop name="rezidentDan">
+                <titl>Daň rezident</titl>
+            </prop>
+            <prop name="srazkovaDan">
+                <titl>Zrážková daň</titl>
+            </prop>
+            <prop name="zalohovaDan">
+                <titl>Zálohová daň</titl>
+            </prop>
+        </rpt>
+        <rpt name="finPrehledDanSrazka">
+            <prop name="_title">
+                <titl>Prehľad daní z príjmu - zrážková daň</titl>
+            </prop>
+        </rpt>
+        <rpt name="mzdSlozVstupAVybery">
+            <prop name="_title">
+                <titl>Prehľad mzdových zložiek (vstup a výbery)</titl>
+            </prop>
+        </rpt>
+        <rpt name="neodpracDobaNemocPojist">
+            <prop name="_title">
+                <titl>Neodpracovaná doba - nemocenské poistenie</titl>
+            </prop>
+        </rpt>
+        <rpt name="nepritomnost">
+            <prop name="castMzd">
+                <titl>Čiastka</titl>
+            </prop>
+            <prop name="cisSlozky">
+                <titl>Číslo zložky</titl>
+            </prop>
+            <prop name="datumDo">
+                <titl>Dátum do</titl>
+            </prop>
+            <prop name="datumOd">
+                <titl>Dátum od</titl>
+            </prop>
+            <prop name="dnyKalen">
+                <titl>Dni kalen.</titl>
+            </prop>
+            <prop name="dnyPrac">
+                <titl>Dni prac.</titl>
+            </prop>
+            <prop name="hlavicka">
+                <titl>Dôchodok, invalidita, vyňatie z evidencie \nDávky nemocenského poistenia \nDovolenka, ostatná neodpracovaná doba</titl>
+            </prop>
+            <prop name="hodiny">
+                <titl>Hodiny</titl>
+            </prop>
+            <prop name="vymerZakl">
+                <titl>Vymer. základ</titl>
+            </prop>
+        </rpt>
+        <rpt name="pracovniPomery">
+            <prop name="_title">
+                <titl>Pracovné pomery</titl>
+            </prop>
+        </rpt>
+        <rpt name="pracPravPrumer">
+            <prop name="_title">
+                <titl>Prehľad pracovno právnych priemerov</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledMzdSlozek">
+            <prop name="_title">
+                <titl>Prehľad mzdových zložiek</titl>
+            </prop>
+            <prop name="pocetPolozek">
+                <titl>Počet</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledZamestnancu">
+            <prop name="_title">
+                <titl>Prehľad zamestnancov</titl>
+            </prop>
+        </rpt>
+        <rpt name="prepPocZam">
+            <prop name="_title">
+                <titl>Prepočítaný počet zamestnancov</titl>
+            </prop>
+        </rpt>
+        <rpt name="socPojOdpovednosti">
+            <prop name="_title">
+                <titl>Zákonné poistenie zodpovednosti organizácie</titl>
+            </prop>
+        </rpt>
+        <rpt name="socPrehledPoj">
+            <prop name="_title">
+                <titl>Prehľad sociálneho poistenia</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkom</titl>
+            </prop>
+            <prop name="firma">
+                <titl>Firma</titl>
+            </prop>
+            <prop name="pracovnik">
+                <titl>Pracovník</titl>
+            </prop>
+            <prop name="pracovniPomery">
+                <titl>Pracovné pomery</titl>
+            </prop>
+            <prop name="prispKar">
+                <titl>###Přísp. kar.</titl>
+            </prop>
+            <prop name="slevaSp">
+                <titl>###Sleva SP</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Základ</titl>
+            </prop>
+        </rpt>
+        <rpt name="socPrehledSlevaSp">
+            <prop name="_title">
+                <titl>###Přehled pro slevu SP za firmu pro krácené úvazky</titl>
+            </prop>
+            <prop name="duvod">
+                <titl>###Důvod slevy</titl>
+            </prop>
+            <prop name="hodMzda">
+                <titl>###Částka/hodina</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>###Měsíc</titl>
+            </prop>
+            <prop name="mesMzda">
+                <titl>###Částka/měsíc</titl>
+            </prop>
+            <prop name="pocetHodin">
+                <titl>###Hodin/měsíc</titl>
+            </prop>
+            <prop name="podmHodMzda">
+                <titl>###Podm. částka hod.</titl>
+            </prop>
+            <prop name="podmMesMzda">
+                <titl>###Podm. částka měsíc</titl>
+            </prop>
+            <prop name="podmPocetHodin">
+                <titl>###Podm. počet hodin</titl>
+            </prop>
+            <prop name="podmSplneny">
+                <titl>###Sleva uplatněna</titl>
+            </prop>
+            <prop name="stropHodinMesic">
+                <titl>###Limit hodin/měsíc</titl>
+            </prop>
+        </rpt>
+        <rpt name="vycetkaPlatidel">
+            <prop name="_title">
+                <titl>Súpiska platidiel</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Čiastka</titl>
+            </prop>
+        </rpt>
+        <rpt name="vyplatniPaska">
+            <prop name="_title">
+                <titl>Výplatná páska</titl>
+            </prop>
+            <prop name="pojisteni">
+                <titl>Poistenie</titl>
+            </prop>
+            <prop name="pojistne">
+                <titl>Poistné</titl>
+            </prop>
+            <prop name="prehledSlozekCastkaMzdy">
+                <titl>[%currency-symbol]</titl>
+            </prop>
+            <prop name="prehledSlozekDny">
+                <titl>[Dni]</titl>
+            </prop>
+            <prop name="prehledSlozekHodiny">
+                <titl>[Hod]</titl>
+            </prop>
+            <prop name="prehledSlozekZaklad">
+                <titl>Základ</titl>
+            </prop>
+            <prop name="prijmeniJmenoATitul">
+                <titl>Priezvisko, meno a titul</titl>
+            </prop>
+            <prop name="shrnuti">
+                <titl>Zhrnutie</titl>
+            </prop>
+            <prop name="zdravotniPojistovna">
+                <titl>Zdravotn8 poisťovňa</titl>
+            </prop>
+        </rpt>
+        <rpt name="vypocetPrepPocZam">
+            <prop name="_title">
+                <titl>###Výpočet přepočteného počtu zaměstnanců</titl>
+            </prop>
+            <prop name="do">
+                <titl>###do</titl>
+            </prop>
+            <prop name="hodFond">
+                <titl>###Fond prac. doby [hod]</titl>
+            </prop>
+            <prop name="hodZapoc">
+                <titl>###Započtené hodiny</titl>
+            </prop>
+            <prop name="hodZapocDovolena">
+                <titl>###Započ. dovolená</titl>
+            </prop>
+            <prop name="hodZapocNemoc">
+                <titl>###Započ. nemoc</titl>
+            </prop>
+            <prop name="hodZapocOdpracovano">
+                <titl>###Započ. odprac.</titl>
+            </prop>
+            <prop name="hodZapocPrekazky">
+                <titl>###Započ. překážky</titl>
+            </prop>
+            <prop name="hodZapocVolnoPlacene">
+                <titl>###Započ. volno placené</titl>
+            </prop>
+            <prop name="obdobi">
+                <titl>###Za období</titl>
+            </prop>
+            <prop name="od">
+                <titl>###od</titl>
+            </prop>
+            <prop name="poZaokrouhleni">
+                <titl>###Po zaokrouhlení:</titl>
+            </prop>
+            <prop name="prepPocZam">
+                <titl>###Přep. počet zam.</titl>
+            </prop>
+            <prop name="prepPocZamZtp">
+                <titl>###Přep. počet zam. ZTP</titl>
+            </prop>
+            <prop name="vzorecekVypoctu">
+                <titl>###Přepočtený počet zaměstnanců se počítá jako "započteno\fond".\nDo započtených hodin se započítávají tyto složky: %slozkyVsechny%.\nDo "Započ. odprac." spadá: %slozkyOdprac%. Do "Započ. dovolená" spadá %slozkyDovol%.\nDo "Započ. nemoc" spadá: %slozkyNemoc%.\nDo "Započ. volno placené" spadá: %slozkyVolnoPlac%. Do "Započ. překážky" spadá: %slozkyPrekazky%.\nZahrnují se tyto pracovní poměry: %zahrnovanePP%.</titl>
+            </prop>
+        </rpt>
+        <rpt name="zamestnanci">
+            <prop name="_title">
+                <titl>Personalistika - prehľad</titl>
+            </prop>
+        </rpt>
+        <rpt name="zamMzdovyList">
+            <prop name="_title">
+                <titl>Mzdový list</titl>
+            </prop>
+            <prop name="deti">
+                <titl>Deti</titl>
+            </prop>
+            <prop name="detiJmeno">
+                <titl>Meno, priezvisko</titl>
+            </prop>
+            <prop name="detiRC">
+                <titl>Rodné číslo</titl>
+            </prop>
+            <prop name="detiSleva">
+                <titl>Zľava pre deti</titl>
+            </prop>
+            <prop name="detiSleva1">
+                <titl>1. dieťa (%p Kč/mesiac)</titl>
+            </prop>
+            <prop name="detiSleva1Min">
+                <titl>1. dieťa (%p Kč/mesiac; %p Kč/mesiac od nadobudnutia účinnosti zákona 125/2016 Z. z.)</titl>
+            </prop>
+            <prop name="detiSleva2">
+                <titl>Druhé dieťa (%p Kč/mesiac)</titl>
+            </prop>
+            <prop name="detiSleva2Min">
+                <titl>2. dieťa (%p Kč/mesiac; %p Kč/mesiac od nadobudnutia účinnosti zákona 125/2016 Z. z.)</titl>
+            </prop>
+            <prop name="detiSleva3">
+                <titl>Ďalšie dieťa (%p Kč/mesiac)</titl>
+            </prop>
+            <prop name="detiSleva3Min">
+                <titl>Ďalšie dieťa (%p Kč/mesiac; %p Kč/mesiac od účinnosti zákona 125/2016 Z. z.)</titl>
+            </prop>
+            <prop name="detiZTP">
+                <titl>DISABLED</titl>
+            </prop>
+            <prop name="dite">
+                <titl>dieťa</titl>
+            </prop>
+            <prop name="do">
+                <titl>na</titl>
+            </prop>
+            <prop name="invalidita">
+                <titl>Invalidita</titl>
+            </prop>
+            <prop name="nepBenefity">
+                <titl>Nepeňažné benefity</titl>
+            </prop>
+            <prop name="nezRodCis">
+                <titl>Rodné číslo partnera</titl>
+            </prop>
+            <prop name="od">
+                <titl>od</titl>
+            </prop>
+            <prop name="odpracovanaDoba">
+                <titl>Odpracovaná doba</titl>
+            </prop>
+            <prop name="prechodnaAdresa">
+                <titl>Prechodná adresa</titl>
+            </prop>
+            <prop name="prispevky">
+                <titl>Príspevky</titl>
+            </prop>
+            <prop name="rodneJmeno">
+                <titl>Rodné meno</titl>
+            </prop>
+            <prop name="rok">
+                <titl>Rok</titl>
+            </prop>
+            <prop name="spFirmaSniz">
+                <titl>Sociálna poisťovňa znížila</titl>
+            </prop>
+            <prop name="spolecneProPomery">
+                <titl>Spoločné pre všetky pracovné pomery</titl>
+            </prop>
+            <prop name="trvalaAdresa">
+                <titl>Trvalá adresa</titl>
+            </prop>
+            <prop name="uplatnenaSlevaNaDeti">
+                <titl>Uplatnená zľava na deti</titl>
+            </prop>
+            <prop name="vetaVypocetDane">
+                <titl>V prípade výpočtu dane z príjmov zo závislej činnosti je neoddeliteľnou súčasťou mzdového listu tlačivo Výpočet dane a daňového zvýhodnenia.</titl>
+            </prop>
+            <prop name="vsSocPoj">
+                <titl>VS Soc. poisťovne</titl>
+            </prop>
+            <prop name="zalohaNaDanPoSleve">
+                <titl>Záloha na daň po zľave</titl>
+            </prop>
+            <prop name="zalohaNaDanPoZvyhodneni">
+                <titl>Záloha na daň po zvýhodnení</titl>
+            </prop>
+            <prop name="zamestnance">
+                <titl>Zamestnanca</titl>
+            </prop>
+            <prop name="zdravotniPojistovna">
+                <titl>Zdravotná poisťovňa</titl>
+            </prop>
+        </rpt>
+        <rpt name="zamPodpisArch">
+            <prop name="_title">
+                <titl>Výplata miezd - Podpisový arch</titl>
+            </prop>
+            <prop name="datumPodpisu">
+                <titl>Dátum podpisu</titl>
+            </prop>
+            <prop name="dobirka">
+                <titl>Dobierka</titl>
+            </prop>
+            <prop name="odpracovanoDnu">
+                <titl>Odpracované dní</titl>
+            </prop>
+            <prop name="odpracovanoHodin">
+                <titl>Odpracované hodín</titl>
+            </prop>
+            <prop name="podpis">
+                <titl>Podpis</titl>
+            </prop>
+            <prop name="srazky">
+                <titl>Zrážky</titl>
+            </prop>
+            <prop name="zaloha">
+                <titl>Záloha</titl>
+            </prop>
+            <prop name="zalohaMimoradna">
+                <titl>Záloha mimoriadna</titl>
+            </prop>
+        </rpt>
+        <rpt name="zamPrehledMezd">
+            <prop name="_title">
+                <titl>Prehľad miezd pre zamestnancov</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapoctak">
+            <prop name="_title">
+                <titl>Potvrdenie o zamestnaní (Zápočtový list)</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapoctak$$NES">
+            <prop name="_title">
+                <titl>Potvrdenie o zamestnaní (Zápočtový list) - s dátumom narodenia</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapoctak$$SUM">
+            <prop name="_title">
+                <titl>Potvrdenie o zamestnaní (Zápočtový list) - s rodným číslom</titl>
+            </prop>
+        </rpt>
+        <rpt name="zdrPrehledPoj">
+            <prop name="_title">
+                <titl>Prehľad zdravotného poistenia</titl>
+            </prop>
+            <prop name="zdrPojNull">
+                <titl>Zdravotná poisťovňa nevyplnená</titl>
+            </prop>
+        </rpt>
+    </reports>
+</config>

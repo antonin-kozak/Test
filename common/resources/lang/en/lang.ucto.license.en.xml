@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/en/lang.ucto.license.en.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <buttons>
+        <btn name="registerLicenseDialogRegister">
+            <titl>Register</titl>
+        </btn>
+        <btn name="startLicenceDialogImportovat">
+            <titl>Load licence</titl>
+        </btn>
+        <btn name="startLicenceDialogAktivovat">
+            <titl>Activate version for free</titl>
+        </btn>
+        <btn name="startLicenceDialogBuy">
+            <titl>Buy license</titl>
+        </btn>
+        <btn name="startLicenceDialogRequestTest">
+            <titl>Try free for a month</titl>
+        </btn>
+        <btn name="startLicenceDialogRequestDev">
+            <titl>Ask for a developer license</titl>
+        </btn>
+        <btn name="licenseDialogZavrit">
+            <titl>Close</titl>
+        </btn>
+        <btn name="licenseDialogImportovat">
+            <titl>Import licence</titl>
+        </btn>
+        <btn name="licenseDialogRegister">
+            <titl>Register</titl>
+        </btn>
+        <btn name="registerLicenseDialogNewsLetter">
+            <titl>I want to receive information about new versions</titl>
+        </btn>
+        <btn name="licenseShowUsers">
+            <titl>User login</titl>
+        </btn>
+    </buttons>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="aktivaceProduktu">
+            <titl>Guide for activation of product ABRA Flexi</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="licenceChybaPodepisovani">
+            <titl>Licence signing failed.</titl>
+        </msg>
+        <msg name="licenceChybaNacitani">
+            <titl>Error has occurred during licence reading.</titl>
+        </msg>
+        <msg name="licenceChybaStruktury">
+            <titl>Licence has damaged structure.</titl>
+        </msg>
+        <msg name="licencePrepsat">
+            <titl>Licence already exists in data source. Do you wish to rewrite it?</titl>
+        </msg>
+        <msg name="licenceChybaVytvareni">
+            <titl>Error has occured during licence creation.</titl>
+        </msg>
+        <msg name="licenceNeniPlatnyTyp">
+            <titl>File with licence is invalid. Is it really signed?</titl>
+        </msg>
+        <msg name="licenceNeniPlatna">
+            <titl>Licence is invalid. Please enter valid licence.</titl>
+        </msg>
+        <msg name="licenceNotOnPremisesServer">
+            <titl>Your license does not allow operation on your own server. To change the license, please contact the sales department.</titl>
+        </msg>
+        <msg name="licenseProslaZaruka">
+            <titl>The license, you are trying to upload, expired warranty on %p. The application is, however, a newer and therefore the license cannot be upload.</titl>
+        </msg>
+        <msg name="licenceImportDotaz">
+            <titl>You launched file with ABRA Flexi licence. Do you wish to import it?</titl>
+        </msg>
+        <msg name="licenseImportTitleOk">
+            <titl>Licence was imported.</titl>
+        </msg>
+        <msg name="licenseImportMessageOk">
+            <titl>Licence was successfully imported.</titl>
+        </msg>
+        <msg name="licenceCheckLimitChybaPriKontrole">
+            <titl>It wasn't possible to carry out check of number of records according to licence.</titl>
+        </msg>
+        <msg name="licenceCheckLimitVycerpanNelzeNovyZaznam">
+            <titl>It is not possible to create new record.\nYour3 licence enables to create only %p records in this module.</titl>
+        </msg>
+        <msg name="licenceCheckLimitVycerpanNelzeNovyDoklad">
+            <titl>It is not possible to create new document.\nYour licence enables to create only %p documents in this module.</titl>
+        </msg>
+        <msg name="licenceCheckValidToPrekrocenNaDokladech">
+            <titl>Licence will expire %p.\nIt's not possible to enter documents with date of issue following after this date.</titl>
+        </msg>
+        <msg name="licenceCheckUsersLimitVycerpan">
+            <titl>It is not possible to add another user.\nYour licence enables to administer only %p users.</titl>
+        </msg>
+        <msg name="licenceCheckCompaniesLimitVycerpan">
+            <titl>It is not possible to add another company.\nAccording to your licence, maximum number of established companies is: %p.</titl>
+        </msg>
+        <msg name="licenceNeumoznujePodvojneUcetnictvi">
+            <titl>You are trying to create company with double-entry bookkeeeping but you are not allowed to do so with current licence.</titl>
+        </msg>
+        <msg name="licenceChybaPriOverovaniLicence">
+            <titl>Non-specific error has occured during licence verifying.</titl>
+        </msg>
+        <msg name="licenceCheckApplicationCount">
+            <titl>Maximum number of users allowed by licence was exceeded.</titl>
+        </msg>
+        <msg name="licenceUzivatelPrihlasenYindeChceteYindeOdhlasit">
+            <titl>You are logged on to another device. Do you want to log out?</titl>
+        </msg>
+        <msg name="registerLicenseDialogPodekovaniTitle">
+            <titl>Registration was successful</titl>
+        </msg>
+        <msg name="registerLicenseDialogPodekovaniText">
+            <titl>Thank you for registering ABRA Flexi Start!</titl>
+        </msg>
+        <msg name="registerLicenseDialogNotMandatory">
+            <titl>You must fill in all fields that have caption marked with asterisk (*).</titl>
+        </msg>
+        <msg name="registerLicenseDialogUnvalidEmail">
+            <titl>Invalid email format. Enter email in format: name@server.domain</titl>
+        </msg>
+        <msg name="registerLicenseDialogUnvalidTelephone">
+            <titl>Invalid phone format. Enter +420 XXX XXX XXX, where X substitutes your telephone number.</titl>
+        </msg>
+        <msg name="registerLicenseDialogRegisterError">
+            <titl>Error has occured during registration through application. Please register through web interface.</titl>
+        </msg>
+        <msg name="aktivaceProduktuTestNotMandatory">
+            <titl>You must fill all fields both selling and activation code.</titl>
+        </msg>
+        <msg name="aktivaceProduktuNotMandatory">
+            <titl>You must fill all bold fields.</titl>
+        </msg>
+        <msg name="aktivaceProduktuJizProbehla">
+            <titl>Entered code has already been activated once.</titl>
+        </msg>
+        <msg name="aktivaceProduktuChybaServeru">
+            <titl>Activation cannot be done at the moment. Please try again later.</titl>
+        </msg>
+        <msg name="licenceNepodporujePristupSpecAplikaci">
+            <titl>Your license does not support access with specialized application.</titl>
+        </msg>
+        <msg name="urlBuy">
+            <titl>https://support.flexibee.eu/redirect/buy/</titl>
+        </msg>
+        <msg name="urlRequestTest">
+            <titl>https://support.flexibee.eu/redirect/buy/</titl>
+        </msg>
+        <msg name="urlRequestDev">
+            <titl>https://www.flexibee.eu/api/licence-pro-vyvojare/zadost-o-vyvojarskou-licenci/</titl>
+        </msg>
+        <msg name="importLicenseJenomLicenseMgmt">
+            <titl>Import of licenses is permitted only for authorized administrators.</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="licenseServiceNadpisKonci">
+            <titl>Licence will expire soon.</titl>
+        </lb>
+        <lb name="licenseServiceNadpisNemaJinaVerze">
+            <titl>Licence import.</titl>
+        </lb>
+        <lb name="licenseServiceNadpisUzNeplatna">
+            <titl>Licence is already invalid.</titl>
+        </lb>
+        <lb name="licenseServiceNadpisJesteNeplatna">
+            <titl>Licence isn't valid yet.</titl>
+        </lb>
+        <lb name="licenseServiceNadpisMiniNeViceJazyku">
+            <titl>Licence Mini does not allow this language.</titl>
+        </lb>
+        <lb name="licenseServiceNadpisNeVzdalenyPristup">
+            <titl>Licence doesn't enable remote approach.</titl>
+        </lb>
+        <lb name="licenseServiceText1Konci">
+            <titl>Licence, that you use, will expire on the date %p.</titl>
+        </lb>
+        <lb name="licenseServiceText1NemaJinaVerze">
+            <titl>Application doesn't have valid licence.</titl>
+        </lb>
+        <lb name="licenseServiceText1UzNeplatna">
+            <titl>Licence validity expired on the date %p.</titl>
+        </lb>
+        <lb name="licenseServiceText1JesteNeplatna">
+            <titl>Licence validity starts on the date %p.</titl>
+        </lb>
+        <lb name="licenseServiceText2MiniNeViceJazyku">
+            <titl>To use other languages buy licence from address:</titl>
+        </lb>
+        <lb name="licenseServiceText2MiniNeVzdalenyPristup">
+            <titl>To use remote access buy licence from address:</titl>
+        </lb>
+        <lb name="licenseServiceText2Konci">
+            <titl>Please ask for licence extension on address:</titl>
+        </lb>
+        <lb name="licenseServiceText2NemaJinaVerze">
+            <titl>Import licence, that you acquire on address:</titl>
+        </lb>
+        <lb name="licenseServiceText2UzNeplatna">
+            <titl>Please acquire new licence on address:</titl>
+        </lb>
+        <lb name="licenseServiceLinkKonci">
+            <titl>http://www.flexibee.eu</titl>
+        </lb>
+        <lb name="licenseServiceLinkNemaJinaVerze">
+            <titl>http://www.flexibee.eu/licence</titl>
+        </lb>
+        <lb name="licenseServiceLinkUzNeplatna">
+            <titl>http://www.flexibee.eu/licence</titl>
+        </lb>
+        <lb name="licenseServiceLinkMiniNeViceJazyku">
+            <titl>http://www.flexibee.eu/licence</titl>
+        </lb>
+        <lb name="licenseServiceLinkMiniNeVzdalenyPristup">
+            <titl>http://www.flexibee.eu/licence</titl>
+        </lb>
+        <lb name="licenseServiceAcceptKonci">
+            <titl>Import licence</titl>
+        </lb>
+        <lb name="licenseServiceAcceptNemaJinaVerze">
+            <titl>Import licence</titl>
+        </lb>
+        <lb name="licenseServiceAcceptUzNeplatna">
+            <titl>Import new licence</titl>
+        </lb>
+        <lb name="licenseServiceAcceptJesteNeplatna">
+            <titl>Import another licence</titl>
+        </lb>
+        <lb name="licenseServiceAcceptMiniNeViceJazyku">
+            <titl>Import different licence</titl>
+        </lb>
+        <lb name="licenseServiceAcceptMiniNeVzdalenyPristup">
+            <titl>Import different licence</titl>
+        </lb>
+        <lb name="licenseServiceCancelUkonci">
+            <titl>Quit application</titl>
+        </lb>
+        <lb name="licenseServiceCancelPokracuj">
+            <titl>Continue</titl>
+        </lb>
+        <lb name="licenseDialogNapis">
+            <titl>Licence</titl>
+        </lb>
+        <lb name="licenseDialogVarianta">
+            <titl>Licence version:</titl>
+        </lb>
+        <lb name="licenseDialogRegistrovan">
+            <titl>Registration for:</titl>
+        </lb>
+        <lb name="licenseDialogCisloZakaznika">
+            <titl>Client #:</titl>
+        </lb>
+        <lb name="licenseDialogPlatnostDo">
+            <titl>Valid until:</titl>
+        </lb>
+        <lb name="licenseDialogZarukaDo">
+            <titl>One-year support until:</titl>
+        </lb>
+        <lb name="licenseDialogPronajemDo">
+            <titl>Rental until:</titl>
+        </lb>
+        <lb name="licenseDialogFirem">
+            <titl>Number of companies:</titl>
+        </lb>
+        <lb name="licenseDialogAktualne">
+            <titl>Currently:</titl>
+        </lb>
+        <lb name="licenseDialogPripojeno">
+            <titl>Connected:</titl>
+        </lb>
+        <lb name="licenseDialogUzivatelu">
+            <titl>Number of application users:</titl>
+        </lb>
+        <lb name="licenseDialogLicUzivatelu">
+            <titl>Number of licensed users:</titl>
+        </lb>
+        <lb name="licenseDialogOdkazAktHtml">
+            <titl>&lt;html&gt;License can be updated&lt;br&gt;on address:&lt;html&gt;</titl>
+        </lb>
+        <lb name="licenseDialogOdkaz">
+            <titl>http://www.flexibee.eu</titl>
+        </lb>
+        <lb name="licenseUnlimited">
+            <titl>Unlimited</titl>
+        </lb>
+        <lb name="licenseNeuvedeno">
+            <titl>Unspecified</titl>
+        </lb>
+        <lb name="licenseFileFilter">
+            <titl>Files with licence</titl>
+        </lb>
+        <lb name="licenseKonciTitle">
+            <titl>Licence will expire on the date %p</titl>
+        </lb>
+        <lb name="registerLicenseDialogAdress">
+            <titl>Address:</titl>
+        </lb>
+        <lb name="registerLicenseDialogCompany">
+            <titl>Company:</titl>
+        </lb>
+        <lb name="registerLicenseDialogEmail">
+            <titl>E-mail:</titl>
+        </lb>
+        <lb name="registerLicenseDialogFirstname">
+            <titl>Name:</titl>
+        </lb>
+        <lb name="registerLicenseDialogJobPosition">
+            <titl>Position:</titl>
+        </lb>
+        <lb name="registerLicenseDialogFillDataRequest">
+            <titl>Please fill in following data:</titl>
+        </lb>
+        <lb name="registerLicenseDialogSurname">
+            <titl>Last name:</titl>
+        </lb>
+        <lb name="registerLicenseDialogTelephone">
+            <titl>Telephone:</titl>
+        </lb>
+        <lb name="registerLicenseDialogTitle">
+            <titl>Registration ABRA Flexi Start</titl>
+        </lb>
+        <lb name="registerLicenseDialogZipcode">
+            <titl>Post code:</titl>
+        </lb>
+        <lb name="registerLicenseDialogInfo">
+            <titl>You are using unregistered application of ABRA Flexi Start at the moment. By registration you acquire the possibility of recording more items and acquiring automatically info about new software versions.</titl>
+        </lb>
+        <lb name="registerLicenseDialogStartRegisterLink">
+            <titl>support.flexibee.eu/redirect/register-start/</titl>
+        </lb>
+        <lb name="registerLicenseDialogStartLicenseServerLink">
+            <titl>http://support.flexibee.eu/remote/register/start/</titl>
+        </lb>
+        <lb name="startLicenceDialogNadpis">
+            <titl>Unregistered version</titl>
+        </lb>
+        <lb name="startLicenceDialogKoupit">
+            <titl>Buy application</titl>
+        </lb>
+        <lb name="startLicenceDialogTextImportovatNeboAktivovat">
+            <titl>If you don't have a license, after entering your ID you can:</titl>
+        </lb>
+        <lb name="startLicenceDialogTextImportovat">
+            <titl>If you already bought the licence, load it in application.</titl>
+        </lb>
+        <lb name="startLicenceDialogTextInfo">
+            <titl>You have performed the installation of accounting software ABRA Flexi.\nThe next step is importing your licence file:</titl>
+        </lb>
+        <lb name="startLicenceDialogContactSales">
+            <titl>If you don't have an ID, please contact the sales department of</titl>
+        </lb>
+        <lb name="startLicenceDialogKoupitLink">
+            <titl>http://www.flexibee.eu/licence/</titl>
+        </lb>
+        <lb name="startLicenceDialogImportovatTooltip">
+            <titl>Enables to select licence file.</titl>
+        </lb>
+        <lb name="buyLicenceDialogKoupit">
+            <titl>You can execute all operations with limited number of records in version Start. If you buy full version, you will remove all restrictions.</titl>
+        </lb>
+        <lb name="aktivaceProduktuNadpis">
+            <titl>Product activation with help of activation code</titl>
+        </lb>
+        <lb name="aktivaceProduktuKontrolaProlog">
+            <titl>If you bought product in a store it is necessary to activate it. Then you will be able to use technical support and receive updates.</titl>
+        </lb>
+        <lb name="aktivaceProduktuVyzva">
+            <titl>Activation code entering</titl>
+        </lb>
+        <lb name="aktivaceProduktuProdejKod">
+            <titl>Selling code:</titl>
+        </lb>
+        <lb name="aktivaceProduktuAktivaceKod">
+            <titl>Activation code:</titl>
+        </lb>
+        <lb name="aktivaceProduktuAktivaceProlog">
+            <titl>In order to provide you with technical support and application updates we need to fill following data.</titl>
+        </lb>
+        <lb name="aktivaceProduktuIc">
+            <titl>IN:</titl>
+        </lb>
+        <lb name="aktivaceProduktuDic">
+            <titl>VAT ID:</titl>
+        </lb>
+        <lb name="aktivaceProduktuMesto">
+            <titl>Town:</titl>
+        </lb>
+        <lb name="aktivaceProduktuServerLink">
+            <titl>support.flexibee.eu/remote/activation/</titl>
+        </lb>
+    </labels>
+</config>

@@ -1,0 +1,2014 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/de/lang.mzdy.beans.de.xml
+   Created on  : 25. 04. 2024, 08:32
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <beans>
+        <bean name="vzor">
+            <prop name="xyz">
+                <titl>!Abcdef</titl>
+                <desc>Bbb ccc ddd.</desc>
+                <icon>aaa.gif</icon>
+            </prop>
+        </bean>
+        <bean name="global">
+            <prop name="mzdSloz">
+                <titl>Lohnkomponente</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Personalnummer</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>Person</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="pracPomHlav">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Personen-Gruppe</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.AktualMzdy">
+            <prop name="_title">
+                <titl>Lohn-Aktualisierung</titl>
+            </prop>
+            <prop name="bezneNahrady">
+                <titl>Geläufige Ersatzleistungen</titl>
+            </prop>
+            <prop name="cistaMzda">
+                <titl>Nettolohn</titl>
+            </prop>
+            <prop name="dan">
+                <titl>Steuer</titl>
+            </prop>
+            <prop name="danBonus">
+                <titl>Steuerbonus</titl>
+                <abbr>Bonus</abbr>
+            </prop>
+            <prop name="danRezident">
+                <titl>Steuer Inländer</titl>
+            </prop>
+            <prop name="danSlevPrac">
+                <titl>Rabatt - Steuerzahler</titl>
+                <abbr>Rabatt Steuerz.</abbr>
+            </prop>
+            <prop name="danSlevSum">
+                <titl>Steuerrabatt insgesamt</titl>
+                <abbr>Rabatt ins.</abbr>
+            </prop>
+            <prop name="danSrazka">
+                <titl>Abzugssteuer</titl>
+                <abbr>Abzugsst.</abbr>
+            </prop>
+            <prop name="danVypocet">
+                <titl>Berechnete Steuer</titl>
+            </prop>
+            <prop name="danZaklSraz">
+                <titl>Abzugssteuerbemessungsgrundlage</titl>
+            </prop>
+            <prop name="danZaklSrazSum">
+                <titl>Abzugssteuerbemessungsgrundlage insgesamt</titl>
+                <abbr>Grundl. Abzugssteuer</abbr>
+            </prop>
+            <prop name="danZaklSum">
+                <titl>Steuerbemessungsgrundlage</titl>
+                <abbr>Grundl.Steuer</abbr>
+            </prop>
+            <prop name="danZaloha">
+                <titl>Steueranzahlung</titl>
+                <abbr>Anzahlung</abbr>
+            </prop>
+            <prop name="datum">
+                <titl>Datum</titl>
+            </prop>
+            <prop name="datumVypocet">
+                <titl>Berechnungsdatum</titl>
+                <abbr>Berechnet</abbr>
+            </prop>
+            <prop name="dobaDovol">
+                <titl>Urlaub</titl>
+            </prop>
+            <prop name="dobaDovolCastka">
+                <titl>Urlaub Summe</titl>
+            </prop>
+            <prop name="dobaFond">
+                <titl>Arbeitszeitfonds</titl>
+                <abbr>Fond</abbr>
+            </prop>
+            <prop name="dobaNeodpr">
+                <titl>Nicht geleistete Arbeitszeit insgesamt</titl>
+                <abbr>AZ - nicht geleistet</abbr>
+            </prop>
+            <prop name="dobaOdpr">
+                <titl>Geleistete Arbeitszeit insgesamt</titl>
+                <abbr>AZ - geleistet</abbr>
+            </prop>
+            <prop name="dobaOdprDny">
+                <titl>Geleistete Arbeitstage insgesamt</titl>
+                <abbr>Gel. Arbeitstage</abbr>
+            </prop>
+            <prop name="dobirka">
+                <titl>Nachzahlung</titl>
+            </prop>
+            <prop name="dovolVybrano">
+                <titl>Genommener Urlaub - insgesamt</titl>
+                <abbr>Urlaub - genom.</abbr>
+            </prop>
+            <prop name="dovolZbyva">
+                <titl>Resturlaub - im Jahr</titl>
+                <abbr>Resturlaub</abbr>
+            </prop>
+            <prop name="duchodSpor">
+                <titl>Zweite Säule</titl>
+            </prop>
+            <prop name="hrubaMzda">
+                <titl>Bruttolohn</titl>
+                <abbr>Bruttolohn</abbr>
+            </prop>
+            <prop name="hrubaPrumer">
+                <titl>Grundlage für Durchschnittslohn</titl>
+            </prop>
+            <prop name="idAktualMzdy">
+                <titl>ID</titl>
+            </prop>
+            <prop name="jmeno">
+                <titl>Familienname und Vorname</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Monat</titl>
+            </prop>
+            <prop name="mzdaMesicni">
+                <titl>Monatsgehalt</titl>
+                <abbr>Monatsgehalt</abbr>
+            </prop>
+            <prop name="mzdaNahrada">
+                <titl>Lohnkompensation</titl>
+                <abbr>Kompensation</abbr>
+            </prop>
+            <prop name="nahradaNeschop">
+                <titl>Kompensation der Arbeitsunfähigkeit</titl>
+                <abbr>Komp. Arbeitunf.</abbr>
+            </prop>
+            <prop name="nemoc">
+                <titl>Krankheit</titl>
+            </prop>
+            <prop name="nepenezPrijmy">
+                <titl>Sachbezüge</titl>
+                <abbr>Sachbezüge</abbr>
+            </prop>
+            <prop name="nepritCelk">
+                <titl>Nicht geleistete Arbeitszeit - Abwesenheit</titl>
+                <abbr>Abwes.</abbr>
+            </prop>
+            <prop name="nocniPripl">
+                <titl>Zuschlag für Nachtarbeit</titl>
+                <abbr>Zuschl.Nacht</abbr>
+            </prop>
+            <prop name="odmeny">
+                <titl>Entlohnungen</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Personalnummer</titl>
+                <abbr>Personal-Nr.</abbr>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>Kopfzeile der Person</titl>
+            </prop>
+            <prop name="podilNaZisku">
+                <titl>Gewinnanteil</titl>
+                <abbr>Anteil</abbr>
+            </prop>
+            <prop name="pracPracPrum">
+                <titl>Arbeitsrechtlicher Stundendurchschnitt</titl>
+                <abbr>Arb.recht.Stundendurch.</abbr>
+            </prop>
+            <prop name="premiePevna">
+                <titl>Prämie - fixe Summe</titl>
+                <abbr>Prämie fix</abbr>
+            </prop>
+            <prop name="premieProc">
+                <titl>Prämie % von Bruttolohn</titl>
+                <abbr>Prämie %</abbr>
+            </prop>
+            <prop name="premieProcUkaz">
+                <titl>Prämie von der Kennziffer / Grundlage</titl>
+                <abbr>Prämie % Kennz.</abbr>
+            </prop>
+            <prop name="prescasCastka">
+                <titl>Überstunden - Summe</titl>
+                <abbr>Überstunden %currency-symbol</abbr>
+            </prop>
+            <prop name="prescasHodiny">
+                <titl>Überstunden</titl>
+            </prop>
+            <prop name="prescasPripl">
+                <titl>Zuschlag für Überstunden</titl>
+                <abbr>Zuschl. Überst.</abbr>
+            </prop>
+            <prop name="prispIzolacka">
+                <titl>Beitrag zur Quarantäne (izolačka)</titl>
+                <abbr>Beitrag: Izolačka</abbr>
+            </prop>
+            <prop name="prostrediPripl">
+                <titl>###Příplatek za prostředí</titl>
+                <abbr>###Přípl.prostř.</abbr>
+            </prop>
+            <prop name="refundNeschop">
+                <titl>Rückerstattung Abwesenheit</titl>
+                <abbr>Rückerstattung</abbr>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Personengruppe</titl>
+                <abbr>Gruppe</abbr>
+            </prop>
+            <prop name="slevaDeti">
+                <titl>Kinderrabatt</titl>
+            </prop>
+            <prop name="slevaSpFirma">
+                <titl>###Sleva SP firma (krácené úvazky)</titl>
+                <abbr>###Sleva SP firma</abbr>
+            </prop>
+            <prop name="socPojCelk">
+                <titl>Sozialversicherung insgesamt</titl>
+                <abbr>SozV</abbr>
+            </prop>
+            <prop name="socPojCelkDp">
+                <titl>Sozialversicherung insgesamt Rentenversicherung</titl>
+                <abbr>SozV Steuerzahler</abbr>
+            </prop>
+            <prop name="socPojCelkSniz">
+                <titl>Sozialversicherung insgesamt vermindert</titl>
+                <abbr>Sozialversicherung vermindert</abbr>
+            </prop>
+            <prop name="socPojCelkSpada">
+                <titl>Fällt unter die Sozialversicherung</titl>
+            </prop>
+            <prop name="socPojFirma">
+                <titl>Sozialversicherung Firma</titl>
+                <abbr>SozV Firma</abbr>
+            </prop>
+            <prop name="socPojFirmaSniz">
+                <titl>Sozialversicherung für die Firma vermindert</titl>
+                <abbr>SozV für die Firma vermindert</abbr>
+            </prop>
+            <prop name="socPojFirmaSnizZap">
+                <titl>Sozialversicherung für die Firma vermindert - aktiviert</titl>
+                <abbr>SozV für die Firma vermindert - aktiviert</abbr>
+            </prop>
+            <prop name="socPojPrac">
+                <titl>Sozialversicherung Arbeitnehmer</titl>
+                <abbr>SozV Arbeitnehmer</abbr>
+            </prop>
+            <prop name="socPojSleva">
+                <titl>Sozialversicherung - Rabatt</titl>
+            </prop>
+            <prop name="socPojZakl">
+                <titl>Sozialversicherung Grundlage</titl>
+                <abbr>SozV Grundlage</abbr>
+            </prop>
+            <prop name="socPojZaklDp">
+                <titl>Sozialversicherung Grundlage Rentenversicherung</titl>
+                <abbr>SozV Grundlage Rentenvers.</abbr>
+            </prop>
+            <prop name="socPojZaklSniz">
+                <titl>Sozialversicherung Grundlage - vermindert</titl>
+                <abbr>SozV Grundlage - vermindert</abbr>
+            </prop>
+            <prop name="srazkaSporeni">
+                <titl>Abzüge</titl>
+            </prop>
+            <prop name="stravenkyDoLim">
+                <titl>###Stravenky do limitu</titl>
+            </prop>
+            <prop name="stravenkyNadLim">
+                <titl>###Stravenky nad limit</titl>
+            </prop>
+            <prop name="stravenkySrazka">
+                <titl>###Stravenky srážka zaměstnanec</titl>
+            </prop>
+            <prop name="superhrubaMzda">
+                <titl>Superbruttolohn</titl>
+                <abbr>SBL</abbr>
+            </prop>
+            <prop name="svatekCastka">
+                <titl>Geleistet - Feiertage - Summe</titl>
+                <abbr>Feiertage CHF</abbr>
+            </prop>
+            <prop name="svatekHodiny">
+                <titl>Geleistet - Feiertage - Stunden</titl>
+                <abbr>Feiertage Std.</abbr>
+            </prop>
+            <prop name="svatekNahrada">
+                <titl>Kompensation für Feiertage</titl>
+                <abbr>Komp. Feiertag</abbr>
+            </prop>
+            <prop name="svatekNahradaHodiny">
+                <titl>Kompensation für Feiertage - Stunden</titl>
+                <abbr>Std. Komp. Feiert.</abbr>
+            </prop>
+            <prop name="weekendCastka">
+                <titl>Geleistet - Wochenende - Summe</titl>
+                <abbr>Wochenende CHF</abbr>
+            </prop>
+            <prop name="weekendHodiny">
+                <titl>Geleistet - Wochenende - Stunden</titl>
+                <abbr>Wochenende Std.</abbr>
+            </prop>
+            <prop name="zalohaMimoradna">
+                <titl>Sonderanzahlung</titl>
+                <abbr>Sonderanz.</abbr>
+            </prop>
+            <prop name="zalohaRadna">
+                <titl>Ordnungsmässige Anzahlung</titl>
+            </prop>
+            <prop name="zdravPoj">
+                <titl>Krankenkasse</titl>
+                <abbr>Krankenkasse</abbr>
+            </prop>
+            <prop name="zdravPojCelk">
+                <titl>Krankenversicherung insgesamt</titl>
+                <abbr>KV</abbr>
+            </prop>
+            <prop name="zdravPojFirma">
+                <titl>Krankenversicherung Firma</titl>
+                <abbr>KV Firma</abbr>
+            </prop>
+            <prop name="zdravPojPrac">
+                <titl>Krankenversicherung Arbeitnehmer</titl>
+                <abbr>KV Arbeitnehmer</abbr>
+            </prop>
+            <prop name="zdravPojZakl">
+                <titl>Krankenversicherung Grundlage</titl>
+                <abbr>KV Grundlage</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.BanSpojMzdy">
+            <prop name="_title">
+                <titl>Bankverbindung</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.CisMzdSloz">
+            <prop name="_title">
+                <titl>Stammdaten von Lohnkomponenten</titl>
+            </prop>
+            <prop name="castkaDen">
+                <titl>Summe pro Tag</titl>
+                <abbr>CHF/Tag</abbr>
+            </prop>
+            <prop name="castkaHod">
+                <titl>Summe pro Stunde</titl>
+                <abbr>CHF/Std.</abbr>
+            </prop>
+            <prop name="castMzd">
+                <titl>Lohnsumme</titl>
+            </prop>
+            <prop name="cisDoklNem">
+                <titl>Belegnummer (für Krankheit)</titl>
+                <abbr>Beleg</abbr>
+            </prop>
+            <prop name="dnyKal">
+                <titl>Kalendertage</titl>
+                <abbr>Kalendertage</abbr>
+            </prop>
+            <prop name="dnyPrac">
+                <titl>Arbeitstage</titl>
+                <abbr>Arbeitstage</abbr>
+            </prop>
+            <prop name="dnySvatek">
+                <titl>Feiertage</titl>
+                <abbr>Feiertage</abbr>
+            </prop>
+            <prop name="doplatZdravK">
+                <titl>Nachzahlung Krankenkassebeitrag</titl>
+                <abbr>Nachzahlung Krankenv.</abbr>
+            </prop>
+            <prop name="hodiny">
+                <titl>Stunden</titl>
+            </prop>
+            <prop name="naOsobu">
+                <titl>Gemeinsam für alle Arbeitsverhältnisse der Person</titl>
+            </prop>
+            <prop name="paskaMala">
+                <titl>Lohnbescheinigung kurz</titl>
+            </prop>
+            <prop name="paskaPole">
+                <titl>Sichtbare Felder</titl>
+            </prop>
+            <prop name="paskaVelka">
+                <titl>Lohnbescheinigung lang</titl>
+            </prop>
+            <prop name="pocetMes">
+                <titl>Anzahl der Monate, für die die Komponente gilt</titl>
+                <abbr>Gilt</abbr>
+            </prop>
+            <prop name="pracovni">
+                <titl>Interne Komponente (wird nicht angezeigt)</titl>
+            </prop>
+            <prop name="procMzd">
+                <titl>Prozentsatz der Grundlage</titl>
+                <abbr>% / konst.</abbr>
+            </prop>
+            <prop name="prumNaDenNem">
+                <titl>Tagesdurchschnitt</titl>
+            </prop>
+            <prop name="prumNaHodNem">
+                <titl>Stundendurchschnitt</titl>
+            </prop>
+            <prop name="skupSlozkyK">
+                <titl>Komponentengruppe</titl>
+            </prop>
+            <prop name="typSlozkyK">
+                <titl>Komponententyp</titl>
+            </prop>
+            <prop name="ukladatNulove">
+                <titl>Mit null speichern</titl>
+            </prop>
+            <prop name="uuid">
+                <titl>UUID</titl>
+            </prop>
+            <prop name="vsCastMzd">
+                <titl>Betrag (Lohn)</titl>
+            </prop>
+            <prop name="vsCastNaDen">
+                <titl>Betrag pro Tag</titl>
+            </prop>
+            <prop name="vsCastNaHod">
+                <titl>Betrag pro Stunde</titl>
+            </prop>
+            <prop name="vsCisDoklNem">
+                <titl>Belegnummer (für Krankheit)</titl>
+            </prop>
+            <prop name="vsDatDo">
+                <titl>Enddatum</titl>
+            </prop>
+            <prop name="vsDatOd">
+                <titl>Anfangsdatum</titl>
+            </prop>
+            <prop name="vsDnyKal">
+                <titl>Kalendertage</titl>
+            </prop>
+            <prop name="vsDnyPrac">
+                <titl>Arbeitstage</titl>
+            </prop>
+            <prop name="vsDnySvatek">
+                <titl>Feiertage</titl>
+            </prop>
+            <prop name="vsDoplatZdrPoj">
+                <titl>Nachzahlung Krankenkassebeitrag</titl>
+            </prop>
+            <prop name="vsHodiny">
+                <titl>Stunden</titl>
+            </prop>
+            <prop name="vsHodinySvatek">
+                <titl>Stunden pro Feiertag</titl>
+            </prop>
+            <prop name="vsPocetMes">
+                <titl>Anzahl der Monate, für die die Komponente gilt.</titl>
+            </prop>
+            <prop name="vsProcMzd">
+                <titl>Prozentsatz von der Grundlage</titl>
+            </prop>
+            <prop name="vsPrumNaDenNem">
+                <titl>Tagesdurchschnitt</titl>
+            </prop>
+            <prop name="vsPrumNaHodNem">
+                <titl>Stundendurchschnitt</titl>
+            </prop>
+            <prop name="vsZaklJeKracen">
+                <titl>Grundlage nach dem Arbeitsumfang gekürzt</titl>
+            </prop>
+            <prop name="vsZaklMzd">
+                <titl>Lohngrundlage</titl>
+            </prop>
+            <prop name="vsZmenaCastMzd">
+                <titl>Änderung der Summe vom Anwender</titl>
+            </prop>
+            <prop name="vyznamK">
+                <titl>Bedeutung</titl>
+            </prop>
+            <prop name="zaklJeKracen">
+                <titl>Grundlage nach Arbeitsumfang gekürzt</titl>
+            </prop>
+            <prop name="zaklMzd">
+                <titl>Lohngrundlage</titl>
+                <abbr>Grundlage</abbr>
+            </prop>
+            <prop name="zapoctovyList">
+                <titl>Arbeitslaufzettel</titl>
+            </prop>
+            <prop name="zmenaCastMzd">
+                <titl>Änderung der Summe vom Anwender</titl>
+                <abbr>Anwenderänder.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Dite">
+            <prop name="_title">
+                <titl>Kinder</titl>
+            </prop>
+            <prop name="datNaroz">
+                <titl>Geburtsdatum</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="pohlaviK">
+                <titl>Geschlecht</titl>
+            </prop>
+            <prop name="rodCis">
+                <titl>Personenkennzahl</titl>
+            </prop>
+            <prop name="ztp_P">
+                <titl>Schwerbehinderte Grad ZTP/P</titl>
+            </prop>
+            <prop name="ztp_PDo">
+                <titl>bis</titl>
+            </prop>
+            <prop name="ztp_POd">
+                <titl>von</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.DovolenaCerpani">
+            <prop name="_title">
+                <titl>Urlaubnehmen</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Insgesamt</titl>
+            </prop>
+            <prop name="idDovolenaCerpani">
+                <titl>ID</titl>
+            </prop>
+            <prop name="jmeno">
+                <titl>Familienname und Name</titl>
+            </prop>
+            <prop name="kraceno">
+                <titl>Gekürzt</titl>
+            </prop>
+            <prop name="lonska">
+                <titl>Vom letzten Jahr</titl>
+            </prop>
+            <prop name="narok">
+                <titl>Anspruch</titl>
+            </prop>
+            <prop name="necerpana">
+                <titl>Bezahlt</titl>
+            </prop>
+            <prop name="pomCast">
+                <titl>Bezugsteil</titl>
+            </prop>
+            <prop name="vybrano">
+                <titl>Bezogen</titl>
+            </prop>
+            <prop name="zbyva">
+                <titl>Resturlaub</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdCalc">
+            <prop name="_title">
+                <titl>Zeile Lohnkalkulator</titl>
+                <abbr>Zeile LK</abbr>
+            </prop>
+            <prop name="doHodnoty">
+                <titl>Wert bis</titl>
+            </prop>
+            <prop name="ispv">
+                <titl>ISPV</titl>
+            </prop>
+            <prop name="koeficient">
+                <titl>Koeffizient 1</titl>
+                <abbr>Koef.1</abbr>
+            </prop>
+            <prop name="koeficient2">
+                <titl>Koeffizient 2</titl>
+                <abbr>Koef.2</abbr>
+            </prop>
+            <prop name="koeficient3">
+                <titl>Koeffizient 3</titl>
+                <abbr>Koef.3</abbr>
+            </prop>
+            <prop name="mzdCalcHlav">
+                <titl>Kopfzeile</titl>
+            </prop>
+            <prop name="mzdSlozIn">
+                <titl>Eingabekomponente</titl>
+                <abbr>Eingabe 1</abbr>
+            </prop>
+            <prop name="mzdSlozIn2">
+                <titl>Eingabekomponente 2</titl>
+                <abbr>Eingabe 2</abbr>
+            </prop>
+            <prop name="mzdSlozOut">
+                <titl>Ausgabekomponente</titl>
+                <abbr>Ausgabe</abbr>
+            </prop>
+            <prop name="odHodnoty">
+                <titl>Wert von</titl>
+            </prop>
+            <prop name="operaceK">
+                <titl>Operation</titl>
+            </prop>
+            <prop name="poleIn">
+                <titl>Eingabefeld</titl>
+                <abbr>Feld 1</abbr>
+            </prop>
+            <prop name="poleIn2">
+                <titl>Eingabefeld 2</titl>
+                <abbr>Feld 2</abbr>
+            </prop>
+            <prop name="poleOut">
+                <titl>Ausgabefeld</titl>
+                <abbr>Feld out</abbr>
+            </prop>
+            <prop name="sumMesicu">
+                <titl>Summation der Monate</titl>
+            </prop>
+            <prop name="sumTypK">
+                <titl>Summationstyp</titl>
+            </prop>
+            <prop name="vstupNapricPomery">
+                <titl>Eingang quer durch die Verhältnisse</titl>
+            </prop>
+            <prop name="vyhodnotRocne">
+                <titl>Auswerten pro Jahr</titl>
+            </prop>
+            <prop name="vyslDoHodnoty">
+                <titl>Ergebnis bis Wert</titl>
+            </prop>
+            <prop name="vyslOdHodnoty">
+                <titl>Ergebnis ab Wert</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdCalcHlav">
+            <prop name="_title">
+                <titl>Kopfteil von Lohnkalkulator</titl>
+            </prop>
+            <prop name="radkaHromadne">
+                <titl>Sammeloperationen vor</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdCalcHrom">
+            <prop name="_title">
+                <titl>Sammeloperation</titl>
+            </prop>
+            <prop name="mzdCalcHlav">
+                <titl>Kopfzeile</titl>
+            </prop>
+            <prop name="mzdSlozIn">
+                <titl>Eingabekomponente</titl>
+            </prop>
+            <prop name="mzdSlozOut">
+                <titl>Ausgabekomponente</titl>
+            </prop>
+            <prop name="poleIn">
+                <titl>Eingabefeld</titl>
+            </prop>
+            <prop name="poleOut">
+                <titl>Ausgabefeld</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdCalcInit">
+            <prop name="_title">
+                <titl>Initialisierug</titl>
+            </prop>
+            <prop name="mzdCalcHlav">
+                <titl>Kopfzeile</titl>
+            </prop>
+            <prop name="mzdSlozOut">
+                <titl>Zielkomponente</titl>
+            </prop>
+            <prop name="platnostK">
+                <titl>Gültigkeit</titl>
+            </prop>
+            <prop name="poleIn">
+                <titl>Ursprungsfeld</titl>
+            </prop>
+            <prop name="poleOut">
+                <titl>Zielfeld</titl>
+            </prop>
+            <prop name="typPracPom">
+                <titl>Typ des Arbeitsverhältnisses</titl>
+            </prop>
+            <prop name="zdrojK">
+                <titl>Ursprungsobjekt</titl>
+            </prop>
+            <prop name="zpracDatumK">
+                <titl>Methode der Datenbearbeitung</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdSloz">
+            <prop name="_title">
+                <titl>Initialisirungskomponenten</titl>
+            </prop>
+            <prop name="castkaDen">
+                <titl>Summe pro Tag</titl>
+            </prop>
+            <prop name="castkaHod">
+                <titl>Summe pro Stunde</titl>
+            </prop>
+            <prop name="castMzd">
+                <titl>Summe</titl>
+            </prop>
+            <prop name="cisDoklNem">
+                <titl>Belegnummer (für Krankheit)</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Lohnkomponente</titl>
+            </prop>
+            <prop name="datumDo">
+                <titl>Enddatum</titl>
+            </prop>
+            <prop name="datumDoklad">
+                <titl>Datum der Beleglieferung</titl>
+            </prop>
+            <prop name="datumOd">
+                <titl>Anfangsdatum</titl>
+            </prop>
+            <prop name="dnyKal">
+                <titl>Kalendertage</titl>
+            </prop>
+            <prop name="dnyKalReal">
+                <titl>Reale Kalendertage</titl>
+            </prop>
+            <prop name="dnyPrac">
+                <titl>Arbeitstage</titl>
+            </prop>
+            <prop name="dnySvatek">
+                <titl>Feiertage - Tage</titl>
+            </prop>
+            <prop name="doplatZdravK">
+                <titl>Nachzahlung Krankenkasssebeitrag</titl>
+            </prop>
+            <prop name="doubleX">
+                <titl>Summe genau</titl>
+            </prop>
+            <prop name="hodiny">
+                <titl>Stunden</titl>
+            </prop>
+            <prop name="hodinySvatek">
+                <titl>Feiertage - Stunden</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Monat</titl>
+            </prop>
+            <prop name="mesicPlatba">
+                <titl>Monat der Zahlung</titl>
+            </prop>
+            <prop name="nepritomnost">
+                <titl>Abwesenheit</titl>
+            </prop>
+            <prop name="odmena">
+                <titl>Prämie</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="pocetMes">
+                <titl>Entlohnung/ Prämie für [Monate]</titl>
+            </prop>
+            <prop name="pracovni">
+                <titl>Arb.</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="procMzd">
+                <titl>Prozentsatz von der Grundlage</titl>
+            </prop>
+            <prop name="prumNaDenNem">
+                <titl>Tagesdurchschnitt</titl>
+            </prop>
+            <prop name="prumNaHodNem">
+                <titl>Stundendurchschnitt</titl>
+            </prop>
+            <prop name="rokPlatba">
+                <titl>Jahr der Zahlung</titl>
+            </prop>
+            <prop name="skupSlozkyK">
+                <titl>Komponentengruppe</titl>
+            </prop>
+            <prop name="srazka">
+                <titl>Abzug</titl>
+            </prop>
+            <prop name="stalaMzdSloz">
+                <titl>feste Lohnkomponente</titl>
+            </prop>
+            <prop name="typSlozkyK">
+                <titl>Komponententyp</titl>
+            </prop>
+            <prop name="zaklJeKracen">
+                <titl>Grundlage nach dem Arbeitsumfang gekürzt</titl>
+            </prop>
+            <prop name="zaklMzd">
+                <titl>Grundlage</titl>
+            </prop>
+            <prop name="zmenaCastMzd">
+                <titl>Summe-Änderung vom Anwender</titl>
+            </prop>
+            <prop name="zmenaCasu">
+                <titl>Zeit-Änderung vom Anwender</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Nepritomnost">
+            <prop name="_title">
+                <titl>Abwesenheit</titl>
+            </prop>
+            <prop name="cisloRozhodnuti">
+                <titl>Nummer der Entscheidung</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Grund der Abwesenheit</titl>
+            </prop>
+            <prop name="hodin1Den">
+                <titl>Stunden - der erste Tag der Abwesenheit</titl>
+            </prop>
+            <prop name="hodinXDen">
+                <titl>Stunden - der letzte Tag der Abwesenheit</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="platiDo">
+                <titl>Ende</titl>
+            </prop>
+            <prop name="platiOd">
+                <titl>Beginn</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Arbeitsverhältniss</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Osoba">
+            <prop name="_title">
+                <titl>Personen</titl>
+            </prop>
+            <prop name="cisDomu">
+                <titl>Hausnummer</titl>
+            </prop>
+            <prop name="cisDomuKon">
+                <titl>Korrespondenzadresse Hausnummer</titl>
+            </prop>
+            <prop name="cisDomuKonTuz">
+                <titl>Korrespondenzadresse Inland Hausnummer</titl>
+            </prop>
+            <prop name="cisPojist">
+                <titl>Versicherungsnnummer</titl>
+            </prop>
+            <prop name="cisPrukaz">
+                <titl>Ausweisnummer</titl>
+            </prop>
+            <prop name="cisUcastDuchSpor">
+                <titl>Rentenversicherungnummer für Ersparnisse</titl>
+            </prop>
+            <prop name="cizPojCisDomu">
+                <titl>Fremdversicherung - Hausnummer</titl>
+            </prop>
+            <prop name="cizPojCislo">
+                <titl>Fremdversicherung - Nummer</titl>
+            </prop>
+            <prop name="cizPojMesto">
+                <titl>Fremdversicherung - Stadt</titl>
+            </prop>
+            <prop name="cizPojNazev">
+                <titl>Fremdversicherung - Name</titl>
+            </prop>
+            <prop name="cizPojPsc">
+                <titl>Fremdversicherung - Postleitzahl</titl>
+            </prop>
+            <prop name="cizPojSpec">
+                <titl>Fremdversicherung - Spezifikation</titl>
+            </prop>
+            <prop name="cizPojStat">
+                <titl>Fremdversicherung - Staat</titl>
+            </prop>
+            <prop name="cizPojUlice">
+                <titl>Fremdversicherung - Strasse</titl>
+            </prop>
+            <prop name="danNerezid">
+                <titl>Steuerausländer</titl>
+            </prop>
+            <prop name="datNaroz">
+                <titl>Geburtsdatum</titl>
+            </prop>
+            <prop name="detiOdpoc">
+                <titl>Kinderzahl für den Kinderabzug</titl>
+            </prop>
+            <prop name="diteOdpoc1">
+                <titl>1. Kind für Abzug</titl>
+            </prop>
+            <prop name="diteOdpoc2">
+                <titl>2. Kind für Abzug</titl>
+            </prop>
+            <prop name="duchodOd">
+                <titl>Rente ab</titl>
+            </prop>
+            <prop name="invalCast">
+                <titl>Invalidität - Grad 1 und 2</titl>
+            </prop>
+            <prop name="invalOd">
+                <titl>Invalidität seit</titl>
+            </prop>
+            <prop name="invalPlna">
+                <titl>Invalidität - Grad 3</titl>
+            </prop>
+            <prop name="ispvOkres">
+                <titl>ISPV Gemeinde</titl>
+            </prop>
+            <prop name="ispvPostaveni">
+                <titl>ISPV Position</titl>
+            </prop>
+            <prop name="ispvVedouci">
+                <titl>ISPV Leiter</titl>
+            </prop>
+            <prop name="ispvVzdelani">
+                <titl>ISPV Ausbildung</titl>
+            </prop>
+            <prop name="ispvZamest">
+                <titl>ISPV Beruf</titl>
+            </prop>
+            <prop name="kvalifikace">
+                <titl>Qualifizierung</titl>
+            </prop>
+            <prop name="mestoKon">
+                <titl>Korrespondenzadresse Stadt</titl>
+            </prop>
+            <prop name="mestoKonTuz">
+                <titl>Korrespondenzadresse Stadt Inland</titl>
+            </prop>
+            <prop name="minuleSoc">
+                <titl>Versicherungsbeitrag (Sozialversicherung) vorige Arbeitsstelle</titl>
+            </prop>
+            <prop name="minuleZdrav">
+                <titl>Versicherungsbeitrag (Krankenversicherung) vorige Arbeitsstelle</titl>
+            </prop>
+            <prop name="mistoNaroz">
+                <titl>Geburtsort</titl>
+            </prop>
+            <prop name="nadzizeny">
+                <titl>Vorgesetzter</titl>
+            </prop>
+            <prop name="nezDatNaroz">
+                <titl>Geburtsdatum</titl>
+                <abbr>Nicht versorgter Partner Geburtsdatum</abbr>
+            </prop>
+            <prop name="nezDo">
+                <titl>Gilt bis</titl>
+                <abbr>Nicht versorgter Partner bis</abbr>
+            </prop>
+            <prop name="nezJmeno">
+                <titl>Name</titl>
+                <abbr>Nicht versorgter Partner Name</abbr>
+            </prop>
+            <prop name="nezOd">
+                <titl>Gilt von</titl>
+                <abbr>Nicht versorgter Partner seit</abbr>
+            </prop>
+            <prop name="nezPartner">
+                <titl>Nicht versorgter Partner</titl>
+            </prop>
+            <prop name="nezPohlaviK">
+                <titl>Geschlecht</titl>
+                <abbr>Nicht versorgter Partner Geschlecht</abbr>
+            </prop>
+            <prop name="nezPrijmeni">
+                <titl>Familienname</titl>
+                <abbr>Nicht versorgter Partner Familienname</abbr>
+            </prop>
+            <prop name="nezPrijmeniRod">
+                <titl>Geburtsname</titl>
+                <abbr>Nicht versorgter Partner Geburtsname</abbr>
+            </prop>
+            <prop name="nezRodCis">
+                <titl>Personenkennzahl</titl>
+                <abbr>Nicht versorgter Partner Personenkennzahl</abbr>
+            </prop>
+            <prop name="nezTitul">
+                <titl>Titel</titl>
+                <abbr>Nicht versorgter Partner Titel</abbr>
+            </prop>
+            <prop name="nezZTP">
+                <titl>Schwerbehinderte Grad</titl>
+                <abbr>Nicht versorgter Partner Schwerbehinderte Grad</abbr>
+            </prop>
+            <prop name="nezZTPDo">
+                <titl>Schwerbehinderte Grad gilt bis</titl>
+                <abbr>Nicht versorgter Partner Schwerbehinderte Grad gilt bis</abbr>
+            </prop>
+            <prop name="nezZTPOd">
+                <titl>Schwerbehinderte Grad gilt von</titl>
+                <abbr>Nicht versorgter Partner Schwerbehinderte Grad gilt von</abbr>
+            </prop>
+            <prop name="odpocetDeti">
+                <titl>Kinderzahl für Abzug</titl>
+            </prop>
+            <prop name="odpocetDeti3">
+                <titl>Kinderzahl dritte und weitere zum Abzug</titl>
+            </prop>
+            <prop name="odpocetDetiZtp">
+                <titl>Behinderte Kinder für Abzug</titl>
+            </prop>
+            <prop name="odpocetDite1Ztp">
+                <titl>Das erste Kind für Abzug ist schwerbehindert</titl>
+            </prop>
+            <prop name="odpocetDite2Ztp">
+                <titl>Das zweite Kind für Abzug ist schwerbehindert</titl>
+            </prop>
+            <prop name="odpracDnuPred">
+                <titl>Berufstage-Zahl seit Arbeitsbeginn</titl>
+            </prop>
+            <prop name="odpracRokuPred">
+                <titl>Berufsjahre-Zahl seit Arbeitsbeginn</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Personal-Nr.</titl>
+            </prop>
+            <prop name="osbCisAlter">
+                <titl>Alternative Personal.-Nr.</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>Person</titl>
+            </prop>
+            <prop name="podpisProhl">
+                <titl>Unterschrift des Antrages auf Lohnermässigung</titl>
+            </prop>
+            <prop name="pohlaviK">
+                <titl>Geschlecht</titl>
+            </prop>
+            <prop name="posta">
+                <titl>Post</titl>
+            </prop>
+            <prop name="postaKon">
+                <titl>Korrespondenzpost</titl>
+            </prop>
+            <prop name="postaKonTuz">
+                <titl>Korrespondenzpost Inland</titl>
+            </prop>
+            <prop name="predNemPoj">
+                <titl>Vorgehende Krankenversicherung</titl>
+            </prop>
+            <prop name="prijmeniPred">
+                <titl>Vorheriger Familienname</titl>
+            </prop>
+            <prop name="prijmeniRod">
+                <titl>Geburtsname</titl>
+            </prop>
+            <prop name="prukazZTP">
+                <titl>Inhaber von Schwerbehindertenausweis</titl>
+            </prop>
+            <prop name="pscKon">
+                <titl>PLZ zur Korrespondenzadresse </titl>
+            </prop>
+            <prop name="pscKonTuz">
+                <titl>PLZ zur Korrespondenzadresse Inland</titl>
+            </prop>
+            <prop name="rodCis">
+                <titl>Personenkennzahl</titl>
+                <desc>Personenkennzahl oder Versicherungsnummer des Versicherten</desc>
+            </prop>
+            <prop name="rodStavK">
+                <titl>Familienstand</titl>
+            </prop>
+            <prop name="sirotciDuch">
+                <titl>Waisenrente</titl>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Gruppe von Personen</titl>
+            </prop>
+            <prop name="slevaPoplat">
+                <titl>Steuerzahler-Rabatt</titl>
+            </prop>
+            <prop name="snizVymZaklZp">
+                <titl>Senkung der Bemessungsgrundlage der Krankenversicherung (Gesetz Nr. 592/1992 Slg., § 3 -Bemessungsgrundlage, Abs. 7)</titl>
+                <abbr>Senkung der Bemessungsgrundl. Krankenvers.</abbr>
+            </prop>
+            <prop name="soucNemPoj">
+                <titl>Gegenwärtige Krankenversicherung</titl>
+            </prop>
+            <prop name="starobniDuch">
+                <titl>Altersrente</titl>
+            </prop>
+            <prop name="starobniPredDuch">
+                <titl>Frührente</titl>
+            </prop>
+            <prop name="statKon">
+                <titl>Korrespondenzadresse Staat</titl>
+            </prop>
+            <prop name="statKonTuz">
+                <titl>Korrespondenzadresse Staat</titl>
+            </prop>
+            <prop name="statNaroz">
+                <titl>Geburtsstaat</titl>
+            </prop>
+            <prop name="statObcan">
+                <titl>Staatsangehörigkeit</titl>
+            </prop>
+            <prop name="student">
+                <titl>Student</titl>
+            </prop>
+            <prop name="tdDobirka">
+                <titl>Verbindlichkeitsart der Nachzahlung</titl>
+            </prop>
+            <prop name="tdZaloha">
+                <titl>Verbindlichkeitsart des Vorschusses</titl>
+            </prop>
+            <prop name="telefon">
+                <titl>Telefon</titl>
+            </prop>
+            <prop name="typVztahuK">
+                <titl>Beziehungstyp zur Firma</titl>
+            </prop>
+            <prop name="ucastnikDuchSpor">
+                <titl>Nimmt an Rentenversicherung teil</titl>
+            </prop>
+            <prop name="uliceKon">
+                <titl>Korrespondenzadresse Strasse</titl>
+            </prop>
+            <prop name="uliceKonTuz">
+                <titl>Korrespondenzadresse Strasse Inland</titl>
+            </prop>
+            <prop name="vdovskyDuch">
+                <titl>Witwen/Witwerrente</titl>
+            </prop>
+            <prop name="zahranicniDuch">
+                <titl>Rente bezogen aus dem Ausland</titl>
+            </prop>
+            <prop name="zdravPoj">
+                <titl>Krankenkasse</titl>
+                <abbr>Krankenkasse</abbr>
+            </prop>
+            <prop name="zdrPojDoplat">
+                <titl>Krankenversicherung - Nachzahlung</titl>
+            </prop>
+            <prop name="zdrPojDoplatRozdel">
+                <titl>Aufteilen zwischen die Firma und den Arbeitnehmer</titl>
+            </prop>
+            <prop name="zpusPlatbyK">
+                <titl>Zahlungsart</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.OsobaHlav">
+            <prop name="_title">
+                <titl>Personen-Kopfzeile</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Personalnummer</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PraceStred">
+            <prop name="_title">
+                <titl>Arbeit für Kostenstellen</titl>
+            </prop>
+            <prop name="datumDo">
+                <titl>Datum bis</titl>
+            </prop>
+            <prop name="datumOd">
+                <titl>Datum von</titl>
+            </prop>
+            <prop name="hodin">
+                <titl>Stunden</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Monat</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="procento">
+                <titl>Prozentsatz</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PracPom">
+            <prop name="_title">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="aktivniDo">
+                <titl>aktiv bis</titl>
+            </prop>
+            <prop name="aktivniOd">
+                <titl>aktiv von</titl>
+            </prop>
+            <prop name="dovoleneRocne">
+                <titl>Urlaubstage pro Jahr</titl>
+            </prop>
+            <prop name="dovoleneRocneHod">
+                <titl>Urlaubsstunden pro Jahr</titl>
+            </prop>
+            <prop name="duvodNeposkytnutiCsszK">
+                <titl>Grund für die Nichtvorlage von Belegen</titl>
+            </prop>
+            <prop name="duvodSlevaSPFirmaK">
+                <titl>###Důvod slevy SP za firmu</titl>
+            </prop>
+            <prop name="duvodUkonceniCsszK">
+                <titl>Grund für die Beendigung des Arbeitsverhältnisses</titl>
+            </prop>
+            <prop name="hlavni">
+                <titl>Haupt-</titl>
+            </prop>
+            <prop name="hodinovaMzda">
+                <titl>Stundenlohn</titl>
+            </prop>
+            <prop name="kodELDP">
+                <titl>Code für Rentenversicherung</titl>
+            </prop>
+            <prop name="konecPomeru">
+                <titl>Ende des Arbeitsverhältnisses</titl>
+            </prop>
+            <prop name="malyRozsah">
+                <titl>Arbeit von kleinem Umfang</titl>
+            </prop>
+            <prop name="mesicniMzda">
+                <titl>Monatsgehalt</titl>
+            </prop>
+            <prop name="narokOdstupne">
+                <titl>Anspruch auf Abfindung</titl>
+            </prop>
+            <prop name="nastup">
+                <titl>Arbeitsbeginn</titl>
+            </prop>
+            <prop name="odstupneNasobek">
+                <titl>Abgangsentschädigung - Multiplikator</titl>
+            </prop>
+            <prop name="odstupnePlnaVyse">
+                <titl>Vollständig gezahlte Abfindungen</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="plneniOdprDobyK">
+                <titl>Leistung der Arbeitszeit</titl>
+            </prop>
+            <prop name="pracPomHlav">
+                <titl>Kopfzeile - Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="pracRozvrhK">
+                <titl>Arbeitsverteilerliste</titl>
+            </prop>
+            <prop name="predHrubPrijem">
+                <titl>Arbeitsrechtlicher Durchschnitt [%currency-symbol/Std.]</titl>
+            </prop>
+            <prop name="procMinMzd">
+                <titl>Prozentsatz von Mindestlohn</titl>
+            </prop>
+            <prop name="prominutiSPFirma">
+                <titl>Erlass der Sozialversicherung für die Firma</titl>
+            </prop>
+            <prop name="skutecnyNastup">
+                <titl>###Skutečný nástup</titl>
+            </prop>
+            <prop name="slevaSPFirma">
+                <titl>###Sleva SP za firmu</titl>
+            </prop>
+            <prop name="slevaSpFirmaDo">
+                <titl>###OZUSPOJ sleva do</titl>
+            </prop>
+            <prop name="slevaSpFirmaOd">
+                <titl>###OZUSPOJ sleva od</titl>
+            </prop>
+            <prop name="svatkyPrumer">
+                <titl>Durchschnittsberechnung vom Ersatz für Feiertage</titl>
+            </prop>
+            <prop name="tarifTrida">
+                <titl>Lohnklasse</titl>
+            </prop>
+            <prop name="tdIntCestDoLim">
+                <titl>Interne Belegart für Reisekosten bis zum Limit</titl>
+            </prop>
+            <prop name="tdIntHomeofficeDoLim">
+                <titl>###Typ interního dokladu pro homeoffice do limitu</titl>
+            </prop>
+            <prop name="tdIntHruba">
+                <titl>Interne Belegart von Bruttolohn</titl>
+            </prop>
+            <prop name="tdIntNahrad">
+                <titl>Interne Belegart von Lohnersatz für Arbeitsunfähigkeit</titl>
+            </prop>
+            <prop name="tdIntStravPausDoLim">
+                <titl>Art des internen Belegs für pauschale Mahlzeiten bis zum Höchstbetrag</titl>
+            </prop>
+            <prop name="tdSrazkaStrav">
+                <titl>###Typ dokladu pro srážku stravenek</titl>
+            </prop>
+            <prop name="tuoZavDan">
+                <titl>Buchungsvorschrift Steuer</titl>
+            </prop>
+            <prop name="tuoZavSocFir">
+                <titl>Sozialversicherung Arbeitgeber</titl>
+                <abbr>Buch. Vor. Soz. Firma</abbr>
+            </prop>
+            <prop name="tuoZavSocZam">
+                <titl>Sozialversicherung - Arbeitnehmer</titl>
+                <abbr>Buch. Vor. Soz. Arbeitn.</abbr>
+            </prop>
+            <prop name="tuoZavZdrFir">
+                <titl>Krankenversicherung - Arbeitgeber</titl>
+                <abbr>Buch. Vor. Kr. Firma</abbr>
+            </prop>
+            <prop name="tuoZavZdrZam">
+                <titl>Krankenversicherung - Arbeitnehmer</titl>
+                <abbr>Buch. Vor. Kr. Arbeitn.</abbr>
+            </prop>
+            <prop name="tydenPracDobaK">
+                <titl>Arbeitszeit pro Woche</titl>
+            </prop>
+            <prop name="typMzdyK">
+                <titl>Lohnart</titl>
+            </prop>
+            <prop name="typPracPom">
+                <titl>Typ von Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="uvazCt">
+                <titl>Donnerstag</titl>
+            </prop>
+            <prop name="uvazDnuTydne">
+                <titl>Arbeitsverpflichtung - Tage [wöchentlich]</titl>
+            </prop>
+            <prop name="uvazHodDenne">
+                <titl>Arbeitsverpflichtung Stunden [täglich]</titl>
+            </prop>
+            <prop name="uvazHodTydne">
+                <titl>Arbeitsverpflichtung - Stunden [wöchentlich]</titl>
+            </prop>
+            <prop name="uvazNe">
+                <titl>Sonntag</titl>
+            </prop>
+            <prop name="uvazPa">
+                <titl>Freitag</titl>
+            </prop>
+            <prop name="uvazPo">
+                <titl>Montag</titl>
+            </prop>
+            <prop name="uvazSo">
+                <titl>Samstag</titl>
+            </prop>
+            <prop name="uvazSt">
+                <titl>Mittwoch</titl>
+            </prop>
+            <prop name="uvazUt">
+                <titl>Dienstag</titl>
+            </prop>
+            <prop name="zacatek">
+                <titl>Anfang des Arbeitsverhältnisses</titl>
+            </prop>
+            <prop name="zacPracDoby">
+                <titl>Anfang der Arbeitszeit</titl>
+            </prop>
+            <prop name="zlistDuvod">
+                <titl>Grund der Beendigung</titl>
+            </prop>
+            <prop name="zlistSdeleni">
+                <titl>Mitteilung der Organisation</titl>
+            </prop>
+            <prop name="zlistUkonceni">
+                <titl>Grund der Beendigung</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PracPomHlav">
+            <prop name="_title">
+                <titl>Kopf des Arbeitsverhältnisses</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PracPomView">
+            <prop name="_title">
+                <titl>###Pracovní poměr</titl>
+            </prop>
+            <prop name="aktivniDo">
+                <titl>###Aktivní do</titl>
+            </prop>
+            <prop name="aktivniOd">
+                <titl>###Aktivní od</titl>
+            </prop>
+            <prop name="duvodSlevaSPFirmaK">
+                <titl>###Důvod slevy SP za firmu</titl>
+            </prop>
+            <prop name="hlavni">
+                <titl>###Hlavní</titl>
+            </prop>
+            <prop name="idPracPomView">
+                <titl>###ID</titl>
+            </prop>
+            <prop name="konecPomeru">
+                <titl>###Konec poměru</titl>
+            </prop>
+            <prop name="nastup">
+                <titl>###Nástupu do práce</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>###Osoba</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>###Pracovní poměr</titl>
+            </prop>
+            <prop name="pracRozvrhK">
+                <titl>###Pracovní rozvrh</titl>
+            </prop>
+            <prop name="slevaSPFirma">
+                <titl>###Sleva SP za firmu</titl>
+            </prop>
+            <prop name="slevaSpFirmaDo">
+                <titl>###OZUSPOJ sleva do</titl>
+            </prop>
+            <prop name="slevaSpFirmaOd">
+                <titl>###OZUSPOJ sleva od</titl>
+            </prop>
+            <prop name="tydenPracDoba">
+                <titl>###Tydenní pracovní doba</titl>
+            </prop>
+            <prop name="uvazDnuTydne">
+                <titl>###Úvazek dnů [Týdně]</titl>
+            </prop>
+            <prop name="uvazHodDenne">
+                <titl>###Úvazek hodin [Denně]</titl>
+            </prop>
+            <prop name="uvazHodTydne">
+                <titl>###Úvazek hodin [Týdně]</titl>
+            </prop>
+            <prop name="zacatek">
+                <titl>###Začátek poměru</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PracPravPrumer">
+            <prop name="_title">
+                <titl>Arbeitsrechtliche Durchschnitte</titl>
+            </prop>
+            <prop name="idPracPravPrumer">
+                <titl>ID</titl>
+            </prop>
+            <prop name="jmeno">
+                <titl>Familienname und Name</titl>
+            </prop>
+            <prop name="prum1">
+                <titl>1. Quartal</titl>
+            </prop>
+            <prop name="prum2">
+                <titl>2. Quartal</titl>
+            </prop>
+            <prop name="prum3">
+                <titl>3. Quartal</titl>
+            </prop>
+            <prop name="prum4">
+                <titl>4. Quartal</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PrehledMzdSlozky">
+            <prop name="_title">
+                <titl>Übersicht der Lohnkomponenten</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Summe</titl>
+            </prop>
+            <prop name="cisRad">
+                <titl>Zeilennummer</titl>
+            </prop>
+            <prop name="dny">
+                <titl>Tage</titl>
+            </prop>
+            <prop name="hodiny">
+                <titl>Stunden</titl>
+            </prop>
+            <prop name="idPrehledMzdSlozky">
+                <titl>ID</titl>
+            </prop>
+            <prop name="pocetPolozek">
+                <titl>Zahl der Posten</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Grundlage</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PrehledPracPom">
+            <prop name="_title">
+                <titl>Übersicht der Arbeitsverhältnisse</titl>
+            </prop>
+            <prop name="castHod">
+                <titl>CHF/Std.</titl>
+            </prop>
+            <prop name="castMes">
+                <titl>CHF/Monat</titl>
+            </prop>
+            <prop name="idPrehledPracPom">
+                <titl>ID</titl>
+            </prop>
+            <prop name="nastup">
+                <titl>Berufseinstieg</titl>
+            </prop>
+            <prop name="pracRozvrhK">
+                <titl>Typ der Arbeitsverteilung</titl>
+            </prop>
+            <prop name="stalaMzdSloz">
+                <titl>Lohnart</titl>
+            </prop>
+            <prop name="ukonceni">
+                <titl>Beendigung</titl>
+            </prop>
+            <prop name="uvazek">
+                <titl>Arbeitsverpflichtung Std./Woche</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PrehledZamestnancu">
+            <prop name="_title">
+                <titl>Übersicht der Arbeitnehmer</titl>
+            </prop>
+            <prop name="datNaroz">
+                <titl>Geburtsdatum</titl>
+            </prop>
+            <prop name="dobaOdpr">
+                <titl>Geleistete Arbeitszeit</titl>
+            </prop>
+            <prop name="dovolPocatek">
+                <titl>Urlaub - Beginn</titl>
+            </prop>
+            <prop name="dovolVybrano">
+                <titl>Urlaub - genommen</titl>
+            </prop>
+            <prop name="dovolZbyva">
+                <titl>Rest-Urlaub</titl>
+            </prop>
+            <prop name="idPrehledZamestnancu">
+                <titl>ID</titl>
+            </prop>
+            <prop name="jmeno">
+                <titl>Familienname und Vorname</titl>
+            </prop>
+            <prop name="konecPomeru">
+                <titl>Arbeitsverhältnis-Ende</titl>
+            </prop>
+            <prop name="odpocetDeti">
+                <titl>Kinderabzug</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Personalnummer</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="pracPravPrum">
+                <titl>Arbeitsrechtlicher Durchschnitt</titl>
+            </prop>
+            <prop name="typPracPom">
+                <titl>Typ des Arbeitsverhältnisses</titl>
+            </prop>
+            <prop name="uvazHodTydne">
+                <titl>Arbeitsverpflichtung Std./Woche</titl>
+            </prop>
+            <prop name="uvazKoef">
+                <titl>Arbeitsverpflichtung - Koeffizient</titl>
+            </prop>
+            <prop name="zacatek">
+                <titl>Berufseinstieg</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Prumer">
+            <prop name="_title">
+                <titl>Durchschnitt</titl>
+            </prop>
+            <prop name="hrubaHodMzda">
+                <titl>Durchschnittsbruttostundenlohn</titl>
+            </prop>
+            <prop name="mesicCtvrtleti">
+                <titl>Monat / Quartal</titl>
+            </prop>
+            <prop name="nemocDenPrum">
+                <titl>Durchschnitt für Krankheit [CHF/Tag]</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="pracPravPrum">
+                <titl>Arbeitsrechtlicher Durchschnitt [CHF/Std.]</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.SkupOsob">
+            <prop name="_title">
+                <titl>Personen-Gruppen</titl>
+            </prop>
+            <prop name="tdIntCestDoLim">
+                <titl>Typ für Reisegeld bis zum Limit</titl>
+            </prop>
+            <prop name="tdIntHomeofficeDoLim">
+                <titl>###Typ pro homeoffice do limitu</titl>
+            </prop>
+            <prop name="tdIntHruba">
+                <titl>Art von Bruttolohn</titl>
+            </prop>
+            <prop name="tdIntNahrad">
+                <titl>Art von Lohnersatz</titl>
+            </prop>
+            <prop name="tdIntPrispevky">
+                <titl>###Typ int. dokl. příspěvků</titl>
+            </prop>
+            <prop name="tdIntStravPausDoLim">
+                <titl>Typ für Verpflegungspauschale bis zum Limit</titl>
+            </prop>
+            <prop name="tdPrispPenzijStat">
+                <titl>###Typ int. dokl. penzij. spoř. stát. přísp.</titl>
+            </prop>
+            <prop name="tdSrazkaStrav">
+                <titl>###Typ pro srážku stravenek</titl>
+            </prop>
+            <prop name="tdStravenka">
+                <titl>###Typ pro stravenky</titl>
+            </prop>
+            <prop name="tdZavPrispevky">
+                <titl>###Typ závazku příspěvků</titl>
+            </prop>
+            <prop name="tuoStravFirDoLim">
+                <titl>###Předpis příspěvek firmy do limitu</titl>
+            </prop>
+            <prop name="tuoStravFirNadLim">
+                <titl>###Předpis příspěvek firmy nad limit</titl>
+            </prop>
+            <prop name="tuoStravZam">
+                <titl>###Předpis příspěvek zaměstnance</titl>
+            </prop>
+            <prop name="tuoZavDan">
+                <titl>Buchungsvorschrift Steuer</titl>
+            </prop>
+            <prop name="tuoZavSocFir">
+                <titl>Buchungsvorschrift - Arbeitgeber</titl>
+                <abbr>Buch. Vor. Soz. Firma</abbr>
+            </prop>
+            <prop name="tuoZavSocZam">
+                <titl>Buchungsvorschrift - Arbeitnehmer</titl>
+                <abbr>Buch. Vor. Soz. Arbeitn.</abbr>
+            </prop>
+            <prop name="tuoZavZdrFir">
+                <titl>Buchungsvorschrift Arbeitgeber</titl>
+                <abbr>Buch. Vor. Kr. Firma</abbr>
+            </prop>
+            <prop name="tuoZavZdrZam">
+                <titl>Buchungsvorschrift Arbeitnehmer</titl>
+                <abbr>Buch. Vor. Kr. Arbeitn.</abbr>
+            </prop>
+            <prop name="tydenPracDobaK">
+                <titl>Arbeitszeit wöchentlich</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Smeny">
+            <prop name="_title">
+                <titl>Schichten</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Monat</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="planovane">
+                <titl>Geplante Schichten</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Personen-Gruppen</titl>
+            </prop>
+            <prop name="skutecne">
+                <titl>Wirklich geleistet</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Srazka">
+            <prop name="_title">
+                <titl>Abzüge</titl>
+            </prop>
+            <prop name="banSpoj">
+                <titl>Bankverbindung</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Summe</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Insgesamt</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Abzugsart</titl>
+            </prop>
+            <prop name="deponovatDo">
+                <titl>Deponieren bis</titl>
+            </prop>
+            <prop name="kdatu">
+                <titl>Bis zum Datum</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="pocatek">
+                <titl>Anfangsstand</titl>
+            </prop>
+            <prop name="poradi">
+                <titl>Abzüge - Reihenfolge</titl>
+            </prop>
+            <prop name="prednostni">
+                <titl>Lohnabzug mit Priorität</titl>
+            </prop>
+            <prop name="procMzd">
+                <titl>Prozentsatz von der Grundlage</titl>
+            </prop>
+            <prop name="skupSlozkyK">
+                <titl>Komponentengruppe</titl>
+            </prop>
+            <prop name="splatnost">
+                <titl>Fälligkeitsdatum</titl>
+            </prop>
+            <prop name="srazkaDo">
+                <titl>Abziehen bis</titl>
+            </prop>
+            <prop name="srazkaOd">
+                <titl>Abziehen von</titl>
+            </prop>
+            <prop name="typIntDokl">
+                <titl>Art des internen Belegs</titl>
+            </prop>
+            <prop name="typOstZav">
+                <titl>Verbindlichkeitsart</titl>
+            </prop>
+            <prop name="typSlozkyK">
+                <titl>Komponententyp</titl>
+            </prop>
+            <prop name="zbyva">
+                <titl>Rest</titl>
+            </prop>
+            <prop name="zpusobPlatbyK">
+                <titl>Zahlungsart</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.StalaMzdSloz">
+            <prop name="_title">
+                <titl>Feste Lohnkomponenten</titl>
+            </prop>
+            <prop name="banSpoj">
+                <titl>###Bankovní účet</titl>
+            </prop>
+            <prop name="castkaDen">
+                <titl>Summe pro Tag</titl>
+            </prop>
+            <prop name="castkaHod">
+                <titl>Summe pro Stunde</titl>
+            </prop>
+            <prop name="castMzd">
+                <titl>Summe</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Lohnkomponente</titl>
+            </prop>
+            <prop name="datumDo">
+                <titl>Enddatum</titl>
+            </prop>
+            <prop name="datumOd">
+                <titl>Anfangsdatum</titl>
+            </prop>
+            <prop name="dnyKal">
+                <titl>Kalendertage</titl>
+            </prop>
+            <prop name="dnyPrac">
+                <titl>Arbeitstage</titl>
+            </prop>
+            <prop name="dnySvatek">
+                <titl>Feiertage</titl>
+            </prop>
+            <prop name="hodiny">
+                <titl>Stunden</titl>
+            </prop>
+            <prop name="hodinySvatek">
+                <titl>Feiertage in Std.</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="pocetMes">
+                <titl>Monate-Zahl, für die die Komponente gilt</titl>
+            </prop>
+            <prop name="podil">
+                <titl>Anteil der Komponente in Monat</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="procMzd">
+                <titl>Prozentsatz von der Grundlage</titl>
+            </prop>
+            <prop name="prumNaDenNem">
+                <titl>Tagesdurchschnitt</titl>
+            </prop>
+            <prop name="prumNaHodNem">
+                <titl>Stundendurchschnitt</titl>
+            </prop>
+            <prop name="skupSlozkyK">
+                <titl>Gruppe der Komponente</titl>
+            </prop>
+            <prop name="typIntDokl">
+                <titl>###Typ int. dokladu</titl>
+            </prop>
+            <prop name="typOstZav">
+                <titl>###Typ závazku</titl>
+            </prop>
+            <prop name="typPodilK">
+                <titl>Typ von Anteilberechnung</titl>
+            </prop>
+            <prop name="typSlozkyK">
+                <titl>Komponententyp</titl>
+            </prop>
+            <prop name="zaklJeKracen">
+                <titl>Grundlage nach dem Arbeitsumfang gekürzt</titl>
+            </prop>
+            <prop name="zaklMzd">
+                <titl>Lohngrundlage</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.TypPracPom">
+            <prop name="_title">
+                <titl>Typ von Arbeitsverhältnis</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.TypPracPomParam">
+            <prop name="_title">
+                <titl>Parameter/ Typ von Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="actDanNerez">
+                <titl>Gilt für Steuerausländer</titl>
+            </prop>
+            <prop name="actDanRez">
+                <titl>Gilt für Steuerinländer</titl>
+            </prop>
+            <prop name="actMalyRoz">
+                <titl>Gilt für die Arbeit des kleinen Umfangs</titl>
+            </prop>
+            <prop name="actMaProhl">
+                <titl>Gilt bei dem unterschriebenen Antrag auf Lohnermässigung</titl>
+            </prop>
+            <prop name="actNemaProhl">
+                <titl>Gilt bei nicht unterschriebenen Antrag auf Lohnermässigung</titl>
+            </prop>
+            <prop name="actVelkyRoz">
+                <titl>Gilt für die Arbeit von nicht kleinem Umfang</titl>
+            </prop>
+            <prop name="actZdrDopl">
+                <titl>Gilt für Krankenversicherung - Restzahlung</titl>
+            </prop>
+            <prop name="actZdrNedopl">
+                <titl>Gilt für Krankenversicherung - Rückstand</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Lohnkomponente</titl>
+            </prop>
+            <prop name="doHodnoty">
+                <titl>Wert bis</titl>
+            </prop>
+            <prop name="koeficient">
+                <titl>Koeffizient</titl>
+            </prop>
+            <prop name="mzdCalcHlav">
+                <titl>Lohnberechnung</titl>
+            </prop>
+            <prop name="odHodnoty">
+                <titl>Wert von</titl>
+            </prop>
+            <prop name="poleNuluj">
+                <titl>Feld für Abändern</titl>
+            </prop>
+            <prop name="poleTest">
+                <titl>Feld für Test</titl>
+            </prop>
+            <prop name="typPracPom">
+                <titl>Typ von Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="typRovno">
+                <titl>###Typ roven</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.MzdyExtId">
+            <prop name="_title">
+                <titl>Externe Identifikatoren</titl>
+            </prop>
+            <prop name="banSpojMzdy">
+                <titl>Bankverbindung</titl>
+            </prop>
+            <prop name="dite">
+                <titl>Kind</titl>
+            </prop>
+            <prop name="extId">
+                <titl>Identifikator</titl>
+            </prop>
+            <prop name="nepritomnost">
+                <titl>Abwesenheit</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>Kopfzeile Person</titl>
+            </prop>
+            <prop name="praceStred">
+                <titl>Arbeit für Kostenstellen</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="pracPomHlav">
+                <titl>Kopfzeile Arbeitsverhältnis</titl>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Personen-Gruppe</titl>
+            </prop>
+            <prop name="smeny">
+                <titl>Schichten</titl>
+            </prop>
+            <prop name="srazka">
+                <titl>Abzug</titl>
+            </prop>
+            <prop name="stalaMzdSloz">
+                <titl>Feste Lohnkomponente</titl>
+            </prop>
+            <prop name="tabulka">
+                <titl>Tabelle</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.PrilohaMzdy">
+            <prop name="_title">
+                <titl>Beilagen</titl>
+            </prop>
+            <prop name="data">
+                <titl>Beilagen-Daten</titl>
+            </prop>
+            <prop name="dataHash">
+                <titl>Datenabdruck der Beilage (MD5 Summarisation)</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+            <prop name="prilozit">
+                <titl>Zu isdoc beilegen</titl>
+                <abbr>Beilegen</abbr>
+            </prop>
+            <prop name="typK">
+                <titl>Beilagentyp</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.UcelMzdy">
+            <prop name="_title">
+                <titl>Zweck</titl>
+            </prop>
+            <prop name="adresar">
+                <titl>Datensubjekt</titl>
+            </prop>
+            <prop name="definiceUcelu">
+                <titl>Definition des Zwecks</titl>
+            </prop>
+            <prop name="polozkaPrikazu">
+                <titl>Posten der Anweisung</titl>
+            </prop>
+            <prop name="pozastaveno">
+                <titl>Gestoppt</titl>
+            </prop>
+            <prop name="ucelLog">
+                <titl>Umstände der Entstehung des Zweckes</titl>
+            </prop>
+            <prop name="vyreseno">
+                <titl>Erledigt</titl>
+            </prop>
+        </bean>
+    </beans>
+</config>

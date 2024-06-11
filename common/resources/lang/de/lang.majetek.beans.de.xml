@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/de/lang.majetek.beans.de.xml
+   Created on  : 25. 04. 2024, 08:32
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <beans>
+        <bean name="global">
+            <prop name="majetek">
+                <titl>Vermögen</titl>
+            </prop>
+            <prop name="vozCislo">
+                <titl>Nummer</titl>
+            </prop>
+            <prop name="vozHavar">
+                <titl>Unfallversicherung</titl>
+            </prop>
+            <prop name="vozHavarVyse">
+                <titl>Versicherungshöhe</titl>
+            </prop>
+            <prop name="vozModel">
+                <titl>Modell</titl>
+            </prop>
+            <prop name="vozObjem">
+                <titl>Volumen</titl>
+            </prop>
+            <prop name="vozSpz">
+                <titl>Autokennzeichen</titl>
+            </prop>
+            <prop name="vozTyp">
+                <titl>Fahrzeugtyp</titl>
+            </prop>
+            <prop name="vozVybava">
+                <titl>Ausstattung</titl>
+            </prop>
+            <prop name="vozZnacka">
+                <titl>Automarke</titl>
+            </prop>
+            <prop name="zustVyrazUcet">
+                <titl>Konto der Ausreihung</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.adr.AdrUdalostMaj">
+            <prop name="_title">
+                <titl>Vorfälle</titl>
+            </prop>
+            <prop name="actRuTask">
+                <titl>ActRuTask</titl>
+            </prop>
+            <prop name="celodenni">
+                <titl>ganztägig</titl>
+            </prop>
+            <prop name="dokonceni">
+                <titl>Beendigungszeit</titl>
+            </prop>
+            <prop name="firmaExterni">
+                <titl>Externes Unternehmen</titl>
+            </prop>
+            <prop name="osoby">
+                <titl>Personen</titl>
+            </prop>
+            <prop name="predmet">
+                <titl>Gegenstand</titl>
+            </prop>
+            <prop name="prioritaK">
+                <titl>Priorität</titl>
+            </prop>
+            <prop name="processDefinitionId">
+                <titl>ProcessDefinitionId</titl>
+            </prop>
+            <prop name="stavUdalK">
+                <titl>Vorfallstand</titl>
+            </prop>
+            <prop name="taskDefinitionKey">
+                <titl>TaskDefinitionKey</titl>
+            </prop>
+            <prop name="termin">
+                <titl>Realisierungstermin</titl>
+            </prop>
+            <prop name="typAkt">
+                <titl>Aktivitätstyp</titl>
+            </prop>
+            <prop name="umisteni">
+                <titl>Platzierung</titl>
+            </prop>
+            <prop name="volno">
+                <titl>Frei</titl>
+            </prop>
+            <prop name="zahajeni">
+                <titl>Beginn</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.DanNakl">
+            <prop name="_title">
+                <titl>Steuerkosten</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Datum der Verbuchung</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Belegnummer</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasingvermögen</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Basis [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZklMen">
+                <titl>Basis [Währung]</titl>
+            </prop>
+            <prop name="szbDph">
+                <titl>MwSt.-Satz</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>HABEN - Konto der Abschreibung</titl>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>SOLL - Konto der Abschreibung</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.DanOdpis">
+            <prop name="_title">
+                <titl>Steuerabschreibungen</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Belegnummer</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Vermögen</titl>
+            </prop>
+            <prop name="stariMaj">
+                <titl>Vermögensalter (Jahre)</titl>
+                <abbr>Alter(Jahre)</abbr>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Steuerabschreibung [%currency-symbol]</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Haben-Konto der Abschreibung</titl>
+                <abbr>Haben-Konto</abbr>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Soll-Konto der Abschreibung</titl>
+                <abbr>Soll-Konto</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Leasing">
+            <prop name="_title">
+                <titl>Leasingvermögen</titl>
+            </prop>
+            <prop name="casUcet">
+                <titl>Rechnungsabgrenzungskonto von Kosten</titl>
+                <abbr>Rechnungsabgrenzungskonto</abbr>
+            </prop>
+            <prop name="cena">
+                <titl>Preis [%currency-symbol]</titl>
+            </prop>
+            <prop name="cidPoriz">
+                <titl>Vertragsnummer</titl>
+            </prop>
+            <prop name="datKoupe">
+                <titl>Datum der Leasingeröffnung</titl>
+                <abbr>Eröffnung</abbr>
+            </prop>
+            <prop name="datVyroby">
+                <titl>Herstellungsdatum</titl>
+                <abbr>Hergestellt</abbr>
+            </prop>
+            <prop name="dodavatel">
+                <titl>Lieferant</titl>
+            </prop>
+            <prop name="dphSnizUcet">
+                <titl>MwSt. - Konto - ermässigter Satz</titl>
+                <abbr>MwSt. - Konto - Grundsatz</abbr>
+            </prop>
+            <prop name="dphZaklUcet">
+                <titl>MwSt. - Konto - Grundsatz</titl>
+                <abbr>MwSt. - Konto - ermässigt</abbr>
+            </prop>
+            <prop name="druhK">
+                <titl>Art</titl>
+            </prop>
+            <prop name="eanKod">
+                <titl>EAN Code</titl>
+            </prop>
+            <prop name="frekDanNaklK">
+                <titl>Frequenz der Steuerkosten</titl>
+                <abbr>Frequenz der Steuerkosten</abbr>
+            </prop>
+            <prop name="mena">
+                <titl>Währung</titl>
+            </prop>
+            <prop name="mjZarukyK">
+                <titl>ME - Garantien</titl>
+            </prop>
+            <prop name="naklUcet">
+                <titl>Steuerkostenkonto</titl>
+                <abbr>Steuerkostenkonto</abbr>
+            </prop>
+            <prop name="pocetDanNakl">
+                <titl>Zahl der Steuerkosten (in Monaten)</titl>
+                <abbr>Steuerkosten</abbr>
+            </prop>
+            <prop name="pocetSplatek">
+                <titl>Zahl von Abzahlungen</titl>
+                <abbr>Abzahlungen</abbr>
+            </prop>
+            <prop name="stredisko">
+                <titl>Kostenstelle</titl>
+            </prop>
+            <prop name="sumSplaceno">
+                <titl>Abgezahlt [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZbyva">
+                <titl>Restlich [%currency-symbol]</titl>
+            </prop>
+            <prop name="typLeasingu">
+                <titl>Typ</titl>
+            </prop>
+            <prop name="vyrCis">
+                <titl>Produktionsnummer</titl>
+            </prop>
+            <prop name="vyrobce">
+                <titl>Hersteller</titl>
+            </prop>
+            <prop name="zakazka">
+                <titl>Auftrag</titl>
+            </prop>
+            <prop name="zaruka">
+                <titl>Garantie</titl>
+            </prop>
+            <prop name="zavazUcet">
+                <titl>Verbindlichkeitskonto</titl>
+                <abbr>Verbindlichkeitskonto</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Majetek">
+            <prop name="_title">
+                <titl>Geringwertiges, langfristiges und nicht abgeschriebenes Vermögen</titl>
+            </prop>
+            <prop name="cena">
+                <titl>Preis bei der Eingliederung [%currency-symbol]</titl>
+                <abbr>Preis</abbr>
+            </prop>
+            <prop name="cidPoriz">
+                <titl>Beschaffungsbeleg</titl>
+                <abbr>Beleg</abbr>
+            </prop>
+            <prop name="datKoupe">
+                <titl>Ankaufsdatum</titl>
+                <abbr>Gekauft</abbr>
+            </prop>
+            <prop name="datUdalVyr">
+                <titl>Datum der Aussonderung</titl>
+                <abbr>Ausgesondert</abbr>
+            </prop>
+            <prop name="datUdalZar">
+                <titl>Datum des Eingliederungsvorfalls</titl>
+                <abbr>Dat. des Eingliederungsvorfalls</abbr>
+            </prop>
+            <prop name="datVyroby">
+                <titl>Datum der Herstellung</titl>
+                <abbr>Hergestellt</abbr>
+            </prop>
+            <prop name="datZacDan">
+                <titl>Beginn der Steuerabschreibungen</titl>
+                <abbr>Beginn der Steuerabschreib.</abbr>
+            </prop>
+            <prop name="datZacUcet">
+                <titl>Beginn der buchhalterischen Abschreibungen</titl>
+                <abbr>Beginn der buchhalterischen Abschreibungen</abbr>
+            </prop>
+            <prop name="datZar">
+                <titl>Datum der Eingliederung</titl>
+                <abbr>Eingegliedert</abbr>
+            </prop>
+            <prop name="dodavatel">
+                <titl>Lieferant</titl>
+            </prop>
+            <prop name="doklFaktury">
+                <titl>Identifikationsart der angenommenen Rechnungen</titl>
+            </prop>
+            <prop name="druhK">
+                <titl>Art</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Inventarnummer</titl>
+                <abbr>Inventarnummer</abbr>
+            </prop>
+            <prop name="kusySoubor">
+                <titl>Stücke in der Datei</titl>
+                <abbr>Stücke</abbr>
+            </prop>
+            <prop name="mistnost">
+                <titl>"Raum"</titl>
+            </prop>
+            <prop name="nahrUcetOdpK">
+                <titl>Buchhalterische Abschreibungen schaffen</titl>
+                <abbr>Buchhalterische Abschreibungen.</abbr>
+            </prop>
+            <prop name="objekt">
+                <titl>Objekt</titl>
+            </prop>
+            <prop name="odpisovyUcet">
+                <titl>Abschreibungskonto</titl>
+                <abbr>Abschreibungskonto</abbr>
+            </prop>
+            <prop name="opravnyUcet">
+                <titl>Konto der Wertberichtigungen</titl>
+                <abbr>Konto der Wertberichtigungen</abbr>
+            </prop>
+            <prop name="predpisUcetOdp">
+                <titl>Zahl von Monaten der Abschreibung</titl>
+                <abbr>Zeit der buchhalterischen Abschreibungen</abbr>
+            </prop>
+            <prop name="primarniUcet">
+                <titl>Primärkonto</titl>
+                <abbr>Primärkonto</abbr>
+            </prop>
+            <prop name="protiUcetZarazeni">
+                <titl>Gegenkonto der Eingliederung</titl>
+                <abbr>Gegenkonto der Eingliederung</abbr>
+            </prop>
+            <prop name="sazba">
+                <titl>Abschreibungsgruppe</titl>
+                <abbr>Abschreibungsgruppe</abbr>
+            </prop>
+            <prop name="sekce">
+                <titl>Sektion</titl>
+            </prop>
+            <prop name="skp">
+                <titl>Standardklassifizierung der Produktion</titl>
+                <abbr>SKP</abbr>
+            </prop>
+            <prop name="stariPor">
+                <titl>Abgeschrieben bei Eingliederung (monatlich)</titl>
+                <abbr>Abgeschrieben monatlich</abbr>
+            </prop>
+            <prop name="stariTechZhod">
+                <titl>Alter der technischen Verwertung (Monate)</titl>
+                <abbr>Alter der technischen Verwertung</abbr>
+            </prop>
+            <prop name="techZhod">
+                <titl>Vor der Eingliederung war technische Verwertung</titl>
+                <abbr>Technische Verwertung</abbr>
+            </prop>
+            <prop name="typMajetku">
+                <titl>Typ</titl>
+            </prop>
+            <prop name="uctovatZar">
+                <titl>Eingliederung verbuchen</titl>
+            </prop>
+            <prop name="vyrobce">
+                <titl>Hersteller</titl>
+            </prop>
+            <prop name="zpusOdpK">
+                <titl>Abschreibungsverfahren</titl>
+                <abbr>Abschreibungsverfahren</abbr>
+            </prop>
+            <prop name="zpusPor">
+                <titl>Beschaffungsverfahren</titl>
+                <abbr>Beschaffungsverfahren</abbr>
+            </prop>
+            <prop name="zustDan">
+                <titl>Steuerrest [%currency-symbol]</titl>
+                <abbr>Steuerrest</abbr>
+            </prop>
+            <prop name="zustUcet">
+                <titl>Bestand [%currency-symbol]</titl>
+                <abbr>Bestand</abbr>
+            </prop>
+            <prop name="zvysZrychK">
+                <titl>Erhöhung der Abschreibung im 1. Jahr</titl>
+                <abbr>Erhöhung 1. Jahr</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.MajetekStavKDatu">
+            <prop name="_title">
+                <titl>Vermögensstand bis zum Datum</titl>
+            </prop>
+            <prop name="cena">
+                <titl>Preis</titl>
+            </prop>
+            <prop name="cenaAktualni">
+                <titl>Aktueller Preis</titl>
+            </prop>
+            <prop name="danoveOdpisy">
+                <titl>Steuerabschreibungen</titl>
+            </prop>
+            <prop name="danoveOdpisyObdobi">
+                <titl>Steuerabschreibung für Periode</titl>
+            </prop>
+            <prop name="datPoslDanOdpis">
+                <titl>Datum der letzten steuerlichen Abschreibung</titl>
+            </prop>
+            <prop name="datPoslUcetOdpis">
+                <titl>Datum der letzten buchhalterischen Abschreibung</titl>
+            </prop>
+            <prop name="datPuvZar">
+                <titl>Einreihung</titl>
+            </prop>
+            <prop name="datUdalVyr">
+                <titl>Ausreihung</titl>
+            </prop>
+            <prop name="datZacDan">
+                <titl>Beginn der Steuer-Abschr.</titl>
+            </prop>
+            <prop name="datZacUcet">
+                <titl>Beginn der Buchhaltung-Abschr.</titl>
+            </prop>
+            <prop name="datZar">
+                <titl>In ABRA Flexi eingereiht</titl>
+            </prop>
+            <prop name="dobaOdpMesic">
+                <titl>Abschreibungszeit [Monat]</titl>
+            </prop>
+            <prop name="idMajetekStavKDatu">
+                <titl>ID</titl>
+            </prop>
+            <prop name="odpUcet">
+                <titl>Abschreibungsbeleg</titl>
+            </prop>
+            <prop name="opravUcet">
+                <titl>Korrektur-Konto</titl>
+            </prop>
+            <prop name="predpisUcetOdp">
+                <titl>Zahl der Monate von Abschreibungen</titl>
+                <abbr>Zeit der Buch. Abschr.</abbr>
+            </prop>
+            <prop name="protiUcetZar">
+                <titl>Gegenkonto Einreihung</titl>
+            </prop>
+            <prop name="sazba">
+                <titl>Abschr. Gruppe</titl>
+            </prop>
+            <prop name="stariPor">
+                <titl>Abgeschrieben während der Einreihung [Monate]</titl>
+            </prop>
+            <prop name="sumPoslDanOdpis">
+                <titl>Letzte steuerliche Abschreibung</titl>
+            </prop>
+            <prop name="sumPoslUcetOdpis">
+                <titl>Letzte buchhalterische Abschreibung</titl>
+            </prop>
+            <prop name="sumTechZhodnoceni">
+                <titl>Technische Gesamtbewertung</titl>
+            </prop>
+            <prop name="sumVyrazeni">
+                <titl>Eliminierungen insgesamt</titl>
+            </prop>
+            <prop name="typMajetku">
+                <titl>Vermögenstyp</titl>
+            </prop>
+            <prop name="ucetniOdpisy">
+                <titl>Buchhalterische Abschreibungen</titl>
+            </prop>
+            <prop name="ucetniOdpisyObdobi">
+                <titl>Buchhalterische Abschreibungen für Periode</titl>
+            </prop>
+            <prop name="ucetniStejneJakoDanove">
+                <titl>Buch. Abschr. = Steuerabschr.</titl>
+            </prop>
+            <prop name="zmenaCenyZkl">
+                <titl>Preisänderung insgesamt</titl>
+            </prop>
+            <prop name="zustatekDanovy">
+                <titl>Steuersaldo</titl>
+            </prop>
+            <prop name="zustatekUcetni">
+                <titl>Buchungssaldo</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Sazba">
+            <prop name="_title">
+                <titl>Abschreibungsgruppen</titl>
+            </prop>
+            <prop name="dobaOdp">
+                <titl>Zeit der Abschreibung</titl>
+                <abbr>Zeit</abbr>
+            </prop>
+            <prop name="koefZrOdp1">
+                <titl>Das erste Jahr</titl>
+                <abbr>1. Jahr - Beschleunigung</abbr>
+            </prop>
+            <prop name="koefZrOdpDalsi">
+                <titl>Folgende Jahre</titl>
+                <abbr>Folgende Jahre - Beschleunigung</abbr>
+            </prop>
+            <prop name="koefZrOdpZvCeny">
+                <titl>Erhöhung der Beschleunigung</titl>
+                <abbr>Erhöhung</abbr>
+            </prop>
+            <prop name="minDobaOdp">
+                <titl>Minimale Abschreibungszeit</titl>
+            </prop>
+            <prop name="prcRoOdp1">
+                <titl>Das erste Jahr</titl>
+                <abbr>1. Jahr gleichmässig</abbr>
+            </prop>
+            <prop name="prcRoOdpDalsi">
+                <titl>Folgende Jahre</titl>
+                <abbr>Folgende Jahre gleichmässig</abbr>
+            </prop>
+            <prop name="prcRoOdpZvCeny">
+                <titl>Erhöhung des Eingangspreises</titl>
+                <abbr>Erhöhung des Eingangspreises</abbr>
+            </prop>
+            <prop name="typOdpK">
+                <titl>Abschreibungsweise</titl>
+            </prop>
+            <prop name="zmena">
+                <titl>Vom Benutzer erstellt</titl>
+                <abbr>Vom Benutzer erstellt</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.SplatKal">
+            <prop name="_title">
+                <titl>Zahlungskalender</titl>
+            </prop>
+            <prop name="clenDph">
+                <titl>Gliederung von MwSt.</titl>
+                <desc>Die Gliederung von MwSt. bestimmt die Zeilen des Formulars für die MwSt.-Erklärung, in das die Summen eingerechnet sind.</desc>
+            </prop>
+            <prop name="clenSplK">
+                <titl>Gliederung der Abzahlung</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Datum der Abzahlung</titl>
+            </prop>
+            <prop name="doklFaktury">
+                <titl>Rechnungen</titl>
+            </prop>
+            <prop name="dphDalUcet">
+                <titl>HABEN - Konto - MwSt.</titl>
+                <abbr>HABEN - Konto - MwSt.</abbr>
+            </prop>
+            <prop name="dphMdUcet">
+                <titl>SOLL - Konto - MwSt.</titl>
+                <abbr>SOLL - Konto - MwSt.</abbr>
+            </prop>
+            <prop name="kod">
+                <titl>Belegnummer</titl>
+                <abbr>Belegnummer</abbr>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasingvermögen</titl>
+            </prop>
+            <prop name="statDph">
+                <titl>MwSt. - Staat</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>MwSt. [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumDphMen">
+                <titl>MwSt. [Währung]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Grundlage [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZklMen">
+                <titl>Grundlage [Währung]</titl>
+            </prop>
+            <prop name="szbDphK">
+                <titl>MwSt.-Satz</titl>
+            </prop>
+            <prop name="typSplK">
+                <titl>Typ der Abzahlung</titl>
+            </prop>
+            <prop name="zavazek">
+                <titl>Verbindlichkeit</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>HABEN - Konto der Grundlage</titl>
+                <abbr>HABEN - Konto der Grundlage</abbr>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>SOLL - Konto der Grundlage</titl>
+                <abbr>SOLL - Konto der Grundlage</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.TypLeas">
+            <prop name="_title">
+                <titl>Typen von Leasingvermögen</titl>
+            </prop>
+            <prop name="casUcet">
+                <titl>Rechnungsabgrenzungskonto der Kosten</titl>
+                <abbr>Rechnungsabgrenzungskonto</abbr>
+            </prop>
+            <prop name="druhK">
+                <titl>Art</titl>
+            </prop>
+            <prop name="naklUcet">
+                <titl>Steuerkostenkonto</titl>
+                <abbr>Steuerkostenkonto</abbr>
+            </prop>
+            <prop name="zavazUcet">
+                <titl>Verbindlichkeitskonto</titl>
+                <abbr>Verbindlichkeitskonto</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.TypMaj">
+            <prop name="_title">
+                <titl>Typen von Vermögen - langfristig und geringwertig</titl>
+            </prop>
+            <prop name="druhK">
+                <titl>Art</titl>
+            </prop>
+            <prop name="jeOdpis">
+                <titl>Das Vermögen wird abgeschrieben</titl>
+            </prop>
+            <prop name="odpisovyUcet">
+                <titl>Abschreibungskonto</titl>
+            </prop>
+            <prop name="opravnyUcet">
+                <titl>Korrekturkonto</titl>
+            </prop>
+            <prop name="primarniUcet">
+                <titl>Vermögenskonto</titl>
+            </prop>
+            <prop name="protiUcetZarazeni">
+                <titl>Eingliederungskonto</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.UcetOdpis">
+            <prop name="_title">
+                <titl>Buchhalterische Abschreibungen</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Belegnummer</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Vermögen</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Buchhalterische Abschreibung [%currency-symbol]</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>HABEN - Konto der Abschreibung</titl>
+                <abbr>HABEN - Konto</abbr>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>SOLL - Konto der Abschreibung</titl>
+                <abbr>SOLL - Konto</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Udalost">
+            <prop name="_title">
+                <titl>Vorfälle</titl>
+            </prop>
+            <prop name="datVys">
+                <titl>Belegdatum</titl>
+            </prop>
+            <prop name="dphDalUcet">
+                <titl>HABEN - Konto des Restes</titl>
+                <abbr>HABEN - Konto des Restes.</abbr>
+            </prop>
+            <prop name="dphMdUcet">
+                <titl>SOLL - Konto des Restes</titl>
+                <abbr>SOLL - Konto des Restes</abbr>
+            </prop>
+            <prop name="kod">
+                <titl>Belegnummer</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Vermögen</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>Buchhalterischer Betrag [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumDphDanove">
+                <titl>Steuerbetrag [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Betrag [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZklMena">
+                <titl>Grundlage [Währung]</titl>
+            </prop>
+            <prop name="typUdalostiK">
+                <titl>Typen von Vorfällen</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>HABEN - Konto des Vorfalls</titl>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>SOLL - Konto des Vorfalls</titl>
+            </prop>
+            <prop name="zmena">
+                <titl>Benutzeränderung des Saldos</titl>
+                <abbr>Benutzeränd. des Sald.</abbr>
+            </prop>
+            <prop name="zmenaDobyOdpis">
+                <titl>Anpassung der Abschreibungszeit</titl>
+                <abbr>Anpassung der Abschreibungszeit</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Umisteni">
+            <prop name="_title">
+                <titl>Platzierung</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Zapujcka">
+            <prop name="_title">
+                <titl>Darleihen / verantwortliche Person</titl>
+            </prop>
+            <prop name="datKonec">
+                <titl>Bis Datum</titl>
+            </prop>
+            <prop name="datZahaj">
+                <titl>Ab Datum</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Vermögen</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Person</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.MajetekExtId">
+            <prop name="_title">
+                <titl>Externe Identifizierer</titl>
+            </prop>
+            <prop name="extId">
+                <titl>Identifizierer</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Vermögen</titl>
+            </prop>
+            <prop name="tabulka">
+                <titl>Tabelle</titl>
+            </prop>
+            <prop name="typLeas">
+                <titl>Leasingtyp</titl>
+            </prop>
+            <prop name="typMaj">
+                <titl>Vermögenstyp</titl>
+            </prop>
+            <prop name="umisteni">
+                <titl>Platzierung</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.PrilohaMajetek">
+            <prop name="_title">
+                <titl>Anlagen</titl>
+            </prop>
+            <prop name="data">
+                <titl>Daten der Anlage</titl>
+            </prop>
+            <prop name="dataHash">
+                <titl>Datenabdruck Anlage(MD5 Summarisation)</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Vermögen</titl>
+            </prop>
+            <prop name="prilozit">
+                <titl>Anlegen</titl>
+                <abbr>Anlegen</abbr>
+            </prop>
+            <prop name="typK">
+                <titl>Anlagentyp</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.UcelMajetek">
+            <prop name="_title">
+                <titl>Zweck</titl>
+            </prop>
+            <prop name="adresar">
+                <titl>Datensubjekt</titl>
+            </prop>
+            <prop name="definiceUcelu">
+                <titl>Definition des Zwecks</titl>
+            </prop>
+            <prop name="polozkaPrikazu">
+                <titl>Posten der Anweisung</titl>
+            </prop>
+            <prop name="pozastaveno">
+                <titl>Gestoppt</titl>
+            </prop>
+            <prop name="ucelLog">
+                <titl>Umstände der Entstehung des Zweckes</titl>
+            </prop>
+            <prop name="vyreseno">
+                <titl>Erledigt</titl>
+            </prop>
+            <prop name="zapujcka">
+                <titl>Darlehen</titl>
+            </prop>
+        </bean>
+    </beans>
+</config>

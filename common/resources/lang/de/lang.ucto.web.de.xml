@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/de/lang.ucto.web.de.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <actions>
+        <act name="vytvoritVazbuZDD">
+            <titl>Bindung Vorschusssteuerbeleg bilden</titl>
+        </act>
+        <act name="zrusitVazbuZDD">
+            <titl>Bindung Vorschusssteuerbeleg aufheben</titl>
+        </act>
+        <act name="yes">
+            <titl>Ja</titl>
+        </act>
+        <act name="no">
+            <titl>Nein</titl>
+        </act>
+        <act name="nastavServerVSiti">
+            <titl>Dienstleistung ABRA Flexi im Netz anbieten</titl>
+        </act>
+        <act name="nastavServerMzdyPristup">
+            <titl>Zugriff für WinStrom Löhne ermöglichen</titl>
+        </act>
+        <act name="nastavZobrazeniVyzvyKVyplneniRegistracnihoEmailu">
+            <titl>Aufforderung zum Ausfüllen der Registrierungs-E-Mail</titl>
+        </act>
+        <act name="authn.type.INTERNAL">
+            <titl>Interner Name und Passwort (Ausgangspasswort)</titl>
+        </act>
+        <act name="authn.type.GOOGLE">
+            <titl>Google</titl>
+        </act>
+        <act name="authn.type.IT_HIGHWAY">
+            <titl>IT Highway</titl>
+        </act>
+        <act name="authn.type.UCTUJTE">
+            <titl>Web Účtujte.cz</titl>
+        </act>
+        <act name="authn.type.OPENID">
+            <titl>Eigener OpenID Provider</titl>
+        </act>
+        <act name="authn.type.SAML">
+            <titl>Eigener SAMLv2 Identity Provider</titl>
+        </act>
+        <act name="authn.require_otp">
+            <titl>Verlangen die Autorisierung mit dem einmaligen Passwort (OTP)</titl>
+        </act>
+        <act name="authn.use_old_http_authn">
+            <titl>Ein neues Anmeldeformular nicht verwenden, sondern die ursprüngliche HTTP Autorisierung.</titl>
+        </act>
+        <act name="logout">
+            <titl>Abmelden</titl>
+        </act>
+    </actions>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <buttons>
+        <btn name="goBack">
+            <titl>Zurück</titl>
+        </btn>
+        <btn name="backup.confirmYes">
+            <titl>Ja, sichern</titl>
+        </btn>
+        <btn name="backup.confirmNo">
+            <titl>Nein, zurück</titl>
+        </btn>
+        <btn name="continue">
+            <titl>Fortsetzen</titl>
+        </btn>
+        <btn name="modify">
+            <titl>Ändern</titl>
+        </btn>
+        <btn name="enable">
+            <titl>Aktivieren</titl>
+        </btn>
+        <btn name="disable">
+            <titl>Deaktivieren</titl>
+        </btn>
+    </buttons>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="devdoc.developers">
+            <titl>Entwicklungsdokumentation</titl>
+        </dlg>
+        <dlg name="actions.title">
+            <titl>Übersicht der Aktionen</titl>
+        </dlg>
+        <dlg name="reports.title">
+            <titl>Übersicht der Druckzusammenstellungen</titl>
+        </dlg>
+        <dlg name="evidences.title">
+            <titl>Übersicht der Evidenzen</titl>
+        </dlg>
+        <dlg name="relations.title">
+            <titl>Relationenübersicht</titl>
+        </dlg>
+        <dlg name="properties.title">
+            <titl>Postenübersicht</titl>
+        </dlg>
+        <dlg name="toolbars.title">
+            <titl>Toolbar</titl>
+        </dlg>
+        <dlg name="admin.title">
+            <titl>Administration</titl>
+        </dlg>
+        <dlg name="sum.title">
+            <titl>Summarisierung</titl>
+        </dlg>
+        <dlg name="users.title">
+            <titl>Personen und Anwender</titl>
+        </dlg>
+        <dlg name="user_access.title">
+            <titl>Zugriff des Benutzers</titl>
+        </dlg>
+        <dlg name="users_access.title">
+            <titl>Zugriffe der Benutzer</titl>
+        </dlg>
+        <dlg name="companies.title">
+            <titl>Liste der Firmen</titl>
+        </dlg>
+        <dlg name="license.title">
+            <titl>Lizenz</titl>
+        </dlg>
+        <dlg name="status.title">
+            <titl>Status</titl>
+        </dlg>
+        <dlg name="authentications.list">
+            <titl>Übersicht der angemeldeten Benutzer</titl>
+        </dlg>
+        <dlg name="connections.list">
+            <titl>Übersicht der angeschlossenen Benutzer</titl>
+        </dlg>
+        <dlg name="authn.basic_settings.header">
+            <titl>Grundeinstellung der Authentifizierung</titl>
+        </dlg>
+        <dlg name="authn.authn_settings.header">
+            <titl>Einstellung der Authentifizierung</titl>
+        </dlg>
+        <dlg name="authn.additional_settings.header">
+            <titl>Ergänzende Einstellung der Authentifizierung</titl>
+        </dlg>
+        <dlg name="authn.additional_sso_settings.header">
+            <titl>Ergänzende Einstellung für &lt;abbr title="Single sign-on"&gt;SSO&lt;/abbr&gt;</titl>
+        </dlg>
+        <dlg name="admin.server.title">
+            <titl>ABRA Flexi Server</titl>
+        </dlg>
+        <dlg name="admin.parameters.title">
+            <titl>Parameter</titl>
+        </dlg>
+        <dlg name="admin.users_logged_in.title">
+            <titl>Angemeldete Benutzer</titl>
+        </dlg>
+        <dlg name="admin.run_in_cluster.title">
+            <titl>Cluster-Betrieb</titl>
+        </dlg>
+        <dlg name="admin.users.title">
+            <titl>Benutzer</titl>
+        </dlg>
+        <dlg name="admin.license_groups.title">
+            <titl>Lizenzgruppen</titl>
+        </dlg>
+        <dlg name="admin.accounting_units.title">
+            <titl>Buchhaltungseinheiten</titl>
+        </dlg>
+        <dlg name="admin.default_licence.title">
+            <titl>Ausgangslizenz</titl>
+        </dlg>
+        <dlg name="admin.accesses.title">
+            <titl>Zugriffe</titl>
+        </dlg>
+        <dlg name="admin.authorization.title">
+            <titl>Autorisierung</titl>
+        </dlg>
+        <dlg name="admin.server_params.title">
+            <titl>Parameter des Servers</titl>
+        </dlg>
+        <dlg name="admin.server_params.title.short">
+            <titl>des Servers</titl>
+        </dlg>
+        <dlg name="admin.ssl_certificate.title">
+            <titl>SSL-Zertifikat</titl>
+        </dlg>
+        <dlg name="admin.disk_usage.title">
+            <titl>Speicherplatznutzung</titl>
+        </dlg>
+        <dlg name="admin.disk_usage.title.short">
+            <titl>Speicherplatzbelegung</titl>
+        </dlg>
+        <dlg name="error.could_not_complete_operation.title">
+            <titl>Die Transaktion kann nicht durchgeführt werden</titl>
+        </dlg>
+        <dlg name="error.503-service_unavailable">
+            <titl>503 - Die Dienstleistung ist nicht zugänglich</titl>
+        </dlg>
+        <dlg name="error.429">
+            <titl>429 - Zu viele Anfragen</titl>
+        </dlg>
+        <dlg name="changesApi.title">
+            <titl>Changes API</titl>
+        </dlg>
+        <dlg name="error.403-access_denied">
+            <titl>403 - Zugriff verweigert</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="suggest.nothingFound">
+            <titl>Nichts gefunden</titl>
+        </msg>
+        <msg name="suggest.summary">
+            <titl>{start} bis {end} von insgesamt {total}</titl>
+        </msg>
+        <msg name="suggest.watermark">
+            <titl>{name} (schreiben Sie Benennung)</titl>
+        </msg>
+        <msg name="unsavedChanges.confirm">
+            <titl>Auf der Seite sind nicht gespeicherte Änderungen. Wollen Sie die Seite wirklich verlassen?</titl>
+        </msg>
+        <msg name="wait">
+            <titl>Warten Sie...</titl>
+        </msg>
+        <msg name="backup.confirmQuestion">
+            <titl>Soll man die Firma wirklich sichern?</titl>
+        </msg>
+        <msg name="internetUpdate.ic_dic_empty">
+            <titl>Keine ID und UID eingetragen.</titl>
+        </msg>
+        <msg name="no.records">
+            <titl>Keine Eintragungen</titl>
+        </msg>
+        <msg name="pageLoad.loadNext">
+            <titl>Nächste Seite einlesen</titl>
+        </msg>
+        <msg name="pageLoad.end">
+            <titl>Alle Seiten eingelesen</titl>
+        </msg>
+        <msg name="pageLoad.loading">
+            <titl>Weitere Seite wird eingelesen...</titl>
+        </msg>
+        <msg name="creditcheck.ok">
+            <titl>Es wurde keine Information erfasst, die einen negativen Einfluss auf die Firmenbonität hat.</titl>
+        </msg>
+        <msg name="creditcheck.end">
+            <titl>Gesellschaft wurde gelöscht oder wird liquidiert.</titl>
+        </msg>
+        <msg name="creditcheck.unknown">
+            <titl>Bonitätsstand unbekannt</titl>
+        </msg>
+        <msg name="creditcheck.warning">
+            <titl>Es bestehen Informationen über Tatsachen oder Änderungen in der Firma, die deren Bonität negativ beeinflussen können (aber nicht müssen).</titl>
+        </msg>
+        <msg name="creditcheck.problem">
+            <titl>Es gibt Informationen, die einen negativen Einfluss auf die Firmenbonität haben.</titl>
+        </msg>
+        <msg name="prilohaNepatriKObjektu">
+            <titl>Beilage %p gehört nicht dem Objekt %p an.</titl>
+        </msg>
+        <msg name="udalostNepatriKObjektu">
+            <titl>Vorfall %p gehört nicht dem Objekt %p an.</titl>
+        </msg>
+        <msg name="automatickeParovaniJinyModul">
+            <titl>Automatische Paarung ist nur auf der Bank und an der Kasse durchzuführen.</titl>
+        </msg>
+        <msg name="bankUcetNemaFormatElVypisu">
+            <titl>Bei Bankkonto ist kein Format des elektronischen Auszugs definiert.</titl>
+        </msg>
+        <msg name="bankUcetNelzeFinbricks">
+            <titl>###Akci nelze použít pro formát Finbricks.</titl>
+        </msg>
+        <msg name="kopieDokladuNemaTypDokl">
+            <titl>Keine Belegart ausgewählt.</titl>
+        </msg>
+        <msg name="chybnyFormatCastky">
+            <titl>Fehlerhaftes Format der Summe</titl>
+        </msg>
+        <msg name="chybnyVlastniKurzChybiKurz">
+            <titl>Wenn Sie einen eigenen Kurs verwenden wollen, müssen Sie auch den eigenen Kurs und die Kursmenge eingeben.</titl>
+        </msg>
+        <msg name="chybnyFormatDatumu">
+            <titl>Fehlerhaftes Datumsformat</titl>
+        </msg>
+        <msg name="hotovUhrNemaTypPoklPoh">
+            <titl>Keine Art der Kassenbucheinträge ausgewählt.</titl>
+        </msg>
+        <msg name="parseParameterNumberError">
+            <titl>Im Parameter %p erwartet man eine Nummer, gefunden aber %p.</titl>
+        </msg>
+        <msg name="parseParameterValueError">
+            <titl>###V parametru %p očekávána jedna z hodnot (%p), ale nalezeno '%p'.</titl>
+        </msg>
+        <msg name="parseParameterMesicError">
+            <titl>Im Parameter %p wird die Nummer des Monats (1-12) oder des Quartals (Q1-Q4) erwartet, aber '%p' wird gefunden.</titl>
+        </msg>
+        <msg name="parametrPovinny">
+            <titl>Parameter %p ist eine Pflichtangabe.</titl>
+        </msg>
+        <msg name="neexistujeReport">
+            <titl>Es gibt keinen Report.</titl>
+        </msg>
+        <msg name="invalidDate">
+            <titl>{0} ist kein gültiges Datenformat.</titl>
+        </msg>
+        <msg name="invalidNumber">
+            <titl>{0} ist kein gültiges Nummernformat.</titl>
+        </msg>
+        <msg name="invalidBoolean">
+            <titl>{0} ist kein gültiger logischer Typ.</titl>
+        </msg>
+        <msg name="eetCertifikatSpatneHeslo">
+            <titl>Falsches Zertifikatkennwort!</titl>
+        </msg>
+        <msg name="eetCertifikatSpatnaProvozovna">
+            <titl>Der Wert muss eine Ganzzahl sein!</titl>
+        </msg>
+        <msg name="eetCertifikatSpatnySoubor">
+            <titl>Dies ist wahrscheinlich keine Zertifikatdatei, oder Sie listen den falschen Inhaltstyp auf!</titl>
+        </msg>
+        <msg name="eetDeactivated">
+            <titl>EET wird nicht unterstützt.</titl>
+        </msg>
+        <msg name="missing_param_exception">
+            <titl>Für die Durchführung der Transaktion wird der Parameter '%p‘ gefordert</titl>
+        </msg>
+        <msg name="illegal_parameter_exception">
+            <titl>Der Parameter '%p' wird im Format '%p‘ erwartet.</titl>
+        </msg>
+        <msg name="illegal_argument_exception_not_active_property">
+            <titl>###Vlastnost '%p' není aktivní.</titl>
+        </msg>
+        <msg name="error_parsing_file_exception">
+            <titl>Die Datei konnte nicht eingelesen werden, da: '%p'.</titl>
+        </msg>
+        <msg name="resource_not_found_exception">
+            <titl>Die benötigte Quelle '%p' nicht gefunden</titl>
+        </msg>
+        <msg name="unsupported_param_value_exception">
+            <titl>Der Parameter '%p' hat einen nicht unterstützen Wert! Wählen Sie eine der folgenden Möglichkeiten: %p</titl>
+        </msg>
+        <msg name="incompatible_param_values_exception">
+            <titl>Die Parameterwerte %p sind nicht gegenseitig kompatibel</titl>
+        </msg>
+        <msg name="error.not_sha1_hash">
+            <titl>Es ist kein gültiges Format des SHA1 Abdrucks. Das richtige hat 20 Hex Bytes getrennt mit Doppelpunkten.</titl>
+        </msg>
+        <msg name="error.company_in_wrong_state">
+            <titl>Die Firma '%p' ist in dem Stand '%p'.</titl>
+        </msg>
+        <msg name="error.service_unavailable">
+            <titl>Die Dienstleistung ist momentan nicht zugänglich, versuchen Sie es bitte später.</titl>
+        </msg>
+        <msg name="error.tooManyRequests">
+            <titl>Dieses Unternehmen bearbeitet derzeit eine große Anzahl früherer Anfragen. Bitte warten Sie.</titl>
+        </msg>
+        <msg name="changesApi.enableQuestion">
+            <titl>Changes API (Verfolgung von Änderungen) über die aktuelle Firma ist nicht eingeschaltet. Wollen Sie es aktivieren?</titl>
+        </msg>
+        <msg name="changesApi.disableQuestion">
+            <titl>Changes API (Verfolgung von Änderungen) über die aktuelle Firma ist eingeschaltet. Wollen Sie es deaktivieren?</titl>
+        </msg>
+        <msg name="changesApi.enableSuccess">
+            <titl>Erfolgreich aktiviert.</titl>
+        </msg>
+        <msg name="changesApi.disableSuccess">
+            <titl>Erfolgreich deaktiviert.</titl>
+        </msg>
+        <msg name="changesApi.actionFailed">
+            <titl>Es ist nicht gelungen, die Aktion durchzuführen</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="eula">
+            <titl>Bedingungen der Dienstleistung</titl>
+        </lb>
+        <lb name="loginWithDesktopApp">
+            <titl>Anmeldung mit der Kundenanwendung</titl>
+        </lb>
+        <lb name="loginWithDesktopAppToCloud">
+            <titl>Anmeldung mit der Kundenanwendung nach Cloud</titl>
+        </lb>
+        <lb name="search">
+            <titl>Suchen</titl>
+        </lb>
+        <lb name="filter">
+            <titl>Filter</titl>
+        </lb>
+        <lb name="doklFak.cancelled">
+            <titl>STORNIERT</titl>
+        </lb>
+        <lb name="root.version">
+            <titl>Version</titl>
+        </lb>
+        <lb name="root.explanation">
+            <titl>ABRA Flexi ist ein modernes Warenwirtschaftssystem, das die Verarbeitung der Buchhaltung und der entsprechenden Programme in einer hohen Qualität und in einem breiten Spektrum der Unternehmen gewährleistet. ABRA Flexi verfügt über eine einfache Bedienung, die Applikation vom Typ Kunde/Server ist allerdings robust und leistungsfähig und kann auf Windows-, Linux- und Mac OS X- Plattformen betreiben werden. Wirtschaftssysteme der ABRA Flexi-Reihe sind seit 1991 auf dem Markt tätig.</titl>
+        </lb>
+        <lb name="identifier">
+            <titl>Identifikator</titl>
+        </lb>
+        <lb name="name">
+            <titl>Name</titl>
+        </lb>
+        <lb name="actions.needInstance">
+            <titl>Erfordert Objektinstanz.</titl>
+        </lb>
+        <lb name="evidences.description">
+            <titl>Diese Übersicht dient zu k&amp;nbsp; zum Auszug der Evidenzen, die dieser Firma verfügbar sind . Man kann den Auszug in XML oder JSON Format überführen und diesen weiter verarbeiten.</titl>
+        </lb>
+        <lb name="properties.description">
+            <titl>Diese Übersicht dient zu k&amp;nbsp; dem Auszug der Posten, die diese Evidenz beinhalten kann. Man kann den Auszug in XML oder JSON Format überführen und diesen weiter verarbeiten.</titl>
+        </lb>
+        <lb name="actions.description">
+            <titl>Diese Übersicht dient zu k&amp;nbsp;dem Auszug der unterstützten Aktionen.</titl>
+        </lb>
+        <lb name="url">
+            <titl>URL</titl>
+        </lb>
+        <lb name="devdoc">
+            <titl>Dokumentation</titl>
+        </lb>
+        <lb name="ucetni.denik.castky">
+            <titl>Summen</titl>
+        </lb>
+        <lb name="backTo">
+            <titl>Zurück auf</titl>
+        </lb>
+        <lb name="backToDocument">
+            <titl>Zurück auf Beleg</titl>
+        </lb>
+        <lb name="openRecord">
+            <titl>Öffnen die Aufzeichnung</titl>
+        </lb>
+        <lb name="odpocetZalohyCastka">
+            <titl>Wählen Sie die Summe für Abrechnung von 0 bis</titl>
+        </lb>
+        <lb name="cleneniDph">
+            <titl>MwSt. - Arten</titl>
+        </lb>
+        <lb name="zaloha">
+            <titl>Vorschuss</titl>
+        </lb>
+        <lb name="vytvorZdd.faktury">
+            <titl>Rechnungen</titl>
+        </lb>
+        <lb name="automatickeParovani">
+            <titl>Automatische Paarung</titl>
+        </lb>
+        <lb name="vygenerovatFaktury">
+            <titl>Rechnungen generieren</titl>
+        </lb>
+        <lb name="nactiVypis">
+            <titl>Auszug einlesen</titl>
+        </lb>
+        <lb name="odeslaniDokladu">
+            <titl>Versand des Belegs</titl>
+        </lb>
+        <lb name="podepsatKUhrade">
+            <titl>Unterzeichnen zur Zahlung</titl>
+        </lb>
+        <lb name="zrusitPodpisKUhrade">
+            <titl>Aufheben die Unterschrift zur Zahlung</titl>
+        </lb>
+        <lb name="majetek_dalsi">
+            <titl>Weitere</titl>
+        </lb>
+        <lb name="obchPartneri_dalsi">
+            <titl>Weitere</titl>
+        </lb>
+        <lb name="penize_dalsi">
+            <titl>Weitere</titl>
+        </lb>
+        <lb name="prodej_dalsi">
+            <titl>Weitere</titl>
+        </lb>
+        <lb name="zbozi_dalsi">
+            <titl>Weitere</titl>
+        </lb>
+        <lb name="zbozi_atributy">
+            <titl>Attribute</titl>
+        </lb>
+        <lb name="ucetnictvi_uctovani">
+            <titl>Einstellung der Verbuchung</titl>
+        </lb>
+        <lb name="ucetnictvi_vystupy">
+            <titl>Buchungsausgänge</titl>
+        </lb>
+        <lb name="std_ciselniky">
+            <titl>Standard Stammdaten</titl>
+        </lb>
+        <lb name="actions.confirm.dokoncit-prevodku">
+            <titl>Wollen Sie einen Umlagerungsbeleg beenden?</titl>
+        </lb>
+        <lb name="actions.confirm.storno">
+            <titl>Wollen Sie wirklich den Beleg stornieren?</titl>
+        </lb>
+        <lb name="actions.confirm.sign-for-payment">
+            <titl>Wollen Sie wirklich den Beleg zur Zahlung unterzeichnen?</titl>
+        </lb>
+        <lb name="actions.confirm.unsign-for-payment">
+            <titl>Wollen Sie wirklich die Unterschrift zur Zahlung des Belegs stornieren?</titl>
+        </lb>
+        <lb name="actions.confirm.uhrad-preplatky">
+            <titl>Wollen Sie wirklich von den Mehrbeträgen in der Bank und an der Kasse zahlen?</titl>
+        </lb>
+        <lb name="actions.confirm.uhrad-zapoctem">
+            <titl>Wollen Sie wirklich den Beleg durch die automatisierte gegenseitige Verrechnung bezahlen?</titl>
+        </lb>
+        <lb name="actions.confirm.lock">
+            <titl>Wollen Sie wirklich den Beleg sperren?</titl>
+        </lb>
+        <lb name="actions.confirm.lock-for-ucetni">
+            <titl>Wollen Sie wirklich den Beleg ausser Buchungsbelege sperren?</titl>
+        </lb>
+        <lb name="actions.confirm.unlock">
+            <titl>Wollen Sie wirklich den Beleg freigeben?</titl>
+        </lb>
+        <lb name="actions.confirm.odeslat-eet">
+            <titl>Wollen Sie wirklich Beleg nach EET absenden?</titl>
+        </lb>
+        <lb name="company.settings">
+            <titl>Einstellung der Firma</titl>
+        </lb>
+        <lb name="company.backup">
+            <titl>Firmensicherung</titl>
+        </lb>
+        <lb name="devdoc.slevaDokl">
+            <titl>Gesamtrabatt auf dem Beleg, der auf den resultierenden Preis angewendet wird.</titl>
+        </lb>
+        <lb name="devdoc.bezPolozek">
+            <titl>Beinhaltet dieser Beleg einen Posten? Falls der Beleg Posten beinhaltet, ist der Preis von deren Summarisierung bestimmt.  V&amp;nbsp;anderenfalls ist möglich, den resultierenden Preis zu bestimmen (sumCelkSniz u.ä.)</titl>
+        </lb>
+        <lb name="devdoc.datUhr">
+            <titl>Zahlungsdatum. Wird erst nach der Zahlung des Belegs eingetragen.</titl>
+        </lb>
+        <lb name="devdoc.sumOsv">
+            <titl>Gesamtsumme der von der MwSt., befreiten Grundlagen in Grundwährung der Firma.&lt;i&gt; Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklSniz">
+            <titl>Gesamtsumme der Grundlagen mit dem ermässigten MwSt.-Satz in Grundwährung der Firma.&lt;i&gt; Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklZakl">
+            <titl>Gesamtsumme der Grundlagen mit dem MwSt.-Grundsatz in Grundwährung der Firma.&lt;i&gt; Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklCelkem">
+            <titl>Gesamtsumme aller Grundlagen (d. h. Summe ohne MwSt.) in Grundwährung der Firma. Das ist die Endsumme ohne MwSt. &lt;i&gt;Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphSniz">
+            <titl>Gesamtsumme MwSt. im ermässigten Steuersatz in Grundwährung der Firma. &lt;i&gt;Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphZakl">
+            <titl>Gesamtsumme MwSt. im Grundsatz in Grundwährung der Firma &lt;i&gt;Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphCelkem">
+            <titl>Gesamtsumme MwSt. (ermässigter Satz+Grundsatz) in Grundwährung der Firma. &lt;i&gt;Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkem">
+            <titl>Gesamtsumme mit MwSt.in der Grundwährung der Firma (d. h. wie viel der Kunde bezahlen soll). &lt;i&gt;Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkSniz">
+            <titl>Gesamtsumme aller Grundlagen im ermässigten MwSt.-Satz (d. h. Summe ohne MwSt.) in Grundwährung der Firma. &lt;i&gt;Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkZakl">
+            <titl>Gesamtsumme aller Grundlagen im MwSt.-Grundsatz (d. h.Summe ohne MwSt.) in Grundwährung der Firma. &lt;i&gt;Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumOsvMen">
+            <titl>Gesamtsumme der von der MwSt., befreiten Grundlagen in Währung des Belegs.&lt;i&gt; Falls die Währung des Belegs mit der Grundwährung der Firma identisch, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklSnizMen">
+            <titl>Gesamtsumme der Grundlagen mit dem ermässigten MwSt.-Satz in der Währung des Belegs. &lt;i&gt;Falls die Währung des Belegs mit der Grundwährung der Firma identisch, ist dieser Posten nullwertig.Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklZaklMen">
+            <titl>Gesamtsumme der Grundlagen mit dem MwSt.-Grundsatz in Währung des Belegs.&lt;i&gt; Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklCelkemMen">
+            <titl>Gesamtsumme aller Grundlagen (d.h. Summe ohne MwSt.) in Währung des Belegs.&lt;i&gt; Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphSnizMen">
+            <titl>Gesamtsumme MwSt. im ermässigten MwSt-Satz in der Währung des Belegs. &lt;i&gt;Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphZaklMen">
+            <titl>Gesamtsumme MwSt. im MwSt.-Grundsatz in der Währung des Belegs. &lt;i&gt;Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphCelkemMen">
+            <titl>Gesamtsumme MwSt. (ermässigter + Grundsatz)in der Währung des Belegs. &lt;i&gt;Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkemMen">
+            <titl>Gesamtsumme mit MwSt. in der Währung des Belegs (d. h. wie viel der Kunde bezahlen soll). &lt;/i&gt;Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkSnizMen">
+            <titl>Gesamtsumme aller Grundlagen im ermässigten MwSt.-Satz (d.h. Summe ohne MwSt.)in Währung des Belegs. &lt;i&gt;Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkZaklMen">
+            <titl>Gesamtsumme aller Grundlagen im MwSt.-Grundsatz (d.h. Summe ohne MwSt.) in Währung des Belegs. &lt;i&gt;Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.dphSnizKoef">
+            <titl>Ist bei der Berechnung der ermässigten MwSt. der MwSt. Koeffizient (laut § 37 MwSt. Gesetz) benutzt worden? Dieser beeinflusst Kontroll-Zusammenfassung.</titl>
+        </lb>
+        <lb name="devdoc.dphZaklKoef">
+            <titl>Ist bei der Berechnung der Grund-MwSt. der MwSt. Koeffizient (laut § 37 MwSt. Gesetz) benutzt worden? Dieser beeinflusst Kontroll-Zusammenfassung.</titl>
+        </lb>
+        <lb name="devdoc.kurz">
+            <titl>Währungskurs, der die Umrechnung zwischen der Währung der Firma und der Währung des Belegs bestimmt. Falls die Währung nicht eingetragen ist, ist der Kurs gleich 0.</titl>
+        </lb>
+        <lb name="devdoc.kurzMnozstvi">
+            <titl>Kursmenge, die das Verhältnis zwischen der Grundwährung und der Währung des Belegs bestimmt, z. B. Den Kurs von zwischen CZK und dem japanischen Jen bestimmt man als 1 CZK : 100 JPY.</titl>
+        </lb>
+        <lb name="devdoc.firma">
+            <titl>Bindung auf eine Firma im Adressbuch, Falls diese nicht im Adressbuch eingetragen ist, muss man Posten mit detaillierten Informationen über Firma eintragen.</titl>
+        </lb>
+        <lb name="devdoc.nazFirmy">
+            <titl>&lt;/i&gt;Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.ulice">
+            <titl>&lt;/i&gt;Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.mesto">
+            <titl>&lt;/i&gt;Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.psc">
+            <titl>&lt;/i&gt;Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.eanKod">
+            <titl>&lt;/i&gt;Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faNazev">
+            <titl>Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. &lt;i&gt;Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faUlice">
+            <titl>Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. &lt;i&gt;Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faMesto">
+            <titl>Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. &lt;i&gt;Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faPsc">
+            <titl>Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. &lt;i&gt;Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faEanKod">
+            <titl>Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. &lt;i&gt;Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.ic">
+            <titl>&lt;/i&gt;Falls Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen,diese werden aus dem Adressbuch kopiert.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.dic">
+            <titl>/i&gt;Falls Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen,diese werden aus dem Adressbuch kopiert.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.postovniShodna">
+            <titl>Falls true angezeigt wird, ist die Postanschrift mit der Rechnungsadresse identisch. &lt;i&gt;Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.evidenceFilter">
+            <titl>Datenbankfilter: </titl>
+        </lb>
+        <lb name="zalohaProgressDownloadTitle">
+            <titl>Der Vorschuss wird nach einer Weile zum Downloaden angeboten.</titl>
+        </lb>
+        <lb name="authn.type.INTERNAL.description">
+            <titl>Der in ABRA Flexi gespeicherte Name und Kennzeichen werden verwendet.</titl>
+        </lb>
+        <lb name="authn.type.GOOGLE.description">
+            <titl>Die Autorisierung ist gegen die Server Google durchgeführt. Es können die gezahlten sowie die gratis Varianten von Google Apps benutzt werden.</titl>
+        </lb>
+        <lb name="authn.type.IT_HIGHWAY.description">
+            <titl>Die Autorisierung durch das Netz der integrierten Dienstleistungen &lt;i&gt;IT Highway&lt;/i&gt;.</titl>
+        </lb>
+        <lb name="authn.type.UCTUJTE.description">
+            <titl>Spezielle Authentisierung auf der Web &lt;tt&gt;uctujte.cz&lt;/tt&gt;.</titl>
+        </lb>
+        <lb name="authn.type.OPENID.description">
+            <titl>Die Autorisierung wird gegen den üblichen OpenID Provider durchgeführt. Es ist nötig, die Einstellung durchzuführen</titl>
+        </lb>
+        <lb name="authn.type.SAML.description">
+            <titl>Die Autorisierung wird gegen den üblichen SAMLv2 Identity Provider durchgeführt. Es ist nötig, die Einstellung durchzuführen</titl>
+        </lb>
+        <lb name="authn.password_quality">
+            <titl>Geforderte Qualität des Passwortes</titl>
+        </lb>
+        <lb name="authn.sso_login_url">
+            <titl>Anmelde-URL für SSO</titl>
+        </lb>
+        <lb name="authn.sso_login_url.description">
+            <titl>URL, auf welche ABRA Flexi (Dienst) die Anforderungen an Authentisierung des Benutzers absenden wird. Die Anforderung enthält alle benötigten Daten für die Durchführung der Authentisierung, nichtsdestoweniger ist oft noch notwendig, die Konfiguration auf der Seite des ID-Anbieters zu erstellen. In der Regel ist hier nötig, URL für die Verarbeitung der Antwort und einige weitere Parameter des Authentisierungsprotokolls anzugeben:</titl>
+        </lb>
+        <lb name="authn.sso_logout_url">
+            <titl>Abmelde-URL für SSO</titl>
+        </lb>
+        <lb name="authn.sso_chng_passwd_url">
+            <titl>URL für Änderung des Passwortes bei SSO</titl>
+        </lb>
+        <lb name="authn.sso_chng_passwd_url.description">
+            <titl>URL, auf welchen die Benutzer zum Zweck der zentralen Abmeldung oder der Änderung des Passwortes beim ID-Anbieter umgeleitet werden können.</titl>
+        </lb>
+        <lb name="authn.service_provider_id">
+            <titl>Service Provider Identifikator</titl>
+        </lb>
+        <lb name="authn.service_provider_id.description">
+            <titl>Identifikator des Dienstleisters, der als Antragsteller auf Authentisierung des Benutzers vorkommt. Typisch ist die Domäne der zweiten Ordnung (z.B. &lt;b&gt;&lt;tt&gt;flexibee.eu&lt;/tt&gt;&lt;/b&gt;) oder den ganzen URL Dienst zu benutzen. Für den eingetragenen Identifikator ist nötig die Providerseite ID zu konfigurieren, siehe Beschreibung zu &lt;i&gt;Anmeldungs-URL für SSO&lt;/i&gt;.</titl>
+        </lb>
+        <lb name="authn.sso_cert_fingerprint">
+            <titl>Abdruck des Zertifikats &lt;abbr title="Identity Provider"&gt;IDP&lt;/abbr&gt;</titl>
+        </lb>
+        <lb name="authn.sso_cert_fingerprint.description">
+            <titl>Hier wird der SHA1 Abdruck des Zertifikats eingegeben, mit welchem die Antworten unterzeichnet werden. Das richtige Format kann z.B. durch den Auftrag erhalten werden: &lt;tt&gt;openssl x509 -noout -in cert.pem -fingerprint -sha1&lt;/tt&gt;&lt;br/&gt;Frei lassen, falls die Validierung des Zertifikats nicht durchgeführt werden soll.</titl>
+        </lb>
+        <lb name="authn.idp_settings.response_consumer_url">
+            <titl>URL für Empfang der Antwort</titl>
+        </lb>
+        <lb name="authn.idp_settings.single_logout_url">
+            <titl>URL für Abmeldung des Benutzers</titl>
+        </lb>
+        <lb name="authn.idp_settings.name_id_format">
+            <titl>Format des Identifikators des Benutzers</titl>
+        </lb>
+        <lb name="authn.ACCESS_CONTROL_ALLOW_ORIGIN">
+            <titl>Netzzugriff auf Daten ABRA Flexi</titl>
+        </lb>
+        <lb name="authn.ACCESS_CONTROL_ALLOW_ORIGIN.description">
+            <titl>Beeinflusst die Einstellung des HTTP Kopfs Access-Control-Allow-Origin (mit einer Lücke getrennte Domäne)</titl>
+        </lb>
+        <lb name="settings.ITH_USERS_MANAGEMENT">
+            <titl>Benutzerverwaltung "IT Highway"</titl>
+        </lb>
+        <lb name="settings.ITH_USERS_MANAGEMENT.description">
+            <titl>Beschränkt in der Anwendung die Zuordnung der Rolle &lt;code&gt;ADMIN&lt;/code&gt; und die Änderung der Benutzerdaten. Die Benutzerverwaltung erfolgt primär durch &lt;i&gt;Batch API&lt;/i&gt;.</titl>
+        </lb>
+        <lb name="typKurzu.uhrady">
+            <titl>Kurs zum Zahlungsdatum</titl>
+        </lb>
+        <lb name="typKurzu.faktury">
+            <titl>Aus der Rechnung übernommener Kurs</titl>
+        </lb>
+        <lb name="typKurzu.vlastni">
+            <titl>Eigener Kurs</titl>
+        </lb>
+        <lb name="newInterfaceLink">
+            <titl>Probieren Sie die neue Schnittstelle</titl>
+        </lb>
+    </labels>
+</config>

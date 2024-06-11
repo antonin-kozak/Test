@@ -1,0 +1,2677 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/sk/lang.core.sk.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <actions>
+        <act name="new">
+            <titl>Nový</titl>
+            <desc>Vytvoriť nový záznam (skratka Alt+N)</desc>
+            <icon>win/new.png</icon>
+            <mnem>78</mnem>
+            <acck>78</acck>
+            <accm>2</accm>
+        </act>
+        <act name="newWithCopy">
+            <titl>Vytvoriť kópiu</titl>
+            <desc>Vytvoriť kópiu záznamu (skratka Alt+K)</desc>
+            <icon>win/new-copy.png</icon>
+        </act>
+        <act name="add">
+            <titl>Pridať</titl>
+            <desc>Pridať nový záznam (skratka Alt+P)</desc>
+            <icon>win/new.png</icon>
+            <mnem>80</mnem>
+            <acck>80</acck>
+            <accm>2</accm>
+        </act>
+        <act name="open">
+            <titl>Otvoriť</titl>
+            <desc>Otvoriť vybraný záznam</desc>
+            <icon>win/open.png</icon>
+            <mnem>79</mnem>
+            <acck>79</acck>
+            <accm>2</accm>
+        </act>
+        <act name="saveAndNew">
+            <titl>Uložiť a nový</titl>
+            <desc>Uloží záznam a otvorí nový (skratka Alt+N)</desc>
+            <mnem>78</mnem>
+            <acck>78</acck>
+            <accm>2</accm>
+        </act>
+        <act name="saveAndClose">
+            <titl>Uložiť a zatvoriť</titl>
+            <desc>Uložiť otvorený záznam a zatvoriť jeho okno (skratka Alt+U)</desc>
+            <mnem>85</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </act>
+        <act name="openNewWindow">
+            <titl>Otvoriť v novom okne</titl>
+            <desc>Otvoriť vybraný záznam v novom okne</desc>
+            <icon>win/open.png</icon>
+            <mnem>79</mnem>
+            <acck>79</acck>
+            <accm>2</accm>
+        </act>
+        <act name="save">
+            <titl>Uložiť</titl>
+            <desc>Uložiť otvorený záznam (skratka Alt+U)</desc>
+            <icon>win/save.png</icon>
+            <mnem>85</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </act>
+        <act name="edit">
+            <titl>Zmeniť</titl>
+            <desc>Zmeniť vybraný záznam (skratka Alt+E)</desc>
+            <icon>win/edit.png</icon>
+            <mnem>69</mnem>
+            <acck>69</acck>
+            <accm>2</accm>
+        </act>
+        <act name="delete">
+            <titl>Zmazať</titl>
+            <desc>Zmazať vybraný záznam (skratka DEL)</desc>
+            <icon>win/erase.png</icon>
+            <acck>127</acck>
+            <accm>0</accm>
+        </act>
+        <act name="print">
+            <titl>Tlač</titl>
+            <desc>Tlačiť (skratka Alt+P)</desc>
+            <icon>win/print.png</icon>
+            <mnem>80</mnem>
+            <acck>80</acck>
+            <accm>2</accm>
+        </act>
+        <act name="printNow">
+            <titl>Tlač</titl>
+            <desc>Tlačiť (skratka Alt+P)</desc>
+            <icon>win/print-now.png</icon>
+        </act>
+        <act name="printNahled">
+            <titl>Náhľad</titl>
+            <desc>Zobrazenie náhľadu</desc>
+            <icon>win/current-print.png</icon>
+        </act>
+        <act name="printTiskarna">
+            <titl>Tlač</titl>
+            <desc>Tlač na tlačiareň</desc>
+            <icon>win/print.png</icon>
+        </act>
+        <act name="printPdf">
+            <titl>PDF</titl>
+            <desc>Tlač do PDF</desc>
+            <icon>win/pdf.png</icon>
+        </act>
+        <act name="printXls">
+            <titl>XLS</titl>
+            <desc>Tlač do Xls</desc>
+            <icon>win/excel.png</icon>
+        </act>
+        <act name="excel">
+            <titl>Excel</titl>
+            <desc>Export/Import z Excelu</desc>
+            <icon>win/excel.png</icon>
+        </act>
+        <act name="xml">
+            <titl>XML</titl>
+            <desc>Export/Import z XML</desc>
+            <icon>win/xml.png</icon>
+        </act>
+        <act name="exportImport">
+            <titl>Export/Import</titl>
+            <desc>Export/Import z XML a Excelu</desc>
+            <icon>win/import-export.png</icon>
+        </act>
+        <act name="mail">
+            <titl>Odoslať</titl>
+            <desc>Odoslať mailom vo forme PDF</desc>
+            <icon>win/mail.png</icon>
+        </act>
+        <act name="mailSmtp">
+            <titl>Odoslať (SMTP)</titl>
+            <desc>Odoslanie e-mailom ako PDF (SMTP)</desc>
+            <icon>win/mail.png</icon>
+        </act>
+        <act name="exportXLS">
+            <titl>Export do Excelu</titl>
+            <desc>Exportovať do Excelu (skratka Alt+X)</desc>
+            <icon>win/excel-export.png</icon>
+            <mnem>88</mnem>
+        </act>
+        <act name="importXls">
+            <titl>Import z Excelu</titl>
+            <desc>Importovať z Excelu</desc>
+            <icon>win/excel-import.png</icon>
+        </act>
+        <act name="exportXml">
+            <titl>Export XML</titl>
+            <desc>Exportovať do XML</desc>
+            <icon>win/xml-export.png</icon>
+        </act>
+        <act name="importXml">
+            <titl>Import XML</titl>
+            <desc>Importovať z XML</desc>
+            <icon>win/xml-import.png</icon>
+        </act>
+        <act name="exportVCard">
+            <titl>Export vizitky vCard</titl>
+            <desc>Exportovať ako vizitky vCard</desc>
+            <icon>win/vcard-export.png</icon>
+        </act>
+        <act name="exportICal">
+            <titl>Export kalendára iCal</titl>
+            <desc>Exportovať do súboru kalendára iCal</desc>
+            <icon>win/ical-export.png</icon>
+        </act>
+        <act name="find">
+            <titl>Nájsť</titl>
+            <desc>Nájsť hodnotu v ľubovoľnom stĺpci (skratka Alt+S)</desc>
+            <icon>win/find.png</icon>
+            <mnem>83</mnem>
+            <acck>70</acck>
+            <accm>2</accm>
+        </act>
+        <act name="fullTextSearch">
+            <titl>Nájsť</titl>
+            <desc>Fulltextové vyhľadávanie (skratka Ctrl-F)</desc>
+            <icon>win/find.png</icon>
+        </act>
+        <act name="extSearch">
+            <titl>Rozšírené hľadanie</titl>
+            <desc>Nájsť hodnotu v ľubovoľnom stĺpci (skratka Alt-S)</desc>
+            <icon>win/find.png</icon>
+        </act>
+        <act name="sort">
+            <titl>Radenie</titl>
+            <desc>Nastavenie radenia záznamov v tabuľke</desc>
+            <icon>win/sort-az.png</icon>
+        </act>
+        <act name="sort-az">
+            <titl>Vzostupné radenie</titl>
+            <desc>Vzostupné radenie 0-9, A-Z</desc>
+            <icon>win/sort-az.png</icon>
+        </act>
+        <act name="sort-za">
+            <titl>Zostupné radenie</titl>
+            <desc>Zostupné radenie Z-A, 9-0</desc>
+            <icon>win/sort-za.png</icon>
+        </act>
+        <act name="filter">
+            <titl>Filter</titl>
+            <desc>Filter - Definícia podmienky výberu v tabuľke (skratka Alt+I)</desc>
+            <icon>win/filter.png</icon>
+            <mnem>73</mnem>
+            <acck>70</acck>
+            <accm>1</accm>
+        </act>
+        <act name="filterNew">
+            <titl>Nový</titl>
+            <desc>Vytvoriť nové nastavenie filtrácie (skratka Alt+N)</desc>
+            <icon>win/new.png</icon>
+        </act>
+        <act name="filterOpen">
+            <titl>Otvoriť</titl>
+            <desc>Otvoriť uložené nastavení filtrace (zkratka Alt+O)</desc>
+            <icon>win/open.png</icon>
+        </act>
+        <act name="filterSave">
+            <titl>Uložiť</titl>
+            <desc>Uložiť aktuálne nastavenie filtrácie (skratka Alt+U)</desc>
+            <icon>win/save.png</icon>
+        </act>
+        <act name="filterOther">
+            <titl>Ďalše filtre...</titl>
+            <icon>win/filter.png</icon>
+        </act>
+        <act name="sum">
+            <titl>Sumácia</titl>
+            <desc>Nastavenie sumácií záznamov z tabuľky</desc>
+            <icon>win/sum.png</icon>
+        </act>
+        <act name="help">
+            <titl>Nápoveda</titl>
+            <desc>Nápoveda</desc>
+            <icon>win/help.png</icon>
+            <mnem>112</mnem>
+            <acck>112</acck>
+            <accm>0</accm>
+        </act>
+        <act name="contextHelp">
+            <titl>Nápoveda</titl>
+            <desc>Kontextová nápoveda</desc>
+            <icon>win/contexthelp.png</icon>
+        </act>
+        <act name="columnSelection">
+            <titl>Výber stĺpcov</titl>
+            <desc>Výber zobrazených stĺpcov a ich poradie</desc>
+            <icon>empty.png</icon>
+        </act>
+        <act name="saveColumnAsDefault">
+            <titl>Ulož nastavenie ako východzie</titl>
+            <desc>Uložiť nastavenie ako východzie všetkým používateľom</desc>
+            <icon>empty.png</icon>
+        </act>
+        <act name="resetColumnToDefault">
+            <titl>Obnovenie predvolených nastavení</titl>
+            <desc>Obnovenie nastavení pred zmenou používateľa</desc>
+            <icon>empty.png</icon>
+        </act>
+        <act name="selectAll">
+            <titl>Označiť všetko</titl>
+        </act>
+        <act name="deselectAll">
+            <titl>Odznačit všetko</titl>
+        </act>
+        <act name="next">
+            <titl>Ďalší</titl>
+            <desc>Skok na ďalší záznam tabuľky (Alt+&#8594;)</desc>
+            <icon>win/ar-next.png</icon>
+            <mnem>39</mnem>
+        </act>
+        <act name="prev">
+            <titl>Predchádzajúci</titl>
+            <desc>Skok na predchádzajúci záznam tabuľky (Alt+&#8592;)</desc>
+            <icon>win/ar-prev.png</icon>
+            <mnem>37</mnem>
+        </act>
+        <act name="first">
+            <titl>Prvý</titl>
+            <desc>Skok na prvý záznam tabuľky</desc>
+            <icon>win/ar-first.png</icon>
+            <mnem>36</mnem>
+        </act>
+        <act name="last">
+            <titl>Posledný</titl>
+            <desc>Skok na posledný záznam tabuľky</desc>
+            <icon>win/ar-last.png</icon>
+            <mnem>35</mnem>
+        </act>
+        <act name="top">
+            <titl>T</titl>
+            <desc>Najvyššia priorita pre vybrané pole</desc>
+            <icon>win/arrow-top.png</icon>
+        </act>
+        <act name="up">
+            <titl>U</titl>
+            <desc>Zvýšiť prioritu u vybraného poľa</desc>
+            <icon>win/arrow-up.png</icon>
+        </act>
+        <act name="down">
+            <titl>D</titl>
+            <desc>Znížiť prioritu u vybraného poľa</desc>
+            <icon>win/arrow-down.png</icon>
+        </act>
+        <act name="bottom">
+            <titl>B</titl>
+            <desc>Najnižšia priorita pre vybrané pole</desc>
+            <icon>win/arrow-bottom.png</icon>
+        </act>
+        <act name="pridat">
+            <titl>U</titl>
+            <desc>Pridať vybrané pole</desc>
+            <icon>win/ar-next.png</icon>
+        </act>
+        <act name="pridatVse">
+            <titl>&gt;&gt;</titl>
+            <desc>Pridať všetky polia</desc>
+            <icon>win/ar-next-all.png</icon>
+        </act>
+        <act name="odebrat">
+            <titl>D</titl>
+            <desc>Odobrať vybrané pole</desc>
+            <icon>win/ar-prev.png</icon>
+        </act>
+        <act name="odebratVse">
+            <titl>&lt;&lt;</titl>
+            <desc>Odobrať všetky polia</desc>
+            <icon>win/ar-prev-all.png</icon>
+        </act>
+        <act name="clearField">
+            <titl>Vymazať pole</titl>
+            <icon>erase.png</icon>
+        </act>
+        <act name="refresh">
+            <titl>Obnoviť</titl>
+            <desc>Vykoná sa opätovné načítanie dát z databázy (skratka Alt+R)</desc>
+            <icon>win/refresh.png</icon>
+            <mnem>82</mnem>
+        </act>
+        <act name="cancel">
+            <titl>Zrušiť</titl>
+        </act>
+        <act name="choose">
+            <titl>Zvoliť</titl>
+            <desc>Potvrdí výber aktuálne označeného záznamu</desc>
+            <icon>empty.png</icon>
+        </act>
+        <act name="close">
+            <titl>Zatvoriť</titl>
+            <desc>Zatvoriť</desc>
+            <icon>empty.png</icon>
+            <mnem>90</mnem>
+            <acck>67</acck>
+            <accm>2</accm>
+        </act>
+        <act name="ok">
+            <titl>OK</titl>
+        </act>
+        <act name="upItem">
+            <titl>Nahor</titl>
+            <desc>Posunúť položku nahor</desc>
+            <icon>win/arrow-up.png</icon>
+        </act>
+        <act name="downItem">
+            <titl>Dole</titl>
+            <desc>Posunúť položku dole</desc>
+            <icon>win/arrow-down.png</icon>
+        </act>
+        <act name="sluzby">
+            <titl>Služby</titl>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="ulozitFiltraci">
+            <titl>Uložiť filtráciu</titl>
+        </act>
+        <act name="zmenitFiltraci">
+            <titl>Upraviť filtráciu</titl>
+        </act>
+        <act name="zrusitFiltraci">
+            <titl>Zrušiť filtráciu</titl>
+        </act>
+        <act name="ostatniAkce">
+            <titl>Ostatní</titl>
+        </act>
+        <act name="hromZmenaWizard">
+            <titl>Hromadné zmeny</titl>
+            <desc>Vykoná zámenu vo vybranom poli v zadanom filtri (zaškrtnutie riadku nemá vplyv)</desc>
+            <icon>win/edit.png</icon>
+        </act>
+        <act name="hromZmenaVseWizard">
+            <titl>Všetky zobrazené</titl>
+            <desc>Vykoná substitúciu vo vybranom poli v zobrazených položkách</desc>
+        </act>
+        <act name="hromZmenaVybraneWizard">
+            <titl>Iba vybrané</titl>
+            <desc>Vykoná substitúciu vo vybranom poli vo vybraných položkách</desc>
+        </act>
+        <act name="aktualizujManyToMany">
+            <titl>Pridať/odobrať</titl>
+        </act>
+        <act name="graph">
+            <titl>Grafy</titl>
+            <icon>win/graph.png</icon>
+        </act>
+        <act name="gdpr">
+            <titl>GDPR</titl>
+            <icon>win/personalistika.png</icon>
+        </act>
+        <act name="vazbyUrovenPlus">
+            <titl>Ďalšia úroveň prepojení</titl>
+            <desc>Načítanie ďalšej úrovne odkazov</desc>
+            <icon>win/i18nPlus.png</icon>
+        </act>
+        <act name="uhrady">
+            <titl>Platby</titl>
+            <desc>Načítanie platieb dokumentov</desc>
+            <icon>win/pay-cash.png</icon>
+        </act>
+        <act name="activate">
+            <titl>Aktivácia stránky</titl>
+            <icon>win/save.png</icon>
+        </act>
+        <act name="deactivate">
+            <titl>Deaktivácia stránky</titl>
+            <icon>win/erase.png</icon>
+        </act>
+        <act name="konfigurovatReport">
+            <titl>Konfigurovať report</titl>
+            <desc>Otvorí konfiguráciu reportu vo webovom rozhraní.</desc>
+            <icon>win/generate.png</icon>
+        </act>
+    </actions>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <buttons>
+        <btn name="ok">
+            <titl>OK</titl>
+        </btn>
+        <btn name="cancel">
+            <titl>Zrušiť</titl>
+            <desc>Zatvorí okno (skratka ESC)</desc>
+        </btn>
+        <btn name="moreInfo">
+            <titl>Viac info</titl>
+        </btn>
+        <btn name="delete">
+            <titl>Zmazať</titl>
+        </btn>
+        <btn name="pouzit">
+            <titl>Použiť</titl>
+        </btn>
+        <btn name="ano">
+            <titl>Áno</titl>
+        </btn>
+        <btn name="ne">
+            <titl>Nie</titl>
+        </btn>
+        <btn name="vybrat">
+            <titl>Vybrať</titl>
+        </btn>
+        <btn name="vypocet">
+            <titl>Výpočet</titl>
+        </btn>
+        <btn name="findFormNajit">
+            <titl>Nájsť ďalší</titl>
+        </btn>
+        <btn name="generovat">
+            <titl>Generovať</titl>
+        </btn>
+        <btn name="jenUlozit">
+            <titl>Len uložiť</titl>
+        </btn>
+        <btn name="prihlasit">
+            <titl>Prihlásiť</titl>
+        </btn>
+        <btn name="ukoncit">
+            <titl>Ukončiť</titl>
+        </btn>
+        <btn name="zavrit">
+            <titl>Zatvoriť</titl>
+        </btn>
+        <btn name="pdf">
+            <titl>PDF</titl>
+        </btn>
+        <btn name="nahled">
+            <titl>Náhľad</titl>
+        </btn>
+        <btn name="nahledZaznam">
+            <titl>Zobraziť záznam</titl>
+        </btn>
+        <btn name="print">
+            <titl>Tlač</titl>
+        </btn>
+        <btn name="wizPredchozi">
+            <titl>&lt; Predchádzajúci</titl>
+        </btn>
+        <btn name="wizNasledujici">
+            <titl>Ďalší &gt;</titl>
+        </btn>
+        <btn name="wizDokoncit">
+            <titl>Dokončiť</titl>
+        </btn>
+        <btn name="wizVyber">
+            <titl>Výber</titl>
+        </btn>
+        <btn name="spojit">
+            <titl>Spojiť</titl>
+        </btn>
+        <btn name="odpojit">
+            <titl>Odpojiť</titl>
+        </btn>
+        <btn name="vyberQueryForm">
+            <titl>Výber</titl>
+        </btn>
+        <btn name="settingColumnsSaveSetAsDefault">
+            <titl>Nastaviť ako východzie</titl>
+        </btn>
+        <btn name="taskMonitorWait">
+            <titl>Počkať</titl>
+        </btn>
+        <btn name="taskMonitorEndTasks">
+            <titl>Zrušiť úlohy</titl>
+        </btn>
+        <btn name="multiPdfMailNMailuPrijemciRB">
+            <titl>Viac mailov jednému príjemcovi</titl>
+        </btn>
+        <btn name="multiPdfMail1MailPrijemciRB">
+            <titl>Jeden mail jednému príjemcovi</titl>
+        </btn>
+        <btn name="multiPdfMail1MailVsechnaDataRB">
+            <titl>Jeden mail so všetkými dátami</titl>
+        </btn>
+        <btn name="restart">
+            <titl>Reštartovanie stránky</titl>
+        </btn>
+        <btn name="newElection">
+            <titl>Nová možnosť</titl>
+        </btn>
+        <btn name="konVykDph.radne">
+            <titl>správne</titl>
+        </btn>
+        <btn name="konVykDph.opravne">
+            <titl>Opravy</titl>
+        </btn>
+        <btn name="konVykDph.nasledne">
+            <titl>Po ňom nasleduje</titl>
+        </btn>
+        <btn name="konVykDph.nasledne.opravne">
+            <titl>následné opatrenia/opravy</titl>
+        </btn>
+        <btn name="konVykDph.rychlaOdpoved.nema">
+            <titl>Nie som povinný predložiť KH (nulový KH).</titl>
+        </btn>
+        <btn name="konVykDph.rychlaOdpoved.potvr">
+            <titl>Potvrdzujem správnosť posledného predloženého KH.</titl>
+        </btn>
+        <btn name="skip">
+            <titl>Preskočiť</titl>
+            <desc>Preskočiť aktuálny záznam</desc>
+        </btn>
+        <btn name="propertiesAll">
+            <titl>Výber zo všetkých polí agendy</titl>
+            <desc>Výber zo všetkých polí agendy</desc>
+        </btn>
+        <btn name="zamek">
+            <titl>Zámok</titl>
+        </btn>
+    </buttons>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="aplikace-ikona">
+            <icon>winstrom-16x16.png</icon>
+        </dlg>
+        <dlg name="filter">
+            <titl>Nastavenie filtrácie</titl>
+        </dlg>
+        <dlg name="userFilterOpen">
+            <titl>Otvoriť uložené nastavení filtrace</titl>
+        </dlg>
+        <dlg name="find">
+            <titl>Nájsť</titl>
+        </dlg>
+        <dlg name="sort">
+            <titl>Nastavenie radenia</titl>
+        </dlg>
+        <dlg name="dateChooserDialogTitle">
+            <titl>Výber data</titl>
+        </dlg>
+        <dlg name="vyberZeSeznamu">
+            <titl>Vyberte prvok zo záznamu</titl>
+        </dlg>
+        <dlg name="hromZmenyWizard">
+            <titl>Sprievodca hromadnými zmenami</titl>
+        </dlg>
+        <dlg name="chartWizardCreator">
+            <titl>Sprievodca grafmi</titl>
+        </dlg>
+        <dlg name="webHooks">
+            <titl>Web Hooks</titl>
+        </dlg>
+        <dlg name="webHooksInfo.status">
+            <titl>Stav spracovania Web Hooks</titl>
+        </dlg>
+        <dlg name="multiPdfMailWizard">
+            <titl>Nastavenia pre odoslanie</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="formZdrojNenalezen">
+            <titl>Požadovaný zdroj nebol nájdený.</titl>
+        </msg>
+        <msg name="aplikaceBezPripojeniDbNelzePokracovat">
+            <titl>Bez pripojena k dátovemu zdroju nie je možné ďalej pokračovať.</titl>
+        </msg>
+        <msg name="aplikaceBudeUkoncena">
+            <titl>Aplikácia bude ukončená.</titl>
+        </msg>
+        <msg name="nelzeNaleztJavu">
+            <titl>Nepodarilo sa nájsť Java %p alebo vyššiu.</titl>
+        </msg>
+        <msg name="progressZrusen">
+            <titl>Úloha bola prerušená.</titl>
+        </msg>
+        <msg name="validace.chybiVS">
+            <titl>Chýbajúce nastavenie vo validačnom XML pre [bean='%p',prop='%p']</titl>
+        </msg>
+        <msg name="validace.notNull">
+            <titl>Pole '%p' musí byť vyplnené.</titl>
+        </msg>
+        <msg name="validace.unknownType">
+            <titl>Neznámy typ vo validačnom XML pre [bean='%p',prop='%p']</titl>
+        </msg>
+        <msg name="validace.notEmpty">
+            <titl>Pole '%p' musí byť vyplnené.</titl>
+        </msg>
+        <msg name="validace.notArray">
+            <titl>###Pole '%p' musí být pole hodnot.</titl>
+        </msg>
+        <msg name="validace.notAvailableValue">
+            <titl>Pole "%p" musí byť vyplnené jednou z hodnôt %p.</titl>
+        </msg>
+        <msg name="restrictedProtocol">
+            <titl>Protokol '%p' nie je povolený.</titl>
+        </msg>
+        <msg name="validace.invalidCombination">
+            <titl>Hodnota vlastnosti "%p" v kombinácii s hodnotou vlastnosti "%p" nie je platná.</titl>
+        </msg>
+        <msg name="validace.minZnaku">
+            <titl>Pole '%p' musí obsahovať aspoň %p znakov.</titl>
+        </msg>
+        <msg name="validace.maxZnaku">
+            <titl>Pole '%p' nesmie byť dlhšie než %p znakov.</titl>
+        </msg>
+        <msg name="validace.notZero">
+            <titl>Hodnota poľa '%p' musí byť nenulová.</titl>
+        </msg>
+        <msg name="validace.mocCislic">
+            <titl>Hodnota poľa '%p' nesmie obsahovať viac než %p číslic.</titl>
+        </msg>
+        <msg name="validace.mocDesCis">
+            <titl>Hodnota poľa '%p' nesmie obsahovať viac než %p desatinných miest.</titl>
+        </msg>
+        <msg name="validace.minValue">
+            <titl>Hodnota poľa '%p' nesmie byť menšia než %p.</titl>
+        </msg>
+        <msg name="validace.maxValue">
+            <titl>Hodnota poľa '%p' nesmie byť väčšia než %p.</titl>
+        </msg>
+        <msg name="validace.double">
+            <titl>Hodnota poľa "%p" musí byť reálne číslo.</titl>
+        </msg>
+        <msg name="validace.kodNotExist">
+            <titl>Pole '%p': Záznam so zadanou skratkou v databáze neexistuje.</titl>
+        </msg>
+        <msg name="validace.valChyba">
+            <titl>Pole '%p': Chyba behom validácie.</titl>
+        </msg>
+        <msg name="validace.neplatnyCiselnik">
+            <titl>Pole '%p' obsahuje neplatnú položku číselníka.</titl>
+        </msg>
+        <msg name="validace.zadano">
+            <titl>Zadané '%p'.</titl>
+        </msg>
+        <msg name="validace.vymazanoPole">
+            <titl>Vymazáno pole %p.</titl>
+        </msg>
+        <msg name="validace.rokDataMimoRozsah">
+            <titl>Rok údajov pre vlastnosť "%p" možno určiť v rozsahu -9999 až 9999: %p</titl>
+        </msg>
+        <msg name="validace.bytearray">
+            <titl>###Pole '%p' musí obsahovat pole bytů.</titl>
+        </msg>
+        <msg name="validaceZadanoPole">
+            <titl>Zadané pole</titl>
+        </msg>
+        <msg name="postvalidaceZadanoPole">
+            <titl>Zadané pole</titl>
+        </msg>
+        <msg name="daoNejdeSmazatOdkaz">
+            <titl>Záznam nie je možné zmazať, pretože je na neho naviazaný iný záznam.</titl>
+        </msg>
+        <msg name="daoNeniUnikatniKod">
+            <titl>Pod zadaným kódom už existuje záznam. Zadaný kód musí byť unikátny.</titl>
+        </msg>
+        <msg name="daoZaznamNepodariloNacist">
+            <titl>Požadovaný záznam sa nepodarilo načítať z databázy.</titl>
+        </msg>
+        <msg name="daoZaznamyCiselnikSeNepodariloNacist">
+            <titl>Záznamy pre číselník '%p' (#%p) sa nepodarilo načítať z dátového zdroja.</titl>
+        </msg>
+        <msg name="daoZaznamyFormulareSeNepodariloNacist">
+            <titl>Záznamy pre formulár '%p' (#%p) sa nepodarilo načítať z dátového zdroja.</titl>
+        </msg>
+        <msg name="daoZaznamySeznamuSeNepodariloNacist">
+            <titl>Záznamy pre zoznam '%p' (#%p) sa nepodarilo načítať z dátového zdroja.</titl>
+        </msg>
+        <msg name="daoZaznamyLokCiselnikSeNepodariloNacist">
+            <titl>Záznamy pre lokalizovaný číselník (#%p) sa nepodarilo načítať z dátového zdroja.</titl>
+        </msg>
+        <msg name="daoZaznamyParamNeexistuje">
+            <titl>Podľa parametrov nebol nájdený žiadny záznam: %p.</titl>
+        </msg>
+        <msg name="daoZaznamyParamVice">
+            <titl>Ďalšie záznamy nájdené podľa parametrov: %p.</titl>
+        </msg>
+        <msg name="daoNekonzistDatabazeViceZaznamu">
+            <titl>Nekonzistencia v databáze.\nNájdených viac záznamov so zhodným kódom '%p'.</titl>
+        </msg>
+        <msg name="daoNekonzistDatabazeViceZaznamuDleCUctu">
+            <titl>Nekonzistentnosť v databáze.\nNájdených viacero záznamov s rovnakým číslom účtu '%p'.</titl>
+        </msg>
+        <msg name="daoPocetRadekMimoRozsah">
+            <titl>Počet riadkov v tabuľke je mimo vymedzený rozsah.</titl>
+        </msg>
+        <msg name="daoZaznamNepodariloUlozit">
+            <titl>Záznam sa nepodarilo uložiť do databázy.</titl>
+        </msg>
+        <msg name="daoDetekovanKonkurenciPristup">
+            <titl>Detekovaný konkurenčný prístup k tomuto záznamu.</titl>
+        </msg>
+        <msg name="daoNepodariloOdstranitZDatabaze">
+            <titl>Záznam sa nepodarilo odstrániť z databázy.</titl>
+        </msg>
+        <msg name="daoZmenyNepodariloUlozit">
+            <titl>###Změny se nepodařilo uložit do databáze.</titl>
+        </msg>
+        <msg name="daoChybaPraceSDatabazi">
+            <titl>Nastala chyba pri práci s databázou.</titl>
+        </msg>
+        <msg name="daoSelhaloPripojeniKDatovemuZdroji">
+            <titl>Zlyhalo pripojenie k dátovému zdroju.</titl>
+        </msg>
+        <msg name="daoPoruseniIntegrity">
+            <titl>Porušenie integritných obmedzení.</titl>
+        </msg>
+        <msg name="daoChybaProvadeniUlozeneProcedury">
+            <titl>Chyba behom vykonávania uloženej procedúry.</titl>
+        </msg>
+        <msg name="notUniqueIdentifier">
+            <titl>Zadaný identifikátor nie je jedinečný! Bolo nájdených viacero záznamov, ktoré majú vlastnosť '%p' s hodnotou '%p'.</titl>
+        </msg>
+        <msg name="queryNelzeNastavitPozadovanyFiltr">
+            <titl>Pre tento typ nie je možné zostaviť požadovaný filter typu '%p'.</titl>
+        </msg>
+        <msg name="unsupportedDataTypeLike">
+            <titl>Operátory like, begins, ends vyžadujú argument typu string.</titl>
+        </msg>
+        <msg name="connectionNepodariloZiskat">
+            <titl>Nepodarilo sa získať spojenie k dátovému zdroju.</titl>
+        </msg>
+        <msg name="transakceNepodariloZahajit">
+            <titl>Transakciu se nepodarilo začať.</titl>
+        </msg>
+        <msg name="transakceNepodariloCommit">
+            <titl>Nepodarilo sa vykonať uloženie transakcie.</titl>
+        </msg>
+        <msg name="transakceNepodariloRollback">
+            <titl>Nepodarilo sa vykonať vrátenie transakcie.</titl>
+        </msg>
+        <msg name="sessionChybaOtevirani">
+            <titl>Chyba behom otvárania session.</titl>
+        </msg>
+        <msg name="sessionChybaUzavirani">
+            <titl>Chyba behom uzatvárania session.</titl>
+        </msg>
+        <msg name="sessionChybaDetasovaniDatObjektu">
+            <titl>Chyba behom detašovania dátových objektov z pracovnej session.</titl>
+        </msg>
+        <msg name="sessionChybaVkladaniDatObjektu">
+            <titl>Chyba behom vkládania dátových objektov do pracovnej session.</titl>
+        </msg>
+        <msg name="staleStateResolverZmenenyZaznam">
+            <titl>Od otvorenia záznamu bol záznam zmenený iným používateľom.\n(Prípadne mohol iný používateľ zmeniť nadriadený záznam, ktorý obsahuje tento záznam.)</titl>
+        </msg>
+        <msg name="duvod">
+            <titl>Dôvod</titl>
+        </msg>
+        <msg name="zaznamNepodariloNacist">
+            <titl>Záznamy sa nepodarilo načítať z databázy.</titl>
+        </msg>
+        <msg name="zaznamSeNepodarilNacist">
+            <titl>Záznam sa nepodarilo načítať z dátového zdroja..</titl>
+        </msg>
+        <msg name="zaznamChybaHledani">
+            <titl>Chyba behom hľadania záznamu v dátovom zdroji.</titl>
+        </msg>
+        <msg name="zaznamChybaHledaniNeboNacitani">
+            <titl>Chyba behom hľadania alebo načítania záznamu v databáze.</titl>
+        </msg>
+        <msg name="zaznamNelzeOtevrit">
+            <titl>Nie je možné otvoriť požadovaný záznam</titl>
+        </msg>
+        <msg name="zaznamNelzeEditovat">
+            <titl>V tabuľke nie je vybraná žiadna položka pre editáciu.</titl>
+        </msg>
+        <msg name="zaznamNelzeSmazat">
+            <titl>V tabuľke nie je vybraná žiadna položka pre vymazanie.</titl>
+        </msg>
+        <msg name="zaznamJizSmazan">
+            <titl>Tento záznam už niekto odstránil z dátového zdroja.</titl>
+        </msg>
+        <msg name="zaznamNepodariloSmazat">
+            <titl>Záznam sa nepodarilo zmazať.</titl>
+        </msg>
+        <msg name="zaznamNeniVybranaPolozka">
+            <titl>V tabuľke nie je vybraná žiadna položka.</titl>
+        </msg>
+        <msg name="zaznamChybaNacitaniPoctu">
+            <titl>Chyba behom načítania počtu záznamov.</titl>
+        </msg>
+        <msg name="zaznamChybaNacitaniStranky">
+            <titl>Chyba behom načítania stránky záznamov.</titl>
+        </msg>
+        <msg name="zaznamJizNeexistujeNelzeUlozit">
+            <titl>Zmeny vykonané na otvorenom zázname nemôžu byť uložené,\npretože ho niekto odstránil z dátového zdroja.</titl>
+        </msg>
+        <msg name="zaznamJizNeexistujeNelzeOdstranit">
+            <titl>Tento záznam nemôže byť odstránený,\npretože ho už niekto odstránil z dátového zdroja.</titl>
+        </msg>
+        <msg name="zaznamVDatabaziNovejsiDataOdEditace">
+            <titl>Od začatia úprav záznamu bol záznam zmenený iným používateľom.</titl>
+        </msg>
+        <msg name="zaznamVDatabaziNovejsiDataOdOtevreni">
+            <titl>Od otvorenia záznamu bol záznam zmenený iným používateľom.</titl>
+        </msg>
+        <msg name="zaznamUlozeniPrepiseZmeny">
+            <titl>Ak uložíte záznam, prepíšete zmeny vykonané iným používateľom.</titl>
+        </msg>
+        <msg name="zaznamChceteUlozit">
+            <titl>Chcete vykonané zmeny uložiť?</titl>
+        </msg>
+        <msg name="zaznamOpravduUlozit">
+            <titl>Skutočne chcete uložiť záznam?</titl>
+        </msg>
+        <msg name="zaznamOpravduOdstranit">
+            <titl>Skutočne chcete odstrániť záznam?</titl>
+        </msg>
+        <msg name="zaznamOpravduSmazatVybranyZaznam">
+            <titl>Skutočne chcete zmazať vybraný záznam?</titl>
+        </msg>
+        <msg name="zaznamOpravduSmazatNeco">
+            <titl>Naozaj chcete odstrániť %p?</titl>
+        </msg>
+        <msg name="zaznamAktualniZaznam">
+            <titl>aktuálny záznam</titl>
+        </msg>
+        <msg name="zaznamVybraneZaznamy">
+            <titl>vybrané záznamy</titl>
+        </msg>
+        <msg name="zaznamNemateOpravneni">
+            <titl>Nemáte oprávnenie pre zobrazenie tohoto záznamu.</titl>
+        </msg>
+        <msg name="ciselnikDuplicitniZkratka">
+            <titl>Skratku '%p' už používa iný záznam.</titl>
+        </msg>
+        <msg name="ciselnikMimoObdobi">
+            <titl>Nie je povolené nastaviť platnosť mimo aktuálne účtovné obdobie.</titl>
+        </msg>
+        <msg name="ciselnikDaoChybaMaximalniKod">
+            <titl>Hodnotu maximálneho kódu sa nepodarilo získať z dátového zdroja.</titl>
+        </msg>
+        <msg name="ciselnikDaoChybaPosledniKod">
+            <titl>Hodnotu posledného kódu se nepodarilo získať z dátového zdroja.</titl>
+        </msg>
+        <msg name="settingChybaNacitaniElementu">
+            <titl>Chyba pri načítaní elementu</titl>
+        </msg>
+        <msg name="settingIniSouborNenalezen">
+            <titl>Inicializačný súbor '%p' nebol nájdený.</titl>
+        </msg>
+        <msg name="settingIniChybnySoubor">
+            <titl>Chybný inicializačný súbor</titl>
+        </msg>
+        <msg name="settingL10nSelhaloUkladani">
+            <titl>Zlyhalo ukladanie lokalizačného nastavenia do XML súboru!</titl>
+        </msg>
+        <msg name="settingValLoadError">
+            <titl>Načítanie validačného nastavenia zlyhalo.</titl>
+        </msg>
+        <msg name="settingValNastaveniProblem">
+            <titl>Problém so súborom s validačnými nastaveniami</titl>
+        </msg>
+        <msg name="settingValVicenasobnyElement">
+            <titl>Validačný XML obsahuje niekoľkokrát rovnaký element</titl>
+        </msg>
+        <msg name="settingValSelhaloUkladani">
+            <titl>Zlyhalo ukladanie validačného nastavenia do XML súboru!</titl>
+        </msg>
+        <msg name="settingColumnsDefaultInfo">
+            <titl>Ak budete pokračovať, nastavíte toto rozloženie stĺpcov ako východzie\nvšetkým používateľom aplikacie u tejto firmy.</titl>
+        </msg>
+        <msg name="settingColumnsRestoreDefaultInfo">
+            <titl>Ak budete pokračovať, nastavíte rozloženie stĺpcov na stav pri prvom spustení aplikácie.</titl>
+        </msg>
+        <msg name="settingColumnsLoadError">
+            <titl>Načítanie nastavenia stĺpcov zlyhalo.</titl>
+        </msg>
+        <msg name="settingColumnsSaveError">
+            <titl>Uloženie nastavenia stĺpcov zlyhalo.</titl>
+        </msg>
+        <msg name="settingColumnsLoadBeanError">
+            <titl>Zlyhalo načítanie používateľského nastavenia stĺpcov pre objekt: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsLoadFilterError">
+            <titl>Nepodarilo sa načítať nastavenia používateľského stĺpca pre filter: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsSouborProblem">
+            <titl>Problém so súborom s nastaveniami stĺpcov tabuľky</titl>
+        </msg>
+        <msg name="settingColumnsSelhaloUkladaniSloupcu">
+            <titl>Zlyhalo ukladanie nastavenia stĺpcov tabuľky do XML súboru.</titl>
+        </msg>
+        <msg name="settingColumnsSaveBeanError">
+            <titl>Zlyhalo ukladanie používateľského nastavenia stĺpcov pre objekt: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsStaleStateWhenSave">
+            <titl>Pri ukladaní stĺpcov nastal problém konkurenčného prístupu.\nIný používateľ už zmenil nastavenie stĺpcov objektu: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsStaleStateWhenSaveUnspec">
+            <titl>Pri ukladaní stĺpcov nastal problém konkurenčného prístupu.</titl>
+        </msg>
+        <msg name="settingColumnsDeletePropertyError">
+            <titl>Zlyhalo mazanie používateľského nastavenia stĺpca pre objekt: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsDeleteError">
+            <titl>Zlyhalo mazanie používateľského nastavenia pre objekt: '%p'.</titl>
+        </msg>
+        <msg name="settingWindowsReadError2">
+            <titl>Zlyhalo načítanie používateľskeho nastavenia okien pre používateľa '%p'.</titl>
+        </msg>
+        <msg name="settingWindowsSaveError">
+            <titl>Zlyhalo ukladanie používateľského nastavenia okna '%p' pre používateľa '%p'.</titl>
+        </msg>
+        <msg name="settingsReadError">
+            <titl>Zlyhalo načítanie vlastností '%p' pre používateľa '%p'.</titl>
+        </msg>
+        <msg name="settingsReportConfigNotAllowed">
+            <titl>Záznam "%p" neumožňuje konfiguráciu hlásení. Použite '%p'.</titl>
+        </msg>
+        <msg name="settingsWriteError">
+            <titl>Zlyhalo ukladanie vlastností '%p' pre používateľa '%p'.</titl>
+        </msg>
+        <msg name="formularNenastaven">
+            <titl>Pre entitu '%p' nie je nastavený editačný formulár.</titl>
+        </msg>
+        <msg name="formularPristupOdepren">
+            <titl>K tomuto formuláru nemáte povolený prístup.</titl>
+        </msg>
+        <msg name="akcePristupOdepren">
+            <titl>K tejto akcii nemáte prístup.</titl>
+        </msg>
+        <msg name="akceEvidenceList">
+            <titl>Udalosť je k dispozícii pre tieto záznamy: %p</titl>
+        </msg>
+        <msg name="formularPrilisMnohoOken">
+            <titl>Máte otvorených príliš veľa okien\nNajskôr je nutné niektoré zatvoriť.</titl>
+        </msg>
+        <msg name="formNejdePrejitNovyZaznam">
+            <titl>Nie je možné prejsť na nový záznam.</titl>
+        </msg>
+        <msg name="formNejdeOtevritZaznam">
+            <titl>Nie je možné otvoriť požadovaný záznam.</titl>
+        </msg>
+        <msg name="formZaznamNenalezen">
+            <titl>Záznam nebol v dátovom zdroji nájdený.</titl>
+        </msg>
+        <msg name="formNeopravnenyPokusSmazani">
+            <titl>Neoprávnený pokus o zmazanie záznamu</titl>
+        </msg>
+        <msg name="formZnovunacneniProblem">
+            <titl>Pri opätovnom načítaní uloženého záznamu nastala chyba.</titl>
+        </msg>
+        <msg name="formUkladaniSelhalo">
+            <titl>Ukladanie zlyhalo.</titl>
+        </msg>
+        <msg name="formDaoException">
+            <titl>Nastal problém v komunikácii s dátovým zdrojom.</titl>
+        </msg>
+        <msg name="formBudeUzavren">
+            <titl>Formulár bude uzatvorený.</titl>
+        </msg>
+        <msg name="formInterruptFormBudeUzavren">
+            <titl>Nastala kritická chyba, kvôli ktorej bude nutné uzatvoriť formulár.</titl>
+        </msg>
+        <msg name="formInterruptFormNelzeOtevrit">
+            <titl>Nastala kritická chyba, kvôli ktorej se nepodarilo otvoriť formulár.</titl>
+        </msg>
+        <msg name="formChybaAktualizaceBOkna">
+            <titl>Chyba behom aktualizácie B-okna</titl>
+        </msg>
+        <msg name="formZaznamNelzeUlozit">
+            <titl>Záznam nie je možné uložiť.</titl>
+        </msg>
+        <msg name="formPreSaveChcesUlozit">
+            <titl>Chcete pokračovať?</titl>
+        </msg>
+        <msg name="formEVerifikaceSelhala">
+            <titl>Nepodarilo sa vykonať kontrolu správnosti vyplnenia dát.</titl>
+        </msg>
+        <msg name="tableNepodariloPosunout">
+            <titl>Nepodarilo sa posunúť záznam.</titl>
+        </msg>
+        <msg name="tableNelzePosunNahoru">
+            <titl>Prvý záznam v tabuľke nie je možné posunúť nahor.</titl>
+        </msg>
+        <msg name="tableNelzePosunDolu">
+            <titl>Posledný záznam v tabuľke nie je možné posunúť dole.</titl>
+        </msg>
+        <msg name="tableNelzePosouvatPolozku">
+            <titl>V tabuľke nie je vybraná žiadna položka pre posun.</titl>
+        </msg>
+        <msg name="tableRowNumberChyba">
+            <titl>Chyba behom zisťovania čísla riadku v tabuľke.</titl>
+        </msg>
+        <msg name="voSelektorNepodariloNacistZaznam">
+            <titl>Z dátového zdroja se nepodarilo načítať vybraný záznam.</titl>
+        </msg>
+        <msg name="filterFormLoadDataFailed">
+            <titl>Nepodarilo sa načítať dáta do formulára pre nastavenie filtrov.</titl>
+        </msg>
+        <msg name="filterFormFiltrProVlastnostChybaPreset">
+            <titl>Porušené nastavenie filtrácie pre pole %p.</titl>
+        </msg>
+        <msg name="filterFormIgnorovanFiltrProVlastnost">
+            <titl>Ignorované nastavenie filtrácie pre vlastnosť %p.</titl>
+        </msg>
+        <msg name="filterFormZadejteNazevFiltru">
+            <titl>Zadajte názov ukladaného nastavenia filtrácie.</titl>
+        </msg>
+        <msg name="filterFormNazevFiltruMusiBytVyplnen">
+            <titl>Názov filtra musí byť vyplnený.</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.message">
+            <titl>Chcete prepísať pôvodne nastavenie filtrácie alebo ho uložiť ako nové?</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.title">
+            <titl>Uloženie nastavenia filtrácie</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.prepsat">
+            <titl>Prepísať</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.novy">
+            <titl>Nové</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.zrusit">
+            <titl>Zrušiť</titl>
+        </msg>
+        <msg name="filterFormChybaPriUlozeniFiltru">
+            <titl>Aktuálne nastavenie filtrácie sa nepodarilo uložiť.</titl>
+        </msg>
+        <msg name="filterIdUnsupported">
+            <titl>Tento záznam nepodporuje identifikátory ani filtrovanie záznamov.</titl>
+        </msg>
+        <msg name="userFilterOpen.vyberteFiltry">
+            <titl>Vyberte používateľské nastavenie filtrácie, ktoré chcete otvoriť.</titl>
+        </msg>
+        <msg name="userFilterOpen.header">
+            <titl>Voľba uloženého nastavenia filtrácie</titl>
+        </msg>
+        <msg name="userFilterOpen.musiteVybratFiltr">
+            <titl>Najskôr musíte vybrať nejaké nastavenie filtrácie</titl>
+        </msg>
+        <msg name="userFilterOpen.opravduSmazatFiltr">
+            <titl>Skutočne chcete zmazať vybrané  nastavenie filtrácie?</titl>
+        </msg>
+        <msg name="userFilterOpen.chybaPriMazaniFiltru">
+            <titl>Nastavenie filtrácie sa nepodarilo vymazať.</titl>
+        </msg>
+        <msg name="filtrAplikovan">
+            <titl>Práve je aplikovaný filter:</titl>
+        </msg>
+        <msg name="queryFormMultipleChybaNacitani">
+            <titl>Chyba pri načítaní položiek pre výber.</titl>
+        </msg>
+        <msg name="reportImplNepodariloVytisknout">
+            <titl>Nepodarilo sa vytlačiť tlačovú zostavu.</titl>
+        </msg>
+        <msg name="reportNeniVybran">
+            <titl>Tlačová zostava nie je vybratá.</titl>
+        </msg>
+        <msg name="reportNoData">
+            <titl>Tlačová zostava nemá žiadnu dátovú sadu.</titl>
+        </msg>
+        <msg name="reportImplNeniPripojenaTiskarna">
+            <titl>Nie je pripojená žiadna tlačiareň.</titl>
+        </msg>
+        <msg name="reportPaneNepodariloNacistSeznamReportu">
+            <titl>Nepodarilo sa načítať zoznam reportov.</titl>
+        </msg>
+        <msg name="reportNezdarilSeTisk">
+            <titl>Tlač zostavy sa nepodarila.</titl>
+        </msg>
+        <msg name="reportChybaZobrazeni">
+            <titl>Behom zobrazenia náhľadu reportu sa vyskytla chyba.</titl>
+        </msg>
+        <msg name="reportNepodariloSePDF">
+            <titl>Nepodarilo se vygenerovať súbor PDF.</titl>
+        </msg>
+        <msg name="reportPDFExportUspesny">
+            <titl>Export do PDF prebehol úspešne.</titl>
+        </msg>
+        <msg name="reportNepodariloSeXls">
+            <titl>Nepodarilo sa vygenerovať súbor Xls.</titl>
+        </msg>
+        <msg name="reportNepodariloSeXlsx">
+            <titl>Nepodarilo sa vygenerovať súbor Xlsx.</titl>
+        </msg>
+        <msg name="reportXlsExportUspesny">
+            <titl>Export do Xls prebehol úspešne.</titl>
+        </msg>
+        <msg name="reportXlsxExportUspesny">
+            <titl>Export do Xlsx prebehol úspešne.</titl>
+        </msg>
+        <msg name="reportZadneStranky">
+            <titl>Report neobsahuje žiadne stránky.</titl>
+        </msg>
+        <msg name="reportKontaktujteVyrobce">
+            <titl>V reporte sa vyskytla chyba. Kontaktujte výrobcu reportu.</titl>
+        </msg>
+        <msg name="reportNebylNalezen">
+            <titl>Report nebol v datovom zdroji nájdený.</titl>
+        </msg>
+        <msg name="reportTvorbaPrerusena">
+            <titl>Tvorba reportu bola prerušená. Skúste to znovu.</titl>
+        </msg>
+        <msg name="reportNacitamPocetZaznamu">
+            <titl>Načítanie počtu záznamov.</titl>
+        </msg>
+        <msg name="reportNepodariloSeNacistPocetZaznamu">
+            <titl>Počet záznamov sa nepodarilo získať.</titl>
+        </msg>
+        <msg name="reportChybneHesloJenAscii">
+            <titl>Zadané heslo sa bohužiaľ nedá použiť na zašifrovanie tlačovej zostavy.\nZadajte heslo bez diakritiky.</titl>
+        </msg>
+        <msg name="filePrepsatSoubor">
+            <titl>Chcete súbor prepísať?</titl>
+        </msg>
+        <msg name="fileNepodariloSeUzavritSoubor">
+            <titl>Nepodarilo sa uzatvoriť súbor.</titl>
+        </msg>
+        <msg name="exportXlsProbehlUspesne">
+            <titl>Export do Excelu prebehol úspešne.</titl>
+        </msg>
+        <msg name="exportXlsNeprobehlUspesne">
+            <titl>Export do Excelu se nepodaril.</titl>
+        </msg>
+        <msg name="exportXlsPrekrocenLimitPocetRadek">
+            <titl>Bol prekročený limit počtu riadkov (65536) formátu XLS. Použite formát XLSX.</titl>
+        </msg>
+        <msg name="exportXmlProbehlUspesne">
+            <titl>Export do XML prebehol úspešne.</titl>
+        </msg>
+        <msg name="exportXmlNeprobehlUspesne">
+            <titl>Export do XML sa nepodaril.</titl>
+        </msg>
+        <msg name="exportXmlProgresDesc">
+            <titl>Prebieha export do XML...</titl>
+        </msg>
+        <msg name="exportVCardProbehlUspesne">
+            <titl>Export do vCard prebehol úspešne.</titl>
+        </msg>
+        <msg name="exportVCardNeprobehlUspesne">
+            <titl>Export do vCard sa nepodaril.</titl>
+        </msg>
+        <msg name="exportVCardProgresDesc">
+            <titl>Prebieha export do vCard...</titl>
+        </msg>
+        <msg name="exportICalProbehlUspesne">
+            <titl>Export do iCal prebehol úspešne.</titl>
+        </msg>
+        <msg name="exportICalNeprobehlUspesne">
+            <titl>Export do iCal sa nepodaril.</titl>
+        </msg>
+        <msg name="exportICalProgresDesc">
+            <titl>Prebieha export do iCal...</titl>
+        </msg>
+        <msg name="postgreSQLExceptionNeexistujeKurzSklad">
+            <titl>V tabuľke kurzu neexistuje kurz pre ponuku skladu.</titl>
+        </msg>
+        <msg name="postgreSQLExceptionZapornySklad">
+            <titl>Nie je povolený záporný stav skladu.</titl>
+        </msg>
+        <msg name="postgreSQLExceptionZustavajiVazbyPolozky">
+            <titl>Vo väzobnej tabuľke zostávajú väzby na položku dokladu.</titl>
+        </msg>
+        <msg name="postgreSQLExceptionZustavajiVazbyDoklad">
+            <titl>Vo väzobnej tabuľke zostávajú väzby na doklad.</titl>
+        </msg>
+        <msg name="postgreSQLExceptionZPrijemkyCerpaVydejka">
+            <titl>Nie je možné vymazať alebo stornovať príjemku z ktorej už čerpá výdajka.</titl>
+        </msg>
+        <msg name="postgreSQLzboziZpolozkyVyskladneno">
+            <titl>Tovar z položky už bol vyskladnený.</titl>
+        </msg>
+        <msg name="postgreSQLUcetNavazanaPolozka">
+            <titl>Nemožno zmeniť účet vo väzbe.</titl>
+        </msg>
+        <msg name="postgreSQLVytvorPrijemkuVKusovnikuChybiDostatekMaterialu">
+            <titl>Nie je možné vytvoriť príjemku výrobku "%p" z dôvodu chýbajúceho materiálu "%p" na sklade "%p" (požadované: %p, dostupné: %p).</titl>
+        </msg>
+        <msg name="ucetniSkladNeucetniTypDokl">
+            <titl>Nastavili ste účtovný sklad a typ dokladu nie je účtovný!</titl>
+        </msg>
+        <msg name="neucetniSkladucetniTypDokl">
+            <titl>Nastavili ste neúčtovný sklad a typ dokladu je účtovný!</titl>
+        </msg>
+        <msg name="postgreSQLChybiDokladovaRada">
+            <titl>Skontrolujte nastavenia série dokumentov pre %p: sklad "%p: %p", typ dokumentu "%p: %p".</titl>
+        </msg>
+        <msg name="postgreSQLduplVyrCis">
+            <titl>Duplicitné sériové číslo %p.</titl>
+        </msg>
+        <msg name="postgreSQLNelzeZmeniVydCis">
+            <titl>Meníte cenu %p pre už vydané sériové číslo %p.</titl>
+        </msg>
+        <msg name="zalohovatDBQuestion">
+            <titl>Chcete pred ukončením programu vykonať zálohovanie účtovníctva firmy?</titl>
+        </msg>
+        <msg name="zalohovatDBError">
+            <titl>Chyba pri zálohovaní účtovníctva firmy.</titl>
+        </msg>
+        <msg name="zalohovatDBChybaPrikazu">
+            <titl>Chyba pri spustení príkazu pre zálohovanie.</titl>
+        </msg>
+        <msg name="zalohovatDBChybaPrejmenovani">
+            <titl>Chyba pri premenovaní súboru s heslami do DB.</titl>
+        </msg>
+        <msg name="zalohovatDBChybaPrikazuChmod">
+            <titl>Chyba pri spúšťaní príkazu pre zmenu práv k súboru chmod.</titl>
+        </msg>
+        <msg name="zalohaJizExistuje">
+            <titl>Záloha pod týmto menom už existuje. Prajete si ju prepísať?</titl>
+        </msg>
+        <msg name="zalohovatDBChybaUkoncit">
+            <titl>Prajete si aplikáciu ukončiť?</titl>
+        </msg>
+        <msg name="zalohovatDBPGPassNenalezen">
+            <titl>Nie je možné nájsť súbor s nastavením pripojenia do DB.</titl>
+        </msg>
+        <msg name="zalohovatNenalezenPgDump">
+            <titl>Nebola nájdena inštalácia nástroja pg_dump. Je PostgreSQL skutočne nainštalovaný?</titl>
+        </msg>
+        <msg name="zalohovatNenalezenChmod">
+            <titl>Nebol nájdený príkaz pre zmenu práv k súboru chmod.</titl>
+        </msg>
+        <msg name="zalohovatNelzeVytvoritAdresarProPgConf">
+            <titl>Nie je možné vytvoriť adresár pre uloženie súboru s pgconf.</titl>
+        </msg>
+        <msg name="zalohovatDBNenalezenPgDump">
+            <titl>Nepodarilo sa nájsť cestu k nástroju na zálohovanie firmy.</titl>
+        </msg>
+        <msg name="zalohovatServerZalohuje">
+            <titl>Vytváram zálohu firmy...</titl>
+        </msg>
+        <msg name="zalohovatPrubeh">
+            <titl>Sťahujem dáta... %p z %p.</titl>
+        </msg>
+        <msg name="zalohaNedostatekMista">
+            <titl>Pre zálohu o veľkosti %p nie je dostatok miesta na disku.</titl>
+        </msg>
+        <msg name="zalohaSouborNenalezen">
+            <titl>Súbor pre zálohu %p nenájdený alebo k nemu nemáte dostatočné práva.</titl>
+        </msg>
+        <msg name="souborNelzeZapisovat">
+            <titl>Nemáte dostatočné oprávnenia na to, aby ste sa mohli zapísať na cestu.</titl>
+        </msg>
+        <msg name="zalohaProbehlaUspesne">
+            <titl>Zálohovanie prebehlo úspešne.</titl>
+        </msg>
+        <msg name="obnovitDBProbehloUspesne">
+            <titl>Databáza bola úspešne obnovená.</titl>
+        </msg>
+        <msg name="obnovitDBPridaniCsUzivatele">
+            <titl>\nNa centrálnom serveri boli pridaní následujúci používatelia, ktorým je treba zmeniť heslo, aby sa mohli prihlásiť.\n</titl>
+        </msg>
+        <msg name="obnovitDBError">
+            <titl>Chyba pri obnove účtovníctva firmy.</titl>
+        </msg>
+        <msg name="obnovitDBSouborNeexistuje">
+            <titl>Súbor so zálohou ešte neexistuje. Prajete si vybrať iný súbor?</titl>
+        </msg>
+        <msg name="obnovitDBZadatJmenoServeruTitulek">
+            <titl>Zadajte meno databázy pre novú firmu.</titl>
+        </msg>
+        <msg name="obnovitDBZadatJmenoSeveruVyzva">
+            <titl>Meno databázy firmy:</titl>
+        </msg>
+        <msg name="obnovitDBServerNezadan">
+            <titl>Nebolo zadané meno súboru. Prajete si meno zadať znovu?</titl>
+        </msg>
+        <msg name="obnovitDBNepodariloSePripojit">
+            <titl>Nepodarilo sa pripojiť na centrálny server.</titl>
+        </msg>
+        <msg name="obnovitDBNenalezenNastrojPgRestore">
+            <titl>Nepodarilo sa nájsť cestu k nástroju pre obnovenie firmy.</titl>
+        </msg>
+        <msg name="obnovitDBChybaPrikazu">
+            <titl>Chyba pri spustení príkazu pre obnovenie databázy.</titl>
+        </msg>
+        <msg name="obnovitDBChybaListObjektuDumpu">
+            <titl>Chyba pri spracovaní záložného súboru.</titl>
+        </msg>
+        <msg name="obnovitDBUnsupportedVersion">
+            <titl>Nepodporovaná verzia záložného súboru spoločnosti. Pravdepodobne sa snažíte obnoviť zálohu spoločnosti, ktorá pochádza z novšej verzie databázy PostgreSQL.</titl>
+        </msg>
+        <msg name="obnovitDBNenalezenPgRestore">
+            <titl>Nebola nájdena inštalácia nástroja pg_restore. Je PostgreSQL skutočne nainštalovaný?</titl>
+        </msg>
+        <msg name="obnovitDBChybaPrideleniPrav">
+            <titl>Chyba pri priradzovaní práv databázovým objektom.</titl>
+        </msg>
+        <msg name="obnovitDBChybaOldAppServer">
+            <titl>Verzia databázy %p je novšia ako verzia servera ABRA Flexi.</titl>
+        </msg>
+        <msg name="connectionBindError">
+            <titl>Nepodarilo sa pripojiť k databáze. Skontrolujte jej adresu a port.</titl>
+        </msg>
+        <msg name="connectionCloseError">
+            <titl>Nepodarilo sa ukončiť pripojenie k databáze.</titl>
+        </msg>
+        <msg name="connectionBindDetailError">
+            <titl>Nepodarilo sa pripojiť k databáze. Server vrátil chybu: %p</titl>
+        </msg>
+        <msg name="dbCreatingError">
+            <titl>Chyba pri vytváraní databázy.</titl>
+        </msg>
+        <msg name="dbCreatingImportInitialFailed">
+            <titl>Chyba pri importovaní východzích dát.</titl>
+        </msg>
+        <msg name="upgradovatDBChyba">
+            <titl>Nepodarilo sa spustiť upgrade databázy.</titl>
+        </msg>
+        <msg name="upgradovatDBChybaSpousteniSkriptu">
+            <titl>Chyba pri aktualizácii databázy. Nepodarilo sa vykonať skript %p.</titl>
+        </msg>
+        <msg name="upgradovatDBChybaNahravaniLokCiselniku">
+            <titl>Chyba pri aktualizácii databázy. Nepodarilo sa nahrať lokalizované číselníky.</titl>
+        </msg>
+        <msg name="upgradovatDBChybaOpravyLobu">
+            <titl>Chyba aktualizácie databázy. Nepodarilo sa nastaviť práva existujúcich príloh.</titl>
+        </msg>
+        <msg name="i18nFieldZobrazitOstatniJazyky">
+            <titl>Zobraziť ostatné jazyky.</titl>
+        </msg>
+        <msg name="i18nFieldSchovatOstatniJazyky">
+            <titl>Skryť ostatné jazyky.</titl>
+        </msg>
+        <msg name="comboTextAreaTooltip">
+            <titl>Otvoriť v okne.</titl>
+        </msg>
+        <msg name="desktopErrorOpeningBrowser">
+            <titl>Nepodarilo sa otvoriť východzí webový prehliadač.\nProsím navštívte adresu %p.</titl>
+        </msg>
+        <msg name="desktopErrorOpeningMail">
+            <titl>Nepodaril sa otvoriť východzí poštový klient.\nNapíšte na adresu %p.</titl>
+        </msg>
+        <msg name="desktopErrorOpeningFile">
+            <titl>Nepodarilo sa otvoriť súbor %p.\nOtvorte si ho prosím ručne.</titl>
+        </msg>
+        <msg name="urlReaction">
+            <titl>https://support.flexibee.eu/reakce/</titl>
+        </msg>
+        <msg name="urlSupport">
+            <titl>https://support.flexibee.eu/redirect/support-w10/</titl>
+        </msg>
+        <msg name="helpChceteOtevritNapoveduKProblemu">
+            <titl>Chcete otvoriť nápovedu k tomuto problému?</titl>
+        </msg>
+        <msg name="aboutDialogChybaNacitaniIP">
+            <titl>Nepodarilo sa získať IP adresu miestneho počítača.</titl>
+        </msg>
+        <msg name="importUkoncitProcesDotaz">
+            <titl>Skutočne chcete ukončiť prebiehajúci import?</titl>
+        </msg>
+        <msg name="featureNotSupportedByLicence">
+            <titl>Vaša licencia vás neoprávňuje na používanie tejto funkcie.</titl>
+        </msg>
+        <msg name="firmaNeexistuje">
+            <titl>Spoločnosť %p neexistuje.</titl>
+        </msg>
+        <msg name="uzivatelNeexistuje">
+            <titl>Používateľ %p neexistuje.</titl>
+        </msg>
+        <msg name="akceNepodporovana">
+            <titl>Táto akcia tu nie je podporovaná.</titl>
+        </msg>
+        <msg name="adresaNeplatna">
+            <titl>Adresa nie je platná.</titl>
+        </msg>
+        <msg name="adresaNeplatnaUrl">
+            <titl>Adresa %p nie je platná.</titl>
+        </msg>
+        <msg name="jsonNeplatny">
+            <titl>Nesprávny formát JSON: %p</titl>
+        </msg>
+        <msg name="importXlsCellLocation">
+            <titl>Riadok %p, stĺpec %p - </titl>
+        </msg>
+        <msg name="importXlsCellLocationProperty">
+            <titl>Riadok %p, vlastnosť %p - </titl>
+        </msg>
+        <msg name="importXlsBunkaNeniString">
+            <titl>bunka nie je reťazec.</titl>
+        </msg>
+        <msg name="importXlsBunkaNeniDouble">
+            <titl>bunka nie je desatinné číslo.</titl>
+        </msg>
+        <msg name="importXlsBunkaNeniInteger">
+            <titl>bunka nie je celé číslo.</titl>
+        </msg>
+        <msg name="importXlsBunkaNeniCalendar">
+            <titl>bunka nie je dátum.</titl>
+        </msg>
+        <msg name="importXlsBunkaNeniBoolean">
+            <titl>bunka nie je logická hodnota.</titl>
+        </msg>
+        <msg name="importXlsNeniVyplnenoMandatory">
+            <titl>povinná bunka nie je vyplnená.</titl>
+        </msg>
+        <msg name="importXlsSkladKartaNeniVybranTypDokl">
+            <titl>Nie je vybraný typ skladového dokladu.</titl>
+        </msg>
+        <msg name="importXlsNeniMozneImportovatNecodableObjekt">
+            <titl>Nie je možné vyhľadať objekt inak ako pomocou skratky (%p).</titl>
+        </msg>
+        <msg name="importXlsNevalidniFormat">
+            <titl>Verzia XLS importovaného formátu súboru nie je podporovaná, skúste súbor uložiť do iného formátu.</titl>
+        </msg>
+        <msg name="importXlsNepodporovanyFormatOds">
+            <titl>Formát dokumentu OpenDocument Spreadsheet (ODS) nie je podporovaný, súbor najskôr skonvertujte do formátu XLS.</titl>
+        </msg>
+        <msg name="importXmlNeplatnyCiselnik">
+            <titl>%p nie je platný kód lokalizovaného číselníka %p.</titl>
+        </msg>
+        <msg name="importXmlNepodporovanyUzel">
+            <titl>Nájdený nepodporovaný uzol %p</titl>
+        </msg>
+        <msg name="importXmlNeexistujeStitek">
+            <titl>Neexistuje štítok s kódom %p.</titl>
+        </msg>
+        <msg name="importXmlNeuvadetRemoveAllAMode">
+            <titl>Atribúty "removeAll" a "mode" nemožno použiť v tom istom prvku.</titl>
+        </msg>
+        <msg name="importXmlNepodporujeExtId">
+            <titl>%p nepodoruje extern identifikátory.</titl>
+        </msg>
+        <msg name="importXmlZaznamObsahujeChybu">
+            <titl>Záznam č. %p obsahuje chybu: %p</titl>
+        </msg>
+        <msg name="importXmlNove">
+            <titl>nové</titl>
+        </msg>
+        <msg name="importXmlKAktualizaci">
+            <titl>k aktualizácii</titl>
+        </msg>
+        <msg name="importXmlKSmazani">
+            <titl>k zmazaniu</titl>
+        </msg>
+        <msg name="importXmlVytvoreno">
+            <titl>###vytvořeno</titl>
+        </msg>
+        <msg name="importXmlKAktualizovano">
+            <titl>###aktualizováno</titl>
+        </msg>
+        <msg name="importXmlKSmazano">
+            <titl>###smazáno</titl>
+        </msg>
+        <msg name="importXmlSelhalo">
+            <titl>###selhalo</titl>
+        </msg>
+        <msg name="importXmlChceteProvestImport">
+            <titl>Chcete uskutočniť import následujúcich záznamov?</titl>
+        </msg>
+        <msg name="importXmlUnsupportedVersion">
+            <titl>Verzia importovaného súboru chýba alebo nie je podporovaná. Podporovaná verzia: %p.</titl>
+        </msg>
+        <msg name="importXmlInternalError">
+            <titl>Interná chyba aplikácie.</titl>
+        </msg>
+        <msg name="importXmlKonfliktLastUpdate">
+            <titl>###Od otevření záznamu byl záznam změněn jiným uživatelem. (data: %p aktuální: %p)</titl>
+        </msg>
+        <msg name="importXlsNeproslaValidace">
+            <titl>Nepodarilo sa zvalidovať objekt.</titl>
+        </msg>
+        <msg name="importXlsNeexistujeObjekt">
+            <titl>Neexistuje objekt typu %p s hodnotou kódu %p.</titl>
+        </msg>
+        <msg name="importXlsImportProbehlUspesne">
+            <titl>Import prebehol úspešne.</titl>
+        </msg>
+        <msg name="importXlsImportSeNezdaril">
+            <titl>Import sa nepodaril.</titl>
+        </msg>
+        <msg name="importXlsNepodariloSeNacistSoubor">
+            <titl>Nepodarilo sa načítať súbor pre import.</titl>
+        </msg>
+        <msg name="importXlsChybnyFormatXls">
+            <titl>Súbor sa nepodarilo načítať.\nChcete zobraziť nápovedu k problému?</titl>
+        </msg>
+        <msg name="importXlsPolozkuNelzeOdstranit">
+            <titl>Vybraná položka musí byť importovaná.</titl>
+        </msg>
+        <msg name="importSeNepodarilZDuvodu">
+            <titl>Import z %p sa nepodaril.\nOpravte problémy popísané nižšie a skúste import znova.</titl>
+        </msg>
+        <msg name="importSkoncilSVarovanim">
+            <titl>Import z %p skončil s varovaním.\nSkontrolujte varovanie nižšie, prípadne import opakujte.</titl>
+        </msg>
+        <msg name="importXlsZadnaNovaDataNebylaNaimportovana">
+            <titl>Žiadne nové dáta neboli nájdené.</titl>
+        </msg>
+        <msg name="importXlsNepodariloSeOtevritSoubor">
+            <titl>Súbor sa nepodarilo otvoriť.</titl>
+        </msg>
+        <msg name="importXlsSelhalZapisDoSouboru">
+            <titl>Zlyhal zápis do súboru.</titl>
+        </msg>
+        <msg name="importXmlObjektNepodporujeExterniId">
+            <titl>%p nepodporuje externý id.</titl>
+        </msg>
+        <msg name="importXmlNelzeUpdate">
+            <titl>Položku %p nemožno zmeniť.</titl>
+        </msg>
+        <msg name="importXmlCreateJeSpatne">
+            <titl>###Atribut 'create' obsahuje špatnou hodnotu. Smí obsahovat jen 'ignore', 'fail' a 'ok'.</titl>
+        </msg>
+        <msg name="importXmlUpdateJeSpatne">
+            <titl>###Atribut 'update' obsahuje špatnou hodnotu. Smí obsahovat jen 'ignore', 'fail' a 'ok'.</titl>
+        </msg>
+        <msg name="importXmlCreateNeniPovolen">
+            <titl>###Atribut create='fail' zakazuje založení nového záznamu.</titl>
+        </msg>
+        <msg name="importXmlUpdateNeniPovolen">
+            <titl>###Atribut update='fail' zakazuje změnu existujícího záznamu.</titl>
+        </msg>
+        <msg name="importXmlNeopravnenyUpdate">
+            <titl>Nemáte oprávnenie na zmenu záznamu v evidencii %p.</titl>
+        </msg>
+        <msg name="importXmlNeopravnenyCreate">
+            <titl>Nemáte oprávnenie na vytvorenie záznamu v evidencii %p.</titl>
+        </msg>
+        <msg name="importXmlNeopravnenyDelete">
+            <titl>Nemáte oprávnenie na zmazanie záznamu v evidencii %p.</titl>
+        </msg>
+        <msg name="importXmlSchaziPravoZamykat">
+            <titl>Nemáte oprávnenie k zamykaniu dokladov.</titl>
+        </msg>
+        <msg name="importXmlJeZamceno">
+            <titl>Záznam je uzámknutý.</titl>
+        </msg>
+        <msg name="importXmlNonScalarIdValue">
+            <titl>Hodnota '%p' elementu '%p' nie je skalárna.</titl>
+        </msg>
+        <msg name="importXmlIdentRuznychObjektu">
+            <titl>Identifikátor %p špecifikuje iný záznam než %p.</titl>
+        </msg>
+        <msg name="importXmlMutiIdentRuznychObjektu">
+            <titl>###Nalezeno více záznamů odpovídajících identifikátorům: %p.</titl>
+        </msg>
+        <msg name="importXmlEmptyIdentifier">
+            <titl>Prázdna hodnota identifikátora (%p).</titl>
+        </msg>
+        <msg name="importXmlMissingIdentifier">
+            <titl>Identifikátor (%p) nie je uvedený.</titl>
+        </msg>
+        <msg name="importXmlMissingElement">
+            <titl>Prvok "%p" je povinný.</titl>
+        </msg>
+        <msg name="importXmlSingletonElement">
+            <titl>Prvok "%p" možno zadať najviac raz.</titl>
+        </msg>
+        <msg name="importXmlNotFoundForIdentifier">
+            <titl>Záznam pre parameter (%p) nebol nájdený v zdroji údajov.</titl>
+        </msg>
+        <msg name="importXmlActionNotSupported">
+            <titl>Atribút "action" obsahuje zlú hodnotu. Môže obsahovať len: %p</titl>
+        </msg>
+        <msg name="importXmlRelacniRezim">
+            <titl>Importér "%p" je v relačnom režime a umožňuje vytvárať väzby len na existujúce objekty.</titl>
+        </msg>
+        <msg name="importXmlErrors">
+            <titl>###Chyby</titl>
+        </msg>
+        <msg name="importXmlObject">
+            <titl>###Objekt</titl>
+        </msg>
+        <msg name="importXmlWarnings">
+            <titl>###Varování</titl>
+        </msg>
+        <msg name="aplikacniNastaveniChybaNacitani">
+            <titl>Súbor %p s aplikačným nastavením nie je možné načítať.</titl>
+        </msg>
+        <msg name="aplikacniNastaveniChybaZapisu">
+            <titl>Nepodarilo sa uložiť nastavenie aplikácie.</titl>
+        </msg>
+        <msg name="filterFind">
+            <titl>Hľadať: </titl>
+        </msg>
+        <msg name="scannerNoCodeEntered">
+            <titl>Časový limit na zadanie kódu EAN uplynul.</titl>
+        </msg>
+        <msg name="scannerEnterKeyStroke">
+            <titl>Prefix EAN čítačky:</titl>
+        </msg>
+        <msg name="scannerEnterKeyStrokeTitle">
+            <titl>Zadajte hodnotu</titl>
+        </msg>
+        <msg name="mailDefaultFromNotFound">
+            <titl>Predvolená e-mailová adresa nie je definovaná v nastaveniach používateľa ani v nastaveniach servera SMTP.</titl>
+        </msg>
+        <msg name="mailDefaultFooter">
+            <titl>Vygenerované ekonomickým systémom %p</titl>
+        </msg>
+        <msg name="concurrentProcedureRunning">
+            <titl>Aktuálne spustená operácia '%p', ktorú spustil používateľ %p v %p, neumožňuje súčasné spustenie operácie '%p'.</titl>
+        </msg>
+        <msg name="mailNepodariloSeOdeslat">
+            <titl>Nepodarilo sa odoslať e-mail.</titl>
+        </msg>
+        <msg name="centServerChybneJmenoCiHeslo">
+            <titl>Zadané meno alebo heslo nebolo správne.</titl>
+        </msg>
+        <msg name="centServerChybaKomunikace">
+            <titl>Pri komunikácii s centrálnym serverom nastala chyba.</titl>
+        </msg>
+        <msg name="centServerChybaNavazani">
+            <titl>Pri nadväzovaní spojenia s centrálnym serverom nastala chyba.</titl>
+        </msg>
+        <msg name="centServerChybaIO">
+            <titl>Vstupno/výstupná chyba pri komunikácii s centrálnym serverom.</titl>
+        </msg>
+        <msg name="centServerNepripojen">
+            <titl>Nie ste pripojení k centrálnemu serveru.</titl>
+        </msg>
+        <msg name="centServerBlokovanyUzivatel">
+            <titl>Zadaný používateľský účet je blokovaný.</titl>
+        </msg>
+        <msg name="centServerNotAuthorizedOperation">
+            <titl>Používateľ nemá oprávnenie (%p) k vykonaniu požadovanej operácie.</titl>
+        </msg>
+        <msg name="centServerCompanyStateException">
+            <titl>Firma '%p' je v stave '%p'.</titl>
+        </msg>
+        <msg name="centServerNotApplicationUser">
+            <titl>Používateľ typu %p nesmie používať používateľské rozhranie.</titl>
+        </msg>
+        <msg name="centServerStartingException">
+            <titl>Centrálny server sa spúšťa, počkajte, prosím.</titl>
+        </msg>
+        <msg name="taskMonitorEndTasksQuestion">
+            <titl>Na pozadí bežia nedokončené úlohy. Dôrazne doporučujeme počkať na ich dokončenie.</titl>
+        </msg>
+        <msg name="hromZmenyWizard.header">
+            <titl>Nastavenie hromadnej zmeny</titl>
+        </msg>
+        <msg name="hromZmenyWizard.vyberte">
+            <titl>Vyberte pole a zadajte požadovanú hodnotu.</titl>
+        </msg>
+        <msg name="hromZmenyWizard.updateDotaz">
+            <titl>Skutočne chcete vykonať hromadnú zmenu?</titl>
+        </msg>
+        <msg name="hromZmenyWizard.updateError">
+            <titl>Hromadnú zmenu se nepodarilo vykonať.</titl>
+        </msg>
+        <msg name="hromZmenyWizard.nothingSelected">
+            <titl>Nie je vybratá žiadna položka.</titl>
+        </msg>
+        <msg name="manyToManyCtrl.OdeberVyberObjekt">
+            <titl>Nejprv musíte zvoliť objekt, ktorý sa má odobrať.</titl>
+        </msg>
+        <msg name="progressDlg.ukoncitProcesDotaz">
+            <titl>Skutočne chcete ukončiť prebiehajúci proces?</titl>
+        </msg>
+        <msg name="progressDlg.ukoncitUlozitProcesDotaz">
+            <titl>Prebiehajúci proces sa ukončí. Chcete svoje zmeny uložiť?</titl>
+        </msg>
+        <msg name="inputParamContr.nevyplnen">
+            <titl>Parameter '%p' musí byť vyplnený.</titl>
+        </msg>
+        <msg name="massUpdateProgressInfo">
+            <titl>Prebieha hromadná zmena...</titl>
+        </msg>
+        <msg name="massUpdateProgressInfoZamcObd">
+            <titl>Prebieha výmena zámku...</titl>
+        </msg>
+        <msg name="authSessionClosed">
+            <titl>Vaše sedenie sa skončilo.</titl>
+        </msg>
+        <msg name="prevedNaDeProgressInfo">
+            <titl>###Probíhá převod formy účetnictví...</titl>
+        </msg>
+        <msg name="pleaseRelogin">
+            <titl>Prihláste sa znova.</titl>
+        </msg>
+        <msg name="versionWarning">
+            <titl>Spustili ste testovaciu verziu, ak ju použijete, dáta budú nenávratne poškodené.\nTáto verzia je určená na overenie nových funkcií ABRA Flexi\na a nesmie sa používať v produkčnom prostredí, preto vždy pracujte len s kópiou dát.</titl>
+        </msg>
+        <msg name="licenceAfterRentToInfo">
+            <titl>Skontrolujte, prosím, úhradu poplatku za používanie ABRA Flexi po %p.\n%p\n\n&lt;b&gt;Ak nedôjde k platbe, bude od %p služba prístupná len na čítanie.&lt;/b&gt;\n\nV prípade nejasností kontaktujte prosím obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)</titl>
+        </msg>
+        <msg name="licenceReadOnlyInfo">
+            <titl>Z dôvodu neuhradenia poplatku za používanie ABRA Flexi po %p, je služba prístupná &lt;b&gt;iba pre čítanie&lt;/b&gt;.\n%p\n\n&lt;b&gt;Ak nedôjde k platbe, bude od %p služba nedostupná.&lt;/b&gt;\n\nV prípade nejasností kontaktujte prosím obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)</titl>
+        </msg>
+        <msg name="loginDialogBlokovanaLicenceUzivatele">
+            <titl>Zablokovaná licencie: &lt;b&gt;%p&lt;/b&gt;\n\nV prípade nejasností kontaktujte prosím obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)</titl>
+        </msg>
+        <msg name="licenseRentToExpiredTitle">
+            <titl>Uplynutí doby prenájmu licencie</titl>
+        </msg>
+        <msg name="licenseBlockedTitle">
+            <titl>Zablokovaná licencie</titl>
+        </msg>
+        <msg name="licenceValidToExpiredShutDown">
+            <titl>Licencie mala obmedzenú platnosť do %p. Dôvodom môžu byť neuhradené doklady. &lt;b&gt;Aplikácia bude ukončená.&lt;/b&gt;\n%p\n\nV prípade nejasností kontaktujte prosím obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)</titl>
+        </msg>
+        <msg name="licenceReadOnlyDialog">
+            <titl>Licence nemá vyplnené dátum platnosti, a preto je služba prístupná &lt;b&gt;iba pre čítanie&lt;/b&gt;.\nProsím kontaktujte obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/).</titl>
+        </msg>
+        <msg name="licenceZakaznickyOdkazMojeLicence">
+            <titl>Váš zákaznícky odkaz s prehľadom vystavených dokladov: &lt;b&gt;[Moje licencie](%p)&lt;/b&gt;.</titl>
+        </msg>
+        <msg name="licenceContactLicenseOwner">
+            <titl>Obráťte sa na majiteľa / administrátora licencie.</titl>
+        </msg>
+        <msg name="month0">
+            <titl>január</titl>
+        </msg>
+        <msg name="month1">
+            <titl>február</titl>
+        </msg>
+        <msg name="month2">
+            <titl>marec</titl>
+        </msg>
+        <msg name="month3">
+            <titl>april</titl>
+        </msg>
+        <msg name="month4">
+            <titl>máj</titl>
+        </msg>
+        <msg name="month5">
+            <titl>jún</titl>
+        </msg>
+        <msg name="month6">
+            <titl>jul</titl>
+        </msg>
+        <msg name="month7">
+            <titl>august</titl>
+        </msg>
+        <msg name="month8">
+            <titl>september</titl>
+        </msg>
+        <msg name="month9">
+            <titl>október</titl>
+        </msg>
+        <msg name="month10">
+            <titl>november</titl>
+        </msg>
+        <msg name="month11">
+            <titl>december</titl>
+        </msg>
+        <msg name="xmlStreamExceptionContentIsNotAllowedInProlog">
+            <titl>Súbor neobsahuje platné XML.\n(Obsah nie je povolený v prologu)</titl>
+        </msg>
+        <msg name="xmlStreamExceptionInvalidByte1ofUTF8">
+            <titl>Snažíme sa čítať importovaný súbor XML v kódovaní UTF-8, ale súbor\nje pravdepodobne uložený v inom kódovaní. Vyžiadajte si súbor uložený\nv kódovaní UTF-8 alebo ho sami uložte v tomto kódovaní.</titl>
+        </msg>
+        <msg name="longExceptionMessageCut">
+            <titl>Zvyšok textu bol orezaný.</titl>
+        </msg>
+        <msg name="noMessageError">
+            <titl>###Bez popisu chyby.</titl>
+        </msg>
+        <msg name="remoteLogoutDemand">
+            <titl>Ak sa vaše konto súčasne používa na inom zariadení, odhláste sa najprv na tomto zariadení.</titl>
+        </msg>
+        <msg name="nesloZmenitZaokrouhleni">
+            <titl>Zaokrúhľovanie dokumentu však nebolo možné zmeniť.</titl>
+        </msg>
+        <msg name="importXmlInvalidStartTag">
+            <titl>Koreňový prvok %p nie je podporovaný. Podporované prvky: %p.</titl>
+        </msg>
+        <msg name="noSpaceLeftOnDevice">
+            <titl>Nedostatok úložného priestoru.</titl>
+        </msg>
+        <msg name="spatnyFormatIDs">
+            <titl>Zlý formát viacerých ID, chyba na pozícii %p.</titl>
+        </msg>
+        <msg name="invalidExtIdFormat">
+            <titl>ExtId má nesprávny tvar %p.</titl>
+        </msg>
+        <msg name="itemAlreadyLinked">
+            <titl>Položka %p je už viazaná na nadradený objekt [%p], nemožno ju viazať na iný objekt.</titl>
+        </msg>
+        <msg name="invalidWinstromId">
+            <titl>ID Winstrom (%p) má nesprávny formát.</titl>
+        </msg>
+        <msg name="vatIdNotSupported">
+            <titl>Objekt [%p] nepodporuje ID DPH (vatid:%p).</titl>
+        </msg>
+        <msg name="codeIdNotSupported">
+            <titl>Objekt [%p] nepodporuje CODE ID (kód:%p).</titl>
+        </msg>
+        <msg name="eanIdNotSupported">
+            <titl>Objekt [%p] nepodporuje EAN ID (ean:%p).</titl>
+        </msg>
+        <msg name="inIdNotSupported">
+            <titl>Objekt [%p] nepodporuje IN ID (in:%p).</titl>
+        </msg>
+        <msg name="pluIdNotSupported">
+            <titl>Objekt [%p] nepodporuje PLU ID (plu:%p).</titl>
+        </msg>
+        <msg name="uuidNotSupported">
+            <titl>Objekt [%p] nepodporuje UUID (uuid:%p).</titl>
+        </msg>
+        <msg name="keyIdNotSupported">
+            <titl>Objekt [%p] nepodporuje KEY ID (key:%p).</titl>
+        </msg>
+        <msg name="ibanIdNotSupported">
+            <titl>Objekt [%p] nepodporuje IBAN ID (iban:%p).</titl>
+        </msg>
+        <msg name="reportFileNotFound">
+            <titl>Pre požadovanú správu %p sa nepodarilo nájsť soubor jrxml ani jasper.</titl>
+        </msg>
+        <msg name="formRecordNotSaved">
+            <titl>Záznam %p [%p] sa nepodarilo uložiť. Odošlite túto chybu s popisom toho, čo tejto udalosti predchádzalo.</titl>
+        </msg>
+        <msg name="massUpdateNotSupported">
+            <titl>Tento záznam neumožňuje hromadné zmeny.</titl>
+        </msg>
+        <msg name="propertyCantBeChanged">
+            <titl>Vlastnosť '%p' (%p) teraz nemožno upravovať.</titl>
+        </msg>
+        <msg name="loadingDataFailed">
+            <titl>Nepodarilo sa načítať údaje zo zdroja údajov.</titl>
+        </msg>
+        <msg name="osNotSupportsScanning">
+            <titl>V operačnom systéme nie je možné skenovať.</titl>
+        </msg>
+        <msg name="importXmlActionJenPersistentni">
+            <titl>Objekt ešte nebol vytvorený, nie je možné vykonať žiadnu akciu.</titl>
+        </msg>
+        <msg name="autoZaokrouhleni">
+            <titl>Hodnota "%p" bola zaokrúhlená na "%p".</titl>
+        </msg>
+        <msg name="hodnotyBudouVypoctenyPoUlozeni">
+            <titl>Hodnoty polí budú vypočítané až po uložení.</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="oProgramu">
+            <titl>O aplikácii ABRA Flexi</titl>
+        </lb>
+        <lb name="directoryBackup">
+            <titl>Záloha dát</titl>
+        </lb>
+        <lb name="directoryExport">
+            <titl>Export</titl>
+        </lb>
+        <lb name="directoryImport">
+            <titl>Import</titl>
+        </lb>
+        <lb name="chyba">
+            <titl>Chyba</titl>
+        </lb>
+        <lb name="informace">
+            <titl>Informácia</titl>
+        </lb>
+        <lb name="varovani">
+            <titl>Varovanie</titl>
+        </lb>
+        <lb name="dotaz">
+            <titl>Otázka</titl>
+        </lb>
+        <lb name="interniChyba">
+            <titl>Interná chyba</titl>
+        </lb>
+        <lb name="neniImplementovano">
+            <titl>Táto funkcia nie je zatiaľ implementovaná.</titl>
+        </lb>
+        <lb name="testerPane">
+            <titl>TesterPane</titl>
+        </lb>
+        <lb name="zaskrtnuto">
+            <titl>Zaškrtnuté</titl>
+        </lb>
+        <lb name="nezaskrnuto">
+            <titl>Nezaškrtnuté</titl>
+        </lb>
+        <lb name="pridat">
+            <titl>Pridať</titl>
+        </lb>
+        <lb name="odebrat">
+            <titl>Odobrať</titl>
+        </lb>
+        <lb name="upravit">
+            <titl>Upraviť</titl>
+        </lb>
+        <lb name="operace">
+            <titl>Operácia: </titl>
+        </lb>
+        <lb name="hodnota1">
+            <titl>Hodnota1: </titl>
+        </lb>
+        <lb name="hodnota2">
+            <titl>Hodnota2: </titl>
+        </lb>
+        <lb name="od">
+            <titl>Od</titl>
+        </lb>
+        <lb name="do">
+            <titl>Do</titl>
+        </lb>
+        <lb name="razeni">
+            <titl>Radenie</titl>
+        </lb>
+        <lb name="aktivni">
+            <titl>Aktívne filtre</titl>
+        </lb>
+        <lb name="viditelne">
+            <titl>Viditeľné stĺpce</titl>
+        </lb>
+        <lb name="skryte">
+            <titl>Skryté stĺpce</titl>
+        </lb>
+        <lb name="neomezen">
+            <titl>Neobmedzený</titl>
+        </lb>
+        <lb name="neomezena">
+            <titl>Neobmedzená</titl>
+        </lb>
+        <lb name="staleStateDatabaze">
+            <titl>databáza</titl>
+        </lb>
+        <lb name="staleStateUzivatel">
+            <titl>používateľ</titl>
+        </lb>
+        <lb name="vlastnost">
+            <titl>Vlastnosť</titl>
+        </lb>
+        <lb name="vaseHodnota">
+            <titl>vaša hodnota</titl>
+        </lb>
+        <lb name="hodnotaVDatabazi">
+            <titl>hodnota v databáze</titl>
+        </lb>
+        <lb name="linkLabelTooltip">
+            <titl>Otvorí prehliadač na adrese: </titl>
+        </lb>
+        <lb name="filter.obsahuje">
+            <titl>obsahuje</titl>
+        </lb>
+        <lb name="filter.neobsahuje">
+            <titl>neobsahuje</titl>
+        </lb>
+        <lb name="filter.rovno">
+            <titl>rovné</titl>
+        </lb>
+        <lb name="filter.nerovno">
+            <titl>nerovné</titl>
+        </lb>
+        <lb name="filter.zacinaS">
+            <titl>začína s</titl>
+        </lb>
+        <lb name="filter.inelements">
+            <titl>obsahujú</titl>
+        </lb>
+        <lb name="filter.notinelements">
+            <titl>neobsahujú</titl>
+        </lb>
+        <lb name="filter.konci">
+            <titl>končí</titl>
+        </lb>
+        <lb name="filter.odDo">
+            <titl>od..do</titl>
+        </lb>
+        <lb name="filter.od">
+            <titl>od</titl>
+        </lb>
+        <lb name="filter.do">
+            <titl>do</titl>
+        </lb>
+        <lb name="filter.prazdny">
+            <titl>prázdny</titl>
+        </lb>
+        <lb name="filter.neprazdny">
+            <titl>neprázdny</titl>
+        </lb>
+        <lb name="filter.mensiNez">
+            <titl>menší než</titl>
+        </lb>
+        <lb name="filter.mensiNeboRovnoNez">
+            <titl>menšie alebo rovné ako</titl>
+        </lb>
+        <lb name="filter.vetsiNez">
+            <titl>väčšie ako</titl>
+        </lb>
+        <lb name="filter.vetsiNeboRovnoNez">
+            <titl>väčšie alebo rovné ako</titl>
+        </lb>
+        <lb name="filter.ano">
+            <titl>áno</titl>
+        </lb>
+        <lb name="filter.ne">
+            <titl>nie</titl>
+        </lb>
+        <lb name="filter.interval">
+            <titl>v</titl>
+        </lb>
+        <lb name="filter.neinterval">
+            <titl>nie je v</titl>
+        </lb>
+        <lb name="filter.dnyPredPo">
+            <titl>počet dní pred/po</titl>
+        </lb>
+        <lb name="filter.or">
+            <titl>alebo</titl>
+        </lb>
+        <lb name="filter.and">
+            <titl>a zároveň</titl>
+        </lb>
+        <lb name="filter.kodableOmezeno">
+            <titl>%p rovné %p</titl>
+        </lb>
+        <lb name="filter.inSubtree">
+            <titl>%p v podstrome %p</titl>
+        </lb>
+        <lb name="findFormNajitVeSloupci">
+            <titl>Nájsť v stĺpci</titl>
+        </lb>
+        <lb name="findFormHledat">
+            <titl>Hľadať</titl>
+        </lb>
+        <lb name="findFormDolu">
+            <titl>dole</titl>
+        </lb>
+        <lb name="findFormVse">
+            <titl>všetko</titl>
+        </lb>
+        <lb name="findFormDokonceno">
+            <titl>Prehľadávanie tabuľky bolo dokončené.</titl>
+        </lb>
+        <lb name="findFormNenalezeno">
+            <titl>Nebol nájdený žiadny záznam splňujúci danú podmienku pre stĺpec '%p'.</titl>
+        </lb>
+        <lb name="findFormKonecTabulky">
+            <titl>Bol dosiahnutý koniec tabuľky. Hľadať od začiatku?</titl>
+        </lb>
+        <lb name="columnsNezobrazenaPole">
+            <titl>Nezobrazené polia</titl>
+        </lb>
+        <lb name="columnsZobrazenaPole">
+            <titl>Zobrazené polia</titl>
+        </lb>
+        <lb name="orderRaditPodlePole">
+            <titl>Radiť podľa polí</titl>
+        </lb>
+        <lb name="attrListItems">
+            <titl>Zoznam položiek</titl>
+        </lb>
+        <lb name="attrListAttributes">
+            <titl>Vlastnosti položky</titl>
+        </lb>
+        <lb name="listChooserFormDostPole">
+            <titl>Dostupné polia</titl>
+        </lb>
+        <lb name="listChooserFormDostHodnoty">
+            <titl>Dostupné hodnoty</titl>
+        </lb>
+        <lb name="listChooserFormVybPole">
+            <titl>Vybrané polia</titl>
+        </lb>
+        <lb name="listChooserFormVybHodnoty">
+            <titl>Vybrané hodnoty</titl>
+        </lb>
+        <lb name="listChooserWizardForm.musiteVybratPolozku">
+            <titl>Najskôr musíte vybrať nejakú položku.</titl>
+        </lb>
+        <lb name="formETitleNew">
+            <titl> - Nový záznam</titl>
+        </lb>
+        <lb name="formETitleEdit">
+            <titl> - Zmena záznamu</titl>
+        </lb>
+        <lb name="voFieldDefaultTooltip">
+            <titl>Stlačte klávesu F2 pre zobrazenie dialógu výberu</titl>
+        </lb>
+        <lb name="ciselnikRokPlatnost">
+            <titl>Platnosť sa udáva v kalendárnych rokoch, pre neobmedzenú platnosť zadajte 0-9999.</titl>
+        </lb>
+        <lb name="ciselnikObdPlatnost">
+            <titl>Platnosť sa udáva v účtovných obdobiach, pre neobmedzenú platnosť nechajte polia nevyplnené.</titl>
+        </lb>
+        <lb name="aboutDialogPopis">
+            <titl>Ekonomický software.</titl>
+        </lb>
+        <lb name="aboutDialogAutori">
+            <titl>Autori</titl>
+        </lb>
+        <lb name="aboutDialogDistributor">
+            <titl>Distribúcia a podpora</titl>
+        </lb>
+        <lb name="aboutDialogPodpora">
+            <titl>Pre podporu navštívte stránky:</titl>
+        </lb>
+        <lb name="aboutDialogDetaily">
+            <titl>Detaily o aplikácii</titl>
+        </lb>
+        <lb name="aboutDialogAutoriPopis">
+            <titl>Kontakt na autorov programu.</titl>
+        </lb>
+        <lb name="aboutDialogVlastnost">
+            <titl>Vlastnosť</titl>
+        </lb>
+        <lb name="aboutDialogHodnota">
+            <titl>Hodnota</titl>
+        </lb>
+        <lb name="aboutDialogVerze">
+            <titl>Verzia</titl>
+        </lb>
+        <lb name="aboutDialogVerzeCentralServeru">
+            <titl>Verzia centrálneho servera</titl>
+        </lb>
+        <lb name="aboutDialogVerzeCentralDatabase">
+            <titl>Verzia centrálnej databázy</titl>
+        </lb>
+        <lb name="aboutDialogVerzeDatabazeFirmy">
+            <titl>Verzia databázy firmy</titl>
+        </lb>
+        <lb name="aboutDialogVerzeJavy">
+            <titl>Verzia Javy</titl>
+        </lb>
+        <lb name="aboutDialogVerzeJavyServer">
+            <titl>Verzie jazyka Java na serveri</titl>
+        </lb>
+        <lb name="aboutDialogOperacniSystem">
+            <titl>Operačný systém</titl>
+        </lb>
+        <lb name="aboutDialogPamet">
+            <titl>Pamäť (akt./halda/celk.)</titl>
+        </lb>
+        <lb name="aboutDialogJazyk">
+            <titl>Jazyk</titl>
+        </lb>
+        <lb name="aboutDialogGrafickeProstredi">
+            <titl>Grafické prostredie</titl>
+        </lb>
+        <lb name="aboutDialogDetailyDBServeru">
+            <titl>Databázový server</titl>
+        </lb>
+        <lb name="aboutDialogIPAdresa">
+            <titl>IP adresa</titl>
+        </lb>
+        <lb name="aboutDialogCsAdresa">
+            <titl>Adresa centrálneho servera</titl>
+        </lb>
+        <lb name="aboutDialogDobaOdezvy">
+            <titl>Doba odozvy (akt./min./max./priem.)</titl>
+        </lb>
+        <lb name="aboutDialogDobaOdezvyWeb">
+            <titl>Odozva lokality (akt./min./max./priemerná/strata)</titl>
+        </lb>
+        <lb name="aboutDialogDobaOdezvyProxy">
+            <titl>Proxy odozva (akt/min/max/priemer/strata)</titl>
+        </lb>
+        <lb name="aboutDialogConfigDir">
+            <titl>Konfiguračný adresár</titl>
+        </lb>
+        <lb name="aboutDialogUserDir">
+            <titl>Adresár konfigurácie používateľa</titl>
+        </lb>
+        <lb name="aboutDialogTmpDir">
+            <titl>Dočasný dátový adresár</titl>
+        </lb>
+        <lb name="aboutDialogWeb">
+            <titl>Web:</titl>
+        </lb>
+        <lb name="aboutDialogMail">
+            <titl>E-mail:</titl>
+        </lb>
+        <lb name="aboutDialogTel">
+            <titl>Telefón:</titl>
+        </lb>
+        <lb name="aboutDialogAutoriPodpora">
+            <titl>Podpora:</titl>
+        </lb>
+        <lb name="aboutDialogAutoriObchod">
+            <titl>Obchod:</titl>
+        </lb>
+        <lb name="aboutDialogLicenceTretichStranTab">
+            <titl>Licencie tretích strán</titl>
+        </lb>
+        <lb name="statusBar.cisloZakaznika">
+            <titl>ČZ:</titl>
+        </lb>
+        <lb name="talkbackTitle">
+            <titl>Chyba aplikácie</titl>
+        </lb>
+        <lb name="talkbackDescriptionUnknownError">
+            <titl>V aplikácii sa vyskytla chyba.</titl>
+        </lb>
+        <lb name="talkbackDescriptionConnectionError">
+            <titl>Komunikácia s dátovým serverom bola prerušená v dôsledku chyby siete.</titl>
+        </lb>
+        <lb name="talkbackDescriptionHowSendInfo">
+            <titl>Ťuknutím na tlačidlo Odoslať informáciu o chybe odošlete chybové hlásenie.</titl>
+        </lb>
+        <lb name="talkbackDetail">
+            <titl>Detail chyby:</titl>
+        </lb>
+        <lb name="talkbackDetailUnknown">
+            <titl>Detail chyby sa nepodarilo získať.</titl>
+        </lb>
+        <lb name="filterFormVyberMultipleTitle">
+            <titl>Výber požadovaných polí</titl>
+        </lb>
+        <lb name="filterFormMultipleAndFilter">
+            <titl>Všetky</titl>
+        </lb>
+        <lb name="filterFormMultipleOrFilter">
+            <titl>Aspoň jeden</titl>
+        </lb>
+        <lb name="filterFormMultipleNoneFilter">
+            <titl>Žiadny</titl>
+        </lb>
+        <lb name="filterFormPrivatni">
+            <titl>Privátny</titl>
+        </lb>
+        <lb name="filterFormSaveColumns">
+            <titl>Uloženie stĺpcov a triedenie</titl>
+        </lb>
+        <lb name="progressDesc">
+            <titl>Čakajte prosím...</titl>
+        </lb>
+        <lb name="progressInterupted">
+            <titl>Ukončujem proces...</titl>
+        </lb>
+        <lb name="databazeProgressPripojeniDesc">
+            <titl>Pripájam sa k dátovému zdroju...</titl>
+        </lb>
+        <lb name="databazeFirmyNepripojena">
+            <titl>Nie ste pripojení k databáze firmy.</titl>
+        </lb>
+        <lb name="poslatReakciOsloveni">
+            <titl>Môžete nám poslať reakciu:</titl>
+        </lb>
+        <lb name="reportJazykReportu">
+            <titl>Jazyk reportu</titl>
+        </lb>
+        <lb name="reportVyberReportu">
+            <titl>Výber tlačovej zostavy</titl>
+        </lb>
+        <lb name="reportNahledTisku">
+            <titl>Náhľad tlače</titl>
+        </lb>
+        <lb name="reportVytiskl">
+            <titl>Vytlačil</titl>
+        </lb>
+        <lb name="reportTisknoutRozsirenouVerzi">
+            <titl>Rozšírená verzia tlačovej zostavy</titl>
+        </lb>
+        <lb name="reportTisknoutVodiciCary">
+            <titl>Tlačiť vodiace čiary</titl>
+        </lb>
+        <lb name="konfigurovatReport">
+            <titl>Konfigurovať report</titl>
+        </lb>
+        <lb name="reportTisknoutVse">
+            <titl>Všetky záznamy</titl>
+        </lb>
+        <lb name="reportTisknoutAktualniZaznam">
+            <titl>Aktuálny záznam</titl>
+        </lb>
+        <lb name="reportTisknoutVybrane">
+            <titl>Vybrané záznamy</titl>
+        </lb>
+        <lb name="reportTisknoutZaznamyOdDo">
+            <titl>Záznamy</titl>
+        </lb>
+        <lb name="reportProgresDesc">
+            <titl>Prebieha plnenie reportu...</titl>
+        </lb>
+        <lb name="reportSmtpProgresDesc">
+            <titl>Rozosielame e-maily...</titl>
+        </lb>
+        <lb name="reportMailProgresDesc">
+            <titl>Pripravujú sa e-maily...</titl>
+        </lb>
+        <lb name="exportOtevritPoUlozeni">
+            <titl>Po uložení otvoriť v Excele</titl>
+        </lb>
+        <lb name="exportProgresDesc">
+            <titl>Prebieha export do Excelu...</titl>
+        </lb>
+        <lb name="exportVyberteSloupce">
+            <titl>Vyberte stĺpce, ktoré sa majú exportovať</titl>
+        </lb>
+        <lb name="exportVybraneSloupce">
+            <titl>Exportované stĺpce</titl>
+        </lb>
+        <lb name="exportNevybraneSloupce">
+            <titl>Neexportované stĺpce</titl>
+        </lb>
+        <lb name="exportXlsNativni">
+            <titl>Export vo formáte vhodnom na import</titl>
+        </lb>
+        <lb name="zalohaProgressTitle">
+            <titl>Zálohujem firmu...</titl>
+        </lb>
+        <lb name="obnovitDBProgressTitle">
+            <titl>Obnovujem firmu...</titl>
+        </lb>
+        <lb name="upgradovatDBSpousteniSkriptu">
+            <titl>Spúšťam skripty na aktualizáciu databázy firmy...</titl>
+        </lb>
+        <lb name="importXlsVyplnenoPriImportu">
+            <titl>Vyplnené pri importe</titl>
+        </lb>
+        <lb name="importXlsVyberteSloupce">
+            <titl>Vyberte stĺpce pre import</titl>
+        </lb>
+        <lb name="importXlsVybraneSloupce">
+            <titl>Vybrané stĺpce</titl>
+        </lb>
+        <lb name="importXlsDostupneSloupce">
+            <titl>Dostupné stĺpce</titl>
+        </lb>
+        <lb name="importXlsProbihaImport">
+            <titl>Prebieha import...</titl>
+        </lb>
+        <lb name="importXlsVysledekImportu">
+            <titl>Výsledok importu</titl>
+        </lb>
+        <lb name="importXlsVyberTabulky">
+            <titl>Ktorú tabuľku chcete importovať?</titl>
+        </lb>
+        <lb name="importXlsMinLength">
+            <titl>min. dĺžka</titl>
+        </lb>
+        <lb name="importXlsMaxLength">
+            <titl>max. dĺžka</titl>
+        </lb>
+        <lb name="importXlsMinValue">
+            <titl>min. hodnota</titl>
+        </lb>
+        <lb name="importXlsMaxValue">
+            <titl>max.hodnota</titl>
+        </lb>
+        <lb name="importXlsDigits">
+            <titl>počet číslic</titl>
+        </lb>
+        <lb name="importXlsObject">
+            <titl>objekt</titl>
+        </lb>
+        <lb name="importXlsInteger">
+            <titl>celé číslo</titl>
+        </lb>
+        <lb name="importXlsNumeric">
+            <titl>desatinné číslo</titl>
+        </lb>
+        <lb name="importXlsString">
+            <titl>reťazec</titl>
+        </lb>
+        <lb name="importXlsDate">
+            <titl>dátum</titl>
+        </lb>
+        <lb name="importXlsDatetime">
+            <titl>dátum a čas</titl>
+        </lb>
+        <lb name="importXlsLogic">
+            <titl>logická hodnota</titl>
+        </lb>
+        <lb name="importXlsCollection">
+            <titl>zoznam hodnôt</titl>
+        </lb>
+        <lb name="importXlsDelimiters">
+            <titl>oddeľovač: , alebo nový riadok</titl>
+        </lb>
+        <lb name="importXlsVlastnostiSloupcu">
+            <titl>Vlastnosti importovaných stĺpcov</titl>
+        </lb>
+        <lb name="filterFind">
+            <titl>Hľadať: </titl>
+        </lb>
+        <lb name="settingColumnsDefaultDeleteColSettings">
+            <titl>Vymazať existujúce nastavenie stĺpcov všetkých používateľov a použiť toto.</titl>
+        </lb>
+        <lb name="fileChooserSesitMicrosftExcel">
+            <titl>Zošit Microsoft Office Excel</titl>
+        </lb>
+        <lb name="fileChooserSesitMicrosftExcelXlsx">
+            <titl>Zošit Microsoft Office Excel</titl>
+        </lb>
+        <lb name="fileChooserWinstromXml">
+            <titl>ABRA Flexi XML</titl>
+        </lb>
+        <lb name="fileChooserZip">
+            <titl>Archív ZIP</titl>
+        </lb>
+        <lb name="fileFilterPdf">
+            <titl>Adobe PDF</titl>
+        </lb>
+        <lb name="fileFilterVcf">
+            <titl>Vizitky vCard</titl>
+        </lb>
+        <lb name="fileFilterIcal">
+            <titl>Kalendáre iCal</titl>
+        </lb>
+        <lb name="fileFilterTxt">
+            <titl>Textový súbor</titl>
+        </lb>
+        <lb name="migraceNazevSouboru">
+            <titl>Migrácia</titl>
+        </lb>
+        <lb name="openWindowStart">
+            <titl>Otvoriť</titl>
+        </lb>
+        <lb name="openWindowInNew">
+            <titl>v novom okne</titl>
+        </lb>
+        <lb name="multiPdfMailUvod">
+            <titl>&lt;html&gt;Vo výbere je zastúpena firma viackrát.&lt;br&gt;Chcete pre túto firmu zoskupiť doklady do 1 správy alebo ich poslať samostatne?&lt;/html&gt;</titl>
+        </lb>
+        <lb name="multiPdfMailNMailuPrijemciLB">
+            <titl>&lt;html&gt;Každý doklad priloží ako prílohu do samostatného mailu.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="multiPdfMail1MailPrijemciLB">
+            <titl>&lt;html&gt;Z dokladov pre konkrétnu firmu urobí jednu prílohu do samostatného mailu.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="multiPdfMail1MailVsechnaDataLB">
+            <titl>&lt;html&gt;Zo všetkých dokladov urobí jednu prílohu a priloží ju do samostatného mailu.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="emailTemplate">
+            <titl>Šablóna e-mailu:</titl>
+        </lb>
+        <lb name="hromZmenyWizard.pole">
+            <titl>Pole</titl>
+        </lb>
+        <lb name="hromZmenyWizard.hodnota">
+            <titl>Hodnota</titl>
+        </lb>
+        <lb name="manyToMany.vyberteTitle">
+            <titl>Vyberte </titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.header">
+            <titl>Typ grafu</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.vyberte">
+            <titl>Vyberte typ grafu.</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.oblastni">
+            <titl>Oblastný</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.sloupcovy">
+            <titl>Stĺpcový</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.carovy">
+            <titl>Čiarový</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.kolacovy">
+            <titl>Koláčový</titl>
+        </lb>
+        <lb name="chart.data.ostatni">
+            <titl>Ostatné</titl>
+        </lb>
+        <lb name="zalohovatDBUkoncit">
+            <titl>Po úspešnom zálohovaní okamžite ukončite</titl>
+        </lb>
+        <lb name="remoteLogoutHeading">
+            <titl>Vzdialené odhlásenie</titl>
+        </lb>
+        <lb name="remoteLogoutQuestion">
+            <titl>Vaše konto sa v rovnakom čase používa na inom zariadení.\nChcete pokračovať v tejto relácii a zrušiť ostatné?</titl>
+        </lb>
+        <lb name="remoteLogoutAction">
+            <titl>Obnovujem reláciu a čakám, kým sa ostatné zariadenia odhlási...</titl>
+        </lb>
+        <lb name="clientVersionMissmatch">
+            <titl>Na serveri bola aktualizovaná aplikácia ABRA Flexi. Uloženie distribuovanej práce a reštartovanie aplikácie sa aktualizuje. Ak tak neurobíte, systém ABRA Flexi sa automaticky ukončí a vy stratíte všetky neuložené zmeny.</titl>
+        </lb>
+        <lb name="webHooksInfo.status.enabled">
+            <titl>Povolené spracovanie</titl>
+        </lb>
+        <lb name="webHooksInfo.status.dedicated">
+            <titl>Uprednostňovaný server</titl>
+        </lb>
+        <lb name="webHooksInfo.status.priority">
+            <titl>Priorita servera</titl>
+        </lb>
+        <lb name="webHooksInfo.status.currentWatcherPriority">
+            <titl>Priorita vybraného servera</titl>
+        </lb>
+        <lb name="webHooksInfo.status.watchingState">
+            <titl>Zmena stavu monitorovania</titl>
+        </lb>
+        <lb name="webHooksInfo.status.notifyHooksExecutor">
+            <titl>Oznámenia o hooku</titl>
+        </lb>
+        <lb name="webHooksInfo.status.firingHooksExecutor">
+            <titl>Odosielanie hookov</titl>
+        </lb>
+        <lb name="webHooksInfo.status.notifiedCompanies">
+            <titl>V súčasnosti notifikované spoločnosti</titl>
+        </lb>
+        <lb name="webHooksInfo.status.scheduledHooks">
+            <titl>Plánované hooky</titl>
+        </lb>
+        <lb name="webHooksInfo.status.firingHooks">
+            <titl>Aktuálne odoslané hooky</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorState">
+            <titl>Stav</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorPoolSize">
+            <titl>Veľkosť poolu</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorPoolSizeMax">
+            <titl>Maximálna veľkosť poolu</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorActiveThreads">
+            <titl>Aktívne vlákna</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorWaitingTasks">
+            <titl>Nevyriešené úlohy</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorCompletedTasks">
+            <titl>Ukončené úlohy</titl>
+        </lb>
+        <lb name="webHooksInfo.status.watchedCompanies">
+            <titl>Monitorované spoločnosti</titl>
+        </lb>
+        <lb name="webHooksInfo.status.httpClient">
+            <titl>Stav HTTP</titl>
+        </lb>
+        <lb name="webHooksInfo.httpStatus.pool">
+            <titl>Štatistiky pripojenia</titl>
+        </lb>
+        <lb name="webHooksInfo.httpStatus.routes">
+            <titl>Zoznam trás</titl>
+        </lb>
+        <lb name="status">
+            <titl>Stav</titl>
+        </lb>
+        <lb name="restartChangesWatcher.description">
+            <titl>Nová možnosť uzla Web Hooks (bez reštartovania komponentov)</titl>
+        </lb>
+        <lb name="restartWebHooks.description">
+            <titl>Kompletné reštartovanie Web Hooks (vrátane komponentov)</titl>
+        </lb>
+        <lb name="dayDatePart">
+            <titl>Deň</titl>
+        </lb>
+        <lb name="weekDatePart">
+            <titl>týždeň</titl>
+        </lb>
+        <lb name="monthDatePart">
+            <titl>mesiac</titl>
+        </lb>
+        <lb name="quarterDatePart">
+            <titl>štvrťrok</titl>
+        </lb>
+        <lb name="yearDatePart">
+            <titl>rok</titl>
+        </lb>
+        <lb name="substringPart">
+            <titl>Podreťazec</titl>
+        </lb>
+        <lb name="fiscal-yearDatePart">
+            <titl>fiškálny rok</titl>
+        </lb>
+        <lb name="floating-dayDatePart">
+            <titl>relatívny deň</titl>
+        </lb>
+        <lb name="floating-n-daysDatePart">
+            <titl>relatívne n dní</titl>
+        </lb>
+        <lb name="floating-weekDatePart">
+            <titl>relatívny týždeň</titl>
+        </lb>
+        <lb name="floating-monthDatePart">
+            <titl>relatívny mesiac</titl>
+        </lb>
+        <lb name="floating-quarterDatePart">
+            <titl>relatívny štvrťrok</titl>
+        </lb>
+        <lb name="floating-yearDatePart">
+            <titl>relatívny rok</titl>
+        </lb>
+        <lb name="centServerUserType">
+            <titl>Typ používateľa</titl>
+        </lb>
+        <lb name="technickePodrobnosti">
+            <titl>Technické údaje</titl>
+        </lb>
+        <lb name="eanScanner.mnoz">
+            <titl>Množstvo:</titl>
+        </lb>
+        <lb name="eanScanner.ean">
+            <titl>EAN:</titl>
+        </lb>
+        <lb name="mailDefaultBody">
+            <titl>Dobrý deň,\n\nv prílohe Vám zasielame sľúbený dokument.</titl>
+        </lb>
+        <lb name="mailDefaultBodyMultipleAttachments">
+            <titl>Dobrý deň,\n\nPriložené sú sľúbené dokumenty.</titl>
+        </lb>
+        <lb name="mailDefaultBodyFooter">
+            <titl>\n\nS pozdravom\n\n</titl>
+        </lb>
+        <lb name="mailDefaultFooterGeneratedBy">
+            <titl>Vygenerované ekonomickým systémom</titl>
+        </lb>
+    </labels>
+</config>

@@ -1,0 +1,3387 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/ru/lang.ucto.reports.ru.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <reports>
+        <rpt name="global">
+            <prop name="boolean.ano">
+                <titl>Да</titl>
+            </prop>
+            <prop name="boolean.ne">
+                <titl>Нет</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Итого:</titl>
+            </prop>
+            <prop name="celkemKc">
+                <titl>Итого в %currency-symbol</titl>
+            </prop>
+            <prop name="celkemMena">
+                <titl>Итого в валюте</titl>
+            </prop>
+            <prop name="celkemNeucetni">
+                <titl>Итого не бухг.:</titl>
+            </prop>
+            <prop name="celkemPrijem">
+                <titl>Итого доход:</titl>
+            </prop>
+            <prop name="celkemUcetni">
+                <titl>Итого бухг.:</titl>
+            </prop>
+            <prop name="celkemVydej">
+                <titl>Целиком доход:</titl>
+            </prop>
+            <prop name="cisloUctu">
+                <titl>SÚ</titl>
+            </prop>
+            <prop name="clenEU">
+                <titl>Член ЕС</titl>
+            </prop>
+            <prop name="developerMode">
+                <titl>Недействительная распечатка</titl>
+            </prop>
+            <prop name="dodaciList">
+                <titl>Накладная</titl>
+            </prop>
+            <prop name="dodavatel">
+                <titl>Поставщик</titl>
+            </prop>
+            <prop name="dph">
+                <titl>НДС</titl>
+            </prop>
+            <prop name="eetBkp">
+                <titl>BKP / защитный код плательщика</titl>
+            </prop>
+            <prop name="error">
+                <titl>ОШИБКА</titl>
+            </prop>
+            <prop name="juh">
+                <titl>Уже оплачено</titl>
+            </prop>
+            <prop name="konSymbol">
+                <titl>Конст.символ</titl>
+            </prop>
+            <prop name="konverzniKurz">
+                <titl>курс обмена</titl>
+            </prop>
+            <prop name="kUhrade">
+                <titl>К оплате</titl>
+            </prop>
+            <prop name="kUhradekDatu">
+                <titl>К оплате к дате</titl>
+            </prop>
+            <prop name="kUhradeMen">
+                <titl>К оплате [валюта]</titl>
+            </prop>
+            <prop name="mena">
+                <titl>валюта</titl>
+            </prop>
+            <prop name="merJed">
+                <titl>Измерительная единица</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Месяц</titl>
+            </prop>
+            <prop name="mobil">
+                <titl>Мобильный</titl>
+            </prop>
+            <prop name="nazFirmy">
+                <titl>Название фирмы</titl>
+            </prop>
+            <prop name="nevyplnen">
+                <titl>Невыполнено</titl>
+            </prop>
+            <prop name="odberatel">
+                <titl>Получатель</titl>
+            </prop>
+            <prop name="PenUstav">
+                <titl>Денежный институт</titl>
+            </prop>
+            <prop name="prevzalDne">
+                <titl>Взято на</titl>
+            </prop>
+            <prop name="prodejkaNeplatce">
+                <titl>Упрощённый документ</titl>
+            </prop>
+            <prop name="prodejkaZaHotove">
+                <titl>Чек за наличный рассчёт</titl>
+            </prop>
+            <prop name="prodejkaZaHotoveDobropis">
+                <titl>Чек за наличный рассчёт - Сторно-фактура</titl>
+            </prop>
+            <prop name="provozovna">
+                <titl>Предприятие</titl>
+            </prop>
+            <prop name="razitko">
+                <titl>Печать</titl>
+            </prop>
+            <prop name="reportVytiskl">
+                <titl>Распечатал</titl>
+            </prop>
+            <prop name="rozdil">
+                <titl>Разница</titl>
+            </prop>
+            <prop name="rozvaha">
+                <titl>Баланс (Итог)</titl>
+            </prop>
+            <prop name="specSymbol">
+                <titl>Специфический символ</titl>
+            </prop>
+            <prop name="stornovano">
+                <titl>Отменено</titl>
+            </prop>
+            <prop name="stranka">
+                <titl>Страница</titl>
+            </prop>
+            <prop name="sumacePotlacena">
+                <titl>(без суммирования)</titl>
+            </prop>
+            <prop name="sumCelkemMen">
+                <titl>Итого [валюта]</titl>
+            </prop>
+            <prop name="syntetickyUcet">
+                <titl>Синтетический счёт</titl>
+            </prop>
+            <prop name="tisknutoDne">
+                <titl>Дата распечатки</titl>
+            </prop>
+            <prop name="ucetniObdobiNeniUzavreno">
+                <titl>Отчётный период не закрыт!</titl>
+            </prop>
+            <prop name="uhrazeneDoklady">
+                <titl>Оплаченные документы</titl>
+            </prop>
+            <prop name="varSymbol">
+                <titl>Вариативный код</titl>
+            </prop>
+            <prop name="vysledovka">
+                <titl>Сводка убытков и прибыли</titl>
+            </prop>
+            <prop name="vytistenoSystemem">
+                <titl>Отпечатано системой %p</titl>
+            </prop>
+            <prop name="ZbyvaUhradit">
+                <titl>Остаток к оплате</titl>
+            </prop>
+        </rpt>
+        <rpt name="adresar">
+            <prop name="_title">
+                <titl>Каталог</titl>
+            </prop>
+            <prop name="nastaveniSidlo">
+                <titl>Адрес штаб-квартиры</titl>
+            </prop>
+        </rpt>
+        <rpt name="adrUdalosti">
+            <prop name="_title">
+                <titl>События</titl>
+            </prop>
+        </rpt>
+        <rpt name="analyzaZakazky">
+            <prop name="_title">
+                <titl>Бухгалтерский анализ договора</titl>
+            </prop>
+            <prop name="sumaZaUcet">
+                <titl>Сумма на счет</titl>
+            </prop>
+            <prop name="sumaZaZakazku">
+                <titl>Сумма за заказ</titl>
+            </prop>
+            <prop name="zisk">
+                <titl>Прибыль</titl>
+            </prop>
+        </rpt>
+        <rpt name="analyzaZakazkyRozsirena">
+            <prop name="_title">
+                <titl>Контрактная карточка</titl>
+            </prop>
+            <prop name="celkovaBilanceZakazky">
+                <titl>Общий остаток по договору</titl>
+            </prop>
+            <prop name="cisDokl">
+                <titl>Документ</titl>
+            </prop>
+            <prop name="naklad">
+                <titl>Стоимость</titl>
+            </prop>
+            <prop name="polozkyFaktur">
+                <titl>Статьи счета-фактуры</titl>
+            </prop>
+            <prop name="polozkyPokladny">
+                <titl>Предметы кассовых документов</titl>
+            </prop>
+            <prop name="polozkySkladu">
+                <titl>Элементы складских документов</titl>
+            </prop>
+            <prop name="rozdil">
+                <titl>Баланс</titl>
+            </prop>
+            <prop name="ucetniAnalyzaZakazky">
+                <titl>Бухгалтерский анализ договора</titl>
+            </prop>
+            <prop name="vynos">
+                <titl>Доход</titl>
+            </prop>
+        </rpt>
+        <rpt name="analyzaZakazkyRozsirena$$NES">
+            <prop name="_title">
+                <titl>Анализ контрактов</titl>
+            </prop>
+        </rpt>
+        <rpt name="balikNaPostu">
+            <prop name="_title">
+                <titl>Посылка на почте/Посылка в руках</titl>
+            </prop>
+        </rpt>
+        <rpt name="balikovyPodaciArch">
+            <prop name="_title">
+                <titl>Почтовая картотека для посылок</titl>
+            </prop>
+        </rpt>
+        <rpt name="Bsp$$BAN">
+            <prop name="_title">
+                <titl>Список банковских счетов</titl>
+            </prop>
+        </rpt>
+        <rpt name="Bsp$$POK">
+            <prop name="_title">
+                <titl>Список кассовых аппаратов</titl>
+            </prop>
+        </rpt>
+        <rpt name="Bsp$$SKL">
+            <prop name="_title">
+                <titl>Список складов</titl>
+            </prop>
+        </rpt>
+        <rpt name="cashFlow">
+            <prop name="_title">
+                <titl>Обзор денежных потоков</titl>
+            </prop>
+            <prop name="cashFlow">
+                <titl>Обзор денежных потоков</titl>
+            </prop>
+        </rpt>
+        <rpt name="cashFlow$$MIN_OBDOBI">
+            <prop name="_title">
+                <titl>Отчет о движении денежных средств (включая исторические данные)</titl>
+            </prop>
+            <prop name="cashFlow">
+                <titl>Обзор денежных потоков</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenHladPrehled">
+            <prop name="_title">
+                <titl>Обзор уровней цен</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenik">
+            <prop name="_title">
+                <titl>Прайс-лист с указанием закупочных цен</titl>
+            </prop>
+            <prop name="cenaBezDph">
+                <titl>Цена без НДС</titl>
+            </prop>
+            <prop name="cenaSDph">
+                <titl>Цена с НДС</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikBezNakupni">
+            <prop name="_title">
+                <titl>Прейскурант без закупочных цен</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikIndividualniVystupni">
+            <prop name="_title">
+                <titl>Прайс-лист на продажу</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikIndividualniVystupniMnoz">
+            <prop name="_title">
+                <titl>Прайс-лист на продажу (скидки за количество, без НДС)</titl>
+            </prop>
+            <prop name="od">
+                <titl>С сайта</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikIndividualniVystupniMnozDph">
+            <prop name="_title">
+                <titl>Прайс-лист на продажу (скидки за количество, вкл. НДС)</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikNakupProdej">
+            <prop name="_title">
+                <titl>Прайс-лист с ценами покупки и продажи</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikVystupni">
+            <prop name="_title">
+                <titl>Прайс-лист на продажу</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikVystupniSPoplatky">
+            <prop name="_title">
+                <titl>Прайс-лист на продажу (с указанием сборов)</titl>
+            </prop>
+            <prop name="cenaVcetnePoplatku">
+                <titl>Цена с учетом сборов:</titl>
+            </prop>
+            <prop name="poplatky">
+                <titl>Сборы:</titl>
+            </prop>
+        </rpt>
+        <rpt name="chart-landscape">
+            <prop name="_title">
+                <titl>-</titl>
+            </prop>
+        </rpt>
+        <rpt name="cisClenDph">
+            <prop name="_title">
+                <titl>Строка НДС</titl>
+            </prop>
+        </rpt>
+        <rpt name="danovaEvidence">
+            <prop name="_title">
+                <titl>Выписка из налоговой отчетности</titl>
+            </prop>
+            <prop name="danEvid.NeDa">
+                <titl>Она не подпадает под налоговый учет</titl>
+            </prop>
+            <prop name="danEvid.SocP">
+                <titl>Выплата социального страхования</titl>
+            </prop>
+            <prop name="danEvid.Zdra">
+                <titl>Оплата медицинского страхования</titl>
+            </prop>
+            <prop name="nevyplneno">
+                <titl>Пустой</titl>
+            </prop>
+            <prop name="nevyplnenTypUcOp">
+                <titl>Выписывание рецепта, не заполненного</titl>
+            </prop>
+            <prop name="rozdilPrijemVydej">
+                <titl>Разница между доходами и расходами:</titl>
+            </prop>
+        </rpt>
+        <rpt name="dodaciList">
+            <prop name="_title">
+                <titl>Накладная</titl>
+            </prop>
+            <prop name="hmotnost">
+                <titl>Вес [кг]</titl>
+            </prop>
+            <prop name="kFAVtypPohybu.prijem">
+                <titl>к выданной фактуре</titl>
+            </prop>
+            <prop name="kPOKtypPohybu.prijem">
+                <titl>к доходному кассовому документу</titl>
+            </prop>
+            <prop name="kPOKtypPohybu.vydej">
+                <titl>к расходному кассовому документу</titl>
+            </prop>
+            <prop name="kSKLtypPohybu.prijem">
+                <titl>к торг.-трансп. накладной</titl>
+            </prop>
+            <prop name="kSKLtypPohybu.vydej">
+                <titl>к акту о приход.</titl>
+            </prop>
+            <prop name="prevzatoDne">
+                <titl>Принято</titl>
+            </prop>
+        </rpt>
+        <rpt name="dodaciList$$SUM_CEN">
+            <prop name="_title">
+                <titl>Накладная с продажными ценами</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady">
+            <prop name="_title">
+                <titl>Обзор документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady$$FAV">
+            <prop name="_title">
+                <titl>Список выставленных счетов-фактур</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady$$PHL">
+            <prop name="_title">
+                <titl>Список других требований</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady$$ZAV">
+            <prop name="_title">
+                <titl>Список других обязательств</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyAdresar$$FAV">
+            <prop name="_title">
+                <titl>Список выставленных счетов-фактур (суммирование по компаниям)</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyAdresarFAP$$FAP">
+            <prop name="_title">
+                <titl>Список полученных счетов-фактур (обобщенный по компаниям)</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyBanPok$$BAN">
+            <prop name="_title">
+                <titl>Список банковских документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyBanPok$$POK">
+            <prop name="_title">
+                <titl>Список кассовых документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyFAP$$FAP">
+            <prop name="_title">
+                <titl>Список полученных счетов-фактур (альбомный)</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyINT$$INT">
+            <prop name="_title">
+                <titl>Список внутренних документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod">
+            <prop name="zbyvaRealizovat">
+                <titl>Осталось реализовать</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$NAP">
+            <prop name="_title">
+                <titl>Обзор полученных предложений</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$NAV">
+            <prop name="_title">
+                <titl>Обзор выпущенных предложений</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$OBP">
+            <prop name="_title">
+                <titl>Обзор полученных заказов</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$OBV">
+            <prop name="_title">
+                <titl>Обзор изданных приказов</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$PPP">
+            <prop name="_title">
+                <titl>Обзор полученных запросов</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$PPV">
+            <prop name="_title">
+                <titl>Обзор выданных запросов</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph">
+            <prop name="_title">
+                <titl>Список документов с пересчетом НДС</titl>
+            </prop>
+            <prop name="celkemNeucetniPrijem">
+                <titl>Итого неучтенный доход:</titl>
+            </prop>
+            <prop name="celkemNeucetniVydej">
+                <titl>Общие неподотчетные расходы:</titl>
+            </prop>
+            <prop name="celkemUcetniPrijem">
+                <titl>Общий бухгалтерский доход:</titl>
+            </prop>
+            <prop name="celkemUcetniVydej">
+                <titl>Общие бухгалтерские расходы:</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Извлечено из</titl>
+            </prop>
+            <prop name="duzpUcto">
+                <titl>ДУЗП</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Номер документа</titl>
+            </prop>
+            <prop name="snizena">
+                <titl>Сокращение</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Итого [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>Dph [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumOsv">
+                <titl>Исключено [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>База [%currency-symbol]</titl>
+            </prop>
+            <prop name="ucetni">
+                <titl>Бухгалтер</titl>
+            </prop>
+            <prop name="zakladni">
+                <titl>Основной</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$BAN">
+            <prop name="_title">
+                <titl>Список банковских документов (с пересчетом НДС)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$FAP">
+            <prop name="_title">
+                <titl>Список полученных счетов-фактур (с пересчетом НДС)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$FAV">
+            <prop name="_title">
+                <titl>Список выставленных счетов-фактур (с пересчетом НДС)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$INT">
+            <prop name="_title">
+                <titl>Список внутренних документов (с пересчетом НДС)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$PHL">
+            <prop name="_title">
+                <titl>Перечень прочей дебиторской задолженности (с пересчетом НДС)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$POK">
+            <prop name="_title">
+                <titl>Список кассовых документов (с пересчетом НДС)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$ZAV">
+            <prop name="_title">
+                <titl>Перечень прочих обязательств (с пересчетом НДС)</titl>
+            </prop>
+        </rpt>
+        <rpt name="doklSklad">
+            <prop name="_title">
+                <titl>Перечень фондовых документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="eetOznameni">
+            <prop name="duleziteOznameni">
+                <titl>Информационные уведомления</titl>
+            </prop>
+            <prop name="textBezny">
+                <titl>Согласно Закону о регистрации продаж, продавец обязан выдать покупателю чек.\nВ то же время продавец обязан зарегистрировать полученные продажи в режиме онлайн у налогового администратора; в случае технического сбоя - не позднее чем через 48 часов.</titl>
+            </prop>
+            <prop name="textZjednoduseny">
+                <titl>Согласно Закону об учете продаж, продавец обязан выдать покупателю чек.\nПолучатель продаж ведет учет продаж в упрощенном режиме, т.е. он обязан зарегистрировать полученные продажи у налогового администратора не позднее, чем через 5 дней.</titl>
+            </prop>
+        </rpt>
+        <rpt name="eetOznameni$$NES">
+            <prop name="_title">
+                <titl>Информационное уведомление EET - упрощенная схема</titl>
+            </prop>
+        </rpt>
+        <rpt name="eetOznameni$$SUM">
+            <prop name="_title">
+                <titl>Информационные уведомления EET - нормальный режим</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$FAP">
+            <prop name="_title">
+                <titl>Сводка позиций полученных счетов-фактур</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$FAV">
+            <prop name="_title">
+                <titl>Обзор выставленных счетов-фактур</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$NAP">
+            <prop name="_title">
+                <titl>Обзор пунктов полученных тендерных заявок</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$NAV">
+            <prop name="_title">
+                <titl>Обзор пунктов объявленных тендеров</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$OBP">
+            <prop name="_title">
+                <titl>Обзор позиций в полученных заказах</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$OBV">
+            <prop name="_title">
+                <titl>Обзор пунктов изданных приказов</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$POK">
+            <prop name="_title">
+                <titl>Обзор статей кассового документа</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$PPP">
+            <prop name="_title">
+                <titl>Краткое изложение пунктов полученных запросов</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$PPV">
+            <prop name="_title">
+                <titl>Обзор пунктов в выданных запросах</titl>
+            </prop>
+        </rpt>
+        <rpt name="Fakt_PRI">
+            <prop name="konSymbol">
+                <titl>Постоянная</titl>
+            </prop>
+            <prop name="specSymbol">
+                <titl>Конкретный</titl>
+            </prop>
+            <prop name="SymbolPlateb">
+                <titl>Символ платежей</titl>
+            </prop>
+            <prop name="varSymPrikaz">
+                <titl>Переменная</titl>
+            </prop>
+        </rpt>
+        <rpt name="Fakt_VYD">
+            <prop name="datSmir">
+                <titl>дата примирения</titl>
+            </prop>
+            <prop name="datUp1">
+                <titl>Дата первого напоминания</titl>
+            </prop>
+            <prop name="datUp2">
+                <titl>2. напоминания</titl>
+            </prop>
+            <prop name="stav">
+                <titl>Статус документа</titl>
+            </prop>
+        </rpt>
+        <rpt name="faktura">
+            <prop name="banka">
+                <titl>Банк</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Итого</titl>
+            </prop>
+            <prop name="celkemBezZaloh">
+                <titl>Итого без авансовых платежей</titl>
+            </prop>
+            <prop name="celkemDph">
+                <titl>Итого НДС</titl>
+            </prop>
+            <prop name="celkemFakturovano">
+                <titl>Итого выставлены счета-фактуры</titl>
+            </prop>
+            <prop name="celkemKUhrade">
+                <titl>Итого к оплате</titl>
+            </prop>
+            <prop name="celkemPredSlevou">
+                <titl>Итого до скидки</titl>
+            </prop>
+            <prop name="celkemZaklad">
+                <titl>Итого налоговая база</titl>
+            </prop>
+            <prop name="danOdvadiPrijemce">
+                <titl>Налог платит клиент.</titl>
+            </prop>
+            <prop name="danPriPrijetiPlatby">
+                <titl>Налог платится на основе получения платежа.</titl>
+            </prop>
+            <prop name="datumZdanitelnehoPlneni">
+                <titl>Дата реализации для целей налогообложения</titl>
+            </prop>
+            <prop name="datumZdanitelnehoPlneniOsobUpravaDph">
+                <titl>Дата поставки</titl>
+            </prop>
+            <prop name="dodavatel-sidlo">
+                <titl>Поставщик - место</titl>
+            </prop>
+            <prop name="doprava">
+                <titl>Способ транспортировки</titl>
+            </prop>
+            <prop name="dph19">
+                <titl>НДС 19%</titl>
+            </prop>
+            <prop name="dph9">
+                <titl>НДС 9%</titl>
+            </prop>
+            <prop name="dphCelkem">
+                <titl>Итого НДС</titl>
+            </prop>
+            <prop name="formaDopravy">
+                <titl>видом транспорта</titl>
+            </prop>
+            <prop name="jizUhrazeno">
+                <titl>Уже заплачено</titl>
+            </prop>
+            <prop name="mistoUrceni">
+                <titl>Место назначения</titl>
+            </prop>
+            <prop name="nejsemPlatceDph">
+                <titl>Неплательщик НДС</titl>
+            </prop>
+            <prop name="objednavka">
+                <titl>Заказ</titl>
+            </prop>
+            <prop name="odberatel-sidlo">
+                <titl>Клиент - место</titl>
+            </prop>
+            <prop name="oznaceniDodavky">
+                <titl>Обозначение поставки</titl>
+            </prop>
+            <prop name="postovniAdresa">
+                <titl>Почтовый адрес</titl>
+            </prop>
+            <prop name="predSlevou">
+                <titl>До скидки</titl>
+            </prop>
+            <prop name="preplatky">
+                <titl>Переплаты</titl>
+            </prop>
+            <prop name="puvodniDoklad">
+                <titl>Изначальный документ №</titl>
+            </prop>
+            <prop name="razitkoAPodpis">
+                <titl>Печать и подпись</titl>
+            </prop>
+            <prop name="registraceU">
+                <titl>Регистрация</titl>
+            </prop>
+            <prop name="rekapitulaceDph">
+                <titl>Сводная ведомость  НДС в %currency-symbol</titl>
+            </prop>
+            <prop name="rekapitulaceDphV">
+                <titl>Резюме НДС в</titl>
+            </prop>
+            <prop name="sazbaDph">
+                <titl>Ставка НДС</titl>
+            </prop>
+            <prop name="za">
+                <titl>за</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Налог. база</titl>
+            </prop>
+            <prop name="zaklad0">
+                <titl>Основа 0%</titl>
+            </prop>
+            <prop name="zaklad19">
+                <titl>Основа 19%</titl>
+            </prop>
+            <prop name="zaklad9">
+                <titl>Основа 9%</titl>
+            </prop>
+            <prop name="zakladCelkem">
+                <titl>Итого база</titl>
+            </prop>
+            <prop name="zakladOdpocet">
+                <titl>Аванс. док. нал. учета налоговая база</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Оставшаяся доплата</titl>
+            </prop>
+            <prop name="zeDne">
+                <titl>Дата выставления изначального документа</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig">
+            <prop name="banka">
+                <titl>Банк</titl>
+            </prop>
+            <prop name="bic">
+                <titl>SWIFT:</titl>
+            </prop>
+            <prop name="celkemPredSlevou">
+                <titl>Итого до скидки</titl>
+            </prop>
+            <prop name="cenaMj">
+                <titl>Цена за МДж</titl>
+            </prop>
+            <prop name="cenaSDph">
+                <titl>Цена с НДС</titl>
+            </prop>
+            <prop name="cenaVMene">
+                <titl>Цена в %p</titl>
+            </prop>
+            <prop name="cisloBanUctu">
+                <titl>Номер банковского счета</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Срок исполнения</titl>
+            </prop>
+            <prop name="datSplatDatTermin">
+                <titl>Срок исполнения</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Дата выпуска</titl>
+            </prop>
+            <prop name="dic">
+                <titl>ИНН</titl>
+            </prop>
+            <prop name="dobropisovanyDokladCislo">
+                <titl>Оригинальный документ</titl>
+            </prop>
+            <prop name="dobropisovanyDokladDatum">
+                <titl>Дата выдачи оригинала документа</titl>
+            </prop>
+            <prop name="dodavatel">
+                <titl>ПОСТАВЩИК</titl>
+            </prop>
+            <prop name="duzpPuv">
+                <titl>Дата налогооблагаемой операции</titl>
+            </prop>
+            <prop name="formaUhrady">
+                <titl>Форма оплаты</titl>
+            </prop>
+            <prop name="iban">
+                <titl>IBAN:</titl>
+            </prop>
+            <prop name="ic">
+                <titl>ID</titl>
+            </prop>
+            <prop name="icdph">
+                <titl>НОМЕР НДС</titl>
+            </prop>
+            <prop name="kurzKurzMnozstvi">
+                <titl>Ставка %p %p для %p %p</titl>
+            </prop>
+            <prop name="mj">
+                <titl>MJ</titl>
+            </prop>
+            <prop name="mnozMj">
+                <titl>Количество</titl>
+            </prop>
+            <prop name="neplatceDph">
+                <titl>Не является плательщиком НДС</titl>
+            </prop>
+            <prop name="odberatel">
+                <titl>ПОДПИСЧИК</titl>
+            </prop>
+            <prop name="polozka">
+                <titl>Пункт</titl>
+            </prop>
+            <prop name="predSlevou">
+                <titl>До скидки</titl>
+            </prop>
+            <prop name="razitkoAPodpis">
+                <titl>Печать и подпись</titl>
+            </prop>
+            <prop name="rekapitulaceDphVMene">
+                <titl>Пересчет НДС в %p</titl>
+            </prop>
+            <prop name="slevaDokl">
+                <titl>Cкидка на документ</titl>
+            </prop>
+            <prop name="stornovano">
+                <titl>Отменено</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Итого [%p]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>База [%p]</titl>
+            </prop>
+            <prop name="uhrazeno">
+                <titl>УЖЕ СПАСЕН!</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Символ переменной</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>База</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig$$FAV">
+            <prop name="_attachment">
+                <titl>###Faktura</titl>
+                <desc>###Název přílohy</desc>
+            </prop>
+            <prop name="_title">
+                <titl>Настраиваемый счет-фактура</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig$$NAV">
+            <prop name="_attachment">
+                <titl>###Nabídka</titl>
+                <desc>###Název přílohy</desc>
+            </prop>
+            <prop name="_title">
+                <titl>Настраиваемое меню</titl>
+            </prop>
+            <prop name="datSplatDatTermin">
+                <titl>Крайний срок</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig$$OBP">
+            <prop name="_attachment">
+                <titl>###Objednávka</titl>
+                <desc>###Název přílohy</desc>
+            </prop>
+            <prop name="_title">
+                <titl>Настраиваемый порядок</titl>
+            </prop>
+            <prop name="datSplatDatTermin">
+                <titl>Крайний срок</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaKB">
+            <prop name="_title">
+                <titl>Фактура</titl>
+            </prop>
+            <prop name="bspBan">
+                <titl>Банк. счет</titl>
+            </prop>
+            <prop name="konSym">
+                <titl>Пост. код</titl>
+            </prop>
+            <prop name="specSym">
+                <titl>Спец. код</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Вар. код</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaKB$$R_DPH_V_MENE">
+            <prop name="_title">
+                <titl>Счет-фактура (сводная ведомость НДС в валюте документа)</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaKB$$SUM_BEZ_QR">
+            <prop name="_title">
+                <titl>Счет-фактура (без QR-кода)</titl>
+            </prop>
+        </rpt>
+        <rpt name="geisPredavaciProtokol">
+            <prop name="_title">
+                <titl>Протокол передачи данных Geis</titl>
+            </prop>
+            <prop name="adresat">
+                <titl>Адрес</titl>
+            </prop>
+            <prop name="balikCislo">
+                <titl>Номер пакета</titl>
+            </prop>
+            <prop name="celkemBaliku">
+                <titl>Всего пакетов</titl>
+            </prop>
+            <prop name="celkemCod">
+                <titl>Общий ХПК</titl>
+            </prop>
+            <prop name="cod">
+                <titl>Доб. (КОД)</titl>
+            </prop>
+            <prop name="datum">
+                <titl>Дата</titl>
+            </prop>
+            <prop name="exw">
+                <titl>EXW</titl>
+            </prop>
+            <prop name="geisNazev">
+                <titl>GEIS Parcel CZ s.r.o.</titl>
+            </prop>
+            <prop name="paticka1">
+                <titl>Перевозка осуществляется в соответствии с Общими положениями и условиями, текущий статус GEIS PARCEL CZ, spol. s r. o., ID №: 63077051.</titl>
+            </prop>
+            <prop name="paticka2">
+                <titl>Компания зарегистрирована в Торговом реестре, который ведет Региональный суд в Пльзене, раздел С, вкладыш № 9503.</titl>
+            </prop>
+            <prop name="podpisOdesilatele">
+                <titl>Подпись отправителя</titl>
+            </prop>
+            <prop name="podpisRidice">
+                <titl>Подпись водителя</titl>
+            </prop>
+            <prop name="potvrzeniOPrevzeti">
+                <titl>Протокол передачи</titl>
+            </prop>
+            <prop name="poz">
+                <titl>Пункт.</titl>
+            </prop>
+            <prop name="poznam">
+                <titl>Примечание</titl>
+            </prop>
+            <prop name="prikazce">
+                <titl>Директор (отправитель)</titl>
+            </prop>
+            <prop name="pripojisteni">
+                <titl>Страхование</titl>
+            </prop>
+            <prop name="strana">
+                <titl>Страница</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Вар. символ</titl>
+            </prop>
+            <prop name="zasilkyBezPoskozeni">
+                <titl>Вышеуказанные грузы были переданы без повреждений</titl>
+            </prop>
+        </rpt>
+        <rpt name="geisstitek">
+            <prop name="_title">
+                <titl>Geis Label (лист A4)</titl>
+            </prop>
+            <prop name="geisNazev">
+                <titl>Geis Parcel CZ, s.r.o.</titl>
+            </prop>
+            <prop name="odesilatel">
+                <titl>Отправитель</titl>
+            </prop>
+            <prop name="prijemce">
+                <titl>Получатель</titl>
+            </prop>
+            <prop name="tel">
+                <titl>Тел.</titl>
+            </prop>
+            <prop name="vs">
+                <titl>VS</titl>
+            </prop>
+        </rpt>
+        <rpt name="Hl_Kniha">
+            <prop name="_title">
+                <titl>Главная книга</titl>
+            </prop>
+            <prop name="doklad">
+                <titl>Внутренний номер</titl>
+            </prop>
+            <prop name="duzpUcto">
+                <titl>Upl.zd.pl.</titl>
+            </prop>
+            <prop name="obratDAL">
+                <titl>Оборот DAL</titl>
+            </prop>
+            <prop name="obratMD">
+                <titl>Текучесть кадров</titl>
+            </prop>
+            <prop name="sledovaneObdobi">
+                <titl>Рассматриваемый период</titl>
+            </prop>
+            <prop name="sumDal">
+                <titl>Сумма DAL</titl>
+            </prop>
+            <prop name="sumMd">
+                <titl>Сумма MD</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Var.sym.</titl>
+            </prop>
+            <prop name="zacatek">
+                <titl>Начните с</titl>
+            </prop>
+            <prop name="zuctovano">
+                <titl>Размещение.</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol">
+            <prop name="doklad">
+                <titl>Документ</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$BAN$$SUM_BAN">
+            <prop name="_title">
+                <titl>Обзор элементов банковских документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$BAN$$SUM_ZAP">
+            <prop name="_title">
+                <titl>Обзор кредитных статей</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$INT">
+            <prop name="_title">
+                <titl>Обзор пунктов внутренних документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$PHL">
+            <prop name="_title">
+                <titl>Краткая информация о прочих статьях дебиторской задолженности</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$ZAV">
+            <prop name="_title">
+                <titl>Краткая информация о прочих статьях кредиторской задолженности</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventarizacePohledavek">
+            <prop name="_title">
+                <titl>Инвентаризация дебиторской и кредиторской задолженности</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Зрелость</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Извлечено из</titl>
+            </prop>
+            <prop name="dekujeme">
+                <titl>Благодарим вас за сотрудничество и наилучшие пожелания</titl>
+            </prop>
+            <prop name="dokladyVMenePhl">
+                <titl>Отдельные документы по дебиторской задолженности в валюте</titl>
+            </prop>
+            <prop name="dokladyVMeneZav">
+                <titl>Отдельные документы по обязательствам в валюте</titl>
+            </prop>
+            <prop name="dokladyVTuzPhl">
+                <titl>Отдельные документы по дебиторской задолженности в %currency-symbol</titl>
+            </prop>
+            <prop name="dokladyVTuzZav">
+                <titl>Документы по индивидуальным обязательствам в %currency-symbol</titl>
+            </prop>
+            <prop name="firma">
+                <titl>Компания:</titl>
+            </prop>
+            <prop name="inventurizace">
+                <titl>Инвентаризация дебиторской и кредиторской задолженности на дату</titl>
+            </prop>
+            <prop name="juhSum">
+                <titl>Уже оплачено</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Int.no.doc.</titl>
+            </prop>
+            <prop name="pokudPhl">
+                <titl>Если в течение %p мы не получаем подтвержденного документа или ваших комментариев о состоянии дебиторской задолженности, мы считаем дебиторскую задолженность согласованной и подтвержденной.</titl>
+            </prop>
+            <prop name="pokudZav">
+                <titl>Если мы не получим подтвержденный документ или ваше заявление о состоянии обязательств в течение %p, мы будем считать обязательства согласованными и принятыми.</titl>
+            </prop>
+            <prop name="potvrzeny">
+                <titl>Пожалуйста, отправьте подтвержденную форму с любыми отличиями на наш адрес или по электронной почте по адресу</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>вар.символ</titl>
+            </prop>
+            <prop name="vDne">
+                <titl>В %p дня %p</titl>
+            </prop>
+            <prop name="zadamePhl">
+                <titl>Мы просим вас сравнить ситуацию, о которой мы сообщили, с записями, которые вы вели. В отношении различной дебиторской задолженности, пожалуйста, укажите стоимость, зафиксированную вами, или предоставьте соответствующие документы, касающиеся разницы.
+                </titl>
+            </prop>
+            <prop name="zadameZav">
+                <titl>Мы просим вас сравнить ситуацию, о которой мы сообщили, с записями, которые вы вели. Для разных обязательств, пожалуйста, укажите стоимость, зафиксированную вами, или предоставьте соответствующие подтверждающие документы, относящиеся к разнице.
+                </titl>
+            </prop>
+            <prop name="zakonPhl">
+                <titl>В соответствии с законом № 563/1991 Св. зак. о бухгалтерском учете, с поправками, мы просим Вас провести сверку дебиторской задолженности нашей организации на дату</titl>
+            </prop>
+            <prop name="zakonSkPhl">
+                <titl>В соответствии с Законом № 431/2002 Св. зак. о бухгалтерском учете, с поправками, мы просим Вас провести сверку дебиторской задолженности нашей организации на дату</titl>
+            </prop>
+            <prop name="zakonSkZav">
+                <titl>В соответствии с Законом № 431/2002 Св. зак. о бухгалтерском учете, с поправками, мы просим Вас провести сверку обязательств нашей организации по состоянию на дату</titl>
+            </prop>
+            <prop name="zakonZav">
+                <titl>В соответствии с Законом № 563/1991 Св. зак. о бухгалтерском учете, с поправками, мы просим Вас провести сверку обязательств нашей организации по состоянию на дату</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Остается к оплате</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventura">
+            <prop name="_title">
+                <titl>Инвентаризация товаров</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventura$$SUM_ROZDILY">
+            <prop name="_title">
+                <titl>Запасы товаров (разница)</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventuraUctu">
+            <prop name="_title">
+                <titl>Инвентаризация счетов</titl>
+            </prop>
+            <prop name="datum">
+                <titl>Дата</titl>
+            </prop>
+            <prop name="podpisInventarizacniKomise">
+                <titl>Подпись инвентаризационной комиссии</titl>
+            </prop>
+        </rpt>
+        <rpt name="kartaZakazky">
+            <prop name="_title">
+                <titl>Контрактная карточка</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk">
+            <prop name="nedoplatek">
+                <titl>Задолженность [%currency-symbol]</titl>
+            </prop>
+            <prop name="nedoplatekMen">
+                <titl>Задолженность [валюта]</titl>
+            </prop>
+            <prop name="sumaCastka">
+                <titl>Сумма:</titl>
+            </prop>
+            <prop name="sumaNedoplatek">
+                <titl>Сумма задолженности:</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAP">
+            <prop name="_title">
+                <titl>Список полученных счетов-фактур (баланс)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAP$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Список полученных счетов-фактур (баланс, в соответствии с заказом пользователя)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAV">
+            <prop name="_title">
+                <titl>Список выставленных счетов-фактур (баланс)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAV$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Список выставленных счетов (баланс, в соответствии с порядком пользователя)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$PHL">
+            <prop name="_title">
+                <titl>Перечень прочей дебиторской задолженности (сальдо)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$PHL$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Список прочей дебиторской задолженности (сальдо, по заказам пользователей)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$vykazSaldoKdatu">
+            <prop name="_title">
+                <titl>Состояние платежей на дату</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$vykazSaldoKdatu$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Статус платежей на сегодняшний день (по распоряжению пользователя)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$ZAV">
+            <prop name="_title">
+                <titl>Перечень прочих обязательств (сальдо)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$ZAV$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Список прочих обязательств (баланс, по порядку пользователя)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$FAP">
+            <prop name="_title">
+                <titl>Список полученных счетов-фактур (баланс в валюте)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$FAV">
+            <prop name="_title">
+                <titl>Список выставленных счетов-фактур (баланс в валюте)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$PHL">
+            <prop name="_title">
+                <titl>Перечень прочей дебиторской задолженности (остаток в валюте)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$vykazSaldoKdatu">
+            <prop name="_title">
+                <titl>Статус платежей на дату в валюте</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$ZAV">
+            <prop name="_title">
+                <titl>Список прочих обязательств (остаток в валюте)</titl>
+            </prop>
+        </rpt>
+        <rpt name="konSym">
+            <prop name="_title">
+                <titl>Постоянные символы</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontakty">
+            <prop name="_title">
+                <titl>Связаться с</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehled">
+            <prop name="_title">
+                <titl>Контрольный отчет по НДС (обзор)</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehledCZ">
+            <prop name="44zdph">
+                <titl>§44 ЗАКОНА ОБ НДС</titl>
+            </prop>
+            <prop name="_title">
+                <titl>Контрольные ведомости по НДС (обзор по Чехии)</titl>
+            </prop>
+            <prop name="duzp">
+                <titl>ДУЗП</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Регистрационный номер\таможенный документ</titl>
+            </prop>
+            <prop name="kodPredmetuPlneni">
+                <titl>Код субъекта исполнения</titl>
+            </prop>
+            <prop name="kodRezimuPlneni">
+                <titl>Код схемы выполнения</titl>
+            </prop>
+            <prop name="pouzityPomer">
+                <titl>Используемое соотношение</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehledCZ$$SUM">
+            <prop name="_title">
+                <titl>Контрольные строки для декларации по НДС</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehledCZ$$SUMACE">
+            <prop name="_title">
+                <titl>Отчет о контроле НДС (сводка по Чехии, только итоговые строки)</titl>
+            </prop>
+        </rpt>
+        <rpt name="kurzy">
+            <prop name="_title">
+                <titl>Курсы</titl>
+            </prop>
+        </rpt>
+        <rpt name="kusovnik">
+            <prop name="_title">
+                <titl>Сдельная работа</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Общий налог без учета.</titl>
+            </prop>
+            <prop name="celkemMj">
+                <titl>Всего МДж</titl>
+            </prop>
+            <prop name="cenaBezDph">
+                <titl>Цена без НДС за МДж</titl>
+            </prop>
+            <prop name="cenaSDph">
+                <titl>Цена с НДС за МДж</titl>
+            </prop>
+        </rpt>
+        <rpt name="kusovnikNakup">
+            <prop name="_title">
+                <titl>Список деталей с указанием закупочных цен</titl>
+            </prop>
+            <prop name="nakupCenaCelkem">
+                <titl>Общая стоимость покупки</titl>
+            </prop>
+            <prop name="nakupCenaZaMj">
+                <titl>Покупная цена за МДж</titl>
+            </prop>
+        </rpt>
+        <rpt name="leasing">
+            <prop name="_title">
+                <titl>Обзор лизинга</titl>
+            </prop>
+            <prop name="kartaLeasingu">
+                <titl>Лизинговая карта:</titl>
+            </prop>
+        </rpt>
+        <rpt name="leasingWithSubreports">
+            <prop name="_title">
+                <titl>Лизинг (график погашения, налоговые расходы)</titl>
+            </prop>
+        </rpt>
+        <rpt name="Majetek">
+            <prop name="datVyst">
+                <titl>Дата ликвидации</titl>
+            </prop>
+            <prop name="datZar">
+                <titl>Дата классификации</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetek$$SUM">
+            <prop name="_title">
+                <titl>Обзор активов</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekStav">
+            <prop name="_title">
+                <titl>Обзор активов</titl>
+            </prop>
+            <prop name="aktualniCena">
+                <titl>Текущая цена [%currency-symbol]</titl>
+            </prop>
+            <prop name="cenaZarazeni">
+                <titl>Цена классификации [%currency-symbol]</titl>
+            </prop>
+            <prop name="datVyr">
+                <titl>Выведенный из эксплуатации</titl>
+            </prop>
+            <prop name="datZacatDan">
+                <titl>Налог. Пожалуйста.</titl>
+            </prop>
+            <prop name="datZacatUcet">
+                <titl>Цель.</titl>
+            </prop>
+            <prop name="datZar">
+                <titl>Извлечено из</titl>
+            </prop>
+            <prop name="odpisovaSkupina">
+                <titl>Транскрипт. налоговая группа</titl>
+            </prop>
+            <prop name="pocetUcetnichOdpisu">
+                <titl>Количество амортизационных счетов</titl>
+            </prop>
+            <prop name="rokDanOdpis">
+                <titl>Налоговая амортизация за период</titl>
+            </prop>
+            <prop name="rokUcetOdpis">
+                <titl>Амортизационные отчисления за период</titl>
+            </prop>
+            <prop name="sumDanOdpis">
+                <titl>Итого налоговая амортизация</titl>
+            </prop>
+            <prop name="sumUcetOdpis">
+                <titl>Итого бухгалтерская амортизация</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekStavKDatu">
+            <prop name="_title">
+                <titl>Обзор активов</titl>
+            </prop>
+            <prop name="cenaAktualni">
+                <titl>Текущая\цена [%currency-symbol]</titl>
+            </prop>
+            <prop name="cenaZarazeni">
+                <titl>Цена\назначение [%currency-symbol]</titl>
+            </prop>
+            <prop name="danoveOdpisy">
+                <titl>Налог. амортизацияИтого</titl>
+            </prop>
+            <prop name="danoveOdpisyObdobi">
+                <titl>Налог. амортизация за период</titl>
+            </prop>
+            <prop name="datPoslDanOdpis">
+                <titl>Посл. налог. списание</titl>
+            </prop>
+            <prop name="datPoslUcetOdpis">
+                <titl>Счет в мессенджере. Копия</titl>
+            </prop>
+            <prop name="datPuvZar">
+                <titl>Извлечено из</titl>
+            </prop>
+            <prop name="datVyr">
+                <titl>Выведенный из эксплуатации</titl>
+            </prop>
+            <prop name="datZacDan">
+                <titl>Начисление\налоговой амортизации</titl>
+            </prop>
+            <prop name="datZacUcet">
+                <titl>Начисление\end амортизации</titl>
+            </prop>
+            <prop name="dobaOdp">
+                <titl>Период амортизации [месяц]</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Инвентарный номер</titl>
+            </prop>
+            <prop name="odpisovaSkupina">
+                <titl>Транскрипт. налоговая группа</titl>
+            </prop>
+            <prop name="odpisovaSkupinaSum">
+                <titl>Транскрипт. налоговая группа</titl>
+            </prop>
+            <prop name="pocetUcetnichOdpisu">
+                <titl>Количество амортизационных счетов</titl>
+            </prop>
+            <prop name="sumPoslDanOdpis">
+                <titl>Посл. налог. списание</titl>
+            </prop>
+            <prop name="sumPoslUcetOdpis">
+                <titl>Счет в мессенджере. Копия</titl>
+            </prop>
+            <prop name="ucetniOdpisy">
+                <titl>Счет. амортизация\нинтеграл</titl>
+            </prop>
+            <prop name="ucetniOdpisyObdobi">
+                <titl>Счет. амортизация\нзационный период</titl>
+            </prop>
+            <prop name="zustatekDanovy">
+                <titl>Налог\residual</titl>
+            </prop>
+            <prop name="zustatekUcetni">
+                <titl>Бухгалтерский учет\баланс</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekStavKDatu$$SUM">
+            <prop name="_title">
+                <titl>Сводная информация об активах (с итоговыми показателями по группам)</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekWithSubreports">
+            <prop name="_title">
+                <titl>Активы (Налоговая амортизация, События, Бухгалтерская амортизация)</titl>
+            </prop>
+            <prop name="danoveAUcetniStejne">
+                <titl>Налоговая амортизация такая же, как и бухгалтерская амортизация</titl>
+            </prop>
+            <prop name="kartaMajetku">
+                <titl>Карта активов:</titl>
+            </prop>
+            <prop name="schvalilVyrazeni">
+                <titl>Одобрил ликвидацию</titl>
+            </prop>
+            <prop name="schvalilZarazeni">
+                <titl>Одобрил включение</titl>
+            </prop>
+        </rpt>
+        <rpt name="majOdpisSkup">
+            <prop name="_title">
+                <titl>Активы - амортизационные группы</titl>
+            </prop>
+            <prop name="koefProZrychOdpis">
+                <titl>Коэф. ускоренной амортизации</titl>
+            </prop>
+            <prop name="procProRovnOdpis">
+                <titl>Проц. для линейной амортизации</titl>
+            </prop>
+        </rpt>
+        <rpt name="majTyp">
+            <prop name="_title">
+                <titl>Виды собственности</titl>
+            </prop>
+        </rpt>
+        <rpt name="majUdalosti">
+            <prop name="_title">
+                <titl>Недвижимость - события</titl>
+            </prop>
+        </rpt>
+        <rpt name="majUmisteni">
+            <prop name="_title">
+                <titl>Недвижимость - местоположение</titl>
+            </prop>
+        </rpt>
+        <rpt name="meny">
+            <prop name="_title">
+                <titl>Валюты</titl>
+            </prop>
+        </rpt>
+        <rpt name="merJed">
+            <prop name="_title">
+                <titl>Единицы измерения</titl>
+            </prop>
+        </rpt>
+        <rpt name="obalkaC5">
+            <prop name="_title">
+                <titl>Адрес для конверта C5 (162x229 мм)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obalkaC6">
+            <prop name="_title">
+                <titl>Адрес для конверта C6 (114x162 мм)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obalkaDL">
+            <prop name="_title">
+                <titl>Адрес для конверта DL (110x220 мм)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDoklad">
+            <prop name="_title">
+                <titl>Внутреннее описание документа</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="celkemZakladniSazba">
+                <titl>Включая НДС - основная ставка</titl>
+            </prop>
+            <prop name="ciziMena">
+                <titl>Валюта</titl>
+            </prop>
+            <prop name="domaciMena">
+                <titl>Внутренняя валюта</titl>
+            </prop>
+            <prop name="dphSnizenaSazba">
+                <titl>НДС - пониженная ставка</titl>
+            </prop>
+            <prop name="dphZakladniSazba">
+                <titl>НДС - основная ставка</titl>
+            </prop>
+            <prop name="hotovo">
+                <titl>Готово</titl>
+            </prop>
+            <prop name="nakladyNaDoklad">
+                <titl>Стоимость документа</titl>
+            </prop>
+            <prop name="odberatelDodavatel">
+                <titl>Клиент / поставщик</titl>
+            </prop>
+            <prop name="titleNAP">
+                <titl>Предложение принято</titl>
+            </prop>
+            <prop name="titleNAV">
+                <titl>Предложение выдано</titl>
+            </prop>
+            <prop name="titleOBP">
+                <titl>Заказ получен</titl>
+            </prop>
+            <prop name="titleOBV">
+                <titl>Издан приказ</titl>
+            </prop>
+            <prop name="titlePPP">
+                <titl>Полученный спрос</titl>
+            </prop>
+            <prop name="titlePPV">
+                <titl>Выставленное требование</titl>
+            </prop>
+            <prop name="zakladOsvobozeno">
+                <titl>Освобождается от НДС или не облагается им</titl>
+            </prop>
+            <prop name="zakladSnizenaSazba">
+                <titl>База - сниженная ставка</titl>
+            </prop>
+            <prop name="zakladZakladniSazba">
+                <titl>База - базовая ставка</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDoklad$$NES">
+            <prop name="_title">
+                <titl>Внутреннее описание документа (без суммирования)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni">
+            <prop name="_title">
+                <titl>Доказательство для клиента</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$BEZ">
+            <prop name="_title">
+                <titl>Документ клиента (без цен)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$NES">
+            <prop name="_title">
+                <titl>Доказательство для клиента (без итогов)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$NES_BEZ_DPH">
+            <prop name="_title">
+                <titl>Доказательство для клиента (без НДС, без итогов)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$SUM_BEZ_DPH">
+            <prop name="_title">
+                <titl>Доказательство для клиента (без НДС)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupniOBP">
+            <prop name="_title">
+                <titl>Доказательство для клиента</titl>
+            </prop>
+            <prop name="cisDosle">
+                <titl>Номер входящего заказа</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupniOBP$$NES">
+            <prop name="_title">
+                <titl>Доказательство для клиента (без итогов)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obratyPocatky">
+            <prop name="_title">
+                <titl>Начальные остатки на счетах</titl>
+            </prop>
+        </rpt>
+        <rpt name="opisDokladu">
+            <prop name="_title">
+                <titl>Описание документа</titl>
+            </prop>
+        </rpt>
+        <rpt name="opravaSkladu">
+            <prop name="_title">
+                <titl>Предметы, переходящие в негатив</titl>
+            </prop>
+            <prop name="idPolSklad">
+                <titl>ID Элемент складского документа</titl>
+            </prop>
+            <prop name="idSkladKarty">
+                <titl>Фондовые карты ID</titl>
+            </prop>
+            <prop name="pocetRozbiti">
+                <titl>Количество элементов в негативе</titl>
+            </prop>
+        </rpt>
+        <rpt name="penezniDenik">
+            <prop name="_title">
+                <titl>Денежный дневник</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Сумма в %currency-symbol</titl>
+            </prop>
+            <prop name="doklad">
+                <titl>Номер документа</titl>
+            </prop>
+            <prop name="prijem">
+                <titl>Получение</titl>
+            </prop>
+            <prop name="vydej">
+                <titl>Извлечено из</titl>
+            </prop>
+        </rpt>
+        <rpt name="podaciListek">
+            <prop name="_title">
+                <titl>Квитанция о приеме документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDPH">
+            <prop name="bezDane">
+                <titl>Без налога</titl>
+            </prop>
+            <prop name="castkaZaPlneni">
+                <titl>Сумма за выполнение</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="ctvrtleti">
+                <titl>Ежеквартально</titl>
+            </prop>
+            <prop name="dalsiUdaje">
+                <titl>Другие данные:</titl>
+            </prop>
+            <prop name="dan">
+                <titl>Налог</titl>
+            </prop>
+            <prop name="danNaVystupu">
+                <titl>Налог на выпуск продукции</titl>
+            </prop>
+            <prop name="danoveIdentifikacniCislo">
+                <titl>Идентификационный номер налогоплательщика</titl>
+            </prop>
+            <prop name="datum">
+                <titl>Дата</titl>
+            </prop>
+            <prop name="dodaniProstrednikem">
+                <titl>Доставка товара посредником</titl>
+            </prop>
+            <prop name="dodatecne">
+                <titl>дополнительно</titl>
+            </prop>
+            <prop name="doplnujiciUdaje">
+                <titl>Дополнительные данные</titl>
+            </prop>
+            <prop name="dph">
+                <titl>налог на добавленную стоимость</titl>
+            </prop>
+            <prop name="duvodyProDodatecne">
+                <titl>Основания для подачи дополнительной налоговой декларации, установленные на</titl>
+            </prop>
+            <prop name="financnimuUradu">
+                <titl>В налоговую инспекцию в, в, для</titl>
+            </prop>
+            <prop name="financniUradPriznanouDanVymeril">
+                <titl>Налоговая служба начислила/добавила налог и предписала его в соответствии со статьей 46 Закона № 337/1992 Св. зак. об администрировании налогов и сборов, с поправками, внесенными</titl>
+            </prop>
+            <prop name="fyzickaOsoba">
+                <titl>Индивидуально:</titl>
+            </prop>
+            <prop name="hlavniEkonomickaCinnost">
+                <titl>Основная экономическая деятельность</titl>
+            </prop>
+            <prop name="hodnota">
+                <titl>Значение</titl>
+            </prop>
+            <prop name="kDPH">
+                <titl>по налогу на добавленную стоимость</titl>
+            </prop>
+            <prop name="keDni">
+                <titl>в течение нескольких дней</titl>
+            </prop>
+            <prop name="koeficient">
+                <titl>Коэффициент</titl>
+            </prop>
+            <prop name="kraceniRadek1">
+                <titl>Рассчитанная пропорциональная часть налогового вычета (§ 76)</titl>
+            </prop>
+            <prop name="kraceniRadek2">
+                <titl>Урегулирование налогового вычета (§ 76 (7-10))</titl>
+            </prop>
+            <prop name="kraceniRadek3">
+                <titl>Корректировка налогового вычета (§ 78)</titl>
+            </prop>
+            <prop name="kraceniRadek4">
+                <titl>Урегулирование налогового вычета (§ 79)</titl>
+            </prop>
+            <prop name="kraceniVyporadavaniUprava">
+                <titl>Вычет, урегулирование, корректировка и компенсация налогового вычета</titl>
+            </prop>
+            <prop name="kracenyNarok">
+                <titl>Сокращенное право на льготы</titl>
+            </prop>
+            <prop name="kraj">
+                <titl>Страна</titl>
+            </prop>
+            <prop name="MFin5401">
+                <titl>25 5401 MFin 5401 - модель № 14</titl>
+            </prop>
+            <prop name="narokNaOdpocet">
+                <titl>Право на вычет налога по операциям для</titl>
+            </prop>
+            <prop name="nazevPravnickeOsoby">
+                <titl>Название юридического лица</titl>
+            </prop>
+            <prop name="neplatceDane">
+                <titl>Неплательщик налогов § 19 / 5, 6, § 108</titl>
+            </prop>
+            <prop name="nezZacnete">
+                <titl>Перед заполнением формы, пожалуйста, ознакомьтесь с инструкциями.</titl>
+            </prop>
+            <prop name="oddil">
+                <titl>РАЗДЕЛ</titl>
+            </prop>
+            <prop name="odOsobNeregistrovanych">
+                <titl>от лиц, не зарегистрированных для уплаты налогов в другом государстве-члене (Статья 19(4))</titl>
+            </prop>
+            <prop name="odOsobRegistrovanych">
+                <titl>от лиц, зарегистрированных для уплаты налогов в другом государстве-члене ЕС (§ 19(3))</titl>
+            </prop>
+            <prop name="odpocetDane">
+                <titl>Налоговый вычет</titl>
+            </prop>
+            <prop name="odpocetRadek1">
+                <titl>Получение налогооблагаемых поставок с местом поставки на внутренней территории страны</titl>
+            </prop>
+            <prop name="odpocetRadek7">
+                <titl>При изменении режима</titl>
+            </prop>
+            <prop name="odpocetRadek8">
+                <titl>Общая сумма для уменьшения налогового вычета\n(строка 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)</titl>
+            </prop>
+            <prop name="odpocetRadek9">
+                <titl>Общая сумма полного права на налоговый вычет\n(строки 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)</titl>
+            </prop>
+            <prop name="oprava">
+                <titl>Коррекция</titl>
+            </prop>
+            <prop name="opravne">
+                <titl>Исправительные учреждения</titl>
+            </prop>
+            <prop name="osobaIdentifikovanaKDani">
+                <titl>Лицо, идентифицированное для целей налогообложения § 96</titl>
+            </prop>
+            <prop name="osobaOpravnenaKPodpisu">
+                <titl>Лицо, уполномоченное подписывать документы от имени налогового органа</titl>
+            </prop>
+            <prop name="otiskRazitka">
+                <titl>Оттиск печати</titl>
+            </prop>
+            <prop name="otiskRazitkaFU">
+                <titl>оттиск презентационной печати налоговой инспекции</titl>
+            </prop>
+            <prop name="platceDane">
+                <titl>Налогоплательщик § 94</titl>
+            </prop>
+            <prop name="plnyNarok">
+                <titl>Полное право</titl>
+            </prop>
+            <prop name="podpis">
+                <titl>Подпись</titl>
+            </prop>
+            <prop name="podpisOpravnenehoPracovnikaDPH">
+                <titl>Подпись уполномоченного сотрудника налогового администратора</titl>
+            </prop>
+            <prop name="porizeniProstrednikem">
+                <titl>Приобретение товаров средним лицом</titl>
+            </prop>
+            <prop name="postaveniVzhledemKPravnickeOsobe">
+                <titl>В случае юридического лица: статус по отношению к юридическому лицу</titl>
+            </prop>
+            <prop name="povinnostPriznatDanZa">
+                <titl>Обязанность по декларированию налога на</titl>
+            </prop>
+            <prop name="pozdejsichPredpisu">
+                <titl>с поправками, на</titl>
+            </prop>
+            <prop name="pravnickaOsoba">
+                <titl>Юридическое лицо:</titl>
+            </prop>
+            <prop name="priznani">
+                <titl>ПРИЗНАНИЕ</titl>
+            </prop>
+            <prop name="priznaniSestavil">
+                <titl>Исповедь, составленная</titl>
+            </prop>
+            <prop name="priznatRadek1">
+                <titl>Налогооблагаемые поставки с местом поставки в Чешской Республике</titl>
+            </prop>
+            <prop name="priznatRadek2">
+                <titl>Приобретение товаров из другого государства-члена (§ 16 и § 17(6)(e); кроме § 19)</titl>
+            </prop>
+            <prop name="priznatRadek3">
+                <titl>Поставка услуг лицом, зарегистрированным для уплаты налогов в другом государстве-члене (§ 15 и § 13(8))</titl>
+            </prop>
+            <prop name="priznatRadek4">
+                <titl>Отправка товаров из другого государства-члена ЕС с местом исполнения на внутренней территории (§ 18)</titl>
+            </prop>
+            <prop name="priznatRadek5">
+                <titl>Приобретение нового средства передвижения</titl>
+            </prop>
+            <prop name="priznatRadek6">
+                <titl>Импорт товаров (§ 20)</titl>
+            </prop>
+            <prop name="priznatRadek7">
+                <titl>Поставка услуг иностранным налогооблагаемым лицом (§ 15 и § 13(8))</titl>
+            </prop>
+            <prop name="prohlaseni">
+                <titl>Я заявляю, что вся информация, предоставленная мной в данной декларации, является достоверной и полной.</titl>
+            </prop>
+            <prop name="proskrtneteNevzniklaDanovaPovinnost">
+                <titl>Зачеркните (X), если налоговые обязательства не возникли</titl>
+            </prop>
+            <prop name="radek">
+                <titl>ř.</titl>
+            </prop>
+            <prop name="radne">
+                <titl>правильный</titl>
+            </prop>
+            <prop name="rok">
+                <titl>год</titl>
+            </prop>
+            <prop name="sDani">
+                <titl>С налогами</titl>
+            </prop>
+            <prop name="sidloNeboBydliste">
+                <titl>Зарегистрированный офис юридического лица или постоянное место жительства физического лица:</titl>
+            </prop>
+            <prop name="sSnizSazbou">
+                <titl>При сниженной налоговой ставке</titl>
+            </prop>
+            <prop name="sZklSazbou">
+                <titl>При базовой налоговой ставке</titl>
+            </prop>
+            <prop name="ulice">
+                <titl>Номер улицы и ориентира (или часть деревни и номер описания)</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek1">
+                <titl>Общая сумма поставок, дающая право на вычет (§ 72(2)(a)-(d))</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek2">
+                <titl>Операции, которые не включаются в расчет коэффициента (§ 76(3)) из перечисленных в строке 510</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek3">
+                <titl>Общая сумма необлагаемых поставок, осуществленных без права вычета налога (§ 51)</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek4">
+                <titl>Операции, которые не включаются в расчет коэффициента (§ 76(3)) из перечисленных в строке 530</titl>
+            </prop>
+            <prop name="uskutecnenaPlneniCelkem">
+                <titl>Всего проведенных операций</titl>
+            </prop>
+            <prop name="uskutecnenaPlneniOsvobozena">
+                <titl>Освобожденные операции с правом на налоговый вычет</titl>
+            </prop>
+            <prop name="uskutecnenaRadek1">
+                <titl>Поставка товаров в другое государство-член (§ 64, за исключением § 64(2) и § 17(2))</titl>
+            </prop>
+            <prop name="uskutecnenaRadek2">
+                <titl>Поставка нового транспортного средства в другое государство-член (§ 64(2))\ субъекты, зарегистрированные для уплаты налога в государстве-члене</titl>
+            </prop>
+            <prop name="uskutecnenaRadek3">
+                <titl>Поставка нового транспортного средства в другое государство-член ЕС (§ 64(2))\не зарегистрированного для уплаты налога в государстве-члене ЕС</titl>
+            </prop>
+            <prop name="uskutecnenaRadek4">
+                <titl>Экспорт товаров (§ 66)</titl>
+            </prop>
+            <prop name="uskutecnenaRadek5">
+                <titl>Другие необлагаемые поставки с налоговым вычетом</titl>
+            </prop>
+            <prop name="uvedeniHodnotyPriZjednoduseni">
+                <titl>Указание стоимости при использовании упрощенной процедуры\n для поставки товаров на территории Европейского сообщества в форме трехсторонней торговли (§ 17)</titl>
+            </prop>
+            <prop name="vraceniDane">
+                <titl>Возврат налога (§ 84)</titl>
+            </prop>
+            <prop name="vraceniDaneRadek1">
+                <titl>Возврат налога</titl>
+            </prop>
+            <prop name="vypocetDaneRadek1">
+                <titl>Расчеты по налогу на прибыль (§ 91)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek2">
+                <titl>Налог на выпуск продукции (серия 210 + 215 + 220 + 225 + 230 + 235 + 240 + 245 + 250 + 255 + 260 + 265 + 270 + 275 - 600 + 710)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek3">
+                <titl>Налоговый вычет (строка 390 + 550 + 560 + 570 + 580)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek4">
+                <titl>Собственное налоговое обязательство (строки 730 - 750)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek5">
+                <titl>Избыточный вычет (строки 750 - 730)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek6">
+                <titl>Изменение налогового обязательства при подаче дополнительной декларации (строки 730 - 750)</titl>
+            </prop>
+            <prop name="vypocetDanovePovinnosti">
+                <titl>Расчет налогового обязательства</titl>
+            </prop>
+            <prop name="zakladDane">
+                <titl>Налоговая база</titl>
+            </prop>
+            <prop name="zaObdobi">
+                <titl>За налоговый период: месяц</titl>
+            </prop>
+            <prop name="zauctovanoVObdobi">
+                <titl>Учтено в течение периода</titl>
+            </prop>
+            <prop name="zmenaOdpoctuDane">
+                <titl>Изменение налогового вычета</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDph$$NES">
+            <prop name="_title">
+                <titl>Документы по НДС по дате проводки</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDph$$SUM">
+            <prop name="_title">
+                <titl>Документы по НДС</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphBezUctovani$$NES">
+            <prop name="_title">
+                <titl>Документы по НДС по дате проводки (сгруппированные)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphBezUctovani$$SUM">
+            <prop name="_title">
+                <titl>Документы по НДС (сгруппированные)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphNaVysku$$SUMACE">
+            <prop name="_title">
+                <titl>Документы по НДС (только итоговые строки)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphNaVyskuZRadku$$SUMACE">
+            <prop name="_title">
+                <titl>Документы по НДС для других стран с НДС (только итоговые строки)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphZRadku$$SUM">
+            <prop name="_title">
+                <titl>Документы по НДС для других стран с НДС</titl>
+            </prop>
+        </rpt>
+        <rpt name="pohybyNaUctech">
+            <prop name="_title">
+                <titl>Движение по счетам</titl>
+            </prop>
+        </rpt>
+        <rpt name="pohybyNaUctechZjednodusene">
+            <prop name="_title">
+                <titl>Инвентаризация счетов</titl>
+            </prop>
+            <prop name="doklad">
+                <titl>Документ</titl>
+            </prop>
+            <prop name="pocatek">
+                <titl>Начало</titl>
+            </prop>
+            <prop name="sumTuzDal">
+                <titl>Оборот DAL [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumTuzMd">
+                <titl>Оборот MD [%currency-symbol]</titl>
+            </prop>
+            <prop name="ucetDAL">
+                <titl>Счет DAL</titl>
+            </prop>
+            <prop name="ucetMD">
+                <titl>Счет MD</titl>
+            </prop>
+            <prop name="zustatek">
+                <titl>Баланс</titl>
+            </prop>
+            <prop name="zustatekTuz">
+                <titl>Баланс [%currency-symbol]</titl>
+            </prop>
+        </rpt>
+        <rpt name="pohybyNaUctechZjednodusene$$SUM">
+            <prop name="_title">
+                <titl>Движение по счетам - Запасы</titl>
+            </prop>
+        </rpt>
+        <rpt name="pokDoklad">
+            <prop name="_title">
+                <titl>Кассовый документ</titl>
+            </prop>
+            <prop name="bezDane2">
+                <titl>НДС 0%</titl>
+            </prop>
+            <prop name="castkaSlovy">
+                <titl>Сумма в словах</titl>
+            </prop>
+            <prop name="dan2">
+                <titl>НДС</titl>
+            </prop>
+            <prop name="dne">
+                <titl>На сайте</titl>
+            </prop>
+            <prop name="podpisPokladnika">
+                <titl>Подпись казначея</titl>
+            </prop>
+            <prop name="prevzal">
+                <titl>Извлечено из</titl>
+            </prop>
+            <prop name="prijatoOd">
+                <titl>Принято от</titl>
+            </prop>
+            <prop name="prijmovyDoklad">
+                <titl>Приходный кассовый документ</titl>
+            </prop>
+            <prop name="prijmovyDokladVratka">
+                <titl>Кассовый чек - возмещение</titl>
+            </prop>
+            <prop name="schvalil">
+                <titl>Одобрено</titl>
+            </prop>
+            <prop name="soucet">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="ucel">
+                <titl>Назначение</titl>
+            </prop>
+            <prop name="vydejovyDoklad">
+                <titl>Документ о выплате денежных средств</titl>
+            </prop>
+            <prop name="vydejovyDokladVratka">
+                <titl>Документ о выплате денежных средств - возврат</titl>
+            </prop>
+            <prop name="vyplacenoKomu">
+                <titl>Кому выплачено</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Справочная информация</titl>
+            </prop>
+            <prop name="zauctoval">
+                <titl>Опубликовано</titl>
+            </prop>
+        </rpt>
+        <rpt name="pokDoklad$$SUM_UHR_DOKL">
+            <prop name="_title">
+                <titl>Кассовый чек (с оплаченными документами)</titl>
+            </prop>
+        </rpt>
+        <rpt name="pokDoklad$$SUM_ZAUCT">
+            <prop name="_title">
+                <titl>Кассовый чек (с проводкой)</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenik">
+            <prop name="hotove">
+                <titl>Денежные средства</titl>
+            </prop>
+            <prop name="kartou">
+                <titl>По платежной карте</titl>
+            </prop>
+            <prop name="koncovyZustatek">
+                <titl>Конечный баланс:</titl>
+            </prop>
+            <prop name="pocatecniZustatek">
+                <titl>Начальный баланс:</titl>
+            </prop>
+            <prop name="prijem">
+                <titl>Получение</titl>
+            </prop>
+            <prop name="vydej">
+                <titl>Извлечено из</titl>
+            </prop>
+            <prop name="zustatek">
+                <titl>Баланс</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenik$$BAN">
+            <prop name="_title">
+                <titl>Банковская книга</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenik$$POK">
+            <prop name="_title">
+                <titl>Кассовая книга</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenikPort$$BAN">
+            <prop name="_title">
+                <titl>Банковская книга (портрет)</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenikPort$$POK">
+            <prop name="_title">
+                <titl>Кассовая книга (портрет)</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur">
+            <prop name="_title">
+                <titl>Анализ продаж</titl>
+            </prop>
+            <prop name="idCenik">
+                <titl>Товары</titl>
+            </prop>
+            <prop name="idFirmy">
+                <titl>Компания</titl>
+            </prop>
+            <prop name="idMistUrc">
+                <titl>Место назначения</titl>
+            </prop>
+            <prop name="idSkladu">
+                <titl>Склад</titl>
+            </prop>
+            <prop name="idSkupCen">
+                <titl>Группа прейскуранта</titl>
+            </prop>
+            <prop name="idSkupFir">
+                <titl>Группа компаний</titl>
+            </prop>
+            <prop name="idSkupZboz">
+                <titl>Группа товаров</titl>
+            </prop>
+            <prop name="idStred">
+                <titl>Центр</titl>
+            </prop>
+            <prop name="idZakazky">
+                <titl>Заказ</titl>
+            </prop>
+            <prop name="idZodpOsoba">
+                <titl>Ответственное лицо</titl>
+            </prop>
+            <prop name="idZodpOsobaAdresar">
+                <titl>Ответственное лицо из справочника</titl>
+            </prop>
+            <prop name="procObchodniRozpeti">
+                <titl>% Маржа</titl>
+            </prop>
+            <prop name="procSumZkl">
+                <titl>% Итого</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur$$NES">
+            <prop name="_title">
+                <titl>Анализ продаж (без итоговых показателей)</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur$$NES_NAKUP">
+            <prop name="_title">
+                <titl>Анализ покупок (без итогов)</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur$$SUM_NAKUP">
+            <prop name="_title">
+                <titl>Анализ покупок</titl>
+            </prop>
+        </rpt>
+        <rpt name="poSplatnosti">
+            <prop name="_title">
+                <titl>Просроченная просроченная дебиторская/кредиторская задолженность</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="celkemPoSplatnosti">
+                <titl>Итого просроченная задолженность</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Зрелость</titl>
+            </prop>
+            <prop name="datUcto">
+                <titl>Бухгалтерский учет</titl>
+            </prop>
+            <prop name="firma">
+                <titl>Компания</titl>
+            </prop>
+            <prop name="firmaNevyplnena">
+                <titl>Компания не заполнена</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Номер документа</titl>
+            </prop>
+            <prop name="neuhrazenePohledavky">
+                <titl>Просроченная просроченная дебиторская задолженность</titl>
+            </prop>
+            <prop name="neuhrazeneZavazky">
+                <titl>Непогашенные просроченные обязательства</titl>
+            </prop>
+            <prop name="rozmezi">
+                <titl>от %p до %p дней просрочки</titl>
+            </prop>
+            <prop name="rozmeziKonec">
+                <titl>%p и более дней просрочки</titl>
+            </prop>
+            <prop name="symbolSplatnosti.stav0">
+                <titl>Не просрочен</titl>
+            </prop>
+            <prop name="symbolSplatnosti.stavZnevyplneno">
+                <titl>Срок погашения не заполнен</titl>
+            </prop>
+            <prop name="uhrazeno">
+                <titl>Оплачивается</titl>
+            </prop>
+            <prop name="zbyva">
+                <titl>Остатки</titl>
+            </prop>
+        </rpt>
+        <rpt name="poSplatnostiDleDokladu">
+            <prop name="_title">
+                <titl>Непогашенная дебиторская/кредиторская задолженность по срокам погашения</titl>
+            </prop>
+            <prop name="neuhrazenePohledavky">
+                <titl>Непогашенная дебиторская задолженность по срокам погашения</titl>
+            </prop>
+            <prop name="neuhrazeneZavazky">
+                <titl>Непогашенные обязательства по срокам погашения</titl>
+            </prop>
+        </rpt>
+        <rpt name="poSplatnostiDleFirmy">
+            <prop name="_title">
+                <titl>Просроченная дебиторская/просроченная кредиторская задолженность (по компаниям)</titl>
+            </prop>
+            <prop name="neuhrazenePohledavky">
+                <titl>Просроченная дебиторская задолженность (по компаниям)</titl>
+            </prop>
+            <prop name="neuhrazeneZavazky">
+                <titl>Непогашенные просроченные обязательства (по компаниям)</titl>
+            </prop>
+        </rpt>
+        <rpt name="postovniPodaciArch">
+            <prop name="_title">
+                <titl>Почтовая картотека</titl>
+            </prop>
+        </rpt>
+        <rpt name="pplstitek">
+            <prop name="_title">
+                <titl>Этикетка PPL (лист A4)</titl>
+            </prop>
+            <prop name="dobirka">
+                <titl>Наложенный платеж:</titl>
+            </prop>
+            <prop name="dokladCislo">
+                <titl>Номер документа:</titl>
+            </prop>
+            <prop name="email">
+                <titl>Электронная почта: info@ppl.cz</titl>
+            </prop>
+            <prop name="expresnibalikovasluzba">
+                <titl>служба экспресс-посылок</titl>
+            </prop>
+            <prop name="flexibee">
+                <titl>ABRA Flexi</titl>
+            </prop>
+            <prop name="modralinka">
+                <titl>Горячая линия: 840 775 775</titl>
+            </prop>
+            <prop name="odesilatel">
+                <titl>Отправитель/Заявитель:</titl>
+            </prop>
+            <prop name="prijemce">
+                <titl>Грузополучатель/Получатель:</titl>
+            </prop>
+            <prop name="www">
+                <titl>http://www.ppl.cz</titl>
+            </prop>
+        </rpt>
+        <rpt name="pplstitekJeden">
+            <prop name="_title">
+                <titl>Этикетка PPL (одинарная, 102x126 мм)</titl>
+            </prop>
+        </rpt>
+        <rpt name="predvaha">
+            <prop name="dal">
+                <titl>DAL</titl>
+            </prop>
+            <prop name="koncovyZustatek">
+                <titl>Конечный баланс</titl>
+            </prop>
+            <prop name="md">
+                <titl>MD</titl>
+            </prop>
+            <prop name="obratyZaObdobi">
+                <titl>Оборот за период</titl>
+            </prop>
+            <prop name="pocatecniZustatek">
+                <titl>Начальный баланс</titl>
+            </prop>
+            <prop name="uctovaTrida">
+                <titl>Бухгалтерский класс</titl>
+            </prop>
+        </rpt>
+        <rpt name="Predvaha$$SUM">
+            <prop name="_title">
+                <titl>Оборотный баланс</titl>
+            </prop>
+        </rpt>
+        <rpt name="PredvahaPort">
+            <prop name="_title">
+                <titl>Оборотный баланс (портрет)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehled_a4$$FAP">
+            <prop name="_title">
+                <titl>Список полученных счетов-фактур (в портретном формате)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledSmluv">
+            <prop name="_title">
+                <titl>Обзор договоров</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledSmluv$$SUM_POL">
+            <prop name="_title">
+                <titl>Список контрактов (с перечнем предметов)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prijemkaVydejka">
+            <prop name="_title">
+                <titl>Квитанция или диспенсер</titl>
+            </prop>
+            <prop name="cisFak">
+                <titl>Номер счета-фактуры</titl>
+            </prop>
+            <prop name="cislo">
+                <titl>Номер</titl>
+            </prop>
+            <prop name="maFakturu">
+                <titl>У него есть счет-фактура</titl>
+            </prop>
+            <prop name="prijemkaVydejkaUmisteni">
+                <titl>Приемный или раздаточный ящик (с указанием местоположения)</titl>
+            </prop>
+            <prop name="typPohybu.prijem">
+                <titl>Получатель</titl>
+            </prop>
+            <prop name="typPohybu.vydej">
+                <titl>Дозирование</titl>
+            </prop>
+            <prop name="umisteni">
+                <titl>Размещение</titl>
+            </prop>
+            <prop name="vydal">
+                <titl>Опубликовано</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikaz$$BAN$$elInkaso">
+            <prop name="_title">
+                <titl>ОПТОВЫЙ ОРДЕР НА ПРЯМОЙ ДЕБЕТ</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikaz$$BAN$$elPrikaz">
+            <prop name="_title">
+                <titl>ОПТОВОЕ ПЛАТЕЖНОЕ ПОРУЧЕНИЕ</titl>
+            </prop>
+        </rpt>
+        <rpt name="prikazDoVyroby">
+            <prop name="_title">
+                <titl>Командировка на производство</titl>
+            </prop>
+            <prop name="cisloPrikazu">
+                <titl>Номер заказа</titl>
+            </prop>
+            <prop name="datumVyhotoveni">
+                <titl>Дата выполнения</titl>
+            </prop>
+            <prop name="mezioperacniKontrola">
+                <titl>Межоперационный контроль</titl>
+            </prop>
+            <prop name="ostatniSuroviny">
+                <titl>Прочее сырье и обоснование</titl>
+            </prop>
+            <prop name="sarze">
+                <titl>Партии</titl>
+            </prop>
+            <prop name="skladVyrobku">
+                <titl>Склад продукции</titl>
+            </prop>
+            <prop name="uzavreni">
+                <titl>Закрытие</titl>
+            </prop>
+            <prop name="vystupniKontrola">
+                <titl>Управление выходом</titl>
+            </prop>
+            <prop name="zamestnanci">
+                <titl>Персонал</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikazy_kniha$$BAN$$elInkaso">
+            <prop name="_title">
+                <titl>Книга заявок на прямое дебетование</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikazy_kniha$$BAN$$elPrikaz">
+            <prop name="_title">
+                <titl>Книга платежных поручений</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 14 (с 1.1.2008)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2009">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 15 (с 1.1.2009)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2009SK">
+            <prop name="_title">
+                <titl>декларация по НДС (словацкая форма)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2010">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 16 (с 1.1.2010)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2010SK">
+            <prop name="_title">
+                <titl>Налоговая декларация по НДС 2010-01 (с 1.1.2010) (словацкая форма)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2011">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 17 (с 1.1.2011)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2011SK">
+            <prop name="_title">
+                <titl>Налоговая декларация по НДС 2011 - 01 (с 1.1.2011) (словацкая форма)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2012SK">
+            <prop name="_title">
+                <titl>Налоговая декларация по НДС 2012 - 01 (с 1.1.2012) (словацкая форма)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2013">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 18 (с 1.1.2013)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2015">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 19 (с 1.1.2015)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2016">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 20 (от 29.7.2016)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2019">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 21 (с 01.05.2019)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2021">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 23 (с 01.10.2021)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2021SK">
+            <prop name="_title">
+                <titl>Декларация по НДС 2021 (с 1.1.2021) (словацкая форма)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2024">
+            <prop name="_title">
+                <titl>Декларация по НДС модель № 24 (с 01.01.2024)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejka">
+            <prop name="_title">
+                <titl>Упрощенный налоговый документ</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Итого</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejka60mm">
+            <prop name="_title">
+                <titl>Упрощенный налоговый документ (60 мм)</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="celkemV">
+                <titl>Всего в</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Дата</titl>
+            </prop>
+            <prop name="duzp">
+                <titl>ДУЗП</titl>
+            </prop>
+            <prop name="mj">
+                <titl>MJ</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejkaZaHotove">
+            <prop name="_title">
+                <titl>Продавец за наличные</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejniPrehled">
+            <prop name="_title">
+                <titl>Обзор продаж</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Итого [%p]</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>НДС [%p]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>База [%p]</titl>
+            </prop>
+            <prop name="uhrazeno">
+                <titl>Оплачивается</titl>
+            </prop>
+        </rpt>
+        <rpt name="pruvodka">
+            <prop name="_title">
+                <titl>Руководство</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="kBAN">
+                <titl>Банковский документ</titl>
+            </prop>
+            <prop name="kFAP">
+                <titl>Полученные счета-фактуры</titl>
+            </prop>
+            <prop name="kFAV">
+                <titl>Выставленные счета</titl>
+            </prop>
+            <prop name="kINT">
+                <titl>Внутренний документ</titl>
+            </prop>
+            <prop name="kPHL">
+                <titl>Претензии</titl>
+            </prop>
+            <prop name="kPOK">
+                <titl>Поступление денежных средств</titl>
+            </prop>
+            <prop name="kSKL">
+                <titl>Фондовый документ</titl>
+            </prop>
+            <prop name="kZapoctu">
+                <titl>Взаимный кредит</titl>
+            </prop>
+            <prop name="kZAV">
+                <titl>Обязательства</titl>
+            </prop>
+            <prop name="rekapitulaceDph">
+                <titl>Пересчет НДС</titl>
+            </prop>
+            <prop name="sazbaDph">
+                <titl>Ставка НДС</titl>
+            </prop>
+            <prop name="suma">
+                <titl>Сумма</titl>
+            </prop>
+            <prop name="ucetDal">
+                <titl>Кредитовый счет</titl>
+            </prop>
+            <prop name="ucetMD">
+                <titl>Дебетовый счет</titl>
+            </prop>
+            <prop name="uctovani">
+                <titl>Бухгалтерский учет</titl>
+            </prop>
+            <prop name="zdanitelnePlneni">
+                <titl>Налогооблагаемая поставка</titl>
+            </prop>
+        </rpt>
+        <rpt name="radkySestavy">
+            <prop name="rozsahPredSestavy">
+                <titl>Предыдущий период от:</titl>
+            </prop>
+            <prop name="rozsahSestavy">
+                <titl>За период с:</titl>
+            </prop>
+            <prop name="rozsahSestavyDo">
+                <titl>к:</titl>
+            </prop>
+        </rpt>
+        <rpt name="rady">
+            <prop name="_title">
+                <titl>Серия документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvaha">
+            <prop name="_title">
+                <titl>Бухгалтерский баланс в полном объеме</titl>
+            </prop>
+            <prop name="bilance">
+                <titl>(баланс)</titl>
+            </prop>
+            <prop name="doDne">
+                <titl>на</titl>
+            </prop>
+            <prop name="keDni">
+                <titl>в течение нескольких дней</titl>
+            </prop>
+            <prop name="nazevASidloUcetniJednotky">
+                <titl>Зарегистрированный офис, место жительства или место ведения бизнеса организации</titl>
+            </prop>
+            <prop name="obchodniFirma">
+                <titl>Фирменное наименование или другое название организации</titl>
+            </prop>
+            <prop name="odDne">
+                <titl>С сайта</titl>
+            </prop>
+            <prop name="okamzikSestaveni">
+                <titl>Момент сборки</titl>
+            </prop>
+            <prop name="podpisOrganu">
+                <titl>Подписная запись уставного органа или физического лица, являющегося субъектом бухгалтерского учета</titl>
+            </prop>
+            <prop name="podpisOsoby">
+                <titl>Подпись лица, ответственного за подготовку финансовой отчетности</titl>
+            </prop>
+            <prop name="pravniFormaUcetniJednotky">
+                <titl>Организационно-правовая форма предприятия</titl>
+            </prop>
+            <prop name="predmetPodnikani">
+                <titl>Предпринимательская или иная деятельность</titl>
+            </prop>
+            <prop name="rozvaha">
+                <titl>Бухгалтерский баланс</titl>
+            </prop>
+            <prop name="schvalenoMFCR">
+                <titl>Подготовлено в соответствии с Указом № 500/2002\nSb. с поправками</titl>
+            </prop>
+            <prop name="schvalenoMFCRnezisk">
+                <titl>Подготовлено в соответствии с Декретом № 504/2002\nSb. с поправками</titl>
+            </prop>
+            <prop name="schvalenoMFCRprispevk">
+                <titl>Подготовлено в соответствии с Указом № 505/2002\nSb. с поправками</titl>
+            </prop>
+            <prop name="schvalenoMFCRprispevk2010">
+                <titl>Подготовлено в соответствии с Декретом № 410/2009\nSb. с поправками</titl>
+            </prop>
+            <prop name="schvalenoMFCRslovaci">
+                <titl>Подготовлено в соответствии с Указом № 500/2002\nSb. с поправками</titl>
+            </prop>
+            <prop name="vKC">
+                <titl>(в тысячах %currency-symbol)</titl>
+            </prop>
+            <prop name="zakladniVerze">
+                <titl>в основном диапазоне</titl>
+            </prop>
+            <prop name="zjednodusenaVerze">
+                <titl>в упрощенном режиме</titl>
+            </prop>
+            <prop name="zkracenaVerze">
+                <titl>в сокращенном объеме</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvaha$$SUM">
+            <prop name="_title">
+                <titl>Упрощенный бухгалтерский баланс</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvaha$$SUM_ZAKL">
+            <prop name="_title">
+                <titl>Основной баланс</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvahaPoUctechObraty">
+            <prop name="_title">
+                <titl>Инвентаризация активов и обязательств (оборот)</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvahaPoUctechStavy">
+            <prop name="_title">
+                <titl>Инвентаризация активов и обязательств (остатки)</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvahaVysledovkaPoUctech">
+            <prop name="aktiva">
+                <titl>Активы</titl>
+            </prop>
+            <prop name="konecnyZustatek">
+                <titl>Окончательный баланс</titl>
+            </prop>
+            <prop name="naklady">
+                <titl>Стоимость</titl>
+            </prop>
+            <prop name="pasiva">
+                <titl>Пассивный</titl>
+            </prop>
+            <prop name="soucet">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="uctovaTrida">
+                <titl>Бухгалтерский класс.</titl>
+            </prop>
+            <prop name="vynosy">
+                <titl>Доход</titl>
+            </prop>
+            <prop name="vysledek">
+                <titl>Результат</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldo">
+            <prop name="_title">
+                <titl>Баланс</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldo$$GRUP">
+            <prop name="_title">
+                <titl>Баланс (сгруппированный)</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldoNaVysku">
+            <prop name="_title">
+                <titl>Равновесие (портрет)</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldoNaVysku$$GRUP">
+            <prop name="_title">
+                <titl>Баланс (портрет, сгруппированный)</titl>
+            </prop>
+        </rpt>
+        <rpt name="Sazby_DPH">
+            <prop name="_title">
+                <titl>Ставки НДС</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadky">
+            <prop name="_title">
+                <titl>Строки отчета</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyPort$$SES$$uSestavy$$BEZ_ROZPADU">
+            <prop name="_title">
+                <titl>Строки отчета</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyPort$$SES$$uSestavy$$ROZPAD_PREDPIS">
+            <prop name="_title">
+                <titl>Строки отчета (Стандартный рецепт, Рецепт пользователя)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyPort$$SES$$uSestavy$$ROZPAD_UCET">
+            <prop name="_title">
+                <titl>Строки отчета (разбивка по счетам)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyRozpadUce">
+            <prop name="_title">
+                <titl>Строки отчета (разбивка по счетам)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyStdPred">
+            <prop name="_title">
+                <titl>Строки отчета (Стандартный рецепт, Рецепт пользователя)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sestavy">
+            <prop name="_title">
+                <titl>Бухгалтерские отчеты</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKarty">
+            <prop name="_title">
+                <titl>Обзор фондовых карт</titl>
+            </prop>
+            <prop name="cenaTuz">
+                <titl>Цена [%currency-symbol]</titl>
+            </prop>
+            <prop name="poslCenaTuz">
+                <titl>Последний</titl>
+            </prop>
+            <prop name="prumCenaTuz">
+                <titl>Среднее</titl>
+            </prop>
+            <prop name="stav">
+                <titl>Состояние запасов</titl>
+            </prop>
+            <prop name="stavMen">
+                <titl>[валюта].</titl>
+            </prop>
+            <prop name="stavMJ">
+                <titl>в MJ</titl>
+            </prop>
+            <prop name="stavTuz">
+                <titl>[%currency-symbol]</titl>
+            </prop>
+            <prop name="sumPrijem">
+                <titl>Доход:</titl>
+            </prop>
+            <prop name="sumVydej">
+                <titl>Выпуск:</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKarty$$SKL$$NES">
+            <prop name="_title">
+                <titl>Обзор фондовых карт (с движениями)</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKarty$$SKL$$NES_STR">
+            <prop name="_title">
+                <titl>Обзор фондовых карт (с движениями, постранично)</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKartyInventura">
+            <prop name="_title">
+                <titl>Инвентаризация товаров</titl>
+            </prop>
+            <prop name="naSklade">
+                <titl>Фактический статус</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKartyInventura$$NES">
+            <prop name="_title">
+                <titl>Инвентаризация товаров (без запасов)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sklPol$$SKL">
+            <prop name="_title">
+                <titl>Список движений акций</titl>
+            </prop>
+        </rpt>
+        <rpt name="sklRezervace">
+            <prop name="_title">
+                <titl>Список оговорок</titl>
+            </prop>
+        </rpt>
+        <rpt name="sklVyrCis">
+            <prop name="_title">
+                <titl>Список серийных номеров</titl>
+            </prop>
+        </rpt>
+        <rpt name="skupFir">
+            <prop name="_title">
+                <titl>Группы компаний</titl>
+            </prop>
+        </rpt>
+        <rpt name="skupZboz">
+            <prop name="_title">
+                <titl>Группы товаров</titl>
+            </prop>
+        </rpt>
+        <rpt name="slozenkaA">
+            <prop name="_title">
+                <titl>Почтовый кредитный авизо A</titl>
+            </prop>
+        </rpt>
+        <rpt name="smerKod">
+            <prop name="_title">
+                <titl>Банковские коды</titl>
+            </prop>
+        </rpt>
+        <rpt name="souhrnneHlaseni">
+            <prop name="_title">
+                <titl>Краткий отчет (действителен до 2009 года)</titl>
+            </prop>
+        </rpt>
+        <rpt name="souhrnnyVykazOPrijmechAVydajich">
+            <prop name="_title">
+                <titl>Краткий отчет о доходах и расходах</titl>
+            </prop>
+            <prop name="danEvidSkupina.nespadaCelkem">
+                <titl>Не подпадает под j. ú. total</titl>
+            </prop>
+            <prop name="danEvidSkupina.nevyplnenoCelkem">
+                <titl>Итого не заполнено</titl>
+            </prop>
+            <prop name="danEvidSkupina.ostatniCelkem">
+                <titl>Прочее всего</titl>
+            </prop>
+            <prop name="danEvidSkupina.prijemCelkem">
+                <titl>Общий доход</titl>
+            </prop>
+            <prop name="danEvidSkupina.vydejCelkem">
+                <titl>Общие расходы</titl>
+            </prop>
+            <prop name="nevyplneno">
+                <titl>Пустой</titl>
+            </prop>
+            <prop name="rozdilPrijemVydej">
+                <titl>Разница между доходами и расходами</titl>
+            </prop>
+        </rpt>
+        <rpt name="Staty">
+            <prop name="_title">
+                <titl>Государства</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavSkladu">
+            <prop name="_title">
+                <titl>Состояние запасов на дату</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavyHlavniKniha">
+            <prop name="_title">
+                <titl>Главная книга (суммарный оборот за месяц)</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavyUctu">
+            <prop name="_title">
+                <titl>Остатки на счетах</titl>
+            </prop>
+            <prop name="Dal">
+                <titl>Он дал</titl>
+            </prop>
+            <prop name="Md">
+                <titl>Он должен дать</titl>
+            </prop>
+            <prop name="obrat">
+                <titl>Оборот</titl>
+            </prop>
+            <prop name="zaUcetObdobi">
+                <titl>За отчетный период</titl>
+            </prop>
+            <prop name="zustatek">
+                <titl>Баланс</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavyUctuPocatky">
+            <prop name="_title">
+                <titl>Начальные остатки по счетам - контрольная распечатка</titl>
+            </prop>
+        </rpt>
+        <rpt name="stitky">
+            <prop name="_title">
+                <titl>Этикетки для полок (70x30 мм)</titl>
+            </prop>
+            <prop name="za">
+                <titl>Для</titl>
+            </prop>
+        </rpt>
+        <rpt name="strediska">
+            <prop name="_title">
+                <titl>Центры</titl>
+            </prop>
+        </rpt>
+        <rpt name="TypDokl">
+            <prop name="_title">
+                <titl>Обзор типов документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="TypDokl$$BAN">
+            <prop name="_title">
+                <titl>Перечень видов банковских документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="TypDokl$$POK">
+            <prop name="_title">
+                <titl>Перечень видов кассовых документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="typDoklSkl$$SKL">
+            <prop name="_title">
+                <titl>Список типов складских документов</titl>
+            </prop>
+        </rpt>
+        <rpt name="typLeasingu">
+            <prop name="_title">
+                <titl>Виды аренды</titl>
+            </prop>
+        </rpt>
+        <rpt name="typUcetOp">
+            <prop name="_title">
+                <titl>Список правил бухгалтерского учета</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniDenik">
+            <prop name="_title">
+                <titl>Бухгалтерский дневник</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniObdobi">
+            <prop name="_title">
+                <titl>Отчетный период</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniOsnova">
+            <prop name="_title">
+                <titl>План счетов</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniRozvrh">
+            <prop name="_title">
+                <titl>План счетов</titl>
+            </prop>
+        </rpt>
+        <rpt name="uhrazeneDoklady">
+            <prop name="_title">
+                <titl>Оплаченные документы</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Сумма</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Итого</titl>
+            </prop>
+            <prop name="zbyvaSparovat">
+                <titl>Остатки для пары</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Оставшаяся доплата</titl>
+            </prop>
+        </rpt>
+        <rpt name="upominka">
+            <prop name="_title">
+                <titl>Напоминание</titl>
+            </prop>
+            <prop name="adresaDodavatele">
+                <titl>Адрес поставщика:</titl>
+            </prop>
+        </rpt>
+        <rpt name="uzaverkoveOperace">
+            <prop name="_title">
+                <titl>Закрытие операций</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Всего</titl>
+            </prop>
+            <prop name="mezisoucetObratu">
+                <titl>Промежуточный итог оборотов</titl>
+            </prop>
+            <prop name="zisk">
+                <titl>Прибыль 710 / 702</titl>
+            </prop>
+            <prop name="ztrata">
+                <titl>Убыток 702 / 710</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazCenPohyby">
+            <prop name="_title">
+                <titl>Закупки, продажи и движение запасов</titl>
+            </prop>
+            <prop name="sumCelkemFAP">
+                <titl>Полученные счета-фактуры</titl>
+            </prop>
+            <prop name="sumCelkemFAV">
+                <titl>Выставленные счета</titl>
+            </prop>
+            <prop name="sumCelkemPOKPrijem">
+                <titl>Кассовый аппарат - квитанция</titl>
+            </prop>
+            <prop name="sumCelkemPOKVydej">
+                <titl>Касса - выдача</titl>
+            </prop>
+            <prop name="sumCelkemSKLPrijem">
+                <titl>Склад - приемка</titl>
+            </prop>
+            <prop name="sumCelkemSKLVydej">
+                <titl>Склад - дозирование</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazDanEvidSK">
+            <prop name="_title">
+                <titl>Постатейный отчет о доходах и расходах</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazHospodareni">
+            <prop name="_title">
+                <titl>Экономическое заявление</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Луна</titl>
+            </prop>
+            <prop name="rok">
+                <titl>Год</titl>
+            </prop>
+            <prop name="vykazHospodareniZa">
+                <titl>Отчет об операциях за месяц</titl>
+            </prop>
+            <prop name="zahrnovany">
+                <titl>В комплекте</titl>
+            </prop>
+            <prop name="ziskZtrata">
+                <titl>Прибыль (+), убыток (-)</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazMossPrehled">
+            <prop name="_title">
+                <titl>Налоговая декларация по ОСНО (обзор)</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka">
+            <prop name="vysledovka">
+                <titl>Отчет о прибылях и убытках</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka$$NES">
+            <prop name="_title">
+                <titl>Отчет о прибылях и убытках в полном объеме</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka$$SUM">
+            <prop name="_title">
+                <titl>Отчет о прибылях и убытках в упрощенной форме</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka$$SUM_ZAKL">
+            <prop name="_title">
+                <titl>Отчет о прибылях и убытках в базовом диапазоне</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovkaPoUctechObraty">
+            <prop name="_title">
+                <titl>Сводные данные о расходах и доходах (оборот)</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovkaPoUctechStavy">
+            <prop name="_title">
+                <titl>Отчет о расходах и доходах (остатки)</titl>
+            </prop>
+        </rpt>
+        <rpt name="Zakazka">
+            <prop name="_title">
+                <titl>Контракты</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapocetPohledavek">
+            <prop name="_title">
+                <titl>Соглашение о взаимном зачете требований</titl>
+            </prop>
+            <prop name="a">
+                <titl>a</titl>
+            </prop>
+            <prop name="celkemZapocteno">
+                <titl>Всего подсчитано:</titl>
+            </prop>
+            <prop name="cisDokl">
+                <titl>Документ</titl>
+            </prop>
+            <prop name="cisloZapoctu">
+                <titl>Количество кредитов</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Зрелость</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Извлечено из</titl>
+            </prop>
+            <prop name="dohoda">
+                <titl>Соглашение о взаимном зачете требований</titl>
+            </prop>
+            <prop name="obeStrany">
+                <titl>Обе стороны договорились на дату %p о взаимном зачете суммы %p %p.</titl>
+            </prop>
+            <prop name="podleParagrafu">
+                <titl>в соответствии с §364 Торгового кодекса и §580 Гражданского кодекса</titl>
+            </prop>
+            <prop name="podleParagrafu1982">
+                <titl>в соответствии с §1982 Гражданского кодекса</titl>
+            </prop>
+            <prop name="pohledavka">
+                <titl>дебиторская задолженность на %p от %p:</titl>
+            </prop>
+            <prop name="potvrzenouKopii">
+                <titl>Пожалуйста, отправьте заверенную копию обратно на наш адрес.</titl>
+            </prop>
+            <prop name="seDohodli">
+                <titl>заключить соглашение о взаимном зачете следующих требований и обязательств</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Счет-фактура</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>VS</titl>
+            </prop>
+            <prop name="za">
+                <titl>для %p</titl>
+            </prop>
+            <prop name="zapocteno">
+                <titl>Извлечено из</titl>
+            </prop>
+            <prop name="zavazek">
+                <titl>ответственность в размере от %p до %p:</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Остается к оплате</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapocetPohledavekJednostranny">
+            <prop name="_title">
+                <titl>Односторонний зачет дебиторской задолженности</titl>
+            </prop>
+            <prop name="dohoda">
+                <titl>Односторонний зачет дебиторской и кредиторской задолженности</titl>
+            </prop>
+            <prop name="podleParagrafu">
+                <titl>в соответствии с § 364-368 Торгового кодекса и § 580-581 Гражданского кодекса</titl>
+            </prop>
+            <prop name="podleParagrafu1982">
+                <titl>в соответствии с §1982 Гражданского кодекса</titl>
+            </prop>
+            <prop name="sdelujemeVam">
+                <titl>Сообщаем, что по состоянию на дату %p мы проводим взаимозачет следующих дебиторских и кредиторских задолженностей:</titl>
+            </prop>
+            <prop name="sPozdravem">
+                <titl>Искренне ваш</titl>
+            </prop>
+            <prop name="vSidloOrganizaceDne">
+                <titl>В %p из %p.</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapujcky">
+            <prop name="_title">
+                <titl>Активы - кредиты</titl>
+            </prop>
+        </rpt>
+        <rpt name="zebraStitkyMaster$$cenAkt$$SUM">
+            <prop name="_title">
+                <titl>Этикетки для полок (Zebra, 50x30 мм)</titl>
+            </prop>
+        </rpt>
+        <rpt name="zebraStitkyMaster$$NES">
+            <prop name="_title">
+                <titl>Этикетки (Zebra, 50x30 мм, для фрагмента на элементе документа)</titl>
+            </prop>
+        </rpt>
+        <rpt name="zebraStitkyMaster$$SUM">
+            <prop name="_title">
+                <titl>Этикетки (Zebra, 50x30 мм, для элементов документов)</titl>
+            </prop>
+        </rpt>
+    </reports>
+</config>

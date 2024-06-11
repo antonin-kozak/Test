@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/sk/lang.mzdy.sk.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <actions>
+        <act name="vypoctiMzdy">
+            <titl>Vypočítaj mzdy</titl>
+            <desc>Vypočíta mzdy pre zvolený mesiac</desc>
+            <icon>win/computation.png</icon>
+        </act>
+        <act name="generujZavazky">
+            <titl>Generuj záväzky</titl>
+            <desc>Vygeneruje záväzky pre zvolený mesiac</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="tiskVycetPlatidel">
+            <titl>Súpis platidiel</titl>
+            <desc>Vytlačísúpis platidiel pre zamestnancov pre platbu v hotovosti</desc>
+            <icon>win/platidlo.png</icon>
+        </act>
+        <act name="tiskExportVyplatnichPasek">
+            <titl>Export pások</titl>
+            <desc>Exportuje výplatné pásky do zadaného adresára</desc>
+            <icon>win/pdf.png</icon>
+        </act>
+        <act name="rekapitulaceSlozek">
+            <titl>Rekapitulácia zložiek</titl>
+            <desc></desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="aktualizaceNepritomnosti">
+            <titl>Aktualizuj neprítomnosť</titl>
+            <icon>win/aktualizuj-nepritomnost.png</icon>
+        </act>
+        <act name="prepoctiMzdu">
+            <titl>Prepočítaj mzdu</titl>
+            <icon>win/prepocti-mzdu.png</icon>
+        </act>
+        <act name="zrusVypocetMzdy">
+            <titl>Zruš výpočet</titl>
+            <icon>win/erase.png</icon>
+        </act>
+        <act name="zapnoutProminutiSPFirma">
+            <titl>Zapnutie oslobodenia od SP pre spoločnosť</titl>
+        </act>
+        <act name="vypnoutProminutiSPFirma">
+            <titl>Vypnutie oslobodenia od SP pre spoločnosť</titl>
+        </act>
+        <act name="predvyplnitPrevedeneDovoleneHod">
+            <titl>Predvyplnenie počtu hodín prenesenej dovolenky</titl>
+        </act>
+        <act name="predvyplnitDovoleneHod">
+            <titl>Predvyplnenie počtu hodín dovolenky</titl>
+        </act>
+        <act name="zmenaCisMzdSlozAction">
+            <titl>###Změna číselníku mzdové složky</titl>
+        </act>
+        <act name="importXmlNeschopenka">
+            <titl>###Import eNeschopenky</titl>
+            <desc>###Importovat XML soubor eNeschopenky</desc>
+            <icon>win/xml-import.png</icon>
+        </act>
+    </actions>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <buttons>
+        <btn name="mzdyVystupSouborOutVyberOk">
+            <titl>Vybrať</titl>
+        </btn>
+        <btn name="mzdyOsobaDetiOdpocVyber">
+            <titl>Výber</titl>
+        </btn>
+        <btn name="mzdyVystupVytvoritAOtevritPdf">
+            <titl>Vytvoriť a otvoriť súbor formátu PDF</titl>
+        </btn>
+        <btn name="mzdyVystupVytvoritTisk">
+            <titl>Tlač</titl>
+        </btn>
+        <btn name="mzdyVystupVytvoritTiskZalDan">
+            <titl>Tlač dokumentov pre preddavkovú daň</titl>
+        </btn>
+        <btn name="mzdyVystupVytvoritTiskSrazDan">
+            <titl>Tlač dokladov o zrážkovej dani</titl>
+        </btn>
+        <btn name="mzdyVystupUlozitDoXml">
+            <titl>Uložiť do formátu XML (podklad pre elektronickú komunikáciu so SP)</titl>
+        </btn>
+        <btn name="mzdyVystupUlozitDoXmlZalDan">
+            <titl>Preddavková daň - export do formátu XML</titl>
+        </btn>
+        <btn name="mzdyVystupUlozitDoXmlSrazDan">
+            <titl>Zrážková daň - export do formátu XML</titl>
+        </btn>
+        <btn name="prehledMzdSlozSumStredisek">
+            <titl>Sumácia stredisiek</titl>
+        </btn>
+        <btn name="mzdyPlatiOdDoAdd">
+            <titl>Pridaj nastavenie</titl>
+        </btn>
+        <btn name="mzdyPlatiOdDoDelete">
+            <titl>Zmaž nastavenie</titl>
+        </btn>
+        <btn name="mzdyVystupZamknoutPdf">
+            <titl>Neumožniť editáciu</titl>
+        </btn>
+        <btn name="mzdyVystupPotOZdanPrijmechZal">
+            <titl>Potvrdenie o zaplatení preddavku na daň</titl>
+        </btn>
+        <btn name="mzdyVystupPotOZdanPrijmechSraz">
+            <titl>Potvrdenie o zrážkovej dani</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOznameniAuto">
+            <titl>Automaticky určiť či sa jedná o nástup alebo ukončenie</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOznameniNastup">
+            <titl>Oznámenie nástupu do zamestnania</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOznameniKonec">
+            <titl>Oznámenie skončenia zamestnania</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOzuspojAuto">
+            <titl>###Automaticky určit zda se jedná o uplatnění či ukončení záměru</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOzuspojNastup">
+            <titl>###Uplatnění záměru</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOzuspojKonec">
+            <titl>###Skončení záměru</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOzuspojStorno">
+            <titl>###Storno záměru</titl>
+        </btn>
+        <btn name="mzdyVystupRadneHlaseni">
+            <titl>riadne hlásenie</titl>
+        </btn>
+        <btn name="mzdyVystupOpravneHlaseni">
+            <titl>opravné hlásenie</titl>
+        </btn>
+        <btn name="mzdyVystupNasledneHlaseni">
+            <titl>následné hlásenie</titl>
+        </btn>
+        <btn name="mzdyVystupRadneVyuc">
+            <titl>správne vyúčtovanie</titl>
+        </btn>
+        <btn name="mzdyVystupOpravneVyuc">
+            <titl>opravná fakturácia</titl>
+        </btn>
+        <btn name="mzdyVystupDodatecneVyuc">
+            <titl>dodatočná fakturácia</titl>
+        </btn>
+        <btn name="mzdyVystupDodatecneOpravneVyuc">
+            <titl>dodatočné opravné vyhlásenie</titl>
+        </btn>
+        <btn name="zmenaCisSlozZamcene">
+            <titl>###chci změnit i složky v zamčeném období</titl>
+        </btn>
+        <btn name="zmenaCisSlozBezZamceneho">
+            <titl>###nechci změnit složky v zamčeném období</titl>
+        </btn>
+    </buttons>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="mzdyVystupSouborOutVyber">
+            <titl>Výber súboru pre uloženie</titl>
+        </dlg>
+        <dlg name="mzdyVypocetVyberMesice">
+            <titl>Mesiac pre výpočet mzdy</titl>
+        </dlg>
+        <dlg name="mzdyGeneraceZavVyberMesice">
+            <titl>Mesiac pre generáciu záväzkov</titl>
+        </dlg>
+        <dlg name="mzdyOsobaDetiOdpoc">
+            <titl>Výber detí pre uplatnenie odpočtu</titl>
+        </dlg>
+        <dlg name="zdrPojGenerovaniTitle">
+            <titl>Prehľad o platbe poistného</titl>
+        </dlg>
+        <dlg name="zdrPojHromadneOzn">
+            <titl>Hromadné oznámenia pre zdravotné poisťovne</titl>
+        </dlg>
+        <dlg name="potOZdanPrijmechTitle">
+            <titl>Potvrdenia o zdaniteľných príjmoch</titl>
+        </dlg>
+        <dlg name="mzdyVycetPlatidelVyberMesice">
+            <titl>Parametre pre tlač súpisu platidel</titl>
+        </dlg>
+        <dlg name="prehledMzdSlozek">
+            <titl>Tvorba dotazu pre mzdové zložky</titl>
+        </dlg>
+        <dlg name="prilohaZadostiForm">
+            <titl>Príloha žiadosti o</titl>
+        </dlg>
+        <dlg name="hzupnForm">
+            <titl>Hlásenie zamestnávateľa o ukončení pracovnej neschopnosti</titl>
+        </dlg>
+        <dlg name="zmenaCiselnikuSlozky.title">
+            <titl>###Změna číselníku mzdových složek</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="osobaDuplicitniOsbCis">
+            <titl>Osobné číslo '%p' už používa iný zamestnanec.</titl>
+        </msg>
+        <msg name="osobaZdravPojPovinne">
+            <titl>U zamestnanca musí byť vyplnená zdravotná poisťovňa.</titl>
+        </msg>
+        <msg name="osobaZdravPojNevyplneno">
+            <titl>U zamestnanca nie je vyplnená zdravotná poisťovňa.</titl>
+        </msg>
+        <msg name="osobaRodCisNevyplneno">
+            <titl>U zamestnanca nie je vyplnené rodné číslo, nebude zobrazené v žiadnych výstupoch.</titl>
+        </msg>
+        <msg name="osobaZpusPlatbyPovinne">
+            <titl>U zamestnanca musí byť vyplnený spôsob platby.</titl>
+        </msg>
+        <msg name="osobaStatObcanPovinne">
+            <titl>U zamestnanca musí byť vyplnené štátne občianstvo.</titl>
+        </msg>
+        <msg name="osobaDatNarozPovinne">
+            <titl>U zamestnanca musí byť vyplnený dátumu narodenia.</titl>
+        </msg>
+        <msg name="osobaRodCisPovinne">
+            <titl>U zamestnanca musí byť vyplnené rodné číslo.</titl>
+        </msg>
+        <msg name="osobaRodCisDatNarozPovinne">
+            <titl>U zamestnanca musí byť vyplnené rodné číslo a dátum narodenia.</titl>
+        </msg>
+        <msg name="osobaJmenoPrijmeniPovinne">
+            <titl>U zamestnanca musí byť vyplnené meno a priezvisko.</titl>
+        </msg>
+        <msg name="osobaRodnePrijmeniPovinne">
+            <titl>Osoba %p nemá uvedené priezvisko.</titl>
+        </msg>
+        <msg name="osobaStaleMzdoveSlozkyPrazdne">
+            <titl>Stále mzdové zložky sú prázdne.</titl>
+        </msg>
+        <msg name="osobaSlevyNaDaniPrazdne">
+            <titl>Zľavy na dani sú prázdne.</titl>
+        </msg>
+        <msg name="osobaDiteViceOdpoctu">
+            <titl>Dieťa '%p' je vybrané na viacerých miestach na odčítanie.</titl>
+        </msg>
+        <msg name="pracPomAktivniOdPovinne">
+            <titl>U pracovného pomeru musí byť vyplnené pole 'Aktívny od'.</titl>
+        </msg>
+        <msg name="mzdyVystupPracPomKonecPomeru">
+            <titl>U pracovného pomeru musí byť vyplnené pole 'Konec pomeru'.</titl>
+        </msg>
+        <msg name="mzdyVystupPracPomPolePovinne">
+            <titl>###U pracovního poměru musí být vyplněno pole '%p'.</titl>
+        </msg>
+        <msg name="mzdyVystupChybaNacitaniDuchodu">
+            <titl>Pri načítaní dôchodku z databázy nastala chyba.</titl>
+        </msg>
+        <msg name="pracPomUvazHodDnuZacPracDobyPovinne">
+            <titl>U pravidelného pracovného pomeru musia byť vyplnené hodiny denne, dni týždňa a začiatok pracovnej doby.</titl>
+        </msg>
+        <msg name="pracPomSlevaSpFirmaDuvodPovinny">
+            <titl>###Je-li uplatňována sleva SP za firmu, musí být vyplněn důvod uplatnění slevy.</titl>
+        </msg>
+        <msg name="pracPomSlevaSpFirmaOdPovinny">
+            <titl>###Je-li uplatňována sleva SP za firmu, musí být vyplněn datum začátku uplatňování slevy.</titl>
+        </msg>
+        <msg name="pracPomSlevaSpFirmaUplatnujeVicePomu">
+            <titl>###V období platnosti aktuálního pracovního poměru je více poměrů, kde je uplatňována sleva na SP za firmu.</titl>
+        </msg>
+        <msg name="pracPomSlevaSpFirmaUvazHodTydne">
+            <titl>###Slevu na SP za firmu lze uplatnit jen, pokud je týdenní rozsah úvazků standardních pracovních poměrů v rozsahu 8 - 30 hodin.</titl>
+        </msg>
+        <msg name="pracPomInitSlozkyPrazdne">
+            <titl>Inicializačné zložky sú prázdne.</titl>
+        </msg>
+        <msg name="pracPomNepravNulujSmeny">
+            <titl>Pracovný rozvrh bol predtým pravidelný a teraz už nie je. Prajete si vynulovať pracovné zmeny?</titl>
+        </msg>
+        <msg name="pracPomZkraceniPomeru">
+            <titl>Varovanie. Pri skrátení trvania pracovného pomeru nedôjde k odstráneniu už existujúcich účtovných dokladov.</titl>
+        </msg>
+        <msg name="mzdyVystupNeniAdrSocPoj2">
+            <titl>Nie je zadané bankové spojenie pre sociálne poistenie. Bankové spojenie pridáte editáciou záznamu OSSZ \nuvedeného v Nastavenie -&gt; Moduly -&gt; Zamestnanci -&gt; Poistenie -&gt; Adresa a bankové spojenie.</titl>
+        </msg>
+        <msg name="mzdyVystupSlevaSpPriVypnuti">
+            <titl>###Přestože mají následující osoby u svých pracovních poměrů vypnutou slevu SP za firmu,\nbyla jim vypočtena. Jedná se o pracovní poměry těchto osob:\n%p</titl>
+        </msg>
+        <msg name="mzdyVystupNeniVsSocPoj">
+            <titl>Na bankovom účte pre sociálne zabezpečenie sa neuvádza žiadny variabilný symbol. Bankové spojenie môžete upraviť úpravou záznamu OSSZ \nuvedeného v Nastaveniach -&gt; Moduly -&gt; Zamestnanci -&gt; Poistenie -&gt; Adresa a bankové spojenie.</titl>
+        </msg>
+        <msg name="mzdyVystupSouborChyba">
+            <titl>Pri ukládaní súboru došlo k chybe.</titl>
+        </msg>
+        <msg name="mzdyVystupSouborPovinny">
+            <titl>Musíte zadať cestu k cieľovému súboru.</titl>
+        </msg>
+        <msg name="mzdyVystupNeexistujeHozForm">
+            <titl>###Pro pojištovnu %p neexistuje formulář pro hromadné oznámení zaměstnavateli.</titl>
+        </msg>
+        <msg name="mzdyVystupNeexistujePovpForm">
+            <titl>###Pro pojištovnu %p neexistuje formulář pro přehled o platbě pojistného zaměstnavatele.</titl>
+        </msg>
+        <msg name="mzdyVystupRokPovinny">
+            <titl>###Musíte zadat rok.</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOsobaNemaDuvodUkonceniCssz">
+            <titl>Osoba %p nemá zvolený dôvod ukončenia PP pre CSSA.</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOnzNeuplnaAdresa">
+            <titl>###Adresa %p nemá vyplněny všechny údaje (je-li vyplněna ulice, jsou všechny údaje adresy povinné).</titl>
+        </msg>
+        <msg name="adrTrvPobytu">
+            <titl>###trvalého pobytu</titl>
+        </msg>
+        <msg name="adrVCr">
+            <titl>###pobytu v ČR</titl>
+        </msg>
+        <msg name="kontaktAdr">
+            <titl>###kontaktní</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOnzDruhCinnostiMalyRozsah">
+            <titl>###Jedná-li se o zaměstnání malého rozsahu, nesmí být druhem pracovního poměru DPP.</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOsobaNemaDatumDuchoduOd">
+            <titl>Osoba %p má vyplnené pole Typ dôchodku, ale nemá vyplnené pole Dôchodok od.</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOsobaNemaValidniDatumDuchoduOd">
+            <titl>Pre osobu %p je pole Dôchodok od vyplnené nesprávne, dátum musí byť väčší alebo rovný dátumu narodenia a menší alebo rovný dátumu vytvorenia hlásenia.</titl>
+        </msg>
+        <msg name="mzdyNepritomnostCisloRozhodnutiNevalidni">
+            <titl>Číslo rozhodnutia je neplatné. Číslo rozhodnutia obsahuje 18 číslic (v prípade elektronickej práceneschopnosti) alebo písmeno a 6-7 číslic (v prípade papierovej práceneschopnosti).</titl>
+        </msg>
+        <msg name="mzdyVystupOsobaPovinna">
+            <titl>Musíte vyplniť osobu.</titl>
+        </msg>
+        <msg name="mzdyVystupPracPomPovinny">
+            <titl>Pracovný pomer je povinný.</titl>
+        </msg>
+        <msg name="mzdyVystupNepritomnostPovinna">
+            <titl>Neprítomnost je povinná.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnCisPotvrzeniPovinne">
+            <titl>Ak nejde o zahraničné osvedčenie, číslo rozhodnutia DPN je povinné.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnDatNavratPovinny">
+            <titl>Pokiaľ sa jedná o návrat do práce, musí byť vyplnený dátum návratu.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnDuvodNenavradDoPracePovinny">
+            <titl>Ak sa nejedná o návrat do práce, musí byť vyplnené, prečo nezačal zamestnanec vykonávať zamestnanie.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnDuvodNenavradDoPraceMaxDelka">
+            <titl>Dôvod, prečo nezačal zamestnanec vykonávať zamestnanie, môže byť dlhý maximálne 200 znakov.</titl>
+        </msg>
+        <msg name="mzdyVystupOzuspojNeniOssz">
+            <titl>###U sociálního pojištění není v nastavení firmy platném k %p zadána OSSZ.\nOSSZ přidáte v Nastavení -&gt; Moduly -&gt; Zaměstnanci -&gt; Pojištění -&gt; Adresa a bankovní spojení.</titl>
+        </msg>
+        <msg name="mzdyVystupOzuspojNeniOsszBanSpoj">
+            <titl>###U sociálního pojištění není v nastavení firmy platném k %p zadáno bankovní spojení pro OSSZ.\nBankovní spojení přidáte editací záznamu OSSZ\nuvedené v Nastavení -&gt; Moduly -&gt; Zaměstnanci -&gt; Pojištění -&gt; Adresa a bankovní spojení.</titl>
+        </msg>
+        <msg name="mzdyVystupOzuspojNeniOsszKod">
+            <titl>###U sociálního pojištění není v nastavení firmy platném k %p zadán kód pro tisky pro OSSZ.\nKód pro tisky přidáte editací záznamu OSSZ\nuvedené v Nastavení -&gt; Moduly -&gt; Zaměstnanci -&gt; Pojištění -&gt; Adresa a bankovní spojení.</titl>
+        </msg>
+        <msg name="hzupnPracDobaHodPoslDenToolTip">
+            <titl>Dĺžka smeny posledný deň pracovnej neschopnosti. Možno zmeniť na karte zamestnanca.</titl>
+        </msg>
+        <msg name="hzupnZadnaNepritomnost">
+            <titl>Nebola nájdená žiadna neprítomnosť.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnPovinnyDatVyst">
+            <titl>Dátum vystavenia Hlásenie je povinný.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnNenalezenaZadnaNepritomnost">
+            <titl>V aktuálnom účtovnom období nie je zadaná žiadna neprítomnosť pre zvolený pracnovní pomer zvoleného zamestnanca.</titl>
+        </msg>
+        <msg name="mzdyVystupOpravaEldpDatumPovinne">
+            <titl>Musíte zadať dátum ELDP, ktorý opravujete.</titl>
+        </msg>
+        <msg name="mzdyVystupOsobaPovinnaVyplnit">
+            <titl>###Musíte vyplnit osobu.</titl>
+        </msg>
+        <msg name="mzdyVystupNevybranyOsoby">
+            <titl>Musíte vybrať najmenej jednu osobu.</titl>
+        </msg>
+        <msg name="mzdyVystupNahrProcZaPoj">
+            <titl>V ceste k súboru musíte uviesť znak percenta, ktorý bude nahradený za dátum a kód príslušnej zdrav. poisťovne.</titl>
+        </msg>
+        <msg name="mzdyVystupNarokNaBonus">
+            <titl>Skontrolujte, či máte nárok na bonusové platby. Minimálny príjem potrebný na získanie nároku na bonusy nebol dosiahnutý.</titl>
+        </msg>
+        <msg name="mzdyVystupExportUspech">
+            <titl>Prehľad bol úspešne vyexportovaný.</titl>
+        </msg>
+        <msg name="mzdyVystupExportUspechVice">
+            <titl>###Přehledy (%p) byly úspěšně vyexportovány.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniZpusobPlatby">
+            <titl>U zamestnanca %p nie je zadaný spôsob platby.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniCUctu">
+            <titl>U zamestnanca %p nie je zadané číslo účtu.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniUcet">
+            <titl>U zamestnanca %p nie je zadané bankové spojenie.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniKodBanky">
+            <titl>Pri účte zamestnanca %p nie je zadaný kód banky.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniIban">
+            <titl>U zahraničného účtu zamestnanca %p nie je zadaný IBAN.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniStat">
+            <titl>U zahraničného účtu zamestnanca %p nie je zadaný stať.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniAdresaObec">
+            <titl>U adresy zamestnanca %p nie je zadaná obec adresy pre výplatu.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniAdresaUlice">
+            <titl>U adresy zamestnanca %p nie je zadaná ulica adresy pre výplatu.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniAdresaPsc">
+            <titl>U adresy zamestnanca %p nie je zadané PSČ adresy pre výplatu.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaChybaZpusobPlatby">
+            <titl>Neznámy spôsob platby u změstnance %p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavJizExistuji">
+            <titl>Pre vybrané obdobie už existujú záväzky alebo interné doklady.\nChcete ich zmazať?</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavZamceno">
+            <titl>Generáciu dokladov nie je možné vykonať, protože zvolené obdobie je zamknuté.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavOsobaNemaPojistovnu">
+            <titl>Osoba %p nemá zadanú zdravotnú poisťovňu.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavOsobaNemaZadanoPoleNaPomeru">
+            <titl>Osoba %p nemá zadané pole '%p' pre pracovný pomer %p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavOsobaNemaStatObcan">
+            <titl>Osoba %p nemá zadané státní občanství.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavOsobaNemaStredisko">
+            <titl>Osoba %p nemá zadané stredisko.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavNastaveniNevyplneneTd">
+            <titl>V nastavení firmy nie sú zadané všetky typy dokladov potrebné pre vytvorenie záväzkov.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavTdNemaRadu">
+            <titl>U typu dokladu '%p' nie je vybraný dokladový rad.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavSmazatPrikazChyba">
+            <titl>Niektorý zo záväzkov nie je možné zmazať, pretože je obsiahnutý v príkaze k úhrade.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavProgressInfo">
+            <titl>Probíieha generácia záväzkov...</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavPraceStredPrekrocenaDoba">
+            <titl>U zamestnanca '%p' prekračuje zadanie práce pre strediská/zakázky/činnosti fond pracovnej doby.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavNeniVypocteno">
+            <titl>Vo zvolenomm mesiaci nie je vypočítaná mzda následujících osôb:</titl>
+        </msg>
+        <msg name="mzdyneniVypocteno">
+            <titl>Mzda %p/%p sa nevypočítava.</titl>
+        </msg>
+        <msg name="mzdyGeneraceNeniEmail">
+            <titl>E-mailová adresa nie je vyplnená.</titl>
+        </msg>
+        <msg name="mzdyNejsouZaznamy">
+            <titl>Pre zadaný filter nie sú k dispozícii žiadne mzdy.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavNeniFiltr">
+            <titl>Filter pre výber miezd nie je vyplnený.</titl>
+        </msg>
+        <msg name="mzdyOsobaChybiHeslo">
+            <titl>Heslo nie je vyplnené.</titl>
+        </msg>
+        <msg name="mzdyOdeslaniOk">
+            <titl>Výplatné pásky pre výber "%p" boli zahrnuté na odoslanie. Celková suma na odoslanie: %p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceIntNastaveniNevyplneneTd">
+            <titl>Pre niektorý pracovný pomer sa nepodarilo nájsť potrebný typ interného dokladu.\nPoradie hľadania: Pracovný pomer, Skupina osôb, Nastavenie</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavNeniMzda">
+            <titl>Vo zvolenomm mesiaci nie je žiadna mzda.</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolUvod">
+            <titl>Vo vypočítaných mzdách za január 2021 bolo zistené %p zložiek s prevodom dovolenky.</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolNastavenoPocet">
+            <titl>Počet hodín dovolenky bol stanovený pre zložky prestupu dovolenky týchto osôb - pracovnoprávne vzťahy:</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolNastavenoNic">
+            <titl>Nenašiel sa žiadny priečinok na prenos dovolenky, ktorý by bolo možné aktualizovať.</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolNenastavenoPocet">
+            <titl>Zložky prechodu dovolenky týchto osôb - pracovnoprávne vzťahy NIE sú stanovené na počet hodín dovolenky:</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolNenastavenoNic">
+            <titl>Nenašiel sa žiadny priečinok na prenos dovolenky, ktorý by sa NEDAL aktualizovať.</titl>
+        </msg>
+        <msg name="nepodariloSeNacistMzdoveSlozky">
+            <titl>Nepodarilo sa načítať mzdové zložky.</titl>
+        </msg>
+        <msg name="mzdyVystupyNepodariloSeNacistRoky">
+            <titl>###Nepodařilo se načíst roky.</titl>
+        </msg>
+        <msg name="nepodariloSeNacistNeukonceneStdPP">
+            <titl>Nepodarilo sa vyhľadať neukončené štandardné pracovné pomery.</titl>
+        </msg>
+        <msg name="nepodariloSeNacistSumuUvazku">
+            <titl>###Nepodařilo se načíst sumu úvazků.</titl>
+        </msg>
+        <msg name="nepodariloSeNacistPocetPPSlevaSPFirma">
+            <titl>###Nepodařilo se načíst počet pracovních poměrů se slevou na SP za firmu.</titl>
+        </msg>
+        <msg name="mzdovyListSeNepodaril">
+            <titl>Nepodarilo sa spracovať dáta pre mzdový list.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyZmeneno">
+            <titl>###Složky byly úspěšně přenastaveny.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyChybaZmeny">
+            <titl>###Složky se nepodařilo změnit.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyZadnaOsoba">
+            <titl>###Nebyla nalezena žádná osoba, u které by šlo přenastavit složku.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyChybiPuvodniSlozka">
+            <titl>###Musíte vybrat původní složku.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyChybiNovaSlozka">
+            <titl>###Musíte vybrat novou složku.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyChybiVyberZamcene">
+            <titl>###Musíte vybrat, jestli se mají změnit i složky v zamčeném období.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyZamceneObdobi">
+            <titl>###Ve zvoleném období existují zamčené mzdy.\nPřejete si pokračovat?</titl>
+        </msg>
+        <msg name="mzdyVystupNelzeNacistMzdyZDB">
+            <titl>Nepodarilo sa načítať mzdy z databázy.</titl>
+        </msg>
+        <msg name="mzdyVystupNelzeNacistOsobyZDB">
+            <titl>Nepodarilo sa načíst osoby z databázy.</titl>
+        </msg>
+        <msg name="mzdyVystupNelzeNacistNastOsobDB">
+            <titl>Nepodarilo sa načítať históriu nastavenia osoby.</titl>
+        </msg>
+        <msg name="mzdyVypocetZamceno">
+            <titl>Výpočet miezd nie je možné vykonať, pretože zvolené obdobie je zamknuté.</titl>
+        </msg>
+        <msg name="mzdyNepritomnostZamceno">
+            <titl>Uloženie neprítomnosti %p nie je možné, pretože by došlo k ovplyvneniu miezd v zamknutom období.</titl>
+        </msg>
+        <msg name="mzdyNepritomnostNevypocteneMzdy">
+            <titl>Uloženie neprítomnosti %p nie je možné, pretože v zablokovanom období sú nevyplatené mzdy.</titl>
+        </msg>
+        <msg name="mzdyPrekrizeniDatumu">
+            <titl>Dátum ukončenia nemôže předchádzať dátumu začatia.</titl>
+        </msg>
+        <msg name="mzdyHodinyXNeniDatumDo">
+            <titl>Je potrebné vyplniť dátum ukončenia.</titl>
+        </msg>
+        <msg name="mzdyUlozVyplatniPaskyNejsouData">
+            <titl>Pre export miezd nie sú k dispozícii žiadne údaje.</titl>
+        </msg>
+        <msg name="mzdyUlozVyplatniPaskyUspech">
+            <titl>Výplatné pásky boli úspešne exportované.</titl>
+        </msg>
+        <msg name="mzdyUlozVyplatniPaskyChyba">
+            <titl>Výplatné pásky boli exportované.</titl>
+        </msg>
+        <msg name="mzdyUlozVyplatniPaskyProbiha">
+            <titl>Prebiehajúci export miezd</titl>
+        </msg>
+        <msg name="mzdyNepritomnostExistJina">
+            <titl>V zadanom termíne neprítomnosti %p sa už vyskytuje iná neprítomnosť %p.</titl>
+        </msg>
+        <msg name="mzdyOsobaNastaveniNeni">
+            <titl>Pre osobu %p neexistuje žiadne nastavenie.</titl>
+        </msg>
+        <msg name="mzdyOsobaNastaveniVice">
+            <titl>Pre osobu %p existuje viacero nastavení.</titl>
+        </msg>
+        <msg name="mzdyZamekTestChyba">
+            <titl>Chyba v priebehu overovania zámkov miezd.</titl>
+        </msg>
+        <msg name="mzdyUlozeniZamceno">
+            <titl>Uloženie nie je možné, pretože by došlo k ovplyvneniu miezd v zamknutom období %p/%p.</titl>
+        </msg>
+        <msg name="mzdyVystupDBChybaOsoba">
+            <titl>Chyba pri načítaní zoznamu osôb z databázy.</titl>
+        </msg>
+        <msg name="mzdyVystupDBChybaNeprit">
+            <titl>Chyba pri hľadaní neprítomnosti.</titl>
+        </msg>
+        <msg name="mzdyVystupZdrPrehledNeniZdrPoj">
+            <titl>Pre osobu %p musíte vyplniť zdravotnú poisťovňu.</titl>
+        </msg>
+        <msg name="mzdyVystupVsePovinne">
+            <titl>Musíte vyplniť všetky údaje.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoNovePlatneOd">
+            <titl>Vytvoriť nastavenie platné od:</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoNelzeSmazatJedine">
+            <titl>Nie je možné zmazať jediné existujúce nastavenie.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoPrvniNeomezena">
+            <titl>Prvé nastavenie vytvorené pre osobné číslo "%p" musí mať neobmedzenú platnosť.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoOpravduSmazat">
+            <titl>Skutočne chcete zmazať aktuálne nastavenie?</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoNotConsistent">
+            <titl>Jednotlivé obdobia netvoria súvislý chronologický rad.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoSingleDeleteNotPossible">
+            <titl>Nemôžete odstrániť jedno existujúce nastavenie pre "%p".</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoNotChangeAble">
+            <titl>Platnosť nemôžete zmeniť, ak zmena ovplyvňuje iné nastavenie ako predchádzajúce nastavenie.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdNelzeZmenit">
+            <titl>Hodnotu začiatku platnosti existujúceho nastavenia už nemožno zmeniť.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdExists">
+            <titl>Nastavenie s rovnakým dátumom začiatku už existuje.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdPrvniho">
+            <titl>###Nastavení by mělo být platné od 1. dne v měsíci. Výpočet mezd používá nastavení, které je platné k 1. dni v měsíci. Změna v průběhu měsíce se neprojeví ve výpočtu mezd a ve mzdových výstupech."</titl>
+        </msg>
+        <msg name="mzdyVypocetNeniKalkulacka">
+            <titl>Pre zvolené obdobie %p nie je v programe obsiahnutý predpis pre výpočet miezd.</titl>
+        </msg>
+        <msg name="mzdyVypocetNemocProplatVarov">
+            <titl>Před výpočtom je vhodné skontrolovať obdobia preplácania náhrad nemocí.</titl>
+        </msg>
+        <msg name="mzdyVypocetNastaveniDetiVarov">
+            <titl>V prípade, že si zamestnanec uplatňuje daňové zvýhodnenie na deti, je potrebné nové nastavenie, ktoré zabezpečí, aby sa zrážka vykonávala v súlade s platnou legislatívou.</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24">
+            <titl>###Ve mzdách pro %p/%p jsou zadány složky, které byly od roku 2024 nahrazeny novými.\nV případě, že jsou složky zadány ve srážkách je třeba jim ukončit platnost ke konci předchozího měsíce a nové složky zadat ve stálých mzdových složkách.\n\nNalezeny byly tyto složky:\n</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24Slozka">
+            <titl>###- %p - nahrazena složkou %p\n</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24PenPojZamZrusena">
+            <titl>###- %p - rozdělena na: PENZIJ. POJ. DOPLŇ., PENZIJ. POJ. INST., PENZIJ.POJ.STAT\n</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24PenPojZrusena">
+            <titl>###- %p - rozdělena na: PŘÍSP.PEN.POJ.DOPLŇ, PŘÍSP.PEN.POJ.INSTIT, PŘÍSP.PEN.POJ.STAT\n</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24PenPojProcZrusena">
+            <titl>###- %p - rozdělena na: PŘÍSP.PEN.POJ.DOPL.%, PŘÍSP.PEN.POJ.INST.%, PŘÍSP.PEN.POJ.STAT %\n</titl>
+        </msg>
+        <msg name="mzdyVypocetUpozorneniZapnutiProminutiSPFirma">
+            <titl>Za obdobie &lt;i&gt;jún - august 2020&lt;/i&gt; je možné, ak sú splnené zákonné podmienky, využiť &lt;b&gt;odstúpenie od sociálneho poistenia pre firmu&lt;/b&gt;.\nOdstúpenie je potrebné aktivovať pred výpočtom miezd aktiváciou možnosti "%p" v nastaveniach jednotlivých pracovných pomerov s účinnosťou od 1. júna 2020 (alebo neskôr).\nAlebo ho možno aktivovať hromadne pre všetky štandardné pracovné pomery pomocou služby v HR.\n\nPokračovať vo výpočte miezd?</titl>
+        </msg>
+        <msg name="mzdyVypocetUpozorneniVypnutiProminutiSPFirma">
+            <titl>Za obdobie &lt;i&gt;jún - august 2020&lt;/i&gt; bolo možné pri splnení zákonných podmienok využiť &lt;b&gt;odhlásenie zo sociálneho poistenia za spoločnosť&lt;/b&gt;.\nOdhlásenie bolo zapnuté v nastaveniach zamestnávania, s účinnosťou od 1. septembra 2020 by malo byť vypnuté. Prípadne ho možno vypnúť hromadne pomocou služby v HR.\nAk už boli vypočítané septembrové mzdy, je potrebné ich po vypnutí prepočítať a skontrolovať.</titl>
+        </msg>
+        <msg name="mzdyVypocetNastaveniDruhyPilirVarov">
+            <titl>Z dôvodu zrušenia II. piliera k 1. januáru 2016 je potrebné v Personalistike pridať nové nastavenie pre zamestnancov, ktorí boli účastníkmi II. piliera a II. pilier zrušiť (Personalistika - Parametre miezd - Sociálne poistenie - Účastník dôchodkového sporenia).</titl>
+        </msg>
+        <msg name="mzdyVypocetInfoOdmenyPrepocet">
+            <titl>Došlo k aktualizácii zložiek mzdy, ktoré ovplyvňujú výpočet PPP.\nAk ste v predchádzajúcom roku použili mzdy za viac mesiacov a máte vypočítané mzdy v aktuálnom roku, prepočítajte mzdy na správny PPP.</titl>
+        </msg>
+        <msg name="mzdyVypocetDovolena2021Info">
+            <titl>Pre správny výpočet dovolenky v roku 2021 je potrebné nastaviť počet hodín dovolenky na pracovisku v Personalistike.\nMôžete použiť novú službu "Predvyplniť hodiny dovolenky" a potom použiť výpočet mzdy v Aktualizácii miezd.\nV prípade prevodu dovolenky z minulého roka je potrebné v januári pridať zložku "Prevod dovolenky z roku 2020 do roku 2021" \na vyplniť hodiny a vybrať, že ide o zmenu času užívateľa.\nNa pridanie tejto zložky môžete použiť službu "Predvyplniť počet hodín prenesenej dovolenky" v Aktualizácii miezd.\nPo pridaní tejto zložky je potrebné prepočítať mzdy.\nPri výpočte mzdy za január odporúčame skontrolovať hodiny v poli "Zostávajúca dovolenka"\n, "Prenos dovolenky z minulého roka" a "Prenos dovolenky z roku 2020 do roku 2021".</titl>
+        </msg>
+        <msg name="mzdyVypocetLicenceNespocteno">
+            <titl>Z dôvodu licenčných obmedzení neboli spočítané mzdy pre %p osôb.\nLicencia dovoľuje spočítať mzdu pre maximálne %p osôb mesačne.</titl>
+        </msg>
+        <msg name="mzdyVypocetJedneLicenceNespocteno">
+            <titl>Nie je možné spočítať mzdu z dôvodu licenčného obmedzenia na %p spočítaných miezd mesačne.</titl>
+        </msg>
+        <msg name="mzdyVypocetMimoUcetniObdobi">
+            <titl>Mzdy nie je možné vypočítať mimo aktuálne stanoveného účtovného obdobia. Musíte najprv vytvoriť nové účtovné obdobie.</titl>
+        </msg>
+        <msg name="mzdyVypocetProgressInfo">
+            <titl>Prebieha výpočet miezd...</titl>
+        </msg>
+        <msg name="mzdyVypocetDovolenaZaporna">
+            <titl>Po výpočte mzdy je zostávajúca dovolenka záporná.</titl>
+        </msg>
+        <msg name="mzdyVypocetDovoleneZaporne">
+            <titl>U následujúcích osôb vyšla zostávajúca dovolenka záporná:</titl>
+        </msg>
+        <msg name="mzdyVypocetPracujeVic">
+            <titl>Zamestnanec prekročil stanovený limit odpracovaných hodín.</titl>
+        </msg>
+        <msg name="mzdyVypocetPracujouVic">
+            <titl>Následujúce osoby prekročili stanovený limit odpracovaných hodín:</titl>
+        </msg>
+        <msg name="mzdyVystupDanVypocetPresMax">
+            <titl>Maximálna prípustná hodnota pre tento riadok je %p.\nZadaná hodnota bola upravená.</titl>
+        </msg>
+        <msg name="mzdyVystupNevytvariOznameni">
+            <titl>Pre tento typ pracovného pomeru sa nevytvára oznámenie.</titl>
+        </msg>
+        <msg name="pracPomPrekryvKoncu">
+            <titl>Dátum koniec pracovného pomeru nesmie byť neskorší než dátum aktívny do.</titl>
+        </msg>
+        <msg name="pracPomDatumNesmiPredchazet">
+            <titl>###Datum '%p' pracovního poměru nesmí předcházet datu '%p'.</titl>
+        </msg>
+        <msg name="pracPomSkutecnyNastupNevyplneneKdyzZacatek">
+            <titl>###Pokud je vyplněné datum %p, musí být vyplněné i datum %p.</titl>
+        </msg>
+        <msg name="pracPomSkutecnyNastupMesicPoZacatek">
+            <titl>###Datum %p je déle než měsíc po začátku pracovního poměru.</titl>
+        </msg>
+        <msg name="pracPomSkutecnyNastupPouzitiInfo">
+            <titl>###Změnou data '%p' ovlivníte výstupy pro ČSSZ (Oznámení o nástupu, Příloha k žádosti o nemoc, ELDP)\na odvozují se od něj Dny a Vyloučené doby ve formulářích ELDP a Příloha k žádosti o nemoc.</titl>
+        </msg>
+        <msg name="zrusVypocetMzdy.uzivZmeny">
+            <titl>Chcete zrušiť i používateľské zmeny?</titl>
+        </msg>
+        <msg name="praceStredObdobiMocProcent">
+            <titl>V niektorom období je rozdelených viac než sto percent fondu pracovnej doby.</titl>
+        </msg>
+        <msg name="mzdyVystupPrepPocZamNeniUvazek">
+            <titl>Je treba mať pre všetkých zamestnancov vyplnenú týždennú pracovnú dobu aspoň na jednom z následujúcich miest:\nPracovný pomer, Skupina osôb, Nastavenie firmy</titl>
+        </msg>
+        <msg name="mzdyVystupPrepPocZamNeniNastaveniOsoby">
+            <titl>Zamestnanec '%p' nemá nastavenie osoby platné pre %p.</titl>
+        </msg>
+        <msg name="mzdyNeukoncenaNepritomnost">
+            <titl>Zamestnanec "%p" má nevyčerpanú absenciu, ale jeho pracovný pomer už skončil.</titl>
+        </msg>
+        <msg name="mzdyChybnyPocetMesOdmeny">
+            <titl>Odmenu je možné získať len na 6 alebo 12 mesiacov.</titl>
+        </msg>
+        <msg name="mzdyProcVozuNeniCeleCislo">
+            <titl>% auta musí byť celé číslo.</titl>
+        </msg>
+        <msg name="mzdyCastMzdStravenkyNeniCeleCislo">
+            <titl>###Hodnota stravenky musí být celé číslo.</titl>
+        </msg>
+        <msg name="mzdyPreSavePlatnostCisNepritZac">
+            <titl>Začiatok neprítomnosti %p je pred začiatkom dôvodu neprítomnosti (%p).</titl>
+        </msg>
+        <msg name="mzdyPreSavePlatnostCisNepritKonec">
+            <titl>Koniec neprítomnosti %p je po skončení dôvodu neprítomnosti (%p).</titl>
+        </msg>
+        <msg name="prominutiSPWizard.zapnoutPro">
+            <titl>Vyberte mesiac, od ktorého si želáte povoliť &lt;b&gt;na štandardných PP&lt;/b&gt; oslobodenie od SP pre firmu.\nAk sa vykoná zmena, vytvorí sa nové nastavenie PP k 1. dňu vybraného mesiaca:</titl>
+        </msg>
+        <msg name="prominutiSPWizard.vypnoutPro">
+            <titl>Vyberte mesiac, od ktorého si želáte vypnúť oslobodenie od SP pre spoločnosť na &lt;b&gt;všetkých PP&lt;/b&gt;.\nAk sa vykoná zmena, vytvorí sa nové nastavenie PP k 1. dňu vybraného mesiaca:</titl>
+        </msg>
+        <msg name="prominutiSPWizard.zapnoutProHeader">
+            <titl>Zapnutie oslobodenia od SP pre spoločnosť</titl>
+        </msg>
+        <msg name="prominutiSPWizard.vypnoutProHeader">
+            <titl>Vypnutie oslobodenia od SP pre spoločnosť</titl>
+        </msg>
+        <msg name="prominutiSPWizard.infoZapnuto">
+            <titl>Bolo vytvorených %p nových nastavení pracovných pomerov, %p pracovným pomerom bolo zapnuté odpustenie SP za firmu.</titl>
+        </msg>
+        <msg name="prominutiSPWizard.infoVypnuto">
+            <titl>Bolo vytvorených %p nových nastavení pracovných pomerov, %p pracovným pomerom bolo vypnuté odpustenie SP za firmu.</titl>
+        </msg>
+        <msg name="predvyplneniHodDovolPocetInfo">
+            <titl>Pre %p pracovných pomerov bol doplnený počet hodín dovolenky ročne.</titl>
+        </msg>
+        <msg name="predvyplneniHodDovolZadnyPPInfo">
+            <titl>Nebol nájdený žiadny aktívny pracovný pomer, kde by bolo možné predvyplniť počet hodín dovolenky.</titl>
+        </msg>
+        <msg name="mzdyNeniPracPomDatum">
+            <titl>Pre vybraný dátum %p neexistuje pracovný pomer pre zamestnanca %p.</titl>
+        </msg>
+        <msg name="konrolaMzdovychSlozekUkoncitProcesDotaz">
+            <titl>Naozaj chcete ukončiť prebiehajúci audit miezd?</titl>
+        </msg>
+        <msg name="konrolaMzdovychSlozekProbiha">
+            <titl>Prebieha kontrola mzdových zložiek...</titl>
+        </msg>
+        <msg name="mzdyKontrolaUvod">
+            <titl>Počas kontroly zložiek mzdy sa zistilo, že v nasledujúcich prípadoch nebola vyplnená pomocná zložka viacmesačného rozpisu mzdy. Táto zložka ovplyvňuje výšku PPP v nasledujúcom štvrťroku.\n\nPočet osôb: mesiace, v ktorých zložka nie je\n</titl>
+        </msg>
+        <msg name="mzdyKontrolaKonec">
+            <titl>Chcete pridať komponenty k uvedeným mesiacom?\nPridanie komponentu ovplyvňuje výpočet pracovného zákonného priemeru. Po prepočítaní miezd v nasledujúcich obdobiach sa môžu zmeniť sumy miezd, pri ktorých bol použitý pracovný priemer.</titl>
+        </msg>
+        <msg name="mzdyKontrolaChyba">
+            <titl>Kontrola mzdových zložiek zlyhala.</titl>
+        </msg>
+        <msg name="mzdyKontrolaNicNenalezeno">
+            <titl>Kontrolou mzdových podkladov sa nezistili žiadne mzdové podklady, ktoré by bolo potrebné opraviť.</titl>
+        </msg>
+        <msg name="mzdyKontrolaOpraveno">
+            <titl>Boli pridané zložky miezd.</titl>
+        </msg>
+        <msg name="mzdyMzdSlozPrispevekIzolackaKladna">
+            <titl>Príspevok na karanténu (izoláciu) sa zadáva ako kladná hodnota.</titl>
+        </msg>
+        <msg name="mzdyGenerovaniZavazkuOsobaCastka">
+            <titl>Osoba: %p, Suma: %p</titl>
+        </msg>
+        <msg name="prehledSlevaSpChybejiciSlozky">
+            <titl>###Pro rok %p, mesic %p, osobu %p neexistuje současně složka SLEVA_SP_FIRMA_KR a složka SLEVA_SP_FIRMA_KR_A_N.</titl>
+        </msg>
+        <msg name="vyzadovanPracovniPomer">
+            <titl>Komponent %p si vyžaduje pracovný pomer, pretože nie je spoločný pre všetky.</titl>
+        </msg>
+        <msg name="vyzadovanaNepritomnost">
+            <titl>Pre zložku %p sa vyžaduje neprítomnosť.</titl>
+        </msg>
+        <msg name="zruseniVyzadovanyProperty">
+            <titl>Pri zrušení výpočtu miezd je potrebné zadať %p a %p.</titl>
+        </msg>
+        <msg name="vypocetVyzadovanyProperty">
+            <titl>Pri výpočte miezd je potrebné zadať %p a %p.</titl>
+        </msg>
+        <msg name="osobaJinaNezNaPracPomeru">
+            <titl>Definovaná osoba (%p: %p %p) sa líši od zamestnanej osoby (%p: %p %p).</titl>
+        </msg>
+        <msg name="importNeschopenkaJinaOsoba">
+            <titl>###Importovaná data eNeschopenky přísluší osobě '%p.'</titl>
+        </msg>
+        <msg name="mzdyVystupPrijmyZamSoubor">
+            <titl>prijmy</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="osobaOstatniPN">
+            <titl>Ostatné</titl>
+        </lb>
+        <lb name="osobaNezaopParPN">
+            <titl>Nezaopatrený partner</titl>
+        </lb>
+        <lb name="osobaAdresaPN">
+            <titl>Adresa</titl>
+        </lb>
+        <lb name="osobaMzdyPN">
+            <titl>Parametre mzdy</titl>
+        </lb>
+        <lb name="osobaStitkyPN">
+            <titl>Štítky a poznámka</titl>
+        </lb>
+        <lb name="osobaAdrTrvalaPN">
+            <titl>Trvalá</titl>
+        </lb>
+        <lb name="osobaAdrKonPN">
+            <titl>Kontaktná</titl>
+        </lb>
+        <lb name="osobaAdrKonTuzPN">
+            <titl>Pobyt v tuzemsku (trvalý je mimo)</titl>
+        </lb>
+        <lb name="osobaMzdZaklPN">
+            <titl>Základné údaje</titl>
+        </lb>
+        <lb name="osobaMzdSlevyDanPN">
+            <titl>Zľavy na dani</titl>
+        </lb>
+        <lb name="osobaMzdZdrPojPN">
+            <titl>Zdravotné poistenie</titl>
+        </lb>
+        <lb name="osobaMzdCiziPojPN">
+            <titl>Cudzie poistenie</titl>
+        </lb>
+        <lb name="osobaNastaveni">
+            <titl>Nastavenie osoby:</titl>
+        </lb>
+        <lb name="pracPomPocatekPN">
+            <titl>Začiatok</titl>
+        </lb>
+        <lb name="pracPomUctovaniPN">
+            <titl>Účtovanie</titl>
+        </lb>
+        <lb name="pracPomUvazekPN">
+            <titl>Úväzok</titl>
+        </lb>
+        <lb name="pracPomKonecPN">
+            <titl>Ukončenie</titl>
+        </lb>
+        <lb name="pracPomTypyDokladuPN">
+            <titl>###Typy dokladů</titl>
+        </lb>
+        <lb name="pracPomNastaveni">
+            <titl>Nastavenie pracovného pomeru:</titl>
+        </lb>
+        <lb name="pracPomDniUvazku">
+            <titl>Pracovné dni</titl>
+        </lb>
+        <lb name="pracPomZapoctovyListPN">
+            <titl>Zápočtový list</titl>
+        </lb>
+        <lb name="pracPomCsszPN">
+            <titl>ČSSZ</titl>
+        </lb>
+        <lb name="cisMzdSlozViditelnost">
+            <titl>Viditelnosť polí na mzdovej zložke</titl>
+        </lb>
+        <lb name="filterSkupOsobNeomezena">
+            <titl>Skupina osôb neobmedzená</titl>
+        </lb>
+        <lb name="filterOsobaMzdyNeomezena">
+            <titl>Osoba neobmedzená</titl>
+        </lb>
+        <lb name="filterRokMzdyNeomezen">
+            <titl>Rok neobmedzený</titl>
+        </lb>
+        <lb name="filterMesicMzdyNeomezen">
+            <titl>Mesiac neobmedzený</titl>
+        </lb>
+        <lb name="filterSkupSlozkyNeomezena">
+            <titl>Skupina zložky neobmedzená</titl>
+        </lb>
+        <lb name="filterSlozkaMzdyNeomezena">
+            <titl>Zložka neobmedzená</titl>
+        </lb>
+        <lb name="filterTypPracPomNeomezen">
+            <titl>Typ pracovného pomeru neobmedzený</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadneOznNadpis">
+            <titl>Hromadné oznámenie pre zdravotné poisťovne</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadneOznPopis">
+            <titl>Vyberte mesiac a rok ohlašovaných zmien a cieľový súbor.</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadneOznPopis2">
+            <titl>Zvoľte osoby pre predvyplnenie do formulára zdravotnej poisťovne.</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadnePrihlaskaCB">
+            <titl>Prihláška</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadneOdhlaskaCB">
+            <titl>Odhláška</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojPrehledOPlatbeNadpis">
+            <titl>Prehľad o platbe poistného</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojPrehledOPlatbePopis">
+            <titl>&lt;html&gt;Vyberte mesiac a rok pre formulár mesačné hlásenie&lt;br&gt;o platbe poistného na zdravotné poistenie zamestnávateľa.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="mzdyVyst.finUrPotOZdanPrijmechNadpis">
+            <titl>Potvrdenie o zdaniteľných príjmoch</titl>
+        </lb>
+        <lb name="mzdyVyst.finUrPotOZdanPrijmechPopis">
+            <titl>Vyberte rok a osobu, pre ktorú chcete generovať formulár.</titl>
+        </lb>
+        <lb name="mzdyVyst.prehledPojNadpis">
+            <titl>Prehľad o výške poistného</titl>
+        </lb>
+        <lb name="mzdyVyst.prehledPojPopis">
+            <titl>Vyberte mesiac a rok prehľadu. Môžete si tiež zvoliť výstupný formát.</titl>
+        </lb>
+        <lb name="mzdyVyst.pojDuchHlaseniNadpis">
+            <titl>Hlásenie k zálohe na poistné na dôchodkové sporenie</titl>
+        </lb>
+        <lb name="mzdyVyst.pojDuchHlaseniPopis">
+            <titl>Vyberte mesiac, rok a zvoľte typ hlásenia.</titl>
+        </lb>
+        <lb name="mzdyVyst.pojDuchVyuctovaniNadpis">
+            <titl>Vyúčtovanie poistného na dôchodkové sporenie</titl>
+        </lb>
+        <lb name="mzdyVyst.pojDuchVyuctovaniPopis">
+            <titl>Vyberte rok a zvoľte typ vyúčtovania.</titl>
+        </lb>
+        <lb name="mzdyVystupOsoba">
+            <titl>Osoba:</titl>
+        </lb>
+        <lb name="mzdyVystupPracPomer">
+            <titl>Pracovný pomer:</titl>
+        </lb>
+        <lb name="mzdyVystupNepritomnost">
+            <titl>Neprítomnost:</titl>
+        </lb>
+        <lb name="mzdyVystupRok">
+            <titl>Rok:</titl>
+        </lb>
+        <lb name="mzdyVystupCtvrtleti">
+            <titl>Štvrťrok:</titl>
+        </lb>
+        <lb name="mzdyVystupMesic">
+            <titl>Mesiac:</titl>
+        </lb>
+        <lb name="mzdyVystupMesicOd">
+            <titl>Mesiac od:</titl>
+        </lb>
+        <lb name="mzdyVystupMesicDo">
+            <titl>Mesiac do:</titl>
+        </lb>
+        <lb name="mzdyVystupSouborOut">
+            <titl>Cieľový súbor:</titl>
+        </lb>
+        <lb name="mzdyVystupZalohovaDan">
+            <titl>Zálohová daň</titl>
+        </lb>
+        <lb name="mzdyVystupPodklVyucDane">
+            <titl>Podklady pre vyúčtovanie dane z príjmu zo závislej činnosti</titl>
+        </lb>
+        <lb name="mzdyVystupSrazkovaDan">
+            <titl>Zrážková daň</titl>
+        </lb>
+        <lb name="mzdyVyst.prehledMzdSlozNadpis">
+            <titl>Tvorba otázky pre mzdové zložky</titl>
+        </lb>
+        <lb name="mzdyVyst.prehledMzdSlozPopis">
+            <titl>Zadajte vlastnosti zobrazených mzdových zložiek.</titl>
+        </lb>
+        <lb name="mzdyVyst.format">
+            <titl>###Formát:</titl>
+        </lb>
+        <lb name="mzdyVyst.FormatPdf">
+            <titl>###PDF</titl>
+        </lb>
+        <lb name="mzdyVyst.FormatXml">
+            <titl>###XML</titl>
+        </lb>
+        <lb name="prehledMzdSlozObdobi">
+            <titl>Obdobie:</titl>
+        </lb>
+        <lb name="prehledMzdSlozStredisko">
+            <titl>Stredisko:</titl>
+        </lb>
+        <lb name="prehledMzdSlozSkupSlozek">
+            <titl>Skupina zložiek:</titl>
+        </lb>
+        <lb name="prehledMzdSlozCelyRok">
+            <titl>Celý rok</titl>
+        </lb>
+        <lb name="prehledMzdSlozKvartal">
+            <titl>kvartál</titl>
+        </lb>
+        <lb name="prehledMzdSlozPololeti">
+            <titl>polrok</titl>
+        </lb>
+        <lb name="mzdyVypocetMesic">
+            <titl>Vyberte mesiac pre výpočet mzdy:</titl>
+        </lb>
+        <lb name="mzdyGeneraceZavMesic">
+            <titl>Vyberte mesiac pre generáciu záväzkov:</titl>
+        </lb>
+        <lb name="mzdoveListy.vitejte">
+            <titl>Vítajte v sprievodcovi tvorby mzdových listov</titl>
+        </lb>
+        <lb name="mzdoveListy.info1">
+            <titl>Môžete špecifikovať parametre tvorby mzdových listov.</titl>
+        </lb>
+        <lb name="mzdoveListy.info2">
+            <titl>Zobrazia sa iba tie údaje, které vyhovujú všetkým zadaným kritériam.</titl>
+        </lb>
+        <lb name="mzdoveListy.obdobi">
+            <titl>Rok:</titl>
+        </lb>
+        <lb name="mzdoveListy.skupOsob">
+            <titl>Skupina osôb:</titl>
+        </lb>
+        <lb name="mzdoveListy.osoba">
+            <titl>Osoba:</titl>
+        </lb>
+        <lb name="zmenaCiselnikuSlozky.puvodniSlozka">
+            <titl>###Původní složka:</titl>
+        </lb>
+        <lb name="zmenaCiselnikuSlozky.novaSlozka">
+            <titl>###Nová složka:</titl>
+        </lb>
+        <lb name="zmenaCiselnikuSlozky.popis">
+        </lb>
+        <lb name="zmenaCiselnikuSlozky.zamceneObdobiInfo">
+            <titl>###Ve zvoleném období existují zamčené mzdy. Které složky si přejete změnit?</titl>
+        </lb>
+        <lb name="mzdyVycetPlatidelMesic">
+            <titl>Vyberte mesiac pre súpis platidiel:</titl>
+        </lb>
+        <lb name="mzdyVycetPlatidelPole">
+            <titl>Zdrojové pole čiastky pre súpis platidiel:</titl>
+        </lb>
+        <lb name="dPravDefSkupOsob">
+            <titl>Zoznam skupín osôb</titl>
+        </lb>
+        <lb name="vsichniZamestnanci">
+            <titl>Všetci zamestnanci</titl>
+        </lb>
+        <lb name="vsechnySkupinyMzdSlozek">
+            <titl>Všetky skupiny</titl>
+        </lb>
+        <lb name="mzdyPlatiOdDoNeomezeno">
+            <titl>Neobmezené</titl>
+        </lb>
+        <lb name="mzdyIspvInfo">
+            <titl>Vyberte rok, štvrťrok a cieľový súbor pre vytvorenie výstupu ISPV.</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadPopis">
+            <titl>&lt;html&gt;Vyberte mesiac a rok, ktorý predchádza mesiacu, v ktorom sa sociálna udalosť stala.&lt;br/&gt;Uveďte ďalšie parametre typu žiadosti.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTyp">
+            <titl>Typ žiadosti:</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypNem">
+            <titl>Nemocenské</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypOset">
+            <titl>Ošetrovné</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypPenPom">
+            <titl>Peňažitá pomoc v materstve</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypVyrov">
+            <titl>Vyrovnávací príspevok v tehotenstve a materstve</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypOtcovska">
+            <titl>Otcovská dovolenka</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypDlouhOsetrovne">
+            <titl>Príspevok na dlhodobú starostlivosť</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemCislo">
+            <titl>Číslo potvrdenia:</titl>
+        </lb>
+        <lb name="mzdyVystupHzupnPopis">
+            <titl>Zadajte údaje potrebné pre Hlásenie zamestnávateľa o ukončení pracovnej neschopnosti.</titl>
+        </lb>
+        <lb name="mzdyVystupOpravnePodaniHzupn">
+            <titl>Opravné podanie:</titl>
+        </lb>
+        <lb name="mzdyVystupDatumVystaveniHzupn">
+            <titl>Dátum vystavenia:</titl>
+        </lb>
+        <lb name="mzdyVystupZahranicniHzupn">
+            <titl>Zahraničné:</titl>
+        </lb>
+        <lb name="mzdyVystupNavratDoPraceHzupn">
+            <titl>Návrat do práce:</titl>
+        </lb>
+        <lb name="mzdyVystupPoslDenPnHzupn">
+            <titl>Posledný deň pracovnej neschopnosti</titl>
+        </lb>
+        <lb name="mzdyVystupDuvodNenavratDoPraceHzupn">
+            <titl>Zamestnanec nezačal vykonávať zamestnanie z dôvodu:</titl>
+        </lb>
+        <lb name="mzdyVystupDatumNavratDoPraceHzupn">
+            <titl>Dátum návratu do práce:</titl>
+        </lb>
+        <lb name="mzdyVystupPocetOdpracHodPoslDenHzupn">
+            <titl>Odprac. posl. deň PN [hod]:</titl>
+        </lb>
+        <lb name="mzdyVystupPracDobaHodPoslDenHzupn">
+            <titl>Dĺžka smeny posl. den PN [hod]:</titl>
+        </lb>
+        <lb name="mzdyVystupHzupnCislo">
+            <titl>Číslo rozhodnutia o DPN:</titl>
+        </lb>
+        <lb name="mzdyVystupEldpTyp">
+            <titl>Typ ELDP:</titl>
+        </lb>
+        <lb name="mzdyVystupOpravaEldp">
+            <titl>Oprava ELDP z:</titl>
+        </lb>
+    </labels>
+</config>

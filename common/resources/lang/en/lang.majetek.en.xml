@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/en/lang.majetek.en.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <actions>
+        <act name="deleteLeasing">
+            <titl>Delete leased asset</titl>
+            <desc>Remove selected leasing (hot key Alt+D)</desc>
+            <icon>win/erase.png</icon>
+            <mnem>68</mnem>
+        </act>
+        <act name="deleteMajetek">
+            <titl>Delete owned asset</titl>
+            <desc>Remove selected property (hot key Alt+D)</desc>
+            <icon>win/erase.png</icon>
+            <mnem>68</mnem>
+        </act>
+        <act name="genLeas">
+            <titl>Generate lease plan</titl>
+            <desc>Generate schedule of payments</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="genMaj">
+            <titl>Generate tax rebate</titl>
+            <desc>Generate tax rebate</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="hromOperace">
+            <titl>Bulk operations</titl>
+            <desc>Performance of bulk operation above the selected assets</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="majetekStavKDatu">
+            <titl>Balance of assets as at</titl>
+            <desc>Calculate the balance of assets by the entered date</desc>
+            <icon>win/generate.png</icon>
+        </act>
+    </actions>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="leasingVyberRaduZavazkum">
+            <titl>Select leasing document series</titl>
+        </dlg>
+        <dlg name="leasingGenerovani">
+            <titl>Leasing generation guide</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="danOdpisPrepocitatDanOdpisyChyba">
+            <titl>Tax write-off exceeds tax depreciation basis.</titl>
+        </msg>
+        <msg name="danOdpisPrepocitatUcetOdpisyChyba">
+            <titl>Accounting depreciation exceeds tax depreciation basis.</titl>
+        </msg>
+        <msg name="danOdpisNepodariloAktualizovat">
+            <titl>Tax depreciation update failed.</titl>
+        </msg>
+        <msg name="danOdpisUcetNeniVyplnen">
+            <titl>Account must be filled in case, that no accounting depreciation is generated.</titl>
+        </msg>
+        <msg name="leasingWizNenalezenaSazbaDph">
+            <titl>Rate value wasn't found for given VAT rate type. Instalments will not be calculated correctly.</titl>
+        </msg>
+        <msg name="leasingWizSazbyNenacteny">
+            <titl>Reading of valid VAT rates settings failed. Generation of lease payments won't work correctly.</titl>
+        </msg>
+        <msg name="leasingNepodariloVygenerovat">
+            <titl>Generate leasing payments schedule failed.</titl>
+        </msg>
+        <msg name="leasingNelzeGenerovatPredUcetnimObdobi">
+            <titl>It is not possible to generate schedule of payments and tax expenses of leasing before current accounting period.</titl>
+        </msg>
+        <msg name="leasingNelzeGenerovatNeplatnyZavazek">
+            <titl>Error has occurred during validation of obligation to leasing '%p' and to schedule of payments with date '%p' and code '%p' :</titl>
+        </msg>
+        <msg name="leasingWizChybaNevyplnenaPole">
+            <titl>You must fill in all fields in form.</titl>
+        </msg>
+        <msg name="leasingWizardBezSplNeboVypl">
+            <titl>On the form you must fill in all data or zero number of payments.</titl>
+        </msg>
+        <msg name="leasingWizardSplatkySePrekryvaji">
+            <titl>Lease instalment not overlap. Check the entered dates.</titl>
+        </msg>
+        <msg name="leasingWizChybiRadaDokladu">
+            <titl>Filled type of document doesn't have document row number entered and none is specified.</titl>
+        </msg>
+        <msg name="leasingWizChybiRocniPolozkaRady">
+            <titl>Selected document type does not specify a numerical range of annual appropriations for the next financial year.</titl>
+        </msg>
+        <msg name="leasingWizChybaKontrolyRady">
+            <titl>Error occurred during row number verification.</titl>
+        </msg>
+        <msg name="leasingNemaVstupniCenaSplatKalSPoradim">
+            <titl>No schedule of payments exists to the leasing for '%p' to instalment with order '%p'.</titl>
+        </msg>
+        <msg name="leasingNelzeGenerovatZavazekUhrazen">
+            <titl>It is not possible to generate the leasing because obligation has already been settled.</titl>
+        </msg>
+        <msg name="leasingNelzeSmazatZavazekUhrazen">
+            <titl>Leasing cannot be removed because obligation has already been settled.</titl>
+        </msg>
+        <msg name="leasingChybaPriMazaniZavazku">
+            <titl>Leasing obligation cannot by removed.</titl>
+        </msg>
+        <msg name="majetekSpadaDoJinehoObdobi">
+            <titl>It is not possible to record property that is entered into a different accounting period.</titl>
+        </msg>
+        <msg name="majetekOdpisyNevygenerovany">
+            <titl>Generation of depreciation schedule failed.</titl>
+        </msg>
+        <msg name="majetekNehmotnyChybnyZpusOdpK">
+            <titl>For the selected type of assets the wrong method of depreciation is selected.</titl>
+        </msg>
+        <msg name="majetekNelzeGenerovatMimoObdobi">
+            <titl>It is not possible to generate depreciation schedule outside the accounting period in which the property was capitalized.</titl>
+        </msg>
+        <msg name="majetekNelzeGenerovatUdalost">
+            <titl>It is not possible to generate event with date %p and amount %p. Property price would be negative or zero.</titl>
+        </msg>
+        <msg name="majetekNeodepisovanySOdpisy">
+            <titl>Non-depreciable property cannot be depreciated. Depreciation transactions will be removed.</titl>
+        </msg>
+        <msg name="majetekNeodepisovanyNelzeGenerovat">
+            <titl>It is not possible to generate depreciation schedule for non-depreciable property.</titl>
+        </msg>
+        <msg name="majetekOdpisyDanDatumZacatkuPredZaraz">
+            <titl>Tax write-off date may not precede property capitalization date.</titl>
+        </msg>
+        <msg name="majetekOdpisyUcetDatumZacatkuPredZaraz">
+            <titl>Accounting depreciation start date may not precede property filing date.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZrychOdepis">
+            <titl>It is necessary to fill in the depreciation in the first year to enable accelerated depreciation.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoTypMajetku">
+            <titl>It is necessary to fill in property type.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoSazba">
+            <titl>It is necessary to fill in depreciable group.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoUcetniOdpisy">
+            <titl>It is necessary to confirm whether you want to calculate accounting depreciation.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoDatumZarazeni">
+            <titl>Capitalization date is not filled in.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoPrimarniUcet">
+            <titl>Primary account is not filled in.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoProtiUcet">
+            <titl>Offset account is not filled in.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoOdpisovyUcet">
+            <titl>Asset depreciation account is not filled in.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoOpravnyUcet">
+            <titl>Accumulated depreciation account is not filled in.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZacDanOdpisu">
+            <titl>Tax write-off date is not filled in.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZacUcetOdpisu">
+            <titl>Accounting depreciation start date is not filled in.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZpusobOdepis">
+            <titl>Depreciation method has not been selected.</titl>
+        </msg>
+        <msg name="majetekDatVystNelzeDoMinulosti">
+            <titl>Issue date must be in current account period or earlier.</titl>
+        </msg>
+        <msg name="majetekNenalezenyOdpovidajiSazby">
+            <titl>No depreciable rates were found for selected depreciation method.</titl>
+        </msg>
+        <msg name="majetekPocetMesicuNeniNenulovy">
+            <titl>Number of months must have non-zero value.</titl>
+        </msg>
+        <msg name="majetekPocetMesicuNenulovyZustCenaNula">
+            <titl>If the number of months of accounting depreciation is specified, the amortised cost must not be zero.</titl>
+        </msg>
+        <msg name="majetekUcetniOdpisyVDE">
+            <titl>Accounting depreciation cannot be generated in the tax record.</titl>
+        </msg>
+        <msg name="majetekUcetniOdpisyVDE_SK">
+            <titl>Accounting depreciation cannot be generated in simple accounting.</titl>
+        </msg>
+        <msg name="majetekNenulovyDanZustOdepsaneho">
+            <titl>Property has a non-zero balance, but it should have been already deducted according to the rate.</titl>
+        </msg>
+        <msg name="majetekTechZhodnocenJenDriveOdepsany">
+            <titl>Assets that have not been previously depreciated cannot be technically evaluated before classification.</titl>
+        </msg>
+        <msg name="majetekProcentoNeniNenulove">
+            <titl>Percent per year must have non-zero value.</titl>
+        </msg>
+        <msg name="majetekChybnyTypOdpisu">
+            <titl>Select depreciation method appropriate to selected property type.</titl>
+        </msg>
+        <msg name="majetekChybiSazbaOdpisu">
+            <titl>You must select depreciative rate for selected depreciation method.</titl>
+        </msg>
+        <msg name="majetekChybnaSazbaOdpisu">
+            <titl>Selected depreciation rate is incompatible with selected depreciation method.</titl>
+        </msg>
+        <msg name="majetekNepodariloSeNajitDokladProVytvoreniMajetku">
+            <titl>It was not possible to find document for generate of property card.</titl>
+        </msg>
+        <msg name="majetekSazbaOdpisuNulovaDobaOdp">
+            <titl>A zero depreciation rate cannot be used.</titl>
+        </msg>
+        <msg name="majetekGenPoMigraciStatus">
+            <titl>Generating property accounting depreciation:</titl>
+        </msg>
+        <msg name="odpisyZmenaObdobiZamceno">
+            <titl>Failed to change the depreciation value, because the period (%p) is locked.</titl>
+        </msg>
+        <msg name="sazbaChybaZjisteniNavazanychMajetku">
+            <titl>It was not possible to verify whether there are already-registered properties linked to depreciation rate.</titl>
+        </msg>
+        <msg name="udalostPredDatemZarazeni">
+            <titl>Event date may be older than property capitalization date.</titl>
+        </msg>
+        <msg name="udalostNePoVyrazeni">
+            <titl>No event may occur after event retirement of the property.</titl>
+        </msg>
+        <msg name="udalostNePredZarazenim">
+            <titl>No event may occur before capitalization.</titl>
+        </msg>
+        <msg name="udalostNaDanOpdisyPredZacDanOdpisu">
+            <titl>Event date must be later than initiation of accounting depreciation.</titl>
+        </msg>
+        <msg name="udalostNaUceOpdisyPredZacUceOdpisu">
+            <titl>Event date must be later than initialization of accounting depreciation.</titl>
+        </msg>
+        <msg name="udalostNesmiBytPredZacOdpisu">
+            <titl>Event date must be later than initiation of tax and accounting depreciation.</titl>
+        </msg>
+        <msg name="udalostMusiMitDatVystVAktualnimObdobi">
+            <titl>Event date must be in a period that is valid for current project.</titl>
+        </msg>
+        <msg name="udalostNemaVyplnenoStredisko">
+            <titl>Event must include valid cost centre.</titl>
+        </msg>
+        <msg name="udalostZarazeniJizObsazena">
+            <titl>Capitalization event is already included in event list.</titl>
+        </msg>
+        <msg name="udalostNelzePridatVyrazeni">
+            <titl>It is not possible to add new event after retiring property.</titl>
+        </msg>
+        <msg name="udalostVyrazeniObsazena">
+            <titl>Property has already been retired.</titl>
+        </msg>
+        <msg name="udalostVyrazeniNesmazat">
+            <titl>It is not possible to remove retirement event, if other events are linked to it.</titl>
+        </msg>
+        <msg name="udalostVyplnitVsechnyUcty">
+            <titl>All accounts must be filled in during this event.</titl>
+        </msg>
+        <msg name="udalostMinHodnotaPolozky">
+            <titl>Minimal item value</titl>
+        </msg>
+        <msg name="udalostMinHodnotaProdlouzeni">
+            <titl>The value of the %p field must be greater than zero.</titl>
+        </msg>
+        <msg name="udalostSumZklTZNesmiBytZaporna">
+            <titl>The %p field value must not be negative for technical evaluation.</titl>
+        </msg>
+        <msg name="udalostZmenaDobyOdpis">
+            <titl>Change of depreciation period</titl>
+        </msg>
+        <msg name="udalostNeexistujiUcetPolozky">
+            <titl>No accounting depreciation would exist to date {0}</titl>
+        </msg>
+        <msg name="udalostDveNeboViceZarazeni">
+            <titl>It is possible to capitalize property only once.</titl>
+        </msg>
+        <msg name="udalostDveNeboViceVyrazeni">
+            <titl>It is possible to retire a property only once.</titl>
+        </msg>
+        <msg name="udalostPoPreruseniJenomUrciteUdal">
+            <titl>It is not possible to add this event, because depreciation was aborted.</titl>
+        </msg>
+        <msg name="udalostOpetZahDanBezPreruseni">
+            <titl>It is not possible to re-initiate tax depreciation, because tax depreciation has not been interrupted.</titl>
+        </msg>
+        <msg name="udalostOpetZahUcetBezPreruseni">
+            <titl>It is not possible to re-initiate accounting depreciation, because accounting depreciation has not been interrupted</titl>
+        </msg>
+        <msg name="udalostPrerDanOdpJizPreruseno">
+            <titl>It is not possible to interrupt tax depreciation, because tax depreciation has already been interrupted.</titl>
+        </msg>
+        <msg name="udalostPrerUcetOdpJizPreruseno">
+            <titl>It is not possible to interrupt accounting depreciation, because accounting depreciation has already been interrupted.</titl>
+        </msg>
+        <msg name="udalostZarazeniMusiBytPredZacOdpisu">
+            <titl>Capitalization must precede initiation of depreciation.</titl>
+        </msg>
+        <msg name="splatKalSumDphNevyplneno">
+            <titl>VAT must be filled in for given VAT rate.</titl>
+        </msg>
+        <msg name="splatKalNelzePrepocitatDph">
+            <titl>###Chyba při nahrávání sazeb DPH nebo nastavení firmy.</titl>
+        </msg>
+        <msg name="majetekNelzeVlozitDoZamcenehoObdobi">
+            <titl>Property cannot be inserted into a locked period.</titl>
+        </msg>
+        <msg name="majetekNelzeGenerovatCasVyrazeni">
+            <titl>It is not possible to generate event with date %p and amount %p. Property value would be either negative or equal to zero.</titl>
+        </msg>
+        <msg name="hromOperace.vPoradku">
+            <titl>Bulk operation was successful.</titl>
+        </msg>
+        <msg name="hromOperace.seznamChyb">
+            <titl>Errors occurred with the following assets</titl>
+        </msg>
+        <msg name="hromOperace.vysledek">
+            <titl>Result of bulk operation</titl>
+        </msg>
+        <msg name="hromOperace.uzJeVyrazeno">
+            <titl>Asset %p has already been excluded.</titl>
+        </msg>
+        <msg name="hromOperace.chybaPriNacitani">
+            <titl>Asset could not be loaded.</titl>
+        </msg>
+        <msg name="hromOperace.chyba">
+            <titl>An error occurred during performance of bulk operation.</titl>
+        </msg>
+        <msg name="hromOperace.prepocetInfo">
+            <titl>Any user changes after the first day of the current accounting period will be cancelled during the recalculation.\nDo you wish to continue?</titl>
+        </msg>
+        <msg name="kontrolaDanOdpisuProbiha">
+            <titl>Checking tax depreciation ...</titl>
+        </msg>
+        <msg name="konrolaDanOdpisuUkoncitProcesDotaz">
+            <titl>Do you really want to end the ongoing tax depreciation check?</titl>
+        </msg>
+        <msg name="kontrolaDanOpisuChyba">
+            <titl>Tax depreciation check failed.</titl>
+        </msg>
+        <msg name="majKontrolaRuznaDelkaOdpisu">
+            <titl>Depreciation period does not match (correct %p / current %p).</titl>
+        </msg>
+        <msg name="majKontrolaNeniNovyOdpis">
+            <titl>Depreciation exists for an asset but should not.</titl>
+        </msg>
+        <msg name="majKontrolaNeniStaryOdpis">
+            <titl>Depreciation does not exist for an asset but should.</titl>
+        </msg>
+        <msg name="majKontrolaRuznaCastkaPoslOdpisu">
+            <titl>Last depreciation amount does not match (correct %p / current %p).</titl>
+        </msg>
+        <msg name="majKontrolaRuznyZustPoslOdpisu">
+            <titl>Last depreciation balance does not match (correct %p / current %p).</titl>
+        </msg>
+        <msg name="majKontrolaRuznySoucetOdpisu">
+            <titl>Last depreciation total does not match (correct %p / current %p).</titl>
+        </msg>
+        <msg name="majKontrolaUvod">
+            <titl>A difference was identified during a check of tax depreciation between the saved depreciation and the new calculations.\nWe recommend checking them and possibly correcting them using a user change in depreciation (see below for instructions on calculating the correct amount of depreciation).\nDifferences were identified in the case of the following assets:</titl>
+        </msg>
+        <msg name="majKontrolaKonec">
+            <titl>Recommended procedure for calculating the amounts that need to be set in the field Tax depreciation: \n\n
+DTax depreciation = \n
++ &lt;součet správných odpisů včetně měsíce, kdy odpisy měníme&gt;\n
+- &lt;součet chybných odpisů bez měsíce, kdy odpisy měníme&gt;\n\n
+(the goal is to get to the correct amount for the sum of tax depreciation, so the next calculation will be based on the correct residual price) \n
+ Enter the correct balance into the Balance field.\n</titl>
+        </msg>
+        <msg name="majKontrolaOk">
+            <titl>###V daňových odpisech majetku, který je aktivní v účetním období %p nebyly nalezeny žádné nesrovnalosti.</titl>
+        </msg>
+        <msg name="aktualizaceOdpisuProgress">
+            <titl>Asset depreciation update - %p / %p (%p records/s, time remaining: %p)</titl>
+        </msg>
+        <msg name="aktualizaceOdpisuUkladani">
+            <titl>Storing updated depreciation in the database.</titl>
+        </msg>
+        <msg name="nepodariloSeAktualizovatMajetky">
+            <titl>The change in accounting period failed to recalculate depreciation of assets.</titl>
+        </msg>
+        <msg name="nepodariloSeSpocitatMajetky">
+            <titl>When the accounting period was changed, the number of assets to update depreciation could not be determined.</titl>
+        </msg>
+        <msg name="odpisyZacatekPredUcobd">
+            <titl>Asset [%p] - the start of depreciation %p precedes the accounting period %p!</titl>
+        </msg>
+        <msg name="nelzeMazatOdpisy">
+            <titl>###Odpisy nelze mazat, jsou generovány automaticky.</titl>
+        </msg>
+        <msg name="nelzeVytvaretOdpisy">
+            <titl>###Odpisy není možné vytvářet, jsou generovány automaticky.</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="parametryPN">
+            <titl>Parameters</titl>
+        </lb>
+        <lb name="zakladniListPN">
+            <titl>Main</titl>
+        </lb>
+        <lb name="odepisovaniPN">
+            <titl>Depreciation</titl>
+        </lb>
+        <lb name="koeficientyPN">
+            <titl>Coefficient</titl>
+        </lb>
+        <lb name="uctovaniPN">
+            <titl>Bookkeeping</titl>
+        </lb>
+        <lb name="udalostPN">
+            <titl>Events</titl>
+        </lb>
+        <lb name="danOdpisNeexistuje">
+            <titl>Tax depreciation was regenerated by the system.</titl>
+        </lb>
+        <lb name="ucetOdpisNeexistuje">
+            <titl>Accounting depreciation was regenerated by the system.</titl>
+        </lb>
+        <lb name="leasingWizTitle">
+            <titl>Generating</titl>
+        </lb>
+        <lb name="leasingZmenaParametru">
+            <titl>Leasing parameters have been changed. Regenerate?</titl>
+        </lb>
+        <lb name="leasingAkontace">
+            <titl>Advance payment of leasing</titl>
+        </lb>
+        <lb name="leasingFinnanCinnost">
+            <titl>Instalment - financing activity</titl>
+        </lb>
+        <lb name="leasingVstupniCena">
+            <titl>Instalment - entry price</titl>
+        </lb>
+        <lb name="leasingWizPocetSplatek">
+            <titl>Number of instalments:</titl>
+        </lb>
+        <lb name="leasingWizDatum">
+            <titl>Date:</titl>
+        </lb>
+        <lb name="leasingWizMesMeziSpl">
+            <titl>Months between instalments:</titl>
+        </lb>
+        <lb name="leasingWizOstatniPN">
+            <titl>Other</titl>
+        </lb>
+        <lb name="leasingWizMimSplPN">
+            <titl>Extra instalment</titl>
+        </lb>
+        <lb name="leasingWizFinCinPN">
+            <titl>Financing activity</titl>
+        </lb>
+        <lb name="leasingWizLeasSplPN">
+            <titl>Lease instalment</titl>
+        </lb>
+        <lb name="leasingWizMimSplVyzva">
+            <titl>Enter extra instalment first</titl>
+        </lb>
+        <lb name="leasingWizMimFCVyzva">
+            <titl>Enter financing activity (completion of a contract etc.)</titl>
+        </lb>
+        <lb name="leasingWizPrvSplVyzva">
+            <titl>Enter initial instalment</titl>
+        </lb>
+        <lb name="leasingWizObecSplVyzva">
+            <titl>Enter general instalment</titl>
+        </lb>
+        <lb name="leasingWizPoslSplVyzva">
+            <titl>Enter last instalment</titl>
+        </lb>
+        <lb name="leasingWizPosledniVyzva">
+            <titl>Fill in following data.</titl>
+        </lb>
+        <lb name="majetekZmenaParametru">
+            <titl>Property parameters have been changed. Regenerate deprecation?</titl>
+        </lb>
+        <lb name="majetekPuvZarazeni">
+            <titl>Original filing date:</titl>
+        </lb>
+        <lb name="majetekPocetMesicu">
+            <titl>Number of month (1-12):</titl>
+        </lb>
+        <lb name="majetekPocetMesicuStari">
+            <titl>Remains to be depreciated [months]:</titl>
+        </lb>
+        <lb name="majetekProcentoRocne">
+            <titl>Percent per year:</titl>
+        </lb>
+        <lb name="majetekPregenerovatUzZmeneneOdpisy">
+            <titl>There exist depreciations (changed by user), which will be overgenerated.</titl>
+        </lb>
+        <lb name="sazbaZrychOdp">
+            <titl>Accelerated depreciation</titl>
+        </lb>
+        <lb name="sazbaRovnOdp">
+            <titl>Straight-line depreciation</titl>
+        </lb>
+        <lb name="sazbaENelzeUpravovat">
+            <titl>It is not possible to adjust groups that are given by legislation or already used groups.</titl>
+        </lb>
+        <lb name="typMajEOdpisUctoPN">
+            <titl>Depreciation and accounting</titl>
+        </lb>
+        <lb name="zapujckaKontaktniUdaje">
+            <titl>Contact data</titl>
+        </lb>
+        <lb name="filterDruhMajetku">
+            <titl>Filter by property type</titl>
+        </lb>
+        <lb name="filterDruhMajetkuNeomezen">
+            <titl>Property type unlimited</titl>
+        </lb>
+        <lb name="filterTypMajetku">
+            <titl>Filter by property type</titl>
+        </lb>
+        <lb name="filterTypMajetkuNeomezen">
+            <titl>Property type unlimited</titl>
+        </lb>
+        <lb name="filterRokZarazeni">
+            <titl>Filter by capitalization year</titl>
+        </lb>
+        <lb name="filterMesicZarazeni">
+            <titl>Filter by period from capitalization date</titl>
+        </lb>
+        <lb name="filterMesicZarazeniNeomezen">
+            <titl>Capitalization month unlimited</titl>
+        </lb>
+        <lb name="filterDruhLeasingu">
+            <titl>Filter by leasing type</titl>
+        </lb>
+        <lb name="filterDruhLeasinguNeomezen">
+            <titl>Leasing type unlimited</titl>
+        </lb>
+        <lb name="filterTypLeasingu">
+            <titl>Filter by leasing type</titl>
+        </lb>
+        <lb name="filterTypLeasinguNeomezen">
+            <titl>Leasing type unlimited</titl>
+        </lb>
+        <lb name="filterRokZahajeni">
+            <titl>Filter by starting year of leasing</titl>
+        </lb>
+        <lb name="filterMesicZahajeni">
+            <titl>Filter by period from starting date of leasing</titl>
+        </lb>
+        <lb name="filterMesicZahajeniNeomezen">
+            <titl>Starting month unlimited</titl>
+        </lb>
+        <lb name="dPravDefMajSeznam">
+            <titl>Property type list</titl>
+        </lb>
+        <lb name="dPravDefMajUzivatele">
+            <titl>List of users in property</titl>
+        </lb>
+        <lb name="dPravDefLeaSeznam">
+            <titl>Leasing type list</titl>
+        </lb>
+        <lb name="dPravDefLeaUzivatele">
+            <titl>List of users in leasing</titl>
+        </lb>
+        <lb name="majetekStavKDatu.title">
+            <titl>Balance of assets as at %p</titl>
+        </lb>
+        <lb name="majetekStavKDatu.welcome">
+            <titl>Welcome to the guide to formation of the balance of assets by the date.</titl>
+        </lb>
+        <lb name="majetekStavKDatu.info1">
+            <titl>Choose the date by which you want to process the assembled batch.</titl>
+        </lb>
+        <lb name="majetekStavKDatu.datum">
+            <titl>Processing date:</titl>
+        </lb>
+        <lb name="majetekStavKDatu.datumObdobiOd">
+            <titl>Period start:</titl>
+        </lb>
+        <lb name="majetek.dlouhodoby">
+            <titl>Long-term</titl>
+        </lb>
+        <lb name="vozidloPN">
+            <titl>Vehicle</titl>
+        </lb>
+        <lb name="hromOperace.title">
+            <titl>Guide to bulk operations</titl>
+        </lb>
+        <lb name="hromOperace.welcome">
+            <titl>Configuration of bulk operation</titl>
+        </lb>
+        <lb name="hromOperace.uplneVyrazeni">
+            <titl>Complete exclusion of assets</titl>
+        </lb>
+        <lb name="hromOperace.preruseniUcetOdpisu">
+            <titl>Interruption of accounting depreciation</titl>
+        </lb>
+        <lb name="hromOperace.preruseniDanOdpisu">
+            <titl>Interruption of tax write-off</titl>
+        </lb>
+        <lb name="hromOperace.zahajeniUcetOdpisu">
+            <titl>Restart of accounting depreciation</titl>
+        </lb>
+        <lb name="hromOperace.zahajeniDanOdpisu">
+            <titl>Restart of tax write-off</titl>
+        </lb>
+        <lb name="hromOperace.zmenaZauctovaniDan">
+            <titl>Change to settlement of tax write-off from date</titl>
+        </lb>
+        <lb name="hromOperace.zmenaZauctovaniUcet">
+            <titl>Change to settlement of accounting depreciation from date</titl>
+        </lb>
+        <lb name="hromOperace.prepocetDanOdpisuOdAktObdobi">
+            <titl>Recalculation of tax depreciation from the current accounting period</titl>
+        </lb>
+        <lb name="hromOperace.datum">
+            <titl>Date:</titl>
+        </lb>
+        <lb name="hromOperace.ucetMD">
+            <titl>Debit Account:</titl>
+        </lb>
+        <lb name="hromOperace.ucetDal">
+            <titl>Credit Account:</titl>
+        </lb>
+    </labels>
+</config>

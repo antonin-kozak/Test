@@ -1,0 +1,2047 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : ../common/etc/resources/lang/cs/lang.mzdy.beans.cs.xml
+   Created on  : 31. 05. 2013, 13:50 
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>SNAPSHOT</version>
+        <date>11-07-2008</date>
+    </specif>
+    
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm> 
+        </prop>
+    </vzor>
+    
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+    
+    <beans>
+        <bean name="vzor">
+            <prop name="xyz">
+                <titl>!Abcdef</titl>
+                <desc>Bbb ccc ddd.</desc>
+                <icon>aaa.gif</icon>
+                <mnem>83</mnem>
+                <acck>83</acck>
+                <accm>2</accm>
+            </prop>
+        </bean>
+        <bean name="global">
+            <prop name="mzdSloz">
+                <titl>Mzdová složka</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Osobní číslo</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="pracPomHlav">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Skupina osob</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.AktualMzdy">
+            <prop name="_title">
+                <titl>Aktualizace Mzdy</titl>
+            </prop>
+            <prop name="bezneNahrady">
+                <titl>Běžné náhrady</titl>
+            </prop>
+            <prop name="cistaMzda">
+                <titl>Čistá mzda</titl>
+            </prop>
+            <prop name="dan">
+                <titl>Daň</titl>
+            </prop>
+            <prop name="danBonus">
+                <titl>Daňový bonus</titl>
+                <abbr>Bonus</abbr>
+            </prop>
+            <prop name="danRezident">
+                <titl>Daň rezident</titl>
+            </prop>
+            <prop name="danSlevPrac">
+                <titl>Sleva - poplatníka</titl>
+                <abbr>Sleva popl.</abbr>
+            </prop>
+            <prop name="danSlevSum">
+                <titl>Sleva na dani celkem</titl>
+                <abbr>Sleva celk.</abbr>
+            </prop>
+            <prop name="danSrazka">
+                <titl>Srážková daň</titl>
+                <abbr>Srá.daň.</abbr>
+            </prop>
+            <prop name="danVypocet">
+                <titl>Vypočtená daň</titl>
+            </prop>
+            <prop name="danZaklSraz">
+                <titl>Základ pro sráž. daň</titl>
+            </prop>
+            <prop name="danZaklSrazSum">
+                <titl>Základ pro sráž. daň celkem</titl>
+                <abbr>Zákl.sráž.daně</abbr>
+            </prop>
+            <prop name="danZaklSum">
+                <titl>Základ pro výpočet daně</titl>
+                <abbr>Zákl.daně</abbr>
+            </prop>
+            <prop name="danZaloha">
+                <titl>Záloha na daň</titl>
+                <abbr>Záloha</abbr>
+            </prop>
+            <prop name="datum">
+                <titl>Datum</titl>
+            </prop>
+            <prop name="datumVypocet">
+                <titl>Datum výpočtu</titl>
+                <abbr>Vypočteno</abbr>
+            </prop>
+            <prop name="dobaDovol">
+                <titl>Dovolená</titl>
+            </prop>
+            <prop name="dobaDovolCastka">
+                <titl>Dovolená částka</titl>
+            </prop>
+            <prop name="dobaFond">
+                <titl>Fond pracovní doby</titl>
+                <abbr>Fond</abbr>
+            </prop>
+            <prop name="dobaNeodpr">
+                <titl>Neodpracovaná doba celkem</titl>
+                <abbr>Neodp.doba</abbr>
+            </prop>
+            <prop name="dobaOdpr">
+                <titl>Odpracovaná doba celkem</titl>
+                <abbr>Odprac.doba</abbr>
+            </prop>
+            <prop name="dobaOdprDny">
+                <titl>Odpracované dny celkem</titl>
+                <abbr>Odprac.dny</abbr>
+            </prop>
+            <prop name="dobirka">
+                <titl>Dobírka</titl>
+            </prop>
+            <prop name="dovolVybrano">
+                <titl>Čerpaná dovolená od počátku roku - celkem</titl>
+                <abbr>Čerp. dov. od poč. roku</abbr>
+            </prop>
+            <prop name="dovolZbyva">
+                <titl>Zbývá dovolené v roce</titl>
+                <abbr>Zbývá dov.</abbr>
+            </prop>
+            <prop name="duchodSpor">
+                <titl>Druhý pilíř</titl>
+            </prop>
+            <prop name="hrubaMzda">
+                <titl>Hrubá mzda</titl>
+                <abbr>Hrubá m.</abbr>
+            </prop>
+            <prop name="hrubaPrumer">
+                <titl>Základ pro průměrný výdělek</titl>
+            </prop>
+            <prop name="idAktualMzdy">
+                <titl>ID</titl>
+            </prop>
+            <prop name="jmeno">
+                <titl>Příjmení a jméno</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Měsíc</titl>
+            </prop>
+            <prop name="mzdaMesicni">
+                <titl>Měsíční mzda (plat)</titl>
+                <abbr>Měs.mzda</abbr>
+            </prop>
+            <prop name="mzdaNahrada">
+                <titl>Náhrada mzdy</titl>
+                <abbr>Náhrady</abbr>
+            </prop>
+            <prop name="nahradaNeschop">
+                <titl>Náhrada neschopnost</titl>
+                <abbr>Náhr.nesch.</abbr>
+            </prop>
+            <prop name="nemoc">
+                <titl>Nemoc</titl>
+            </prop>
+            <prop name="nepenezPrijmy">
+                <titl>Nepeněžní příjmy</titl>
+                <abbr>Nepeněžní</abbr>
+            </prop>
+            <prop name="nepritCelk">
+                <titl>Neodpracovaná doba - nepřítomnost</titl>
+                <abbr>Nepřít.</abbr>
+            </prop>
+            <prop name="nocniPripl">
+                <titl>Příplatek za noční práci</titl>
+                <abbr>Přípl.noc</abbr>
+            </prop>
+            <prop name="odmeny">
+                <titl>Odměny</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Osobní číslo</titl>
+                <abbr>Osob.č.</abbr>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>Hlavička osoby</titl>
+            </prop>
+            <prop name="podilNaZisku">
+                <titl>Podíl na zisku</titl>
+                <abbr>Podíl</abbr>
+            </prop>
+            <prop name="pracPracPrum">
+                <titl>Pracovněprávní hodinový průměr</titl>
+                <abbr>PPP</abbr>
+            </prop>
+            <prop name="premiePevna">
+                <titl>Prémie pevnou částkou</titl>
+                <abbr>Prémi pev.</abbr>
+            </prop>
+            <prop name="premieProc">
+                <titl>Prémie % ze základní mzdy</titl>
+                <abbr>Prémie %</abbr>
+            </prop>
+            <prop name="premieProcUkaz">
+                <titl>Prémie % z ukazatele / základu</titl>
+                <abbr>Prémie % ukaz.</abbr>
+            </prop>
+            <prop name="prescasCastka">
+                <titl>Přesčas - částka</titl>
+                <abbr>Přesčas %currency-symbol</abbr>
+            </prop>
+            <prop name="prescasHodiny">
+                <titl>Přesčas hod.</titl>
+            </prop>
+            <prop name="prescasPripl">
+                <titl>Příplatek za práci přesčas</titl>
+                <abbr>Přípl.přesčas</abbr>
+            </prop>
+            <prop name="refundNeschop">
+                <titl>Refundace neschopnost</titl>
+                <abbr>Refund.náhr.</abbr>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Skupina osob</titl>
+                <abbr>Skupina</abbr>
+            </prop>
+            <prop name="slevaDeti">
+                <titl>Sleva děti</titl>
+            </prop>
+            <prop name="prispIzolacka">
+                <titl>Příspěvek ke karanténě (izolačka)</titl>
+                <abbr>Přisp. izolačka</abbr>
+            </prop>
+            <prop name="slevaSpFirma">
+                <titl>Sleva SP firma (krácené úvazky)</titl>
+                <abbr>Sleva SP firma</abbr>
+            </prop>
+            <prop name="socPojCelk">
+                <titl>Sociální poj. celkem</titl>
+                <abbr>Soc.poj.</abbr>
+            </prop>
+            <prop name="socPojCelkSniz">
+                <titl>Sociální poj. celkem snížené</titl>
+                <abbr>Soc.poj.sníž.</abbr>
+            </prop>
+            <prop name="socPojCelkDp">
+                <titl>Soc. poj. celkem DP</titl>
+                <abbr>Soc.poj.DP</abbr>
+            </prop>
+            <prop name="socPojCelkSpada">
+                <titl>Spadá do soc.pojištění</titl>
+            </prop>
+            <prop name="socPojFirma">
+                <titl>Sociální poj. firma</titl>
+                <abbr>Soc.poj.firma</abbr>
+            </prop>
+            <prop name="socPojFirmaSniz">
+                <titl>Sociální poj. firma snížené</titl>
+                <abbr>Soc.poj.firma sníž.</abbr>
+            </prop>
+            <prop name="socPojFirmaSnizZap">
+                <titl>Sociální poj. firma snížené zapnuto</titl>
+                <abbr>Soc.poj.firma sníž.zap.</abbr>
+            </prop>
+            <prop name="socPojPrac">
+                <titl>Sociální poj. pracovník</titl>
+                <abbr>Soc.poj.prac.</abbr>
+            </prop>
+            <prop name="socPojSleva">
+                <titl>Sociální poj. sleva</titl>
+            </prop>
+            <prop name="socPojZakl">
+                <titl>Sociální poj. základ</titl>
+                <abbr>Soc.poj.zákl.</abbr>
+            </prop>
+            <prop name="socPojZaklSniz">
+                <titl>Soc. poj. základ - snížený</titl>
+                <abbr>Soc.poj.zákl.sníž.</abbr>
+            </prop>
+            <prop name="socPojZaklDp">
+                <titl>Soc. poj. základ DP</titl>
+                <abbr>Soc.poj.zákl.DP</abbr>
+            </prop>
+            <prop name="srazkaSporeni">
+                <titl>Srážky</titl>
+            </prop>
+            <prop name="superhrubaMzda">
+                <titl>Superhrubá mzda</titl>
+                <abbr>SHM</abbr>
+            </prop>
+            <prop name="svatekCastka">
+                <titl>Odpracováno - svátek - částka</titl>
+                <abbr>Svátek Kč</abbr>
+            </prop>
+            <prop name="svatekHodiny">
+                <titl>Odpracováno - svátek - hodiny</titl>
+                <abbr>Svátek hod.</abbr>
+            </prop>
+            <prop name="svatekNahrada">
+                <titl>Náhráda za svátek</titl>
+                <abbr>Náhr.svátek</abbr>
+            </prop>
+            <prop name="svatekNahradaHodiny">
+                <titl>Náhráda za svátek - hodiny</titl>
+                <abbr>Hod.náhr.svátek</abbr>
+            </prop>
+            <prop name="weekendCastka">
+                <titl>Odpracováno - weekend - částka</titl>
+                <abbr>Weekend Kč</abbr>
+            </prop>
+            <prop name="weekendHodiny">
+                <titl>Odpracováno - weekend - hodiny</titl>
+                <abbr>Weekend hod.</abbr>
+            </prop>
+            <prop name="zalohaMimoradna">
+                <titl>Záloha mimořádná</titl>
+                <abbr>Zál.mim.</abbr>
+            </prop>
+            <prop name="zalohaRadna">
+                <titl>Zál.řádná</titl>
+            </prop>
+            <prop name="zdravPoj">
+                <titl>Zdravotní pojišťovna</titl>
+                <abbr>Zdr.pojiš.</abbr>
+            </prop>
+            <prop name="zdravPojCelk">
+                <titl>Zdravotní poj. celkem</titl>
+                <abbr>Zdr.poj.</abbr>
+            </prop>
+            <prop name="zdravPojFirma">
+                <titl>Zdravotní poj. firma</titl>
+                <abbr>Zdr.poj.firma</abbr>
+            </prop>
+            <prop name="zdravPojPrac">
+                <titl>Zdravotní poj. pracovník</titl>
+                <abbr>Zdr.poj.prac.</abbr>
+            </prop>
+            <prop name="zdravPojZakl">
+                <titl>Zdravotní poj. základ</titl>
+                <abbr>Zdr.poj.zákl.</abbr>
+            </prop>
+            <prop name="prostrediPripl">
+                <titl>Příplatek za prostředí</titl>
+                <abbr>Přípl.prostř.</abbr>
+            </prop>
+            <prop name="stravenkySrazka">
+                <titl>Stravenky srážka zaměstnanec</titl>
+            </prop>
+            <prop name="stravenkyDoLim">
+                <titl>Stravenky do limitu</titl>
+            </prop>
+            <prop name="stravenkyNadLim">
+                <titl>Stravenky nad limit</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.BanSpojMzdy">
+            <prop name="_title">
+                <titl>Bankovní spojení</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.CisMzdSloz">
+            <prop name="_title">
+                <titl>Číselník mzdových složek</titl>
+            </prop>
+            <prop name="castkaDen">
+                <titl>Částka za den</titl>
+                <abbr>Kč/den</abbr>
+            </prop>
+            <prop name="castkaHod">
+                <titl>Částka za hodinu</titl>
+                <abbr>Kč/hod.</abbr>
+            </prop>
+            <prop name="castMzd">
+                <titl>Částka</titl>
+            </prop>
+            <prop name="cisDoklNem">
+                <titl>Číslo dokladu (pro nemoc)</titl>
+                <abbr>Doklad</abbr>
+            </prop>
+            <prop name="dnyKal">
+                <titl>Dny kalendářní</titl>
+                <abbr>Dny kal.</abbr>
+            </prop>
+            <prop name="dnyPrac">
+                <titl>Dny pracovní</titl>
+                <abbr>Dny pr.</abbr>
+            </prop>
+            <prop name="dnySvatek">
+                <titl>Dny ve svátek</titl>
+                <abbr>Dny sv.</abbr>
+            </prop>
+            <prop name="doplatZdravK">
+                <titl>Doplatek do zdravotního pojištění</titl>
+                <abbr>Dopl.ZP</abbr>
+            </prop>
+            <prop name="hodiny">
+                <titl>Hodiny</titl>
+            </prop>
+            <prop name="naOsobu">
+                <titl>Společná pro všechny pracovní poměry osoby</titl>
+            </prop>
+            <prop name="paskaMala">
+                <titl>Malá páska</titl>
+            </prop>
+            <prop name="paskaPole">
+                <titl>Viditelná pole</titl>
+            </prop>
+            <prop name="paskaVelka">
+                <titl>Velká páska</titl>
+            </prop>
+            <prop name="pocetMes">
+                <titl>Počet měsíců za které složka platí</titl>
+                <abbr>Platí</abbr>
+            </prop>
+            <prop name="pracovni">
+                <titl>Pracovní složka (nezobrazuje se)</titl>
+            </prop>
+            <prop name="procMzd">
+                <titl>Procento / konstanta</titl>
+                <abbr>% / konst.</abbr>
+            </prop>
+            <prop name="prumNaDenNem">
+                <titl>Denní průměr</titl>
+            </prop>
+            <prop name="prumNaHodNem">
+                <titl>Hodinový průměr</titl>
+            </prop>
+            <prop name="skupSlozkyK">
+                <titl>Skupina složky</titl>
+            </prop>
+            <prop name="typSlozkyK">
+                <titl>Typ složky</titl>
+            </prop>
+            <prop name="ukladatNulove">
+                <titl>Ukládat nulové</titl>
+            </prop>
+            <prop name="uuid">
+                <titl>UUID</titl>
+            </prop>
+            <prop name="vsCastMzd">
+                <titl>x Částka</titl>
+            </prop>
+            <prop name="vsCastNaDen">
+                <titl>x Částka za den</titl>
+            </prop>
+            <prop name="vsCastNaHod">
+                <titl>x Částka za hodinu</titl>
+            </prop>
+            <prop name="vsCisDoklNem">
+                <titl>x Číslo dokladu (pro nemoc)</titl>
+            </prop>
+            <prop name="vsDatDo">
+                <titl>x Koncové datum</titl>
+            </prop>
+            <prop name="vsDatOd">
+                <titl>x Počáteční datum</titl>
+            </prop>
+            <prop name="vsDnyKal">
+                <titl>x Dny kalendářní</titl>
+            </prop>
+            <prop name="vsDnyPrac">
+                <titl>x Dny pracovní</titl>
+            </prop>
+            <prop name="vsDnySvatek">
+                <titl>x Dny ve svátek</titl>
+            </prop>
+            <prop name="vsDoplatZdrPoj">
+                <titl>x Doplatek do zdravotního pojištění</titl>
+            </prop>
+            <prop name="vsHodiny">
+                <titl>x Hodiny</titl>
+            </prop>
+            <prop name="vsHodinySvatek">
+                <titl>x Hodiny ve svátek</titl>
+            </prop>
+            <prop name="vsPocetMes">
+                <titl>x Počet měsíců za které složka platí</titl>
+            </prop>
+            <prop name="vsProcMzd">
+                <titl>x Procento / konstanta</titl>
+            </prop>
+            <prop name="vsPrumNaDenNem">
+                <titl>x Denní průměr</titl>
+            </prop>
+            <prop name="vsPrumNaHodNem">
+                <titl>x Hodinový průměr</titl>
+            </prop>
+            <prop name="vsZaklJeKracen">
+                <titl>x Základ je krácen úvazkem</titl>
+            </prop>
+            <prop name="vsZaklMzd">
+                <titl>x Základ</titl>
+            </prop>
+            <prop name="vsZmenaCastMzd">
+                <titl>x Uživatelská změna částky</titl>
+            </prop>
+            <prop name="vyznamK">
+                <titl>Význam</titl>
+            </prop>
+            <prop name="zaklJeKracen">
+                <titl>x Základ je krácen úvazkem</titl>
+            </prop>
+            <prop name="zaklMzd">
+                <titl>Základ mzdy</titl>
+                <abbr>Základ</abbr>
+            </prop>
+            <prop name="zapoctovyList">
+                <titl>Zápočtový list</titl>
+            </prop>
+            <prop name="zmenaCastMzd">
+                <titl>Uživatelská změna částky</titl>
+                <abbr>Uživ.zm.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Dite">
+            <prop name="_title">
+                <titl>Děti</titl>
+            </prop>
+            <prop name="datNaroz">
+                <titl>Datum narození</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="pohlaviK">
+                <titl>Pohlaví</titl>
+            </prop>
+            <prop name="rodCis">
+                <titl>Rodné číslo</titl>
+            </prop>
+            <prop name="ztp_P">
+                <titl>ZTP/P</titl>
+            </prop>
+            <prop name="ztp_PDo">
+                <titl>Do</titl>
+            </prop>
+            <prop name="ztp_POd">
+                <titl>Od</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.DovolenaCerpani">
+            <prop name="_title">
+                <titl>Čerpání dovolené</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkem</titl>
+            </prop>
+            <prop name="idDovolenaCerpani">
+                <titl>ID</titl>
+            </prop>
+            <prop name="jmeno">
+                <titl>Příjmení a jméno</titl>
+            </prop>
+            <prop name="kraceno">
+                <titl>Kráceno (hod)</titl>
+            </prop>
+            <prop name="lonska">
+                <titl>Loňská (hod)</titl>
+            </prop>
+            <prop name="narok">
+                <titl>Nárok (hod)</titl>
+            </prop>
+            <prop name="necerpana">
+                <titl>Proplacená (hod)</titl>
+            </prop>
+            <prop name="pomCast">
+                <titl>Poměrná část (hod)</titl>
+            </prop>
+            <prop name="vybrano">
+                <titl>Vybráno (hod)</titl>
+            </prop>
+            <prop name="zbyva">
+                <titl>Zbývá (hod)</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdCalc">
+            <prop name="_title">
+                <titl>Řádka mzdové kalkulačky</titl>
+                <abbr>Řádka MK</abbr>
+            </prop>
+            <prop name="doHodnoty">
+                <titl>Hodnota do</titl>
+            </prop>
+            <prop name="ispv">
+                <titl>ISPV</titl>
+            </prop>
+            <prop name="koeficient">
+                <titl>Koeficient 1</titl>
+                <abbr>Koef.1</abbr>
+            </prop>
+            <prop name="koeficient2">
+                <titl>Koeficient 2</titl>
+                <abbr>Koef.2</abbr>
+            </prop>
+            <prop name="koeficient3">
+                <titl>Koeficient 3</titl>
+                <abbr>Koef.3</abbr>
+            </prop>
+            <prop name="mzdCalcHlav">
+                <titl>Hlavička</titl>
+            </prop>
+            <prop name="mzdSlozIn">
+                <titl>Vstupní složka 1</titl>
+                <abbr>Vstup 1</abbr>
+            </prop>
+            <prop name="mzdSlozIn2">
+                <titl>Vstupní složka 2</titl>
+                <abbr>Vstup 2</abbr>
+            </prop>
+            <prop name="mzdSlozOut">
+                <titl>Výstupní složka</titl>
+                <abbr>Výstup</abbr>
+            </prop>
+            <prop name="odHodnoty">
+                <titl>Hodnota od</titl>
+            </prop>
+            <prop name="operaceK">
+                <titl>Operace</titl>
+            </prop>
+            <prop name="poleIn">
+                <titl>Vstupní pole 1</titl>
+                <abbr>Pole 1</abbr>
+            </prop>
+            <prop name="poleIn2">
+                <titl>Vstupní pole 2</titl>
+                <abbr>Pole 2</abbr>
+            </prop>
+            <prop name="poleOut">
+                <titl>Výstupní pole</titl>
+                <abbr>Pole out</abbr>
+            </prop>
+            <prop name="sumMesicu">
+                <titl>Sumovat měsíců</titl>
+            </prop>
+            <prop name="sumTypK">
+                <titl>Typ sumace</titl>
+            </prop>
+            <prop name="vyhodnotRocne">
+                <titl>Vyhodnoť ročně</titl>
+            </prop>
+            <prop name="vyslDoHodnoty">
+                <titl>Výsl. do hodnoty</titl>
+            </prop>
+            <prop name="vyslOdHodnoty">
+                <titl>Výsl. od hodnoty</titl>
+            </prop>
+            <prop name="vstupNapricPomery">
+                <titl>Vstup napříč poměry</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdCalcHlav">
+            <prop name="_title">
+                <titl>Hlavička mzdové kalkulačky</titl>
+            </prop>
+            <prop name="radkaHromadne">
+                <titl>Hromadné před</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdCalcHrom">
+            <prop name="_title">
+                <titl>Hromadná operace</titl>
+            </prop>
+            <prop name="mzdCalcHlav">
+                <titl>Hlavička</titl>
+            </prop>
+            <prop name="mzdSlozIn">
+                <titl>Vstupní složka</titl>
+            </prop>
+            <prop name="mzdSlozOut">
+                <titl>Výstupní složka</titl>
+            </prop>
+            <prop name="poleIn">
+                <titl>Vstupní pole</titl>
+            </prop>
+            <prop name="poleOut">
+                <titl>Výstupní pole</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdCalcInit">
+            <prop name="_title">
+                <titl>Inicializace</titl>
+            </prop>
+            <prop name="mzdCalcHlav">
+                <titl>Hlavička</titl>
+            </prop>
+            <prop name="mzdSlozOut">
+                <titl>Cílová složka</titl>
+            </prop>
+            <prop name="platnostK">
+                <titl>Platnost</titl>
+            </prop>
+            <prop name="poleIn">
+                <titl>Zdrojové pole</titl>
+            </prop>
+            <prop name="poleOut">
+                <titl>Cílové pole</titl>
+            </prop>
+            <prop name="typPracPom">
+                <titl>Typ prac.poměru</titl>
+            </prop>
+            <prop name="zdrojK">
+                <titl>Zdrojový objekt</titl>
+            </prop>
+            <prop name="zpracDatumK">
+                <titl>Způsob zpracování data</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.MzdSloz">
+            <prop name="_title">
+                <titl>Inicializační složky</titl>
+            </prop>
+            <prop name="castkaDen">
+                <titl>Částka za den</titl>
+            </prop>
+            <prop name="castkaHod">
+                <titl>Částka za hodinu</titl>
+            </prop>
+            <prop name="castMzd">
+                <titl>Částka</titl>
+            </prop>
+            <prop name="cisDoklNem">
+                <titl>Číslo dokladu (pro nemoc)</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Mzdová složka</titl>
+            </prop>
+            <prop name="datumDo">
+                <titl>Koncové datum</titl>
+            </prop>
+            <prop name="datumDoklad">
+                <titl>Datum dodání dokladu</titl>
+            </prop>
+            <prop name="datumOd">
+                <titl>Počáteční datum</titl>
+            </prop>
+            <prop name="dnyKal">
+                <titl>Dny kalendářní</titl>
+            </prop>
+            <prop name="dnyKalReal">
+                <titl>Dny kalendářní skutečné</titl>
+            </prop>
+            <prop name="dnyPrac">
+                <titl>Dny pracovní</titl>
+            </prop>
+            <prop name="dnySvatek">
+                <titl>Dny ve svátek</titl>
+            </prop>
+            <prop name="doplatZdravK">
+                <titl>Doplatek do zdravotního pojištění</titl>
+            </prop>
+            <prop name="doubleX">
+                <titl>Částka přesně</titl>
+            </prop>
+            <prop name="hodiny">
+                <titl>Hodiny</titl>
+            </prop>
+            <prop name="hodinySvatek">
+                <titl>Hodiny svátek</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Měsíc</titl>
+            </prop>
+            <prop name="mesicPlatba">
+                <titl>Měsíc platby</titl>
+            </prop>
+            <prop name="nepritomnost">
+                <titl>Nepřítomnost</titl>
+            </prop>
+            <prop name="odmena">
+                <titl>Odměna</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="pocetMes">
+                <titl>Odměna / prémie je za [měsíce]</titl>
+            </prop>
+            <prop name="pracovni">
+                <titl>Pracovní</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="procMzd">
+                <titl>Procento / konstanta</titl>
+            </prop>
+            <prop name="prumNaDenNem">
+                <titl>Denní průměr</titl>
+            </prop>
+            <prop name="prumNaHodNem">
+                <titl>Hodinový průměr</titl>
+            </prop>
+            <prop name="rokPlatba">
+                <titl>Rok platby</titl>
+            </prop>
+            <prop name="skupSlozkyK">
+                <titl>Skupina složky</titl>
+            </prop>
+            <prop name="srazka">
+                <titl>Srážka</titl>
+            </prop>
+            <prop name="stalaMzdSloz">
+                <titl>Stálá mzdová složka</titl>
+            </prop>
+            <prop name="typSlozkyK">
+                <titl>Typ složky</titl>
+            </prop>
+            <prop name="zaklJeKracen">
+                <titl>Základ je krácen úvazkem</titl>
+            </prop>
+            <prop name="zaklMzd">
+                <titl>Základ</titl>
+            </prop>
+            <prop name="zmenaCastMzd">
+                <titl>Uživatelská změna částky</titl>
+            </prop>
+            <prop name="zmenaCasu">
+                <titl>Uživatelská změna času</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Nepritomnost">
+            <prop name="_title">
+                <titl>Nepřítomnost</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Důvod nepřítomnosti</titl>
+            </prop>
+            <prop name="hodin1Den">
+                <titl>Hodiny první den nepřítomnosti</titl>
+            </prop>
+            <prop name="hodinXDen">
+                <titl>Hodiny poslední den nepřítomnosti</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="platiDo">
+                <titl>Konec</titl>
+            </prop>
+            <prop name="platiOd">
+                <titl>Začátek</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="cisloRozhodnuti">
+                <titl>Číslo rozhodnutí</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Osoba">
+            <prop name="_title">
+                <titl>Osoby</titl>
+            </prop>
+            <prop name="cisDomu">
+                <titl>Číslo domu</titl>
+            </prop>
+            <prop name="cisDomuKon">
+                <titl>Číslo domu kontaktní</titl>
+            </prop>
+            <prop name="cisDomuKonTuz">
+                <titl>Číslo domu kon.tuz.</titl>
+            </prop>
+            <prop name="cisPojist">
+                <titl>Číslo pojištěnce</titl>
+            </prop>
+            <prop name="cisPrukaz">
+                <titl>Číslo průkazu</titl>
+            </prop>
+            <prop name="cisUcastDuchSpor">
+                <titl>Číslo účastníka důchodového spoření</titl>
+            </prop>
+            <prop name="cizPojCisDomu">
+                <titl>Číslo domu ciz.poj.</titl>
+            </prop>
+            <prop name="cizPojCislo">
+                <titl>Číslo ciz.poj.</titl>
+            </prop>
+            <prop name="cizPojMesto">
+                <titl>Město ciz.poj.</titl>
+            </prop>
+            <prop name="cizPojNazev">
+                <titl>Název ciz.poj.</titl>
+            </prop>
+            <prop name="cizPojPsc">
+                <titl>PSČ ciz.poj.</titl>
+            </prop>
+            <prop name="cizPojSpec">
+                <titl>Specifikace ciz.poj.</titl>
+            </prop>
+            <prop name="cizPojStat">
+                <titl>Stát ciz.poj.</titl>
+            </prop>
+            <prop name="cizPojUlice">
+                <titl>Ulice ciz.poj.</titl>
+            </prop>
+            <prop name="danNerezid">
+                <titl>Daňový nerezident</titl>
+            </prop>
+            <prop name="datNaroz">
+                <titl>Datum narození</titl>
+            </prop>
+            <prop name="detiOdpoc">
+                <titl>Další děti pro odpočet</titl>
+            </prop>
+            <prop name="diteOdpoc1">
+                <titl>1. dítě pro odpočet</titl>
+            </prop>
+            <prop name="diteOdpoc2">
+                <titl>2. dítě pro odpočet</titl>
+            </prop>
+            <prop name="duchodOd">
+                <titl>Důchod od</titl>
+            </prop>
+            <prop name="invalCast">
+                <titl>Invalidita 1.a 2.stupně</titl>
+            </prop>
+            <prop name="invalOd">
+                <titl>Invalidita od</titl>
+            </prop>
+            <prop name="invalPlna">
+                <titl>Invalidita 3.stupně</titl>
+            </prop>
+            <prop name="ispvOkres">
+                <titl>ISPV Okres</titl>
+            </prop>
+            <prop name="ispvPostaveni">
+                <titl>ISPV Postavení</titl>
+            </prop>
+            <prop name="ispvVedouci">
+                <titl>ISPV Vedoucí</titl>
+            </prop>
+            <prop name="ispvVzdelani">
+                <titl>ISPV Vzdělání</titl>
+            </prop>
+            <prop name="ispvZamest">
+                <titl>ISPV Zaměstnání</titl>
+            </prop>
+            <prop name="kvalifikace">
+                <titl>Kvalifikace</titl>
+            </prop>
+            <prop name="mestoKon">
+                <titl>Město kontaktní</titl>
+            </prop>
+            <prop name="mestoKonTuz">
+                <titl>Město kon.tuz.</titl>
+            </prop>
+            <prop name="minuleSoc">
+                <titl>Pojistné (sociální)z min.zaměst</titl>
+            </prop>
+            <prop name="minuleZdrav">
+                <titl>Pojistné (zdravotní)z min.zaměst</titl>
+            </prop>
+            <prop name="mistoNaroz">
+                <titl>Místo narození</titl>
+            </prop>
+            <prop name="nadzizeny">
+                <titl>Nadřízený</titl>
+            </prop>
+            <prop name="nezDatNaroz">
+                <titl>Datum narození</titl>
+                <abbr>Nez.p. datum narození</abbr>
+            </prop>
+            <prop name="nezDo">
+                <titl>Platí do</titl>
+                <abbr>Nez.p. do</abbr>
+            </prop>
+            <prop name="nezJmeno">
+                <titl>Jméno</titl>
+                <abbr>Nez.p. jméno</abbr>
+            </prop>
+            <prop name="nezOd">
+                <titl>Platí od</titl>
+                <abbr>Nez.p. od</abbr>
+            </prop>
+            <prop name="nezPartner">
+                <titl>Nezaopatřený partner</titl>
+            </prop>
+            <prop name="nezPohlaviK">
+                <titl>Pohlaví</titl>
+                <abbr>Nez.p. pohlaví</abbr>
+            </prop>
+            <prop name="nezPrijmeni">
+                <titl>Příjmení</titl>
+                <abbr>Nez.p. příjmení</abbr>
+            </prop>
+            <prop name="nezPrijmeniRod">
+                <titl>Rodné příjmení</titl>
+                <abbr>Nez.p. rodné příjmení</abbr>
+            </prop>
+            <prop name="nezRodCis">
+                <titl>Rodné číslo</titl>
+                <abbr>Nez.p. RČ</abbr>
+            </prop>
+            <prop name="nezTitul">
+                <titl>Titul</titl>
+                <abbr>Nez.p. titul</abbr>
+            </prop>
+            <prop name="nezZTP">
+                <titl>ZTP/P</titl>
+                <abbr>Nez.p. ZTP/P</abbr>
+            </prop>
+            <prop name="nezZTPDo">
+                <titl>ZTP/P platí do</titl>
+                <abbr>Nez.p. ZTP/P do</abbr>
+            </prop>
+            <prop name="nezZTPOd">
+                <titl>ZTP/P platí od</titl>
+                <abbr>Nez.p. ZTP/P od</abbr>
+            </prop>
+            <prop name="odpocetDeti">
+                <titl>Dětí pro odpočet</titl>
+            </prop>
+            <prop name="odpocetDeti3">
+                <titl>Počet třetích a dalších dětí pro odpočet</titl>
+            </prop>
+            <prop name="odpocetDetiZtp">
+                <titl>Dětí ZTP pro odpočet</titl>
+            </prop>
+            <prop name="odpocetDite1Ztp">
+                <titl>První dítě pro odpočet je ZTP</titl>
+            </prop>
+            <prop name="odpocetDite2Ztp">
+                <titl>Druhé dítě pro odpočet je ZTP</titl>
+            </prop>
+            <prop name="odpracDnuPred">
+                <titl>Odpracovaných dnů při nástupu</titl>
+            </prop>
+            <prop name="odpracRokuPred">
+                <titl>Odpracovaných roků při nástupu</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Osobní číslo</titl>
+            </prop>
+            <prop name="osbCisAlter">
+                <titl>Alternativní osobní číslo</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="podpisProhl">
+                <titl>Podpis prohlášeni k dani</titl>
+            </prop>
+            <prop name="pohlaviK">
+                <titl>Pohlaví</titl>
+            </prop>
+            <prop name="posta">
+                <titl>Pošta</titl>
+            </prop>
+            <prop name="postaKon">
+                <titl>Pošta kontaktní</titl>
+            </prop>
+            <prop name="postaKonTuz">
+                <titl>Pošta kon.tuz.</titl>
+            </prop>
+            <prop name="predNemPoj">
+                <titl>Předchozí nem.poj. mimo ČSSZ</titl>
+            </prop>
+            <prop name="prijmeniPred">
+                <titl>Předchozí příjmení</titl>
+            </prop>
+            <prop name="prijmeniRod">
+                <titl>Rodné příjmení</titl>
+            </prop>
+            <prop name="prukazZTP">
+                <titl>Držitel průkazu ZTP/P</titl>
+            </prop>
+            <prop name="pscKon">
+                <titl>PSČ kontaktní</titl>
+            </prop>
+            <prop name="pscKonTuz">
+                <titl>PSČ kon.tuz.</titl>
+            </prop>
+            <prop name="rodCis">
+                <titl>Rodné číslo</titl>
+                <desc>RČ nebo Evidenční číslo pojištěnce (EČP)</desc>
+            </prop>
+            <prop name="rodStavK">
+                <titl>Rodinný stav</titl>
+            </prop>
+            <prop name="sirotciDuch">
+                <titl>Sirotčí důchod</titl>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Skupina osob</titl>
+            </prop>
+            <prop name="slevaPoplat">
+                <titl>Sleva na poplatníka</titl>
+            </prop>
+            <prop name="snizVymZaklZp">
+                <titl>Snížení vyměřovacího základu ZP (Zákon č. 592/1992 Sb., § 3 - Vyměřovací základ, odstavec 7)</titl>
+                <abbr>Sníž. vym. zákl. ZP</abbr>
+            </prop>
+            <prop name="soucNemPoj">
+                <titl>Současný nem.poj. mimo ČSSZ</titl>
+            </prop>
+            <prop name="starobniDuch">
+                <titl>Starobní důchod</titl>
+            </prop>
+            <prop name="starobniPredDuch">
+                <titl>Předčasný starobní důchod</titl>
+            </prop>
+            <prop name="statKon">
+                <titl>Stát kontaktní</titl>
+            </prop>
+            <prop name="statKonTuz">
+                <titl>Stát kon.tuz.</titl>
+            </prop>
+            <prop name="statNaroz">
+                <titl>Stát narození</titl>
+            </prop>
+            <prop name="statObcan">
+                <titl>Státní občanství</titl>
+            </prop>
+            <prop name="student">
+                <titl>Student</titl>
+            </prop>
+            <prop name="tdDobirka">
+                <titl>Typ závazku dobírky</titl>
+            </prop>
+            <prop name="tdZaloha">
+                <titl>Typ závazku zálohy</titl>
+            </prop>
+            <prop name="telefon">
+                <titl>Telefon</titl>
+            </prop>
+            <prop name="typVztahuK">
+                <titl>Typ vztahu k firmě</titl>
+            </prop>
+            <prop name="ucastnikDuchSpor">
+                <titl>Je účasten důchodového spoření</titl>
+            </prop>
+            <prop name="uliceKon">
+                <titl>Ulice kontaktní</titl>
+            </prop>
+            <prop name="uliceKonTuz">
+                <titl>Ulice kon.tuz.</titl>
+            </prop>
+            <prop name="vdovskyDuch">
+                <titl>Vdovský/vdovecký důchod</titl>
+            </prop>
+            <prop name="zahranicniDuch">
+                <titl>Důchod pobírán v zahraničí</titl>
+            </prop>
+            <prop name="zdravPoj">
+                <titl>Zdravotní pojišťovna</titl>
+                <abbr>Zdr.poj.</abbr>
+            </prop>
+            <prop name="zdrPojDoplat">
+                <titl>Zdravotní pojištění - doplatek do minimálního vyměřovacího základu</titl>
+            </prop>
+            <prop name="zdrPojDoplatRozdel">
+                <titl>Rozdělit mezi firmu a zaměstnance</titl>
+            </prop>
+            <prop name="zpusPlatbyK">
+                <titl>Způsob platby</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.OsobaHlav">
+            <prop name="_title">
+                <titl>Hlavičky osob</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Osobní číslo</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PraceStred">
+            <prop name="_title">
+                <titl>Práce pro střediska</titl>
+            </prop>
+            <prop name="datumDo">
+                <titl>Datum do</titl>
+            </prop>
+            <prop name="datumOd">
+                <titl>Datum od</titl>
+            </prop>
+            <prop name="hodin">
+                <titl>Hodin</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Měsíc</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="procento">
+                <titl>Procento</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PracPom">
+            <prop name="_title">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="aktivniDo">
+                <titl>Aktivní do</titl>
+            </prop>
+            <prop name="aktivniOd">
+                <titl>Aktivní od</titl>
+            </prop>
+            <prop name="dovoleneRocne">
+                <titl>Dní dovolené ročně</titl>
+            </prop>
+            <prop name="dovoleneRocneHod">
+                <titl>Hodin dovolené ročně</titl>
+            </prop>
+            <prop name="hlavni">
+                <titl>Hlavní</titl>
+            </prop>
+            <prop name="hodinovaMzda">
+                <titl>Hodinová mzda</titl>
+            </prop>
+            <prop name="kodELDP">
+                <titl>Kód ELDP</titl>
+            </prop>
+            <prop name="konecPomeru">
+                <titl>Konec poměru</titl>
+            </prop>
+            <prop name="malyRozsah">
+                <titl>Zaměstnání malého rozsahu</titl>
+            </prop>
+            <prop name="prominutiSPFirma">
+                <titl>Prominutí SP za firmu</titl>
+            </prop>
+            <prop name="mesicniMzda">
+                <titl>Měsíční mzda</titl>
+            </prop>
+            <prop name="nastup">
+                <titl>Nástupu do práce</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="plneniOdprDobyK">
+                <titl>Plnění odpracované doby</titl>
+            </prop>
+            <prop name="pracPomHlav">
+                <titl>Hlavička pracovního poměru</titl>
+            </prop>
+            <prop name="pracRozvrhK">
+                <titl>Pracovní rozvrh</titl>
+            </prop>
+            <prop name="predHrubPrijem">
+                <titl>Pracovněprávní průměr [%currency-symbol/hod]</titl>
+            </prop>
+            <prop name="procMinMzd">
+                <titl>Procento z minimální mzdy</titl>
+            </prop>
+            <prop name="svatkyPrumer">
+                <titl>Výpočet náhrady za svátky z průměru</titl>
+            </prop>
+            <prop name="tarifTrida">
+                <titl>Tarifní třída</titl>
+            </prop>
+            <prop name="tdIntCestDoLim">
+                <titl>do limitu</titl>
+                <abbr>Typ interního dokladu pro cestovné do limitu</abbr>
+            </prop>
+            <prop name="tdIntCestNadLim">
+                <titl>nad limit</titl>
+                <abbr>Typ interního dokladu pro cestovné nad limit</abbr>
+            </prop>
+            <prop name="tdIntHruba">
+                <titl>Typ interního dokladu pro hrubou mzdy</titl>
+            </prop>
+            <prop name="tdIntNahrad">
+                <titl>Typ interního dokladu náhrady mzdy za prac.neschopnost</titl>
+            </prop>
+            <prop name="tdIntStravPausDoLim">
+                <titl>do limitu</titl>
+                <abbr>Typ interního dokladu pro strav. paušál do limitu</abbr>
+            </prop>
+            <prop name="tdIntStravPausNadLim">
+                <titl>nad limit</titl>
+                <abbr>Typ interního dokladu pro strav. paušál nad limit</abbr>
+            </prop>
+            <prop name="tdIntHomeofficeDoLim">
+                <titl>do limitu</titl>
+                <abbr>Typ interního dokladu pro homeoffice do limitu</abbr>
+            </prop>
+            <prop name="tdIntHomeofficeNadLim">
+                <titl>nad limit</titl>
+                <abbr>Typ interního dokladu pro homeoffice nad limit</abbr>
+            </prop>
+            <prop name="tuoZavDan">
+                <titl>Předpis zaúčtování daň</titl>
+            </prop>
+            <prop name="tuoZavSocFir">
+                <titl>Sociální pojištění zaměstnavatel</titl>
+                <abbr>Předpis zaúčtování soc. firma</abbr>
+            </prop>
+            <prop name="tuoZavSocZam">
+                <titl>Sociální pojištění zaměstnanec</titl>
+                <abbr>Předpis zaúčtování soc. zaměstnanec</abbr>
+            </prop>
+            <prop name="tuoZavZdrFir">
+                <titl>Zdravotní pojištění zaměstnavatel</titl>
+                <abbr>Předpis zaúčtování zdr. firma</abbr>
+            </prop>
+            <prop name="tuoZavZdrZam">
+                <titl>Zdravotní pojištění zaměstnanec</titl>
+                <abbr>Předpis zaúčtování zdr. zaměstnanec</abbr>
+            </prop>
+            <prop name="tdSrazkaStrav">
+                <titl>Typ dokladu pro srážku stravenek</titl>
+            </prop>
+            <prop name="tydenPracDobaK">
+                <titl>Tydenní pracovní doba</titl>
+            </prop>
+            <prop name="typMzdyK">
+                <titl>Typ mzdy</titl>
+            </prop>
+            <prop name="typPracPom">
+                <titl>Typ pracovního poměru</titl>
+            </prop>
+            <prop name="uvazCt">
+                <titl>Čtvrtek</titl>
+            </prop>
+            <prop name="uvazDnuTydne">
+                <titl>Úvazek dnů [Týdně]</titl>
+            </prop>
+            <prop name="uvazHodDenne">
+                <titl>Úvazek hodin [Denně]</titl>
+            </prop>
+            <prop name="uvazHodTydne">
+                <titl>Úvazek hodin [Týdně]</titl>
+            </prop>
+            <prop name="uvazNe">
+                <titl>Neděle</titl>
+            </prop>
+            <prop name="uvazPa">
+                <titl>Pátek</titl>
+            </prop>
+            <prop name="uvazPo">
+                <titl>Pondělí</titl>
+            </prop>
+            <prop name="uvazSo">
+                <titl>Sobota</titl>
+            </prop>
+            <prop name="uvazSt">
+                <titl>Středa</titl>
+            </prop>
+            <prop name="uvazUt">
+                <titl>Úterý</titl>
+            </prop>
+            <prop name="zacatek">
+                <titl>Začátek poměru</titl>
+            </prop>
+            <prop name="skutecnyNastup">
+                <titl>Skutečný nástup</titl>
+            </prop>
+            <prop name="zacPracDoby">
+                <titl>Začátek pracovní doby</titl>
+            </prop>
+            <prop name="zlistDuvod">
+                <titl>Důvod ukončení</titl>
+            </prop>
+            <prop name="zlistSdeleni">
+                <titl>Sdělení organizace</titl>
+            </prop>
+            <prop name="zlistUkonceni">
+                <titl>Způsob ukončení</titl>
+            </prop>
+            <prop name="narokOdstupne">
+                <titl>Nárok na odstupné</titl>
+            </prop>
+            <prop name="odstupnePlnaVyse">
+                <titl>Odstupné vyplaceno v plné výši</titl>
+            </prop>
+            <prop name="odstupneNasobek">
+                <titl>Odstupné - násobek</titl>
+            </prop>
+            <prop name="duvodUkonceniCsszK">
+                <titl>Důvod ukončení prac. poměru</titl>
+            </prop>
+            <prop name="duvodNeposkytnutiCsszK">
+                <titl>Důvod neposkytnutí podkladů</titl>
+            </prop>
+            <prop name="slevaSPFirma">
+                <titl>Sleva SP za firmu</titl>
+            </prop>
+            <prop name="duvodSlevaSPFirmaK">
+                <titl>Důvod slevy SP za firmu</titl>
+            </prop>
+            <prop name="slevaSpFirmaOd">
+                <titl>OZUSPOJ sleva od</titl>
+            </prop>
+            <prop name="slevaSpFirmaDo">
+                <titl>OZUSPOJ sleva do</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PracPomHlav">
+            <prop name="_title">
+                <titl>Hlavička pracovního poměru</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PracPomView">
+            <prop name="_title">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="idPracPomView">
+                <titl>ID</titl>
+            </prop>
+            <prop name="hlavni">
+                <titl>Hlavní</titl>
+            </prop>
+            <prop name="aktivniDo">
+                <titl>Aktivní do</titl>
+            </prop>
+            <prop name="aktivniOd">
+                <titl>Aktivní od</titl>
+            </prop>
+            <prop name="konecPomeru">
+                <titl>Konec poměru</titl>
+            </prop>
+            <prop name="nastup">
+                <titl>Nástupu do práce</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="pracRozvrhK">
+                <titl>Pracovní rozvrh</titl>
+            </prop>
+            <prop name="tydenPracDoba">
+                <titl>Tydenní pracovní doba</titl>
+            </prop>
+            <prop name="uvazDnuTydne">
+                <titl>Úvazek dnů [Týdně]</titl>
+            </prop>
+            <prop name="uvazHodDenne">
+                <titl>Úvazek hodin [Denně]</titl>
+            </prop>
+            <prop name="uvazHodTydne">
+                <titl>Úvazek hodin [Týdně]</titl>
+            </prop>
+            <prop name="zacatek">
+                <titl>Začátek poměru</titl>
+            </prop>
+            <prop name="slevaSPFirma">
+                <titl>Sleva SP za firmu</titl>
+            </prop>
+            <prop name="duvodSlevaSPFirmaK">
+                <titl>Důvod slevy SP za firmu</titl>
+            </prop>
+            <prop name="slevaSpFirmaOd">
+                <titl>OZUSPOJ sleva od</titl>
+            </prop>
+            <prop name="slevaSpFirmaDo">
+                <titl>OZUSPOJ sleva do</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PracPravPrumer">
+            <prop name="_title">
+                <titl>Pracovněprávní průměry</titl>
+            </prop>
+            <prop name="idPracPravPrumer">
+                <titl>ID</titl>
+            </prop>
+            <prop name="jmeno">
+                <titl>Příjmení a jméno</titl>
+            </prop>
+            <prop name="prum1">
+                <titl>1. čtvrtletí</titl>
+            </prop>
+            <prop name="prum2">
+                <titl>2. čtvrtletí</titl>
+            </prop>
+            <prop name="prum3">
+                <titl>3. čtvrtletí</titl>
+            </prop>
+            <prop name="prum4">
+                <titl>4. čtvrtletí</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PrehledMzdSlozky">
+            <prop name="_title">
+                <titl>Přehled mzdové složky</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Částka</titl>
+            </prop>
+            <prop name="cisRad">
+                <titl>Č. řádky</titl>
+            </prop>
+            <prop name="dny">
+                <titl>Dnů</titl>
+            </prop>
+            <prop name="hodiny">
+                <titl>Hodin</titl>
+            </prop>
+            <prop name="idPrehledMzdSlozky">
+                <titl>ID</titl>
+            </prop>
+            <prop name="pocetPolozek">
+                <titl>Položek</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Základ</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PrehledPracPom">
+            <prop name="_title">
+                <titl>Přehled pracovních poměrů</titl>
+            </prop>
+            <prop name="castHod">
+                <titl>Kč/hod.</titl>
+            </prop>
+            <prop name="castMes">
+                <titl>Kč/měs.</titl>
+            </prop>
+            <prop name="idPrehledPracPom">
+                <titl>ID</titl>
+            </prop>
+            <prop name="nastup">
+                <titl>Nástup</titl>
+            </prop>
+            <prop name="pracRozvrhK">
+                <titl>Typ prac. rozvrhu</titl>
+            </prop>
+            <prop name="stalaMzdSloz">
+                <titl>Typ mzdy</titl>
+            </prop>
+            <prop name="ukonceni">
+                <titl>Ukončení</titl>
+            </prop>
+            <prop name="uvazek">
+                <titl>Úvazek hod/týd</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.PrehledZamestnancu">
+            <prop name="_title">
+                <titl>Přehled zaměstnanců</titl>
+            </prop>
+            <prop name="datNaroz">
+                <titl>Datum narození</titl>
+            </prop>
+            <prop name="dobaOdpr">
+                <titl>Odpracovaná doba</titl>
+            </prop>
+            <prop name="dovolPocatek">
+                <titl>Dovolená počátek (hod)</titl>
+            </prop>
+            <prop name="dovolVybrano">
+                <titl>Čerpaná dovolená od počátku roku (hod)</titl>
+            </prop>
+            <prop name="dovolZbyva">
+                <titl>Dovolená zbývá (hod)</titl>
+            </prop>
+            <prop name="idPrehledZamestnancu">
+                <titl>ID</titl>
+            </prop>
+            <prop name="jmeno">
+                <titl>Příjmení a jméno</titl>
+            </prop>
+            <prop name="konecPomeru">
+                <titl>Konec prac.poměru</titl>
+            </prop>
+            <prop name="odpocetDeti">
+                <titl>Odpočet dětí</titl>
+            </prop>
+            <prop name="osbCis">
+                <titl>Osobní číslo</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="pracPravPrum">
+                <titl>Prac.právní průměr</titl>
+            </prop>
+            <prop name="typPracPom">
+                <titl>Typ pracovního poměru</titl>
+            </prop>
+            <prop name="uvazHodTydne">
+                <titl>Úvazek hodin/týden</titl>
+            </prop>
+            <prop name="uvazKoef">
+                <titl>Úvazek koeficient</titl>
+            </prop>
+            <prop name="zacatek">
+                <titl>Počátek prac.poměru</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Prumer">
+            <prop name="_title">
+                <titl>Průměr</titl>
+            </prop>
+            <prop name="hrubaHodMzda">
+                <titl>Průměrná hodinová hrubá mzda</titl>
+            </prop>
+            <prop name="mesicCtvrtleti">
+                <titl>Měsíc/čtvrtletí</titl>
+            </prop>
+            <prop name="nemocDenPrum">
+                <titl>Průměr pro nemoc [Kč/den]</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="pracPravPrum">
+                <titl>Pracovněprávní průměr [Kč/hod]</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.SkupOsob">
+            <prop name="_title">
+                <titl>Skupiny osob</titl>
+            </prop>
+            <prop name="tdIntCestDoLim">
+                <titl>do limitu</titl>
+                <abbr>Typ pro cestovné do limitu</abbr>
+            </prop>
+            <prop name="tdIntCestNadLim">
+                <titl>nad limit</titl>
+                <abbr>Typ pro cestovné nad limit</abbr>
+            </prop>
+            <prop name="tdIntHruba">
+                <titl>Typ hrubé mzdy</titl>
+            </prop>
+            <prop name="tdIntNahrad">
+                <titl>Typ náhrady mzdy</titl>
+            </prop>
+            <prop name="tdIntStravPausDoLim">
+                <titl>do limitu</titl>
+                <abbr>Typ pro strav. paušál do limitu</abbr>
+            </prop>
+            <prop name="tdIntStravPausNadLim">
+                <titl>nad limit</titl>
+                <abbr>Typ pro strav. paušál nad limit</abbr>
+            </prop>
+            <prop name="tdIntHomeofficeDoLim">
+                <titl>do limitu</titl>
+                <abbr>Typ pro homeoffice do limitu</abbr>
+            </prop>
+            <prop name="tdIntHomeofficeNadLim">
+                <titl>nad limit</titl>
+                <abbr>Typ pro homeoffice nad limit</abbr>
+            </prop>
+            <prop name="tuoZavDan">
+                <titl>Předpis zaúčtování daň</titl>
+            </prop>
+            <prop name="tuoZavSocFir">
+                <titl>Předpis zaúčtování zaměstnavatel</titl>
+                <abbr>Př. zaúč. soc. firma</abbr>
+            </prop>
+            <prop name="tuoZavSocZam">
+                <titl>Předpis zaúčtování zaměstnanec</titl>
+                <abbr>Př. zaúč. soc. zaměst.</abbr>
+            </prop>
+            <prop name="tuoZavZdrFir">
+                <titl>Předpis zaúčtování - zaměstnavatel</titl>
+                <abbr>Př. zaúč. zdr. firma</abbr>
+            </prop>
+            <prop name="tuoZavZdrZam">
+                <titl>Předpis zaúčtování - zaměstnanec</titl>
+                <abbr>Př. zaúč. zdr. zaměst.</abbr>
+            </prop>
+            <prop name="tydenPracDobaK">
+                <titl>Tydenní pracovní doba</titl>
+            </prop>
+            <prop name="tdSrazkaStrav">
+                <titl>Typ pro srážku stravenek</titl>
+            </prop>
+            <prop name="tdStravenka">
+                <titl>Typ pro stravenky</titl>
+            </prop>
+            <prop name="tuoStravZam">
+                <titl>Předpis příspěvek zaměstnance</titl>
+            </prop>
+            <prop name="tuoStravFirDoLim">
+                <titl>Předpis příspěvek firmy do limitu</titl>
+            </prop>
+            <prop name="tuoStravFirNadLim">
+                <titl>Předpis příspěvek firmy nad limit</titl>
+            </prop>
+            <prop name="tdPrispPenzijStat">
+                <titl>Typ int. dokl. penzij. spoř. stát. přísp.</titl>
+            </prop>
+            <prop name="tdIntPrispevky">
+                <titl>Typ int. dokl. příspěvků</titl>
+            </prop>
+            <prop name="tdZavPrispevky">
+                <titl>Typ závazku příspěvků</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Smeny">
+            <prop name="_title">
+                <titl>Směny</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Měsíc</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="planovane">
+                <titl>Plánované směny</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Skupina osob</titl>
+            </prop>
+            <prop name="skutecne">
+                <titl>Skutečně odpracováno</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.Srazka">
+            <prop name="_title">
+                <titl>Srážky</titl>
+            </prop>
+            <prop name="banSpoj">
+                <titl>Bankovní spojení</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Částka</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Celkem</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Druh srážky</titl>
+            </prop>
+            <prop name="deponovatDo">
+                <titl>Deponovat do</titl>
+            </prop>
+            <prop name="kdatu">
+                <titl>K datu</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="pocatek">
+                <titl>Počáteční stav</titl>
+            </prop>
+            <prop name="poradi">
+                <titl>Pořadí srážky</titl>
+            </prop>
+            <prop name="prednostni">
+                <titl>Přednostní srážka</titl>
+            </prop>
+            <prop name="procMzd">
+                <titl>Procento / konstanta</titl>
+            </prop>
+            <prop name="skupSlozkyK">
+                <titl>Skupina složky</titl>
+            </prop>
+            <prop name="splatnost">
+                <titl>Den splatnosti</titl>
+            </prop>
+            <prop name="srazkaDo">
+                <titl>Srážet do</titl>
+            </prop>
+            <prop name="srazkaOd">
+                <titl>Srážet od</titl>
+            </prop>
+            <prop name="typIntDokl">
+                <titl>Typ interního dokladu</titl>
+            </prop>
+            <prop name="typOstZav">
+                <titl>Typ závazku</titl>
+            </prop>
+            <prop name="typSlozkyK">
+                <titl>Typ složky</titl>
+            </prop>
+            <prop name="zbyva">
+                <titl>Zbývá</titl>
+            </prop>
+            <prop name="zpusobPlatbyK">
+                <titl>Způsob platby</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.StalaMzdSloz">
+            <prop name="_title">
+                <titl>Stálé mzdové složky</titl>
+            </prop>
+            <prop name="castkaDen">
+                <titl>Částka za den</titl>
+            </prop>
+            <prop name="castkaHod">
+                <titl>Částka za hodinu</titl>
+            </prop>
+            <prop name="castMzd">
+                <titl>Částka</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Mzdová složka</titl>
+            </prop>
+            <prop name="datumDo">
+                <titl>Koncové datum</titl>
+            </prop>
+            <prop name="datumOd">
+                <titl>Počáteční datum</titl>
+            </prop>
+            <prop name="dnyKal">
+                <titl>Dny kalendářní</titl>
+            </prop>
+            <prop name="dnyPrac">
+                <titl>Dny pracovní</titl>
+            </prop>
+            <prop name="dnySvatek">
+                <titl>Dny ve svátek</titl>
+            </prop>
+            <prop name="hodiny">
+                <titl>Hodiny</titl>
+            </prop>
+            <prop name="hodinySvatek">
+                <titl>Hodiny svátek</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="pocetMes">
+                <titl>Počet měsíců za které složka platí</titl>
+            </prop>
+            <prop name="podil">
+                <titl>Podíl složky v měsíci</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="procMzd">
+                <titl>Procento / konstanta</titl>
+            </prop>
+            <prop name="prumNaDenNem">
+                <titl>Denní průměr</titl>
+            </prop>
+            <prop name="prumNaHodNem">
+                <titl>Hodinový průměr</titl>
+            </prop>
+            <prop name="skupSlozkyK">
+                <titl>Skupina složky</titl>
+            </prop>
+            <prop name="typPodilK">
+                <titl>Typ výpočtu podílu</titl>
+            </prop>
+            <prop name="typSlozkyK">
+                <titl>Typ složky</titl>
+            </prop>
+            <prop name="zaklJeKracen">
+                <titl>Základ je krácen úvazkem</titl>
+            </prop>
+            <prop name="zaklMzd">
+                <titl>Základ mzdy</titl>
+            </prop>
+            <prop name="banSpoj">
+                <titl>Bankovní účet</titl>
+            </prop>
+            <prop name="typIntDokl">
+                <titl>Typ int. dokladu</titl>
+            </prop>
+            <prop name="typOstZav">
+                <titl>Typ závazku</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.TypPracPom">
+            <prop name="_title">
+                <titl>Typ pracovního poměru</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.mzdy.TypPracPomParam">
+            <prop name="_title">
+                <titl>Parametry typu pracovního poměru</titl>
+            </prop>
+            <prop name="actDanNerez">
+                <titl>Platí pro daňového nerezidenta</titl>
+            </prop>
+            <prop name="actDanRez">
+                <titl>Platí pro daňového rezidenta</titl>
+            </prop>
+            <prop name="actMalyRoz">
+                <titl>Platí pro zaměstnání malého rozsahu</titl>
+            </prop>
+            <prop name="actMaProhl">
+                <titl>Platí při podepsaném prohlášení k dani</titl>
+            </prop>
+            <prop name="actNemaProhl">
+                <titl>Platí při nepodepsaném prohlášení k dani</titl>
+            </prop>
+            <prop name="actVelkyRoz">
+                <titl>Platí pro zaměstnání nemalého rozsahu</titl>
+            </prop>
+            <prop name="actZdrDopl">
+                <titl>Platí pro zdravotní pojištění - doplatek</titl>
+            </prop>
+            <prop name="actZdrNedopl">
+                <titl>Platí pro zdravotní pojištění - NEdoplatek</titl>
+            </prop>
+            <prop name="typRovno">
+                <titl>Typ roven</titl>
+            </prop>
+            <prop name="cisMzdSloz">
+                <titl>Mzdová složka</titl>
+            </prop>
+            <prop name="doHodnoty">
+                <titl>Hodnota do</titl>
+            </prop>
+            <prop name="koeficient">
+                <titl>Koeficient</titl>
+            </prop>
+            <prop name="mzdCalcHlav">
+                <titl>Mzdová kalkulačka</titl>
+            </prop>
+            <prop name="odHodnoty">
+                <titl>Hodnota od</titl>
+            </prop>
+            <prop name="poleNuluj">
+                <titl>Pole pro úpravu</titl>
+            </prop>
+            <prop name="poleTest">
+                <titl>Pole pro test</titl>
+            </prop>
+            <prop name="typPracPom">
+                <titl>Typ pracovního poměru</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.MzdyExtId">
+            <prop name="_title">
+                <titl>Externí identifikátory</titl>
+            </prop>
+            <prop name="banSpojMzdy">
+                <titl>Bankovní spojení</titl>
+            </prop>
+            <prop name="dite">
+                <titl>Dítě</titl>
+            </prop>
+            <prop name="extId">
+                <titl>Identifikátor</titl>
+            </prop>
+            <prop name="nepritomnost">
+                <titl>Nepřítomnost</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="osobaHlav">
+                <titl>Hlavička osoby</titl>
+            </prop>
+            <prop name="praceStred">
+                <titl>Práce pro střediska</titl>
+            </prop>
+            <prop name="pracPom">
+                <titl>Pracovní poměr</titl>
+            </prop>
+            <prop name="pracPomHlav">
+                <titl>Hlavička pracovního poměru</titl>
+            </prop>
+            <prop name="skupOsob">
+                <titl>Skupina osob</titl>
+            </prop>
+            <prop name="smeny">
+                <titl>Směny</titl>
+            </prop>
+            <prop name="srazka">
+                <titl>Srážka</titl>
+            </prop>
+            <prop name="stalaMzdSloz">
+                <titl>Stálá mzdová složka</titl>
+            </prop>
+            <prop name="tabulka">
+                <titl>Tabulka</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.PrilohaMzdy">
+            <prop name="_title">
+                <titl>Přílohy</titl>
+            </prop>
+            <prop name="data">
+                <titl>Data přílohy</titl>
+            </prop>
+            <prop name="dataHash">
+                <titl>Otisk dat přílohy (MD5 součet)</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+            <prop name="prilozit">
+                <titl>Přiložit</titl>
+                <abbr>Přiložit</abbr>
+            </prop>
+            <prop name="typK">
+                <titl>Typ přílohy</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.UcelMzdy">
+            <prop name="_title">
+                <titl>Účel</titl>
+            </prop>
+            <prop name="pozastaveno">
+                <titl>Pozastaveno</titl>
+            </prop>
+            <prop name="vyreseno">
+                <titl>Vyřešeno</titl>
+            </prop>
+            <prop name="definiceUcelu">
+                <titl>Definice účelu</titl>
+            </prop>
+            <prop name="adresar">
+                <titl>Subjekt údajů</titl>
+            </prop>
+            <prop name="polozkaPrikazu">
+                <titl>Položka příkazu</titl>
+            </prop>
+            <prop name="ucelLog">
+                <titl>Okolnosti vzniku účelu</titl>
+            </prop>
+        </bean>
+    </beans>
+</config>

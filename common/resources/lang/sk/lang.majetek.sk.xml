@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/sk/lang.majetek.sk.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <actions>
+        <act name="deleteLeasing">
+            <titl>Zmazať leasing</titl>
+            <desc>Zmazať vybraný leasing (skratka Alt+S)</desc>
+            <icon>win/erase.png</icon>
+            <mnem>83</mnem>
+            <acck>127</acck>
+            <accm>0</accm>
+        </act>
+        <act name="deleteMajetek">
+            <titl>Zmazať majetok</titl>
+            <desc>Zmazať vybraný majetok (skratka Alt+S)</desc>
+            <icon>win/erase.png</icon>
+            <mnem>83</mnem>
+            <acck>127</acck>
+            <accm>0</accm>
+        </act>
+        <act name="genLeas">
+            <titl>Generovať splát. kalendár</titl>
+            <desc>Generovať splátkový kalendár a daňové náklady podľa zadaných parametrov</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="genMaj">
+            <titl>Generovať odpisy</titl>
+            <desc>Generovať daňové odpisy, účtovné odpisy a udalosť zaradenia</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="hromOperace">
+            <titl>Hromadné operácie</titl>
+            <desc>Vykonanie hromadnej operácie nad vybranými majetkami</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="majetekStavKDatu">
+            <titl>Stav majetku k dátumu</titl>
+            <desc>Vypočíta stav majetku k zadanému dátumu</desc>
+            <icon>win/generate.png</icon>
+        </act>
+    </actions>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="leasingVyberRaduZavazkum">
+            <titl>Zvoľte dokladový rad pre vytvorenie daňového dokladu záväzku ...</titl>
+        </dlg>
+        <dlg name="leasingGenerovani">
+            <titl>Sprievodca generovaním leasingu</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="danOdpisPrepocitatDanOdpisyChyba">
+            <titl>Nepodarilo sa prepočítať daňové odpisy.</titl>
+        </msg>
+        <msg name="danOdpisPrepocitatUcetOdpisyChyba">
+            <titl>Nepodarilo sa prepočítať účtovné odpisy.</titl>
+        </msg>
+        <msg name="danOdpisNepodariloAktualizovat">
+            <titl>Nepodarilo sa aktualizovať daňové odpisy majetku.</titl>
+        </msg>
+        <msg name="danOdpisUcetNeniVyplnen">
+            <titl>Účet musí byť vyplnený v prípade, že nie sú generované účtovné odpisy.</titl>
+        </msg>
+        <msg name="leasingWizNenalezenaSazbaDph">
+            <titl>Pre daný typ sadzby DPH nebola nájdená hodnota sadzby. Splátky budú teda neplatné.</titl>
+        </msg>
+        <msg name="leasingWizSazbyNenacteny">
+            <titl>Nepodarilo sa načítať nastavenie platných sadzieb DPH. Generovanie nebude fungovať korektne.</titl>
+        </msg>
+        <msg name="leasingNepodariloVygenerovat">
+            <titl>Nepodarilo sa vygenerovať splátkový kalendár.</titl>
+        </msg>
+        <msg name="leasingNelzeGenerovatPredUcetnimObdobi">
+            <titl>Splátkový kalendár a daňové náklady leasingu nie je možné generovať pred aktuálnym účtovným obdobím.</titl>
+        </msg>
+        <msg name="leasingNelzeGenerovatNeplatnyZavazek">
+            <titl>Pri validácii záväzku k leasingu '%p' a splátkovému kalendáru s dátumom '%p' a kódom '%p' nastala chyba:</titl>
+        </msg>
+        <msg name="leasingWizChybaNevyplnenaPole">
+            <titl>Musíte zadať všetky polia vo formulári.</titl>
+        </msg>
+        <msg name="leasingWizardBezSplNeboVypl">
+            <titl>Vo formulári musíte vyplniť všetky údaje alebo nulový počet splátok.</titl>
+        </msg>
+        <msg name="leasingWizardSplatkySePrekryvaji">
+            <titl>Leasingové splátky sa nesmú prekrývať. Skontrolujte zadané dátumy.</titl>
+        </msg>
+        <msg name="leasingWizChybiRadaDokladu">
+            <titl>Vyplnený typ dokladu nemá zadaný rad dokladu a žiadny nie je špecifikovaný.</titl>
+        </msg>
+        <msg name="leasingWizChybiRocniPolozkaRady">
+            <titl>Vybraný rad typu dokladu nemá zadanú ročnú položku číselneho radu k následujúcemu účtovnému obdobiu.</titl>
+        </msg>
+        <msg name="leasingWizChybaKontrolyRady">
+            <titl>Pri overovaní radu nastala chyba databázy.</titl>
+        </msg>
+        <msg name="leasingNemaVstupniCenaSplatKalSPoradim">
+            <titl>K leasingu neexistuje splátkový kalendár pre '%p' k splátke s poradím '%p'.</titl>
+        </msg>
+        <msg name="leasingNelzeGenerovatZavazekUhrazen">
+            <titl>Leasing nie je možné znovu generovať, pretože k nemu už existuje uhradený záväzok.</titl>
+        </msg>
+        <msg name="leasingNelzeSmazatZavazekUhrazen">
+            <titl>Leasing nie je možné zmazať, pretože k nemu už existuje uhradený záväzok.</titl>
+        </msg>
+        <msg name="leasingChybaPriMazaniZavazku">
+            <titl>Nepodarilo sa zmazať záväzok k leasingu.</titl>
+        </msg>
+        <msg name="majetekSpadaDoJinehoObdobi">
+            <titl>Nie je možné zaevidovať majetok spadajúci do iného účtovného obdobia.</titl>
+        </msg>
+        <msg name="majetekOdpisyNevygenerovany">
+            <titl>Nepodarilo sa vygenerovať odpisy.</titl>
+        </msg>
+        <msg name="majetekNehmotnyChybnyZpusOdpK">
+            <titl>Pre vybraný typ majetku je zvolená nesprávna metóda odpisovania.</titl>
+        </msg>
+        <msg name="majetekNelzeGenerovatMimoObdobi">
+            <titl>Odpisy je možné generovať len v účtovném období, v ktorom bol majetok zaradený do evidencie.</titl>
+        </msg>
+        <msg name="majetekNelzeGenerovatUdalost">
+            <titl>Nie je možné vygenerovať udalosť s dátumom %p a čiastkou %p. Cena majetku by bola záporná či rovná nule.</titl>
+        </msg>
+        <msg name="majetekNeodepisovanySOdpisy">
+            <titl>Neodpisovaný majetok nesmie mať žiadne odpisy. Všetky existujúce odpisy budú zmazané.</titl>
+        </msg>
+        <msg name="majetekNeodepisovanyNelzeGenerovat">
+            <titl>Pre neodpisovaný majetok nie je možné generovať odpisy.</titl>
+        </msg>
+        <msg name="majetekOdpisyDanDatumZacatkuPredZaraz">
+            <titl>Dátum začiatku daňových odpisov nesmie predchádzať dátumu zaradenia majetku.</titl>
+        </msg>
+        <msg name="majetekOdpisyUcetDatumZacatkuPredZaraz">
+            <titl>Dátum začiatku účtovných odpisov nesmie predchádzať dátumu zaradenia majetku.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZrychOdepis">
+            <titl>U zrýchleného odpisovania je nutné vyplniť odpis v prvom roku.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoTypMajetku">
+            <titl>Je treba vyplniť typ majetku.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoSazba">
+            <titl>Je treba vyplniť odpisovú skupinu.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoUcetniOdpisy">
+            <titl>Je treba vyplniť informáciu, či vytvárať účtovné odpisy.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoDatumZarazeni">
+            <titl>Nebol vyplnený dátum zaradenia.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoPrimarniUcet">
+            <titl>Nebol vyplnený primárny účet.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoProtiUcet">
+            <titl>Nebol vyplnený protiúčet.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoOdpisovyUcet">
+            <titl>Nebol vyplnený odpisový účet.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoOpravnyUcet">
+            <titl>Nebol vyplnený opravný účet.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZacDanOdpisu">
+            <titl>Dátum začiatku daňových odpisov nie je vyplnený.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZacUcetOdpisu">
+            <titl>Dátum začiatku účtovných odpisov nie je vyplnený.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZpusobOdepis">
+            <titl>Nebol zvolený spôsob odpisovania.</titl>
+        </msg>
+        <msg name="majetekDatVystNelzeDoMinulosti">
+            <titl>Dátum vystavenia musí byť v aktuálnom účtovnom období alebo mladší.</titl>
+        </msg>
+        <msg name="majetekNenalezenyOdpovidajiSazby">
+            <titl>Neboli nájdené zodpovedajúce odpisové sadzby pre daný spôsob odpisovania.</titl>
+        </msg>
+        <msg name="majetekPocetMesicuNeniNenulovy">
+            <titl>Počet mesiacov musí mať nenulovú hodnotu.</titl>
+        </msg>
+        <msg name="majetekPocetMesicuNenulovyZustCenaNula">
+            <titl>Ak je uvedený počet mesiacov účtovných odpisov, amortizovaná hodnota nesmie byť nulová.</titl>
+        </msg>
+        <msg name="majetekUcetniOdpisyVDE">
+            <titl>V daňovej evidencii nie je možné generovať účtovné odpisy.</titl>
+        </msg>
+        <msg name="majetekUcetniOdpisyVDE_SK">
+            <titl>V jednoduchom účtovníctve  nie je možné generovať účtovné odpisy.</titl>
+        </msg>
+        <msg name="majetekNenulovyDanZustOdepsaneho">
+            <titl>Majetok má nenulový daňový zostatok, ale mal by byť podľa sadzby už odpísaný.</titl>
+        </msg>
+        <msg name="majetekTechZhodnocenJenDriveOdepsany">
+            <titl>Majetok, ktorý nebol predtým odpisovaný, nemožno pred klasifikáciou technicky zhodnotiť.</titl>
+        </msg>
+        <msg name="majetekProcentoNeniNenulove">
+            <titl>Percento ročne musí mať nenulovú hodnotu.</titl>
+        </msg>
+        <msg name="majetekChybnyTypOdpisu">
+            <titl>Pre zvolený druh majetku musíte vybrať správny spôsob odpisovania.</titl>
+        </msg>
+        <msg name="majetekChybiSazbaOdpisu">
+            <titl>Pre zvolený spôsob odpisovania musíte vybrať Odpisovú sadzbu.</titl>
+        </msg>
+        <msg name="majetekChybnaSazbaOdpisu">
+            <titl>Pre zvolený spôsob odpisovania je vybraná zlá Odpisová sadzba.</titl>
+        </msg>
+        <msg name="majetekNepodariloSeNajitDokladProVytvoreniMajetku">
+            <titl>Nepodarilo sa nájsť doklad pre vytvorenie majetku.</titl>
+        </msg>
+        <msg name="majetekSazbaOdpisuNulovaDobaOdp">
+            <titl>Nulovú odpisovú sadzbu nemožno použiť.</titl>
+        </msg>
+        <msg name="majetekGenPoMigraciStatus">
+            <titl>Generujem odpisy majetku: </titl>
+        </msg>
+        <msg name="odpisyZmenaObdobiZamceno">
+            <titl>Nepodarilo sa zmeniť odpis, pretože obdobie (%p) je uzamknuté.</titl>
+        </msg>
+        <msg name="sazbaChybaZjisteniNavazanychMajetku">
+            <titl>Nepodarilo sa overiť, či na odpisovú sadzbu nie sú naviazané evidované majetky.</titl>
+        </msg>
+        <msg name="udalostPredDatemZarazeni">
+            <titl>Dátum udalosti smie byť až po dátume zaradenia majetku.</titl>
+        </msg>
+        <msg name="udalostNePoVyrazeni">
+            <titl>Žiadna udalosť sa nesmie vyskytovať po udalosti úplneho vyradenia.</titl>
+        </msg>
+        <msg name="udalostNePredZarazenim">
+            <titl>Žiadna udalosť sa nesmie vyskytovať pred udalosťou zaradenia alebo v rovnaký deň.</titl>
+        </msg>
+        <msg name="udalostNaDanOpdisyPredZacDanOdpisu">
+            <titl>Udalosť musí mať dátum vystavenia po začiatku daňových odpisov.</titl>
+        </msg>
+        <msg name="udalostNaUceOpdisyPredZacUceOdpisu">
+            <titl>Udalosť musí mať dátum vystavenia po začiatku účtovných odpisov.</titl>
+        </msg>
+        <msg name="udalostNesmiBytPredZacOdpisu">
+            <titl>Udalosť nesmie mať dátum vystavenia pred začiatkom daňových a účtovných odpisov.</titl>
+        </msg>
+        <msg name="udalostMusiMitDatVystVAktualnimObdobi">
+            <titl>Udalosť musí mať dátum vystavenia v období platnom pre daný projekt.</titl>
+        </msg>
+        <msg name="udalostNemaVyplnenoStredisko">
+            <titl>Udalosť musí mať vyplnené stredisko.</titl>
+        </msg>
+        <msg name="udalostZarazeniJizObsazena">
+            <titl>Udalosť zaradenie je už v zozname udalostí obsiahnutá.</titl>
+        </msg>
+        <msg name="udalostNelzePridatVyrazeni">
+            <titl>Nie možné pridať novú udalosť po vyradení majetku.</titl>
+        </msg>
+        <msg name="udalostVyrazeniObsazena">
+            <titl>Udalosť vyradenie je už v zozname udalostí obsiahnutá.</titl>
+        </msg>
+        <msg name="udalostVyrazeniNesmazat">
+            <titl>Nie možné zmazať udalosť zaradenie, ak na ňu naväzujú ďalšie udalosti.</titl>
+        </msg>
+        <msg name="udalostVyplnitVsechnyUcty">
+            <titl>Pri tejto udalosti musia byť vyplnené všetky účty.</titl>
+        </msg>
+        <msg name="udalostMinHodnotaPolozky">
+            <titl>Minimálna hodnota položky</titl>
+        </msg>
+        <msg name="udalostMinHodnotaProdlouzeni">
+            <titl>Hodnota poľa %p musí byť väčšia ako nula.</titl>
+        </msg>
+        <msg name="udalostSumZklTZNesmiBytZaporna">
+            <titl>Hodnota poľa %p nesmie byť pri technickom zhodnotení záporná.</titl>
+        </msg>
+        <msg name="udalostZmenaDobyOdpis">
+            <titl>'Zmena doby odpisu'</titl>
+        </msg>
+        <msg name="udalostNeexistujiUcetPolozky">
+            <titl>K dátumu {0} by neexistovali žiadne účtovné odpisy</titl>
+        </msg>
+        <msg name="udalostDveNeboViceZarazeni">
+            <titl>Udalosť zaradenie je možné pridať len raz.</titl>
+        </msg>
+        <msg name="udalostDveNeboViceVyrazeni">
+            <titl>Udalosť úplné vyradenie je možné pridať len raz.</titl>
+        </msg>
+        <msg name="udalostPoPreruseniJenomUrciteUdal">
+            <titl>Túto udalosť nie je možné zadať, pretože bolo prerušené odpisovanie.</titl>
+        </msg>
+        <msg name="udalostOpetZahDanBezPreruseni">
+            <titl>Udalosť opätovné započatie daňových odpisov nie je možné zadať, pretože nepredchádza odpovedajúce prerušenie daňových odpisov.</titl>
+        </msg>
+        <msg name="udalostOpetZahUcetBezPreruseni">
+            <titl>Udalosť opätovné započatie účtovných odpisov nie je možné zadať, pretože nepredchádza odpovedajúce prerušenie účtovných odpisov.</titl>
+        </msg>
+        <msg name="udalostPrerDanOdpJizPreruseno">
+            <titl>Udalosť prerušenie daňových odpisov nie je možné zadať. Daňové odpisy sú už prerušené.</titl>
+        </msg>
+        <msg name="udalostPrerUcetOdpJizPreruseno">
+            <titl>Udalosť prerušenie účtovných odpisov nie je možné zadať. Účtovné odpisy sú už prerušené.</titl>
+        </msg>
+        <msg name="udalostZarazeniMusiBytPredZacOdpisu">
+            <titl>Udalosť zaradenia musí byť pred začiatkami odpisov.</titl>
+        </msg>
+        <msg name="splatKalSumDphNevyplneno">
+            <titl>Pre zadanú sadzbu Dph nie je možné mať nevyplnené DPH.</titl>
+        </msg>
+        <msg name="splatKalNelzePrepocitatDph">
+            <titl>###Chyba při nahrávání sazeb DPH nebo nastavení firmy.</titl>
+        </msg>
+        <msg name="majetekNelzeVlozitDoZamcenehoObdobi">
+            <titl>Majetok nie je možné vložiť do zamknutého obdobia.</titl>
+        </msg>
+        <msg name="majetekNelzeGenerovatCasVyrazeni">
+            <titl>Nie je možné vygenerovť udalosť s dátumom %p a čiastkou %p. Cena majetku by bola záporná či rovná nule.</titl>
+        </msg>
+        <msg name="hromOperace.vPoradku">
+            <titl>Hromadná operácia bola úspešná.</titl>
+        </msg>
+        <msg name="hromOperace.seznamChyb">
+            <titl>Chyby sa týkali týchto aktív</titl>
+        </msg>
+        <msg name="hromOperace.vysledek">
+            <titl>Výsledok hromadnej operácie</titl>
+        </msg>
+        <msg name="hromOperace.uzJeVyrazeno">
+            <titl>Majetok %p už bol vyradený.</titl>
+        </msg>
+        <msg name="hromOperace.chybaPriNacitani">
+            <titl>Majetok sa nepodarilo získať späť.</titl>
+        </msg>
+        <msg name="hromOperace.chyba">
+            <titl>Pri vykonávaní hromadnej operácie došlo k chybe.</titl>
+        </msg>
+        <msg name="hromOperace.prepocetInfo">
+            <titl>Akékoľvek zmeny používateľa po prvom dni aktuálneho účtovného obdobia budú počas prepočtu zrušené.\nChcete pokračovať?</titl>
+        </msg>
+        <msg name="kontrolaDanOdpisuProbiha">
+            <titl>Daňové odpisy sa kontrolujú...</titl>
+        </msg>
+        <msg name="konrolaDanOdpisuUkoncitProcesDotaz">
+            <titl>Naozaj chcete ukončiť prebiehajúcu kontrolu daňových odpisov?</titl>
+        </msg>
+        <msg name="kontrolaDanOpisuChyba">
+            <titl>Kontrola daňových odpisov nebola úspešná.</titl>
+        </msg>
+        <msg name="majKontrolaRuznaDelkaOdpisu">
+            <titl>Dĺžka odpisu sa nezhoduje (správne %p / aktuálne %p).</titl>
+        </msg>
+        <msg name="majKontrolaNeniNovyOdpis">
+            <titl>Majetok sa odpisuje, ale správne by sa odpisovať nemal.</titl>
+        </msg>
+        <msg name="majKontrolaNeniStaryOdpis">
+            <titl>Majetok sa neodpisuje, ale správne by sa odpisovať mal.</titl>
+        </msg>
+        <msg name="majKontrolaRuznaCastkaPoslOdpisu">
+            <titl>Výška posledného odpisu sa nezhoduje (správne %p / aktuálne %p).</titl>
+        </msg>
+        <msg name="majKontrolaRuznyZustPoslOdpisu">
+            <titl>Posledný zostatok odpisov sa nezhoduje (správne %p / aktuálne %p).</titl>
+        </msg>
+        <msg name="majKontrolaRuznySoucetOdpisu">
+            <titl>Suma odpisov sa nezhoduje (správne %p / aktuálne %p).</titl>
+        </msg>
+        <msg name="majKontrolaUvod">
+            <titl>Pri kontrole daňových odpisov boli zistené rozdiely medzi predpísanými odpismi a novo vypočítanými odpismi.\nOdporúčame ich skontrolovať a opraviť pomocou užívateľskej zmeny odpisov (návod na výpočet správnej výšky odpisov nájdete nižšie).\nRozdiely boli zistené pri nasledovnom majetku:</titl>
+        </msg>
+        <msg name="majKontrolaKonec">
+            <titl>Odporúčaný postup výpočtu súm, ktoré sa majú nastaviť v poli Daňový odpis:\n\n
+Daňové odpisy = \n
++ &lt;súčet správnych odpisov vrátane mesiaca, v ktorom sa odpisy zmenili&gt;\n
+- &lt;súčet nesprávnych odpisov bez mesiaca, v ktorom sa odpisy zmenili&gt;\n\n
+(cieľom je získať súčet daňových odpisov v správnej výške, aby ďalší výpočet vychádzal zo správnych amortizovaných nákladov)\n
+ Do poľa Zostatok zadajte správnu sumu zostatku.\n</titl>
+        </msg>
+        <msg name="majKontrolaOk">
+            <titl>###V daňových odpisech majetku, který je aktivní v účetním období %p nebyly nalezeny žádné nesrovnalosti.</titl>
+        </msg>
+        <msg name="aktualizaceOdpisuProgress">
+            <titl>Aktualizácia odpisov majetku - %p / %p (%p záznamov/s, zostávajúci čas: %p)</titl>
+        </msg>
+        <msg name="aktualizaceOdpisuUkladani">
+            <titl>Ukladanie aktualizovaných odpisov do databázy.</titl>
+        </msg>
+        <msg name="nepodariloSeAktualizovatMajetky">
+            <titl>V dôsledku zmeny účtovného obdobia sa nepodarilo prepočítať odpisy majetku.</titl>
+        </msg>
+        <msg name="nepodariloSeSpocitatMajetky">
+            <titl>Keď sa zmenilo účtovné obdobie, nebolo možné určiť počet majetku na aktualizáciu odpisov.</titl>
+        </msg>
+        <msg name="odpisyZacatekPredUcobd">
+            <titl>Majetok [%p] - začiatok odpisovania %p predchádza účtovnému obdobiu %p!</titl>
+        </msg>
+        <msg name="nelzeMazatOdpisy">
+            <titl>###Odpisy nelze mazat, jsou generovány automaticky.</titl>
+        </msg>
+        <msg name="nelzeVytvaretOdpisy">
+            <titl>###Odpisy není možné vytvářet, jsou generovány automaticky.</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="parametryPN">
+            <titl>Parametre</titl>
+        </lb>
+        <lb name="zakladniListPN">
+            <titl>Základný list</titl>
+        </lb>
+        <lb name="odepisovaniPN">
+            <titl>Odpisovanie</titl>
+        </lb>
+        <lb name="koeficientyPN">
+            <titl>Koeficienty</titl>
+        </lb>
+        <lb name="uctovaniPN">
+            <titl>Účtovanie</titl>
+        </lb>
+        <lb name="udalostPN">
+            <titl>Udalosť</titl>
+        </lb>
+        <lb name="danOdpisNeexistuje">
+            <titl>Daňový odpis bol systémovo pregenerovaný.</titl>
+        </lb>
+        <lb name="ucetOdpisNeexistuje">
+            <titl>Účtovný odpis bol systémovo pregenerovaný.</titl>
+        </lb>
+        <lb name="leasingWizTitle">
+            <titl>Generovanie splátkového kalendára</titl>
+        </lb>
+        <lb name="leasingZmenaParametru">
+            <titl>Došlo ku zmene parametrov leasingu. Majú sa generovať splátky a náklady?</titl>
+        </lb>
+        <lb name="leasingAkontace">
+            <titl>Akontácia leasingu</titl>
+        </lb>
+        <lb name="leasingFinnanCinnost">
+            <titl>Splátka - finančná činnost</titl>
+        </lb>
+        <lb name="leasingVstupniCena">
+            <titl>Splátka - vstupná cena</titl>
+        </lb>
+        <lb name="leasingWizPocetSplatek">
+            <titl>Počet splátiek:</titl>
+        </lb>
+        <lb name="leasingWizDatum">
+            <titl>Dátum:</titl>
+        </lb>
+        <lb name="leasingWizMesMeziSpl">
+            <titl>Mesiacov medzi splátkami:</titl>
+        </lb>
+        <lb name="leasingWizOstatniPN">
+            <titl>Ostatné</titl>
+        </lb>
+        <lb name="leasingWizMimSplPN">
+            <titl>Mimoriadna splátka</titl>
+        </lb>
+        <lb name="leasingWizFinCinPN">
+            <titl>Finančná činnosť</titl>
+        </lb>
+        <lb name="leasingWizLeasSplPN">
+            <titl>Leasingová splátka</titl>
+        </lb>
+        <lb name="leasingWizMimSplVyzva">
+            <titl>Najprv zadajte mimoriadnu splátku</titl>
+        </lb>
+        <lb name="leasingWizMimFCVyzva">
+            <titl>Zadajte finačnú činnosť (poplatok za uzatvorenie zmluvy apod.)</titl>
+        </lb>
+        <lb name="leasingWizPrvSplVyzva">
+            <titl>Zadajte nultú splátku</titl>
+        </lb>
+        <lb name="leasingWizObecSplVyzva">
+            <titl>Zadajte všeobecnú splátku</titl>
+        </lb>
+        <lb name="leasingWizPoslSplVyzva">
+            <titl>Zadajte poslednú splátku</titl>
+        </lb>
+        <lb name="leasingWizPosledniVyzva">
+            <titl>Nakoniec vyplňte následujúce údaje</titl>
+        </lb>
+        <lb name="majetekZmenaParametru">
+            <titl>Došlo ku zmene parametrov majetku. Majú sa zmeny premietnuť i do odpisov?</titl>
+        </lb>
+        <lb name="majetekPuvZarazeni">
+            <titl>Dátum pôvodného zaradenia:</titl>
+        </lb>
+        <lb name="majetekPocetMesicu">
+            <titl>Počet mesiacov: </titl>
+        </lb>
+        <lb name="majetekPocetMesicuStari">
+            <titl>Zostáva odpísať [mesiace]:</titl>
+        </lb>
+        <lb name="majetekProcentoRocne">
+            <titl>Percento ročne: </titl>
+        </lb>
+        <lb name="majetekPregenerovatUzZmeneneOdpisy">
+            <titl>Existujú používateľsky zmenené odpisy, ktoré budú pregenerované.</titl>
+        </lb>
+        <lb name="sazbaZrychOdp">
+            <titl>Zrýchlené odpisovanie</titl>
+        </lb>
+        <lb name="sazbaRovnOdp">
+            <titl>Rovnomerné odpisovanie</titl>
+        </lb>
+        <lb name="sazbaENelzeUpravovat">
+            <titl>Skupiny dané legislatívou či už používané skupiny nie je možné upravovať.</titl>
+        </lb>
+        <lb name="typMajEOdpisUctoPN">
+            <titl>Odpisovanie a účtovanie</titl>
+        </lb>
+        <lb name="zapujckaKontaktniUdaje">
+            <titl>Kontaktné údaje</titl>
+        </lb>
+        <lb name="filterDruhMajetku">
+            <titl>Filter podľa druhu majetku</titl>
+        </lb>
+        <lb name="filterDruhMajetkuNeomezen">
+            <titl>Druh majetku neobmedzený</titl>
+        </lb>
+        <lb name="filterTypMajetku">
+            <titl>Filter podľa typu majetku</titl>
+        </lb>
+        <lb name="filterTypMajetkuNeomezen">
+            <titl>Typ majetku neobmedzený</titl>
+        </lb>
+        <lb name="filterRokZarazeni">
+            <titl>Filter podľa roku zaradenia</titl>
+        </lb>
+        <lb name="filterMesicZarazeni">
+            <titl>Filter podľa obdobia z dátumu zaradenia</titl>
+        </lb>
+        <lb name="filterMesicZarazeniNeomezen">
+            <titl>Mesiac zaradenia neobmedzený</titl>
+        </lb>
+        <lb name="filterDruhLeasingu">
+            <titl>Filter podľa druhu leasingu</titl>
+        </lb>
+        <lb name="filterDruhLeasinguNeomezen">
+            <titl>Druh leasingu neobmedzený</titl>
+        </lb>
+        <lb name="filterTypLeasingu">
+            <titl>Filter podľa typu leasingu</titl>
+        </lb>
+        <lb name="filterTypLeasinguNeomezen">
+            <titl>Typ leasingu neobmedzený</titl>
+        </lb>
+        <lb name="filterRokZahajeni">
+            <titl>Filter podľa roku započatia leasingu</titl>
+        </lb>
+        <lb name="filterMesicZahajeni">
+            <titl>Filter podľa obdobia z dátumu započatia leasingu</titl>
+        </lb>
+        <lb name="filterMesicZahajeniNeomezen">
+            <titl>Mesiac započatia neobmedzený</titl>
+        </lb>
+        <lb name="dPravDefMajSeznam">
+            <titl>Zoznam typov majetku</titl>
+        </lb>
+        <lb name="dPravDefMajUzivatele">
+            <titl>Zoznam používateľov v majetku</titl>
+        </lb>
+        <lb name="dPravDefLeaSeznam">
+            <titl>Zoznam typov leasingu</titl>
+        </lb>
+        <lb name="dPravDefLeaUzivatele">
+            <titl>Zoznam používateľov v lesingu</titl>
+        </lb>
+        <lb name="majetekStavKDatu.title">
+            <titl>Stav majetku k dátumu %p</titl>
+        </lb>
+        <lb name="majetekStavKDatu.welcome">
+            <titl>Vítajte v sprievodcovi tvorbou Stavu majetku k dátumu.</titl>
+        </lb>
+        <lb name="majetekStavKDatu.info1">
+            <titl>Zvoľte dátum ku ktorému chcete zostavu spracovať.</titl>
+        </lb>
+        <lb name="majetekStavKDatu.datum">
+            <titl>Dátum spracovania:</titl>
+        </lb>
+        <lb name="majetekStavKDatu.datumObdobiOd">
+            <titl>Počiatok obdobia:</titl>
+        </lb>
+        <lb name="majetek.dlouhodoby">
+            <titl>Dlhodobý</titl>
+        </lb>
+        <lb name="vozidloPN">
+            <titl>Vozidlo</titl>
+        </lb>
+        <lb name="hromOperace.title">
+            <titl>Sprievodca hromadnými operáciami</titl>
+        </lb>
+        <lb name="hromOperace.welcome">
+            <titl>Nastavenie hromadnej operácie</titl>
+        </lb>
+        <lb name="hromOperace.uplneVyrazeni">
+            <titl>Úplné vyradenie majetku</titl>
+        </lb>
+        <lb name="hromOperace.preruseniUcetOdpisu">
+            <titl>Prerušenie účtovných odpisov</titl>
+        </lb>
+        <lb name="hromOperace.preruseniDanOdpisu">
+            <titl>Prerušenie daňových odpisov</titl>
+        </lb>
+        <lb name="hromOperace.zahajeniUcetOdpisu">
+            <titl>Opätovné spustenie účtovných odpisov</titl>
+        </lb>
+        <lb name="hromOperace.zahajeniDanOdpisu">
+            <titl>Opätovné spustenie daňových odpisov</titl>
+        </lb>
+        <lb name="hromOperace.zmenaZauctovaniDan">
+            <titl>Zmena účtovania daňových odpisov od dátumu</titl>
+        </lb>
+        <lb name="hromOperace.zmenaZauctovaniUcet">
+            <titl>Zmena v účtovaní účtovných odpisov od dátumu</titl>
+        </lb>
+        <lb name="hromOperace.prepocetDanOdpisuOdAktObdobi">
+            <titl>Prepočet daňových odpisov z bežného účtovného obdobia</titl>
+        </lb>
+        <lb name="hromOperace.datum">
+            <titl>Dátum:</titl>
+        </lb>
+        <lb name="hromOperace.ucetMD">
+            <titl>Účet MD:</titl>
+        </lb>
+        <lb name="hromOperace.ucetDal">
+            <titl>Účet Dal:</titl>
+        </lb>
+    </labels>
+</config>

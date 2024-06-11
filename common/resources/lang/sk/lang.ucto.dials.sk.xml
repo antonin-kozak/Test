@@ -1,0 +1,2383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/sk/lang.ucto.dials.sk.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dials>
+        <prop name="aktualizacePozadavkuFailZamcenyDoklad">
+            <titl>###Aktualizace požadavků na výdej selže pokud je doklad zamčený.</titl>
+        </prop>
+        <prop name="automatickeOdvozovaniVarSymNaFap">
+            <titl>Aktivuje automatické odvodenie variabilného symbolu z prichádzajúceho čísla na prijatej faktúre</titl>
+        </prop>
+        <prop name="autoSendMailMod.neodesilat">
+            <titl>Neodosielať</titl>
+        </prop>
+        <prop name="autoSendMailMod.odesilat">
+            <titl>Odosielať</titl>
+        </prop>
+        <prop name="autoSendMailMod.odesilatBcc">
+            <titl>Odosielať len na e-mail skryté kópie</titl>
+        </prop>
+        <prop name="barvaMaterialu.bareNepruhled">
+            <titl>Nepriehľadné farebné</titl>
+        </prop>
+        <prop name="barvaMaterialu.barevPruhled">
+            <titl>Priehľadné farebné</titl>
+        </prop>
+        <prop name="barvaMaterialu.transparent">
+            <titl>Transparentné</titl>
+        </prop>
+        <prop name="clenSpl.financni">
+            <titl>finančná činnosť</titl>
+        </prop>
+        <prop name="clenSpl.vstupni">
+            <titl>vstupná cena</titl>
+        </prop>
+        <prop name="creditCheck.green">
+            <titl>Zelená</titl>
+        </prop>
+        <prop name="creditCheck.red">
+            <titl>Červená</titl>
+        </prop>
+        <prop name="creditCheck.yellow">
+            <titl>Žltá</titl>
+        </prop>
+        <prop name="danEvid.mzdy">
+            <titl>Mzdy</titl>
+        </prop>
+        <prop name="danEvid.NeDanEvid">
+            <titl>Nespadá do DE</titl>
+        </prop>
+        <prop name="danEvid.ostatnePrijmy">
+            <titl>Ostatné prijmy</titl>
+        </prop>
+        <prop name="danEvid.ostatneVydavky">
+            <titl>Ostatné výdavky</titl>
+        </prop>
+        <prop name="danEvid.Par10Ostatni">
+            <titl>§10 - Ostatné príjmy</titl>
+        </prop>
+        <prop name="danEvid.Par7JinePodn">
+            <titl>§7 - Iné podnikanie</titl>
+        </prop>
+        <prop name="danEvid.Par7PodilySpol">
+            <titl>§7 - Podiely spoločníkov</titl>
+        </prop>
+        <prop name="danEvid.Par7Prava">
+            <titl>§7 - Využitie alebo poskytnutie práv</titl>
+        </prop>
+        <prop name="danEvid.Par7ZemVyroba">
+            <titl>§7 - Poľnohospodárska výroba</titl>
+        </prop>
+        <prop name="danEvid.Par7Zivnost">
+            <titl>§7 - Živnosť</titl>
+        </prop>
+        <prop name="danEvid.Par8KapMaj">
+            <titl>§8 - Príjmy z kapitálového majetku</titl>
+        </prop>
+        <prop name="danEvid.Par9Pronajem">
+            <titl>§9 - Príjmy z prenájmu</titl>
+        </prop>
+        <prop name="danEvid.platbyPojistnehoAPrispevkov">
+            <titl>Platby poistného a prispevkov</titl>
+        </prop>
+        <prop name="danEvid.predajTovaru">
+            <titl>Predaj tovaru</titl>
+        </prop>
+        <prop name="danEvid.predajVyrobkovSluzieb">
+            <titl>Predaj výrobkov a služieb</titl>
+        </prop>
+        <prop name="danEvid.sluzby">
+            <titl>Služby</titl>
+        </prop>
+        <prop name="danEvid.SocPoj">
+            <titl>Platba sociálneho poistenia</titl>
+        </prop>
+        <prop name="danEvid.tvorbaSocialnihoFondu">
+            <titl>Tvorba sociálného fondu</titl>
+        </prop>
+        <prop name="danEvid.zasoby">
+            <titl>Zásoby</titl>
+        </prop>
+        <prop name="danEvid.ZdravPoj">
+            <titl>Platba zdravotného poistenia</titl>
+        </prop>
+        <prop name="danEvidSkupina.nespada">
+            <titl>Nespadá do DE</titl>
+        </prop>
+        <prop name="danEvidSkupina.nevyplneno">
+            <titl>Nevyplnené</titl>
+        </prop>
+        <prop name="danEvidSkupina.ostatni">
+            <titl>Ostatné</titl>
+        </prop>
+        <prop name="danEvidSkupina.par07">
+            <titl>§7</titl>
+        </prop>
+        <prop name="danEvidSkupina.par08">
+            <titl>§8</titl>
+        </prop>
+        <prop name="danEvidSkupina.par09">
+            <titl>§9</titl>
+        </prop>
+        <prop name="danEvidSkupina.par10">
+            <titl>§10</titl>
+        </prop>
+        <prop name="danEvidSkupina.prijem">
+            <titl>Príjmy</titl>
+        </prop>
+        <prop name="danEvidSkupina.vydej">
+            <titl>Výdavky</titl>
+        </prop>
+        <prop name="dashboardPanelVisibility.hidden">
+            <titl>Nevidí niekto</titl>
+        </prop>
+        <prop name="dashboardPanelVisibility.private">
+            <titl>Iba autor môže vidieť</titl>
+        </prop>
+        <prop name="dashboardPanelVisibility.shared">
+            <titl>Je možné zdieľať</titl>
+        </prop>
+        <prop name="dashboardPanelVisibility.shared-all">
+            <titl>Každý môže vidieť</titl>
+        </prop>
+        <prop name="datazTypParam.actId">
+            <titl>Aktuálny záznam</titl>
+        </prop>
+        <prop name="datazTypParam.actModul">
+            <titl>Aktuálny modul</titl>
+        </prop>
+        <prop name="datazTypParam.date">
+            <titl>Dátum</titl>
+        </prop>
+        <prop name="datazTypParam.integer">
+            <titl>Celé číslo</titl>
+        </prop>
+        <prop name="datazTypParam.logic">
+            <titl>Logická hodnota</titl>
+        </prop>
+        <prop name="datazTypParam.numeric">
+            <titl>Desatinné číslo</titl>
+        </prop>
+        <prop name="datazTypParam.object">
+            <titl>Objekt</titl>
+        </prop>
+        <prop name="datazTypParam.string">
+            <titl>Reťazec</titl>
+        </prop>
+        <prop name="denniKurz.aktualniDen">
+            <titl>Z aktuálneho dňa</titl>
+        </prop>
+        <prop name="denniKurz.predchoziDen">
+            <titl>Z predchádzajúceho dňa</titl>
+        </prop>
+        <prop name="doporuceniCil.uhrazeno">
+            <titl>###Uhrazeno</titl>
+            <desc>###Faktura po odpočtu této zálohy nebude ve ve stavu uhrazeno.</desc>
+        </prop>
+        <prop name="doporuceniCil.zaokrouhleno">
+            <titl>###Zaokrouhleno</titl>
+            <desc>###Faktura po odpočtu této zálohy možná nebude zaokrouhlena.</desc>
+        </prop>
+        <prop name="druhLeas.financni">
+            <titl>Finančná</titl>
+        </prop>
+        <prop name="druhLeas.operativ">
+            <titl>Operatívna</titl>
+        </prop>
+        <prop name="druhMaj.drobny">
+            <titl>Drobný</titl>
+        </prop>
+        <prop name="druhMaj.hmDl">
+            <titl>Hmotný dlhodobý</titl>
+        </prop>
+        <prop name="druhMaj.nehmDl">
+            <titl>Nehmotný dlhodobý</titl>
+        </prop>
+        <prop name="druhMaj.neodepis">
+            <titl>Neodpisovaný (len evidencia)</titl>
+        </prop>
+        <prop name="druhStavuZakazky.hotovo">
+            <titl>Hotovo</titl>
+        </prop>
+        <prop name="druhStavuZakazky.mame">
+            <titl>Máme ju</titl>
+        </prop>
+        <prop name="druhStavuZakazky.storno">
+            <titl>Stornované</titl>
+        </prop>
+        <prop name="druhStavuZakazky.ziskavame">
+            <titl>Získavame ju</titl>
+        </prop>
+        <prop name="druhUctu.aktivni">
+            <titl>aktívna</titl>
+        </prop>
+        <prop name="druhUctu.aktpasvo">
+            <titl>aktívna+pasívna (voľba)</titl>
+        </prop>
+        <prop name="druhUctu.aktpasvy">
+            <titl>aktívna/pasívna (podľa výsledku)</titl>
+        </prop>
+        <prop name="druhUctu.naklady">
+            <titl>náklady</titl>
+        </prop>
+        <prop name="druhUctu.otevknih">
+            <titl>otvorenie knihy</titl>
+        </prop>
+        <prop name="druhUctu.pasivhvy">
+            <titl>pasívny - h. výsledok</titl>
+        </prop>
+        <prop name="druhUctu.pasivni">
+            <titl>pasívny</titl>
+        </prop>
+        <prop name="druhUctu.prhosvys">
+            <titl>prevod hospodárskeho výsledku</titl>
+        </prop>
+        <prop name="druhUctu.uzavknih">
+            <titl>uzatvorenie knihy</titl>
+        </prop>
+        <prop name="druhUctu.vynosy">
+            <titl>výnosy</titl>
+        </prop>
+        <prop name="druhUdal.pozn">
+            <titl>Poznámka</titl>
+        </prop>
+        <prop name="druhUdal.udal">
+            <titl>Udalosť</titl>
+        </prop>
+        <prop name="druhUdal.ukol">
+            <titl>Úloha</titl>
+        </prop>
+        <prop name="druhUdal.workflow">
+            <titl>Úloha workflow</titl>
+        </prop>
+        <prop name="duverCert.duverovat">
+            <titl>Dôverovať</titl>
+        </prop>
+        <prop name="duverCert.ptatSe">
+            <titl>Pýtať sa</titl>
+        </prop>
+        <prop name="ediEanSklad">
+            <titl>###Pokusí se určit EAN místa dodání, pokud není uveden.</titl>
+        </prop>
+        <prop name="eetMod.ne">
+            <titl>Vypnuté</titl>
+        </prop>
+        <prop name="eetMod.ostry">
+            <titl>Ostré</titl>
+        </prop>
+        <prop name="eetMod.ostryTest">
+            <titl>Neprodukčné ostré (pre vývojárov)</titl>
+        </prop>
+        <prop name="eetMod.overovaci">
+            <titl>Overovacie</titl>
+        </prop>
+        <prop name="eetMod.overovaciTest">
+            <titl>Neprodukčné overovacie (pre vývojárov)</titl>
+        </prop>
+        <prop name="eetStav.ne">
+            <titl>neodoslané</titl>
+        </prop>
+        <prop name="eetStav.neStorno">
+            <titl>neodoslané storno</titl>
+        </prop>
+        <prop name="eetStav.neuspech">
+            <titl>zlyhanie</titl>
+        </prop>
+        <prop name="eetStav.neuspechStorno">
+            <titl>zlyhanie storno</titl>
+        </prop>
+        <prop name="eetStav.odeslano">
+            <titl>odoslané</titl>
+        </prop>
+        <prop name="eetStav.odeslanoStorno">
+            <titl>odoslané zrušenie</titl>
+        </prop>
+        <prop name="eetTyp.anoBezny">
+            <titl>normálny režim</titl>
+        </prop>
+        <prop name="eetTyp.anoEkasa">
+            <titl>eCash</titl>
+        </prop>
+        <prop name="eetTyp.anoZjednoduseny">
+            <titl>zjednodušený režim</titl>
+        </prop>
+        <prop name="eetTyp.ne">
+            <titl>nepodlieha EET</titl>
+        </prop>
+        <prop name="eetTypPlatby.cestovni">
+            <titl>Platby za cestovné služby</titl>
+        </prop>
+        <prop name="eetTypPlatby.poukaz">
+            <titl>Platby kupónmi, darčekovými poukazmi, kartami, poukážkami atď.</titl>
+        </prop>
+        <prop name="eetTypPlatby.pouzite">
+            <titl>Predaj použitého tovaru</titl>
+        </prop>
+        <prop name="ekokom.exportovaneObaly">
+            <titl>Exportované obaly</titl>
+        </prop>
+        <prop name="ekokom.nezaplaceneObaly">
+            <titl>Nezaplatené obaly</titl>
+        </prop>
+        <prop name="ekokom.predplaceneObaly">
+            <titl>Predplatené obaly</titl>
+        </prop>
+        <prop name="ekokom.vyrazeneObaly">
+            <titl>Vyradené obaly</titl>
+        </prop>
+        <prop name="ekokom.zpoplatneneObaly">
+            <titl>Spoplatnené obaly</titl>
+        </prop>
+        <prop name="elPrikazPoplatek.odesilatel">
+            <titl>Odosielateľ</titl>
+        </prop>
+        <prop name="elPrikazPoplatek.prijemce">
+            <titl>Príjemca</titl>
+        </prop>
+        <prop name="elPrikazPoplatek.spolecne">
+            <titl>Spoločná úhrada</titl>
+        </prop>
+        <prop name="elPrikazStav.odeslan">
+            <titl>Odoslané</titl>
+        </prop>
+        <prop name="elPrikazStav.vytvoren">
+            <titl>Neodoslané</titl>
+        </prop>
+        <prop name="elVypisDuplicita.nekontrolovat">
+            <titl>Nekontrolovať</titl>
+        </prop>
+        <prop name="elVypisDuplicita.polozka">
+            <titl>Ignorovať už načítané položky</titl>
+        </prop>
+        <prop name="elVypisDuplicita.vypis">
+            <titl>Ignorovať už načítané výpisy</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.aktDatum">
+            <titl>Aktuálny dátum</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.datSplat">
+            <titl>Zrelosť</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.datUcto">
+            <titl>Dátum vyslania</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.datVyst">
+            <titl>Prijaté</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.duzpPuv">
+            <titl>Dátum zdanenia. pl.</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.neplnit">
+            <titl>Nevypĺňajte vopred</titl>
+        </prop>
+        <prop name="finbricksActivateBic">
+            <titl>Aktivácia Finbricks pre účet finančnej inštitúcie, ktorú ešte nemáme na našom zozname podporovaných účtov</titl>
+        </prop>
+        <prop name="formaDopravy.ceskaPostaM">
+            <titl>Česká pošta (súbor M)</titl>
+        </prop>
+        <prop name="formaDopravy.ceskaPostaPO">
+            <titl>Česká pošta (online podanie)</titl>
+        </prop>
+        <prop name="formaDopravy.geis">
+            <titl>Geis</titl>
+        </prop>
+        <prop name="formaDopravy.ppl">
+            <titl>PPL</titl>
+        </prop>
+        <prop name="formaUhr.cenina">
+            <titl>ceninou</titl>
+        </prop>
+        <prop name="formaUhr.dobirka">
+            <titl>dobierkou</titl>
+        </prop>
+        <prop name="formaUhr.hotove">
+            <titl>hotovostne</titl>
+        </prop>
+        <prop name="formaUhr.jina">
+            <titl>inou formou</titl>
+        </prop>
+        <prop name="formaUhr.nespec">
+            <titl>nešpecifikované</titl>
+        </prop>
+        <prop name="formaUhr.platKart">
+            <titl>platobnou kartou</titl>
+        </prop>
+        <prop name="formaUhr.prevod">
+            <titl>prevodom</titl>
+        </prop>
+        <prop name="formaUhr.sek">
+            <titl>šekom</titl>
+        </prop>
+        <prop name="formaUhr.slozenka">
+            <titl>zloženkou</titl>
+        </prop>
+        <prop name="formaUhr.zapocet">
+            <titl>zápočtom</titl>
+        </prop>
+        <prop name="formExport.edi">
+            <titl>EDI</titl>
+        </prop>
+        <prop name="formExport.xml">
+            <titl>XML</titl>
+        </prop>
+        <prop name="frDanNakl.ctvrtlet">
+            <titl>Štvrťročne</titl>
+        </prop>
+        <prop name="frDanNakl.dvoumesi">
+            <titl>Každé dva mesiace</titl>
+        </prop>
+        <prop name="frDanNakl.mesicne">
+            <titl>Mesačne</titl>
+        </prop>
+        <prop name="frDanNakl.pololet">
+            <titl>Polročne</titl>
+        </prop>
+        <prop name="frDanNakl.rocne">
+            <titl>Ročne</titl>
+        </prop>
+        <prop name="frekAkt.5minut">
+            <titl>každých 5 minút</titl>
+        </prop>
+        <prop name="frekAkt.denne">
+            <titl>každý deň</titl>
+        </prop>
+        <prop name="frekAkt.hodinu">
+            <titl>každú hodinu</titl>
+        </prop>
+        <prop name="frekAkt.rucne">
+            <titl>ručne</titl>
+        </prop>
+        <prop name="gdprPlatnost.manualne">
+            <titl>Ručne</titl>
+        </prop>
+        <prop name="gdprPlatnost.vznikAutoKonec">
+            <titl>Automaticky od konca platnosti záznamu</titl>
+        </prop>
+        <prop name="gdprPlatnost.vznikAutoPocatek">
+            <titl>Automaticky od začiatku platnosti záznamu</titl>
+        </prop>
+        <prop name="gdprPravTit.cuaVyslSouhl">
+            <titl>Citlivé údaje: výslovný súhlas so spracovaním</titl>
+        </prop>
+        <prop name="gdprPravTit.cubZpracNezb">
+            <titl>Citlivé údaje: nevyhnutné spracovanie</titl>
+        </prop>
+        <prop name="gdprPravTit.cucOchrZaj">
+            <titl>Citlivé údaje: ochrana životne dôležitých záujmov</titl>
+        </prop>
+        <prop name="gdprPravTit.cudClenNezis">
+            <titl>Citlivé údaje: člen neziskového subjektu</titl>
+        </prop>
+        <prop name="gdprPravTit.cueZjevZver">
+            <titl>Citlivé údaje: zjavne zverejnené údaje</titl>
+        </prop>
+        <prop name="gdprPravTit.cufPravNarok">
+            <titl>Citlivé údaje: uplatňovanie alebo obhajoba právnych nárokov</titl>
+        </prop>
+        <prop name="gdprPravTit.cugVyzVerZaj">
+            <titl>Citlivé údaje: významný verejný záujem</titl>
+        </prop>
+        <prop name="gdprPravTit.cuhLekarOs">
+            <titl>Citlivé údaje: zdravotná a sociálna starostlivosť</titl>
+        </prop>
+        <prop name="gdprPravTit.cuiVerZdr">
+            <titl>Citlivé údaje: záujem verejného zdravia</titl>
+        </prop>
+        <prop name="gdprPravTit.cujArchVyzStat">
+            <titl>Citlivé údaje: archivácia, výskum alebo štatistické účely</titl>
+        </prop>
+        <prop name="gdprPravTit.opravZaj">
+            <titl>Oprávnený záujem</titl>
+        </prop>
+        <prop name="gdprPravTit.plnSml">
+            <titl>Plnenie zmluvy</titl>
+        </prop>
+        <prop name="gdprPravTit.souhlZprac">
+            <titl>Súhlas so spracovaním</titl>
+        </prop>
+        <prop name="gdprPravTit.splnPovin">
+            <titl>Plnenie zákonnej povinnosti</titl>
+        </prop>
+        <prop name="gdprPravTit.verejZaj">
+            <titl>Verejný záujem</titl>
+        </prop>
+        <prop name="gdprPravTit.zivotDulez">
+            <titl>Životne dôležité</titl>
+        </prop>
+        <prop name="gdprTypVztahu.jedenZeZprac">
+            <titl>Jeden zo spracovateľov</titl>
+        </prop>
+        <prop name="gdprTypVztahu.prijemce">
+            <titl>Príjemca</titl>
+        </prop>
+        <prop name="gdprTypVztahu.spolSpravce">
+            <titl>Spoloční správcovia</titl>
+        </prop>
+        <prop name="gdprTypVztahu.spravce">
+            <titl>Správca</titl>
+        </prop>
+        <prop name="gdprTypVztahu.subzpracovatel">
+            <titl>Subprocesor</titl>
+        </prop>
+        <prop name="gdprTypVztahu.zastupce">
+            <titl>Zástupca</titl>
+        </prop>
+        <prop name="gdprTypVztahu.zpracovatel">
+            <titl>Procesor</titl>
+        </prop>
+        <prop name="isdocPrilohaMailu.ano">
+            <titl>Áno</titl>
+        </prop>
+        <prop name="isdocPrilohaMailu.ne">
+            <titl>Nie</titl>
+        </prop>
+        <prop name="isdocPrilohaMailu.podleTypDokl">
+            <titl>Podľa typu dokumentu</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoBezVs">
+            <titl>Automaticky podľa čiastky</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoBuc">
+            <titl>Automaticky podľa bankového účtu</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoKod">
+            <titl>Automaticky podľa int. čísla dokladu</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoVs">
+            <titl>Automaticky podľa var. sym.</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoVsRuzneMeny">
+            <titl>Automaticky podľa var. sym. (rôzne meny)</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoZak">
+            <titl>Automaticky podľa čísla zákazníka</titl>
+        </prop>
+        <prop name="jakUhrazeno.rucne1">
+            <titl>Ručne - 1 doklad</titl>
+        </prop>
+        <prop name="jakUhrazeno.rucneCast">
+            <titl>Ručne - čiastočná úhrada</titl>
+        </prop>
+        <prop name="jakUhrazeno.rucneN">
+            <titl>Ručne - viac dokladov</titl>
+        </prop>
+        <prop name="jakyTypDokl.posledni">
+            <titl>Posledný vybraný</titl>
+        </prop>
+        <prop name="jakyTypDokl.primarni">
+            <titl>Primárny</titl>
+        </prop>
+        <prop name="jakyTypDokl.zeptat">
+            <titl>Opýtať sa používateľa</titl>
+        </prop>
+        <prop name="jazyk.cs">
+            <titl>čeština</titl>
+        </prop>
+        <prop name="jazyk.de">
+            <titl>nemčina</titl>
+        </prop>
+        <prop name="jazyk.en">
+            <titl>angličtina</titl>
+        </prop>
+        <prop name="jazyk.es">
+            <titl>španielčina</titl>
+        </prop>
+        <prop name="jazyk.fr">
+            <titl>francúzština</titl>
+        </prop>
+        <prop name="jazyk.hu">
+            <titl>maďarčina</titl>
+        </prop>
+        <prop name="jazyk.it">
+            <titl>taliančina</titl>
+        </prop>
+        <prop name="jazyk.none">
+            <titl>neaktívna</titl>
+        </prop>
+        <prop name="jazyk.pl">
+            <titl>polština</titl>
+        </prop>
+        <prop name="jazyk.ro">
+            <titl>rumunčina</titl>
+        </prop>
+        <prop name="jazyk.ru">
+            <titl>ruština</titl>
+        </prop>
+        <prop name="jazyk.sk">
+            <titl>slovenčina</titl>
+        </prop>
+        <prop name="kodPlneni.bezVlivu">
+            <titl>Bez vplyvu na DPH</titl>
+        </prop>
+        <prop name="kodPlneni.doprProstr">
+            <titl>Dopravný prostriedok</titl>
+        </prop>
+        <prop name="kodPlneni.dovozOSS">
+            <titl>OSS - dovozný režim</titl>
+        </prop>
+        <prop name="kodPlneni.knihy">
+            <titl>Dodanie kníh a podobné služby</titl>
+        </prop>
+        <prop name="kodPlneni.majetek">
+            <titl>Obchodný majetok</titl>
+        </prop>
+        <prop name="kodPlneni.mimoEuOSS">
+            <titl>OSS - mimo EÚ</titl>
+        </prop>
+        <prop name="kodPlneni.nespec">
+            <titl>Nešpecifikované</titl>
+        </prop>
+        <prop name="kodPlneni.oprava">
+            <titl>Oprava plnenia</titl>
+        </prop>
+        <prop name="kodPlneni.ostatni">
+            <titl>Ostatné</titl>
+        </prop>
+        <prop name="kodPlneni.osv">
+            <titl>Oslobodené</titl>
+        </prop>
+        <prop name="kodPlneni.prenDanPov">
+            <titl>Prenesená daňová povinnosť</titl>
+        </prop>
+        <prop name="kodPlneni.prenDanPovOprava">
+            <titl>Prenesená daňová povinnosť - výber používateľa</titl>
+        </prop>
+        <prop name="kodPlneni.sluzby">
+            <titl>Dodanie služby</titl>
+        </prop>
+        <prop name="kodPlneni.sluzbyMOSS">
+            <titl>Mini One Stop Shop</titl>
+        </prop>
+        <prop name="kodPlneni.sluzbyOSS">
+            <titl>OSS - služby EÚ</titl>
+        </prop>
+        <prop name="kodPlneni.tristran">
+            <titl>Trojstranný obchod</titl>
+        </prop>
+        <prop name="kodPlneni.zbozi">
+            <titl>Dodanie tovaru</titl>
+        </prop>
+        <prop name="kodPlneni.zboziOSS">
+            <titl>OSS - tovar EÚ</titl>
+        </prop>
+        <prop name="litterObal.nadobyNaNapoje">
+            <titl>###Nádoby na nápoje</titl>
+        </prop>
+        <prop name="litterObal.nadobyNaPotravinyCastPlast">
+            <titl>###Nádoby na potraviny částečně z plastu</titl>
+        </prop>
+        <prop name="litterObal.nadobyNaPotravinyPlast">
+            <titl>###Nádoby na potraviny z plastu</titl>
+        </prop>
+        <prop name="litterObal.napojKelimkyCastPlast">
+            <titl>###Nápojové kelímky částečně z plastu</titl>
+        </prop>
+        <prop name="litterObal.napojKelimkyPlast">
+            <titl>###Nápojové kelímky z plastu</titl>
+        </prop>
+        <prop name="litterObal.neni">
+            <titl>###Není</titl>
+        </prop>
+        <prop name="litterObal.plastTasky15">
+            <titl>###Plastové odnosné tašky: 0-15 mikronů</titl>
+        </prop>
+        <prop name="litterObal.plastTasky50">
+            <titl>###Plastové odnosné tašky: 15-50 mikronů</titl>
+        </prop>
+        <prop name="litterObal.sackyNaPotraviny">
+            <titl>###Sáčky a balení na potraviny</titl>
+        </prop>
+        <prop name="logoPozice.nahore">
+            <titl>Logo hore</titl>
+        </prop>
+        <prop name="logoPozice.vlevo">
+            <titl>Logo vľavo</titl>
+        </prop>
+        <prop name="material.drevo">
+            <titl>Drevo</titl>
+        </prop>
+        <prop name="material.drevoDrevoDrevotriska">
+            <titl>Drevo - drevo a drevotrieskové dosky</titl>
+        </prop>
+        <prop name="material.drevoKompozit">
+            <titl>Drevo - kompozit s nedrevenými časťami</titl>
+        </prop>
+        <prop name="material.jine">
+            <titl>Iné</titl>
+        </prop>
+        <prop name="material.kompozit">
+            <titl>Kompozitný materiál</titl>
+        </prop>
+        <prop name="material.kompozitVetsi">
+            <titl>Kompozitný materiál, viac ako 3 l</titl>
+        </prop>
+        <prop name="material.kovy5Al">
+            <titl>Kovy nad 5L - AL</titl>
+        </prop>
+        <prop name="material.kovy5Fe">
+            <titl>Kovy nad 5L - FE</titl>
+        </prop>
+        <prop name="material.kovyAl">
+            <titl>Kovy - AL</titl>
+        </prop>
+        <prop name="material.kovyAlKompozit">
+            <titl>Kovy - kompozitný Al</titl>
+        </prop>
+        <prop name="material.kovyAlKompozitVetsi">
+            <titl>Kovy - kompozitný Al, viac ako 3 l</titl>
+        </prop>
+        <prop name="material.kovyAlVetsi">
+            <titl>Kovy - Al, nad 3 l</titl>
+        </prop>
+        <prop name="material.kovyFe">
+            <titl>Kovy - FE</titl>
+        </prop>
+        <prop name="material.kovyFeKompozit">
+            <titl>Kovy - kompozitné Fe</titl>
+        </prop>
+        <prop name="material.kovyFeKompozitVetsi">
+            <titl>Kovy - kompozitné Fe, viac ako 3 l</titl>
+        </prop>
+        <prop name="material.kovyFeVetsi">
+            <titl>Kovy - Fe, nad 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastBioRozlozit">
+            <titl>Mäkké plasty - biologicky rozložiteľné</titl>
+        </prop>
+        <prop name="material.mekPlastBioRozlozitVetsi">
+            <titl>Mäkké plasty - biologicky rozložiteľné, viac ako 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastEps">
+            <titl>Mäkké plasty - EPS</titl>
+        </prop>
+        <prop name="material.mekPlastEpsVetsi">
+            <titl>Mäkké plasty - EPS, nad 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastJine">
+            <titl>Mäkké plasty - iné</titl>
+        </prop>
+        <prop name="material.mekPlastJineVetsi">
+            <titl>Mäkké plasty - ostatné, nad 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastKompozit">
+            <titl>Mäkké plasty - kompozitné</titl>
+        </prop>
+        <prop name="material.mekPlastKompozitVetsi">
+            <titl>Mäkké plasty - kompozitné, nad 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastPe">
+            <titl>Mäkké plasty - PE</titl>
+        </prop>
+        <prop name="material.mekPlastPet">
+            <titl>Mäkké plasty - PET</titl>
+        </prop>
+        <prop name="material.mekPlastPetVetsi">
+            <titl>Mäkké plasty - PET, nad 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastPeVetsi">
+            <titl>Mäkké plasty - PE, nad 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastPp">
+            <titl>Mäkké plasty - PP</titl>
+        </prop>
+        <prop name="material.mekPlastPpVetsi">
+            <titl>Mäkké plasty - PP, nad 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastPs">
+            <titl>Mäkké plasty - PS</titl>
+        </prop>
+        <prop name="material.mekPlastPsVetsi">
+            <titl>Mäkké plasty - PS, nad 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastPvc">
+            <titl>Mäkké plasty - PVC</titl>
+        </prop>
+        <prop name="material.mekPlastPvcVetsi">
+            <titl>Mäkké plasty - PVC, nad 3 l</titl>
+        </prop>
+        <prop name="material.mekPlastXps">
+            <titl>Mäkké plasty - XPS</titl>
+        </prop>
+        <prop name="material.mekPlastXpsVetsi">
+            <titl>Mäkké plasty - XPS, nad 3 l</titl>
+        </prop>
+        <prop name="material.napojoveKartony">
+            <titl>Nápojové kartóny</titl>
+        </prop>
+        <prop name="material.napojoveKartonyVetsi">
+            <titl>Nápojové kartóny nad 3 l</titl>
+        </prop>
+        <prop name="material.papir">
+            <titl>Papier</titl>
+        </prop>
+        <prop name="material.papirBezny">
+            <titl>Papier - obyčajný</titl>
+        </prop>
+        <prop name="material.papirHladkaLepenka">
+            <titl>Papier - Hladký kartón</titl>
+        </prop>
+        <prop name="material.papirKompozit">
+            <titl>Papier - kompozitný</titl>
+        </prop>
+        <prop name="material.papirNasavanaKart">
+            <titl>Papier - Odsávací kartón</titl>
+        </prop>
+        <prop name="material.papirVlnitaLepenka">
+            <titl>Papier - vlnitá lepenka</titl>
+        </prop>
+        <prop name="material.pevDut5PlastJine">
+            <titl>Pevné duté plasty nad 5L - iné</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPe">
+            <titl>Pevné duté plasty nad 5L - PE</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPet">
+            <titl>Pevné duté plasty nad 5L - PET</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPp">
+            <titl>Pevné duté plasty nad 5L - PP</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPs">
+            <titl>Pevné duté plasty nad 5L - PS</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPvc">
+            <titl>Pevné duté plasty nad 5L - PVC</titl>
+        </prop>
+        <prop name="material.pevDutePlastBioRozlozit">
+            <titl>Pevné duté plasty - biologicky odbúrateľné</titl>
+        </prop>
+        <prop name="material.pevDutePlastBioRozlozitVetsi">
+            <titl>Pevné duté plasty - biologicky odbúrateľné, viac ako 3 l</titl>
+        </prop>
+        <prop name="material.pevDutePlastEps">
+            <titl>Pevné duté plasty - EPS</titl>
+        </prop>
+        <prop name="material.pevDutePlastEpsVetsi">
+            <titl>Pevné duté plasty - EPS, nad 3 l</titl>
+        </prop>
+        <prop name="material.pevDutePlastJine">
+            <titl>Pevné duté plasty - Jiné</titl>
+        </prop>
+        <prop name="material.pevDutePlastJineVetsi">
+            <titl>Pevné duté plasty - ostatné, nad 3 l</titl>
+        </prop>
+        <prop name="material.pevDutePlastKompozit">
+            <titl>Pevné duté plasty - kompozitné</titl>
+        </prop>
+        <prop name="material.pevDutePlastKompozitVetsi">
+            <titl>Pevné duté plasty - kompozitné, nad 3 l</titl>
+        </prop>
+        <prop name="material.pevDutePlastPe">
+            <titl>Pevné duté plasty - PE</titl>
+        </prop>
+        <prop name="material.pevDutePlastPet">
+            <titl>Pevné duté plasty - PET</titl>
+        </prop>
+        <prop name="material.pevDutePlastPetVetsi">
+            <titl>Pevné duté plasty - PET, nad 3 l</titl>
+        </prop>
+        <prop name="material.pevDutePlastPeVetsi">
+            <titl>Pevné duté plasty - PE, nad 3 l</titl>
+        </prop>
+        <prop name="material.pevDutePlastPp">
+            <titl>Pevné duté plasty - PP</titl>
+        </prop>
+        <prop name="material.pevDutePlastPpVetsi">
+            <titl>Pevné duté plasty - PP, nad 3 l</titl>
+        </prop>
+        <prop name="material.pevDutePlastPs">
+            <titl>Pevné duté plasty - PS</titl>
+        </prop>
+        <prop name="material.pevDutePlastPsVetsi">
+            <titl>Pevné duté plasty - PS, nad 3 l</titl>
+        </prop>
+        <prop name="material.pevDutePlastPvc">
+            <titl>Pevné duté plasty - PVC</titl>
+        </prop>
+        <prop name="material.pevDutePlastPvcVetsi">
+            <titl>Pevné duté plasty - PVC, nad 3 l</titl>
+        </prop>
+        <prop name="material.pevDutePlastXps">
+            <titl>Pevné duté plasty - XPS</titl>
+        </prop>
+        <prop name="material.pevDutePlastXpsVetsi">
+            <titl>Pevné duté plasty - XPS, nad 3 l</titl>
+        </prop>
+        <prop name="material.sklo">
+            <titl>Sklo</titl>
+        </prop>
+        <prop name="material.skloBarevne">
+            <titl>Sklo - farebné</titl>
+        </prop>
+        <prop name="material.skloKompozit">
+            <titl>Sklo - kompozitné</titl>
+        </prop>
+        <prop name="material.skloTransparent">
+            <titl>Sklo - priehľadné</titl>
+        </prop>
+        <prop name="material.textil">
+            <titl>Textil</titl>
+        </prop>
+        <prop name="material.vlnitaLepenka">
+            <titl>Vlnitá lepenka</titl>
+        </prop>
+        <prop name="metodaZaokr.0sazba">
+            <titl>do 0 sadzby</titl>
+        </prop>
+        <prop name="metodaZaokr.individ">
+            <titl>individuálne</titl>
+        </prop>
+        <prop name="metodaZaokr.zklDph">
+            <titl>do základu a DPH</titl>
+        </prop>
+        <prop name="mjHmot.gram">
+            <titl>gram</titl>
+        </prop>
+        <prop name="mjHmot.kilogram">
+            <titl>kilogram</titl>
+        </prop>
+        <prop name="mjHmot.tuna">
+            <titl>tuna</titl>
+        </prop>
+        <prop name="mjZaruky.den">
+            <titl>Deň</titl>
+        </prop>
+        <prop name="mjZaruky.mesic">
+            <titl>mesiac</titl>
+        </prop>
+        <prop name="mjZaruky.rok">
+            <titl>rok</titl>
+        </prop>
+        <prop name="modulUcetni.BAN">
+            <titl>Banka</titl>
+        </prop>
+        <prop name="modulUcetni.FAH">
+            <titl>Hotovostný predaj</titl>
+        </prop>
+        <prop name="modulUcetni.FAP">
+            <titl>Faktúry prijaté</titl>
+        </prop>
+        <prop name="modulUcetni.FAV">
+            <titl>Faktúry vydané</titl>
+        </prop>
+        <prop name="modulUcetni.INT">
+            <titl>Interné doklady</titl>
+        </prop>
+        <prop name="modulUcetni.LEA">
+            <titl>Leasing</titl>
+        </prop>
+        <prop name="modulUcetni.MAJ">
+            <titl>Majetok</titl>
+        </prop>
+        <prop name="modulUcetni.NAP">
+            <titl>Ponuky prijaté</titl>
+        </prop>
+        <prop name="modulUcetni.NAV">
+            <titl>Ponuky vydané</titl>
+        </prop>
+        <prop name="modulUcetni.OBP">
+            <titl>Objednávky prijaté</titl>
+        </prop>
+        <prop name="modulUcetni.OBV">
+            <titl>Objednávky vydané</titl>
+        </prop>
+        <prop name="modulUcetni.PHL">
+            <titl>Pohľadávky</titl>
+        </prop>
+        <prop name="modulUcetni.POK">
+            <titl>Pokladňa</titl>
+        </prop>
+        <prop name="modulUcetni.PPP">
+            <titl>Dopyty prijaté</titl>
+        </prop>
+        <prop name="modulUcetni.PPV">
+            <titl>Dopyty vydané</titl>
+        </prop>
+        <prop name="modulUcetni.SKL">
+            <titl>Sklad</titl>
+        </prop>
+        <prop name="modulUcetni.SKLPRI">
+            <titl>Príjemka</titl>
+        </prop>
+        <prop name="modulUcetni.SKLVYD">
+            <titl>Výdajka</titl>
+        </prop>
+        <prop name="modulUcetni.ZAV">
+            <titl>Záväzky</titl>
+        </prop>
+        <prop name="nahrUcet.aPocMes">
+            <titl>Áno</titl>
+        </prop>
+        <prop name="nahrUcet.ne">
+            <titl>Nie</titl>
+        </prop>
+        <prop name="normalMj.gram">
+            <titl>Gram</titl>
+        </prop>
+        <prop name="normalMj.kilogram">
+            <titl>Kilogram</titl>
+        </prop>
+        <prop name="normalMj.tuna">
+            <titl>Tona</titl>
+        </prop>
+        <prop name="objednat.neobjednat">
+            <titl>Neobjednávať</titl>
+        </prop>
+        <prop name="objednat.objednano">
+            <titl>Už je objednané</titl>
+        </prop>
+        <prop name="objednat.objednat">
+            <titl>Objednať</titl>
+        </prop>
+        <prop name="omezPrenDanPov.bezOmezeni">
+            <titl>bez obmedzení</titl>
+        </prop>
+        <prop name="omezPrenDanPov.odCastky100k">
+            <titl>od čiastky 100 000,- Kč</titl>
+        </prop>
+        <prop name="operaceZurnalSmlouvy.autoGenerace">
+            <titl>Automatická generácia</titl>
+        </prop>
+        <prop name="operaceZurnalSmlouvy.manualGenerace">
+            <titl>Ručná generácia</titl>
+        </prop>
+        <prop name="paramDobropisSkladZProdejky">
+            <titl>Ak sa má uprednostniť sklad nastavený na dodávateľa na type dokladu.</titl>
+        </prop>
+        <prop name="paramEDIExportDirectory">
+            <titl>Čo treba zohľadniť pri exporte do obalov EDI?</titl>
+        </prop>
+        <prop name="paramExpiraceMandatory">
+            <titl>Expirácia povinná</titl>
+        </prop>
+        <prop name="paramFirmaInfoUrl">
+            <titl>URL na aktualizáciu informácií o spoločnosti.</titl>
+        </prop>
+        <prop name="paramFirmyDavkaAktualizovatBanku">
+            <titl>Ak sa majú pri hromadnej aktualizácii údajov spoločnosti aktualizovať len bankové údaje.</titl>
+        </prop>
+        <prop name="paramFirmyDavkaInfoUrl">
+            <titl>URL na hromadnú aktualizáciu údajov spoločnosti.</titl>
+        </prop>
+        <prop name="paramGenFunkceKoduFirmy">
+            <titl>Názov funkcie pre generovanie kódu firmy</titl>
+        </prop>
+        <prop name="paramGenFunkceKoduSmlouvy">
+            <titl>Názov funkcie pre generovanie kódu zmluvy</titl>
+        </prop>
+        <prop name="paramNaseptavaniFiremSk">
+            <titl>Našepkávanie firiem zo systému ARES</titl>
+        </prop>
+        <prop name="paramNaseptavaniFiremUrl">
+            <titl>URL pre spoločnosti, ktoré šepkajú.</titl>
+        </prop>
+        <prop name="paramNeomezovatMnozstviObv">
+            <titl>Či sa má prednastavené množstvo znížiť o dostupné a rezervované množstvo pre výrobnú objednávku.</titl>
+        </prop>
+        <prop name="paramObjednavkaRealizaceKomplet">
+            <titl>Len kompletné realizácie objednávky</titl>
+        </prop>
+        <prop name="paramPrenasetFirmuZeZakazkyNaDokl">
+            <titl>Prenášať firmu zo zákazky na doklad, pokiaľ nie je firma na doklade vyplnená. Je možné definovať pre konkrétny modul a typ dokladu.</titl>
+        </prop>
+        <prop name="paramPrikladatPrilohuDoMailu">
+            <titl>Predvolená hodnota pre príznak "Priložiť" pri prílohe typu súbor.</titl>
+        </prop>
+        <prop name="paramRefundaceSkladove">
+            <titl>Refundácia skladového tovaru</titl>
+        </prop>
+        <prop name="paramRozsirenaZakazka">
+            <titl>Tlač rozšírených parametrov objednávky na tlačovej zostave.</titl>
+        </prop>
+        <prop name="paramSarzeMandatory">
+            <titl>Šarža povinná</titl>
+        </prop>
+        <prop name="paramVychoziTiskarna">
+            <titl>Východzia tlačiareň</titl>
+        </prop>
+        <prop name="povolitBankuSPolozkami">
+            <titl>Umožňuje vytvárať bankové doklady s položkami</titl>
+        </prop>
+        <prop name="pozadavekStav.novy">
+            <titl>Nový</titl>
+        </prop>
+        <prop name="pozadavekStav.rozpracovan">
+            <titl>Rozpracovaný</titl>
+        </prop>
+        <prop name="pozadavekStav.uzavren">
+            <titl>Uzavreté</titl>
+        </prop>
+        <prop name="pozadavekTyp.namitka">
+            <titl>Právo vzniesť námietku</titl>
+        </prop>
+        <prop name="pozadavekTyp.omezeni">
+            <titl>Právo na obmedzenie spracovania</titl>
+        </prop>
+        <prop name="pozadavekTyp.oprava">
+            <titl>Právo na opravu</titl>
+        </prop>
+        <prop name="pozadavekTyp.osobniUdaje">
+            <titl>Právo na prístup k osobným údajom dotknutej osoby</titl>
+        </prop>
+        <prop name="pozadavekTyp.oznamovaci">
+            <titl>Oznamovacia povinnosť týkajúca sa opravy alebo vymazania osobných údajov alebo obmedzenia spracovania</titl>
+        </prop>
+        <prop name="pozadavekTyp.prenositelnost">
+            <titl>Právo na prenosnosť údajov</titl>
+        </prop>
+        <prop name="pozadavekTyp.vymaz">
+            <titl>Právo na vymazanie</titl>
+        </prop>
+        <prop name="pravFormaPodnik.as">
+            <titl>Akciová spoločnosť</titl>
+        </prop>
+        <prop name="pravFormaPodnik.druzstvo">
+            <titl>Družstvo</titl>
+        </prop>
+        <prop name="pravFormaPodnik.es">
+            <titl>Europská spoločnosť</titl>
+        </prop>
+        <prop name="pravFormaPodnik.ks">
+            <titl>Komanditná spoločnosť</titl>
+        </prop>
+        <prop name="pravFormaPodnik.nadace">
+            <titl>Nadácia</titl>
+        </prop>
+        <prop name="pravFormaPodnik.nezOrg">
+            <titl>Nezisková organizácia</titl>
+        </prop>
+        <prop name="pravFormaPodnik.osvc">
+            <titl>Osoba samostatne zárobkovo činná</titl>
+        </prop>
+        <prop name="pravFormaPodnik.sdruzeni">
+            <titl>Združenie podnikateľov</titl>
+        </prop>
+        <prop name="pravFormaPodnik.sro">
+            <titl>Spoločnosť s ručením obmedzeným</titl>
+        </prop>
+        <prop name="pravFormaPodnik.vos">
+            <titl>Verejná obchodná spoločnosť</titl>
+        </prop>
+        <prop name="predvybranyPocet.aktualni">
+            <titl>Aktuálny záznam</titl>
+        </prop>
+        <prop name="predvybranyPocet.vsechny">
+            <titl>Všetky záznamy</titl>
+        </prop>
+        <prop name="prepocetCen.ask">
+            <titl>Opýtať sa</titl>
+        </prop>
+        <prop name="prepocetCen.auto">
+            <titl>Prepočítať ceny</titl>
+        </prop>
+        <prop name="prepocetCen.none">
+            <titl>Nemeniť ceny</titl>
+        </prop>
+        <prop name="priorita.kriticka">
+            <titl>Kritická</titl>
+        </prop>
+        <prop name="priorita.nizka">
+            <titl>Nízka</titl>
+        </prop>
+        <prop name="priorita.stredni">
+            <titl>Stredná</titl>
+        </prop>
+        <prop name="priorita.velmiNizka">
+            <titl>Veľmi nízka</titl>
+        </prop>
+        <prop name="priorita.vysoka">
+            <titl>Vysoká</titl>
+        </prop>
+        <prop name="razeniProTisk.kod">
+            <titl>Podľa kódu</titl>
+        </prop>
+        <prop name="razeniProTisk.nazev">
+            <titl>Podľa názvu</titl>
+        </prop>
+        <prop name="razeniProTisk.poradi">
+            <titl>Podľa poradia</titl>
+        </prop>
+        <prop name="rezimRezervaci.rucni">
+            <titl>Iba ručný</titl>
+        </prop>
+        <prop name="rezimRezervaci.zObj">
+            <titl>Automaticky pri vytvarenie z objednávky</titl>
+        </prop>
+        <prop name="rezimRezervaci.zObjPriNaskladneni">
+            <titl>Automaticky pri vytvarenie z objednávky a naskladnenie</titl>
+        </prop>
+        <prop name="rocniKurz.kalendarniDen">
+            <titl>K 1. kal. dňu v období</titl>
+        </prop>
+        <prop name="rocniKurz.pracovniDen">
+            <titl>K 1. prac. dňu v období</titl>
+        </prop>
+        <prop name="stavDoklObch.castecneNaCeste">
+            <titl>Čiastočne na ceste</titl>
+        </prop>
+        <prop name="stavDoklObch.castHotovo">
+            <titl>Čiastočne hotovo</titl>
+        </prop>
+        <prop name="stavDoklObch.castVydano">
+            <titl>Čiastočne vydané/prijaté</titl>
+        </prop>
+        <prop name="stavDoklObch.hotovo">
+            <titl>Hotovo</titl>
+        </prop>
+        <prop name="stavDoklObch.naCeste">
+            <titl>Na ceste</titl>
+        </prop>
+        <prop name="stavDoklObch.nespec">
+            <titl>Nešpecifikované</titl>
+        </prop>
+        <prop name="stavDoklObch.pripraveno">
+            <titl>Pripravené</titl>
+        </prop>
+        <prop name="stavDoklObch.schvaleno">
+            <titl>Schválené</titl>
+        </prop>
+        <prop name="stavDoklObch.storno">
+            <titl>Storno</titl>
+        </prop>
+        <prop name="stavDoklObch.vydano">
+            <titl>Vydané/prijaté</titl>
+        </prop>
+        <prop name="stavInventury.1vlna">
+            <titl>1. vlna</titl>
+        </prop>
+        <prop name="stavInventury.2vlna">
+            <titl>2. vlna</titl>
+        </prop>
+        <prop name="stavInventury.3vlna">
+            <titl>3. vlna</titl>
+        </prop>
+        <prop name="stavInventury.4vlna">
+            <titl>4. vlna</titl>
+        </prop>
+        <prop name="stavInventury.hotova">
+            <titl>Hotovo</titl>
+        </prop>
+        <prop name="stavInventury.uzavrena">
+            <titl>Uzatvorené</titl>
+        </prop>
+        <prop name="stavInventury.zahajena">
+            <titl>začatá</titl>
+        </prop>
+        <prop name="stavMail.neodesilat">
+            <titl>Neodosielať</titl>
+        </prop>
+        <prop name="stavMail.odeslano">
+            <titl>Odoslané</titl>
+        </prop>
+        <prop name="stavMail.odeslat">
+            <titl>Odoslať</titl>
+        </prop>
+        <prop name="stavOdp.cast">
+            <titl>Čiastočne odpočítané</titl>
+        </prop>
+        <prop name="stavOdp.komplet">
+            <titl>Odpočítané</titl>
+        </prop>
+        <prop name="stavOdp.vytvZdd">
+            <titl>Vytvorený ZDD</titl>
+        </prop>
+        <prop name="stavPriznaniDph.dodatecne">
+            <titl>Dodatočné</titl>
+        </prop>
+        <prop name="stavPriznaniDph.dodatecneOpravne">
+            <titl>Dodatočné/opravné</titl>
+        </prop>
+        <prop name="stavPriznaniDph.opravne">
+            <titl>Opravné</titl>
+        </prop>
+        <prop name="stavPriznaniDph.radne">
+            <titl>Riadne</titl>
+        </prop>
+        <prop name="stavPriznaniDph.radneOpravne">
+            <titl>Riadne/opravné</titl>
+        </prop>
+        <prop name="stavSklad.nefakturovatelne">
+            <titl>Nefakturovateľné</titl>
+        </prop>
+        <prop name="stavSklad.prevodka">
+            <titl>Prevodka</titl>
+        </prop>
+        <prop name="stavSklad.uhrazen">
+            <titl>Uhradený cez pokladňu</titl>
+        </prop>
+        <prop name="stavSklad.uhrazenCast">
+            <titl>Čiastočne uhradený cez pokladňu</titl>
+        </prop>
+        <prop name="stavSklad.uhrazenHrom">
+            <titl>Uhradený cez pokladňu hromadne</titl>
+        </prop>
+        <prop name="stavSklad.uhrazenHromCast">
+            <titl>Čiastočne uhradený cez pokladňu hromadne</titl>
+        </prop>
+        <prop name="stavSklad.vyfakt">
+            <titl>Vyfakturovaný</titl>
+        </prop>
+        <prop name="stavSklad.vyfaktCast">
+            <titl>Čiastočne vyfakturovaný</titl>
+        </prop>
+        <prop name="stavSklad.vyfaktHrom">
+            <titl>Vyfakturovaný hromadne</titl>
+        </prop>
+        <prop name="stavSklad.vyfaktHromCast">
+            <titl>Čiastočne vyfakturovaný hromadne</titl>
+        </prop>
+        <prop name="stavSklad.vygenFakt">
+            <titl>Vygenerovaný z faktúry</titl>
+        </prop>
+        <prop name="stavSklad.vygenFaktNeuplny">
+            <titl>Vygenerovaný z faktúry - neúplný</titl>
+        </prop>
+        <prop name="stavSklad.vygenPokl">
+            <titl>Vygenerovaný z pokladne</titl>
+        </prop>
+        <prop name="stavSklad.vygenPoklNeuplny">
+            <titl>Vygenerovaný z pokladne - neúplný</titl>
+        </prop>
+        <prop name="stavSklad.vyroba">
+            <titl>Výroba</titl>
+        </prop>
+        <prop name="stavUdal.hotovo">
+            <titl>Hotovo</titl>
+        </prop>
+        <prop name="stavUdal.nove">
+            <titl>Nová</titl>
+        </prop>
+        <prop name="stavUdal.rozprac">
+            <titl>Rozpracované</titl>
+        </prop>
+        <prop name="stavUdal.zamitnuto">
+            <titl>Zamietnuté</titl>
+        </prop>
+        <prop name="stavUhr.castUhr">
+            <titl>Čiastočne uhradené</titl>
+        </prop>
+        <prop name="stavUhr.storno">
+            <titl>Storno</titl>
+        </prop>
+        <prop name="stavUhr.uhrazeno">
+            <titl>Uhradené</titl>
+        </prop>
+        <prop name="stavUhr.uhrazenoRucne">
+            <titl>Uhradené (ručne)</titl>
+        </prop>
+        <prop name="stavUziv.bezPrikazu">
+            <titl>Bez príkazu</titl>
+        </prop>
+        <prop name="stavUziv.castPrikaz">
+            <titl>Odoslaný čiastočný príkaz</titl>
+        </prop>
+        <prop name="stavUziv.celPrikaz">
+            <titl>Odoslaný príkaz</titl>
+        </prop>
+        <prop name="stavUziv.genKasa">
+            <titl>Vygenerovaný z kasy</titl>
+        </prop>
+        <prop name="stavUziv.nactenoEl">
+            <titl>Načítané elektronicky</titl>
+        </prop>
+        <prop name="stavUziv.nactenoElPosledni">
+            <titl>Naposledy načítané elektronicky</titl>
+        </prop>
+        <prop name="stavUziv.obsaPrikaz">
+            <titl>Obsiahnutý v príkaze</titl>
+        </prop>
+        <prop name="stavUziv.zauctovano">
+            <titl>Zaúčtované do pokladne</titl>
+        </prop>
+        <prop name="stavUziv.zaucZmena">
+            <titl>Zmenené po zaúčtovaní</titl>
+        </prop>
+        <prop name="stavZak.castHot">
+            <titl>čiastočne hotovo</titl>
+        </prop>
+        <prop name="stavZak.hotovo">
+            <titl>hotovo</titl>
+        </prop>
+        <prop name="stavZak.vBehu">
+            <titl>vybavuje sa</titl>
+        </prop>
+        <prop name="surovina.primarni">
+            <titl>Primárne</titl>
+        </prop>
+        <prop name="surovina.recyklat">
+            <titl>Recyklovať</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavA360aVice">
+            <titl>361 a viac dní po splatnosti</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavB360az180">
+            <titl>360 až 181 dní po splatnosti</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavC180az90">
+            <titl>180 až 91 dní po splatnosti</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavD90az30">
+            <titl>90 až 31 dní po splatnosti</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavE30az0">
+            <titl>30 až 1 dní po splatnosti</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavFnejsou">
+            <titl>Nie sú po splatnosti</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavZnevyplneno">
+            <titl>Splatnosť nie je vyplnená</titl>
+        </prop>
+        <prop name="tydenPracDoba.dul">
+            <titl>Pracujúci v podzemí (37,5 hodin)</titl>
+        </prop>
+        <prop name="tydenPracDoba.dvousmenny">
+            <titl>Dvojsmenná prevádzka (38,75 hodin)</titl>
+        </prop>
+        <prop name="tydenPracDoba.standard">
+            <titl>Jednosmenná prevádzka (40 hodin)</titl>
+        </prop>
+        <prop name="tydenPracDoba.trismenny">
+            <titl>Trojsmenná prevádzka (37,5 hodin)</titl>
+        </prop>
+        <prop name="typAtribut.1zN">
+            <titl>1 z N</titl>
+        </prop>
+        <prop name="typAtribut.boolean">
+            <titl>Logická hodnota</titl>
+        </prop>
+        <prop name="typAtribut.datumCas">
+            <titl>Dátum</titl>
+        </prop>
+        <prop name="typAtribut.integer">
+            <titl>Celé číslo</titl>
+        </prop>
+        <prop name="typAtribut.MzN">
+            <titl>M z N</titl>
+        </prop>
+        <prop name="typAtribut.numeric">
+            <titl>Desatinné číslo</titl>
+        </prop>
+        <prop name="typAtribut.retezec">
+            <titl>Reťazec</titl>
+        </prop>
+        <prop name="typAtribut.rozmezi">
+            <titl>Rozmedzie</titl>
+        </prop>
+        <prop name="typBanUctu.kc">
+            <titl>Pohyb %currency-symbol / Zostatok %currency-symbol</titl>
+        </prop>
+        <prop name="typBanUctu.mena">
+            <titl>Pohyb mena / Zostatok mena</titl>
+        </prop>
+        <prop name="typCeny.bezDph">
+            <titl>bez DPH</titl>
+        </prop>
+        <prop name="typCeny.sDph">
+            <titl>vrátane DPH</titl>
+        </prop>
+        <prop name="typCeny.sDphKoef">
+            <titl>vrátane DPH (koeficient)</titl>
+        </prop>
+        <prop name="typCenyVychozi.nakCena">
+            <titl>nákupná cena</titl>
+        </prop>
+        <prop name="typCenyVychozi.zadna">
+            <titl>žiadna cena</titl>
+        </prop>
+        <prop name="typCenyVychozi.zaklCena">
+            <titl>Predajná cena</titl>
+        </prop>
+        <prop name="typCert.disk">
+            <titl>miestny disk</titl>
+        </prop>
+        <prop name="typCert.karta">
+            <titl>čipová karta</titl>
+        </prop>
+        <prop name="typCert.server">
+            <titl>server</titl>
+        </prop>
+        <prop name="typCinnosti.hlavni">
+            <titl>Hlavná činnosť</titl>
+        </prop>
+        <prop name="typCinnosti.hospodar">
+            <titl>Hospodárska činnosť</titl>
+        </prop>
+        <prop name="typDokladu.dobropis">
+            <titl>Dobropis</titl>
+        </prop>
+        <prop name="typDokladu.dodList">
+            <titl>Dodací list</titl>
+        </prop>
+        <prop name="typDokladu.faktura">
+            <titl>Štandartná faktúra</titl>
+        </prop>
+        <prop name="typDokladu.krZisk">
+            <titl>Kurzový rozdiel zisk</titl>
+        </prop>
+        <prop name="typDokladu.krZtrata">
+            <titl>Kurzový rozdiel strata</titl>
+        </prop>
+        <prop name="typDokladu.obecny">
+            <titl>Všeobecný doklad</titl>
+        </prop>
+        <prop name="typDokladu.prodejka">
+            <titl>Predajka</titl>
+        </prop>
+        <prop name="typDokladu.proforma">
+            <titl>Proforma (nedaňová)</titl>
+        </prop>
+        <prop name="typDokladu.zalohFaktura">
+            <titl>Zálohová faktúra</titl>
+        </prop>
+        <prop name="typDokladu.zbytekNaklad">
+            <titl>Zvyšok náklad</titl>
+        </prop>
+        <prop name="typDokladu.zbytekVynos">
+            <titl>Zvyšok výnos</titl>
+        </prop>
+        <prop name="typDokladu.zdd">
+            <titl>Zálohový daňový doklad</titl>
+        </prop>
+        <prop name="typKonektoru.atcomp">
+            <titl>AT Computers a.s.</titl>
+        </prop>
+        <prop name="typKonektoru.interObch">
+            <titl>Internetový obchod</titl>
+        </prop>
+        <prop name="typKurzu.cenotvorba">
+            <titl>Kurz na stanovenie cien</titl>
+        </prop>
+        <prop name="typKurzu.intrastat">
+            <titl>Kurz pre Intrastat</titl>
+        </prop>
+        <prop name="typKurzu.obecny">
+            <titl>Všeobecné</titl>
+        </prop>
+        <prop name="typKurzu.preceneni">
+            <titl>Kurz pre precenie</titl>
+        </prop>
+        <prop name="typMj.cas">
+            <titl>čas</titl>
+        </prop>
+        <prop name="typMj.delka">
+            <titl>dĺžka</titl>
+        </prop>
+        <prop name="typMj.hmotnost">
+            <titl>hmotnosť</titl>
+        </prop>
+        <prop name="typMj.objem">
+            <titl>objem</titl>
+        </prop>
+        <prop name="typMj.plocha">
+            <titl>plocha</titl>
+        </prop>
+        <prop name="typObalu.obchodPreprava">
+            <titl>Obchodné - Prepravné</titl>
+        </prop>
+        <prop name="typObalu.obchodProdej">
+            <titl>Obchodné - Predajné</titl>
+        </prop>
+        <prop name="typObalu.obchodSkupina">
+            <titl>Obchodné - Skupinové</titl>
+        </prop>
+        <prop name="typObalu.prumysl">
+            <titl>Priemyslové</titl>
+        </prop>
+        <prop name="typObchodu.cizina">
+            <titl>Mimo EU</titl>
+        </prop>
+        <prop name="typObchodu.EUneplat">
+            <titl>EU neplatca DPH</titl>
+        </prop>
+        <prop name="typObchodu.EUplatce">
+            <titl>EU platca DPH</titl>
+        </prop>
+        <prop name="typObchodu.tuzem">
+            <titl>Tuzemsko</titl>
+        </prop>
+        <prop name="typOdp.mesic">
+            <titl>Mesačná</titl>
+        </prop>
+        <prop name="typOdp.rovn">
+            <titl>Rovnomerné</titl>
+        </prop>
+        <prop name="typOdp.zrych">
+            <titl>Zrýchlené</titl>
+        </prop>
+        <prop name="typPlneni.obojiRCH">
+            <titl>Oboje RCH (Reverse charge)</titl>
+        </prop>
+        <prop name="typPlneni.prijata">
+            <titl>Prijatá</titl>
+        </prop>
+        <prop name="typPlneni.prijataRCH">
+            <titl>Prijatá RCH (Reverse charge)</titl>
+        </prop>
+        <prop name="typPlneni.uskutecnena">
+            <titl>Uskutočnená</titl>
+        </prop>
+        <prop name="typPlneni.uskutecnenaRCH">
+            <titl>Uskutočnená RCH (Reverse charge)</titl>
+        </prop>
+        <prop name="typPlneniEet.uvestOsv">
+            <titl>Uvádza sa oslobodená sadzba</titl>
+        </prop>
+        <prop name="typPohybu.prijem">
+            <titl>Príjem</titl>
+        </prop>
+        <prop name="typPohybu.vydej">
+            <titl>Výdaj</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemHoly">
+            <titl>"Holý" príjem</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemPoFak">
+            <titl>Príjem po faktúre</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemPolot">
+            <titl>Príjem polotovaru</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemPoObch">
+            <titl>Príjem po objednávke</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemPrevod">
+            <titl>Príjem pre prevodku</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemProFak">
+            <titl>Príjem pre fakturáciu</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemVratka">
+            <titl>Príjem (dobropis, vratka)</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemVydejVratka">
+            <titl>Výdaj (dobropis, vratka)</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemVyrob">
+            <titl>Príjem výrobku</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejHoly">
+            <titl>"Holý" výdaj</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejPoFak">
+            <titl>Výdaj po faktúre</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejPolot">
+            <titl>Výdaj polotovaru</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejPoObch">
+            <titl>Výdaj po objednávke</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejPrevod">
+            <titl>Výdaj pre prevodku</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejProFakCenik">
+            <titl>Výdaj pre fakturáciu (ceny z cenníka)</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejProFakRucne">
+            <titl>Výdaj pre fakturáciu (ceny ručne)</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejVyrob">
+            <titl>Výdaj výrobku</titl>
+        </prop>
+        <prop name="typPolozky.dorovnaniTuz">
+            <titl>Dorovnanie tuzemskej meny</titl>
+        </prop>
+        <prop name="typPolozky.katalog">
+            <titl>Položka z cenníka</titl>
+        </prop>
+        <prop name="typPolozky.korekceKRZisk">
+            <titl>Korekcia kurzového rozdielu (zisk)</titl>
+        </prop>
+        <prop name="typPolozky.korekceKRZtrata">
+            <titl>Korekcia kurzového rozdielu (strata)</titl>
+        </prop>
+        <prop name="typPolozky.korekceOdpoctu">
+            <titl>Korekcia odpočtu zálohy/ZDD</titl>
+        </prop>
+        <prop name="typPolozky.korekceRekapitulace">
+            <titl>Korekcia rekapitulácie DPH</titl>
+        </prop>
+        <prop name="typPolozky.korekceTuz">
+            <titl>Korekcia tuzemskej meny</titl>
+        </prop>
+        <prop name="typPolozky.obecny">
+            <titl>Položka s cenou a množstvom</titl>
+        </prop>
+        <prop name="typPolozky.odpocetZalohy">
+            <titl>Odpočet zálohy</titl>
+        </prop>
+        <prop name="typPolozky.odpocetZdd">
+            <titl>Odpočet ZDD</titl>
+        </prop>
+        <prop name="typPolozky.text">
+            <titl>Textový riadok</titl>
+        </prop>
+        <prop name="typPolozky.ucetni">
+            <titl>Položka pre zaúčtovanie</titl>
+        </prop>
+        <prop name="typPolozky.zaokrPoOdpoctu">
+            <titl>###Položka zaokrouhlení po odpočtu záloh</titl>
+        </prop>
+        <prop name="typPoplatku.obecny">
+            <titl>Obecný</titl>
+        </prop>
+        <prop name="typPoplatku.recyklacni">
+            <titl>Recyklačný</titl>
+        </prop>
+        <prop name="typPouziti.1pouziti">
+            <titl>Obaly na jedno použitie</titl>
+        </prop>
+        <prop name="typPouziti.opakovane">
+            <titl>Opakovane používané obaly</titl>
+        </prop>
+        <prop name="typPrav.admin">
+            <titl>Administrátor</titl>
+        </prop>
+        <prop name="typPrav.jenCist">
+            <titl>Len čítať</titl>
+        </prop>
+        <prop name="typPrav.mzdovyUcetni">
+            <titl>Mzdový účtovník</titl>
+        </prop>
+        <prop name="typPrav.obchodnik">
+            <titl>Obchodník</titl>
+        </prop>
+        <prop name="typPrav.skladnik">
+            <titl>Skladník</titl>
+        </prop>
+        <prop name="typPrav.skladnikSPokladnou">
+            <titl>Skladník s pokladňou</titl>
+        </prop>
+        <prop name="typPrav.superUzivatel">
+            <titl>Super používateľ</titl>
+        </prop>
+        <prop name="typPrav.ucetni">
+            <titl>Účtovník</titl>
+        </prop>
+        <prop name="typPrav.uzivatel">
+            <titl>Štandardný používateľ</titl>
+        </prop>
+        <prop name="typPrav.zablokovan">
+            <titl>Neaktívny účet</titl>
+        </prop>
+        <prop name="typPrikazu.inkaso">
+            <titl>Príkaz k inkasu</titl>
+        </prop>
+        <prop name="typPrikazu.prikaz">
+            <titl>Príkaz k úhrade</titl>
+        </prop>
+        <prop name="typPrilohy.adresar">
+            <titl>Príloha adresára</titl>
+        </prop>
+        <prop name="typPrilohy.cenik">
+            <titl>Príloha cenníka</titl>
+        </prop>
+        <prop name="typPrilohy.doklad">
+            <titl>Príloha dokladu</titl>
+        </prop>
+        <prop name="typPrilohy.kontakt">
+            <titl>Príloha kontaktu</titl>
+        </prop>
+        <prop name="typPrilohy.leasing">
+            <titl>Leasing</titl>
+        </prop>
+        <prop name="typPrilohy.logo">
+            <titl>Logo</titl>
+        </prop>
+        <prop name="typPrilohy.majetek">
+            <titl>Majetok</titl>
+        </prop>
+        <prop name="typPrilohy.obrazek">
+            <titl>Obrázková príloha</titl>
+        </prop>
+        <prop name="typPrilohy.odkaz">
+            <titl>Odkaz URL na internet alebo súbor</titl>
+        </prop>
+        <prop name="typPrilohy.osoba">
+            <titl>Príloha osoby</titl>
+        </prop>
+        <prop name="typPrilohy.ostatni">
+            <titl>Bližšie neurčený typ prílohy</titl>
+        </prop>
+        <prop name="typPrilohy.podRaz">
+            <titl>Podpis a pečiatka</titl>
+        </prop>
+        <prop name="typPrilohy.polsmlouvy">
+            <titl>Príloha položky zmluvy</titl>
+        </prop>
+        <prop name="typPrilohy.report">
+            <titl>Report</titl>
+        </prop>
+        <prop name="typPrilohy.smlouva">
+            <titl>Príloha zmluvy</titl>
+        </prop>
+        <prop name="typPrilohy.udalost">
+            <titl>Príloha udalosti</titl>
+        </prop>
+        <prop name="typPrilohy.zakazka">
+            <titl>Príloha zákazky</titl>
+        </prop>
+        <prop name="typPristPrav.nepripustne">
+            <titl>Neprístupné</titl>
+        </prop>
+        <prop name="typPristPrav.plny">
+            <titl>Plný prístup</titl>
+        </prop>
+        <prop name="typPristPrav.pouzeCist">
+            <titl>Len čítať</titl>
+        </prop>
+        <prop name="typPristPrav.upresneni">
+            <titl>Upresnenie prístupu</titl>
+        </prop>
+        <prop name="typRole.adr">
+            <titl>adresár</titl>
+        </prop>
+        <prop name="typRole.glo">
+            <titl>globálny</titl>
+        </prop>
+        <prop name="typRole.stred">
+            <titl>stredisko</titl>
+        </prop>
+        <prop name="typRole.wf">
+            <titl>workflow</titl>
+        </prop>
+        <prop name="typRole.zak">
+            <titl>objednávka</titl>
+        </prop>
+        <prop name="typSablony.druhaUpominka">
+            <titl>Druhá upomienka</titl>
+        </prop>
+        <prop name="typSablony.inventarizace">
+            <titl>Inventarizácia</titl>
+        </prop>
+        <prop name="typSablony.pokusOSmir">
+            <titl>Pokus o zmier</titl>
+        </prop>
+        <prop name="typSablony.prvniUpominka">
+            <titl>Prvá upomienka</titl>
+        </prop>
+        <prop name="typSestavy.cashflow">
+            <titl>cash flow</titl>
+        </prop>
+        <prop name="typSestavy.obecna">
+            <titl>všeobecná</titl>
+        </prop>
+        <prop name="typSestavy.rozvaha">
+            <titl>rozvaha</titl>
+        </prop>
+        <prop name="typSestavy.rozvahaIfrs">
+            <titl>IFRS rozvaha</titl>
+        </prop>
+        <prop name="typSestavy.vysledov">
+            <titl>výsledovka</titl>
+        </prop>
+        <prop name="typSestavy.vysledovIfrs">
+            <titl>IFRS výsledovka</titl>
+        </prop>
+        <prop name="typSpl.akontace">
+            <titl>mimor. splátka</titl>
+        </prop>
+        <prop name="typSpl.bezna">
+            <titl>bežná splátka</titl>
+        </prop>
+        <prop name="typSpl.mimFinCin">
+            <titl>mim. fin. činnosť</titl>
+        </prop>
+        <prop name="typSpl.posledni">
+            <titl>posledná splátka</titl>
+        </prop>
+        <prop name="typSpl.prevod">
+            <titl>Prevod za zostatkovú cenu</titl>
+        </prop>
+        <prop name="typSpl.prvni">
+            <titl>nultá splátka</titl>
+        </prop>
+        <prop name="typSynchCenik.naWebu">
+            <titl>Internetový obchod</titl>
+        </prop>
+        <prop name="typSynchCenik.rucne">
+            <titl>Synchronizovať ručně</titl>
+        </prop>
+        <prop name="typSynchCenik.veW10">
+            <titl>ABRA Flexi</titl>
+        </prop>
+        <prop name="typSynchCenik.zadna">
+            <titl>Nesynchronizovať cenník</titl>
+        </prop>
+        <prop name="typSzbDph.dphOsv">
+            <titl>oslobodené</titl>
+        </prop>
+        <prop name="typSzbDph.dphSniz">
+            <titl>znížená</titl>
+        </prop>
+        <prop name="typSzbDph.dphSniz2">
+            <titl>2. znížená</titl>
+        </prop>
+        <prop name="typSzbDph.dphZakl">
+            <titl>základná</titl>
+        </prop>
+        <prop name="typTiskDokladu.doklad">
+            <titl>Doklad</titl>
+        </prop>
+        <prop name="typTiskDokladu.dokladPokladny">
+            <titl>Pokladničný doklad</titl>
+        </prop>
+        <prop name="typTiskDokladu.dokladSkladu">
+            <titl>Skladový doklad</titl>
+        </prop>
+        <prop name="typUcetniJednotkyCz.mala">
+            <titl>Malá účtovná jednotka</titl>
+        </prop>
+        <prop name="typUcetniJednotkyCz.mikro">
+            <titl>Mikro účtovná jednotka</titl>
+        </prop>
+        <prop name="typUcetniJednotkyCz.stredni">
+            <titl>Stredná účtovná jednotka</titl>
+        </prop>
+        <prop name="typUcetniJednotkyCz.velka">
+            <titl>Veľká účtovná jednotka</titl>
+        </prop>
+        <prop name="typUcJednotky.mala">
+            <titl>Malá účtovná jednotka</titl>
+        </prop>
+        <prop name="typUcJednotky.mikro">
+            <titl>Mikro účtovná jednotka</titl>
+        </prop>
+        <prop name="typUcJednotky.velka">
+            <titl>Veľká účtovná jednotka</titl>
+        </prop>
+        <prop name="typUctu.podrozvahovy">
+            <titl>podrozvahový</titl>
+        </prop>
+        <prop name="typUctu.rozvahovy">
+            <titl>rozvahový</titl>
+        </prop>
+        <prop name="typUctu.vnitropodnikovy">
+            <titl>vnútropodnikový</titl>
+        </prop>
+        <prop name="typUctu.vysledkovy">
+            <titl>výsledkový</titl>
+        </prop>
+        <prop name="typUctu.zaverkovy">
+            <titl>závierkový</titl>
+        </prop>
+        <prop name="typUdal.casVyr">
+            <titl>Čiastočné vyradenie</titl>
+        </prop>
+        <prop name="typUdal.prerOdpDan">
+            <titl>Prerušenie daňových odpisov</titl>
+        </prop>
+        <prop name="typUdal.prerOdpUcet">
+            <titl>Prerušenie účtovných odpisov</titl>
+        </prop>
+        <prop name="typUdal.rozdilCenyAZustatku">
+            <titl>Rozdiel medzi predajnou cenou a zostatkom</titl>
+        </prop>
+        <prop name="typUdal.techZhod">
+            <titl>Technické zhodnotenie</titl>
+        </prop>
+        <prop name="typUdal.uplVyr">
+            <titl>Úplné vyradenie</titl>
+        </prop>
+        <prop name="typUdal.uzivatelska">
+            <titl>Užívateľská udalosť</titl>
+        </prop>
+        <prop name="typUdal.zahOdpDan">
+            <titl>Opätovné započatie daňových odpisov</titl>
+        </prop>
+        <prop name="typUdal.zahOdpUcet">
+            <titl>Opätovné započatie účtovných odpisov</titl>
+        </prop>
+        <prop name="typUdal.zarazeni">
+            <titl>Zaradenie</titl>
+        </prop>
+        <prop name="typUdal.zmenDob">
+            <titl>Zmena doby odpisovania</titl>
+        </prop>
+        <prop name="typUdal.zmenHodDan">
+            <titl>Zmena zostatku daňových odpisov</titl>
+        </prop>
+        <prop name="typUdal.zmenHodUcet">
+            <titl>Zmena zostatku účtovných odpisov</titl>
+        </prop>
+        <prop name="typUmisteniSklad.mistnost">
+            <titl>Miestnosť</titl>
+        </prop>
+        <prop name="typUmisteniSklad.police">
+            <titl>Polica</titl>
+        </prop>
+        <prop name="typUmisteniSklad.regal">
+            <titl>Regál</titl>
+        </prop>
+        <prop name="typVazbyDokl.hlavaDobropis">
+            <titl>Dobropis</titl>
+        </prop>
+        <prop name="typVazbyDokl.hlavaSkl">
+            <titl>Skladový doklad</titl>
+        </prop>
+        <prop name="typVazbyDokl.hlavaSklKus">
+            <titl>Skladový doklad (rozpad kusovníka)</titl>
+        </prop>
+        <prop name="typVazbyDokl.hlavaSklPrevod">
+            <titl>Skladový doklad (prevodka)</titl>
+        </prop>
+        <prop name="typVazbyDokl.KR">
+            <titl>Kurzový rozdiel</titl>
+        </prop>
+        <prop name="typVazbyDokl.KROdpoctu">
+            <titl>Korekcia odpočtu</titl>
+        </prop>
+        <prop name="typVazbyDokl.nakladVynos">
+            <titl>Rozloženie nákladov a výnosov</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_faktura_hla">
+            <titl>Faktúra vytvorená z objednávky</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_faktura_pol">
+            <titl>Položka faktúry vytvorená z objednávky</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_obchod_hla">
+            <titl>Obchodná väzba</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_obchod_pol">
+            <titl>Obchodná väzba položky</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_sklad_hla">
+            <titl>Skladový doklad vytvorený z objednávky</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_sklad_pol">
+            <titl>Položka skladového dokladu vytvorená z objednávky</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_zaloha_hla">
+            <titl>Záloha vytvorená z objednávky</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_zaloha_pol">
+            <titl>Položka zálohy vytvorená z objednávky</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocetPolZALOHY">
+            <titl>Odpočet zálohovej položky</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocetZALOHY">
+            <titl>Odpočet zálohy</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocetZDD">
+            <titl>Odpočet ZDD</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocetZddKr">
+            <titl>Kurzový rozdiel - odpočet zálohy</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocitavanaFaktura">
+            <titl>Odpočítateľná faktúra</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaDobropis">
+            <titl>Položka dobropisu</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaSkl">
+            <titl>Skladová položka</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaSklKus">
+            <titl>Skladová položka (rozpad kusovníka)</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaSklPrevod">
+            <titl>Skladová položka (prevodka)</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaSklSada">
+            <titl>Skladová položka (rozpad sady)</titl>
+        </prop>
+        <prop name="typVazbyDokl.PP">
+            <titl>Preplatok</titl>
+        </prop>
+        <prop name="typVazbyDokl.preceneni">
+            <titl>Precenenie</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhrada">
+            <titl>Úhrada</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhradaKR">
+            <titl>Úhrada kurzového rozdielu</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhradaZALOHY">
+            <titl>Úhrada zálohy</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhrazovanaFaktura">
+            <titl>Uhradená faktúra</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhrazujiciDoklad">
+            <titl>Doklad úhrady</titl>
+        </prop>
+        <prop name="typVazbyDokl.vazbaZDD">
+            <titl>Väzba ZDD</titl>
+        </prop>
+        <prop name="typVazbyDokl.zalHlavKr">
+            <titl>Kurzový rozdiel - záloha</titl>
+        </prop>
+        <prop name="typVazbyDokl.zalPolKr">
+            <titl>Kurzový rozdiel - zálohová položka</titl>
+        </prop>
+        <prop name="typVazbyDokl.zaucProdejky">
+            <titl>Zaúčtovanie predajky</titl>
+        </prop>
+        <prop name="typVazbyDokl.ZB">
+            <titl>Zostatok</titl>
+        </prop>
+        <prop name="typVypCeny.marze">
+            <titl>marže</titl>
+        </prop>
+        <prop name="typVypCeny.neuveden">
+            <titl>neuvedený</titl>
+        </prop>
+        <prop name="typVypCeny.rabat">
+            <titl>rabat</titl>
+        </prop>
+        <prop name="typVypCeny.sleva">
+            <titl>zľava</titl>
+        </prop>
+        <prop name="typVypSestavy.vJednotkach">
+            <titl>v celých %currency-symbol</titl>
+        </prop>
+        <prop name="typVypSestavy.vKcPresne">
+            <titl>v %currency-symbol presne</titl>
+        </prop>
+        <prop name="typVypSestavy.vTisicich">
+            <titl>v celých tisícoch %currency-symbol</titl>
+        </prop>
+        <prop name="typVzniku.importovaneDoCr">
+            <titl>importované do ČR</titl>
+        </prop>
+        <prop name="typVzniku.nakoupeneVCr">
+            <titl>Nakúpené v ČR</titl>
+        </prop>
+        <prop name="typVzniku.vyrobeneVCr">
+            <titl>Vyrobené v ČR</titl>
+        </prop>
+        <prop name="typVztahu.dodavatel">
+            <titl>Dodávateľ</titl>
+        </prop>
+        <prop name="typVztahu.financniUrad">
+            <titl>Daňový úrad</titl>
+        </prop>
+        <prop name="typVztahu.odberatel">
+            <titl>Odberateľ</titl>
+        </prop>
+        <prop name="typVztahu.odberDodav">
+            <titl>Odber./Dodav.</titl>
+        </prop>
+        <prop name="typVztahu.socialka">
+            <titl>Sociálka</titl>
+        </prop>
+        <prop name="typVztahu.vsechno">
+            <titl>Všetko</titl>
+        </prop>
+        <prop name="typVztahu.vyrobce">
+            <titl>Výrobca</titl>
+        </prop>
+        <prop name="typVztahu.vyrobna">
+            <titl>Výrobňa</titl>
+        </prop>
+        <prop name="typVztahu.zdravotka">
+            <titl>Zdravotka</titl>
+        </prop>
+        <prop name="typZak.nevyrob">
+            <titl>nevýrobná</titl>
+        </prop>
+        <prop name="typZak.vyrob">
+            <titl>výrobná</titl>
+        </prop>
+        <prop name="typZasoby.material">
+            <titl>Materiál</titl>
+        </prop>
+        <prop name="typZasoby.nedvyroba">
+            <titl>Nedokončená výroba</titl>
+        </prop>
+        <prop name="typZasoby.polotovar">
+            <titl>Polotovar</titl>
+        </prop>
+        <prop name="typZasoby.poplatek">
+            <titl>Poplatok</titl>
+        </prop>
+        <prop name="typZasoby.sluzba">
+            <titl>Služba</titl>
+        </prop>
+        <prop name="typZasoby.vyrobek">
+            <titl>Výrobok</titl>
+        </prop>
+        <prop name="typZasoby.zbozi">
+            <titl>Tovar</titl>
+        </prop>
+        <prop name="typZasoby.zvire">
+            <titl>Zviera</titl>
+        </prop>
+        <prop name="ucelCertK.eet">
+            <titl>Certifikát pre EET</titl>
+        </prop>
+        <prop name="ucelCertK.finbricks">
+            <titl>###Privátní klíč pro Finbricks</titl>
+        </prop>
+        <prop name="ucelCertK.osobni">
+            <titl>Osobný certifikát</titl>
+        </prop>
+        <prop name="zamek.otevreno">
+            <titl>Otvorené</titl>
+        </prop>
+        <prop name="zamek.polozamceno">
+            <titl>Zamknuté mimo účtovníka</titl>
+        </prop>
+        <prop name="zamek.prohlednuto">
+            <titl>Prehliadnuté</titl>
+        </prop>
+        <prop name="zamek.zamceno">
+            <titl>Zamknuté</titl>
+        </prop>
+        <prop name="zaokrJak.dolu">
+            <titl>dole</titl>
+        </prop>
+        <prop name="zaokrJak.matem">
+            <titl>matematicky</titl>
+        </prop>
+        <prop name="zaokrJak.nahoru">
+            <titl>nahor</titl>
+        </prop>
+        <prop name="zaokrNa.5desetiny">
+            <titl>0.5</titl>
+        </prop>
+        <prop name="zaokrNa.5jednotky">
+            <titl>5</titl>
+        </prop>
+        <prop name="zaokrNa.5setiny">
+            <titl>0.05</titl>
+        </prop>
+        <prop name="zaokrNa.desetiny">
+            <titl>0.1</titl>
+        </prop>
+        <prop name="zaokrNa.desitky">
+            <titl>10</titl>
+        </prop>
+        <prop name="zaokrNa.jednotky">
+            <titl>1</titl>
+        </prop>
+        <prop name="zaokrNa.setiny">
+            <titl>0.01</titl>
+        </prop>
+        <prop name="zaokrNa.stovky">
+            <titl>100</titl>
+        </prop>
+        <prop name="zaokrNa.tisice">
+            <titl>1000</titl>
+        </prop>
+        <prop name="zaokrNa.tisiciny">
+            <titl>0.001</titl>
+        </prop>
+        <prop name="zaokrNa.zadne">
+            <titl>nezaokrúhľovať</titl>
+        </prop>
+        <prop name="zastupceTyp.fo">
+            <titl>Fyzická osoba</titl>
+        </prop>
+        <prop name="zastupceTyp.po">
+            <titl>Právnická osoba</titl>
+        </prop>
+        <prop name="zmenaPohybuRealizace">
+            <titl>Umožniť zmenu špecifikácie typu pohybu pre odosielateľa/príjemcu vytvoreného z objednávky/faktúry</titl>
+        </prop>
+        <prop name="zobrazWebKompMod.auto">
+            <titl>Automatický výber</titl>
+        </prop>
+        <prop name="zobrazWebKompMod.browser">
+            <titl>Webový prehliadač</titl>
+        </prop>
+        <prop name="zobrLogo.prizFormat">
+            <titl>Prispôsobiť sa formátu</titl>
+        </prop>
+        <prop name="zobrLogo.prizFormatPomeryStran">
+            <titl>Prispôsobiť sa formátu a zachovať pomery strán</titl>
+        </prop>
+        <prop name="zobrLogo.zachovVelikost">
+            <titl>Zachovať veľkosť</titl>
+        </prop>
+        <prop name="zpusobFakt.dopredu">
+            <titl>Faktúrovať dopredu</titl>
+        </prop>
+        <prop name="zpusobFakt.zpetne">
+            <titl>Faktúrovať spätne</titl>
+        </prop>
+        <prop name="zpusobOdp.rocne">
+            <titl>% Ročne</titl>
+        </prop>
+        <prop name="zpusobOdp.zar100">
+            <titl>100 %</titl>
+        </prop>
+        <prop name="zpusobOdp.zar5050">
+            <titl>50 % / 50 %</titl>
+        </prop>
+        <prop name="zpusobStahKurz.denne">
+            <titl>Denne</titl>
+        </prop>
+        <prop name="zpusobStahKurz.mesicne">
+            <titl>Mesačne</titl>
+        </prop>
+        <prop name="zpusobStahKurz.nikdy">
+            <titl>Nestahovať</titl>
+        </prop>
+        <prop name="zpusobStahKurz.rocne">
+            <titl>Ročne</titl>
+        </prop>
+        <prop name="zpusobVypo.obrat">
+            <titl>obrat za obdobie</titl>
+        </prop>
+        <prop name="zpusobVypo.obratDal">
+            <titl>obrat D za obdobie</titl>
+        </prop>
+        <prop name="zpusobVypo.obratMd">
+            <titl>obrat MD za obdobie</titl>
+        </prop>
+        <prop name="zpusobVypo.stavKon">
+            <titl>stav účtu na konci obdobia</titl>
+        </prop>
+        <prop name="zpusobVypo.stavPoc">
+            <titl>stav účtu na začiatku obdobia</titl>
+        </prop>
+        <prop name="zvysZrych.proc0">
+            <titl>0 %</titl>
+        </prop>
+        <prop name="zvysZrych.proc10">
+            <titl>10 %</titl>
+        </prop>
+        <prop name="zvysZrych.proc15">
+            <titl>15 %</titl>
+        </prop>
+        <prop name="zvysZrych.proc20">
+            <titl>20 %</titl>
+        </prop>
+    </dials>
+</config>

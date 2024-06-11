@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/sk/lang.mzdy.forms.sk.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <formsInfo>
+        <fi name="perDite">
+            <titl>Dieťa</titl>
+        </fi>
+        <fi name="perOsoba">
+            <titl>Personalistika</titl>
+            <desc>Všetky informácie o zamestnancovi alebo o uchádzačovi o zamestnanie zadáte tu. Zadanie je rozdelené do záložiek podľa významu údajov. V hornej časti sú základné informácie a parametre pre výpočet mzdy. V dolnej časti sú pracovné pomery, stále zložky mzdy, zrážky, deti atď. Stále zložky mzdy obsahujú predpis, ktoré zložky mzdy sa pravidelne opakujú. Program ich automaticky doplní do každého mesiaca podľa rozsahu platnosti</desc>
+            <icon>win/personalistika.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="perOsobaHlav">
+            <titl>Hlavičky osôb</titl>
+        </fi>
+        <fi name="perNeprit">
+            <titl>Neprítomnosť</titl>
+        </fi>
+        <fi name="perCisMzdSloz">
+            <titl>Číselník mzdových zložiek</titl>
+        </fi>
+        <fi name="perCisMzdSlozUziv">
+            <titl>Nastavenie mzdových zložiek</titl>
+            <desc>Tu môžete zmeniť parametre príplatkov. Ďalej číselník obsahuje tzv. používateľsky definovateľné zložky príplatkov, odmien a zrážok</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="perPracPom">
+            <titl>Pracovný pomer</titl>
+        </fi>
+        <fi name="perPracPomHlav">
+            <titl>Pracovný pomer</titl>
+        </fi>
+        <fi name="perTypPracPom">
+            <titl>Typ pracovného pomeru</titl>
+        </fi>
+        <fi name="perPrumer">
+            <titl>Priemer</titl>
+        </fi>
+        <fi name="perPraceStred">
+            <titl>Práca pre strediská</titl>
+        </fi>
+        <fi name="perSkupOsob">
+            <titl>Skupiny osôb</titl>
+            <desc>Skupiny osôb umožnujú členiť zamestnancov alebo uchádzačov o zamestnanie do skupín spoločných vlastností. Napríklad robotníci, roľníci alebo pracujúca inteligencia.</desc>
+            <icon>win/type-skupiny-osob.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="perSmeny">
+            <titl>Zmeny</titl>
+        </fi>
+        <fi name="perSrazka">
+            <titl>Zrážka</titl>
+        </fi>
+        <fi name="perMzdSloz">
+            <titl>Mzdová zložka</titl>
+            <desc>Vstup a výber mzdových zložiek má tri základné funkcie. Prvou funkciou je možnosť vstupu miezd nie podľa zamestnancov ale podľa zložiek. Príkladom môže byť hromadné zadávanie odmien. Vo vstupnom okne si zvolíte príslušnú zložku odmeny, vyberiete obdobie a zamestnancov. Zadáte čiastku a po stlačení tlačidla "Uložiť a nový" program automaticky ponúkne ďalšieho zamestnanca kde zadáte inú čiastku (Mzdy je potom nutné spracovať vo funkcii "Aktualizácia miezd"). Druhou funkciou je možnosť jednoduchej filtrácie vo všetkých zložkách mzdy a následnej tlače. Tretia funkcia umožňuje rekapituláciu mzdových zložiek (zoskupovanie) podľa rokov, štvrťrokov, stredisiek atď.</desc>
+            <icon>win/mzdove-slozky.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="perStalaMzdSloz">
+            <titl>Stála mzdová zložka</titl>
+        </fi>
+        <fi name="perAktualMzdy">
+            <titl>Aktualizácia miezd</titl>
+            <desc>Mzdy môžete aktualizovať vo všetkých mesiacoch, ktoré nie sú oprávneným používateľom uzamknuté. Vypočítať mzdu môžete pre všetkých zamestnancov v zozname alebo individuálne pre každého samosatne. Neprítomnosť zadáte pomocou tlačidla "Aktuualizácia neprítomnosti". Zadanie je nezávislé na nastavenom období.  Môžete kľudne zadať neprítomnosť, ktorá začína v jednom mesiaci a končí v inom. Dôjde k automatickému vygenerovaniu "mesačných zložiek" pre každý mesiac zvlášť.  </desc>
+            <icon>win/aktualizace-mezd.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="perAktualMzdyE">
+            <titl>Aktualizácia miezd</titl>
+        </fi>
+        <fi name="perMzdCalcHlav">
+            <titl>Hlavička mzdovej kalkulačky</titl>
+        </fi>
+        <fi name="perMzdCalcInit">
+            <titl>Inicializačný riadok mzdovej kalkulačky</titl>
+        </fi>
+        <fi name="perMzdCalc">
+            <titl>Riadok mzdovej kalkulačky</titl>
+        </fi>
+        <fi name="perTypPracPomParam">
+            <titl>Parameter typu pracovného pomeru</titl>
+        </fi>
+        <fi name="perMzdCalcHrom">
+            <titl>Hromadná operácia mzdového kalkulátoru</titl>
+        </fi>
+        <fi name="perBanSpojMzdy">
+            <titl>Bankové spojenie</titl>
+        </fi>
+        <fi name="prehledZamestnancu">
+            <titl>Prehľad zamestnancov</titl>
+            <icon>win/adresar.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystup000">
+            <titl>Mzdové výstupy</titl>
+            <desc>Legislatívne mzdové výstupy pre SP, zdravotné poisťovne a daňové úrady.</desc>
+            <icon>win/predpis.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="mzdyVystOssz">
+            <titl>Pre OSSZ</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="mzdyVystZdrPoj">
+            <titl>Pre zdravotné poisťovne</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystFinUr">
+            <titl>Pre daňový úrad</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="mzdyVystMzdVyst">
+            <titl>Mzdové výstupy</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="mzdyVystOst">
+            <titl>Ostatné</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszPrehledPoj">
+            <titl>Prehľad o výške sociálneho poistného</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszOznam">
+            <titl>Oznámenie o nástupe do zamestnania/skončení</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszEldp">
+            <titl>ELDP</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="mzdyVystupCsszOzuspoj">
+            <titl>###Oznámení záměru uplatňovat slevu na pojistném za zaměstnance</titl>
+        </fi>
+        <fi name="mzdyVystupDanVypocet">
+            <titl>Výpočet dane a daňového zvýhodnenia</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="mzdyVystupPodklVyucDane">
+            <titl>Podklady pre vyúčtovanie dane z príjmu zo závislej činnosti</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="mzdyVystupMzdovyList">
+            <titl>Mzdové listy</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="mzdyVystupZapoctak">
+            <titl>Potvrdenie o zamestnaní (Zápočtový list)</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="prehledMzdSlozek">
+            <titl>Rekapitulácia mzdových zložiek</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystupPracPravPrum">
+            <titl>Pracovno právne priemery</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="mzdyVystupDovolCerpani">
+            <titl>Prehľad čerpania dovolenky</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="mzdyVystupPrehlPracPom">
+            <titl>Prehľad pracovných pomerov</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="mzdyVystupPrilZadosti">
+            <titl>Príloha k žiadosti o nemocenské, ...</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystupHzupn">
+            <titl>Hlásenie zamestnávateľa o ukončení prac. neschopnosti</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="mzdyVystupZdrHromOzn">
+            <titl>Hromadné oznámenie zamestnávateľa</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="mzdyVystupZdrPrehledPoj">
+            <titl>Prehľad o platbe poistného</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="mzdyVystupPojOdpovednosti">
+            <titl>Zákonné poistenie zodpovednosti</titl>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="mzdyVystupIspv">
+            <titl>ISPV</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="mzdyPotOZdanPrijmech">
+            <titl>Potvrdenie o zdaniteľných príjmoch</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="mzdyDuchSporHlaseni">
+            <titl>Poistné na dôchodkové sporenie</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="mzdyDuchSporVyuc">
+            <titl>Príspevky na dôchodkové sporenie</titl>
+            <mnem>205</mnem>
+        </fi>
+        <fi name="mzdyVystupPrepPocZam">
+            <titl>Prepočítaný počet zamestnancov</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="mzdyVystupPrumCistyVyd">
+            <titl>Výpočet priemerného čistého zárobku</titl>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="perMzdSlozFond">
+            <titl>Fond pracovnej doby</titl>
+        </fi>
+        <fi name="perMzdSlozNeprit">
+            <titl>Neprítomnosť</titl>
+        </fi>
+        <fi name="perMzdSlozZaklMzda">
+            <titl>Základná mzda</titl>
+        </fi>
+        <fi name="perMzdSlozOdmeny">
+            <titl>Odmeny</titl>
+        </fi>
+        <fi name="perMzdSlozDan">
+            <titl>Daň</titl>
+        </fi>
+        <fi name="perMzdSlozZdrPoj">
+            <titl>Zdravotné poistenie</titl>
+        </fi>
+        <fi name="perMzdSlozSocPoj">
+            <titl>Sociálne poistenie</titl>
+        </fi>
+        <fi name="perMzdSlozSrazky">
+            <titl>Zrážky</titl>
+        </fi>
+        <fi name="perMzdSlozSum">
+            <titl>Sumarizácia</titl>
+        </fi>
+        <fi name="perMzdSlozHruba">
+            <titl>Hrubá mzda</titl>
+        </fi>
+        <fi name="perMzdSlozIspv">
+            <titl>ISPV</titl>
+        </fi>
+        <fi name="perMzdSlozBenefity">
+            <titl>###Benefity</titl>
+        </fi>
+        <fi name="perMzdSlozPrispevky">
+            <titl>###Příspěvky</titl>
+        </fi>
+        <fi name="mzdExternalId">
+            <titl>Externý ID pre mzdy</titl>
+        </fi>
+        <fi name="mzdUcel">
+            <titl>Účely</titl>
+        </fi>
+    </formsInfo>
+</config>

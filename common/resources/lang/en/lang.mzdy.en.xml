@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/en/lang.mzdy.en.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <actions>
+        <act name="vypoctiMzdy">
+            <titl>Calculate wages</titl>
+            <desc>This will calculate wages for selected month</desc>
+            <icon>win/computation.png</icon>
+        </act>
+        <act name="generujZavazky">
+            <titl>Generate wage liabilities</titl>
+            <desc>This will generate wage liabilities for selected month</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="tiskVycetPlatidel">
+            <titl>Currency note specification wage statement</titl>
+            <desc>This will print Currency note wage statement for employee for cash payment.</desc>
+            <icon>win/platidlo.png</icon>
+        </act>
+        <act name="tiskExportVyplatnichPasek">
+            <titl>Payroll export</titl>
+            <desc>Exports pay slips to a defined directory</desc>
+            <icon>win/pdf.png</icon>
+        </act>
+        <act name="rekapitulaceSlozek">
+            <titl>Items summary</titl>
+            <desc></desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="aktualizaceNepritomnosti">
+            <titl>Update absences</titl>
+            <icon>win/aktualizuj-nepritomnost.png</icon>
+        </act>
+        <act name="prepoctiMzdu">
+            <titl>Recalculate wages</titl>
+            <icon>win/prepocti-mzdu.png</icon>
+        </act>
+        <act name="zrusVypocetMzdy">
+            <titl>Cancel wage calculation</titl>
+            <icon>win/erase.png</icon>
+        </act>
+        <act name="zapnoutProminutiSPFirma">
+            <titl>Activate social insurance waiver for the company</titl>
+        </act>
+        <act name="vypnoutProminutiSPFirma">
+            <titl>Deactivate social insurance waiver for the company</titl>
+        </act>
+        <act name="predvyplnitPrevedeneDovoleneHod">
+            <titl>Pre-fill the number of hours of transferred leave</titl>
+        </act>
+        <act name="predvyplnitDovoleneHod">
+            <titl>Pre-fill the number of hours of leave</titl>
+        </act>
+        <act name="zmenaCisMzdSlozAction">
+            <titl>###Změna číselníku mzdové složky</titl>
+        </act>
+        <act name="importXmlNeschopenka">
+            <titl>###Import eNeschopenky</titl>
+            <desc>###Importovat XML soubor eNeschopenky</desc>
+            <icon>win/xml-import.png</icon>
+        </act>
+    </actions>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <buttons>
+        <btn name="mzdyVystupSouborOutVyberOk">
+            <titl>Select</titl>
+        </btn>
+        <btn name="mzdyOsobaDetiOdpocVyber">
+            <titl>Select</titl>
+        </btn>
+        <btn name="mzdyVystupVytvoritAOtevritPdf">
+            <titl>Create and open PDF</titl>
+        </btn>
+        <btn name="mzdyVystupVytvoritTisk">
+            <titl>Print</titl>
+        </btn>
+        <btn name="mzdyVystupVytvoritTiskZalDan">
+            <titl>Print materials for advance tax</titl>
+        </btn>
+        <btn name="mzdyVystupVytvoritTiskSrazDan">
+            <titl>Print materials for withholding tax</titl>
+        </btn>
+        <btn name="mzdyVystupUlozitDoXml">
+            <titl>Save in XML format (data for electronic communication with CSSZ)</titl>
+        </btn>
+        <btn name="mzdyVystupUlozitDoXmlZalDan">
+            <titl>Advance tax - export to XML format</titl>
+        </btn>
+        <btn name="mzdyVystupUlozitDoXmlSrazDan">
+            <titl>Withholding tax - export to XML format</titl>
+        </btn>
+        <btn name="prehledMzdSlozSumStredisek">
+            <titl>Summation of cost centres</titl>
+        </btn>
+        <btn name="mzdyPlatiOdDoAdd">
+            <titl>Add settings</titl>
+        </btn>
+        <btn name="mzdyPlatiOdDoDelete">
+            <titl>Delete settings</titl>
+        </btn>
+        <btn name="mzdyVystupZamknoutPdf">
+            <titl>Disable modifications</titl>
+        </btn>
+        <btn name="mzdyVystupPotOZdanPrijmechZal">
+            <titl>Confirmation of advance tax</titl>
+        </btn>
+        <btn name="mzdyVystupPotOZdanPrijmechSraz">
+            <titl>Confirmation of the withholding tax</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOznameniAuto">
+            <titl>Automatically determine whether the starting or termination is involved</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOznameniNastup">
+            <titl>Notification of employment start</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOznameniKonec">
+            <titl>Notification of employment termination</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOzuspojAuto">
+            <titl>###Automaticky určit zda se jedná o uplatnění či ukončení záměru</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOzuspojNastup">
+            <titl>###Uplatnění záměru</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOzuspojKonec">
+            <titl>###Skončení záměru</titl>
+        </btn>
+        <btn name="mzdyVystupCsszOzuspojStorno">
+            <titl>###Storno záměru</titl>
+        </btn>
+        <btn name="mzdyVystupRadneHlaseni">
+            <titl>Regular reporting</titl>
+        </btn>
+        <btn name="mzdyVystupOpravneHlaseni">
+            <titl>Corrective reporting</titl>
+        </btn>
+        <btn name="mzdyVystupNasledneHlaseni">
+            <titl>Subsequent reporting</titl>
+        </btn>
+        <btn name="mzdyVystupRadneVyuc">
+            <titl>Regular settlement</titl>
+        </btn>
+        <btn name="mzdyVystupOpravneVyuc">
+            <titl>Corrective settlement</titl>
+        </btn>
+        <btn name="mzdyVystupDodatecneVyuc">
+            <titl>Additional settlement</titl>
+        </btn>
+        <btn name="mzdyVystupDodatecneOpravneVyuc">
+            <titl>Additional corrective settlement</titl>
+        </btn>
+        <btn name="zmenaCisSlozZamcene">
+            <titl>###chci změnit i složky v zamčeném období</titl>
+        </btn>
+        <btn name="zmenaCisSlozBezZamceneho">
+            <titl>###nechci změnit složky v zamčeném období</titl>
+        </btn>
+    </buttons>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="mzdyVystupSouborOutVyber">
+            <titl>Select file to save</titl>
+        </dlg>
+        <dlg name="mzdyVypocetVyberMesice">
+            <titl>Select month(s) for calculation of wages</titl>
+        </dlg>
+        <dlg name="mzdyGeneraceZavVyberMesice">
+            <titl>Select month(s) for generation of wage obligations</titl>
+        </dlg>
+        <dlg name="mzdyOsobaDetiOdpoc">
+            <titl>Children selection for deduction</titl>
+        </dlg>
+        <dlg name="zdrPojGenerovaniTitle">
+            <titl>Health insurance overview</titl>
+        </dlg>
+        <dlg name="zdrPojHromadneOzn">
+            <titl>Health insurance fund statement - multiple</titl>
+        </dlg>
+        <dlg name="potOZdanPrijmechTitle">
+            <titl>Confirmation of taxable wages</titl>
+        </dlg>
+        <dlg name="mzdyVycetPlatidelVyberMesice">
+            <titl>Select parameters for bank wage statement printout</titl>
+        </dlg>
+        <dlg name="prehledMzdSlozek">
+            <titl>Overview of wages</titl>
+        </dlg>
+        <dlg name="prilohaZadostiForm">
+            <titl>Application supplement</titl>
+        </dlg>
+        <dlg name="hzupnForm">
+            <titl>Report of the employer on termination of incapacity for work</titl>
+        </dlg>
+        <dlg name="zmenaCiselnikuSlozky.title">
+            <titl>###Změna číselníku mzdových složek</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="osobaDuplicitniOsbCis">
+            <titl>Select another employee number - No. '%p' has already been used.</titl>
+        </msg>
+        <msg name="osobaZdravPojPovinne">
+            <titl>Employee health insurance is obligatory.</titl>
+        </msg>
+        <msg name="osobaZdravPojNevyplneno">
+            <titl>Employee's health insurance information has not been provided.</titl>
+        </msg>
+        <msg name="osobaRodCisNevyplneno">
+            <titl>Employee's birth number has not been provided, it will not be displayed in any outputs.</titl>
+        </msg>
+        <msg name="osobaZpusPlatbyPovinne">
+            <titl>Employee payment method is obligatory.</titl>
+        </msg>
+        <msg name="osobaStatObcanPovinne">
+            <titl>Employee citizenship is obligatory.</titl>
+        </msg>
+        <msg name="osobaDatNarozPovinne">
+            <titl>Employee day of birth is obligatory.</titl>
+        </msg>
+        <msg name="osobaRodCisPovinne">
+            <titl>Employee birth identification number is obligatory.</titl>
+        </msg>
+        <msg name="osobaRodCisDatNarozPovinne">
+            <titl>Employee birth identification number and day of birth are obligatory.</titl>
+        </msg>
+        <msg name="osobaJmenoPrijmeniPovinne">
+            <titl>Employee first name and surname are obligatory.</titl>
+        </msg>
+        <msg name="osobaRodnePrijmeniPovinne">
+            <titl>Person %p does not have a given surname.</titl>
+        </msg>
+        <msg name="osobaStaleMzdoveSlozkyPrazdne">
+            <titl>Permanent wage information components are missing.</titl>
+        </msg>
+        <msg name="osobaSlevyNaDaniPrazdne">
+            <titl>Tax deductions information is missing.</titl>
+        </msg>
+        <msg name="osobaDiteViceOdpoctu">
+            <titl>Child '%p' is selected in more places for tax deduction.</titl>
+        </msg>
+        <msg name="pracPomAktivniOdPovinne">
+            <titl>Labour engagement field 'Active from' is missing.</titl>
+        </msg>
+        <msg name="mzdyVystupPracPomKonecPomeru">
+            <titl>Labour engagement field 'End ratio' is missing.</titl>
+        </msg>
+        <msg name="mzdyVystupPracPomPolePovinne">
+            <titl>###U pracovního poměru musí být vyplněno pole '%p'.</titl>
+        </msg>
+        <msg name="mzdyVystupChybaNacitaniDuchodu">
+            <titl>Error occurred while loading pension information from database.</titl>
+        </msg>
+        <msg name="pracPomUvazHodDnuZacPracDobyPovinne">
+            <titl>Labor engagement hours daily, days weekly and work start missing.</titl>
+        </msg>
+        <msg name="pracPomSlevaSpFirmaDuvodPovinny">
+            <titl>###Je-li uplatňována sleva SP za firmu, musí být vyplněn důvod uplatnění slevy.</titl>
+        </msg>
+        <msg name="pracPomSlevaSpFirmaOdPovinny">
+            <titl>###Je-li uplatňována sleva SP za firmu, musí být vyplněn datum začátku uplatňování slevy.</titl>
+        </msg>
+        <msg name="pracPomSlevaSpFirmaUplatnujeVicePomu">
+            <titl>###V období platnosti aktuálního pracovního poměru je více poměrů, kde je uplatňována sleva na SP za firmu.</titl>
+        </msg>
+        <msg name="pracPomSlevaSpFirmaUvazHodTydne">
+            <titl>###Slevu na SP za firmu lze uplatnit jen, pokud je týdenní rozsah úvazků standardních pracovních poměrů v rozsahu 8 - 30 hodin.</titl>
+        </msg>
+        <msg name="pracPomInitSlozkyPrazdne">
+            <titl>Initialization files information is missing.</titl>
+        </msg>
+        <msg name="pracPomNepravNulujSmeny">
+            <titl>Work shifts used to be regular and now isn't. Do you wish reset work shifts to regular?</titl>
+        </msg>
+        <msg name="pracPomZkraceniPomeru">
+            <titl>Warning! Shortening the duration of the labour engagement does not delete already-generated accounting transactions.</titl>
+        </msg>
+        <msg name="mzdyVystupNeniAdrSocPoj2">
+            <titl>Bank connection for social insurance were not entered. To add bank connection you have to edit OSSZ files \in the Settings -&gt; Modules -&gt; Employees -&gt; Insurance -&gt; Address and bank connection.</titl>
+        </msg>
+        <msg name="mzdyVystupSlevaSpPriVypnuti">
+            <titl>###Přestože mají následující osoby u svých pracovních poměrů vypnutou slevu SP za firmu,\nbyla jim vypočtena. Jedná se o pracovní poměry těchto osob:\n%p</titl>
+        </msg>
+        <msg name="mzdyVystupNeniVsSocPoj">
+            <titl>No variable symbol is entered for the bank account information for social insurance. Adjust the bank account information by editing the District Social Security Administration record /nspecified in Settings -&gt; Modules -&gt; Employees -&gt; Insurance -&gt; Address and bank account information.</titl>
+        </msg>
+        <msg name="mzdyVystupSouborChyba">
+            <titl>Error during file saving.</titl>
+        </msg>
+        <msg name="mzdyVystupSouborPovinny">
+            <titl>Please enter path to destination file.</titl>
+        </msg>
+        <msg name="mzdyVystupNeexistujeHozForm">
+            <titl>###Pro pojištovnu %p neexistuje formulář pro hromadné oznámení zaměstnavateli.</titl>
+        </msg>
+        <msg name="mzdyVystupNeexistujePovpForm">
+            <titl>###Pro pojištovnu %p neexistuje formulář pro přehled o platbě pojistného zaměstnavatele.</titl>
+        </msg>
+        <msg name="mzdyVystupRokPovinny">
+            <titl>###Musíte zadat rok.</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOsobaNemaDuvodUkonceniCssz">
+            <titl>Person %p does not have a selected Reason for termination of PP for CSSA.</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOnzNeuplnaAdresa">
+            <titl>###Adresa %p nemá vyplněny všechny údaje (je-li vyplněna ulice, jsou všechny údaje adresy povinné).</titl>
+        </msg>
+        <msg name="adrTrvPobytu">
+            <titl>###trvalého pobytu</titl>
+        </msg>
+        <msg name="adrVCr">
+            <titl>###pobytu v ČR</titl>
+        </msg>
+        <msg name="kontaktAdr">
+            <titl>###kontaktní</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOnzDruhCinnostiMalyRozsah">
+            <titl>###Jedná-li se o zaměstnání malého rozsahu, nesmí být druhem pracovního poměru DPP.</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOsobaNemaDatumDuchoduOd">
+            <titl>Person %p has the Pension type field filled in, but does not have the Pension from field filled in.</titl>
+        </msg>
+        <msg name="mzdyVystupCsszOsobaNemaValidniDatumDuchoduOd">
+            <titl>For person %p, the Pension from field is incorrectly filled in, the date must be greater than or equal to the date of birth and less than or equal to the date the report was created.</titl>
+        </msg>
+        <msg name="mzdyNepritomnostCisloRozhodnutiNevalidni">
+            <titl>Decision number is invalid. Decision number contains 18 digits (for electronic sick leave forms) or a letter and 6-7 digits (for paper sick leave forms)</titl>
+        </msg>
+        <msg name="mzdyVystupOsobaPovinna">
+            <titl>Please enter person.</titl>
+        </msg>
+        <msg name="mzdyVystupPracPomPovinny">
+            <titl>Employment is mandatory.</titl>
+        </msg>
+        <msg name="mzdyVystupNepritomnostPovinna">
+            <titl>Absence is mandatory.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnCisPotvrzeniPovinne">
+            <titl>If it is not a foreign certificate, the DPN decision number is mandatory.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnDatNavratPovinny">
+            <titl>If it is a return to work, the return date must be completed.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnDuvodNenavradDoPracePovinny">
+            <titl>If it is not a return to work, it must be completed why the employee did not start work.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnDuvodNenavradDoPraceMaxDelka">
+            <titl>The reason why the employee did not start work can be up to 200 characters long.</titl>
+        </msg>
+        <msg name="mzdyVystupOzuspojNeniOssz">
+            <titl>###U sociálního pojištění není v nastavení firmy platném k %p zadána OSSZ.\nOSSZ přidáte v Nastavení -&gt; Moduly -&gt; Zaměstnanci -&gt; Pojištění -&gt; Adresa a bankovní spojení.</titl>
+        </msg>
+        <msg name="mzdyVystupOzuspojNeniOsszBanSpoj">
+            <titl>###U sociálního pojištění není v nastavení firmy platném k %p zadáno bankovní spojení pro OSSZ.\nBankovní spojení přidáte editací záznamu OSSZ\nuvedené v Nastavení -&gt; Moduly -&gt; Zaměstnanci -&gt; Pojištění -&gt; Adresa a bankovní spojení.</titl>
+        </msg>
+        <msg name="mzdyVystupOzuspojNeniOsszKod">
+            <titl>###U sociálního pojištění není v nastavení firmy platném k %p zadán kód pro tisky pro OSSZ.\nKód pro tisky přidáte editací záznamu OSSZ\nuvedené v Nastavení -&gt; Moduly -&gt; Zaměstnanci -&gt; Pojištění -&gt; Adresa a bankovní spojení.</titl>
+        </msg>
+        <msg name="hzupnPracDobaHodPoslDenToolTip">
+            <titl>Length of shift last day of incapacity for work. Can be changed on the Employees tab.</titl>
+        </msg>
+        <msg name="hzupnZadnaNepritomnost">
+            <titl>No absence was found.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnPovinnyDatVyst">
+            <titl>Reporting date is mandatory.</titl>
+        </msg>
+        <msg name="mzdyVystupHzupnNenalezenaZadnaNepritomnost">
+            <titl>In the current accounting period, no absence is entered for the selected employment relationship of the selected employee.</titl>
+        </msg>
+        <msg name="mzdyVystupOpravaEldpDatumPovinne">
+            <titl>You must enter the date of the ELDP (Entry Sheet of Pension Insurance) that you are amending.</titl>
+        </msg>
+        <msg name="mzdyVystupOsobaPovinnaVyplnit">
+            <titl>###Musíte vyplnit osobu.</titl>
+        </msg>
+        <msg name="mzdyVystupNevybranyOsoby">
+            <titl>Please enter at least one person.</titl>
+        </msg>
+        <msg name="mzdyVystupNahrProcZaPoj">
+            <titl>Use the '%' symbol in the file-path to replace date and code of corresponding health insurance fund.</titl>
+        </msg>
+        <msg name="mzdyVystupNarokNaBonus">
+            <titl>Verify whether there is entitlement to payout of bonuses. The minimum income necessary for application of bonuses was not achieved.</titl>
+        </msg>
+        <msg name="mzdyVystupExportUspech">
+            <titl>Overview was exported successfully.</titl>
+        </msg>
+        <msg name="mzdyVystupExportUspechVice">
+            <titl>###Přehledy (%p) byly úspěšně vyexportovány.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniZpusobPlatby">
+            <titl>No payment method specified for employee %p.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniCUctu">
+            <titl>No account number specified for employee %p.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniUcet">
+            <titl>No bank account specified for employee %p.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniKodBanky">
+            <titl>Bank code is not specified for employee account %p.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniIban">
+            <titl>IBAN is not specified for employee's foreign account %p.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniStat">
+            <titl>State is not specified for employee's %p foreign account.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniAdresaObec">
+            <titl>The payroll address municipality is not specified for employee address %p.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniAdresaUlice">
+            <titl>Payroll Address Street is not specified for Employee Address %p.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaNeniAdresaPsc">
+            <titl>Employee's %p address does not have a paycode address.</titl>
+        </msg>
+        <msg name="mzdyVystupPrilohaChybaZpusobPlatby">
+            <titl>Unknown form of payment for %p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavJizExistuji">
+            <titl>Liability or internal transactions already exist for the selected period.\nDo you want to delete them?</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavZamceno">
+            <titl>Generation of liabilities cannot be executed because selected period is locked.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavOsobaNemaPojistovnu">
+            <titl>Health insurance fund information is missing for person %p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavOsobaNemaZadanoPoleNaPomeru">
+            <titl>Person %p does not have entered field '%p' for employment %p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavOsobaNemaStatObcan">
+            <titl>Citizenship is missing for person %p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavOsobaNemaStredisko">
+            <titl>Centre is missing for person %p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavNastaveniNevyplneneTd">
+            <titl>One or more document types required for generation of liability transactions are missing in company settings.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavTdNemaRadu">
+            <titl>Document row has not been selected for document type '%p'.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavSmazatPrikazChyba">
+            <titl>Liability(ies) cannot be deleted because it' is already linked to a payment instruction.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavProgressInfo">
+            <titl>Generating liability transactions ...</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavPraceStredPrekrocenaDoba">
+            <titl>Cost centre/project/activity of working time fund exceeded for employee '%p'.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavNeniVypocteno">
+            <titl>In the selected month, the wages have not been calculated for the following persons:</titl>
+        </msg>
+        <msg name="mzdyneniVypocteno">
+            <titl>Wage is not calculated %p/%p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceNeniEmail">
+            <titl>Email address is not entered.</titl>
+        </msg>
+        <msg name="mzdyNejsouZaznamy">
+            <titl>There are no wages for the specified filter.</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavNeniFiltr">
+            <titl>The wage selection filter is not filled.</titl>
+        </msg>
+        <msg name="mzdyOsobaChybiHeslo">
+            <titl>Password not filled.</titl>
+        </msg>
+        <msg name="mzdyOdeslaniOk">
+            <titl>Payslips for selection '%p' have been included for shipment. Total to send: %p.</titl>
+        </msg>
+        <msg name="mzdyGeneraceIntNastaveniNevyplneneTd">
+            <titl>Required internal document type not found for some labour engagements.\nSearch order: Labour engagement, Group of persons, Settings</titl>
+        </msg>
+        <msg name="mzdyGeneraceZavNeniMzda">
+            <titl>No wage information in selected wage period.</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolUvod">
+            <titl>The %p of components with leave transfer was found in the calculated wages for January 2021.</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolNastavenoPocet">
+            <titl>The number of hours of leave has been set for the leave transfer components of the following persons - employment relationships:</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolNastavenoNic">
+            <titl>No leave transfer folder was found that could be updated.</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolNenastavenoPocet">
+            <titl>The leave transfer components of the following persons - employment relationships have NOT been set to the number of hours of leave:</titl>
+        </msg>
+        <msg name="mzdyDoplneniHodDovolNenastavenoNic">
+            <titl>No leave transfer folder was found that could NOT be updated.</titl>
+        </msg>
+        <msg name="nepodariloSeNacistMzdoveSlozky">
+            <titl>Error during reading of wage components.</titl>
+        </msg>
+        <msg name="mzdyVystupyNepodariloSeNacistRoky">
+            <titl>###Nepodařilo se načíst roky.</titl>
+        </msg>
+        <msg name="nepodariloSeNacistNeukonceneStdPP">
+            <titl>Failed to load non-termination of standard employment.</titl>
+        </msg>
+        <msg name="nepodariloSeNacistSumuUvazku">
+            <titl>###Nepodařilo se načíst sumu úvazků.</titl>
+        </msg>
+        <msg name="nepodariloSeNacistPocetPPSlevaSPFirma">
+            <titl>###Nepodařilo se načíst počet pracovních poměrů se slevou na SP za firmu.</titl>
+        </msg>
+        <msg name="mzdovyListSeNepodaril">
+            <titl>Error during processing of earning records data.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyZmeneno">
+            <titl>###Složky byly úspěšně přenastaveny.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyChybaZmeny">
+            <titl>###Složky se nepodařilo změnit.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyZadnaOsoba">
+            <titl>###Nebyla nalezena žádná osoba, u které by šlo přenastavit složku.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyChybiPuvodniSlozka">
+            <titl>###Musíte vybrat původní složku.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyChybiNovaSlozka">
+            <titl>###Musíte vybrat novou složku.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyChybiVyberZamcene">
+            <titl>###Musíte vybrat, jestli se mají změnit i složky v zamčeném období.</titl>
+        </msg>
+        <msg name="zmenaCiselnikuSlozkyZamceneObdobi">
+            <titl>###Ve zvoleném období existují zamčené mzdy.\nPřejete si pokračovat?</titl>
+        </msg>
+        <msg name="mzdyVystupNelzeNacistMzdyZDB">
+            <titl>Error during reading of wages form database.</titl>
+        </msg>
+        <msg name="mzdyVystupNelzeNacistOsobyZDB">
+            <titl>Error during reading of persons form database.</titl>
+        </msg>
+        <msg name="mzdyVystupNelzeNacistNastOsobDB">
+            <titl>Error during reading of person's settings history.</titl>
+        </msg>
+        <msg name="mzdyVypocetZamceno">
+            <titl>Wages calculation cannot be executed because selected period is locked.</titl>
+        </msg>
+        <msg name="mzdyNepritomnostZamceno">
+            <titl>Impossible to save information about absence %p, it would influence wages in locked period.</titl>
+        </msg>
+        <msg name="mzdyNepritomnostNevypocteneMzdy">
+            <titl>Saving the absence %p is not possible, because at the time of absence uncalculated wages exist in the locked period.</titl>
+        </msg>
+        <msg name="mzdyPrekrizeniDatumu">
+            <titl>Date of separation cannot preceed date of initiation.</titl>
+        </msg>
+        <msg name="mzdyHodinyXNeniDatumDo">
+            <titl>Date of termination must be completed.</titl>
+        </msg>
+        <msg name="mzdyUlozVyplatniPaskyNejsouData">
+            <titl>No data are available for export of pay slips.</titl>
+        </msg>
+        <msg name="mzdyUlozVyplatniPaskyUspech">
+            <titl>The pay slips have been exported successfully.</titl>
+        </msg>
+        <msg name="mzdyUlozVyplatniPaskyChyba">
+            <titl>The pay slips could not be exported.</titl>
+        </msg>
+        <msg name="mzdyUlozVyplatniPaskyProbiha">
+            <titl>Exporting pay slips</titl>
+        </msg>
+        <msg name="mzdyNepritomnostExistJina">
+            <titl>Information about absence %p already entered in the selected absence %p period.</titl>
+        </msg>
+        <msg name="mzdyOsobaNastaveniNeni">
+            <titl>There is no setting for person %p.</titl>
+        </msg>
+        <msg name="mzdyOsobaNastaveniVice">
+            <titl>There are multiple settings for person %p.</titl>
+        </msg>
+        <msg name="mzdyZamekTestChyba">
+            <titl>Error when verifying locks of wages.</titl>
+        </msg>
+        <msg name="mzdyUlozeniZamceno">
+            <titl>Saving isn't possible, it would influence wages in locked period %p/%p.</titl>
+        </msg>
+        <msg name="mzdyVystupDBChybaOsoba">
+            <titl>Error during reading list of persons from database.</titl>
+        </msg>
+        <msg name="mzdyVystupDBChybaNeprit">
+            <titl>Error finding absence.</titl>
+        </msg>
+        <msg name="mzdyVystupZdrPrehledNeniZdrPoj">
+            <titl>Health insurance fund must be entered in person %p.</titl>
+        </msg>
+        <msg name="mzdyVystupVsePovinne">
+            <titl>Please fill in all data.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoNovePlatneOd">
+            <titl>Create setting valid from:</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoNelzeSmazatJedine">
+            <titl>Impossible to delete only existing setting.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoPrvniNeomezena">
+            <titl>The first setting created for the personal number '%p' must have unlimited validity.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoOpravduSmazat">
+            <titl>Do you really want to delete current setting?</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoNotConsistent">
+            <titl>The setting periods do not form a continuous chronological series.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoSingleDeleteNotPossible">
+            <titl>You cannot delete a single existing setting for '%p'.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdDoNotChangeAble">
+            <titl>You cannot change the validity if the change affects a setting other than the previous setting.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdNelzeZmenit">
+            <titl>The value of the start of validity of an existing setting cannot be changed anymore.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdExists">
+            <titl>A setting with the same start date already exists.</titl>
+        </msg>
+        <msg name="mzdyPlatiOdPrvniho">
+            <titl>###Nastavení by mělo být platné od 1. dne v měsíci. Výpočet mezd používá nastavení, které je platné k 1. dni v měsíci. Změna v průběhu měsíce se neprojeví ve výpočtu mezd a ve mzdových výstupech."</titl>
+        </msg>
+        <msg name="mzdyVypocetNeniKalkulacka">
+            <titl>No wages calculation rule for selected period %p.</titl>
+        </msg>
+        <msg name="mzdyVypocetNemocProplatVarov">
+            <titl>Check period of sickness-benefit compensation payment before calculation.</titl>
+        </msg>
+        <msg name="mzdyVypocetNastaveniDetiVarov">
+            <titl>If the employee applies tax advantages for children,\nit is necessary to carry out new configuration, so that the deduction occurs in accordance with valid legislation.</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24">
+            <titl>###Ve mzdách pro %p/%p jsou zadány složky, které byly od roku 2024 nahrazeny novými.\nV případě, že jsou složky zadány ve srážkách je třeba jim ukončit platnost ke konci předchozího měsíce a nové složky zadat ve stálých mzdových složkách.\n\nNalezeny byly tyto složky:\n</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24Slozka">
+            <titl>###- %p - nahrazena složkou %p\n</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24PenPojZamZrusena">
+            <titl>###- %p - rozdělena na: PENZIJ. POJ. DOPLŇ., PENZIJ. POJ. INST., PENZIJ.POJ.STAT\n</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24PenPojZrusena">
+            <titl>###- %p - rozdělena na: PŘÍSP.PEN.POJ.DOPLŇ, PŘÍSP.PEN.POJ.INSTIT, PŘÍSP.PEN.POJ.STAT\n</titl>
+        </msg>
+        <msg name="mzdyVypocetExistsSlozkyUkoncene24PenPojProcZrusena">
+            <titl>###- %p - rozdělena na: PŘÍSP.PEN.POJ.DOPL.%, PŘÍSP.PEN.POJ.INST.%, PŘÍSP.PEN.POJ.STAT %\n</titl>
+        </msg>
+        <msg name="mzdyVypocetUpozorneniZapnutiProminutiSPFirma">
+            <titl>For the period of &lt;i&gt;June - August 2020&lt;/i&gt; it is possible, if the legal conditions are met, to use the &lt;b&gt;social insurance waiver for the company&lt;/b&gt;.\n The waiver must be activated prior to wage calculation by selecting the "%p" option in the settings for individual types of employment effective from 1 June 2020 (or later).\nP It may also be activated in bulk for all standard types of employees using a service in Human Resources.\n\nContinue with the wage calculation?</titl>
+        </msg>
+        <msg name="mzdyVypocetUpozorneniVypnutiProminutiSPFirma">
+            <titl>For the period of &lt;i&gt;čJune - August 2020&lt;/i&gt; it is possible, if the legal conditions are met, to use the &lt;b&gt;social insurance waiver for the company&lt;/b&gt;.\nIf the waiver was activated in the employment settings, it must be deactivated by 1 September 2020 at the latest. It may be deactivated using a bulk service in Human Resources.\n\nContinue with wage calculation?</titl>
+        </msg>
+        <msg name="mzdyVypocetNastaveniDruhyPilirVarov">
+            <titl>In view of the cancellation of pillar II as at 1/1/2016 it is necessary for employees who have been participants in pillar II to add in the HR section new employee settings and to cancel pillar II (HR - Wage parameters - Social insurance - Participant in retirement savings).\n\nContinuation will lead to an erroneous calculation of social insurance.</titl>
+        </msg>
+        <msg name="mzdyVypocetInfoOdmenyPrepocet">
+            <titl>Wage components with an impact on PPP calculation were updated.\nIf you used multi-month remuneration during the previous year and you have calculated wages in the current year, calculate for the correct PPP wage.</titl>
+        </msg>
+        <msg name="mzdyVypocetDovolena2021Info">
+            <titl>To calculate the holiday in 2021 correctly, you need to set the number of holiday hours on the employment relationship in HR.\nYou can use the new service "Pre-fill holiday hours" and then use the payroll calculation in Payroll Update.\nIn case of transferring holiday from the previous year, you need to add a folder "Transfer of holiday from 2020 to 2021" in January \nand fill in the hours and select that it is a user time change.\nTo add this folder you can use the service "Pre-fill the number of hours of transferred leave" in Payroll Update.\nAfter adding this folder you need to recalculate the payroll.\nWhen calculating the pay for January we recommend to check the hours in the field "Remaining leave"\n, "Transfer of leave from last year" and "Transfer of leave from 2020 to 2021".</titl>
+        </msg>
+        <msg name="mzdyVypocetLicenceNespocteno">
+            <titl>Wages for %p of people were not calculated.\nLicence permits wages calculation for maximum %p persons monthly.</titl>
+        </msg>
+        <msg name="mzdyVypocetJedneLicenceNespocteno">
+            <titl>Licence permits wages calculation for maximum %p persons monthly.</titl>
+        </msg>
+        <msg name="mzdyVypocetMimoUcetniObdobi">
+            <titl>It is not possible to calculate wages outside the currently established accounting period. You must first create a new accounting period.</titl>
+        </msg>
+        <msg name="mzdyVypocetProgressInfo">
+            <titl>Wages are being calculated...</titl>
+        </msg>
+        <msg name="mzdyVypocetDovolenaZaporna">
+            <titl>After the calculation of wages, the remaining leave entitlement is negative.</titl>
+        </msg>
+        <msg name="mzdyVypocetDovoleneZaporne">
+            <titl>For the following persons, the remaining leave entitlement turned out negative:</titl>
+        </msg>
+        <msg name="mzdyVypocetPracujeVic">
+            <titl>The employee has exceeded the defined limit of hours worked.</titl>
+        </msg>
+        <msg name="mzdyVypocetPracujouVic">
+            <titl>The following persons have exceeded the defined limit of hours worked:</titl>
+        </msg>
+        <msg name="mzdyVystupDanVypocetPresMax">
+            <titl>Maximum permitted value for this row is %p.\nRequested value has been overridden.</titl>
+        </msg>
+        <msg name="mzdyVystupNevytvariOznameni">
+            <titl>No notice is generated for this type of labour engagement.</titl>
+        </msg>
+        <msg name="pracPomPrekryvKoncu">
+            <titl>Separation date for labour engagement cannot be later than "active to" date.</titl>
+        </msg>
+        <msg name="pracPomDatumNesmiPredchazet">
+            <titl>###Datum '%p' pracovního poměru nesmí předcházet datu '%p'.</titl>
+        </msg>
+        <msg name="pracPomSkutecnyNastupNevyplneneKdyzZacatek">
+            <titl>###Pokud je vyplněné datum %p, musí být vyplněné i datum %p.</titl>
+        </msg>
+        <msg name="pracPomSkutecnyNastupMesicPoZacatek">
+            <titl>###Datum %p je déle než měsíc po začátku pracovního poměru.</titl>
+        </msg>
+        <msg name="pracPomSkutecnyNastupPouzitiInfo">
+            <titl>###Změnou data '%p' ovlivníte výstupy pro ČSSZ (Oznámení o nástupu, Příloha k žádosti o nemoc, ELDP)\na odvozují se od něj Dny a Vyloučené doby ve formulářích ELDP a Příloha k žádosti o nemoc.</titl>
+        </msg>
+        <msg name="zrusVypocetMzdy.uzivZmeny">
+            <titl>Cancel user changes?</titl>
+        </msg>
+        <msg name="praceStredObdobiMocProcent">
+            <titl>In one or more periods more than 100% of the work time fund has been allocated.</titl>
+        </msg>
+        <msg name="mzdyVystupPrepPocZamNeniUvazek">
+            <titl>It is necessary to have for all employees a completed weekly work period at least on one of the following locations:\nEmployment, Group of persons,  Company settings</titl>
+        </msg>
+        <msg name="mzdyVystupPrepPocZamNeniNastaveniOsoby">
+            <titl>Employee '%p' does not have a person setting valid for %p.</titl>
+        </msg>
+        <msg name="mzdyNeukoncenaNepritomnost">
+            <titl>Employee '%p' has unfinished absence, but the employee’s employment has already been terminated.</titl>
+        </msg>
+        <msg name="mzdyChybnyPocetMesOdmeny">
+            <titl>Remuneration can only be entered for 6 or 12 months.</titl>
+        </msg>
+        <msg name="mzdyProcVozuNeniCeleCislo">
+            <titl>% of the car must be an integer.</titl>
+        </msg>
+        <msg name="mzdyCastMzdStravenkyNeniCeleCislo">
+            <titl>###Hodnota stravenky musí být celé číslo.</titl>
+        </msg>
+        <msg name="mzdyPreSavePlatnostCisNepritZac">
+            <titl>Start of absence %p is before the reason for the absence began (%p).</titl>
+        </msg>
+        <msg name="mzdyPreSavePlatnostCisNepritKonec">
+            <titl>End of absence %p is after the reason for the absence ended (%p).</titl>
+        </msg>
+        <msg name="prominutiSPWizard.zapnoutPro">
+            <titl>Select the effective month &lt;b&gt;nand standard types of employment to activate the&lt;/b&gt; social insurance waiver for the company.\nIf there is a change, a new employment setting will be created on the 1st day of the selected month: </titl>
+        </msg>
+        <msg name="prominutiSPWizard.vypnoutPro">
+            <titl>Select the effective month &lt;b&gt;nand all types of employment to activate the&lt;/b&gt; social insurance waiver for the company.\nIf there is a change, a new employment setting will be created on the 1st day of the selected month: </titl>
+        </msg>
+        <msg name="prominutiSPWizard.zapnoutProHeader">
+            <titl>Activating the social insurance waiver for the company</titl>
+        </msg>
+        <msg name="prominutiSPWizard.vypnoutProHeader">
+            <titl>Deactivating the social insurance waiver for the company</titl>
+        </msg>
+        <msg name="prominutiSPWizard.infoZapnuto">
+            <titl>New %p employment settings created, %p social insurance waiver for the company was activated for defined types of employment.</titl>
+        </msg>
+        <msg name="prominutiSPWizard.infoVypnuto">
+            <titl>New %p employment settings created, %p social insurance waiver for the company was deactivated for defined types of employment.</titl>
+        </msg>
+        <msg name="predvyplneniHodDovolPocetInfo">
+            <titl>The number of hours of leave per year has been added to %p of employment relationships.</titl>
+        </msg>
+        <msg name="predvyplneniHodDovolZadnyPPInfo">
+            <titl>No active employment was found where the number of hours of leave could be pre-filled.</titl>
+        </msg>
+        <msg name="mzdyNeniPracPomDatum">
+            <titl>For the selected date %p no employment exists %p for the employee.</titl>
+        </msg>
+        <msg name="konrolaMzdovychSlozekUkoncitProcesDotaz">
+            <titl>Do you really want to end the ongoing wage component check?</titl>
+        </msg>
+        <msg name="konrolaMzdovychSlozekProbiha">
+            <titl>Wage component check running...</titl>
+        </msg>
+        <msg name="mzdyKontrolaUvod">
+            <titl>It was determined when checking the wage components that the multi-month remuneration breakdown auxiliary component was not completed in the following cases. This component has an impact on PPP for the following quarter.\n\nPersonal number: months in which the component is not\n</titl>
+        </msg>
+        <msg name="mzdyKontrolaKonec">
+            <titl>Want to add this element to the above-specified months?\nAdding the element has an impact on the employment law average calculation. After the recalculation of wages in the following periods, wage amounts where the employment law average was used may change.</titl>
+        </msg>
+        <msg name="mzdyKontrolaChyba">
+            <titl>Check of wage components failed.</titl>
+        </msg>
+        <msg name="mzdyKontrolaNicNenalezeno">
+            <titl>No wage components to be corrected where identified in the wage component check.</titl>
+        </msg>
+        <msg name="mzdyKontrolaOpraveno">
+            <titl>Wage components were added.</titl>
+        </msg>
+        <msg name="mzdyMzdSlozPrispevekIzolackaKladna">
+            <titl>The contribution to quarantine (isolation) is entered as a positive value.</titl>
+        </msg>
+        <msg name="mzdyGenerovaniZavazkuOsobaCastka">
+            <titl>Person: %p, Amount: %p</titl>
+        </msg>
+        <msg name="prehledSlevaSpChybejiciSlozky">
+            <titl>###Pro rok %p, mesic %p, osobu %p neexistuje současně složka SLEVA_SP_FIRMA_KR a složka SLEVA_SP_FIRMA_KR_A_N.</titl>
+        </msg>
+        <msg name="vyzadovanPracovniPomer">
+            <titl>The %p component requires a working ratio as it is not common to all.</titl>
+        </msg>
+        <msg name="vyzadovanaNepritomnost">
+            <titl>Absence is required for the %p component.</titl>
+        </msg>
+        <msg name="zruseniVyzadovanyProperty">
+            <titl>When cancelling the payroll calculation, %p and %p must be entered.</titl>
+        </msg>
+        <msg name="vypocetVyzadovanyProperty">
+            <titl>When calculating wages, %p and %p must be entered.</titl>
+        </msg>
+        <msg name="osobaJinaNezNaPracPomeru">
+            <titl>A defined person (%p: %p %p) is different from a person of employment (%p: %p %p).</titl>
+        </msg>
+        <msg name="importNeschopenkaJinaOsoba">
+            <titl>###Importovaná data eNeschopenky přísluší osobě '%p.'</titl>
+        </msg>
+        <msg name="mzdyVystupPrijmyZamSoubor">
+            <titl>receipts</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="osobaOstatniPN">
+            <titl>Other</titl>
+        </lb>
+        <lb name="osobaNezaopParPN">
+            <titl>Unprovided partner</titl>
+        </lb>
+        <lb name="osobaAdresaPN">
+            <titl>Address</titl>
+        </lb>
+        <lb name="osobaMzdyPN">
+            <titl>Wages</titl>
+        </lb>
+        <lb name="osobaStitkyPN">
+            <titl>Labels and notes</titl>
+        </lb>
+        <lb name="osobaAdrTrvalaPN">
+            <titl>Permanent</titl>
+        </lb>
+        <lb name="osobaAdrKonPN">
+            <titl>Contact</titl>
+        </lb>
+        <lb name="osobaAdrKonTuzPN">
+            <titl>Domestic address (permanent residence is abroad)</titl>
+        </lb>
+        <lb name="osobaMzdZaklPN">
+            <titl>Basic data</titl>
+        </lb>
+        <lb name="osobaMzdSlevyDanPN">
+            <titl>Tax deductions</titl>
+        </lb>
+        <lb name="osobaMzdZdrPojPN">
+            <titl>Health insurance</titl>
+        </lb>
+        <lb name="osobaMzdCiziPojPN">
+            <titl>Foreign Health insurance</titl>
+        </lb>
+        <lb name="osobaNastaveni">
+            <titl>Person settings:</titl>
+        </lb>
+        <lb name="pracPomPocatekPN">
+            <titl>Start</titl>
+        </lb>
+        <lb name="pracPomUctovaniPN">
+            <titl>Bookkeeping</titl>
+        </lb>
+        <lb name="pracPomUvazekPN">
+            <titl>Work load</titl>
+        </lb>
+        <lb name="pracPomKonecPN">
+            <titl>End</titl>
+        </lb>
+        <lb name="pracPomTypyDokladuPN">
+            <titl>###Typy dokladů</titl>
+        </lb>
+        <lb name="pracPomNastaveni">
+            <titl>Labour relation setting</titl>
+        </lb>
+        <lb name="pracPomDniUvazku">
+            <titl>Working days</titl>
+        </lb>
+        <lb name="pracPomZapoctovyListPN">
+            <titl>Credit letter</titl>
+        </lb>
+        <lb name="pracPomCsszPN">
+            <titl>ČSSZ</titl>
+        </lb>
+        <lb name="cisMzdSlozViditelnost">
+            <titl>Fields visibility on wage item</titl>
+        </lb>
+        <lb name="filterSkupOsobNeomezena">
+            <titl>Group of persons unlimited</titl>
+        </lb>
+        <lb name="filterOsobaMzdyNeomezena">
+            <titl>Person unlimited</titl>
+        </lb>
+        <lb name="filterRokMzdyNeomezen">
+            <titl>Year unlimited</titl>
+        </lb>
+        <lb name="filterMesicMzdyNeomezen">
+            <titl>Month unlimited</titl>
+        </lb>
+        <lb name="filterSkupSlozkyNeomezena">
+            <titl>Group of units unlimited</titl>
+        </lb>
+        <lb name="filterSlozkaMzdyNeomezena">
+            <titl>Unit unlimited</titl>
+        </lb>
+        <lb name="filterTypPracPomNeomezen">
+            <titl>Labour relation type unlimited</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadneOznNadpis">
+            <titl>Multiple notification for health insurance companies</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadneOznPopis">
+            <titl>Select the month and year of reported changes and the target file.</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadneOznPopis2">
+            <titl>Choose persons for pre-filling in the health insurance form.</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadnePrihlaskaCB">
+            <titl>Application form</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojHromadneOdhlaskaCB">
+            <titl>Log out</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojPrehledOPlatbeNadpis">
+            <titl>Overview of the payments of the premium.</titl>
+        </lb>
+        <lb name="mzdyVyst.zdrPojPrehledOPlatbePopis">
+            <titl>&lt;html&gt;Select the month and the year for the monthly report form&lt;br&gt;about payment of health insurance premiums of employers.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="mzdyVyst.finUrPotOZdanPrijmechNadpis">
+            <titl>Confirmation of taxable income.</titl>
+        </lb>
+        <lb name="mzdyVyst.finUrPotOZdanPrijmechPopis">
+            <titl>Select the year and the person for whom you want to generate the form.</titl>
+        </lb>
+        <lb name="mzdyVyst.prehledPojNadpis">
+            <titl>Overview of the premium amount.</titl>
+        </lb>
+        <lb name="mzdyVyst.prehledPojPopis">
+            <titl>Select the month and year of the overview. You can also choose the output format.</titl>
+        </lb>
+        <lb name="mzdyVyst.pojDuchHlaseniNadpis">
+            <titl>Reporting for advance payment in premium for retirement savings</titl>
+        </lb>
+        <lb name="mzdyVyst.pojDuchHlaseniPopis">
+            <titl>Select month, year and select the type of report.</titl>
+        </lb>
+        <lb name="mzdyVyst.pojDuchVyuctovaniNadpis">
+            <titl>Calculation of premiums for retirement savings</titl>
+        </lb>
+        <lb name="mzdyVyst.pojDuchVyuctovaniPopis">
+            <titl>Select year and select the type of calculation.</titl>
+        </lb>
+        <lb name="mzdyVystupOsoba">
+            <titl>Person:</titl>
+        </lb>
+        <lb name="mzdyVystupPracPomer">
+            <titl>Labour engagement:</titl>
+        </lb>
+        <lb name="mzdyVystupNepritomnost">
+            <titl>Absence:</titl>
+        </lb>
+        <lb name="mzdyVystupRok">
+            <titl>Year:</titl>
+        </lb>
+        <lb name="mzdyVystupCtvrtleti">
+            <titl>Quarter:</titl>
+        </lb>
+        <lb name="mzdyVystupMesic">
+            <titl>Month:</titl>
+        </lb>
+        <lb name="mzdyVystupMesicOd">
+            <titl>Month from:</titl>
+        </lb>
+        <lb name="mzdyVystupMesicDo">
+            <titl>Month to:</titl>
+        </lb>
+        <lb name="mzdyVystupSouborOut">
+            <titl>Target file:</titl>
+        </lb>
+        <lb name="mzdyVystupZalohovaDan">
+            <titl>Advance tax</titl>
+        </lb>
+        <lb name="mzdyVystupPodklVyucDane">
+            <titl>Documents for the calculation of income tax from dependent activity</titl>
+        </lb>
+        <lb name="mzdyVystupSrazkovaDan">
+            <titl>Withholding tax</titl>
+        </lb>
+        <lb name="mzdyVyst.prehledMzdSlozNadpis">
+            <titl>Create a query for wage components</titl>
+        </lb>
+        <lb name="mzdyVyst.prehledMzdSlozPopis">
+            <titl>Enter properties of displayed wage components.</titl>
+        </lb>
+        <lb name="mzdyVyst.format">
+            <titl>###Formát:</titl>
+        </lb>
+        <lb name="mzdyVyst.FormatPdf">
+            <titl>###PDF</titl>
+        </lb>
+        <lb name="mzdyVyst.FormatXml">
+            <titl>###XML</titl>
+        </lb>
+        <lb name="prehledMzdSlozObdobi">
+            <titl>Period:</titl>
+        </lb>
+        <lb name="prehledMzdSlozStredisko">
+            <titl>Centre:</titl>
+        </lb>
+        <lb name="prehledMzdSlozSkupSlozek">
+            <titl>Group of units</titl>
+        </lb>
+        <lb name="prehledMzdSlozCelyRok">
+            <titl>Entire year</titl>
+        </lb>
+        <lb name="prehledMzdSlozKvartal">
+            <titl>quarter</titl>
+        </lb>
+        <lb name="prehledMzdSlozPololeti">
+            <titl>half-year</titl>
+        </lb>
+        <lb name="mzdyVypocetMesic">
+            <titl>Select month for wage calculation:</titl>
+        </lb>
+        <lb name="mzdyGeneraceZavMesic">
+            <titl>Select month for generation of liabilities:</titl>
+        </lb>
+        <lb name="mzdoveListy.vitejte">
+            <titl>Welcome to the wage earning record creation wizard!</titl>
+        </lb>
+        <lb name="mzdoveListy.info1">
+            <titl>Specify parameters of wage earning record creation.</titl>
+        </lb>
+        <lb name="mzdoveListy.info2">
+            <titl>Only data that meet all entered criteria will be displayed.</titl>
+        </lb>
+        <lb name="mzdoveListy.obdobi">
+            <titl>Year:</titl>
+        </lb>
+        <lb name="mzdoveListy.skupOsob">
+            <titl>Group of persons:</titl>
+        </lb>
+        <lb name="mzdoveListy.osoba">
+            <titl>Person:</titl>
+        </lb>
+        <lb name="zmenaCiselnikuSlozky.puvodniSlozka">
+            <titl>###Původní složka:</titl>
+        </lb>
+        <lb name="zmenaCiselnikuSlozky.novaSlozka">
+            <titl>###Nová složka:</titl>
+        </lb>
+        <lb name="zmenaCiselnikuSlozky.popis">
+        </lb>
+        <lb name="zmenaCiselnikuSlozky.zamceneObdobiInfo">
+            <titl>###Ve zvoleném období existují zamčené mzdy. Které složky si přejete změnit?</titl>
+        </lb>
+        <lb name="mzdyVycetPlatidelMesic">
+            <titl>Select month for wire transfer instruction:</titl>
+        </lb>
+        <lb name="mzdyVycetPlatidelPole">
+            <titl>Source field of amount for list of bank note specification card slip:</titl>
+        </lb>
+        <lb name="dPravDefSkupOsob">
+            <titl>Group of persons list</titl>
+        </lb>
+        <lb name="vsichniZamestnanci">
+            <titl>All employees</titl>
+        </lb>
+        <lb name="vsechnySkupinyMzdSlozek">
+            <titl>All groups</titl>
+        </lb>
+        <lb name="mzdyPlatiOdDoNeomezeno">
+            <titl>Unlimited</titl>
+        </lb>
+        <lb name="mzdyIspvInfo">
+            <titl>Select a year, quarter and a target file to create output ISPV.</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadPopis">
+            <titl>&lt;html&gt;Select the month and year for the preceding month in which a social claim was made.&lt;br/&gt;Then specify the parameters of the type of request.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTyp">
+            <titl>Request type:</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypNem">
+            <titl>Sickness benefit</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypOset">
+            <titl>Treatment benefit</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypPenPom">
+            <titl>Maternity benefit</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypVyrov">
+            <titl>Equalization benefit - pregnancy and maternity</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypOtcovska">
+            <titl>Paternity leave</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemTypDlouhOsetrovne">
+            <titl>Long-term care</titl>
+        </lb>
+        <lb name="mzdyVystupPrilZadNemCislo">
+            <titl>Confirmation No.:</titl>
+        </lb>
+        <lb name="mzdyVystupHzupnPopis">
+            <titl>Enter the information required for the Employer Disability Report.</titl>
+        </lb>
+        <lb name="mzdyVystupOpravnePodaniHzupn">
+            <titl>Corrective submission:</titl>
+        </lb>
+        <lb name="mzdyVystupDatumVystaveniHzupn">
+            <titl>Date of Issue:</titl>
+        </lb>
+        <lb name="mzdyVystupZahranicniHzupn">
+            <titl>Foreign:</titl>
+        </lb>
+        <lb name="mzdyVystupNavratDoPraceHzupn">
+            <titl>Return to work:</titl>
+        </lb>
+        <lb name="mzdyVystupPoslDenPnHzupn">
+            <titl>The last day of incapacity for work</titl>
+        </lb>
+        <lb name="mzdyVystupDuvodNenavratDoPraceHzupn">
+            <titl>The employee did not start work because of:</titl>
+        </lb>
+        <lb name="mzdyVystupDatumNavratDoPraceHzupn">
+            <titl>Date of return to work:</titl>
+        </lb>
+        <lb name="mzdyVystupPocetOdpracHodPoslDenHzupn">
+            <titl>Hours worked last day of incapacity for work:</titl>
+        </lb>
+        <lb name="mzdyVystupPracDobaHodPoslDenHzupn">
+            <titl>Length of shift last day of incapacity for work hours:</titl>
+        </lb>
+        <lb name="mzdyVystupHzupnCislo">
+            <titl>Number of long-term incapacity for work decision:</titl>
+        </lb>
+        <lb name="mzdyVystupEldpTyp">
+            <titl>ELDP type:</titl>
+        </lb>
+        <lb name="mzdyVystupOpravaEldp">
+            <titl>Correction of ELDP as at:</titl>
+        </lb>
+    </labels>
+</config>

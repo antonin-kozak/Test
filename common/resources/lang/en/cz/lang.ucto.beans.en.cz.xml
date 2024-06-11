@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <beans>
+        <bean name="global">
+            <prop name="vatId">
+                <titl>VAT ID (SK)</titl>
+            </prop>
+        </bean>
+    </beans>
+</config>

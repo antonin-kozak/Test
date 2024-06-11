@@ -1,0 +1,2383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/ru/lang.ucto.dials.ru.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dials>
+        <prop name="aktualizacePozadavkuFailZamcenyDoklad">
+            <titl>###Aktualizace požadavků na výdej selže pokud je doklad zamčený.</titl>
+        </prop>
+        <prop name="automatickeOdvozovaniVarSymNaFap">
+            <titl>Активирует автоматическое извлечение переменного символа из входящего номера на полученном счете-фактуре</titl>
+        </prop>
+        <prop name="autoSendMailMod.neodesilat">
+            <titl>Не отправляйте</titl>
+        </prop>
+        <prop name="autoSendMailMod.odesilat">
+            <titl>Отправить на</titl>
+        </prop>
+        <prop name="autoSendMailMod.odesilatBcc">
+            <titl>Отправляйте скрытые копии только на электронную почту</titl>
+        </prop>
+        <prop name="barvaMaterialu.bareNepruhled">
+            <titl>Непрозрачный цветной</titl>
+        </prop>
+        <prop name="barvaMaterialu.barevPruhled">
+            <titl>Прозрачный цветной</titl>
+        </prop>
+        <prop name="barvaMaterialu.transparent">
+            <titl>Прозрачный</titl>
+        </prop>
+        <prop name="clenSpl.financni">
+            <titl>финансовая деятельность</titl>
+        </prop>
+        <prop name="clenSpl.vstupni">
+            <titl>входящая цена</titl>
+        </prop>
+        <prop name="creditCheck.green">
+            <titl>Зеленый</titl>
+        </prop>
+        <prop name="creditCheck.red">
+            <titl>Красный</titl>
+        </prop>
+        <prop name="creditCheck.yellow">
+            <titl>Желтый</titl>
+        </prop>
+        <prop name="danEvid.mzdy">
+            <titl>Расчет заработной платы</titl>
+        </prop>
+        <prop name="danEvid.NeDanEvid">
+            <titl>Не относится к налоговому учёту</titl>
+        </prop>
+        <prop name="danEvid.ostatnePrijmy">
+            <titl>Прочие доходы</titl>
+        </prop>
+        <prop name="danEvid.ostatneVydavky">
+            <titl>Прочие расходы</titl>
+        </prop>
+        <prop name="danEvid.Par10Ostatni">
+            <titl>§10 - Остальная прибыль</titl>
+        </prop>
+        <prop name="danEvid.Par7JinePodn">
+            <titl>§7 - Другая предпринимательская деятельность</titl>
+        </prop>
+        <prop name="danEvid.Par7PodilySpol">
+            <titl>§7 - Участие компаньонов</titl>
+        </prop>
+        <prop name="danEvid.Par7Prava">
+            <titl>§7 - Использование или предоставление прав</titl>
+        </prop>
+        <prop name="danEvid.Par7ZemVyroba">
+            <titl>§7 - Сельскохозяйственное производство</titl>
+        </prop>
+        <prop name="danEvid.Par7Zivnost">
+            <titl>§7 - Мелкая торговля</titl>
+        </prop>
+        <prop name="danEvid.Par8KapMaj">
+            <titl>§8 -Прибыль с имущества капитала</titl>
+        </prop>
+        <prop name="danEvid.Par9Pronajem">
+            <titl>§9 - Прибыль с аренды</titl>
+        </prop>
+        <prop name="danEvid.platbyPojistnehoAPrispevkov">
+            <titl>Уплата страховых взносов и премий</titl>
+        </prop>
+        <prop name="danEvid.predajTovaru">
+            <titl>Продажа товаров</titl>
+        </prop>
+        <prop name="danEvid.predajVyrobkovSluzieb">
+            <titl>Продажа продуктов и услуг</titl>
+        </prop>
+        <prop name="danEvid.sluzby">
+            <titl>Услуги</titl>
+        </prop>
+        <prop name="danEvid.SocPoj">
+            <titl>Оплата социального страхования</titl>
+        </prop>
+        <prop name="danEvid.tvorbaSocialnihoFondu">
+            <titl>Формирование Социального фонда</titl>
+        </prop>
+        <prop name="danEvid.zasoby">
+            <titl>Акции</titl>
+        </prop>
+        <prop name="danEvid.ZdravPoj">
+            <titl>Оплата медицинского страхования</titl>
+        </prop>
+        <prop name="danEvidSkupina.nespada">
+            <titl>Она не относится к DE</titl>
+        </prop>
+        <prop name="danEvidSkupina.nevyplneno">
+            <titl>Пустой</titl>
+        </prop>
+        <prop name="danEvidSkupina.ostatni">
+            <titl>Другое</titl>
+        </prop>
+        <prop name="danEvidSkupina.par07">
+            <titl>§7</titl>
+        </prop>
+        <prop name="danEvidSkupina.par08">
+            <titl>§8</titl>
+        </prop>
+        <prop name="danEvidSkupina.par09">
+            <titl>§9</titl>
+        </prop>
+        <prop name="danEvidSkupina.par10">
+            <titl>§10</titl>
+        </prop>
+        <prop name="danEvidSkupina.prijem">
+            <titl>Доход</titl>
+        </prop>
+        <prop name="danEvidSkupina.vydej">
+            <titl>Расходы</titl>
+        </prop>
+        <prop name="dashboardPanelVisibility.hidden">
+            <titl>Неужели никто не видит.</titl>
+        </prop>
+        <prop name="dashboardPanelVisibility.private">
+            <titl>Только автор может видеть.</titl>
+        </prop>
+        <prop name="dashboardPanelVisibility.shared">
+            <titl>Можно обмениваться</titl>
+        </prop>
+        <prop name="dashboardPanelVisibility.shared-all">
+            <titl>Все могут видеть</titl>
+        </prop>
+        <prop name="datazTypParam.actId">
+            <titl>Актуальная заметка</titl>
+        </prop>
+        <prop name="datazTypParam.actModul">
+            <titl>Текущий модуль</titl>
+        </prop>
+        <prop name="datazTypParam.date">
+            <titl>Дата</titl>
+        </prop>
+        <prop name="datazTypParam.integer">
+            <titl>Целый номер</titl>
+        </prop>
+        <prop name="datazTypParam.logic">
+            <titl>Логическая величина</titl>
+        </prop>
+        <prop name="datazTypParam.numeric">
+            <titl>Десятичное число</titl>
+        </prop>
+        <prop name="datazTypParam.object">
+            <titl>Объект</titl>
+        </prop>
+        <prop name="datazTypParam.string">
+            <titl>Цепочка</titl>
+        </prop>
+        <prop name="denniKurz.aktualniDen">
+            <titl>С актуального дня</titl>
+        </prop>
+        <prop name="denniKurz.predchoziDen">
+            <titl>С предыдущего дня</titl>
+        </prop>
+        <prop name="doporuceniCil.uhrazeno">
+            <titl>###Uhrazeno</titl>
+            <desc>###Faktura po odpočtu této zálohy nebude ve ve stavu uhrazeno.</desc>
+        </prop>
+        <prop name="doporuceniCil.zaokrouhleno">
+            <titl>###Zaokrouhleno</titl>
+            <desc>###Faktura po odpočtu této zálohy možná nebude zaokrouhlena.</desc>
+        </prop>
+        <prop name="druhLeas.financni">
+            <titl>Финансовый</titl>
+        </prop>
+        <prop name="druhLeas.operativ">
+            <titl>Оперативный</titl>
+        </prop>
+        <prop name="druhMaj.drobny">
+            <titl>Дробный</titl>
+        </prop>
+        <prop name="druhMaj.hmDl">
+            <titl>Денежный долговременный</titl>
+        </prop>
+        <prop name="druhMaj.nehmDl">
+            <titl>Бесплатный долговременный</titl>
+        </prop>
+        <prop name="druhMaj.neodepis">
+            <titl>Несписанный (только переучёт)</titl>
+        </prop>
+        <prop name="druhStavuZakazky.hotovo">
+            <titl>Готово</titl>
+        </prop>
+        <prop name="druhStavuZakazky.mame">
+            <titl>Она у нас есть</titl>
+        </prop>
+        <prop name="druhStavuZakazky.storno">
+            <titl>Отменено</titl>
+        </prop>
+        <prop name="druhStavuZakazky.ziskavame">
+            <titl>Приобретаем её</titl>
+        </prop>
+        <prop name="druhUctu.aktivni">
+            <titl>активный</titl>
+        </prop>
+        <prop name="druhUctu.aktpasvo">
+            <titl>активный+пассивный (выбор)</titl>
+        </prop>
+        <prop name="druhUctu.aktpasvy">
+            <titl>активный/пассивный (в соответствии с результатами)</titl>
+        </prop>
+        <prop name="druhUctu.naklady">
+            <titl>издержки</titl>
+        </prop>
+        <prop name="druhUctu.otevknih">
+            <titl>открытие книги</titl>
+        </prop>
+        <prop name="druhUctu.pasivhvy">
+            <titl>пассивный - г. результат</titl>
+        </prop>
+        <prop name="druhUctu.pasivni">
+            <titl>пассивный</titl>
+        </prop>
+        <prop name="druhUctu.prhosvys">
+            <titl>перевод экономического результата</titl>
+        </prop>
+        <prop name="druhUctu.uzavknih">
+            <titl>закрытие книги</titl>
+        </prop>
+        <prop name="druhUctu.vynosy">
+            <titl>прибыль</titl>
+        </prop>
+        <prop name="druhUdal.pozn">
+            <titl>Примечание</titl>
+        </prop>
+        <prop name="druhUdal.udal">
+            <titl>Событие</titl>
+        </prop>
+        <prop name="druhUdal.ukol">
+            <titl>Задание</titl>
+        </prop>
+        <prop name="druhUdal.workflow">
+            <titl>Задача рабочего процесса</titl>
+        </prop>
+        <prop name="duverCert.duverovat">
+            <titl>Доверять</titl>
+        </prop>
+        <prop name="duverCert.ptatSe">
+            <titl>Интересоваться</titl>
+        </prop>
+        <prop name="ediEanSklad">
+            <titl>###Pokusí se určit EAN místa dodání, pokud není uveden.</titl>
+        </prop>
+        <prop name="eetMod.ne">
+            <titl>На сайте</titl>
+        </prop>
+        <prop name="eetMod.ostry">
+            <titl>Sharp</titl>
+        </prop>
+        <prop name="eetMod.ostryTest">
+            <titl>Non-production sharp (для разработчиков)</titl>
+        </prop>
+        <prop name="eetMod.overovaci">
+            <titl>Верификация</titl>
+        </prop>
+        <prop name="eetMod.overovaciTest">
+            <titl>Непроизводственная проверка (для разработчиков)</titl>
+        </prop>
+        <prop name="eetStav.ne">
+            <titl>не отправлен</titl>
+        </prop>
+        <prop name="eetStav.neStorno">
+            <titl>не отправленная отмена</titl>
+        </prop>
+        <prop name="eetStav.neuspech">
+            <titl>Отказ</titl>
+        </prop>
+        <prop name="eetStav.neuspechStorno">
+            <titl>неспособность отменить</titl>
+        </prop>
+        <prop name="eetStav.odeslano">
+            <titl>Отправлено в</titl>
+        </prop>
+        <prop name="eetStav.odeslanoStorno">
+            <titl>отправленная отмена</titl>
+        </prop>
+        <prop name="eetTyp.anoBezny">
+            <titl>нормальный режим</titl>
+        </prop>
+        <prop name="eetTyp.anoEkasa">
+            <titl>eCash</titl>
+        </prop>
+        <prop name="eetTyp.anoZjednoduseny">
+            <titl>упрощённый режим</titl>
+        </prop>
+        <prop name="eetTyp.ne">
+            <titl>не облагается ЕЭТ</titl>
+        </prop>
+        <prop name="eetTypPlatby.cestovni">
+            <titl>Платежи за туристические услуги</titl>
+        </prop>
+        <prop name="eetTypPlatby.poukaz">
+            <titl>Оплата купонами, подарочными сертификатами, картами, ваучерами и т.д.</titl>
+        </prop>
+        <prop name="eetTypPlatby.pouzite">
+            <titl>Продажа бывших в употреблении товаров</titl>
+        </prop>
+        <prop name="ekokom.exportovaneObaly">
+            <titl>Экспортированная упаковка</titl>
+        </prop>
+        <prop name="ekokom.nezaplaceneObaly">
+            <titl>Неоплаченная упаковка</titl>
+        </prop>
+        <prop name="ekokom.predplaceneObaly">
+            <titl>Предоплаченная упаковка</titl>
+        </prop>
+        <prop name="ekokom.vyrazeneObaly">
+            <titl>Выброшенная упаковка</titl>
+        </prop>
+        <prop name="ekokom.zpoplatneneObaly">
+            <titl>Заряженная упаковка</titl>
+        </prop>
+        <prop name="elPrikazPoplatek.odesilatel">
+            <titl>Отправитель</titl>
+        </prop>
+        <prop name="elPrikazPoplatek.prijemce">
+            <titl>Получатель</titl>
+        </prop>
+        <prop name="elPrikazPoplatek.spolecne">
+            <titl>Общая оплата</titl>
+        </prop>
+        <prop name="elPrikazStav.odeslan">
+            <titl>Отослано</titl>
+        </prop>
+        <prop name="elPrikazStav.vytvoren">
+            <titl>Неотослано</titl>
+        </prop>
+        <prop name="elVypisDuplicita.nekontrolovat">
+            <titl>Не проверяйте</titl>
+        </prop>
+        <prop name="elVypisDuplicita.polozka">
+            <titl>Игнорировать уже загруженные элементы</titl>
+        </prop>
+        <prop name="elVypisDuplicita.vypis">
+            <titl>Игнорировать уже загруженные утверждения</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.aktDatum">
+            <titl>Текущая дата</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.datSplat">
+            <titl>Зрелость</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.datUcto">
+            <titl>Дата размещения</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.datVyst">
+            <titl>Принято</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.duzpPuv">
+            <titl>Дата налогообложения. пл.</titl>
+        </prop>
+        <prop name="fapDatProDuzpUctoK.neplnit">
+            <titl>Не заполняйте предварительно</titl>
+        </prop>
+        <prop name="finbricksActivateBic">
+            <titl>Активирует Finbricks для счета финансового учреждения, которого еще нет в списке поддерживаемых нами финансовых учреждений</titl>
+        </prop>
+        <prop name="formaDopravy.ceskaPostaM">
+            <titl>Чешская почта (файл M)</titl>
+        </prop>
+        <prop name="formaDopravy.ceskaPostaPO">
+            <titl>Почта Чехии (Онлайн-подача)</titl>
+        </prop>
+        <prop name="formaDopravy.geis">
+            <titl>Geis</titl>
+        </prop>
+        <prop name="formaDopravy.ppl">
+            <titl>PPL</titl>
+        </prop>
+        <prop name="formaUhr.cenina">
+            <titl>Ценной бумагой на предъявит.</titl>
+        </prop>
+        <prop name="formaUhr.dobirka">
+            <titl>наложенным платежом</titl>
+        </prop>
+        <prop name="formaUhr.hotove">
+            <titl>за наличный рассчёт</titl>
+        </prop>
+        <prop name="formaUhr.jina">
+            <titl>другой формой</titl>
+        </prop>
+        <prop name="formaUhr.nespec">
+            <titl>Неспецифицированно</titl>
+        </prop>
+        <prop name="formaUhr.platKart">
+            <titl>банковской картой</titl>
+        </prop>
+        <prop name="formaUhr.prevod">
+            <titl>банковским переводом</titl>
+        </prop>
+        <prop name="formaUhr.sek">
+            <titl>по чеку</titl>
+        </prop>
+        <prop name="formaUhr.slozenka">
+            <titl>почтовым переводом</titl>
+        </prop>
+        <prop name="formaUhr.zapocet">
+            <titl>пересчётом</titl>
+        </prop>
+        <prop name="formExport.edi">
+            <titl>EDI</titl>
+        </prop>
+        <prop name="formExport.xml">
+            <titl>XML</titl>
+        </prop>
+        <prop name="frDanNakl.ctvrtlet">
+            <titl>Каждые три месяца</titl>
+        </prop>
+        <prop name="frDanNakl.dvoumesi">
+            <titl>Каждые два месяца</titl>
+        </prop>
+        <prop name="frDanNakl.mesicne">
+            <titl>Каждый месяц</titl>
+        </prop>
+        <prop name="frDanNakl.pololet">
+            <titl>Каждые полгода</titl>
+        </prop>
+        <prop name="frDanNakl.rocne">
+            <titl>Каждый год</titl>
+        </prop>
+        <prop name="frekAkt.5minut">
+            <titl>каждые 5 минут</titl>
+        </prop>
+        <prop name="frekAkt.denne">
+            <titl>каждый день</titl>
+        </prop>
+        <prop name="frekAkt.hodinu">
+            <titl>каждый час</titl>
+        </prop>
+        <prop name="frekAkt.rucne">
+            <titl>вручную</titl>
+        </prop>
+        <prop name="gdprPlatnost.manualne">
+            <titl>Вручную</titl>
+        </prop>
+        <prop name="gdprPlatnost.vznikAutoKonec">
+            <titl>Автоматически по окончании срока действия записи</titl>
+        </prop>
+        <prop name="gdprPlatnost.vznikAutoPocatek">
+            <titl>Автоматически с начала срока действия записи</titl>
+        </prop>
+        <prop name="gdprPravTit.cuaVyslSouhl">
+            <titl>Чувствительные данные: явное согласие на обработку</titl>
+        </prop>
+        <prop name="gdprPravTit.cubZpracNezb">
+            <titl>Чувствительные данные: необходимая обработка</titl>
+        </prop>
+        <prop name="gdprPravTit.cucOchrZaj">
+            <titl>Чувствительные данные: защита жизненно важных интересов</titl>
+        </prop>
+        <prop name="gdprPravTit.cudClenNezis">
+            <titl>Чувствительные данные: член некоммерческой организации</titl>
+        </prop>
+        <prop name="gdprPravTit.cueZjevZver">
+            <titl>Чувствительные данные: очевидно опубликованные данные</titl>
+        </prop>
+        <prop name="gdprPravTit.cufPravNarok">
+            <titl>Чувствительные данные: осуществление или защита юридических претензий</titl>
+        </prop>
+        <prop name="gdprPravTit.cugVyzVerZaj">
+            <titl>Чувствительные данные: значительный общественный интерес</titl>
+        </prop>
+        <prop name="gdprPravTit.cuhLekarOs">
+            <titl>Чувствительные данные: здравоохранение и социальное обеспечение</titl>
+        </prop>
+        <prop name="gdprPravTit.cuiVerZdr">
+            <titl>Чувствительные данные: интересы общественного здравоохранения</titl>
+        </prop>
+        <prop name="gdprPravTit.cujArchVyzStat">
+            <titl>Чувствительные данные: архивирование, исследовательские или статистические цели</titl>
+        </prop>
+        <prop name="gdprPravTit.opravZaj">
+            <titl>Законный интерес</titl>
+        </prop>
+        <prop name="gdprPravTit.plnSml">
+            <titl>Выполнение договора</titl>
+        </prop>
+        <prop name="gdprPravTit.souhlZprac">
+            <titl>Согласие на обработку</titl>
+        </prop>
+        <prop name="gdprPravTit.splnPovin">
+            <titl>Выполнение юридического обязательства</titl>
+        </prop>
+        <prop name="gdprPravTit.verejZaj">
+            <titl>Общественный интерес</titl>
+        </prop>
+        <prop name="gdprPravTit.zivotDulez">
+            <titl>Vital</titl>
+        </prop>
+        <prop name="gdprTypVztahu.jedenZeZprac">
+            <titl>Один из процессоров</titl>
+        </prop>
+        <prop name="gdprTypVztahu.prijemce">
+            <titl>Получатель</titl>
+        </prop>
+        <prop name="gdprTypVztahu.spolSpravce">
+            <titl>Совместные администраторы</titl>
+        </prop>
+        <prop name="gdprTypVztahu.spravce">
+            <titl>Администратор</titl>
+        </prop>
+        <prop name="gdprTypVztahu.subzpracovatel">
+            <titl>Субпроцессор</titl>
+        </prop>
+        <prop name="gdprTypVztahu.zastupce">
+            <titl>Представитель</titl>
+        </prop>
+        <prop name="gdprTypVztahu.zpracovatel">
+            <titl>Процессор</titl>
+        </prop>
+        <prop name="isdocPrilohaMailu.ano">
+            <titl>Да</titl>
+        </prop>
+        <prop name="isdocPrilohaMailu.ne">
+            <titl>Нет</titl>
+        </prop>
+        <prop name="isdocPrilohaMailu.podleTypDokl">
+            <titl>По типу документа</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoBezVs">
+            <titl>Автоматически согласно сумме</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoBuc">
+            <titl>Автоматически по банковскому счету</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoKod">
+            <titl>Автоматически по инт. номеру документа</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoVs">
+            <titl>Автоматически согласно вариаб.симв.</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoVsRuzneMeny">
+            <titl>Автоматически по вар. сим. (разные валюты)</titl>
+        </prop>
+        <prop name="jakUhrazeno.autoZak">
+            <titl>Автоматически по номеру клиента</titl>
+        </prop>
+        <prop name="jakUhrazeno.rucne1">
+            <titl>Вручную - 1 документ</titl>
+        </prop>
+        <prop name="jakUhrazeno.rucneCast">
+            <titl>Вручную - частичная уплата</titl>
+        </prop>
+        <prop name="jakUhrazeno.rucneN">
+            <titl>Вручную - больше документов</titl>
+        </prop>
+        <prop name="jakyTypDokl.posledni">
+            <titl>Последний выбранный</titl>
+        </prop>
+        <prop name="jakyTypDokl.primarni">
+            <titl>Первичный</titl>
+        </prop>
+        <prop name="jakyTypDokl.zeptat">
+            <titl>Опросить пользователей</titl>
+        </prop>
+        <prop name="jazyk.cs">
+            <titl>чешский</titl>
+        </prop>
+        <prop name="jazyk.de">
+            <titl>немецкий</titl>
+        </prop>
+        <prop name="jazyk.en">
+            <titl>английский</titl>
+        </prop>
+        <prop name="jazyk.es">
+            <titl>испанский</titl>
+        </prop>
+        <prop name="jazyk.fr">
+            <titl>французский язык</titl>
+        </prop>
+        <prop name="jazyk.hu">
+            <titl>Венгерский</titl>
+        </prop>
+        <prop name="jazyk.it">
+            <titl>итальянский язык</titl>
+        </prop>
+        <prop name="jazyk.none">
+            <titl>неактивный</titl>
+        </prop>
+        <prop name="jazyk.pl">
+            <titl>Польский</titl>
+        </prop>
+        <prop name="jazyk.ro">
+            <titl>Румынский</titl>
+        </prop>
+        <prop name="jazyk.ru">
+            <titl>русский язык</titl>
+        </prop>
+        <prop name="jazyk.sk">
+            <titl>словакский язык</titl>
+        </prop>
+        <prop name="kodPlneni.bezVlivu">
+            <titl>Без воздействия на НДС</titl>
+        </prop>
+        <prop name="kodPlneni.doprProstr">
+            <titl>Вид транспорта</titl>
+        </prop>
+        <prop name="kodPlneni.dovozOSS">
+            <titl>ОСС - режим импорта</titl>
+        </prop>
+        <prop name="kodPlneni.knihy">
+            <titl>Доставка книг и аналогичные услуги</titl>
+        </prop>
+        <prop name="kodPlneni.majetek">
+            <titl>Торговое имущество</titl>
+        </prop>
+        <prop name="kodPlneni.mimoEuOSS">
+            <titl>ОСС - за пределами ЕС</titl>
+        </prop>
+        <prop name="kodPlneni.nespec">
+            <titl>Неспецифицированно</titl>
+        </prop>
+        <prop name="kodPlneni.oprava">
+            <titl>Коррекция заполнения</titl>
+        </prop>
+        <prop name="kodPlneni.ostatni">
+            <titl>Остальное</titl>
+        </prop>
+        <prop name="kodPlneni.osv">
+            <titl>Освобождено</titl>
+        </prop>
+        <prop name="kodPlneni.prenDanPov">
+            <titl>Перенесенные налоговые обязательства</titl>
+        </prop>
+        <prop name="kodPlneni.prenDanPovOprava">
+            <titl>Переданные налоговые обязательства - выбор пользователя</titl>
+        </prop>
+        <prop name="kodPlneni.sluzby">
+            <titl>Предоставление услуги</titl>
+        </prop>
+        <prop name="kodPlneni.sluzbyMOSS">
+            <titl>Мини универсальный магазин</titl>
+        </prop>
+        <prop name="kodPlneni.sluzbyOSS">
+            <titl>OSS - услуги ЕС</titl>
+        </prop>
+        <prop name="kodPlneni.tristran">
+            <titl>Трёхсторонняя сделка</titl>
+        </prop>
+        <prop name="kodPlneni.zbozi">
+            <titl>Доставка товара</titl>
+        </prop>
+        <prop name="kodPlneni.zboziOSS">
+            <titl>ОСС - товары ЕС</titl>
+        </prop>
+        <prop name="litterObal.nadobyNaNapoje">
+            <titl>###Nádoby na nápoje</titl>
+        </prop>
+        <prop name="litterObal.nadobyNaPotravinyCastPlast">
+            <titl>###Nádoby na potraviny částečně z plastu</titl>
+        </prop>
+        <prop name="litterObal.nadobyNaPotravinyPlast">
+            <titl>###Nádoby na potraviny z plastu</titl>
+        </prop>
+        <prop name="litterObal.napojKelimkyCastPlast">
+            <titl>###Nápojové kelímky částečně z plastu</titl>
+        </prop>
+        <prop name="litterObal.napojKelimkyPlast">
+            <titl>###Nápojové kelímky z plastu</titl>
+        </prop>
+        <prop name="litterObal.neni">
+            <titl>###Není</titl>
+        </prop>
+        <prop name="litterObal.plastTasky15">
+            <titl>###Plastové odnosné tašky: 0-15 mikronů</titl>
+        </prop>
+        <prop name="litterObal.plastTasky50">
+            <titl>###Plastové odnosné tašky: 15-50 mikronů</titl>
+        </prop>
+        <prop name="litterObal.sackyNaPotraviny">
+            <titl>###Sáčky a balení na potraviny</titl>
+        </prop>
+        <prop name="logoPozice.nahore">
+            <titl>Логотип на верхней части</titl>
+        </prop>
+        <prop name="logoPozice.vlevo">
+            <titl>Логотип слева</titl>
+        </prop>
+        <prop name="material.drevo">
+            <titl>Дерево</titl>
+        </prop>
+        <prop name="material.drevoDrevoDrevotriska">
+            <titl>Дерево - Древесина и древесно-стружечные плиты</titl>
+        </prop>
+        <prop name="material.drevoKompozit">
+            <titl>Древесина - Композит с недревесными элементами</titl>
+        </prop>
+        <prop name="material.jine">
+            <titl>Другое</titl>
+        </prop>
+        <prop name="material.kompozit">
+            <titl>Композитный материал</titl>
+        </prop>
+        <prop name="material.kompozitVetsi">
+            <titl>Композитный материал, более 3 л</titl>
+        </prop>
+        <prop name="material.kovy5Al">
+            <titl>Металлы свыше 5L - AL</titl>
+        </prop>
+        <prop name="material.kovy5Fe">
+            <titl>Металлы свыше 5 л - FE</titl>
+        </prop>
+        <prop name="material.kovyAl">
+            <titl>Металлы - AL</titl>
+        </prop>
+        <prop name="material.kovyAlKompozit">
+            <titl>Металлы - композит Al</titl>
+        </prop>
+        <prop name="material.kovyAlKompozitVetsi">
+            <titl>Металлы - композитный Al, более 3 л</titl>
+        </prop>
+        <prop name="material.kovyAlVetsi">
+            <titl>Металлы - Al, более 3 л</titl>
+        </prop>
+        <prop name="material.kovyFe">
+            <titl>Металлы - FE</titl>
+        </prop>
+        <prop name="material.kovyFeKompozit">
+            <titl>Металлы - композитный Fe</titl>
+        </prop>
+        <prop name="material.kovyFeKompozitVetsi">
+            <titl>Металлы - композитное Fe, более 3 л</titl>
+        </prop>
+        <prop name="material.kovyFeVetsi">
+            <titl>Металлы - Fe, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastBioRozlozit">
+            <titl>Мягкие пластмассы - Биоразлагаемые</titl>
+        </prop>
+        <prop name="material.mekPlastBioRozlozitVetsi">
+            <titl>Мягкие пластмассы - Биоразлагаемые, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastEps">
+            <titl>Мягкие пластмассы - EPS</titl>
+        </prop>
+        <prop name="material.mekPlastEpsVetsi">
+            <titl>Мягкие пластмассы - EPS, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastJine">
+            <titl>Мягкие пластмассы - Прочие</titl>
+        </prop>
+        <prop name="material.mekPlastJineVetsi">
+            <titl>Мягкие пластмассы - Прочие, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastKompozit">
+            <titl>Мягкие пластмассы - композит</titl>
+        </prop>
+        <prop name="material.mekPlastKompozitVetsi">
+            <titl>Мягкие пластмассы - Композитные, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastPe">
+            <titl>Мягкие пластмассы - полиэтилен</titl>
+        </prop>
+        <prop name="material.mekPlastPet">
+            <titl>Мягкие пластмассы - ПЭТ</titl>
+        </prop>
+        <prop name="material.mekPlastPetVetsi">
+            <titl>Мягкие пластмассы - ПЭТ, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastPeVetsi">
+            <titl>Мягкие пластмассы - полиэтилен, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastPp">
+            <titl>Мягкие пластмассы - полипропилен</titl>
+        </prop>
+        <prop name="material.mekPlastPpVetsi">
+            <titl>Мягкие пластмассы - полипропилен, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastPs">
+            <titl>Мягкие пластмассы - PS</titl>
+        </prop>
+        <prop name="material.mekPlastPsVetsi">
+            <titl>Мягкие пластмассы - PS, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastPvc">
+            <titl>Мягкие пластмассы - ПВХ</titl>
+        </prop>
+        <prop name="material.mekPlastPvcVetsi">
+            <titl>Мягкие пластмассы - ПВХ, более 3 л</titl>
+        </prop>
+        <prop name="material.mekPlastXps">
+            <titl>Мягкие пластмассы - XPS</titl>
+        </prop>
+        <prop name="material.mekPlastXpsVetsi">
+            <titl>Мягкие пластмассы - XPS, более 3 л</titl>
+        </prop>
+        <prop name="material.napojoveKartony">
+            <titl>Картонные коробки для напитков</titl>
+        </prop>
+        <prop name="material.napojoveKartonyVetsi">
+            <titl>Картонные коробки для напитков, более 3 л</titl>
+        </prop>
+        <prop name="material.papir">
+            <titl>Бумага</titl>
+        </prop>
+        <prop name="material.papirBezny">
+            <titl>Бумага - обычная</titl>
+        </prop>
+        <prop name="material.papirHladkaLepenka">
+            <titl>Бумага - гладкий картон</titl>
+        </prop>
+        <prop name="material.papirKompozit">
+            <titl>Бумага - композит</titl>
+        </prop>
+        <prop name="material.papirNasavanaKart">
+            <titl>Бумага - всасывающая картонная упаковка</titl>
+        </prop>
+        <prop name="material.papirVlnitaLepenka">
+            <titl>Бумага - Гофрированный картон</titl>
+        </prop>
+        <prop name="material.pevDut5PlastJine">
+            <titl>Жесткие полые пластмассы объемом более 5 л - Прочие</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPe">
+            <titl>Жесткие полые пластики объемом более 5 л - ПЭ</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPet">
+            <titl>Жесткие полые пластмассы объемом более 5 л - ПЭТ</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPp">
+            <titl>Жесткие полые пластики объемом более 5 л - PP</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPs">
+            <titl>Жесткие полые пластмассы объемом более 5 л - PS</titl>
+        </prop>
+        <prop name="material.pevDut5PlastPvc">
+            <titl>Жесткие полые пластики объемом более 5 л - ПВХ</titl>
+        </prop>
+        <prop name="material.pevDutePlastBioRozlozit">
+            <titl>Жесткие полые пластмассы - Биоразлагаемые</titl>
+        </prop>
+        <prop name="material.pevDutePlastBioRozlozitVetsi">
+            <titl>Жесткие полые пластмассы - Биоразлагаемые, более 3 л</titl>
+        </prop>
+        <prop name="material.pevDutePlastEps">
+            <titl>Жесткие полые пластики - EPS</titl>
+        </prop>
+        <prop name="material.pevDutePlastEpsVetsi">
+            <titl>Жесткие полые пластики - EPS, более 3 л</titl>
+        </prop>
+        <prop name="material.pevDutePlastJine">
+            <titl>Жесткие полые пластмассы - Прочее</titl>
+        </prop>
+        <prop name="material.pevDutePlastJineVetsi">
+            <titl>Жесткие полые пластмассы - Прочие, более 3 л</titl>
+        </prop>
+        <prop name="material.pevDutePlastKompozit">
+            <titl>Жесткие полые пластики - Композит</titl>
+        </prop>
+        <prop name="material.pevDutePlastKompozitVetsi">
+            <titl>Жесткие полые пластмассы - Композитные, более 3 л</titl>
+        </prop>
+        <prop name="material.pevDutePlastPe">
+            <titl>Жесткие полые пластмассы - полиэтилен</titl>
+        </prop>
+        <prop name="material.pevDutePlastPet">
+            <titl>Жесткие полые пластмассы - ПЭТ</titl>
+        </prop>
+        <prop name="material.pevDutePlastPetVetsi">
+            <titl>Жесткие полые пластики - ПЭТ, более 3 л</titl>
+        </prop>
+        <prop name="material.pevDutePlastPeVetsi">
+            <titl>Жесткие полые пластики - полиэтилен, более 3 л</titl>
+        </prop>
+        <prop name="material.pevDutePlastPp">
+            <titl>Жесткие полые пластмассы - ПП</titl>
+        </prop>
+        <prop name="material.pevDutePlastPpVetsi">
+            <titl>Жесткие полые пластмассы - полипропилен, более 3 л</titl>
+        </prop>
+        <prop name="material.pevDutePlastPs">
+            <titl>Жесткие полые пластмассы - PS</titl>
+        </prop>
+        <prop name="material.pevDutePlastPsVetsi">
+            <titl>Жесткие полые пластмассы - PS, более 3 л</titl>
+        </prop>
+        <prop name="material.pevDutePlastPvc">
+            <titl>Жесткие полые пластики - ПВХ</titl>
+        </prop>
+        <prop name="material.pevDutePlastPvcVetsi">
+            <titl>Жесткие полые пластики - ПВХ, более 3 л</titl>
+        </prop>
+        <prop name="material.pevDutePlastXps">
+            <titl>Жесткие полые пластики - XPS</titl>
+        </prop>
+        <prop name="material.pevDutePlastXpsVetsi">
+            <titl>Жесткие полые пластики - XPS, более 3 л</titl>
+        </prop>
+        <prop name="material.sklo">
+            <titl>Стекло</titl>
+        </prop>
+        <prop name="material.skloBarevne">
+            <titl>Стекло - цветное</titl>
+        </prop>
+        <prop name="material.skloKompozit">
+            <titl>Стекло - Композит</titl>
+        </prop>
+        <prop name="material.skloTransparent">
+            <titl>Стекло - прозрачное</titl>
+        </prop>
+        <prop name="material.textil">
+            <titl>Текстиль</titl>
+        </prop>
+        <prop name="material.vlnitaLepenka">
+            <titl>Гофрированный картон</titl>
+        </prop>
+        <prop name="metodaZaokr.0sazba">
+            <titl>до 0 ставок</titl>
+        </prop>
+        <prop name="metodaZaokr.individ">
+            <titl>индивидуально</titl>
+        </prop>
+        <prop name="metodaZaokr.zklDph">
+            <titl>в базе и НДС</titl>
+        </prop>
+        <prop name="mjHmot.gram">
+            <titl>грамм</titl>
+        </prop>
+        <prop name="mjHmot.kilogram">
+            <titl>килограмм</titl>
+        </prop>
+        <prop name="mjHmot.tuna">
+            <titl>тунец</titl>
+        </prop>
+        <prop name="mjZaruky.den">
+            <titl>День</titl>
+        </prop>
+        <prop name="mjZaruky.mesic">
+            <titl>месяц</titl>
+        </prop>
+        <prop name="mjZaruky.rok">
+            <titl>год</titl>
+        </prop>
+        <prop name="modulUcetni.BAN">
+            <titl>Банк</titl>
+        </prop>
+        <prop name="modulUcetni.FAH">
+            <titl>Продажа за наличный рассчёт</titl>
+        </prop>
+        <prop name="modulUcetni.FAP">
+            <titl>Фактуры принятые</titl>
+        </prop>
+        <prop name="modulUcetni.FAV">
+            <titl>Фактуры выданные</titl>
+        </prop>
+        <prop name="modulUcetni.INT">
+            <titl>Внутренние документы</titl>
+        </prop>
+        <prop name="modulUcetni.LEA">
+            <titl>Лизинг</titl>
+        </prop>
+        <prop name="modulUcetni.MAJ">
+            <titl>Имущество</titl>
+        </prop>
+        <prop name="modulUcetni.NAP">
+            <titl>Принятые предложения</titl>
+        </prop>
+        <prop name="modulUcetni.NAV">
+            <titl>Выданные предложения</titl>
+        </prop>
+        <prop name="modulUcetni.OBP">
+            <titl>Заказы принятые</titl>
+        </prop>
+        <prop name="modulUcetni.OBV">
+            <titl>Заказы выданные</titl>
+        </prop>
+        <prop name="modulUcetni.PHL">
+            <titl>Задолженность</titl>
+        </prop>
+        <prop name="modulUcetni.POK">
+            <titl>Касса</titl>
+        </prop>
+        <prop name="modulUcetni.PPP">
+            <titl>Запросы принятые</titl>
+        </prop>
+        <prop name="modulUcetni.PPV">
+            <titl>Запросы выданные</titl>
+        </prop>
+        <prop name="modulUcetni.SKL">
+            <titl>Склад</titl>
+        </prop>
+        <prop name="modulUcetni.SKLPRI">
+            <titl>Тов.-трансп. накладная</titl>
+        </prop>
+        <prop name="modulUcetni.SKLVYD">
+            <titl>Акт о приходовании</titl>
+        </prop>
+        <prop name="modulUcetni.ZAV">
+            <titl>Обязательства</titl>
+        </prop>
+        <prop name="nahrUcet.aPocMes">
+            <titl>Да</titl>
+        </prop>
+        <prop name="nahrUcet.ne">
+            <titl>Нет</titl>
+        </prop>
+        <prop name="normalMj.gram">
+            <titl>Грамм</titl>
+        </prop>
+        <prop name="normalMj.kilogram">
+            <titl>Килограмм</titl>
+        </prop>
+        <prop name="normalMj.tuna">
+            <titl>Тунец</titl>
+        </prop>
+        <prop name="objednat.neobjednat">
+            <titl>Не заказывать</titl>
+        </prop>
+        <prop name="objednat.objednano">
+            <titl>Уже заказано</titl>
+        </prop>
+        <prop name="objednat.objednat">
+            <titl>Заказать</titl>
+        </prop>
+        <prop name="omezPrenDanPov.bezOmezeni">
+            <titl>без ограничений</titl>
+        </prop>
+        <prop name="omezPrenDanPov.odCastky100k">
+            <titl>от 100 000 чешских крон</titl>
+        </prop>
+        <prop name="operaceZurnalSmlouvy.autoGenerace">
+            <titl>Автоматическая генерация</titl>
+        </prop>
+        <prop name="operaceZurnalSmlouvy.manualGenerace">
+            <titl>Ручная генерация</titl>
+        </prop>
+        <prop name="paramDobropisSkladZProdejky">
+            <titl>Если в типе документа склад установлен на поставщика, то предпочтение следует отдавать складу.</titl>
+        </prop>
+        <prop name="paramEDIExportDirectory">
+            <titl>Что необходимо учитывать при экспорте в упаковку EDI?</titl>
+        </prop>
+        <prop name="paramExpiraceMandatory">
+            <titl>Срок действия обязателен</titl>
+        </prop>
+        <prop name="paramFirmaInfoUrl">
+            <titl>URL для обновления информации о компании.</titl>
+        </prop>
+        <prop name="paramFirmyDavkaAktualizovatBanku">
+            <titl>Если при массовом обновлении данных о компании необходимо обновить только банковские реквизиты.</titl>
+        </prop>
+        <prop name="paramFirmyDavkaInfoUrl">
+            <titl>URL для массового обновления данных компании.</titl>
+        </prop>
+        <prop name="paramGenFunkceKoduFirmy">
+            <titl>Имя функции для генерации кода компании</titl>
+        </prop>
+        <prop name="paramGenFunkceKoduSmlouvy">
+            <titl>Имя функции для генерации кода контракта</titl>
+        </prop>
+        <prop name="paramNaseptavaniFiremSk">
+            <titl>Шепчущие компании из системы ARES</titl>
+        </prop>
+        <prop name="paramNaseptavaniFiremUrl">
+            <titl>URL для шепчущих компаний.</titl>
+        </prop>
+        <prop name="paramNeomezovatMnozstviObv">
+            <titl>Уменьшать ли заданное количество на количество, доступное и зарезервированное для производственного заказа.</titl>
+        </prop>
+        <prop name="paramObjednavkaRealizaceKomplet">
+            <titl>Только полное выполнение заказа</titl>
+        </prop>
+        <prop name="paramPrenasetFirmuZeZakazkyNaDokl">
+            <titl>Перенести компанию из заказа в документ, если в документе компания не заполнена. Можно определить для конкретного модуля и типа документа.</titl>
+        </prop>
+        <prop name="paramPrikladatPrilohuDoMailu">
+            <titl>Значение по умолчанию для флага «Прикрепленный» для вложения типа файла.</titl>
+        </prop>
+        <prop name="paramRefundaceSkladove">
+            <titl>Возврат товаров со склада</titl>
+        </prop>
+        <prop name="paramRozsirenaZakazka">
+            <titl>Печать расширенных параметров заказа в отчете о печати.</titl>
+        </prop>
+        <prop name="paramSarzeMandatory">
+            <titl>Пакетная обязательная</titl>
+        </prop>
+        <prop name="paramVychoziTiskarna">
+            <titl>Принтер по умолчанию</titl>
+        </prop>
+        <prop name="povolitBankuSPolozkami">
+            <titl>Позволяет создавать банковские документы с элементами</titl>
+        </prop>
+        <prop name="pozadavekStav.novy">
+            <titl>Новый</titl>
+        </prop>
+        <prop name="pozadavekStav.rozpracovan">
+            <titl>Проработанный</titl>
+        </prop>
+        <prop name="pozadavekStav.uzavren">
+            <titl>Закрытый</titl>
+        </prop>
+        <prop name="pozadavekTyp.namitka">
+            <titl>Право на возражение</titl>
+        </prop>
+        <prop name="pozadavekTyp.omezeni">
+            <titl>Право на ограничение обработки</titl>
+        </prop>
+        <prop name="pozadavekTyp.oprava">
+            <titl>Право на ремонт</titl>
+        </prop>
+        <prop name="pozadavekTyp.osobniUdaje">
+            <titl>Право на доступ к персональным данным субъекта данных</titl>
+        </prop>
+        <prop name="pozadavekTyp.oznamovaci">
+            <titl>Обязательство по уведомлению относительно исправления или стирания персональных данных или ограничения обработки</titl>
+        </prop>
+        <prop name="pozadavekTyp.prenositelnost">
+            <titl>Право на переносимость данных</titl>
+        </prop>
+        <prop name="pozadavekTyp.vymaz">
+            <titl>Право на удаление</titl>
+        </prop>
+        <prop name="pravFormaPodnik.as">
+            <titl>Акционерное общество</titl>
+        </prop>
+        <prop name="pravFormaPodnik.druzstvo">
+            <titl>Товарищество</titl>
+        </prop>
+        <prop name="pravFormaPodnik.es">
+            <titl>Европейское общество</titl>
+        </prop>
+        <prop name="pravFormaPodnik.ks">
+            <titl>Паевое общество</titl>
+        </prop>
+        <prop name="pravFormaPodnik.nadace">
+            <titl>Благотворительный фонд</titl>
+        </prop>
+        <prop name="pravFormaPodnik.nezOrg">
+            <titl>Некоммерческая организация</titl>
+        </prop>
+        <prop name="pravFormaPodnik.osvc">
+            <titl>Индивидуальный предприниматель</titl>
+        </prop>
+        <prop name="pravFormaPodnik.sdruzeni">
+            <titl>Общество предпринимателей</titl>
+        </prop>
+        <prop name="pravFormaPodnik.sro">
+            <titl>Общество с ограниченной ответственностью</titl>
+        </prop>
+        <prop name="pravFormaPodnik.vos">
+            <titl>Открытое торговое общество</titl>
+        </prop>
+        <prop name="predvybranyPocet.aktualni">
+            <titl>Актуальная заметка</titl>
+        </prop>
+        <prop name="predvybranyPocet.vsechny">
+            <titl>Все заметки</titl>
+        </prop>
+        <prop name="prepocetCen.ask">
+            <titl>Спросите</titl>
+        </prop>
+        <prop name="prepocetCen.auto">
+            <titl>Пересчитать цены</titl>
+        </prop>
+        <prop name="prepocetCen.none">
+            <titl>Не менять цены</titl>
+        </prop>
+        <prop name="priorita.kriticka">
+            <titl>Критическая</titl>
+        </prop>
+        <prop name="priorita.nizka">
+            <titl>Низкая</titl>
+        </prop>
+        <prop name="priorita.stredni">
+            <titl>Средняя</titl>
+        </prop>
+        <prop name="priorita.velmiNizka">
+            <titl>Очень низкая</titl>
+        </prop>
+        <prop name="priorita.vysoka">
+            <titl>Высокая</titl>
+        </prop>
+        <prop name="razeniProTisk.kod">
+            <titl>Согласно коду</titl>
+        </prop>
+        <prop name="razeniProTisk.nazev">
+            <titl>Согласно названию</titl>
+        </prop>
+        <prop name="razeniProTisk.poradi">
+            <titl>Согласно позиции</titl>
+        </prop>
+        <prop name="rezimRezervaci.rucni">
+            <titl>Только ручное управление</titl>
+        </prop>
+        <prop name="rezimRezervaci.zObj">
+            <titl>Автоматически при создании заказа</titl>
+        </prop>
+        <prop name="rezimRezervaci.zObjPriNaskladneni">
+            <titl>Автоматически при создании заказа и загрузке товаров</titl>
+        </prop>
+        <prop name="rocniKurz.kalendarniDen">
+            <titl>К 1 календар. дню периода</titl>
+        </prop>
+        <prop name="rocniKurz.pracovniDen">
+            <titl>К 1 раб.дню в периоде врем.</titl>
+        </prop>
+        <prop name="stavDoklObch.castecneNaCeste">
+            <titl>Частично в пути</titl>
+        </prop>
+        <prop name="stavDoklObch.castHotovo">
+            <titl>Частично готово</titl>
+        </prop>
+        <prop name="stavDoklObch.castVydano">
+            <titl>Частично выдано/принято</titl>
+        </prop>
+        <prop name="stavDoklObch.hotovo">
+            <titl>Готово</titl>
+        </prop>
+        <prop name="stavDoklObch.naCeste">
+            <titl>На дороге</titl>
+        </prop>
+        <prop name="stavDoklObch.nespec">
+            <titl>Неспецифицированно</titl>
+        </prop>
+        <prop name="stavDoklObch.pripraveno">
+            <titl>Приготовлено</titl>
+        </prop>
+        <prop name="stavDoklObch.schvaleno">
+            <titl>Утверждено</titl>
+        </prop>
+        <prop name="stavDoklObch.storno">
+            <titl>Отмена</titl>
+        </prop>
+        <prop name="stavDoklObch.vydano">
+            <titl>Выдано/принято</titl>
+        </prop>
+        <prop name="stavInventury.1vlna">
+            <titl>1-я волна</titl>
+        </prop>
+        <prop name="stavInventury.2vlna">
+            <titl>2-я волна</titl>
+        </prop>
+        <prop name="stavInventury.3vlna">
+            <titl>3-я волна</titl>
+        </prop>
+        <prop name="stavInventury.4vlna">
+            <titl>4-я волна</titl>
+        </prop>
+        <prop name="stavInventury.hotova">
+            <titl>Выполнено</titl>
+        </prop>
+        <prop name="stavInventury.uzavrena">
+            <titl>Закрытый</titl>
+        </prop>
+        <prop name="stavInventury.zahajena">
+            <titl>Запущен</titl>
+        </prop>
+        <prop name="stavMail.neodesilat">
+            <titl>Не отправляйте</titl>
+        </prop>
+        <prop name="stavMail.odeslano">
+            <titl>Отправлено из</titl>
+        </prop>
+        <prop name="stavMail.odeslat">
+            <titl>Отправить на</titl>
+        </prop>
+        <prop name="stavOdp.cast">
+            <titl>Частично отчислено</titl>
+        </prop>
+        <prop name="stavOdp.komplet">
+            <titl>Отчислено</titl>
+        </prop>
+        <prop name="stavOdp.vytvZdd">
+            <titl>Создана аванс. фактура</titl>
+        </prop>
+        <prop name="stavPriznaniDph.dodatecne">
+            <titl>Дополнительно</titl>
+        </prop>
+        <prop name="stavPriznaniDph.dodatecneOpravne">
+            <titl>Дополнительные/корректирующие расходы</titl>
+        </prop>
+        <prop name="stavPriznaniDph.opravne">
+            <titl>Исправительные учреждения</titl>
+        </prop>
+        <prop name="stavPriznaniDph.radne">
+            <titl>Правильно</titl>
+        </prop>
+        <prop name="stavPriznaniDph.radneOpravne">
+            <titl>Обычный/корректирующий</titl>
+        </prop>
+        <prop name="stavSklad.nefakturovatelne">
+            <titl>Не подлежит фактурированию</titl>
+        </prop>
+        <prop name="stavSklad.prevodka">
+            <titl>Накладная</titl>
+        </prop>
+        <prop name="stavSklad.uhrazen">
+            <titl>Уплачено кассой</titl>
+        </prop>
+        <prop name="stavSklad.uhrazenCast">
+            <titl>Частично уплачено кассой</titl>
+        </prop>
+        <prop name="stavSklad.uhrazenHrom">
+            <titl>Уплачено кассой совместно</titl>
+        </prop>
+        <prop name="stavSklad.uhrazenHromCast">
+            <titl>Частично уплачено кассой совместно</titl>
+        </prop>
+        <prop name="stavSklad.vyfakt">
+            <titl>Отфактурировано</titl>
+        </prop>
+        <prop name="stavSklad.vyfaktCast">
+            <titl>Частично отфактурирован</titl>
+        </prop>
+        <prop name="stavSklad.vyfaktHrom">
+            <titl>Отфактурирован массово</titl>
+        </prop>
+        <prop name="stavSklad.vyfaktHromCast">
+            <titl>Частично отфактурирован массово</titl>
+        </prop>
+        <prop name="stavSklad.vygenFakt">
+            <titl>Генерирован из фактуры</titl>
+        </prop>
+        <prop name="stavSklad.vygenFaktNeuplny">
+            <titl>Генерирован из фактуры - неполный</titl>
+        </prop>
+        <prop name="stavSklad.vygenPokl">
+            <titl>Генерирован из кассы</titl>
+        </prop>
+        <prop name="stavSklad.vygenPoklNeuplny">
+            <titl>Генерирован из кассы - неполный</titl>
+        </prop>
+        <prop name="stavSklad.vyroba">
+            <titl>Продукция</titl>
+        </prop>
+        <prop name="stavUdal.hotovo">
+            <titl>Готово</titl>
+        </prop>
+        <prop name="stavUdal.nove">
+            <titl>Новая</titl>
+        </prop>
+        <prop name="stavUdal.rozprac">
+            <titl>Разработано</titl>
+        </prop>
+        <prop name="stavUdal.zamitnuto">
+            <titl>Отклонено</titl>
+        </prop>
+        <prop name="stavUhr.castUhr">
+            <titl>Частично уплачено</titl>
+        </prop>
+        <prop name="stavUhr.storno">
+            <titl>Отмена</titl>
+        </prop>
+        <prop name="stavUhr.uhrazeno">
+            <titl>Оплачено</titl>
+        </prop>
+        <prop name="stavUhr.uhrazenoRucne">
+            <titl>Оплачено (вручную)</titl>
+        </prop>
+        <prop name="stavUziv.bezPrikazu">
+            <titl>Без поручения</titl>
+        </prop>
+        <prop name="stavUziv.castPrikaz">
+            <titl>Отослано частичное поручение</titl>
+        </prop>
+        <prop name="stavUziv.celPrikaz">
+            <titl>Отослано поручение</titl>
+        </prop>
+        <prop name="stavUziv.genKasa">
+            <titl>Генерирован из кассы</titl>
+        </prop>
+        <prop name="stavUziv.nactenoEl">
+            <titl>Начитано электронно</titl>
+        </prop>
+        <prop name="stavUziv.nactenoElPosledni">
+            <titl>В последний раз начитано электронно</titl>
+        </prop>
+        <prop name="stavUziv.obsaPrikaz">
+            <titl>Содержится в приказе</titl>
+        </prop>
+        <prop name="stavUziv.zauctovano">
+            <titl>Засчитано в кассу</titl>
+        </prop>
+        <prop name="stavUziv.zaucZmena">
+            <titl>Изменено после записи на счёт</titl>
+        </prop>
+        <prop name="stavZak.castHot">
+            <titl>частично готово</titl>
+        </prop>
+        <prop name="stavZak.hotovo">
+            <titl>готово</titl>
+        </prop>
+        <prop name="stavZak.vBehu">
+            <titl>в ходе</titl>
+        </prop>
+        <prop name="surovina.primarni">
+            <titl>Основной</titl>
+        </prop>
+        <prop name="surovina.recyklat">
+            <titl>Переработка</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavA360aVice">
+            <titl>360 и больше дней после срока оплаты</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavB360az180">
+            <titl>360 - 180 дней после срока оплаты</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavC180az90">
+            <titl>180 - 90дней после срока оплаты</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavD90az30">
+            <titl>90 - 30 дней после срока оплаты</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavE30az0">
+            <titl>30 - 0 дней после срока оплаты</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavFnejsou">
+            <titl>Не погашены</titl>
+        </prop>
+        <prop name="symbolSplatnosti.stavZnevyplneno">
+            <titl>Срок оплаты не выполнен</titl>
+        </prop>
+        <prop name="tydenPracDoba.dul">
+            <titl>Работа под землей (37,5 часов)</titl>
+        </prop>
+        <prop name="tydenPracDoba.dvousmenny">
+            <titl>Работа в две смены (38,75 часов)</titl>
+        </prop>
+        <prop name="tydenPracDoba.standard">
+            <titl>Работа в одну смену (40 часов)</titl>
+        </prop>
+        <prop name="tydenPracDoba.trismenny">
+            <titl>Работа в три смены (37,5 часов)</titl>
+        </prop>
+        <prop name="typAtribut.1zN">
+            <titl>1 из N</titl>
+        </prop>
+        <prop name="typAtribut.boolean">
+            <titl>Логическое значение</titl>
+        </prop>
+        <prop name="typAtribut.datumCas">
+            <titl>Дата</titl>
+        </prop>
+        <prop name="typAtribut.integer">
+            <titl>Полный номер</titl>
+        </prop>
+        <prop name="typAtribut.MzN">
+            <titl>M из N</titl>
+        </prop>
+        <prop name="typAtribut.numeric">
+            <titl>Десятичное число</titl>
+        </prop>
+        <prop name="typAtribut.retezec">
+            <titl>Цепь</titl>
+        </prop>
+        <prop name="typAtribut.rozmezi">
+            <titl>Диапазон</titl>
+        </prop>
+        <prop name="typBanUctu.kc">
+            <titl>Динамика %currency-symbol / Остаток %currency-symbol</titl>
+        </prop>
+        <prop name="typBanUctu.mena">
+            <titl>Динамика валюта / Остаток валюта</titl>
+        </prop>
+        <prop name="typCeny.bezDph">
+            <titl>без НДС</titl>
+        </prop>
+        <prop name="typCeny.sDph">
+            <titl>включая НДС</titl>
+        </prop>
+        <prop name="typCeny.sDphKoef">
+            <titl>включая НДС (коэффициент)</titl>
+        </prop>
+        <prop name="typCenyVychozi.nakCena">
+            <titl>закупочная цена</titl>
+        </prop>
+        <prop name="typCenyVychozi.zadna">
+            <titl>Нет цены</titl>
+        </prop>
+        <prop name="typCenyVychozi.zaklCena">
+            <titl>продажная цена</titl>
+        </prop>
+        <prop name="typCert.disk">
+            <titl>местный диск</titl>
+        </prop>
+        <prop name="typCert.karta">
+            <titl>чиповая карточка</titl>
+        </prop>
+        <prop name="typCert.server">
+            <titl>сервер</titl>
+        </prop>
+        <prop name="typCinnosti.hlavni">
+            <titl>Основная деятельность</titl>
+        </prop>
+        <prop name="typCinnosti.hospodar">
+            <titl>Экономическая деятельность</titl>
+        </prop>
+        <prop name="typDokladu.dobropis">
+            <titl>Сторно-фактура</titl>
+        </prop>
+        <prop name="typDokladu.dodList">
+            <titl>Накладная</titl>
+        </prop>
+        <prop name="typDokladu.faktura">
+            <titl>Стандартная фактура</titl>
+        </prop>
+        <prop name="typDokladu.krZisk">
+            <titl>Прибыль от курсовой разницы</titl>
+        </prop>
+        <prop name="typDokladu.krZtrata">
+            <titl>Убыток от курсовой разницы</titl>
+        </prop>
+        <prop name="typDokladu.obecny">
+            <titl>Общий документ</titl>
+        </prop>
+        <prop name="typDokladu.prodejka">
+            <titl>Чек</titl>
+        </prop>
+        <prop name="typDokladu.proforma">
+            <titl>Проформа (не бухгалтерия)</titl>
+        </prop>
+        <prop name="typDokladu.zalohFaktura">
+            <titl>Резервная фактура</titl>
+        </prop>
+        <prop name="typDokladu.zbytekNaklad">
+            <titl>Остальной груз</titl>
+        </prop>
+        <prop name="typDokladu.zbytekVynos">
+            <titl>Остальное - выручка</titl>
+        </prop>
+        <prop name="typDokladu.zdd">
+            <titl>Резервный налоговый документ</titl>
+        </prop>
+        <prop name="typKonektoru.atcomp">
+            <titl>AT Computers a.s.</titl>
+        </prop>
+        <prop name="typKonektoru.interObch">
+            <titl>интернет-магазин</titl>
+        </prop>
+        <prop name="typKurzu.cenotvorba">
+            <titl>Курс на ценообразование</titl>
+        </prop>
+        <prop name="typKurzu.intrastat">
+            <titl>Курс для Интрастата</titl>
+        </prop>
+        <prop name="typKurzu.obecny">
+            <titl>Общий</titl>
+        </prop>
+        <prop name="typKurzu.preceneni">
+            <titl>Курс на переоценку</titl>
+        </prop>
+        <prop name="typMj.cas">
+            <titl>время</titl>
+        </prop>
+        <prop name="typMj.delka">
+            <titl>длина</titl>
+        </prop>
+        <prop name="typMj.hmotnost">
+            <titl>вес</titl>
+        </prop>
+        <prop name="typMj.objem">
+            <titl>объём</titl>
+        </prop>
+        <prop name="typMj.plocha">
+            <titl>площадь</titl>
+        </prop>
+        <prop name="typObalu.obchodPreprava">
+            <titl>Бизнес - Грузоперевозки</titl>
+        </prop>
+        <prop name="typObalu.obchodProdej">
+            <titl>Бизнес - Продажи</titl>
+        </prop>
+        <prop name="typObalu.obchodSkupina">
+            <titl>Бизнес - Группа</titl>
+        </prop>
+        <prop name="typObalu.prumysl">
+            <titl>Промышленность</titl>
+        </prop>
+        <prop name="typObchodu.cizina">
+            <titl>Не в ЕС</titl>
+        </prop>
+        <prop name="typObchodu.EUneplat">
+            <titl>ЕС неплатящий налоги</titl>
+        </prop>
+        <prop name="typObchodu.EUplatce">
+            <titl>ЕС налогоплательщик</titl>
+        </prop>
+        <prop name="typObchodu.tuzem">
+            <titl>Своя страна</titl>
+        </prop>
+        <prop name="typOdp.mesic">
+            <titl>Месячный</titl>
+        </prop>
+        <prop name="typOdp.rovn">
+            <titl>Ровномерное</titl>
+        </prop>
+        <prop name="typOdp.zrych">
+            <titl>Ускоренное</titl>
+        </prop>
+        <prop name="typPlneni.obojiRCH">
+            <titl>Обе издержки (Reverse charge)</titl>
+        </prop>
+        <prop name="typPlneni.prijata">
+            <titl>Принятая</titl>
+        </prop>
+        <prop name="typPlneni.prijataRCH">
+            <titl>Принятые издержки (Reverse charge)</titl>
+        </prop>
+        <prop name="typPlneni.uskutecnena">
+            <titl>Реализованная</titl>
+        </prop>
+        <prop name="typPlneni.uskutecnenaRCH">
+            <titl>Реализованные издержки (Reverse charge)</titl>
+        </prop>
+        <prop name="typPlneniEet.uvestOsv">
+            <titl>Освобожденная ставка указывается</titl>
+        </prop>
+        <prop name="typPohybu.prijem">
+            <titl>Доход</titl>
+        </prop>
+        <prop name="typPohybu.vydej">
+            <titl>Выход</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemHoly">
+            <titl>"Чистый" доход</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemPoFak">
+            <titl>Доход по фактуре</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemPolot">
+            <titl>Доход по заготовкам</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemPoObch">
+            <titl>Доход по заявке</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemPrevod">
+            <titl>Доход по накладной</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemProFak">
+            <titl>Получение для выдачи счетов-фактур</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemVratka">
+            <titl>Получение (сторно-фактура, возврат)</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemVydejVratka">
+            <titl>Выдача (сторно-фактура, возврат)</titl>
+        </prop>
+        <prop name="typPohybuSklad.prijemVyrob">
+            <titl>Приём изделия</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejHoly">
+            <titl>"Чистый" доход</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejPoFak">
+            <titl>Выход по фактуре</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejPolot">
+            <titl>Выход заготовок</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejPoObch">
+            <titl>Выход по заявке</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejPrevod">
+            <titl>Выход для накладной</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejProFakCenik">
+            <titl>Выдача для фактуры (цены из прейскуранта)</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejProFakRucne">
+            <titl>Выдача для фактуры (цены вручную)</titl>
+        </prop>
+        <prop name="typPohybuSklad.vydejVyrob">
+            <titl>Выдача изделия</titl>
+        </prop>
+        <prop name="typPolozky.dorovnaniTuz">
+            <titl>Выравнивание местной валюты</titl>
+        </prop>
+        <prop name="typPolozky.katalog">
+            <titl>Статья из прейскуранта</titl>
+        </prop>
+        <prop name="typPolozky.korekceKRZisk">
+            <titl>Корректировка (прибыль) от курсовой разницы</titl>
+        </prop>
+        <prop name="typPolozky.korekceKRZtrata">
+            <titl>Корректировка курсовой разницы (убыток)</titl>
+        </prop>
+        <prop name="typPolozky.korekceOdpoctu">
+            <titl>Корректировка вычета авансового платежа/уплаты налога</titl>
+        </prop>
+        <prop name="typPolozky.korekceRekapitulace">
+            <titl>Исправление перерасчета НДС</titl>
+        </prop>
+        <prop name="typPolozky.korekceTuz">
+            <titl>Коррекция своей валюты</titl>
+        </prop>
+        <prop name="typPolozky.obecny">
+            <titl>Статья с ценой и количесвом</titl>
+        </prop>
+        <prop name="typPolozky.odpocetZalohy">
+            <titl>Отсчёт аванса</titl>
+        </prop>
+        <prop name="typPolozky.odpocetZdd">
+            <titl>Зачет аванса</titl>
+        </prop>
+        <prop name="typPolozky.text">
+            <titl>Текстовая строка</titl>
+        </prop>
+        <prop name="typPolozky.ucetni">
+            <titl>Статья для внесен. в бухгалтерию</titl>
+        </prop>
+        <prop name="typPolozky.zaokrPoOdpoctu">
+            <titl>###Položka zaokrouhlení po odpočtu záloh</titl>
+        </prop>
+        <prop name="typPoplatku.obecny">
+            <titl>Общий</titl>
+        </prop>
+        <prop name="typPoplatku.recyklacni">
+            <titl>Переработка</titl>
+        </prop>
+        <prop name="typPouziti.1pouziti">
+            <titl>Одноразовая упаковка</titl>
+        </prop>
+        <prop name="typPouziti.opakovane">
+            <titl>Многоразовая упаковка</titl>
+        </prop>
+        <prop name="typPrav.admin">
+            <titl>Администратор</titl>
+        </prop>
+        <prop name="typPrav.jenCist">
+            <titl>Только чтение</titl>
+        </prop>
+        <prop name="typPrav.mzdovyUcetni">
+            <titl>Налоговый бухгалтер</titl>
+        </prop>
+        <prop name="typPrav.obchodnik">
+            <titl>Бизнесмен</titl>
+        </prop>
+        <prop name="typPrav.skladnik">
+            <titl>Кладовщик</titl>
+        </prop>
+        <prop name="typPrav.skladnikSPokladnou">
+            <titl>Кладовщик с кассой</titl>
+        </prop>
+        <prop name="typPrav.superUzivatel">
+            <titl>Супер пользователь</titl>
+        </prop>
+        <prop name="typPrav.ucetni">
+            <titl>Бухгалтер</titl>
+        </prop>
+        <prop name="typPrav.uzivatel">
+            <titl>Стандартный пользователь</titl>
+        </prop>
+        <prop name="typPrav.zablokovan">
+            <titl>Неактивный счёт</titl>
+        </prop>
+        <prop name="typPrikazu.inkaso">
+            <titl>Инкассовое поручение</titl>
+        </prop>
+        <prop name="typPrikazu.prikaz">
+            <titl>Платёжное поручен.</titl>
+        </prop>
+        <prop name="typPrilohy.adresar">
+            <titl>Приложение адресной книги</titl>
+        </prop>
+        <prop name="typPrilohy.cenik">
+            <titl>Приложение ценника</titl>
+        </prop>
+        <prop name="typPrilohy.doklad">
+            <titl>Приложение документа</titl>
+        </prop>
+        <prop name="typPrilohy.kontakt">
+            <titl>Приложение контактов</titl>
+        </prop>
+        <prop name="typPrilohy.leasing">
+            <titl>Лизинг</titl>
+        </prop>
+        <prop name="typPrilohy.logo">
+            <titl>Лого</titl>
+        </prop>
+        <prop name="typPrilohy.majetek">
+            <titl>Недвижимость</titl>
+        </prop>
+        <prop name="typPrilohy.obrazek">
+            <titl>Вложение изображения</titl>
+        </prop>
+        <prop name="typPrilohy.odkaz">
+            <titl>URL ссылка на интернет или файл</titl>
+        </prop>
+        <prop name="typPrilohy.osoba">
+            <titl>Приложение лица</titl>
+        </prop>
+        <prop name="typPrilohy.ostatni">
+            <titl>Неуказанный тип крепления</titl>
+        </prop>
+        <prop name="typPrilohy.podRaz">
+            <titl>Подпись и печать</titl>
+        </prop>
+        <prop name="typPrilohy.polsmlouvy">
+            <titl>Приложение к пункту договора</titl>
+        </prop>
+        <prop name="typPrilohy.report">
+            <titl>Выход</titl>
+        </prop>
+        <prop name="typPrilohy.smlouva">
+            <titl>Приложение к договору</titl>
+        </prop>
+        <prop name="typPrilohy.udalost">
+            <titl>Приложение события</titl>
+        </prop>
+        <prop name="typPrilohy.zakazka">
+            <titl>Приложение заказа</titl>
+        </prop>
+        <prop name="typPristPrav.nepripustne">
+            <titl>Недоступны</titl>
+        </prop>
+        <prop name="typPristPrav.plny">
+            <titl>Полный доступ</titl>
+        </prop>
+        <prop name="typPristPrav.pouzeCist">
+            <titl>Только чтение</titl>
+        </prop>
+        <prop name="typPristPrav.upresneni">
+            <titl>Уточнение доступа</titl>
+        </prop>
+        <prop name="typRole.adr">
+            <titl>Каталог</titl>
+        </prop>
+        <prop name="typRole.glo">
+            <titl>Глобальный</titl>
+        </prop>
+        <prop name="typRole.stred">
+            <titl>Центр</titl>
+        </prop>
+        <prop name="typRole.wf">
+            <titl>рабочий процесс</titl>
+        </prop>
+        <prop name="typRole.zak">
+            <titl>заказать</titl>
+        </prop>
+        <prop name="typSablony.druhaUpominka">
+            <titl>Второе напоминание</titl>
+        </prop>
+        <prop name="typSablony.inventarizace">
+            <titl>Инвентаризация</titl>
+        </prop>
+        <prop name="typSablony.pokusOSmir">
+            <titl>Попытка мирового соглашения</titl>
+        </prop>
+        <prop name="typSablony.prvniUpominka">
+            <titl>Первое напоминание</titl>
+        </prop>
+        <prop name="typSestavy.cashflow">
+            <titl>cash flow</titl>
+        </prop>
+        <prop name="typSestavy.obecna">
+            <titl>обычная</titl>
+        </prop>
+        <prop name="typSestavy.rozvaha">
+            <titl>баланс</titl>
+        </prop>
+        <prop name="typSestavy.rozvahaIfrs">
+            <titl>МСФО баланс</titl>
+        </prop>
+        <prop name="typSestavy.vysledov">
+            <titl>отчётная таблица</titl>
+        </prop>
+        <prop name="typSestavy.vysledovIfrs">
+            <titl>МСФО отчётная таблица</titl>
+        </prop>
+        <prop name="typSpl.akontace">
+            <titl>нестанд. платёж</titl>
+        </prop>
+        <prop name="typSpl.bezna">
+            <titl>обычный взнос</titl>
+        </prop>
+        <prop name="typSpl.mimFinCin">
+            <titl>особ. фин. деят.</titl>
+        </prop>
+        <prop name="typSpl.posledni">
+            <titl>последний взнос</titl>
+        </prop>
+        <prop name="typSpl.prevod">
+            <titl>Перечисление за остаточную цену</titl>
+        </prop>
+        <prop name="typSpl.prvni">
+            <titl>нолевой взнос</titl>
+        </prop>
+        <prop name="typSynchCenik.naWebu">
+            <titl>Интернет-магазин</titl>
+        </prop>
+        <prop name="typSynchCenik.rucne">
+            <titl>Синхронизировать вручную</titl>
+        </prop>
+        <prop name="typSynchCenik.veW10">
+            <titl>FlexiBee</titl>
+        </prop>
+        <prop name="typSynchCenik.zadna">
+            <titl>Несинхронизировать ценник</titl>
+        </prop>
+        <prop name="typSzbDph.dphOsv">
+            <titl>освобождено</titl>
+        </prop>
+        <prop name="typSzbDph.dphSniz">
+            <titl>снижена</titl>
+        </prop>
+        <prop name="typSzbDph.dphSniz2">
+            <titl>2. уменьшенный</titl>
+        </prop>
+        <prop name="typSzbDph.dphZakl">
+            <titl>базовый</titl>
+        </prop>
+        <prop name="typTiskDokladu.doklad">
+            <titl>Документ</titl>
+        </prop>
+        <prop name="typTiskDokladu.dokladPokladny">
+            <titl>Кассовый документ</titl>
+        </prop>
+        <prop name="typTiskDokladu.dokladSkladu">
+            <titl>Складской документ</titl>
+        </prop>
+        <prop name="typUcetniJednotkyCz.mala">
+            <titl>Небольшая бухгалтерская единица</titl>
+        </prop>
+        <prop name="typUcetniJednotkyCz.mikro">
+            <titl>Микроучетная единица</titl>
+        </prop>
+        <prop name="typUcetniJednotkyCz.stredni">
+            <titl>Среднее бухгалтерское подразделение</titl>
+        </prop>
+        <prop name="typUcetniJednotkyCz.velka">
+            <titl>Крупное бухгалтерское подразделение</titl>
+        </prop>
+        <prop name="typUcJednotky.mala">
+            <titl>Небольшая бухгалтерская единица</titl>
+        </prop>
+        <prop name="typUcJednotky.mikro">
+            <titl>Микроучетная единица</titl>
+        </prop>
+        <prop name="typUcJednotky.velka">
+            <titl>Крупное бухгалтерское подразделение</titl>
+        </prop>
+        <prop name="typUctu.podrozvahovy">
+            <titl>подитоговый</titl>
+        </prop>
+        <prop name="typUctu.rozvahovy">
+            <titl>балансовый</titl>
+        </prop>
+        <prop name="typUctu.vnitropodnikovy">
+            <titl>внутри организации</titl>
+        </prop>
+        <prop name="typUctu.vysledkovy">
+            <titl>итоговый</titl>
+        </prop>
+        <prop name="typUctu.zaverkovy">
+            <titl>отчётный</titl>
+        </prop>
+        <prop name="typUdal.casVyr">
+            <titl>Частичное исключение</titl>
+        </prop>
+        <prop name="typUdal.prerOdpDan">
+            <titl>Приостановка налоговых отчислений</titl>
+        </prop>
+        <prop name="typUdal.prerOdpUcet">
+            <titl>Приостановка приход.-расх. отчисл.</titl>
+        </prop>
+        <prop name="typUdal.rozdilCenyAZustatku">
+            <titl>Разница между ценой продажи и остатком</titl>
+        </prop>
+        <prop name="typUdal.techZhod">
+            <titl>Техническая оценка</titl>
+        </prop>
+        <prop name="typUdal.uplVyr">
+            <titl>Полное исключение</titl>
+        </prop>
+        <prop name="typUdal.uzivatelska">
+            <titl>Пользовательское событие</titl>
+        </prop>
+        <prop name="typUdal.zahOdpDan">
+            <titl>Повторное открытие налоговых отчислений</titl>
+        </prop>
+        <prop name="typUdal.zahOdpUcet">
+            <titl>Повторное открытие приход.-расх. отчислений</titl>
+        </prop>
+        <prop name="typUdal.zarazeni">
+            <titl>Включение</titl>
+        </prop>
+        <prop name="typUdal.zmenDob">
+            <titl>Изменение периода отчисления</titl>
+        </prop>
+        <prop name="typUdal.zmenHodDan">
+            <titl>Изменение остатка налоговой амортизации</titl>
+        </prop>
+        <prop name="typUdal.zmenHodUcet">
+            <titl>Изменение в балансе бухгалтерской амортизации</titl>
+        </prop>
+        <prop name="typUmisteniSklad.mistnost">
+            <titl>Помещение</titl>
+        </prop>
+        <prop name="typUmisteniSklad.police">
+            <titl>Полка</titl>
+        </prop>
+        <prop name="typUmisteniSklad.regal">
+            <titl>Стеллаж</titl>
+        </prop>
+        <prop name="typVazbyDokl.hlavaDobropis">
+            <titl>Кредит</titl>
+        </prop>
+        <prop name="typVazbyDokl.hlavaSkl">
+            <titl>Складской документ</titl>
+        </prop>
+        <prop name="typVazbyDokl.hlavaSklKus">
+            <titl>Складской документ (состав спецификации)</titl>
+        </prop>
+        <prop name="typVazbyDokl.hlavaSklPrevod">
+            <titl>Складской документ (накладная)</titl>
+        </prop>
+        <prop name="typVazbyDokl.KR">
+            <titl>Разница в курсах</titl>
+        </prop>
+        <prop name="typVazbyDokl.KROdpoctu">
+            <titl>Корректировка вычета</titl>
+        </prop>
+        <prop name="typVazbyDokl.nakladVynos">
+            <titl>Распределение расходов и доходов</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_faktura_hla">
+            <titl>Фактура образована с заявки</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_faktura_pol">
+            <titl>Пункт счета-фактуры, созданный на основе заказа</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_obchod_hla">
+            <titl>Торговая связь</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_obchod_pol">
+            <titl>Торговая привязка товара</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_sklad_hla">
+            <titl>Складской документ образован с заявки</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_sklad_pol">
+            <titl>Элемент документа запаса, созданный на основе заказа</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_zaloha_hla">
+            <titl>Залог образован с заявки</titl>
+        </prop>
+        <prop name="typVazbyDokl.obchod_zaloha_pol">
+            <titl>Резервный элемент, созданный на основе заказа</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocetPolZALOHY">
+            <titl>Вычет статьи аванса</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocetZALOHY">
+            <titl>Отчисление залога</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocetZDD">
+            <titl>Зачет аванса</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocetZddKr">
+            <titl>Курсовая разница - вычет авансового платежа</titl>
+        </prop>
+        <prop name="typVazbyDokl.odpocitavanaFaktura">
+            <titl>Счет-фактура на вычеты</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaDobropis">
+            <titl>Пункт кредитной ноты</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaSkl">
+            <titl>Статья склада</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaSklKus">
+            <titl>Статья склада (состав спецификации)</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaSklPrevod">
+            <titl>Статья склада (накладная)</titl>
+        </prop>
+        <prop name="typVazbyDokl.polozkaSklSada">
+            <titl>Статья склада (разложение набора)</titl>
+        </prop>
+        <prop name="typVazbyDokl.PP">
+            <titl>Переплата</titl>
+        </prop>
+        <prop name="typVazbyDokl.preceneni">
+            <titl>Переоценка</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhrada">
+            <titl>Оплата</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhradaKR">
+            <titl>Оплата разницы в курсах</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhradaZALOHY">
+            <titl>Оплата залога</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhrazovanaFaktura">
+            <titl>Возмещаемый счет-фактура</titl>
+        </prop>
+        <prop name="typVazbyDokl.uhrazujiciDoklad">
+            <titl>Документ о возмещении расходов</titl>
+        </prop>
+        <prop name="typVazbyDokl.vazbaZDD">
+            <titl>Связь аванс. док.</titl>
+        </prop>
+        <prop name="typVazbyDokl.zalHlavKr">
+            <titl>Курсовая разница - авансовый платеж</titl>
+        </prop>
+        <prop name="typVazbyDokl.zalPolKr">
+            <titl>Курсовая разница - авансовая статья</titl>
+        </prop>
+        <prop name="typVazbyDokl.zaucProdejky">
+            <titl>Внесение чека в бухгалтерию</titl>
+        </prop>
+        <prop name="typVazbyDokl.ZB">
+            <titl>Остаток</titl>
+        </prop>
+        <prop name="typVypCeny.marze">
+            <titl>маржа</titl>
+        </prop>
+        <prop name="typVypCeny.neuveden">
+            <titl>не указано</titl>
+        </prop>
+        <prop name="typVypCeny.rabat">
+            <titl>уступка</titl>
+        </prop>
+        <prop name="typVypCeny.sleva">
+            <titl>скидка</titl>
+        </prop>
+        <prop name="typVypSestavy.vJednotkach">
+            <titl>в целых %currency-symbol</titl>
+        </prop>
+        <prop name="typVypSestavy.vKcPresne">
+            <titl>в %currency-symbol точно</titl>
+        </prop>
+        <prop name="typVypSestavy.vTisicich">
+            <titl>в целых тысячах %currency-symbol</titl>
+        </prop>
+        <prop name="typVzniku.importovaneDoCr">
+            <titl>импортируется в Чешскую Республику</titl>
+        </prop>
+        <prop name="typVzniku.nakoupeneVCr">
+            <titl>Приобретено в Чешской Республике</titl>
+        </prop>
+        <prop name="typVzniku.vyrobeneVCr">
+            <titl>Сделано в Чехии</titl>
+        </prop>
+        <prop name="typVztahu.dodavatel">
+            <titl>Поставщик</titl>
+        </prop>
+        <prop name="typVztahu.financniUrad">
+            <titl>Налоговый департамент</titl>
+        </prop>
+        <prop name="typVztahu.odberatel">
+            <titl>Клиент</titl>
+        </prop>
+        <prop name="typVztahu.odberDodav">
+            <titl>Клиент/Поставщ.</titl>
+        </prop>
+        <prop name="typVztahu.socialka">
+            <titl>Социалка</titl>
+        </prop>
+        <prop name="typVztahu.vsechno">
+            <titl>Всё</titl>
+        </prop>
+        <prop name="typVztahu.vyrobce">
+            <titl>Изготовитель</titl>
+        </prop>
+        <prop name="typVztahu.vyrobna">
+            <titl>Цех</titl>
+        </prop>
+        <prop name="typVztahu.zdravotka">
+            <titl>Мед. страховка</titl>
+        </prop>
+        <prop name="typZak.nevyrob">
+            <titl>непроизводственный</titl>
+        </prop>
+        <prop name="typZak.vyrob">
+            <titl>производственный</titl>
+        </prop>
+        <prop name="typZasoby.material">
+            <titl>Материал</titl>
+        </prop>
+        <prop name="typZasoby.nedvyroba">
+            <titl>Недоконченное производство</titl>
+        </prop>
+        <prop name="typZasoby.polotovar">
+            <titl>Заготовка</titl>
+        </prop>
+        <prop name="typZasoby.poplatek">
+            <titl>Начисление</titl>
+        </prop>
+        <prop name="typZasoby.sluzba">
+            <titl>Услуга</titl>
+        </prop>
+        <prop name="typZasoby.vyrobek">
+            <titl>Изделие</titl>
+        </prop>
+        <prop name="typZasoby.zbozi">
+            <titl>Товар</titl>
+        </prop>
+        <prop name="typZasoby.zvire">
+            <titl>Животное</titl>
+        </prop>
+        <prop name="ucelCertK.eet">
+            <titl>Сертификат для EET</titl>
+        </prop>
+        <prop name="ucelCertK.finbricks">
+            <titl>###Privátní klíč pro Finbricks</titl>
+        </prop>
+        <prop name="ucelCertK.osobni">
+            <titl>Персональный сертификат</titl>
+        </prop>
+        <prop name="zamek.otevreno">
+            <titl>Открыто</titl>
+        </prop>
+        <prop name="zamek.polozamceno">
+            <titl>Закрыто кроме бухгалтера</titl>
+        </prop>
+        <prop name="zamek.prohlednuto">
+            <titl>Рассмотрено</titl>
+        </prop>
+        <prop name="zamek.zamceno">
+            <titl>Блокировано</titl>
+        </prop>
+        <prop name="zaokrJak.dolu">
+            <titl>вниз</titl>
+        </prop>
+        <prop name="zaokrJak.matem">
+            <titl>математически</titl>
+        </prop>
+        <prop name="zaokrJak.nahoru">
+            <titl>вверх</titl>
+        </prop>
+        <prop name="zaokrNa.5desetiny">
+            <titl>0.5</titl>
+        </prop>
+        <prop name="zaokrNa.5jednotky">
+            <titl>5</titl>
+        </prop>
+        <prop name="zaokrNa.5setiny">
+            <titl>0.05</titl>
+        </prop>
+        <prop name="zaokrNa.desetiny">
+            <titl>0.1</titl>
+        </prop>
+        <prop name="zaokrNa.desitky">
+            <titl>10</titl>
+        </prop>
+        <prop name="zaokrNa.jednotky">
+            <titl>1</titl>
+        </prop>
+        <prop name="zaokrNa.setiny">
+            <titl>0.01</titl>
+        </prop>
+        <prop name="zaokrNa.stovky">
+            <titl>100</titl>
+        </prop>
+        <prop name="zaokrNa.tisice">
+            <titl>1000</titl>
+        </prop>
+        <prop name="zaokrNa.tisiciny">
+            <titl>0.001</titl>
+        </prop>
+        <prop name="zaokrNa.zadne">
+            <titl>неокруглять</titl>
+        </prop>
+        <prop name="zastupceTyp.fo">
+            <titl>Физическое лицо</titl>
+        </prop>
+        <prop name="zastupceTyp.po">
+            <titl>Юридическое лицо</titl>
+        </prop>
+        <prop name="zmenaPohybuRealizace">
+            <titl>Разрешить изменение спецификации типа движения для диспетчера/получателя, созданного на основе заказа/счета-фактуры</titl>
+        </prop>
+        <prop name="zobrazWebKompMod.auto">
+            <titl>Автоматический выбор</titl>
+        </prop>
+        <prop name="zobrazWebKompMod.browser">
+            <titl>Веб-браузер</titl>
+        </prop>
+        <prop name="zobrLogo.prizFormat">
+            <titl>Приспособиться формату</titl>
+        </prop>
+        <prop name="zobrLogo.prizFormatPomeryStran">
+            <titl>Приспособиться формату и сохранить соотношение сторон</titl>
+        </prop>
+        <prop name="zobrLogo.zachovVelikost">
+            <titl>Сохранить размер</titl>
+        </prop>
+        <prop name="zpusobFakt.dopredu">
+            <titl>Счет-фактура на аванс</titl>
+        </prop>
+        <prop name="zpusobFakt.zpetne">
+            <titl>Обратный счет-фактура</titl>
+        </prop>
+        <prop name="zpusobOdp.rocne">
+            <titl>% Каждый год</titl>
+        </prop>
+        <prop name="zpusobOdp.zar100">
+            <titl>100 %</titl>
+        </prop>
+        <prop name="zpusobOdp.zar5050">
+            <titl>50 % / 50 %</titl>
+        </prop>
+        <prop name="zpusobStahKurz.denne">
+            <titl>Каждый день</titl>
+        </prop>
+        <prop name="zpusobStahKurz.mesicne">
+            <titl>Каждый месяц</titl>
+        </prop>
+        <prop name="zpusobStahKurz.nikdy">
+            <titl>Не скачивать</titl>
+        </prop>
+        <prop name="zpusobStahKurz.rocne">
+            <titl>Каждый год</titl>
+        </prop>
+        <prop name="zpusobVypo.obrat">
+            <titl>оборот за период</titl>
+        </prop>
+        <prop name="zpusobVypo.obratDal">
+            <titl>кредиторский оборот за период</titl>
+        </prop>
+        <prop name="zpusobVypo.obratMd">
+            <titl>дебиторский оборот за период</titl>
+        </prop>
+        <prop name="zpusobVypo.stavKon">
+            <titl>состояние счёта в конце периода</titl>
+        </prop>
+        <prop name="zpusobVypo.stavPoc">
+            <titl>состояние счёта в начале периода</titl>
+        </prop>
+        <prop name="zvysZrych.proc0">
+            <titl>0 %</titl>
+        </prop>
+        <prop name="zvysZrych.proc10">
+            <titl>10 %</titl>
+        </prop>
+        <prop name="zvysZrych.proc15">
+            <titl>15 %</titl>
+        </prop>
+        <prop name="zvysZrych.proc20">
+            <titl>20 %</titl>
+        </prop>
+    </dials>
+</config>

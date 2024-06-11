@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/de/lang.mzdy.dials.de.xml
+   Created on  : 25. 04. 2024, 08:32
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dials>
+        <prop name="csszDuvodNeposkytnuti.01">
+            <titl>1 - Tod des Versicherten</titl>
+        </prop>
+        <prop name="csszDuvodNeposkytnuti.02">
+            <titl>2 - Altersrente oder unversicherte Beschäftigung</titl>
+        </prop>
+        <prop name="csszDuvodNeposkytnuti.03">
+            <titl>3 - ausgewählte Stellen</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.01">
+            <titl>1 - Beendigung des PP eines Ausländers oder eines Staatenlosen (§ 48/3)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.02">
+            <titl>2 - Durch Vereinbarung mit dem Arbeitgeber (§ 49)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.03">
+            <titl>3 - Kündigung durch den Arbeitnehmer (§ 50/3)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.04">
+            <titl>4 - Grund für die Organisation (§ 52/a-c)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.05">
+            <titl>5 - Gesundheitliche Gründe (§ 52/e, § 56/1a)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.05d">
+            <titl>5 - Gesundheitliche Gründe (§ 52/d)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.06">
+            <titl>6 - Der Arbeitnehmer erfüllt nicht die Voraussetzungen oder Anforderungen für die Ausführung der vereinbarten Arbeit (§ 52/f)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.07">
+            <titl>7 - Besonders schwerwiegende Pflichtverletzung durch einen Arbeitnehmer (§ 52/g, erster Teil des Satzes oder § 55/1b)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.08">
+            <titl>8 - Ständiges geringfügiges Fehlverhalten eines Arbeitnehmers (§ 52/g, zweiter Teil des Satzes )</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.09">
+            <titl>9 - Besonders schwerer Verstoß gegen die Regelung der vorübergehenden Arbeitsunfähigkeit (§ 52/h)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.10">
+            <titl>10 - Sofortige Beendigung des Arbeitsverhältnisses aufgrund einer rechtskräftigen Verurteilung wegen einer vorsätzlichen Straftat (§ 55/1a)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.11">
+            <titl>11 - Verstoß des Arbeitgebers gegen eine wesentliche Pflicht (§ 56/1b)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.12">
+            <titl>12 - Befristung (§ 65)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.13">
+            <titl>13 - Bewährung durch den Arbeitgeber (§ 66)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.14">
+            <titl>14 - Angestellte auf Probe (§ 66)</titl>
+        </prop>
+        <prop name="csszDuvodUkonceni.15">
+            <titl>15 - Sonstiges</titl>
+        </prop>
+        <prop name="duvodSlevaSpFirma.a">
+            <titl>###a) osoba starší 55 let</titl>
+        </prop>
+        <prop name="duvodSlevaSpFirma.b">
+            <titl>###b) péče o dítě mladší 10 let, jehož je rodičem</titl>
+        </prop>
+        <prop name="duvodSlevaSpFirma.c">
+            <titl>###c) péče o osobu blízkou mladší 10 let</titl>
+        </prop>
+        <prop name="duvodSlevaSpFirma.d">
+            <titl>###d) příprava na budoucí povolání studiem</titl>
+        </prop>
+        <prop name="duvodSlevaSpFirma.e">
+            <titl>###e) nejdéle před 12 měsíci absolvoval rekvalifikaci</titl>
+        </prop>
+        <prop name="duvodSlevaSpFirma.f">
+            <titl>###f) osoba se zdravotním postižením</titl>
+        </prop>
+        <prop name="duvodSlevaSpFirma.g">
+            <titl>###g) osoba mladší 21 let</titl>
+        </prop>
+        <prop name="mzdCalcOper.krat">
+            <titl>mal (Out = In * Koef1 * Out + Koef2)</titl>
+        </prop>
+        <prop name="mzdCalcOper.lomeno">
+            <titl>durch (Out = In * Koef1 / Out)</titl>
+        </prop>
+        <prop name="mzdCalcOper.max">
+            <titl>max (Out = max(In1*K1, In2*K2, Out*K3))</titl>
+        </prop>
+        <prop name="mzdCalcOper.mensi">
+            <titl>&lt; (Out = (In1 &lt; K1) then K2 else K3)</titl>
+        </prop>
+        <prop name="mzdCalcOper.mensiRovno">
+            <titl>&lt;= (Out = (In1 &lt;= K1) then K2 else K3)</titl>
+        </prop>
+        <prop name="mzdCalcOper.mensiRovnoIn">
+            <titl>###&lt;= (Out = (In1 &lt;= In2) then K1 else K2)</titl>
+        </prop>
+        <prop name="mzdCalcOper.min">
+            <titl>min (Out = min(In1*K1, In2*K2, Out*K3))</titl>
+        </prop>
+        <prop name="mzdCalcOper.plus">
+            <titl>plus (Out = In * Koef1 + Out * Koef2)</titl>
+        </prop>
+        <prop name="mzdCalcOper.rovno">
+            <titl>= (Out = (In1 = K1) then K2 else K3)</titl>
+        </prop>
+        <prop name="mzdCalcOper.rozdelPomer">
+            <titl>Verteilt In1 im Verhältnis In2 nach Out</titl>
+        </prop>
+        <prop name="mzdCalcOper.sinus">
+            <titl>sin (Out = sin(In1 * K1 + K2) * K3)</titl>
+        </prop>
+        <prop name="mzdCalcPlatnost.prvniCtvrtleti">
+            <titl>Das erste aktive Quartal des Arbeitsverhältnisses</titl>
+        </prop>
+        <prop name="mzdCalcPlatnost.prvniMesic">
+            <titl>Der erste aktive Monat des Arbeitsverhältnisses</titl>
+        </prop>
+        <prop name="mzdCalcPlatnost.prvniRok">
+            <titl>Das erste aktive Jahr des Arbeitsverhältnisses</titl>
+        </prop>
+        <prop name="mzdCalcPlatnost.vzdy">
+            <titl>Immer</titl>
+        </prop>
+        <prop name="mzdCalcPlatnost.zacatekPrvniRok">
+            <titl>Das erste Jahr des Arbeitsverhältnisses nach Beginn</titl>
+        </prop>
+        <prop name="mzdCalcSuma.konecPredchoziRok">
+            <titl>Monate Ende letztes Jahr</titl>
+        </prop>
+        <prop name="mzdCalcSuma.obdobi">
+            <titl>Aufteilung des Jahres in Perioden mit der eingegebenen Zahl der Monate</titl>
+        </prop>
+        <prop name="mzdCalcSuma.obdobiAkt">
+            <titl>Aufteilung des Jahres in Perioden, die eingegebene Zahl der Monate haben - aktuelle Periode des vorherigen Monats</titl>
+        </prop>
+        <prop name="mzdCalcSuma.obdProplat">
+            <titl>Monate, in denen der Monat der Zahlung mit dem aktuellen Monat übereinstimmt.</titl>
+        </prop>
+        <prop name="mzdCalcSuma.predchozi">
+            <titl>Die angegebene Zahl der vorherigen Monate</titl>
+        </prop>
+        <prop name="mzdCalcSuma.rokPred">
+            <titl>Vorherige Monate</titl>
+        </prop>
+        <prop name="mzdCalcZdroj.nastaveni">
+            <titl>Einstellung</titl>
+        </prop>
+        <prop name="mzdCalcZdroj.osoba">
+            <titl>Person</titl>
+        </prop>
+        <prop name="mzdCalcZdroj.ostatni">
+            <titl>Sonstige</titl>
+        </prop>
+        <prop name="mzdCalcZdroj.pracPom">
+            <titl>Arbeitsverhältnis</titl>
+        </prop>
+        <prop name="mzdCalcZpracDatum.denVroce">
+            <titl>Wievielter Tag im Jahr - 0 ausserhalb des aktuellen Jahres</titl>
+        </prop>
+        <prop name="mzdCalcZpracDatum.denVroceKon">
+            <titl>Fortlaufender Tag des Jahres - Enddatum</titl>
+        </prop>
+        <prop name="mzdCalcZpracDatum.denVrocePoc">
+            <titl>Fortlaufender Tag des Jahres - Startdatum</titl>
+        </prop>
+        <prop name="mzdCalcZpracDatum.mesic">
+            <titl>Monat im Jahr - 0 ausserhalb des aktuellen Jahres</titl>
+        </prop>
+        <prop name="mzdCalcZpracDatum.mesicNaslPoc">
+            <titl>Der nächste folgende Monatsanfang - Monat - 0 ausserhalb des aktuellen Jahres</titl>
+        </prop>
+        <prop name="mzdCalcZpracDatum.mesicPredKon">
+            <titl>Das erste nichtvollständige Monat im Jahr - 0 ausserhalb des aktuellen Jahres</titl>
+        </prop>
+        <prop name="mzdCalcZpracDatum.rozdilPracDnu">
+            <titl>Differenz in Arbeitstagen</titl>
+        </prop>
+        <prop name="plneniOdprDoby.automaticky">
+            <titl>Automatisch</titl>
+        </prop>
+        <prop name="plneniOdprDoby.rucne">
+            <titl>Manuell</titl>
+        </prop>
+        <prop name="pohlavi.muz">
+            <titl>Mann</titl>
+        </prop>
+        <prop name="pohlavi.zena">
+            <titl>Frau</titl>
+        </prop>
+        <prop name="pracRozvrh.nepravidelny">
+            <titl>Unregelmässig</titl>
+        </prop>
+        <prop name="pracRozvrh.pravidelny">
+            <titl>Regelmässig</titl>
+        </prop>
+        <prop name="rodStav.druh">
+            <titl>Gefährte/ Gefährtin</titl>
+        </prop>
+        <prop name="rodStav.registrPartner">
+            <titl>Eingetragene Partner</titl>
+        </prop>
+        <prop name="rodStav.rozvedeny">
+            <titl>Geschieden</titl>
+        </prop>
+        <prop name="rodStav.svobodny">
+            <titl>Ledig</titl>
+        </prop>
+        <prop name="rodStav.vdana_zenaty">
+            <titl>Verheiratet</titl>
+        </prop>
+        <prop name="rodStav.vdovec">
+            <titl>Verwitwet</titl>
+        </prop>
+        <prop name="skupinaSlozky.benefity">
+            <titl>###Benefity</titl>
+        </prop>
+        <prop name="skupinaSlozky.dan">
+            <titl>Steuer</titl>
+        </prop>
+        <prop name="skupinaSlozky.danSleva">
+            <titl>Steuerabzug</titl>
+        </prop>
+        <prop name="skupinaSlozky.doba">
+            <titl>Arbeitszeitfond</titl>
+        </prop>
+        <prop name="skupinaSlozky.duchod">
+            <titl>Rente</titl>
+        </prop>
+        <prop name="skupinaSlozky.hrubaMzda">
+            <titl>Bruttolohn</titl>
+        </prop>
+        <prop name="skupinaSlozky.ispvFirma">
+            <titl>Lohninformationssystem - Firma</titl>
+        </prop>
+        <prop name="skupinaSlozky.ispvZamestnanec">
+            <titl>Lohninformationssystem - Arbeitnehmer</titl>
+        </prop>
+        <prop name="skupinaSlozky.nemocNahrad">
+            <titl>Ersatz Krankheit</titl>
+        </prop>
+        <prop name="skupinaSlozky.nepritKaran">
+            <titl>Abwesenheit - Quarantäne</titl>
+        </prop>
+        <prop name="skupinaSlozky.nepritNemoc">
+            <titl>Abwesenheit - Krankheit</titl>
+        </prop>
+        <prop name="skupinaSlozky.nepritNeplac">
+            <titl>Abwesenheit - nicht bezahlt</titl>
+        </prop>
+        <prop name="skupinaSlozky.nepritomnost">
+            <titl>Abwesenheit</titl>
+        </prop>
+        <prop name="skupinaSlozky.odmeny">
+            <titl>Belohnungen</titl>
+        </prop>
+        <prop name="skupinaSlozky.ostatNahrad">
+            <titl>andere Ersatzleistungen</titl>
+        </prop>
+        <prop name="skupinaSlozky.priplatky">
+            <titl>Lohnzuschlag</titl>
+        </prop>
+        <prop name="skupinaSlozky.prispevky">
+            <titl>###Příspěvky</titl>
+        </prop>
+        <prop name="skupinaSlozky.socPoj">
+            <titl>Sozialversicherung</titl>
+        </prop>
+        <prop name="skupinaSlozky.srazky">
+            <titl>Abzüge</titl>
+        </prop>
+        <prop name="skupinaSlozky.vyneti">
+            <titl>Herausnehmen</titl>
+        </prop>
+        <prop name="skupinaSlozky.vyplata">
+            <titl>Auszahlung</titl>
+        </prop>
+        <prop name="skupinaSlozky.zakladMzda">
+            <titl>Grundlohn</titl>
+        </prop>
+        <prop name="skupinaSlozky.zaloha">
+            <titl>Vorschuss</titl>
+        </prop>
+        <prop name="skupinaSlozky.zdravPoj">
+            <titl>Krankenversicherung</titl>
+        </prop>
+        <prop name="typDuchodu.invalidniCast">
+            <titl>Teilinvalidenrente</titl>
+        </prop>
+        <prop name="typDuchodu.invalidniPlny">
+            <titl>Vollinvalidenrente</titl>
+        </prop>
+        <prop name="typDuchodu.sirotci">
+            <titl>Waisenrente</titl>
+        </prop>
+        <prop name="typDuchodu.starobni">
+            <titl>Altersrente</titl>
+        </prop>
+        <prop name="typDuchodu.starobniPredcas">
+            <titl>Vorzeitige Altersrente</titl>
+        </prop>
+        <prop name="typDuchodu.vdovecky">
+            <titl>Witwerrente</titl>
+        </prop>
+        <prop name="typDuchodu.vdovsky">
+            <titl>Witwenrente</titl>
+        </prop>
+        <prop name="typEldp.01">
+            <titl>Arbeitsverhältnis dauert</titl>
+        </prop>
+        <prop name="typEldp.02">
+            <titl>Arbeitsverhältnis beendet</titl>
+        </prop>
+        <prop name="typEldp.03">
+            <titl>Arbeitsverhältnis beendet - Tod</titl>
+        </prop>
+        <prop name="typEldp.51">
+            <titl>Korrektur: Arbeitsverhältnis dauert</titl>
+        </prop>
+        <prop name="typEldp.52">
+            <titl>Korrektur: Arbeitsverhältnis beendet</titl>
+        </prop>
+        <prop name="typEldp.53">
+            <titl>Korrektur: Arbeitsverhältnis beendet - Tod</titl>
+        </prop>
+        <prop name="typEldp.91">
+            <titl>Rekonstruiert: Arbeitsverhältnis dauert</titl>
+        </prop>
+        <prop name="typEldp.92">
+            <titl>Rekonstruiert: Arbeitsverhältnis beendet</titl>
+        </prop>
+        <prop name="typEldp.93">
+            <titl>Rekonstruiert: Arbeitsverhältnis beendet - Tod</titl>
+        </prop>
+        <prop name="typMzdy.hodinova">
+            <titl>Stundenlohn</titl>
+        </prop>
+        <prop name="typMzdy.jina">
+            <titl>Andere</titl>
+        </prop>
+        <prop name="typMzdy.mesicni">
+            <titl>Monatsgehalt</titl>
+        </prop>
+        <prop name="typMzdy.podilova">
+            <titl>Anteillohn</titl>
+        </prop>
+        <prop name="typMzdy.smisena">
+            <titl>Gemischte</titl>
+        </prop>
+        <prop name="typMzdy.ukolova">
+            <titl>Akkordlohn</titl>
+        </prop>
+        <prop name="typOdecitPol.dite">
+            <titl>Kind</titl>
+        </prop>
+        <prop name="typOdecitPol.invalCast">
+            <titl>Teilinvaliditätsrente</titl>
+        </prop>
+        <prop name="typOdecitPol.invalPlny">
+            <titl>Vollinvaliditätsrente</titl>
+        </prop>
+        <prop name="typOdecitPol.manzel">
+            <titl>Für Ehefrau/Ehemann</titl>
+        </prop>
+        <prop name="typOdecitPol.poplatnik">
+            <titl>Auf Steuerzahler</titl>
+        </prop>
+        <prop name="typOdecitPol.student">
+            <titl>Student</titl>
+        </prop>
+        <prop name="typOdecitPol.ztpP">
+            <titl>Schwerbehindert Grad 100%</titl>
+        </prop>
+        <prop name="typSlozky.dlouhodobNep">
+            <titl>Langzeitabwesenheit</titl>
+        </prop>
+        <prop name="typSlozky.info">
+            <titl>Info</titl>
+        </prop>
+        <prop name="typSlozky.inicializace">
+            <titl>Initialisierungskomponente</titl>
+        </prop>
+        <prop name="typSlozky.kopie">
+            <titl>Posten entstand aufgrund der Kopie von einer anderen Liste.</titl>
+        </prop>
+        <prop name="typSlozky.vstup">
+            <titl>Komponente wird von dem Anwender eingegeben</titl>
+        </prop>
+        <prop name="typSlozky.vypocet">
+            <titl>Die Komponente wird automatisch generiert.</titl>
+        </prop>
+        <prop name="typVztahuOsoba.externi">
+            <titl>Externe Person</titl>
+        </prop>
+        <prop name="typVztahuOsoba.uchazec">
+            <titl>Bewerber</titl>
+        </prop>
+        <prop name="typVztahuOsoba.zamestnanec">
+            <titl>Arbeitnehmer</titl>
+        </prop>
+        <prop name="vyznamSlozky.bezneNahrady">
+            <titl>Geläufige Ersatzleistungen</titl>
+        </prop>
+        <prop name="vyznamSlozky.cistaMzda">
+            <titl>Nettolohn</titl>
+        </prop>
+        <prop name="vyznamSlozky.dan">
+            <titl>Steuer</titl>
+        </prop>
+        <prop name="vyznamSlozky.danBonus">
+            <titl>Steuerbonus</titl>
+        </prop>
+        <prop name="vyznamSlozky.danRezident">
+            <titl>Steuer - Inländer</titl>
+        </prop>
+        <prop name="vyznamSlozky.danSlevPrac">
+            <titl>Rabatt - Steuerzahler</titl>
+        </prop>
+        <prop name="vyznamSlozky.danSlevSum">
+            <titl>Steuerabzug insgesamt</titl>
+        </prop>
+        <prop name="vyznamSlozky.danSrazka">
+            <titl>Abzugssteuer</titl>
+        </prop>
+        <prop name="vyznamSlozky.danVypocet">
+            <titl>Steuerberechnung</titl>
+        </prop>
+        <prop name="vyznamSlozky.danZaklSraz">
+            <titl>Abzugssteuerbemessungsgrundlage für Arbeitsverhältnis</titl>
+        </prop>
+        <prop name="vyznamSlozky.danZaklSrazSum">
+            <titl>Abzugssteuerbemessungsgrundlage</titl>
+        </prop>
+        <prop name="vyznamSlozky.danZaklSum">
+            <titl>Steuerbemessungsgrundlage</titl>
+        </prop>
+        <prop name="vyznamSlozky.danZaloha">
+            <titl>Steuervorschuss - Ergebnis nach Ermässigungen und Korrekturen</titl>
+        </prop>
+        <prop name="vyznamSlozky.dobaDovol">
+            <titl>Urlaub</titl>
+        </prop>
+        <prop name="vyznamSlozky.dobaFond">
+            <titl>Arbeitszeitfonds</titl>
+        </prop>
+        <prop name="vyznamSlozky.dobaNeodpr">
+            <titl>Nicht geleistete Arbeitszeit insgesamt</titl>
+        </prop>
+        <prop name="vyznamSlozky.dobaOdpr">
+            <titl>Geleistete Arbeitszeit insgesamt</titl>
+        </prop>
+        <prop name="vyznamSlozky.dobirka">
+            <titl>Nachzahlung</titl>
+        </prop>
+        <prop name="vyznamSlozky.dovolPocatek">
+            <titl>Urlaub Anfang</titl>
+        </prop>
+        <prop name="vyznamSlozky.dovolVybrano">
+            <titl>Bezogener Urlaub insgesamt</titl>
+        </prop>
+        <prop name="vyznamSlozky.dovolZbyva">
+            <titl>Resturlaub im Jahr</titl>
+        </prop>
+        <prop name="vyznamSlozky.hrubaMzda">
+            <titl>Bruttolohn</titl>
+        </prop>
+        <prop name="vyznamSlozky.hrubaPrumer">
+            <titl>Grundlage für Durchschnittslohn</titl>
+        </prop>
+        <prop name="vyznamSlozky.mzdaMesicni">
+            <titl>Monatsgehalt</titl>
+        </prop>
+        <prop name="vyznamSlozky.mzdaNahrada">
+            <titl>Lohnersatz</titl>
+        </prop>
+        <prop name="vyznamSlozky.nahradaNeschop">
+            <titl>Lohnersatz im Falle der Arbeitsunfähigkeit</titl>
+        </prop>
+        <prop name="vyznamSlozky.nemoc">
+            <titl>Krankheit</titl>
+        </prop>
+        <prop name="vyznamSlozky.nepBenefity">
+            <titl>###Nepeněžní benefity</titl>
+        </prop>
+        <prop name="vyznamSlozky.nepenezPrijmy">
+            <titl>Sachbezüge</titl>
+        </prop>
+        <prop name="vyznamSlozky.nepritCelk">
+            <titl>Nicht geleistete Arbeitszeit - Abwesenheit</titl>
+        </prop>
+        <prop name="vyznamSlozky.nocniPripl">
+            <titl>Zuschlag für Nachtarbeit</titl>
+        </prop>
+        <prop name="vyznamSlozky.odmeny">
+            <titl>Belohnungen</titl>
+        </prop>
+        <prop name="vyznamSlozky.podilNaZisku">
+            <titl>Gewinnanteil</titl>
+        </prop>
+        <prop name="vyznamSlozky.pracPracPrum">
+            <titl>Arbeitsrechtlicher Stundendurchschnitt</titl>
+        </prop>
+        <prop name="vyznamSlozky.premiePevna">
+            <titl>Prämie fixe Summe</titl>
+        </prop>
+        <prop name="vyznamSlozky.premieProc">
+            <titl>Prämie % vom Grundlohn</titl>
+        </prop>
+        <prop name="vyznamSlozky.premieProcUkaz">
+            <titl>Prämie % von der Kennziffer / Grundlage</titl>
+        </prop>
+        <prop name="vyznamSlozky.prescas">
+            <titl>Lohn für Überzeitstunden</titl>
+        </prop>
+        <prop name="vyznamSlozky.prescasPripl">
+            <titl>Zuschlag für Überzeitstunden</titl>
+        </prop>
+        <prop name="vyznamSlozky.prescasy">
+            <titl>Geleistet - davon Überzeitstunden</titl>
+        </prop>
+        <prop name="vyznamSlozky.prispevky">
+            <titl>###Příspěvky</titl>
+        </prop>
+        <prop name="vyznamSlozky.prispevkySporStari">
+            <titl>###Příspěvky spoř. na stáří</titl>
+        </prop>
+        <prop name="vyznamSlozky.prispIzolacka">
+            <titl>Beitrag - Izolačka</titl>
+        </prop>
+        <prop name="vyznamSlozky.prostrediPripl">
+            <titl>###Příplatek za prostředí</titl>
+        </prop>
+        <prop name="vyznamSlozky.refundNeschop">
+            <titl>Erstattung - Lohnersatz bei Arbeitsunfähigkeit</titl>
+        </prop>
+        <prop name="vyznamSlozky.slevaDeti">
+            <titl>Rabatt Kinder</titl>
+        </prop>
+        <prop name="vyznamSlozky.slevaSpFirma">
+            <titl>###Sleva SP firma</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojCelk">
+            <titl>Sozialversicherung insgesamt</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojCelkDp">
+            <titl>Sozialversicherung insgesamt - nur Rentenversicherung</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojCelkSniz">
+            <titl>Sozialversicherung insgesamt vermindert</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojFirma">
+            <titl>Sozialversicherung - Firma</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojFirmaSniz">
+            <titl>Sozialversicherung für die Firma vermindert</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojFirmaSnizZap">
+            <titl>Sozialversicherung für die Firma vermindert - aktiviert</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojPrac">
+            <titl>Sozialversicherung - Arbeitnehmer</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojSleva">
+            <titl>Sozialversicherung - Ermässigung</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojZakl">
+            <titl>Grundlage für Sozialversicherung</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojZaklDp">
+            <titl>Grundlage für Sozialversicherung - nur Rentenversicherung</titl>
+        </prop>
+        <prop name="vyznamSlozky.socPojZaklSniz">
+            <titl>Bemessungsgrundlage für die Sozialversicherung - vermindert</titl>
+        </prop>
+        <prop name="vyznamSlozky.srazkaSporeni">
+            <titl>Sparen</titl>
+        </prop>
+        <prop name="vyznamSlozky.stravenky">
+            <titl>###Stravenky</titl>
+        </prop>
+        <prop name="vyznamSlozky.stravenkyDoLim">
+            <titl>###Stravenky do limitu</titl>
+        </prop>
+        <prop name="vyznamSlozky.stravenkyNadLim">
+            <titl>###Stravenky nad limit</titl>
+        </prop>
+        <prop name="vyznamSlozky.stravenkySrazka">
+            <titl>###Stravenky srážka zaměstnanec</titl>
+        </prop>
+        <prop name="vyznamSlozky.superhrubaMzda">
+            <titl>Super-Bruttolohn</titl>
+        </prop>
+        <prop name="vyznamSlozky.svatek">
+            <titl>Geleistet - davon Feiertage</titl>
+        </prop>
+        <prop name="vyznamSlozky.svatekNahrada">
+            <titl>Ersatz für Feiertage</titl>
+        </prop>
+        <prop name="vyznamSlozky.weekend">
+            <titl>Geleistet - davon samstags und sonntags</titl>
+        </prop>
+        <prop name="vyznamSlozky.zalohaMimoradna">
+            <titl>Sondervorauszahlung</titl>
+        </prop>
+        <prop name="vyznamSlozky.zalohaRadna">
+            <titl>Ordnungsmässiger Vorschuss</titl>
+        </prop>
+        <prop name="vyznamSlozky.zdravPojCelk">
+            <titl>Krankenversicherung insgesamt</titl>
+        </prop>
+        <prop name="vyznamSlozky.zdravPojFirma">
+            <titl>Krankenversicherung - Arbeitgeber</titl>
+        </prop>
+        <prop name="vyznamSlozky.zdravPojPrac">
+            <titl>Krankenversicherung - Arbeitnehmer</titl>
+        </prop>
+        <prop name="vyznamSlozky.zdravPojZakl">
+            <titl>Grundlage für Krankenversicherung</titl>
+        </prop>
+        <prop name="zpusobPlatby.adresa">
+            <titl>An die Adresse</titl>
+        </prop>
+        <prop name="zpusobPlatby.pokladna">
+            <titl>An der Kasse</titl>
+        </prop>
+        <prop name="zpusobPlatby.ucet">
+            <titl>Auf das Konto</titl>
+        </prop>
+    </dials>
+</config>

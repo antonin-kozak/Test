@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/sk/lang.ucto.license.sk.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <buttons>
+        <btn name="registerLicenseDialogRegister">
+            <titl>Registrovať</titl>
+        </btn>
+        <btn name="startLicenceDialogImportovat">
+            <titl>Nahrať licenciu</titl>
+        </btn>
+        <btn name="startLicenceDialogAktivovat">
+            <titl>Aktivácia bezplatnej verzie</titl>
+        </btn>
+        <btn name="startLicenceDialogBuy">
+            <titl>Kúpiť licenciu</titl>
+        </btn>
+        <btn name="startLicenceDialogRequestTest">
+            <titl>Vyskúšať na mesiac</titl>
+        </btn>
+        <btn name="startLicenceDialogRequestDev">
+            <titl>Požiadať o vývojársku licenciu</titl>
+        </btn>
+        <btn name="licenseDialogZavrit">
+            <titl>Zatvoriť</titl>
+        </btn>
+        <btn name="licenseDialogImportovat">
+            <titl>Importovať licenciu</titl>
+        </btn>
+        <btn name="licenseDialogRegister">
+            <titl>Registrovať</titl>
+        </btn>
+        <btn name="registerLicenseDialogNewsLetter">
+            <titl>Chcem dostávať informácie o nových verziách</titl>
+        </btn>
+        <btn name="licenseShowUsers">
+            <titl>Prihlásení používatelia</titl>
+        </btn>
+    </buttons>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="aktivaceProduktu">
+            <titl>Sprievodca aktiváciou produktu ABRA Flexi</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="licenceChybaPodepisovani">
+            <titl>Licenciu sa nepodarilo podpísať.</titl>
+        </msg>
+        <msg name="licenceChybaNacitani">
+            <titl>Pri načítání licencie nastala chyba.</titl>
+        </msg>
+        <msg name="licenceChybaStruktury">
+            <titl>Licencia má poškodenú štruktúru.</titl>
+        </msg>
+        <msg name="licencePrepsat">
+            <titl>Licencia už existuje. Prajete si ju prepísať?</titl>
+        </msg>
+        <msg name="licenceChybaVytvareni">
+            <titl>Pri vytváraní licencie nastala chyba.</titl>
+        </msg>
+        <msg name="licenceNeniPlatnyTyp">
+            <titl>Súbor s licenciou nie je platný. Je skutočne podpísaný?</titl>
+        </msg>
+        <msg name="licenceNeniPlatna">
+            <titl>Licencia nie je platná. Zadajte prosím platnú licenciu.</titl>
+        </msg>
+        <msg name="licenceNotOnPremisesServer">
+            <titl>Vaša licencia nepovoľuje prevádzku na vašom vlastnom serveri. Ak chcete zmeniť licenciu, obráťte sa na oddelenie predaja.</titl>
+        </msg>
+        <msg name="licenseProslaZaruka">
+            <titl>Licencii, ktorú sa snažíte nahrať, skončila záruka dňa %p. Aplikácia je ovšem novšia a preto nie je možné licenciu nahrať.</titl>
+        </msg>
+        <msg name="licenceImportDotaz">
+            <titl>Spustili ste súbor s licenciou ABRA Flexi. Prajete si ju naimportovať?</titl>
+        </msg>
+        <msg name="licenseImportTitleOk">
+            <titl>Licencia bola naimportovaná.</titl>
+        </msg>
+        <msg name="licenseImportMessageOk">
+            <titl>Licencia bola úspešne naimportovaná.</titl>
+        </msg>
+        <msg name="licenceCheckLimitChybaPriKontrole">
+            <titl>Nepodarilo sa vykonať kontrolu počtu záznamov podľa licencie.</titl>
+        </msg>
+        <msg name="licenceCheckLimitVycerpanNelzeNovyZaznam">
+            <titl>Nie je možné vytvoriť nový záznam.\nVaša licencia umožňuje v tomto module vytvoriť len %p záznamov.</titl>
+        </msg>
+        <msg name="licenceCheckLimitVycerpanNelzeNovyDoklad">
+            <titl>Nie je možné vytvoriť nový doklad.\nVaša licencia umožňuje v tomto module vytvoriť len %p dokladov.</titl>
+        </msg>
+        <msg name="licenceCheckValidToPrekrocenNaDokladech">
+            <titl>Licencia vyprší %p.\nNie je možné zadávať doklady s dátumom vystavenia následujúcom po tomto dátume.</titl>
+        </msg>
+        <msg name="licenceCheckUsersLimitVycerpan">
+            <titl>Nie je možné pridať ďalšieho používateľa.\nVaša licencia umožňuje spravovať len %p používateľov.</titl>
+        </msg>
+        <msg name="licenceCheckCompaniesLimitVycerpan">
+            <titl>Nie je možné pridať ďalšiu firmu.\nPodľa Vašej licencie môže byť maximálny počet založených firiem: %p.</titl>
+        </msg>
+        <msg name="licenceNeumoznujePodvojneUcetnictvi">
+            <titl>Snažíte sa vytvoriť firmu s podvojným účtovníctvom, ale licencia to neumožňuje.</titl>
+        </msg>
+        <msg name="licenceChybaPriOverovaniLicence">
+            <titl>Nastala nešpecifikovaná chyba pri overovaní licencie.</titl>
+        </msg>
+        <msg name="licenceCheckApplicationCount">
+            <titl>Bol prekročený maximálny počet používateľov povolených licencií.</titl>
+        </msg>
+        <msg name="licenceUzivatelPrihlasenYindeChceteYindeOdhlasit">
+            <titl>Ste prihlásený na inom zariadení. Chcete sa tam odhlásiť?</titl>
+        </msg>
+        <msg name="registerLicenseDialogPodekovaniTitle">
+            <titl>Registrácia prebehla úspešne</titl>
+        </msg>
+        <msg name="registerLicenseDialogPodekovaniText">
+            <titl>Ďakujeme za registráciu aplikácie ABRA Flexi Start.</titl>
+        </msg>
+        <msg name="registerLicenseDialogNotMandatory">
+            <titl>Musíte vyplniť všetky polia, u ktorých je popis s hviezdičkou.</titl>
+        </msg>
+        <msg name="registerLicenseDialogUnvalidEmail">
+            <titl>Neplatný formát e-mailu. Zadajte e-mail v tvare: meno@server.domena</titl>
+        </msg>
+        <msg name="registerLicenseDialogUnvalidTelephone">
+            <titl>Neplatný formát telefónu. Zadajte +420 XXX XXX XXX, kde X nahradzuje Vaše telefónne číslo.</titl>
+        </msg>
+        <msg name="registerLicenseDialogRegisterError">
+            <titl>Pri registrácii cez aplikáciu nastala chyba. Registrujte sa prosím cez webové rozhranie.</titl>
+        </msg>
+        <msg name="aktivaceProduktuTestNotMandatory">
+            <titl>Musíte vyplniť všetky polia jak predajného tak aktivačného kódu.</titl>
+        </msg>
+        <msg name="aktivaceProduktuNotMandatory">
+            <titl>Musíte vyplniť všetky tučne označené polia.</titl>
+        </msg>
+        <msg name="aktivaceProduktuJizProbehla">
+            <titl>Zadaný kód bol už raz aktivovaný.</titl>
+        </msg>
+        <msg name="aktivaceProduktuChybaServeru">
+            <titl>Aktiváciu nie je možné teraz uskutočniť. Skuste to, prosím, neskôr.</titl>
+        </msg>
+        <msg name="licenceNepodporujePristupSpecAplikaci">
+            <titl>Vaša licencia nepodporuje prístup špecializovanou aplikáciou.</titl>
+        </msg>
+        <msg name="urlBuy">
+            <titl>https://support.flexibee.eu/redirect/buy/</titl>
+        </msg>
+        <msg name="urlRequestTest">
+            <titl>https://support.flexibee.eu/redirect/buy/</titl>
+        </msg>
+        <msg name="urlRequestDev">
+            <titl>https://www.flexibee.eu/api/licence-pro-vyvojare/zadost-o-vyvojarskou-licenci/</titl>
+        </msg>
+        <msg name="importLicenseJenomLicenseMgmt">
+            <titl>Import licencie je povolený len používateľom s právom spravovať licencie.</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="licenseServiceNadpisKonci">
+            <titl>Licencia skoro vyprší.</titl>
+        </lb>
+        <lb name="licenseServiceNadpisNemaJinaVerze">
+            <titl>Import licencie</titl>
+        </lb>
+        <lb name="licenseServiceNadpisUzNeplatna">
+            <titl>Licencia už nie je platná.</titl>
+        </lb>
+        <lb name="licenseServiceNadpisJesteNeplatna">
+            <titl>Licencia ešte nie je platná.</titl>
+        </lb>
+        <lb name="licenseServiceNadpisMiniNeViceJazyku">
+            <titl>Licencia Mini nepovoľuje tento jazyk.</titl>
+        </lb>
+        <lb name="licenseServiceNadpisNeVzdalenyPristup">
+            <titl>Licencia nepovoľuje vzdialený prístup.</titl>
+        </lb>
+        <lb name="licenseServiceText1Konci">
+            <titl>Licencia, ktorú používate, vyprší dňa %p.</titl>
+        </lb>
+        <lb name="licenseServiceText1NemaJinaVerze">
+            <titl>Aplikácia nemá platnú licenciu.</titl>
+        </lb>
+        <lb name="licenseServiceText1UzNeplatna">
+            <titl>Platnosť licencie vypršala dňa %p.</titl>
+        </lb>
+        <lb name="licenseServiceText1JesteNeplatna">
+            <titl>Platnosť licencie začína dňa %p.</titl>
+        </lb>
+        <lb name="licenseServiceText2MiniNeViceJazyku">
+            <titl>Pre používanie ostatných jazykov si zakúpte licenciu z adresy:</titl>
+        </lb>
+        <lb name="licenseServiceText2MiniNeVzdalenyPristup">
+            <titl>Pre používanie vzdialeného prístupu si zakúpte licenciu z adresy:</titl>
+        </lb>
+        <lb name="licenseServiceText2Konci">
+            <titl>Požiadajte, prosím, o predĺženie licencie na adrese:</titl>
+        </lb>
+        <lb name="licenseServiceText2NemaJinaVerze">
+            <titl>Naimportujte licenciu, ktorú získáte na adrese:</titl>
+        </lb>
+        <lb name="licenseServiceText2UzNeplatna">
+            <titl>Získajte, prosím, novú licenciu na adrese:</titl>
+        </lb>
+        <lb name="licenseServiceLinkKonci">
+            <titl>http://www.flexibee.eu</titl>
+        </lb>
+        <lb name="licenseServiceLinkNemaJinaVerze">
+            <titl>http://www.flexibee.eu/licence</titl>
+        </lb>
+        <lb name="licenseServiceLinkUzNeplatna">
+            <titl>http://www.flexibee.eu/licence</titl>
+        </lb>
+        <lb name="licenseServiceLinkMiniNeViceJazyku">
+            <titl>http://www.flexibee.eu/licence</titl>
+        </lb>
+        <lb name="licenseServiceLinkMiniNeVzdalenyPristup">
+            <titl>http://www.flexibee.eu/licence</titl>
+        </lb>
+        <lb name="licenseServiceAcceptKonci">
+            <titl>Importovať licenciu</titl>
+        </lb>
+        <lb name="licenseServiceAcceptNemaJinaVerze">
+            <titl>Importovať licenciu</titl>
+        </lb>
+        <lb name="licenseServiceAcceptUzNeplatna">
+            <titl>Importovať novú licenciu</titl>
+        </lb>
+        <lb name="licenseServiceAcceptJesteNeplatna">
+            <titl>Importovať inú licenciu</titl>
+        </lb>
+        <lb name="licenseServiceAcceptMiniNeViceJazyku">
+            <titl>Importovať inú licenciu</titl>
+        </lb>
+        <lb name="licenseServiceAcceptMiniNeVzdalenyPristup">
+            <titl>Importovať inú licenciu</titl>
+        </lb>
+        <lb name="licenseServiceCancelUkonci">
+            <titl>Ukončiť aplikáciu</titl>
+        </lb>
+        <lb name="licenseServiceCancelPokracuj">
+            <titl>Pokračovať</titl>
+        </lb>
+        <lb name="licenseDialogNapis">
+            <titl>Licencia</titl>
+        </lb>
+        <lb name="licenseDialogVarianta">
+            <titl>Variant licencie:</titl>
+        </lb>
+        <lb name="licenseDialogRegistrovan">
+            <titl>Registrovanie pre:</titl>
+        </lb>
+        <lb name="licenseDialogCisloZakaznika">
+            <titl>Číslo zákazníka:</titl>
+        </lb>
+        <lb name="licenseDialogPlatnostDo">
+            <titl>Platnosť do:</titl>
+        </lb>
+        <lb name="licenseDialogZarukaDo">
+            <titl>Roční podpora do:</titl>
+        </lb>
+        <lb name="licenseDialogPronajemDo">
+            <titl>Prenájom do:</titl>
+        </lb>
+        <lb name="licenseDialogFirem">
+            <titl>Počet firiem:</titl>
+        </lb>
+        <lb name="licenseDialogAktualne">
+            <titl>Aktuálne:</titl>
+        </lb>
+        <lb name="licenseDialogPripojeno">
+            <titl>Pripojené:</titl>
+        </lb>
+        <lb name="licenseDialogUzivatelu">
+            <titl>Počet používaťeľov:</titl>
+        </lb>
+        <lb name="licenseDialogLicUzivatelu">
+            <titl>Počet licencovaných používateľov.:</titl>
+        </lb>
+        <lb name="licenseDialogOdkazAktHtml">
+            <titl>&lt;html&gt;Licenciu môžete aktualizovať&lt;br&gt;na adrese:&lt;html&gt;</titl>
+        </lb>
+        <lb name="licenseDialogOdkaz">
+            <titl>http://www.flexibee.eu</titl>
+        </lb>
+        <lb name="licenseUnlimited">
+            <titl>Neobmedzené</titl>
+        </lb>
+        <lb name="licenseNeuvedeno">
+            <titl>Neuvedené</titl>
+        </lb>
+        <lb name="licenseFileFilter">
+            <titl>Súbory s licenciou</titl>
+        </lb>
+        <lb name="licenseKonciTitle">
+            <titl>Licencia vyprší %p</titl>
+        </lb>
+        <lb name="registerLicenseDialogAdress">
+            <titl>Adresa:</titl>
+        </lb>
+        <lb name="registerLicenseDialogCompany">
+            <titl>Spoločnosť:</titl>
+        </lb>
+        <lb name="registerLicenseDialogEmail">
+            <titl>E-mail:</titl>
+        </lb>
+        <lb name="registerLicenseDialogFirstname">
+            <titl>Meno:</titl>
+        </lb>
+        <lb name="registerLicenseDialogJobPosition">
+            <titl>Pozícia:</titl>
+        </lb>
+        <lb name="registerLicenseDialogFillDataRequest">
+            <titl>Vyplňte, prosím, následujúce údaje:</titl>
+        </lb>
+        <lb name="registerLicenseDialogSurname">
+            <titl>Priezvisko:</titl>
+        </lb>
+        <lb name="registerLicenseDialogTelephone">
+            <titl>Telefón:</titl>
+        </lb>
+        <lb name="registerLicenseDialogTitle">
+            <titl>Registrácia ABRA Flexi Start</titl>
+        </lb>
+        <lb name="registerLicenseDialogZipcode">
+            <titl>PSČ:</titl>
+        </lb>
+        <lb name="registerLicenseDialogInfo">
+            <titl>Práve používate neregistrovanú aplikáciu ABRA Flexi Start. Registráciou získate možnost evidovať viac položiek a tiež automaticky získavať informácie o nových verziách programu.</titl>
+        </lb>
+        <lb name="registerLicenseDialogStartRegisterLink">
+            <titl>support.flexibee.eu/redirect/register-start/</titl>
+        </lb>
+        <lb name="registerLicenseDialogStartLicenseServerLink">
+            <titl>http://support.flexibee.eu/remote/register/start/</titl>
+        </lb>
+        <lb name="startLicenceDialogNadpis">
+            <titl>Neregistrovaná verzia</titl>
+        </lb>
+        <lb name="startLicenceDialogKoupit">
+            <titl>Kúpiť aplikáciu</titl>
+        </lb>
+        <lb name="startLicenceDialogTextImportovatNeboAktivovat">
+            <titl>Pokial licenčný súbor nevlastníte, tak po zadanie IČO móžete:</titl>
+        </lb>
+        <lb name="startLicenceDialogTextImportovat">
+            <titl>Ak už máte licenciu zakúpenú, nahrajte ju do aplikácie.</titl>
+        </lb>
+        <lb name="startLicenceDialogTextInfo">
+            <titl>Vykonali ste inštaláciu účtovného software ABRA Flexi.\nĎalším krokom je zadanie licenčného súboru:</titl>
+        </lb>
+        <lb name="startLicenceDialogContactSales">
+            <titl>Ak nemáte IČO, kontaktujte prosím obchodné oddelenie</titl>
+        </lb>
+        <lb name="startLicenceDialogKoupitLink">
+            <titl>http://www.flexibee.eu/licence/</titl>
+        </lb>
+        <lb name="startLicenceDialogImportovatTooltip">
+            <titl>Umožní vybrať licenčný súbor.</titl>
+        </lb>
+        <lb name="buyLicenceDialogKoupit">
+            <titl>Vo verzii Start môžete vykonávať všetky operácie s obmedzeným počtom záznamov. Všetky obmedzenia odstraníte zakúpením aplikácie.</titl>
+        </lb>
+        <lb name="aktivaceProduktuNadpis">
+            <titl>Aktivácia produktu pomocou aktivačného kódu</titl>
+        </lb>
+        <lb name="aktivaceProduktuKontrolaProlog">
+            <titl>Ak ste zakúpili produkt v kamennej predajni, je nutné ho aktivovať. Budete tak môcť využívať technickú podporu a získavať aktualizácie.</titl>
+        </lb>
+        <lb name="aktivaceProduktuVyzva">
+            <titl>Zadanie aktivačného kódu</titl>
+        </lb>
+        <lb name="aktivaceProduktuProdejKod">
+            <titl>Predajný kód:</titl>
+        </lb>
+        <lb name="aktivaceProduktuAktivaceKod">
+            <titl>Aktivačný kód:</titl>
+        </lb>
+        <lb name="aktivaceProduktuAktivaceProlog">
+            <titl>Aby sme Vám mohli poskytnúť technickú podporu a aktualizácie aplikácie, potrebujeme vyplniť následujúce informácie.</titl>
+        </lb>
+        <lb name="aktivaceProduktuIc">
+            <titl>IČO:</titl>
+        </lb>
+        <lb name="aktivaceProduktuDic">
+            <titl>DIČ:</titl>
+        </lb>
+        <lb name="aktivaceProduktuMesto">
+            <titl>Mesto:</titl>
+        </lb>
+        <lb name="aktivaceProduktuServerLink">
+            <titl>support.flexibee.eu/remote/activation/</titl>
+        </lb>
+    </labels>
+</config>

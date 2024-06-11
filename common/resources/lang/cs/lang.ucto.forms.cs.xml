@@ -1,0 +1,2073 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : ../common/etc/resources/lang/cs/lang.ucto.forms.cs.xml
+   Created on  : 04. 07. 2013, 17:25
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>SNAPSHOT</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <formsInfo>
+        <fi name="root000">
+            <titl>ABRA Flexi</titl>
+        </fi>
+        <fi name="desktop000">
+            <titl>Pracovní plocha</titl>
+        </fi>
+        <fi name="dashboard000">
+            <titl>Přehledy</titl>
+            <icon>win/dashboard.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="gdpr000">
+            <titl>GDPR</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="dashboard">
+            <titl>Přehled</titl>
+            <icon>win/dashboard-vlastni.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="dashboard000-konkretni">
+            <titl>Přehledy</titl>
+            <icon>win/dashboard-konkretni.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="dashboard-konkretni">
+            <titl>Přehled</titl>
+            <icon>win/dashboard-vlastni-konkretni.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="test000">
+            <titl>* TEST *</titl>
+        </fi>
+        <fi name="firma000">
+            <titl>Firma</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="novaFirma">
+            <titl>Nová firma</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="initFirmaWiz">
+            <titl>Průvodce nastavením firmy</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="novaFirmaWiz">
+            <titl>Založení nové firmy</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="noveSezeni">
+            <titl>Výběr firmy v novém okně</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="pravaFirma">
+            <titl>Práva k firmám</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="zmenaParFirmy">
+            <titl>Parametry firmy</titl>
+            <mnem>81</mnem>
+        </fi>
+        <fi name="vyberFirmyAction">
+            <titl>Výběr firmy</titl>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="zmenaUcetniObdobi000">
+            <titl>Změna nebo přidání účetního období</titl>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="zalohaDB">
+            <titl>Záloha firmy</titl>
+            <desc>Uložení zálohy dat na lokální počítač. Zálohu lze pak později obnovit i do systému ABRA Flexi.</desc>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="souKonec">
+            <titl>Ukončit aplikaci</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="nImport">
+            <titl>Import</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="importExcel">
+            <titl>Import z Excelu</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="importIsDoc">
+            <titl>Import e-faktury ISDOC</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="importXml">
+            <titl>Import z XML</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="opravSklad">
+            <titl>Přepočet skladu</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="realizujPozadavky">
+            <titl>Aktualizace požadavků na výdej</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="partneri000">
+            <titl>Obchodní partneři</titl>
+            <icon>win/obch-partneri.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="zbozi000">
+            <titl>Zboží</titl>
+            <icon>win/zbozi.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="prodej000">
+            <titl>Prodej</titl>
+            <icon>win/prodej.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="prodejTypy">
+            <titl>Typy dokladů</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="prodejTuo">
+            <titl>Předpisy zaúčtování</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="prodejRady">
+            <titl>Dokladové řady</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="nakup000">
+            <titl>Nákup</titl>
+            <icon>win/nakup.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="nakupTypy">
+            <titl>Typy dokladů</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="nakupTuo">
+            <titl>Předpisy zaúčtování</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="nakupRady">
+            <titl>Dokladové řady</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="penize000">
+            <titl>Peníze</titl>
+            <icon>win/penize.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="penizePolDokl">
+            <titl>Přehledy položek dokladů</titl>
+            <desc>Přehledy všech pohybů v jednotlivých seznamech bankovního a pokladního modulu. Jedná se o položky banky a pokladny. Pomocí standardní filtrace vytváříte přehledy položek uvedených dokladů nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na dokladech, ve kterém položky vznikaly.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="penizeTypy">
+            <titl>Typy dokladů</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="penizeTuo">
+            <titl>Předpisy zaúčtování</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="penizeRady">
+            <titl>Dokladové řady</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="majetek000">
+            <titl>Majetek</titl>
+            <icon>win/majetek.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="majetekTypy">
+            <titl>Typy</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="zamestnanc000">
+            <titl>Zaměstnanci</titl>
+            <icon>win/zamestnanci.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="ucetnictvi000">
+            <titl>Účetnictví</titl>
+            <icon>win/ucetnictvi.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="ucetnictviPolDokl">
+            <titl>Přehledy položek dokladů</titl>
+            <desc>Přehledy všech pohybů v jednotlivých seznamech interních dokladů, ostatních pohledávek a závazků. Jedná se o položky již zmíněných dokladů. Pomocí standardní filtrace vytváříte přehledy položek uvedených dokladů nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na dokladech, ve kterém položky vznikaly.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="ucetnictviTypy">
+            <titl>Typy dokladů</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="ucetnictviTuo">
+            <titl>Předpisy zaúčtování</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="ucetnictviRady">
+            <titl>Dokladové řady</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="nastav000">
+            <titl>Nástroje</titl>
+            <mnem>74</mnem>
+        </fi>
+        <fi name="ucetniVystup000">
+            <titl>Účetní výstupy</titl>
+            <icon>win/logs.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="pomoc000">
+            <titl>Nápověda</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="poslatReakci">
+            <titl>Pošlete názor na ABRA Flexi</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="koupitWinStrom">
+            <titl>Koupit licenci</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="nabidkaDoplnku">
+            <titl>Nabídka doplňků</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="aktualLicenci">
+            <titl>Můj ABRA Flexi</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="weboveRozhrani">
+            <titl>Webové rozhraní</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="podpora">
+            <titl>Uživatelská podpora</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="oAplikaci">
+            <titl>O aplikaci ABRA Flexi</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="napoveda">
+            <titl>Nápověda k programu</titl>
+            <mnem>78</mnem>
+            <acck>112</acck>
+            <accm>0</accm>
+        </fi>
+        <fi name="casteDotazy">
+            <titl>Časté dotazy</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="nastavProgram">
+            <titl>Nastavení programu a modulů</titl>
+        </fi>
+        <fi name="uSazbyDph">
+            <titl>Sazby DPH</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="nNastav">
+            <titl>Nastavení</titl>
+            <desc>Nastavení základních údajů firmy, loga a razítka, legislativních parametrů a automatických operací.</desc>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="nCiselniky">
+            <titl>Číselníky</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="zodpOsoba">
+            <titl>Zodpovědná osoba</titl>
+        </fi>
+        <fi name="nUcetniObdobi">
+            <titl>Účetní období</titl>
+        </fi>
+        <fi name="ucDoklUcty">
+            <titl>Účtový rozvrh</titl>
+            <desc>Aktualizace účetního rozvrhu, nastavení vlastností standardní rozvahy a výkazu zisku a ztráty.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="ucPocObraty">
+            <titl>Počáteční stavy účtů</titl>
+            <icon>win/folder.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="intDokl">
+            <titl>Interní doklady</titl>
+            <desc>Aktualizace a vytváření interních účetních dokladů v nastaveném účetním období.</desc>
+            <icon>win/int-dok.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intDoklNovy">
+            <titl>Nový interní doklad</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="intPol">
+            <titl>Položky interních dokladů</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intRady">
+            <titl>Dokladové řady - interní doklady</titl>
+            <desc>Nastavení dokladových řad pro aktualizaci interních dokladů.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intTyp">
+            <titl>Typy interních dokladů</titl>
+            <desc>Typy interních dokladů umožňují nastavit základní parametry. Jedná se o zaúčtování, dokladové řady ... </desc>
+            <icon>win/typ-interni-doklad.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="adrDodavatel">
+            <titl>Dodavatelé</titl>
+            <desc>Aktualizace dodavatelů, kontaktů, událostí a bankovních spojení dodavatelů.</desc>
+            <icon>win/adresar.png</icon>
+        </fi>
+        <fi name="adrOdberatel">
+            <titl>Odběratelé</titl>
+            <desc>Aktualizace odběratelů kontaktů, událostí a bankovních spojení odběratelů.</desc>
+            <icon>win/adresar.png</icon>
+        </fi>
+        <fi name="adrSkupFir">
+            <titl>Skupiny firem</titl>
+            <icon>win/skupiny-firem.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="adrAdresarNovy">
+            <titl>Nová adresa firmy</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="adrAdresar">
+            <titl>Adresy firem</titl>
+            <desc>Aktualizace seznamu obchodních partnerů. U partnera  ukládáte kontakty nebo osoby včetně jejich funkcí a kontaktních údajů. Komunikaci se zákazníkem a jeho požadavky evidujete v seznamu událostí. Událostí rozumějme schůzku ve firmě, setkání na veletrhu, úkol zadaný vašemu zaměstnanci, zápis z jednání atd. Ke každé adrese, kontaktu či události můžete "přilepit" neomezené množství štítků a díky tomu lépe specifikovat jejich vlastnosti. Dalším úkolem štítků je možnost data filtrovat podle kombinací štíktů s ostatními údaji.</desc>
+            <icon>win/adresar.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="adrKontakty">
+            <titl>Kontakty</titl>
+            <desc>Seznam všech kontaktů, které máte evidovány u firem. V seznamu můžete vyhledávat kontakty podle zadaných kritérií napříč firmami. U každé firmy v aktualizačním formuláři vidíte kontakty vázané na konkrétní adresu. U kontaktu zadáváte firmu, funkci nebo hodnost, telefon, e-mail, poznámky a štíky pro zatřídění a vyhledávání kontaktu.</desc>
+            <icon>win/kontakty.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="adrUdalosti">
+            <titl>Události, aktivity</titl>
+            <desc>Seznam všech událostí / aktivit, které jsou spojeny s partnerem. Událost / aktivitu můžeme také chápat jako zápis z jednání s parnerem nebo také jako úkol, který je nutné splnit do určitého termínu. V editačním okně adresy vidíte seznam událostí vztažené k vybranému partnerovi. Dobře vedený seznam událostí umožní manažerovi firmy úkolování zaměstnanců a sledování stavu řešení.</desc>
+            <icon>win/udalosti.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="adrRuUdalosti">
+            <titl>Úkoly k realizaci</titl>
+            <desc>Seznam všech událostí z workflow</desc>
+            <icon>win/udalosti.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="adrNaklAkt">
+            <titl>Náklady na události / aktivity</titl>
+        </fi>
+        <fi name="adrTypAkt">
+            <titl>Typy událostí / aktivit</titl>
+            <desc>Uživatelské zadání typických událostí nebo aktivit ve vaší firmě.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="adrTypNaklAkt">
+            <titl>Typy nákladů na události / aktivity</titl>
+            <desc>Seznam všech typů nákladů souvisejícími s aktivitou nebo událostí. Obsahuje vazbu na ceník.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="adrBanSpoj">
+            <titl>Bankovní spojení</titl>
+        </fi>
+        <fi name="adrMistUrc">
+            <titl>Místa určení</titl>
+            <desc>Seznam všech míst určení.</desc>
+            <icon>win/mista-urceni.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="adrSmlAkt">
+            <titl>Odběratelské smlouvy</titl>
+            <desc>Seznam všech odběratelských smluv.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="adrSmlAktView">
+            <titl>Odběratelské smlouvy</titl>
+            <desc>Seznam všech odběratelských smluv.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="adrSmlDodavAkt">
+            <titl>Dodavatelské smlouvy</titl>
+            <desc>Seznam všech dodavatelských smluv.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="adrSmlDodavAktView">
+            <titl>Dodavatelské smlouvy</titl>
+            <desc>Seznam všech dodavatelských smluv.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="adrPolSml">
+            <titl>Položky smluv</titl>
+        </fi>
+        <fi name="adrPolSmlInt">
+            <titl>Standardní položky smluv</titl>
+        </fi>
+        <fi name="adrPolSmlExt">
+            <titl>Externí položky smluv</titl>
+        </fi>
+        <fi name="adrTypSml">
+            <titl>Typy odběratelských smluv</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="adrTypDodavSml">
+            <titl>Typy dodavatelských smluv</titl>
+            <icon>win/folder.png</icon>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="adrStavSml">
+            <titl>Stavy smluv</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="adrZurnalSml">
+            <titl>Žurnál pro smlouvy</titl>
+        </fi>
+        <fi name="adrDodavateleView">
+            <titl>Dodává zboží</titl>
+        </fi>
+        <fi name="adrOdberateleView">
+            <titl>Individuální ceny</titl>
+        </fi>
+        <fi name="cenSku">
+            <titl>Skupiny zboží a materiálu</titl>
+            <desc>Skupiny zboží a materiálu umožňují členit ceník do přehledných skupin společných vlastností. U skupiny můžete definovat její účtování při tvorbě dokladů, což při dobrém nastavení systému podstatně zjednoduší práci.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="cenSkupCen">
+            <titl>Ceníkové skupiny</titl>
+            <desc>Ceníkové skupiny</desc>
+            <icon>win/folder.png</icon>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="cenHlad">
+            <titl>Cenové úrovně</titl>
+            <desc>Cenové úrovně vytváří vazbu mezi skupinou zboží a skupinou odběratelů a tím jasně definovanou cenotvorbu.</desc>
+            <icon>win/cenove-urovne.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="cenAkt">
+            <titl>Ceník</titl>
+            <desc>Ceník obsahuje kompletní přehled zboží, materiálu a služeb. Položky ceníku členíte do skupin se společnými vlastnostmi. U zboží definujete jeho umístění ve skladech a tím automaticky vytváříte skladové karty. Ke každé položce ceníku můžete "přilepit" štítek. kombinace přilepených štítků podstatně zjednodušuje vyhledávání ve celkém seznamu. Štítky mohou mít účel specializovaných upozornění. </desc>
+            <icon>win/katalog.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="cenAktNovy">
+            <titl>Nová položka ceníku</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="cenSady">
+            <titl>Sady</titl>
+        </fi>
+        <fi name="cenPoplatky">
+            <titl>Poplatky</titl>
+        </fi>
+        <fi name="cenPodobne">
+            <titl>Podobné</titl>
+        </fi>
+        <fi name="cenSpec">
+            <titl>Speciální ceník</titl>
+        </fi>
+        <fi name="cenDodavatele">
+            <titl>Dodavatelé, nákupní ceny, stavy jejich skladů</titl>
+        </fi>
+        <fi name="cenDodavateleView">
+            <titl>Dodavatelé</titl>
+        </fi>
+        <fi name="cenOdberateleView">
+            <titl>Ceny pro odběratele/skupiny odběratelů, speciální kódy</titl>
+        </fi>
+        <fi name="cenEkoKom">
+            <titl>Evidence obalů EkoKom</titl>
+        </fi>
+        <fi name="sklInventura">
+            <titl>Inventury</titl>
+            <icon>win/computation.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="sklInventuraPol">
+            <titl>Položky inventur</titl>
+        </fi>
+        <fi name="sklTyp">
+            <titl>Typy skladových dokladů</titl>
+            <icon>win/seznam.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="sklKar">
+            <titl>Skladové karty</titl>
+            <desc>V ceníku se zakládají skladové karty. Vytvoříte položku ceníku a definujete umístění zboží nebo materiálu ve skladech. Zde máte přehled stavu skladu a pohybů na kartách včetně přehledných tisků.</desc>
+            <icon>win/skladove-karty.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="sklAkt">
+            <titl>Příjemky/výdejky</titl>
+            <desc>Vytváření skladových dokladů a jejich aktualizace. Seznam skladů obsahuje základní parametry pro účtování dokladů. Výdejky a příjemky mohou automaticky vznikat při tvorbě faktury vydané respektive přijaté. Tlačítko "Vazby" ukáže navázané doklady k aktuální položce seznamu</desc>
+            <icon>win/prijem-vydej.png</icon>
+            <mnem>74</mnem>
+        </fi>
+        <fi name="sklVyrCis">
+            <titl>Výrobní čísla</titl>
+            <desc>Přehled výrobních čísel</desc>
+            <icon>win/generate.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="sklVyrCisVyb">
+            <titl>Výběr výrobních čísel</titl>
+            <desc>Výběr výrobních čísel</desc>
+            <icon>win/generate.png</icon>
+        </fi>
+        <fi name="sklVyrCisView">
+            <titl>Doklady výrobních čísel</titl>
+            <desc>Přehled dokladů výrobních čísel</desc>
+            <icon>win/logs.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="sklVyrCisHlavView">
+            <titl>Výrobní čísla</titl>
+            <desc>Přehled výrobních čísel</desc>
+            <icon>win/logs.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="sklVyrCisHlav">
+            <titl>Hlavička výrobních čísel</titl>
+        </fi>
+        <fi name="sklMapSklad">
+            <titl>Mapování skladů</titl>
+            <desc>Určuje priority použití skladů</desc>
+            <icon>win/folder.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="sklAktNovy">
+            <titl>Vystavit příjemku/výdejku</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="sklPol">
+            <titl>Položky příjemky/výdejky</titl>
+            <desc>Souhrnný přehled všech skladových pohybů. Pomocí standardní filtrace vytváříte přehledy skladových položek nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na skladových kartách nebo dokladech.</desc>
+        </fi>
+        <fi name="sklPolPrehled">
+            <titl>Skladové pohyby - přehled</titl>
+            <desc>Souhrnný přehled všech skladových pohybů. Pomocí standardní filtrace vytváříte přehledy skladových položek nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na skladových kartách nebo dokladech.</desc>
+            <icon>win/skladove-pohyby.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="stavSklWizard">
+            <titl>Stav skladu k datu</titl>
+            <desc>Přehled stavu všech položek ceníku s jejich množstvím na konkrétním skladě k zadanému datu.</desc>
+            <icon>win/computation.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="stavSkl">
+            <titl>Stav skladu k datu</titl>
+        </fi>
+        <fi name="sklArch">
+            <titl>Archiv</titl>
+        </fi>
+        <fi name="sklRady">
+            <titl>Dokladové řady - sklad</titl>
+            <desc>Nastavení dokladových řad pro aktualizaci příjemky a výdejky.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="sklProtiUcty">
+            <titl>Protiúčty sklad</titl>
+        </fi>
+        <fi name="sklRezervace">
+            <titl>Rezervace</titl>
+            <icon>win/rezervace.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="favTyp">
+            <titl>Typy vydaných faktur</titl>
+            <desc>Typy vydaných faktur umožňují nastavit základní parametry. Je to zaúčtování, způsob platby, dokladové řady... </desc>
+            <icon>win/typ-vydana-faktura.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="favAkt">
+            <titl>Vydané faktury</titl>
+            <desc>Aktualizace vydaných faktur v nastaveném účetním období. Fakturace ze skladu automaticky vytváří výdejky. Tlačítko "Služby" umožní tisk aktuální faktury, dává souhrnné informace o odběrateli a vytvoří hotovostní úhradu.</desc>
+            <icon>win/fak-vydane.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="favAktNovy">
+            <titl>Vydat novou fakturu</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="favPol">
+            <titl>Položky vydaných faktur a prodejek</titl>
+            <desc>Souhrnný přehled všech fakturačních a prodejkových položek. Pomocí standardní filtrace vytváříte přehledy fakturačních položek nebo můžete vyhledávat skupiny položek podle zadaných kritérií nezávisle na dokladech. Příklad užití: Chcete vidět, kterým firmám jste fakturovali konkrétní zboží poslední dva měsíce.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="favTypProdejky">
+            <titl>Seznam prodejních kas</titl>
+            <icon>win/typ-vydana-faktura.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="favProdejky">
+            <titl>Prodejní kasa</titl>
+            <desc>Prodejní kasa je určena pro hotovostní prodej. Jedná se o maximálně zjednodušenou formu vytvoření prodejního dokladu. Jednou denně nahrajete prodeje do pokladny, která je připojená k prodejní kase. Vazba je definovaná v seznamu prodejních kas.</desc>
+            <icon>win/pokladna.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="favProdPlat">
+            <titl>Úhrada</titl>
+            <desc>Úhrady dokladů v prodejní kase.</desc>
+        </fi>
+        <fi name="cisZakazky">
+            <titl>Číselníky zakázek</titl>
+            <icon>win/folder.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="cisTypZak">
+            <titl>Typy zakázek</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="cisStavZak">
+            <titl>Stavy zakázek</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="cisVyhZak">
+            <titl>Vyhodnocení zakázek</titl>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="polDoklPrehProdej">
+            <titl>Přehledy položek dokladů</titl>
+            <desc>Přehledy všech pohybů v jednotlivých seznamech prodejního modulu. Jedná se o položky vydaných faktur, přijatých poptávek, vydaných nabídek a přijatých objednávek. Pomocí standardní filtrace vytváříte přehledy položek uvedených dokladů nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na dokladech, ve kterém položky vznikaly.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="favUpo">
+            <titl>Upomínky</titl>
+        </fi>
+        <fi name="favArch">
+            <titl>Archiv</titl>
+        </fi>
+        <fi name="favRady">
+            <titl>Dokladové řady - vydané faktury</titl>
+            <desc>Nastavení dokladových řad pro aktualizaci vydaných faktur.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="fapTyp">
+            <titl>Typy přijatých faktur</titl>
+            <icon>win/typ-prijata-faktura.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="fapAkt">
+            <titl>Přijaté faktury</titl>
+            <desc>Aktualizace přijatých faktur v nastaveném účetním období. Přijaté faktury se skladovými položkami automatiky vytváří příjemky. Tlačítko "Služby" umožní tisk aktuální faktury, dává souhrnné informace o odběrateli a vytvoří hotovostní úhradu.</desc>
+            <icon>win/fak-prijate.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="fapAktNovy">
+            <titl>Přijmout novou fakturu</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="fapPol">
+            <titl>Položky přijatých faktur</titl>
+            <desc>Souhrnný přehled všech fakturačních položek. Pomocí standardní filtrace vytváříte přehledy fakturačních položek nebo můžete vyhledávat skupiny položek podle zadaných kritérií nezávisle na dokladech. Příklad užití: Chcete vidět, které firmy vám fakturovali konkrétní zboží poslední dva měsíce.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="polDoklNakupProdej">
+            <titl>Přehledy položek dokladů</titl>
+            <desc>Přehledy všech pohybů v jednotlivých seznamech nákupního modulu. Jedná se o položky faktur přijatých,  poptávek vydaných, nabídek přijatých  a objednávek vydaných. Pomocí standardní filtrace vytváříte přehledy položek uvedených dokladů nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na dokladech, ve kterém položky vznikaly.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="fapRady">
+            <titl>Dokladové řady - přijaté faktury</titl>
+            <desc>Nastavení dokladových řad pro aktualizaci přijatých faktur.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="fapProtiUcty">
+            <titl>Protiúčty přijaté</titl>
+        </fi>
+        <fi name="phlTyp">
+            <titl>Typy ostatních pohledávek</titl>
+            <desc>Typy ostatních pohledávek umožňují nastavit základní parametry. Jedná se o zaúčtování, dokladové řady... </desc>
+            <icon>win/typ-ostatni-pohledavka.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="phlAkt">
+            <titl>Ostatní pohledávky</titl>
+            <desc>Aktualizace a vytváření pohledávek v nastaveném účetním období, které nejsou zařazeny ve vydaných fakturách. Například předpis pro platbu nájemného ve vašich objektech.</desc>
+            <icon>win/ostatni-pohledavky.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="phlAktNovy">
+            <titl>Nová pohledávka</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="phlPol">
+            <titl>Položky ostatních pohledávek</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="phlRady">
+            <titl>Dokladové řady - pohledávky</titl>
+            <desc>Nastavení dokladových řad pro pohledávky</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="zavTyp">
+            <titl>Typy ostatních závazků</titl>
+            <desc>Typy ostatních závazků umožňují nastavit základní parametry. Je to zaúčtování, dokladové řady...</desc>
+            <icon>win/typ-ostatni-zavazky.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="zavAkt">
+            <titl>Ostatní závazky</titl>
+            <desc>Aktualizace a vytváření závazků v nastaveném účetním období, které nejsou zařazeny v přijatých fakturách. Například leasing, nájem atd.</desc>
+            <icon>win/ostatni-zavazky.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="zavAktNovy">
+            <titl>Nový závazek</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="zavPol">
+            <titl>Položky ostatních závazků</titl>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="zavRady">
+            <titl>Dokladové řady - závazky</titl>
+            <desc>Nastavení dokladových řad pro závazky.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="banTyp">
+            <titl>Typy bankovních dokladů</titl>
+            <icon>win/bank-ucty.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="banTypZapocty">
+            <titl>Typy zápočtů</titl>
+            <icon>win/bank-ucty.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="banAkt">
+            <titl>Banka</titl>
+            <desc>Aktualizace a vytváření položek bankovních výpisů v nastaveném účetním období. Tlačítko "Služby" umožní tisk aktuálního dokladu, spárovat doklad s fakturou, pohledávkou nebo závazkem.</desc>
+            <icon>win/banka.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="banZapocty">
+            <titl>Vzájemné zápočty</titl>
+            <desc>Tvorba vzájemného zápočtu je možná pomocí průvodce, kde zadáte firmu s kterou provádíte vzájemný zápočet. Poté zvolíte doklady pro započtení. Tvorbu zápúočtu také můžete tvořit doklad po dokladu podobně jako při tvorbě položek bankovních výpisů</desc>
+            <icon>win/vzajemne-zapocty.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="banDenik">
+            <titl>Bankovní kniha</titl>
+            <desc>Provede výpočet a tisk bankovní knihy </desc>
+            <icon>win/logs.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="banAktNovy">
+            <titl>Nový bankovní doklad</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="banPol">
+            <titl>Položky bankovních dokladů</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="banZapoctyPol">
+            <titl>Položky vzájemných zápočtů</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="banBanZapoctyPol">
+            <titl>Položky vzájemných zápočtů</titl>
+        </fi>
+        <fi name="banRady">
+            <titl>Dokladové řady - bankovní doklady</titl>
+            <desc>Nastavení dokladových řad pro aktualizaci bankovních výpisů.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="banProtiUcty">
+            <titl>Protiúčty banka</titl>
+        </fi>
+        <fi name="pokTyp">
+            <titl>Typy pokladních dokladů</titl>
+            <icon>win/pokladna.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="pokAkt">
+            <titl>Pokladna</titl>
+            <desc>Aktualizace a vytváření pokladních dokladů v nastaveném účetním období. Tlačítko "Služby" umožní tisk aktuálního dokladu, spárovat doklad s fakturou, pohledávkou nebo závazkem. </desc>
+            <icon>win/pokladna.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="pokDenik">
+            <titl>Pokladní kniha</titl>
+            <desc>Provede výpočet a tisk pokladní knihy </desc>
+            <icon>win/logs.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="pokAktNovy">
+            <titl>Nový pokladní doklad</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="pokPol">
+            <titl>Položky pokladních dokladů</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="pokRady">
+            <titl>Dokladové řady - pokladní doklady</titl>
+            <desc>Nastavení dokladových řad pro aktualizaci pokladních dokladů.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="bspModulFree">
+            <titl>Banky/pokladny/sklady</titl>
+        </fi>
+        <fi name="banBsp">
+            <titl>Seznam bankovních účtů</titl>
+            <desc>Seznam bankovních účtů firmy včetně definice způsobu elektronické komunikace.</desc>
+            <icon>win/bank-ucty.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="pokBsp">
+            <titl>Seznam pokladen</titl>
+            <desc>Aktualizace seznamu pokladen</desc>
+            <icon>win/seznam.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="sklBsp">
+            <titl>Seznam skladů</titl>
+            <icon>win/seznam.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="obchodNapDokl">
+            <titl>Přijaté nabídky</titl>
+            <desc>Přijaté nabídky můžete vytvářet ručně nebo kopií vydané poptávky. Kopií poptávky do nabídky ušetříte čas zadáváním položek nabídky a stačí pouze modifikovat ceny upřesněné vaším dodavatelem.</desc>
+            <icon>win/nabidka-prijata.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNapPol">
+            <titl>Položky přijaté nabídky</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNapTyp">
+            <titl>Typy přijatých nabídek</titl>
+            <icon>win/typ-nabidka-prijata.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNapRady">
+            <titl>Dokladové řady - přijaté nabídky</titl>
+            <desc>Nastavení dokladových řad pro přijaté nabídky</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNavDokl">
+            <titl>Vydané nabídky</titl>
+            <desc>Seznam eviduje veškeré vydané nabídky, které byly vašim odběratelům odeslány. Obsah nabídky je možné kopírovat do přijaté objednávky. Vydaná nabídka může vzniknout kopií přijaté poptávky.</desc>
+            <icon>win/nabidka-vydana.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNavPol">
+            <titl>Položky vydané nabídky</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNavTyp">
+            <titl>Typy vydaných nabídek</titl>
+            <icon>win/typ-nabidka-vydana.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNavRady">
+            <titl>Dokladové řady - vydané nabídky</titl>
+            <desc>Nastavení dokladových řad pro vydané nabídky</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodPppDokl">
+            <titl>Přijaté poptávky</titl>
+            <desc>Seznam přijatých poptávek eviduje veškeré poptávky vašich současných nebo potencionálních odběratelů. Obsah jedné poptávky je možné kopírovat do vydané nabídky nebo přímo do přijaté objednávky. </desc>
+            <icon>win/poptavka-prijata.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodPppPol">
+            <titl>Položky přijatých poptávek</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodPppTyp">
+            <titl>Typy přijatých poptávek</titl>
+            <icon>win/typ-poptavka-prijata.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodPppRady">
+            <titl>Dokladové řady - přijaté poptávky</titl>
+            <desc>Nastavení dokladových řad pro přijaté poptávky</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodPpvDokl">
+            <titl>Vydané poptávky</titl>
+            <desc>Vydané poptávky mohou vzniknout ručně nebo kopií přijaté objednávky. Na tomto místě se rozbíhá opačný proces proti prodeji, kdy vy potřebujete nakoupit zboží nebo materiál u vašich dodavatelů.</desc>
+            <icon>win/poptavka-vydana.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodPpvPol">
+            <titl>Položky vydané poptávky</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodPpvTyp">
+            <titl>Typy vydaných poptávek</titl>
+            <icon>win/typ-poptavka-vydana.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodPpvRady">
+            <titl>Dokladové řady - vydané poptávky</titl>
+            <desc>Nastavení dokladových řad pro vydané poptávky</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodObpDokl">
+            <titl>Přijaté objednávky</titl>
+            <desc>Přijaté objednávky slouží k evidenci požadavků vašich odběratelů. U položek objednávky je uvedena dohodnutá prodejní cena. Při tvorbě faktury můžete objednávku tzv. realizovat, čili kopírovat její obsah do faktury.</desc>
+            <icon>win/objednavka-prijata.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="obchodObpDoklNovy">
+            <titl>Přijmout novou objednávku</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="obchodObpPol">
+            <titl>Položky přijaté objednávky</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="obchodObpTyp">
+            <titl>Typy přijatých objednávek</titl>
+            <icon>win/typ-objednavka-prijata.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="obchodObpRady">
+            <titl>Dokladové řady - přijaté objednávky</titl>
+            <desc>Nastavení dokladových řad pro přijaté objednávky</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="obchodObvDokl">
+            <titl>Vydané objednávky</titl>
+            <desc>Obsahově jsou vydané objednávky podobné přijatým objednávkám s tím, že směr objednávání je otočen a ceny jsou nákupní. Vydanou objednávku je možné vytvořit na základě přijaté objednávky, to znamená, že od svých dodavatelů budete požadovat to, co od vás požadují vaši odběratelé.</desc>
+            <icon>win/objednavka-vydana.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="obchodObvDoklNovy">
+            <titl>Vydat novou objednávku</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="obchodObvPol">
+            <titl>Položky vydané objednávky</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="obchodObvTyp">
+            <titl>Typy vydaných objednávek</titl>
+            <icon>win/typ-objednavka-vydana.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="obchodObvRady">
+            <titl>Dokladové řady - vydané objednávky</titl>
+            <desc>Nastavení dokladových řad pro vydané objednávky</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="upominky">
+            <titl>Upomínky</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="majSku">
+            <titl>Odpisové skupiny</titl>
+        </fi>
+        <fi name="majAkt">
+            <titl>Majetek</titl>
+        </fi>
+        <fi name="uSesStdPred">
+            <titl>Standardní předpis sestavy</titl>
+        </fi>
+        <fi name="uSesRadky">
+            <titl>Řádek sestavy</titl>
+        </fi>
+        <fi name="uSesRozpadUce">
+            <titl>Rozpad řádků sestavy na účty</titl>
+        </fi>
+        <fi name="uSestavy">
+            <titl>Seznam sestav</titl>
+            <desc>Nastavení a výpočet uživatelských sestav. Funkce vám umožní definovat libovolnou účetní sestavu, nastavit umístění a hodnotu účtů a aktivovat výpočet pro libovolný rozsah v měsících.</desc>
+            <icon>win/seznam.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="uSesSumace">
+            <titl>Sumace v sestavách</titl>
+        </fi>
+        <fi name="uSesUmisteniUctu">
+            <titl>Upřesnění umístění účtu</titl>
+        </fi>
+        <fi name="uSesPricteniRozdilu">
+            <titl>Řádky pro přičtení rozdílu</titl>
+        </fi>
+        <fi name="ucDoklObrat">
+            <titl>Obraty</titl>
+        </fi>
+        <fi name="ucDanEvid">
+            <titl>Daňová evidence</titl>
+        </fi>
+        <fi name="ucTypOrg">
+            <titl>Typ organizace</titl>
+        </fi>
+        <fi name="uSesUzivPred">
+            <titl>Předpis sestavy</titl>
+        </fi>
+        <fi name="cisStr">
+            <titl>Střediska</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="cisCinnost">
+            <titl>Činnost</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="cisZak">
+            <titl>Zakázky</titl>
+            <desc>Seznam zakázek. Každý doklad může obsahovat odkaz na zakázku. Pomocí standardních přehledů můžete analyzovat náklady na konkrétní zakázku.</desc>
+            <icon>win/zakazky.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="cisZakNehotov">
+            <titl>Zakázky (nehotové)</titl>
+            <desc>Zakázky - nezobrazuje hotové</desc>
+        </fi>
+        <fi name="cisKlic">
+            <titl>Štítky</titl>
+        </fi>
+        <fi name="cisStaty">
+            <titl>Státy</titl>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="cisMeny">
+            <titl>Měny</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="cisKurzy">
+            <titl>Kurzy</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="cisKurzyCen">
+            <titl>Kurzy pro cenotvorbu</titl>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="cisKurzyIntr">
+            <titl>Kurzy pro Intrastat</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="cisKurzyPreceneni">
+            <titl>Kurzy pro přecenění</titl>
+        </fi>
+        <fi name="cisKonSym">
+            <titl>Konstantní symboly</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="cisSmerKod">
+            <titl>Peněžní ústavy</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="cisTexDok">
+            <titl>Pomocné texty na doklad</titl>
+        </fi>
+        <fi name="cisMj">
+            <titl>Měrné jednotky </titl>
+            <mnem>74</mnem>
+        </fi>
+        <fi name="cisPsc">
+            <titl>Poštovní směrovací čísla</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="cisVazbyMj">
+            <titl>Vazby MJ</titl>
+        </fi>
+        <fi name="cisUceRoz">
+            <titl>Standardní účetní osnova</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="cisOsoby">
+            <titl>Osoby a uživatelé</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="zastupnosti">
+            <titl>Zástupnosti</titl>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="role">
+            <titl>Uživatelské role</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="pristPrava">
+            <titl>Přístupová práva</titl>
+        </fi>
+        <fi name="zmenHeslo">
+            <titl>Změnit heslo</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="zmenEmail">
+            <titl>Změnit registrační e-mail</titl>
+        </fi>
+        <fi name="twoPhaseAuth">
+            <titl>Dvoufázové ověření</titl>
+        </fi>
+        <fi name="nasServer">
+            <titl>Nastavení serveru</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="nasSmtp">
+            <titl>Nastavení SMTP serveru</titl>
+        </fi>
+        <fi name="nastavZurnal">
+            <titl>Nastavení žurnálu</titl>
+        </fi>
+        <fi name="uzivPristup">
+            <titl>Práva viditelnosti dat</titl>
+        </fi>
+        <fi name="osCert">
+            <titl>Certifikáty</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="osCertOsobni">
+            <titl>Osobní certifikáty</titl>
+        </fi>
+        <fi name="osCertEet">
+            <titl>EET certifikáty</titl>
+        </fi>
+        <fi name="osCertFinbricks">
+            <titl>Klíče Finbricks</titl>
+        </fi>
+        <fi name="osCertPrehled">
+            <titl>Certifikáty</titl>
+        </fi>
+        <fi name="adrCert">
+            <titl>Certifikáty firmy</titl>
+        </fi>
+        <fi name="autCert">
+            <titl>Certifikační autority</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="actDefinice">
+            <titl>Definice workflow</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="actSkupiny">
+            <titl>Skupiny pro workflow</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="actClenstvi">
+            <titl>Členství workflow</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="actRunProcess">
+            <titl>Spustit workflow</titl>
+            <icon>win/folder.png</icon>
+        </fi>
+        <fi name="interObch">
+            <titl>Internetové obchody</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="cisClenDph">
+            <titl>Řádky přiznání DPH</titl>
+            <desc>Řádek DPH určuje do jakého řádku formuláře přiznání DPH patří částky dokladu (klávesa F2).</desc>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="cisClenKonVykDph">
+            <titl>Řádky kontrolního hlášení DPH</titl>
+            <mnem>344</mnem>
+        </fi>
+        <fi name="cisDphPren">
+            <titl>Seznam zboží v režimu přenesení DPH</titl>
+            <desc>Evidence pro daňové účely podle § 92a zákona o DPH</desc>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="cisLokCis">
+            <titl>Lokalizovaný číselník</titl>
+        </fi>
+        <fi name="cisTypUcOp">
+            <titl>Předpisy zaúčtování</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="cisTypUcOpBan">
+            <titl>Předpisy zaúčtování - bankovní doklady</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="cisTypUcOpFap">
+            <titl>Předpisy zaúčtování - přijaté faktury</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="cisTypUcOpFav">
+            <titl>Předpisy zaúčtování - vydané faktury</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="cisTypUcOpInt">
+            <titl>Předpisy zaúčtování - interní doklady</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="cisTypUcOpPhl">
+            <titl>Předpisy zaúčtování - ostatní pohledávky</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="cisTypUcOpPok">
+            <titl>Předpisy zaúčtování - pokladní doklady</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="cisTypUcOpSkl">
+            <titl>Předpisy zaúčtování - sklad</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="cisTypUcOpZav">
+            <titl>Předpisy zaúčtování - ostatní závazky</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="servIntr">
+            <titl>Intrastat</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intrDodPodm">
+            <titl>Dodací podmínky</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="intrDruhDopr">
+            <titl>Druh dopravy</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="intrKrajUrc">
+            <titl>Kraje určení</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="intrNomenkla">
+            <titl>Kódy nomenklatury</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="intrMerJed">
+            <titl>Měrné jednotky</titl>
+            <mnem>74</mnem>
+        </fi>
+        <fi name="skupPlneni">
+            <titl>Skupiny plnění</titl>
+        </fi>
+        <fi name="intrObchTrans">
+            <titl>Obchodní transakce</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="intrZvlPoh">
+            <titl>Zvláštní pohyby</titl>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="intrVystupy">
+            <titl>Výstup</titl>
+        </fi>
+        <fi name="majUmisteni">
+            <titl>Umístění</titl>
+            <desc>Seznam použitelných umístění položek majetku. Je rozděleno na 3 kategorie - budova, sekce a místnost.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="majSazby">
+            <titl>Odpisové skupiny</titl>
+            <desc>Skupiny odpisů obsahují standardní hodnoty definované aktuální legislativou. Dále umožňují definovat vlastní nestandardní skupiny.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="majTypMaj">
+            <titl>Typy majetků</titl>
+            <desc>Typy majetku vám umožní rozčlenit majetek do předem definovaných skupin. Je tím zaručena možnost výběru a větší přehlednost.</desc>
+            <icon>win/typ-majetek.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="majTypLeas">
+            <titl>Typy leasingů</titl>
+            <desc>Typy leasingu vám umožní rozčlenit leasing do předem definovaných skupin.</desc>
+            <icon>win/typ-leasing.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="majZapujcky">
+            <titl>Zápůjčky</titl>
+        </fi>
+        <fi name="majMajetekNovy">
+            <titl>Zařadit nový majetek</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="majLeasingNovy">
+            <titl>Přidat nový leasing</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="majMajetek">
+            <titl>Majetek</titl>
+            <desc>Aktualizace dlouhodobého, drobného a neodpisovaného majetku. Karta odpisovaného majetku obsahuje daňové odpisy, účetní odpisy, události a evidenci zápůjček, respektive zodpovědných osob. Odpisování můžete kdykoliv přerušit. Dobu účetních odpisů můžete během života majetku modifikovat.</desc>
+            <icon>win/maj.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="majBwithE">
+            <titl>Majetek</titl>
+            <desc>Aktualizace dlouhodobého, drobného a neodpisovaného majetku. </desc>
+        </fi>
+        <fi name="majUdalosti">
+            <titl>Události</titl>
+        </fi>
+        <fi name="majDanOdpisy">
+            <titl>Daňové odpisy</titl>
+        </fi>
+        <fi name="majUcetOdpisy">
+            <titl>Účetní odpisy</titl>
+        </fi>
+        <fi name="majLeasing">
+            <titl>Leasing</titl>
+            <desc>Aktualizace leasingu, určení splátkového kalendáře a vytvoření účetních nákladů. Při generaci splátkového kalendáře vznikají automaticky závazky v účetním modulu.</desc>
+            <icon>win/leas.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="majSplatKal">
+            <titl>Splátkový kalendář</titl>
+        </fi>
+        <fi name="majDanNakl">
+            <titl>Daňové náklady</titl>
+        </fi>
+        <fi name="majExternalId">
+            <titl>Externí ID pro majetek</titl>
+        </fi>
+        <fi name="nezRadyRok">
+            <titl>Roční položky dokladové řady</titl>
+        </fi>
+        <fi name="nezRadyDiry">
+            <titl>Díry v dokladové řadě</titl>
+        </fi>
+        <fi name="elPrikaz">
+            <titl>Příkaz k úhradě</titl>
+            <desc>Definice příkazu k úhradě ze seznamu přijatých faktur a závazků s možností jeho doplnění. Program podporuje export příkazu do elektronických formátů většiny bankovních ústavů.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="elPrikazPol">
+            <titl>Položka příkazu k úhradě</titl>
+        </fi>
+        <fi name="elPrikazFak">
+            <titl>Výběr dokladů k uhrazení</titl>
+        </fi>
+        <fi name="elInkaso">
+            <titl>Příkaz k inkasu</titl>
+            <desc>Definice příkazu k inkasu ze seznamu vydaných faktur a pohledávek s možností jeho doplnění. Program podporuje export příkazu do elektronických formátů většiny bankovních ústavů.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="elInkasoPol">
+            <titl>Položka inkasa</titl>
+        </fi>
+        <fi name="elInkasoFak">
+            <titl>Výběr dokladů k uhrazení</titl>
+        </fi>
+        <fi name="externalId">
+            <titl>Externí identifikátory</titl>
+        </fi>
+        <fi name="vykazCenPohyby">
+            <titl>Nákupní, prodejní a skladové pohyby</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="vykazUcetniDenik">
+            <titl>Účetní deník</titl>
+        </fi>
+        <fi name="vykazObratPolozkaView">
+            <titl>Položky obratů</titl>
+            <icon>win/logs.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="vykazUcetniDenikZjednoduseny">
+            <titl>Účetní deník - zjednodušený</titl>
+            <icon>win/logs.png</icon>
+            <mnem>74</mnem>
+        </fi>
+        <fi name="vykazUcetniDenikWizard">
+            <titl>Účetní deník</titl>
+            <icon>win/logs.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="vykazPohybyNaUctech">
+            <titl>Pohyby na účtech</titl>
+        </fi>
+        <fi name="vykazPohybyNaUctechWizard">
+            <titl>Pohyby na účtech</titl>
+            <icon>win/logs.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="vykazPoSplatnostiWizard">
+            <titl>Neuhrazené pohledávky/závazky po splatnosti</titl>
+            <icon>win/logs.png</icon>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="vykazSaldo">
+            <titl>Saldo</titl>
+        </fi>
+        <fi name="vykazSaldoKdatu">
+            <titl>Stav úhrad k datu</titl>
+        </fi>
+        <fi name="vykazSaldoKdatuWizard">
+            <titl>Výpočet stav úhrad k datu</titl>
+        </fi>
+        <fi name="vykazSaldoWizard">
+            <titl>Saldo</titl>
+            <icon>win/logs.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="vykazAnalyzaZakazky">
+            <titl>Účetní analýza zakázky</titl>
+            <icon>win/logs.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="vykazStavyUctu">
+            <titl>Stavy účtů</titl>
+        </fi>
+        <fi name="vykazStavyUctuWizard">
+            <titl>Stavy účtů</titl>
+            <icon>win/logs.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="vykazPodkladyDph">
+            <titl>Podklady DPH</titl>
+        </fi>
+        <fi name="vykazPodkladyDphWizard">
+            <titl>Podklady DPH</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="vykazPriznaniDph">
+            <titl>Přiznání DPH</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="vykazObratovaPredvaha">
+            <titl>Obratová předvaha</titl>
+        </fi>
+        <fi name="vykazObratovaPredvahaWizard">
+            <titl>Obratová předvaha</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="vykazHlavniKniha">
+            <titl>Hlavní kniha</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="uctovnaUzaverka">
+            <titl>Účtovná závierka</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>218</mnem>
+        </fi>
+        <fi name="priznaniDanPo">
+            <titl>Rozvaha a výkaz zisku a ztráty v XML</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="vykazRadekPriznaniDph">
+            <titl>Uložené řádky přiznání DPH</titl>
+            <icon>win/logs-low.png</icon>
+        </fi>
+        <fi name="ulozenePriznaniDph">
+            <titl>Uložené přiznání DPH</titl>
+            <icon>win/logs-low.png</icon>
+        </fi>
+        <fi name="vykazRadekPriznaniOss">
+            <titl>Uložené řádky přiznání OSS</titl>
+            <icon>win/logs-low.png</icon>
+        </fi>
+        <fi name="vykazRozvaha">
+            <titl>Rozvaha</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="vykazRozvahaPoUctech">
+            <titl>Soupis aktiv a pasiv</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="vykazVysledovka">
+            <titl>Výkaz zisku a ztráty</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="vykazVysledovkaPoUctech">
+            <titl>Soupis nákladů a výnosů</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="vykazCashflow">
+            <titl>Přehled o peněžních tocích</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>344</mnem>
+        </fi>
+        <fi name="vykazVykazHospodareni">
+            <titl>Výkaz hospodaření za měsíc</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="vykazPolozkyFaktur">
+            <titl>Analýza prodeje</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskOdberatele">
+            <titl>Analýza prodeje - Prodej firmám</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskSkupinyFirem">
+            <titl>Analýza prodeje - Obraty skupin firem</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskSkupinyCen">
+            <titl>Analýza prodeje - Obraty ceníkových skupin</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskZbozi">
+            <titl>Analýza prodeje - Pohyb zboží</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZboziOdberatele">
+            <titl>Analýza prodeje - Prodej firmám podle zboží</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturOdberatelZbozi">
+            <titl>Analýza prodeje - Pohyb zboží podle firmy</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturVlastni">
+            <titl>Analýza prodeje - Vlastní</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturWizard">
+            <titl>Analýza prodeje</titl>
+            <desc>Analýza prodeje vám může poskytnout následující informace: Obrat a obchodní rozpětí (zisk) podle odběratelů / skupin odb./ prodaného zboží / skupin zboží / středisek atd.(zadání je v roletovém seznamu "Co chcete analyzovat"). Dále můžete zadat další podrobnější členění (zadání je v dalším seznamu "Jaké bude další členění") opět podle vyjmenovaných atributů . Výsledkem může být například analýza prodeje jednotlivým firmám s podrobným členěním které zboží firma odebrala. Vše analyzujete v daném časovém rozsahu.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="analyzaNakupu">
+            <titl>Analýza nákupu</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskOdberatele">
+            <titl>Analýza nákupu - Nákupy od firmem</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskSkupinyFirem">
+            <titl>Analýza nákupu - Nákupy od skupin firem</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskSkupinyCen">
+            <titl>Analýza nákupu - Nákupy od ceníkových skupin</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskZbozi">
+            <titl>Analýza nákupu - Nákup zboží</titl>
+        </fi>
+        <fi name="analyzaNakupuZboziOdberatele">
+            <titl>Analýza nákupu - Nákup od firem podle zboží</titl>
+        </fi>
+        <fi name="analyzaNakupuOdberatelZbozi">
+            <titl>Analýza nákupu - Nákup zboží podle firmy</titl>
+        </fi>
+        <fi name="analyzaNakupuVlastni">
+            <titl>Analýza nákupu - Vlastní</titl>
+        </fi>
+        <fi name="analyzaNakupuWizard">
+            <titl>Analýza nákupu</titl>
+            <desc>Analýza nákupu vám může poskytnout následující informace: Obrat podle odběratelů / skupin odb./ prodaného zboží / skupin zboží / středisek atd.(zadání je v roletovém seznamu "Co chcete analyzovat"). Dále můžete zadat další podrobnější členění (zadání je v dalším seznamu "Jaké bude další členění") opět podle vyjmenovaných atributů . Výsledkem může být například analýza nákup od jednotlivých firmám s podrobným členěním které zboží firma dodala. Vše analyzujete v daném časovém rozsahu.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="vykazSouhrnneHlaseni">
+            <titl>Souhrnné hlášení k DPH</titl>
+        </fi>
+        <fi name="vykazSouhrnneHlaseniWizard">
+            <titl>Souhrnné hlášení k DPH</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="vykazPrenDph">
+            <titl>Evidence dle § 92a</titl>
+        </fi>
+        <fi name="vykazPrenDphWizard">
+            <titl>Evidence dle § 92a</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="vykazVazbyDokladu">
+            <titl>Navázané doklady</titl>
+        </fi>
+        <fi name="vykazDanEvid">
+            <titl>Výkaz daňové evidence</titl>
+        </fi>
+        <fi name="vykazDanEvid_SK">
+            <titl>Výkaz jednoduchého účetnictví</titl>
+        </fi>
+        <fi name="vykazDanEvidWizard">
+            <titl>Výkaz daňové evidence</titl>
+            <icon>win/logs.png</icon>
+            <mnem>69</mnem>
+        </fi>
+
+        <fi name="vykazDanEvidWizard_SK">
+            <titl>Výkaz jednoduchého účetnictví</titl>
+        </fi>
+        <fi name="intrastatWizard">
+            <titl>Generování Intrastatu</titl>
+            <icon>win/logs.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intrastatPol">
+            <titl>Položky vstupující do Intrastatu</titl>
+        </fi>
+        <fi name="intrastatRadka">
+            <titl>Řádky Intrastatu</titl>
+        </fi>
+        <fi name="uUzaverka">
+            <titl>Inicializace následujícího účetního období (je možné opakovat)</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="banNonPaged">
+            <titl>Banka</titl>
+        </fi>
+        <fi name="pokNonPaged">
+            <titl>Pokladna</titl>
+        </fi>
+        <fi name="fapNonPaged">
+            <titl>Přijaté faktury</titl>
+        </fi>
+        <fi name="favNonPaged">
+            <titl>Vydané faktury</titl>
+        </fi>
+        <fi name="nezVazbyDokl">
+            <titl>Vazby dokladu</titl>
+        </fi>
+        <fi name="nezFifoVazby">
+            <titl>FIFO Vazby</titl>
+        </fi>
+        <fi name="nezVazbyPolSklad">
+            <titl>FIFO vazby rozpadu vydejek</titl>
+        </fi>
+        <fi name="nezDPolSkladF">
+            <titl>Pohled DPolSkladF</titl>
+        </fi>
+        <fi name="sklSarzeExpiracebezVC">
+            <titl>Šarže a expirace</titl>
+        </fi>
+        <fi name="sklSarzeExpiracebezVCGrouped">
+            <titl>Šarže a expirace (grupovaná)</titl>
+        </fi>
+        <fi name="doklFakBezModulu">
+            <titl>Pohledávky/závazky</titl>
+        </fi>
+        <fi name="doklFakUhrady">
+            <titl>Doklady k úhradě</titl>
+        </fi>
+        <fi name="doklIntBezModulu">
+            <titl>Bankovní/pokladní/interní doklad</titl>
+        </fi>
+        <fi name="typDoklBezModulu">
+            <titl>Typy dokladů</titl>
+        </fi>
+        <fi name="radaBezModulu">
+            <titl>dokladové řady</titl>
+        </fi>
+        <fi name="cisVybKlice">
+            <titl>Štítky</titl>
+            <mnem>352</mnem>
+        </fi>
+        <fi name="cisSkupVybKlic">
+            <titl>Skupiny štítků</titl>
+            <mnem>366</mnem>
+        </fi>
+        <fi name="loginDialog000">
+            <titl>Přihlášení do aplikace</titl>
+        </fi>
+        <fi name="activationDialog">
+            <titl>Aktivovat aplikaci</titl>
+        </fi>
+        <fi name="prvniSpusteni">
+            <titl>První spuštění</titl>
+        </fi>
+        <fi name="cServerDialog">
+            <titl>Správa datových zdrojů</titl>
+        </fi>
+        <fi name="cServerDialogNovy">
+            <titl>Přidat datový zdroj</titl>
+        </fi>
+        <fi name="vyberFirmy">
+            <titl>Výběr firmy</titl>
+        </fi>
+        <fi name="odpojeneFirmy">
+            <titl>Odpojené firmy</titl>
+        </fi>
+        <fi name="migraceFirem">
+            <titl>Migrace firem z XML souborů</titl>
+        </fi>
+        <fi name="importLicense">
+            <titl>Import licence</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="licence">
+            <titl>Licence aplikace</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="startVerzeDialog">
+            <titl>ABRA Flexi</titl>
+        </fi>
+        <fi name="koupitLicenci">
+            <titl>ABRA Flexi</titl>
+        </fi>
+        <fi name="registrovatLicenci">
+            <titl>Registrace ABRA Flexi Start</titl>
+        </fi>
+        <fi name="aktivaceProduktu">
+            <titl>Průvodce aktivací produktu ABRA Flexi</titl>
+        </fi>
+        <fi name="nastrojePrepocet">
+            <titl>Přepočet stavů účtů</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="nastrojePrepocetDe">
+            <titl>Přepočet daňové evidence</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="nastrojeKontrolaDanOdpisu">
+            <titl>Kontrola daňových odpisů</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="mzdyKontrolaSlozek">
+            <titl>Kontrola mzdových složek</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="priloha">
+            <titl>Příloha</titl>
+        </fi>
+        <fi name="prilohaData">
+            <titl>Data přílohy</titl>
+        </fi>
+        <fi name="strom">
+            <titl>Obecný strom</titl>
+        </fi>
+        <fi name="wUcel">
+            <titl>Účely</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="majUcel">
+            <titl>Účely</titl>
+        </fi>
+        <fi name="wPozadavek">
+            <titl>Požadavky</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="wSubjekt">
+            <titl>Subjekt</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="wDefiniceUcelu">
+            <titl>Definice účelu</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="wUcelLog">
+            <titl>Záznam účelu</titl>
+        </fi>
+        <fi name="uzel">
+            <titl>Uzel stromu</titl>
+        </fi>
+        <fi name="vazUzel">
+            <titl>Vazba uzlu na objekt</titl>
+        </fi>
+        <fi name="cisTexty">
+            <titl>Předdefinované texty</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="zamky">
+            <titl>Zamykání období</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="zurnal">
+            <titl>Žurnál</titl>
+        </fi>
+        <fi name="scanner">
+            <titl>Zadání počtu EAN kódů</titl>
+        </fi>
+        <fi name="kusovnik">
+            <titl>Kusovník</titl>
+        </fi>
+        <fi name="report">
+            <titl>Uživatelské reporty</titl>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="reportData">
+            <titl>Data pro uživatelské reporty</titl>
+        </fi>
+        <fi name="autoTisk">
+            <titl>Automatický tisk</titl>
+        </fi>
+        <fi name="filtry">
+            <titl>Uživatelské filtry</titl>
+        </fi>
+        <fi name="parametry">
+            <titl>Pokročilá parametrizace pomocí parametrů</titl>
+        </fi>
+        <fi name="customButton">
+            <titl>Uživatelské tlačítko</titl>
+        </fi>
+        <fi name="settings">
+            <titl>Úložiště nastavení</titl>
+        </fi>
+        <fi name="settingsAll">
+            <titl>Úložiště globálního nastavení</titl>
+        </fi>
+        <fi name="dokladView">
+            <titl>Přehled všech dokladů</titl>
+        </fi>
+        <fi name="dashboardPanel">
+            <titl>Správa přehledů</titl>
+            <icon>win/folder.png</icon>
+        </fi>
+        <fi name="dashboardSharing">
+            <titl>Sdílení přehledů</titl>
+        </fi>
+        <fi name="insight">
+            <titl>Insight</titl>
+        </fi>
+        <fi name="pravaServeru">
+            <titl>Práva serveru</titl>
+        </fi>
+        <fi name="dotaz">
+            <titl>Uživatelské dotazy</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="dotazParam">
+            <titl>Parametry</titl>
+        </fi>
+        <fi name="typSazbyDph">
+            <titl>Typ sazby DPH</titl>
+        </fi>
+        <fi name="dotazProp">
+            <titl>Vlastnosti</titl>
+        </fi>
+        <fi name="dotazView">
+            <titl>Uživatelský dotaz</titl>
+        </fi>
+        <fi name="xslt">
+            <titl>Uživatelské transformace</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="sklUmisteni">
+            <titl>Umístění ve skladu</titl>
+            <icon>win/folder.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="cenyView">
+            <titl>Individuální ceník</titl>
+        </fi>
+        <fi name="cenyViewWizard">
+            <titl>Individuální ceník</titl>
+            <icon>win/folder.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="formaUhrCis">
+            <titl>Formy úhrady</titl>
+            <icon>win/folder.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="formaUhrZauc">
+            <titl>Zaúčtování formy úhrady</titl>
+        </fi>
+        <fi name="formaDopravy">
+            <titl>Formy dopravy</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="stavDoklObchCis">
+            <titl>Stav obchodního dokladu</titl>
+            <icon>win/folder.png</icon>
+        </fi>
+        <fi name="cisloBal">
+            <titl>Čísla balíků</titl>
+        </fi>
+        <fi name="migraceS3">
+            <titl>Migrace agendy z Money S3</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="majStavKDatu">
+            <titl>Stav majetku k datu</titl>
+        </fi>
+        <fi name="majStavKDatuWizard">
+            <titl>Stav majetku k datu</titl>
+        </fi>
+        <fi name="cenPrislusenstvi">
+            <titl>Příslušenství</titl>
+        </fi>
+        <fi name="cenStav">
+            <titl>Číselník stavů položek ceníku</titl>
+            <icon>win/folder.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="cenAtribut">
+            <titl>Atributy</titl>
+        </fi>
+        <fi name="cenTypAtributu">
+            <titl>Typy atributů</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="cenTypAtributuStandard">
+            <titl>Standardní typy atributů</titl>
+        </fi>
+        <fi name="cenTypZbozi">
+            <titl>Skupiny atributů</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="cenTypZboziStandard">
+            <titl>Standardní skupiny atributů</titl>
+        </fi>
+        <fi name="cenCisAtribut000">
+            <titl>Číselníky atributů</titl>
+            <icon>win/logs.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="vazbaTyp">
+            <titl>Typy uživatelských vazeb</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="vazbaUziv">
+            <titl>Uživatelské vazby</titl>
+        </fi>
+        <fi name="vazbaUzivView">
+            <titl>Uživatelské vazby</titl>
+        </fi>
+        <fi name="vykazEkokom">
+            <titl>Podklad pro EKO-KOM</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazEkokomWizard">
+            <titl>Podklad pro EKO-KOM</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazKonVykDphWizard">
+            <titl>Kontrolní hlášení DPH</titl>
+            <icon>win/logs.png</icon>
+            <mnem>205</mnem>
+        </fi>
+        <fi name="vykazKonVykDph">
+            <titl>Kontrolní hlášení DPH</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazMossWizard">
+            <titl>Daňové přiznání MOSS</titl>
+            <icon>win/logs.png</icon>
+            <mnem>201</mnem>
+        </fi>
+        <fi name="vykazMoss">
+            <titl>Daňové přiznání MOSS</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazOssWizard">
+            <titl>Daňové přiznání OSS</titl>
+            <icon>win/logs.png</icon>
+            <mnem>193</mnem>
+        </fi>
+        <fi name="vykazOss">
+            <titl>Daňové přiznání OSS</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="cisElBanFormaty">
+            <titl>Bankovní formáty</titl>
+        </fi>
+        <fi name="eetKom">
+            <titl>EET komunikace</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="eetKomView">
+            <titl>EET komunikace</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="diskUsage">
+            <titl>Obsazení disku</titl>
+	    <mnem>66</mnem>
+        </fi>
+        <fi name="wLocks">
+            <titl>Zámky záznamu</titl>
+        </fi>
+        <fi name="zarizeniKom">
+            <titl>Komunikace s ext. zařízením</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="sablonaMail">
+            <titl>Uživatelské e-mailové šablony</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="banPokBsp">
+            <titl>Bankovní účty a pokladny</titl>
+        </fi>
+        <fi name="zalohyKOdpoctu">
+            <titl>Zálohy k odpočtu</titl>
+            <desc>Seznam záloh, které je možné odpočítat od dané faktury. Pouze jako relace faktury.</desc>
+        </fi>
+        <fi name="castkyKOdpoctu">
+            <titl>Částky k odpočtu</titl>
+            <desc>Částky, které ještě zbývá ze zálohy odpočítat. Pouze jako relace faktury.</desc>
+        </fi>
+        <fi name="doporuceni">
+            <titl>Doporučení</titl>
+            <desc>Doporučení na úpravu faktury nebo zálohy, aby po odpočtu byla faktura uhrazená.</desc>
+        </fi>
+    </formsInfo>
+</config>

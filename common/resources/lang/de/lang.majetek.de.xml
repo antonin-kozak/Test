@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/de/lang.majetek.de.xml
+   Created on  : 25. 04. 2024, 08:32
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <actions>
+        <act name="deleteLeasing">
+            <titl>Leasing löschen</titl>
+            <desc>Ausgewähltes Leasing löschen</desc>
+            <icon>win/erase.png</icon>
+            <mnem>83</mnem>
+            <acck>127</acck>
+            <accm>0</accm>
+        </act>
+        <act name="deleteMajetek">
+            <titl>Vermögen löschen</titl>
+            <desc>Ausgewähltes Vermögen löschen (Abkürzung (Alt+S)</desc>
+            <icon>win/erase.png</icon>
+        </act>
+        <act name="genLeas">
+            <titl>Zahlungskalender generieren</titl>
+            <desc>Zahlungskalender und Steuerkosten nach eingegebenen Parametern generieren</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="genMaj">
+            <titl>Abschreibungen generieren</titl>
+            <desc>Steuerabschreibungen, buchhalterische Abschreibungen und Eingliederungsfall generieren</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="hromOperace">
+            <titl>Massentransaktionen</titl>
+            <desc>Durchführung einer Massentransaktion Transaktion über die ausgewählten Vermögen</desc>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="majetekStavKDatu">
+            <titl>Vermögensstand bis zum Datum</titl>
+            <desc>Vermögensstand bis zu eingegebenem Datum wird berechnet</desc>
+            <icon>win/generate.png</icon>
+        </act>
+    </actions>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="leasingVyberRaduZavazkum">
+            <titl>Wählen Sie die Belegreihe für die Erstellung des Steuerbelegs der Verbindlichkeit.</titl>
+        </dlg>
+        <dlg name="leasingGenerovani">
+            <titl>Assistent durch Leasing-Generierung</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="danOdpisPrepocitatDanOdpisyChyba">
+            <titl>Es ist nicht gelungen, die Steuerabschreibungen umzurechnen.</titl>
+        </msg>
+        <msg name="danOdpisPrepocitatUcetOdpisyChyba">
+            <titl>Es ist nicht gelungen, die buchhalterischen Abschreibungen umzurechnen.</titl>
+        </msg>
+        <msg name="danOdpisNepodariloAktualizovat">
+            <titl>Es ist nicht gelungen, die Steuerabschreibungen des Vermögens zu aktualisieren.</titl>
+        </msg>
+        <msg name="danOdpisUcetNeniVyplnen">
+            <titl>Das Konto muss in dem Fall ausgefüllt werden, wenn buchhalterische Abschreibungen nicht generiert sind.</titl>
+        </msg>
+        <msg name="leasingWizNenalezenaSazbaDph">
+            <titl>Für die gegebene MwSt. - Satztyp wurde kein Satzwert gefunden. Die Raten werden also ungültig sein.</titl>
+        </msg>
+        <msg name="leasingWizSazbyNenacteny">
+            <titl>Es ist nicht gelungen, die Einstellung der gültigen MwSt.-Sätze einzulesen. Das Generieren wird nicht korrekt funktionieren.</titl>
+        </msg>
+        <msg name="leasingNepodariloVygenerovat">
+            <titl>Es ist nicht gelungen das Zahlungskalender zu generieren.</titl>
+        </msg>
+        <msg name="leasingNelzeGenerovatPredUcetnimObdobi">
+            <titl>Das Zahlungskalender und die Steuerkosten des Leasings sind vor der aktuellen Buchungsperiode nicht zu generieren.</titl>
+        </msg>
+        <msg name="leasingNelzeGenerovatNeplatnyZavazek">
+            <titl>Bei der Validierung der Verbindlichkeit zum Leasing '%p'und zum Zahlungskalender mit dem Datum'%p' und dem Code '%p'ist ein Fehler vorgekommen.</titl>
+        </msg>
+        <msg name="leasingWizChybaNevyplnenaPole">
+            <titl>Sie haben alle Felder im Formular einzugeben.</titl>
+        </msg>
+        <msg name="leasingWizardBezSplNeboVypl">
+            <titl>Im Formular müssen alle Angaben oder Nullabzahlung eingetragen sein.</titl>
+        </msg>
+        <msg name="leasingWizardSplatkySePrekryvaji">
+            <titl>Leasingabzahlungen dürfen sich nicht decken. Überprüfen Sie eingegebene Daten.</titl>
+        </msg>
+        <msg name="leasingWizChybiRadaDokladu">
+            <titl>Die ausgefüllte Belegart hat keine Belegreihe eingegeben und keine ist spezifiziert.</titl>
+        </msg>
+        <msg name="leasingWizChybiRocniPolozkaRady">
+            <titl>Bei der gewählten Reihe der Belegart ist kein Jahresposten der Nummernreihe für nächste Periode eingegeben.</titl>
+        </msg>
+        <msg name="leasingWizChybaKontrolyRady">
+            <titl>Bei dem Prüfen der Reihe ist ein Fehler der Datenbasis vorgekommen.</titl>
+        </msg>
+        <msg name="leasingNemaVstupniCenaSplatKalSPoradim">
+            <titl>Zum Leasing besteht kein Zahlungskalender für '%p' zur Abzahlung mit der Reihenfolge '%p'.</titl>
+        </msg>
+        <msg name="leasingNelzeGenerovatZavazekUhrazen">
+            <titl>Das Leasing ist nicht wieder zu generieren, weil zu ihm eine entrichtete Verbindlichkeit schon besteht.</titl>
+        </msg>
+        <msg name="leasingNelzeSmazatZavazekUhrazen">
+            <titl>Das Leasing ist nicht zu löschen, weil zu ihm eine entrichtete Verbindlichkeit schon besteht.</titl>
+        </msg>
+        <msg name="leasingChybaPriMazaniZavazku">
+            <titl>Es ist nicht gelungen, die Verbindlichkeit zum Leasing zu löschen.</titl>
+        </msg>
+        <msg name="majetekSpadaDoJinehoObdobi">
+            <titl>Das in andere Buchungsperiode fallende Vermögen ist nicht in Evidenz zu führen.</titl>
+        </msg>
+        <msg name="majetekOdpisyNevygenerovany">
+            <titl>Es ist nicht gelungen, die Abschreibungen zu generieren.</titl>
+        </msg>
+        <msg name="majetekNehmotnyChybnyZpusOdpK">
+            <titl>Für die gewählte Vermögensart wurde eine fehlerhafte Abschreibungsart ausgewählt.</titl>
+        </msg>
+        <msg name="majetekNelzeGenerovatMimoObdobi">
+            <titl>Die Abschreibungen sind nur in der Buchungsperiode zu generieren, in der das Vermögen in Evidenz eingegliedert wurde.</titl>
+        </msg>
+        <msg name="majetekNelzeGenerovatUdalost">
+            <titl>Es ist nicht möglich, den Vorfall mit dem Datum %p und der Summe %p zu generieren. Der Preis des Vermögens wäre negativ oder Null gleich.</titl>
+        </msg>
+        <msg name="majetekNeodepisovanySOdpisy">
+            <titl>Das nicht abgeschriebene Vermögen darf keine Abschreibungen haben. Alle bestehenden Abschreibungen werden gelöscht werden.</titl>
+        </msg>
+        <msg name="majetekNeodepisovanyNelzeGenerovat">
+            <titl>Fürs nicht abgeschriebene Vermögen sind die Abschreibungen nicht zu generieren</titl>
+        </msg>
+        <msg name="majetekOdpisyDanDatumZacatkuPredZaraz">
+            <titl>Das Datum des Beginns von Steuerabschreibungen darf dem Datum der Vermögenseingliederung nicht vorgehen.</titl>
+        </msg>
+        <msg name="majetekOdpisyUcetDatumZacatkuPredZaraz">
+            <titl>Das Datum von buchhalterischen Abschreibungen darf nicht dem Datum der Vermögenseingliederung vorgehen.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZrychOdepis">
+            <titl>Bei der beschleunigten Abschreibung ist die Abschreibung im ersten Jahr auszufüllen.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoTypMajetku">
+            <titl>Die Vermögensart ist auszufüllen.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoSazba">
+            <titl>Es ist nötig, die Abschreibungsgruppe auszufüllen.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoUcetniOdpisy">
+            <titl>Es ist nötig die Information auszufüllen, ob man buchhalterische Abschreibungen bilden soll.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoDatumZarazeni">
+            <titl>Das Eingliederungsdatum wurde nicht ausgefüllt.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoPrimarniUcet">
+            <titl>Primärkonto wurde nicht ausgefüllt.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoProtiUcet">
+            <titl>Das Gegenkonto wurde nicht ausgefüllt.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoOdpisovyUcet">
+            <titl>Das Abschreibungskonto wurde nicht ausgefüllt.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoOpravnyUcet">
+            <titl>Das Korrekturkonto wurde nicht ausgefüllt.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZacDanOdpisu">
+            <titl>Das Datum des Beginns von Steuerabschreibungen ist nicht ausgefüllt.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZacUcetOdpisu">
+            <titl>Das Datum des Beginns der buchhalterischen Abschreibungen ist nicht ausgefüllt.</titl>
+        </msg>
+        <msg name="majetekNevyplnenoZpusobOdepis">
+            <titl>Das Abschreibungsverfahren wurde nicht gewählt.</titl>
+        </msg>
+        <msg name="majetekDatVystNelzeDoMinulosti">
+            <titl>Das Ausstellungsdatum muss in der aktuellen oder jüngeren Buchungsperiode sein.</titl>
+        </msg>
+        <msg name="majetekNenalezenyOdpovidajiSazby">
+            <titl>Die entsprechenden Abschreibungssätze für das gegebene Abschreibungsverfahren wurden nicht gefunden.</titl>
+        </msg>
+        <msg name="majetekPocetMesicuNeniNenulovy">
+            <titl>Die Zahl von Monaten darf nicht-nullwertig sein.</titl>
+        </msg>
+        <msg name="majetekPocetMesicuNenulovyZustCenaNula">
+            <titl>Wenn die Anzahl der Monate der buchhalterischen Abschreibung angegeben wird, dürfen die fortgeführten Anschaffungskosten nicht Null sein.</titl>
+        </msg>
+        <msg name="majetekUcetniOdpisyVDE">
+            <titl>In der Steuerevidenz kann man nicht Rechnungsabschreibungen generieren.</titl>
+        </msg>
+        <msg name="majetekUcetniOdpisyVDE_SK">
+            <titl>Buchhalterische Abschreibungen können in der einfachen Buchhaltung nicht erzeugt werden.</titl>
+        </msg>
+        <msg name="majetekNenulovyDanZustOdepsaneho">
+            <titl>Das Vermögen hat einen nicht-nullwertigen Steuerrest, dem Satz nach sollte aber dieses schon abgeschrieben werden.</titl>
+        </msg>
+        <msg name="majetekTechZhodnocenJenDriveOdepsany">
+            <titl>Vermögenswerte, die noch nicht abgeschrieben wurden, können vor der Klassifizierung nicht technisch bewertet werden.</titl>
+        </msg>
+        <msg name="majetekProcentoNeniNenulove">
+            <titl>Das Prozent pro Jahr darf nicht-nulwertig sein.</titl>
+        </msg>
+        <msg name="majetekChybnyTypOdpisu">
+            <titl>Für die gewählte Vermögensart müssen Sie das richtige Abschreibungsverfahren auswählen.</titl>
+        </msg>
+        <msg name="majetekChybiSazbaOdpisu">
+            <titl>Für das gewählte Abschreibungsverfahren müssen Sie den Abschreibungssatz auswählen.</titl>
+        </msg>
+        <msg name="majetekChybnaSazbaOdpisu">
+            <titl>Für das gewählte Abschreibungsverfahren ist schlechter Abschreibungssatz ausgewählt.</titl>
+        </msg>
+        <msg name="majetekNepodariloSeNajitDokladProVytvoreniMajetku">
+            <titl>Es ist nicht gelungen, den Beleg für die Vermögensbildung zu finden.</titl>
+        </msg>
+        <msg name="majetekSazbaOdpisuNulovaDobaOdp">
+            <titl>Ein Abschreibungssatz von Null kann nicht verwendet werden.</titl>
+        </msg>
+        <msg name="majetekGenPoMigraciStatus">
+            <titl>Generierung von Abschreibungen:</titl>
+        </msg>
+        <msg name="odpisyZmenaObdobiZamceno">
+            <titl>Es ist nicht gelungen, die Abschreibung zu ändern, weil der Zeitraum (%p) gesperrt ist.</titl>
+        </msg>
+        <msg name="sazbaChybaZjisteniNavazanychMajetku">
+            <titl>Es ist nicht gelungen zu überprüfen, ob die registrierten Vermögen auf den Abschreibungssatz gebunden sind.</titl>
+        </msg>
+        <msg name="udalostPredDatemZarazeni">
+            <titl>Das Datum des Vorfalls darf erst nach dem Datum der Eingliederung von Vermögen sein.</titl>
+        </msg>
+        <msg name="udalostNePoVyrazeni">
+            <titl>Kein Vorfall darf nach dem Vorfall restloses Herausnehmen vorkommen.</titl>
+        </msg>
+        <msg name="udalostNePredZarazenim">
+            <titl>Kein Vorfall darf vor dem Vorfall der Eingliederung oder an demselben Tag vorkommen.</titl>
+        </msg>
+        <msg name="udalostNaDanOpdisyPredZacDanOdpisu">
+            <titl>Das Ausstellungsdatum des Vorfalls darf nicht dem Beginn der Steuerabschreibungen vorgehen.</titl>
+        </msg>
+        <msg name="udalostNaUceOpdisyPredZacUceOdpisu">
+            <titl>Das Ausstellungsdatum des Vorfalls darf nicht dem Beginn der Steuerabschreibungen vorgehen.</titl>
+        </msg>
+        <msg name="udalostNesmiBytPredZacOdpisu">
+            <titl>Das Ausstellungsdatum des Vorfalls darf nicht dem Beginn der Steuer- und Rechnungsabschreibungen vorgehen.</titl>
+        </msg>
+        <msg name="udalostMusiMitDatVystVAktualnimObdobi">
+            <titl>Der Vorfall muss das Datum der Ausstellung in der für das ganze Projekt gültigen Periode haben.</titl>
+        </msg>
+        <msg name="udalostNemaVyplnenoStredisko">
+            <titl>Der Vorfall muss die ausgefüllte Kostenstelle haben.</titl>
+        </msg>
+        <msg name="udalostZarazeniJizObsazena">
+            <titl>Der Vorfall der Eingliederung ist schon in der Vorfallliste beinhaltet.</titl>
+        </msg>
+        <msg name="udalostNelzePridatVyrazeni">
+            <titl>Neuer Vorfall ist nach dem Herausnehmen von Vermögen nicht beizufügen.</titl>
+        </msg>
+        <msg name="udalostVyrazeniObsazena">
+            <titl>Ereignis der Herausnehmung ist schon in der Ereignisliste beinhaltet</titl>
+        </msg>
+        <msg name="udalostVyrazeniNesmazat">
+            <titl>Der Vorfall der Eingliederung ist nicht zu löschen, wenn weitere Vorfälle an ihn aufbinden.</titl>
+        </msg>
+        <msg name="udalostVyplnitVsechnyUcty">
+            <titl>Bei diesem Vorfall müssen alle Kontos ausgefüllt werden.</titl>
+        </msg>
+        <msg name="udalostMinHodnotaPolozky">
+            <titl>Minimaler Postenwert</titl>
+        </msg>
+        <msg name="udalostMinHodnotaProdlouzeni">
+            <titl>Der Wert des %p-Feldes muss größer als Null sein.</titl>
+        </msg>
+        <msg name="udalostSumZklTZNesmiBytZaporna">
+            <titl>Der Feldwert %p darf für die technische Auswertung nicht negativ sein.</titl>
+        </msg>
+        <msg name="udalostZmenaDobyOdpis">
+            <titl>'Veränderung der Abschreibungszeit'</titl>
+        </msg>
+        <msg name="udalostNeexistujiUcetPolozky">
+            <titl>Zum Datum (O) gäbe es keine Rechnungsabschreibungen</titl>
+        </msg>
+        <msg name="udalostDveNeboViceZarazeni">
+            <titl>Der Vorfall der Eingliederung ist nur einmal beizufügen.</titl>
+        </msg>
+        <msg name="udalostDveNeboViceVyrazeni">
+            <titl>Der Vorfall restloses Herausnehmen ist nur einmal beizufügen.</titl>
+        </msg>
+        <msg name="udalostPoPreruseniJenomUrciteUdal">
+            <titl>Dieses Ereignis ist nicht einzugeben,weil die Abschreibung unterbrochen wurde.</titl>
+        </msg>
+        <msg name="udalostOpetZahDanBezPreruseni">
+            <titl>Der Vorfall Wiedereröffnung von Steuerabschreibungen ist nicht einzugeben, weil die entsprechende Unterbrechung von Steuerabschreibungen nicht vorgeht.</titl>
+        </msg>
+        <msg name="udalostOpetZahUcetBezPreruseni">
+            <titl>Der Vorfall Wiedereröffnung von buchhalterischen Abschreibungen ist nicht einzugeben, weil die entsprechende Unterbrechung von buchhalterischen Abschreibungen nicht vorgeht.</titl>
+        </msg>
+        <msg name="udalostPrerDanOdpJizPreruseno">
+            <titl>Der Vorfall Unterbrechung von Steuerabschreibungen ist nicht einzugeben. Die Steuerabschreibungen sind schon unterbrochen.</titl>
+        </msg>
+        <msg name="udalostPrerUcetOdpJizPreruseno">
+            <titl>Der Vorfall Unterbrechung von buchhalterischen Abschreibungen ist nicht einzugeben. Die buchhalterischen Abschreibungen sind schon unterbrochen.</titl>
+        </msg>
+        <msg name="udalostZarazeniMusiBytPredZacOdpisu">
+            <titl>Eingliederungsvorfall muss vor dem Beginn der Abschreibungen sein.</titl>
+        </msg>
+        <msg name="splatKalSumDphNevyplneno">
+            <titl>Für den eingegebenen MwSt. - Satz ist die MwSt. unbedingt auszufüllen.</titl>
+        </msg>
+        <msg name="splatKalNelzePrepocitatDph">
+            <titl>###Chyba při nahrávání sazeb DPH nebo nastavení firmy.</titl>
+        </msg>
+        <msg name="majetekNelzeVlozitDoZamcenehoObdobi">
+            <titl>Vermögen kann man nicht in der gesperrten Periode einlegen.</titl>
+        </msg>
+        <msg name="majetekNelzeGenerovatCasVyrazeni">
+            <titl>Es ist nicht möglich, den Vorfall mit Datum %p und Summe %p zu generieren. Der Vermögenswert wäre negativ oder nullwertig.</titl>
+        </msg>
+        <msg name="hromOperace.vPoradku">
+            <titl>Die sammelhafte Transaktion ist erfolgreich abgeschlossen.</titl>
+        </msg>
+        <msg name="hromOperace.seznamChyb">
+            <titl>Bei folgenden Vermögen sind Fehler aufgetreten</titl>
+        </msg>
+        <msg name="hromOperace.vysledek">
+            <titl>Ergebnis der Sammeltransaktion</titl>
+        </msg>
+        <msg name="hromOperace.uzJeVyrazeno">
+            <titl>Das Herausnehmen des Vermögens %p ist schon erfolgt.</titl>
+        </msg>
+        <msg name="hromOperace.chybaPriNacitani">
+            <titl>Es ist nicht gelungen, das Vermögen einzulesen.</titl>
+        </msg>
+        <msg name="hromOperace.chyba">
+            <titl>Bei der Durchführung einer Massentransaktion ist ein Fehler aufgetreten.</titl>
+        </msg>
+        <msg name="hromOperace.prepocetInfo">
+            <titl>Alle Benutzeränderungen nach dem ersten Tag des aktuellen Abrechnungszeitraums werden bei der Neuberechnung annulliert.\nWollen Sie fortfahren?</titl>
+        </msg>
+        <msg name="kontrolaDanOdpisuProbiha">
+            <titl>Es läuft die Kontrolle der steuerlichen Abschreibungen ...</titl>
+        </msg>
+        <msg name="konrolaDanOdpisuUkoncitProcesDotaz">
+            <titl>Wollen Sie wirklich die laufende Kontrolle der steuerlichen Abschreibungen beenden?</titl>
+        </msg>
+        <msg name="kontrolaDanOpisuChyba">
+            <titl>Die Kontrolle der steuerlichen Abschreibungen war erfolglos.</titl>
+        </msg>
+        <msg name="majKontrolaRuznaDelkaOdpisu">
+            <titl>Die Abschreibungsdauer ist unkorrekt (richtig %p / aktuell %p).</titl>
+        </msg>
+        <msg name="majKontrolaNeniNovyOdpis">
+            <titl>Beim Vermögen existieren Abschreibungen, die nicht bestehen dürften.</titl>
+        </msg>
+        <msg name="majKontrolaNeniStaryOdpis">
+            <titl>Beim Vermögen existieren keine Abschreibungen, die korrekt bestehen müssten.</titl>
+        </msg>
+        <msg name="majKontrolaRuznaCastkaPoslOdpisu">
+            <titl>Der Betrag der letzten Abschreibung stimmt nicht (richtig %p / aktuell %p).</titl>
+        </msg>
+        <msg name="majKontrolaRuznyZustPoslOdpisu">
+            <titl>Der Saldo der letzten Abschreibung stimmt nicht (richtig %p / aktuell %p).</titl>
+        </msg>
+        <msg name="majKontrolaRuznySoucetOdpisu">
+            <titl>Die Summe der Abschreibung stimmt nicht (richtig %p / aktuell %p).</titl>
+        </msg>
+        <msg name="majKontrolaUvod">
+            <titl>Bei der Kontrolle der steuerlichen Abschreibungen wurden Differenzen zwischen den gespeicherten und den neu berechneten, steuerlichen Abschreibungen gefunden.\nWir empfehlen ihre Kontrolle und die eventuelle Berichtigung mithilfe der benutzerdefinierten Änderung der Abschreibung (Anleitung zur Berechnung der korrekten Höhe siehe unten).\nDifferenzen wurden bei folgenden Vermögen gefunden:</titl>
+        </msg>
+        <msg name="majKontrolaKonec">
+            <titl>Empfohlenes Verfahren für die Berechnung der Beträge, die im Feld Steuerliche Abschreibung einzustellen sind: \n\n
+Steuerliche Abschreibung = \n
++ &lt;Summe der richtigen Abschreibungen inkl. Monate, wenn wir Abschreibungen ändern.&gt;\n
+- &lt;Summe der fehlerhaften Abschreibungen ohne Monate, wenn wir Abschreibungen ändern.&gt;\n\n
+(das Ziel ist, bei der Summe der steuerlichen Abschreibungen den korrekten Betrag zu ermitteln, sodass bei der nächsten Berechnung der richtige Restwert zugrunde gelegt werden kann)\n
+ Im Feld Saldo ist die korrekte Höhe des Restwertes zu ergänzen.\n</titl>
+        </msg>
+        <msg name="majKontrolaOk">
+            <titl>###V daňových odpisech majetku, který je aktivní v účetním období %p nebyly nalezeny žádné nesrovnalosti.</titl>
+        </msg>
+        <msg name="aktualizaceOdpisuProgress">
+            <titl>Aktualisierung der Vermögensabschreibungen - %p / %p (%p Eintragungen / s, Restzeit: %p)</titl>
+        </msg>
+        <msg name="aktualizaceOdpisuUkladani">
+            <titl>Speicherung der aktualisierten Abschreibungen in die Datenbank.</titl>
+        </msg>
+        <msg name="nepodariloSeAktualizovatMajetky">
+            <titl>Bei der Änderung der Buchungsperiode ist es nicht gelungen Vermögensabschreibungen zu berechnen.</titl>
+        </msg>
+        <msg name="nepodariloSeSpocitatMajetky">
+            <titl>Bei der Änderung der Buchungsperiode ist es nicht gelungen Vermögen zur Aktualisierung der Abschreibungen sicherzustellen.</titl>
+        </msg>
+        <msg name="odpisyZacatekPredUcobd">
+            <titl>Anlagegut [%p] - der Beginn der Abschreibung %p liegt vor dem Buchungszeitraum %p!</titl>
+        </msg>
+        <msg name="nelzeMazatOdpisy">
+            <titl>###Odpisy nelze mazat, jsou generovány automaticky.</titl>
+        </msg>
+        <msg name="nelzeVytvaretOdpisy">
+            <titl>###Odpisy není možné vytvářet, jsou generovány automaticky.</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="parametryPN">
+            <titl>Parameter</titl>
+        </lb>
+        <lb name="zakladniListPN">
+            <titl>Grundblatt</titl>
+        </lb>
+        <lb name="odepisovaniPN">
+            <titl>Abschreiben</titl>
+        </lb>
+        <lb name="koeficientyPN">
+            <titl>Koeffizienten</titl>
+        </lb>
+        <lb name="uctovaniPN">
+            <titl>Buchung</titl>
+        </lb>
+        <lb name="udalostPN">
+            <titl>Vorfall</titl>
+        </lb>
+        <lb name="danOdpisNeexistuje">
+            <titl>Die Steuerabschreibung wurde systemgemäss umgeneriert.</titl>
+        </lb>
+        <lb name="ucetOdpisNeexistuje">
+            <titl>Buchhalterische Abschreibung wurde systemgemäss umgeneriert.</titl>
+        </lb>
+        <lb name="leasingWizTitle">
+            <titl>Generieren des Zahlungskalenders</titl>
+        </lb>
+        <lb name="leasingZmenaParametru">
+            <titl>Es ist zur Änderung der Leasingparameter gekommen. Sollen die Abzahlungen und Kosten generiert werden?</titl>
+        </lb>
+        <lb name="leasingAkontace">
+            <titl>Akontozahlung des Leasings</titl>
+        </lb>
+        <lb name="leasingFinnanCinnost">
+            <titl>Abzahlung - Finanztätigkeit</titl>
+        </lb>
+        <lb name="leasingVstupniCena">
+            <titl>Abzahlung - Eingangspreis</titl>
+        </lb>
+        <lb name="leasingWizPocetSplatek">
+            <titl>Anzahl der Abzahlungen</titl>
+        </lb>
+        <lb name="leasingWizDatum">
+            <titl>Datum</titl>
+        </lb>
+        <lb name="leasingWizMesMeziSpl">
+            <titl>Monate zwischen Abzahlungen</titl>
+        </lb>
+        <lb name="leasingWizOstatniPN">
+            <titl>Andere</titl>
+        </lb>
+        <lb name="leasingWizMimSplPN">
+            <titl>Aussergewöhnliche Abzahlung</titl>
+        </lb>
+        <lb name="leasingWizFinCinPN">
+            <titl>Finanztätigkeit</titl>
+        </lb>
+        <lb name="leasingWizLeasSplPN">
+            <titl>Leasingabzahlung</titl>
+        </lb>
+        <lb name="leasingWizMimSplVyzva">
+            <titl>Zuerst geben Sie aussergewöhnliche Abzahlung ein.</titl>
+        </lb>
+        <lb name="leasingWizMimFCVyzva">
+            <titl>Geben Sie die Finanztätigkeit ein (Gebühr für den Vertragsabschluss)</titl>
+        </lb>
+        <lb name="leasingWizPrvSplVyzva">
+            <titl>Geben Sie die Nullabzahlung ein.</titl>
+        </lb>
+        <lb name="leasingWizObecSplVyzva">
+            <titl>Geben Sie die allgemeine Abzahlung ein.</titl>
+        </lb>
+        <lb name="leasingWizPoslSplVyzva">
+            <titl>Geben Sie die letzte Abzahlung ein.</titl>
+        </lb>
+        <lb name="leasingWizPosledniVyzva">
+            <titl>Zum Schluss füllen Sie folgende Angaben aus.</titl>
+        </lb>
+        <lb name="majetekZmenaParametru">
+            <titl>Es ist zur Änderung von Vermögensparametern gekommen.Sollen die Änderungen auch in die Abschreibungen projiziert werden?</titl>
+        </lb>
+        <lb name="majetekPuvZarazeni">
+            <titl>Datum der ursprünglichen Eingliederung:</titl>
+        </lb>
+        <lb name="majetekPocetMesicu">
+            <titl>Abschreibungsdauer [Monate]:</titl>
+        </lb>
+        <lb name="majetekPocetMesicuStari">
+            <titl>Bleibt abzuschreiben [Monate]:</titl>
+        </lb>
+        <lb name="majetekProcentoRocne">
+            <titl>Prozent jährlich:</titl>
+        </lb>
+        <lb name="majetekPregenerovatUzZmeneneOdpisy">
+            <titl>Es gibt vom Benutzer geänderte Abschreibungen, die umgeneriert werden.</titl>
+        </lb>
+        <lb name="sazbaZrychOdp">
+            <titl>Beschleunigte Abschreibung</titl>
+        </lb>
+        <lb name="sazbaRovnOdp">
+            <titl>Gleichmässige Abschreibung</titl>
+        </lb>
+        <lb name="sazbaENelzeUpravovat">
+            <titl>Die durch Gesetzgebung gegebenen Gruppen oder schon benutzte Gruppen sind nicht anzupassen</titl>
+        </lb>
+        <lb name="typMajEOdpisUctoPN">
+            <titl>Abschreibung und Buchung</titl>
+        </lb>
+        <lb name="zapujckaKontaktniUdaje">
+            <titl>Kontaktdaten</titl>
+        </lb>
+        <lb name="filterDruhMajetku">
+            <titl>Filter nach der Vermögensart</titl>
+        </lb>
+        <lb name="filterDruhMajetkuNeomezen">
+            <titl>Vermögensart unbeschränkt</titl>
+        </lb>
+        <lb name="filterTypMajetku">
+            <titl>Filter nach der Vermögensart</titl>
+        </lb>
+        <lb name="filterTypMajetkuNeomezen">
+            <titl>Vermögensart unbeschränkt</titl>
+        </lb>
+        <lb name="filterRokZarazeni">
+            <titl>Filter nach dem Jahr der Eingliederung</titl>
+        </lb>
+        <lb name="filterMesicZarazeni">
+            <titl>Filter nach der Periode vom Eingliederungsdatum</titl>
+        </lb>
+        <lb name="filterMesicZarazeniNeomezen">
+            <titl>Eingliederungsmonat nicht begrenzt</titl>
+        </lb>
+        <lb name="filterDruhLeasingu">
+            <titl>Filter nach der Leasingart</titl>
+        </lb>
+        <lb name="filterDruhLeasinguNeomezen">
+            <titl>Leasingart nicht begrenzt</titl>
+        </lb>
+        <lb name="filterTypLeasingu">
+            <titl>Filter nach der Leasingart</titl>
+        </lb>
+        <lb name="filterTypLeasinguNeomezen">
+            <titl>Leasingart nicht begrenzt</titl>
+        </lb>
+        <lb name="filterRokZahajeni">
+            <titl>Filter nach dem Jahr des Beginns von Leasing</titl>
+        </lb>
+        <lb name="filterMesicZahajeni">
+            <titl>Filter nach der Periode vom Datum der Eröffnung von Leasing</titl>
+        </lb>
+        <lb name="filterMesicZahajeniNeomezen">
+            <titl>Monat des Beginns unbeschränkt</titl>
+        </lb>
+        <lb name="dPravDefMajSeznam">
+            <titl>Liste der Vermögensarten</titl>
+        </lb>
+        <lb name="dPravDefMajUzivatele">
+            <titl>Liste der Benutzer - Vermögen</titl>
+        </lb>
+        <lb name="dPravDefLeaSeznam">
+            <titl>Liste der Leasingarten</titl>
+        </lb>
+        <lb name="dPravDefLeaUzivatele">
+            <titl>Liste der Benutzer -Leasing</titl>
+        </lb>
+        <lb name="majetekStavKDatu.title">
+            <titl>Vermögensstand bis zum Datum %p</titl>
+        </lb>
+        <lb name="majetekStavKDatu.welcome">
+            <titl>Willkommen im Assistent durch Bildung des Vermögensstand bis zum Datum.</titl>
+        </lb>
+        <lb name="majetekStavKDatu.info1">
+            <titl>Wählen Sie das Datum, zu dem die Zusammenstellung bearbeitet werden soll.</titl>
+        </lb>
+        <lb name="majetekStavKDatu.datum">
+            <titl>Verarbeitungsdatum:</titl>
+        </lb>
+        <lb name="majetekStavKDatu.datumObdobiOd">
+            <titl>Beginn der Periode:</titl>
+        </lb>
+        <lb name="majetek.dlouhodoby">
+            <titl>Langfristig</titl>
+        </lb>
+        <lb name="vozidloPN">
+            <titl>Fahrzeug</titl>
+        </lb>
+        <lb name="hromOperace.title">
+            <titl>Assistent durch Sammeltransaktionen</titl>
+        </lb>
+        <lb name="hromOperace.welcome">
+            <titl>Einstellung einer Sammeltransaktion</titl>
+        </lb>
+        <lb name="hromOperace.uplneVyrazeni">
+            <titl>Ganze Herausnahme des Vermögens</titl>
+        </lb>
+        <lb name="hromOperace.preruseniUcetOdpisu">
+            <titl>Unterbrechung der buchhalterischen Abschreibungen</titl>
+        </lb>
+        <lb name="hromOperace.preruseniDanOdpisu">
+            <titl>Unterbrechung der steuerrechtlichen Abschreibungen</titl>
+        </lb>
+        <lb name="hromOperace.zahajeniUcetOdpisu">
+            <titl>Wiederaufnahme der buchhalterischen Abschreibungen</titl>
+        </lb>
+        <lb name="hromOperace.zahajeniDanOdpisu">
+            <titl>Wiederaufnahme der steuerrechtlichen Abschreibungen</titl>
+        </lb>
+        <lb name="hromOperace.zmenaZauctovaniDan">
+            <titl>Buchungsänderung der steuerrechtlichen Abschreibungen ab</titl>
+        </lb>
+        <lb name="hromOperace.zmenaZauctovaniUcet">
+            <titl>Buchungsänderung der buchhalterischen Abschreibungen ab</titl>
+        </lb>
+        <lb name="hromOperace.prepocetDanOdpisuOdAktObdobi">
+            <titl>Neuberechnung der steuerlichen Abschreibung aus dem laufenden Abrechnungszeitraum</titl>
+        </lb>
+        <lb name="hromOperace.datum">
+            <titl>Datum:</titl>
+        </lb>
+        <lb name="hromOperace.ucetMD">
+            <titl>Soll-Konto:</titl>
+        </lb>
+        <lb name="hromOperace.ucetDal">
+            <titl>Haben-Konto:</titl>
+        </lb>
+    </labels>
+</config>

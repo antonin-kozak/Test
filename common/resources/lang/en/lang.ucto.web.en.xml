@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/en/lang.ucto.web.en.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <actions>
+        <act name="vytvoritVazbuZDD">
+            <titl>Generate ZDD link</titl>
+        </act>
+        <act name="zrusitVazbuZDD">
+            <titl>Cancel ZDD link</titl>
+        </act>
+        <act name="yes">
+            <titl>Yes</titl>
+        </act>
+        <act name="no">
+            <titl>No</titl>
+        </act>
+        <act name="nastavServerVSiti">
+            <titl>Provide ABRA Flexi service in network</titl>
+        </act>
+        <act name="nastavServerMzdyPristup">
+            <titl>Enable access for WinStrom Wages</titl>
+        </act>
+        <act name="nastavZobrazeniVyzvyKVyplneniRegistracnihoEmailu">
+            <titl>Show prompt for registration e-mail</titl>
+        </act>
+        <act name="authn.type.INTERNAL">
+            <titl>Internal name and password (default)</titl>
+        </act>
+        <act name="authn.type.GOOGLE">
+            <titl>Google</titl>
+        </act>
+        <act name="authn.type.IT_HIGHWAY">
+            <titl>IT Highway</titl>
+        </act>
+        <act name="authn.type.UCTUJTE">
+            <titl>Web Účtujte.cz</titl>
+        </act>
+        <act name="authn.type.OPENID">
+            <titl>Own OpenID Provider</titl>
+        </act>
+        <act name="authn.type.SAML">
+            <titl>Own SAMLv2 identity provider</titl>
+        </act>
+        <act name="authn.require_otp">
+            <titl>Require authorization using a one-time password (OTP)</titl>
+        </act>
+        <act name="authn.use_old_http_authn">
+            <titl>Do not use new login form, but use the original HTTP authorization.</titl>
+        </act>
+        <act name="logout">
+            <titl>Unsubscribe.</titl>
+        </act>
+    </actions>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <buttons>
+        <btn name="goBack">
+            <titl>Backup</titl>
+        </btn>
+        <btn name="backup.confirmYes">
+            <titl>Yes, backup</titl>
+        </btn>
+        <btn name="backup.confirmNo">
+            <titl>No, backk</titl>
+        </btn>
+        <btn name="continue">
+            <titl>Continue</titl>
+        </btn>
+        <btn name="modify">
+            <titl>Change</titl>
+        </btn>
+        <btn name="enable">
+            <titl>Activate</titl>
+        </btn>
+        <btn name="disable">
+            <titl>Deactivate</titl>
+        </btn>
+    </buttons>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="devdoc.developers">
+            <titl>Developers documentation</titl>
+        </dlg>
+        <dlg name="actions.title">
+            <titl>List of actions</titl>
+        </dlg>
+        <dlg name="reports.title">
+            <titl>List of reports</titl>
+        </dlg>
+        <dlg name="evidences.title">
+            <titl>List of evidences</titl>
+        </dlg>
+        <dlg name="relations.title">
+            <titl>List of relations</titl>
+        </dlg>
+        <dlg name="properties.title">
+            <titl>List of fields</titl>
+        </dlg>
+        <dlg name="toolbars.title">
+            <titl>Toolbar</titl>
+        </dlg>
+        <dlg name="admin.title">
+            <titl>Administration</titl>
+        </dlg>
+        <dlg name="sum.title">
+            <titl>Sum</titl>
+        </dlg>
+        <dlg name="users.title">
+            <titl>Users</titl>
+        </dlg>
+        <dlg name="user_access.title">
+            <titl>User access</titl>
+        </dlg>
+        <dlg name="users_access.title">
+            <titl>User access sessions</titl>
+        </dlg>
+        <dlg name="companies.title">
+            <titl>List of companies</titl>
+        </dlg>
+        <dlg name="license.title">
+            <titl>License</titl>
+        </dlg>
+        <dlg name="status.title">
+            <titl>Status</titl>
+        </dlg>
+        <dlg name="authentications.list">
+            <titl>List of logged in users</titl>
+        </dlg>
+        <dlg name="connections.list">
+            <titl>List of conntected users</titl>
+        </dlg>
+        <dlg name="authn.basic_settings.header">
+            <titl>Basic server settings</titl>
+        </dlg>
+        <dlg name="authn.authn_settings.header">
+            <titl>Authorization settings</titl>
+        </dlg>
+        <dlg name="authn.additional_settings.header">
+            <titl>Additional authorization settings</titl>
+        </dlg>
+        <dlg name="authn.additional_sso_settings.header">
+            <titl>Additional settings for &lt;abbr title="Single sign-on"&gt;SSO&lt;/abbr&gt;</titl>
+        </dlg>
+        <dlg name="admin.server.title">
+            <titl>ABRA Flexi server</titl>
+        </dlg>
+        <dlg name="admin.parameters.title">
+            <titl>Parameters</titl>
+        </dlg>
+        <dlg name="admin.users_logged_in.title">
+            <titl>User login</titl>
+        </dlg>
+        <dlg name="admin.run_in_cluster.title">
+            <titl>Cluster operation</titl>
+        </dlg>
+        <dlg name="admin.users.title">
+            <titl>Users</titl>
+        </dlg>
+        <dlg name="admin.license_groups.title">
+            <titl>License groups</titl>
+        </dlg>
+        <dlg name="admin.accounting_units.title">
+            <titl>Accounting units</titl>
+        </dlg>
+        <dlg name="admin.default_licence.title">
+            <titl>Default licenses</titl>
+        </dlg>
+        <dlg name="admin.accesses.title">
+            <titl>Access sessions</titl>
+        </dlg>
+        <dlg name="admin.authorization.title">
+            <titl>Authorization</titl>
+        </dlg>
+        <dlg name="admin.server_params.title">
+            <titl>Server parameters</titl>
+        </dlg>
+        <dlg name="admin.server_params.title.short">
+            <titl>Server</titl>
+        </dlg>
+        <dlg name="admin.ssl_certificate.title">
+            <titl>SSL certificate</titl>
+        </dlg>
+        <dlg name="admin.disk_usage.title">
+            <titl>Disk space usage</titl>
+        </dlg>
+        <dlg name="admin.disk_usage.title.short">
+            <titl>Disk usage</titl>
+        </dlg>
+        <dlg name="error.could_not_complete_operation.title">
+            <titl>Cannot perform operation</titl>
+        </dlg>
+        <dlg name="error.503-service_unavailable">
+            <titl>503 - Service not available</titl>
+        </dlg>
+        <dlg name="error.429">
+            <titl>429 - Too many requests</titl>
+        </dlg>
+        <dlg name="changesApi.title">
+            <titl>Changes API</titl>
+        </dlg>
+        <dlg name="error.403-access_denied">
+            <titl>403 - Access denied</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="suggest.nothingFound">
+            <titl>Nothing found</titl>
+        </msg>
+        <msg name="suggest.summary">
+            <titl>{start} to {end} of {total}</titl>
+        </msg>
+        <msg name="suggest.watermark">
+            <titl>{name} (search)</titl>
+        </msg>
+        <msg name="unsavedChanges.confirm">
+            <titl>Page contains unsaved changes. Leave page?</titl>
+        </msg>
+        <msg name="wait">
+            <titl>Working ...</titl>
+        </msg>
+        <msg name="backup.confirmQuestion">
+            <titl>Back up database?</titl>
+        </msg>
+        <msg name="internetUpdate.ic_dic_empty">
+            <titl>Neither Company ID nor Company VAT # has been filled in.</titl>
+        </msg>
+        <msg name="no.records">
+            <titl>No entries</titl>
+        </msg>
+        <msg name="pageLoad.loadNext">
+            <titl>Load next page</titl>
+        </msg>
+        <msg name="pageLoad.end">
+            <titl>All pages loaded.</titl>
+        </msg>
+        <msg name="pageLoad.loading">
+            <titl>Loading next page ...</titl>
+        </msg>
+        <msg name="creditcheck.ok">
+            <titl>No information identified that negatively impacts creditworthiness of company</titl>
+        </msg>
+        <msg name="creditcheck.end">
+            <titl>Company has ceased to exist or is in liquidation.</titl>
+        </msg>
+        <msg name="creditcheck.unknown">
+            <titl>Creditworthiness of company unknown.</titl>
+        </msg>
+        <msg name="creditcheck.warning">
+            <titl>Information is available about the facts or changes in the company that may (but do not necessarily have) impact on creditworthiness of company.</titl>
+        </msg>
+        <msg name="creditcheck.problem">
+            <titl>Information is available that likelyl has a negative impact on the creditworthienss of the company.</titl>
+        </msg>
+        <msg name="prilohaNepatriKObjektu">
+            <titl>Attachment %p does not belong to object %p.</titl>
+        </msg>
+        <msg name="udalostNepatriKObjektu">
+            <titl>Event %p does not belong to object %p.</titl>
+        </msg>
+        <msg name="automatickeParovaniJinyModul">
+            <titl>Automatic matching may be executed only in bank and cash desk.</titl>
+        </msg>
+        <msg name="bankUcetNemaFormatElVypisu">
+            <titl>Format of electronic statements is not defined ffor this bank account.</titl>
+        </msg>
+        <msg name="bankUcetNelzeFinbricks">
+            <titl>###Akci nelze použít pro formát Finbricks.</titl>
+        </msg>
+        <msg name="kopieDokladuNemaTypDokl">
+            <titl>Document type not selected.</titl>
+        </msg>
+        <msg name="chybnyFormatCastky">
+            <titl>Incorrect amount format</titl>
+        </msg>
+        <msg name="chybnyVlastniKurzChybiKurz">
+            <titl>If you want to use your own exchange rate, you must enter your own exchange rate and the exchange rate quantity.</titl>
+        </msg>
+        <msg name="chybnyFormatDatumu">
+            <titl>Incorrect date format</titl>
+        </msg>
+        <msg name="hotovUhrNemaTypPoklPoh">
+            <titl>Cash desk movement type not selected.</titl>
+        </msg>
+        <msg name="parseParameterNumberError">
+            <titl>Parameter %p requires a number, but this is entered: %p.</titl>
+        </msg>
+        <msg name="parseParameterValueError">
+            <titl>###V parametru %p očekávána jedna z hodnot (%p), ale nalezeno '%p'.</titl>
+        </msg>
+        <msg name="parseParameterMesicError">
+            <titl>In the %p parameter, the number of month (1-12) or quarter (Q1-Q4) is expected, but '%p' is found.</titl>
+        </msg>
+        <msg name="parametrPovinny">
+            <titl>Parameter %p is required.</titl>
+        </msg>
+        <msg name="neexistujeReport">
+            <titl>There is no report</titl>
+        </msg>
+        <msg name="invalidDate">
+            <titl>{0} is not a valid date format</titl>
+        </msg>
+        <msg name="invalidNumber">
+            <titl>{0} is not a valid number format</titl>
+        </msg>
+        <msg name="invalidBoolean">
+            <titl>{0} is not a valid logic type</titl>
+        </msg>
+        <msg name="eetCertifikatSpatneHeslo">
+            <titl>Wrong password for the certificate!</titl>
+        </msg>
+        <msg name="eetCertifikatSpatnaProvozovna">
+            <titl>The value must be an integer!</titl>
+        </msg>
+        <msg name="eetCertifikatSpatnySoubor">
+            <titl>This is probably not a certificate file, or you have entered the wrong content-type!</titl>
+        </msg>
+        <msg name="eetDeactivated">
+            <titl>EET is not supported.</titl>
+        </msg>
+        <msg name="missing_param_exception">
+            <titl>Parameter ‘%p’ is required to perform the operation</titl>
+        </msg>
+        <msg name="illegal_parameter_exception">
+            <titl>Parameter ‘%p’ is expected in ‘%p’ format.</titl>
+        </msg>
+        <msg name="illegal_argument_exception_not_active_property">
+            <titl>###Vlastnost '%p' není aktivní.</titl>
+        </msg>
+        <msg name="error_parsing_file_exception">
+            <titl>The file could not be read, because: '%p'.</titl>
+        </msg>
+        <msg name="resource_not_found_exception">
+            <titl>##The necessary ‘%p’ resource was not found</titl>
+        </msg>
+        <msg name="unsupported_param_value_exception">
+            <titl>Parameter ‘%p’ has an unsupported value! Select one of the following options: %p</titl>
+        </msg>
+        <msg name="incompatible_param_values_exception">
+            <titl>Values of parameters %p are not compatible</titl>
+        </msg>
+        <msg name="error.not_sha1_hash">
+            <titl>This is not in valid SHA1 stamp format. It should have 20 hexa bytes of divided by colons.</titl>
+        </msg>
+        <msg name="error.company_in_wrong_state">
+            <titl>Company '%p' is in status '%p'.</titl>
+        </msg>
+        <msg name="error.service_unavailable">
+            <titl>The service is currently not available, please try again later.</titl>
+        </msg>
+        <msg name="error.tooManyRequests">
+            <titl>This company is currently processing a large number of previous requests, please wait.</titl>
+        </msg>
+        <msg name="changesApi.enableQuestion">
+            <titl>Changes API (monitoring of changes) above the current company is not switched on. Do you want to activate it?</titl>
+        </msg>
+        <msg name="changesApi.disableQuestion">
+            <titl>Changes API (monitoring of changes) above the current company is switched on. Do you want to deactivate it?</titl>
+        </msg>
+        <msg name="changesApi.enableSuccess">
+            <titl>Successfully activated.</titl>
+        </msg>
+        <msg name="changesApi.disableSuccess">
+            <titl>Successfully deactivated.</titl>
+        </msg>
+        <msg name="changesApi.actionFailed">
+            <titl>Action failed</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="eula">
+            <titl>Terms of Service</titl>
+        </lb>
+        <lb name="loginWithDesktopApp">
+            <titl>Login using client application</titl>
+        </lb>
+        <lb name="loginWithDesktopAppToCloud">
+            <titl>Login using client application to the Cloud</titl>
+        </lb>
+        <lb name="search">
+            <titl>Search</titl>
+        </lb>
+        <lb name="filter">
+            <titl>Filter</titl>
+        </lb>
+        <lb name="doklFak.cancelled">
+            <titl>CANCELED</titl>
+        </lb>
+        <lb name="root.version">
+            <titl>Version</titl>
+        </lb>
+        <lb name="root.explanation">
+            <titl>ABRA Flexi js a modern accounting and management system competent for the quality processing of accounting and related agendas for a broad spectrum of companies. Hidden behind an easy-to-use user interfaceis a robust and powerful client - server application that can be run on Windows, Linux and Mac OS X. Economic systems produced by ABRA Flexi been on the market since 1991</titl>
+        </lb>
+        <lb name="identifier">
+            <titl>Identifier</titl>
+        </lb>
+        <lb name="name">
+            <titl>Name</titl>
+        </lb>
+        <lb name="actions.needInstance">
+            <titl>Needs object instance</titl>
+        </lb>
+        <lb name="evidences.description">
+            <titl>This overview serves for&amp;nbsp;extract of records, which can be accessed in this company. It is possible to convert it into XML format or into JSON and then process it mechanically.</titl>
+        </lb>
+        <lb name="properties.description">
+            <titl>This overview serves for&amp;nbsp;extract of items, which this record may contain. It is possible to convert it into XML format or into JSON and then process it mechanically.</titl>
+        </lb>
+        <lb name="actions.description">
+            <titl>This overview serves for&amp;nbsp;statement of supported events.</titl>
+        </lb>
+        <lb name="url">
+            <titl>URL</titl>
+        </lb>
+        <lb name="devdoc">
+            <titl>Documentation</titl>
+        </lb>
+        <lb name="ucetni.denik.castky">
+            <titl>Amount</titl>
+        </lb>
+        <lb name="backTo">
+            <titl>Back to</titl>
+        </lb>
+        <lb name="backToDocument">
+            <titl>Back to document</titl>
+        </lb>
+        <lb name="openRecord">
+            <titl>Open record</titl>
+        </lb>
+        <lb name="odpocetZalohyCastka">
+            <titl>Select an amount from 0 to</titl>
+        </lb>
+        <lb name="cleneniDph">
+            <titl>VAT category</titl>
+        </lb>
+        <lb name="zaloha">
+            <titl>Advance</titl>
+        </lb>
+        <lb name="vytvorZdd.faktury">
+            <titl>Invoice</titl>
+        </lb>
+        <lb name="automatickeParovani">
+            <titl>Automatic matching</titl>
+        </lb>
+        <lb name="vygenerovatFaktury">
+            <titl>Generate invoices</titl>
+        </lb>
+        <lb name="nactiVypis">
+            <titl>Read statement</titl>
+        </lb>
+        <lb name="odeslaniDokladu">
+            <titl>Send document</titl>
+        </lb>
+        <lb name="podepsatKUhrade">
+            <titl>Sign for payment</titl>
+        </lb>
+        <lb name="zrusitPodpisKUhrade">
+            <titl>Cancel signature for payment</titl>
+        </lb>
+        <lb name="majetek_dalsi">
+            <titl>More</titl>
+        </lb>
+        <lb name="obchPartneri_dalsi">
+            <titl>More</titl>
+        </lb>
+        <lb name="penize_dalsi">
+            <titl>More</titl>
+        </lb>
+        <lb name="prodej_dalsi">
+            <titl>More</titl>
+        </lb>
+        <lb name="zbozi_dalsi">
+            <titl>More</titl>
+        </lb>
+        <lb name="zbozi_atributy">
+            <titl>Attributes</titl>
+        </lb>
+        <lb name="ucetnictvi_uctovani">
+            <titl>Accounting settings</titl>
+        </lb>
+        <lb name="ucetnictvi_vystupy">
+            <titl>Accounting outputs</titl>
+        </lb>
+        <lb name="std_ciselniky">
+            <titl>Standard code sets</titl>
+        </lb>
+        <lb name="actions.confirm.dokoncit-prevodku">
+            <titl>Do you want to complete a conveyance?</titl>
+        </lb>
+        <lb name="actions.confirm.storno">
+            <titl>Do you really want to cancel this document?</titl>
+        </lb>
+        <lb name="actions.confirm.sign-for-payment">
+            <titl>Do you really want to sign the document for payment?</titl>
+        </lb>
+        <lb name="actions.confirm.unsign-for-payment">
+            <titl>Do you really want to cancel the signature for payment of the document?</titl>
+        </lb>
+        <lb name="actions.confirm.uhrad-preplatky">
+            <titl>Do you really want to pay from the conversions in the bank and at the cash desk?</titl>
+        </lb>
+        <lb name="actions.confirm.uhrad-zapoctem">
+            <titl>Do you really want to pay the document using automated mutual settlement?</titl>
+        </lb>
+        <lb name="actions.confirm.lock">
+            <titl>Do you really want to lock the document?</titl>
+        </lb>
+        <lb name="actions.confirm.lock-for-ucetni">
+            <titl>Do you really want to lock the document outside of accounting?</titl>
+        </lb>
+        <lb name="actions.confirm.unlock">
+            <titl>Do you really want to unlock the document?</titl>
+        </lb>
+        <lb name="actions.confirm.odeslat-eet">
+            <titl>Do you really want to send the document to electronic revenue registration?</titl>
+        </lb>
+        <lb name="company.settings">
+            <titl>Company settings</titl>
+        </lb>
+        <lb name="company.backup">
+            <titl>Backup company</titl>
+        </lb>
+        <lb name="devdoc.slevaDokl">
+            <titl>Total discount for document applied to resulting price.</titl>
+        </lb>
+        <lb name="devdoc.bezPolozek">
+            <titl>Does this document contain items? If it does, amount is determined by their sum. Otherwise, it is possible to set amount directly (sumCelkSniz etc.)</titl>
+        </lb>
+        <lb name="devdoc.datUhr">
+            <titl>Date of payment. Filled when the document was paid.</titl>
+        </lb>
+        <lb name="devdoc.sumOsv">
+            <titl>Total sum of bases exempt from VAT in the company's base currency. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklSniz">
+            <titl>Total sum of bases with reduced VAT in the company's base currency. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklZakl">
+            <titl>Total sum of bases exempt from VAT in the company's base currency. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklCelkem">
+            <titl>Total sum of all bases (i.e. amount not including VAT)  in the company's base currency. This is the resulting amount not including VAT. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphSniz">
+            <titl>The total amount of VAT at a reduced rate of VAT in the company's base currency. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphZakl">
+            <titl>Total amount of VAT at the basic rate in the company's base currency. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphCelkem">
+            <titl>Total amount of VAT (sum of reduced and basic rate) in the company's base currency. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkem">
+            <titl>Total sum including VAT in the company's base currency. (i.e. how much the customer should pay). &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkSniz">
+            <titl>Total sum of all bases at the reduced VAT rate (i.e. amount not including VAT)  in the company's base currency. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkZakl">
+            <titl>Total sum of all bases a the basic rate of VAT (i.e. amount not including VAT)  in the company's base currency. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumOsvMen">
+            <titl>Total sum of bases exempt from VAT in the document currency. &lt;i&gt;If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklSnizMen">
+            <titl>Total sum of bases with reduced VAT in the document currency. &lt;i&gt;If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklZaklMen">
+            <titl>Total sum of bases with basic VAT in the document currency. &lt;i&gt;If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumZklCelkemMen">
+            <titl>Total sum of all bases (i.e. amount not including VAT)  in the document currency. If the currency of the document is identical to the company's base currency, this item is zero value. This is the resulting amount not including VAT. &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphSnizMen">
+            <titl>The total amount of VAT at a reduced rate of VAT in the document currency. &lt;i&gt;If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphZaklMen">
+            <titl>The total amount of VAT at the basic rate of VAT in the document currency. &lt;i&gt;If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumDphCelkemMen">
+            <titl>Total amount of VAT (sum of reduced and basic rate) in the document currency. &lt;i&gt;If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkemMen">
+            <titl>Total sum including VAT in the document currency. If the currency of the document is identical to the company's base currency, this item is zero value. (i.e. how much the customer should pay). &lt;i&gt;If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkSnizMen">
+            <titl>Total sum of all bases at the reduced VAT rate (i.e. amount not including VAT)  in the document currency. &lt;i&gt;If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.sumCelkZaklMen">
+            <titl>Total sum of all bases at the basic VAT rate (i.e. amount not including VAT)  in the document currency. &lt;i&gt;If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.&lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.dphSnizKoef">
+            <titl>Was the coefficient for VAT calculation used in calculation of reduced VAT? (pursuant to Section 37 of the VAT Act).  It influences checksums.</titl>
+        </lb>
+        <lb name="devdoc.dphZaklKoef">
+            <titl>Was the coefficient for VAT calculation used in calculation of basic VAT? (pursuant to Section 37 of the VAT Act). It influences checksums.</titl>
+        </lb>
+        <lb name="devdoc.kurz">
+            <titl>Rate, which is determines the conversion between the company's currency and the document currency. If the currency is not filled in, it has a zero value.</titl>
+        </lb>
+        <lb name="devdoc.kurzMnozstvi">
+            <titl>Exchange amount, which defines the relationship between the company's base currency and the document currency. E.g. the rate between the Czech crown and the Japanese yen is determined as CZK 1:  JPY 100.</titl>
+        </lb>
+        <lb name="devdoc.firma">
+            <titl>Link to company in directory. If not completed, then items should be completed with detailed information about the company.</titl>
+        </lb>
+        <lb name="devdoc.nazFirmy">
+            <titl>&lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.ulice">
+            <titl>&lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.mesto">
+            <titl>&lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.psc">
+            <titl>&lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.eanKod">
+            <titl>&lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faNazev">
+            <titl>Postal address. Fill in only if postovniShodna is false. &lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faUlice">
+            <titl>Postal address. Fill in only if postovniShodna is false. &lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faMesto">
+            <titl>Postal address. Fill in only if postovniShodna is false. &lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faPsc">
+            <titl>Postal address. Fill in only if postovniShodna is false. &lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.faEanKod">
+            <titl>Postal address. Fill in only if postovniShodna is false. &lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.ic">
+            <titl>&lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.dic">
+            <titl>&lt;i&gt;If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.postovniShodna">
+            <titl>If it is true, that postal address = invoice address. &lt;i&gt;if the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. &lt;/i&gt;</titl>
+        </lb>
+        <lb name="devdoc.evidenceFilter">
+            <titl>Database filter: </titl>
+        </lb>
+        <lb name="zalohaProgressDownloadTitle">
+            <titl>Advance will be available for download in a moment..</titl>
+        </lb>
+        <lb name="authn.type.INTERNAL.description">
+            <titl>Only the name and password stored in ABRA Flexi is used.</titl>
+        </lb>
+        <lb name="authn.type.GOOGLE.description">
+            <titl>Authorization is performed against Google servers. Both paid and free variants of Google Apps can be used.</titl>
+        </lb>
+        <lb name="authn.type.IT_HIGHWAY.description">
+            <titl>Authorization via a network of integrated services &lt;i&gt;IT Highway&lt;/i&gt;.</titl>
+        </lb>
+        <lb name="authn.type.UCTUJTE.description">
+            <titl>Special authentication on the web &lt;tt&gt;uctujte.cz&lt;/tt&gt;.</titl>
+        </lb>
+        <lb name="authn.type.OPENID.description">
+            <titl>Authorization is performed against a regular OpenID provider. Configuration will need to be done.</titl>
+        </lb>
+        <lb name="authn.type.SAML.description">
+            <titl>Authorization is performed against a regular SAMLv2 Identity Provider. Configuration will need to be done.</titl>
+        </lb>
+        <lb name="authn.password_quality">
+            <titl>Required password quality</titl>
+        </lb>
+        <lb name="authn.sso_login_url">
+            <titl>Logon URL for SSO</titl>
+        </lb>
+        <lb name="authn.sso_login_url.description">
+            <titl>URL to which ABRA Flexi (service) will send requests for user authentication. The request contains all necessary details for performing authentication, but it is often still necessary to create configuration on the ID provider’s side for the particular service. It is often necessary to specify the URL for processing a response and certain other parameters of the authentication protocol:</titl>
+        </lb>
+        <lb name="authn.sso_logout_url">
+            <titl>Logoff URL for SSO</titl>
+        </lb>
+        <lb name="authn.sso_chng_passwd_url">
+            <titl>URL for SSO password change</titl>
+        </lb>
+        <lb name="authn.sso_chng_passwd_url.description">
+            <titl>URL to which it will be possible to redirect users for the purpose of central logoff or change of password for the ID provider.</titl>
+        </lb>
+        <lb name="authn.service_provider_id">
+            <titl>Service Provider identifier</titl>
+        </lb>
+        <lb name="authn.service_provider_id.description">
+            <titl>Service provider identifier, who figures as the party requesting user authentication. Typically a second class domain (e.g. &lt;b&gt;tt&gt;flexibee.eu&lt;/tt&gt;&lt;/b&gt;).</titl>
+        </lb>
+        <lb name="authn.sso_cert_fingerprint">
+            <titl>Certificate stamp &lt;abbr title="Identity Provider"&gt;IDP&lt;/abbr&gt;</titl>
+        </lb>
+        <lb name="authn.sso_cert_fingerprint.description">
+            <titl>Here the SHA1 certificate stamp is entered, which will be used to sign responses. The correct format can be obtained, for example, via the command: &lt;tt&gt;openssl x509 -noout -in cert.pem -fingerprint -sha1&lt;/tt&gt;&lt;br/&gt;Leave empty if the certificate validation is not supposed to be done.</titl>
+        </lb>
+        <lb name="authn.idp_settings.response_consumer_url">
+            <titl>URL for receipt of a response</titl>
+        </lb>
+        <lb name="authn.idp_settings.single_logout_url">
+            <titl>URL for user logoff</titl>
+        </lb>
+        <lb name="authn.idp_settings.name_id_format">
+            <titl>User identifier format</titl>
+        </lb>
+        <lb name="authn.ACCESS_CONTROL_ALLOW_ORIGIN">
+            <titl>Network access to ABRA Flexi data</titl>
+        </lb>
+        <lb name="authn.ACCESS_CONTROL_ALLOW_ORIGIN.description">
+            <titl>Influences HTTP header configuration Access-Control-Allow-Origin (domains separated by a space)</titl>
+        </lb>
+        <lb name="settings.ITH_USERS_MANAGEMENT">
+            <titl>"IT Highway” user administration</titl>
+        </lb>
+        <lb name="settings.ITH_USERS_MANAGEMENT.description">
+            <titl>Limits assignment of roles in the application &lt;code&gt;ADMIN&lt;/code&gt; and changing of user details. User administration is done primarily via &lt;i&gt;Batch API&lt;/i&gt;.</titl>
+        </lb>
+        <lb name="typKurzu.uhrady">
+            <titl>Exchange rate by payment date</titl>
+        </lb>
+        <lb name="typKurzu.faktury">
+            <titl>Exchange rate obtained from invoice</titl>
+        </lb>
+        <lb name="typKurzu.vlastni">
+            <titl>Own exchange rate</titl>
+        </lb>
+        <lb name="newInterfaceLink">
+            <titl>Try the new interface</titl>
+        </lb>
+    </labels>
+</config>

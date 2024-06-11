@@ -1,0 +1,2641 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/en/lang.core.en.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <actions>
+        <act name="new">
+            <titl>New</titl>
+            <desc>Create new record (shortcut Alt+N)</desc>
+            <icon>win/new.png</icon>
+            <mnem>78</mnem>
+        </act>
+        <act name="newWithCopy">
+            <titl>Copy as new</titl>
+            <desc>Copy record as new one (shortcut Alt+K)</desc>
+            <icon>win/new-copy.png</icon>
+        </act>
+        <act name="add">
+            <titl>Add</titl>
+            <desc>Add new record (shortcut Alt+P)</desc>
+            <icon>win/new.png</icon>
+        </act>
+        <act name="open">
+            <titl>Open</titl>
+            <desc>Open selected record</desc>
+            <icon>win/open.png</icon>
+        </act>
+        <act name="saveAndNew">
+            <titl>Save &amp; new</titl>
+            <desc>Saves record and opens new (shortcut Alt+N)</desc>
+        </act>
+        <act name="saveAndClose">
+            <titl>Save &amp; close</titl>
+            <desc>Save open record and close its window (shortcut Alt+U)</desc>
+        </act>
+        <act name="openNewWindow">
+            <titl>New window...</titl>
+            <desc>Open selected record in new window</desc>
+            <icon>win/open.png</icon>
+        </act>
+        <act name="save">
+            <titl>Save</titl>
+            <desc>Save opened record</desc>
+            <icon>win/save.png</icon>
+        </act>
+        <act name="edit">
+            <titl>Edit</titl>
+            <desc>Edit selected record (shortcut Alt+E)</desc>
+            <icon>win/edit.png</icon>
+            <mnem>69</mnem>
+        </act>
+        <act name="delete">
+            <titl>Delete</titl>
+            <desc>Delete selected record (shortcut DEL)</desc>
+            <icon>win/erase.png</icon>
+        </act>
+        <act name="print">
+            <titl>Print</titl>
+            <desc>Print (shortcut Alt+P)</desc>
+            <icon>win/print.png</icon>
+            <mnem>80</mnem>
+        </act>
+        <act name="printNow">
+            <titl>Print</titl>
+            <desc>Print (shortcut Alt+P)</desc>
+            <icon>win/print-now.png</icon>
+        </act>
+        <act name="printNahled">
+            <titl>Preview</titl>
+            <desc>Shows preview</desc>
+            <icon>win/current-print.png</icon>
+        </act>
+        <act name="printTiskarna">
+            <titl>Print</titl>
+            <desc>Print to printer</desc>
+            <icon>win/print.png</icon>
+        </act>
+        <act name="printPdf">
+            <titl>PDF</titl>
+            <desc>Print to PDF</desc>
+            <icon>win/pdf.png</icon>
+        </act>
+        <act name="printXls">
+            <titl>XLS</titl>
+            <desc>Print to Xls</desc>
+            <icon>win/excel.png</icon>
+        </act>
+        <act name="excel">
+            <titl>Excel</titl>
+            <desc>Export/Import to/from Excel</desc>
+            <icon>win/excel.png</icon>
+        </act>
+        <act name="xml">
+            <titl>XML</titl>
+            <desc>Export/Import from XML</desc>
+            <icon>win/xml.png</icon>
+        </act>
+        <act name="exportImport">
+            <titl>Export/Import</titl>
+            <desc>Export/Import</desc>
+            <icon>win/import-export.png</icon>
+        </act>
+        <act name="mail">
+            <titl>Mail</titl>
+            <desc>Send by e-mail as PDF</desc>
+            <icon>win/mail.png</icon>
+        </act>
+        <act name="mailSmtp">
+            <titl>Send (SMTP)</titl>
+            <desc>Send via email in PDF format (SMTP)</desc>
+            <icon>win/mail.png</icon>
+        </act>
+        <act name="exportXLS">
+            <titl>Export to Excel</titl>
+            <desc>Export to Excel (shortcut Alt+X)</desc>
+            <icon>win/excel-export.png</icon>
+            <mnem>88</mnem>
+        </act>
+        <act name="importXls">
+            <titl>Import from Excel</titl>
+            <desc>Import from Excel</desc>
+            <icon>win/excel-import.png</icon>
+        </act>
+        <act name="exportXml">
+            <titl>Export to XML</titl>
+            <desc>Export to XML</desc>
+            <icon>win/xml-export.png</icon>
+        </act>
+        <act name="importXml">
+            <titl>Import from XML</titl>
+            <desc>Import from XML</desc>
+            <icon>win/xml-import.png</icon>
+        </act>
+        <act name="exportVCard">
+            <titl>Biz card vCard export</titl>
+            <desc>Export as vCard business card.</desc>
+            <icon>win/vcard-export.png</icon>
+        </act>
+        <act name="exportICal">
+            <titl>Calendar iCal export</titl>
+            <desc>Export to iCal calendar file.</desc>
+            <icon>win/ical-export.png</icon>
+        </act>
+        <act name="find">
+            <titl>Find</titl>
+            <desc>Find value in any column (shortcut Alt+S)</desc>
+            <icon>win/find.png</icon>
+            <mnem>83</mnem>
+        </act>
+        <act name="fullTextSearch">
+            <titl>Search</titl>
+            <desc>Fulltext search (shortcut Ctrl-F)</desc>
+            <icon>win/find.png</icon>
+        </act>
+        <act name="extSearch">
+            <titl>Advanced search</titl>
+            <desc>Find value in all columns (shortcut Alt-S)</desc>
+            <icon>win/find.png</icon>
+        </act>
+        <act name="sort">
+            <titl>Sort</titl>
+            <desc>Arrange by records in table</desc>
+            <icon>win/sort-az.png</icon>
+        </act>
+        <act name="sort-az">
+            <titl>Sort A to Z</titl>
+            <desc>Ascending sort in table</desc>
+            <icon>win/sort-az.png</icon>
+        </act>
+        <act name="sort-za">
+            <titl>Sort Z to A</titl>
+            <desc>Descending sort in table</desc>
+            <icon>win/sort-za.png</icon>
+        </act>
+        <act name="filter">
+            <titl>Filter</titl>
+            <desc>Set filtering condition in table (shortcut Alt+I)</desc>
+            <icon>win/filter.png</icon>
+            <mnem>73</mnem>
+        </act>
+        <act name="filterNew">
+            <titl>New filter</titl>
+            <desc>Create new filtration settings (shortcut Alt+N)</desc>
+            <icon>win/new.png</icon>
+        </act>
+        <act name="filterOpen">
+            <titl>Open filter</titl>
+            <desc>Open stored filtration settings (shortcut Alt+O)</desc>
+            <icon>win/open.png</icon>
+        </act>
+        <act name="filterSave">
+            <titl>Save filter</titl>
+            <desc>Save current filtration settings (shortcut Alt+U)</desc>
+            <icon>win/save.png</icon>
+        </act>
+        <act name="filterOther">
+            <titl>Other filters</titl>
+            <icon>win/filter.png</icon>
+        </act>
+        <act name="sum">
+            <titl>Sum</titl>
+            <desc>Set sum records in table</desc>
+            <icon>win/sum.png</icon>
+        </act>
+        <act name="help">
+            <titl>Help</titl>
+            <desc>Help</desc>
+            <icon>win/help.png</icon>
+        </act>
+        <act name="contextHelp">
+            <titl>Context help</titl>
+            <desc>Context help</desc>
+            <icon>win/contexthelp.png</icon>
+        </act>
+        <act name="columnSelection">
+            <titl>Column selection</titl>
+            <desc>Column selection end their order</desc>
+            <icon>empty.png</icon>
+        </act>
+        <act name="saveColumnAsDefault">
+            <titl>Save column settings</titl>
+            <desc>Save settings as initial for all users</desc>
+            <icon>empty.png</icon>
+        </act>
+        <act name="resetColumnToDefault">
+            <titl>Restore default settings</titl>
+            <desc>Reset to settings before user change</desc>
+            <icon>empty.png</icon>
+        </act>
+        <act name="selectAll">
+            <titl>Select all</titl>
+        </act>
+        <act name="deselectAll">
+            <titl>Deselect all</titl>
+        </act>
+        <act name="next">
+            <titl>Next</titl>
+            <desc>Skip on next record in table (Alt+&#8594;)</desc>
+            <icon>win/ar-next.png</icon>
+            <mnem>39</mnem>
+        </act>
+        <act name="prev">
+            <titl>Previous</titl>
+            <desc>Skip on previous record in table (Alt+&#8592;)</desc>
+            <icon>win/ar-prev.png</icon>
+            <mnem>37</mnem>
+        </act>
+        <act name="first">
+            <titl>First</titl>
+            <desc>Skip on first record in table</desc>
+            <icon>win/ar-first.png</icon>
+            <mnem>36</mnem>
+        </act>
+        <act name="last">
+            <titl>Last</titl>
+            <desc>Skip on last record in table</desc>
+            <icon>win/ar-last.png</icon>
+            <mnem>35</mnem>
+        </act>
+        <act name="top">
+            <titl>T</titl>
+            <desc>The highest priority for the selected field</desc>
+            <icon>win/arrow-top.png</icon>
+        </act>
+        <act name="up">
+            <titl>Up</titl>
+            <desc>Up priority of selected field</desc>
+            <icon>win/arrow-up.png</icon>
+        </act>
+        <act name="down">
+            <titl>Down</titl>
+            <desc>Down priority of selected field</desc>
+            <icon>win/arrow-down.png</icon>
+        </act>
+        <act name="bottom">
+            <titl>B</titl>
+            <desc>The lowest priority for the selected field</desc>
+            <icon>win/arrow-bottom.png</icon>
+        </act>
+        <act name="pridat">
+            <titl>Add</titl>
+            <desc>Add selected field</desc>
+            <icon>win/ar-next.png</icon>
+        </act>
+        <act name="pridatVse">
+            <titl>Add &gt;&gt;</titl>
+            <desc>Add all fields</desc>
+            <icon>win/ar-next-all.png</icon>
+        </act>
+        <act name="odebrat">
+            <titl>Remove</titl>
+            <desc>Remove selected field</desc>
+            <icon>win/ar-prev.png</icon>
+        </act>
+        <act name="odebratVse">
+            <titl>Remove &lt;&lt;</titl>
+            <desc>Remove all fields</desc>
+            <icon>win/ar-prev-all.png</icon>
+        </act>
+        <act name="clearField">
+            <titl>Clear field</titl>
+            <icon>erase.png</icon>
+        </act>
+        <act name="refresh">
+            <titl>Refresh</titl>
+            <desc>Refresh data in table from database (shortcut Alt+R)</desc>
+            <icon>win/refresh.png</icon>
+            <mnem>82</mnem>
+        </act>
+        <act name="cancel">
+            <titl>Cancel</titl>
+        </act>
+        <act name="choose">
+            <titl>Choose</titl>
+            <desc>Choose selected record</desc>
+            <icon>empty.png</icon>
+        </act>
+        <act name="close">
+            <titl>Close</titl>
+            <desc>Close</desc>
+            <icon>empty.png</icon>
+        </act>
+        <act name="ok">
+            <titl>OK</titl>
+        </act>
+        <act name="upItem">
+            <titl>Up item</titl>
+            <desc>Move item up</desc>
+            <icon>win/arrow-up.png</icon>
+        </act>
+        <act name="downItem">
+            <titl>Down item</titl>
+            <desc>Move item down</desc>
+            <icon>win/arrow-down.png</icon>
+        </act>
+        <act name="sluzby">
+            <titl>Services</titl>
+            <icon>win/generate.png</icon>
+        </act>
+        <act name="ulozitFiltraci">
+            <titl>Save filter</titl>
+        </act>
+        <act name="zmenitFiltraci">
+            <titl>Modify filters</titl>
+        </act>
+        <act name="zrusitFiltraci">
+            <titl>Cancel filters</titl>
+        </act>
+        <act name="ostatniAkce">
+            <titl>Others</titl>
+        </act>
+        <act name="hromZmenaWizard">
+            <titl>Batch changes</titl>
+            <desc>Performs replacement in the selected field in the assigned filter</desc>
+            <icon>win/edit.png</icon>
+        </act>
+        <act name="hromZmenaVseWizard">
+            <titl>All displayed</titl>
+            <desc>Performs replacement in the selected field in the displayed items</desc>
+        </act>
+        <act name="hromZmenaVybraneWizard">
+            <titl>Only selected</titl>
+            <desc>Performs replacement in the selected field in the selected items</desc>
+        </act>
+        <act name="aktualizujManyToMany">
+            <titl>Add/Remove</titl>
+        </act>
+        <act name="graph">
+            <titl>Graphs</titl>
+            <icon>win/graph.png</icon>
+        </act>
+        <act name="gdpr">
+            <titl>GDPR</titl>
+            <icon>win/personalistika.png</icon>
+        </act>
+        <act name="vazbyUrovenPlus">
+            <titl>Next level of links</titl>
+            <desc>Load next level of links</desc>
+            <icon>win/i18nPlus.png</icon>
+        </act>
+        <act name="uhrady">
+            <titl>Payments</titl>
+            <desc>Load payment documents</desc>
+            <icon>win/pay-cash.png</icon>
+        </act>
+        <act name="activate">
+            <titl>Activate</titl>
+            <icon>win/save.png</icon>
+        </act>
+        <act name="deactivate">
+            <titl>Deactivate</titl>
+            <icon>win/erase.png</icon>
+        </act>
+        <act name="konfigurovatReport">
+            <titl>Configure report</titl>
+            <desc>Opens the report configuration in the web interface.</desc>
+            <icon>win/generate.png</icon>
+        </act>
+    </actions>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <buttons>
+        <btn name="ok">
+            <titl>OK</titl>
+        </btn>
+        <btn name="cancel">
+            <titl>Cancel</titl>
+            <desc>Close window (shortcut ESC)</desc>
+        </btn>
+        <btn name="moreInfo">
+            <titl>More info</titl>
+        </btn>
+        <btn name="delete">
+            <titl>Delete</titl>
+        </btn>
+        <btn name="pouzit">
+            <titl>Apply</titl>
+        </btn>
+        <btn name="ano">
+            <titl>Yes</titl>
+        </btn>
+        <btn name="ne">
+            <titl>No</titl>
+        </btn>
+        <btn name="vybrat">
+            <titl>Choose</titl>
+        </btn>
+        <btn name="vypocet">
+            <titl>Calc</titl>
+        </btn>
+        <btn name="findFormNajit">
+            <titl>Find &amp; next</titl>
+        </btn>
+        <btn name="generovat">
+            <titl>Generate</titl>
+        </btn>
+        <btn name="jenUlozit">
+            <titl>Save</titl>
+        </btn>
+        <btn name="prihlasit">
+            <titl>Log in</titl>
+        </btn>
+        <btn name="ukoncit">
+            <titl>Exit</titl>
+        </btn>
+        <btn name="zavrit">
+            <titl>Close</titl>
+        </btn>
+        <btn name="pdf">
+            <titl>PDF</titl>
+        </btn>
+        <btn name="nahled">
+            <titl>Preview</titl>
+        </btn>
+        <btn name="nahledZaznam">
+            <titl>View record</titl>
+        </btn>
+        <btn name="print">
+            <titl>Print</titl>
+        </btn>
+        <btn name="wizPredchozi">
+            <titl>&lt; Previous</titl>
+        </btn>
+        <btn name="wizNasledujici">
+            <titl>Next &gt;</titl>
+        </btn>
+        <btn name="wizDokoncit">
+            <titl>Finish</titl>
+        </btn>
+        <btn name="wizVyber">
+            <titl>Select</titl>
+        </btn>
+        <btn name="spojit">
+            <titl>Connect</titl>
+        </btn>
+        <btn name="odpojit">
+            <titl>Disconnect</titl>
+        </btn>
+        <btn name="vyberQueryForm">
+            <titl>Select</titl>
+        </btn>
+        <btn name="settingColumnsSaveSetAsDefault">
+            <titl>Save as default</titl>
+        </btn>
+        <btn name="taskMonitorWait">
+            <titl>Wait</titl>
+        </btn>
+        <btn name="taskMonitorEndTasks">
+            <titl>Cancel tasks</titl>
+        </btn>
+        <btn name="multiPdfMailNMailuPrijemciRB">
+            <titl>Multiple mails to one recipient.</titl>
+        </btn>
+        <btn name="multiPdfMail1MailPrijemciRB">
+            <titl>One mail to one recipient.</titl>
+        </btn>
+        <btn name="multiPdfMail1MailVsechnaDataRB">
+            <titl>One mail with all the data.</titl>
+        </btn>
+        <btn name="restart">
+            <titl>Restart</titl>
+        </btn>
+        <btn name="newElection">
+            <titl>New choice</titl>
+        </btn>
+        <btn name="konVykDph.radne">
+            <titl>regular</titl>
+        </btn>
+        <btn name="konVykDph.opravne">
+            <titl>corrective</titl>
+        </btn>
+        <btn name="konVykDph.nasledne">
+            <titl>subsequent</titl>
+        </btn>
+        <btn name="konVykDph.nasledne.opravne">
+            <titl>subsequent/corrective</titl>
+        </btn>
+        <btn name="konVykDph.rychlaOdpoved.nema">
+            <titl>I am not required to submit control reporting (zero CR).</titl>
+        </btn>
+        <btn name="konVykDph.rychlaOdpoved.potvr">
+            <titl>I confirm the accuracy of the most recently submitted CR.</titl>
+        </btn>
+        <btn name="skip">
+            <titl>Skip</titl>
+            <desc>Skip current record</desc>
+        </btn>
+        <btn name="propertiesAll">
+            <titl>Choose from all agenda fields</titl>
+            <desc>Choose from all agenda fields</desc>
+        </btn>
+        <btn name="zamek">
+            <titl>Lock</titl>
+        </btn>
+    </buttons>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <dialogs>
+        <dlg name="aplikace-ikona">
+            <icon>winstrom-16x16.png</icon>
+        </dlg>
+        <dlg name="filter">
+            <titl>Filter</titl>
+        </dlg>
+        <dlg name="userFilterOpen">
+            <titl>Open stored settings for filtration</titl>
+        </dlg>
+        <dlg name="find">
+            <titl>Find</titl>
+        </dlg>
+        <dlg name="sort">
+            <titl>Sort</titl>
+        </dlg>
+        <dlg name="dateChooserDialogTitle">
+            <titl>Select data</titl>
+        </dlg>
+        <dlg name="vyberZeSeznamu">
+            <titl>Select from list</titl>
+        </dlg>
+        <dlg name="hromZmenyWizard">
+            <titl>Batch changes wizard</titl>
+        </dlg>
+        <dlg name="chartWizardCreator">
+            <titl>Graph wizard</titl>
+        </dlg>
+        <dlg name="webHooks">
+            <titl>Web Hooks</titl>
+        </dlg>
+        <dlg name="webHooksInfo.status">
+            <titl>Web Hooks processing status</titl>
+        </dlg>
+        <dlg name="multiPdfMailWizard">
+            <titl>Email message settings</titl>
+        </dlg>
+    </dialogs>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <messages>
+        <msg name="formZdrojNenalezen">
+            <titl>Required source wasn't found.</titl>
+        </msg>
+        <msg name="aplikaceBezPripojeniDbNelzePokracovat">
+            <titl>Impossible to continue without data source connection</titl>
+        </msg>
+        <msg name="aplikaceBudeUkoncena">
+            <titl>Application will be closed.</titl>
+        </msg>
+        <msg name="nelzeNaleztJavu">
+            <titl>Java %p or newer version not found</titl>
+        </msg>
+        <msg name="progressZrusen">
+            <titl>Action was cancelled.</titl>
+        </msg>
+        <msg name="validace.chybiVS">
+            <titl>Missing setting in validation XML for [bean='%p',prop='%p']</titl>
+        </msg>
+        <msg name="validace.notNull">
+            <titl>Field '%p' must be filled in.</titl>
+        </msg>
+        <msg name="validace.unknownType">
+            <titl>Unknown type in validation XML for [bean='%p',prop='%p']</titl>
+        </msg>
+        <msg name="validace.notEmpty">
+            <titl>Field '%p' must be filled in.</titl>
+        </msg>
+        <msg name="validace.notArray">
+            <titl>###Pole '%p' musí být pole hodnot.</titl>
+        </msg>
+        <msg name="validace.notAvailableValue">
+            <titl>Field '%p' must be completed with one of the %p values.</titl>
+        </msg>
+        <msg name="restrictedProtocol">
+            <titl>Protocol '%p' is not permitted.</titl>
+        </msg>
+        <msg name="validace.invalidCombination">
+            <titl>The value of property '%p' in combination with the value of property '%p' is not valid.</titl>
+        </msg>
+        <msg name="validace.minZnaku">
+            <titl>Field '%p' must contain at least %p characters.</titl>
+        </msg>
+        <msg name="validace.maxZnaku">
+            <titl>Field '%p' must not be longer than %p characters.</titl>
+        </msg>
+        <msg name="validace.notZero">
+            <titl>Value of field '%p' must not be zero.</titl>
+        </msg>
+        <msg name="validace.mocCislic">
+            <titl>Value of field '%p' must not contain more than %p digits.</titl>
+        </msg>
+        <msg name="validace.mocDesCis">
+            <titl>Value of field '%p' must not contain more than %p decimal places.</titl>
+        </msg>
+        <msg name="validace.minValue">
+            <titl>Value of field '%p' must not be lower than %p.</titl>
+        </msg>
+        <msg name="validace.maxValue">
+            <titl>Value of field '%p' must not be higher than %p.</titl>
+        </msg>
+        <msg name="validace.double">
+            <titl>The value of the '%p' field must be a real number.</titl>
+        </msg>
+        <msg name="validace.kodNotExist">
+            <titl>Field '%p': Record with shortcut entered does not exist in database.</titl>
+        </msg>
+        <msg name="validace.valChyba">
+            <titl>Field '%p': Error during validation.</titl>
+        </msg>
+        <msg name="validace.neplatnyCiselnik">
+            <titl>Field '%p' contains invalid dial item.</titl>
+        </msg>
+        <msg name="validace.zadano">
+            <titl>Set '%p'.</titl>
+        </msg>
+        <msg name="validace.vymazanoPole">
+            <titl>Cleared field %p.</titl>
+        </msg>
+        <msg name="validace.rokDataMimoRozsah">
+            <titl>The year of data for property '%p' can be specified in the range -9999 to 9999: %p</titl>
+        </msg>
+        <msg name="validace.bytearray">
+            <titl>###Pole '%p' musí obsahovat pole bytů.</titl>
+        </msg>
+        <msg name="validaceZadanoPole">
+            <titl>Set field</titl>
+        </msg>
+        <msg name="postvalidaceZadanoPole">
+            <titl>Set field</titl>
+        </msg>
+        <msg name="daoNejdeSmazatOdkaz">
+            <titl>Record can not be erased, because other record is related to it.</titl>
+        </msg>
+        <msg name="daoNeniUnikatniKod">
+            <titl>Record already exist uder the entered code. Entered code must be unique.</titl>
+        </msg>
+        <msg name="daoZaznamNepodariloNacist">
+            <titl>Loading of requested record from database failed.</titl>
+        </msg>
+        <msg name="daoZaznamyCiselnikSeNepodariloNacist">
+            <titl>Impossible to read records for dial '%p' (#%p) from the data source.</titl>
+        </msg>
+        <msg name="daoZaznamyFormulareSeNepodariloNacist">
+            <titl>Impossible to read records for form '%p' (#%p) from the data source.</titl>
+        </msg>
+        <msg name="daoZaznamySeznamuSeNepodariloNacist">
+            <titl>Impossible to read records for list '%p' (#%p) from the data source.</titl>
+        </msg>
+        <msg name="daoZaznamyLokCiselnikSeNepodariloNacist">
+            <titl>Impossible to read records for localized dial (#%p) from the data source.</titl>
+        </msg>
+        <msg name="daoZaznamyParamNeexistuje">
+            <titl>No record was found based on the parameters: %p.</titl>
+        </msg>
+        <msg name="daoZaznamyParamVice">
+            <titl>Multiple records were found based on the parameters: %p.</titl>
+        </msg>
+        <msg name="daoNekonzistDatabazeViceZaznamu">
+            <titl>Inconsistancy in database.\nFound more record with identical code '%p'.</titl>
+        </msg>
+        <msg name="daoNekonzistDatabazeViceZaznamuDleCUctu">
+            <titl>Inconsistency in the database.\n Multiple records found with the same '%p' account number.</titl>
+        </msg>
+        <msg name="daoPocetRadekMimoRozsah">
+            <titl>Number of chart rows out of defined range.</titl>
+        </msg>
+        <msg name="daoZaznamNepodariloUlozit">
+            <titl>Record save failed.</titl>
+        </msg>
+        <msg name="daoDetekovanKonkurenciPristup">
+            <titl>Detected competing access to this record.</titl>
+        </msg>
+        <msg name="daoNepodariloOdstranitZDatabaze">
+            <titl>Deleting record from database failed.</titl>
+        </msg>
+        <msg name="daoZmenyNepodariloUlozit">
+            <titl>###Změny se nepodařilo uložit do databáze.</titl>
+        </msg>
+        <msg name="daoChybaPraceSDatabazi">
+            <titl>Error occurred during database processing.</titl>
+        </msg>
+        <msg name="daoSelhaloPripojeniKDatovemuZdroji">
+            <titl>Connection to data source failed.</titl>
+        </msg>
+        <msg name="daoPoruseniIntegrity">
+            <titl>Infringement of integrational restrictions.</titl>
+        </msg>
+        <msg name="daoChybaProvadeniUlozeneProcedury">
+            <titl>Error during executing saved procedure.</titl>
+        </msg>
+        <msg name="notUniqueIdentifier">
+            <titl>The entered indicator is not unique! Multiple records were found, which have the property ‘%p’ with the value ‘%p’.</titl>
+        </msg>
+        <msg name="queryNelzeNastavitPozadovanyFiltr">
+            <titl>For this type, It is not possible to set up requested filter of type '%p'.</titl>
+        </msg>
+        <msg name="unsupportedDataTypeLike">
+            <titl>Operators like, begins, ends require a chain type argument.</titl>
+        </msg>
+        <msg name="connectionNepodariloZiskat">
+            <titl>Can't acquire access to data source</titl>
+        </msg>
+        <msg name="transakceNepodariloZahajit">
+            <titl>Transaction initiation failed.</titl>
+        </msg>
+        <msg name="transakceNepodariloCommit">
+            <titl>Transaction save failed.</titl>
+        </msg>
+        <msg name="transakceNepodariloRollback">
+            <titl>Transaction roll-back failed .</titl>
+        </msg>
+        <msg name="sessionChybaOtevirani">
+            <titl>Error during session opening.</titl>
+        </msg>
+        <msg name="sessionChybaUzavirani">
+            <titl>Error during session closing.</titl>
+        </msg>
+        <msg name="sessionChybaDetasovaniDatObjektu">
+            <titl>Error during data objects detachment from working session.</titl>
+        </msg>
+        <msg name="sessionChybaVkladaniDatObjektu">
+            <titl>Error during data objects insertion to working session.</titl>
+        </msg>
+        <msg name="staleStateResolverZmenenyZaznam">
+            <titl>Record was changed by another user from the last opening of the report.\n(Another user could possibly change superior record, that contains this record)</titl>
+        </msg>
+        <msg name="duvod">
+            <titl>Reason</titl>
+        </msg>
+        <msg name="zaznamNepodariloNacist">
+            <titl>Records' loading from database failed.</titl>
+        </msg>
+        <msg name="zaznamSeNepodarilNacist">
+            <titl>Reading record from data source failed.</titl>
+        </msg>
+        <msg name="zaznamChybaHledani">
+            <titl>Error during searching for record in the data source.</titl>
+        </msg>
+        <msg name="zaznamChybaHledaniNeboNacitani">
+            <titl>Error during search or loading record from database.</titl>
+        </msg>
+        <msg name="zaznamNelzeOtevrit">
+            <titl>Required record can not be open.</titl>
+        </msg>
+        <msg name="zaznamNelzeEditovat">
+            <titl>No item in the chart selected for editing.</titl>
+        </msg>
+        <msg name="zaznamNelzeSmazat">
+            <titl>No item in the chart selected for deleting.</titl>
+        </msg>
+        <msg name="zaznamJizSmazan">
+            <titl>Someone has already deleted this record from data source.</titl>
+        </msg>
+        <msg name="zaznamNepodariloSmazat">
+            <titl>Record delete failed.</titl>
+        </msg>
+        <msg name="zaznamNeniVybranaPolozka">
+            <titl>No item selected in the chart.</titl>
+        </msg>
+        <msg name="zaznamChybaNacitaniPoctu">
+            <titl>Error during loading records' count.</titl>
+        </msg>
+        <msg name="zaznamChybaNacitaniStranky">
+            <titl>Error during loading records' page.</titl>
+        </msg>
+        <msg name="zaznamJizNeexistujeNelzeUlozit">
+            <titl>The changes in open record can not be saved,\nbecause someone has deleted in from data source.</titl>
+        </msg>
+        <msg name="zaznamJizNeexistujeNelzeOdstranit">
+            <titl>This record can not be deleted ,\nbecause someone has deleted in from data source.</titl>
+        </msg>
+        <msg name="zaznamVDatabaziNovejsiDataOdEditace">
+            <titl>Record was changed by another user since beginning of its modification.</titl>
+        </msg>
+        <msg name="zaznamVDatabaziNovejsiDataOdOtevreni">
+            <titl>Record was changed by another user since opening the record.</titl>
+        </msg>
+        <msg name="zaznamUlozeniPrepiseZmeny">
+            <titl>If you save record, another user changes will be overwritten.</titl>
+        </msg>
+        <msg name="zaznamChceteUlozit">
+            <titl>Do you want to save the changes made?</titl>
+        </msg>
+        <msg name="zaznamOpravduUlozit">
+            <titl>Really save record?</titl>
+        </msg>
+        <msg name="zaznamOpravduOdstranit">
+            <titl>Really remove record?</titl>
+        </msg>
+        <msg name="zaznamOpravduSmazatVybranyZaznam">
+            <titl>Really delete selected record?</titl>
+        </msg>
+        <msg name="zaznamOpravduSmazatNeco">
+            <titl>Do you really want to delete %p?</titl>
+        </msg>
+        <msg name="zaznamAktualniZaznam">
+            <titl>the current record</titl>
+        </msg>
+        <msg name="zaznamVybraneZaznamy">
+            <titl>selected records</titl>
+        </msg>
+        <msg name="zaznamNemateOpravneni">
+            <titl>You are not entitled to display this record.</titl>
+        </msg>
+        <msg name="ciselnikDuplicitniZkratka">
+            <titl>Shortcut '%p' already used by other record.</titl>
+        </msg>
+        <msg name="ciselnikMimoObdobi">
+            <titl>It is not allowed to set validity outside current accounting period.</titl>
+        </msg>
+        <msg name="ciselnikDaoChybaMaximalniKod">
+            <titl>Value of maximum code was not obtained from data source.</titl>
+        </msg>
+        <msg name="ciselnikDaoChybaPosledniKod">
+            <titl>Value of last code was not obtained from data source.</titl>
+        </msg>
+        <msg name="settingChybaNacitaniElementu">
+            <titl>Error when loading element</titl>
+        </msg>
+        <msg name="settingIniSouborNenalezen">
+            <titl>Initialization file '%p' wasn't found.</titl>
+        </msg>
+        <msg name="settingIniChybnySoubor">
+            <titl>Incorrect initialization file.</titl>
+        </msg>
+        <msg name="settingL10nSelhaloUkladani">
+            <titl>Save of localization setting to XML file failed!</titl>
+        </msg>
+        <msg name="settingValLoadError">
+            <titl>Reading of validation setting failed.</titl>
+        </msg>
+        <msg name="settingValNastaveniProblem">
+            <titl>Problem with the file with validation settings</titl>
+        </msg>
+        <msg name="settingValVicenasobnyElement">
+            <titl>Validation XML contains several identical elements</titl>
+        </msg>
+        <msg name="settingValSelhaloUkladani">
+            <titl>Saving validation setting to XML file failed!</titl>
+        </msg>
+        <msg name="settingColumnsDefaultInfo">
+            <titl>If you continue you will set this column spreading as initial\n for all users of this application in this company.</titl>
+        </msg>
+        <msg name="settingColumnsRestoreDefaultInfo">
+            <titl>If you continue, you will set the column layout to the state when you first start the application.</titl>
+        </msg>
+        <msg name="settingColumnsLoadError">
+            <titl>Reading of column setting failed.</titl>
+        </msg>
+        <msg name="settingColumnsSaveError">
+            <titl>Saving of column setting failed.</titl>
+        </msg>
+        <msg name="settingColumnsLoadBeanError">
+            <titl>Loading user setting of columns for object failed: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsLoadFilterError">
+            <titl>Failed to load custom column settings for filter: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsSouborProblem">
+            <titl>Problem with the file with setting of chart columns</titl>
+        </msg>
+        <msg name="settingColumnsSelhaloUkladaniSloupcu">
+            <titl>Saving chart columns to XML file failed.</titl>
+        </msg>
+        <msg name="settingColumnsSaveBeanError">
+            <titl>Saving user columns' setting for object failed: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsStaleStateWhenSave">
+            <titl>Competitive access problem has occurred during columns saving.\nAnother user has already changed columns setting of the object: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsStaleStateWhenSaveUnspec">
+            <titl>Competitive access problem has occurred during columns saving.</titl>
+        </msg>
+        <msg name="settingColumnsDeletePropertyError">
+            <titl>Erasing user colmumns' setting for object failed: '%p'.</titl>
+        </msg>
+        <msg name="settingColumnsDeleteError">
+            <titl>Deletion of user setting for object: '%p' failed.</titl>
+        </msg>
+        <msg name="settingWindowsReadError2">
+            <titl>Reading of user's window setting for user '%p' failed.</titl>
+        </msg>
+        <msg name="settingWindowsSaveError">
+            <titl>Saving window user setting failed '%p' for user '%p'.</titl>
+        </msg>
+        <msg name="settingsReadError">
+            <titl>Feature '%p' reading for user '%p' failed.</titl>
+        </msg>
+        <msg name="settingsReportConfigNotAllowed">
+            <titl>The '%p' record does not allow configuring reports. Use '%p'.</titl>
+        </msg>
+        <msg name="settingsWriteError">
+            <titl>Feature '%p' saving for user '%p' failed.</titl>
+        </msg>
+        <msg name="formularNenastaven">
+            <titl>For entity '%p' no editing form set.</titl>
+        </msg>
+        <msg name="formularPristupOdepren">
+            <titl>Access to this form denied.</titl>
+        </msg>
+        <msg name="akcePristupOdepren">
+            <titl>You don't have permission to this action.</titl>
+        </msg>
+        <msg name="akceEvidenceList">
+            <titl>Event available for registration: %p</titl>
+        </msg>
+        <msg name="formularPrilisMnohoOken">
+            <titl>Too many windows open\nclose some first.</titl>
+        </msg>
+        <msg name="formNejdePrejitNovyZaznam">
+            <titl>Not possible to go over to new record.</titl>
+        </msg>
+        <msg name="formNejdeOtevritZaznam">
+            <titl>Not possible to open required record.</titl>
+        </msg>
+        <msg name="formZaznamNenalezen">
+            <titl>Record not found in data source.</titl>
+        </msg>
+        <msg name="formNeopravnenyPokusSmazani">
+            <titl>Unauthorised attempt to erase record</titl>
+        </msg>
+        <msg name="formZnovunacneniProblem">
+            <titl>An error occurred when re-loading saved record.</titl>
+        </msg>
+        <msg name="formUkladaniSelhalo">
+            <titl>Saving failed.</titl>
+        </msg>
+        <msg name="formDaoException">
+            <titl>Problem occurred in communication with data source.</titl>
+        </msg>
+        <msg name="formBudeUzavren">
+            <titl>Form will be closed.</titl>
+        </msg>
+        <msg name="formInterruptFormBudeUzavren">
+            <titl>Critical error has occurred, because of which it is necessary to close the form.</titl>
+        </msg>
+        <msg name="formInterruptFormNelzeOtevrit">
+            <titl>Critical error has occurred, because of which form opening failed.</titl>
+        </msg>
+        <msg name="formChybaAktualizaceBOkna">
+            <titl>Error during b-window update.</titl>
+        </msg>
+        <msg name="formZaznamNelzeUlozit">
+            <titl>Record can not be saved.</titl>
+        </msg>
+        <msg name="formPreSaveChcesUlozit">
+            <titl>Do you want to continue?</titl>
+        </msg>
+        <msg name="formEVerifikaceSelhala">
+            <titl>Check of correct data entering failed.</titl>
+        </msg>
+        <msg name="tableNepodariloPosunout">
+            <titl>Moving record failed.</titl>
+        </msg>
+        <msg name="tableNelzePosunNahoru">
+            <titl>Not possible to move up first record in table</titl>
+        </msg>
+        <msg name="tableNelzePosunDolu">
+            <titl>Not possible to move down last record in table</titl>
+        </msg>
+        <msg name="tableNelzePosouvatPolozku">
+            <titl>No selected item in table for move</titl>
+        </msg>
+        <msg name="tableRowNumberChyba">
+            <titl>Error during row number identifying in table.</titl>
+        </msg>
+        <msg name="voSelektorNepodariloNacistZaznam">
+            <titl>Selected record reading from data source failed.</titl>
+        </msg>
+        <msg name="filterFormLoadDataFailed">
+            <titl>Reading data into form for filter settings failed.</titl>
+        </msg>
+        <msg name="filterFormFiltrProVlastnostChybaPreset">
+            <titl>Failed filter settings for the field %p.</titl>
+        </msg>
+        <msg name="filterFormIgnorovanFiltrProVlastnost">
+            <titl>Ignored filter settings for the property %p.</titl>
+        </msg>
+        <msg name="filterFormZadejteNazevFiltru">
+            <titl>Enter a name for the filter settings.</titl>
+        </msg>
+        <msg name="filterFormNazevFiltruMusiBytVyplnen">
+            <titl>Filter name must be filled.</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.message">
+            <titl>Do you want to re-write the original filter setting or save it as new?</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.title">
+            <titl>Save filter setting.</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.prepsat">
+            <titl>Overwrite</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.novy">
+            <titl>New</titl>
+        </msg>
+        <msg name="filterFormUlozeniPrepsatNeboNovy.zrusit">
+            <titl>Cancel</titl>
+        </msg>
+        <msg name="filterFormChybaPriUlozeniFiltru">
+            <titl>Current filtration settings can't be stored.</titl>
+        </msg>
+        <msg name="filterIdUnsupported">
+            <titl>This record does not support identifiers or filtering of records.</titl>
+        </msg>
+        <msg name="userFilterOpen.vyberteFiltry">
+            <titl>Select user filter settings that you want to open.</titl>
+        </msg>
+        <msg name="userFilterOpen.header">
+            <titl>Choose stored filtration settings.</titl>
+        </msg>
+        <msg name="userFilterOpen.musiteVybratFiltr">
+            <titl>You must find stored settings at first.</titl>
+        </msg>
+        <msg name="userFilterOpen.opravduSmazatFiltr">
+            <titl>Are you sure you want to delete the selected filter settings?</titl>
+        </msg>
+        <msg name="userFilterOpen.chybaPriMazaniFiltru">
+            <titl>Filter settings failed to clear.</titl>
+        </msg>
+        <msg name="filtrAplikovan">
+            <titl>Filter is applied at the moment:</titl>
+        </msg>
+        <msg name="queryFormMultipleChybaNacitani">
+            <titl>Error during items for selection reading.</titl>
+        </msg>
+        <msg name="reportImplNepodariloVytisknout">
+            <titl>Print report printing failed.</titl>
+        </msg>
+        <msg name="reportNeniVybran">
+            <titl>The print report is not selected.</titl>
+        </msg>
+        <msg name="reportNoData">
+            <titl>The print report has no data.</titl>
+        </msg>
+        <msg name="reportImplNeniPripojenaTiskarna">
+            <titl>No printer is connected.</titl>
+        </msg>
+        <msg name="reportPaneNepodariloNacistSeznamReportu">
+            <titl>Report list reading failed.</titl>
+        </msg>
+        <msg name="reportNezdarilSeTisk">
+            <titl>Print of the report wasn't successful.</titl>
+        </msg>
+        <msg name="reportChybaZobrazeni">
+            <titl>Error has occurred during report preview displaying.</titl>
+        </msg>
+        <msg name="reportNepodariloSePDF">
+            <titl>PDF file generation failed.</titl>
+        </msg>
+        <msg name="reportPDFExportUspesny">
+            <titl>Export to PDF was successful.</titl>
+        </msg>
+        <msg name="reportNepodariloSeXls">
+            <titl>Failed to generate xls file.</titl>
+        </msg>
+        <msg name="reportNepodariloSeXlsx">
+            <titl>Failed to generate xlsx file.</titl>
+        </msg>
+        <msg name="reportXlsExportUspesny">
+            <titl>Export to xls successful.</titl>
+        </msg>
+        <msg name="reportXlsxExportUspesny">
+            <titl>Export to xlsx successful.</titl>
+        </msg>
+        <msg name="reportZadneStranky">
+            <titl>Report doesn't contain any pages.</titl>
+        </msg>
+        <msg name="reportKontaktujteVyrobce">
+            <titl>A report error has occurred. Contact the author of the report.</titl>
+        </msg>
+        <msg name="reportNebylNalezen">
+            <titl>Report was not found in data source.</titl>
+        </msg>
+        <msg name="reportTvorbaPrerusena">
+            <titl>Report generation was interrupted. Please try again.</titl>
+        </msg>
+        <msg name="reportNacitamPocetZaznamu">
+            <titl>Loading the number of records.</titl>
+        </msg>
+        <msg name="reportNepodariloSeNacistPocetZaznamu">
+            <titl>The number of records could not be loaded.</titl>
+        </msg>
+        <msg name="reportChybneHesloJenAscii">
+            <titl>The entered password unfortunately cannot be used for encrypting the print layout.\nPlease enter the password without diacritics.</titl>
+        </msg>
+        <msg name="filePrepsatSoubor">
+            <titl>Do you want to overwrite the file?</titl>
+        </msg>
+        <msg name="fileNepodariloSeUzavritSoubor">
+            <titl>File closing failed.</titl>
+        </msg>
+        <msg name="exportXlsProbehlUspesne">
+            <titl>Export to Excel was successful.</titl>
+        </msg>
+        <msg name="exportXlsNeprobehlUspesne">
+            <titl>Export to Excel wasn't successful.</titl>
+        </msg>
+        <msg name="exportXlsPrekrocenLimitPocetRadek">
+            <titl>Limit exceeded for the number of rows (65536) in XLS format. Use the format XLSX.</titl>
+        </msg>
+        <msg name="exportXmlProbehlUspesne">
+            <titl>Export to XML was successful.</titl>
+        </msg>
+        <msg name="exportXmlNeprobehlUspesne">
+            <titl>Export to XML failed.</titl>
+        </msg>
+        <msg name="exportXmlProgresDesc">
+            <titl>Export to XML running...</titl>
+        </msg>
+        <msg name="exportVCardProbehlUspesne">
+            <titl>Export to vCard was successful.</titl>
+        </msg>
+        <msg name="exportVCardNeprobehlUspesne">
+            <titl>Export to vCard failed.</titl>
+        </msg>
+        <msg name="exportVCardProgresDesc">
+            <titl>Export to vCard running.</titl>
+        </msg>
+        <msg name="exportICalProbehlUspesne">
+            <titl>Export to iCal was successful.</titl>
+        </msg>
+        <msg name="exportICalNeprobehlUspesne">
+            <titl>Export to iCal failed.</titl>
+        </msg>
+        <msg name="exportICalProgresDesc">
+            <titl>Export to iCal running...</titl>
+        </msg>
+        <msg name="postgreSQLExceptionNeexistujeKurzSklad">
+            <titl>Exchange rate for stock supply does not exist in the table of exchange rates.</titl>
+        </msg>
+        <msg name="postgreSQLExceptionZapornySklad">
+            <titl>Negative stock level is not allowed.</titl>
+        </msg>
+        <msg name="postgreSQLExceptionZustavajiVazbyPolozky">
+            <titl>Links to document item stay in the linking table.</titl>
+        </msg>
+        <msg name="postgreSQLExceptionZustavajiVazbyDoklad">
+            <titl>Links to document stay in the linking table.</titl>
+        </msg>
+        <msg name="postgreSQLExceptionZPrijemkyCerpaVydejka">
+            <titl>It is not possible to delete or cancel the receipt card from which the issue card already draws on.</titl>
+        </msg>
+        <msg name="postgreSQLzboziZpolozkyVyskladneno">
+            <titl>The goods from the item have already been released.</titl>
+        </msg>
+        <msg name="postgreSQLUcetNavazanaPolozka">
+            <titl>Unable to change account in binding.</titl>
+        </msg>
+        <msg name="postgreSQLVytvorPrijemkuVKusovnikuChybiDostatekMaterialu">
+            <titl>Unable to create product receipt '%p' due to missing material '%p' in stock '%p' (required: %p, available: %p).</titl>
+        </msg>
+        <msg name="ucetniSkladNeucetniTypDokl">
+            <titl>You have set up an accounting warehouse and the document type is non-accounting!</titl>
+        </msg>
+        <msg name="neucetniSkladucetniTypDokl">
+            <titl>You have set up a non-accounting warehouse and the document type is accounting!</titl>
+        </msg>
+        <msg name="postgreSQLChybiDokladovaRada">
+            <titl>Check the document series settings for the %p:warehouse "%p: %p", document type”%p: %p".</titl>
+        </msg>
+        <msg name="postgreSQLduplVyrCis">
+            <titl>Duplicate production number %p.</titl>
+        </msg>
+        <msg name="postgreSQLNelzeZmeniVydCis">
+            <titl>You are changing the %p pricing for an already issued %p serial number.</titl>
+        </msg>
+        <msg name="zalohovatDBQuestion">
+            <titl>Do you want to back up company's accountancy before program closing?</titl>
+        </msg>
+        <msg name="zalohovatDBError">
+            <titl>Error during making back up of company's accountancy.</titl>
+        </msg>
+        <msg name="zalohovatDBChybaPrikazu">
+            <titl>Error during running the command for back up making.</titl>
+        </msg>
+        <msg name="zalohovatDBChybaPrejmenovani">
+            <titl>Error during rename of the file with passwords to DB</titl>
+        </msg>
+        <msg name="zalohovatDBChybaPrikazuChmod">
+            <titl>Error during running the command for changing rights to chmod file.</titl>
+        </msg>
+        <msg name="zalohaJizExistuje">
+            <titl>Back up under this name already exists. Do you wish to overwrite it?</titl>
+        </msg>
+        <msg name="zalohovatDBChybaUkoncit">
+            <titl>Do you wish to quit application?</titl>
+        </msg>
+        <msg name="zalohovatDBPGPassNenalezen">
+            <titl>It is not possible to find the file with settings of connection to DB.</titl>
+        </msg>
+        <msg name="zalohovatNenalezenPgDump">
+            <titl>Installation of the tool pg_dump wasn't found. Is PostgreSQL really installed?</titl>
+        </msg>
+        <msg name="zalohovatNenalezenChmod">
+            <titl>No command for changing rights to chmod file was found.</titl>
+        </msg>
+        <msg name="zalohovatNelzeVytvoritAdresarProPgConf">
+            <titl>It is not possible to create directory for file pgconf saving.</titl>
+        </msg>
+        <msg name="zalohovatDBNenalezenPgDump">
+            <titl>It wasn't successful to find the path to the tool for making back up of the company.</titl>
+        </msg>
+        <msg name="zalohovatServerZalohuje">
+            <titl>Creating company backup...</titl>
+        </msg>
+        <msg name="zalohovatPrubeh">
+            <titl>Downloading data... %p of %p.</titl>
+        </msg>
+        <msg name="zalohaNedostatekMista">
+            <titl>You don't have enough space for backup with size %p.</titl>
+        </msg>
+        <msg name="zalohaSouborNenalezen">
+            <titl>File %p for backup not found or you don't have enough permissions.</titl>
+        </msg>
+        <msg name="souborNelzeZapisovat">
+            <titl>You do not have sufficient permissions to create an entry to the particular path.</titl>
+        </msg>
+        <msg name="zalohaProbehlaUspesne">
+            <titl>Back up made successfully.</titl>
+        </msg>
+        <msg name="obnovitDBProbehloUspesne">
+            <titl>Database was successfully recovered.</titl>
+        </msg>
+        <msg name="obnovitDBPridaniCsUzivatele">
+            <titl>\nFollowing users (whose password need to be changed, so that they would be able to register) were found on central server.</titl>
+        </msg>
+        <msg name="obnovitDBError">
+            <titl>Error during company accountancy restoration.</titl>
+        </msg>
+        <msg name="obnovitDBSouborNeexistuje">
+            <titl>File with back up isn't existing yet. Do you wish to select another file?</titl>
+        </msg>
+        <msg name="obnovitDBZadatJmenoServeruTitulek">
+            <titl>Enter database name for new company.</titl>
+        </msg>
+        <msg name="obnovitDBZadatJmenoSeveruVyzva">
+            <titl>Company database name:</titl>
+        </msg>
+        <msg name="obnovitDBServerNezadan">
+            <titl>File name wasn't entered. Do you wish to enter it again?</titl>
+        </msg>
+        <msg name="obnovitDBNepodariloSePripojit">
+            <titl>Connection to the central server failed.</titl>
+        </msg>
+        <msg name="obnovitDBNenalezenNastrojPgRestore">
+            <titl>It wasn't successful to find the path to the tool for company restoration.</titl>
+        </msg>
+        <msg name="obnovitDBChybaPrikazu">
+            <titl>Error during running the command for database recovery.</titl>
+        </msg>
+        <msg name="obnovitDBChybaListObjektuDumpu">
+            <titl>Error processing backup file.</titl>
+        </msg>
+        <msg name="obnovitDBUnsupportedVersion">
+            <titl>Unsupported version of the business backup file. You are probably trying to restore a company backup that comes from a newer version of the PostgreSQL database.</titl>
+        </msg>
+        <msg name="obnovitDBNenalezenPgRestore">
+            <titl>Installation of the tool pg_restore wasn't found. Is PostgreSQL really installed?</titl>
+        </msg>
+        <msg name="obnovitDBChybaPrideleniPrav">
+            <titl>Error during rights assignment to database objects.</titl>
+        </msg>
+        <msg name="obnovitDBChybaOldAppServer">
+            <titl>The database version of the company %p is newer than the ABRA Flexi Server version.</titl>
+        </msg>
+        <msg name="connectionBindError">
+            <titl>Database connection failed. Check its address and port.</titl>
+        </msg>
+        <msg name="connectionCloseError">
+            <titl>It wasn't possible to end connection to the database.</titl>
+        </msg>
+        <msg name="connectionBindDetailError">
+            <titl>It wasn't possible to connect to the database. Server announced error: %p</titl>
+        </msg>
+        <msg name="dbCreatingError">
+            <titl>Error during database creation.</titl>
+        </msg>
+        <msg name="dbCreatingImportInitialFailed">
+            <titl>Error during default data import.</titl>
+        </msg>
+        <msg name="upgradovatDBChyba">
+            <titl>Database upgrade launching wasn't successful.</titl>
+        </msg>
+        <msg name="upgradovatDBChybaSpousteniSkriptu">
+            <titl>Error during database update. Script %p executing failed.</titl>
+        </msg>
+        <msg name="upgradovatDBChybaNahravaniLokCiselniku">
+            <titl>Error during database update. Localized code-book reading failed.</titl>
+        </msg>
+        <msg name="upgradovatDBChybaOpravyLobu">
+            <titl>Error updating the database. Failed to set the rights for the existing attachments.</titl>
+        </msg>
+        <msg name="i18nFieldZobrazitOstatniJazyky">
+            <titl>Display other languages.</titl>
+        </msg>
+        <msg name="i18nFieldSchovatOstatniJazyky">
+            <titl>Hide other languages.</titl>
+        </msg>
+        <msg name="comboTextAreaTooltip">
+            <titl>Open in window.</titl>
+        </msg>
+        <msg name="desktopErrorOpeningBrowser">
+            <titl>It wasn't successful to open default web browser.\nPlease visit the address %p.</titl>
+        </msg>
+        <msg name="desktopErrorOpeningMail">
+            <titl>It wasn't possible to open default postal client.\nWrite on address %p.</titl>
+        </msg>
+        <msg name="desktopErrorOpeningFile">
+            <titl>Opening file %p failed.\nPlease open it manually.</titl>
+        </msg>
+        <msg name="urlReaction">
+            <titl>https://support.flexibee.eu/redirect/reaction/</titl>
+        </msg>
+        <msg name="urlSupport">
+            <titl>https://support.flexibee.eu/redirect/support-w10/</titl>
+        </msg>
+        <msg name="helpChceteOtevritNapoveduKProblemu">
+            <titl>Do you want to open help to this problem?</titl>
+        </msg>
+        <msg name="aboutDialogChybaNacitaniIP">
+            <titl>Obtaining of local computer IP address failed.</titl>
+        </msg>
+        <msg name="importUkoncitProcesDotaz">
+            <titl>Are you sure you want to cancel the running import?</titl>
+        </msg>
+        <msg name="featureNotSupportedByLicence">
+            <titl>Your license does not authorize you to use this feature.</titl>
+        </msg>
+        <msg name="firmaNeexistuje">
+            <titl>The company %p does not exist.</titl>
+        </msg>
+        <msg name="uzivatelNeexistuje">
+            <titl>The user %p does not exist.</titl>
+        </msg>
+        <msg name="akceNepodporovana">
+            <titl>This action is not supported here.</titl>
+        </msg>
+        <msg name="adresaNeplatna">
+            <titl>The address is not valid.</titl>
+        </msg>
+        <msg name="adresaNeplatnaUrl">
+            <titl>The %p address is not valid.</titl>
+        </msg>
+        <msg name="jsonNeplatny">
+            <titl>Invalid JSON format: %p</titl>
+        </msg>
+        <msg name="importXlsCellLocation">
+            <titl>Row %p, column %p -</titl>
+        </msg>
+        <msg name="importXlsCellLocationProperty">
+            <titl>Row %p, property %p -</titl>
+        </msg>
+        <msg name="importXlsBunkaNeniString">
+            <titl>Cell isn't a string character.</titl>
+        </msg>
+        <msg name="importXlsBunkaNeniDouble">
+            <titl>Cell isn't a decimal number.</titl>
+        </msg>
+        <msg name="importXlsBunkaNeniInteger">
+            <titl>Cell isn't an integer number.</titl>
+        </msg>
+        <msg name="importXlsBunkaNeniCalendar">
+            <titl>Cell isn't a date.</titl>
+        </msg>
+        <msg name="importXlsBunkaNeniBoolean">
+            <titl>Cell is not a logical value.</titl>
+        </msg>
+        <msg name="importXlsNeniVyplnenoMandatory">
+            <titl>Mandatory cell isn't filled in.</titl>
+        </msg>
+        <msg name="importXlsSkladKartaNeniVybranTypDokl">
+            <titl>Warehouse document type not selected.</titl>
+        </msg>
+        <msg name="importXlsNeniMozneImportovatNecodableObjekt">
+            <titl>It is not possible to search for an object otherwise than by abbreviation search (%p).</titl>
+        </msg>
+        <msg name="importXlsNevalidniFormat">
+            <titl>The XLS version of the imported file format is not supported, try saving the file to another one.</titl>
+        </msg>
+        <msg name="importXlsNepodporovanyFormatOds">
+            <titl>The OpenDocument Spreadsheet (ODS) document format is not supported, convert the file to XLS format first.</titl>
+        </msg>
+        <msg name="importXmlNeplatnyCiselnik">
+            <titl>%p isn't valid code of localized code-book %p.</titl>
+        </msg>
+        <msg name="importXmlNepodporovanyUzel">
+            <titl>Unsupported node %p found</titl>
+        </msg>
+        <msg name="importXmlNeexistujeStitek">
+            <titl>Label with code %p does not exist.</titl>
+        </msg>
+        <msg name="importXmlNeuvadetRemoveAllAMode">
+            <titl>The 'removeAll' and 'mode' attributes cannot be used on the same element at the same time.</titl>
+        </msg>
+        <msg name="importXmlNepodporujeExtId">
+            <titl>%p doesn't support external identifiers</titl>
+        </msg>
+        <msg name="importXmlZaznamObsahujeChybu">
+            <titl>Record No. %p contains error: %p</titl>
+        </msg>
+        <msg name="importXmlNove">
+            <titl>New</titl>
+        </msg>
+        <msg name="importXmlKAktualizaci">
+            <titl>Update</titl>
+        </msg>
+        <msg name="importXmlKSmazani">
+            <titl>Delete</titl>
+        </msg>
+        <msg name="importXmlVytvoreno">
+            <titl>###vytvořeno</titl>
+        </msg>
+        <msg name="importXmlKAktualizovano">
+            <titl>###aktualizováno</titl>
+        </msg>
+        <msg name="importXmlKSmazano">
+            <titl>###smazáno</titl>
+        </msg>
+        <msg name="importXmlSelhalo">
+            <titl>###selhalo</titl>
+        </msg>
+        <msg name="importXmlChceteProvestImport">
+            <titl>Do you want to import of following records?</titl>
+        </msg>
+        <msg name="importXmlUnsupportedVersion">
+            <titl>The version of the imported file is missing or not supported. Supported version: %p.</titl>
+        </msg>
+        <msg name="importXmlInternalError">
+            <titl>Internal application error.</titl>
+        </msg>
+        <msg name="importXmlKonfliktLastUpdate">
+            <titl>###Od otevření záznamu byl záznam změněn jiným uživatelem. (data: %p aktuální: %p)</titl>
+        </msg>
+        <msg name="importXlsNeproslaValidace">
+            <titl>Object validation failed.</titl>
+        </msg>
+        <msg name="importXlsNeexistujeObjekt">
+            <titl>Object type %p with code value %p doesn't exist.</titl>
+        </msg>
+        <msg name="importXlsImportProbehlUspesne">
+            <titl>Import was successful.</titl>
+        </msg>
+        <msg name="importXlsImportSeNezdaril">
+            <titl>Import wasn't successful.</titl>
+        </msg>
+        <msg name="importXlsNepodariloSeNacistSoubor">
+            <titl>Import of a file for reading failed.</titl>
+        </msg>
+        <msg name="importXlsChybnyFormatXls">
+            <titl>File reading failed.\nDo you want to open help with this topic?</titl>
+        </msg>
+        <msg name="importXlsPolozkuNelzeOdstranit">
+            <titl>Selected item must be imported.</titl>
+        </msg>
+        <msg name="importSeNepodarilZDuvodu">
+            <titl>Import from %p failed.\nCorrect the problems described below and try the import again.</titl>
+        </msg>
+        <msg name="importSkoncilSVarovanim">
+            <titl>Import from %p ended with a warning.\nCheck the warning below, repeat import if necessary.</titl>
+        </msg>
+        <msg name="importXlsZadnaNovaDataNebylaNaimportovana">
+            <titl>No new data were found.</titl>
+        </msg>
+        <msg name="importXlsNepodariloSeOtevritSoubor">
+            <titl>File opening failed.</titl>
+        </msg>
+        <msg name="importXlsSelhalZapisDoSouboru">
+            <titl>Writing to file failed.</titl>
+        </msg>
+        <msg name="importXmlObjektNepodporujeExterniId">
+            <titl>%p doesn't support external id.</titl>
+        </msg>
+        <msg name="importXmlNelzeUpdate">
+            <titl>Record %pcannot be changed.</titl>
+        </msg>
+        <msg name="importXmlCreateJeSpatne">
+            <titl>###Atribut 'create' obsahuje špatnou hodnotu. Smí obsahovat jen 'ignore', 'fail' a 'ok'.</titl>
+        </msg>
+        <msg name="importXmlUpdateJeSpatne">
+            <titl>###Atribut 'update' obsahuje špatnou hodnotu. Smí obsahovat jen 'ignore', 'fail' a 'ok'.</titl>
+        </msg>
+        <msg name="importXmlCreateNeniPovolen">
+            <titl>###Atribut create='fail' zakazuje založení nového záznamu.</titl>
+        </msg>
+        <msg name="importXmlUpdateNeniPovolen">
+            <titl>###Atribut update='fail' zakazuje změnu existujícího záznamu.</titl>
+        </msg>
+        <msg name="importXmlNeopravnenyUpdate">
+            <titl>You aren't entitled to change record in register of %p.</titl>
+        </msg>
+        <msg name="importXmlNeopravnenyCreate">
+            <titl>You aren't entitled to create record in register of %p.</titl>
+        </msg>
+        <msg name="importXmlNeopravnenyDelete">
+            <titl>You aren't entitled to delete record in register of %p.</titl>
+        </msg>
+        <msg name="importXmlSchaziPravoZamykat">
+            <titl>You do not have permission to lock the documents.</titl>
+        </msg>
+        <msg name="importXmlJeZamceno">
+            <titl>Record is locked.</titl>
+        </msg>
+        <msg name="importXmlNonScalarIdValue">
+            <titl>Value '%p' element '%p' is not scalar.</titl>
+        </msg>
+        <msg name="importXmlIdentRuznychObjektu">
+            <titl>Identifier %p specifies another record than %p.</titl>
+        </msg>
+        <msg name="importXmlMutiIdentRuznychObjektu">
+            <titl>###Nalezeno více záznamů odpovídajících identifikátorům: %p.</titl>
+        </msg>
+        <msg name="importXmlEmptyIdentifier">
+            <titl>Blank identifier value (%p).</titl>
+        </msg>
+        <msg name="importXmlMissingIdentifier">
+            <titl>The identifier (%p) is not given.</titl>
+        </msg>
+        <msg name="importXmlMissingElement">
+            <titl>The '%p' element is mandatory.</titl>
+        </msg>
+        <msg name="importXmlSingletonElement">
+            <titl>The '%p' element can be specified no more than once.</titl>
+        </msg>
+        <msg name="importXmlNotFoundForIdentifier">
+            <titl>The record for the parameter (%p) was not found in the data source.</titl>
+        </msg>
+        <msg name="importXmlActionNotSupported">
+            <titl>The attribute 'action' contains the wrong value. For the particular object, it is permitted to contain only: %p</titl>
+        </msg>
+        <msg name="importXmlRelacniRezim">
+            <titl>Importer '%p' is in relational mode and only allows links to existing objects.</titl>
+        </msg>
+        <msg name="importXmlErrors">
+            <titl>###Chyby</titl>
+        </msg>
+        <msg name="importXmlObject">
+            <titl>###Objekt</titl>
+        </msg>
+        <msg name="importXmlWarnings">
+            <titl>###Varování</titl>
+        </msg>
+        <msg name="aplikacniNastaveniChybaNacitani">
+            <titl>File %p with application setting cannot be read up.</titl>
+        </msg>
+        <msg name="aplikacniNastaveniChybaZapisu">
+            <titl>Application settings saving failed.</titl>
+        </msg>
+        <msg name="filterFind">
+            <titl>Search:</titl>
+        </msg>
+        <msg name="scannerNoCodeEntered">
+            <titl>The time limit for entering the EAN code has expired.</titl>
+        </msg>
+        <msg name="scannerEnterKeyStroke">
+            <titl>Bar code reader EAN prefix:</titl>
+        </msg>
+        <msg name="scannerEnterKeyStrokeTitle">
+            <titl>Enter value</titl>
+        </msg>
+        <msg name="mailDefaultFromNotFound">
+            <titl>The default e-mail address is neither defined in the user settings nor in the SMTP server settings.</titl>
+        </msg>
+        <msg name="mailDefaultFooter">
+            <titl>Generated by economic system '%p'</titl>
+        </msg>
+        <msg name="concurrentProcedureRunning">
+            <titl>The currently running operation '%p' launched by user %p in %p does not allow to run '%p' at the same time.</titl>
+        </msg>
+        <msg name="mailNepodariloSeOdeslat">
+            <titl>E-mail sending failed.</titl>
+        </msg>
+        <msg name="centServerChybneJmenoCiHeslo">
+            <titl>Username or password you entered is wrong.</titl>
+        </msg>
+        <msg name="centServerChybaKomunikace">
+            <titl>Error has occurred during communication with the central server.</titl>
+        </msg>
+        <msg name="centServerChybaNavazani">
+            <titl>Error has occurred during launching the connection with the central server.</titl>
+        </msg>
+        <msg name="centServerChybaIO">
+            <titl>Input/output error has occurred during communication with the central server.</titl>
+        </msg>
+        <msg name="centServerNepripojen">
+            <titl>You are not connected to the central server.</titl>
+        </msg>
+        <msg name="centServerBlokovanyUzivatel">
+            <titl>The entered user account is blocked.</titl>
+        </msg>
+        <msg name="centServerNotAuthorizedOperation">
+            <titl>The user does not have permission (%p) to carry out the requested operations.</titl>
+        </msg>
+        <msg name="centServerCompanyStateException">
+            <titl>Company '%p' is in status '%p'.</titl>
+        </msg>
+        <msg name="centServerNotApplicationUser">
+            <titl>User type %p is not authorized to use the user interface.</titl>
+        </msg>
+        <msg name="centServerStartingException">
+            <titl>Central server is starting up, please wait.</titl>
+        </msg>
+        <msg name="taskMonitorEndTasksQuestion">
+            <titl>Unfinished tasks are running at the background. We strongly recommend to wait until their finishing.</titl>
+        </msg>
+        <msg name="hromZmenyWizard.header">
+            <titl>Setting batch changes</titl>
+        </msg>
+        <msg name="hromZmenyWizard.vyberte">
+            <titl>Select fields and input requested value.</titl>
+        </msg>
+        <msg name="hromZmenyWizard.updateDotaz">
+            <titl>Are you sure you want to execute batch over-write?</titl>
+        </msg>
+        <msg name="hromZmenyWizard.updateError">
+            <titl>Batch overwrite was unsuccessful.</titl>
+        </msg>
+        <msg name="hromZmenyWizard.nothingSelected">
+            <titl>No item has been selected.</titl>
+        </msg>
+        <msg name="manyToManyCtrl.OdeberVyberObjekt">
+            <titl>First you must select the object that you want to remove.</titl>
+        </msg>
+        <msg name="progressDlg.ukoncitProcesDotaz">
+            <titl>Do you really want to cancel current process?</titl>
+        </msg>
+        <msg name="progressDlg.ukoncitUlozitProcesDotaz">
+            <titl>The ongoing process will be terminated. Do you want to save changes you have made?</titl>
+        </msg>
+        <msg name="inputParamContr.nevyplnen">
+            <titl>Parameter '%p' must be filled in.</titl>
+        </msg>
+        <msg name="massUpdateProgressInfo">
+            <titl>Batch change in progress...</titl>
+        </msg>
+        <msg name="massUpdateProgressInfoZamcObd">
+            <titl>Changing lock ...</titl>
+        </msg>
+        <msg name="authSessionClosed">
+            <titl>Your session has been terminated.</titl>
+        </msg>
+        <msg name="prevedNaDeProgressInfo">
+            <titl>###Probíhá převod formy účetnictví...</titl>
+        </msg>
+        <msg name="pleaseRelogin">
+            <titl>Please login again.</titl>
+        </msg>
+        <msg name="versionWarning">
+            <titl>You have launched the testing version, and its use will lead to irreversible damage in the data.\nThis version is intended for verification of new functions of ABRA Flexi\nand may not be used in a production environment, so you should always work only with copies of data.</titl>
+        </msg>
+        <msg name="licenceAfterRentToInfo">
+            <titl>Please, check charge payment for using ABRA Flexi after %p.\n%p\n\n&lt;b&gt;If there is no payment, the service will be available only in read-only mode from %p.&lt;/b&gt;\n\nIn case of doubts, please contact sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)</titl>
+        </msg>
+        <msg name="licenceReadOnlyInfo">
+            <titl>The service is available only in &lt;b&gt;read-only mode&lt;/b&gt; due to lack of the charge payment for using ABRA Flexi after %p.\n%p\n\n&lt;b&gt;If there is no payment, the service will be unavailable from %p.&lt;/b&gt;\n\nIn case of doubts, please contact sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)</titl>
+        </msg>
+        <msg name="loginDialogBlokovanaLicenceUzivatele">
+            <titl>Blocked license: &lt;b&gt;%p&lt;/b&gt;\n\nIn case of doubts, please contact sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)</titl>
+        </msg>
+        <msg name="licenseRentToExpiredTitle">
+            <titl>License rental expiration</titl>
+        </msg>
+        <msg name="licenseBlockedTitle">
+            <titl>Blocked license</titl>
+        </msg>
+        <msg name="licenceValidToExpiredShutDown">
+            <titl>The license was limited to %p. The reason may be unpaid documents. &lt;b&gt;The application will close.&lt;/b&gt;\n%p\n\nIn case of doubts, please contact sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)</titl>
+        </msg>
+        <msg name="licenceReadOnlyDialog">
+            <titl>The license lack date of validity and therefore the service is available only in &lt;b&gt;read-only mode&lt;/b&gt;.\nPlease contact the sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)</titl>
+        </msg>
+        <msg name="licenceZakaznickyOdkazMojeLicence">
+            <titl>Your customer link with an overview of issued documents: &lt;b&gt;[My license](%p)&lt;/b&gt;.</titl>
+        </msg>
+        <msg name="licenceContactLicenseOwner">
+            <titl>Contact the owner / administrator of the license.</titl>
+        </msg>
+        <msg name="month0">
+            <titl>January</titl>
+        </msg>
+        <msg name="month1">
+            <titl>February</titl>
+        </msg>
+        <msg name="month2">
+            <titl>March</titl>
+        </msg>
+        <msg name="month3">
+            <titl>April</titl>
+        </msg>
+        <msg name="month4">
+            <titl>May</titl>
+        </msg>
+        <msg name="month5">
+            <titl>June</titl>
+        </msg>
+        <msg name="month6">
+            <titl>July</titl>
+        </msg>
+        <msg name="month7">
+            <titl>August</titl>
+        </msg>
+        <msg name="month8">
+            <titl>September</titl>
+        </msg>
+        <msg name="month9">
+            <titl>October</titl>
+        </msg>
+        <msg name="month10">
+            <titl>November</titl>
+        </msg>
+        <msg name="month11">
+            <titl>December</titl>
+        </msg>
+        <msg name="xmlStreamExceptionContentIsNotAllowedInProlog">
+            <titl>File does not contain a valid XML.\n(Content is not allowed in prolog)</titl>
+        </msg>
+        <msg name="xmlStreamExceptionInvalidByte1ofUTF8">
+            <titl>We are trying to read the imported XML file in UTF-8 encoding, but the file\nis probably saved in different encoding. Request file saved\nin encoding UTF-8, or save it in this encoding yourself.</titl>
+        </msg>
+        <msg name="longExceptionMessageCut">
+            <titl>The rest of the text string will be cut short.</titl>
+        </msg>
+        <msg name="noMessageError">
+            <titl>###Bez popisu chyby.</titl>
+        </msg>
+        <msg name="remoteLogoutDemand">
+            <titl>Your account is being used on another device at the same time, please log out on it first.</titl>
+        </msg>
+        <msg name="nesloZmenitZaokrouhleni">
+            <titl>But it was not possible to change the rounding of the document.</titl>
+        </msg>
+        <msg name="importXmlInvalidStartTag">
+            <titl>Root element %p not supported. Supported elements: %p.</titl>
+        </msg>
+        <msg name="noSpaceLeftOnDevice">
+            <titl>Not enough storage space left device.</titl>
+        </msg>
+        <msg name="spatnyFormatIDs">
+            <titl>Bad format of multiple IDs, error at %p position.</titl>
+        </msg>
+        <msg name="invalidExtIdFormat">
+            <titl>ExtId has an incorrect format %p.</titl>
+        </msg>
+        <msg name="itemAlreadyLinked">
+            <titl>The %p item is already bound to the parent object [%p], it cannot be bound to another one.</titl>
+        </msg>
+        <msg name="invalidWinstromId">
+            <titl>The Winstrom ID (%p) has the wrong format.</titl>
+        </msg>
+        <msg name="vatIdNotSupported">
+            <titl>Object [%p] does not support VAT ID (vatid:%p).</titl>
+        </msg>
+        <msg name="codeIdNotSupported">
+            <titl>Object [%p] does not support CODE ID (code:%p).</titl>
+        </msg>
+        <msg name="eanIdNotSupported">
+            <titl>Object [%p] does not support EAN ID (ean:%p).</titl>
+        </msg>
+        <msg name="inIdNotSupported">
+            <titl>Object [%p] does not support IN ID (in:%p).</titl>
+        </msg>
+        <msg name="pluIdNotSupported">
+            <titl>Object [%p] does not support PLU ID (plu:%p).</titl>
+        </msg>
+        <msg name="uuidNotSupported">
+            <titl>Object [%p] does not support UUID (uuid:%p).</titl>
+        </msg>
+        <msg name="keyIdNotSupported">
+            <titl>Object [%p] does not support KEY ID (key:%p).</titl>
+        </msg>
+        <msg name="ibanIdNotSupported">
+            <titl>Object [%p] does not support IBAN ID (iban:%p).</titl>
+        </msg>
+        <msg name="reportFileNotFound">
+            <titl>Neither jrxml nor jasper file could be found for the required %p report.</titl>
+        </msg>
+        <msg name="formRecordNotSaved">
+            <titl>The record %p [%p] could not be saved. Please submit this error with a description of what preceded this event.</titl>
+        </msg>
+        <msg name="massUpdateNotSupported">
+            <titl>This record does not allow for bulk changes.</titl>
+        </msg>
+        <msg name="propertyCantBeChanged">
+            <titl>The '%p' (%p) property cannot be edited now.</titl>
+        </msg>
+        <msg name="loadingDataFailed">
+            <titl>Failed to load data from data source.</titl>
+        </msg>
+        <msg name="osNotSupportsScanning">
+            <titl>It is not possible to scan on your operating system.</titl>
+        </msg>
+        <msg name="importXmlActionJenPersistentni">
+            <titl>The object is yet to be created, no action can be performed.</titl>
+        </msg>
+        <msg name="autoZaokrouhleni">
+            <titl>The value '%p' has been rounded to '%p'.</titl>
+        </msg>
+        <msg name="hodnotyBudouVypoctenyPoUlozeni">
+            <titl>Field values will be calculated after saving.</titl>
+        </msg>
+    </messages>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <labels>
+        <lb name="oProgramu">
+            <titl>About ABRA Flexi</titl>
+        </lb>
+        <lb name="directoryBackup">
+            <titl>Data back up.</titl>
+        </lb>
+        <lb name="directoryExport">
+            <titl>Export</titl>
+        </lb>
+        <lb name="directoryImport">
+            <titl>Import</titl>
+        </lb>
+        <lb name="chyba">
+            <titl>Error</titl>
+        </lb>
+        <lb name="informace">
+            <titl>Information</titl>
+        </lb>
+        <lb name="varovani">
+            <titl>Warning</titl>
+        </lb>
+        <lb name="dotaz">
+            <titl>Query</titl>
+        </lb>
+        <lb name="interniChyba">
+            <titl>Internal error</titl>
+        </lb>
+        <lb name="neniImplementovano">
+            <titl>Not implemented function.</titl>
+        </lb>
+        <lb name="testerPane">
+            <titl>TesterPane</titl>
+        </lb>
+        <lb name="zaskrtnuto">
+            <titl>Check ON</titl>
+        </lb>
+        <lb name="nezaskrnuto">
+            <titl>Check OFF</titl>
+        </lb>
+        <lb name="pridat">
+            <titl>Add</titl>
+        </lb>
+        <lb name="odebrat">
+            <titl>Away</titl>
+        </lb>
+        <lb name="upravit">
+            <titl>Adjust</titl>
+        </lb>
+        <lb name="operace">
+            <titl>Operation:</titl>
+        </lb>
+        <lb name="hodnota1">
+            <titl>Value 1:</titl>
+        </lb>
+        <lb name="hodnota2">
+            <titl>Value2:</titl>
+        </lb>
+        <lb name="od">
+            <titl>From</titl>
+        </lb>
+        <lb name="do">
+            <titl>To</titl>
+        </lb>
+        <lb name="razeni">
+            <titl>Sorting:</titl>
+        </lb>
+        <lb name="aktivni">
+            <titl>Active filters</titl>
+        </lb>
+        <lb name="viditelne">
+            <titl>Visible columns</titl>
+        </lb>
+        <lb name="skryte">
+            <titl>Hidden columns</titl>
+        </lb>
+        <lb name="neomezen">
+            <titl>Unlimited</titl>
+        </lb>
+        <lb name="neomezena">
+            <titl>Unlimited</titl>
+        </lb>
+        <lb name="staleStateDatabaze">
+            <titl>Database</titl>
+        </lb>
+        <lb name="staleStateUzivatel">
+            <titl>User</titl>
+        </lb>
+        <lb name="vlastnost">
+            <titl>Feature</titl>
+        </lb>
+        <lb name="vaseHodnota">
+            <titl>Your value</titl>
+        </lb>
+        <lb name="hodnotaVDatabazi">
+            <titl>Value in database</titl>
+        </lb>
+        <lb name="linkLabelTooltip">
+            <titl>This will open browser on address:</titl>
+        </lb>
+        <lb name="filter.obsahuje">
+            <titl>includes</titl>
+        </lb>
+        <lb name="filter.neobsahuje">
+            <titl>doesn't include</titl>
+        </lb>
+        <lb name="filter.rovno">
+            <titl>equals</titl>
+        </lb>
+        <lb name="filter.nerovno">
+            <titl>doesn't equal</titl>
+        </lb>
+        <lb name="filter.zacinaS">
+            <titl>starts with</titl>
+        </lb>
+        <lb name="filter.inelements">
+            <titl>contains</titl>
+        </lb>
+        <lb name="filter.notinelements">
+            <titl>does not contains</titl>
+        </lb>
+        <lb name="filter.konci">
+            <titl>ends</titl>
+        </lb>
+        <lb name="filter.odDo">
+            <titl>from...to</titl>
+        </lb>
+        <lb name="filter.od">
+            <titl>from</titl>
+        </lb>
+        <lb name="filter.do">
+            <titl>to</titl>
+        </lb>
+        <lb name="filter.prazdny">
+            <titl>empty</titl>
+        </lb>
+        <lb name="filter.neprazdny">
+            <titl>not empty</titl>
+        </lb>
+        <lb name="filter.mensiNez">
+            <titl>less than</titl>
+        </lb>
+        <lb name="filter.mensiNeboRovnoNez">
+            <titl>less or equal</titl>
+        </lb>
+        <lb name="filter.vetsiNez">
+            <titl>greater than</titl>
+        </lb>
+        <lb name="filter.vetsiNeboRovnoNez">
+            <titl>more or equal</titl>
+        </lb>
+        <lb name="filter.ano">
+            <titl>yes</titl>
+        </lb>
+        <lb name="filter.ne">
+            <titl>no</titl>
+        </lb>
+        <lb name="filter.interval">
+            <titl>in</titl>
+        </lb>
+        <lb name="filter.neinterval">
+            <titl>isn't in</titl>
+        </lb>
+        <lb name="filter.dnyPredPo">
+            <titl>number of days before/after</titl>
+        </lb>
+        <lb name="filter.or">
+            <titl>or</titl>
+        </lb>
+        <lb name="filter.and">
+            <titl>and also</titl>
+        </lb>
+        <lb name="filter.kodableOmezeno">
+            <titl>%p equal %p</titl>
+        </lb>
+        <lb name="filter.inSubtree">
+            <titl>%p in sub-tree %p</titl>
+        </lb>
+        <lb name="findFormNajitVeSloupci">
+            <titl>Find in column</titl>
+        </lb>
+        <lb name="findFormHledat">
+            <titl>Search</titl>
+        </lb>
+        <lb name="findFormDolu">
+            <titl>down</titl>
+        </lb>
+        <lb name="findFormVse">
+            <titl>all</titl>
+        </lb>
+        <lb name="findFormDokonceno">
+            <titl>Table searching was finished.</titl>
+        </lb>
+        <lb name="findFormNenalezeno">
+            <titl>No record for column '%p' condition.</titl>
+        </lb>
+        <lb name="findFormKonecTabulky">
+            <titl>End of table. search from beginning?</titl>
+        </lb>
+        <lb name="columnsNezobrazenaPole">
+            <titl>Non-displayed fields</titl>
+        </lb>
+        <lb name="columnsZobrazenaPole">
+            <titl>Displayed fields</titl>
+        </lb>
+        <lb name="orderRaditPodlePole">
+            <titl>Classify by fields</titl>
+        </lb>
+        <lb name="attrListItems">
+            <titl>List of items</titl>
+        </lb>
+        <lb name="attrListAttributes">
+            <titl>Item properties</titl>
+        </lb>
+        <lb name="listChooserFormDostPole">
+            <titl>Available fields</titl>
+        </lb>
+        <lb name="listChooserFormDostHodnoty">
+            <titl>Available values</titl>
+        </lb>
+        <lb name="listChooserFormVybPole">
+            <titl>Chosen fields</titl>
+        </lb>
+        <lb name="listChooserFormVybHodnoty">
+            <titl>Selected values</titl>
+        </lb>
+        <lb name="listChooserWizardForm.musiteVybratPolozku">
+            <titl>You have to select an item first.</titl>
+        </lb>
+        <lb name="formETitleNew">
+            <titl> - New record</titl>
+        </lb>
+        <lb name="formETitleEdit">
+            <titl> - Record change</titl>
+        </lb>
+        <lb name="voFieldDefaultTooltip">
+            <titl>Push key F2 to display selection dialogue</titl>
+        </lb>
+        <lb name="ciselnikRokPlatnost">
+            <titl>Validity is quoted in calendar years, enter 0-9999 for unlimited validity.</titl>
+        </lb>
+        <lb name="ciselnikObdPlatnost">
+            <titl>Validity is quoted in accounting periods, leave the field blank for unlimited validity.</titl>
+        </lb>
+        <lb name="aboutDialogPopis">
+            <titl>Economic software.</titl>
+        </lb>
+        <lb name="aboutDialogAutori">
+            <titl>Authors</titl>
+        </lb>
+        <lb name="aboutDialogDistributor">
+            <titl>Distribution and support</titl>
+        </lb>
+        <lb name="aboutDialogPodpora">
+            <titl>Visit web-site for support:</titl>
+        </lb>
+        <lb name="aboutDialogDetaily">
+            <titl>Application details</titl>
+        </lb>
+        <lb name="aboutDialogAutoriPopis">
+            <titl>Contact to software authors.</titl>
+        </lb>
+        <lb name="aboutDialogVlastnost">
+            <titl>Feature</titl>
+        </lb>
+        <lb name="aboutDialogHodnota">
+            <titl>Value</titl>
+        </lb>
+        <lb name="aboutDialogVerze">
+            <titl>Version</titl>
+        </lb>
+        <lb name="aboutDialogVerzeCentralServeru">
+            <titl>Central server version</titl>
+        </lb>
+        <lb name="aboutDialogVerzeCentralDatabase">
+            <titl>Central database version</titl>
+        </lb>
+        <lb name="aboutDialogVerzeDatabazeFirmy">
+            <titl>Company database version</titl>
+        </lb>
+        <lb name="aboutDialogVerzeJavy">
+            <titl>Java version</titl>
+        </lb>
+        <lb name="aboutDialogVerzeJavyServer">
+            <titl>Java version on server</titl>
+        </lb>
+        <lb name="aboutDialogOperacniSystem">
+            <titl>Operating system</titl>
+        </lb>
+        <lb name="aboutDialogPamet">
+            <titl>Memory (curr/stack/total)</titl>
+        </lb>
+        <lb name="aboutDialogJazyk">
+            <titl>Language</titl>
+        </lb>
+        <lb name="aboutDialogGrafickeProstredi">
+            <titl>Graphic setting</titl>
+        </lb>
+        <lb name="aboutDialogDetailyDBServeru">
+            <titl>Details of database server version.</titl>
+        </lb>
+        <lb name="aboutDialogIPAdresa">
+            <titl>IP address</titl>
+        </lb>
+        <lb name="aboutDialogCsAdresa">
+            <titl>Central server address</titl>
+        </lb>
+        <lb name="aboutDialogDobaOdezvy">
+            <titl>Response time (current/min./max./avg.)</titl>
+        </lb>
+        <lb name="aboutDialogDobaOdezvyWeb">
+            <titl>Web response time (current/min./max./avg./loss)</titl>
+        </lb>
+        <lb name="aboutDialogDobaOdezvyProxy">
+            <titl>Proxy response time (current/min./max./avg./loss)</titl>
+        </lb>
+        <lb name="aboutDialogConfigDir">
+            <titl>Configuration directory</titl>
+        </lb>
+        <lb name="aboutDialogUserDir">
+            <titl>User configuration directory</titl>
+        </lb>
+        <lb name="aboutDialogTmpDir">
+            <titl>Temporary data directory</titl>
+        </lb>
+        <lb name="aboutDialogWeb">
+            <titl>Web:</titl>
+        </lb>
+        <lb name="aboutDialogMail">
+            <titl>E-mail:</titl>
+        </lb>
+        <lb name="aboutDialogTel">
+            <titl>Phone:</titl>
+        </lb>
+        <lb name="aboutDialogAutoriPodpora">
+            <titl>Tech Support:</titl>
+        </lb>
+        <lb name="aboutDialogAutoriObchod">
+            <titl>Sales:</titl>
+        </lb>
+        <lb name="aboutDialogLicenceTretichStranTab">
+            <titl>Third party licenses</titl>
+        </lb>
+        <lb name="statusBar.cisloZakaznika">
+            <titl>CN:</titl>
+        </lb>
+        <lb name="talkbackTitle">
+            <titl>Application error</titl>
+        </lb>
+        <lb name="talkbackDescriptionUnknownError">
+            <titl>An application error occurred.</titl>
+        </lb>
+        <lb name="talkbackDescriptionConnectionError">
+            <titl>Communication with data server was interrupted - network error.</titl>
+        </lb>
+        <lb name="talkbackDescriptionHowSendInfo">
+            <titl>Press button to send information about the error to Tech support.</titl>
+        </lb>
+        <lb name="talkbackDetail">
+            <titl>Error detail:</titl>
+        </lb>
+        <lb name="talkbackDetailUnknown">
+            <titl>Error detail obtaining failed.</titl>
+        </lb>
+        <lb name="filterFormVyberMultipleTitle">
+            <titl>Requested fields selection</titl>
+        </lb>
+        <lb name="filterFormMultipleAndFilter">
+            <titl>All</titl>
+        </lb>
+        <lb name="filterFormMultipleOrFilter">
+            <titl>At least one</titl>
+        </lb>
+        <lb name="filterFormMultipleNoneFilter">
+            <titl>None</titl>
+        </lb>
+        <lb name="filterFormPrivatni">
+            <titl>Private</titl>
+        </lb>
+        <lb name="filterFormSaveColumns">
+            <titl>Save columns and arrangement</titl>
+        </lb>
+        <lb name="progressDesc">
+            <titl>Please wait...</titl>
+        </lb>
+        <lb name="progressInterupted">
+            <titl>Ending operation...</titl>
+        </lb>
+        <lb name="databazeProgressPripojeniDesc">
+            <titl>Connecting to data source...</titl>
+        </lb>
+        <lb name="databazeFirmyNepripojena">
+            <titl>You are not connected to company database.</titl>
+        </lb>
+        <lb name="poslatReakciOsloveni">
+            <titl>You can send us your response:</titl>
+        </lb>
+        <lb name="reportJazykReportu">
+            <titl>Report language</titl>
+        </lb>
+        <lb name="reportVyberReportu">
+            <titl>Print report selection</titl>
+        </lb>
+        <lb name="reportNahledTisku">
+            <titl>Print preview</titl>
+        </lb>
+        <lb name="reportVytiskl">
+            <titl>Printed by</titl>
+        </lb>
+        <lb name="reportTisknoutRozsirenouVerzi">
+            <titl>Extended version of report</titl>
+        </lb>
+        <lb name="reportTisknoutVodiciCary">
+            <titl>Print guidelines</titl>
+        </lb>
+        <lb name="konfigurovatReport">
+            <titl>Configure report</titl>
+        </lb>
+        <lb name="reportTisknoutVse">
+            <titl>All records</titl>
+        </lb>
+        <lb name="reportTisknoutAktualniZaznam">
+            <titl>Current record</titl>
+        </lb>
+        <lb name="reportTisknoutVybrane">
+            <titl>Selected entries</titl>
+        </lb>
+        <lb name="reportTisknoutZaznamyOdDo">
+            <titl>Records</titl>
+        </lb>
+        <lb name="reportProgresDesc">
+            <titl>Report filling executing...</titl>
+        </lb>
+        <lb name="reportSmtpProgresDesc">
+            <titl>Sending emails ...</titl>
+        </lb>
+        <lb name="reportMailProgresDesc">
+            <titl>Preparing emails ...</titl>
+        </lb>
+        <lb name="exportOtevritPoUlozeni">
+            <titl>Open in Excel after saving</titl>
+        </lb>
+        <lb name="exportProgresDesc">
+            <titl>Export to Excel executing...</titl>
+        </lb>
+        <lb name="exportVyberteSloupce">
+            <titl>Select columns, that are to be exported</titl>
+        </lb>
+        <lb name="exportVybraneSloupce">
+            <titl>Exported columns</titl>
+        </lb>
+        <lb name="exportNevybraneSloupce">
+            <titl>Non-exported columns</titl>
+        </lb>
+        <lb name="exportXlsNativni">
+            <titl>Export in a format suitable for importing</titl>
+        </lb>
+        <lb name="zalohaProgressTitle">
+            <titl>Making company back up...</titl>
+        </lb>
+        <lb name="obnovitDBProgressTitle">
+            <titl>Restoring back up...</titl>
+        </lb>
+        <lb name="upgradovatDBSpousteniSkriptu">
+            <titl>Launching scripts for company database update...</titl>
+        </lb>
+        <lb name="importXlsVyplnenoPriImportu">
+            <titl>Filled in during import</titl>
+        </lb>
+        <lb name="importXlsVyberteSloupce">
+            <titl>Select columns for import</titl>
+        </lb>
+        <lb name="importXlsVybraneSloupce">
+            <titl>Selected columns</titl>
+        </lb>
+        <lb name="importXlsDostupneSloupce">
+            <titl>Available columns</titl>
+        </lb>
+        <lb name="importXlsProbihaImport">
+            <titl>Import is running...</titl>
+        </lb>
+        <lb name="importXlsVysledekImportu">
+            <titl>Import result</titl>
+        </lb>
+        <lb name="importXlsVyberTabulky">
+            <titl>Which table do you want to import?</titl>
+        </lb>
+        <lb name="importXlsMinLength">
+            <titl>min. length</titl>
+        </lb>
+        <lb name="importXlsMaxLength">
+            <titl>max. length</titl>
+        </lb>
+        <lb name="importXlsMinValue">
+            <titl>min. value</titl>
+        </lb>
+        <lb name="importXlsMaxValue">
+            <titl>max. value</titl>
+        </lb>
+        <lb name="importXlsDigits">
+            <titl>number of numerals</titl>
+        </lb>
+        <lb name="importXlsObject">
+            <titl>object</titl>
+        </lb>
+        <lb name="importXlsInteger">
+            <titl>integer number</titl>
+        </lb>
+        <lb name="importXlsNumeric">
+            <titl>decimal number</titl>
+        </lb>
+        <lb name="importXlsString">
+            <titl>string</titl>
+        </lb>
+        <lb name="importXlsDate">
+            <titl>date</titl>
+        </lb>
+        <lb name="importXlsDatetime">
+            <titl>Date and time</titl>
+        </lb>
+        <lb name="importXlsLogic">
+            <titl>logical value</titl>
+        </lb>
+        <lb name="importXlsCollection">
+            <titl>list of values</titl>
+        </lb>
+        <lb name="importXlsDelimiters">
+            <titl>separator: , or newline</titl>
+        </lb>
+        <lb name="importXlsVlastnostiSloupcu">
+            <titl>Features of imported columns</titl>
+        </lb>
+        <lb name="filterFind">
+            <titl>Search:</titl>
+        </lb>
+        <lb name="settingColumnsDefaultDeleteColSettings">
+            <titl>Delete existing setting of columns of all users and use this one.</titl>
+        </lb>
+        <lb name="fileChooserSesitMicrosftExcel">
+            <titl>Spreadsheet Microsoft Office Excel</titl>
+        </lb>
+        <lb name="fileChooserSesitMicrosftExcelXlsx">
+            <titl>Spreadsheet Microsoft Office Excel</titl>
+        </lb>
+        <lb name="fileChooserWinstromXml">
+            <titl>ABRA Flexi XML</titl>
+        </lb>
+        <lb name="fileChooserZip">
+            <titl>ZIP archive</titl>
+        </lb>
+        <lb name="fileFilterPdf">
+            <titl>Adobe PDF</titl>
+        </lb>
+        <lb name="fileFilterVcf">
+            <titl>Business cards vCard</titl>
+        </lb>
+        <lb name="fileFilterIcal">
+            <titl>Calendars iCal</titl>
+        </lb>
+        <lb name="fileFilterTxt">
+            <titl>Text file</titl>
+        </lb>
+        <lb name="migraceNazevSouboru">
+            <titl>Migration</titl>
+        </lb>
+        <lb name="openWindowStart">
+            <titl>Open</titl>
+        </lb>
+        <lb name="openWindowInNew">
+            <titl>in new window</titl>
+        </lb>
+        <lb name="multiPdfMailUvod">
+            <titl>&lt;html&gt;The firm is represented more than once in the selection.&lt;br&gt;Do you want to put the firm’s documents into one file or send each document separately?&lt;/html&gt;</titl>
+        </lb>
+        <lb name="multiPdfMailNMailuPrijemciLB">
+            <titl>&lt;html&gt;Each document will be attached as an annex to a separate mail.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="multiPdfMail1MailPrijemciLB">
+            <titl>&lt;html&gt;Documents for a specific firm will make one attachment in a separate mail.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="multiPdfMail1MailVsechnaDataLB">
+            <titl>&lt;html&gt;All documents will make one attachment in a separate mail.&lt;/html&gt;</titl>
+        </lb>
+        <lb name="emailTemplate">
+            <titl>Email template:</titl>
+        </lb>
+        <lb name="hromZmenyWizard.pole">
+            <titl>Field</titl>
+        </lb>
+        <lb name="hromZmenyWizard.hodnota">
+            <titl>Value</titl>
+        </lb>
+        <lb name="manyToMany.vyberteTitle">
+            <titl>Choose</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.header">
+            <titl>Graph type</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.vyberte">
+            <titl>Choose graph type.</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.oblastni">
+            <titl>Area</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.sloupcovy">
+            <titl>Columns</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.carovy">
+            <titl>barcodes</titl>
+        </lb>
+        <lb name="chartWizard.typGrafu.kolacovy">
+            <titl>Pie charts</titl>
+        </lb>
+        <lb name="chart.data.ostatni">
+            <titl>Others</titl>
+        </lb>
+        <lb name="zalohovatDBUkoncit">
+            <titl>End immediately after successful backup</titl>
+        </lb>
+        <lb name="remoteLogoutHeading">
+            <titl>Remote logoff</titl>
+        </lb>
+        <lb name="remoteLogoutQuestion">
+            <titl>Your account is currently being used on another device.\nDo you want to continue with this session and end all others?</titl>
+        </lb>
+        <lb name="remoteLogoutAction">
+            <titl>Restoring session and waiting for other devices to log off...</titl>
+        </lb>
+        <lb name="clientVersionMissmatch">
+            <titl>ABRA Flexi updated on the server. Please save your in-process work and restart the application to complete the update. Failure to do so will automatically terminate ABRA Flexi and you will lose unsaved changes.</titl>
+        </lb>
+        <lb name="webHooksInfo.status.enabled">
+            <titl>Processing enabled</titl>
+        </lb>
+        <lb name="webHooksInfo.status.dedicated">
+            <titl>Preferred server</titl>
+        </lb>
+        <lb name="webHooksInfo.status.priority">
+            <titl>Server priority</titl>
+        </lb>
+        <lb name="webHooksInfo.status.currentWatcherPriority">
+            <titl>Selected server priority</titl>
+        </lb>
+        <lb name="webHooksInfo.status.watchingState">
+            <titl>Change tracking status</titl>
+        </lb>
+        <lb name="webHooksInfo.status.notifyHooksExecutor">
+            <titl>Notification hooks</titl>
+        </lb>
+        <lb name="webHooksInfo.status.firingHooksExecutor">
+            <titl>Sending hooks</titl>
+        </lb>
+        <lb name="webHooksInfo.status.notifiedCompanies">
+            <titl>Currently notified companies</titl>
+        </lb>
+        <lb name="webHooksInfo.status.scheduledHooks">
+            <titl>Schedule-based hooks</titl>
+        </lb>
+        <lb name="webHooksInfo.status.firingHooks">
+            <titl>Currently sent hooks</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorState">
+            <titl>Status</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorPoolSize">
+            <titl>Pool size</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorPoolSizeMax">
+            <titl>Max. pool size</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorActiveThreads">
+            <titl>of active fibres</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorWaitingTasks">
+            <titl>of waiting jobs</titl>
+        </lb>
+        <lb name="webHooksInfo.status.executorCompletedTasks">
+            <titl>of completed jobs</titl>
+        </lb>
+        <lb name="webHooksInfo.status.watchedCompanies">
+            <titl>Tracked companies</titl>
+        </lb>
+        <lb name="webHooksInfo.status.httpClient">
+            <titl>HTTP Status</titl>
+        </lb>
+        <lb name="webHooksInfo.httpStatus.pool">
+            <titl>Connection statistics</titl>
+        </lb>
+        <lb name="webHooksInfo.httpStatus.routes">
+            <titl>List of routes</titl>
+        </lb>
+        <lb name="status">
+            <titl>Status</titl>
+        </lb>
+        <lb name="restartChangesWatcher.description">
+            <titl>New Web Hooks node selection (without component restart)</titl>
+        </lb>
+        <lb name="restartWebHooks.description">
+            <titl>Complete restart of Web Hooks (including components)</titl>
+        </lb>
+        <lb name="dayDatePart">
+            <titl>day</titl>
+        </lb>
+        <lb name="weekDatePart">
+            <titl>week</titl>
+        </lb>
+        <lb name="monthDatePart">
+            <titl>month</titl>
+        </lb>
+        <lb name="quarterDatePart">
+            <titl>quarter</titl>
+        </lb>
+        <lb name="yearDatePart">
+            <titl>year</titl>
+        </lb>
+        <lb name="substringPart">
+            <titl>substring</titl>
+        </lb>
+        <lb name="fiscal-yearDatePart">
+            <titl>fiscal year</titl>
+        </lb>
+        <lb name="floating-dayDatePart">
+            <titl>relative day</titl>
+        </lb>
+        <lb name="floating-n-daysDatePart">
+            <titl>relative n days</titl>
+        </lb>
+        <lb name="floating-weekDatePart">
+            <titl>relative week</titl>
+        </lb>
+        <lb name="floating-monthDatePart">
+            <titl>relative month</titl>
+        </lb>
+        <lb name="floating-quarterDatePart">
+            <titl>relative quarter</titl>
+        </lb>
+        <lb name="floating-yearDatePart">
+            <titl>relative year</titl>
+        </lb>
+        <lb name="centServerUserType">
+            <titl>User type</titl>
+        </lb>
+        <lb name="technickePodrobnosti">
+            <titl>Technical details</titl>
+        </lb>
+        <lb name="eanScanner.mnoz">
+            <titl>Amount:</titl>
+        </lb>
+        <lb name="eanScanner.ean">
+            <titl>EAN:</titl>
+        </lb>
+        <lb name="mailDefaultBody">
+            <titl>We wish you good day\n\n we send you promised document as an attachment.</titl>
+        </lb>
+        <lb name="mailDefaultBodyMultipleAttachments">
+            <titl>Dear customer,\n\nPlease find attached the promised documents.</titl>
+        </lb>
+        <lb name="mailDefaultBodyFooter">
+            <titl>\n\nBest regards\n\n</titl>
+        </lb>
+        <lb name="mailDefaultFooterGeneratedBy">
+            <titl>Generated by economic system</titl>
+        </lb>
+    </labels>
+</config>

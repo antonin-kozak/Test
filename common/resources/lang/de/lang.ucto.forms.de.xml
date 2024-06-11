@@ -1,0 +1,2060 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/de/lang.ucto.forms.de.xml
+   Created on  : 25. 04. 2024, 08:32
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <formsInfo>
+        <fi name="root000">
+            <titl>ABRA Flexi</titl>
+        </fi>
+        <fi name="desktop000">
+            <titl>Arbeitsfläche</titl>
+        </fi>
+        <fi name="dashboard000">
+            <titl>Übersichten</titl>
+            <icon>win/dashboard.png</icon>
+            <mnem>220</mnem>
+        </fi>
+        <fi name="gdpr000">
+            <titl>DSGVO</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="dashboard">
+            <titl>Übersicht</titl>
+            <icon>win/dashboard-vlastni.png</icon>
+        </fi>
+        <fi name="dashboard000-konkretni">
+            <titl>Übersichten</titl>
+            <icon>win/dashboard-konkretni.png</icon>
+        </fi>
+        <fi name="dashboard-konkretni">
+            <titl>Übersicht</titl>
+            <icon>win/dashboard-vlastni-konkretni.png</icon>
+        </fi>
+        <fi name="test000">
+            <titl>* TEST *</titl>
+        </fi>
+        <fi name="firma000">
+            <titl>Firma</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="novaFirma">
+            <titl>Neue Firma</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="initFirmaWiz">
+            <titl>Wegweiser durch die Einstellung von Firma</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="novaFirmaWiz">
+            <titl>Gründung einer neuen Firma</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="noveSezeni">
+            <titl>Auswahl der Firma im neuen Fenster</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="pravaFirma">
+            <titl>Rechte zu den Firmen</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="zmenaParFirmy">
+            <titl>Parameter der Firma</titl>
+            <mnem>81</mnem>
+        </fi>
+        <fi name="vyberFirmyAction">
+            <titl>Auswahl der Firma</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="zmenaUcetniObdobi000">
+            <titl>Änderung der Buchungsperiode</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="zalohaDB">
+            <titl>Sicherung der Firma</titl>
+            <desc>Datensicherung im lokalen Computer speichern. Später kann man die Datensicherung im System Flexi Bee erneuern.</desc>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="souKonec">
+            <titl>Applikation beenden</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="nImport">
+            <titl>Import</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="importExcel">
+            <titl>Import aus Excel</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="importIsDoc">
+            <titl>Import E-Rechnungen ISDOC (Informationssystem für Dokumente)</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="importXml">
+            <titl>Import aus XML</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="opravSklad">
+            <titl>Lagerbestand berechnen</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="realizujPozadavky">
+            <titl>Aktualisierung der Warenanforderungen für Lagerausgabe.</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="partneri000">
+            <titl>Geschäftspartner</titl>
+            <icon>win/obch-partneri.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="zbozi000">
+            <titl>Ware</titl>
+            <icon>win/zbozi.png</icon>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="prodej000">
+            <titl>Verkauf</titl>
+            <icon>win/prodej.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="prodejTypy">
+            <titl>Belegarten</titl>
+            <icon>win/folder.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="prodejTuo">
+            <titl>Buchungsvorschriften</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="prodejRady">
+            <titl>Belegreihen</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="nakup000">
+            <titl>Einkauf</titl>
+            <icon>win/nakup.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="nakupTypy">
+            <titl>Belegarten</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="nakupTuo">
+            <titl>Buchungsvorschriften</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="nakupRady">
+            <titl>Belegreihen</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="penize000">
+            <titl>Geld</titl>
+            <icon>win/penize.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="penizePolDokl">
+            <titl>Übersichten der Belegposten</titl>
+            <desc>Übersichten aller Bewegungen in einzelnen Listen des Bank- und Kassenmoduls. Es handelt sich um Bank- und Kassenposten. Mit Hilfe einer Standardfilterung bilden Sie die Übersichten der Posten angeführter Belege oder können Sie die Gruppen der Bewegungen nach eingegebenen Kriterien aussuchen, ohne Rücksicht auf Belege, in denen die Posten entstanden sind.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="penizeTypy">
+            <titl>Belegarten</titl>
+            <icon>win/folder.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="penizeTuo">
+            <titl>Buchungsvorschriften</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="penizeRady">
+            <titl>Belegreihen</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="majetek000">
+            <titl>Vermögen</titl>
+            <icon>win/majetek.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="majetekTypy">
+            <titl>Arten</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="zamestnanc000">
+            <titl>Arbeitnehmer</titl>
+            <icon>win/zamestnanci.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="ucetnictvi000">
+            <titl>Buchhaltung</titl>
+            <icon>win/ucetnictvi.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="ucetnictviPolDokl">
+            <titl>Übersichten der Belegposten</titl>
+            <desc>Übersichten aller Bewegungen in einzelnen Listen interner Belege, sonstiger Forderungen und Verbindlichkeiten. Es handelt sich um die Posten bereits erwähnter Belege. Mit Hilfe der Standardfilterung bilden Sie die Übersichten der Posten angeführter Belege oder können Sie die Gruppen der Bewegungen nach eingegebenen Kriterien aussuchen, ohne Rücksicht auf die Belege, in denen die Posten entstanden sind.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="ucetnictviTypy">
+            <titl>Belegarten</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="ucetnictviTuo">
+            <titl>Buchungsvorschriften</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="ucetnictviRady">
+            <titl>Belegreihen</titl>
+            <icon>win/numbers.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="nastav000">
+            <titl>Instrumente</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="ucetniVystup000">
+            <titl>Buchungsoutputs</titl>
+            <icon>win/logs.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="pomoc000">
+            <titl>Hilfe</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="poslatReakci">
+            <titl>Senden Sie Ihre Meinung an ABRA Flexi</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="koupitWinStrom">
+            <titl>Lizenz kaufen</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="nabidkaDoplnku">
+            <titl>Zusatzangebot</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="aktualLicenci">
+            <titl>Meine ABRA Flexi</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="weboveRozhrani">
+            <titl>Web-Schnittstelle</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="podpora">
+            <titl>Benutzerunterstützung</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="oAplikaci">
+            <titl>Über die ABRA Flexi App</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="napoveda">
+            <titl>Hilfe zum Programm</titl>
+            <mnem>80</mnem>
+            <acck>112</acck>
+            <accm>0</accm>
+        </fi>
+        <fi name="casteDotazy">
+            <titl>Häufig gestellte Fragen</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="nastavProgram">
+            <titl>Einstellen von Programmen und Modulen</titl>
+        </fi>
+        <fi name="uSazbyDph">
+            <titl>MwSt. - Sätze</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="nNastav">
+            <titl>Einstellen</titl>
+            <desc>Einstellung von Grunddaten der Firma, Einstellung von Logo und Stempel, gesetzlich festgelegten Parametern und automatischen Operationen.</desc>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="nCiselniky">
+            <titl>Stammdaten</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="zodpOsoba">
+            <titl>Zuständige Person</titl>
+        </fi>
+        <fi name="nUcetniObdobi">
+            <titl>Buchungsperiode</titl>
+        </fi>
+        <fi name="ucDoklUcty">
+            <titl>Buchungszeitplan</titl>
+            <desc>Aktualisierung des Buchungszeitplans,Einstellen von Eigenschaften der Standardbilanz und des Berichtes von Gewinn und Verlust.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="ucPocObraty">
+            <titl>Anfangskontostände</titl>
+            <icon>win/folder.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="intDokl">
+            <titl>Interne Dokumente</titl>
+            <desc>Aktualisierung und Bildung der internen Buchungsdokumente in der eingestellten Buchungsperiode.</desc>
+            <icon>win/int-dok.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="intDoklNovy">
+            <titl>Neues internes Dokument</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="intPol">
+            <titl>Die Posten des internen Beleges</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intRady">
+            <titl>Belegreihen - interne Belege</titl>
+            <desc>Belegreihen für Aktualisierung der internen Belege.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="intTyp">
+            <titl>Arten von internen Belegen</titl>
+            <desc>Arten von internen Belegen ermöglichen, die Grundparameter einzustellen. Es handelt sich um Verbuchung, Belegreihen, usw.</desc>
+            <icon>win/typ-interni-doklad.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="adrDodavatel">
+            <titl>Lieferanten</titl>
+            <desc>Aktualisierung der Lieferanten, Kontakte, Ereignisse und der Bankverbindungen von Lieferanten.</desc>
+            <icon>win/adresar.png</icon>
+        </fi>
+        <fi name="adrOdberatel">
+            <titl>Abnehmer</titl>
+            <desc>Aktualisierung der Abnehmer, Kontakte, Ereignisse und Bankverbindungen der Abnehmer.</desc>
+            <icon>win/adresar.png</icon>
+        </fi>
+        <fi name="adrSkupFir">
+            <titl>Gruppen von Firmen</titl>
+            <icon>win/skupiny-firem.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="adrAdresarNovy">
+            <titl>Neue Adresse der Firma</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="adrAdresar">
+            <titl>Firmenadressen</titl>
+            <desc>Aktualisierung von allen Adressen, Kontakten, Bankverbindungen und Ereignissen.</desc>
+            <icon>win/adresar.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="adrKontakty">
+            <titl>Kontakte</titl>
+            <desc>Liste aller Kontakte, die Sie bei den Firmen erfasst haben. In der Liste können Sie die Kontakte nach den eingegebenen Kriterien quer durch die Firmen aufsuchen. Bei jeder Firma im aktualisierten Formular sehen Sie die auf konkrete Adresse gebundenen Kontakte. Beim Kontakt geben Sie Firma, Funktion, Dienstrang, Telefon, E-Mail, Notizen und Etiketten für die Eingliederung und das Aufsuchen des Kontakts.</desc>
+            <icon>win/kontakty.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="adrUdalosti">
+            <titl>Ereignisse</titl>
+            <desc>Die Liste aller Ereignisse, die mit dem Partner verbunden sind. Das Ereignis können wir auch als Protokoll aus der Verhandlung mit dem Partner ansehen oder das kann auch als die Aufgabe angesehen werden, die bis zum bestimmten Termin erfüllt werden muss.Im Fenster zum Editieren der Adresse sehen Sie die Liste von Ereignissen, die zum ausgewählten Partner gebunden sind. Eine gut geführte Liste von Ereignissen ermöglicht dem Manager der Firma die Beauftragung der Mitarbeiter mit den Aufgaben und Verfolgung des Lösungsstandes.</desc>
+            <icon>win/udalosti.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="adrRuUdalosti">
+            <titl>Vorfälle aus Workflow</titl>
+            <desc>Liste aller Vorfälle aus Workflow</desc>
+            <icon>win/udalosti.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="adrNaklAkt">
+            <titl>Kosten Vorfälle / Aktivitäten</titl>
+        </fi>
+        <fi name="adrTypAkt">
+            <titl>Vorfall- und Aktivitätsarten</titl>
+            <desc>Benutzereingabe der typischen Vorfälle und Aktivitäten in Ihrer Firma.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="adrTypNaklAkt">
+            <titl>Kostenarten Vorfälle / Aktivitäten</titl>
+            <desc>Die Liste aller mit der Aktivität oder mit dem Vorfall zusammenhängenden Kostenarten. Sie beinhaltet eine Bindung an die Preisliste.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="adrBanSpoj">
+            <titl>Bankverbindung</titl>
+        </fi>
+        <fi name="adrMistUrc">
+            <titl>Bestimmungsorte</titl>
+            <desc>Liste aller Bestimmungsorte.</desc>
+            <icon>win/mista-urceni.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="adrSmlAkt">
+            <titl>Verträge</titl>
+            <desc>Liste aller Verträge</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="adrSmlAktView">
+            <titl>Verträge</titl>
+            <desc>Liste aller Verträge.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="adrSmlDodavAkt">
+            <titl>Lieferverträge</titl>
+            <desc>Liste aller Lieferverträge.</desc>
+            <icon>win/prehled.png</icon>
+        </fi>
+        <fi name="adrSmlDodavAktView">
+            <titl>Lieferverträge</titl>
+            <desc>Liste aller Lieferverträge.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="adrPolSml">
+            <titl>Vertragsposten</titl>
+        </fi>
+        <fi name="adrPolSmlInt">
+            <titl>Interne Standardposten vom Vertrag</titl>
+        </fi>
+        <fi name="adrPolSmlExt">
+            <titl>Externe Vertragsposten</titl>
+        </fi>
+        <fi name="adrTypSml">
+            <titl>Vertragsarten</titl>
+            <icon>win/folder.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="adrTypDodavSml">
+            <titl>Arten der Lieferverträge</titl>
+            <icon>win/folder.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="adrStavSml">
+            <titl>Vertragsstatus</titl>
+        </fi>
+        <fi name="adrZurnalSml">
+            <titl>Journal für Verträge</titl>
+        </fi>
+        <fi name="adrDodavateleView">
+            <titl>Liefert Ware</titl>
+        </fi>
+        <fi name="adrOdberateleView">
+            <titl>Individuelle Preise</titl>
+        </fi>
+        <fi name="cenSku">
+            <titl>Waren - und Materialgruppen</titl>
+            <desc>Waren - und Materialgruppen ermöglichen die Preisliste/den Katalog in die übersichtlichen Gruppen einzugliedern , Definition von diesen Gruppen und auch die Einstellung der Preisbildung für diese Gruppen.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="cenSkupCen">
+            <titl>Preislistengruppen</titl>
+            <desc>Preislistengruppen</desc>
+            <icon>win/folder.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="cenHlad">
+            <titl>Preisniveaus</titl>
+            <desc>Die Preisniveaus bilden die Verbindung zwischen der Warengruppe und der Gruppe der Abnehmer und dadurch deutlich definierte Preisbildung.</desc>
+            <icon>win/cenove-urovne.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="cenAkt">
+            <titl>Preisliste</titl>
+            <desc>Der Katalog beinhaltet komplette Übersicht von Ware, Material und Dienstleistungen. Alles ist in Gruppen gegliedert. Bei der Ware definieren Sie ihre Platzierung in den Lagern.</desc>
+            <icon>win/katalog.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="cenAktNovy">
+            <titl>Neuer Posten in der Preisliste/im Katalog</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="cenSady">
+            <titl>Sätze</titl>
+        </fi>
+        <fi name="cenPoplatky">
+            <titl>Gebühren</titl>
+        </fi>
+        <fi name="cenPodobne">
+            <titl>Ähnliche</titl>
+        </fi>
+        <fi name="cenSpec">
+            <titl>Spezielle Preisliste</titl>
+        </fi>
+        <fi name="cenDodavatele">
+            <titl>Lieferanten</titl>
+        </fi>
+        <fi name="cenDodavateleView">
+            <titl>Lieferanten</titl>
+        </fi>
+        <fi name="cenOdberateleView">
+            <titl>Preise für Abnehmer/Gruppen von Abnehmern, spezielle Codes</titl>
+        </fi>
+        <fi name="cenEkoKom">
+            <titl>Evidenz von EkoKom Verpackungen</titl>
+        </fi>
+        <fi name="sklInventura">
+            <titl>Inventuren</titl>
+            <icon>win/computation.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="sklInventuraPol">
+            <titl>Inventurposten</titl>
+        </fi>
+        <fi name="sklTyp">
+            <titl>Liste von Lagern</titl>
+            <icon>win/seznam.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="sklKar">
+            <titl>Lagerkarten</titl>
+            <desc>In der Preisliste/im Katalog werden die Lagerkarten angelegt. Sie bilden den Posten der Preisliste/des Katalogs und definieren Sie die Platzierung von Ware oder Material in den Lagern. Hier haben Sie die Evidenz über Lagerbestand und über Bewegungen auf den Karten und inklusive gedruckte Unterlagen.</desc>
+            <icon>win/skladove-karty.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="sklAkt">
+            <titl>Empfangsbestätigungen/Ausgabebelege</titl>
+            <desc>Das Verzeichnis von Lagerbelegen beinhaltet die Grundparameter für die Buchung von Dokumenten.</desc>
+            <icon>win/prijem-vydej.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="sklVyrCis">
+            <titl>Produktionsnummern</titl>
+            <desc>Übersicht der Produktionsnummern</desc>
+            <icon>win/generate.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="sklVyrCisVyb">
+            <titl>Auswahl von Produktionsnummern</titl>
+            <desc>Auswahl von Produktionsnummern</desc>
+            <icon>win/generate.png</icon>
+        </fi>
+        <fi name="sklVyrCisView">
+            <titl>Belege von Produktionsnummern</titl>
+            <desc>Übersicht der Belege von Produktionsnummern</desc>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="sklVyrCisHlavView">
+            <titl>Produktionsnummern</titl>
+            <desc>Übersicht der Produktionsnummern</desc>
+            <icon>win/logs.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="sklVyrCisHlav">
+            <titl>Kopfzeile der Produktionsnummern</titl>
+        </fi>
+        <fi name="sklMapSklad">
+            <titl>Abbildung der Lager</titl>
+            <desc>Bestimmt Prioritäten in Benutzung der Lager</desc>
+            <icon>win/folder.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="sklAktNovy">
+            <titl>Empfangsbestätigung/Ausgabebeleg ausstellen</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="sklPol">
+            <titl>Die Posten Empfangsbestätigung/Ausgabebeleg</titl>
+            <desc>Zusammenfassende Übersicht über alle Lagerbewegungen. Mit Hilfe von Standardfilterung bilden Sie die Übersichten von Lagerposten oder Sie können die Gruppenbewegungen nach den eingegebenen Kriterien unabhängig von den Lagerkarten oder Belegen aufsuchen.</desc>
+        </fi>
+        <fi name="sklPolPrehled">
+            <titl>Lagerbewegungen - Übersicht</titl>
+            <desc>Zusammenfassende Übersicht von allen Lagerbewegungen. Mit Hilfe von Standardfilterung bilden Sie die Übersichten von Lagerposten oder Sie können die Gruppenbewegungen nach den eingegebenen Kriterien unabhängig von den Lagerkarten oder Belegen aufsuchen.</desc>
+            <icon>win/skladove-pohyby.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="stavSklWizard">
+            <titl>Lagerbestand bis zum Datum</titl>
+            <desc>Übersicht vom Stand aller Preislistenposten mit deren Menge auf dem betreffenden Lager zum eingegebenen Datum.</desc>
+            <icon>win/computation.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="stavSkl">
+            <titl>Lagerbestand bis zum Datum</titl>
+        </fi>
+        <fi name="sklArch">
+            <titl>Archiv</titl>
+        </fi>
+        <fi name="sklRady">
+            <titl>Belegreihen - Lager</titl>
+            <desc>Einstellung von Belegreihen für die Aktualisierung der Empfangsbestätigung und Ausgabebeleg.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="sklProtiUcty">
+            <titl>Gegenkontos Lager</titl>
+        </fi>
+        <fi name="sklRezervace">
+            <titl>Reservierung</titl>
+            <icon>win/rezervace.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="favTyp">
+            <titl>Arten von ausgegebenen Rechnungen</titl>
+            <desc>Arten von ausgegebenen Rechnungen ermöglichen die Grundparameter einzustellen. Das sind Verbuchung, Zahlungsweise, Belegreihen, usw.</desc>
+            <icon>win/typ-vydana-faktura.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="favAkt">
+            <titl>Ausgegebene Rechnungen</titl>
+            <desc>Aktualisierung der ausgegebenen Rechnungen in der eingestellten Buchungsperiode. Die Fakturierung aus dem Lager bildet die Ausgabebelege automatisch. Die Taste "Dienstleistungen" ermöglicht den Druck der aktuellen Rechnung, bietet die zusammenfassenden Informationen über den Abnehmer und bildet Bargeldvergütung.</desc>
+            <icon>win/fak-vydane.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="favAktNovy">
+            <titl>Neue Rechnung ausgeben</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="favPol">
+            <titl>Die Posten der ausgegebenen Rechnungen - Übersicht</titl>
+            <desc>Zusammenfassende Übersicht aller Rechnungsposten. Mit Hilfe von der Standardfilterung bilden Sie die Übersichten von Rechnungsposten oder Sie können die Postengruppen nach den eingegebenen Kriterien unabhängig von den Belegen aufsuchen. Beispiel für die Benutzung: Sie möchten wissen, welchen Firmen Sie konkrete Ware während zwei Monaten fakturiert haben.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="favTypProdejky">
+            <titl>Liste der Verkaufskassen</titl>
+            <icon>win/typ-vydana-faktura.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="favProdejky">
+            <titl>Verkaufskasse</titl>
+            <desc>Die Verkaufskasse ist für Barzahlung bestimmt. Es handelt sich um eine maximal vereinfachte Form der Bildung eines Verkaufsbelegs. Einmal pro Tag spielen Sie Verkaufe in die Kasse ein, die an die Verkaufskasse angeschlossen ist. Die Bindung ist in der Liste der Verkaufskassen definiert.</desc>
+            <icon>win/pokladna.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="favProdPlat">
+            <titl>Zahlung</titl>
+            <desc>Zahlungen der Belege in der Verkaufskasse.</desc>
+        </fi>
+        <fi name="cisZakazky">
+            <titl>Stammdaten der Aufträge</titl>
+            <icon>win/folder.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="cisTypZak">
+            <titl>Auftragsarten</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="cisStavZak">
+            <titl>Auftragstatus</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="cisVyhZak">
+            <titl>Auswertung von Aufträgen</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="polDoklPrehProdej">
+            <titl>Übersichten der Belegposten</titl>
+            <desc>Übersichten von allen Bewegungen in einzelnen Listen des Verkaufsmoduls. Es geht um die Posten der ausgegebenen Rechnungen, der angenommenen Anfragen, ausgegebenen Angebote un der angenommenen Bestellungen. Mit Hilfe der Standardfilterung bilden Sie die Übersichten der Posten der angeführten Belegen oder Sie können die Gruppen von Bewegungen nach den eingegebenen Kriterien unabhängig von den Belegen aufsuchen, wie die Posten entstanden sind.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="favUpo">
+            <titl>Mahnungen</titl>
+        </fi>
+        <fi name="favArch">
+            <titl>Archiv</titl>
+        </fi>
+        <fi name="favRady">
+            <titl>Belegreihen - ausgegebene Rechnungen</titl>
+            <desc>Einstellung der Belegreihen für die Aktualisierung von ausgegebenen Rechnungen.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="fapTyp">
+            <titl>Typen von angenommenen Rechnungen</titl>
+            <icon>win/typ-prijata-faktura.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="fapAkt">
+            <titl>Angenommene Rechnungen</titl>
+            <desc>Aktualisierung der angenommenen Rechnungen in der eingestellten Buchungsperiode. Die angenommenen Rechnungen bilden mit den Lagerposten Empfangsbestätigungen automatisch. Die Taste "Dienstleistungen" ermöglicht den Druck der aktuellen Faktur, bietet zusammenfassende Informationen über den Abnehmer und bildet die Bargeldvergütung.</desc>
+            <icon>win/fak-prijate.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="fapAktNovy">
+            <titl>Neue Rechnung annehmen</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="fapPol">
+            <titl>Die Posten der angenommenen Rechnungen</titl>
+            <desc>Zusammenfassende Übersicht von allen Fakturierungsposten. Mit Hilfe von Standardfilterung bilden Sie die Übersichten der Fakturierungsposten oder Sie können die Postengruppen nach den eingegebenen Kriterien unabhängig von den Belegen aufsuchen. Beispiel für Benutzung: Sie wollen wissen, welche Firmen Ihnen konkrete Ware in den letzten zwei Monaten fakturiert haben.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="polDoklNakupProdej">
+            <titl>Übersichten der Belegposten</titl>
+            <desc>Übersichten von allen Bewegungen in den einzelnen Listen des Einkaufsmoduls. Es geht um die Posten der angenommenen Rechnungen, der ausgegebenen Anfragen, der angenommenen Angebote und der ausgegebenen Bestellungen. Mit Hilfe der Standardfilterung bilden Sie die Übersichten der Posten der angeführten Belege oder Sie können die Gruppen von Bewegungen nach den eingegebenen Kriterien unabhängig von den Belegen aufsuchen, wie die Posten entstanden sind.</desc>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="fapRady">
+            <titl>Belegreihen - angenommene Rechnungen</titl>
+            <desc>Einstellung der Belegreihen für die Aktualisierung der angenommenen Rechnungen.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="fapProtiUcty">
+            <titl>Angenommene Gegenkontos</titl>
+        </fi>
+        <fi name="phlTyp">
+            <titl>Arten von anderen Forderungen</titl>
+            <desc>Arten von anderen Forderungen ermöglichen die Grundparameter einzustellen. Es handelt sich um die Verbuchung, Belegreihen, usw.</desc>
+            <icon>win/typ-ostatni-pohledavka.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="phlAkt">
+            <titl>Andere Forderungen</titl>
+            <desc>Aktualisierung und Bildung der Forderungen in der eingestellten Buchungsperiode, die in den ausgegebenen Rechnungen nicht eingegliedert sind. Zum Beispiel die Instruktion für die Zahlung der Miete in Ihren Objekten.</desc>
+            <icon>win/ostatni-pohledavky.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="phlAktNovy">
+            <titl>Neue Forderung</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="phlPol">
+            <titl>Posten sonstiger Forderungen</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="phlRady">
+            <titl>Belegreihen - Forderungen</titl>
+            <desc>Einstellung der Belegreihen für Forderungen</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="zavTyp">
+            <titl>Arten von anderen Verbindlichkeiten</titl>
+            <desc>Arten von anderen Verbindlichkeiten ermöglichen die Grundparameter einzustellen. Das sind Verbuchung, Belegreihen, usw.</desc>
+            <icon>win/typ-ostatni-zavazky.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="zavAkt">
+            <titl>Andere Verbindlichkeiten</titl>
+            <desc>Aktualisierung und Bildung der Verbindlichkeiten in der eingestellten Buchungsperiode, die in den angenommenen Rechnungen eingegliedert sind. Zum Beispiel Leasing, Miete usw.</desc>
+            <icon>win/ostatni-zavazky.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="zavAktNovy">
+            <titl>Neue Verbindlichkeit</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="zavPol">
+            <titl>Posten sonstiger Verbindlichkeiten</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="zavRady">
+            <titl>Belegreihen - Verbindlichkeiten</titl>
+            <desc>Einstellung der Belegreihen für Verbindlichkeiten.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="banTyp">
+            <titl>Liste der Bankkontos</titl>
+            <icon>win/bank-ucty.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="banTypZapocty">
+            <titl>Liste der Aufrechnungsarten</titl>
+            <icon>win/bank-ucty.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="banAkt">
+            <titl>Bank</titl>
+            <desc>Aktualisierung und Bildung der Posten von Bankauszügen in der eingestellten Buchungsperiode. Die Taste "Dienstleistungen" ermöglicht den Druck des aktuellen Beleges,den Beleg mit der Rechnung, der Forderung oder mit der Verbindlichkeit zusammen zu paaren.</desc>
+            <icon>win/banka.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="banZapocty">
+            <titl>Aufrechnungen</titl>
+            <desc>Wechselseitige Aufrechnung ist mit der Hilfe des Begleiters möglich, in dem Sie eine Firma eingeben, mit der Sie die Aufrechnung machen wollen. Dann wählen Sie die Belege für Aufrechnung. Oder können Sie die Aufrechnung mit einem Beleg nach dem anderen ähnlich wie bei den Bankauszügen realisieren.</desc>
+            <icon>win/vzajemne-zapocty.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="banDenik">
+            <titl>Bankbuch</titl>
+            <desc>Berechnung und Druck des Bankbuches</desc>
+            <icon>win/logs.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="banAktNovy">
+            <titl>Neuer Bankbeleg</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="banPol">
+            <titl>Die Posten des Bankbeleges</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="banZapoctyPol">
+            <titl>Aufrechnungsposten</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="banBanZapoctyPol">
+            <titl>Posten gegenseitiger Anrechnungen</titl>
+        </fi>
+        <fi name="banRady">
+            <titl>Belegreihen - Bankbelege</titl>
+            <desc>Einstellung der Belegreihen für die Aktualisierung der Bankauszüge.</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="banProtiUcty">
+            <titl>Gegenkontos Bank</titl>
+        </fi>
+        <fi name="pokTyp">
+            <titl>Arten der Kassenbelege</titl>
+            <icon>win/pokladna.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="pokAkt">
+            <titl>Kasse</titl>
+            <desc>Aktualisierung und Bildung der Kassenbelege in der eingestellten Buchungsperiode. Die Taste "Dienstleistungen" ermöglicht den Druck des aktuellen Beleges, den Beleg mit der Rechnung, der Forderung oder Verbindlichkeit zusammenzupaaren.</desc>
+            <icon>win/pokladna.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="pokDenik">
+            <titl>Kassenbuch</titl>
+            <desc>Berechnung und Druck des Kassenbuches werden durchgeführt.</desc>
+            <icon>win/logs.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="pokAktNovy">
+            <titl>Neuer Kassenbeleg</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="pokPol">
+            <titl>Posten des Kassenbeleges</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="pokRady">
+            <titl>Belegreihen - Kassenbelege</titl>
+            <desc>Einstellung der Belegreihen für die Aktualisierung der Kassenbelege</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="bspModulFree">
+            <titl>Banken/Kassen/Lager</titl>
+        </fi>
+        <fi name="banBsp">
+            <titl>Liste der Bankkonten</titl>
+            <desc>Liste der Bankkonten der Firma einschliesslich Definition der elektronischen Kommunikation.</desc>
+            <icon>win/bank-ucty.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="pokBsp">
+            <titl>Liste der Kassen</titl>
+            <desc>Aktualisierung der Liste der Kassen</desc>
+            <icon>win/seznam.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="sklBsp">
+            <titl>Liste der Lager</titl>
+            <icon>win/seznam.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="obchodNapDokl">
+            <titl>Angenommene Angebote</titl>
+            <desc>Angenommene Angebote können Sie manuell oder durch die Kopie der ausgegebenen Anfrage bilden. Durch die Kopie der Anfrage ins Angebot sparen Sie Zeit mit der Eingabe von Angebotsposten und es genügt nur die von Ihrem Lieferanten präzisierten Preise zu modifizieren.</desc>
+            <icon>win/nabidka-prijata.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNapPol">
+            <titl>Die Posten des angenommenen Angebotes</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNapTyp">
+            <titl>Arten der angenommenen Angebote</titl>
+            <icon>win/typ-nabidka-prijata.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNapRady">
+            <titl>Belegreihen - angenommene Angebote</titl>
+            <desc>Einstellung der Belegreihen für angenommene Angebote</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNavDokl">
+            <titl>Ausgegebene Angebote</titl>
+            <desc>Die Liste führt alle ausgegebenen Angebote in Evidenz, die an Ihre Abnehmer versendet wurden. Der Angebotsinhalt ist in die Aufträge zu kopieren. Das ausgegebene Angebot kann durch die Kopie der angenommene Anfrage gebildet.</desc>
+            <icon>win/nabidka-vydana.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNavPol">
+            <titl>Die Posten des ausgegebenen Angebotes</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNavTyp">
+            <titl>Arten der ausgegebenen Angebote</titl>
+            <icon>win/typ-nabidka-vydana.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodNavRady">
+            <titl>Belegreihen - ausgegebene Angebote</titl>
+            <desc>Einstellung der Belegreihen für die ausgegebenen Angebote</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="obchodPppDokl">
+            <titl>Angenommene Anfragen</titl>
+            <desc>Die Liste der angenommenen Anfragen führt alle Anfragen Ihrer jetzigen oder potentiellen Abnehmer in Evidenz. Der Inhalt einer Anfrage ist ins ausgegebene Angebot oder direkt in die Aufträge zu kopieren.</desc>
+            <icon>win/poptavka-prijata.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="obchodPppPol">
+            <titl>Die Posten der angenommenen Anfrage</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodPppTyp">
+            <titl>Arten der angenommenen Anfragen</titl>
+            <icon>win/typ-poptavka-prijata.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="obchodPppRady">
+            <titl>Belegreihen - angenommene Anfragen</titl>
+            <desc>Einstellung der Belegreihen für angenommene Anfragen</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="obchodPpvDokl">
+            <titl>Ausgegebene Anfragen</titl>
+            <desc>Ausgegebene Anfragen können manuell oder durch die Kopie der Aufträge entstehen. An dieser Stelle beginnt der Gegenprozess gegen den Verkauf zu laufen,in diesem Fall benötigen Sie die Ware oder das Material bei Ihren Lieferanten einzukaufen.</desc>
+            <icon>win/poptavka-vydana.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="obchodPpvPol">
+            <titl>Die Posten der ausgegebenen Anfrage</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="obchodPpvTyp">
+            <titl>Arten der ausgegebenen Anfragen</titl>
+            <icon>win/typ-poptavka-vydana.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="obchodPpvRady">
+            <titl>der Belegreihen für ausgegebene Anfragen</titl>
+            <desc>Einstellung der Belegreihen für ausgegebene Anfragen</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="obchodObpDokl">
+            <titl>Aufträge</titl>
+            <desc>Aufträge dienen zur Evidenz von Forderungen Ihrer Abnehmer. Bei den Bestellposten ist der vereinbarte Verkaufspreis angeführt. Bei der Erstellung der Rechnung können Sie die Bestellung sog. realisieren, also ihren Inhalt in die Rechnung kopieren.</desc>
+            <icon>win/objednavka-prijata.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodObpDoklNovy">
+            <titl>Neue Bestellung annehmen</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="obchodObpPol">
+            <titl>Die Posten der Aufträge</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="obchodObpTyp">
+            <titl>Arten der Aufträge</titl>
+            <icon>win/typ-objednavka-prijata.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="obchodObpRady">
+            <titl>Belegreihen - Aufträge</titl>
+            <desc>Einstellung der Belegreihen für Aufträge</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="obchodObvDokl">
+            <titl>Ausgegebene Aufträge</titl>
+            <desc>Was den Inhalt betrifft, sind die ausgegebenen Aufträge ähnlich wie die angenommenen Bestellungen, nur die Richtung des Bestellens ist umgedreht und die Preise sind die Einkaufspreise. Den ausgegebenen Auftrag ist aufgrund der angenommenen Bestellung zu bilden, d.h., dass Sie von Ihren Lieferanten das verlangen werden, was Ihre Abnehmer von Ihnen verlangen.</desc>
+            <icon>win/objednavka-vydana.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="obchodObvDoklNovy">
+            <titl>Neuen Auftrag ausgeben</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="obchodObvPol">
+            <titl>Die Posten der ausgegebenen Aufträge</titl>
+            <icon>win/faktury-polozky.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="obchodObvTyp">
+            <titl>Arten der ausgegebenen Aufträge</titl>
+            <icon>win/typ-objednavka-vydana.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="obchodObvRady">
+            <titl>Belegreihen - ausgegebene Aufträge</titl>
+            <desc>Einstellung der Belegreihen für ausgegebene Aufträge</desc>
+            <icon>win/numbers.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="upominky">
+            <titl>Mahnungen</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="majSku">
+            <titl>Abschreibungsgruppen</titl>
+        </fi>
+        <fi name="majAkt">
+            <titl>Vermögen</titl>
+        </fi>
+        <fi name="uSesStdPred">
+            <titl>Standardvorschrift der Zusammenstellung</titl>
+        </fi>
+        <fi name="uSesRadky">
+            <titl>Zeile der Zusammenstellung</titl>
+        </fi>
+        <fi name="uSesRozpadUce">
+            <titl>Zerfall von Zeilen der Zusammenstellung auf Rechnungen</titl>
+        </fi>
+        <fi name="uSestavy">
+            <titl>Liste der Zusammenstellungen</titl>
+            <desc>Einstellung und Berechnung der Benutzerzusammenstellungen. Die Funktion ermöglicht Ihnen beliebige Buchungszusammenstellung zu definieren, die Platzierung und den Wert der Rechnungen einzustellen und die Berechnung für beliebigen Umfang in den Monaten zu aktivieren.</desc>
+            <icon>win/seznam.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="uSesSumace">
+            <titl>Summierung in den Zusammenstellungen</titl>
+        </fi>
+        <fi name="uSesUmisteniUctu">
+            <titl>###Upřesnění umístění účtu</titl>
+        </fi>
+        <fi name="uSesPricteniRozdilu">
+            <titl>###Řádky pro přičtení rozdílu</titl>
+        </fi>
+        <fi name="ucDoklObrat">
+            <titl>Umsätze</titl>
+        </fi>
+        <fi name="ucDanEvid">
+            <titl>Steuerevidenz</titl>
+        </fi>
+        <fi name="ucTypOrg">
+            <titl>Typ der Organisation</titl>
+        </fi>
+        <fi name="uSesUzivPred">
+            <titl>Vorschrift der Zusammenstellung</titl>
+        </fi>
+        <fi name="cisStr">
+            <titl>Kostenstellen</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="cisCinnost">
+            <titl>Tätigkeit</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="cisZak">
+            <titl>Aufträge</titl>
+            <desc>Liste der Aufträge. Jeder Beleg kann einen Hinweis auf den Auftrag beinhalten. Mit Hilfe von Standardübersichten können Sie die Kosten für den konkreten Auftrag zu analysieren.</desc>
+            <icon>win/zakazky.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="cisZakNehotov">
+            <titl>Aufträge (unvollendet)</titl>
+            <desc>Aufträge - nicht als abgeschlossen angezeigt</desc>
+        </fi>
+        <fi name="cisKlic">
+            <titl>Auswahlschlüssel</titl>
+        </fi>
+        <fi name="cisStaty">
+            <titl>Staaten</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="cisMeny">
+            <titl>Währungen</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="cisKurzy">
+            <titl>Kurse</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="cisKurzyCen">
+            <titl>FW-Kurse zur Preisbildung</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="cisKurzyIntr">
+            <titl>Währungskurse für Intrastat</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="cisKurzyPreceneni">
+            <titl>Neubewertungssätze</titl>
+        </fi>
+        <fi name="cisKonSym">
+            <titl>Konstante Symbole</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="cisSmerKod">
+            <titl>Geldinstitute</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="cisTexDok">
+            <titl>Hilfstexte für den Beleg</titl>
+        </fi>
+        <fi name="cisMj">
+            <titl>Masseinheiten</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="cisPsc">
+            <titl>Postleitzahlen</titl>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="cisVazbyMj">
+            <titl>Bindungen der Masseinheit</titl>
+        </fi>
+        <fi name="cisUceRoz">
+            <titl>Standardrechnungsbilanz</titl>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="cisOsoby">
+            <titl>Personen und Benutzer</titl>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="zastupnosti">
+            <titl>Vertretungen</titl>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="role">
+            <titl>Benutzerrollen</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="pristPrava">
+            <titl>Zugriffsrechte</titl>
+        </fi>
+        <fi name="zmenHeslo">
+            <titl>Kennwort ändern</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="zmenEmail">
+            <titl>Registrierungs-E-Mail ändern</titl>
+        </fi>
+        <fi name="twoPhaseAuth">
+            <titl>Zweistufige Überprüfung</titl>
+        </fi>
+        <fi name="nasServer">
+            <titl>Servereinstellung</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="nasSmtp">
+            <titl>SMTP-Servereinstellung</titl>
+        </fi>
+        <fi name="nastavZurnal">
+            <titl>Einstellung von Journal</titl>
+        </fi>
+        <fi name="uzivPristup">
+            <titl>Rechte der Datensichtbarkeit</titl>
+        </fi>
+        <fi name="osCert">
+            <titl>Zertifikate</titl>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="osCertOsobni">
+            <titl>Persönliche Zertifikate</titl>
+        </fi>
+        <fi name="osCertEet">
+            <titl>EET Zertifikate</titl>
+        </fi>
+        <fi name="osCertFinbricks">
+            <titl>###Klíče Finbricks</titl>
+        </fi>
+        <fi name="osCertPrehled">
+            <titl>Zertifikate</titl>
+        </fi>
+        <fi name="adrCert">
+            <titl>Zertifikate Firma</titl>
+        </fi>
+        <fi name="autCert">
+            <titl>Zertifizierungsautoritäten</titl>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="actDefinice">
+            <titl>Definition Workflow</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="actSkupiny">
+            <titl>Gruppen für Workflow</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="actClenstvi">
+            <titl>Mitgliedschaft Workflow</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="actRunProcess">
+            <titl>Workflow aufrufen</titl>
+            <icon>win/folder.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="interObch">
+            <titl>Online-Shops</titl>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="cisClenDph">
+            <titl>Zeilen der MwSt. - Erklärung</titl>
+            <desc>Die MwSt. - Zeile bestimmt, in welche Zeile des Formulars der MwSt. - Erklärung die Summen des Beleges (Taste "F2") gehören.</desc>
+            <mnem>196</mnem>
+        </fi>
+        <fi name="cisClenKonVykDph">
+            <titl>Zeilen des MwSt.-Kontrollausweises</titl>
+            <mnem>0</mnem>
+        </fi>
+        <fi name="cisDphPren">
+            <titl>MwSt. nach Warengruppen</titl>
+            <desc>Evidenz für Steuerzwecke laut §92a MwSt.- Gesetzes</desc>
+        </fi>
+        <fi name="cisLokCis">
+            <titl>Lokalisierter Nummeranzeiger</titl>
+        </fi>
+        <fi name="cisTypUcOp">
+            <titl>Buchungsvorschriften</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="cisTypUcOpBan">
+            <titl>Buchungsvorschriften - Bankbelege</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="cisTypUcOpFap">
+            <titl>Buchungsvorschriften - angenommene Rechnungen</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="cisTypUcOpFav">
+            <titl>Buchungsvorschriften - ausgegebene Rechnungen</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="cisTypUcOpInt">
+            <titl>Buchungsvorschriften - interne Belege</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="cisTypUcOpPhl">
+            <titl>Buchungsvorschriften - andere Forderungen</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="cisTypUcOpPok">
+            <titl>Buchungsvorschriften - Kassenbelege</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="cisTypUcOpSkl">
+            <titl>Buchungsvorschriften - Lager</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="cisTypUcOpZav">
+            <titl>Buchungsvorschriften - andere Verbindlichkeiten</titl>
+            <icon>win/predpis.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="servIntr">
+            <titl>Intrastat</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="intrDodPodm">
+            <titl>Lieferbedingungen</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="intrDruhDopr">
+            <titl>Transportart</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="intrKrajUrc">
+            <titl>Kanton - Bestimmung</titl>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="intrNomenkla">
+            <titl>Code der Nomenklatur</titl>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="intrMerJed">
+            <titl>Masseinheiten</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="skupPlneni">
+            <titl>###Skupiny plnění</titl>
+        </fi>
+        <fi name="intrObchTrans">
+            <titl>Geschäftstransaktion</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="intrZvlPoh">
+            <titl>Besondere Bewegungen</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="intrVystupy">
+            <titl>Ausgang</titl>
+        </fi>
+        <fi name="majUmisteni">
+            <titl>Platzierung</titl>
+            <desc>Liste der anwendbaren Platzierungen von Vermögensposten. Es ist in 3 Kategorien aufgeteilt - Gebäude, Abteilung und Zimmer.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="majSazby">
+            <titl>Abschreibungsgruppen</titl>
+            <desc>Die Abschreibungsgruppen beinhalten die durch die aktuelle Gesetzgebung definierten Standardwerte. Weiterhin ermöglichen sie eigene Nichtstandardgruppen zu definieren.</desc>
+            <icon>win/folder.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="majTypMaj">
+            <titl>Arten von Vermögen</titl>
+            <desc>Arten von Vermögen ermöglichen Ihnen das Vermögen in die im Voraus definierten Gruppen einzugliedern. Damit wird die Möglichkeit der Auswahl und bessere Übersichtbarkeit.</desc>
+            <icon>win/typ-majetek.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="majTypLeas">
+            <titl>Arten von Leasing</titl>
+            <desc>Arten von Leasing ermöglichen Ihnen das Leasing in die im Voraus definierten Gruppen einzugliedern.</desc>
+            <icon>win/typ-leasing.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="majZapujcky">
+            <titl>Darlehen</titl>
+        </fi>
+        <fi name="majMajetekNovy">
+            <titl>Neues Vermögen eingliedern</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="majLeasingNovy">
+            <titl>Neues Leasing zugeben</titl>
+            <icon>win/plus.png</icon>
+        </fi>
+        <fi name="majMajetek">
+            <titl>Vermögen</titl>
+            <desc>Aktualisierung des langfristigen, geringwertigen und nicht abgeschriebenen Vermögens. Die Karte des abgeschriebenen Vermögens beinhaltet Steuerabschreibungen, Buchungsabschreibungen, Vorfälle und Evidenz von Darlehen, resp. verantwortliche Personen. Abschreibungsaktion können Sie jederzeit unterbrechen. Die Zeit der Buchungsabschreibungen können Sie während des Lebens von Vermögen modifizieren</desc>
+            <icon>win/maj.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="majBwithE">
+            <titl>Vermögen</titl>
+            <desc>Aktualisierung des langfristigen, geringwertigen und nicht abgeschriebenen Vermögens. Die Karte des abgeschriebenen Vermögens beinhaltet Steuerabschreibungen, Buchungsabschreibungen, Vorfälle und Evidenz von Darlehen, resp. verantwortliche Personen. Abschreibungsaktion können Sie jederzeit unterbrechen. Die Zeit der Buchungsabschreibungen können Sie während des Lebens von Vermögen modifizieren.</desc>
+        </fi>
+        <fi name="majUdalosti">
+            <titl>Vorfälle</titl>
+        </fi>
+        <fi name="majDanOdpisy">
+            <titl>Steuerabschreibungen</titl>
+        </fi>
+        <fi name="majUcetOdpisy">
+            <titl>Buchungsabschreibungen</titl>
+        </fi>
+        <fi name="majLeasing">
+            <titl>Leasing</titl>
+            <desc>Aktualisierung des Leasings, Festsetzung des Zahlungskalenders und Bildung der Buchungskosten. Beim Generieren des Zahlungskalenders entstehen automatisch die Verbindlichkeiten im Buchungsmodul.</desc>
+            <icon>win/leas.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="majSplatKal">
+            <titl>Zahlungskalender</titl>
+        </fi>
+        <fi name="majDanNakl">
+            <titl>Steuerkosten</titl>
+        </fi>
+        <fi name="majExternalId">
+            <titl>Externes ID für Vermögen</titl>
+        </fi>
+        <fi name="nezRadyRok">
+            <titl>Jahresposten der Belegreihe</titl>
+        </fi>
+        <fi name="nezRadyDiry">
+            <titl>Lücken in der Belegreihe</titl>
+        </fi>
+        <fi name="elPrikaz">
+            <titl>Zahlungsauftrag</titl>
+            <desc>Definition des Zahlungsauftrages aus der Liste der angenommenen Rechnungen und Verbindlichkeiten mit der Möglichkeit deren Ergänzung. Das Programm unterstützt den Export des Auftrags in die elektronischen Formate der meisten Bankinstitute.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="elPrikazPol">
+            <titl>Zahlungsauftragsposten</titl>
+        </fi>
+        <fi name="elPrikazFak">
+            <titl>Auswahl der Belege zur Vergütung</titl>
+        </fi>
+        <fi name="elInkaso">
+            <titl>Inkassoauftrag</titl>
+            <desc>Definieren des Inkassoauftrags aus der Liste der ausgestellten Rechnungen und Forderungen, mit der Möglichkeit der Ergänzung. Das Programm unterstützt den Export in elektronische Formate der meisten Banken.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="elInkasoPol">
+            <titl>Inkassoposten</titl>
+        </fi>
+        <fi name="elInkasoFak">
+            <titl>Auswahl der Belege zur Zahlung</titl>
+        </fi>
+        <fi name="externalId">
+            <titl>externe Kennzeichen</titl>
+        </fi>
+        <fi name="vykazCenPohyby">
+            <titl>Einkaufs-, Verkaufs- und Lagerbewegungen</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="vykazUcetniDenik">
+            <titl>Buchungsjournal</titl>
+        </fi>
+        <fi name="vykazObratPolozkaView">
+            <titl>Umsatzposten</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazUcetniDenikZjednoduseny">
+            <titl>Buchungsjournal - vereinfacht</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazUcetniDenikWizard">
+            <titl>Buchungsjournal</titl>
+            <icon>win/logs.png</icon>
+            <mnem>67</mnem>
+        </fi>
+        <fi name="vykazPohybyNaUctech">
+            <titl>Bewegungen auf den Kontos</titl>
+        </fi>
+        <fi name="vykazPohybyNaUctechWizard">
+            <titl>Bewegungen auf den Kontos</titl>
+            <icon>win/logs.png</icon>
+            <mnem>66</mnem>
+        </fi>
+        <fi name="vykazPoSplatnostiWizard">
+            <titl>Nicht bezahlte Forderungen/Verbindlichkeiten nach dem Fälligkeitsdatum</titl>
+            <icon>win/logs.png</icon>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="vykazSaldo">
+            <titl>Saldo</titl>
+        </fi>
+        <fi name="vykazSaldoKdatu">
+            <titl>Zahlungsstand bis zum Datum</titl>
+        </fi>
+        <fi name="vykazSaldoKdatuWizard">
+            <titl>Berechnung der Zahlungsstände bis zum Datum</titl>
+        </fi>
+        <fi name="vykazSaldoWizard">
+            <titl>Saldo</titl>
+            <icon>win/logs.png</icon>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="vykazAnalyzaZakazky">
+            <titl>Rechnungsanalyse des Auftrages</titl>
+            <icon>win/logs.png</icon>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="vykazStavyUctu">
+            <titl>Kontostände</titl>
+        </fi>
+        <fi name="vykazStavyUctuWizard">
+            <titl>Kontostände</titl>
+            <icon>win/logs.png</icon>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="vykazPodkladyDph">
+            <titl>MwSt. - Unterlagen</titl>
+        </fi>
+        <fi name="vykazPodkladyDphWizard">
+            <titl>MwSt. - Unterlagen</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="vykazPriznaniDph">
+            <titl>MwSt.-Erklärung</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="vykazObratovaPredvaha">
+            <titl>Umsatzbilanz</titl>
+        </fi>
+        <fi name="vykazObratovaPredvahaWizard">
+            <titl>Umsatzbilanz</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="vykazHlavniKniha">
+            <titl>Hauptbuch</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>72</mnem>
+        </fi>
+        <fi name="uctovnaUzaverka">
+            <titl>Jahresabschluss</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>74</mnem>
+        </fi>
+        <fi name="priznaniDanPo">
+            <titl>Bilanz und Gewinn- und Verlustrechnung in XML</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="vykazRadekPriznaniDph">
+            <titl>Gespeicherte Zeilen der MWST.-Erklärung</titl>
+            <icon>win/logs-low.png</icon>
+        </fi>
+        <fi name="ulozenePriznaniDph">
+            <titl>###Uložené přiznání DPH</titl>
+            <icon>win/logs-low.png</icon>
+        </fi>
+        <fi name="vykazRadekPriznaniOss">
+            <titl>Gespeicherte OSS-Rückleitungen</titl>
+            <icon>win/logs-low.png</icon>
+        </fi>
+        <fi name="vykazRozvaha">
+            <titl>Bilanz</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="vykazRozvahaPoUctech">
+            <titl>Liste von Aktiva und Passiva</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="vykazVysledovka">
+            <titl>Gewinn- und Verlustrechnung</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="vykazVysledovkaPoUctech">
+            <titl>Liste von Kostenaufwand und Erträgen</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="vykazCashflow">
+            <titl>Kapitalflussrechnung</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>80</mnem>
+        </fi>
+        <fi name="vykazVykazHospodareni">
+            <titl>Wirtschaftsbericht für Monat</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="vykazPolozkyFaktur">
+            <titl>Verkaufsanalyse</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskOdberatele">
+            <titl>Verkaufsanalyse - Verkauf an Firmen</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskSkupinyFirem">
+            <titl>Verkaufsanalyse - Umsätze der Firmengruppen</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskSkupinyCen">
+            <titl>Verkaufsanalyse - Umsätze der Preislistengruppen</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZiskZbozi">
+            <titl>Verkaufsanalyse - Warenbewegungen</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturZboziOdberatele">
+            <titl>Verkaufsanalyse - Verkauf an Firmen nach Ware</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturOdberatelZbozi">
+            <titl>Verkaufsanalyse - Warenbewegung nach Firma</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturVlastni">
+            <titl>Verkaufsanalyse - eigene</titl>
+        </fi>
+        <fi name="vykazPolozkyFakturWizard">
+            <titl>Verkaufsanalyse</titl>
+            <desc>Die Verkaufsanalyse bietet Ihnen folgende Informationen: Umsatz und Marge (Gewinn) nach Abnehmern / Gruppen der Abnehmer/ verkauften Waren / Warengruppen / Kostenstellen usw.(Eingabe ist in der Liste "Was möchten Sie analysieren?").Weiter können Sie eine weitere ausführlichere Gliederung eingeben (Eingabe in der Liste "Wie ist weitere Gliederung") wieder nach genannten Kriterien. Das Ergebnis ist z. B. die Verkaufsanalyse einzelner Firmen mit einer ausführlichen Gliederung der Ware, die die Firma abgenommen hat. Alles wird in einer bestimmten Periode realisiert.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="analyzaNakupu">
+            <titl>Einkaufsanalyse</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskOdberatele">
+            <titl>Einkaufsanalyse- Einkäufe von Firmen</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskSkupinyFirem">
+            <titl>Einkaufsanalyse - Einkäufe von Firmengruppen</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskSkupinyCen">
+            <titl>Verkaufsanalyse - Einkäufe von Preislistengruppen</titl>
+        </fi>
+        <fi name="analyzaNakupuZiskZbozi">
+            <titl>Einkaufsanalyse - Wareneinkauf</titl>
+        </fi>
+        <fi name="analyzaNakupuZboziOdberatele">
+            <titl>Einkaufsanalyse - Einkauf von Firmen nach Waren</titl>
+        </fi>
+        <fi name="analyzaNakupuOdberatelZbozi">
+            <titl>Einkaufsanalyse - Wareneinkauf nach Firma</titl>
+        </fi>
+        <fi name="analyzaNakupuVlastni">
+            <titl>Einkaufsanalyse - Eigene</titl>
+        </fi>
+        <fi name="analyzaNakupuWizard">
+            <titl>Einkaufsanalyse</titl>
+            <desc>Einkaufsanalyse kann Ihnen folgende Informationen bieten: Umsatz nach Abnehmern / Abnehmergruppen/ verkauften Waren/ Warengruppen / Kostenstellen usw.(Eingabe unter "Was möchten Sie analysieren?"). Sie können auch ausführliche Gliederung (nach erwähnten Attributen)eingeben(unter "Wie ist weitere Gliederung?"). Ergebnis kann z. B. die Verkaufsanalyse der einzelnen Firmen mit einer ausführlichen Einführung der Waren darstellen. Sie analysieren in der eingegebenen Periode.</desc>
+            <icon>win/prehled.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="vykazSouhrnneHlaseni">
+            <titl>Sammelmeldung - MwSt.</titl>
+        </fi>
+        <fi name="vykazSouhrnneHlaseniWizard">
+            <titl>Sammelmeldung MwSt.</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="vykazPrenDph">
+            <titl>Evidenz laut §92a</titl>
+        </fi>
+        <fi name="vykazPrenDphWizard">
+            <titl>Evidenz laut §92a</titl>
+            <icon>win/logs-low.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="vykazVazbyDokladu">
+            <titl>Aufgebundene Belege</titl>
+        </fi>
+        <fi name="vykazDanEvid">
+            <titl>Ausweis der Steuerevidenz</titl>
+        </fi>
+        <fi name="vykazDanEvid_SK">
+            <titl>Einfacher Kontoauszug</titl>
+        </fi>
+        <fi name="vykazDanEvidWizard">
+            <titl>Ausweis der Steuerevidenz</titl>
+            <icon>win/logs.png</icon>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="vykazDanEvidWizard_SK">
+            <titl>Einfacher Kontoauszug</titl>
+        </fi>
+        <fi name="intrastatWizard">
+            <titl>Generieren von Intrastat</titl>
+            <icon>win/logs.png</icon>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="intrastatPol">
+            <titl>Die in Intrastat eintretenden Posten</titl>
+        </fi>
+        <fi name="intrastatRadka">
+            <titl>Zeilen von Intrastat</titl>
+        </fi>
+        <fi name="uUzaverka">
+            <titl>Abschluss der folgenden Buchungsperiode (Wiederholung ist möglich)</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="banNonPaged">
+            <titl>Bank</titl>
+        </fi>
+        <fi name="pokNonPaged">
+            <titl>Kasse</titl>
+        </fi>
+        <fi name="fapNonPaged">
+            <titl>Angenommene Rechnungen</titl>
+        </fi>
+        <fi name="favNonPaged">
+            <titl>Ausgegebene Rechnungen</titl>
+        </fi>
+        <fi name="nezVazbyDokl">
+            <titl>Bindungen des Beleges</titl>
+        </fi>
+        <fi name="nezFifoVazby">
+            <titl>FIFO Bindungen</titl>
+        </fi>
+        <fi name="nezVazbyPolSklad">
+            <titl>FIFO Bindungen des Zerfalls von Ausgabebelegen</titl>
+        </fi>
+        <fi name="nezDPolSkladF">
+            <titl>Sicht DPolSkladF</titl>
+        </fi>
+        <fi name="sklSarzeExpiracebezVC">
+            <titl>Charge und Expiration</titl>
+        </fi>
+        <fi name="sklSarzeExpiracebezVCGrouped">
+            <titl>###Šarže a expirace (grupovaná)</titl>
+        </fi>
+        <fi name="doklFakBezModulu">
+            <titl>Forderungen/Verbindlichkeiten</titl>
+        </fi>
+        <fi name="doklFakUhrady">
+            <titl>Zu zahlende Belege</titl>
+        </fi>
+        <fi name="doklIntBezModulu">
+            <titl>Bank/Kassen/interner Beleg</titl>
+        </fi>
+        <fi name="typDoklBezModulu">
+            <titl>Belegarten</titl>
+        </fi>
+        <fi name="radaBezModulu">
+            <titl>Belegreihen</titl>
+        </fi>
+        <fi name="cisVybKlice">
+            <titl>Schilder</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="cisSkupVybKlic">
+            <titl>Schildergruppen</titl>
+            <mnem>76</mnem>
+        </fi>
+        <fi name="loginDialog000">
+            <titl>Anmeldung zur Applikation</titl>
+        </fi>
+        <fi name="activationDialog">
+            <titl>Aktivieren die Anwendung</titl>
+        </fi>
+        <fi name="prvniSpusteni">
+            <titl>Erste Einschaltung</titl>
+        </fi>
+        <fi name="cServerDialog">
+            <titl>Verwaltung von Datenquellen</titl>
+        </fi>
+        <fi name="cServerDialogNovy">
+            <titl>Zugabe von Datenquellen</titl>
+        </fi>
+        <fi name="vyberFirmy">
+            <titl>Auswahl der Firma</titl>
+        </fi>
+        <fi name="odpojeneFirmy">
+            <titl>Abgetrennte Firmen</titl>
+        </fi>
+        <fi name="migraceFirem">
+            <titl>Migration der Firmen aus XML Dateien.</titl>
+        </fi>
+        <fi name="importLicense">
+            <titl>Importlizenz</titl>
+            <mnem>73</mnem>
+        </fi>
+        <fi name="licence">
+            <titl>Applikationslizenz</titl>
+            <mnem>65</mnem>
+        </fi>
+        <fi name="startVerzeDialog">
+            <titl>ABRA Flexi</titl>
+        </fi>
+        <fi name="koupitLicenci">
+            <titl>ABRA Flexi</titl>
+        </fi>
+        <fi name="registrovatLicenci">
+            <titl>Registrieren von ABRA Flexi Start</titl>
+        </fi>
+        <fi name="aktivaceProduktu">
+            <titl>Begleiter durch die Aktivierung von ABRA Flexi</titl>
+        </fi>
+        <fi name="nastrojePrepocet">
+            <titl>Umrechnung der Kontostände</titl>
+            <mnem>196</mnem>
+        </fi>
+        <fi name="nastrojePrepocetDe">
+            <titl>Umrechnung der Steuerevidenz</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="nastrojeKontrolaDanOdpisu">
+            <titl>Kontrolle der steuerlichen Abschreibungen</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="mzdyKontrolaSlozek">
+            <titl>Kontrolle der Lohnkomponenten</titl>
+            <mnem>75</mnem>
+        </fi>
+        <fi name="priloha">
+            <titl>Beilage</titl>
+        </fi>
+        <fi name="prilohaData">
+            <titl>Daten der Beilage</titl>
+        </fi>
+        <fi name="strom">
+            <titl>Baum allgemein</titl>
+        </fi>
+        <fi name="wUcel">
+            <titl>Zwecke</titl>
+            <mnem>87</mnem>
+        </fi>
+        <fi name="majUcel">
+            <titl>Zwecke</titl>
+        </fi>
+        <fi name="wPozadavek">
+            <titl>Anforderungen</titl>
+            <mnem>85</mnem>
+        </fi>
+        <fi name="wSubjekt">
+            <titl>Subjekt</titl>
+        </fi>
+        <fi name="wDefiniceUcelu">
+            <titl>Definition des Zweckes</titl>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="wUcelLog">
+            <titl>Vermerk des Zweckes</titl>
+        </fi>
+        <fi name="uzel">
+            <titl>Baumknoten</titl>
+        </fi>
+        <fi name="vazUzel">
+            <titl>Bindung von Knoten und Objekt</titl>
+        </fi>
+        <fi name="cisTexty">
+            <titl>Vordefinierte Texte</titl>
+            <mnem>86</mnem>
+        </fi>
+        <fi name="zamky">
+            <titl>Sperren der Buchungsperiode</titl>
+            <mnem>83</mnem>
+        </fi>
+        <fi name="zurnal">
+            <titl>Journal</titl>
+        </fi>
+        <fi name="scanner">
+            <titl>Die Zahl von EAN Codes eingeben</titl>
+        </fi>
+        <fi name="kusovnik">
+            <titl>Stückliste</titl>
+        </fi>
+        <fi name="report">
+            <titl>Benutzer-Reports</titl>
+            <mnem>82</mnem>
+        </fi>
+        <fi name="reportData">
+            <titl>Daten für Benutzer-Reports</titl>
+        </fi>
+        <fi name="autoTisk">
+            <titl>Automatischer Druck</titl>
+        </fi>
+        <fi name="filtry">
+            <titl>Benutzerfilter</titl>
+        </fi>
+        <fi name="parametry">
+            <titl>Fortgeschrittene Parametrisierung mit Hilfe der Parameter</titl>
+        </fi>
+        <fi name="customButton">
+            <titl>Benutzer-Taste</titl>
+        </fi>
+        <fi name="settings">
+            <titl>Einstellungen speichern</titl>
+        </fi>
+        <fi name="settingsAll">
+            <titl>Repository für globale Einstellungen</titl>
+        </fi>
+        <fi name="dokladView">
+            <titl>Übersicht über alle Dokumente</titl>
+        </fi>
+        <fi name="dashboardPanel">
+            <titl>Dashboard Management</titl>
+            <icon>win/folder.png</icon>
+        </fi>
+        <fi name="dashboardSharing">
+            <titl>Dashboard Sharing</titl>
+        </fi>
+        <fi name="insight">
+            <titl>Insight</titl>
+        </fi>
+        <fi name="pravaServeru">
+            <titl>Serverrechte</titl>
+        </fi>
+        <fi name="dotaz">
+            <titl>Benutzerfragen</titl>
+            <mnem>70</mnem>
+        </fi>
+        <fi name="dotazParam">
+            <titl>Parameter</titl>
+        </fi>
+        <fi name="typSazbyDph">
+            <titl>Art des Mehrwertsteuersatzes</titl>
+        </fi>
+        <fi name="dotazProp">
+            <titl>Eigenschaften</titl>
+        </fi>
+        <fi name="dotazView">
+            <titl>Anwenderfrage</titl>
+        </fi>
+        <fi name="xslt">
+            <titl>Benutzertransformationen</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="sklUmisteni">
+            <titl>Lagerplatzierung</titl>
+            <icon>win/folder.png</icon>
+            <mnem>90</mnem>
+        </fi>
+        <fi name="cenyView">
+            <titl>Individuelle Preisliste</titl>
+        </fi>
+        <fi name="cenyViewWizard">
+            <titl>Individuelle Preisliste</titl>
+            <icon>win/folder.png</icon>
+            <mnem>78</mnem>
+        </fi>
+        <fi name="formaUhrCis">
+            <titl>Zahlungsarten</titl>
+            <icon>win/folder.png</icon>
+        </fi>
+        <fi name="formaUhrZauc">
+            <titl>Verbuchung der Zahlungsart</titl>
+        </fi>
+        <fi name="formaDopravy">
+            <titl>Verkehrsart</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="stavDoklObchCis">
+            <titl>Geschäftsbelegstatus</titl>
+            <icon>win/folder.png</icon>
+        </fi>
+        <fi name="cisloBal">
+            <titl>Paketnummern</titl>
+        </fi>
+        <fi name="migraceS3">
+            <titl>Migration der Agende aus Money S3</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="majStavKDatu">
+            <titl>Vermögenstand bis zum Datum</titl>
+        </fi>
+        <fi name="majStavKDatuWizard">
+            <titl>Vermögenstand bis zum Datum</titl>
+        </fi>
+        <fi name="cenPrislusenstvi">
+            <titl>Zubehör</titl>
+        </fi>
+        <fi name="cenStav">
+            <titl>Stammdaten-Status der Preislisteposten</titl>
+            <icon>win/folder.png</icon>
+            <mnem>68</mnem>
+        </fi>
+        <fi name="cenAtribut">
+            <titl>Attribute</titl>
+        </fi>
+        <fi name="cenTypAtributu">
+            <titl>Attributenarten</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="cenTypAtributuStandard">
+            <titl>Standardart der Attribute</titl>
+        </fi>
+        <fi name="cenTypZbozi">
+            <titl>Attributengruppen</titl>
+            <mnem>71</mnem>
+        </fi>
+        <fi name="cenTypZboziStandard">
+            <titl>Standardgruppen der Attribute</titl>
+        </fi>
+        <fi name="cenCisAtribut000">
+            <titl>Stammdaten der Atribute</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vazbaTyp">
+            <titl>Typen der Benutzerverbindungen</titl>
+            <icon>win/folder.png</icon>
+            <mnem>89</mnem>
+        </fi>
+        <fi name="vazbaUziv">
+            <titl>Benutzerverbindungen</titl>
+        </fi>
+        <fi name="vazbaUzivView">
+            <titl>Benutzerverbindungen</titl>
+        </fi>
+        <fi name="vykazEkokom">
+            <titl>Daten von EKO-KOM Verpackungen</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazEkokomWizard">
+            <titl>Daten von EKO-KOM Verpackungen</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazKonVykDphWizard">
+            <titl>MwSt.-Kontrollausweis</titl>
+            <icon>win/logs.png</icon>
+            <mnem>79</mnem>
+        </fi>
+        <fi name="vykazKonVykDph">
+            <titl>MwSt.-Kontrollausweis</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazMossWizard">
+            <titl>Steuererklärung MOSS</titl>
+            <icon>win/logs.png</icon>
+            <mnem>196</mnem>
+        </fi>
+        <fi name="vykazMoss">
+            <titl>Steuererklärung MOSS</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="vykazOssWizard">
+            <titl>OSS-Steuererklärung</titl>
+            <icon>win/logs.png</icon>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="vykazOss">
+            <titl>OSS-Steuererklärung</titl>
+            <icon>win/logs.png</icon>
+        </fi>
+        <fi name="cisElBanFormaty">
+            <titl>Bankformate</titl>
+        </fi>
+        <fi name="eetKom">
+            <titl>EET Kommunikation</titl>
+        </fi>
+        <fi name="eetKomView">
+            <titl>EET Kommunikation</titl>
+            <mnem>69</mnem>
+        </fi>
+        <fi name="diskUsage">
+            <titl>Festplattenkapazität</titl>
+            <mnem>84</mnem>
+        </fi>
+        <fi name="wLocks">
+            <titl>Eintragungssperren</titl>
+        </fi>
+        <fi name="zarizeniKom">
+            <titl>Kommunikation mit einer externen Anlage</titl>
+            <mnem>88</mnem>
+        </fi>
+        <fi name="sablonaMail">
+            <titl>Benutzerdefinierte E-Mail-Schablonen</titl>
+            <mnem>77</mnem>
+        </fi>
+        <fi name="banPokBsp">
+            <titl>Bankkonten und Kassen</titl>
+        </fi>
+        <fi name="zalohyKOdpoctu">
+            <titl>###Zálohy k odpočtu</titl>
+            <desc>###Seznam záloh, které je možné odpočítat od dané faktury. Pouze jako relace faktury.</desc>
+        </fi>
+        <fi name="castkyKOdpoctu">
+            <titl>###Částky k odpočtu</titl>
+            <desc>###Částky, které ještě zbývá ze zálohy odpočítat. Pouze jako relace faktury.</desc>
+        </fi>
+        <fi name="doporuceni">
+            <titl>###Doporučení</titl>
+            <desc>###Doporučení na úpravu faktury nebo zálohy, aby po odpočtu byla faktura uhrazená.</desc>
+        </fi>
+    </formsInfo>
+</config>

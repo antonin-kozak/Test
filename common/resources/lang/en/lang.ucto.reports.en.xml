@@ -1,0 +1,3390 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/en/lang.ucto.reports.en.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <reports>
+        <rpt name="global">
+            <prop name="boolean.ano">
+                <titl>Yes</titl>
+            </prop>
+            <prop name="boolean.ne">
+                <titl>No</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total:</titl>
+            </prop>
+            <prop name="celkemKc">
+                <titl>Total in %currency-symbol</titl>
+            </prop>
+            <prop name="celkemMena">
+                <titl>Total in currency</titl>
+            </prop>
+            <prop name="celkemNeucetni">
+                <titl>Non-accounting in total:</titl>
+            </prop>
+            <prop name="celkemPrijem">
+                <titl>Income in total:</titl>
+            </prop>
+            <prop name="celkemUcetni">
+                <titl>Accounting in total:</titl>
+            </prop>
+            <prop name="celkemVydej">
+                <titl>Issue in total:</titl>
+            </prop>
+            <prop name="cisloUctu">
+                <titl>SÚ</titl>
+            </prop>
+            <prop name="clenEU">
+                <titl>Member of EU</titl>
+            </prop>
+            <prop name="developerMode">
+                <titl>Invalid print</titl>
+            </prop>
+            <prop name="dodaciList">
+                <titl>Delivery note</titl>
+            </prop>
+            <prop name="dodavatel">
+                <titl>Supplier</titl>
+            </prop>
+            <prop name="dph">
+                <titl>VAT</titl>
+            </prop>
+            <prop name="eetBkp">
+                <titl>BKP</titl>
+            </prop>
+            <prop name="error">
+                <titl>ERROR</titl>
+            </prop>
+            <prop name="juh">
+                <titl>Already paid</titl>
+            </prop>
+            <prop name="konSymbol">
+                <titl>Types</titl>
+            </prop>
+            <prop name="konverzniKurz">
+                <titl>conversion exchange rate</titl>
+            </prop>
+            <prop name="kUhrade">
+                <titl>To payment</titl>
+            </prop>
+            <prop name="kUhradekDatu">
+                <titl>To payment to date</titl>
+            </prop>
+            <prop name="kUhradeMen">
+                <titl>To settlement [currency]</titl>
+            </prop>
+            <prop name="mena">
+                <titl>Currency</titl>
+            </prop>
+            <prop name="merJed">
+                <titl>Units of measure</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Month</titl>
+            </prop>
+            <prop name="mobil">
+                <titl>Mobile phone</titl>
+            </prop>
+            <prop name="nazFirmy">
+                <titl>Company name</titl>
+            </prop>
+            <prop name="nevyplnen">
+                <titl>Unfilled</titl>
+            </prop>
+            <prop name="odberatel">
+                <titl>Customer</titl>
+            </prop>
+            <prop name="PenUstav">
+                <titl>Finance company</titl>
+            </prop>
+            <prop name="prevzalDne">
+                <titl>Taken over on date</titl>
+            </prop>
+            <prop name="prodejkaNeplatce">
+                <titl>Simplified tax document</titl>
+            </prop>
+            <prop name="prodejkaZaHotove">
+                <titl>Receipt</titl>
+            </prop>
+            <prop name="prodejkaZaHotoveDobropis">
+                <titl>Sales draft in cash - credit note</titl>
+            </prop>
+            <prop name="provozovna">
+                <titl>Branch</titl>
+            </prop>
+            <prop name="razitko">
+                <titl>Stamp</titl>
+            </prop>
+            <prop name="reportVytiskl">
+                <titl>Printed by</titl>
+            </prop>
+            <prop name="rozdil">
+                <titl>Difference</titl>
+            </prop>
+            <prop name="rozvaha">
+                <titl>Balance sheet budget</titl>
+            </prop>
+            <prop name="specSymbol">
+                <titl>Specific symbol</titl>
+            </prop>
+            <prop name="stornovano">
+                <titl>Cancelled</titl>
+            </prop>
+            <prop name="stranka">
+                <titl>Page</titl>
+            </prop>
+            <prop name="sumacePotlacena">
+                <titl>(without summations)</titl>
+            </prop>
+            <prop name="sumCelkemMen">
+                <titl>Total [currency]</titl>
+            </prop>
+            <prop name="syntetickyUcet">
+                <titl>Syntetic account</titl>
+            </prop>
+            <prop name="tisknutoDne">
+                <titl>Printed on day</titl>
+            </prop>
+            <prop name="ucetniObdobiNeniUzavreno">
+                <titl>Accounting period isn't closed!</titl>
+            </prop>
+            <prop name="uhrazeneDoklady">
+                <titl>Settled documents</titl>
+            </prop>
+            <prop name="varSymbol">
+                <titl>Variable symbol</titl>
+            </prop>
+            <prop name="vysledovka">
+                <titl>Profit and loss statement</titl>
+            </prop>
+            <prop name="vytistenoSystemem">
+                <titl>Printed by system %p</titl>
+            </prop>
+            <prop name="ZbyvaUhradit">
+                <titl>Remain to payment</titl>
+            </prop>
+        </rpt>
+        <rpt name="adresar">
+            <prop name="_title">
+                <titl>Address book</titl>
+            </prop>
+            <prop name="nastaveniSidlo">
+                <titl>Company address</titl>
+            </prop>
+        </rpt>
+        <rpt name="adrUdalosti">
+            <prop name="_title">
+                <titl>Events</titl>
+            </prop>
+        </rpt>
+        <rpt name="analyzaZakazky">
+            <prop name="_title">
+                <titl>Order accounting analysis</titl>
+            </prop>
+            <prop name="sumaZaUcet">
+                <titl>Amount per account</titl>
+            </prop>
+            <prop name="sumaZaZakazku">
+                <titl>Amount per order</titl>
+            </prop>
+            <prop name="zisk">
+                <titl>Profit</titl>
+            </prop>
+        </rpt>
+        <rpt name="analyzaZakazkyRozsirena">
+            <prop name="_title">
+                <titl>Order card</titl>
+            </prop>
+            <prop name="celkovaBilanceZakazky">
+                <titl>Total order balance</titl>
+            </prop>
+            <prop name="cisDokl">
+                <titl>Document</titl>
+            </prop>
+            <prop name="naklad">
+                <titl>Costs</titl>
+            </prop>
+            <prop name="polozkyFaktur">
+                <titl>Invoice items</titl>
+            </prop>
+            <prop name="polozkyPokladny">
+                <titl>Sales document items</titl>
+            </prop>
+            <prop name="polozkySkladu">
+                <titl>Stock document items</titl>
+            </prop>
+            <prop name="rozdil">
+                <titl>Balance</titl>
+            </prop>
+            <prop name="ucetniAnalyzaZakazky">
+                <titl>Accounting analysis of order</titl>
+            </prop>
+            <prop name="vynos">
+                <titl>Revenues</titl>
+            </prop>
+        </rpt>
+        <rpt name="analyzaZakazkyRozsirena$$NES">
+            <prop name="_title">
+                <titl>Order analysis</titl>
+            </prop>
+        </rpt>
+        <rpt name="balikNaPostu">
+            <prop name="_title">
+                <titl>Package to Post Office / Personal delivery</titl>
+            </prop>
+        </rpt>
+        <rpt name="balikovyPodaciArch">
+            <prop name="_title">
+                <titl>Postal filing folder for packages</titl>
+            </prop>
+        </rpt>
+        <rpt name="Bsp$$BAN">
+            <prop name="_title">
+                <titl>Bank account list</titl>
+            </prop>
+        </rpt>
+        <rpt name="Bsp$$POK">
+            <prop name="_title">
+                <titl>Cash desk list</titl>
+            </prop>
+        </rpt>
+        <rpt name="Bsp$$SKL">
+            <prop name="_title">
+                <titl>Store list</titl>
+            </prop>
+        </rpt>
+        <rpt name="cashFlow">
+            <prop name="_title">
+                <titl>Cash flow overview</titl>
+            </prop>
+            <prop name="cashFlow">
+                <titl>Cash flow overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="cashFlow$$MIN_OBDOBI">
+            <prop name="_title">
+                <titl>Cash flow overview (including data from previous period)</titl>
+            </prop>
+            <prop name="cashFlow">
+                <titl>Cash flow overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenHladPrehled">
+            <prop name="_title">
+                <titl>Price levels overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenik">
+            <prop name="_title">
+                <titl>Price list/Catalogue</titl>
+            </prop>
+            <prop name="cenaBezDph">
+                <titl>Price without VAT</titl>
+            </prop>
+            <prop name="cenaSDph">
+                <titl>Total amount</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikBezNakupni">
+            <prop name="_title">
+                <titl>Price list/catalogue (without buying prices)</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikIndividualniVystupni">
+            <prop name="_title">
+                <titl>Selling price list</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikIndividualniVystupniMnoz">
+            <prop name="_title">
+                <titl>Price list (volume discounts w/o VAT)</titl>
+            </prop>
+            <prop name="od">
+                <titl>from</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikIndividualniVystupniMnozDph">
+            <prop name="_title">
+                <titl>Price list (volume discounts with VAT)</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikNakupProdej">
+            <prop name="_title">
+                <titl>Price list with purchase and sales prices</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikVystupni">
+            <prop name="_title">
+                <titl>Selling price list</titl>
+            </prop>
+        </rpt>
+        <rpt name="cenikVystupniSPoplatky">
+            <prop name="_title">
+                <titl>Retail Price List (including fees)</titl>
+            </prop>
+            <prop name="cenaVcetnePoplatku">
+                <titl>Price including fees:</titl>
+            </prop>
+            <prop name="poplatky">
+                <titl>Fees:</titl>
+            </prop>
+        </rpt>
+        <rpt name="chart-landscape">
+            <prop name="_title">
+                <titl>-</titl>
+            </prop>
+        </rpt>
+        <rpt name="cisClenDph">
+            <prop name="_title">
+                <titl>Classification of VAT</titl>
+            </prop>
+        </rpt>
+        <rpt name="danovaEvidence">
+            <prop name="_title">
+                <titl>Tax record statement</titl>
+            </prop>
+            <prop name="danEvid.NeDa">
+                <titl>Does not fall into the tax audit</titl>
+            </prop>
+            <prop name="danEvid.SocP">
+                <titl>Payment of social insurance</titl>
+            </prop>
+            <prop name="danEvid.Zdra">
+                <titl>Payment of health insurance</titl>
+            </prop>
+            <prop name="nevyplneno">
+                <titl>Undefined</titl>
+            </prop>
+            <prop name="nevyplnenTypUcOp">
+                <titl>Settlement rule not completed</titl>
+            </prop>
+            <prop name="rozdilPrijemVydej">
+                <titl>Difference of receipts and issues:</titl>
+            </prop>
+        </rpt>
+        <rpt name="dodaciList">
+            <prop name="_title">
+                <titl>Delivery note</titl>
+            </prop>
+            <prop name="hmotnost">
+                <titl>Weight [kg]</titl>
+            </prop>
+            <prop name="kFAVtypPohybu.prijem">
+                <titl>to invoice out</titl>
+            </prop>
+            <prop name="kPOKtypPohybu.prijem">
+                <titl>to cash desk receipt</titl>
+            </prop>
+            <prop name="kPOKtypPohybu.vydej">
+                <titl>to cash desk expense voucher</titl>
+            </prop>
+            <prop name="kSKLtypPohybu.prijem">
+                <titl>to receipt card</titl>
+            </prop>
+            <prop name="kSKLtypPohybu.vydej">
+                <titl>to issue card</titl>
+            </prop>
+            <prop name="prevzatoDne">
+                <titl>Taken over on date</titl>
+            </prop>
+        </rpt>
+        <rpt name="dodaciList$$SUM_CEN">
+            <prop name="_title">
+                <titl>Delivery note with sales prices</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady">
+            <prop name="_title">
+                <titl>Documents</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady$$FAV">
+            <prop name="_title">
+                <titl>List of invoices issued</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady$$PHL">
+            <prop name="_title">
+                <titl>Other debts list</titl>
+            </prop>
+        </rpt>
+        <rpt name="Doklady$$ZAV">
+            <prop name="_title">
+                <titl>Other obligations list</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyAdresar$$FAV">
+            <prop name="_title">
+                <titl>List of invoices issued (summation according to the firm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyAdresarFAP$$FAP">
+            <prop name="_title">
+                <titl>List of invoices in (summation by company)</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyBanPok$$BAN">
+            <prop name="_title">
+                <titl>Bank documents list</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyBanPok$$POK">
+            <prop name="_title">
+                <titl>Cash vouchers list</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyFAP$$FAP">
+            <prop name="_title">
+                <titl>Invoices in list (landscape)</titl>
+            </prop>
+        </rpt>
+        <rpt name="DokladyINT$$INT">
+            <prop name="_title">
+                <titl>Internal vouchers list</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod">
+            <prop name="zbyvaRealizovat">
+                <titl>Remain to realize</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$NAP">
+            <prop name="_title">
+                <titl>Received offers overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$NAV">
+            <prop name="_title">
+                <titl>Issued offers overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$OBP">
+            <prop name="_title">
+                <titl>Received orders overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$OBV">
+            <prop name="_title">
+                <titl>Issued orders overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$PPP">
+            <prop name="_title">
+                <titl>Received demands overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladyObchod$$PPV">
+            <prop name="_title">
+                <titl>Issued demands overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph">
+            <prop name="_title">
+                <titl>List of documents (w/ VAT summary)</titl>
+            </prop>
+            <prop name="celkemNeucetniPrijem">
+                <titl>Total non-accounting income:</titl>
+            </prop>
+            <prop name="celkemNeucetniVydej">
+                <titl>Total non-accounting expense:</titl>
+            </prop>
+            <prop name="celkemUcetniPrijem">
+                <titl>Total accounting income:</titl>
+            </prop>
+            <prop name="celkemUcetniVydej">
+                <titl>Total accounting expense:</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Issued</titl>
+            </prop>
+            <prop name="duzpUcto">
+                <titl>Tax Date</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Document #</titl>
+            </prop>
+            <prop name="snizena">
+                <titl>Reduced</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Total [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>VAT [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumOsv">
+                <titl>Exempt [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Base [%currency-symbol]</titl>
+            </prop>
+            <prop name="ucetni">
+                <titl>Accounting</titl>
+            </prop>
+            <prop name="zakladni">
+                <titl>Base</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$BAN">
+            <prop name="_title">
+                <titl>List of banking documents (w/ VAT summary)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$FAP">
+            <prop name="_title">
+                <titl>List of invoices received (w/ VAT summary)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$FAV">
+            <prop name="_title">
+                <titl>List of invoices issued (w/ VAT summary)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$INT">
+            <prop name="_title">
+                <titl>List of internal documents (w/ VAT summary)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$PHL">
+            <prop name="_title">
+                <titl>List of other receivables (w/ VAT summary)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$POK">
+            <prop name="_title">
+                <titl>List of cash desk documents (w/ VAT summary)</titl>
+            </prop>
+        </rpt>
+        <rpt name="dokladySRekapitulaciDph$$ZAV">
+            <prop name="_title">
+                <titl>List of other liabilities (w/ VAT summary)</titl>
+            </prop>
+        </rpt>
+        <rpt name="doklSklad">
+            <prop name="_title">
+                <titl>Stock documents list</titl>
+            </prop>
+        </rpt>
+        <rpt name="eetOznameni">
+            <prop name="duleziteOznameni">
+                <titl>Information notices</titl>
+            </prop>
+            <prop name="textBezny">
+                <titl>Under the Act on Revenue Registration, the Seller is required to issue the Buyer a receipt.\nThe Seller is also required to record the received revenue for the tax administrator to view online; or in the event of a technical outage at the latest within 48 hours.</titl>
+            </prop>
+            <prop name="textZjednoduseny">
+                <titl>Under the Act on Revenue Registration, the Seller is required to issue the Buyer a Receipt.\The recipient of the revenue shall record revenue in a simplified mode, and is required to record the received revenue with the tax administrator no later than within 5 days.</titl>
+            </prop>
+        </rpt>
+        <rpt name="eetOznameni$$NES">
+            <prop name="_title">
+                <titl>EET Information notices - simplified mode</titl>
+            </prop>
+        </rpt>
+        <rpt name="eetOznameni$$SUM">
+            <prop name="_title">
+                <titl>EET Information notices - regular mode</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$FAP">
+            <prop name="_title">
+                <titl>Invoices in item overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$FAV">
+            <prop name="_title">
+                <titl>Invoices out item overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$NAP">
+            <prop name="_title">
+                <titl>Offers received item overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$NAV">
+            <prop name="_title">
+                <titl>Offers issued item overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$OBP">
+            <prop name="_title">
+                <titl>Orders received item overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$OBV">
+            <prop name="_title">
+                <titl>Orders issued item overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$POK">
+            <prop name="_title">
+                <titl>Overview of cash voucher items</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$PPP">
+            <prop name="_title">
+                <titl>Demands received item overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakPol$$PPV">
+            <prop name="_title">
+                <titl>Demands issued item overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="Fakt_PRI">
+            <prop name="konSymbol">
+                <titl>Type</titl>
+            </prop>
+            <prop name="specSymbol">
+                <titl>Specific</titl>
+            </prop>
+            <prop name="SymbolPlateb">
+                <titl>Symbol of payments</titl>
+            </prop>
+            <prop name="varSymPrikaz">
+                <titl>Variable</titl>
+            </prop>
+        </rpt>
+        <rpt name="Fakt_VYD">
+            <prop name="datSmir">
+                <titl>Date of concilation</titl>
+            </prop>
+            <prop name="datUp1">
+                <titl>Date of 1st Demand for Payment</titl>
+            </prop>
+            <prop name="datUp2">
+                <titl>2nd Demand for Payment</titl>
+            </prop>
+            <prop name="stav">
+                <titl>State of document</titl>
+            </prop>
+        </rpt>
+        <rpt name="faktura">
+            <prop name="banka">
+                <titl>Bank</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="celkemBezZaloh">
+                <titl>Total without advances</titl>
+            </prop>
+            <prop name="celkemDph">
+                <titl>Total VAT</titl>
+            </prop>
+            <prop name="celkemFakturovano">
+                <titl>Total Invoiced</titl>
+            </prop>
+            <prop name="celkemKUhrade">
+                <titl>Total amount</titl>
+            </prop>
+            <prop name="celkemPredSlevou">
+                <titl>Total before discount</titl>
+            </prop>
+            <prop name="celkemZaklad">
+                <titl>Total base</titl>
+            </prop>
+            <prop name="danOdvadiPrijemce">
+                <titl>Reverse charge.</titl>
+            </prop>
+            <prop name="danPriPrijetiPlatby">
+                <titl>Tax is applied on the basis of payment receipt.</titl>
+            </prop>
+            <prop name="datumZdanitelnehoPlneni">
+                <titl>Date of taxable supplies</titl>
+            </prop>
+            <prop name="datumZdanitelnehoPlneniOsobUpravaDph">
+                <titl>Delivery date</titl>
+            </prop>
+            <prop name="dodavatel-sidlo">
+                <titl>Supplier - centre</titl>
+            </prop>
+            <prop name="doprava">
+                <titl>Mode of transport</titl>
+            </prop>
+            <prop name="dph19">
+                <titl>VAT 19%</titl>
+            </prop>
+            <prop name="dph9">
+                <titl>VAT 9%</titl>
+            </prop>
+            <prop name="dphCelkem">
+                <titl>VAT</titl>
+            </prop>
+            <prop name="formaDopravy">
+                <titl>Form of transport</titl>
+            </prop>
+            <prop name="jizUhrazeno">
+                <titl>Already settled</titl>
+            </prop>
+            <prop name="mistoUrceni">
+                <titl>Destination</titl>
+            </prop>
+            <prop name="nejsemPlatceDph">
+                <titl>I am not a VAT payer</titl>
+            </prop>
+            <prop name="objednavka">
+                <titl>Order</titl>
+            </prop>
+            <prop name="odberatel-sidlo">
+                <titl>Billing\naddress</titl>
+            </prop>
+            <prop name="oznaceniDodavky">
+                <titl>Item description</titl>
+            </prop>
+            <prop name="postovniAdresa">
+                <titl>Shipping address</titl>
+            </prop>
+            <prop name="predSlevou">
+                <titl>Before discount</titl>
+            </prop>
+            <prop name="preplatky">
+                <titl>Overpayment</titl>
+            </prop>
+            <prop name="puvodniDoklad">
+                <titl>Original invoice no.</titl>
+            </prop>
+            <prop name="razitkoAPodpis">
+                <titl>Stamp and signature</titl>
+            </prop>
+            <prop name="registraceU">
+                <titl>Registration</titl>
+            </prop>
+            <prop name="rekapitulaceDph">
+                <titl>VAT recapitulation in %currency-symbol</titl>
+            </prop>
+            <prop name="rekapitulaceDphV">
+                <titl>VAT recapitulation in</titl>
+            </prop>
+            <prop name="sazbaDph">
+                <titl>VAT [%]</titl>
+            </prop>
+            <prop name="za">
+                <titl>For</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Base</titl>
+            </prop>
+            <prop name="zaklad0">
+                <titl>Price with 0% VAT</titl>
+            </prop>
+            <prop name="zaklad19">
+                <titl>Price with 19% VAT</titl>
+            </prop>
+            <prop name="zaklad9">
+                <titl>Price with 9% VAT</titl>
+            </prop>
+            <prop name="zakladCelkem">
+                <titl>Price total</titl>
+            </prop>
+            <prop name="zakladOdpocet">
+                <titl>Advance tax document base</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Remains to pay</titl>
+            </prop>
+            <prop name="zeDne">
+                <titl>Date of issue of the original invoice</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig">
+            <prop name="banka">
+                <titl>Bank</titl>
+            </prop>
+            <prop name="bic">
+                <titl>SWIFT:</titl>
+            </prop>
+            <prop name="celkemPredSlevou">
+                <titl>Total before discount</titl>
+            </prop>
+            <prop name="cenaMj">
+                <titl>Price per unit</titl>
+            </prop>
+            <prop name="cenaSDph">
+                <titl>Price with VAT</titl>
+            </prop>
+            <prop name="cenaVMene">
+                <titl>Price in %p</titl>
+            </prop>
+            <prop name="cisloBanUctu">
+                <titl>Bank account number</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Due date</titl>
+            </prop>
+            <prop name="datSplatDatTermin">
+                <titl>Due date</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Issue date</titl>
+            </prop>
+            <prop name="dic">
+                <titl>VAT ID</titl>
+            </prop>
+            <prop name="dobropisovanyDokladCislo">
+                <titl>Original document</titl>
+            </prop>
+            <prop name="dobropisovanyDokladDatum">
+                <titl>Issue date of original document</titl>
+            </prop>
+            <prop name="dodavatel">
+                <titl>SUPPLIER</titl>
+            </prop>
+            <prop name="duzpPuv">
+                <titl>Date of taxable transaction</titl>
+            </prop>
+            <prop name="formaUhrady">
+                <titl>Form of payment</titl>
+            </prop>
+            <prop name="iban">
+                <titl>IBAN:</titl>
+            </prop>
+            <prop name="ic">
+                <titl>ID</titl>
+            </prop>
+            <prop name="icdph">
+                <titl>VAT NUMBER</titl>
+            </prop>
+            <prop name="kurzKurzMnozstvi">
+                <titl>Rate %p %p for %p %p</titl>
+            </prop>
+            <prop name="mj">
+                <titl>Unit</titl>
+            </prop>
+            <prop name="mnozMj">
+                <titl>Quantity</titl>
+            </prop>
+            <prop name="neplatceDph">
+                <titl>Not a VAT payer</titl>
+            </prop>
+            <prop name="odberatel">
+                <titl>CUSTOMER</titl>
+            </prop>
+            <prop name="polozka">
+                <titl>Item</titl>
+            </prop>
+            <prop name="predSlevou">
+                <titl>Before discount</titl>
+            </prop>
+            <prop name="razitkoAPodpis">
+                <titl>Stamp and signature</titl>
+            </prop>
+            <prop name="rekapitulaceDphVMene">
+                <titl>VAT recapitulation in %p</titl>
+            </prop>
+            <prop name="slevaDokl">
+                <titl>Document discount</titl>
+            </prop>
+            <prop name="stornovano">
+                <titl>Cancelled</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Total [%p]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Base [%p]</titl>
+            </prop>
+            <prop name="uhrazeno">
+                <titl>ALREADY PAID!</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Variable symbol</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Base</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig$$FAV">
+            <prop name="_attachment">
+                <titl>Invoice</titl>
+                <desc>Name of attachment</desc>
+            </prop>
+            <prop name="_title">
+                <titl>Configurable invoice</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig$$NAV">
+            <prop name="_attachment">
+                <titl>Offer</titl>
+                <desc>Name of attachment</desc>
+            </prop>
+            <prop name="_title">
+                <titl>Configurable offer</titl>
+            </prop>
+            <prop name="datSplatDatTermin">
+                <titl>Deadline</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaConfig$$OBP">
+            <prop name="_attachment">
+                <titl>Order</titl>
+                <desc>Name of attachment</desc>
+            </prop>
+            <prop name="_title">
+                <titl>Configurable order</titl>
+            </prop>
+            <prop name="datSplatDatTermin">
+                <titl>Deadline</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaKB">
+            <prop name="_title">
+                <titl>Invoice</titl>
+            </prop>
+            <prop name="bspBan">
+                <titl>Bank account</titl>
+            </prop>
+            <prop name="konSym">
+                <titl>Type</titl>
+            </prop>
+            <prop name="specSym">
+                <titl>Spec. sym.</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Var. sym.</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaKB$$R_DPH_V_MENE">
+            <prop name="_title">
+                <titl>Invoice (w/ VAT summary in original currency)</titl>
+            </prop>
+        </rpt>
+        <rpt name="fakturaKB$$SUM_BEZ_QR">
+            <prop name="_title">
+                <titl>Invoice (w/o QR code)</titl>
+            </prop>
+        </rpt>
+        <rpt name="geisPredavaciProtokol">
+            <prop name="_title">
+                <titl>Geis handover record</titl>
+            </prop>
+            <prop name="adresat">
+                <titl>Addressee</titl>
+            </prop>
+            <prop name="balikCislo">
+                <titl>Package No.</titl>
+            </prop>
+            <prop name="celkemBaliku">
+                <titl>Packaging total</titl>
+            </prop>
+            <prop name="celkemCod">
+                <titl>COD total</titl>
+            </prop>
+            <prop name="cod">
+                <titl>Cash on Delivery (COD)</titl>
+            </prop>
+            <prop name="datum">
+                <titl>Date</titl>
+            </prop>
+            <prop name="exw">
+                <titl>EXW</titl>
+            </prop>
+            <prop name="geisNazev">
+                <titl>GEIS Parcel CZ s.r.o</titl>
+            </prop>
+            <prop name="paticka1">
+                <titl>Shipping is done based on the General Commercial Terms current status GEIS PARCEL CZ, spol. s r. o., Reg. No.: 63077051.</titl>
+            </prop>
+            <prop name="paticka2">
+                <titl>The company is registered in the Commercial Register at the Regional Court in Plzeň, Section C, File 9503.</titl>
+            </prop>
+            <prop name="podpisOdesilatele">
+                <titl>Sender’s signature</titl>
+            </prop>
+            <prop name="podpisRidice">
+                <titl>Driver's signature</titl>
+            </prop>
+            <prop name="potvrzeniOPrevzeti">
+                <titl>Confirmation for receipt of parcels for shipping</titl>
+            </prop>
+            <prop name="poz">
+                <titl>Note:</titl>
+            </prop>
+            <prop name="poznam">
+                <titl>Note</titl>
+            </prop>
+            <prop name="prikazce">
+                <titl>Originator (sender)</titl>
+            </prop>
+            <prop name="pripojisteni">
+                <titl>Supplementary insurance</titl>
+            </prop>
+            <prop name="strana">
+                <titl>Party</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Variable symbol</titl>
+            </prop>
+            <prop name="zasilkyBezPoskozeni">
+                <titl>The aforementioned parcels were handed over without damage</titl>
+            </prop>
+        </rpt>
+        <rpt name="geisstitek">
+            <prop name="_title">
+                <titl>Geis Etiketa (arch A4)</titl>
+            </prop>
+            <prop name="geisNazev">
+                <titl>Geis Parcel CZ, s.r.o.</titl>
+            </prop>
+            <prop name="odesilatel">
+                <titl>Sender</titl>
+            </prop>
+            <prop name="prijemce">
+                <titl>Addressee</titl>
+            </prop>
+            <prop name="tel">
+                <titl>Tel.</titl>
+            </prop>
+            <prop name="vs">
+                <titl>VS</titl>
+            </prop>
+        </rpt>
+        <rpt name="Hl_Kniha">
+            <prop name="_title">
+                <titl>Main book</titl>
+            </prop>
+            <prop name="doklad">
+                <titl>Internal number</titl>
+            </prop>
+            <prop name="duzpUcto">
+                <titl>Total taxable supplies</titl>
+            </prop>
+            <prop name="obratDAL">
+                <titl>Credit turnover</titl>
+            </prop>
+            <prop name="obratMD">
+                <titl>Debit turnover</titl>
+            </prop>
+            <prop name="sledovaneObdobi">
+                <titl>Monitored period</titl>
+            </prop>
+            <prop name="sumDal">
+                <titl>Amount credit</titl>
+            </prop>
+            <prop name="sumMd">
+                <titl>Amount debit</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Var.sym.</titl>
+            </prop>
+            <prop name="zacatek">
+                <titl>Beginning</titl>
+            </prop>
+            <prop name="zuctovano">
+                <titl>Settlement</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol">
+            <prop name="doklad">
+                <titl>Document</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$BAN$$SUM_BAN">
+            <prop name="_title">
+                <titl>Overview of bank document items</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$BAN$$SUM_ZAP">
+            <prop name="_title">
+                <titl>Overview of settlement items</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$INT">
+            <prop name="_title">
+                <titl>Overview of internal document items</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$PHL">
+            <prop name="_title">
+                <titl>Overview of other receivables</titl>
+            </prop>
+        </rpt>
+        <rpt name="intPol$$ZAV">
+            <prop name="_title">
+                <titl>Overview of other liabilities</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventarizacePohledavek">
+            <prop name="_title">
+                <titl>Inventory of receivables and payables</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Maturity</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Issue date</titl>
+            </prop>
+            <prop name="dekujeme">
+                <titl>Thank you for your cooperation and with regards</titl>
+            </prop>
+            <prop name="dokladyVMenePhl">
+                <titl>Individual receivables documents in currency</titl>
+            </prop>
+            <prop name="dokladyVMeneZav">
+                <titl>Individual payables documents in currency</titl>
+            </prop>
+            <prop name="dokladyVTuzPhl">
+                <titl>Individual receivables documents in %currency-symbol</titl>
+            </prop>
+            <prop name="dokladyVTuzZav">
+                <titl>Individual payables documents in %currency-symbol</titl>
+            </prop>
+            <prop name="firma">
+                <titl>Company:</titl>
+            </prop>
+            <prop name="inventurizace">
+                <titl>Inventory of receivables and payables at that date</titl>
+            </prop>
+            <prop name="juhSum">
+                <titl>Already settled</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Int. doc. nr.</titl>
+            </prop>
+            <prop name="pokudPhl">
+                <titl>If we do not receive a confirmed receipt or your statement of accounts receivable in %p, we consider receivables as approved and recognized.</titl>
+            </prop>
+            <prop name="pokudZav">
+                <titl>If we do not receive a confirmed receipt or your statement of accounts payable in %p, we consider payables as approved and recognized.</titl>
+            </prop>
+            <prop name="potvrzeny">
+                <titl>Confirm the form with eventually quantified differences by return to our address or e-mail to </titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>Var. symb.</titl>
+            </prop>
+            <prop name="vDne">
+                <titl>In %p on the day %p</titl>
+            </prop>
+            <prop name="zadamePhl">
+                <titl>We ask you to compare our reported status and your records. Please, for different receivables indicate your registered value or provide the relevant proofs relating to the difference.
+                </titl>
+            </prop>
+            <prop name="zadameZav">
+                <titl>We ask you to compare our reported status and your records. Please, for different payables indicate your registered value or provide the relevant proofs relating to the difference.
+                </titl>
+            </prop>
+            <prop name="zakonPhl">
+                <titl>Pursuant to Act No. 563/1991 Coll. On Accounting, as amended, we request the reconciliation of the receivables of our organization as at the date</titl>
+            </prop>
+            <prop name="zakonSkPhl">
+                <titl>In accordance with Act No. 431/2002 Coll. On Accounting, as amended, we ask you to reconcile the receivables of our organization as at the date</titl>
+            </prop>
+            <prop name="zakonSkZav">
+                <titl>In accordance with Act No. 431/2002 Coll. On Accounting, as amended, we ask you to reconcile the payables of our organization as at the date</titl>
+            </prop>
+            <prop name="zakonZav">
+                <titl>Pursuant to Act No. 563/1991 Coll. On Accounting, as amended, we request the reconciliation of the payables of our organization as at the date</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Amount due</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventura">
+            <prop name="_title">
+                <titl>Inventory list of goods</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventura$$SUM_ROZDILY">
+            <prop name="_title">
+                <titl>Inventory list of goods (differences)</titl>
+            </prop>
+        </rpt>
+        <rpt name="inventuraUctu">
+            <prop name="_title">
+                <titl>Accounts inventory</titl>
+            </prop>
+            <prop name="datum">
+                <titl>Date</titl>
+            </prop>
+            <prop name="podpisInventarizacniKomise">
+                <titl>Signature of stocktaking commission</titl>
+            </prop>
+        </rpt>
+        <rpt name="kartaZakazky">
+            <prop name="_title">
+                <titl>Order card</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk">
+            <prop name="nedoplatek">
+                <titl>Due [%currency-symbol]</titl>
+            </prop>
+            <prop name="nedoplatekMen">
+                <titl>Due [Currency]</titl>
+            </prop>
+            <prop name="sumaCastka">
+                <titl>Total amount::</titl>
+            </prop>
+            <prop name="sumaNedoplatek">
+                <titl>Total due:</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAP">
+            <prop name="_title">
+                <titl>List of invoices received (module)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAP$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>List of received invoices (balance, according to the user categorization)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAV">
+            <prop name="_title">
+                <titl>List of invoices issued (module)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$FAV$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>A list of issued invoices (balance, according to the user categorization)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$PHL">
+            <prop name="_title">
+                <titl>List of other receivables (module)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$PHL$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>List of miscellaneous receivables (balance according to the user categorization)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$vykazSaldoKdatu">
+            <prop name="_title">
+                <titl>Payment status by date</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$vykazSaldoKdatu$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>Status of reimbursements by the date (according to the user categorization)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$ZAV">
+            <prop name="_title">
+                <titl>List of other liabilties (module)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakCzk$$ZAV$$SUM_USERORDER">
+            <prop name="_title">
+                <titl>List of miscellaneous liabilities (balance according to the user categorization)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$FAP">
+            <prop name="_title">
+                <titl>List of invoices received (module in currency)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$FAV">
+            <prop name="_title">
+                <titl>List of invoices issued (module in currency)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$PHL">
+            <prop name="_title">
+                <titl>List of other receivables (module in currency)</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$vykazSaldoKdatu">
+            <prop name="_title">
+                <titl>Payment status by date in currency</titl>
+            </prop>
+        </rpt>
+        <rpt name="knihaFakMen$$ZAV">
+            <prop name="_title">
+                <titl>List of other liabilties (module in currency)</titl>
+            </prop>
+        </rpt>
+        <rpt name="konSym">
+            <prop name="_title">
+                <titl>Types</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontakty">
+            <prop name="_title">
+                <titl>Contacts</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehled">
+            <prop name="_title">
+                <titl>VAT control report (overview)</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Record No. of invoice</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehledCZ">
+            <prop name="44zdph">
+                <titl>Section 44 of the VAT Act</titl>
+            </prop>
+            <prop name="_title">
+                <titl>VAT control report (Czech overview)</titl>
+            </prop>
+            <prop name="duzp">
+                <titl>Date of taxable supplies</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Record No.of \invoice</titl>
+            </prop>
+            <prop name="kodPredmetuPlneni">
+                <titl>Code of subject of fulfilment</titl>
+            </prop>
+            <prop name="kodRezimuPlneni">
+                <titl>Code of fulfilment mode</titl>
+            </prop>
+            <prop name="pouzityPomer">
+                <titl>Used ratio</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehledCZ$$SUM">
+            <prop name="_title">
+                <titl>Control lines on the VAT return (DAP)</titl>
+            </prop>
+        </rpt>
+        <rpt name="kontrolniVykazPrehledCZ$$SUMACE">
+            <prop name="_title">
+                <titl>Control VAT reporting (Czech overview, summational lines)</titl>
+            </prop>
+        </rpt>
+        <rpt name="kurzy">
+            <prop name="_title">
+                <titl>Rates</titl>
+            </prop>
+        </rpt>
+        <rpt name="kusovnik">
+            <prop name="_title">
+                <titl>BOM</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total w/o VAT</titl>
+            </prop>
+            <prop name="celkemMj">
+                <titl>Total units</titl>
+            </prop>
+            <prop name="cenaBezDph">
+                <titl>Total w/o VAT per unit</titl>
+            </prop>
+            <prop name="cenaSDph">
+                <titl>Price w/ VAT per unit</titl>
+            </prop>
+        </rpt>
+        <rpt name="kusovnikNakup">
+            <prop name="_title">
+                <titl>BOM with purchase prices</titl>
+            </prop>
+            <prop name="nakupCenaCelkem">
+                <titl>Purchase price total</titl>
+            </prop>
+            <prop name="nakupCenaZaMj">
+                <titl>Purchase price per unit</titl>
+            </prop>
+        </rpt>
+        <rpt name="leasing">
+            <prop name="_title">
+                <titl>Leasing - overview</titl>
+            </prop>
+            <prop name="kartaLeasingu">
+                <titl>Leasing card:</titl>
+            </prop>
+        </rpt>
+        <rpt name="leasingWithSubreports">
+            <prop name="_title">
+                <titl>Leasing (Schedule of payments,Tax costs)</titl>
+            </prop>
+        </rpt>
+        <rpt name="Majetek">
+            <prop name="datVyst">
+                <titl>Rejection date</titl>
+            </prop>
+            <prop name="datZar">
+                <titl>Filing date</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetek$$SUM">
+            <prop name="_title">
+                <titl>Property - overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekStav">
+            <prop name="_title">
+                <titl>State of property</titl>
+            </prop>
+            <prop name="aktualniCena">
+                <titl>Current price [%currency-symbol]</titl>
+            </prop>
+            <prop name="cenaZarazeni">
+                <titl>Capitalization price [%currency-symbol]</titl>
+            </prop>
+            <prop name="datVyr">
+                <titl>Retired</titl>
+            </prop>
+            <prop name="datZacatDan">
+                <titl>Tax begin</titl>
+            </prop>
+            <prop name="datZacatUcet">
+                <titl>Account begin</titl>
+            </prop>
+            <prop name="datZar">
+                <titl>Capitalized</titl>
+            </prop>
+            <prop name="odpisovaSkupina">
+                <titl>Deprec. group tax</titl>
+            </prop>
+            <prop name="pocetUcetnichOdpisu">
+                <titl>Begin acct. deprec.</titl>
+            </prop>
+            <prop name="rokDanOdpis">
+                <titl>Tax write-off for period</titl>
+            </prop>
+            <prop name="rokUcetOdpis">
+                <titl>Book depreciation for period</titl>
+            </prop>
+            <prop name="sumDanOdpis">
+                <titl>Total tax write-off</titl>
+            </prop>
+            <prop name="sumUcetOdpis">
+                <titl>Total book depreciation</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekStavKDatu">
+            <prop name="_title">
+                <titl>Overview of asset balance</titl>
+            </prop>
+            <prop name="cenaAktualni">
+                <titl>Current\nprice [%currency-symbol]</titl>
+            </prop>
+            <prop name="cenaZarazeni">
+                <titl>Price\nclassifiaction [%currency-symbol]</titl>
+            </prop>
+            <prop name="danoveOdpisy">
+                <titl>Tax depreciation\ntotal</titl>
+            </prop>
+            <prop name="danoveOdpisyObdobi">
+                <titl>Tax depreciation\n for period</titl>
+            </prop>
+            <prop name="datPoslDanOdpis">
+                <titl>Last tax. depreciation</titl>
+            </prop>
+            <prop name="datPoslUcetOdpis">
+                <titl>Last acc. depreciation</titl>
+            </prop>
+            <prop name="datPuvZar">
+                <titl>Included</titl>
+            </prop>
+            <prop name="datVyr">
+                <titl>Excluded</titl>
+            </prop>
+            <prop name="datZacDan">
+                <titl>Start\nof tax depreciation</titl>
+            </prop>
+            <prop name="datZacUcet">
+                <titl>Start\nof accounting depreciation</titl>
+            </prop>
+            <prop name="dobaOdp">
+                <titl>Depreciation period [month]</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Inventory\nNo.</titl>
+            </prop>
+            <prop name="odpisovaSkupina">
+                <titl>Group tax depreciation</titl>
+            </prop>
+            <prop name="odpisovaSkupinaSum">
+                <titl>Group tax depreciation</titl>
+            </prop>
+            <prop name="pocetUcetnichOdpisu">
+                <titl>Number of accounting depreciations</titl>
+            </prop>
+            <prop name="sumPoslDanOdpis">
+                <titl>Last tax. depreciation</titl>
+            </prop>
+            <prop name="sumPoslUcetOdpis">
+                <titl>Last acc. depreciation</titl>
+            </prop>
+            <prop name="ucetniOdpisy">
+                <titl>Accounting depreciation\ntotal</titl>
+            </prop>
+            <prop name="ucetniOdpisyObdobi">
+                <titl>Accounting depreciation\nfor period</titl>
+            </prop>
+            <prop name="zustatekDanovy">
+                <titl>Tax\nbalance</titl>
+            </prop>
+            <prop name="zustatekUcetni">
+                <titl>Accounting\nbalance</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekStavKDatu$$SUM">
+            <prop name="_title">
+                <titl>Overview of asset balance (with summation for groups)</titl>
+            </prop>
+        </rpt>
+        <rpt name="majetekWithSubreports">
+            <prop name="_title">
+                <titl>Property (Tax write-off, Events, Accounting write-off)</titl>
+            </prop>
+            <prop name="danoveAUcetniStejne">
+                <titl>Tax depreciations are the same as accounting depreciations</titl>
+            </prop>
+            <prop name="kartaMajetku">
+                <titl>Property card:</titl>
+            </prop>
+            <prop name="schvalilVyrazeni">
+                <titl>Approved exclusion</titl>
+            </prop>
+            <prop name="schvalilZarazeni">
+                <titl>Approved inclusion</titl>
+            </prop>
+        </rpt>
+        <rpt name="majOdpisSkup">
+            <prop name="_title">
+                <titl>Property - depreciation groups</titl>
+            </prop>
+            <prop name="koefProZrychOdpis">
+                <titl>Coef. for accelerated depreciations</titl>
+            </prop>
+            <prop name="procProRovnOdpis">
+                <titl>Perc. for uniform depreciations</titl>
+            </prop>
+        </rpt>
+        <rpt name="majTyp">
+            <prop name="_title">
+                <titl>Types of property</titl>
+            </prop>
+        </rpt>
+        <rpt name="majUdalosti">
+            <prop name="_title">
+                <titl>Property - events</titl>
+            </prop>
+        </rpt>
+        <rpt name="majUmisteni">
+            <prop name="_title">
+                <titl>Property - placement</titl>
+            </prop>
+        </rpt>
+        <rpt name="meny">
+            <prop name="_title">
+                <titl>Currencies</titl>
+            </prop>
+        </rpt>
+        <rpt name="merJed">
+            <prop name="_title">
+                <titl>Units of measure</titl>
+            </prop>
+        </rpt>
+        <rpt name="obalkaC5">
+            <prop name="_title">
+                <titl>Address to envelope C5 (162x229mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obalkaC6">
+            <prop name="_title">
+                <titl>Address to envelope C6 (114x162mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obalkaDL">
+            <prop name="_title">
+                <titl>Addresa to envelope DL (110x220mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDoklad">
+            <prop name="_title">
+                <titl>Documents (copies of indivuduals)</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="celkemZakladniSazba">
+                <titl>including VAT - basic rate</titl>
+            </prop>
+            <prop name="ciziMena">
+                <titl>Currency</titl>
+            </prop>
+            <prop name="domaciMena">
+                <titl>Domestic currency</titl>
+            </prop>
+            <prop name="dphSnizenaSazba">
+                <titl>VAT - reduced rate</titl>
+            </prop>
+            <prop name="dphZakladniSazba">
+                <titl>VAT - basic rate</titl>
+            </prop>
+            <prop name="hotovo">
+                <titl>Finished</titl>
+            </prop>
+            <prop name="nakladyNaDoklad">
+                <titl>Cost for document</titl>
+            </prop>
+            <prop name="odberatelDodavatel">
+                <titl>Customer / supplier</titl>
+            </prop>
+            <prop name="titleNAP">
+                <titl>Received supply</titl>
+            </prop>
+            <prop name="titleNAV">
+                <titl>Issued supply</titl>
+            </prop>
+            <prop name="titleOBP">
+                <titl>Received order</titl>
+            </prop>
+            <prop name="titleOBV">
+                <titl>Issued order</titl>
+            </prop>
+            <prop name="titlePPP">
+                <titl>Received demand</titl>
+            </prop>
+            <prop name="titlePPV">
+                <titl>Isued demand</titl>
+            </prop>
+            <prop name="zakladOsvobozeno">
+                <titl>Freed</titl>
+            </prop>
+            <prop name="zakladSnizenaSazba">
+                <titl>Base - reduced rate</titl>
+            </prop>
+            <prop name="zakladZakladniSazba">
+                <titl>Base - basic rate</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDoklad$$NES">
+            <prop name="_title">
+                <titl>Internal copy of document (w/o summation)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni">
+            <prop name="_title">
+                <titl>Documents (separately)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$BEZ">
+            <prop name="_title">
+                <titl>Copy for client (w/o prices)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$NES">
+            <prop name="_title">
+                <titl>Copy for client (w/o summation)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$NES_BEZ_DPH">
+            <prop name="_title">
+                <titl>Copy for client (w/o VAT, w/o summation)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupni$$SUM_BEZ_DPH">
+            <prop name="_title">
+                <titl>Copy for client (w/o VAT)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupniOBP">
+            <prop name="_title">
+                <titl>Document for client</titl>
+            </prop>
+            <prop name="cisDosle">
+                <titl># Order received</titl>
+            </prop>
+        </rpt>
+        <rpt name="obchodDokladVystupniOBP$$NES">
+            <prop name="_title">
+                <titl>Copy for client (w/o summation)</titl>
+            </prop>
+        </rpt>
+        <rpt name="obratyPocatky">
+            <prop name="_title">
+                <titl>Opening account balances</titl>
+            </prop>
+        </rpt>
+        <rpt name="opisDokladu">
+            <prop name="_title">
+                <titl>Document copy</titl>
+            </prop>
+        </rpt>
+        <rpt name="opravaSkladu">
+            <prop name="_title">
+                <titl>Items running into negative values</titl>
+            </prop>
+            <prop name="idPolSklad">
+                <titl>Warehouse document items item ID</titl>
+            </prop>
+            <prop name="idSkladKarty">
+                <titl>Warehouse card ID</titl>
+            </prop>
+            <prop name="pocetRozbiti">
+                <titl>No. of negative items</titl>
+            </prop>
+        </rpt>
+        <rpt name="penezniDenik">
+            <prop name="_title">
+                <titl>Cash book</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Amount in %currency-symbol</titl>
+            </prop>
+            <prop name="doklad">
+                <titl>Document number</titl>
+            </prop>
+            <prop name="prijem">
+                <titl>Income</titl>
+            </prop>
+            <prop name="vydej">
+                <titl>Expense</titl>
+            </prop>
+        </rpt>
+        <rpt name="podaciListek">
+            <prop name="_title">
+                <titl>Filing receipt</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDPH">
+            <prop name="bezDane">
+                <titl>Without tax</titl>
+            </prop>
+            <prop name="castkaZaPlneni">
+                <titl>Amount for fulfilment</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="ctvrtleti">
+                <titl>Quarter</titl>
+            </prop>
+            <prop name="dalsiUdaje">
+                <titl>Another data:</titl>
+            </prop>
+            <prop name="dan">
+                <titl>Tax</titl>
+            </prop>
+            <prop name="danNaVystupu">
+                <titl>Output date</titl>
+            </prop>
+            <prop name="danoveIdentifikacniCislo">
+                <titl>Tax identificational number</titl>
+            </prop>
+            <prop name="datum">
+                <titl>Date</titl>
+            </prop>
+            <prop name="dodaniProstrednikem">
+                <titl>Delivery of goods by middle person</titl>
+            </prop>
+            <prop name="dodatecne">
+                <titl>additional</titl>
+            </prop>
+            <prop name="doplnujiciUdaje">
+                <titl>Additional data</titl>
+            </prop>
+            <prop name="dph">
+                <titl>VAT</titl>
+            </prop>
+            <prop name="duvodyProDodatecne">
+                <titl>Reasons for (additional)making returns acknowledged on day</titl>
+            </prop>
+            <prop name="financnimuUradu">
+                <titl>For revenue authority at</titl>
+            </prop>
+            <prop name="financniUradPriznanouDanVymeril">
+                <titl>Revenue authority assessed (additionally) tax according to § 46 law ČNR č. 337/1992 Sb., about tax and charge management, in version</titl>
+            </prop>
+            <prop name="fyzickaOsoba">
+                <titl>Natural person:</titl>
+            </prop>
+            <prop name="hlavniEkonomickaCinnost">
+                <titl>Main economic activity</titl>
+            </prop>
+            <prop name="hodnota">
+                <titl>Value</titl>
+            </prop>
+            <prop name="kDPH">
+                <titl>To VAT</titl>
+            </prop>
+            <prop name="keDni">
+                <titl>to date</titl>
+            </prop>
+            <prop name="koeficient">
+                <titl>Coefficient</titl>
+            </prop>
+            <prop name="kraceniRadek1">
+                <titl>Calculated relative part of tax deduction (§ 76)</titl>
+            </prop>
+            <prop name="kraceniRadek2">
+                <titl>Tax deduction settlement (§ 76 par 7-10)</titl>
+            </prop>
+            <prop name="kraceniRadek3">
+                <titl>Tax deduction adjustment (§ 78)</titl>
+            </prop>
+            <prop name="kraceniRadek4">
+                <titl>Tax deduction compensation (§ 79)</titl>
+            </prop>
+            <prop name="kraceniVyporadavaniUprava">
+                <titl>Shortage, settlement, adjustment, compensation of tax deduction</titl>
+            </prop>
+            <prop name="kracenyNarok">
+                <titl>Shortened claim</titl>
+            </prop>
+            <prop name="kraj">
+                <titl>Region</titl>
+            </prop>
+            <prop name="MFin5401">
+                <titl>25 5401 MFin 5401 - pattern # 14</titl>
+            </prop>
+            <prop name="narokNaOdpocet">
+                <titl>Claim for tax deduction of fulfilment for</titl>
+            </prop>
+            <prop name="nazevPravnickeOsoby">
+                <titl>Legal entity name</titl>
+            </prop>
+            <prop name="neplatceDane">
+                <titl>Bad payer of tax § 19 / 5, 6, § 108</titl>
+            </prop>
+            <prop name="nezZacnete">
+                <titl>Before you start filling in a form, please read the instructions.</titl>
+            </prop>
+            <prop name="oddil">
+                <titl>Section</titl>
+            </prop>
+            <prop name="odOsobNeregistrovanych">
+                <titl>From persons non-registered to tax in another member country (§ 19 par 4)</titl>
+            </prop>
+            <prop name="odOsobRegistrovanych">
+                <titl>From persons registered to tax in another member country (§ 19 par 3)</titl>
+            </prop>
+            <prop name="odpocetDane">
+                <titl>Tax deduction</titl>
+            </prop>
+            <prop name="odpocetRadek1">
+                <titl>Received taxable fulfilments with places of fulfilment at home</titl>
+            </prop>
+            <prop name="odpocetRadek7">
+                <titl>By regime change</titl>
+            </prop>
+            <prop name="odpocetRadek8">
+                <titl>Total sum for shortage of claim for tax deduction\n(row. 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)</titl>
+            </prop>
+            <prop name="odpocetRadek9">
+                <titl>Total sum of full claim for tax deduction\n(row. 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)</titl>
+            </prop>
+            <prop name="oprava">
+                <titl>Correction</titl>
+            </prop>
+            <prop name="opravne">
+                <titl>correction amount</titl>
+            </prop>
+            <prop name="osobaIdentifikovanaKDani">
+                <titl>Person identified to tax § 96</titl>
+            </prop>
+            <prop name="osobaOpravnenaKPodpisu">
+                <titl>Justified person to signature for tax subject</titl>
+            </prop>
+            <prop name="otiskRazitka">
+                <titl>Imprint of a stamp</titl>
+            </prop>
+            <prop name="otiskRazitkaFU">
+                <titl>Imprint of a presentation stamp of revenue office</titl>
+            </prop>
+            <prop name="platceDane">
+                <titl>Taxpayer § 94</titl>
+            </prop>
+            <prop name="plnyNarok">
+                <titl>Full claim</titl>
+            </prop>
+            <prop name="podpis">
+                <titl>Signature</titl>
+            </prop>
+            <prop name="podpisOpravnenehoPracovnikaDPH">
+                <titl>Signature of justified tax administrator</titl>
+            </prop>
+            <prop name="porizeniProstrednikem">
+                <titl>Cost of merchandise by middle person</titl>
+            </prop>
+            <prop name="postaveniVzhledemKPravnickeOsobe">
+                <titl>At legal entity: status to legal entity</titl>
+            </prop>
+            <prop name="povinnostPriznatDanZa">
+                <titl>Tax return liability for</titl>
+            </prop>
+            <prop name="pozdejsichPredpisu">
+                <titl>later regilations, on day</titl>
+            </prop>
+            <prop name="pravnickaOsoba">
+                <titl>Legal entity:</titl>
+            </prop>
+            <prop name="priznani">
+                <titl>Tax return</titl>
+            </prop>
+            <prop name="priznaniSestavil">
+                <titl>Tax return set up by</titl>
+            </prop>
+            <prop name="priznatRadek1">
+                <titl>Executed taxable fulfilments with places of fulfilment at home</titl>
+            </prop>
+            <prop name="priznatRadek2">
+                <titl>Cost of merchandise from different member state (§ 16 a § 17 par 6 letter e); except § 19)</titl>
+            </prop>
+            <prop name="priznatRadek3">
+                <titl>Providing a service by person registered to tax in another member country (§ 15 and § 13 par 8)</titl>
+            </prop>
+            <prop name="priznatRadek4">
+                <titl>Goods sending from different member state with places of fulfilment at home (§ 18)</titl>
+            </prop>
+            <prop name="priznatRadek5">
+                <titl>New means of transport acquisition</titl>
+            </prop>
+            <prop name="priznatRadek6">
+                <titl>Import of goods (§ 20)</titl>
+            </prop>
+            <prop name="priznatRadek7">
+                <titl>Service provision by foreign person liable to tax(§ 15 and § 13 par 8)</titl>
+            </prop>
+            <prop name="prohlaseni">
+                <titl>I declare, that all data given by me in this tax return are true and complete.</titl>
+            </prop>
+            <prop name="proskrtneteNevzniklaDanovaPovinnost">
+                <titl>Cross out, if the tax liability didn't arise.</titl>
+            </prop>
+            <prop name="radek">
+                <titl>row</titl>
+            </prop>
+            <prop name="radne">
+                <titl>regular</titl>
+            </prop>
+            <prop name="rok">
+                <titl>year</titl>
+            </prop>
+            <prop name="sDani">
+                <titl>With tax</titl>
+            </prop>
+            <prop name="sidloNeboBydliste">
+                <titl>Seat of legal entity or permanent residence of natural person.</titl>
+            </prop>
+            <prop name="sSnizSazbou">
+                <titl>With reduced tax rate</titl>
+            </prop>
+            <prop name="sZklSazbou">
+                <titl>With base tax rate.</titl>
+            </prop>
+            <prop name="ulice">
+                <titl>Street and orientational number (or district and descriptive number )</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek1">
+                <titl>Total amount of executed fulfilments with claim for tax deduction (§ 72 par 2 letters a) to d))</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek2">
+                <titl>Executed fulfilments which aren't included in coefficient calculation (§ 76 par 3) from mentioned in row 510</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek3">
+                <titl>Total amount of executed fulfilments free of tax without claim for tax deduction (§ 51)</titl>
+            </prop>
+            <prop name="uskutecnenaCelkemRadek4">
+                <titl>Executed fulfilments which aren't included in coefficient calculation (§ 76 par 3) from mentioned in row 530</titl>
+            </prop>
+            <prop name="uskutecnenaPlneniCelkem">
+                <titl>Executed fulfilments in total</titl>
+            </prop>
+            <prop name="uskutecnenaPlneniOsvobozena">
+                <titl>Executed fulfilments free of tax without claim for tax deduction</titl>
+            </prop>
+            <prop name="uskutecnenaRadek1">
+                <titl>Delivery of goods to different member state (§ 64 except § 64 par 2 and § 17 par 2)</titl>
+            </prop>
+            <prop name="uskutecnenaRadek2">
+                <titl>New means of transport delivery to different member state (§ 64 par 2)\nto person registered to tax in member state</titl>
+            </prop>
+            <prop name="uskutecnenaRadek3">
+                <titl>New means of transport delivery to different member state (§ 64 par 2)\nto person non-registered to tax in member state</titl>
+            </prop>
+            <prop name="uskutecnenaRadek4">
+                <titl>Export of goods (§ 66)</titl>
+            </prop>
+            <prop name="uskutecnenaRadek5">
+                <titl>Other fulfilments freed of tax with claim for tax deduction</titl>
+            </prop>
+            <prop name="uvedeniHodnotyPriZjednoduseni">
+                <titl>Value introduction when simplified procedure is used\nwhen goods is delivered inside European union by tripartide trade form (§ 17)</titl>
+            </prop>
+            <prop name="vraceniDane">
+                <titl>Tax refund (§ 84)</titl>
+            </prop>
+            <prop name="vraceniDaneRadek1">
+                <titl>Tax refund</titl>
+            </prop>
+            <prop name="vypocetDaneRadek1">
+                <titl>Tax settlement at output (§ 91)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek2">
+                <titl>Tax at output (rows 210 + 215 + 220 + 225 + 230 + 235 + 240 + 245 + 250 + 255 + 260 + 265 + 270 + 275 - 600 + 710)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek3">
+                <titl>Tax deduction (rows 390 + 550 + 560 + 570 + 580)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek4">
+                <titl>Own tax liability (rows 730 - 750)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek5">
+                <titl>Excessive deduction (rows 750 - 730)</titl>
+            </prop>
+            <prop name="vypocetDaneRadek6">
+                <titl>Tax liability change when supplementary returns are made (rows 730 - 750)</titl>
+            </prop>
+            <prop name="vypocetDanovePovinnosti">
+                <titl>Tax liability calculation</titl>
+            </prop>
+            <prop name="zakladDane">
+                <titl>Tax base</titl>
+            </prop>
+            <prop name="zaObdobi">
+                <titl>In tax period:month</titl>
+            </prop>
+            <prop name="zauctovanoVObdobi">
+                <titl>Posted during the period</titl>
+            </prop>
+            <prop name="zmenaOdpoctuDane">
+                <titl>Tax deduction change</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDph$$NES">
+            <prop name="_title">
+                <titl>VAT supporting documentation per post date</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDph$$SUM">
+            <prop name="_title">
+                <titl>VAT documents</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphBezUctovani$$NES">
+            <prop name="_title">
+                <titl>VAT data documents by settlement date (grouped)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphBezUctovani$$SUM">
+            <prop name="_title">
+                <titl>VAT data documents (grouped)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphNaVysku$$SUMACE">
+            <prop name="_title">
+                <titl>VAT data documents (only summed lines)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphNaVyskuZRadku$$SUMACE">
+            <prop name="_title">
+                <titl>VAT documents for other VAT countries (summary lines only)</titl>
+            </prop>
+        </rpt>
+        <rpt name="podkladyDphZRadku$$SUM">
+            <prop name="_title">
+                <titl>VAT documents for other VAT countries</titl>
+            </prop>
+        </rpt>
+        <rpt name="pohybyNaUctech">
+            <prop name="_title">
+                <titl>Movements on accounts</titl>
+            </prop>
+        </rpt>
+        <rpt name="pohybyNaUctechZjednodusene">
+            <prop name="_title">
+                <titl>Accounts inventory</titl>
+            </prop>
+            <prop name="doklad">
+                <titl>Document</titl>
+            </prop>
+            <prop name="pocatek">
+                <titl>Beginning</titl>
+            </prop>
+            <prop name="sumTuzDal">
+                <titl>Turnover DAL [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumTuzMd">
+                <titl>Turnover MD [%currency-symbol]</titl>
+            </prop>
+            <prop name="ucetDAL">
+                <titl>Account DAL</titl>
+            </prop>
+            <prop name="ucetMD">
+                <titl>Account MD</titl>
+            </prop>
+            <prop name="zustatek">
+                <titl>Balance</titl>
+            </prop>
+            <prop name="zustatekTuz">
+                <titl>Balance [%currency-symbol]</titl>
+            </prop>
+        </rpt>
+        <rpt name="pohybyNaUctechZjednodusene$$SUM">
+            <prop name="_title">
+                <titl>Movements in accounts - inventory</titl>
+            </prop>
+        </rpt>
+        <rpt name="pokDoklad">
+            <prop name="_title">
+                <titl>Cash document</titl>
+            </prop>
+            <prop name="bezDane2">
+                <titl>VAT 0%</titl>
+            </prop>
+            <prop name="castkaSlovy">
+                <titl>Sum in words</titl>
+            </prop>
+            <prop name="dan2">
+                <titl>VAT</titl>
+            </prop>
+            <prop name="dne">
+                <titl>Day</titl>
+            </prop>
+            <prop name="podpisPokladnika">
+                <titl>Cashier's signature</titl>
+            </prop>
+            <prop name="prevzal">
+                <titl>Taken over</titl>
+            </prop>
+            <prop name="prijatoOd">
+                <titl>Recieved from</titl>
+            </prop>
+            <prop name="prijmovyDoklad">
+                <titl>Receipt cash voucher</titl>
+            </prop>
+            <prop name="prijmovyDokladVratka">
+                <titl>Income cash voucher - return premium</titl>
+            </prop>
+            <prop name="schvalil">
+                <titl>Approved by</titl>
+            </prop>
+            <prop name="soucet">
+                <titl>Sum</titl>
+            </prop>
+            <prop name="ucel">
+                <titl>Purpose</titl>
+            </prop>
+            <prop name="vydejovyDoklad">
+                <titl>Issue cash voucher</titl>
+            </prop>
+            <prop name="vydejovyDokladVratka">
+                <titl>Expenditure cash voucher - return premium</titl>
+            </prop>
+            <prop name="vyplacenoKomu">
+                <titl>Paid out to</titl>
+            </prop>
+            <prop name="zaklad">
+                <titl>Base</titl>
+            </prop>
+            <prop name="zauctoval">
+                <titl>Brought to book by</titl>
+            </prop>
+        </rpt>
+        <rpt name="pokDoklad$$SUM_UHR_DOKL">
+            <prop name="_title">
+                <titl>Cash desk voucher (w/ list of settled documents)</titl>
+            </prop>
+        </rpt>
+        <rpt name="pokDoklad$$SUM_ZAUCT">
+            <prop name="_title">
+                <titl>Cash voucher (with bookkeeping)</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenik">
+            <prop name="hotove">
+                <titl>By cash</titl>
+            </prop>
+            <prop name="kartou">
+                <titl>By card</titl>
+            </prop>
+            <prop name="koncovyZustatek">
+                <titl>Final balance</titl>
+            </prop>
+            <prop name="pocatecniZustatek">
+                <titl>Initial balance</titl>
+            </prop>
+            <prop name="prijem">
+                <titl>Receipt</titl>
+            </prop>
+            <prop name="vydej">
+                <titl>Issue</titl>
+            </prop>
+            <prop name="zustatek">
+                <titl>Balance</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenik$$BAN">
+            <prop name="_title">
+                <titl>Bank book</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenik$$POK">
+            <prop name="_title">
+                <titl>Cash desk book</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenikPort$$BAN">
+            <prop name="_title">
+                <titl>Bank book (portrait layout)</titl>
+            </prop>
+        </rpt>
+        <rpt name="PokladniDenikPort$$POK">
+            <prop name="_title">
+                <titl>Register book (portrait layout)</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur">
+            <prop name="_title">
+                <titl>Sale analysis</titl>
+            </prop>
+            <prop name="idCenik">
+                <titl>Goods</titl>
+            </prop>
+            <prop name="idFirmy">
+                <titl>Company</titl>
+            </prop>
+            <prop name="idMistUrc">
+                <titl>Destination</titl>
+            </prop>
+            <prop name="idSkladu">
+                <titl>Stock</titl>
+            </prop>
+            <prop name="idSkupCen">
+                <titl>Price group</titl>
+            </prop>
+            <prop name="idSkupFir">
+                <titl>Group of companies</titl>
+            </prop>
+            <prop name="idSkupZboz">
+                <titl>Group of goods</titl>
+            </prop>
+            <prop name="idStred">
+                <titl>Centre</titl>
+            </prop>
+            <prop name="idZakazky">
+                <titl>Order</titl>
+            </prop>
+            <prop name="idZodpOsoba">
+                <titl>Person in charge</titl>
+            </prop>
+            <prop name="idZodpOsobaAdresar">
+                <titl>Responsible person from directory</titl>
+            </prop>
+            <prop name="procObchodniRozpeti">
+                <titl>% Range</titl>
+            </prop>
+            <prop name="procSumZkl">
+                <titl>% Total</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur$$NES">
+            <prop name="_title">
+                <titl>Sales analysis (w/o summation)</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur$$NES_NAKUP">
+            <prop name="_title">
+                <titl>Purchases analysis (w/o summation)</titl>
+            </prop>
+        </rpt>
+        <rpt name="polozkyFaktur$$SUM_NAKUP">
+            <prop name="_title">
+                <titl>Purchases analysis</titl>
+            </prop>
+        </rpt>
+        <rpt name="poSplatnosti">
+            <prop name="_title">
+                <titl>Outstanding receivables/payables overdue</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="celkemPoSplatnosti">
+                <titl>Total overdue</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Maturity</titl>
+            </prop>
+            <prop name="datUcto">
+                <titl>Book date</titl>
+            </prop>
+            <prop name="firma">
+                <titl>Firm</titl>
+            </prop>
+            <prop name="firmaNevyplnena">
+                <titl>Firm is not filled in</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Document no.</titl>
+            </prop>
+            <prop name="neuhrazenePohledavky">
+                <titl>Outstanding receivables overdue</titl>
+            </prop>
+            <prop name="neuhrazeneZavazky">
+                <titl>Outstanding payables overdue</titl>
+            </prop>
+            <prop name="rozmezi">
+                <titl>%p to %p days overdue</titl>
+            </prop>
+            <prop name="rozmeziKonec">
+                <titl>%p or more days overdue</titl>
+            </prop>
+            <prop name="symbolSplatnosti.stav0">
+                <titl>Not overdue</titl>
+            </prop>
+            <prop name="symbolSplatnosti.stavZnevyplneno">
+                <titl>Due date not filled in</titl>
+            </prop>
+            <prop name="uhrazeno">
+                <titl>Paid</titl>
+            </prop>
+            <prop name="zbyva">
+                <titl>Unpaid</titl>
+            </prop>
+        </rpt>
+        <rpt name="poSplatnostiDleDokladu">
+            <prop name="_title">
+                <titl>Unpaid receivables/liabilities based on maturity</titl>
+            </prop>
+            <prop name="neuhrazenePohledavky">
+                <titl>Unpaid receivables based on maturity</titl>
+            </prop>
+            <prop name="neuhrazeneZavazky">
+                <titl>Unpaid liabilities based on maturity</titl>
+            </prop>
+        </rpt>
+        <rpt name="poSplatnostiDleFirmy">
+            <prop name="_title">
+                <titl>Outstanding receivables/payables overdue (by firm)</titl>
+            </prop>
+            <prop name="neuhrazenePohledavky">
+                <titl>Outstanding receivables overdue (by firm)</titl>
+            </prop>
+            <prop name="neuhrazeneZavazky">
+                <titl>Outstanding payables overdue (by firm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="postovniPodaciArch">
+            <prop name="_title">
+                <titl>Postal filing sheet</titl>
+            </prop>
+        </rpt>
+        <rpt name="pplstitek">
+            <prop name="_title">
+                <titl>PPL Tag (size A4)</titl>
+            </prop>
+            <prop name="dobirka">
+                <titl>Cash on Delivery:</titl>
+            </prop>
+            <prop name="dokladCislo">
+                <titl>Document number:</titl>
+            </prop>
+            <prop name="email">
+                <titl>email: info@ppl.cz</titl>
+            </prop>
+            <prop name="expresnibalikovasluzba">
+                <titl>Express package service</titl>
+            </prop>
+            <prop name="flexibee">
+                <titl>ABRA Flexi</titl>
+            </prop>
+            <prop name="modralinka">
+                <titl>Info line: 840 775 775</titl>
+            </prop>
+            <prop name="odesilatel">
+                <titl>Consignor/Sender:</titl>
+            </prop>
+            <prop name="prijemce">
+                <titl>Consignee/Recipient:</titl>
+            </prop>
+            <prop name="www">
+                <titl>http://www.ppl.cz</titl>
+            </prop>
+        </rpt>
+        <rpt name="pplstitekJeden">
+            <prop name="_title">
+                <titl>PPL Tag (individual, 102x126mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="predvaha">
+            <prop name="dal">
+                <titl>Credit</titl>
+            </prop>
+            <prop name="koncovyZustatek">
+                <titl>Closing balance</titl>
+            </prop>
+            <prop name="md">
+                <titl>Debit</titl>
+            </prop>
+            <prop name="obratyZaObdobi">
+                <titl>Turnovers for period</titl>
+            </prop>
+            <prop name="pocatecniZustatek">
+                <titl>Opening balance</titl>
+            </prop>
+            <prop name="uctovaTrida">
+                <titl>Account class</titl>
+            </prop>
+        </rpt>
+        <rpt name="Predvaha$$SUM">
+            <prop name="_title">
+                <titl>Turnover trial balance</titl>
+            </prop>
+        </rpt>
+        <rpt name="PredvahaPort">
+            <prop name="_title">
+                <titl>Trial balance sheet (portrait)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehled_a4$$FAP">
+            <prop name="_title">
+                <titl>Invoices in list (Portrait)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledSmluv">
+            <prop name="_title">
+                <titl>Overview of contracts</titl>
+            </prop>
+        </rpt>
+        <rpt name="prehledSmluv$$SUM_POL">
+            <prop name="_title">
+                <titl>Overview of contracts (w/ list of items)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prijemkaVydejka">
+            <prop name="_title">
+                <titl>Stock documents - individual</titl>
+            </prop>
+            <prop name="cisFak">
+                <titl>Invoice number</titl>
+            </prop>
+            <prop name="cislo">
+                <titl>Number</titl>
+            </prop>
+            <prop name="maFakturu">
+                <titl>Have a invoice</titl>
+            </prop>
+            <prop name="prijemkaVydejkaUmisteni">
+                <titl>Receipt or withdrawal (w/ location)</titl>
+            </prop>
+            <prop name="typPohybu.prijem">
+                <titl>Receipt card</titl>
+            </prop>
+            <prop name="typPohybu.vydej">
+                <titl>Issue card</titl>
+            </prop>
+            <prop name="umisteni">
+                <titl>Location</titl>
+            </prop>
+            <prop name="vydal">
+                <titl>Issued by</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikaz$$BAN$$elInkaso">
+            <prop name="_title">
+                <titl>BATCH WIRE TRANSFER INSTRUCTION</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikaz$$BAN$$elPrikaz">
+            <prop name="_title">
+                <titl>Mass payment order</titl>
+            </prop>
+        </rpt>
+        <rpt name="prikazDoVyroby">
+            <prop name="_title">
+                <titl>Command to production</titl>
+            </prop>
+            <prop name="cisloPrikazu">
+                <titl>Order number</titl>
+            </prop>
+            <prop name="datumVyhotoveni">
+                <titl>Date of completion</titl>
+            </prop>
+            <prop name="mezioperacniKontrola">
+                <titl>Intermediate examination</titl>
+            </prop>
+            <prop name="ostatniSuroviny">
+                <titl>Other materials and justification</titl>
+            </prop>
+            <prop name="sarze">
+                <titl>Charge</titl>
+            </prop>
+            <prop name="skladVyrobku">
+                <titl>Stock products</titl>
+            </prop>
+            <prop name="uzavreni">
+                <titl>Conclusion</titl>
+            </prop>
+            <prop name="vystupniKontrola">
+                <titl>Final inspection</titl>
+            </prop>
+            <prop name="zamestnanci">
+                <titl>Employees</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikazy_kniha$$BAN$$elInkaso">
+            <prop name="_title">
+                <titl>Batch inkaso instruction</titl>
+            </prop>
+        </rpt>
+        <rpt name="Prikazy_kniha$$BAN$$elPrikaz">
+            <prop name="_title">
+                <titl>Book of payments orders</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH">
+            <prop name="_title">
+                <titl>VAT return (valid to year 2008)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2009">
+            <prop name="_title">
+                <titl>VAT return (valid from year 2009)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2009SK">
+            <prop name="_title">
+                <titl>VAT return (Slovakian printed matter)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2010">
+            <prop name="_title">
+                <titl>VAT return specimen no. č. 16 (from 1.1.2010)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2010SK">
+            <prop name="_title">
+                <titl>VAT returns from 2010 - 01 (from 1.1.2010) (Slovak form)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2011">
+            <prop name="_title">
+                <titl>VAT return specimen no, 17 (since 1.1.2011)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2011SK">
+            <prop name="_title">
+                <titl>VAT return specimen 2011 - 01 (since 1.1.2011) (Slovakia form)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2012SK">
+            <prop name="_title">
+                <titl>VAT Return 2012 - 01 (from 1.1.2012) (Slovak version)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2013">
+            <prop name="_title">
+                <titl>VAT return specimen no. 18 (since 1.1.2013)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2015">
+            <prop name="_title">
+                <titl>VAT return specimen no. 19 (since 1.1.2015)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2016">
+            <prop name="_title">
+                <titl>VAT return template No. 20 (from 29/7/2016)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2019">
+            <prop name="_title">
+                <titl>VAT return template No. 21 (since 01/05/2019)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2021">
+            <prop name="_title">
+                <titl>VAT declaration model No. 23 (from 01.10.2021)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2021SK">
+            <prop name="_title">
+                <titl>VAT return 2021 (from 1.1.2021) (Slovak form)</titl>
+            </prop>
+        </rpt>
+        <rpt name="priznaniDPH2024">
+            <prop name="_title">
+                <titl>VAT declaration model No. 24 (from 01.01.2024)</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejka">
+            <prop name="_title">
+                <titl>Simplified tax certificate</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejka60mm">
+            <prop name="_title">
+                <titl>Simplified tax certificate (60mm)</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="celkemV">
+                <titl>Total in</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Date</titl>
+            </prop>
+            <prop name="duzp">
+                <titl>Taxable supp.</titl>
+            </prop>
+            <prop name="mj">
+                <titl>Amount</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejkaZaHotove">
+            <prop name="_title">
+                <titl>Receipt</titl>
+            </prop>
+        </rpt>
+        <rpt name="prodejniPrehled">
+            <prop name="_title">
+                <titl>Sales overview</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Total [%p]</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>VAT [%p]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Base [%p]</titl>
+            </prop>
+            <prop name="uhrazeno">
+                <titl>Paid</titl>
+            </prop>
+        </rpt>
+        <rpt name="pruvodka">
+            <prop name="_title">
+                <titl>Route-sheet</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="kBAN">
+                <titl>Bank document</titl>
+            </prop>
+            <prop name="kFAP">
+                <titl>Invoice in</titl>
+            </prop>
+            <prop name="kFAV">
+                <titl>Invoice out</titl>
+            </prop>
+            <prop name="kINT">
+                <titl>Internal document</titl>
+            </prop>
+            <prop name="kPHL">
+                <titl>Receivables</titl>
+            </prop>
+            <prop name="kPOK">
+                <titl>Cash document</titl>
+            </prop>
+            <prop name="kSKL">
+                <titl>Stock document</titl>
+            </prop>
+            <prop name="kZapoctu">
+                <titl>Mutual credit</titl>
+            </prop>
+            <prop name="kZAV">
+                <titl>Obligation</titl>
+            </prop>
+            <prop name="rekapitulaceDph">
+                <titl>VAT recapitulation</titl>
+            </prop>
+            <prop name="sazbaDph">
+                <titl>VAT rate</titl>
+            </prop>
+            <prop name="suma">
+                <titl>Sum</titl>
+            </prop>
+            <prop name="ucetDal">
+                <titl>Credit account</titl>
+            </prop>
+            <prop name="ucetMD">
+                <titl>Debit account</titl>
+            </prop>
+            <prop name="uctovani">
+                <titl>Posting</titl>
+            </prop>
+            <prop name="zdanitelnePlneni">
+                <titl>Taxable fulfilment</titl>
+            </prop>
+        </rpt>
+        <rpt name="radkySestavy">
+            <prop name="rozsahPredSestavy">
+                <titl>Prior period from:</titl>
+            </prop>
+            <prop name="rozsahSestavy">
+                <titl>For period beginning:</titl>
+            </prop>
+            <prop name="rozsahSestavyDo">
+                <titl>to:</titl>
+            </prop>
+        </rpt>
+        <rpt name="rady">
+            <prop name="_title">
+                <titl>Document series</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvaha">
+            <prop name="_title">
+                <titl>Balance sheet in full extent</titl>
+            </prop>
+            <prop name="bilance">
+                <titl>(bilance)</titl>
+            </prop>
+            <prop name="doDne">
+                <titl>to</titl>
+            </prop>
+            <prop name="keDni">
+                <titl>to date</titl>
+            </prop>
+            <prop name="nazevASidloUcetniJednotky">
+                <titl>Seat, residence or place\nof business of accounting unit</titl>
+            </prop>
+            <prop name="obchodniFirma">
+                <titl>Business company or another\naccounting item name</titl>
+            </prop>
+            <prop name="odDne">
+                <titl>since</titl>
+            </prop>
+            <prop name="okamzikSestaveni">
+                <titl>Arrangement moment</titl>
+            </prop>
+            <prop name="podpisOrganu">
+                <titl>Signature record of statutory authority or natural person which is accounting unit</titl>
+            </prop>
+            <prop name="podpisOsoby">
+                <titl>Signature record of person responsible for closing of books arrangement</titl>
+            </prop>
+            <prop name="pravniFormaUcetniJednotky">
+                <titl>Legal form of accounting unit</titl>
+            </prop>
+            <prop name="predmetPodnikani">
+                <titl>Bussiness or another activity objective</titl>
+            </prop>
+            <prop name="rozvaha">
+                <titl>Balance sheet</titl>
+            </prop>
+            <prop name="schvalenoMFCR">
+                <titl>Proccessed in accordance with official announcement no. 500/2002\nSb. in version of later regulations</titl>
+            </prop>
+            <prop name="schvalenoMFCRnezisk">
+                <titl>Processed in accordance with Decree No. 504/2002\nColl., as amended</titl>
+            </prop>
+            <prop name="schvalenoMFCRprispevk">
+                <titl>Proccessed in accordance with official announcement no. 505/2002\nSb. in version of later regulations</titl>
+            </prop>
+            <prop name="schvalenoMFCRprispevk2010">
+                <titl>Proccessed in accordance with official announcement no. 410/2009\nSb. in version of later regulations</titl>
+            </prop>
+            <prop name="schvalenoMFCRslovaci">
+                <titl>Proccessed in accordance with official announcement no. 500/2002\nSb. in version of later regulations</titl>
+            </prop>
+            <prop name="vKC">
+                <titl>(in whole thousands %currency-symbol)</titl>
+            </prop>
+            <prop name="zakladniVerze">
+                <titl>In basic extent</titl>
+            </prop>
+            <prop name="zjednodusenaVerze">
+                <titl>in simplified extent</titl>
+            </prop>
+            <prop name="zkracenaVerze">
+                <titl>shortened</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvaha$$SUM">
+            <prop name="_title">
+                <titl>Balance sheet in simplified extent</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvaha$$SUM_ZAKL">
+            <prop name="_title">
+                <titl>Balance sheet in basic extent</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvahaPoUctechObraty">
+            <prop name="_title">
+                <titl>Assets and liabilities list (turnovers)</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvahaPoUctechStavy">
+            <prop name="_title">
+                <titl>Assets and liabilities list (balances)</titl>
+            </prop>
+        </rpt>
+        <rpt name="rozvahaVysledovkaPoUctech">
+            <prop name="aktiva">
+                <titl>Assets</titl>
+            </prop>
+            <prop name="konecnyZustatek">
+                <titl>Closing balance</titl>
+            </prop>
+            <prop name="naklady">
+                <titl>Expenses</titl>
+            </prop>
+            <prop name="pasiva">
+                <titl>Liabilities</titl>
+            </prop>
+            <prop name="soucet">
+                <titl>Sum</titl>
+            </prop>
+            <prop name="uctovaTrida">
+                <titl>Accounting class</titl>
+            </prop>
+            <prop name="vynosy">
+                <titl>Profits</titl>
+            </prop>
+            <prop name="vysledek">
+                <titl>Result</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldo">
+            <prop name="_title">
+                <titl>Balance</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldo$$GRUP">
+            <prop name="_title">
+                <titl>Balance (grouped)</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldoNaVysku">
+            <prop name="_title">
+                <titl>Balance (high size)</titl>
+            </prop>
+        </rpt>
+        <rpt name="saldoNaVysku$$GRUP">
+            <prop name="_title">
+                <titl>Balance (portrait, grouped)</titl>
+            </prop>
+        </rpt>
+        <rpt name="Sazby_DPH">
+            <prop name="_title">
+                <titl>VAT rates</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadky">
+            <prop name="_title">
+                <titl>Composition rows</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyPort$$SES$$uSestavy$$BEZ_ROZPADU">
+            <prop name="_title">
+                <titl>Composition rows</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyPort$$SES$$uSestavy$$ROZPAD_PREDPIS">
+            <prop name="_title">
+                <titl>Composition rows (Standard regulation, User regulation)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyPort$$SES$$uSestavy$$ROZPAD_UCET">
+            <prop name="_title">
+                <titl>Composition rows (Disintegration to accounts)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyRozpadUce">
+            <prop name="_title">
+                <titl>Composition rows (Disintegration to accounts)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sesRadkyStdPred">
+            <prop name="_title">
+                <titl>Composition rows (Standard regulation, User regulation)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sestavy">
+            <prop name="_title">
+                <titl>Accounting compositions</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKarty">
+            <prop name="_title">
+                <titl>Stock cards</titl>
+            </prop>
+            <prop name="cenaTuz">
+                <titl>Price [%currency-symbol]</titl>
+            </prop>
+            <prop name="poslCenaTuz">
+                <titl>Last</titl>
+            </prop>
+            <prop name="prumCenaTuz">
+                <titl>Average</titl>
+            </prop>
+            <prop name="stav">
+                <titl>Goods level</titl>
+            </prop>
+            <prop name="stavMen">
+                <titl>[currency]</titl>
+            </prop>
+            <prop name="stavMJ">
+                <titl>in units</titl>
+            </prop>
+            <prop name="stavTuz">
+                <titl>[%currency-symbol]</titl>
+            </prop>
+            <prop name="sumPrijem">
+                <titl>Receipt:</titl>
+            </prop>
+            <prop name="sumVydej">
+                <titl>Withdrawal:</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKarty$$SKL$$NES">
+            <prop name="_title">
+                <titl>Overview of warehouse cards (w/ movements)</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKarty$$SKL$$NES_STR">
+            <prop name="_title">
+                <titl>Overview of warehouse cards (w/ movements, paginated)</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKartyInventura">
+            <prop name="_title">
+                <titl>Stocktacking list of goods</titl>
+            </prop>
+            <prop name="naSklade">
+                <titl>Real status</titl>
+            </prop>
+        </rpt>
+        <rpt name="skladKartyInventura$$NES">
+            <prop name="_title">
+                <titl>Inventory list of goods (without balances)</titl>
+            </prop>
+        </rpt>
+        <rpt name="sklPol$$SKL">
+            <prop name="_title">
+                <titl>Stock movements list</titl>
+            </prop>
+        </rpt>
+        <rpt name="sklRezervace">
+            <prop name="_title">
+                <titl>Bookings list</titl>
+            </prop>
+        </rpt>
+        <rpt name="sklVyrCis">
+            <prop name="_title">
+                <titl>Serial numbers list</titl>
+            </prop>
+        </rpt>
+        <rpt name="skupFir">
+            <prop name="_title">
+                <titl>Groups of companies</titl>
+            </prop>
+        </rpt>
+        <rpt name="skupZboz">
+            <prop name="_title">
+                <titl>Groups of goods</titl>
+            </prop>
+        </rpt>
+        <rpt name="slozenkaA">
+            <prop name="_title">
+                <titl>Postal COD type A</titl>
+            </prop>
+        </rpt>
+        <rpt name="smerKod">
+            <prop name="_title">
+                <titl>Directional codes</titl>
+            </prop>
+        </rpt>
+        <rpt name="souhrnneHlaseni">
+            <prop name="_title">
+                <titl>Summary report</titl>
+            </prop>
+        </rpt>
+        <rpt name="souhrnnyVykazOPrijmechAVydajich">
+            <prop name="_title">
+                <titl>Income-outcome statement: summary</titl>
+            </prop>
+            <prop name="danEvidSkupina.nespadaCelkem">
+                <titl>Not tax total</titl>
+            </prop>
+            <prop name="danEvidSkupina.nevyplnenoCelkem">
+                <titl>Undefined total</titl>
+            </prop>
+            <prop name="danEvidSkupina.ostatniCelkem">
+                <titl>Others total</titl>
+            </prop>
+            <prop name="danEvidSkupina.prijemCelkem">
+                <titl>Income total</titl>
+            </prop>
+            <prop name="danEvidSkupina.vydejCelkem">
+                <titl>Outcome total</titl>
+            </prop>
+            <prop name="nevyplneno">
+                <titl>Undefined</titl>
+            </prop>
+            <prop name="rozdilPrijemVydej">
+                <titl>Income-outcome difference</titl>
+            </prop>
+        </rpt>
+        <rpt name="Staty">
+            <prop name="_title">
+                <titl>Countries</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavSkladu">
+            <prop name="_title">
+                <titl>Stock status to the date</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavyHlavniKniha">
+            <prop name="_title">
+                <titl>Main book (total turnovers for months)</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavyUctu">
+            <prop name="_title">
+                <titl>States of accounts</titl>
+            </prop>
+            <prop name="Dal">
+                <titl>Credit</titl>
+            </prop>
+            <prop name="Md">
+                <titl>Debit</titl>
+            </prop>
+            <prop name="obrat">
+                <titl>Turnover</titl>
+            </prop>
+            <prop name="zaUcetObdobi">
+                <titl>For accounting period</titl>
+            </prop>
+            <prop name="zustatek">
+                <titl>Balance</titl>
+            </prop>
+        </rpt>
+        <rpt name="stavyUctuPocatky">
+            <prop name="_title">
+                <titl>Initial accounts statuses - control print</titl>
+            </prop>
+        </rpt>
+        <rpt name="stitky">
+            <prop name="_title">
+                <titl>Shelf labels (70x30 mm)</titl>
+            </prop>
+            <prop name="za">
+                <titl>for</titl>
+            </prop>
+        </rpt>
+        <rpt name="strediska">
+            <prop name="_title">
+                <titl>Centres</titl>
+            </prop>
+        </rpt>
+        <rpt name="TypDokl">
+            <prop name="_title">
+                <titl>Document types overview</titl>
+            </prop>
+        </rpt>
+        <rpt name="TypDokl$$BAN">
+            <prop name="_title">
+                <titl>List of types of bank documents</titl>
+            </prop>
+        </rpt>
+        <rpt name="TypDokl$$POK">
+            <prop name="_title">
+                <titl>List of types of cash vouchers</titl>
+            </prop>
+        </rpt>
+        <rpt name="typDoklSkl$$SKL">
+            <prop name="_title">
+                <titl>List of types of stock documents</titl>
+            </prop>
+        </rpt>
+        <rpt name="typLeasingu">
+            <prop name="_title">
+                <titl>Types of leasing</titl>
+            </prop>
+        </rpt>
+        <rpt name="typUcetOp">
+            <prop name="_title">
+                <titl>Bookkeeping methods list</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniDenik">
+            <prop name="_title">
+                <titl>Accounting diary</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniObdobi">
+            <prop name="_title">
+                <titl>Accounting period</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniOsnova">
+            <prop name="_title">
+                <titl>Accounting classsifications</titl>
+            </prop>
+        </rpt>
+        <rpt name="ucetniRozvrh">
+            <prop name="_title">
+                <titl>Accounting schedule</titl>
+            </prop>
+        </rpt>
+        <rpt name="uhrazeneDoklady">
+            <prop name="_title">
+                <titl>Paid documents</titl>
+            </prop>
+            <prop name="castka">
+                <titl>Amount</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="zbyvaSparovat">
+                <titl>Remaining to pair</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Remaining to pay</titl>
+            </prop>
+        </rpt>
+        <rpt name="upominka">
+            <prop name="_title">
+                <titl>Demand for Payment</titl>
+            </prop>
+            <prop name="adresaDodavatele">
+                <titl>Supplier Address:</titl>
+            </prop>
+        </rpt>
+        <rpt name="uzaverkoveOperace">
+            <prop name="_title">
+                <titl>Closing operations</titl>
+            </prop>
+            <prop name="celkem">
+                <titl>Total</titl>
+            </prop>
+            <prop name="mezisoucetObratu">
+                <titl>Subtotal turnovers</titl>
+            </prop>
+            <prop name="zisk">
+                <titl>Profit 710 / 702</titl>
+            </prop>
+            <prop name="ztrata">
+                <titl>Loss 702 / 710</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazCenPohyby">
+            <prop name="_title">
+                <titl>Purchasing, sales and stock movements</titl>
+            </prop>
+            <prop name="sumCelkemFAP">
+                <titl>Incomming invoices</titl>
+            </prop>
+            <prop name="sumCelkemFAV">
+                <titl>Outgoing invoices</titl>
+            </prop>
+            <prop name="sumCelkemPOKPrijem">
+                <titl>Cash desk - received</titl>
+            </prop>
+            <prop name="sumCelkemPOKVydej">
+                <titl>Cash desk - issued</titl>
+            </prop>
+            <prop name="sumCelkemSKLPrijem">
+                <titl>Stock - received</titl>
+            </prop>
+            <prop name="sumCelkemSKLVydej">
+                <titl>Stock - issued</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazDanEvidSK">
+            <prop name="_title">
+                <titl>Income-outcome statement: details</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazHospodareni">
+            <prop name="_title">
+                <titl>Czech statement of income</titl>
+            </prop>
+            <prop name="mesic">
+                <titl>Month</titl>
+            </prop>
+            <prop name="rok">
+                <titl>Year</titl>
+            </prop>
+            <prop name="vykazHospodareniZa">
+                <titl>Czech statement of income monthly</titl>
+            </prop>
+            <prop name="zahrnovany">
+                <titl>included</titl>
+            </prop>
+            <prop name="ziskZtrata">
+                <titl>profit (+), loss (-)</titl>
+            </prop>
+        </rpt>
+        <rpt name="vykazMossPrehled">
+            <prop name="_title">
+                <titl>MOSS tax return MOSS (overview)</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka">
+            <prop name="vysledovka">
+                <titl>Profit and loss statement</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka$$NES">
+            <prop name="_title">
+                <titl>Profit and loss statement in full extent</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka$$SUM">
+            <prop name="_title">
+                <titl>Profit and loss statement in simplified extent</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovka$$SUM_ZAKL">
+            <prop name="_title">
+                <titl>Basic Profit and Loss Statement</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovkaPoUctechObraty">
+            <prop name="_title">
+                <titl>List of expenses and profits (turnovers)</titl>
+            </prop>
+        </rpt>
+        <rpt name="vysledovkaPoUctechStavy">
+            <prop name="_title">
+                <titl>List of expenses and profits (balances)</titl>
+            </prop>
+        </rpt>
+        <rpt name="Zakazka">
+            <prop name="_title">
+                <titl>Orders</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapocetPohledavek">
+            <prop name="_title">
+                <titl>Agreement on reciprocal credit of receivables</titl>
+            </prop>
+            <prop name="a">
+                <titl>and</titl>
+            </prop>
+            <prop name="celkemZapocteno">
+                <titl>Total accounted:</titl>
+            </prop>
+            <prop name="cisDokl">
+                <titl>Document</titl>
+            </prop>
+            <prop name="cisloZapoctu">
+                <titl>Credit number</titl>
+            </prop>
+            <prop name="datSplat">
+                <titl>Maturity</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Issue date</titl>
+            </prop>
+            <prop name="dohoda">
+                <titl>Agreement on reciprocal credit of receivables</titl>
+            </prop>
+            <prop name="obeStrany">
+                <titl>On the day of %p both parties agreed on reciprocal credit of the amount of %p %p.</titl>
+            </prop>
+            <prop name="podleParagrafu">
+                <titl>Under § 364 of the Commercial Code and § 580 of the Civil Code</titl>
+            </prop>
+            <prop name="podleParagrafu1982">
+                <titl>Under § 1982 of the Civil Code</titl>
+            </prop>
+            <prop name="pohledavka">
+                <titl>Receivables to the firm %p from the firm %p:</titl>
+            </prop>
+            <prop name="potvrzenouKopii">
+                <titl>Please send confirmed copy back to our address.</titl>
+            </prop>
+            <prop name="seDohodli">
+                <titl>They conclude an agreement on reciprocal credits of the following receivables and liabilities</titl>
+            </prop>
+            <prop name="sumCelkem">
+                <titl>Invoiced</titl>
+            </prop>
+            <prop name="varSym">
+                <titl>VS</titl>
+            </prop>
+            <prop name="za">
+                <titl>for the period of %p</titl>
+            </prop>
+            <prop name="zapocteno">
+                <titl>Accounted</titl>
+            </prop>
+            <prop name="zavazek">
+                <titl>Liabilities of the firm %p to the firm %p:</titl>
+            </prop>
+            <prop name="zbyvaUhradit">
+                <titl>Remains to be paid</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapocetPohledavekJednostranny">
+            <prop name="_title">
+                <titl>Unilateral set-off of receivables</titl>
+            </prop>
+            <prop name="dohoda">
+                <titl>Unilateral set-off of receivables and liabilities</titl>
+            </prop>
+            <prop name="podleParagrafu">
+                <titl>Under § 364-368 of the Commercial Code and § 580-581 of the Civil Code</titl>
+            </prop>
+            <prop name="podleParagrafu1982">
+                <titl>Under § 1982 of the Civil Code</titl>
+            </prop>
+            <prop name="sdelujemeVam">
+                <titl>We hereby notify you that by the date %p we are figuring in the following receivables and liabilities:</titl>
+            </prop>
+            <prop name="sPozdravem">
+                <titl>Sincerely</titl>
+            </prop>
+            <prop name="vSidloOrganizaceDne">
+                <titl>In %p dated %p.</titl>
+            </prop>
+        </rpt>
+        <rpt name="zapujcky">
+            <prop name="_title">
+                <titl>Property - loans</titl>
+            </prop>
+        </rpt>
+        <rpt name="zebraStitkyMaster$$cenAkt$$SUM">
+            <prop name="_title">
+                <titl>Shelf tags (Zebra, 50x30mm)</titl>
+            </prop>
+        </rpt>
+        <rpt name="zebraStitkyMaster$$NES">
+            <prop name="_title">
+                <titl>Tags (Zebra, 50x30mm, for piece in document item)</titl>
+            </prop>
+        </rpt>
+        <rpt name="zebraStitkyMaster$$SUM">
+            <prop name="_title">
+                <titl>Tags (Zebra, 50x30mm, for document item)</titl>
+            </prop>
+        </rpt>
+    </reports>
+</config>

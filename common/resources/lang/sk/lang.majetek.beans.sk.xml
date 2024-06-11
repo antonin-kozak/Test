@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/sk/lang.majetek.beans.sk.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <beans>
+        <bean name="global">
+            <prop name="majetek">
+                <titl>Majetok</titl>
+            </prop>
+            <prop name="vozCislo">
+                <titl>Číslo</titl>
+            </prop>
+            <prop name="vozHavar">
+                <titl>Havarijné poistenie</titl>
+            </prop>
+            <prop name="vozHavarVyse">
+                <titl>Výška havarijného poistenia</titl>
+            </prop>
+            <prop name="vozModel">
+                <titl>Model</titl>
+            </prop>
+            <prop name="vozObjem">
+                <titl>Objem</titl>
+            </prop>
+            <prop name="vozSpz">
+                <titl>EČV</titl>
+            </prop>
+            <prop name="vozTyp">
+                <titl>Typ vozidla</titl>
+            </prop>
+            <prop name="vozVybava">
+                <titl>Výbava</titl>
+            </prop>
+            <prop name="vozZnacka">
+                <titl>Značka</titl>
+            </prop>
+            <prop name="zustVyrazUcet">
+                <titl>Účet zostatku vyrazenia</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.adr.AdrUdalostMaj">
+            <prop name="_title">
+                <titl>Udalosti</titl>
+            </prop>
+            <prop name="actRuTask">
+                <titl>ActRuTask</titl>
+            </prop>
+            <prop name="celodenni">
+                <titl>Celodenný</titl>
+            </prop>
+            <prop name="dokonceni">
+                <titl>Čas dokončenia</titl>
+            </prop>
+            <prop name="firmaExterni">
+                <titl>Externá spoločnosť</titl>
+            </prop>
+            <prop name="osoby">
+                <titl>Osoby</titl>
+            </prop>
+            <prop name="predmet">
+                <titl>Predmet</titl>
+            </prop>
+            <prop name="prioritaK">
+                <titl>Priorita</titl>
+            </prop>
+            <prop name="processDefinitionId">
+                <titl>ProcessDefinitionId</titl>
+            </prop>
+            <prop name="stavUdalK">
+                <titl>Stav udalosti</titl>
+            </prop>
+            <prop name="taskDefinitionKey">
+                <titl>TaskDefinitionKey</titl>
+            </prop>
+            <prop name="termin">
+                <titl>Termín realizácie</titl>
+            </prop>
+            <prop name="typAkt">
+                <titl>Typ aktivity</titl>
+            </prop>
+            <prop name="umisteni">
+                <titl>Umiestnenie</titl>
+            </prop>
+            <prop name="volno">
+                <titl>Voľno</titl>
+            </prop>
+            <prop name="zahajeni">
+                <titl>Čas začatia</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.DanNakl">
+            <prop name="_title">
+                <titl>Daňové náklady</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Dátum účtovania</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Číslo dokladu</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasingový majetok</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Základ [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZklMen">
+                <titl>Základ [mena]</titl>
+            </prop>
+            <prop name="szbDph">
+                <titl>Sadzba DPH</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Účet DAL základu</titl>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Účet MD základu</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.DanOdpis">
+            <prop name="_title">
+                <titl>Daňové odpisy</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Číslo dokladu</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Majetok</titl>
+            </prop>
+            <prop name="stariMaj">
+                <titl>Vek majetku [Roky]</titl>
+                <abbr>Vek[Roky]</abbr>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Daň.odpis [%currency-symbol]</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Účet DAL odpisu</titl>
+                <abbr>Účet DAL</abbr>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Účet MD odpisu</titl>
+                <abbr>Účet MD</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Leasing">
+            <prop name="_title">
+                <titl>Leasingový majetok</titl>
+            </prop>
+            <prop name="casUcet">
+                <titl>Účet časového rozlíšenia nákladov</titl>
+                <abbr>Úč.čas.rozl.</abbr>
+            </prop>
+            <prop name="cena">
+                <titl>Cena [%currency-symbol]</titl>
+            </prop>
+            <prop name="cidPoriz">
+                <titl>Číslo zmluvy</titl>
+            </prop>
+            <prop name="datKoupe">
+                <titl>Dátum započatia leasingu</titl>
+                <abbr>Započatie</abbr>
+            </prop>
+            <prop name="datVyroby">
+                <titl>Dátum výroby</titl>
+                <abbr>Vyrobené</abbr>
+            </prop>
+            <prop name="dodavatel">
+                <titl>Dodávateľ</titl>
+            </prop>
+            <prop name="dphSnizUcet">
+                <titl>Účet DPH - znížená sadzba</titl>
+                <abbr>Úč.DPH zákl.</abbr>
+            </prop>
+            <prop name="dphZaklUcet">
+                <titl>Účet DPH - základná sadzba</titl>
+                <abbr>Úč.DPH zníž.</abbr>
+            </prop>
+            <prop name="druhK">
+                <titl>Druh</titl>
+            </prop>
+            <prop name="eanKod">
+                <titl>EAN kód</titl>
+            </prop>
+            <prop name="frekDanNaklK">
+                <titl>Frekvencia daňových nákladov</titl>
+                <abbr>Frekv.daň.nákl.</abbr>
+            </prop>
+            <prop name="mena">
+                <titl>Mena</titl>
+            </prop>
+            <prop name="mjZarukyK">
+                <titl>MJ záruky</titl>
+            </prop>
+            <prop name="naklUcet">
+                <titl>Účet daňových nákladov</titl>
+                <abbr>Úč.daň.nákl.</abbr>
+            </prop>
+            <prop name="pocetDanNakl">
+                <titl>Počet daňových nákladov [v mesiacoch]</titl>
+                <abbr>? daň.nákl</abbr>
+            </prop>
+            <prop name="pocetSplatek">
+                <titl>Počet splátiek</titl>
+                <abbr>? splátiek</abbr>
+            </prop>
+            <prop name="stredisko">
+                <titl>Stredisko</titl>
+            </prop>
+            <prop name="sumSplaceno">
+                <titl>Splatené [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZbyva">
+                <titl>Zostáva [%currency-symbol]</titl>
+            </prop>
+            <prop name="typLeasingu">
+                <titl>Typ</titl>
+            </prop>
+            <prop name="vyrCis">
+                <titl>Výrobné číslo</titl>
+            </prop>
+            <prop name="vyrobce">
+                <titl>Výrobca</titl>
+            </prop>
+            <prop name="zakazka">
+                <titl>Zákazka</titl>
+            </prop>
+            <prop name="zaruka">
+                <titl>Záruka</titl>
+            </prop>
+            <prop name="zavazUcet">
+                <titl>Účet záväzku</titl>
+                <abbr>Úč.záväzku</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Majetek">
+            <prop name="_title">
+                <titl>Drobný, dlhodobý a neodpisovaný majetok</titl>
+            </prop>
+            <prop name="cena">
+                <titl>Cena pri zaradení [%currency-symbol]</titl>
+                <abbr>Cena</abbr>
+            </prop>
+            <prop name="cidPoriz">
+                <titl>Doklad nadobudnutia</titl>
+                <abbr>Doklad</abbr>
+            </prop>
+            <prop name="datKoupe">
+                <titl>Dátum nákupu</titl>
+                <abbr>Kúpené</abbr>
+            </prop>
+            <prop name="datUdalVyr">
+                <titl>Dátum udalosti vyradenia</titl>
+                <abbr>Vyradené</abbr>
+            </prop>
+            <prop name="datUdalZar">
+                <titl>Dátum udalosti zaradenia</titl>
+                <abbr>Dát. udal. zar.</abbr>
+            </prop>
+            <prop name="datVyroby">
+                <titl>Dátum výroby</titl>
+                <abbr>Vyrobené</abbr>
+            </prop>
+            <prop name="datZacDan">
+                <titl>Začiatok daňových odpisov</titl>
+                <abbr>Zač.daň.odp</abbr>
+            </prop>
+            <prop name="datZacUcet">
+                <titl>Začiatok účtovných odpisov</titl>
+                <abbr>Zač.úč.odp.</abbr>
+            </prop>
+            <prop name="datZar">
+                <titl>Dátum zaradenia</titl>
+                <abbr>Zaradené</abbr>
+            </prop>
+            <prop name="dodavatel">
+                <titl>Dodávateľ</titl>
+            </prop>
+            <prop name="doklFaktury">
+                <titl>ID prijatej faktúry</titl>
+            </prop>
+            <prop name="druhK">
+                <titl>Druh</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Inventárne číslo</titl>
+                <abbr>Inv.čís.</abbr>
+            </prop>
+            <prop name="kusySoubor">
+                <titl>Kusov v súbore</titl>
+                <abbr>Kusov</abbr>
+            </prop>
+            <prop name="mistnost">
+                <titl>Miestnosť</titl>
+            </prop>
+            <prop name="nahrUcetOdpK">
+                <titl>Vytvárať účtovné odpisy</titl>
+                <abbr>Účt. odp.?</abbr>
+            </prop>
+            <prop name="objekt">
+                <titl>Objekt</titl>
+            </prop>
+            <prop name="odpisovyUcet">
+                <titl>Účet odpisu</titl>
+                <abbr>Účet odp.</abbr>
+            </prop>
+            <prop name="opravnyUcet">
+                <titl>Účet oprávok</titl>
+                <abbr>Účet opr.</abbr>
+            </prop>
+            <prop name="predpisUcetOdp">
+                <titl>Počet mesiacov odpisovania</titl>
+                <abbr>Doba úč.odp.</abbr>
+            </prop>
+            <prop name="primarniUcet">
+                <titl>Primárny účet</titl>
+                <abbr>Prim.účet</abbr>
+            </prop>
+            <prop name="protiUcetZarazeni">
+                <titl>Protiúčet zaradenia</titl>
+                <abbr>Protiúč.zar.</abbr>
+            </prop>
+            <prop name="sazba">
+                <titl>Odpisová skupina</titl>
+                <abbr>Odp.skup.</abbr>
+            </prop>
+            <prop name="sekce">
+                <titl>Sekcia</titl>
+            </prop>
+            <prop name="skp">
+                <titl>Štandardná klasifikácia produkcie</titl>
+                <abbr>ŠKP</abbr>
+            </prop>
+            <prop name="stariPor">
+                <titl>Vek pri zaradení [Mesiace]</titl>
+                <abbr>Vek zar.</abbr>
+            </prop>
+            <prop name="stariTechZhod">
+                <titl>Vek tech. zhod. [Mesiace]</titl>
+                <abbr>Vek tech.zh.</abbr>
+            </prop>
+            <prop name="techZhod">
+                <titl>Pred zaradením bolo technické zhodnotenie</titl>
+                <abbr>Tech.zh.</abbr>
+            </prop>
+            <prop name="typMajetku">
+                <titl>Typ</titl>
+            </prop>
+            <prop name="uctovatZar">
+                <titl>Účtovať zaradenie</titl>
+            </prop>
+            <prop name="vyrobce">
+                <titl>Výrobca</titl>
+            </prop>
+            <prop name="zpusOdpK">
+                <titl>Spôsob odpisovania</titl>
+                <abbr>Spôs.odp.</abbr>
+            </prop>
+            <prop name="zpusPor">
+                <titl>Spôsob nadobudnutia</titl>
+                <abbr>Spôs.nad.</abbr>
+            </prop>
+            <prop name="zustDan">
+                <titl>Zostatok daňový [%currency-symbol]</titl>
+                <abbr>Zost.daň.</abbr>
+            </prop>
+            <prop name="zustUcet">
+                <titl>Zostatok účtovný [%currency-symbol]</titl>
+                <abbr>Zost.účt.</abbr>
+            </prop>
+            <prop name="zvysZrychK">
+                <titl>Zvýšenie odpisu v 1. roku</titl>
+                <abbr>Zvýš.1.rok</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.MajetekStavKDatu">
+            <prop name="_title">
+                <titl>Stav majetku k dátumu</titl>
+            </prop>
+            <prop name="cena">
+                <titl>Cena</titl>
+            </prop>
+            <prop name="cenaAktualni">
+                <titl>Aktuálna cena</titl>
+            </prop>
+            <prop name="danoveOdpisy">
+                <titl>Daňové odpisy</titl>
+            </prop>
+            <prop name="danoveOdpisyObdobi">
+                <titl>Daňové odpisy za obdobie</titl>
+            </prop>
+            <prop name="datPoslDanOdpis">
+                <titl>Dátum posledného odpisu dane</titl>
+            </prop>
+            <prop name="datPoslUcetOdpis">
+                <titl>Dátum posledného účtovného odpisu</titl>
+            </prop>
+            <prop name="datPuvZar">
+                <titl>Zaradenie</titl>
+            </prop>
+            <prop name="datUdalVyr">
+                <titl>Vyradenie</titl>
+            </prop>
+            <prop name="datZacDan">
+                <titl>Zač. daňových odp.</titl>
+            </prop>
+            <prop name="datZacUcet">
+                <titl>Zač. účtovných odp.</titl>
+            </prop>
+            <prop name="datZar">
+                <titl>Zaradenie do ABRA Flexi</titl>
+            </prop>
+            <prop name="dobaOdpMesic">
+                <titl>Doba odpisovania [měsíc]</titl>
+            </prop>
+            <prop name="idMajetekStavKDatu">
+                <titl>ID</titl>
+            </prop>
+            <prop name="odpUcet">
+                <titl>Účet odpisu</titl>
+            </prop>
+            <prop name="opravUcet">
+                <titl>Účet oprávok</titl>
+            </prop>
+            <prop name="predpisUcetOdp">
+                <titl>Počet mesiacov odpisovania</titl>
+                <abbr>Doba úč.odp.</abbr>
+            </prop>
+            <prop name="protiUcetZar">
+                <titl>Protiúčet zaradenia</titl>
+            </prop>
+            <prop name="sazba">
+                <titl>Odp. skup.</titl>
+            </prop>
+            <prop name="stariPor">
+                <titl>Odpísané pri zr. [mesiace]</titl>
+            </prop>
+            <prop name="sumPoslDanOdpis">
+                <titl>Posledný daňový odpis</titl>
+            </prop>
+            <prop name="sumPoslUcetOdpis">
+                <titl>Posledný účtovný odpis</titl>
+            </prop>
+            <prop name="sumTechZhodnoceni">
+                <titl>Celkové technické hodnotenie</titl>
+            </prop>
+            <prop name="sumVyrazeni">
+                <titl>Celkovo vyradené</titl>
+            </prop>
+            <prop name="typMajetku">
+                <titl>Typ majetku</titl>
+            </prop>
+            <prop name="ucetniOdpisy">
+                <titl>Účtovné odpisy</titl>
+            </prop>
+            <prop name="ucetniOdpisyObdobi">
+                <titl>Účtovné odpisy za obdobie</titl>
+            </prop>
+            <prop name="ucetniStejneJakoDanove">
+                <titl>Účtovné odp. = daňové odp.</titl>
+            </prop>
+            <prop name="zmenaCenyZkl">
+                <titl>Celková zmena cien</titl>
+            </prop>
+            <prop name="zustatekDanovy">
+                <titl>Daňový zostatok</titl>
+            </prop>
+            <prop name="zustatekUcetni">
+                <titl>Účtovný zostatok</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Sazba">
+            <prop name="_title">
+                <titl>Odpisové skupiny</titl>
+            </prop>
+            <prop name="dobaOdp">
+                <titl>Doba odpisu</titl>
+                <abbr>Doba</abbr>
+            </prop>
+            <prop name="koefZrOdp1">
+                <titl>Prvý rok</titl>
+                <abbr>1.rok zrých.</abbr>
+            </prop>
+            <prop name="koefZrOdpDalsi">
+                <titl>Ďalšie roky</titl>
+                <abbr>Ďalšie r.zrých.</abbr>
+            </prop>
+            <prop name="koefZrOdpZvCeny">
+                <titl>Zvýšenie vst. ceny</titl>
+                <abbr>Zvýšenie zrých.</abbr>
+            </prop>
+            <prop name="minDobaOdp">
+                <titl>Min. doba odpisu</titl>
+            </prop>
+            <prop name="prcRoOdp1">
+                <titl>Prvý rok</titl>
+                <abbr>1.rok rovn.</abbr>
+            </prop>
+            <prop name="prcRoOdpDalsi">
+                <titl>Ďalšie roky</titl>
+                <abbr>Ďalšie r.rovn.</abbr>
+            </prop>
+            <prop name="prcRoOdpZvCeny">
+                <titl>Zvýšenie vst.ceny</titl>
+                <abbr>Zvýšenie rovn.</abbr>
+            </prop>
+            <prop name="typOdpK">
+                <titl>Spôsob odp.</titl>
+            </prop>
+            <prop name="zmena">
+                <titl>Vytvorená používateľom</titl>
+                <abbr>Vytvorená už.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.SplatKal">
+            <prop name="_title">
+                <titl>Splátkový kalendár</titl>
+            </prop>
+            <prop name="clenDph">
+                <titl>Členenie DPH</titl>
+                <desc>Členenie DPH určuje riadky formulára priznania DPH, do ktorého sú čiastky započítané</desc>
+            </prop>
+            <prop name="clenSplK">
+                <titl>Členenie splátky</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Dátum splátky</titl>
+            </prop>
+            <prop name="doklFaktury">
+                <titl>Faktúra</titl>
+            </prop>
+            <prop name="dphDalUcet">
+                <titl>Účet DAL DPH</titl>
+                <abbr>Úč.DAL DPH</abbr>
+            </prop>
+            <prop name="dphMdUcet">
+                <titl>Účet MD DPH</titl>
+                <abbr>Úč.MD DPH</abbr>
+            </prop>
+            <prop name="kod">
+                <titl>Číslo dokladu</titl>
+                <abbr>Čís.dokl.</abbr>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasingový majetok</titl>
+            </prop>
+            <prop name="statDph">
+                <titl>Štát DPH</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>DPH [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumDphMen">
+                <titl>DPH [mena]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Základ [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZklMen">
+                <titl>Základ [mena]</titl>
+            </prop>
+            <prop name="szbDphK">
+                <titl>Sadzba DPH</titl>
+            </prop>
+            <prop name="typSplK">
+                <titl>Typ splátky</titl>
+            </prop>
+            <prop name="zavazek">
+                <titl>Záväzok</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Účet DAL základu</titl>
+                <abbr>Úč.DAL zakl.</abbr>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Účet MD základu</titl>
+                <abbr>Úč.MD zakl.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.TypLeas">
+            <prop name="_title">
+                <titl>Typy leasingového majetku</titl>
+            </prop>
+            <prop name="casUcet">
+                <titl>Účet časového rozlíšenia nákladov</titl>
+                <abbr>Úč.čas.rozl.</abbr>
+            </prop>
+            <prop name="druhK">
+                <titl>Druh</titl>
+            </prop>
+            <prop name="naklUcet">
+                <titl>Účet daňových nákladov</titl>
+                <abbr>Úč.daň.nákl.</abbr>
+            </prop>
+            <prop name="zavazUcet">
+                <titl>Účet záväzku</titl>
+                <abbr>Úč.záväz.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.TypMaj">
+            <prop name="_title">
+                <titl>Typy majetku - dlhodobý a drobný</titl>
+            </prop>
+            <prop name="druhK">
+                <titl>Druh</titl>
+            </prop>
+            <prop name="jeOdpis">
+                <titl>Majetok je odpisovaný</titl>
+            </prop>
+            <prop name="odpisovyUcet">
+                <titl>Účet odpisu</titl>
+            </prop>
+            <prop name="opravnyUcet">
+                <titl>Účet oprávok</titl>
+            </prop>
+            <prop name="primarniUcet">
+                <titl>Účet majetku</titl>
+            </prop>
+            <prop name="protiUcetZarazeni">
+                <titl>Účet zaradenia</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.UcetOdpis">
+            <prop name="_title">
+                <titl>Účtovné odpisy</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Číslo dokladu</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Majetok</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Účet. odpis [%currency-symbol]</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Účet DAL odpisu</titl>
+                <abbr>Účet DAL</abbr>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Účet MD odpisu</titl>
+                <abbr>Účet MD</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Udalost">
+            <prop name="_title">
+                <titl>Udalosti</titl>
+            </prop>
+            <prop name="datVys">
+                <titl>Dátum dokladu</titl>
+            </prop>
+            <prop name="dphDalUcet">
+                <titl>Účet DAL zostatku</titl>
+                <abbr>Úč.DAL zost.</abbr>
+            </prop>
+            <prop name="dphMdUcet">
+                <titl>Účet MD zostatku</titl>
+                <abbr>Úč.MD zost.</abbr>
+            </prop>
+            <prop name="kod">
+                <titl>Číslo dokladu</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Majetok</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>Čiastka účtovná [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumDphDanove">
+                <titl>Výška dane [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Čiastka [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZklMena">
+                <titl>Základ [mena]</titl>
+            </prop>
+            <prop name="typUdalostiK">
+                <titl>Typ udalosti</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Účet DAL udalosti</titl>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Účet MD udalosti</titl>
+            </prop>
+            <prop name="zmena">
+                <titl>Zmena zostatku používateľa</titl>
+                <abbr>Zm. zost. použív.</abbr>
+            </prop>
+            <prop name="zmenaDobyOdpis">
+                <titl>Zmena doby odpisu</titl>
+                <abbr>Zm.doby odp.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Umisteni">
+            <prop name="_title">
+                <titl>Umiestnenie</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Zapujcka">
+            <prop name="_title">
+                <titl>Zápožičky/zodpovedná osoba</titl>
+            </prop>
+            <prop name="datKonec">
+                <titl>Do dátumu</titl>
+            </prop>
+            <prop name="datZahaj">
+                <titl>Od dátumu</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Majetok</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>Osoba</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.MajetekExtId">
+            <prop name="_title">
+                <titl>Externé identifikátory</titl>
+            </prop>
+            <prop name="extId">
+                <titl>Identifikátor</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Majetok</titl>
+            </prop>
+            <prop name="tabulka">
+                <titl>Tabuľka</titl>
+            </prop>
+            <prop name="typLeas">
+                <titl>Typ leasingu</titl>
+            </prop>
+            <prop name="typMaj">
+                <titl>Typ majetku</titl>
+            </prop>
+            <prop name="umisteni">
+                <titl>Umiestnenie</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.PrilohaMajetek">
+            <prop name="_title">
+                <titl>Prílohy</titl>
+            </prop>
+            <prop name="data">
+                <titl>Dáta prílohy</titl>
+            </prop>
+            <prop name="dataHash">
+                <titl>Odtlačok dát prílohy (MD5 súčet)</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Majetok</titl>
+            </prop>
+            <prop name="prilozit">
+                <titl>Priložiť</titl>
+                <abbr>Priložiť</abbr>
+            </prop>
+            <prop name="typK">
+                <titl>Typ prílohy</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.UcelMajetek">
+            <prop name="_title">
+                <titl>Účel</titl>
+            </prop>
+            <prop name="adresar">
+                <titl>Subjekt údajov</titl>
+            </prop>
+            <prop name="definiceUcelu">
+                <titl>Definícia účelu</titl>
+            </prop>
+            <prop name="polozkaPrikazu">
+                <titl>Príkazová položka</titl>
+            </prop>
+            <prop name="pozastaveno">
+                <titl>Pozastavené</titl>
+            </prop>
+            <prop name="ucelLog">
+                <titl>Okolnosti vzniku účelu</titl>
+            </prop>
+            <prop name="vyreseno">
+                <titl>Vyriešené</titl>
+            </prop>
+            <prop name="zapujcka">
+                <titl>Zápožička</titl>
+            </prop>
+        </bean>
+    </beans>
+</config>

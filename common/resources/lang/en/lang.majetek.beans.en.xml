@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--DOCTYPE config SYSTEM "ws.lang.dtd"-->
+
+<!--
+   Document    : /home/rnovacek/git/flexibee/common/etc/resources/lang/en/lang.majetek.beans.en.xml
+   Created on  : 25. 04. 2024, 08:33
+   Author      : WinStrom generator
+   Description : Language localization.
+-->
+
+<config>
+    <specif>
+        <program>WinStrom</program>
+        <version>2024.2.11-SNAPSHOT-20240425-r32385</version>
+        <date>11-07-2008</date>
+    </specif>
+
+    <vzor>
+        <prop name="xyz">
+            <titl>Aaa</titl>
+            <abbr>TableTitle</abbr>
+            <desc>Bbb ccc ddd.</desc>
+            <icon>aaa.gif</icon>
+            <mnem>83</mnem>
+            <acck>83</acck>
+            <accm>2</accm>
+        </prop>
+    </vzor>
+
+    <!--=====================================================================-->
+    <!--=====================================================================-->
+
+    <beans>
+        <bean name="global">
+            <prop name="majetek">
+                <titl>Property</titl>
+            </prop>
+            <prop name="vozCislo">
+                <titl>Number</titl>
+            </prop>
+            <prop name="vozHavar">
+                <titl>Accident insurance</titl>
+            </prop>
+            <prop name="vozHavarVyse">
+                <titl>Accident coverage amount</titl>
+            </prop>
+            <prop name="vozModel">
+                <titl>Model</titl>
+            </prop>
+            <prop name="vozObjem">
+                <titl>Displacement</titl>
+            </prop>
+            <prop name="vozSpz">
+                <titl>Licence plate No.</titl>
+            </prop>
+            <prop name="vozTyp">
+                <titl>Type of vehicle</titl>
+            </prop>
+            <prop name="vozVybava">
+                <titl>Equipment</titl>
+            </prop>
+            <prop name="vozZnacka">
+                <titl>Brand</titl>
+            </prop>
+            <prop name="zustVyrazUcet">
+                <titl>Account balance for exclusion</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.adr.AdrUdalostMaj">
+            <prop name="_title">
+                <titl>Events</titl>
+            </prop>
+            <prop name="actRuTask">
+                <titl>ActRuTask</titl>
+            </prop>
+            <prop name="celodenni">
+                <titl>All-day</titl>
+            </prop>
+            <prop name="dokonceni">
+                <titl>Time of completion</titl>
+            </prop>
+            <prop name="firmaExterni">
+                <titl>External company</titl>
+            </prop>
+            <prop name="osoby">
+                <titl>Persons</titl>
+            </prop>
+            <prop name="predmet">
+                <titl>Subject</titl>
+            </prop>
+            <prop name="prioritaK">
+                <titl>Priority</titl>
+            </prop>
+            <prop name="processDefinitionId">
+                <titl>ProcessDefinitionId</titl>
+            </prop>
+            <prop name="stavUdalK">
+                <titl>Event status</titl>
+            </prop>
+            <prop name="taskDefinitionKey">
+                <titl>TaskDefinitionKey</titl>
+            </prop>
+            <prop name="termin">
+                <titl>Implementation deadline</titl>
+            </prop>
+            <prop name="typAkt">
+                <titl>Activity type</titl>
+            </prop>
+            <prop name="umisteni">
+                <titl>Location</titl>
+            </prop>
+            <prop name="volno">
+                <titl>Free</titl>
+            </prop>
+            <prop name="zahajeni">
+                <titl>Start time</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.DanNakl">
+            <prop name="_title">
+                <titl>Tax costs</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Date</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Document number</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Basic [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZklMen">
+                <titl>Basic [curr.]</titl>
+            </prop>
+            <prop name="szbDph">
+                <titl>VAT rate</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Base account credit</titl>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Base account debit</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.DanOdpis">
+            <prop name="_title">
+                <titl>Tax depreciations</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Document number</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Property</titl>
+            </prop>
+            <prop name="stariMaj">
+                <titl>Age</titl>
+                <abbr>Age [year]</abbr>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Tax write-off [%currency-symbol]</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Account credit of depreciation</titl>
+                <abbr>Acc. credit</abbr>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Account debit of depreciation</titl>
+                <abbr>Acc. debit</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Leasing">
+            <prop name="_title">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="casUcet">
+                <titl>Account of accrual and deferral costs</titl>
+                <abbr>Acc. def. costs</abbr>
+            </prop>
+            <prop name="cena">
+                <titl>Price [%currency-symbol]</titl>
+            </prop>
+            <prop name="cidPoriz">
+                <titl>Number of comments</titl>
+            </prop>
+            <prop name="datKoupe">
+                <titl>Purchase date</titl>
+                <abbr>Pur. date</abbr>
+            </prop>
+            <prop name="datVyroby">
+                <titl>Production date</titl>
+                <abbr>Prod. date</abbr>
+            </prop>
+            <prop name="dodavatel">
+                <titl>supplier</titl>
+            </prop>
+            <prop name="dphSnizUcet">
+                <titl>Account VAT reduced</titl>
+                <abbr>Acc. VAT:</abbr>
+            </prop>
+            <prop name="dphZaklUcet">
+                <titl>Account VAT basic</titl>
+                <abbr>Acc. VAT b.</abbr>
+            </prop>
+            <prop name="druhK">
+                <titl>Leasing type</titl>
+            </prop>
+            <prop name="eanKod">
+                <titl>EAN</titl>
+            </prop>
+            <prop name="frekDanNaklK">
+                <titl>frequency of tax costs</titl>
+                <abbr>Frequency</abbr>
+            </prop>
+            <prop name="mena">
+                <titl>Currency</titl>
+            </prop>
+            <prop name="mjZarukyK">
+                <titl>Guarantee unit</titl>
+            </prop>
+            <prop name="naklUcet">
+                <titl>Account of tax costs</titl>
+                <abbr>Acc tax. costs</abbr>
+            </prop>
+            <prop name="pocetDanNakl">
+                <titl>Number of tax costs</titl>
+                <abbr># tax costs</abbr>
+            </prop>
+            <prop name="pocetSplatek">
+                <titl>Number of lease instalment</titl>
+                <abbr># instalment</abbr>
+            </prop>
+            <prop name="stredisko">
+                <titl>Centre</titl>
+            </prop>
+            <prop name="sumSplaceno">
+                <titl>Pay off [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZbyva">
+                <titl>Remain [%currency-symbol]</titl>
+            </prop>
+            <prop name="typLeasingu">
+                <titl>Leasingu type</titl>
+            </prop>
+            <prop name="vyrCis">
+                <titl>Serial number</titl>
+            </prop>
+            <prop name="vyrobce">
+                <titl>Producer</titl>
+            </prop>
+            <prop name="zakazka">
+                <titl>Order</titl>
+            </prop>
+            <prop name="zaruka">
+                <titl>Guarantee</titl>
+            </prop>
+            <prop name="zavazUcet">
+                <titl>Account of obligation</titl>
+                <abbr>Obl.acc.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Majetek">
+            <prop name="_title">
+                <titl>Property</titl>
+            </prop>
+            <prop name="cena">
+                <titl>Price [%currency-symbol]</titl>
+                <abbr>Price</abbr>
+            </prop>
+            <prop name="cidPoriz">
+                <titl>Document number</titl>
+                <abbr>Document #</abbr>
+            </prop>
+            <prop name="datKoupe">
+                <titl>Purchase date</titl>
+                <abbr>Pur. date</abbr>
+            </prop>
+            <prop name="datUdalVyr">
+                <titl>Date of deletion</titl>
+                <abbr>Deleted</abbr>
+            </prop>
+            <prop name="datUdalZar">
+                <titl>Event date - filing</titl>
+                <abbr>Fil. event date</abbr>
+            </prop>
+            <prop name="datVyroby">
+                <titl>Production date</titl>
+                <abbr>Prod. date</abbr>
+            </prop>
+            <prop name="datZacDan">
+                <titl>Start tax depreciations</titl>
+                <abbr>Start tax dep.</abbr>
+            </prop>
+            <prop name="datZacUcet">
+                <titl>Start accounting depreciations</titl>
+                <abbr>Start acc. dep.</abbr>
+            </prop>
+            <prop name="datZar">
+                <titl>Filing date</titl>
+                <abbr>Fil. date</abbr>
+            </prop>
+            <prop name="dodavatel">
+                <titl>Supplier</titl>
+            </prop>
+            <prop name="doklFaktury">
+                <titl>ID incoming invoice</titl>
+            </prop>
+            <prop name="druhK">
+                <titl>Property class</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Inventory number</titl>
+                <abbr>Inventory #</abbr>
+            </prop>
+            <prop name="kusySoubor">
+                <titl>Units in set</titl>
+                <abbr>Units</abbr>
+            </prop>
+            <prop name="mistnost">
+                <titl>Room</titl>
+            </prop>
+            <prop name="nahrUcetOdpK">
+                <titl>Generate accounting depreciations</titl>
+                <abbr>Acc. dep.?</abbr>
+            </prop>
+            <prop name="objekt">
+                <titl>Site</titl>
+            </prop>
+            <prop name="odpisovyUcet">
+                <titl>Account of depreciation</titl>
+                <abbr>Dep. acc.</abbr>
+            </prop>
+            <prop name="opravnyUcet">
+                <titl>Acc. of accumulated depreciation</titl>
+                <abbr>Acc. dep. acc.</abbr>
+            </prop>
+            <prop name="predpisUcetOdp">
+                <titl>Month of depreciations</titl>
+                <abbr>Dep. #</abbr>
+            </prop>
+            <prop name="primarniUcet">
+                <titl>Primary account</titl>
+                <abbr>Prim.acc.</abbr>
+            </prop>
+            <prop name="protiUcetZarazeni">
+                <titl>Counteracc. of filing</titl>
+                <abbr>Countercc.</abbr>
+            </prop>
+            <prop name="sazba">
+                <titl>Rate of depreciation</titl>
+                <abbr>Rate</abbr>
+            </prop>
+            <prop name="sekce">
+                <titl>Section</titl>
+            </prop>
+            <prop name="skp">
+                <titl>Standard Classification of Production</titl>
+                <abbr>SCP</abbr>
+            </prop>
+            <prop name="stariPor">
+                <titl>Written off during filing (in months)</titl>
+                <abbr>Written off months</abbr>
+            </prop>
+            <prop name="stariTechZhod">
+                <titl>Technical valorization age [Months]</titl>
+                <abbr>Tech. age</abbr>
+            </prop>
+            <prop name="techZhod">
+                <titl>Increase in value before filing</titl>
+                <abbr>Increase</abbr>
+            </prop>
+            <prop name="typMajetku">
+                <titl>Property type</titl>
+            </prop>
+            <prop name="uctovatZar">
+                <titl>Account entry</titl>
+            </prop>
+            <prop name="vyrobce">
+                <titl>Producer</titl>
+            </prop>
+            <prop name="zpusOdpK">
+                <titl>Depreciation's method</titl>
+                <abbr>Method</abbr>
+            </prop>
+            <prop name="zpusPor">
+                <titl>Acquisition method</titl>
+                <abbr>Acq. method</abbr>
+            </prop>
+            <prop name="zustDan">
+                <titl>Tax balance [%currency-symbol]</titl>
+                <abbr>Tax bal.</abbr>
+            </prop>
+            <prop name="zustUcet">
+                <titl>Accounting balance [%currency-symbol]</titl>
+                <abbr>Acc. bal</abbr>
+            </prop>
+            <prop name="zvysZrychK">
+                <titl>Depreciation in first period</titl>
+                <abbr>a.First per.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.MajetekStavKDatu">
+            <prop name="_title">
+                <titl>Balance of assets as at</titl>
+            </prop>
+            <prop name="cena">
+                <titl>Value</titl>
+            </prop>
+            <prop name="cenaAktualni">
+                <titl>Current value</titl>
+            </prop>
+            <prop name="danoveOdpisy">
+                <titl>Tax write-off</titl>
+            </prop>
+            <prop name="danoveOdpisyObdobi">
+                <titl>Tax write-off for period</titl>
+            </prop>
+            <prop name="datPoslDanOdpis">
+                <titl>Date of last tax depreciation</titl>
+            </prop>
+            <prop name="datPoslUcetOdpis">
+                <titl>Date of last accounting depreciation</titl>
+            </prop>
+            <prop name="datPuvZar">
+                <titl>Inclusion</titl>
+            </prop>
+            <prop name="datUdalVyr">
+                <titl>Exclusion</titl>
+            </prop>
+            <prop name="datZacDan">
+                <titl>Start of tax write-off</titl>
+            </prop>
+            <prop name="datZacUcet">
+                <titl>Start of book depreciation</titl>
+            </prop>
+            <prop name="datZar">
+                <titl>Inclusion in ABRA Flexi</titl>
+            </prop>
+            <prop name="dobaOdpMesic">
+                <titl>Depreciation period [month]</titl>
+            </prop>
+            <prop name="idMajetekStavKDatu">
+                <titl>ID</titl>
+            </prop>
+            <prop name="odpUcet">
+                <titl>Depreciation account</titl>
+            </prop>
+            <prop name="opravUcet">
+                <titl>Allowance account</titl>
+            </prop>
+            <prop name="predpisUcetOdp">
+                <titl>Number of months of depreciation</titl>
+                <abbr>Accounting depreciation duration</abbr>
+            </prop>
+            <prop name="protiUcetZar">
+                <titl>Contra account for inclusion</titl>
+            </prop>
+            <prop name="sazba">
+                <titl>Depreciation group</titl>
+            </prop>
+            <prop name="stariPor">
+                <titl>Depreciated during inclusion [month]</titl>
+            </prop>
+            <prop name="sumPoslDanOdpis">
+                <titl>Last tax depreciation</titl>
+            </prop>
+            <prop name="sumPoslUcetOdpis">
+                <titl>Last accounting depreciation</titl>
+            </prop>
+            <prop name="sumTechZhodnoceni">
+                <titl>Total technical evaluation</titl>
+            </prop>
+            <prop name="sumVyrazeni">
+                <titl>Total eliminations</titl>
+            </prop>
+            <prop name="typMajetku">
+                <titl>Asset type</titl>
+            </prop>
+            <prop name="ucetniOdpisy">
+                <titl>Account depreciation</titl>
+            </prop>
+            <prop name="ucetniOdpisyObdobi">
+                <titl>Accounting depreciation for period</titl>
+            </prop>
+            <prop name="ucetniStejneJakoDanove">
+                <titl>Accounting depreciation = tax write-off</titl>
+            </prop>
+            <prop name="zmenaCenyZkl">
+                <titl>Total price change</titl>
+            </prop>
+            <prop name="zustatekDanovy">
+                <titl>Tax balance</titl>
+            </prop>
+            <prop name="zustatekUcetni">
+                <titl>Accounting balance</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Sazba">
+            <prop name="_title">
+                <titl>Deprecation tariff</titl>
+            </prop>
+            <prop name="dobaOdp">
+                <titl>Deprecation period</titl>
+                <abbr>a.period</abbr>
+            </prop>
+            <prop name="koefZrOdp1">
+                <titl>First year</titl>
+                <abbr>a.1.year</abbr>
+            </prop>
+            <prop name="koefZrOdpDalsi">
+                <titl>Next years</titl>
+                <abbr>a.next</abbr>
+            </prop>
+            <prop name="koefZrOdpZvCeny">
+                <titl>Raising input price</titl>
+                <abbr>a.raising</abbr>
+            </prop>
+            <prop name="minDobaOdp">
+                <titl>Min. Deprecation period</titl>
+            </prop>
+            <prop name="prcRoOdp1">
+                <titl>First year</titl>
+                <abbr>u.1.year</abbr>
+            </prop>
+            <prop name="prcRoOdpDalsi">
+                <titl>Next years</titl>
+                <abbr>u.next</abbr>
+            </prop>
+            <prop name="prcRoOdpZvCeny">
+                <titl>Input price rise</titl>
+                <abbr>u.raising</abbr>
+            </prop>
+            <prop name="typOdpK">
+                <titl>deduction method</titl>
+            </prop>
+            <prop name="zmena">
+                <titl>Created by user</titl>
+                <abbr>Cre. by u.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.SplatKal">
+            <prop name="_title">
+                <titl>Schedule of payments</titl>
+            </prop>
+            <prop name="clenDph">
+                <titl>VAT category</titl>
+                <desc>VAT classification determines rows of VAT return form, to which the prices are included.</desc>
+            </prop>
+            <prop name="clenSplK">
+                <titl>Lease instalment category</titl>
+            </prop>
+            <prop name="datVyst">
+                <titl>Date lease instalment</titl>
+            </prop>
+            <prop name="doklFaktury">
+                <titl>Invoice</titl>
+            </prop>
+            <prop name="dphDalUcet">
+                <titl>VAT account credit</titl>
+                <abbr>VAT acc.cr.</abbr>
+            </prop>
+            <prop name="dphMdUcet">
+                <titl>VAT account debit</titl>
+                <abbr>VAT acc.deb.</abbr>
+            </prop>
+            <prop name="kod">
+                <titl>Document number</titl>
+                <abbr>Document #</abbr>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing property</titl>
+            </prop>
+            <prop name="statDph">
+                <titl>Country VAT</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>VAT [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumDphMen">
+                <titl>VAT [curr.]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Base [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZklMen">
+                <titl>Base[curr.]</titl>
+            </prop>
+            <prop name="szbDphK">
+                <titl>VAT rate</titl>
+            </prop>
+            <prop name="typSplK">
+                <titl>Lease instalment type</titl>
+            </prop>
+            <prop name="zavazek">
+                <titl>Obligation</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Base account credit</titl>
+                <abbr>Base acc.cr.</abbr>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Base account debit</titl>
+                <abbr>Base acc.deb.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.TypLeas">
+            <prop name="_title">
+                <titl>Leasing types</titl>
+            </prop>
+            <prop name="casUcet">
+                <titl>Account of accrual and deferral costs</titl>
+                <abbr>Acc. def. costs</abbr>
+            </prop>
+            <prop name="druhK">
+                <titl>Leasing class</titl>
+            </prop>
+            <prop name="naklUcet">
+                <titl>Account of tax costs</titl>
+                <abbr>Acc tax. costs</abbr>
+            </prop>
+            <prop name="zavazUcet">
+                <titl>Account of obligation</titl>
+                <abbr>Obl.acc</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.TypMaj">
+            <prop name="_title">
+                <titl>Property types</titl>
+            </prop>
+            <prop name="druhK">
+                <titl>Property class</titl>
+            </prop>
+            <prop name="jeOdpis">
+                <titl>Property is depreciated</titl>
+            </prop>
+            <prop name="odpisovyUcet">
+                <titl>Account of depreciation</titl>
+            </prop>
+            <prop name="opravnyUcet">
+                <titl>Account of accumulated d.</titl>
+            </prop>
+            <prop name="primarniUcet">
+                <titl>Primary account</titl>
+            </prop>
+            <prop name="protiUcetZarazeni">
+                <titl>Contra acc.file</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.UcetOdpis">
+            <prop name="_title">
+                <titl>Accounting depreciations</titl>
+            </prop>
+            <prop name="kod">
+                <titl>Document number</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Property</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Accounting depreciation [%currency-symbol]</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Account credit of depreciation</titl>
+                <abbr>Acc. credit</abbr>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Account debit of depreciation</titl>
+                <abbr>Acc. debit</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Udalost">
+            <prop name="_title">
+                <titl>Events</titl>
+            </prop>
+            <prop name="datVys">
+                <titl>Document date</titl>
+            </prop>
+            <prop name="dphDalUcet">
+                <titl>Account Credit balance</titl>
+                <abbr>Bal.acc. credit</abbr>
+            </prop>
+            <prop name="dphMdUcet">
+                <titl>Account Debit balance</titl>
+                <abbr>Bal.acc.debit</abbr>
+            </prop>
+            <prop name="kod">
+                <titl>Document number</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Property</titl>
+            </prop>
+            <prop name="sumDph">
+                <titl>Balance [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumDphDanove">
+                <titl>Tax amount [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZkl">
+                <titl>Basic [%currency-symbol]</titl>
+            </prop>
+            <prop name="sumZklMena">
+                <titl>Basic [Currency]</titl>
+            </prop>
+            <prop name="typUdalostiK">
+                <titl>Event type</titl>
+            </prop>
+            <prop name="zklDalUcet">
+                <titl>Account Credit event</titl>
+            </prop>
+            <prop name="zklMdUcet">
+                <titl>Account Debit event</titl>
+            </prop>
+            <prop name="zmena">
+                <titl>User change of balance</titl>
+                <abbr>User change of balance</abbr>
+            </prop>
+            <prop name="zmenaDobyOdpis">
+                <titl>Depreciation period change</titl>
+                <abbr>Dep.per.ch.</abbr>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Umisteni">
+            <prop name="_title">
+                <titl>Location</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.maj.Zapujcka">
+            <prop name="_title">
+                <titl>Loan / answerable person</titl>
+            </prop>
+            <prop name="datKonec">
+                <titl>from</titl>
+            </prop>
+            <prop name="datZahaj">
+                <titl>to</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Property</titl>
+            </prop>
+            <prop name="osoba">
+                <titl>ID of person</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.MajetekExtId">
+            <prop name="_title">
+                <titl>External identifier</titl>
+            </prop>
+            <prop name="extId">
+                <titl>Identifier</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Property</titl>
+            </prop>
+            <prop name="tabulka">
+                <titl>Table</titl>
+            </prop>
+            <prop name="typLeas">
+                <titl>Types of leasing</titl>
+            </prop>
+            <prop name="typMaj">
+                <titl>Types of property</titl>
+            </prop>
+            <prop name="umisteni">
+                <titl>Location</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.PrilohaMajetek">
+            <prop name="_title">
+                <titl>Attachments</titl>
+            </prop>
+            <prop name="data">
+                <titl>Attachment data</titl>
+            </prop>
+            <prop name="dataHash">
+                <titl>Attachment data copy (MD5 sum)</titl>
+            </prop>
+            <prop name="leasing">
+                <titl>Leasing</titl>
+            </prop>
+            <prop name="majetek">
+                <titl>Property</titl>
+            </prop>
+            <prop name="prilozit">
+                <titl>Attach</titl>
+                <abbr>Attach</abbr>
+            </prop>
+            <prop name="typK">
+                <titl>Attachment type</titl>
+            </prop>
+        </bean>
+        <bean name="cz.winstrom.vo.w.UcelMajetek">
+            <prop name="_title">
+                <titl>Purpose</titl>
+            </prop>
+            <prop name="adresar">
+                <titl>Data subject</titl>
+            </prop>
+            <prop name="definiceUcelu">
+                <titl>Definition of purpose</titl>
+            </prop>
+            <prop name="polozkaPrikazu">
+                <titl>Order item</titl>
+            </prop>
+            <prop name="pozastaveno">
+                <titl>Paused</titl>
+            </prop>
+            <prop name="ucelLog">
+                <titl>Circumstances of origin of the purpose</titl>
+            </prop>
+            <prop name="vyreseno">
+                <titl>Resolved</titl>
+            </prop>
+            <prop name="zapujcka">
+                <titl>Loan</titl>
+            </prop>
+        </bean>
+    </beans>
+</config>
