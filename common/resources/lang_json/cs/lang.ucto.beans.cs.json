@@ -1,0 +1,30 @@
+{
+  "beans" : {
+    "bean" : {
+      "cz.winstrom.vo.adr.Adresar" : {
+        "_title" : {
+          "titl": "Adresář"
+        },
+        "cancelled" : {
+          "titl": "Zrušení"
+        },
+        "cenHladiny" : {
+          "titl": "Cenové úrovně",
+          "desc" : "Políčko na definování cenových úrovní"
+        }
+      },
+      "cz.winstrom.vo.adr.Psc" : {
+        "_title" : {
+          "titl": "Poštovní směrovací čísla"
+        },
+        "castObce" : {
+          "titl": "Část obce"
+        },
+        "kodOkresu" : {
+          "titl": "Kód Okresu",
+          "desc" : "Políčko na Kódu okresu"
+        }
+      }
+    }
+  }
+}

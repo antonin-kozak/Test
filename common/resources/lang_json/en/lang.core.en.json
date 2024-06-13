@@ -1,0 +1,25 @@
+{
+  "vzor" : {
+    "prop": {
+      "xyz" : {
+        "titl": "Aaa",
+        "abbr" : "TableTitle",
+        "desc" : "Bbb ccc ddd.",
+        "icon" : "aaa.gif",
+        "mnem" : "83",
+        "acck" : "83",
+        "accm" : "2"
+      }
+    }
+  },
+  "actions" : {
+    "act" : {
+      "titl" : "Vytvořit kopii",
+      "desc" : "Vytvořit kopii záznamu (zkratka Alt+K",
+      "icon" : "win/new-copy.png",
+      "mnem" : "75",
+      "acck" : "75",
+      "accm" : "2"
+    }
+  }
+}
