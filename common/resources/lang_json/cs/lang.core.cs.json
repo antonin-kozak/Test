@@ -24,7 +24,7 @@
     },
     "act": {
       "titl": "Vytvořit kopii",
-      "desc": "Vytvořit kopii záznamu (zkratka Alt+K",
+      "desc": "Vytvořit kopii záznamu (zkratka Alt+K)",
       "icon": "win/new-copy.png",
       "mnem": "75",
       "acck": "75",
