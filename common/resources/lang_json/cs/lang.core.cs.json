@@ -20,6 +20,15 @@
       "mnem" : "75",
       "acck" : "75",
       "accm" : "2"
+    },
+    "open" : {
+      "act" : {
+        "titl" : "Otevřít",
+        "desc" : "Otevřít vybraný záznam",
+        "icon" : "win/open.png",
+        "mnem" : "79",
+        "accm" : "2"
+      }
     }
   }
 }
