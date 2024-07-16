@@ -14,7 +14,7 @@
   },
   "actions": {
     "act": {
-      "titl": "Vytvořit kopii",
+      "titl": "Create a copy",
       "desc": "Vytvořit kopii záznamu (zkratka Alt+K",
       "icon": "win/new-copy.png",
       "mnem": "75",
