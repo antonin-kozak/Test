@@ -20,6 +20,12 @@
       "mnem": "75",
       "acck": "75",
       "accm": "2"
+    },
+    "open": {
+      "act": {
+        "desc": "Open selected item",
+        "titl": "Open"
+      }
     }
   }
 }
