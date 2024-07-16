@@ -1,34 +1,34 @@
 {
-  "vzor" : {
+  "_vzor": {
     "prop": {
-      "xyz" : {
+      "xyz": {
         "titl": "Aaa",
-        "abbr" : "TableTitle",
-        "desc" : "Bbb ccc ddd.",
-        "icon" : "aaa.gif",
-        "mnem" : "83",
-        "acck" : "83",
-        "accm" : "2"
+        "abbr": "TableTitle",
+        "desc": "Bbb ccc ddd.",
+        "icon": "aaa.gif",
+        "mnem": "83",
+        "acck": "83",
+        "accm": "2"
       }
     }
   },
-  "actions" : {
-    "act" : {
-      "titl" : "Vytvořit kopii",
-      "desc" : "Vytvořit kopii záznamu (zkratka Alt+K",
-      "icon" : "win/new-copy.png",
-      "mnem" : "75",
-      "acck" : "75",
-      "accm" : "2"
-    },
-    "open" : {
-      "act" : {
-        "titl" : "Otevřít",
-        "desc" : "Otevřít vybraný záznam",
-        "icon" : "win/open.png",
-        "mnem" : "79",
-        "accm" : "2"
+  "actions": {
+    "open": {
+      "act": {
+        "titl": "Otevřít",
+        "desc": "Otevřít vybraný záznam",
+        "icon": "win/open.png",
+        "mnem": "79",
+        "accm": "2"
       }
+    },
+    "act": {
+      "titl": "Vytvořit kopii",
+      "desc": "Vytvořit kopii záznamu (zkratka Alt+K",
+      "icon": "win/new-copy.png",
+      "mnem": "75",
+      "acck": "75",
+      "accm": "2"
     }
   }
 }
