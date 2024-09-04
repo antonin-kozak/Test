@@ -1,0 +1,2041 @@
+{
+  "beans": {
+    "cz.winstrom.vo.mzdy.AktualMzdy": {
+      "_title": {
+        "titl": "Aktualizace Mzdy"
+      },
+      "bezneNahrady": {
+        "titl": "Běžné náhrady"
+      },
+      "cistaMzda": {
+        "titl": "Čistá mzda"
+      },
+      "dan": {
+        "titl": "Daň"
+      },
+      "danBonus": {
+        "abbr": "Bonus",
+        "titl": "Daňový bonus"
+      },
+      "danRezident": {
+        "titl": "Daň rezident"
+      },
+      "danSlevPrac": {
+        "abbr": "Sleva popl.",
+        "titl": "Sleva - poplatníka"
+      },
+      "danSlevSum": {
+        "abbr": "Sleva celk.",
+        "titl": "Sleva na dani celkem"
+      },
+      "danSrazka": {
+        "abbr": "Srá.daň.",
+        "titl": "Srážková daň"
+      },
+      "danVypocet": {
+        "titl": "Vypočtená daň"
+      },
+      "danZaklSraz": {
+        "titl": "Základ pro sráž. daň"
+      },
+      "danZaklSrazSum": {
+        "abbr": "Zákl.sráž.daně",
+        "titl": "Základ pro sráž. daň celkem"
+      },
+      "danZaklSum": {
+        "abbr": "Zákl.daně",
+        "titl": "Základ pro výpočet daně"
+      },
+      "danZaloha": {
+        "abbr": "Záloha",
+        "titl": "Záloha na daň"
+      },
+      "datum": {
+        "titl": "Datum"
+      },
+      "datumVypocet": {
+        "abbr": "Vypočteno",
+        "titl": "Datum výpočtu"
+      },
+      "dobaDovol": {
+        "titl": "Dovolená"
+      },
+      "dobaDovolCastka": {
+        "titl": "Dovolená částka"
+      },
+      "dobaFond": {
+        "abbr": "Fond",
+        "titl": "Fond pracovní doby"
+      },
+      "dobaNeodpr": {
+        "abbr": "Neodp.doba",
+        "titl": "Neodpracovaná doba celkem"
+      },
+      "dobaOdpr": {
+        "abbr": "Odprac.doba",
+        "titl": "Odpracovaná doba celkem"
+      },
+      "dobaOdprDny": {
+        "abbr": "Odprac.dny",
+        "titl": "Odpracované dny celkem"
+      },
+      "dobirka": {
+        "titl": "Dobírka"
+      },
+      "dovolVybrano": {
+        "abbr": "Čerp. dov. od poč. roku",
+        "titl": "Čerpaná dovolená od počátku roku - celkem"
+      },
+      "dovolZbyva": {
+        "abbr": "Zbývá dov.",
+        "titl": "Zbývá dovolené v roce"
+      },
+      "duchodSpor": {
+        "titl": "Druhý pilíř"
+      },
+      "hrubaMzda": {
+        "abbr": "Hrubá m.",
+        "titl": "Hrubá mzda"
+      },
+      "hrubaPrumer": {
+        "titl": "Základ pro průměrný výdělek"
+      },
+      "idAktualMzdy": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Příjmení a jméno"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "mzdaMesicni": {
+        "abbr": "Měs.mzda",
+        "titl": "Měsíční mzda (plat)"
+      },
+      "mzdaNahrada": {
+        "abbr": "Náhrady",
+        "titl": "Náhrada mzdy"
+      },
+      "nahradaNeschop": {
+        "abbr": "Náhr.nesch.",
+        "titl": "Náhrada neschopnost"
+      },
+      "nemoc": {
+        "titl": "Nemoc"
+      },
+      "nepenezPrijmy": {
+        "abbr": "Nepeněžní",
+        "titl": "Nepeněžní příjmy"
+      },
+      "nepritCelk": {
+        "abbr": "Nepřít.",
+        "titl": "Neodpracovaná doba - nepřítomnost"
+      },
+      "nocniPripl": {
+        "abbr": "Přípl.noc",
+        "titl": "Příplatek za noční práci"
+      },
+      "odmeny": {
+        "titl": "Odměny"
+      },
+      "osbCis": {
+        "abbr": "Osob.č.",
+        "titl": "Osobní číslo"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "osobaHlav": {
+        "titl": "Hlavička osoby"
+      },
+      "podilNaZisku": {
+        "abbr": "Podíl",
+        "titl": "Podíl na zisku"
+      },
+      "pracPracPrum": {
+        "abbr": "PPP",
+        "titl": "Pracovněprávní hodinový průměr"
+      },
+      "premiePevna": {
+        "abbr": "Prémi pev.",
+        "titl": "Prémie pevnou částkou"
+      },
+      "premieProc": {
+        "abbr": "Prémie %",
+        "titl": "Prémie % ze základní mzdy"
+      },
+      "premieProcUkaz": {
+        "abbr": "Prémie % ukaz.",
+        "titl": "Prémie % z ukazatele / základu"
+      },
+      "prescasCastka": {
+        "abbr": "Přesčas %currency-symbol",
+        "titl": "Přesčas - částka"
+      },
+      "prescasHodiny": {
+        "titl": "Přesčas hod."
+      },
+      "prescasPripl": {
+        "abbr": "Přípl.přesčas",
+        "titl": "Příplatek za práci přesčas"
+      },
+      "prispIzolacka": {
+        "abbr": "Přisp. izolačka",
+        "titl": "Příspěvek ke karanténě (izolačka)"
+      },
+      "prostrediPripl": {
+        "abbr": "Přípl.prostř.",
+        "titl": "Příplatek za prostředí"
+      },
+      "refundNeschop": {
+        "abbr": "Refund.náhr.",
+        "titl": "Refundace neschopnost"
+      },
+      "skupOsob": {
+        "abbr": "Skupina",
+        "titl": "Skupina osob"
+      },
+      "slevaDeti": {
+        "titl": "Sleva děti"
+      },
+      "slevaSpFirma": {
+        "abbr": "Sleva SP firma",
+        "titl": "Sleva SP firma (krácené úvazky)"
+      },
+      "socPojCelk": {
+        "abbr": "Soc.poj.",
+        "titl": "Sociální poj. celkem"
+      },
+      "socPojCelkDp": {
+        "abbr": "Soc.poj.DP",
+        "titl": "Soc. poj. celkem DP"
+      },
+      "socPojCelkSniz": {
+        "abbr": "Soc.poj.sníž.",
+        "titl": "Sociální poj. celkem snížené"
+      },
+      "socPojCelkSpada": {
+        "titl": "Spadá do soc.pojištění"
+      },
+      "socPojFirma": {
+        "abbr": "Soc.poj.firma",
+        "titl": "Sociální poj. firma"
+      },
+      "socPojFirmaSniz": {
+        "abbr": "Soc.poj.firma sníž.",
+        "titl": "Sociální poj. firma snížené"
+      },
+      "socPojFirmaSnizZap": {
+        "abbr": "Soc.poj.firma sníž.zap.",
+        "titl": "Sociální poj. firma snížené zapnuto"
+      },
+      "socPojPrac": {
+        "abbr": "Soc.poj.prac.",
+        "titl": "Sociální poj. pracovník"
+      },
+      "socPojSleva": {
+        "titl": "Sociální poj. sleva"
+      },
+      "socPojZakl": {
+        "abbr": "Soc.poj.zákl.",
+        "titl": "Sociální poj. základ"
+      },
+      "socPojZaklDp": {
+        "abbr": "Soc.poj.zákl.DP",
+        "titl": "Soc. poj. základ DP"
+      },
+      "socPojZaklSniz": {
+        "abbr": "Soc.poj.zákl.sníž.",
+        "titl": "Soc. poj. základ - snížený"
+      },
+      "srazkaSporeni": {
+        "titl": "Srážky"
+      },
+      "stravenkyDoLim": {
+        "titl": "Stravenky do limitu"
+      },
+      "stravenkyNadLim": {
+        "titl": "Stravenky nad limit"
+      },
+      "stravenkySrazka": {
+        "titl": "Stravenky srážka zaměstnanec"
+      },
+      "superhrubaMzda": {
+        "abbr": "SHM",
+        "titl": "Superhrubá mzda"
+      },
+      "svatekCastka": {
+        "abbr": "Svátek Kč",
+        "titl": "Odpracováno - svátek - částka"
+      },
+      "svatekHodiny": {
+        "abbr": "Svátek hod.",
+        "titl": "Odpracováno - svátek - hodiny"
+      },
+      "svatekNahrada": {
+        "abbr": "Náhr.svátek",
+        "titl": "Náhráda za svátek"
+      },
+      "svatekNahradaHodiny": {
+        "abbr": "Hod.náhr.svátek",
+        "titl": "Náhráda za svátek - hodiny"
+      },
+      "weekendCastka": {
+        "abbr": "Weekend Kč",
+        "titl": "Odpracováno - weekend - částka"
+      },
+      "weekendHodiny": {
+        "abbr": "Weekend hod.",
+        "titl": "Odpracováno - weekend - hodiny"
+      },
+      "zalohaMimoradna": {
+        "abbr": "Zál.mim.",
+        "titl": "Záloha mimořádná"
+      },
+      "zalohaRadna": {
+        "titl": "Zál.řádná"
+      },
+      "zdravPoj": {
+        "abbr": "Zdr.pojiš.",
+        "titl": "Zdravotní pojišťovna"
+      },
+      "zdravPojCelk": {
+        "abbr": "Zdr.poj.",
+        "titl": "Zdravotní poj. celkem"
+      },
+      "zdravPojFirma": {
+        "abbr": "Zdr.poj.firma",
+        "titl": "Zdravotní poj. firma"
+      },
+      "zdravPojPrac": {
+        "abbr": "Zdr.poj.prac.",
+        "titl": "Zdravotní poj. pracovník"
+      },
+      "zdravPojZakl": {
+        "abbr": "Zdr.poj.zákl.",
+        "titl": "Zdravotní poj. základ"
+      }
+    },
+    "cz.winstrom.vo.mzdy.BanSpojMzdy": {
+      "_title": {
+        "titl": "Bankovní spojení"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      }
+    },
+    "cz.winstrom.vo.mzdy.CisMzdSloz": {
+      "_title": {
+        "titl": "Číselník mzdových složek"
+      },
+      "castMzd": {
+        "titl": "Částka"
+      },
+      "castkaDen": {
+        "abbr": "Kč/den",
+        "titl": "Částka za den"
+      },
+      "castkaHod": {
+        "abbr": "Kč/hod.",
+        "titl": "Částka za hodinu"
+      },
+      "cisDoklNem": {
+        "abbr": "Doklad",
+        "titl": "Číslo dokladu (pro nemoc)"
+      },
+      "dnyKal": {
+        "abbr": "Dny kal.",
+        "titl": "Dny kalendářní"
+      },
+      "dnyPrac": {
+        "abbr": "Dny pr.",
+        "titl": "Dny pracovní"
+      },
+      "dnySvatek": {
+        "abbr": "Dny sv.",
+        "titl": "Dny ve svátek"
+      },
+      "doplatZdravK": {
+        "abbr": "Dopl.ZP",
+        "titl": "Doplatek do zdravotního pojištění"
+      },
+      "hodiny": {
+        "titl": "Hodiny"
+      },
+      "naOsobu": {
+        "titl": "Společná pro všechny pracovní poměry osoby"
+      },
+      "paskaMala": {
+        "titl": "Malá páska"
+      },
+      "paskaPole": {
+        "titl": "Viditelná pole"
+      },
+      "paskaVelka": {
+        "titl": "Velká páska"
+      },
+      "pocetMes": {
+        "abbr": "Platí",
+        "titl": "Počet měsíců za které složka platí"
+      },
+      "pracovni": {
+        "titl": "Pracovní složka (nezobrazuje se)"
+      },
+      "procMzd": {
+        "abbr": "% / konst.",
+        "titl": "Procento / konstanta"
+      },
+      "prumNaDenNem": {
+        "titl": "Denní průměr"
+      },
+      "prumNaHodNem": {
+        "titl": "Hodinový průměr"
+      },
+      "skupSlozkyK": {
+        "titl": "Skupina složky"
+      },
+      "typSlozkyK": {
+        "titl": "Typ složky"
+      },
+      "ukladatNulove": {
+        "titl": "Ukládat nulové"
+      },
+      "uuid": {
+        "titl": "UUID"
+      },
+      "vsCastMzd": {
+        "titl": "x Částka"
+      },
+      "vsCastNaDen": {
+        "titl": "x Částka za den"
+      },
+      "vsCastNaHod": {
+        "titl": "x Částka za hodinu"
+      },
+      "vsCisDoklNem": {
+        "titl": "x Číslo dokladu (pro nemoc)"
+      },
+      "vsDatDo": {
+        "titl": "x Koncové datum"
+      },
+      "vsDatOd": {
+        "titl": "x Počáteční datum"
+      },
+      "vsDnyKal": {
+        "titl": "x Dny kalendářní"
+      },
+      "vsDnyPrac": {
+        "titl": "x Dny pracovní"
+      },
+      "vsDnySvatek": {
+        "titl": "x Dny ve svátek"
+      },
+      "vsDoplatZdrPoj": {
+        "titl": "x Doplatek do zdravotního pojištění"
+      },
+      "vsHodiny": {
+        "titl": "x Hodiny"
+      },
+      "vsHodinySvatek": {
+        "titl": "x Hodiny ve svátek"
+      },
+      "vsPocetMes": {
+        "titl": "x Počet měsíců za které složka platí"
+      },
+      "vsProcMzd": {
+        "titl": "x Procento / konstanta"
+      },
+      "vsPrumNaDenNem": {
+        "titl": "x Denní průměr"
+      },
+      "vsPrumNaHodNem": {
+        "titl": "x Hodinový průměr"
+      },
+      "vsZaklJeKracen": {
+        "titl": "x Základ je krácen úvazkem"
+      },
+      "vsZaklMzd": {
+        "titl": "x Základ"
+      },
+      "vsZmenaCastMzd": {
+        "titl": "x Uživatelská změna částky"
+      },
+      "vyznamK": {
+        "titl": "Význam"
+      },
+      "zaklJeKracen": {
+        "titl": "x Základ je krácen úvazkem"
+      },
+      "zaklMzd": {
+        "abbr": "Základ",
+        "titl": "Základ mzdy"
+      },
+      "zapoctovyList": {
+        "titl": "Zápočtový list"
+      },
+      "zmenaCastMzd": {
+        "abbr": "Uživ.zm.",
+        "titl": "Uživatelská změna částky"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Dite": {
+      "_title": {
+        "titl": "Děti"
+      },
+      "datNaroz": {
+        "titl": "Datum narození"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "pohlaviK": {
+        "titl": "Pohlaví"
+      },
+      "rodCis": {
+        "titl": "Rodné číslo"
+      },
+      "ztp_P": {
+        "titl": "ZTP/P"
+      },
+      "ztp_PDo": {
+        "titl": "Do"
+      },
+      "ztp_POd": {
+        "titl": "Od"
+      }
+    },
+    "cz.winstrom.vo.mzdy.DovolenaCerpani": {
+      "_title": {
+        "titl": "Čerpání dovolené"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "idDovolenaCerpani": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Příjmení a jméno"
+      },
+      "kraceno": {
+        "titl": "Kráceno (hod)"
+      },
+      "lonska": {
+        "titl": "Loňská (hod)"
+      },
+      "narok": {
+        "titl": "Nárok (hod)"
+      },
+      "necerpana": {
+        "titl": "Proplacená (hod)"
+      },
+      "pomCast": {
+        "titl": "Poměrná část (hod)"
+      },
+      "vybrano": {
+        "titl": "Vybráno (hod)"
+      },
+      "zbyva": {
+        "titl": "Zbývá (hod)"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalc": {
+      "_title": {
+        "abbr": "Řádka MK",
+        "titl": "Řádka mzdové kalkulačky"
+      },
+      "doHodnoty": {
+        "titl": "Hodnota do"
+      },
+      "ispv": {
+        "titl": "ISPV"
+      },
+      "koeficient": {
+        "abbr": "Koef.1",
+        "titl": "Koeficient 1"
+      },
+      "koeficient2": {
+        "abbr": "Koef.2",
+        "titl": "Koeficient 2"
+      },
+      "koeficient3": {
+        "abbr": "Koef.3",
+        "titl": "Koeficient 3"
+      },
+      "mzdCalcHlav": {
+        "titl": "Hlavička"
+      },
+      "mzdSlozIn": {
+        "abbr": "Vstup 1",
+        "titl": "Vstupní složka 1"
+      },
+      "mzdSlozIn2": {
+        "abbr": "Vstup 2",
+        "titl": "Vstupní složka 2"
+      },
+      "mzdSlozOut": {
+        "abbr": "Výstup",
+        "titl": "Výstupní složka"
+      },
+      "odHodnoty": {
+        "titl": "Hodnota od"
+      },
+      "operaceK": {
+        "titl": "Operace"
+      },
+      "poleIn": {
+        "abbr": "Pole 1",
+        "titl": "Vstupní pole 1"
+      },
+      "poleIn2": {
+        "abbr": "Pole 2",
+        "titl": "Vstupní pole 2"
+      },
+      "poleOut": {
+        "abbr": "Pole out",
+        "titl": "Výstupní pole"
+      },
+      "sumMesicu": {
+        "titl": "Sumovat měsíců"
+      },
+      "sumTypK": {
+        "titl": "Typ sumace"
+      },
+      "vstupNapricPomery": {
+        "titl": "Vstup napříč poměry"
+      },
+      "vyhodnotRocne": {
+        "titl": "Vyhodnoť ročně"
+      },
+      "vyslDoHodnoty": {
+        "titl": "Výsl. do hodnoty"
+      },
+      "vyslOdHodnoty": {
+        "titl": "Výsl. od hodnoty"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalcHlav": {
+      "_title": {
+        "titl": "Hlavička mzdové kalkulačky"
+      },
+      "radkaHromadne": {
+        "titl": "Hromadné před"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalcHrom": {
+      "_title": {
+        "titl": "Hromadná operace"
+      },
+      "mzdCalcHlav": {
+        "titl": "Hlavička"
+      },
+      "mzdSlozIn": {
+        "titl": "Vstupní složka"
+      },
+      "mzdSlozOut": {
+        "titl": "Výstupní složka"
+      },
+      "poleIn": {
+        "titl": "Vstupní pole"
+      },
+      "poleOut": {
+        "titl": "Výstupní pole"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalcInit": {
+      "_title": {
+        "titl": "Inicializace"
+      },
+      "mzdCalcHlav": {
+        "titl": "Hlavička"
+      },
+      "mzdSlozOut": {
+        "titl": "Cílová složka"
+      },
+      "platnostK": {
+        "titl": "Platnost"
+      },
+      "poleIn": {
+        "titl": "Zdrojové pole"
+      },
+      "poleOut": {
+        "titl": "Cílové pole"
+      },
+      "typPracPom": {
+        "titl": "Typ prac.poměru"
+      },
+      "zdrojK": {
+        "titl": "Zdrojový objekt"
+      },
+      "zpracDatumK": {
+        "titl": "Způsob zpracování data"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdSloz": {
+      "_title": {
+        "titl": "Inicializační složky"
+      },
+      "castMzd": {
+        "titl": "Částka"
+      },
+      "castkaDen": {
+        "titl": "Částka za den"
+      },
+      "castkaHod": {
+        "titl": "Částka za hodinu"
+      },
+      "cisDoklNem": {
+        "titl": "Číslo dokladu (pro nemoc)"
+      },
+      "cisMzdSloz": {
+        "titl": "Mzdová složka"
+      },
+      "datumDo": {
+        "titl": "Koncové datum"
+      },
+      "datumDoklad": {
+        "titl": "Datum dodání dokladu"
+      },
+      "datumOd": {
+        "titl": "Počáteční datum"
+      },
+      "dnyKal": {
+        "titl": "Dny kalendářní"
+      },
+      "dnyKalReal": {
+        "titl": "Dny kalendářní skutečné"
+      },
+      "dnyPrac": {
+        "titl": "Dny pracovní"
+      },
+      "dnySvatek": {
+        "titl": "Dny ve svátek"
+      },
+      "doplatZdravK": {
+        "titl": "Doplatek do zdravotního pojištění"
+      },
+      "doubleX": {
+        "titl": "Částka přesně"
+      },
+      "hodiny": {
+        "titl": "Hodiny"
+      },
+      "hodinySvatek": {
+        "titl": "Hodiny svátek"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "mesicPlatba": {
+        "titl": "Měsíc platby"
+      },
+      "nepritomnost": {
+        "titl": "Nepřítomnost"
+      },
+      "odmena": {
+        "titl": "Odměna"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "pocetMes": {
+        "titl": "Odměna / prémie je za [měsíce]"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "pracovni": {
+        "titl": "Pracovní"
+      },
+      "procMzd": {
+        "titl": "Procento / konstanta"
+      },
+      "prumNaDenNem": {
+        "titl": "Denní průměr"
+      },
+      "prumNaHodNem": {
+        "titl": "Hodinový průměr"
+      },
+      "rokPlatba": {
+        "titl": "Rok platby"
+      },
+      "skupSlozkyK": {
+        "titl": "Skupina složky"
+      },
+      "srazka": {
+        "titl": "Srážka"
+      },
+      "stalaMzdSloz": {
+        "titl": "Stálá mzdová složka"
+      },
+      "typSlozkyK": {
+        "titl": "Typ složky"
+      },
+      "zaklJeKracen": {
+        "titl": "Základ je krácen úvazkem"
+      },
+      "zaklMzd": {
+        "titl": "Základ"
+      },
+      "zmenaCastMzd": {
+        "titl": "Uživatelská změna částky"
+      },
+      "zmenaCasu": {
+        "titl": "Uživatelská změna času"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Nepritomnost": {
+      "_title": {
+        "titl": "Nepřítomnost"
+      },
+      "cisMzdSloz": {
+        "titl": "Důvod nepřítomnosti"
+      },
+      "cisloRozhodnuti": {
+        "titl": "Číslo rozhodnutí"
+      },
+      "hodin1Den": {
+        "titl": "Hodiny první den nepřítomnosti"
+      },
+      "hodinXDen": {
+        "titl": "Hodiny poslední den nepřítomnosti"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "platiDo": {
+        "titl": "Konec"
+      },
+      "platiOd": {
+        "titl": "Začátek"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "trvani": {
+        "desc": "Trvání dočasné pracovní neschopnosti potvrzeno ke dni",
+        "titl": "Trvání potvrzeno"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Osoba": {
+      "_title": {
+        "titl": "Osoby"
+      },
+      "cisDomu": {
+        "titl": "Číslo domu"
+      },
+      "cisDomuKon": {
+        "titl": "Číslo domu kontaktní"
+      },
+      "cisDomuKonTuz": {
+        "titl": "Číslo domu kon.tuz."
+      },
+      "cisPojist": {
+        "titl": "Číslo pojištěnce"
+      },
+      "cisPrukaz": {
+        "titl": "Číslo průkazu"
+      },
+      "cisUcastDuchSpor": {
+        "titl": "Číslo účastníka důchodového spoření"
+      },
+      "cizPojCisDomu": {
+        "titl": "Číslo domu ciz.poj."
+      },
+      "cizPojCislo": {
+        "titl": "Číslo ciz.poj."
+      },
+      "cizPojMesto": {
+        "titl": "Město ciz.poj."
+      },
+      "cizPojNazev": {
+        "titl": "Název ciz.poj."
+      },
+      "cizPojPsc": {
+        "titl": "PSČ ciz.poj."
+      },
+      "cizPojSpec": {
+        "titl": "Specifikace ciz.poj."
+      },
+      "cizPojStat": {
+        "titl": "Stát ciz.poj."
+      },
+      "cizPojUlice": {
+        "titl": "Ulice ciz.poj."
+      },
+      "danNerezid": {
+        "titl": "Daňový nerezident"
+      },
+      "datNaroz": {
+        "titl": "Datum narození"
+      },
+      "detiOdpoc": {
+        "titl": "Další děti pro odpočet"
+      },
+      "diteOdpoc1": {
+        "titl": "1. dítě pro odpočet"
+      },
+      "diteOdpoc2": {
+        "titl": "2. dítě pro odpočet"
+      },
+      "duchodOd": {
+        "titl": "Důchod od"
+      },
+      "invalCast": {
+        "titl": "Invalidita 1.a 2.stupně"
+      },
+      "invalOd": {
+        "titl": "Invalidita od"
+      },
+      "invalPlna": {
+        "titl": "Invalidita 3.stupně"
+      },
+      "ispvOkres": {
+        "titl": "ISPV Okres"
+      },
+      "ispvPostaveni": {
+        "titl": "ISPV Postavení"
+      },
+      "ispvVedouci": {
+        "titl": "ISPV Vedoucí"
+      },
+      "ispvVzdelani": {
+        "titl": "ISPV Vzdělání"
+      },
+      "ispvZamest": {
+        "titl": "ISPV Zaměstnání"
+      },
+      "kvalifikace": {
+        "titl": "Kvalifikace"
+      },
+      "mestoKon": {
+        "titl": "Město kontaktní"
+      },
+      "mestoKonTuz": {
+        "titl": "Město kon.tuz."
+      },
+      "minuleSoc": {
+        "titl": "Pojistné (sociální)z min.zaměst"
+      },
+      "minuleZdrav": {
+        "titl": "Pojistné (zdravotní)z min.zaměst"
+      },
+      "mistoNaroz": {
+        "titl": "Místo narození"
+      },
+      "nadzizeny": {
+        "titl": "Nadřízený"
+      },
+      "nezDatNaroz": {
+        "abbr": "Nez.p. datum narození",
+        "titl": "Datum narození"
+      },
+      "nezDo": {
+        "abbr": "Nez.p. do",
+        "titl": "Platí do"
+      },
+      "nezJmeno": {
+        "abbr": "Nez.p. jméno",
+        "titl": "Jméno"
+      },
+      "nezOd": {
+        "abbr": "Nez.p. od",
+        "titl": "Platí od"
+      },
+      "nezPartner": {
+        "titl": "Nezaopatřený partner"
+      },
+      "nezPohlaviK": {
+        "abbr": "Nez.p. pohlaví",
+        "titl": "Pohlaví"
+      },
+      "nezPrijmeni": {
+        "abbr": "Nez.p. příjmení",
+        "titl": "Příjmení"
+      },
+      "nezPrijmeniRod": {
+        "abbr": "Nez.p. rodné příjmení",
+        "titl": "Rodné příjmení"
+      },
+      "nezRodCis": {
+        "abbr": "Nez.p. RČ",
+        "titl": "Rodné číslo"
+      },
+      "nezTitul": {
+        "abbr": "Nez.p. titul",
+        "titl": "Titul"
+      },
+      "nezZTP": {
+        "abbr": "Nez.p. ZTP/P",
+        "titl": "ZTP/P"
+      },
+      "nezZTPDo": {
+        "abbr": "Nez.p. ZTP/P do",
+        "titl": "ZTP/P platí do"
+      },
+      "nezZTPOd": {
+        "abbr": "Nez.p. ZTP/P od",
+        "titl": "ZTP/P platí od"
+      },
+      "odpocetDeti": {
+        "titl": "Dětí pro odpočet"
+      },
+      "odpocetDeti3": {
+        "titl": "Počet třetích a dalších dětí pro odpočet"
+      },
+      "odpocetDetiZtp": {
+        "titl": "Dětí ZTP pro odpočet"
+      },
+      "odpocetDite1Ztp": {
+        "titl": "První dítě pro odpočet je ZTP"
+      },
+      "odpocetDite2Ztp": {
+        "titl": "Druhé dítě pro odpočet je ZTP"
+      },
+      "odpracDnuPred": {
+        "titl": "Odpracovaných dnů při nástupu"
+      },
+      "odpracRokuPred": {
+        "titl": "Odpracovaných roků při nástupu"
+      },
+      "osbCis": {
+        "titl": "Osobní číslo"
+      },
+      "osbCisAlter": {
+        "titl": "Alternativní osobní číslo"
+      },
+      "osobaHlav": {
+        "titl": "Osoba"
+      },
+      "podpisProhl": {
+        "titl": "Podpis prohlášeni k dani"
+      },
+      "pohlaviK": {
+        "titl": "Pohlaví"
+      },
+      "posta": {
+        "titl": "Pošta"
+      },
+      "postaKon": {
+        "titl": "Pošta kontaktní"
+      },
+      "postaKonTuz": {
+        "titl": "Pošta kon.tuz."
+      },
+      "predNemPoj": {
+        "titl": "Předchozí nem.poj. mimo ČSSZ"
+      },
+      "prijmeniPred": {
+        "titl": "Předchozí příjmení"
+      },
+      "prijmeniRod": {
+        "titl": "Rodné příjmení"
+      },
+      "prukazZTP": {
+        "titl": "Držitel průkazu ZTP/P"
+      },
+      "pscKon": {
+        "titl": "PSČ kontaktní"
+      },
+      "pscKonTuz": {
+        "titl": "PSČ kon.tuz."
+      },
+      "rodCis": {
+        "desc": "RČ nebo Evidenční číslo pojištěnce (EČP)",
+        "titl": "Rodné číslo"
+      },
+      "rodStavK": {
+        "titl": "Rodinný stav"
+      },
+      "sirotciDuch": {
+        "titl": "Sirotčí důchod"
+      },
+      "skupOsob": {
+        "titl": "Skupina osob"
+      },
+      "slevaPoplat": {
+        "titl": "Sleva na poplatníka"
+      },
+      "snizVymZaklZp": {
+        "abbr": "Sníž. vym. zákl. ZP",
+        "titl": "Snížení vyměřovacího základu ZP (Zákon č. 592/1992 Sb., § 3 - Vyměřovací základ, odstavec 7)"
+      },
+      "soucNemPoj": {
+        "titl": "Současný nem.poj. mimo ČSSZ"
+      },
+      "starobniDuch": {
+        "titl": "Starobní důchod"
+      },
+      "starobniPredDuch": {
+        "titl": "Předčasný starobní důchod"
+      },
+      "statKon": {
+        "titl": "Stát kontaktní"
+      },
+      "statKonTuz": {
+        "titl": "Stát kon.tuz."
+      },
+      "statNaroz": {
+        "titl": "Stát narození"
+      },
+      "statObcan": {
+        "titl": "Státní občanství"
+      },
+      "student": {
+        "titl": "Student"
+      },
+      "tdDobirka": {
+        "titl": "Typ závazku dobírky"
+      },
+      "tdZaloha": {
+        "titl": "Typ závazku zálohy"
+      },
+      "telefon": {
+        "titl": "Telefon"
+      },
+      "typVztahuK": {
+        "titl": "Typ vztahu k firmě"
+      },
+      "ucastnikDuchSpor": {
+        "titl": "Je účasten důchodového spoření"
+      },
+      "uliceKon": {
+        "titl": "Ulice kontaktní"
+      },
+      "uliceKonTuz": {
+        "titl": "Ulice kon.tuz."
+      },
+      "vdovskyDuch": {
+        "titl": "Vdovský/vdovecký důchod"
+      },
+      "zahranicniDuch": {
+        "titl": "Důchod pobírán v zahraničí"
+      },
+      "zdrPojDoplat": {
+        "titl": "Zdravotní pojištění - doplatek do minimálního vyměřovacího základu"
+      },
+      "zdrPojDoplatRozdel": {
+        "titl": "Rozdělit mezi firmu a zaměstnance"
+      },
+      "zdravPoj": {
+        "abbr": "Zdr.poj.",
+        "titl": "Zdravotní pojišťovna"
+      },
+      "zpusPlatbyK": {
+        "titl": "Způsob platby"
+      }
+    },
+    "cz.winstrom.vo.mzdy.OsobaHlav": {
+      "_title": {
+        "titl": "Hlavičky osob"
+      },
+      "osbCis": {
+        "titl": "Osobní číslo"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPom": {
+      "_title": {
+        "titl": "Pracovní poměr"
+      },
+      "aktivniDo": {
+        "titl": "Aktivní do"
+      },
+      "aktivniOd": {
+        "titl": "Aktivní od"
+      },
+      "dovoleneRocne": {
+        "titl": "Dní dovolené ročně"
+      },
+      "dovoleneRocneHod": {
+        "titl": "Hodin dovolené ročně"
+      },
+      "duvodNeposkytnutiCsszK": {
+        "titl": "Důvod neposkytnutí podkladů"
+      },
+      "duvodSlevaSPFirmaK": {
+        "titl": "Důvod slevy SP za firmu"
+      },
+      "duvodUkonceniCsszK": {
+        "titl": "Důvod ukončení prac. poměru"
+      },
+      "hlavni": {
+        "titl": "Hlavní"
+      },
+      "hodinovaMzda": {
+        "titl": "Hodinová mzda"
+      },
+      "kodELDP": {
+        "titl": "Kód ELDP"
+      },
+      "konecPomeru": {
+        "titl": "Konec poměru"
+      },
+      "konecUrciteDoby": {
+        "titl": "Konec určité doby"
+      },
+      "konecZkusDoby": {
+        "titl": "Konec zkušební doby"
+      },
+      "malyRozsah": {
+        "titl": "Zaměstnání malého rozsahu"
+      },
+      "mesicniMzda": {
+        "titl": "Měsíční mzda"
+      },
+      "narokOdstupne": {
+        "titl": "Nárok na odstupné"
+      },
+      "nastup": {
+        "titl": "Nástupu do práce"
+      },
+      "odstupneNasobek": {
+        "titl": "Odstupné - násobek"
+      },
+      "odstupnePlnaVyse": {
+        "titl": "Odstupné vyplaceno v plné výši"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "plneniOdprDobyK": {
+        "titl": "Plnění odpracované doby"
+      },
+      "pracPomHlav": {
+        "titl": "Hlavička pracovního poměru"
+      },
+      "pracRozvrhK": {
+        "titl": "Pracovní rozvrh"
+      },
+      "predHrubPrijem": {
+        "titl": "Pracovněprávní průměr [%currency-symbol/hod]"
+      },
+      "procMinMzd": {
+        "titl": "Procento z minimální mzdy"
+      },
+      "prominutiSPFirma": {
+        "titl": "Prominutí SP za firmu"
+      },
+      "skutecnyNastup": {
+        "titl": "Skutečný nástup"
+      },
+      "slevaSPFirma": {
+        "titl": "Sleva SP za firmu"
+      },
+      "slevaSpFirmaDo": {
+        "titl": "OZUSPOJ sleva do"
+      },
+      "slevaSpFirmaOd": {
+        "titl": "OZUSPOJ sleva od"
+      },
+      "svatkyPrumer": {
+        "titl": "Výpočet náhrady za svátky z průměru"
+      },
+      "tarifTrida": {
+        "titl": "Tarifní třída"
+      },
+      "tdIntCestDoLim": {
+        "abbr": "Typ interního dokladu pro cestovné do limitu",
+        "titl": "do limitu"
+      },
+      "tdIntCestNadLim": {
+        "abbr": "Typ interního dokladu pro cestovné nad limit",
+        "titl": "nad limit"
+      },
+      "tdIntHomeofficeDoLim": {
+        "abbr": "Typ interního dokladu pro homeoffice do limitu",
+        "titl": "do limitu"
+      },
+      "tdIntHomeofficeNadLim": {
+        "abbr": "Typ interního dokladu pro homeoffice nad limit",
+        "titl": "nad limit"
+      },
+      "tdIntHruba": {
+        "titl": "Typ interního dokladu pro hrubou mzdy"
+      },
+      "tdIntNahrad": {
+        "titl": "Typ interního dokladu náhrady mzdy za prac.neschopnost"
+      },
+      "tdIntStravPausDoLim": {
+        "abbr": "Typ interního dokladu pro strav. paušál do limitu",
+        "titl": "do limitu"
+      },
+      "tdIntStravPausNadLim": {
+        "abbr": "Typ interního dokladu pro strav. paušál nad limit",
+        "titl": "nad limit"
+      },
+      "tdSrazkaStrav": {
+        "titl": "Typ dokladu pro srážku stravenek"
+      },
+      "tuoZavDan": {
+        "titl": "Předpis zaúčtování daň"
+      },
+      "tuoZavSocFir": {
+        "abbr": "Předpis zaúčtování soc. firma",
+        "titl": "Sociální pojištění zaměstnavatel"
+      },
+      "tuoZavSocZam": {
+        "abbr": "Předpis zaúčtování soc. zaměstnanec",
+        "titl": "Sociální pojištění zaměstnanec"
+      },
+      "tuoZavZdrFir": {
+        "abbr": "Předpis zaúčtování zdr. firma",
+        "titl": "Zdravotní pojištění zaměstnavatel"
+      },
+      "tuoZavZdrZam": {
+        "abbr": "Předpis zaúčtování zdr. zaměstnanec",
+        "titl": "Zdravotní pojištění zaměstnanec"
+      },
+      "tydenPracDobaK": {
+        "titl": "Tydenní pracovní doba"
+      },
+      "typMzdyK": {
+        "titl": "Typ mzdy"
+      },
+      "typPracPom": {
+        "titl": "Typ pracovního poměru"
+      },
+      "uvazCt": {
+        "titl": "Čtvrtek"
+      },
+      "uvazDnuTydne": {
+        "titl": "Úvazek dnů [Týdně]"
+      },
+      "uvazHodDenne": {
+        "titl": "Úvazek hodin [Denně]"
+      },
+      "uvazHodTydne": {
+        "titl": "Úvazek hodin [Týdně]"
+      },
+      "uvazNe": {
+        "titl": "Neděle"
+      },
+      "uvazPa": {
+        "titl": "Pátek"
+      },
+      "uvazPo": {
+        "titl": "Pondělí"
+      },
+      "uvazSo": {
+        "titl": "Sobota"
+      },
+      "uvazSt": {
+        "titl": "Středa"
+      },
+      "uvazUt": {
+        "titl": "Úterý"
+      },
+      "zacPracDoby": {
+        "titl": "Začátek pracovní doby"
+      },
+      "zacatek": {
+        "titl": "Začátek poměru"
+      },
+      "zlistDuvod": {
+        "titl": "Důvod ukončení"
+      },
+      "zlistSdeleni": {
+        "titl": "Sdělení organizace"
+      },
+      "zlistUkonceni": {
+        "titl": "Způsob ukončení"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPomHlav": {
+      "_title": {
+        "titl": "Hlavička pracovního poměru"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPomView": {
+      "_title": {
+        "titl": "Pracovní poměr"
+      },
+      "aktivniDo": {
+        "titl": "Aktivní do"
+      },
+      "aktivniOd": {
+        "titl": "Aktivní od"
+      },
+      "duvodSlevaSPFirmaK": {
+        "titl": "Důvod slevy SP za firmu"
+      },
+      "hlavni": {
+        "titl": "Hlavní"
+      },
+      "idPracPomView": {
+        "titl": "ID"
+      },
+      "konecPomeru": {
+        "titl": "Konec poměru"
+      },
+      "nastup": {
+        "titl": "Nástupu do práce"
+      },
+      "osobaHlav": {
+        "titl": "Osoba"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "pracRozvrhK": {
+        "titl": "Pracovní rozvrh"
+      },
+      "slevaSPFirma": {
+        "titl": "Sleva SP za firmu"
+      },
+      "slevaSpFirmaDo": {
+        "titl": "OZUSPOJ sleva do"
+      },
+      "slevaSpFirmaOd": {
+        "titl": "OZUSPOJ sleva od"
+      },
+      "tydenPracDoba": {
+        "titl": "Tydenní pracovní doba"
+      },
+      "typPracPom": {
+        "titl": "Typ pracovního poměru"
+      },
+      "uvazDnuTydne": {
+        "titl": "Úvazek dnů [Týdně]"
+      },
+      "uvazHodDenne": {
+        "titl": "Úvazek hodin [Denně]"
+      },
+      "uvazHodTydne": {
+        "titl": "Úvazek hodin [Týdně]"
+      },
+      "zacatek": {
+        "titl": "Začátek poměru"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPravPrumer": {
+      "_title": {
+        "titl": "Pracovněprávní průměry"
+      },
+      "idPracPravPrumer": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Příjmení a jméno"
+      },
+      "prum1": {
+        "titl": "1. čtvrtletí"
+      },
+      "prum2": {
+        "titl": "2. čtvrtletí"
+      },
+      "prum3": {
+        "titl": "3. čtvrtletí"
+      },
+      "prum4": {
+        "titl": "4. čtvrtletí"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PraceStred": {
+      "_title": {
+        "titl": "Práce pro střediska"
+      },
+      "datumDo": {
+        "titl": "Datum do"
+      },
+      "datumOd": {
+        "titl": "Datum od"
+      },
+      "hodin": {
+        "titl": "Hodin"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "procento": {
+        "titl": "Procento"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PrehledMzdSlozky": {
+      "_title": {
+        "titl": "Přehled mzdové složky"
+      },
+      "castka": {
+        "titl": "Částka"
+      },
+      "cisRad": {
+        "titl": "Č. řádky"
+      },
+      "dny": {
+        "titl": "Dnů"
+      },
+      "hodiny": {
+        "titl": "Hodin"
+      },
+      "idPrehledMzdSlozky": {
+        "titl": "ID"
+      },
+      "pocetPolozek": {
+        "titl": "Položek"
+      },
+      "zaklad": {
+        "titl": "Základ"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PrehledPracPom": {
+      "_title": {
+        "titl": "Přehled pracovních poměrů"
+      },
+      "castHod": {
+        "titl": "Kč/hod."
+      },
+      "castMes": {
+        "titl": "Kč/měs."
+      },
+      "idPrehledPracPom": {
+        "titl": "ID"
+      },
+      "konecUrciteDoby": {
+        "titl": "Konec určité doby"
+      },
+      "konecZkusDoby": {
+        "titl": "Konec zkušební doby"
+      },
+      "nastup": {
+        "titl": "Nástup"
+      },
+      "pracRozvrhK": {
+        "titl": "Typ prac. rozvrhu"
+      },
+      "stalaMzdSloz": {
+        "titl": "Typ mzdy"
+      },
+      "ukonceni": {
+        "titl": "Ukončení"
+      },
+      "uvazek": {
+        "titl": "Úvazek hod/týd"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PrehledZamestnancu": {
+      "_title": {
+        "titl": "Přehled zaměstnanců"
+      },
+      "datNaroz": {
+        "titl": "Datum narození"
+      },
+      "dobaOdpr": {
+        "titl": "Odpracovaná doba"
+      },
+      "dovolPocatek": {
+        "titl": "Dovolená počátek (hod)"
+      },
+      "dovolVybrano": {
+        "titl": "Čerpaná dovolená od počátku roku (hod)"
+      },
+      "dovolZbyva": {
+        "titl": "Dovolená zbývá (hod)"
+      },
+      "idPrehledZamestnancu": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Příjmení a jméno"
+      },
+      "konecPomeru": {
+        "titl": "Konec prac.poměru"
+      },
+      "konecUrciteDoby": {
+        "titl": "Konec určité doby"
+      },
+      "konecZkusDoby": {
+        "titl": "Konec zkušební doby"
+      },
+      "odpocetDeti": {
+        "titl": "Odpočet dětí"
+      },
+      "osbCis": {
+        "titl": "Osobní číslo"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "pracPravPrum": {
+        "titl": "Prac.právní průměr"
+      },
+      "typPracPom": {
+        "titl": "Typ pracovního poměru"
+      },
+      "uvazHodTydne": {
+        "titl": "Úvazek hodin/týden"
+      },
+      "uvazKoef": {
+        "titl": "Úvazek koeficient"
+      },
+      "zacatek": {
+        "titl": "Počátek prac.poměru"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Prumer": {
+      "_title": {
+        "titl": "Průměr"
+      },
+      "hrubaHodMzda": {
+        "titl": "Průměrná hodinová hrubá mzda"
+      },
+      "mesicCtvrtleti": {
+        "titl": "Měsíc/čtvrtletí"
+      },
+      "nemocDenPrum": {
+        "titl": "Průměr pro nemoc [Kč/den]"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "pracPravPrum": {
+        "titl": "Pracovněprávní průměr [Kč/hod]"
+      }
+    },
+    "cz.winstrom.vo.mzdy.SkupOsob": {
+      "_title": {
+        "titl": "Skupiny osob"
+      },
+      "tdIntCestDoLim": {
+        "abbr": "Typ pro cestovné do limitu",
+        "titl": "do limitu"
+      },
+      "tdIntCestNadLim": {
+        "abbr": "Typ pro cestovné nad limit",
+        "titl": "nad limit"
+      },
+      "tdIntHomeofficeDoLim": {
+        "abbr": "Typ pro homeoffice do limitu",
+        "titl": "do limitu"
+      },
+      "tdIntHomeofficeNadLim": {
+        "abbr": "Typ pro homeoffice nad limit",
+        "titl": "nad limit"
+      },
+      "tdIntHruba": {
+        "titl": "Typ hrubé mzdy"
+      },
+      "tdIntNahrad": {
+        "titl": "Typ náhrady mzdy"
+      },
+      "tdIntPrispevky": {
+        "titl": "Typ int. dokl. příspěvků"
+      },
+      "tdIntStravPausDoLim": {
+        "abbr": "Typ pro strav. paušál do limitu",
+        "titl": "do limitu"
+      },
+      "tdIntStravPausNadLim": {
+        "abbr": "Typ pro strav. paušál nad limit",
+        "titl": "nad limit"
+      },
+      "tdPrispPenzijStat": {
+        "titl": "Typ int. dokl. penzij. spoř. stát. přísp."
+      },
+      "tdSrazkaStrav": {
+        "titl": "Typ pro srážku stravenek"
+      },
+      "tdStravenka": {
+        "titl": "Typ pro stravenky"
+      },
+      "tdZavPrispevky": {
+        "titl": "Typ závazku příspěvků"
+      },
+      "tuoStravFirDoLim": {
+        "titl": "Předpis příspěvek firmy do limitu"
+      },
+      "tuoStravFirNadLim": {
+        "titl": "Předpis příspěvek firmy nad limit"
+      },
+      "tuoStravZam": {
+        "titl": "Předpis příspěvek zaměstnance"
+      },
+      "tuoZavDan": {
+        "titl": "Předpis zaúčtování daň"
+      },
+      "tuoZavSocFir": {
+        "abbr": "Př. zaúč. soc. firma",
+        "titl": "Předpis zaúčtování zaměstnavatel"
+      },
+      "tuoZavSocZam": {
+        "abbr": "Př. zaúč. soc. zaměst.",
+        "titl": "Předpis zaúčtování zaměstnanec"
+      },
+      "tuoZavZdrFir": {
+        "abbr": "Př. zaúč. zdr. firma",
+        "titl": "Předpis zaúčtování - zaměstnavatel"
+      },
+      "tuoZavZdrZam": {
+        "abbr": "Př. zaúč. zdr. zaměst.",
+        "titl": "Předpis zaúčtování - zaměstnanec"
+      },
+      "tydenPracDobaK": {
+        "titl": "Tydenní pracovní doba"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Smeny": {
+      "_title": {
+        "titl": "Směny"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "planovane": {
+        "titl": "Plánované směny"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "skupOsob": {
+        "titl": "Skupina osob"
+      },
+      "skutecne": {
+        "titl": "Skutečně odpracováno"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Srazka": {
+      "_title": {
+        "titl": "Srážky"
+      },
+      "banSpoj": {
+        "titl": "Bankovní spojení"
+      },
+      "castka": {
+        "titl": "Částka"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "cisMzdSloz": {
+        "titl": "Druh srážky"
+      },
+      "deponovatDo": {
+        "titl": "Deponovat do"
+      },
+      "kdatu": {
+        "titl": "K datu"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "pocatek": {
+        "titl": "Počáteční stav"
+      },
+      "poradi": {
+        "titl": "Pořadí srážky"
+      },
+      "prednostni": {
+        "titl": "Přednostní srážka"
+      },
+      "procMzd": {
+        "titl": "Procento / konstanta"
+      },
+      "skupSlozkyK": {
+        "titl": "Skupina složky"
+      },
+      "splatnost": {
+        "titl": "Den splatnosti"
+      },
+      "srazkaDo": {
+        "titl": "Srážet do"
+      },
+      "srazkaOd": {
+        "titl": "Srážet od"
+      },
+      "typIntDokl": {
+        "titl": "Typ interního dokladu"
+      },
+      "typOstZav": {
+        "titl": "Typ závazku"
+      },
+      "typSlozkyK": {
+        "titl": "Typ složky"
+      },
+      "zbyva": {
+        "titl": "Zbývá"
+      },
+      "zpusobPlatbyK": {
+        "titl": "Způsob platby"
+      }
+    },
+    "cz.winstrom.vo.mzdy.StalaMzdSloz": {
+      "_title": {
+        "titl": "Stálé mzdové složky"
+      },
+      "banSpoj": {
+        "titl": "Bankovní účet"
+      },
+      "castMzd": {
+        "titl": "Částka"
+      },
+      "castkaDen": {
+        "titl": "Částka za den"
+      },
+      "castkaHod": {
+        "titl": "Částka za hodinu"
+      },
+      "cisMzdSloz": {
+        "titl": "Mzdová složka"
+      },
+      "datumDo": {
+        "titl": "Koncové datum"
+      },
+      "datumOd": {
+        "titl": "Počáteční datum"
+      },
+      "dnyKal": {
+        "titl": "Dny kalendářní"
+      },
+      "dnyPrac": {
+        "titl": "Dny pracovní"
+      },
+      "dnySvatek": {
+        "titl": "Dny ve svátek"
+      },
+      "hodiny": {
+        "titl": "Hodiny"
+      },
+      "hodinySvatek": {
+        "titl": "Hodiny svátek"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "pocetMes": {
+        "titl": "Počet měsíců za které složka platí"
+      },
+      "podil": {
+        "titl": "Podíl složky v měsíci"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "procMzd": {
+        "titl": "Procento / konstanta"
+      },
+      "prumNaDenNem": {
+        "titl": "Denní průměr"
+      },
+      "prumNaHodNem": {
+        "titl": "Hodinový průměr"
+      },
+      "skupSlozkyK": {
+        "titl": "Skupina složky"
+      },
+      "typIntDokl": {
+        "titl": "Typ int. dokladu"
+      },
+      "typOstZav": {
+        "titl": "Typ závazku"
+      },
+      "typPodilK": {
+        "titl": "Typ výpočtu podílu"
+      },
+      "typSlozkyK": {
+        "titl": "Typ složky"
+      },
+      "zaklJeKracen": {
+        "titl": "Základ je krácen úvazkem"
+      },
+      "zaklMzd": {
+        "titl": "Základ mzdy"
+      }
+    },
+    "cz.winstrom.vo.mzdy.TypPracPom": {
+      "_title": {
+        "titl": "Typ pracovního poměru"
+      }
+    },
+    "cz.winstrom.vo.mzdy.TypPracPomParam": {
+      "_title": {
+        "titl": "Parametry typu pracovního poměru"
+      },
+      "actDanNerez": {
+        "titl": "Platí pro daňového nerezidenta"
+      },
+      "actDanRez": {
+        "titl": "Platí pro daňového rezidenta"
+      },
+      "actMaProhl": {
+        "titl": "Platí při podepsaném prohlášení k dani"
+      },
+      "actMalyRoz": {
+        "titl": "Platí pro zaměstnání malého rozsahu"
+      },
+      "actNemaProhl": {
+        "titl": "Platí při nepodepsaném prohlášení k dani"
+      },
+      "actVelkyRoz": {
+        "titl": "Platí pro zaměstnání nemalého rozsahu"
+      },
+      "actZdrDopl": {
+        "titl": "Platí pro zdravotní pojištění - doplatek"
+      },
+      "actZdrNedopl": {
+        "titl": "Platí pro zdravotní pojištění - NEdoplatek"
+      },
+      "cisMzdSloz": {
+        "titl": "Mzdová složka"
+      },
+      "doHodnoty": {
+        "titl": "Hodnota do"
+      },
+      "koeficient": {
+        "titl": "Koeficient"
+      },
+      "mzdCalcHlav": {
+        "titl": "Mzdová kalkulačka"
+      },
+      "odHodnoty": {
+        "titl": "Hodnota od"
+      },
+      "poleNuluj": {
+        "titl": "Pole pro úpravu"
+      },
+      "poleTest": {
+        "titl": "Pole pro test"
+      },
+      "typPracPom": {
+        "titl": "Typ pracovního poměru"
+      },
+      "typRovno": {
+        "titl": "Typ roven"
+      }
+    },
+    "cz.winstrom.vo.w.MzdyExtId": {
+      "_title": {
+        "titl": "Externí identifikátory"
+      },
+      "banSpojMzdy": {
+        "titl": "Bankovní spojení"
+      },
+      "dite": {
+        "titl": "Dítě"
+      },
+      "extId": {
+        "titl": "Identifikátor"
+      },
+      "nepritomnost": {
+        "titl": "Nepřítomnost"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "osobaHlav": {
+        "titl": "Hlavička osoby"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "pracPomHlav": {
+        "titl": "Hlavička pracovního poměru"
+      },
+      "praceStred": {
+        "titl": "Práce pro střediska"
+      },
+      "skupOsob": {
+        "titl": "Skupina osob"
+      },
+      "smeny": {
+        "titl": "Směny"
+      },
+      "srazka": {
+        "titl": "Srážka"
+      },
+      "stalaMzdSloz": {
+        "titl": "Stálá mzdová složka"
+      },
+      "tabulka": {
+        "titl": "Tabulka"
+      }
+    },
+    "cz.winstrom.vo.w.PrilohaMzdy": {
+      "_title": {
+        "titl": "Přílohy"
+      },
+      "data": {
+        "titl": "Data přílohy"
+      },
+      "dataHash": {
+        "titl": "Otisk dat přílohy (MD5 součet)"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "prilozit": {
+        "abbr": "Přiložit",
+        "titl": "Přiložit"
+      },
+      "typK": {
+        "titl": "Typ přílohy"
+      }
+    },
+    "cz.winstrom.vo.w.UcelMzdy": {
+      "_title": {
+        "titl": "Účel"
+      },
+      "adresar": {
+        "titl": "Subjekt údajů"
+      },
+      "definiceUcelu": {
+        "titl": "Definice účelu"
+      },
+      "polozkaPrikazu": {
+        "titl": "Položka příkazu"
+      },
+      "pozastaveno": {
+        "titl": "Pozastaveno"
+      },
+      "ucelLog": {
+        "titl": "Okolnosti vzniku účelu"
+      },
+      "vyreseno": {
+        "titl": "Vyřešeno"
+      }
+    },
+    "global": {
+      "mzdSloz": {
+        "titl": "Mzdová složka"
+      },
+      "osbCis": {
+        "titl": "Osobní číslo"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      },
+      "osobaHlav": {
+        "titl": "Osoba"
+      },
+      "pracPom": {
+        "titl": "Pracovní poměr"
+      },
+      "pracPomHlav": {
+        "titl": "Pracovní poměr"
+      },
+      "skupOsob": {
+        "titl": "Skupina osob"
+      }
+    },
+    "vzor": {
+      "xyz": {
+        "acck": 83,
+        "accm": 2,
+        "desc": "Bbb ccc ddd.",
+        "icon": "aaa.gif",
+        "mnem": 83,
+        "titl": "!Abcdef"
+      }
+    }
+  }
+}

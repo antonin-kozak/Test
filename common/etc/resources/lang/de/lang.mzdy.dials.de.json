@@ -1,0 +1,574 @@
+{
+  "dials": {
+    "csszDuvodNeposkytnuti.01": {
+      "titl": "1 - Tod des Versicherten"
+    },
+    "csszDuvodNeposkytnuti.02": {
+      "titl": "2 - Altersrente oder unversicherte Beschäftigung"
+    },
+    "csszDuvodNeposkytnuti.03": {
+      "titl": "3 - ausgewählte Stellen"
+    },
+    "csszDuvodUkonceni.01": {
+      "titl": "1 - Beendigung des PP eines Ausländers oder eines Staatenlosen (§ 48/3)"
+    },
+    "csszDuvodUkonceni.02": {
+      "titl": "2 - Durch Vereinbarung mit dem Arbeitgeber (§ 49)"
+    },
+    "csszDuvodUkonceni.03": {
+      "titl": "3 - Kündigung durch den Arbeitnehmer (§ 50/3)"
+    },
+    "csszDuvodUkonceni.04": {
+      "titl": "4 - Grund für die Organisation (§ 52/a-c)"
+    },
+    "csszDuvodUkonceni.05": {
+      "titl": "5 - Gesundheitliche Gründe (§ 52/e, § 56/1a)"
+    },
+    "csszDuvodUkonceni.05d": {
+      "titl": "5 - Gesundheitliche Gründe (§ 52/d)"
+    },
+    "csszDuvodUkonceni.06": {
+      "titl": "6 - Der Arbeitnehmer erfüllt nicht die Voraussetzungen oder Anforderungen für die Ausführung der vereinbarten Arbeit (§ 52/f)"
+    },
+    "csszDuvodUkonceni.07": {
+      "titl": "7 - Besonders schwerwiegende Pflichtverletzung durch einen Arbeitnehmer (§ 52/g, erster Teil des Satzes oder § 55/1b)"
+    },
+    "csszDuvodUkonceni.08": {
+      "titl": "8 - Ständiges geringfügiges Fehlverhalten eines Arbeitnehmers (§ 52/g, zweiter Teil des Satzes )"
+    },
+    "csszDuvodUkonceni.09": {
+      "titl": "9 - Besonders schwerer Verstoß gegen die Regelung der vorübergehenden Arbeitsunfähigkeit (§ 52/h)"
+    },
+    "csszDuvodUkonceni.10": {
+      "titl": "10 - Sofortige Beendigung des Arbeitsverhältnisses aufgrund einer rechtskräftigen Verurteilung wegen einer vorsätzlichen Straftat (§ 55/1a)"
+    },
+    "csszDuvodUkonceni.11": {
+      "titl": "11 - Verstoß des Arbeitgebers gegen eine wesentliche Pflicht (§ 56/1b)"
+    },
+    "csszDuvodUkonceni.12": {
+      "titl": "12 - Befristung (§ 65)"
+    },
+    "csszDuvodUkonceni.13": {
+      "titl": "13 - Bewährung durch den Arbeitgeber (§ 66)"
+    },
+    "csszDuvodUkonceni.14": {
+      "titl": "14 - Angestellte auf Probe (§ 66)"
+    },
+    "csszDuvodUkonceni.15": {
+      "titl": "15 - Sonstiges"
+    },
+    "mzdCalcOper.krat": {
+      "titl": "mal (Out = In * Koef1 * Out + Koef2)"
+    },
+    "mzdCalcOper.lomeno": {
+      "titl": "durch (Out = In * Koef1 / Out)"
+    },
+    "mzdCalcOper.max": {
+      "titl": "max (Out = max(In1*K1, In2*K2, Out*K3))"
+    },
+    "mzdCalcOper.mensi": {
+      "titl": "< (Out = (In1 < K1) then K2 else K3)"
+    },
+    "mzdCalcOper.mensiRovno": {
+      "titl": "<= (Out = (In1 <= K1) then K2 else K3)"
+    },
+    "mzdCalcOper.min": {
+      "titl": "min (Out = min(In1*K1, In2*K2, Out*K3))"
+    },
+    "mzdCalcOper.plus": {
+      "titl": "plus (Out = In * Koef1 + Out * Koef2)"
+    },
+    "mzdCalcOper.rovno": {
+      "titl": "= (Out = (In1 = K1) then K2 else K3)"
+    },
+    "mzdCalcOper.rozdelPomer": {
+      "titl": "Verteilt In1 im Verhältnis In2 nach Out"
+    },
+    "mzdCalcOper.sinus": {
+      "titl": "sin (Out = sin(In1 * K1 + K2) * K3)"
+    },
+    "mzdCalcPlatnost.prvniCtvrtleti": {
+      "titl": "Das erste aktive Quartal des Arbeitsverhältnisses"
+    },
+    "mzdCalcPlatnost.prvniMesic": {
+      "titl": "Der erste aktive Monat des Arbeitsverhältnisses"
+    },
+    "mzdCalcPlatnost.prvniRok": {
+      "titl": "Das erste aktive Jahr des Arbeitsverhältnisses"
+    },
+    "mzdCalcPlatnost.vzdy": {
+      "titl": "Immer"
+    },
+    "mzdCalcPlatnost.zacatekPrvniRok": {
+      "titl": "Das erste Jahr des Arbeitsverhältnisses nach Beginn"
+    },
+    "mzdCalcSuma.konecPredchoziRok": {
+      "titl": "Monate Ende letztes Jahr"
+    },
+    "mzdCalcSuma.obdProplat": {
+      "titl": "Monate, in denen der Monat der Zahlung mit dem aktuellen Monat übereinstimmt."
+    },
+    "mzdCalcSuma.obdobi": {
+      "titl": "Aufteilung des Jahres in Perioden mit der eingegebenen Zahl der Monate"
+    },
+    "mzdCalcSuma.obdobiAkt": {
+      "titl": "Aufteilung des Jahres in Perioden, die eingegebene Zahl der Monate haben - aktuelle Periode des vorherigen Monats"
+    },
+    "mzdCalcSuma.predchozi": {
+      "titl": "Die angegebene Zahl der vorherigen Monate"
+    },
+    "mzdCalcSuma.rokPred": {
+      "titl": "Vorherige Monate"
+    },
+    "mzdCalcZdroj.nastaveni": {
+      "titl": "Einstellung"
+    },
+    "mzdCalcZdroj.osoba": {
+      "titl": "Person"
+    },
+    "mzdCalcZdroj.ostatni": {
+      "titl": "Sonstige"
+    },
+    "mzdCalcZdroj.pracPom": {
+      "titl": "Arbeitsverhältnis"
+    },
+    "mzdCalcZpracDatum.denVroce": {
+      "titl": "Wievielter Tag im Jahr - 0 ausserhalb des aktuellen Jahres"
+    },
+    "mzdCalcZpracDatum.denVroceKon": {
+      "titl": "Fortlaufender Tag des Jahres - Enddatum"
+    },
+    "mzdCalcZpracDatum.denVrocePoc": {
+      "titl": "Fortlaufender Tag des Jahres - Startdatum"
+    },
+    "mzdCalcZpracDatum.mesic": {
+      "titl": "Monat im Jahr - 0 ausserhalb des aktuellen Jahres"
+    },
+    "mzdCalcZpracDatum.mesicNaslPoc": {
+      "titl": "Der nächste folgende Monatsanfang - Monat - 0 ausserhalb des aktuellen Jahres"
+    },
+    "mzdCalcZpracDatum.mesicPredKon": {
+      "titl": "Das erste nichtvollständige Monat im Jahr - 0 ausserhalb des aktuellen Jahres"
+    },
+    "mzdCalcZpracDatum.rozdilPracDnu": {
+      "titl": "Differenz in Arbeitstagen"
+    },
+    "plneniOdprDoby.automaticky": {
+      "titl": "Automatisch"
+    },
+    "plneniOdprDoby.rucne": {
+      "titl": "Manuell"
+    },
+    "pohlavi.muz": {
+      "titl": "Mann"
+    },
+    "pohlavi.zena": {
+      "titl": "Frau"
+    },
+    "pracRozvrh.nepravidelny": {
+      "titl": "Unregelmässig"
+    },
+    "pracRozvrh.pravidelny": {
+      "titl": "Regelmässig"
+    },
+    "rodStav.druh": {
+      "titl": "Gefährte/ Gefährtin"
+    },
+    "rodStav.registrPartner": {
+      "titl": "Eingetragene Partner"
+    },
+    "rodStav.rozvedeny": {
+      "titl": "Geschieden"
+    },
+    "rodStav.svobodny": {
+      "titl": "Ledig"
+    },
+    "rodStav.vdana_zenaty": {
+      "titl": "Verheiratet"
+    },
+    "rodStav.vdovec": {
+      "titl": "Verwitwet"
+    },
+    "skupinaSlozky.dan": {
+      "titl": "Steuer"
+    },
+    "skupinaSlozky.danSleva": {
+      "titl": "Steuerabzug"
+    },
+    "skupinaSlozky.doba": {
+      "titl": "Arbeitszeitfond"
+    },
+    "skupinaSlozky.duchod": {
+      "titl": "Rente"
+    },
+    "skupinaSlozky.hrubaMzda": {
+      "titl": "Bruttolohn"
+    },
+    "skupinaSlozky.ispvFirma": {
+      "titl": "Lohninformationssystem - Firma"
+    },
+    "skupinaSlozky.ispvZamestnanec": {
+      "titl": "Lohninformationssystem - Arbeitnehmer"
+    },
+    "skupinaSlozky.nemocNahrad": {
+      "titl": "Ersatz Krankheit"
+    },
+    "skupinaSlozky.nepritKaran": {
+      "titl": "Abwesenheit - Quarantäne"
+    },
+    "skupinaSlozky.nepritNemoc": {
+      "titl": "Abwesenheit - Krankheit"
+    },
+    "skupinaSlozky.nepritNeplac": {
+      "titl": "Abwesenheit - nicht bezahlt"
+    },
+    "skupinaSlozky.nepritomnost": {
+      "titl": "Abwesenheit"
+    },
+    "skupinaSlozky.odmeny": {
+      "titl": "Belohnungen"
+    },
+    "skupinaSlozky.ostatNahrad": {
+      "titl": "andere Ersatzleistungen"
+    },
+    "skupinaSlozky.priplatky": {
+      "titl": "Lohnzuschlag"
+    },
+    "skupinaSlozky.socPoj": {
+      "titl": "Sozialversicherung"
+    },
+    "skupinaSlozky.srazky": {
+      "titl": "Abzüge"
+    },
+    "skupinaSlozky.vyneti": {
+      "titl": "Herausnehmen"
+    },
+    "skupinaSlozky.vyplata": {
+      "titl": "Auszahlung"
+    },
+    "skupinaSlozky.zakladMzda": {
+      "titl": "Grundlohn"
+    },
+    "skupinaSlozky.zaloha": {
+      "titl": "Vorschuss"
+    },
+    "skupinaSlozky.zdravPoj": {
+      "titl": "Krankenversicherung"
+    },
+    "typDuchodu.invalidniCast": {
+      "titl": "Teilinvalidenrente"
+    },
+    "typDuchodu.invalidniPlny": {
+      "titl": "Vollinvalidenrente"
+    },
+    "typDuchodu.sirotci": {
+      "titl": "Waisenrente"
+    },
+    "typDuchodu.starobni": {
+      "titl": "Altersrente"
+    },
+    "typDuchodu.starobniPredcas": {
+      "titl": "Vorzeitige Altersrente"
+    },
+    "typDuchodu.vdovecky": {
+      "titl": "Witwerrente"
+    },
+    "typDuchodu.vdovsky": {
+      "titl": "Witwenrente"
+    },
+    "typEldp.01": {
+      "titl": "Arbeitsverhältnis dauert"
+    },
+    "typEldp.02": {
+      "titl": "Arbeitsverhältnis beendet"
+    },
+    "typEldp.03": {
+      "titl": "Arbeitsverhältnis beendet - Tod"
+    },
+    "typEldp.51": {
+      "titl": "Korrektur: Arbeitsverhältnis dauert"
+    },
+    "typEldp.52": {
+      "titl": "Korrektur: Arbeitsverhältnis beendet"
+    },
+    "typEldp.53": {
+      "titl": "Korrektur: Arbeitsverhältnis beendet - Tod"
+    },
+    "typEldp.91": {
+      "titl": "Rekonstruiert: Arbeitsverhältnis dauert"
+    },
+    "typEldp.92": {
+      "titl": "Rekonstruiert: Arbeitsverhältnis beendet"
+    },
+    "typEldp.93": {
+      "titl": "Rekonstruiert: Arbeitsverhältnis beendet - Tod"
+    },
+    "typMzdy.hodinova": {
+      "titl": "Stundenlohn"
+    },
+    "typMzdy.jina": {
+      "titl": "Andere"
+    },
+    "typMzdy.mesicni": {
+      "titl": "Monatsgehalt"
+    },
+    "typMzdy.podilova": {
+      "titl": "Anteillohn"
+    },
+    "typMzdy.smisena": {
+      "titl": "Gemischte"
+    },
+    "typMzdy.ukolova": {
+      "titl": "Akkordlohn"
+    },
+    "typOdecitPol.dite": {
+      "titl": "Kind"
+    },
+    "typOdecitPol.invalCast": {
+      "titl": "Teilinvaliditätsrente"
+    },
+    "typOdecitPol.invalPlny": {
+      "titl": "Vollinvaliditätsrente"
+    },
+    "typOdecitPol.manzel": {
+      "titl": "Für Ehefrau/Ehemann"
+    },
+    "typOdecitPol.poplatnik": {
+      "titl": "Auf Steuerzahler"
+    },
+    "typOdecitPol.student": {
+      "titl": "Student"
+    },
+    "typOdecitPol.ztpP": {
+      "titl": "Schwerbehindert Grad 100%"
+    },
+    "typSlozky.dlouhodobNep": {
+      "titl": "Langzeitabwesenheit"
+    },
+    "typSlozky.info": {
+      "titl": "Info"
+    },
+    "typSlozky.inicializace": {
+      "titl": "Initialisierungskomponente"
+    },
+    "typSlozky.kopie": {
+      "titl": "Posten entstand aufgrund der Kopie von einer anderen Liste."
+    },
+    "typSlozky.vstup": {
+      "titl": "Komponente wird von dem Anwender eingegeben"
+    },
+    "typSlozky.vypocet": {
+      "titl": "Die Komponente wird automatisch generiert."
+    },
+    "typVztahuOsoba.externi": {
+      "titl": "Externe Person"
+    },
+    "typVztahuOsoba.uchazec": {
+      "titl": "Bewerber"
+    },
+    "typVztahuOsoba.zamestnanec": {
+      "titl": "Arbeitnehmer"
+    },
+    "vyznamSlozky.bezneNahrady": {
+      "titl": "Geläufige Ersatzleistungen"
+    },
+    "vyznamSlozky.cistaMzda": {
+      "titl": "Nettolohn"
+    },
+    "vyznamSlozky.dan": {
+      "titl": "Steuer"
+    },
+    "vyznamSlozky.danBonus": {
+      "titl": "Steuerbonus"
+    },
+    "vyznamSlozky.danRezident": {
+      "titl": "Steuer - Inländer"
+    },
+    "vyznamSlozky.danSlevPrac": {
+      "titl": "Rabatt - Steuerzahler"
+    },
+    "vyznamSlozky.danSlevSum": {
+      "titl": "Steuerabzug insgesamt"
+    },
+    "vyznamSlozky.danSrazka": {
+      "titl": "Abzugssteuer"
+    },
+    "vyznamSlozky.danVypocet": {
+      "titl": "Steuerberechnung"
+    },
+    "vyznamSlozky.danZaklSraz": {
+      "titl": "Abzugssteuerbemessungsgrundlage für Arbeitsverhältnis"
+    },
+    "vyznamSlozky.danZaklSrazSum": {
+      "titl": "Abzugssteuerbemessungsgrundlage"
+    },
+    "vyznamSlozky.danZaklSum": {
+      "titl": "Steuerbemessungsgrundlage"
+    },
+    "vyznamSlozky.danZaloha": {
+      "titl": "Steuervorschuss - Ergebnis nach Ermässigungen und Korrekturen"
+    },
+    "vyznamSlozky.dobaDovol": {
+      "titl": "Urlaub"
+    },
+    "vyznamSlozky.dobaFond": {
+      "titl": "Arbeitszeitfonds"
+    },
+    "vyznamSlozky.dobaNeodpr": {
+      "titl": "Nicht geleistete Arbeitszeit insgesamt"
+    },
+    "vyznamSlozky.dobaOdpr": {
+      "titl": "Geleistete Arbeitszeit insgesamt"
+    },
+    "vyznamSlozky.dobirka": {
+      "titl": "Nachzahlung"
+    },
+    "vyznamSlozky.dovolPocatek": {
+      "titl": "Urlaub Anfang"
+    },
+    "vyznamSlozky.dovolVybrano": {
+      "titl": "Bezogener Urlaub insgesamt"
+    },
+    "vyznamSlozky.dovolZbyva": {
+      "titl": "Resturlaub im Jahr"
+    },
+    "vyznamSlozky.hrubaMzda": {
+      "titl": "Bruttolohn"
+    },
+    "vyznamSlozky.hrubaPrumer": {
+      "titl": "Grundlage für Durchschnittslohn"
+    },
+    "vyznamSlozky.mzdaMesicni": {
+      "titl": "Monatsgehalt"
+    },
+    "vyznamSlozky.mzdaNahrada": {
+      "titl": "Lohnersatz"
+    },
+    "vyznamSlozky.nahradaNeschop": {
+      "titl": "Lohnersatz im Falle der Arbeitsunfähigkeit"
+    },
+    "vyznamSlozky.nemoc": {
+      "titl": "Krankheit"
+    },
+    "vyznamSlozky.nepenezPrijmy": {
+      "titl": "Sachbezüge"
+    },
+    "vyznamSlozky.nepritCelk": {
+      "titl": "Nicht geleistete Arbeitszeit - Abwesenheit"
+    },
+    "vyznamSlozky.nocniPripl": {
+      "titl": "Zuschlag für Nachtarbeit"
+    },
+    "vyznamSlozky.odmeny": {
+      "titl": "Belohnungen"
+    },
+    "vyznamSlozky.podilNaZisku": {
+      "titl": "Gewinnanteil"
+    },
+    "vyznamSlozky.pracPracPrum": {
+      "titl": "Arbeitsrechtlicher Stundendurchschnitt"
+    },
+    "vyznamSlozky.premiePevna": {
+      "titl": "Prämie fixe Summe"
+    },
+    "vyznamSlozky.premieProc": {
+      "titl": "Prämie % vom Grundlohn"
+    },
+    "vyznamSlozky.premieProcUkaz": {
+      "titl": "Prämie % von der Kennziffer / Grundlage"
+    },
+    "vyznamSlozky.prescas": {
+      "titl": "Lohn für Überzeitstunden"
+    },
+    "vyznamSlozky.prescasPripl": {
+      "titl": "Zuschlag für Überzeitstunden"
+    },
+    "vyznamSlozky.prescasy": {
+      "titl": "Geleistet - davon Überzeitstunden"
+    },
+    "vyznamSlozky.prispIzolacka": {
+      "titl": "Beitrag - Izolačka"
+    },
+    "vyznamSlozky.refundNeschop": {
+      "titl": "Erstattung - Lohnersatz bei Arbeitsunfähigkeit"
+    },
+    "vyznamSlozky.slevaDeti": {
+      "titl": "Rabatt Kinder"
+    },
+    "vyznamSlozky.socPojCelk": {
+      "titl": "Sozialversicherung insgesamt"
+    },
+    "vyznamSlozky.socPojCelkDp": {
+      "titl": "Sozialversicherung insgesamt - nur Rentenversicherung"
+    },
+    "vyznamSlozky.socPojCelkSniz": {
+      "titl": "Sozialversicherung insgesamt vermindert"
+    },
+    "vyznamSlozky.socPojFirma": {
+      "titl": "Sozialversicherung - Firma"
+    },
+    "vyznamSlozky.socPojFirmaSniz": {
+      "titl": "Sozialversicherung für die Firma vermindert"
+    },
+    "vyznamSlozky.socPojFirmaSnizZap": {
+      "titl": "Sozialversicherung für die Firma vermindert - aktiviert"
+    },
+    "vyznamSlozky.socPojPrac": {
+      "titl": "Sozialversicherung - Arbeitnehmer"
+    },
+    "vyznamSlozky.socPojSleva": {
+      "titl": "Sozialversicherung - Ermässigung"
+    },
+    "vyznamSlozky.socPojZakl": {
+      "titl": "Grundlage für Sozialversicherung"
+    },
+    "vyznamSlozky.socPojZaklDp": {
+      "titl": "Grundlage für Sozialversicherung - nur Rentenversicherung"
+    },
+    "vyznamSlozky.socPojZaklSniz": {
+      "titl": "Bemessungsgrundlage für die Sozialversicherung - vermindert"
+    },
+    "vyznamSlozky.srazkaSporeni": {
+      "titl": "Sparen"
+    },
+    "vyznamSlozky.superhrubaMzda": {
+      "titl": "Super-Bruttolohn"
+    },
+    "vyznamSlozky.svatek": {
+      "titl": "Geleistet - davon Feiertage"
+    },
+    "vyznamSlozky.svatekNahrada": {
+      "titl": "Ersatz für Feiertage"
+    },
+    "vyznamSlozky.weekend": {
+      "titl": "Geleistet - davon samstags und sonntags"
+    },
+    "vyznamSlozky.zalohaMimoradna": {
+      "titl": "Sondervorauszahlung"
+    },
+    "vyznamSlozky.zalohaRadna": {
+      "titl": "Ordnungsmässiger Vorschuss"
+    },
+    "vyznamSlozky.zdravPojCelk": {
+      "titl": "Krankenversicherung insgesamt"
+    },
+    "vyznamSlozky.zdravPojFirma": {
+      "titl": "Krankenversicherung - Arbeitgeber"
+    },
+    "vyznamSlozky.zdravPojPrac": {
+      "titl": "Krankenversicherung - Arbeitnehmer"
+    },
+    "vyznamSlozky.zdravPojZakl": {
+      "titl": "Grundlage für Krankenversicherung"
+    },
+    "zpusobPlatby.adresa": {
+      "titl": "An die Adresse"
+    },
+    "zpusobPlatby.pokladna": {
+      "titl": "An der Kasse"
+    },
+    "zpusobPlatby.ucet": {
+      "titl": "Auf das Konto"
+    }
+  }
+}

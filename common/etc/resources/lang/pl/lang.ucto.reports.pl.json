@@ -1,0 +1,3354 @@
+{
+  "reports": {
+    "Bsp$$BAN": {
+      "_title": {
+        "titl": "Wykaz rachunków bankowych"
+      }
+    },
+    "Bsp$$POK": {
+      "_title": {
+        "titl": "Wykaz kas fiskalnych"
+      }
+    },
+    "Bsp$$SKL": {
+      "_title": {
+        "titl": "Wykaz magazynów"
+      }
+    },
+    "Doklady": {
+      "_title": {
+        "titl": "Przegląd dokumentów"
+      }
+    },
+    "Doklady$$FAV": {
+      "_title": {
+        "titl": "Wykaz wystawionych faktur"
+      }
+    },
+    "Doklady$$PHL": {
+      "_title": {
+        "titl": "Wykaz innych wierzytelności"
+      }
+    },
+    "Doklady$$ZAV": {
+      "_title": {
+        "titl": "Wykaz innych zobowiązań"
+      }
+    },
+    "DokladyAdresar$$FAV": {
+      "_title": {
+        "titl": "Lista wystawionych faktur (sumowanie wg firm)"
+      }
+    },
+    "DokladyAdresarFAP$$FAP": {
+      "_title": {
+        "titl": "Lista otrzymanych faktur (podsumowanie według firm)"
+      }
+    },
+    "DokladyBanPok$$BAN": {
+      "_title": {
+        "titl": "Wykaz dokumentów bankowych"
+      }
+    },
+    "DokladyBanPok$$POK": {
+      "_title": {
+        "titl": "Wykaz dokumentów kasowych"
+      }
+    },
+    "DokladyFAP$$FAP": {
+      "_title": {
+        "titl": "Lista otrzymanych faktur (krajobraz)"
+      }
+    },
+    "DokladyINT$$INT": {
+      "_title": {
+        "titl": "Wykaz dokumentów wewnętrznych"
+      }
+    },
+    "Fakt_PRI": {
+      "SymbolPlateb": {
+        "titl": "Symbol płatności"
+      },
+      "konSymbol": {
+        "titl": "Stały"
+      },
+      "specSymbol": {
+        "titl": "Konkretnie"
+      },
+      "varSymPrikaz": {
+        "titl": "Zmienna"
+      }
+    },
+    "Fakt_VYD": {
+      "datSmir": {
+        "titl": "data postępowania pojednawczego"
+      },
+      "datUp1": {
+        "titl": "Data pierwszego upomnienia"
+      },
+      "datUp2": {
+        "titl": "2. przypomnienia"
+      },
+      "stav": {
+        "titl": "Status dokumentu"
+      }
+    },
+    "Hl_Kniha": {
+      "_title": {
+        "titl": "Książka główna"
+      },
+      "doklad": {
+        "titl": "Numer wewnętrzny"
+      },
+      "duzpUcto": {
+        "titl": "Upl.zd.pl."
+      },
+      "obratDAL": {
+        "titl": "Obroty DAL"
+      },
+      "obratMD": {
+        "titl": "Obroty MD"
+      },
+      "sledovaneObdobi": {
+        "titl": "Okres objęty przeglądem"
+      },
+      "sumDal": {
+        "titl": "Kwota DAL"
+      },
+      "sumMd": {
+        "titl": "Kwota MD"
+      },
+      "varSym": {
+        "titl": "Var.sym."
+      },
+      "zacatek": {
+        "titl": "Zacznij od"
+      },
+      "zuctovano": {
+        "titl": "Postanowienie."
+      }
+    },
+    "Majetek": {
+      "datVyst": {
+        "titl": "Data eliminacji"
+      },
+      "datZar": {
+        "titl": "Data klasyfikacji"
+      }
+    },
+    "PokladniDenik": {
+      "hotove": {
+        "titl": "Gotówka"
+      },
+      "kartou": {
+        "titl": "Kartą płatniczą"
+      },
+      "koncovyZustatek": {
+        "titl": "Saldo końcowe:"
+      },
+      "pocatecniZustatek": {
+        "titl": "Saldo początkowe:"
+      },
+      "prijem": {
+        "titl": "Odbiór"
+      },
+      "vydej": {
+        "titl": "Pozyskano z"
+      },
+      "zustatek": {
+        "titl": "Saldo"
+      }
+    },
+    "PokladniDenik$$BAN": {
+      "_title": {
+        "titl": "Księga bankowa"
+      }
+    },
+    "PokladniDenik$$POK": {
+      "_title": {
+        "titl": "Księga pieniężna"
+      }
+    },
+    "PokladniDenikPort$$BAN": {
+      "_title": {
+        "titl": "Bankbook (portret)"
+      }
+    },
+    "PokladniDenikPort$$POK": {
+      "_title": {
+        "titl": "Księga kasowa (portret)"
+      }
+    },
+    "Predvaha$$SUM": {
+      "_title": {
+        "titl": "Bilans obrotów"
+      }
+    },
+    "PredvahaPort": {
+      "_title": {
+        "titl": "Bilans obrotów (portret)"
+      }
+    },
+    "Prikaz$$BAN$$elInkaso": {
+      "_title": {
+        "titl": "MASOWE POLECENIE ZAPŁATY"
+      }
+    },
+    "Prikaz$$BAN$$elPrikaz": {
+      "_title": {
+        "titl": "ZLECENIE PŁATNOŚCI MASOWYCH"
+      }
+    },
+    "Prikazy_kniha$$BAN$$elInkaso": {
+      "_title": {
+        "titl": "Księga zleceń polecenia zapłaty"
+      }
+    },
+    "Prikazy_kniha$$BAN$$elPrikaz": {
+      "_title": {
+        "titl": "Książka zleceń płatniczych"
+      }
+    },
+    "Sazby_DPH": {
+      "_title": {
+        "titl": "Stawki VAT"
+      }
+    },
+    "Staty": {
+      "_title": {
+        "titl": "Państwa"
+      }
+    },
+    "TypDokl": {
+      "_title": {
+        "titl": "Przegląd typów dokumentów"
+      }
+    },
+    "TypDokl$$BAN": {
+      "_title": {
+        "titl": "Wykaz rodzajów dokumentów bankowych"
+      }
+    },
+    "TypDokl$$POK": {
+      "_title": {
+        "titl": "Wykaz rodzajów dokumentów kasowych"
+      }
+    },
+    "Zakazka": {
+      "_title": {
+        "titl": "Umowy"
+      }
+    },
+    "adrUdalosti": {
+      "_title": {
+        "titl": "Wydarzenia"
+      }
+    },
+    "adresar": {
+      "_title": {
+        "titl": "Katalog"
+      },
+      "nastaveniSidlo": {
+        "titl": "Adres siedziby"
+      }
+    },
+    "analyzaZakazky": {
+      "_title": {
+        "titl": "Analiza księgowa umowy"
+      },
+      "sumaZaUcet": {
+        "titl": "Kwota na rachunek"
+      },
+      "sumaZaZakazku": {
+        "titl": "Kwota za zamówienie"
+      },
+      "zisk": {
+        "titl": "Zysk"
+      }
+    },
+    "analyzaZakazkyRozsirena": {
+      "_title": {
+        "titl": "Karta umowy"
+      },
+      "celkovaBilanceZakazky": {
+        "titl": "Saldo umowy ogółem"
+      },
+      "cisDokl": {
+        "titl": "Dokument"
+      },
+      "naklad": {
+        "titl": "Koszt"
+      },
+      "polozkyFaktur": {
+        "titl": "Pozycje na fakturze"
+      },
+      "polozkyPokladny": {
+        "titl": "Pozycje dokumentów kasowych"
+      },
+      "polozkySkladu": {
+        "titl": "Pozycje dokumentów magazynowych"
+      },
+      "rozdil": {
+        "titl": "Saldo"
+      },
+      "ucetniAnalyzaZakazky": {
+        "titl": "Analiza księgowa umowy"
+      },
+      "vynos": {
+        "titl": "Dochody"
+      }
+    },
+    "analyzaZakazkyRozsirena$$NES": {
+      "_title": {
+        "titl": "Analiza umów"
+      }
+    },
+    "balikNaPostu": {
+      "_title": {
+        "titl": "Paczka na poczcie/Paczka do ręki"
+      }
+    },
+    "balikovyPodaciArch": {
+      "_title": {
+        "titl": "Pocztowy arkusz archiwizacyjny dla paczek"
+      }
+    },
+    "cashFlow": {
+      "_title": {
+        "titl": "Przegląd przepływów pieniężnych"
+      },
+      "cashFlow": {
+        "titl": "Przegląd przepływów pieniężnych"
+      }
+    },
+    "cashFlow$$MIN_OBDOBI": {
+      "_title": {
+        "titl": "Rachunek przepływów pieniężnych (w tym dane historyczne)"
+      },
+      "cashFlow": {
+        "titl": "Przegląd przepływów pieniężnych"
+      }
+    },
+    "cenHladPrehled": {
+      "_title": {
+        "titl": "Przegląd poziomów cen"
+      }
+    },
+    "cenik": {
+      "_title": {
+        "titl": "Cennik z cenami zakupu"
+      },
+      "cenaBezDph": {
+        "titl": "Cena bez VAT"
+      },
+      "cenaSDph": {
+        "titl": "Cena z VAT"
+      }
+    },
+    "cenikBezNakupni": {
+      "_title": {
+        "titl": "Cennik bez cen zakupu"
+      }
+    },
+    "cenikIndividualniVystupni": {
+      "_title": {
+        "titl": "Cennik sprzedaży"
+      }
+    },
+    "cenikIndividualniVystupniMnoz": {
+      "_title": {
+        "titl": "Cennik sprzedaży (rabaty ilościowe, bez VAT)"
+      },
+      "od": {
+        "titl": "Ze strony"
+      }
+    },
+    "cenikIndividualniVystupniMnozDph": {
+      "_title": {
+        "titl": "Cennik sprzedaży (rabaty ilościowe, z VAT)"
+      }
+    },
+    "cenikNakupProdej": {
+      "_title": {
+        "titl": "Cennik z cenami kupna i sprzedaży"
+      }
+    },
+    "cenikVystupni": {
+      "_title": {
+        "titl": "Cennik sprzedaży"
+      }
+    },
+    "cenikVystupniSPoplatky": {
+      "_title": {
+        "titl": "Cennik sprzedaży (z opłatami)"
+      },
+      "cenaVcetnePoplatku": {
+        "titl": "Cena z uwzględnieniem opłat:"
+      },
+      "poplatky": {
+        "titl": "Opłaty:"
+      }
+    },
+    "chart-landscape": {
+      "_title": {
+        "titl": "-"
+      }
+    },
+    "cisClenDph": {
+      "_title": {
+        "titl": "Linia VAT"
+      }
+    },
+    "danovaEvidence": {
+      "_title": {
+        "titl": "Oświadczenie o prowadzeniu ewidencji podatkowej"
+      },
+      "danEvid.NeDa": {
+        "titl": "Nie jest objęty ewidencją podatkową"
+      },
+      "danEvid.SocP": {
+        "titl": "Wypłata ubezpieczenia społecznego"
+      },
+      "danEvid.Zdra": {
+        "titl": "Wypłata ubezpieczenia zdrowotnego"
+      },
+      "nevyplnenTypUcOp": {
+        "titl": "Recepta na plakatowanie niewypełniona"
+      },
+      "nevyplneno": {
+        "titl": "Pusty"
+      },
+      "rozdilPrijemVydej": {
+        "titl": "Różnica między dochodem a wydatkiem:"
+      }
+    },
+    "dodaciList": {
+      "_title": {
+        "titl": "List przewozowy"
+      },
+      "hmotnost": {
+        "titl": "Waga [kg]"
+      },
+      "kFAVtypPohybu.prijem": {
+        "titl": "dla wydanej faktury"
+      },
+      "kPOKtypPohybu.prijem": {
+        "titl": "dla kasowego dokumentu przychodowego"
+      },
+      "kPOKtypPohybu.vydej": {
+        "titl": "dla kasowego dokumentu rozchodowego"
+      },
+      "kSKLtypPohybu.prijem": {
+        "titl": "dla kasowego dokumentu przychodowego"
+      },
+      "kSKLtypPohybu.vydej": {
+        "titl": "dla kasowego dokumentu rozchodowego"
+      },
+      "prevzatoDne": {
+        "titl": "Przyjęto dnia"
+      }
+    },
+    "dodaciList$$SUM_CEN": {
+      "_title": {
+        "titl": "List przewozowy z cenami sprzedaży"
+      }
+    },
+    "doklSklad": {
+      "_title": {
+        "titl": "Wykaz dokumentów magazynowych"
+      }
+    },
+    "dokladyObchod": {
+      "zbyvaRealizovat": {
+        "titl": "Pozostaje do wdrożenia"
+      }
+    },
+    "dokladyObchod$$NAP": {
+      "_title": {
+        "titl": "Przegląd otrzymanych ofert"
+      }
+    },
+    "dokladyObchod$$NAV": {
+      "_title": {
+        "titl": "Przegląd wystawionych ofert"
+      }
+    },
+    "dokladyObchod$$OBP": {
+      "_title": {
+        "titl": "Przegląd otrzymanych zamówień"
+      }
+    },
+    "dokladyObchod$$OBV": {
+      "_title": {
+        "titl": "Przegląd wydanych poleceń"
+      }
+    },
+    "dokladyObchod$$PPP": {
+      "_title": {
+        "titl": "Przegląd otrzymanych zapytań"
+      }
+    },
+    "dokladyObchod$$PPV": {
+      "_title": {
+        "titl": "Przegląd wydanych zapytań"
+      }
+    },
+    "dokladySRekapitulaciDph": {
+      "_title": {
+        "titl": "Lista dokumentów z podsumowaniem VAT"
+      },
+      "celkemNeucetniPrijem": {
+        "titl": "Suma nierozliczonych dochodów:"
+      },
+      "celkemNeucetniVydej": {
+        "titl": "Łącznie wydatki nie podlegające rozliczeniu:"
+      },
+      "celkemUcetniPrijem": {
+        "titl": "Przychody księgowe ogółem:"
+      },
+      "celkemUcetniVydej": {
+        "titl": "Wydatki księgowe ogółem:"
+      },
+      "datVyst": {
+        "titl": "Pozyskano z"
+      },
+      "duzpUcto": {
+        "titl": "DUZP"
+      },
+      "kod": {
+        "titl": "Numer dokumentu"
+      },
+      "snizena": {
+        "titl": "Zmniejszona"
+      },
+      "sumCelkem": {
+        "titl": "Razem [%currency-symbol]"
+      },
+      "sumDph": {
+        "titl": "Dph [%currency-symbol]"
+      },
+      "sumOsv": {
+        "titl": "Zwolniony [%currency-symbol]"
+      },
+      "sumZkl": {
+        "titl": "Podstawa [%currency-symbol]"
+      },
+      "ucetni": {
+        "titl": "Księgowy"
+      },
+      "zakladni": {
+        "titl": "Podstawowe"
+      }
+    },
+    "dokladySRekapitulaciDph$$BAN": {
+      "_title": {
+        "titl": "Wykaz dokumentów bankowych (z podsumowaniem VAT)"
+      }
+    },
+    "dokladySRekapitulaciDph$$FAP": {
+      "_title": {
+        "titl": "Lista otrzymanych faktur (z podsumowaniem VAT)"
+      }
+    },
+    "dokladySRekapitulaciDph$$FAV": {
+      "_title": {
+        "titl": "Lista wystawionych faktur (z podsumowaniem VAT)"
+      }
+    },
+    "dokladySRekapitulaciDph$$INT": {
+      "_title": {
+        "titl": "Wykaz dokumentów wewnętrznych (z podsumowaniem VAT)"
+      }
+    },
+    "dokladySRekapitulaciDph$$PHL": {
+      "_title": {
+        "titl": "Wykaz pozostałych należności (z podsumowaniem podatku VAT)"
+      }
+    },
+    "dokladySRekapitulaciDph$$POK": {
+      "_title": {
+        "titl": "Wykaz dokumentów kasowych (z podsumowaniem VAT)"
+      }
+    },
+    "dokladySRekapitulaciDph$$ZAV": {
+      "_title": {
+        "titl": "Wykaz pozostałych zobowiązań (z podsumowaniem podatku VAT)"
+      }
+    },
+    "eetOznameni": {
+      "duleziteOznameni": {
+        "titl": "Ogłoszenia informacyjne"
+      },
+      "textBezny": {
+        "titl": "Zgodnie z ustawą o ewidencji sprzedaży sprzedawca ma obowiązek wydać nabywcy paragon.Jednocześnie sprzedawca ma obowiązek zarejestrować otrzymaną sprzedaż online u administratora podatkowego; w przypadku awarii technicznej najpóźniej w ciągu 48 godzin."
+      },
+      "textZjednoduseny": {
+        "titl": "Zgodnie z ustawą o ewidencji sprzedaży sprzedawca ma obowiązek wydać nabywcy paragon.Odbiorca sprzedaży ewidencjonuje sprzedaż w trybie uproszczonym, czyli ma obowiązek najpóźniej w ciągu 5 dni zarejestrować otrzymaną sprzedaż u administratora podatkowego."
+      }
+    },
+    "eetOznameni$$NES": {
+      "_title": {
+        "titl": "Ogłoszenie informacyjne EET - system uproszczony"
+      }
+    },
+    "eetOznameni$$SUM": {
+      "_title": {
+        "titl": "Powiadomienia informacyjne EET - tryb normalny"
+      }
+    },
+    "fakPol$$FAP": {
+      "_title": {
+        "titl": "Zestawienie pozycji otrzymanych faktur"
+      }
+    },
+    "fakPol$$FAV": {
+      "_title": {
+        "titl": "Przegląd wystawionych pozycji faktur"
+      }
+    },
+    "fakPol$$NAP": {
+      "_title": {
+        "titl": "Przegląd pozycji w otrzymanych ofertach"
+      }
+    },
+    "fakPol$$NAV": {
+      "_title": {
+        "titl": "Zestawienie pozycji w ogłoszonych przetargach"
+      }
+    },
+    "fakPol$$OBP": {
+      "_title": {
+        "titl": "Przegląd pozycji w otrzymanych zamówieniach"
+      }
+    },
+    "fakPol$$OBV": {
+      "_title": {
+        "titl": "Przegląd pozycji w wydanych zamówieniach"
+      }
+    },
+    "fakPol$$POK": {
+      "_title": {
+        "titl": "Przegląd pozycji dokumentu kasowego"
+      }
+    },
+    "fakPol$$PPP": {
+      "_title": {
+        "titl": "Zestawienie pozycji otrzymanych zapytań"
+      }
+    },
+    "fakPol$$PPV": {
+      "_title": {
+        "titl": "Przegląd pozycji w wystawionych zapytaniach ofertowych"
+      }
+    },
+    "faktura": {
+      "banka": {
+        "titl": "Bank"
+      },
+      "celkem": {
+        "titl": "Razem"
+      },
+      "celkemBezZaloh": {
+        "titl": "Razem bez zaliczek"
+      },
+      "celkemDph": {
+        "titl": "Razem VAT"
+      },
+      "celkemFakturovano": {
+        "titl": "Razem fakturowano"
+      },
+      "celkemKUhrade": {
+        "titl": "Razem do zapłacenia"
+      },
+      "celkemPredSlevou": {
+        "titl": "Razem przed zniżką"
+      },
+      "celkemZaklad": {
+        "titl": "Razem podstawa"
+      },
+      "danOdvadiPrijemce": {
+        "titl": "Podatek zapłaci klient."
+      },
+      "danPriPrijetiPlatby": {
+        "titl": "Podatek nakłada się na podstawie przyjęcia płatności."
+      },
+      "datumZdanitelnehoPlneni": {
+        "titl": "Data powstania obowiązku podatkowego"
+      },
+      "datumZdanitelnehoPlneniOsobUpravaDph": {
+        "titl": "Data dostawy"
+      },
+      "dodavatel-sidlo": {
+        "titl": "Dostawca - siedziba"
+      },
+      "doprava": {
+        "titl": "Sposób transportu"
+      },
+      "dph19": {
+        "titl": "VAT 19%"
+      },
+      "dph9": {
+        "titl": "VAT 9%"
+      },
+      "dphCelkem": {
+        "titl": "VAT razem"
+      },
+      "formaDopravy": {
+        "titl": "Forma transportu"
+      },
+      "jizUhrazeno": {
+        "titl": "Już zapłacono"
+      },
+      "mistoUrceni": {
+        "titl": "Miejsce dostawy"
+      },
+      "nejsemPlatceDph": {
+        "titl": "Niepłatnik VAT"
+      },
+      "objednavka": {
+        "titl": "Zamówienie"
+      },
+      "odberatel-sidlo": {
+        "titl": "Odbiorca - siedziba"
+      },
+      "oznaceniDodavky": {
+        "titl": "Oznaczenie dostawy"
+      },
+      "postovniAdresa": {
+        "titl": "Adres pocztowy"
+      },
+      "predSlevou": {
+        "titl": "Przed zniżką"
+      },
+      "prenesenaDanovaPovinnost": {
+        "titl": "Przeniesione zobowiązanie podatkowe"
+      },
+      "preplatky": {
+        "titl": "Nadpłaty"
+      },
+      "puvodniDoklad": {
+        "titl": "Pierwotny dokument nr"
+      },
+      "razitkoAPodpis": {
+        "titl": "Pieczątka i podpis"
+      },
+      "registraceU": {
+        "titl": "Rejestracja"
+      },
+      "rekapitulaceDph": {
+        "titl": "Podsumowanie VAT w %currency-symbol"
+      },
+      "rekapitulaceDphV": {
+        "titl": "Rekapitulacja VAT w"
+      },
+      "sazbaDph": {
+        "titl": "Stawka VAT"
+      },
+      "za": {
+        "titl": "za"
+      },
+      "zaklad": {
+        "titl": "Podstawa"
+      },
+      "zaklad0": {
+        "titl": "Podstawa  0 %"
+      },
+      "zaklad19": {
+        "titl": "Podstawa  19 %"
+      },
+      "zaklad9": {
+        "titl": "Podstawa  9 %"
+      },
+      "zakladCelkem": {
+        "titl": "Podstawa razem"
+      },
+      "zakladOdpocet": {
+        "titl": "Zal. dok. pod. podstawa"
+      },
+      "zbyvaUhradit": {
+        "titl": "Pozostaje do zapłacenia"
+      },
+      "zeDne": {
+        "titl": "Data wystawienia pierwotnego dokumentu"
+      }
+    },
+    "fakturaConfig": {
+      "banka": {
+        "titl": "Bank"
+      },
+      "bic": {
+        "titl": "SWIFT:"
+      },
+      "celkemPredSlevou": {
+        "titl": "Razem przed zniżką"
+      },
+      "cenaMj": {
+        "titl": "Cena za MJ"
+      },
+      "cenaSDph": {
+        "titl": "Cena z VAT"
+      },
+      "cenaVMene": {
+        "titl": "Cena w %p"
+      },
+      "cisloBanUctu": {
+        "titl": "Numer rachunku bankowego"
+      },
+      "danOdvadiPrijemce": {
+        "titl": "Podatek zapłaci klient."
+      },
+      "datSplat": {
+        "titl": "Termin płatności"
+      },
+      "datSplatDatTermin": {
+        "titl": "Termin płatności"
+      },
+      "datVyst": {
+        "titl": "Data wydania"
+      },
+      "dic": {
+        "titl": "VAT ID"
+      },
+      "dobropisovanyDokladCislo": {
+        "titl": "Orginalny dokument"
+      },
+      "dobropisovanyDokladDatum": {
+        "titl": "Data wystawienia oryginału dokumentu"
+      },
+      "dodavatel": {
+        "titl": "DOSTAWCA"
+      },
+      "duzpPuv": {
+        "titl": "Data opodatkowania"
+      },
+      "formaUhrady": {
+        "titl": "Forma płatności"
+      },
+      "iban": {
+        "titl": "IBAN:"
+      },
+      "ic": {
+        "titl": "ID"
+      },
+      "icdph": {
+        "titl": "NUMER VAT"
+      },
+      "kurzKurzMnozstvi": {
+        "titl": "Stawka %p %p za %p %p"
+      },
+      "mj": {
+        "titl": "MJ"
+      },
+      "mnozMj": {
+        "titl": "Ilość"
+      },
+      "neplatceDph": {
+        "titl": "Nie jest płatnikiem VAT"
+      },
+      "odberatel": {
+        "titl": "ODBIORCA"
+      },
+      "polozka": {
+        "titl": "Przedmiot"
+      },
+      "predSlevou": {
+        "titl": "Przed zniżką"
+      },
+      "prenesenaDanovaPovinnost": {
+        "titl": "Przeniesione zobowiązanie podatkowe"
+      },
+      "puvodniSazbaDph": {
+        "titl": "Pierwotna stawka VAT"
+      },
+      "razitkoAPodpis": {
+        "titl": "Pieczątka i podpis"
+      },
+      "rekapitulaceDphVMene": {
+        "titl": "Zwrot podatku VAT w %p"
+      },
+      "slevaDokl": {
+        "titl": "Rabat dokumentowy"
+      },
+      "stornovano": {
+        "titl": "Stornowano"
+      },
+      "sumCelkem": {
+        "titl": "Razem [%p]"
+      },
+      "sumZkl": {
+        "titl": "Baza [%p]"
+      },
+      "uhrazeno": {
+        "titl": "JUŻ URATOWANY!"
+      },
+      "varSym": {
+        "titl": "Symbol zmiennej"
+      },
+      "zaklad": {
+        "titl": "Baza"
+      }
+    },
+    "fakturaConfig$$FAV": {
+      "_title": {
+        "titl": "Konfigurowalna faktura"
+      }
+    },
+    "fakturaConfig$$NAV": {
+      "_title": {
+        "titl": "Konfigurowalna oferta"
+      },
+      "datSplatDatTermin": {
+        "titl": "Termin"
+      }
+    },
+    "fakturaConfig$$OBP": {
+      "_title": {
+        "titl": "Konfigurowalne zamówienie"
+      },
+      "datSplatDatTermin": {
+        "titl": "Termin"
+      }
+    },
+    "fakturaKB": {
+      "_title": {
+        "titl": "Faktura"
+      },
+      "bspBan": {
+        "titl": "Rachunek bank."
+      },
+      "konSym": {
+        "titl": "Symbol stały"
+      },
+      "specSym": {
+        "titl": "Symbol spec."
+      },
+      "varSym": {
+        "titl": "Symbol zm."
+      }
+    },
+    "fakturaKB$$R_DPH_V_MENE": {
+      "_title": {
+        "titl": "Faktura (podsumowanie VAT w walucie dokumentu)"
+      }
+    },
+    "fakturaKB$$SUM_BEZ_QR": {
+      "_title": {
+        "titl": "Faktura (bez kodu QR)"
+      }
+    },
+    "geisPredavaciProtokol": {
+      "_title": {
+        "titl": "Protokół przesyłania danych Geis"
+      },
+      "adresat": {
+        "titl": "Adres"
+      },
+      "balikCislo": {
+        "titl": "Numer pakietu"
+      },
+      "celkemBaliku": {
+        "titl": "Opakowania ogółem"
+      },
+      "celkemCod": {
+        "titl": "ChZT ogółem"
+      },
+      "cod": {
+        "titl": "Dob. (COD)"
+      },
+      "datum": {
+        "titl": "Data"
+      },
+      "exw": {
+        "titl": "EXW"
+      },
+      "geisNazev": {
+        "titl": "GEIS Parcel CZ s.r.o"
+      },
+      "paticka1": {
+        "titl": "Transport odbywa się na podstawie Ogólnych Warunków Handlowych, aktualny status GEIS PARCEL CZ, spol. s r. o., nr ID: 63077051."
+      },
+      "paticka2": {
+        "titl": "Spółka jest zarejestrowana w rejestrze handlowym prowadzonym przez Sąd Rejonowy w Pilźnie, dział C, wkładka nr 9503."
+      },
+      "podpisOdesilatele": {
+        "titl": "Podpis nadawcy"
+      },
+      "podpisRidice": {
+        "titl": "Podpis kierowcy"
+      },
+      "potvrzeniOPrevzeti": {
+        "titl": "Protokół przekazania"
+      },
+      "poz": {
+        "titl": "Przedmiot."
+      },
+      "poznam": {
+        "titl": "Uwaga"
+      },
+      "prikazce": {
+        "titl": "Zleceniodawca (nadawca)"
+      },
+      "pripojisteni": {
+        "titl": "Ubezpieczenia"
+      },
+      "strana": {
+        "titl": "Strona"
+      },
+      "varSym": {
+        "titl": "Symbol odmiany"
+      },
+      "zasilkyBezPoskozeni": {
+        "titl": "Powyższe przesyłki zostały przekazane bez uszkodzeń"
+      }
+    },
+    "geisstitek": {
+      "_title": {
+        "titl": "Geis Label (arkusz A4)"
+      },
+      "geisNazev": {
+        "titl": "Geis Parcel CZ, s.r.o."
+      },
+      "odesilatel": {
+        "titl": "Nadawca"
+      },
+      "prijemce": {
+        "titl": "Odbiorca"
+      },
+      "tel": {
+        "titl": "Tel."
+      },
+      "vs": {
+        "titl": "VS"
+      }
+    },
+    "global": {
+      "PenUstav": {
+        "titl": "Instytucja finansowa"
+      },
+      "ZbyvaUhradit": {
+        "titl": "Pozostaje do zapłacenia"
+      },
+      "boolean.ano": {
+        "titl": "Tak"
+      },
+      "boolean.ne": {
+        "titl": "Nie"
+      },
+      "celkem": {
+        "titl": "Razem:"
+      },
+      "celkemKc": {
+        "titl": "Ogółem w %currency-symbol"
+      },
+      "celkemMena": {
+        "titl": "Ogółem w walucie:"
+      },
+      "celkemNeucetni": {
+        "titl": "Razem nieksięgowa:"
+      },
+      "celkemPrijem": {
+        "titl": "Ogółem przyjęto:"
+      },
+      "celkemUcetni": {
+        "titl": "Razem księgowa:"
+      },
+      "celkemVydej": {
+        "titl": "Ogółem vydano:"
+      },
+      "cisloUctu": {
+        "titl": "SÚ"
+      },
+      "clenEU": {
+        "titl": "Członek UE"
+      },
+      "developerMode": {
+        "titl": "Nieważny druk"
+      },
+      "dodaciList": {
+        "titl": "Kwit dostawy"
+      },
+      "dodavatel": {
+        "titl": "Dostawca"
+      },
+      "dph": {
+        "titl": "VAT"
+      },
+      "eetBkp": {
+        "titl": "BKP"
+      },
+      "error": {
+        "titl": "BŁĄD"
+      },
+      "juh": {
+        "titl": "Już zapłacono"
+      },
+      "kUhrade": {
+        "titl": "Do zapłacenia"
+      },
+      "kUhradeMen": {
+        "titl": "Do zapłacenia [waluta]"
+      },
+      "kUhradekDatu": {
+        "titl": "Do zapłaty do dnia"
+      },
+      "konSymbol": {
+        "titl": "Symbol stały"
+      },
+      "konverzniKurz": {
+        "titl": "kurs konwersji"
+      },
+      "mena": {
+        "titl": "waluta"
+      },
+      "merJed": {
+        "titl": "Jednostki miary"
+      },
+      "mesic": {
+        "titl": "Miesiąc"
+      },
+      "mobil": {
+        "titl": "Komórka"
+      },
+      "nazFirmy": {
+        "titl": "Nazwa firmy"
+      },
+      "nevyplnen": {
+        "titl": "Nie wypełniony"
+      },
+      "odberatel": {
+        "titl": "Odbiorca"
+      },
+      "prevzalDne": {
+        "titl": "Przejął dnia"
+      },
+      "prodejkaNeplatce": {
+        "titl": "Dokument uproszczony"
+      },
+      "prodejkaZaHotove": {
+        "titl": "Dokument sprzedaży za gotówkę"
+      },
+      "prodejkaZaHotoveDobropis": {
+        "titl": "Dokument sprzedaży za gotówkę - Zapis kredytowy"
+      },
+      "provozovna": {
+        "titl": "Oddział"
+      },
+      "razitko": {
+        "titl": "Pieczęć"
+      },
+      "reportVytiskl": {
+        "titl": "Wydrukował"
+      },
+      "rozdil": {
+        "titl": "Różnica"
+      },
+      "rozvaha": {
+        "titl": "Bilans"
+      },
+      "specSymbol": {
+        "titl": "Specyficzny symbol"
+      },
+      "stornovano": {
+        "titl": "Stornowano"
+      },
+      "stranka": {
+        "titl": "Strona"
+      },
+      "sumCelkemMen": {
+        "titl": "Razem [waluta]"
+      },
+      "sumacePotlacena": {
+        "titl": "(bez sumowania)"
+      },
+      "syntetickyUcet": {
+        "titl": "Rachunek syntetyczny"
+      },
+      "tisknutoDne": {
+        "titl": "Wydrukowano dnia"
+      },
+      "ucetniObdobiNeniUzavreno": {
+        "titl": "Okres rozliczeniowy nie jest zamknięty!"
+      },
+      "uhrazeneDoklady": {
+        "titl": "Zapłacone dokumenty"
+      },
+      "varSymbol": {
+        "titl": "Symbol zmienny"
+      },
+      "vysledovka": {
+        "titl": "Wykaz zysków i strat"
+      },
+      "vytistenoSystemem": {
+        "titl": "Wydrukowano w systemie %p"
+      }
+    },
+    "intPol": {
+      "doklad": {
+        "titl": "Dokument"
+      }
+    },
+    "intPol$$BAN$$SUM_BAN": {
+      "_title": {
+        "titl": "Przegląd pozycji dokumentów bankowych"
+      }
+    },
+    "intPol$$BAN$$SUM_ZAP": {
+      "_title": {
+        "titl": "Przegląd pozycji kredytowych"
+      }
+    },
+    "intPol$$INT": {
+      "_title": {
+        "titl": "Przegląd pozycji dokumentów wewnętrznych"
+      }
+    },
+    "intPol$$PHL": {
+      "_title": {
+        "titl": "Zestawienie pozycji pozostałych należności"
+      }
+    },
+    "intPol$$ZAV": {
+      "_title": {
+        "titl": "Zestawienie pozostałych pozycji zobowiązań"
+      }
+    },
+    "inventarizacePohledavek": {
+      "_title": {
+        "titl": "Inwentaryzacja należności i zobowiązań"
+      },
+      "datSplat": {
+        "titl": "Dojrzałość"
+      },
+      "datVyst": {
+        "titl": "Pozyskano z"
+      },
+      "dekujeme": {
+        "titl": "Dziękuję za współpracę i pozdrawiam"
+      },
+      "dokladyVMenePhl": {
+        "titl": "Poszczególne dokumenty należności w walucie"
+      },
+      "dokladyVMeneZav": {
+        "titl": "Poszczególne dokumenty zobowiązań w walucie"
+      },
+      "dokladyVTuzPhl": {
+        "titl": "Indywidualne dokumenty należności w %currency-symbol"
+      },
+      "dokladyVTuzZav": {
+        "titl": "Indywidualne dokumenty dotyczące zobowiązań w %currency-symbol"
+      },
+      "firma": {
+        "titl": "Firma:"
+      },
+      "inventurizace": {
+        "titl": "Stan należności i zobowiązań na dzień"
+      },
+      "juhSum": {
+        "titl": "Już zapłacone"
+      },
+      "kod": {
+        "titl": "Int.no.doc."
+      },
+      "pokudPhl": {
+        "titl": "Jeśli w ciągu %p nie otrzymamy potwierdzonego dokumentu lub Państwa uwag dotyczących stanu należności, uznajemy należności za uzgodnione i uznane."
+      },
+      "pokudZav": {
+        "titl": "Jeśli w ciągu %p nie otrzymamy potwierdzonego dokumentu lub Twojego oświadczenia o stanie zobowiązań, uznamy zobowiązania za uzgodnione i przyjęte."
+      },
+      "potvrzeny": {
+        "titl": "Potwierdzony formularz z ewentualnymi różnicami prosimy przesłać na nasz adres lub e-mailem na adres"
+      },
+      "sumCelkem": {
+        "titl": "Razem"
+      },
+      "vDne": {
+        "titl": "W %p dnia %p"
+      },
+      "varSym": {
+        "titl": "War.symbol"
+      },
+      "zadamePhl": {
+        "titl": "Prosimy o porównanie zgłoszonej przez nas sytuacji z prowadzoną przez Państwa dokumentacją. W przypadku poszczególnych należności proszę wskazać wartość zaewidencjonowaną przez Państwa lub przedstawić odpowiednie dokumenty dotyczące różnicy.\n                "
+      },
+      "zadameZav": {
+        "titl": "Prosimy o porównanie zgłoszonej przez nas sytuacji z prowadzoną przez Państwa dokumentacją. W przypadku różnych zobowiązań proszę podać wartość zaksięgowaną przez Państwa lub przedstawić odpowiednie dokumenty potwierdzające różnicę.\n                "
+      },
+      "zakonPhl": {
+        "titl": "Zgodnie z ustawą nr 563/1991 Dz.U. o rachunkowości, w brzmieniu późniejszych przepisów, prosimy o uzgodnienie należności naszej organizacji na dzień"
+      },
+      "zakonSkPhl": {
+        "titl": "Zgodnie z ustawą nr 431/2002 Dz. U. o rachunkowości, w brzmieniu późniejszych przepisów, prosimy o uzgodnienie należności naszej organizacji na dzień"
+      },
+      "zakonSkZav": {
+        "titl": "Zgodnie z ustawą nr 431/2002 Dz. U. o rachunkowości, w brzmieniu późniejszych przepisów, prosimy o uzgodnienie zobowiązań naszej organizacji na dzień"
+      },
+      "zakonZav": {
+        "titl": "Zgodnie z ustawą nr 563/1991 Dz. U. o rachunkowości, w brzmieniu późniejszych przepisów, prosimy o uzgodnienie zobowiązań naszej organizacji na dzień"
+      },
+      "zbyvaUhradit": {
+        "titl": "Pozostaje do zapłaty"
+      }
+    },
+    "inventura": {
+      "_title": {
+        "titl": "Inwentaryzacja towarów"
+      }
+    },
+    "inventura$$SUM_ROZDILY": {
+      "_title": {
+        "titl": "Zapasy towarów (różnice)"
+      }
+    },
+    "inventuraUctu": {
+      "_title": {
+        "titl": "Inwentaryzacja rachunków"
+      },
+      "datum": {
+        "titl": "Data"
+      },
+      "podpisInventarizacniKomise": {
+        "titl": "Podpis komisji inwentaryzacyjnej"
+      }
+    },
+    "kartaZakazky": {
+      "_title": {
+        "titl": "Karta umowy"
+      }
+    },
+    "knihaFakCzk": {
+      "nedoplatek": {
+        "titl": "Zaległości [%currency-symbol]"
+      },
+      "nedoplatekMen": {
+        "titl": "Zaległości [Waluta]"
+      },
+      "sumaCastka": {
+        "titl": "Kwota:"
+      },
+      "sumaNedoplatek": {
+        "titl": "Kwota zaległości:"
+      }
+    },
+    "knihaFakCzk$$FAP": {
+      "_title": {
+        "titl": "Lista otrzymanych faktur (saldo)"
+      }
+    },
+    "knihaFakCzk$$FAP$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Lista otrzymanych faktur (bilans, wg zamówienia użytkownika)"
+      }
+    },
+    "knihaFakCzk$$FAV": {
+      "_title": {
+        "titl": "Lista wystawionych faktur (saldo)"
+      }
+    },
+    "knihaFakCzk$$FAV$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Lista wystawionych faktur (saldo, wg kolejności użytkownika)"
+      }
+    },
+    "knihaFakCzk$$PHL": {
+      "_title": {
+        "titl": "Wykaz pozostałych należności (saldo)"
+      }
+    },
+    "knihaFakCzk$$PHL$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Lista pozostałych należności (saldo, wg zlecenia użytkownika)"
+      }
+    },
+    "knihaFakCzk$$ZAV": {
+      "_title": {
+        "titl": "Wykaz pozostałych zobowiązań (bilans)"
+      }
+    },
+    "knihaFakCzk$$ZAV$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Lista pozostałych zobowiązań (bilans, wg kolejności użytkowników)"
+      }
+    },
+    "knihaFakCzk$$vykazSaldoKdatu": {
+      "_title": {
+        "titl": "Stan płatności na dzień"
+      }
+    },
+    "knihaFakCzk$$vykazSaldoKdatu$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Stan dotychczasowych płatności (wg zlecenia użytkownika)"
+      }
+    },
+    "knihaFakMen$$FAP": {
+      "_title": {
+        "titl": "Lista otrzymanych faktur (saldo w walucie)"
+      }
+    },
+    "knihaFakMen$$FAV": {
+      "_title": {
+        "titl": "Lista wystawionych faktur (saldo w walucie)"
+      }
+    },
+    "knihaFakMen$$PHL": {
+      "_title": {
+        "titl": "Wykaz pozostałych należności (stan w walucie)"
+      }
+    },
+    "knihaFakMen$$ZAV": {
+      "_title": {
+        "titl": "Wykaz pozostałych zobowiązań (stan w walucie)"
+      }
+    },
+    "knihaFakMen$$vykazSaldoKdatu": {
+      "_title": {
+        "titl": "Stan płatności na dzień w walucie"
+      }
+    },
+    "konSym": {
+      "_title": {
+        "titl": "Stałe symbole"
+      }
+    },
+    "kontakty": {
+      "_title": {
+        "titl": "Kontakt"
+      }
+    },
+    "kontrolniVykazPrehled": {
+      "_title": {
+        "titl": "Deklaracja kontroli VAT (przegląd)"
+      }
+    },
+    "kontrolniVykazPrehledCZ": {
+      "44zdph": {
+        "titl": "§44 USTAWY O VAT"
+      },
+      "_title": {
+        "titl": "Deklaracje kontroli VAT (przegląd czeski)"
+      },
+      "duzp": {
+        "titl": "DUZP"
+      },
+      "kod": {
+        "titl": "Numer rejestracyjny dokumentu"
+      },
+      "kodPredmetuPlneni": {
+        "titl": "Kod przedmiotu świadczenia"
+      },
+      "kodRezimuPlneni": {
+        "titl": "Kod schematu wypełniania"
+      },
+      "pouzityPomer": {
+        "titl": "Zastosowany współczynnik"
+      }
+    },
+    "kontrolniVykazPrehledCZ$$SUM": {
+      "_title": {
+        "titl": "Linie kontrolne dla deklaracji VAT"
+      }
+    },
+    "kontrolniVykazPrehledCZ$$SUMACE": {
+      "_title": {
+        "titl": "Raport z kontroli VAT (czeskie podsumowanie, tylko wiersze podsumowujące)"
+      }
+    },
+    "kurzy": {
+      "_title": {
+        "titl": "Kursy"
+      }
+    },
+    "kusovnik": {
+      "_title": {
+        "titl": "Praca na akord"
+      },
+      "celkem": {
+        "titl": "Podatek całkowity bez podatku."
+      },
+      "celkemMj": {
+        "titl": "Razem MJ"
+      },
+      "cenaBezDph": {
+        "titl": "Cena bez VAT za MJ"
+      },
+      "cenaSDph": {
+        "titl": "Cena z VAT za MJ"
+      }
+    },
+    "kusovnikNakup": {
+      "_title": {
+        "titl": "Lista sztuk z cenami zakupu"
+      },
+      "nakupCenaCelkem": {
+        "titl": "Całkowita cena zakupu"
+      },
+      "nakupCenaZaMj": {
+        "titl": "Cena zakupu za MJ"
+      }
+    },
+    "leasing": {
+      "_title": {
+        "titl": "Przegląd leasingu"
+      },
+      "kartaLeasingu": {
+        "titl": "Karta leasingowa:"
+      }
+    },
+    "leasingWithSubreports": {
+      "_title": {
+        "titl": "Leasing (harmonogram spłat, koszty podatkowe)"
+      }
+    },
+    "majOdpisSkup": {
+      "_title": {
+        "titl": "Aktywa - grupy amortyzacyjne"
+      },
+      "koefProZrychOdpis": {
+        "titl": "Współczynnik dla przyspieszonej amortyzacji"
+      },
+      "procProRovnOdpis": {
+        "titl": "Proc. dla amortyzacji liniowej"
+      }
+    },
+    "majTyp": {
+      "_title": {
+        "titl": "Rodzaje nieruchomości"
+      }
+    },
+    "majUdalosti": {
+      "_title": {
+        "titl": "Nieruchomości - wydarzenia"
+      }
+    },
+    "majUmisteni": {
+      "_title": {
+        "titl": "Aktywa - lokalizacja"
+      }
+    },
+    "majetek$$SUM": {
+      "_title": {
+        "titl": "Przegląd aktywów"
+      }
+    },
+    "majetekStav": {
+      "_title": {
+        "titl": "Przegląd aktywów"
+      },
+      "aktualniCena": {
+        "titl": "Cena bieżąca [%currency-symbol]"
+      },
+      "cenaZarazeni": {
+        "titl": "Cena klasyfikacyjna [%currency-symbol]"
+      },
+      "datVyr": {
+        "titl": "Zlikwidowany"
+      },
+      "datZacatDan": {
+        "titl": "Tax. Nie ma za co."
+      },
+      "datZacatUcet": {
+        "titl": "Cel."
+      },
+      "datZar": {
+        "titl": "Pozyskano z"
+      },
+      "odpisovaSkupina": {
+        "titl": "Transkrypcja. grupa podatkowa"
+      },
+      "pocetUcetnichOdpisu": {
+        "titl": "Liczba kont amortyzacyjnych"
+      },
+      "rokDanOdpis": {
+        "titl": "Amortyzacja podatkowa za okres"
+      },
+      "rokUcetOdpis": {
+        "titl": "Odpis amortyzacyjny za okres"
+      },
+      "sumDanOdpis": {
+        "titl": "Amortyzacja podatkowa ogółem"
+      },
+      "sumUcetOdpis": {
+        "titl": "Amortyzacja księgowa ogółem"
+      }
+    },
+    "majetekStavKDatu": {
+      "_title": {
+        "titl": "Przegląd aktywów"
+      },
+      "cenaAktualni": {
+        "titl": "Cena bieżąca [%currency-symbol]"
+      },
+      "cenaZarazeni": {
+        "titl": "Cena [%currency-symbol]"
+      },
+      "danoveOdpisy": {
+        "titl": "Podatek. amortyzacja Razem"
+      },
+      "danoveOdpisyObdobi": {
+        "titl": "Podatek. amortyzacja za okres"
+      },
+      "datPoslDanOdpis": {
+        "titl": "Odpis z tytułu podatku poz."
+      },
+      "datPoslUcetOdpis": {
+        "titl": "Konto na Messengerze. Kopia"
+      },
+      "datPuvZar": {
+        "titl": "Pozyskano z"
+      },
+      "datVyr": {
+        "titl": "Zlikwidowany"
+      },
+      "datZacDan": {
+        "titl": "Amortyzacja początkowa"
+      },
+      "datZacUcet": {
+        "titl": "Rozpoczęcie amortyzacji"
+      },
+      "dobaOdp": {
+        "titl": "Okres amortyzacji [miesiąc]"
+      },
+      "kod": {
+        "titl": "Numer inwentarzowy"
+      },
+      "odpisovaSkupina": {
+        "titl": "Transkrypcja. grupa podatkowa"
+      },
+      "odpisovaSkupinaSum": {
+        "titl": "Transkrypcja. grupa podatkowa"
+      },
+      "pocetUcetnichOdpisu": {
+        "titl": "Liczba kont amortyzacyjnych"
+      },
+      "sumPoslDanOdpis": {
+        "titl": "Odpis z tytułu podatku poz."
+      },
+      "sumPoslUcetOdpis": {
+        "titl": "Konto na Messengerze. Kopia"
+      },
+      "ucetniOdpisy": {
+        "titl": "Konto. amortyzacja"
+      },
+      "ucetniOdpisyObdobi": {
+        "titl": "Konto. okres deprecjacji"
+      },
+      "zustatekDanovy": {
+        "titl": "Podatek"
+      },
+      "zustatekUcetni": {
+        "titl": "Bilans księgowy"
+      }
+    },
+    "majetekStavKDatu$$SUM": {
+      "_title": {
+        "titl": "Podsumowanie aktywów (z sumami grupowymi)"
+      }
+    },
+    "majetekWithSubreports": {
+      "_title": {
+        "titl": "Aktywa (Amortyzacja podatkowa, Imprezy, Amortyzacja księgowa)"
+      },
+      "danoveAUcetniStejne": {
+        "titl": "Amortyzacja podatkowa jest taka sama jak amortyzacja księgowa"
+      },
+      "kartaMajetku": {
+        "titl": "Karta aktywów:"
+      },
+      "schvalilVyrazeni": {
+        "titl": "Zatwierdził eliminację"
+      },
+      "schvalilZarazeni": {
+        "titl": "Zatwierdził włączenie"
+      }
+    },
+    "meny": {
+      "_title": {
+        "titl": "Waluty"
+      }
+    },
+    "merJed": {
+      "_title": {
+        "titl": "Jednostki miary"
+      }
+    },
+    "obalkaC5": {
+      "_title": {
+        "titl": "Adres dla koperty C5 (162x229mm)"
+      }
+    },
+    "obalkaC6": {
+      "_title": {
+        "titl": "Adres do koperty C6 (114x162mm)"
+      }
+    },
+    "obalkaDL": {
+      "_title": {
+        "titl": "Adres do koperty DL (110x220mm)"
+      }
+    },
+    "obchodDoklad": {
+      "_title": {
+        "titl": "Wewnętrzny opis dokumentu"
+      },
+      "celkem": {
+        "titl": "Razem"
+      },
+      "celkemZakladniSazba": {
+        "titl": "W tym VAT - stawka podstawowa"
+      },
+      "ciziMena": {
+        "titl": "Waluta"
+      },
+      "domaciMena": {
+        "titl": "Waluta krajowa"
+      },
+      "dphSnizenaSazba": {
+        "titl": "VAT - stawka obniżona"
+      },
+      "dphZakladniSazba": {
+        "titl": "VAT - stawka podstawowa"
+      },
+      "hotovo": {
+        "titl": "Gotowe"
+      },
+      "nakladyNaDoklad": {
+        "titl": "Koszt dokumentu"
+      },
+      "odberatelDodavatel": {
+        "titl": "Klient / dostawca"
+      },
+      "titleNAP": {
+        "titl": "Oferta przyjęta"
+      },
+      "titleNAV": {
+        "titl": "Oferta wystawiona"
+      },
+      "titleOBP": {
+        "titl": "Otrzymane zamówienie"
+      },
+      "titleOBV": {
+        "titl": "Postanowienie wydane"
+      },
+      "titlePPP": {
+        "titl": "Otrzymany popyt"
+      },
+      "titlePPV": {
+        "titl": "Zapotrzebowanie wydane"
+      },
+      "zakladOsvobozeno": {
+        "titl": "Zwolnione z VAT lub nieobjęte tym podatkiem"
+      },
+      "zakladSnizenaSazba": {
+        "titl": "Podstawa - stawka obniżona"
+      },
+      "zakladZakladniSazba": {
+        "titl": "Podstawa - stawka podstawowa"
+      }
+    },
+    "obchodDoklad$$NES": {
+      "_title": {
+        "titl": "Opis dokumentu wewnętrznego (bez podsumowań)"
+      }
+    },
+    "obchodDokladVystupni": {
+      "_title": {
+        "titl": "Dowód dla klienta"
+      }
+    },
+    "obchodDokladVystupni$$BEZ": {
+      "_title": {
+        "titl": "Dokument klienta (bez cen)"
+      }
+    },
+    "obchodDokladVystupni$$NES": {
+      "_title": {
+        "titl": "Dowód dla klienta (bez sumy)"
+      }
+    },
+    "obchodDokladVystupni$$NES_BEZ_DPH": {
+      "_title": {
+        "titl": "Dowód dla klienta (bez VAT, bez sumy)"
+      }
+    },
+    "obchodDokladVystupni$$SUM_BEZ_DPH": {
+      "_title": {
+        "titl": "Dowód dla klienta (bez VAT)"
+      }
+    },
+    "obchodDokladVystupniOBP": {
+      "_title": {
+        "titl": "Dowód dla klienta"
+      },
+      "cisDosle": {
+        "titl": "Numer przychodzącego zamówienia"
+      }
+    },
+    "obchodDokladVystupniOBP$$NES": {
+      "_title": {
+        "titl": "Dowód dla klienta (bez sumy)"
+      }
+    },
+    "obratyPocatky": {
+      "_title": {
+        "titl": "Salda początkowe rachunków"
+      }
+    },
+    "opisDokladu": {
+      "_title": {
+        "titl": "Opis dokumentu"
+      }
+    },
+    "opravaSkladu": {
+      "_title": {
+        "titl": "Pozycje przechodzące w stan ujemny"
+      },
+      "idPolSklad": {
+        "titl": "Identyfikator Pozycja dokumentu magazynowego"
+      },
+      "idSkladKarty": {
+        "titl": "Identyfikator Karty sztabowe"
+      },
+      "pocetRozbiti": {
+        "titl": "Liczba pozycji w negatywie"
+      }
+    },
+    "penezniDenik": {
+      "_title": {
+        "titl": "Dziennik pieniężny"
+      },
+      "castka": {
+        "titl": "Kwota w %currency-symbol"
+      },
+      "doklad": {
+        "titl": "Numer dokumentu"
+      },
+      "prijem": {
+        "titl": "Odbiór"
+      },
+      "vydej": {
+        "titl": "Pozyskano z"
+      }
+    },
+    "poSplatnosti": {
+      "_title": {
+        "titl": "Zaległe należności/zobowiązania"
+      },
+      "celkem": {
+        "titl": "Razem"
+      },
+      "celkemPoSplatnosti": {
+        "titl": "Zaległości ogółem"
+      },
+      "datSplat": {
+        "titl": "Dojrzałość"
+      },
+      "datUcto": {
+        "titl": "Księgowość"
+      },
+      "firma": {
+        "titl": "Firma"
+      },
+      "firmaNevyplnena": {
+        "titl": "Firma nie jest wypełniona"
+      },
+      "kod": {
+        "titl": "Numer dokumentu"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Zaległe należności przeterminowane"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Nierozliczone zobowiązania przeterminowane"
+      },
+      "rozmezi": {
+        "titl": "%p do %p dni przeterminowania"
+      },
+      "rozmeziKonec": {
+        "titl": "%p i więcej dni przeterminowanych"
+      },
+      "symbolSplatnosti.stav0": {
+        "titl": "Nie zaległe"
+      },
+      "symbolSplatnosti.stavZnevyplneno": {
+        "titl": "Niewypełniony okres dojrzałości"
+      },
+      "uhrazeno": {
+        "titl": "Płatne"
+      },
+      "zbyva": {
+        "titl": "Pozostaje"
+      }
+    },
+    "poSplatnostiDleDokladu": {
+      "_title": {
+        "titl": "Zaległe należności/zobowiązania według terminów płatności"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Zaległe należności według terminów płatności"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Zobowiązania wymagalne według terminów zapadalności"
+      }
+    },
+    "poSplatnostiDleFirmy": {
+      "_title": {
+        "titl": "Zaległe należności/zaległe zobowiązania (wg firm)"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Należności przeterminowane (wg firm)"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Zobowiązania zaległe (wg firm)"
+      }
+    },
+    "podaciListek": {
+      "_title": {
+        "titl": "Karta zgłoszenia"
+      }
+    },
+    "podkladyDPH": {
+      "MFin5401": {
+        "titl": "25 5401 MFin 5401 - wzór nr 14"
+      },
+      "bezDane": {
+        "titl": "Brak podatku"
+      },
+      "castkaZaPlneni": {
+        "titl": "Kwota za wykonanie"
+      },
+      "celkem": {
+        "titl": "Razem"
+      },
+      "ctvrtleti": {
+        "titl": "Kwartalnik"
+      },
+      "dalsiUdaje": {
+        "titl": "Inne dane:"
+      },
+      "dan": {
+        "titl": "Podatek"
+      },
+      "danNaVystupu": {
+        "titl": "Podatek od produkcji"
+      },
+      "danoveIdentifikacniCislo": {
+        "titl": "Numer identyfikacji podatkowej"
+      },
+      "datum": {
+        "titl": "Data"
+      },
+      "dodaniProstrednikem": {
+        "titl": "Dostawa towarów przez osobę pośredniczącą"
+      },
+      "dodatecne": {
+        "titl": "dodatkowe"
+      },
+      "doplnujiciUdaje": {
+        "titl": "Dane dodatkowe"
+      },
+      "dph": {
+        "titl": "podatek od wartości dodanej"
+      },
+      "duvodyProDodatecne": {
+        "titl": "Przyczyny złożenia dodatkowej deklaracji podatkowej ustalone na"
+      },
+      "financniUradPriznanouDanVymeril": {
+        "titl": "Urząd skarbowy oszacował/dodał i przepisał podatek zgodnie z art. 46 ustawy nr 337/1992 Sb. o zarządzaniu podatkami i opłatami, zmienionej przez"
+      },
+      "financnimuUradu": {
+        "titl": "Do Urzędu Skarbowego w, w, za"
+      },
+      "fyzickaOsoba": {
+        "titl": "Osoba fizyczna:"
+      },
+      "hlavniEkonomickaCinnost": {
+        "titl": "Główna działalność gospodarcza"
+      },
+      "hodnota": {
+        "titl": "Wartość"
+      },
+      "kDPH": {
+        "titl": "w sprawie podatku od wartości dodanej"
+      },
+      "keDni": {
+        "titl": "wobec dni"
+      },
+      "koeficient": {
+        "titl": "Współczynnik"
+      },
+      "kraceniRadek1": {
+        "titl": "Obliczona proporcjonalna część odliczenia podatkowego (§ 76)"
+      },
+      "kraceniRadek2": {
+        "titl": "Rozliczenie ulgi podatkowej (§ 76 ust. 7-10)"
+      },
+      "kraceniRadek3": {
+        "titl": "Korekta odliczenia podatkowego (§ 78)"
+      },
+      "kraceniRadek4": {
+        "titl": "Rozliczenie ulgi podatkowej (§ 79)"
+      },
+      "kraceniVyporadavaniUprava": {
+        "titl": "Odliczenie, rozliczenie, korekta i kompensata ulgi podatkowej"
+      },
+      "kracenyNarok": {
+        "titl": "Skrócone uprawnienie"
+      },
+      "kraj": {
+        "titl": "Kraj"
+      },
+      "narokNaOdpocet": {
+        "titl": "Uprawnienie do odliczenia podatku od transakcji dla"
+      },
+      "nazevPravnickeOsoby": {
+        "titl": "Nazwa osoby prawnej"
+      },
+      "neplatceDane": {
+        "titl": "Osoba niebędąca podatnikiem § 19 / 5, 6, § 108"
+      },
+      "nezZacnete": {
+        "titl": "Przed wypełnieniem formularza prosimy o zapoznanie się z instrukcją."
+      },
+      "odOsobNeregistrovanych": {
+        "titl": "Od osób niezarejestrowanych do celów podatkowych w innym państwie członkowskim (art. 19 ust. 4)"
+      },
+      "odOsobRegistrovanych": {
+        "titl": "Od osób zarejestrowanych do celów podatkowych w innym państwie członkowskim (§ 19 ust. 3)"
+      },
+      "oddil": {
+        "titl": "SEKCJA"
+      },
+      "odpocetDane": {
+        "titl": "Odliczenie od podatku"
+      },
+      "odpocetRadek1": {
+        "titl": "Otrzymane dostawy podlegające opodatkowaniu z miejscem dostawy na terytorium kraju"
+      },
+      "odpocetRadek7": {
+        "titl": "Podczas zmiany trybu"
+      },
+      "odpocetRadek8": {
+        "titl": "Łączna kwota zmniejszenia odliczenia podatkowego (wiersz 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)"
+      },
+      "odpocetRadek9": {
+        "titl": "Łączna kwota uprawniająca do pełnego odliczenia podatku (wiersze 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)"
+      },
+      "oprava": {
+        "titl": "Korekta"
+      },
+      "opravne": {
+        "titl": "Korekty"
+      },
+      "osobaIdentifikovanaKDani": {
+        "titl": "Osoba zidentyfikowana dla celów podatkowych § 96"
+      },
+      "osobaOpravnenaKPodpisu": {
+        "titl": "Osoba upoważniona do składania podpisów w imieniu podmiotu podatkowego"
+      },
+      "otiskRazitka": {
+        "titl": "Odcisk pieczęci"
+      },
+      "otiskRazitkaFU": {
+        "titl": "odcisk pieczęci prezentacyjnej urzędu skarbowego"
+      },
+      "platceDane": {
+        "titl": "Podatnik § 94"
+      },
+      "plnyNarok": {
+        "titl": "Pełne uprawnienie"
+      },
+      "podpis": {
+        "titl": "Podpis"
+      },
+      "podpisOpravnenehoPracovnikaDPH": {
+        "titl": "Podpis upoważnionego pracownika administratora podatkowego"
+      },
+      "porizeniProstrednikem": {
+        "titl": "Nabycie towarów przez osobę pośredniczącą"
+      },
+      "postaveniVzhledemKPravnickeOsobe": {
+        "titl": "W przypadku osoby prawnej: status w odniesieniu do osoby prawnej"
+      },
+      "povinnostPriznatDanZa": {
+        "titl": "Obowiązek deklarowania podatku za"
+      },
+      "pozdejsichPredpisu": {
+        "titl": "z późniejszymi zmianami, w dniu"
+      },
+      "pravnickaOsoba": {
+        "titl": "Osoba prawna:"
+      },
+      "priznani": {
+        "titl": "UZNANIE"
+      },
+      "priznaniSestavil": {
+        "titl": "Spowiedź została sporządzona przez"
+      },
+      "priznatRadek1": {
+        "titl": "Dostawy podlegające opodatkowaniu z miejscem świadczenia usług w Republice Czeskiej"
+      },
+      "priznatRadek2": {
+        "titl": "Nabycie towarów z innego państwa członkowskiego (§ 16 i § 17 ust. 6 lit. e); z wyjątkiem § 19)"
+      },
+      "priznatRadek3": {
+        "titl": "Świadczenie usług przez osobę zarejestrowaną do celów podatkowych w innym państwie członkowskim (§ 15 i § 13 ust. 8)"
+      },
+      "priznatRadek4": {
+        "titl": "Wysyłanie towarów z innego państwa członkowskiego z miejscem wykonania na terytorium kraju (§ 18)"
+      },
+      "priznatRadek5": {
+        "titl": "Zakup nowego środka transportu"
+      },
+      "priznatRadek6": {
+        "titl": "Import towarów (§ 20)"
+      },
+      "priznatRadek7": {
+        "titl": "Świadczenie usług przez zagranicznego podatnika (§ 15 i § 13 ust. 8)"
+      },
+      "prohlaseni": {
+        "titl": "Oświadczam, że wszystkie informacje podane przeze mnie w niniejszym zeznaniu są prawdziwe i kompletne."
+      },
+      "proskrtneteNevzniklaDanovaPovinnost": {
+        "titl": "Przekreślić (X), jeżeli nie powstało zobowiązanie podatkowe"
+      },
+      "radek": {
+        "titl": "ř."
+      },
+      "radne": {
+        "titl": "właściwy"
+      },
+      "rok": {
+        "titl": "rok"
+      },
+      "sDani": {
+        "titl": "Z podatkami"
+      },
+      "sSnizSazbou": {
+        "titl": "Przy obniżonej stawce podatkowej"
+      },
+      "sZklSazbou": {
+        "titl": "Przy podstawowej stawce podatkowej"
+      },
+      "sidloNeboBydliste": {
+        "titl": "Siedziba osoby prawnej lub stałe miejsce zamieszkania osoby fizycznej:"
+      },
+      "ulice": {
+        "titl": "Ulica i numer porządkowy (lub część wsi i numer opisowy)"
+      },
+      "uskutecnenaCelkemRadek1": {
+        "titl": "Całkowita kwota dostaw kwalifikująca się do odliczenia (§ 72 ust. 2 lit. a) do d))"
+      },
+      "uskutecnenaCelkemRadek2": {
+        "titl": "Transakcje, które nie są uwzględniane przy obliczaniu współczynnika (§ 76 ust. 3) od wymienionych w wierszu 510"
+      },
+      "uskutecnenaCelkemRadek3": {
+        "titl": "Łączna kwota dostaw zwolnionych od podatku, wykonanych bez prawa do odliczenia podatku (§ 51)"
+      },
+      "uskutecnenaCelkemRadek4": {
+        "titl": "Transakcje, których nie uwzględnia się przy obliczaniu współczynnika (§ 76 ust. 3) od wymienionych w wierszu 530"
+      },
+      "uskutecnenaPlneniCelkem": {
+        "titl": "Przeprowadzone transakcje ogółem"
+      },
+      "uskutecnenaPlneniOsvobozena": {
+        "titl": "Transakcje zwolnione z podatku z prawem do odliczenia podatku"
+      },
+      "uskutecnenaRadek1": {
+        "titl": "Dostawa towarów do innego państwa członkowskiego (§ 64 z wyjątkiem § 64 ust. 2 i § 17 ust. 2)"
+      },
+      "uskutecnenaRadek2": {
+        "titl": "Dostawa nowych środków transportu do innego państwa członkowskiego (§ 64 ust. 2)\\NPodmioty zarejestrowane dla celów podatkowych w państwie członkowskim"
+      },
+      "uskutecnenaRadek3": {
+        "titl": "Dostawa nowego środka transportu do innego państwa członkowskiego (§ 64 ust. 2)\\Nnie zarejestrowanego do celów podatkowych w państwie członkowskim"
+      },
+      "uskutecnenaRadek4": {
+        "titl": "Wywóz towarów (§ 66)"
+      },
+      "uskutecnenaRadek5": {
+        "titl": "Inne dostawy zwolnione z podatku z możliwością odliczenia podatku"
+      },
+      "uvedeniHodnotyPriZjednoduseni": {
+        "titl": "Wskazanie wartości przy stosowaniu procedury uproszczonej przy dostawie towarów na terytorium Wspólnoty Europejskiej w formie handlu trójstronnego (§ 17)"
+      },
+      "vraceniDane": {
+        "titl": "Zwrot podatku (§ 84)"
+      },
+      "vraceniDaneRadek1": {
+        "titl": "Zwrot podatku"
+      },
+      "vypocetDaneRadek1": {
+        "titl": "Rozliczenie podatku należnego (§ 91)"
+      },
+      "vypocetDaneRadek2": {
+        "titl": "Podatek od produkcji (seria 210 + 215 + 220 + 225 + 230 + 235 + 240 + 245 + 250 + 255 + 260 + 265 + 270 + 275 - 600 + 710)"
+      },
+      "vypocetDaneRadek3": {
+        "titl": "Odliczenie podatkowe (wiersz 390 + 550 + 560 + 570 + 580)"
+      },
+      "vypocetDaneRadek4": {
+        "titl": "Własne zobowiązanie podatkowe (wiersze 730 - 750)"
+      },
+      "vypocetDaneRadek5": {
+        "titl": "Odliczenie nadmierne (wiersze 750 - 730)"
+      },
+      "vypocetDaneRadek6": {
+        "titl": "Zmiana wysokości zobowiązania podatkowego przy składaniu deklaracji uzupełniającej (wiersze 730 - 750)"
+      },
+      "vypocetDanovePovinnosti": {
+        "titl": "Obliczanie zobowiązania podatkowego"
+      },
+      "zaObdobi": {
+        "titl": "Za okres podatkowy: miesiąc"
+      },
+      "zakladDane": {
+        "titl": "Podstawa opodatkowania"
+      },
+      "zauctovanoVObdobi": {
+        "titl": "Rozliczone w okresie"
+      },
+      "zmenaOdpoctuDane": {
+        "titl": "Zmiana odliczenia podatkowego"
+      }
+    },
+    "podkladyDph$$NES": {
+      "_title": {
+        "titl": "Dokumenty VAT według daty zaksięgowania"
+      }
+    },
+    "podkladyDph$$SUM": {
+      "_title": {
+        "titl": "Dokumenty VAT"
+      }
+    },
+    "podkladyDphBezUctovani$$NES": {
+      "_title": {
+        "titl": "Dokumenty VAT według daty księgowania (pogrupowane)"
+      }
+    },
+    "podkladyDphBezUctovani$$SUM": {
+      "_title": {
+        "titl": "Dokumenty VAT (zgrupowane)"
+      }
+    },
+    "podkladyDphNaVysku$$SUMACE": {
+      "_title": {
+        "titl": "Dokumenty VAT (tylko wiersze podsumowujące)"
+      }
+    },
+    "podkladyDphNaVyskuZRadku$$SUMACE": {
+      "_title": {
+        "titl": "Dokumenty VAT dla innych krajów VAT (tylko wiersze podsumowujące)"
+      }
+    },
+    "podkladyDphZRadku$$SUM": {
+      "_title": {
+        "titl": "Dokumenty VAT dla innych krajów VAT"
+      }
+    },
+    "pohybyNaUctech": {
+      "_title": {
+        "titl": "Zmiany na rachunkach"
+      }
+    },
+    "pohybyNaUctechZjednodusene": {
+      "_title": {
+        "titl": "Inwentaryzacja rachunków"
+      },
+      "doklad": {
+        "titl": "Dokument"
+      },
+      "pocatek": {
+        "titl": "Początek"
+      },
+      "sumTuzDal": {
+        "titl": "Obroty DAL [%currency-symbol]"
+      },
+      "sumTuzMd": {
+        "titl": "Obroty MD [%currency-symbol]"
+      },
+      "ucetDAL": {
+        "titl": "Konto DAL"
+      },
+      "ucetMD": {
+        "titl": "konto MD"
+      },
+      "zustatek": {
+        "titl": "Saldo"
+      },
+      "zustatekTuz": {
+        "titl": "Saldo [%currency-symbol]"
+      }
+    },
+    "pohybyNaUctechZjednodusene$$SUM": {
+      "_title": {
+        "titl": "Zmiana stanu kont - Zapasy"
+      }
+    },
+    "pokDoklad": {
+      "_title": {
+        "titl": "Dokument kasowy"
+      },
+      "bezDane2": {
+        "titl": "VAT 0%"
+      },
+      "castkaSlovy": {
+        "titl": "Kwota słownie"
+      },
+      "dan2": {
+        "titl": "VAT"
+      },
+      "dne": {
+        "titl": "Dnia"
+      },
+      "podpisPokladnika": {
+        "titl": "Podpis kasjera"
+      },
+      "prevzal": {
+        "titl": "Odebrał"
+      },
+      "prijatoOd": {
+        "titl": "Przyjęto od"
+      },
+      "prijmovyDoklad": {
+        "titl": "Przychodowy dokument kasowy"
+      },
+      "prijmovyDokladVratka": {
+        "titl": "Przychodowy dokument kasowy - zwrot"
+      },
+      "schvalil": {
+        "titl": "Zatwierdził"
+      },
+      "soucet": {
+        "titl": "Suma"
+      },
+      "ucel": {
+        "titl": "Cel"
+      },
+      "vydejovyDoklad": {
+        "titl": "Rozchodowy dokument kasowy"
+      },
+      "vydejovyDokladVratka": {
+        "titl": "Rozchodowy dokument kasowy - zwrot"
+      },
+      "vyplacenoKomu": {
+        "titl": "Wypłacono komu"
+      },
+      "zaklad": {
+        "titl": "Podstawa"
+      },
+      "zauctoval": {
+        "titl": "Zaksięgował"
+      }
+    },
+    "pokDoklad$$SUM_UHR_DOKL": {
+      "_title": {
+        "titl": "Dokument księgowy (z rozliczonymi dokumentami)"
+      }
+    },
+    "pokDoklad$$SUM_ZAUCT": {
+      "_title": {
+        "titl": "Dokument księgowy (z zaksięgowaniem)"
+      }
+    },
+    "polozkyFaktur": {
+      "_title": {
+        "titl": "Analiza sprzedaży"
+      },
+      "idCenik": {
+        "titl": "Towary"
+      },
+      "idFirmy": {
+        "titl": "Firma"
+      },
+      "idMistUrc": {
+        "titl": "Miejsce przeznaczenia"
+      },
+      "idSkladu": {
+        "titl": "Magazyn"
+      },
+      "idSkupCen": {
+        "titl": "Grupa cennikowa"
+      },
+      "idSkupFir": {
+        "titl": "Grupa przedsiębiorstw"
+      },
+      "idSkupZboz": {
+        "titl": "Grupa towarów"
+      },
+      "idStred": {
+        "titl": "Centrum"
+      },
+      "idZakazky": {
+        "titl": "Zamówienie"
+      },
+      "idZodpOsoba": {
+        "titl": "Osoba odpowiedzialna"
+      },
+      "idZodpOsobaAdresar": {
+        "titl": "Osoba odpowiedzialna z katalogu"
+      },
+      "procObchodniRozpeti": {
+        "titl": "% Marża"
+      },
+      "procSumZkl": {
+        "titl": "% Razem"
+      }
+    },
+    "polozkyFaktur$$NES": {
+      "_title": {
+        "titl": "Analiza sprzedaży (bez sumy)"
+      }
+    },
+    "polozkyFaktur$$NES_NAKUP": {
+      "_title": {
+        "titl": "Analiza zakupów (bez sum)"
+      }
+    },
+    "polozkyFaktur$$SUM_NAKUP": {
+      "_title": {
+        "titl": "Analiza zakupów"
+      }
+    },
+    "postovniPodaciArch": {
+      "_title": {
+        "titl": "Pocztowy arkusz wypełniający"
+      }
+    },
+    "pplstitek": {
+      "_title": {
+        "titl": "Etykieta PPL (arkusz A4)"
+      },
+      "dobirka": {
+        "titl": "Za pobraniem:"
+      },
+      "dokladCislo": {
+        "titl": "Numer dokumentu:"
+      },
+      "email": {
+        "titl": "Email: info@ppl.cz"
+      },
+      "expresnibalikovasluzba": {
+        "titl": "przesyłka ekspresowa"
+      },
+      "flexibee": {
+        "titl": "ABRA Flexi"
+      },
+      "modralinka": {
+        "titl": "Infolinia: 840 775 775"
+      },
+      "odesilatel": {
+        "titl": "Nadawca/Zgłaszający:"
+      },
+      "prijemce": {
+        "titl": "Odbiorca/Recepcjonista:"
+      },
+      "www": {
+        "titl": "http://www.ppl.cz"
+      }
+    },
+    "pplstitekJeden": {
+      "_title": {
+        "titl": "PPL Label (pojedyncza, 102x126mm)"
+      }
+    },
+    "predvaha": {
+      "dal": {
+        "titl": "DAL"
+      },
+      "koncovyZustatek": {
+        "titl": "Saldo końcowe"
+      },
+      "md": {
+        "titl": "MD"
+      },
+      "obratyZaObdobi": {
+        "titl": "Obrót za okres"
+      },
+      "pocatecniZustatek": {
+        "titl": "Saldo początkowe"
+      },
+      "uctovaTrida": {
+        "titl": "Klasa rachunkowa"
+      }
+    },
+    "prehledSmluv": {
+      "_title": {
+        "titl": "Przegląd umów"
+      }
+    },
+    "prehledSmluv$$SUM_POL": {
+      "_title": {
+        "titl": "Wykaz umów (z wykazem pozycji)"
+      }
+    },
+    "prehled_a4$$FAP": {
+      "_title": {
+        "titl": "Lista otrzymanych faktur (w formacie portretowym)"
+      }
+    },
+    "prijemkaVydejka": {
+      "_title": {
+        "titl": "Kwit lub dozownik"
+      },
+      "cisFak": {
+        "titl": "Numer faktury"
+      },
+      "cislo": {
+        "titl": "Numer"
+      },
+      "maFakturu": {
+        "titl": "On ma fakturę"
+      },
+      "prijemkaVydejkaUmisteni": {
+        "titl": "Skrzynka odbiorcza lub wydawcza (z lokalizacją)"
+      },
+      "typPohybu.prijem": {
+        "titl": "Odbiorca"
+      },
+      "typPohybu.vydej": {
+        "titl": "Dyspozytornia"
+      },
+      "umisteni": {
+        "titl": "Umieszczenie"
+      },
+      "vydal": {
+        "titl": "Opublikowany przez"
+      }
+    },
+    "prikazDoVyroby": {
+      "_title": {
+        "titl": "Dowództwo do produkcji"
+      },
+      "cisloPrikazu": {
+        "titl": "Numer zamówienia"
+      },
+      "datumVyhotoveni": {
+        "titl": "Data wykonania"
+      },
+      "mezioperacniKontrola": {
+        "titl": "Kontrola międzyoperacyjna"
+      },
+      "ostatniSuroviny": {
+        "titl": "Pozostałe surowce i uzasadnienie"
+      },
+      "sarze": {
+        "titl": "Partie"
+      },
+      "skladVyrobku": {
+        "titl": "Magazyn produktów"
+      },
+      "uzavreni": {
+        "titl": "Zamknięcie"
+      },
+      "vystupniKontrola": {
+        "titl": "Kontrola wyjścia"
+      },
+      "zamestnanci": {
+        "titl": "Personel"
+      }
+    },
+    "priznaniDPH": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 14 (od 1.01.2008)"
+      }
+    },
+    "priznaniDPH2009": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 15 (od 1.01.2009)"
+      }
+    },
+    "priznaniDPH2009SK": {
+      "_title": {
+        "titl": "Deklaracja VAT (formularz słowacki)"
+      }
+    },
+    "priznaniDPH2010": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 16 (od 1.01.2010)"
+      }
+    },
+    "priznaniDPH2010SK": {
+      "_title": {
+        "titl": "Deklaracja VAT 2010 - 01 (od 1.1.2010) (formularz słowacki)"
+      }
+    },
+    "priznaniDPH2011": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 17 (od 1.01.2011)"
+      }
+    },
+    "priznaniDPH2011SK": {
+      "_title": {
+        "titl": "Deklaracja VAT 2011 - 01 (od 1.1.2011) (formularz słowacki)"
+      }
+    },
+    "priznaniDPH2012SK": {
+      "_title": {
+        "titl": "Deklaracja VAT 2012 - 01 (od 1.1.2012) (formularz słowacki)"
+      }
+    },
+    "priznaniDPH2013": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 18 (od 1.01.2013)"
+      }
+    },
+    "priznaniDPH2015": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 19 (od 1.01.2015 r.)"
+      }
+    },
+    "priznaniDPH2016": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 20 (od 29.07.2016 r.)"
+      }
+    },
+    "priznaniDPH2019": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 21 (od 01.05.2019 r.)"
+      }
+    },
+    "priznaniDPH2021": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 23 (od 01.10.2021 r.)"
+      }
+    },
+    "priznaniDPH2021SK": {
+      "_title": {
+        "titl": "Deklaracja VAT 2021 (od 1.1.2021) (formularz słowacki)"
+      }
+    },
+    "priznaniDPH2024": {
+      "_title": {
+        "titl": "Wzór deklaracji VAT nr 24 (od 01.01.2024 r.)"
+      }
+    },
+    "prodejka": {
+      "_title": {
+        "titl": "Uproszczony dokument kasowy"
+      },
+      "celkem": {
+        "titl": "Razem"
+      }
+    },
+    "prodejka60mm": {
+      "_title": {
+        "titl": "Uproszczony dokument podatkowy (60mm)"
+      },
+      "celkem": {
+        "titl": "Ogółem"
+      },
+      "celkemV": {
+        "titl": "Razem w"
+      },
+      "datVyst": {
+        "titl": "Data"
+      },
+      "duzp": {
+        "titl": "Data wykonawstwa podlegającego opodatkowaniu"
+      },
+      "mj": {
+        "titl": "MJ"
+      }
+    },
+    "prodejkaZaHotove": {
+      "_title": {
+        "titl": "Dokument sprzedaży za gotówkę"
+      }
+    },
+    "prodejniPrehled": {
+      "_title": {
+        "titl": "Przegląd sprzedaży"
+      },
+      "celkem": {
+        "titl": "Razem"
+      },
+      "sumCelkem": {
+        "titl": "Razem [%p]"
+      },
+      "sumDph": {
+        "titl": "VAT [%p]"
+      },
+      "sumZkl": {
+        "titl": "Baza [%p]"
+      },
+      "uhrazeno": {
+        "titl": "Płatne"
+      }
+    },
+    "pruvodka": {
+      "_title": {
+        "titl": "Przewodnik"
+      },
+      "celkem": {
+        "titl": "Razem"
+      },
+      "kBAN": {
+        "titl": "Dokument bankowy"
+      },
+      "kFAP": {
+        "titl": "Otrzymane faktury"
+      },
+      "kFAV": {
+        "titl": "Wystawione faktury"
+      },
+      "kINT": {
+        "titl": "Dokument wewnętrzny"
+      },
+      "kPHL": {
+        "titl": "Roszczenia"
+      },
+      "kPOK": {
+        "titl": "Wpływy gotówkowe"
+      },
+      "kSKL": {
+        "titl": "Dokument dotyczący zapasów"
+      },
+      "kZAV": {
+        "titl": "Zobowiązanie"
+      },
+      "kZapoctu": {
+        "titl": "Kredyt wzajemny"
+      },
+      "rekapitulaceDph": {
+        "titl": "Rekapitulacja podatku VAT"
+      },
+      "sazbaDph": {
+        "titl": "Stawka VAT"
+      },
+      "suma": {
+        "titl": "Suma"
+      },
+      "ucetDal": {
+        "titl": "Rachunek Dał"
+      },
+      "ucetMD": {
+        "titl": "Rachunek MD"
+      },
+      "uctovani": {
+        "titl": "Księgowanie"
+      },
+      "zdanitelnePlneni": {
+        "titl": "Dostawa podlegająca opodatkowaniu"
+      }
+    },
+    "radkySestavy": {
+      "rozsahPredSestavy": {
+        "titl": "Poprzedni okres od:"
+      },
+      "rozsahSestavy": {
+        "titl": "W okresie od:"
+      },
+      "rozsahSestavyDo": {
+        "titl": "do:"
+      }
+    },
+    "rady": {
+      "_title": {
+        "titl": "Seria dokumentów"
+      }
+    },
+    "rozvaha": {
+      "_title": {
+        "titl": "Bilans w całości"
+      },
+      "bilance": {
+        "titl": "(równowaga)"
+      },
+      "doDne": {
+        "titl": "do"
+      },
+      "keDni": {
+        "titl": "wobec dni"
+      },
+      "nazevASidloUcetniJednotky": {
+        "titl": "Siedziba, miejsce zamieszkania lub miejsce prowadzenia działalności podmiotu"
+      },
+      "obchodniFirma": {
+        "titl": "Nazwa firmy lub inna nazwa podmiotu"
+      },
+      "odDne": {
+        "titl": "Ze strony"
+      },
+      "okamzikSestaveni": {
+        "titl": "Moment montażu"
+      },
+      "podpisOrganu": {
+        "titl": "Protokół podpisu organu statutowego lub osoby fizycznej będącej podmiotem rachunkowości"
+      },
+      "podpisOsoby": {
+        "titl": "Podpis osoby odpowiedzialnej za sporządzenie sprawozdania finansowego"
+      },
+      "pravniFormaUcetniJednotky": {
+        "titl": "Forma prawna podmiotu"
+      },
+      "predmetPodnikani": {
+        "titl": "Działalność gospodarcza lub inna"
+      },
+      "rozvaha": {
+        "titl": "Bilans"
+      },
+      "schvalenoMFCR": {
+        "titl": "Przygotowane zgodnie z dekretem nr 500/2002 z późniejszymi zmianami"
+      },
+      "schvalenoMFCRnezisk": {
+        "titl": "Przygotowane zgodnie z dekretem nr 504/2002 z późniejszymi zmianami"
+      },
+      "schvalenoMFCRprispevk": {
+        "titl": "Sporządzony zgodnie z dekretem nr 505/2002 z późn. zm."
+      },
+      "schvalenoMFCRprispevk2010": {
+        "titl": "Sporządzono zgodnie z dekretem nr 410/2009 z późn. zm."
+      },
+      "schvalenoMFCRslovaci": {
+        "titl": "Przygotowane zgodnie z dekretem nr 500/2002 z późniejszymi zmianami"
+      },
+      "vKC": {
+        "titl": "(w tysiącach %currency-symbol)"
+      },
+      "zakladniVerze": {
+        "titl": "w zakresie podstawowym"
+      },
+      "zjednodusenaVerze": {
+        "titl": "w zakresie uproszczonym"
+      },
+      "zkracenaVerze": {
+        "titl": "w skróconym zakresie"
+      }
+    },
+    "rozvaha$$SUM": {
+      "_title": {
+        "titl": "Uproszczony bilans"
+      }
+    },
+    "rozvaha$$SUM_ZAKL": {
+      "_title": {
+        "titl": "Bilans podstawowy"
+      }
+    },
+    "rozvahaPoUctechObraty": {
+      "_title": {
+        "titl": "Inwentaryzacja aktywów i pasywów (obroty)"
+      }
+    },
+    "rozvahaPoUctechStavy": {
+      "_title": {
+        "titl": "Inwentaryzacja aktywów i pasywów (salda)"
+      }
+    },
+    "rozvahaVysledovkaPoUctech": {
+      "aktiva": {
+        "titl": "Aktywa"
+      },
+      "konecnyZustatek": {
+        "titl": "Saldo końcowe"
+      },
+      "naklady": {
+        "titl": "Koszt"
+      },
+      "pasiva": {
+        "titl": "Pasywny"
+      },
+      "soucet": {
+        "titl": "Razem"
+      },
+      "uctovaTrida": {
+        "titl": "Zajęcia z rachunkowości."
+      },
+      "vynosy": {
+        "titl": "Dochody"
+      },
+      "vysledek": {
+        "titl": "Wynik"
+      }
+    },
+    "saldo": {
+      "_title": {
+        "titl": "Saldo"
+      }
+    },
+    "saldo$$GRUP": {
+      "_title": {
+        "titl": "Saldo (grupowo)"
+      }
+    },
+    "saldoNaVysku": {
+      "_title": {
+        "titl": "Równowaga (portret)"
+      }
+    },
+    "saldoNaVysku$$GRUP": {
+      "_title": {
+        "titl": "Równowaga (portret, zgrupowane)"
+      }
+    },
+    "sesRadky": {
+      "_title": {
+        "titl": "Linie sprawozdania"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$BEZ_ROZPADU": {
+      "_title": {
+        "titl": "Linie sprawozdania"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$ROZPAD_PREDPIS": {
+      "_title": {
+        "titl": "Linie raportów (recepta standardowa, recepta użytkownika)"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$ROZPAD_UCET": {
+      "_title": {
+        "titl": "Wiersze raportu (Podział na konta)"
+      }
+    },
+    "sesRadkyRozpadUce": {
+      "_title": {
+        "titl": "Wiersze raportu (Podział na konta)"
+      }
+    },
+    "sesRadkyStdPred": {
+      "_title": {
+        "titl": "Linie raportów (recepta standardowa, recepta użytkownika)"
+      }
+    },
+    "sestavy": {
+      "_title": {
+        "titl": "Sprawozdania księgowe"
+      }
+    },
+    "sklPol$$SKL": {
+      "_title": {
+        "titl": "Wykaz ruchów zapasów"
+      }
+    },
+    "sklRezervace": {
+      "_title": {
+        "titl": "Wykaz zastrzeżeń"
+      }
+    },
+    "sklVyrCis": {
+      "_title": {
+        "titl": "Wykaz numerów seryjnych"
+      }
+    },
+    "skladKarty": {
+      "_title": {
+        "titl": "Przegląd kart magazynowych"
+      },
+      "cenaTuz": {
+        "titl": "Cena [%currency-symbol]"
+      },
+      "poslCenaTuz": {
+        "titl": "Ostatni"
+      },
+      "prumCenaTuz": {
+        "titl": "Średnia"
+      },
+      "stav": {
+        "titl": "Stan zapasów"
+      },
+      "stavMJ": {
+        "titl": "w MJ"
+      },
+      "stavMen": {
+        "titl": "[waluta]"
+      },
+      "stavTuz": {
+        "titl": "[%currency-symbol]"
+      },
+      "sumPrijem": {
+        "titl": "Dochód:"
+      },
+      "sumVydej": {
+        "titl": "Zagadnienie:"
+      }
+    },
+    "skladKarty$$SKL$$NES": {
+      "_title": {
+        "titl": "Przegląd kart magazynowych (z ruchami)"
+      }
+    },
+    "skladKarty$$SKL$$NES_STR": {
+      "_title": {
+        "titl": "Przegląd kart zasobów (z ruchami, paginowane)"
+      }
+    },
+    "skladKartyInventura": {
+      "_title": {
+        "titl": "Inwentaryzacja towarów"
+      },
+      "naSklade": {
+        "titl": "Stan faktyczny"
+      }
+    },
+    "skladKartyInventura$$NES": {
+      "_title": {
+        "titl": "Zapasy towarów (bez zapasów)"
+      }
+    },
+    "skupFir": {
+      "_title": {
+        "titl": "Grupy przedsiębiorstw"
+      }
+    },
+    "skupZboz": {
+      "_title": {
+        "titl": "Grupy towarów"
+      }
+    },
+    "slozenkaA": {
+      "_title": {
+        "titl": "Pocztowy kupon kredytowy A"
+      }
+    },
+    "smerKod": {
+      "_title": {
+        "titl": "Kody banków"
+      }
+    },
+    "souhrnneHlaseni": {
+      "_title": {
+        "titl": "Sprawozdanie zbiorcze (ważne do 2009 r.)"
+      }
+    },
+    "souhrnnyVykazOPrijmechAVydajich": {
+      "_title": {
+        "titl": "Zbiorcze zestawienie dochodów i wydatków"
+      },
+      "danEvidSkupina.nespadaCelkem": {
+        "titl": "Nie mieści się w zakresie j. ú. total"
+      },
+      "danEvidSkupina.nevyplnenoCelkem": {
+        "titl": "Ogółem nie wypełniono"
+      },
+      "danEvidSkupina.ostatniCelkem": {
+        "titl": "Inne ogółem"
+      },
+      "danEvidSkupina.prijemCelkem": {
+        "titl": "Przychody ogółem"
+      },
+      "danEvidSkupina.vydejCelkem": {
+        "titl": "Wydatki ogółem"
+      },
+      "nevyplneno": {
+        "titl": "Pusty"
+      },
+      "rozdilPrijemVydej": {
+        "titl": "Różnica między dochodami a wydatkami"
+      }
+    },
+    "stavSkladu": {
+      "_title": {
+        "titl": "Stan zapasów na dzień"
+      }
+    },
+    "stavyHlavniKniha": {
+      "_title": {
+        "titl": "Księga główna (obrót skumulowany w miesiącu)"
+      }
+    },
+    "stavyUctu": {
+      "Dal": {
+        "titl": "Dał"
+      },
+      "Md": {
+        "titl": "On ma dać"
+      },
+      "_title": {
+        "titl": "Salda rachunków"
+      },
+      "obrat": {
+        "titl": "Obrót"
+      },
+      "zaUcetObdobi": {
+        "titl": "Za okres rozliczeniowy"
+      },
+      "zustatek": {
+        "titl": "Saldo"
+      }
+    },
+    "stavyUctuPocatky": {
+      "_title": {
+        "titl": "Bilanse otwarcia kont - wydruk kontrolny"
+      }
+    },
+    "stitky": {
+      "_title": {
+        "titl": "Etykiety na półki (70x30 mm)"
+      },
+      "za": {
+        "titl": "Dla"
+      }
+    },
+    "strediska": {
+      "_title": {
+        "titl": "Centra"
+      }
+    },
+    "typDoklSkl$$SKL": {
+      "_title": {
+        "titl": "Lista typów dokumentów magazynowych"
+      }
+    },
+    "typLeasingu": {
+      "_title": {
+        "titl": "Rodzaje leasingu"
+      }
+    },
+    "typUcetOp": {
+      "_title": {
+        "titl": "Wykaz zasad rachunkowości"
+      }
+    },
+    "ucetniDenik": {
+      "_title": {
+        "titl": "Dziennik księgowy"
+      }
+    },
+    "ucetniObdobi": {
+      "_title": {
+        "titl": "Okres rozliczeniowy"
+      }
+    },
+    "ucetniOsnova": {
+      "_title": {
+        "titl": "Plan kont"
+      }
+    },
+    "ucetniRozvrh": {
+      "_title": {
+        "titl": "Plan kont"
+      }
+    },
+    "uhrazeneDoklady": {
+      "_title": {
+        "titl": "Dokumenty płatne"
+      },
+      "castka": {
+        "titl": "Kwota"
+      },
+      "sumCelkem": {
+        "titl": "Razem"
+      },
+      "zbyvaSparovat": {
+        "titl": "Pozostaje do pary"
+      },
+      "zbyvaUhradit": {
+        "titl": "Pozostaje do zapłacenia"
+      }
+    },
+    "upominka": {
+      "_title": {
+        "titl": "Upomnienie"
+      },
+      "adresaDodavatele": {
+        "titl": "Adres dostawcy:"
+      }
+    },
+    "uzaverkoveOperace": {
+      "_title": {
+        "titl": "Operacje zamknięcia"
+      },
+      "celkem": {
+        "titl": "Razem"
+      },
+      "mezisoucetObratu": {
+        "titl": "Suma cząstkowa obrotów"
+      },
+      "zisk": {
+        "titl": "Zysk 710 / 702"
+      },
+      "ztrata": {
+        "titl": "Strata 702 / 710"
+      }
+    },
+    "vykazCenPohyby": {
+      "_title": {
+        "titl": "Zakupy, sprzedaż i ruchy magazynowe"
+      },
+      "sumCelkemFAP": {
+        "titl": "Otrzymane faktury"
+      },
+      "sumCelkemFAV": {
+        "titl": "Wystawione faktury"
+      },
+      "sumCelkemPOKPrijem": {
+        "titl": "Kasa - paragon"
+      },
+      "sumCelkemPOKVydej": {
+        "titl": "Kasa - wydawanie"
+      },
+      "sumCelkemSKLPrijem": {
+        "titl": "Magazyn - przyjmowanie"
+      },
+      "sumCelkemSKLVydej": {
+        "titl": "Magazyn - wydawanie"
+      }
+    },
+    "vykazDanEvidSK": {
+      "_title": {
+        "titl": "Szczegółowe zestawienie dochodów i wydatków"
+      }
+    },
+    "vykazHospodareni": {
+      "_title": {
+        "titl": "Deklaracja ekonomiczna"
+      },
+      "mesic": {
+        "titl": "Księżyc"
+      },
+      "rok": {
+        "titl": "Rok"
+      },
+      "vykazHospodareniZa": {
+        "titl": "Sprawozdanie z działalności za miesiąc"
+      },
+      "zahrnovany": {
+        "titl": "W załączeniu"
+      },
+      "ziskZtrata": {
+        "titl": "Zysk (+), strata (-)"
+      }
+    },
+    "vykazMossPrehled": {
+      "_title": {
+        "titl": "Deklaracja podatkowa MOSS (przegląd)"
+      }
+    },
+    "vysledovka": {
+      "vysledovka": {
+        "titl": "Rachunek zysków i strat"
+      }
+    },
+    "vysledovka$$NES": {
+      "_title": {
+        "titl": "Rachunek zysków i strat w całości"
+      }
+    },
+    "vysledovka$$SUM": {
+      "_title": {
+        "titl": "Rachunek zysków i strat w zakresie uproszczonym"
+      }
+    },
+    "vysledovka$$SUM_ZAKL": {
+      "_title": {
+        "titl": "Rachunek zysków i strat w zakresie podstawowym"
+      }
+    },
+    "vysledovkaPoUctechObraty": {
+      "_title": {
+        "titl": "Zestawienie kosztów i przychodów (obroty)"
+      }
+    },
+    "vysledovkaPoUctechStavy": {
+      "_title": {
+        "titl": "Rachunek kosztów i przychodów (salda)"
+      }
+    },
+    "zapocetPohledavek": {
+      "_title": {
+        "titl": "Porozumienie w sprawie wzajemnego potrącania wierzytelności"
+      },
+      "a": {
+        "titl": "a"
+      },
+      "celkemZapocteno": {
+        "titl": "Razem policzone:"
+      },
+      "cisDokl": {
+        "titl": "Dokument"
+      },
+      "cisloZapoctu": {
+        "titl": "Numer kredytu"
+      },
+      "datSplat": {
+        "titl": "Dojrzałość"
+      },
+      "datVyst": {
+        "titl": "Pozyskano z"
+      },
+      "dohoda": {
+        "titl": "Porozumienie w sprawie wzajemnego potrącania wierzytelności"
+      },
+      "obeStrany": {
+        "titl": "Obie strony ustaliły w dniu %p wzajemne potrącenie kwoty %p %p."
+      },
+      "podleParagrafu": {
+        "titl": "na podstawie §364 kodeksu handlowego i §580 kodeksu cywilnego"
+      },
+      "podleParagrafu1982": {
+        "titl": "na podstawie §1982 k.p.c."
+      },
+      "pohledavka": {
+        "titl": "należność o %p od %p:"
+      },
+      "potvrzenouKopii": {
+        "titl": "Prosimy o odesłanie uwierzytelnionej kopii na nasz adres."
+      },
+      "seDohodli": {
+        "titl": "zawrzeć umowę o wzajemnym potrąceniu następujących wierzytelności i zobowiązań"
+      },
+      "sumCelkem": {
+        "titl": "Zafakturowane"
+      },
+      "varSym": {
+        "titl": "VS"
+      },
+      "za": {
+        "titl": "dla %p"
+      },
+      "zapocteno": {
+        "titl": "Pozyskano z"
+      },
+      "zavazek": {
+        "titl": "zobowiązanie w wysokości %p do %p:"
+      },
+      "zbyvaUhradit": {
+        "titl": "Pozostaje do zapłaty"
+      }
+    },
+    "zapocetPohledavekJednostranny": {
+      "_title": {
+        "titl": "Jednostronne potrącenie należności"
+      },
+      "dohoda": {
+        "titl": "Jednostronne potrącenie należności i zobowiązań"
+      },
+      "podleParagrafu": {
+        "titl": "na podstawie §364-368 Kodeksu handlowego i §580-581 Kodeksu cywilnego"
+      },
+      "podleParagrafu1982": {
+        "titl": "na podstawie §1982 k.p.c."
+      },
+      "sPozdravem": {
+        "titl": "Z poważaniem"
+      },
+      "sdelujemeVam": {
+        "titl": "Informujemy, że na dzień %p dokonujemy kompensaty następujących należności i zobowiązań:"
+      },
+      "vSidloOrganizaceDne": {
+        "titl": "W %p z %p."
+      }
+    },
+    "zapujcky": {
+      "_title": {
+        "titl": "Aktywa - pożyczki"
+      }
+    },
+    "zebraStitkyMaster$$NES": {
+      "_title": {
+        "titl": "Etykiety (Zebra, 50x30mm, na sztukę na pozycji dokumentu)"
+      }
+    },
+    "zebraStitkyMaster$$SUM": {
+      "_title": {
+        "titl": "Etykiety (Zebra, 50x30mm, do pozycji dokumentów)"
+      }
+    },
+    "zebraStitkyMaster$$cenAkt$$SUM": {
+      "_title": {
+        "titl": "Etykiety na półki (Zebra, 50x30mm)"
+      }
+    }
+  }
+}

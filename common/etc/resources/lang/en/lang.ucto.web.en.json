@@ -1,0 +1,720 @@
+{
+  "actions": {
+    "authn.require_otp": {
+      "titl": "Require authorization using a one-time password (OTP)"
+    },
+    "authn.type.GOOGLE": {
+      "titl": "Google"
+    },
+    "authn.type.INTERNAL": {
+      "titl": "Internal name and password (default)"
+    },
+    "authn.type.IT_HIGHWAY": {
+      "titl": "IT Highway"
+    },
+    "authn.type.OPENID": {
+      "titl": "Own OpenID Provider"
+    },
+    "authn.type.SAML": {
+      "titl": "Own SAMLv2 identity provider"
+    },
+    "authn.type.UCTUJTE": {
+      "titl": "Web Účtujte.cz"
+    },
+    "authn.use_old_http_authn": {
+      "titl": "Do not use new login form, but use the original HTTP authorization."
+    },
+    "logout": {
+      "titl": "Unsubscribe."
+    },
+    "nastavServerMzdyPristup": {
+      "titl": "Enable access for WinStrom Wages"
+    },
+    "nastavServerVSiti": {
+      "titl": "Provide ABRA Flexi service in network"
+    },
+    "nastavZobrazeniVyzvyKVyplneniRegistracnihoEmailu": {
+      "titl": "Show prompt for registration e-mail"
+    },
+    "no": {
+      "titl": "No"
+    },
+    "vytvoritVazbuZDD": {
+      "titl": "Generate ZDD link"
+    },
+    "yes": {
+      "titl": "Yes"
+    },
+    "zrusitVazbuZDD": {
+      "titl": "Cancel ZDD link"
+    }
+  },
+  "buttons": {
+    "backup.confirmNo": {
+      "titl": "No, backk"
+    },
+    "backup.confirmYes": {
+      "titl": "Yes, backup"
+    },
+    "continue": {
+      "titl": "Continue"
+    },
+    "disable": {
+      "titl": "Deactivate"
+    },
+    "enable": {
+      "titl": "Activate"
+    },
+    "goBack": {
+      "titl": "Backup"
+    },
+    "modify": {
+      "titl": "Change"
+    }
+  },
+  "dialogs": {
+    "actions.title": {
+      "titl": "List of actions"
+    },
+    "admin.accesses.title": {
+      "titl": "Access sessions"
+    },
+    "admin.accounting_units.title": {
+      "titl": "Accounting units"
+    },
+    "admin.authorization.title": {
+      "titl": "Authorization"
+    },
+    "admin.default_licence.title": {
+      "titl": "Default licenses"
+    },
+    "admin.disk_usage.title": {
+      "titl": "Disk space usage"
+    },
+    "admin.disk_usage.title.short": {
+      "titl": "Disk usage"
+    },
+    "admin.license_groups.title": {
+      "titl": "License groups"
+    },
+    "admin.parameters.title": {
+      "titl": "Parameters"
+    },
+    "admin.run_in_cluster.title": {
+      "titl": "Cluster operation"
+    },
+    "admin.server.title": {
+      "titl": "ABRA Flexi server"
+    },
+    "admin.server_params.title": {
+      "titl": "Server parameters"
+    },
+    "admin.server_params.title.short": {
+      "titl": "Server"
+    },
+    "admin.ssl_certificate.title": {
+      "titl": "SSL certificate"
+    },
+    "admin.title": {
+      "titl": "Administration"
+    },
+    "admin.users.title": {
+      "titl": "Users"
+    },
+    "admin.users_logged_in.title": {
+      "titl": "User login"
+    },
+    "authentications.list": {
+      "titl": "List of logged in users"
+    },
+    "authn.additional_settings.header": {
+      "titl": "Additional authorization settings"
+    },
+    "authn.additional_sso_settings.header": {
+      "titl": "Additional settings for <abbr title=\"Single sign-on\">SSO</abbr>"
+    },
+    "authn.authn_settings.header": {
+      "titl": "Authorization settings"
+    },
+    "authn.basic_settings.header": {
+      "titl": "Basic server settings"
+    },
+    "changesApi.title": {
+      "titl": "Changes API"
+    },
+    "companies.title": {
+      "titl": "List of companies"
+    },
+    "connections.list": {
+      "titl": "List of conntected users"
+    },
+    "devdoc.developers": {
+      "titl": "Developers documentation"
+    },
+    "error.403-access_denied": {
+      "titl": "403 - Access denied"
+    },
+    "error.429": {
+      "titl": "429 - Too many requests"
+    },
+    "error.503-service_unavailable": {
+      "titl": "503 - Service not available"
+    },
+    "error.could_not_complete_operation.title": {
+      "titl": "Cannot perform operation"
+    },
+    "evidences.title": {
+      "titl": "List of evidences"
+    },
+    "license.title": {
+      "titl": "License"
+    },
+    "properties.title": {
+      "titl": "List of fields"
+    },
+    "relations.title": {
+      "titl": "List of relations"
+    },
+    "reports.title": {
+      "titl": "List of reports"
+    },
+    "status.title": {
+      "titl": "Status"
+    },
+    "sum.title": {
+      "titl": "Sum"
+    },
+    "toolbars.title": {
+      "titl": "Toolbar"
+    },
+    "user_access.title": {
+      "titl": "User access"
+    },
+    "users.title": {
+      "titl": "Users"
+    },
+    "users_access.title": {
+      "titl": "User access sessions"
+    }
+  },
+  "labels": {
+    "actions.confirm.dokoncit-prevodku": {
+      "titl": "Do you want to complete a conveyance?"
+    },
+    "actions.confirm.lock": {
+      "titl": "Do you really want to lock the document?"
+    },
+    "actions.confirm.lock-for-ucetni": {
+      "titl": "Do you really want to lock the document outside of accounting?"
+    },
+    "actions.confirm.odeslat-eet": {
+      "titl": "Do you really want to send the document to electronic revenue registration?"
+    },
+    "actions.confirm.sign-for-payment": {
+      "titl": "Do you really want to sign the document for payment?"
+    },
+    "actions.confirm.storno": {
+      "titl": "Do you really want to cancel this document?"
+    },
+    "actions.confirm.uhrad-preplatky": {
+      "titl": "Do you really want to pay from the conversions in the bank and at the cash desk?"
+    },
+    "actions.confirm.uhrad-zapoctem": {
+      "titl": "Do you really want to pay the document using automated mutual settlement?"
+    },
+    "actions.confirm.unlock": {
+      "titl": "Do you really want to unlock the document?"
+    },
+    "actions.confirm.unsign-for-payment": {
+      "titl": "Do you really want to cancel the signature for payment of the document?"
+    },
+    "actions.description": {
+      "titl": "This overview serves for&nbsp;statement of supported events."
+    },
+    "actions.needInstance": {
+      "titl": "Needs object instance"
+    },
+    "authn.ACCESS_CONTROL_ALLOW_ORIGIN": {
+      "titl": "Network access to ABRA Flexi data"
+    },
+    "authn.ACCESS_CONTROL_ALLOW_ORIGIN.description": {
+      "titl": "Influences HTTP header configuration Access-Control-Allow-Origin (domains separated by a space)"
+    },
+    "authn.idp_settings.name_id_format": {
+      "titl": "User identifier format"
+    },
+    "authn.idp_settings.response_consumer_url": {
+      "titl": "URL for receipt of a response"
+    },
+    "authn.idp_settings.single_logout_url": {
+      "titl": "URL for user logoff"
+    },
+    "authn.password_quality": {
+      "titl": "Required password quality"
+    },
+    "authn.service_provider_id": {
+      "titl": "Service Provider identifier"
+    },
+    "authn.service_provider_id.description": {
+      "titl": "Service provider identifier, who figures as the party requesting user authentication. Typically a second class domain (e.g. <b>tt>flexibee.eu</tt></b>)."
+    },
+    "authn.sso_cert_fingerprint": {
+      "titl": "Certificate stamp <abbr title=\"Identity Provider\">IDP</abbr>"
+    },
+    "authn.sso_cert_fingerprint.description": {
+      "titl": "Here the SHA1 certificate stamp is entered, which will be used to sign responses. The correct format can be obtained, for example, via the command: <tt>openssl x509 -noout -in cert.pem -fingerprint -sha1</tt><br/>Leave empty if the certificate validation is not supposed to be done."
+    },
+    "authn.sso_chng_passwd_url": {
+      "titl": "URL for SSO password change"
+    },
+    "authn.sso_chng_passwd_url.description": {
+      "titl": "URL to which it will be possible to redirect users for the purpose of central logoff or change of password for the ID provider."
+    },
+    "authn.sso_login_url": {
+      "titl": "Logon URL for SSO"
+    },
+    "authn.sso_login_url.description": {
+      "titl": "URL to which ABRA Flexi (service) will send requests for user authentication. The request contains all necessary details for performing authentication, but it is often still necessary to create configuration on the ID provider’s side for the particular service. It is often necessary to specify the URL for processing a response and certain other parameters of the authentication protocol:"
+    },
+    "authn.sso_logout_url": {
+      "titl": "Logoff URL for SSO"
+    },
+    "authn.type.GOOGLE.description": {
+      "titl": "Authorization is performed against Google servers. Both paid and free variants of Google Apps can be used."
+    },
+    "authn.type.INTERNAL.description": {
+      "titl": "Only the name and password stored in ABRA Flexi is used."
+    },
+    "authn.type.IT_HIGHWAY.description": {
+      "titl": "Authorization via a network of integrated services <i>IT Highway</i>."
+    },
+    "authn.type.OPENID.description": {
+      "titl": "Authorization is performed against a regular OpenID provider. Configuration will need to be done."
+    },
+    "authn.type.SAML.description": {
+      "titl": "Authorization is performed against a regular SAMLv2 Identity Provider. Configuration will need to be done."
+    },
+    "authn.type.UCTUJTE.description": {
+      "titl": "Special authentication on the web <tt>uctujte.cz</tt>."
+    },
+    "automatickeParovani": {
+      "titl": "Automatic matching"
+    },
+    "backTo": {
+      "titl": "Back to"
+    },
+    "backToDocument": {
+      "titl": "Back to document"
+    },
+    "cleneniDph": {
+      "titl": "VAT category"
+    },
+    "company.backup": {
+      "titl": "Backup company"
+    },
+    "company.settings": {
+      "titl": "Company settings"
+    },
+    "devdoc": {
+      "titl": "Documentation"
+    },
+    "devdoc.bezPolozek": {
+      "titl": "Does this document contain items? If it does, amount is determined by their sum. Otherwise, it is possible to set amount directly (sumCelkSniz etc.)"
+    },
+    "devdoc.datUhr": {
+      "titl": "Date of payment. Filled when the document was paid."
+    },
+    "devdoc.dic": {
+      "titl": "<i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.dphSnizKoef": {
+      "titl": "Was the coefficient for VAT calculation used in calculation of reduced VAT? (pursuant to Section 37 of the VAT Act).  It influences checksums."
+    },
+    "devdoc.dphZaklKoef": {
+      "titl": "Was the coefficient for VAT calculation used in calculation of basic VAT? (pursuant to Section 37 of the VAT Act). It influences checksums."
+    },
+    "devdoc.eanKod": {
+      "titl": "<i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.evidenceFilter": {
+      "titl": "Database filter: "
+    },
+    "devdoc.faEanKod": {
+      "titl": "Postal address. Fill in only if postovniShodna is false. <i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.faMesto": {
+      "titl": "Postal address. Fill in only if postovniShodna is false. <i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.faNazev": {
+      "titl": "Postal address. Fill in only if postovniShodna is false. <i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.faPsc": {
+      "titl": "Postal address. Fill in only if postovniShodna is false. <i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.faUlice": {
+      "titl": "Postal address. Fill in only if postovniShodna is false. <i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.firma": {
+      "titl": "Link to company in directory. If not completed, then items should be completed with detailed information about the company."
+    },
+    "devdoc.ic": {
+      "titl": "<i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.kurz": {
+      "titl": "Rate, which is determines the conversion between the company's currency and the document currency. If the currency is not filled in, it has a zero value."
+    },
+    "devdoc.kurzMnozstvi": {
+      "titl": "Exchange amount, which defines the relationship between the company's base currency and the document currency. E.g. the rate between the Czech crown and the Japanese yen is determined as CZK 1:  JPY 100."
+    },
+    "devdoc.mesto": {
+      "titl": "<i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.nazFirmy": {
+      "titl": "<i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.postovniShodna": {
+      "titl": "If it is true, that postal address = invoice address. <i>if the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.psc": {
+      "titl": "<i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "devdoc.slevaDokl": {
+      "titl": "Total discount for document applied to resulting price."
+    },
+    "devdoc.sumCelkSniz": {
+      "titl": "Total sum of all bases at the reduced VAT rate (i.e. amount not including VAT)  in the company's base currency. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumCelkSnizMen": {
+      "titl": "Total sum of all bases at the reduced VAT rate (i.e. amount not including VAT)  in the document currency. <i>If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumCelkZakl": {
+      "titl": "Total sum of all bases a the basic rate of VAT (i.e. amount not including VAT)  in the company's base currency. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumCelkZaklMen": {
+      "titl": "Total sum of all bases at the basic VAT rate (i.e. amount not including VAT)  in the document currency. <i>If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumCelkem": {
+      "titl": "Total sum including VAT in the company's base currency. (i.e. how much the customer should pay). <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumCelkemMen": {
+      "titl": "Total sum including VAT in the document currency. If the currency of the document is identical to the company's base currency, this item is zero value. (i.e. how much the customer should pay). <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumDphCelkem": {
+      "titl": "Total amount of VAT (sum of reduced and basic rate) in the company's base currency. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumDphCelkemMen": {
+      "titl": "Total amount of VAT (sum of reduced and basic rate) in the document currency. <i>If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumDphSniz": {
+      "titl": "The total amount of VAT at a reduced rate of VAT in the company's base currency. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumDphSnizMen": {
+      "titl": "The total amount of VAT at a reduced rate of VAT in the document currency. <i>If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumDphZakl": {
+      "titl": "Total amount of VAT at the basic rate in the company's base currency. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumDphZaklMen": {
+      "titl": "The total amount of VAT at the basic rate of VAT in the document currency. <i>If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumOsv": {
+      "titl": "Total sum of bases exempt from VAT in the company's base currency. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumOsvMen": {
+      "titl": "Total sum of bases exempt from VAT in the document currency. <i>If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumZklCelkem": {
+      "titl": "Total sum of all bases (i.e. amount not including VAT)  in the company's base currency. This is the resulting amount not including VAT. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumZklCelkemMen": {
+      "titl": "Total sum of all bases (i.e. amount not including VAT)  in the document currency. If the currency of the document is identical to the company's base currency, this item is zero value. This is the resulting amount not including VAT. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumZklSniz": {
+      "titl": "Total sum of bases with reduced VAT in the company's base currency. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumZklSnizMen": {
+      "titl": "Total sum of bases with reduced VAT in the document currency. <i>If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumZklZakl": {
+      "titl": "Total sum of bases exempt from VAT in the company's base currency. <i>If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.sumZklZaklMen": {
+      "titl": "Total sum of bases with basic VAT in the document currency. <i>If the currency of the document is identical to the company's base currency, this item is zero value. If the document is itemised it is automatically figured from items.</i>"
+    },
+    "devdoc.ulice": {
+      "titl": "<i>If the item 'company' is filled in, it is not necessary to add additional information as the information will be copied form the address book. </i>"
+    },
+    "doklFak.cancelled": {
+      "titl": "CANCELED"
+    },
+    "eula": {
+      "titl": "Terms of Service"
+    },
+    "evidences.description": {
+      "titl": "This overview serves for&nbsp;extract of records, which can be accessed in this company. It is possible to convert it into XML format or into JSON and then process it mechanically."
+    },
+    "filter": {
+      "titl": "Filter"
+    },
+    "identifier": {
+      "titl": "Identifier"
+    },
+    "loginWithDesktopApp": {
+      "titl": "Login using client application"
+    },
+    "loginWithDesktopAppToCloud": {
+      "titl": "Login using client application to the Cloud"
+    },
+    "majetek_dalsi": {
+      "titl": "More"
+    },
+    "nactiVypis": {
+      "titl": "Read statement"
+    },
+    "name": {
+      "titl": "Name"
+    },
+    "newInterfaceLink": {
+      "titl": "Try the new interface"
+    },
+    "obchPartneri_dalsi": {
+      "titl": "More"
+    },
+    "odeslaniDokladu": {
+      "titl": "Send document"
+    },
+    "odpocetZalohyCastka": {
+      "titl": "Select an amount from 0 to"
+    },
+    "openRecord": {
+      "titl": "Open record"
+    },
+    "penize_dalsi": {
+      "titl": "More"
+    },
+    "podepsatKUhrade": {
+      "titl": "Sign for payment"
+    },
+    "prodej_dalsi": {
+      "titl": "More"
+    },
+    "properties.description": {
+      "titl": "This overview serves for&nbsp;extract of items, which this record may contain. It is possible to convert it into XML format or into JSON and then process it mechanically."
+    },
+    "root.explanation": {
+      "titl": "ABRA Flexi js a modern accounting and management system competent for the quality processing of accounting and related agendas for a broad spectrum of companies. Hidden behind an easy-to-use user interfaceis a robust and powerful client - server application that can be run on Windows, Linux and Mac OS X. Economic systems produced by ABRA Flexi been on the market since 1991"
+    },
+    "root.version": {
+      "titl": "Version"
+    },
+    "search": {
+      "titl": "Search"
+    },
+    "settings.ITH_USERS_MANAGEMENT": {
+      "titl": "\"IT Highway” user administration"
+    },
+    "settings.ITH_USERS_MANAGEMENT.description": {
+      "titl": "Limits assignment of roles in the application <code>ADMIN</code> and changing of user details. User administration is done primarily via <i>Batch API</i>."
+    },
+    "std_ciselniky": {
+      "titl": "Standard code sets"
+    },
+    "typKurzu.faktury": {
+      "titl": "Exchange rate obtained from invoice"
+    },
+    "typKurzu.uhrady": {
+      "titl": "Exchange rate by payment date"
+    },
+    "typKurzu.vlastni": {
+      "titl": "Own exchange rate"
+    },
+    "ucetni.denik.castky": {
+      "titl": "Amount"
+    },
+    "ucetnictvi_uctovani": {
+      "titl": "Accounting settings"
+    },
+    "ucetnictvi_vystupy": {
+      "titl": "Accounting outputs"
+    },
+    "url": {
+      "titl": "URL"
+    },
+    "vygenerovatFaktury": {
+      "titl": "Generate invoices"
+    },
+    "vytvorZdd.faktury": {
+      "titl": "Invoice"
+    },
+    "zaloha": {
+      "titl": "Advance"
+    },
+    "zalohaProgressDownloadTitle": {
+      "titl": "Advance will be available for download in a moment.."
+    },
+    "zbozi_atributy": {
+      "titl": "Attributes"
+    },
+    "zbozi_dalsi": {
+      "titl": "More"
+    },
+    "zrusitPodpisKUhrade": {
+      "titl": "Cancel signature for payment"
+    }
+  },
+  "messages": {
+    "automatickeParovaniJinyModul": {
+      "titl": "Automatic matching may be executed only in bank and cash desk."
+    },
+    "backup.confirmQuestion": {
+      "titl": "Back up database?"
+    },
+    "bankUcetNemaFormatElVypisu": {
+      "titl": "Format of electronic statements is not defined ffor this bank account."
+    },
+    "changesApi.actionFailed": {
+      "titl": "Action failed"
+    },
+    "changesApi.disableQuestion": {
+      "titl": "Changes API (monitoring of changes) above the current company is switched on. Do you want to deactivate it?"
+    },
+    "changesApi.disableSuccess": {
+      "titl": "Successfully deactivated."
+    },
+    "changesApi.enableQuestion": {
+      "titl": "Changes API (monitoring of changes) above the current company is not switched on. Do you want to activate it?"
+    },
+    "changesApi.enableSuccess": {
+      "titl": "Successfully activated."
+    },
+    "chybnyFormatCastky": {
+      "titl": "Incorrect amount format"
+    },
+    "chybnyFormatDatumu": {
+      "titl": "Incorrect date format"
+    },
+    "chybnyVlastniKurzChybiKurz": {
+      "titl": "If you want to use your own exchange rate, you must enter your own exchange rate and the exchange rate quantity."
+    },
+    "creditcheck.end": {
+      "titl": "Company has ceased to exist or is in liquidation."
+    },
+    "creditcheck.ok": {
+      "titl": "No information identified that negatively impacts creditworthiness of company"
+    },
+    "creditcheck.problem": {
+      "titl": "Information is available that likelyl has a negative impact on the creditworthienss of the company."
+    },
+    "creditcheck.unknown": {
+      "titl": "Creditworthiness of company unknown."
+    },
+    "creditcheck.warning": {
+      "titl": "Information is available about the facts or changes in the company that may (but do not necessarily have) impact on creditworthiness of company."
+    },
+    "eetCertifikatSpatnaProvozovna": {
+      "titl": "The value must be an integer!"
+    },
+    "eetCertifikatSpatneHeslo": {
+      "titl": "Wrong password for the certificate!"
+    },
+    "eetCertifikatSpatnySoubor": {
+      "titl": "This is probably not a certificate file, or you have entered the wrong content-type!"
+    },
+    "eetDeactivated": {
+      "titl": "EET is not supported."
+    },
+    "error.company_in_wrong_state": {
+      "titl": "Company '%p' is in status '%p'."
+    },
+    "error.not_sha1_hash": {
+      "titl": "This is not in valid SHA1 stamp format. It should have 20 hexa bytes of divided by colons."
+    },
+    "error.service_unavailable": {
+      "titl": "The service is currently not available, please try again later."
+    },
+    "error.tooManyRequests": {
+      "titl": "This company is currently processing a large number of previous requests, please wait."
+    },
+    "error_parsing_file_exception": {
+      "titl": "The file could not be read, because: '%p'."
+    },
+    "hotovUhrNemaTypPoklPoh": {
+      "titl": "Cash desk movement type not selected."
+    },
+    "illegal_parameter_exception": {
+      "titl": "Parameter ‘%p’ is expected in ‘%p’ format."
+    },
+    "incompatible_param_values_exception": {
+      "titl": "Values of parameters %p are not compatible"
+    },
+    "internetUpdate.ic_dic_empty": {
+      "titl": "Neither Company ID nor Company VAT # has been filled in."
+    },
+    "invalidBoolean": {
+      "titl": "{0} is not a valid logic type"
+    },
+    "invalidDate": {
+      "titl": "{0} is not a valid date format"
+    },
+    "invalidNumber": {
+      "titl": "{0} is not a valid number format"
+    },
+    "kopieDokladuNemaTypDokl": {
+      "titl": "Document type not selected."
+    },
+    "missing_param_exception": {
+      "titl": "Parameter ‘%p’ is required to perform the operation"
+    },
+    "neexistujeReport": {
+      "titl": "There is no report"
+    },
+    "no.records": {
+      "titl": "No entries"
+    },
+    "pageLoad.end": {
+      "titl": "All pages loaded."
+    },
+    "pageLoad.loadNext": {
+      "titl": "Load next page"
+    },
+    "pageLoad.loading": {
+      "titl": "Loading next page ..."
+    },
+    "parametrPovinny": {
+      "titl": "Parameter %p is required."
+    },
+    "parseParameterMesicError": {
+      "titl": "In the %p parameter, the number of month (1-12) or quarter (Q1-Q4) is expected, but '%p' is found."
+    },
+    "parseParameterNumberError": {
+      "titl": "Parameter %p requires a number, but this is entered: %p."
+    },
+    "prilohaNepatriKObjektu": {
+      "titl": "Attachment %p does not belong to object %p."
+    },
+    "resource_not_found_exception": {
+      "titl": "##The necessary ‘%p’ resource was not found"
+    },
+    "suggest.nothingFound": {
+      "titl": "Nothing found"
+    },
+    "suggest.summary": {
+      "titl": "{start} to {end} of {total}"
+    },
+    "suggest.watermark": {
+      "titl": "{name} (search)"
+    },
+    "udalostNepatriKObjektu": {
+      "titl": "Event %p does not belong to object %p."
+    },
+    "unsavedChanges.confirm": {
+      "titl": "Page contains unsaved changes. Leave page?"
+    },
+    "unsupported_param_value_exception": {
+      "titl": "Parameter ‘%p’ has an unsupported value! Select one of the following options: %p"
+    },
+    "wait": {
+      "titl": "Working ..."
+    }
+  }
+}

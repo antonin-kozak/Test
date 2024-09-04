@@ -1,0 +1,1847 @@
+{
+  "beans": {
+    "cz.winstrom.vo.mzdy.AktualMzdy": {
+      "_title": {
+        "titl": "Wage Update"
+      },
+      "bezneNahrady": {
+        "titl": "Common refunds"
+      },
+      "cistaMzda": {
+        "titl": "Net Wage"
+      },
+      "dan": {
+        "titl": "Tax"
+      },
+      "danBonus": {
+        "abbr": "Bonus",
+        "titl": "Tax bonus"
+      },
+      "danRezident": {
+        "titl": "Tax resident"
+      },
+      "danSlevPrac": {
+        "abbr": "Disc. ratepayer",
+        "titl": "Discount - ratepayer"
+      },
+      "danSlevSum": {
+        "abbr": "Tax abatement in total",
+        "titl": "Tax abatement in total"
+      },
+      "danSrazka": {
+        "abbr": "Deductional tax",
+        "titl": "Deductional tax"
+      },
+      "danVypocet": {
+        "titl": "Calculated tax"
+      },
+      "danZaklSraz": {
+        "titl": "Base for ded. tax"
+      },
+      "danZaklSrazSum": {
+        "abbr": "Base for ded. tax",
+        "titl": "Base for ded. tax"
+      },
+      "danZaklSum": {
+        "abbr": "Base for tax calculation",
+        "titl": "Base for tax calculation"
+      },
+      "danZaloha": {
+        "abbr": "Deposit",
+        "titl": "Tax prepayment"
+      },
+      "datum": {
+        "titl": "Date"
+      },
+      "datumVypocet": {
+        "abbr": "Calculated",
+        "titl": "Calculation date"
+      },
+      "dobaDovol": {
+        "titl": "Holiday"
+      },
+      "dobaDovolCastka": {
+        "titl": "Holidays amount"
+      },
+      "dobaFond": {
+        "abbr": "Fund",
+        "titl": "Working time fund"
+      },
+      "dobaNeodpr": {
+        "abbr": "Unworked time in total",
+        "titl": "Unworked time in total"
+      },
+      "dobaOdpr": {
+        "abbr": "Worked time in total",
+        "titl": "Worked time in total"
+      },
+      "dobaOdprDny": {
+        "abbr": "Days worked",
+        "titl": "Total days worked"
+      },
+      "dobirka": {
+        "titl": "Cash on delivery"
+      },
+      "dovolVybrano": {
+        "abbr": "Taken hol.",
+        "titl": "Taken holiday - overall"
+      },
+      "dovolZbyva": {
+        "abbr": "Hol. left",
+        "titl": "Holiday left in year"
+      },
+      "duchodSpor": {
+        "titl": "Second pillar"
+      },
+      "hrubaMzda": {
+        "abbr": "Gr. wage",
+        "titl": "Gross wage"
+      },
+      "hrubaPrumer": {
+        "titl": "Base for average income"
+      },
+      "idAktualMzdy": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Surname and name"
+      },
+      "mesic": {
+        "titl": "Month"
+      },
+      "mzdaMesicni": {
+        "abbr": "Monthly wage (income)",
+        "titl": "Monthly wage (income)"
+      },
+      "mzdaNahrada": {
+        "abbr": "Refund of wages",
+        "titl": "Refund of wages"
+      },
+      "nahradaNeschop": {
+        "abbr": "Disablement refund",
+        "titl": "Disablement refund"
+      },
+      "nemoc": {
+        "titl": "Sickness"
+      },
+      "nepenezPrijmy": {
+        "abbr": "Non-monetary",
+        "titl": "Non-monetary incomes"
+      },
+      "nepritCelk": {
+        "abbr": "Absence",
+        "titl": "Unworked time - absence"
+      },
+      "nocniPripl": {
+        "abbr": "Night-shift premium",
+        "titl": "Night-shift premium"
+      },
+      "odmeny": {
+        "titl": "Bonuses"
+      },
+      "osbCis": {
+        "abbr": "Pers. no.",
+        "titl": "Personal no."
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "osobaHlav": {
+        "titl": "Person heading"
+      },
+      "podilNaZisku": {
+        "abbr": "Share",
+        "titl": "Profit sharing"
+      },
+      "pracPracPrum": {
+        "abbr": "average",
+        "titl": "Labour legal hourly average"
+      },
+      "premiePevna": {
+        "abbr": "Fixed amount bonus",
+        "titl": "Fixed amount bonus"
+      },
+      "premieProc": {
+        "abbr": "% of basic wage bonus",
+        "titl": "% of basic wage bonus"
+      },
+      "premieProcUkaz": {
+        "abbr": "Bonus % from indicator / base",
+        "titl": "Bonus % from indicator / base"
+      },
+      "prescasCastka": {
+        "abbr": "Overtime - %currency-symbol",
+        "titl": "Overtime - total"
+      },
+      "prescasHodiny": {
+        "titl": "Overtime - hours"
+      },
+      "prescasPripl": {
+        "abbr": "Overtime bonus",
+        "titl": "Bonus for working overtime"
+      },
+      "prispIzolacka": {
+        "abbr": "Contributing insulation",
+        "titl": "Contribution to quarantine (isolation)"
+      },
+      "refundNeschop": {
+        "abbr": "compensation",
+        "titl": "Refund compensation"
+      },
+      "skupOsob": {
+        "abbr": "Group",
+        "titl": "Group of persons"
+      },
+      "slevaDeti": {
+        "titl": "Discount children"
+      },
+      "socPojCelk": {
+        "abbr": "Soc. ins.",
+        "titl": "Social insur. total"
+      },
+      "socPojCelkDp": {
+        "abbr": "Social retirement insur. total",
+        "titl": "Social retirement insur. total"
+      },
+      "socPojCelkSniz": {
+        "abbr": "Soc.ins.red.",
+        "titl": "Social ins. total, reduced"
+      },
+      "socPojCelkSpada": {
+        "titl": "Is included in soc. insurance"
+      },
+      "socPojFirma": {
+        "abbr": "Soc.ins.company",
+        "titl": "Social insur. company"
+      },
+      "socPojFirmaSniz": {
+        "abbr": "Soc.ins.company.red.",
+        "titl": "Social ins. company, reduced"
+      },
+      "socPojFirmaSnizZap": {
+        "abbr": "Soc.ins.company.red.act.",
+        "titl": "Social ins., company, reduced activated"
+      },
+      "socPojPrac": {
+        "abbr": "Soc.ins.worker",
+        "titl": "Social insur. worker"
+      },
+      "socPojSleva": {
+        "titl": "Social insur. deduction"
+      },
+      "socPojZakl": {
+        "abbr": "Soc.ins.base",
+        "titl": "Social insur. base"
+      },
+      "socPojZaklDp": {
+        "abbr": "Social retirement insur. base",
+        "titl": "Social retirement insur. base"
+      },
+      "socPojZaklSniz": {
+        "abbr": "Soc.ins.base.red.",
+        "titl": "Soc.ins.base - reduced"
+      },
+      "srazkaSporeni": {
+        "titl": "Deductions"
+      },
+      "superhrubaMzda": {
+        "abbr": "SW",
+        "titl": "Supergross wage"
+      },
+      "svatekCastka": {
+        "abbr": "Holiday Kč",
+        "titl": "Worked - holiday - amount"
+      },
+      "svatekHodiny": {
+        "abbr": "Holiday hours",
+        "titl": "Worked - holiday - hours"
+      },
+      "svatekNahrada": {
+        "abbr": "Ref.holiday",
+        "titl": "Refund for holiday"
+      },
+      "svatekNahradaHodiny": {
+        "abbr": "HRS COMP holidays",
+        "titl": "Holidays compensation - hours"
+      },
+      "weekendCastka": {
+        "abbr": "Weekend Kč",
+        "titl": "Worked - weekend - amount"
+      },
+      "weekendHodiny": {
+        "abbr": "Weekend hours",
+        "titl": "Worked - weekend - hours"
+      },
+      "zalohaMimoradna": {
+        "abbr": "Adv. extra",
+        "titl": "Extra advance"
+      },
+      "zalohaRadna": {
+        "titl": "Advance regular"
+      },
+      "zdravPoj": {
+        "abbr": "Health.ins.fund",
+        "titl": "Health insurance fund"
+      },
+      "zdravPojCelk": {
+        "abbr": "Health ins.",
+        "titl": "Health insur. total"
+      },
+      "zdravPojFirma": {
+        "abbr": "Health ins.comp.",
+        "titl": "Health insur. company"
+      },
+      "zdravPojPrac": {
+        "abbr": "Health ins.worker",
+        "titl": "Health insur. worker"
+      },
+      "zdravPojZakl": {
+        "abbr": "Health ins.base",
+        "titl": "Health insur. base"
+      }
+    },
+    "cz.winstrom.vo.mzdy.BanSpojMzdy": {
+      "_title": {
+        "titl": "Bank connection"
+      },
+      "osoba": {
+        "titl": "Person"
+      }
+    },
+    "cz.winstrom.vo.mzdy.CisMzdSloz": {
+      "_title": {
+        "titl": "Wage items codebook"
+      },
+      "castMzd": {
+        "titl": "Amount of wage"
+      },
+      "castkaDen": {
+        "abbr": "Kč/day",
+        "titl": "Amount for day"
+      },
+      "castkaHod": {
+        "abbr": "Kč/hour",
+        "titl": "Amount fir hour"
+      },
+      "cisDoklNem": {
+        "abbr": "Document",
+        "titl": "Document No. (for sickness)"
+      },
+      "dnyKal": {
+        "abbr": "Days cal.",
+        "titl": "Calendar days"
+      },
+      "dnyPrac": {
+        "abbr": "Days work",
+        "titl": "Working days"
+      },
+      "dnySvatek": {
+        "abbr": "Days hol.",
+        "titl": "Days in holiday"
+      },
+      "doplatZdravK": {
+        "abbr": "Additional payment to HI",
+        "titl": "Additional payment to health insurance"
+      },
+      "hodiny": {
+        "titl": "Hours"
+      },
+      "naOsobu": {
+        "titl": "Common for all labour relations of the person"
+      },
+      "paskaMala": {
+        "titl": "Small wages sheet"
+      },
+      "paskaPole": {
+        "titl": "Visible fields"
+      },
+      "paskaVelka": {
+        "titl": "Wages sheet"
+      },
+      "pocetMes": {
+        "abbr": "Valid",
+        "titl": "Number of months in which the file is valid"
+      },
+      "pracovni": {
+        "titl": "Working file (not displayed)"
+      },
+      "procMzd": {
+        "abbr": "% / const.",
+        "titl": "Percentage / constant"
+      },
+      "prumNaDenNem": {
+        "titl": "Daily average"
+      },
+      "prumNaHodNem": {
+        "titl": "Hourly average"
+      },
+      "skupSlozkyK": {
+        "titl": "Item group"
+      },
+      "typSlozkyK": {
+        "titl": "Item type"
+      },
+      "ukladatNulove": {
+        "titl": "Save zeros"
+      },
+      "uuid": {
+        "titl": "UUID"
+      },
+      "vsCastMzd": {
+        "titl": "Wage amount"
+      },
+      "vsCastNaDen": {
+        "titl": "Amount per day"
+      },
+      "vsCastNaHod": {
+        "titl": "Amount per hour"
+      },
+      "vsCisDoklNem": {
+        "titl": "Document No. (for illness)"
+      },
+      "vsDatDo": {
+        "titl": "End date"
+      },
+      "vsDatOd": {
+        "titl": "Initial date"
+      },
+      "vsDnyKal": {
+        "titl": "Calendar days"
+      },
+      "vsDnyPrac": {
+        "titl": "Working days"
+      },
+      "vsDnySvatek": {
+        "titl": "Days in holiday"
+      },
+      "vsDoplatZdrPoj": {
+        "titl": "Supplementary charge to health insurance"
+      },
+      "vsHodiny": {
+        "titl": "Hours"
+      },
+      "vsHodinySvatek": {
+        "titl": "Hours in holiday"
+      },
+      "vsPocetMes": {
+        "titl": "Number of months in which the item is valid"
+      },
+      "vsProcMzd": {
+        "titl": "Percent from basis"
+      },
+      "vsPrumNaDenNem": {
+        "titl": "Daily average"
+      },
+      "vsPrumNaHodNem": {
+        "titl": "Hourly average"
+      },
+      "vsZaklJeKracen": {
+        "titl": "Basis is shorten by work load"
+      },
+      "vsZaklMzd": {
+        "titl": "Wage basis"
+      },
+      "vsZmenaCastMzd": {
+        "titl": "User's change of amount"
+      },
+      "vyznamK": {
+        "titl": "Significance"
+      },
+      "zaklJeKracen": {
+        "titl": "Base is shorten by work load"
+      },
+      "zaklMzd": {
+        "abbr": "Base",
+        "titl": "Wage base"
+      },
+      "zapoctovyList": {
+        "titl": "Employment history form"
+      },
+      "zmenaCastMzd": {
+        "abbr": "User ch.",
+        "titl": "User change of the amount"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Dite": {
+      "_title": {
+        "titl": "Children"
+      },
+      "datNaroz": {
+        "titl": "Date of birth"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pohlaviK": {
+        "titl": "Sex"
+      },
+      "rodCis": {
+        "titl": "Birth certificate number"
+      },
+      "ztp_P": {
+        "titl": "ZTP/P"
+      },
+      "ztp_PDo": {
+        "titl": "Till"
+      },
+      "ztp_POd": {
+        "titl": "From"
+      }
+    },
+    "cz.winstrom.vo.mzdy.DovolenaCerpani": {
+      "_title": {
+        "titl": "Holiday leave"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "idDovolenaCerpani": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Surname and first name"
+      },
+      "kraceno": {
+        "titl": "Shortened (days/hrs)"
+      },
+      "lonska": {
+        "titl": "Last year (days/hrs)"
+      },
+      "narok": {
+        "titl": "Entitlement (days/hrs)"
+      },
+      "necerpana": {
+        "titl": "Paid (days/hrs)"
+      },
+      "pomCast": {
+        "titl": "Relative part (days/hrs)"
+      },
+      "vybrano": {
+        "titl": "Leave taken (days/hrs)"
+      },
+      "zbyva": {
+        "titl": "Accumulated leave (days/hrs)"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalc": {
+      "_title": {
+        "abbr": "Line WC",
+        "titl": "Line of the wage calculator"
+      },
+      "doHodnoty": {
+        "titl": "Value up to"
+      },
+      "ispv": {
+        "titl": "ISPV"
+      },
+      "koeficient": {
+        "abbr": "Coef.1",
+        "titl": "Coefficient 1"
+      },
+      "koeficient2": {
+        "abbr": "Coef.2",
+        "titl": "Coefficient 2"
+      },
+      "koeficient3": {
+        "abbr": "Coef.3",
+        "titl": "Coefficient 3"
+      },
+      "mzdCalcHlav": {
+        "titl": "Heading"
+      },
+      "mzdSlozIn": {
+        "abbr": "Input 1",
+        "titl": "Input file"
+      },
+      "mzdSlozIn2": {
+        "abbr": "Input 2",
+        "titl": "Input file 2"
+      },
+      "mzdSlozOut": {
+        "abbr": "Output",
+        "titl": "Output file"
+      },
+      "odHodnoty": {
+        "titl": "Value from"
+      },
+      "operaceK": {
+        "titl": "Operation"
+      },
+      "poleIn": {
+        "abbr": "Field 1",
+        "titl": "Input field"
+      },
+      "poleIn2": {
+        "abbr": "Field 2",
+        "titl": "Input field 2"
+      },
+      "poleOut": {
+        "abbr": "Field out",
+        "titl": "Output field"
+      },
+      "sumMesicu": {
+        "titl": "Months to sum"
+      },
+      "sumTypK": {
+        "titl": "Summation type"
+      },
+      "vstupNapricPomery": {
+        "titl": "Entry across employment"
+      },
+      "vyhodnotRocne": {
+        "titl": "Evaluate yearly"
+      },
+      "vyslDoHodnoty": {
+        "titl": "Result to value"
+      },
+      "vyslOdHodnoty": {
+        "titl": "Result from value"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalcHlav": {
+      "_title": {
+        "titl": "Heading of wage calculator"
+      },
+      "radkaHromadne": {
+        "titl": "Mass before"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalcHrom": {
+      "_title": {
+        "titl": "Mass operation"
+      },
+      "mzdCalcHlav": {
+        "titl": "Heading"
+      },
+      "mzdSlozIn": {
+        "titl": "Input file"
+      },
+      "mzdSlozOut": {
+        "titl": "Output file"
+      },
+      "poleIn": {
+        "titl": "Input field"
+      },
+      "poleOut": {
+        "titl": "Output field"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalcInit": {
+      "_title": {
+        "titl": "Initialization"
+      },
+      "mzdCalcHlav": {
+        "titl": "Heading"
+      },
+      "mzdSlozOut": {
+        "titl": "Destination folder"
+      },
+      "platnostK": {
+        "titl": "Validity"
+      },
+      "poleIn": {
+        "titl": "Source field"
+      },
+      "poleOut": {
+        "titl": "Destination field"
+      },
+      "typPracPom": {
+        "titl": "Labour rel. type"
+      },
+      "zdrojK": {
+        "titl": "Source object"
+      },
+      "zpracDatumK": {
+        "titl": "Method of processing date"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdSloz": {
+      "_title": {
+        "titl": "Wage items"
+      },
+      "castMzd": {
+        "titl": "Amount"
+      },
+      "castkaDen": {
+        "titl": "Amount per day"
+      },
+      "castkaHod": {
+        "titl": "Amount per hour"
+      },
+      "cisDoklNem": {
+        "titl": "Document No. (for illness)"
+      },
+      "cisMzdSloz": {
+        "titl": "Wage item"
+      },
+      "datumDo": {
+        "titl": "End date"
+      },
+      "datumDoklad": {
+        "titl": "Date of document delivery"
+      },
+      "datumOd": {
+        "titl": "Initial date"
+      },
+      "dnyKal": {
+        "titl": "Calendar days"
+      },
+      "dnyKalReal": {
+        "titl": "Actual calendar days"
+      },
+      "dnyPrac": {
+        "titl": "Working days"
+      },
+      "dnySvatek": {
+        "titl": "Days in holiday"
+      },
+      "doplatZdravK": {
+        "titl": "Supplementary charge to health insurance"
+      },
+      "doubleX": {
+        "titl": "Amount exactly"
+      },
+      "hodiny": {
+        "titl": "Hours"
+      },
+      "hodinySvatek": {
+        "titl": "Hours holiday"
+      },
+      "mesic": {
+        "titl": "Month"
+      },
+      "mesicPlatba": {
+        "titl": "Payment month"
+      },
+      "nepritomnost": {
+        "titl": "Absence"
+      },
+      "odmena": {
+        "titl": "Remuneration"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pocetMes": {
+        "titl": "Number of months in which the item is valid"
+      },
+      "pracPom": {
+        "titl": "Labour relation"
+      },
+      "pracovni": {
+        "titl": "Working"
+      },
+      "procMzd": {
+        "titl": "Percent from basis"
+      },
+      "prumNaDenNem": {
+        "titl": "Daily average"
+      },
+      "prumNaHodNem": {
+        "titl": "Hourly average"
+      },
+      "rokPlatba": {
+        "titl": "Payment year"
+      },
+      "skupSlozkyK": {
+        "titl": "Item group"
+      },
+      "srazka": {
+        "titl": "Deduction"
+      },
+      "stalaMzdSloz": {
+        "titl": "Permanent wage component"
+      },
+      "typSlozkyK": {
+        "titl": "Item type"
+      },
+      "zaklJeKracen": {
+        "titl": "Basis is shorten by work load"
+      },
+      "zaklMzd": {
+        "titl": "Base"
+      },
+      "zmenaCastMzd": {
+        "titl": "User's change of amount"
+      },
+      "zmenaCasu": {
+        "titl": "User time modification"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Nepritomnost": {
+      "_title": {
+        "titl": "Absence"
+      },
+      "cisMzdSloz": {
+        "titl": "Absence reason"
+      },
+      "cisloRozhodnuti": {
+        "titl": "Decision number"
+      },
+      "hodin1Den": {
+        "titl": "Hours of first day of absence"
+      },
+      "hodinXDen": {
+        "titl": "Hours of last day of absence"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "platiDo": {
+        "titl": "End"
+      },
+      "platiOd": {
+        "titl": "Start"
+      },
+      "pracPom": {
+        "titl": "Labour relation"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Osoba": {
+      "_title": {
+        "titl": "Persons"
+      },
+      "cisDomu": {
+        "titl": "House No."
+      },
+      "cisDomuKon": {
+        "titl": "Contact house No."
+      },
+      "cisDomuKonTuz": {
+        "titl": "House No. -con. domest."
+      },
+      "cisPojist": {
+        "titl": "Insurant No."
+      },
+      "cisPrukaz": {
+        "titl": "Card No."
+      },
+      "cisUcastDuchSpor": {
+        "titl": "No. of participant's retirement savings"
+      },
+      "cizPojCisDomu": {
+        "titl": "House No. - foreign ins."
+      },
+      "cizPojCislo": {
+        "titl": "Foreign ins. No."
+      },
+      "cizPojMesto": {
+        "titl": "City - foreign ins."
+      },
+      "cizPojNazev": {
+        "titl": "Name - foreign ins."
+      },
+      "cizPojPsc": {
+        "titl": "Post code - foreign ins."
+      },
+      "cizPojSpec": {
+        "titl": "Specification - foreign ins."
+      },
+      "cizPojStat": {
+        "titl": "Country - foreign ins."
+      },
+      "cizPojUlice": {
+        "titl": "Street - foreign ins."
+      },
+      "danNerezid": {
+        "titl": "Non-resident for tax purposes"
+      },
+      "datNaroz": {
+        "titl": "Date of birth"
+      },
+      "detiOdpoc": {
+        "titl": "Children for deduction"
+      },
+      "diteOdpoc1": {
+        "titl": "1st childtax deduction"
+      },
+      "diteOdpoc2": {
+        "titl": "1st childtax deduction"
+      },
+      "duchodOd": {
+        "titl": "Pension from"
+      },
+      "invalCast": {
+        "titl": "1.and 2. level disablement"
+      },
+      "invalOd": {
+        "titl": "Disability from"
+      },
+      "invalPlna": {
+        "titl": "3. level disablement"
+      },
+      "ispvOkres": {
+        "titl": "ISPV District"
+      },
+      "ispvPostaveni": {
+        "titl": "ISPV Position"
+      },
+      "ispvVedouci": {
+        "titl": "ISPV Supervisor"
+      },
+      "ispvVzdelani": {
+        "titl": "ISPV Education"
+      },
+      "ispvZamest": {
+        "titl": "ISPV Job"
+      },
+      "kvalifikace": {
+        "titl": "Qualification"
+      },
+      "mestoKon": {
+        "titl": "Contact city"
+      },
+      "mestoKonTuz": {
+        "titl": "Con. domest. city"
+      },
+      "minuleSoc": {
+        "titl": "Premium (social) from previous job"
+      },
+      "minuleZdrav": {
+        "titl": "Premium (health) from previous job"
+      },
+      "mistoNaroz": {
+        "titl": "Place of birth"
+      },
+      "nadzizeny": {
+        "titl": "Superior"
+      },
+      "nezDatNaroz": {
+        "abbr": "Unpr. p. birth date",
+        "titl": "Unprovided partner birth date"
+      },
+      "nezDo": {
+        "abbr": "Unpr. p. till",
+        "titl": "Unprovided partner till"
+      },
+      "nezJmeno": {
+        "abbr": "Unpr. p. name",
+        "titl": "Unprovided partner name"
+      },
+      "nezOd": {
+        "abbr": "Unpr. p. from",
+        "titl": "Unprovided partner from"
+      },
+      "nezPartner": {
+        "titl": "Unprovided partner"
+      },
+      "nezPohlaviK": {
+        "abbr": "Unpr. p. sex",
+        "titl": "Unprovided partner sex"
+      },
+      "nezPrijmeni": {
+        "abbr": "Unpr. p. surname",
+        "titl": "Unprovided partner surname"
+      },
+      "nezPrijmeniRod": {
+        "abbr": "Unpr. p. native surname",
+        "titl": "Unprovided partner native surname"
+      },
+      "nezRodCis": {
+        "abbr": "Unpr. p. birth certificate No.",
+        "titl": "Unprovided partner birth certificate No."
+      },
+      "nezTitul": {
+        "abbr": "Unpr. p. title",
+        "titl": "Unprovided partner degree"
+      },
+      "nezZTP": {
+        "abbr": "Unpr. p. ZTP/P",
+        "titl": "Unprovided partner ZTP/P"
+      },
+      "nezZTPDo": {
+        "abbr": "Unpr. p. ZTP/P till",
+        "titl": "Unprovided partner ZTP/P till"
+      },
+      "nezZTPOd": {
+        "abbr": "Unpr. p. ZTP/P from",
+        "titl": "Unprovided partner ZTP/P from"
+      },
+      "odpocetDeti": {
+        "titl": "Children for deduction"
+      },
+      "odpocetDeti3": {
+        "titl": "Number of third and other children for tax deduction"
+      },
+      "odpocetDetiZtp": {
+        "titl": "Children disabled for deduction"
+      },
+      "odpocetDite1Ztp": {
+        "titl": "First child for tax deduction is physically disabled"
+      },
+      "odpocetDite2Ztp": {
+        "titl": "Second child for tax deduction is physically disabled"
+      },
+      "odpracDnuPred": {
+        "titl": "Days worked at start"
+      },
+      "odpracRokuPred": {
+        "titl": "Years worked at start"
+      },
+      "osbCis": {
+        "titl": "Personal No."
+      },
+      "osbCisAlter": {
+        "titl": "Alternative personal No."
+      },
+      "osobaHlav": {
+        "titl": "Person"
+      },
+      "podpisProhl": {
+        "titl": "Signature declaration to tax"
+      },
+      "pohlaviK": {
+        "titl": "Sex"
+      },
+      "posta": {
+        "titl": "Post"
+      },
+      "postaKon": {
+        "titl": "Contact post"
+      },
+      "postaKonTuz": {
+        "titl": "Post - con. domest."
+      },
+      "predNemPoj": {
+        "titl": "Previous sickness ins. except ČSSZ"
+      },
+      "prijmeniPred": {
+        "titl": "Previous surname"
+      },
+      "prijmeniRod": {
+        "titl": "Native surname"
+      },
+      "prukazZTP": {
+        "titl": "ZTP/P card holder"
+      },
+      "pscKon": {
+        "titl": "Contact post code"
+      },
+      "pscKonTuz": {
+        "titl": "Post code - con. domest."
+      },
+      "rodCis": {
+        "desc": "Birth certificate number or Insurance number of the insured",
+        "titl": "Birth certificate number"
+      },
+      "rodStavK": {
+        "titl": "Family status"
+      },
+      "sirotciDuch": {
+        "titl": "Orphan's annuity"
+      },
+      "skupOsob": {
+        "titl": "Group of persons"
+      },
+      "slevaPoplat": {
+        "titl": "Discount - ratepayer"
+      },
+      "snizVymZaklZp": {
+        "abbr": "Reduced assessment base Health Insurance Company",
+        "titl": "Reduction of assessment base for health insurance (Act No. 592/1992 Coll., Section 3 - Assessment base, paragraph 7)"
+      },
+      "soucNemPoj": {
+        "titl": "Current sickness ins. except ČSSZ"
+      },
+      "starobniDuch": {
+        "titl": "Old-age pension"
+      },
+      "starobniPredDuch": {
+        "titl": "Premature old-age pension"
+      },
+      "statKon": {
+        "titl": "Contact country"
+      },
+      "statKonTuz": {
+        "titl": "Country - con. domest."
+      },
+      "statNaroz": {
+        "titl": "Country of birth"
+      },
+      "statObcan": {
+        "titl": "State citizenship"
+      },
+      "student": {
+        "titl": "Student"
+      },
+      "tdDobirka": {
+        "titl": "Obligation type of cash on delivery"
+      },
+      "tdZaloha": {
+        "titl": "Obligation type of advance"
+      },
+      "telefon": {
+        "titl": "Phone"
+      },
+      "typVztahuK": {
+        "titl": "Type of relation to company"
+      },
+      "ucastnikDuchSpor": {
+        "titl": "Participates in retirement savings"
+      },
+      "uliceKon": {
+        "titl": "Contact street"
+      },
+      "uliceKonTuz": {
+        "titl": "Street - con. domest."
+      },
+      "vdovskyDuch": {
+        "titl": "Widow's pension"
+      },
+      "zahranicniDuch": {
+        "titl": "Pension received abroad"
+      },
+      "zdrPojDoplat": {
+        "titl": "Health insurance - supplementary charge"
+      },
+      "zdrPojDoplatRozdel": {
+        "titl": "Split between company and employee"
+      },
+      "zdravPoj": {
+        "abbr": "Health ins.",
+        "titl": "Health insurance company"
+      },
+      "zpusPlatbyK": {
+        "titl": "Payment method"
+      }
+    },
+    "cz.winstrom.vo.mzdy.OsobaHlav": {
+      "_title": {
+        "titl": "Group of persons"
+      },
+      "osbCis": {
+        "titl": "Personal no."
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPom": {
+      "_title": {
+        "titl": "Labour relation"
+      },
+      "aktivniDo": {
+        "titl": "Active from"
+      },
+      "aktivniOd": {
+        "titl": "Active till"
+      },
+      "dovoleneRocne": {
+        "titl": "Number of holiday days per year"
+      },
+      "dovoleneRocneHod": {
+        "titl": "Hours of holiday per year"
+      },
+      "duvodNeposkytnutiCsszK": {
+        "titl": "Reason for failure to provide supporting documents"
+      },
+      "duvodUkonceniCsszK": {
+        "titl": "Reason for termination of employment"
+      },
+      "hlavni": {
+        "titl": "Main"
+      },
+      "hodinovaMzda": {
+        "titl": "Hourly wage"
+      },
+      "kodELDP": {
+        "titl": "Code ELDP"
+      },
+      "konecPomeru": {
+        "titl": "End of relation"
+      },
+      "malyRozsah": {
+        "titl": "Small extent employment"
+      },
+      "mesicniMzda": {
+        "titl": "Monthly wage"
+      },
+      "narokOdstupne": {
+        "titl": "Entitlement to severance pay"
+      },
+      "nastup": {
+        "titl": "Start in work"
+      },
+      "odstupneNasobek": {
+        "titl": "Severance pay - multiplier"
+      },
+      "odstupnePlnaVyse": {
+        "titl": "Severance pay paid in full"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "plneniOdprDobyK": {
+        "titl": "Worked time fulfilment"
+      },
+      "pracPomHlav": {
+        "titl": "Labour relation heading"
+      },
+      "pracRozvrhK": {
+        "titl": "Working schedule"
+      },
+      "predHrubPrijem": {
+        "titl": "Labour legal hourly average [%currency-symbol/hour]"
+      },
+      "procMinMzd": {
+        "titl": "Percent from minimal wage"
+      },
+      "prominutiSPFirma": {
+        "titl": "Social insurance waiver for the company"
+      },
+      "svatkyPrumer": {
+        "titl": "Refund calculation for holiday from average"
+      },
+      "tarifTrida": {
+        "titl": "Tariff class"
+      },
+      "tdIntCestDoLim": {
+        "titl": "Type of internal document for travel allowance up to limit"
+      },
+      "tdIntHruba": {
+        "titl": "Gross wage"
+      },
+      "tdIntNahrad": {
+        "titl": "Refund of wages type"
+      },
+      "tdIntStravPausDoLim": {
+        "titl": "Type of internal document for flat-rate meals up to the limit"
+      },
+      "tuoZavDan": {
+        "titl": "Accounting methods tax"
+      },
+      "tuoZavSocFir": {
+        "abbr": "AO SI firm",
+        "titl": "Social insurance employer"
+      },
+      "tuoZavSocZam": {
+        "abbr": "AO SI EE",
+        "titl": "Social insurance employee"
+      },
+      "tuoZavZdrFir": {
+        "abbr": "AO HI firm",
+        "titl": "Health insurance employer"
+      },
+      "tuoZavZdrZam": {
+        "abbr": "AO HI EE",
+        "titl": "Health insurance employee"
+      },
+      "tydenPracDobaK": {
+        "titl": "Weekly working hours"
+      },
+      "typMzdyK": {
+        "titl": "Wage type"
+      },
+      "typPracPom": {
+        "titl": "Labour relation"
+      },
+      "uvazCt": {
+        "titl": "Thursday"
+      },
+      "uvazDnuTydne": {
+        "titl": "Work load days [Weekly]"
+      },
+      "uvazHodDenne": {
+        "titl": "Work load hours [daily]"
+      },
+      "uvazHodTydne": {
+        "titl": "Work load hours [Weekly]"
+      },
+      "uvazNe": {
+        "titl": "Sunday"
+      },
+      "uvazPa": {
+        "titl": "Friday"
+      },
+      "uvazPo": {
+        "titl": "Monday"
+      },
+      "uvazSo": {
+        "titl": "Saturday"
+      },
+      "uvazSt": {
+        "titl": "Wednesday"
+      },
+      "uvazUt": {
+        "titl": "Tuesday"
+      },
+      "zacPracDoby": {
+        "titl": "Working hours start"
+      },
+      "zacatek": {
+        "titl": "Labour relation"
+      },
+      "zlistDuvod": {
+        "titl": "Finishing reason"
+      },
+      "zlistSdeleni": {
+        "titl": "Organization message"
+      },
+      "zlistUkonceni": {
+        "titl": "Finishing method"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPomHlav": {
+      "_title": {
+        "titl": "Employment header"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPravPrumer": {
+      "_title": {
+        "titl": "Employment averages"
+      },
+      "idPracPravPrumer": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Surname and first name"
+      },
+      "prum1": {
+        "titl": "Quarter 1"
+      },
+      "prum2": {
+        "titl": "Quarter 2"
+      },
+      "prum3": {
+        "titl": "Quarter 3"
+      },
+      "prum4": {
+        "titl": "Quarter 4"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PraceStred": {
+      "_title": {
+        "titl": "Work for centres"
+      },
+      "datumDo": {
+        "titl": "Date till"
+      },
+      "datumOd": {
+        "titl": "Date from"
+      },
+      "hodin": {
+        "titl": "Hours"
+      },
+      "mesic": {
+        "titl": "Month"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pracPom": {
+        "titl": "Labour relation"
+      },
+      "procento": {
+        "titl": "Percent"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PrehledMzdSlozky": {
+      "_title": {
+        "titl": "Wage component overview"
+      },
+      "castka": {
+        "titl": "Amount"
+      },
+      "cisRad": {
+        "titl": "Line no."
+      },
+      "dny": {
+        "titl": "Days"
+      },
+      "hodiny": {
+        "titl": "Hours"
+      },
+      "idPrehledMzdSlozky": {
+        "titl": "ID"
+      },
+      "pocetPolozek": {
+        "titl": "Items"
+      },
+      "zaklad": {
+        "titl": "Base"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PrehledPracPom": {
+      "_title": {
+        "titl": "Employment Overview"
+      },
+      "castHod": {
+        "titl": "CZK/hour"
+      },
+      "castMes": {
+        "titl": "CZK/month"
+      },
+      "idPrehledPracPom": {
+        "titl": "ID"
+      },
+      "nastup": {
+        "titl": "Start date"
+      },
+      "pracRozvrhK": {
+        "titl": "Type of work schedule"
+      },
+      "stalaMzdSloz": {
+        "titl": "Type of wages"
+      },
+      "ukonceni": {
+        "titl": "Termination of employment"
+      },
+      "uvazek": {
+        "titl": "Working hours/per week"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PrehledZamestnancu": {
+      "_title": {
+        "titl": "Employees overview"
+      },
+      "datNaroz": {
+        "titl": "Date of birt"
+      },
+      "dobaOdpr": {
+        "titl": "Worked time"
+      },
+      "dovolPocatek": {
+        "titl": "Holiday start (days/hrs)"
+      },
+      "dovolVybrano": {
+        "titl": "Taken holiday (days/hrs)"
+      },
+      "dovolZbyva": {
+        "titl": "Holiday left (days/hrs)"
+      },
+      "idPrehledZamestnancu": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Surname and name"
+      },
+      "konecPomeru": {
+        "titl": "End of labour relation"
+      },
+      "odpocetDeti": {
+        "titl": "Children deduction"
+      },
+      "osbCis": {
+        "titl": "Personal no."
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pracPom": {
+        "titl": "Labour relation"
+      },
+      "pracPravPrum": {
+        "titl": "Labour relation"
+      },
+      "typPracPom": {
+        "titl": "Labour relation"
+      },
+      "uvazHodTydne": {
+        "titl": "Work load hours/week"
+      },
+      "uvazKoef": {
+        "titl": "Work load coefficient"
+      },
+      "zacatek": {
+        "titl": "Labour relation start"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Prumer": {
+      "_title": {
+        "titl": "Average"
+      },
+      "hrubaHodMzda": {
+        "titl": "Average hourly gross wage"
+      },
+      "mesicCtvrtleti": {
+        "titl": "Month/quarter"
+      },
+      "nemocDenPrum": {
+        "titl": "Average for illness [Kč/day]"
+      },
+      "pracPom": {
+        "titl": "Labour relation"
+      },
+      "pracPravPrum": {
+        "titl": "Labour law average [Kč/hour]"
+      }
+    },
+    "cz.winstrom.vo.mzdy.SkupOsob": {
+      "_title": {
+        "titl": "Groups of persons"
+      },
+      "tdIntCestDoLim": {
+        "titl": "Type for travel allowance up to limit"
+      },
+      "tdIntHruba": {
+        "titl": "Gross wage"
+      },
+      "tdIntNahrad": {
+        "titl": "Refund of wages type"
+      },
+      "tdIntStravPausDoLim": {
+        "titl": "Type for flat-rate meals up to the limit"
+      },
+      "tuoZavDan": {
+        "titl": "Accounting methods tax"
+      },
+      "tuoZavSocFir": {
+        "abbr": "AO SI firm",
+        "titl": "Accounting methods employer"
+      },
+      "tuoZavSocZam": {
+        "abbr": "AO SI EE",
+        "titl": "Accounting methods employee"
+      },
+      "tuoZavZdrFir": {
+        "abbr": "AO HI firm",
+        "titl": "Accounting methods employer"
+      },
+      "tuoZavZdrZam": {
+        "abbr": "AO HI EE",
+        "titl": "Accounting methods employee"
+      },
+      "tydenPracDobaK": {
+        "titl": "Weekly working hours"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Smeny": {
+      "_title": {
+        "titl": "Shifts"
+      },
+      "mesic": {
+        "titl": "Month"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "planovane": {
+        "titl": "Planned shifts"
+      },
+      "pracPom": {
+        "titl": "Labour relation"
+      },
+      "skupOsob": {
+        "titl": "Gropu of persons"
+      },
+      "skutecne": {
+        "titl": "Really worked"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Srazka": {
+      "_title": {
+        "titl": "Deductions"
+      },
+      "banSpoj": {
+        "titl": "Bank account"
+      },
+      "castka": {
+        "titl": "Amount"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "cisMzdSloz": {
+        "titl": "Deduction type"
+      },
+      "deponovatDo": {
+        "titl": "Deposit till"
+      },
+      "kdatu": {
+        "titl": "Towards date"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pocatek": {
+        "titl": "Initial state"
+      },
+      "poradi": {
+        "titl": "Deduction order"
+      },
+      "prednostni": {
+        "titl": "Preferential deduction"
+      },
+      "procMzd": {
+        "titl": "Percent from basis"
+      },
+      "skupSlozkyK": {
+        "titl": "Group of file"
+      },
+      "splatnost": {
+        "titl": "Due date"
+      },
+      "srazkaDo": {
+        "titl": "Deduct till"
+      },
+      "srazkaOd": {
+        "titl": "Deduct from"
+      },
+      "typIntDokl": {
+        "titl": "Internal document type"
+      },
+      "typOstZav": {
+        "titl": "Obligation type"
+      },
+      "typSlozkyK": {
+        "titl": "File type"
+      },
+      "zbyva": {
+        "titl": "Remain"
+      },
+      "zpusobPlatbyK": {
+        "titl": "Payment method"
+      }
+    },
+    "cz.winstrom.vo.mzdy.StalaMzdSloz": {
+      "_title": {
+        "titl": "Permanent wage items"
+      },
+      "castMzd": {
+        "titl": "Amount"
+      },
+      "castkaDen": {
+        "titl": "Amount per day"
+      },
+      "castkaHod": {
+        "titl": "Amount per hour"
+      },
+      "cisMzdSloz": {
+        "titl": "Wage item"
+      },
+      "datumDo": {
+        "titl": "Finishing date"
+      },
+      "datumOd": {
+        "titl": "Initial date"
+      },
+      "dnyKal": {
+        "titl": "Calendar days"
+      },
+      "dnyPrac": {
+        "titl": "Working days"
+      },
+      "dnySvatek": {
+        "titl": "Days in holiday"
+      },
+      "hodiny": {
+        "titl": "Hours"
+      },
+      "hodinySvatek": {
+        "titl": "Hours on holiday"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pocetMes": {
+        "titl": "Number of months in which the item is valid"
+      },
+      "podil": {
+        "titl": "Item portion in month"
+      },
+      "pracPom": {
+        "titl": "Labour relation"
+      },
+      "procMzd": {
+        "titl": "Percent from basis"
+      },
+      "prumNaDenNem": {
+        "titl": "Daily average"
+      },
+      "prumNaHodNem": {
+        "titl": "Hourly average"
+      },
+      "skupSlozkyK": {
+        "titl": "Group of item"
+      },
+      "typPodilK": {
+        "titl": "Portion calculation type"
+      },
+      "typSlozkyK": {
+        "titl": "Item type"
+      },
+      "zaklJeKracen": {
+        "titl": "Basis is shorten by work load"
+      },
+      "zaklMzd": {
+        "titl": "Wage basis"
+      }
+    },
+    "cz.winstrom.vo.mzdy.TypPracPom": {
+      "_title": {
+        "titl": "Labour relation type"
+      }
+    },
+    "cz.winstrom.vo.mzdy.TypPracPomParam": {
+      "_title": {
+        "titl": "Labour relation type parameters"
+      },
+      "actDanNerez": {
+        "titl": "Is valid for non-resident for tax purposes"
+      },
+      "actDanRez": {
+        "titl": "Is valid for resident for tax purposes"
+      },
+      "actMaProhl": {
+        "titl": "Valid for signed declaration to tax"
+      },
+      "actMalyRoz": {
+        "titl": "Valid for employment of small extent"
+      },
+      "actNemaProhl": {
+        "titl": "Valid for not-signed declaration to tax"
+      },
+      "actVelkyRoz": {
+        "titl": "Valid for employment of not a small extent"
+      },
+      "actZdrDopl": {
+        "titl": "Is valid for health insurance - surcharge"
+      },
+      "actZdrNedopl": {
+        "titl": "Is valid for health insurance - arrears"
+      },
+      "cisMzdSloz": {
+        "titl": "Wage component"
+      },
+      "doHodnoty": {
+        "titl": "Value till"
+      },
+      "koeficient": {
+        "titl": "Coefficient"
+      },
+      "mzdCalcHlav": {
+        "titl": "Wage calculator"
+      },
+      "odHodnoty": {
+        "titl": "Value from"
+      },
+      "poleNuluj": {
+        "titl": "Field for adjustment"
+      },
+      "poleTest": {
+        "titl": "Field for test"
+      },
+      "typPracPom": {
+        "titl": "Labour relation type"
+      }
+    },
+    "cz.winstrom.vo.w.MzdyExtId": {
+      "_title": {
+        "titl": "External identifier"
+      },
+      "banSpojMzdy": {
+        "titl": "Bank details"
+      },
+      "dite": {
+        "titl": "Child"
+      },
+      "extId": {
+        "titl": "Identifier"
+      },
+      "nepritomnost": {
+        "titl": "Absence"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "osobaHlav": {
+        "titl": "Header of person"
+      },
+      "pracPom": {
+        "titl": "Employment"
+      },
+      "pracPomHlav": {
+        "titl": "Header of employment"
+      },
+      "praceStred": {
+        "titl": "Work for cost centres"
+      },
+      "skupOsob": {
+        "titl": "Group of persons"
+      },
+      "smeny": {
+        "titl": "Shifts"
+      },
+      "srazka": {
+        "titl": "Salary deduction"
+      },
+      "stalaMzdSloz": {
+        "titl": "Permanent wage component"
+      },
+      "tabulka": {
+        "titl": "Table"
+      }
+    },
+    "cz.winstrom.vo.w.PrilohaMzdy": {
+      "_title": {
+        "titl": "Attachments"
+      },
+      "data": {
+        "titl": "Attachment data"
+      },
+      "dataHash": {
+        "titl": "Attachment data copy (MD5 sum)"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "prilozit": {
+        "abbr": "Add",
+        "titl": "Add to isdoc"
+      },
+      "typK": {
+        "titl": "Attachment type"
+      }
+    },
+    "cz.winstrom.vo.w.UcelMzdy": {
+      "_title": {
+        "titl": "Purpose"
+      },
+      "adresar": {
+        "titl": "Data subject"
+      },
+      "definiceUcelu": {
+        "titl": "Definition of purpose"
+      },
+      "polozkaPrikazu": {
+        "titl": "Order item"
+      },
+      "pozastaveno": {
+        "titl": "Paused"
+      },
+      "ucelLog": {
+        "titl": "Circumstances of origin of the purpose"
+      },
+      "vyreseno": {
+        "titl": "Resolved"
+      }
+    },
+    "global": {
+      "mzdSloz": {
+        "titl": "Wage component"
+      },
+      "osbCis": {
+        "titl": "Personal no."
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "osobaHlav": {
+        "titl": "Person"
+      },
+      "pracPom": {
+        "titl": "Employment"
+      },
+      "pracPomHlav": {
+        "titl": "Labour relation"
+      },
+      "skupOsob": {
+        "titl": "Group of persons"
+      }
+    },
+    "vzor": {
+      "xyz": {
+        "desc": "Bbb ccc ddd.",
+        "icon": "aaa.gif",
+        "titl": "!Abcdef"
+      }
+    }
+  }
+}

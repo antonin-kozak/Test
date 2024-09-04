@@ -1,0 +1,963 @@
+{
+  "actions": {
+    "aktualizaceNepritomnosti": {
+      "icon": "win/aktualizuj-nepritomnost.png",
+      "titl": "Update absences"
+    },
+    "generujZavazky": {
+      "desc": "This will generate wage liabilities for selected month",
+      "icon": "win/generate.png",
+      "titl": "Generate wage liabilities"
+    },
+    "importXmlNeschopenka": {
+      "icon": "win/xml-import.png"
+    },
+    "predvyplnitDovoleneHod": {
+      "titl": "Pre-fill the number of hours of leave"
+    },
+    "predvyplnitPrevedeneDovoleneHod": {
+      "titl": "Pre-fill the number of hours of transferred leave"
+    },
+    "prepoctiMzdu": {
+      "icon": "win/prepocti-mzdu.png",
+      "titl": "Recalculate wages"
+    },
+    "rekapitulaceSlozek": {
+      "icon": "win/generate.png",
+      "titl": "Items summary"
+    },
+    "tiskExportVyplatnichPasek": {
+      "desc": "Exports pay slips to a defined directory",
+      "icon": "win/pdf.png",
+      "titl": "Payroll export"
+    },
+    "tiskVycetPlatidel": {
+      "desc": "This will print Currency note wage statement for employee for cash payment.",
+      "icon": "win/platidlo.png",
+      "titl": "Currency note specification wage statement"
+    },
+    "vypnoutProminutiSPFirma": {
+      "titl": "Deactivate social insurance waiver for the company"
+    },
+    "vypoctiMzdy": {
+      "desc": "This will calculate wages for selected month",
+      "icon": "win/computation.png",
+      "titl": "Calculate wages"
+    },
+    "zapnoutProminutiSPFirma": {
+      "titl": "Activate social insurance waiver for the company"
+    },
+    "zrusVypocetMzdy": {
+      "icon": "win/erase.png",
+      "titl": "Cancel wage calculation"
+    }
+  },
+  "buttons": {
+    "mzdyOsobaDetiOdpocVyber": {
+      "titl": "Select"
+    },
+    "mzdyPlatiOdDoAdd": {
+      "titl": "Add settings"
+    },
+    "mzdyPlatiOdDoDelete": {
+      "titl": "Delete settings"
+    },
+    "mzdyVystupCsszOznameniAuto": {
+      "titl": "Automatically determine whether the starting or termination is involved"
+    },
+    "mzdyVystupCsszOznameniKonec": {
+      "titl": "Notification of employment termination"
+    },
+    "mzdyVystupCsszOznameniNastup": {
+      "titl": "Notification of employment start"
+    },
+    "mzdyVystupDodatecneOpravneVyuc": {
+      "titl": "Additional corrective settlement"
+    },
+    "mzdyVystupDodatecneVyuc": {
+      "titl": "Additional settlement"
+    },
+    "mzdyVystupNasledneHlaseni": {
+      "titl": "Subsequent reporting"
+    },
+    "mzdyVystupOpravneHlaseni": {
+      "titl": "Corrective reporting"
+    },
+    "mzdyVystupOpravneVyuc": {
+      "titl": "Corrective settlement"
+    },
+    "mzdyVystupPotOZdanPrijmechSraz": {
+      "titl": "Confirmation of the withholding tax"
+    },
+    "mzdyVystupPotOZdanPrijmechZal": {
+      "titl": "Confirmation of advance tax"
+    },
+    "mzdyVystupRadneHlaseni": {
+      "titl": "Regular reporting"
+    },
+    "mzdyVystupRadneVyuc": {
+      "titl": "Regular settlement"
+    },
+    "mzdyVystupSouborOutVyberOk": {
+      "titl": "Select"
+    },
+    "mzdyVystupUlozitDoXml": {
+      "titl": "Save in XML format (data for electronic communication with CSSZ)"
+    },
+    "mzdyVystupUlozitDoXmlSrazDan": {
+      "titl": "Withholding tax - export to XML format"
+    },
+    "mzdyVystupUlozitDoXmlZalDan": {
+      "titl": "Advance tax - export to XML format"
+    },
+    "mzdyVystupVytvoritAOtevritPdf": {
+      "titl": "Create and open PDF"
+    },
+    "mzdyVystupVytvoritTisk": {
+      "titl": "Print"
+    },
+    "mzdyVystupVytvoritTiskSrazDan": {
+      "titl": "Print materials for withholding tax"
+    },
+    "mzdyVystupVytvoritTiskZalDan": {
+      "titl": "Print materials for advance tax"
+    },
+    "mzdyVystupZamknoutPdf": {
+      "titl": "Disable modifications"
+    },
+    "prehledMzdSlozSumStredisek": {
+      "titl": "Summation of cost centres"
+    }
+  },
+  "dialogs": {
+    "hzupnForm": {
+      "titl": "Report of the employer on termination of incapacity for work"
+    },
+    "mzdyGeneraceZavVyberMesice": {
+      "titl": "Select month(s) for generation of wage obligations"
+    },
+    "mzdyOsobaDetiOdpoc": {
+      "titl": "Children selection for deduction"
+    },
+    "mzdyVycetPlatidelVyberMesice": {
+      "titl": "Select parameters for bank wage statement printout"
+    },
+    "mzdyVypocetVyberMesice": {
+      "titl": "Select month(s) for calculation of wages"
+    },
+    "mzdyVystupSouborOutVyber": {
+      "titl": "Select file to save"
+    },
+    "potOZdanPrijmechTitle": {
+      "titl": "Confirmation of taxable wages"
+    },
+    "prehledMzdSlozek": {
+      "titl": "Overview of wages"
+    },
+    "prilohaZadostiForm": {
+      "titl": "Application supplement"
+    },
+    "zdrPojGenerovaniTitle": {
+      "titl": "Health insurance overview"
+    },
+    "zdrPojHromadneOzn": {
+      "titl": "Health insurance fund statement - multiple"
+    }
+  },
+  "labels": {
+    "cisMzdSlozViditelnost": {
+      "titl": "Fields visibility on wage item"
+    },
+    "dPravDefSkupOsob": {
+      "titl": "Group of persons list"
+    },
+    "filterMesicMzdyNeomezen": {
+      "titl": "Month unlimited"
+    },
+    "filterOsobaMzdyNeomezena": {
+      "titl": "Person unlimited"
+    },
+    "filterRokMzdyNeomezen": {
+      "titl": "Year unlimited"
+    },
+    "filterSkupOsobNeomezena": {
+      "titl": "Group of persons unlimited"
+    },
+    "filterSkupSlozkyNeomezena": {
+      "titl": "Group of units unlimited"
+    },
+    "filterSlozkaMzdyNeomezena": {
+      "titl": "Unit unlimited"
+    },
+    "filterTypPracPomNeomezen": {
+      "titl": "Labour relation type unlimited"
+    },
+    "mzdoveListy.info1": {
+      "titl": "Specify parameters of wage earning record creation."
+    },
+    "mzdoveListy.info2": {
+      "titl": "Only data that meet all entered criteria will be displayed."
+    },
+    "mzdoveListy.obdobi": {
+      "titl": "Year:"
+    },
+    "mzdoveListy.osoba": {
+      "titl": "Person:"
+    },
+    "mzdoveListy.skupOsob": {
+      "titl": "Group of persons:"
+    },
+    "mzdoveListy.vitejte": {
+      "titl": "Welcome to the wage earning record creation wizard!"
+    },
+    "mzdyGeneraceZavMesic": {
+      "titl": "Select month for generation of liabilities:"
+    },
+    "mzdyIspvInfo": {
+      "titl": "Select a year, quarter and a target file to create output ISPV."
+    },
+    "mzdyPlatiOdDoNeomezeno": {
+      "titl": "Unlimited"
+    },
+    "mzdyVycetPlatidelMesic": {
+      "titl": "Select month for wire transfer instruction:"
+    },
+    "mzdyVycetPlatidelPole": {
+      "titl": "Source field of amount for list of bank note specification card slip:"
+    },
+    "mzdyVypocetMesic": {
+      "titl": "Select month for wage calculation:"
+    },
+    "mzdyVyst.finUrPotOZdanPrijmechNadpis": {
+      "titl": "Confirmation of taxable income."
+    },
+    "mzdyVyst.finUrPotOZdanPrijmechPopis": {
+      "titl": "Select the year and the person for whom you want to generate the form."
+    },
+    "mzdyVyst.pojDuchHlaseniNadpis": {
+      "titl": "Reporting for advance payment in premium for retirement savings"
+    },
+    "mzdyVyst.pojDuchHlaseniPopis": {
+      "titl": "Select month, year and select the type of report."
+    },
+    "mzdyVyst.pojDuchVyuctovaniNadpis": {
+      "titl": "Calculation of premiums for retirement savings"
+    },
+    "mzdyVyst.pojDuchVyuctovaniPopis": {
+      "titl": "Select year and select the type of calculation."
+    },
+    "mzdyVyst.prehledMzdSlozNadpis": {
+      "titl": "Create a query for wage components"
+    },
+    "mzdyVyst.prehledMzdSlozPopis": {
+      "titl": "Enter properties of displayed wage components."
+    },
+    "mzdyVyst.prehledPojNadpis": {
+      "titl": "Overview of the premium amount."
+    },
+    "mzdyVyst.prehledPojPopis": {
+      "titl": "Select the month and year of the overview. You can also choose the output format."
+    },
+    "mzdyVyst.zdrPojHromadneOdhlaskaCB": {
+      "titl": "Log out"
+    },
+    "mzdyVyst.zdrPojHromadneOznNadpis": {
+      "titl": "Multiple notification for health insurance companies"
+    },
+    "mzdyVyst.zdrPojHromadneOznPopis": {
+      "titl": "Select the month and year of reported changes and the target file."
+    },
+    "mzdyVyst.zdrPojHromadneOznPopis2": {
+      "titl": "Choose persons for pre-filling in the health insurance form."
+    },
+    "mzdyVyst.zdrPojHromadnePrihlaskaCB": {
+      "titl": "Application form"
+    },
+    "mzdyVyst.zdrPojPrehledOPlatbeNadpis": {
+      "titl": "Overview of the payments of the premium."
+    },
+    "mzdyVyst.zdrPojPrehledOPlatbePopis": {
+      "titl": "<html>Select the month and the year for the monthly report form<br>about payment of health insurance premiums of employers.</html>"
+    },
+    "mzdyVystupCtvrtleti": {
+      "titl": "Quarter:"
+    },
+    "mzdyVystupDatumNavratDoPraceHzupn": {
+      "titl": "Date of return to work:"
+    },
+    "mzdyVystupDatumVystaveniHzupn": {
+      "titl": "Date of Issue:"
+    },
+    "mzdyVystupDuvodNenavratDoPraceHzupn": {
+      "titl": "The employee did not start work because of:"
+    },
+    "mzdyVystupEldpTyp": {
+      "titl": "ELDP type:"
+    },
+    "mzdyVystupHzupnCislo": {
+      "titl": "Number of long-term incapacity for work decision:"
+    },
+    "mzdyVystupHzupnPopis": {
+      "titl": "Enter the information required for the Employer Disability Report."
+    },
+    "mzdyVystupMesic": {
+      "titl": "Month:"
+    },
+    "mzdyVystupMesicDo": {
+      "titl": "Month to:"
+    },
+    "mzdyVystupMesicOd": {
+      "titl": "Month from:"
+    },
+    "mzdyVystupNavratDoPraceHzupn": {
+      "titl": "Return to work:"
+    },
+    "mzdyVystupNepritomnost": {
+      "titl": "Absence:"
+    },
+    "mzdyVystupOpravaEldp": {
+      "titl": "Correction of ELDP as at:"
+    },
+    "mzdyVystupOpravnePodaniHzupn": {
+      "titl": "Corrective submission:"
+    },
+    "mzdyVystupOsoba": {
+      "titl": "Person:"
+    },
+    "mzdyVystupPocetOdpracHodPoslDenHzupn": {
+      "titl": "Hours worked last day of incapacity for work:"
+    },
+    "mzdyVystupPodklVyucDane": {
+      "titl": "Documents for the calculation of income tax from dependent activity"
+    },
+    "mzdyVystupPoslDenPnHzupn": {
+      "titl": "The last day of incapacity for work"
+    },
+    "mzdyVystupPracDobaHodPoslDenHzupn": {
+      "titl": "Length of shift last day of incapacity for work hours:"
+    },
+    "mzdyVystupPracPomer": {
+      "titl": "Labour engagement:"
+    },
+    "mzdyVystupPrilZadNemCislo": {
+      "titl": "Confirmation No.:"
+    },
+    "mzdyVystupPrilZadNemTyp": {
+      "titl": "Request type:"
+    },
+    "mzdyVystupPrilZadNemTypDlouhOsetrovne": {
+      "titl": "Long-term care"
+    },
+    "mzdyVystupPrilZadNemTypNem": {
+      "titl": "Sickness benefit"
+    },
+    "mzdyVystupPrilZadNemTypOset": {
+      "titl": "Treatment benefit"
+    },
+    "mzdyVystupPrilZadNemTypOtcovska": {
+      "titl": "Paternity leave"
+    },
+    "mzdyVystupPrilZadNemTypPenPom": {
+      "titl": "Maternity benefit"
+    },
+    "mzdyVystupPrilZadNemTypVyrov": {
+      "titl": "Equalization benefit - pregnancy and maternity"
+    },
+    "mzdyVystupPrilZadPopis": {
+      "titl": "<html>Select the month and year for the preceding month in which a social claim was made.<br/>Then specify the parameters of the type of request.</html>"
+    },
+    "mzdyVystupRok": {
+      "titl": "Year:"
+    },
+    "mzdyVystupSouborOut": {
+      "titl": "Target file:"
+    },
+    "mzdyVystupSrazkovaDan": {
+      "titl": "Withholding tax"
+    },
+    "mzdyVystupZahranicniHzupn": {
+      "titl": "Foreign:"
+    },
+    "mzdyVystupZalohovaDan": {
+      "titl": "Advance tax"
+    },
+    "osobaAdrKonPN": {
+      "titl": "Contact"
+    },
+    "osobaAdrKonTuzPN": {
+      "titl": "Domestic address (permanent residence is abroad)"
+    },
+    "osobaAdrTrvalaPN": {
+      "titl": "Permanent"
+    },
+    "osobaAdresaPN": {
+      "titl": "Address"
+    },
+    "osobaMzdCiziPojPN": {
+      "titl": "Foreign Health insurance"
+    },
+    "osobaMzdSlevyDanPN": {
+      "titl": "Tax deductions"
+    },
+    "osobaMzdZaklPN": {
+      "titl": "Basic data"
+    },
+    "osobaMzdZdrPojPN": {
+      "titl": "Health insurance"
+    },
+    "osobaMzdyPN": {
+      "titl": "Wages"
+    },
+    "osobaNastaveni": {
+      "titl": "Person settings:"
+    },
+    "osobaNezaopParPN": {
+      "titl": "Unprovided partner"
+    },
+    "osobaOstatniPN": {
+      "titl": "Other"
+    },
+    "osobaStitkyPN": {
+      "titl": "Labels and notes"
+    },
+    "pracPomCsszPN": {
+      "titl": "ČSSZ"
+    },
+    "pracPomDniUvazku": {
+      "titl": "Working days"
+    },
+    "pracPomKonecPN": {
+      "titl": "End"
+    },
+    "pracPomNastaveni": {
+      "titl": "Labour relation setting"
+    },
+    "pracPomPocatekPN": {
+      "titl": "Start"
+    },
+    "pracPomUctovaniPN": {
+      "titl": "Bookkeeping"
+    },
+    "pracPomUvazekPN": {
+      "titl": "Work load"
+    },
+    "pracPomZapoctovyListPN": {
+      "titl": "Credit letter"
+    },
+    "prehledMzdSlozCelyRok": {
+      "titl": "Entire year"
+    },
+    "prehledMzdSlozKvartal": {
+      "titl": "quarter"
+    },
+    "prehledMzdSlozObdobi": {
+      "titl": "Period:"
+    },
+    "prehledMzdSlozPololeti": {
+      "titl": "half-year"
+    },
+    "prehledMzdSlozSkupSlozek": {
+      "titl": "Group of units"
+    },
+    "prehledMzdSlozStredisko": {
+      "titl": "Centre:"
+    },
+    "vsechnySkupinyMzdSlozek": {
+      "titl": "All groups"
+    },
+    "vsichniZamestnanci": {
+      "titl": "All employees"
+    }
+  },
+  "messages": {
+    "hzupnPracDobaHodPoslDenToolTip": {
+      "titl": "Length of shift last day of incapacity for work. Can be changed on the Employees tab."
+    },
+    "hzupnZadnaNepritomnost": {
+      "titl": "No absence was found."
+    },
+    "konrolaMzdovychSlozekProbiha": {
+      "titl": "Wage component check running..."
+    },
+    "konrolaMzdovychSlozekUkoncitProcesDotaz": {
+      "titl": "Do you really want to end the ongoing wage component check?"
+    },
+    "mzdovyListSeNepodaril": {
+      "titl": "Error during processing of earning records data."
+    },
+    "mzdyChybnyPocetMesOdmeny": {
+      "titl": "Remuneration can only be entered for 6 or 12 months."
+    },
+    "mzdyDoplneniHodDovolNastavenoNic": {
+      "titl": "No leave transfer folder was found that could be updated."
+    },
+    "mzdyDoplneniHodDovolNastavenoPocet": {
+      "titl": "The number of hours of leave has been set for the leave transfer components of the following persons - employment relationships:"
+    },
+    "mzdyDoplneniHodDovolNenastavenoNic": {
+      "titl": "No leave transfer folder was found that could NOT be updated."
+    },
+    "mzdyDoplneniHodDovolNenastavenoPocet": {
+      "titl": "The leave transfer components of the following persons - employment relationships have NOT been set to the number of hours of leave:"
+    },
+    "mzdyDoplneniHodDovolUvod": {
+      "titl": "The %p of components with leave transfer was found in the calculated wages for January 2021."
+    },
+    "mzdyGeneraceNeniEmail": {
+      "titl": "Email address is not entered."
+    },
+    "mzdyGeneraceZavJizExistuji": {
+      "titl": "Liability or internal transactions already exist for the selected period.\nDo you want to delete them?"
+    },
+    "mzdyGeneraceZavNeniFiltr": {
+      "titl": "The wage selection filter is not filled."
+    },
+    "mzdyGeneraceZavNeniMzda": {
+      "titl": "No wage information in selected wage period."
+    },
+    "mzdyGeneraceZavNeniVypocteno": {
+      "titl": "In the selected month, the wages have not been calculated for the following persons:"
+    },
+    "mzdyGeneraceZavOsobaNemaPojistovnu": {
+      "titl": "Health insurance fund information is missing for person %p."
+    },
+    "mzdyGeneraceZavOsobaNemaStatObcan": {
+      "titl": "Citizenship is missing for person %p."
+    },
+    "mzdyGeneraceZavOsobaNemaStredisko": {
+      "titl": "Centre is missing for person %p."
+    },
+    "mzdyGeneraceZavOsobaNemaZadanoPoleNaPomeru": {
+      "titl": "Person %p does not have entered field '%p' for employment %p."
+    },
+    "mzdyGeneraceZavPraceStredPrekrocenaDoba": {
+      "titl": "Cost centre/project/activity of working time fund exceeded for employee '%p'."
+    },
+    "mzdyGeneraceZavProgressInfo": {
+      "titl": "Generating liability transactions ..."
+    },
+    "mzdyGeneraceZavSmazatPrikazChyba": {
+      "titl": "Liability(ies) cannot be deleted because it' is already linked to a payment instruction."
+    },
+    "mzdyGeneraceZavTdNemaRadu": {
+      "titl": "Document row has not been selected for document type '%p'."
+    },
+    "mzdyGeneraceZavZamceno": {
+      "titl": "Generation of liabilities cannot be executed because selected period is locked."
+    },
+    "mzdyGenerovaniZavazkuOsobaCastka": {
+      "titl": "Person: %p, Amount: %p"
+    },
+    "mzdyHodinyXNeniDatumDo": {
+      "titl": "Date of termination must be completed."
+    },
+    "mzdyKontrolaChyba": {
+      "titl": "Check of wage components failed."
+    },
+    "mzdyKontrolaKonec": {
+      "titl": "Want to add this element to the above-specified months?\nAdding the element has an impact on the employment law average calculation. After the recalculation of wages in the following periods, wage amounts where the employment law average was used may change."
+    },
+    "mzdyKontrolaNicNenalezeno": {
+      "titl": "No wage components to be corrected where identified in the wage component check."
+    },
+    "mzdyKontrolaOpraveno": {
+      "titl": "Wage components were added."
+    },
+    "mzdyKontrolaUvod": {
+      "titl": "It was determined when checking the wage components that the multi-month remuneration breakdown auxiliary component was not completed in the following cases. This component has an impact on PPP for the following quarter.\n\nPersonal number: months in which the component is not\n"
+    },
+    "mzdyMzdSlozPrispevekIzolackaKladna": {
+      "titl": "The contribution to quarantine (isolation) is entered as a positive value."
+    },
+    "mzdyNejsouZaznamy": {
+      "titl": "There are no wages for the specified filter."
+    },
+    "mzdyNeniPracPomDatum": {
+      "titl": "For the selected date %p no employment exists %p for the employee."
+    },
+    "mzdyNepritomnostCisloRozhodnutiNevalidni": {
+      "titl": "Decision number is invalid. Decision number contains 18 digits (for electronic sick leave forms) or a letter and 6-7 digits (for paper sick leave forms)"
+    },
+    "mzdyNepritomnostExistJina": {
+      "titl": "Information about absence %p already entered in the selected absence %p period."
+    },
+    "mzdyNepritomnostNevypocteneMzdy": {
+      "titl": "Saving the absence %p is not possible, because at the time of absence uncalculated wages exist in the locked period."
+    },
+    "mzdyNepritomnostZamceno": {
+      "titl": "Impossible to save information about absence %p, it would influence wages in locked period."
+    },
+    "mzdyNeukoncenaNepritomnost": {
+      "titl": "Employee '%p' has unfinished absence, but the employee’s employment has already been terminated."
+    },
+    "mzdyOdeslaniOk": {
+      "titl": "Payslips for selection '%p' have been included for shipment. Total to send: %p."
+    },
+    "mzdyOsobaChybiHeslo": {
+      "titl": "Password not filled."
+    },
+    "mzdyOsobaNastaveniNeni": {
+      "titl": "There is no setting for person %p."
+    },
+    "mzdyOsobaNastaveniVice": {
+      "titl": "There are multiple settings for person %p."
+    },
+    "mzdyPlatiOdDoNelzeSmazatJedine": {
+      "titl": "Impossible to delete only existing setting."
+    },
+    "mzdyPlatiOdDoNotChangeAble": {
+      "titl": "You cannot change the validity if the change affects a setting other than the previous setting."
+    },
+    "mzdyPlatiOdDoNotConsistent": {
+      "titl": "The setting periods do not form a continuous chronological series."
+    },
+    "mzdyPlatiOdDoNovePlatneOd": {
+      "titl": "Create setting valid from:"
+    },
+    "mzdyPlatiOdDoOpravduSmazat": {
+      "titl": "Do you really want to delete current setting?"
+    },
+    "mzdyPlatiOdDoPrvniNeomezena": {
+      "titl": "The first setting created for the personal number '%p' must have unlimited validity."
+    },
+    "mzdyPlatiOdDoSingleDeleteNotPossible": {
+      "titl": "You cannot delete a single existing setting for '%p'."
+    },
+    "mzdyPlatiOdExists": {
+      "titl": "A setting with the same start date already exists."
+    },
+    "mzdyPlatiOdNelzeZmenit": {
+      "titl": "The value of the start of validity of an existing setting cannot be changed anymore."
+    },
+    "mzdyPreSavePlatnostCisNepritKonec": {
+      "titl": "End of absence %p is after the reason for the absence ended (%p)."
+    },
+    "mzdyPreSavePlatnostCisNepritZac": {
+      "titl": "Start of absence %p is before the reason for the absence began (%p)."
+    },
+    "mzdyPrekrizeniDatumu": {
+      "titl": "Date of separation cannot preceed date of initiation."
+    },
+    "mzdyProcVozuNeniCeleCislo": {
+      "titl": "% of the car must be an integer."
+    },
+    "mzdyUlozVyplatniPaskyChyba": {
+      "titl": "The pay slips could not be exported."
+    },
+    "mzdyUlozVyplatniPaskyNejsouData": {
+      "titl": "No data are available for export of pay slips."
+    },
+    "mzdyUlozVyplatniPaskyProbiha": {
+      "titl": "Exporting pay slips"
+    },
+    "mzdyUlozVyplatniPaskyUspech": {
+      "titl": "The pay slips have been exported successfully."
+    },
+    "mzdyUlozeniZamceno": {
+      "titl": "Saving isn't possible, it would influence wages in locked period %p/%p."
+    },
+    "mzdyVypocetDovolena2021Info": {
+      "titl": "To calculate the holiday in 2021 correctly, you need to set the number of holiday hours on the employment relationship in HR.\nYou can use the new service \"Pre-fill holiday hours\" and then use the payroll calculation in Payroll Update.\nIn case of transferring holiday from the previous year, you need to add a folder \"Transfer of holiday from 2020 to 2021\" in January \nand fill in the hours and select that it is a user time change.\nTo add this folder you can use the service \"Pre-fill the number of hours of transferred leave\" in Payroll Update.\nAfter adding this folder you need to recalculate the payroll.\nWhen calculating the pay for January we recommend to check the hours in the field \"Remaining leave\"\n, \"Transfer of leave from last year\" and \"Transfer of leave from 2020 to 2021\"."
+    },
+    "mzdyVypocetDovolenaZaporna": {
+      "titl": "After the calculation of wages, the remaining leave entitlement is negative."
+    },
+    "mzdyVypocetDovoleneZaporne": {
+      "titl": "For the following persons, the remaining leave entitlement turned out negative:"
+    },
+    "mzdyVypocetInfoOdmenyPrepocet": {
+      "titl": "Wage components with an impact on PPP calculation were updated.\nIf you used multi-month remuneration during the previous year and you have calculated wages in the current year, calculate for the correct PPP wage."
+    },
+    "mzdyVypocetJedneLicenceNespocteno": {
+      "titl": "Licence permits wages calculation for maximum %p persons monthly."
+    },
+    "mzdyVypocetLicenceNespocteno": {
+      "titl": "Wages for %p of people were not calculated.\nLicence permits wages calculation for maximum %p persons monthly."
+    },
+    "mzdyVypocetMimoUcetniObdobi": {
+      "titl": "It is not possible to calculate wages outside the currently established accounting period. You must first create a new accounting period."
+    },
+    "mzdyVypocetNastaveniDetiVarov": {
+      "titl": "If the employee applies tax advantages for children,\nit is necessary to carry out new configuration, so that the deduction occurs in accordance with valid legislation."
+    },
+    "mzdyVypocetNastaveniDruhyPilirVarov": {
+      "titl": "In view of the cancellation of pillar II as at 1/1/2016 it is necessary for employees who have been participants in pillar II to add in the HR section new employee settings and to cancel pillar II (HR - Wage parameters - Social insurance - Participant in retirement savings).\n\nContinuation will lead to an erroneous calculation of social insurance."
+    },
+    "mzdyVypocetNemocProplatVarov": {
+      "titl": "Check period of sickness-benefit compensation payment before calculation."
+    },
+    "mzdyVypocetNeniKalkulacka": {
+      "titl": "No wages calculation rule for selected period %p."
+    },
+    "mzdyVypocetPracujeVic": {
+      "titl": "The employee has exceeded the defined limit of hours worked."
+    },
+    "mzdyVypocetPracujouVic": {
+      "titl": "The following persons have exceeded the defined limit of hours worked:"
+    },
+    "mzdyVypocetProgressInfo": {
+      "titl": "Wages are being calculated..."
+    },
+    "mzdyVypocetUpozorneniVypnutiProminutiSPFirma": {
+      "titl": "For the period of <i>čJune - August 2020</i> it is possible, if the legal conditions are met, to use the <b>social insurance waiver for the company</b>.\nIf the waiver was activated in the employment settings, it must be deactivated by 1 September 2020 at the latest. It may be deactivated using a bulk service in Human Resources.\n\nContinue with wage calculation?"
+    },
+    "mzdyVypocetUpozorneniZapnutiProminutiSPFirma": {
+      "titl": "For the period of <i>June - August 2020</i> it is possible, if the legal conditions are met, to use the <b>social insurance waiver for the company</b>.\n The waiver must be activated prior to wage calculation by selecting the \"%p\" option in the settings for individual types of employment effective from 1 June 2020 (or later).\nP It may also be activated in bulk for all standard types of employees using a service in Human Resources.\n\nContinue with the wage calculation?"
+    },
+    "mzdyVypocetZamceno": {
+      "titl": "Wages calculation cannot be executed because selected period is locked."
+    },
+    "mzdyVystupChybaNacitaniDuchodu": {
+      "titl": "Error occurred while loading pension information from database."
+    },
+    "mzdyVystupCsszOsobaNemaDatumDuchoduOd": {
+      "titl": "Person %p has the Pension type field filled in, but does not have the Pension from field filled in."
+    },
+    "mzdyVystupCsszOsobaNemaDuvodUkonceniCssz": {
+      "titl": "Person %p does not have a selected Reason for termination of PP for CSSA."
+    },
+    "mzdyVystupCsszOsobaNemaValidniDatumDuchoduOd": {
+      "titl": "For person %p, the Pension from field is incorrectly filled in, the date must be greater than or equal to the date of birth and less than or equal to the date the report was created."
+    },
+    "mzdyVystupDBChybaNeprit": {
+      "titl": "Error finding absence."
+    },
+    "mzdyVystupDBChybaOsoba": {
+      "titl": "Error during reading list of persons from database."
+    },
+    "mzdyVystupDanVypocetPresMax": {
+      "titl": "Maximum permitted value for this row is %p.\nRequested value has been overridden."
+    },
+    "mzdyVystupExportUspech": {
+      "titl": "Overview was exported successfully."
+    },
+    "mzdyVystupHzupnCisPotvrzeniPovinne": {
+      "titl": "If it is not a foreign certificate, the DPN decision number is mandatory."
+    },
+    "mzdyVystupHzupnDatNavratPovinny": {
+      "titl": "If it is a return to work, the return date must be completed."
+    },
+    "mzdyVystupHzupnDuvodNenavradDoPraceMaxDelka": {
+      "titl": "The reason why the employee did not start work can be up to 200 characters long."
+    },
+    "mzdyVystupHzupnDuvodNenavradDoPracePovinny": {
+      "titl": "If it is not a return to work, it must be completed why the employee did not start work."
+    },
+    "mzdyVystupHzupnNenalezenaZadnaNepritomnost": {
+      "titl": "In the current accounting period, no absence is entered for the selected employment relationship of the selected employee."
+    },
+    "mzdyVystupHzupnPovinnyDatVyst": {
+      "titl": "Reporting date is mandatory."
+    },
+    "mzdyVystupNahrProcZaPoj": {
+      "titl": "Use the '%' symbol in the file-path to replace date and code of corresponding health insurance fund."
+    },
+    "mzdyVystupNarokNaBonus": {
+      "titl": "Verify whether there is entitlement to payout of bonuses. The minimum income necessary for application of bonuses was not achieved."
+    },
+    "mzdyVystupNelzeNacistMzdyZDB": {
+      "titl": "Error during reading of wages form database."
+    },
+    "mzdyVystupNelzeNacistNastOsobDB": {
+      "titl": "Error during reading of person's settings history."
+    },
+    "mzdyVystupNelzeNacistOsobyZDB": {
+      "titl": "Error during reading of persons form database."
+    },
+    "mzdyVystupNeniAdrSocPoj2": {
+      "titl": "Bank connection for social insurance were not entered. To add bank connection you have to edit OSSZ files \\in the Settings -> Modules -> Employees -> Insurance -> Address and bank connection."
+    },
+    "mzdyVystupNeniVsSocPoj": {
+      "titl": "No variable symbol is entered for the bank account information for social insurance. Adjust the bank account information by editing the District Social Security Administration record /nspecified in Settings -> Modules -> Employees -> Insurance -> Address and bank account information."
+    },
+    "mzdyVystupNepritomnostPovinna": {
+      "titl": "Absence is mandatory."
+    },
+    "mzdyVystupNevybranyOsoby": {
+      "titl": "Please enter at least one person."
+    },
+    "mzdyVystupNevytvariOznameni": {
+      "titl": "No notice is generated for this type of labour engagement."
+    },
+    "mzdyVystupOpravaEldpDatumPovinne": {
+      "titl": "You must enter the date of the ELDP (Entry Sheet of Pension Insurance) that you are amending."
+    },
+    "mzdyVystupOsobaPovinna": {
+      "titl": "Please enter person."
+    },
+    "mzdyVystupPracPomKonecPomeru": {
+      "titl": "Labour engagement field 'End ratio' is missing."
+    },
+    "mzdyVystupPracPomPovinny": {
+      "titl": "Employment is mandatory."
+    },
+    "mzdyVystupPrepPocZamNeniNastaveniOsoby": {
+      "titl": "Employee '%p' does not have a person setting valid for %p."
+    },
+    "mzdyVystupPrepPocZamNeniUvazek": {
+      "titl": "It is necessary to have for all employees a completed weekly work period at least on one of the following locations:\nEmployment, Group of persons,  Company settings"
+    },
+    "mzdyVystupPrijmyZamSoubor": {
+      "titl": "receipts"
+    },
+    "mzdyVystupPrilohaChybaZpusobPlatby": {
+      "titl": "Unknown form of payment for %p."
+    },
+    "mzdyVystupPrilohaNeniAdresaObec": {
+      "titl": "The payroll address municipality is not specified for employee address %p."
+    },
+    "mzdyVystupPrilohaNeniAdresaPsc": {
+      "titl": "Employee's %p address does not have a paycode address."
+    },
+    "mzdyVystupPrilohaNeniAdresaUlice": {
+      "titl": "Payroll Address Street is not specified for Employee Address %p."
+    },
+    "mzdyVystupPrilohaNeniCUctu": {
+      "titl": "No account number specified for employee %p."
+    },
+    "mzdyVystupPrilohaNeniIban": {
+      "titl": "IBAN is not specified for employee's foreign account %p."
+    },
+    "mzdyVystupPrilohaNeniKodBanky": {
+      "titl": "Bank code is not specified for employee account %p."
+    },
+    "mzdyVystupPrilohaNeniStat": {
+      "titl": "State is not specified for employee's %p foreign account."
+    },
+    "mzdyVystupPrilohaNeniUcet": {
+      "titl": "No bank account specified for employee %p."
+    },
+    "mzdyVystupPrilohaNeniZpusobPlatby": {
+      "titl": "No payment method specified for employee %p."
+    },
+    "mzdyVystupSouborChyba": {
+      "titl": "Error during file saving."
+    },
+    "mzdyVystupSouborPovinny": {
+      "titl": "Please enter path to destination file."
+    },
+    "mzdyVystupVsePovinne": {
+      "titl": "Please fill in all data."
+    },
+    "mzdyVystupZdrPrehledNeniZdrPoj": {
+      "titl": "Health insurance fund must be entered in person %p."
+    },
+    "mzdyZamekTestChyba": {
+      "titl": "Error when verifying locks of wages."
+    },
+    "mzdyneniVypocteno": {
+      "titl": "Wage is not calculated %p/%p."
+    },
+    "nepodariloSeNacistMzdoveSlozky": {
+      "titl": "Error during reading of wage components."
+    },
+    "nepodariloSeNacistNeukonceneStdPP": {
+      "titl": "Failed to load non-termination of standard employment."
+    },
+    "osobaDatNarozPovinne": {
+      "titl": "Employee day of birth is obligatory."
+    },
+    "osobaDiteViceOdpoctu": {
+      "titl": "Child '%p' is selected in more places for tax deduction."
+    },
+    "osobaDuplicitniOsbCis": {
+      "titl": "Select another employee number - No. '%p' has already been used."
+    },
+    "osobaJinaNezNaPracPomeru": {
+      "titl": "A defined person (%p: %p %p) is different from a person of employment (%p: %p %p)."
+    },
+    "osobaJmenoPrijmeniPovinne": {
+      "titl": "Employee first name and surname are obligatory."
+    },
+    "osobaRodCisDatNarozPovinne": {
+      "titl": "Employee birth identification number and day of birth are obligatory."
+    },
+    "osobaRodCisNevyplneno": {
+      "titl": "Employee's birth number has not been provided, it will not be displayed in any outputs."
+    },
+    "osobaRodCisPovinne": {
+      "titl": "Employee birth identification number is obligatory."
+    },
+    "osobaRodnePrijmeniPovinne": {
+      "titl": "Person %p does not have a given surname."
+    },
+    "osobaSlevyNaDaniPrazdne": {
+      "titl": "Tax deductions information is missing."
+    },
+    "osobaStaleMzdoveSlozkyPrazdne": {
+      "titl": "Permanent wage information components are missing."
+    },
+    "osobaStatObcanPovinne": {
+      "titl": "Employee citizenship is obligatory."
+    },
+    "osobaZdravPojNevyplneno": {
+      "titl": "Employee's health insurance information has not been provided."
+    },
+    "osobaZdravPojPovinne": {
+      "titl": "Employee health insurance is obligatory."
+    },
+    "osobaZpusPlatbyPovinne": {
+      "titl": "Employee payment method is obligatory."
+    },
+    "pracPomAktivniOdPovinne": {
+      "titl": "Labour engagement field 'Active from' is missing."
+    },
+    "pracPomInitSlozkyPrazdne": {
+      "titl": "Initialization files information is missing."
+    },
+    "pracPomNepravNulujSmeny": {
+      "titl": "Work shifts used to be regular and now isn't. Do you wish reset work shifts to regular?"
+    },
+    "pracPomPrekryvKoncu": {
+      "titl": "Separation date for labour engagement cannot be later than \"active to\" date."
+    },
+    "pracPomUvazHodDnuZacPracDobyPovinne": {
+      "titl": "Labor engagement hours daily, days weekly and work start missing."
+    },
+    "pracPomZkraceniPomeru": {
+      "titl": "Warning! Shortening the duration of the labour engagement does not delete already-generated accounting transactions."
+    },
+    "praceStredObdobiMocProcent": {
+      "titl": "In one or more periods more than 100% of the work time fund has been allocated."
+    },
+    "predvyplneniHodDovolPocetInfo": {
+      "titl": "The number of hours of leave per year has been added to %p of employment relationships."
+    },
+    "predvyplneniHodDovolZadnyPPInfo": {
+      "titl": "No active employment was found where the number of hours of leave could be pre-filled."
+    },
+    "prominutiSPWizard.infoVypnuto": {
+      "titl": "New %p employment settings created, %p social insurance waiver for the company was deactivated for defined types of employment."
+    },
+    "prominutiSPWizard.infoZapnuto": {
+      "titl": "New %p employment settings created, %p social insurance waiver for the company was activated for defined types of employment."
+    },
+    "prominutiSPWizard.vypnoutPro": {
+      "titl": "Select the effective month <b>nand all types of employment to activate the</b> social insurance waiver for the company.\nIf there is a change, a new employment setting will be created on the 1st day of the selected month: "
+    },
+    "prominutiSPWizard.vypnoutProHeader": {
+      "titl": "Deactivating the social insurance waiver for the company"
+    },
+    "prominutiSPWizard.zapnoutPro": {
+      "titl": "Select the effective month <b>nand standard types of employment to activate the</b> social insurance waiver for the company.\nIf there is a change, a new employment setting will be created on the 1st day of the selected month: "
+    },
+    "prominutiSPWizard.zapnoutProHeader": {
+      "titl": "Activating the social insurance waiver for the company"
+    },
+    "vypocetVyzadovanyProperty": {
+      "titl": "When calculating wages, %p and %p must be entered."
+    },
+    "vyzadovanPracovniPomer": {
+      "titl": "The %p component requires a working ratio as it is not common to all."
+    },
+    "vyzadovanaNepritomnost": {
+      "titl": "Absence is required for the %p component."
+    },
+    "zrusVypocetMzdy.uzivZmeny": {
+      "titl": "Cancel user changes?"
+    },
+    "zruseniVyzadovanyProperty": {
+      "titl": "When cancelling the payroll calculation, %p and %p must be entered."
+    }
+  }
+}

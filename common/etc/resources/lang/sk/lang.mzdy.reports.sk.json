@@ -1,0 +1,394 @@
+{
+  "reports": {
+    "5457_26": {
+      "_title": {
+        "titl": "Vyhlásenie daňovníka dane z príjmov fyzických osôb zo závislej činnosti (vzor číslo 26)"
+      }
+    },
+    "5457_27$$NES": {
+      "_title": {
+        "titl": "Vyhlásenie daňovníka dane z príjmov fyzických osôb zo závislej činnosti (vzor číslo 27)"
+      }
+    },
+    "5457_B": {
+      "_title": {
+        "titl": "Žiadosť o ročné zúčtovanie preddavkov a daňový úver (vzor číslo 2)"
+      }
+    },
+    "5457_B_v3": {
+      "_title": {
+        "titl": "Žiadosť o ročné zúčtovanie preddavkov a daňový úver (vzor číslo 3)"
+      }
+    },
+    "cerpaniDovolene": {
+      "_title": {
+        "titl": "Čerpanie dovolenky"
+      }
+    },
+    "dovolena": {
+      "_title": {
+        "titl": "Dovolenka"
+      }
+    },
+    "finPodkladyDan": {
+      "_title": {
+        "titl": "Podklady pre vyúčtovanie zálohovej dane z príjmu zo závislej činnosti"
+      },
+      "bonus": {
+        "titl": "Bonus"
+      },
+      "mesic": {
+        "titl": "Mesiac"
+      },
+      "opravaBonusu": {
+        "titl": "Oprava bonusu"
+      },
+      "opravaDane": {
+        "titl": "Oprava dane"
+      },
+      "pocetZamestnancu": {
+        "titl": "Počet zamestnancov"
+      },
+      "vyuctovaniPredchoziho": {
+        "titl": "Vyúčtovanie predchádzajúceho"
+      },
+      "zaRok": {
+        "titl": "za rok"
+      },
+      "zalohovaDan": {
+        "titl": "Zálohová daň"
+      }
+    },
+    "finPodkladyDanSrazka": {
+      "_title": {
+        "titl": "Podklady pre vyúčtovanie zrážkovej dane zo závislej činnosti"
+      },
+      "mesic": {
+        "titl": "Mesiac"
+      },
+      "opravaDane": {
+        "titl": "Oprava dane"
+      },
+      "srazkovaDan": {
+        "titl": "Zrážková daň"
+      }
+    },
+    "finPrehledDan": {
+      "_title": {
+        "titl": "Prehľad daní z príjmu"
+      },
+      "danovyZaklad": {
+        "titl": "Základ dane"
+      },
+      "rezidentDan": {
+        "titl": "Daň rezident"
+      },
+      "srazkovaDan": {
+        "titl": "Zrážková daň"
+      },
+      "zalohovaDan": {
+        "titl": "Zálohová daň"
+      }
+    },
+    "finPrehledDanSrazka": {
+      "_title": {
+        "titl": "Prehľad daní z príjmu - zrážková daň"
+      }
+    },
+    "mzdSlozVstupAVybery": {
+      "_title": {
+        "titl": "Prehľad mzdových zložiek (vstup a výbery)"
+      }
+    },
+    "neodpracDobaNemocPojist": {
+      "_title": {
+        "titl": "Neodpracovaná doba - nemocenské poistenie"
+      }
+    },
+    "nepritomnost": {
+      "castMzd": {
+        "titl": "Čiastka"
+      },
+      "cisSlozky": {
+        "titl": "Číslo zložky"
+      },
+      "datumDo": {
+        "titl": "Dátum do"
+      },
+      "datumOd": {
+        "titl": "Dátum od"
+      },
+      "dnyKalen": {
+        "titl": "Dni kalen."
+      },
+      "dnyPrac": {
+        "titl": "Dni prac."
+      },
+      "hlavicka": {
+        "titl": "Dôchodok, invalidita, vyňatie z evidencie \nDávky nemocenského poistenia \nDovolenka, ostatná neodpracovaná doba"
+      },
+      "hodiny": {
+        "titl": "Hodiny"
+      },
+      "vymerZakl": {
+        "titl": "Vymer. základ"
+      }
+    },
+    "pracPravPrumer": {
+      "_title": {
+        "titl": "Prehľad pracovno právnych priemerov"
+      }
+    },
+    "pracovniPomery": {
+      "_title": {
+        "titl": "Pracovné pomery"
+      }
+    },
+    "prehledMzdSlozek": {
+      "_title": {
+        "titl": "Prehľad mzdových zložiek"
+      },
+      "pocetPolozek": {
+        "titl": "Počet"
+      }
+    },
+    "prehledZamestnancu": {
+      "_title": {
+        "titl": "Prehľad zamestnancov"
+      }
+    },
+    "prepPocZam": {
+      "_title": {
+        "titl": "Prepočítaný počet zamestnancov"
+      }
+    },
+    "socPojOdpovednosti": {
+      "_title": {
+        "titl": "Zákonné poistenie zodpovednosti organizácie"
+      }
+    },
+    "socPrehledPoj": {
+      "_title": {
+        "titl": "Prehľad sociálneho poistenia"
+      },
+      "celkem": {
+        "titl": "Celkom"
+      },
+      "firma": {
+        "titl": "Firma"
+      },
+      "pracovniPomery": {
+        "titl": "Pracovné pomery"
+      },
+      "pracovnik": {
+        "titl": "Pracovník"
+      },
+      "zaklad": {
+        "titl": "Základ"
+      }
+    },
+    "vycetkaPlatidel": {
+      "_title": {
+        "titl": "Súpiska platidiel"
+      },
+      "castka": {
+        "titl": "Čiastka"
+      }
+    },
+    "vyplatniPaska": {
+      "_title": {
+        "titl": "Výplatná páska"
+      },
+      "pojisteni": {
+        "titl": "Poistenie"
+      },
+      "pojistne": {
+        "titl": "Poistné"
+      },
+      "prehledSlozekCastkaMzdy": {
+        "titl": "[%currency-symbol]"
+      },
+      "prehledSlozekDny": {
+        "titl": "[Dni]"
+      },
+      "prehledSlozekHodiny": {
+        "titl": "[Hod]"
+      },
+      "prehledSlozekZaklad": {
+        "titl": "Základ"
+      },
+      "prijmeniJmenoATitul": {
+        "titl": "Priezvisko, meno a titul"
+      },
+      "shrnuti": {
+        "titl": "Zhrnutie"
+      },
+      "zdravotniPojistovna": {
+        "titl": "Zdravotn8 poisťovňa"
+      }
+    },
+    "zamMzdovyList": {
+      "_title": {
+        "titl": "Mzdový list"
+      },
+      "deti": {
+        "titl": "Deti"
+      },
+      "detiJmeno": {
+        "titl": "Meno, priezvisko"
+      },
+      "detiRC": {
+        "titl": "Rodné číslo"
+      },
+      "detiSleva": {
+        "titl": "Zľava pre deti"
+      },
+      "detiSleva1": {
+        "titl": "1. dieťa (%p Kč/mesiac)"
+      },
+      "detiSleva1Min": {
+        "titl": "1. dieťa (%p Kč/mesiac; %p Kč/mesiac od nadobudnutia účinnosti zákona 125/2016 Z. z.)"
+      },
+      "detiSleva2": {
+        "titl": "Druhé dieťa (%p Kč/mesiac)"
+      },
+      "detiSleva2Min": {
+        "titl": "2. dieťa (%p Kč/mesiac; %p Kč/mesiac od nadobudnutia účinnosti zákona 125/2016 Z. z.)"
+      },
+      "detiSleva3": {
+        "titl": "Ďalšie dieťa (%p Kč/mesiac)"
+      },
+      "detiSleva3Min": {
+        "titl": "Ďalšie dieťa (%p Kč/mesiac; %p Kč/mesiac od účinnosti zákona 125/2016 Z. z.)"
+      },
+      "detiZTP": {
+        "titl": "DISABLED"
+      },
+      "dite": {
+        "titl": "dieťa"
+      },
+      "do": {
+        "titl": "na"
+      },
+      "invalidita": {
+        "titl": "Invalidita"
+      },
+      "nepBenefity": {
+        "titl": "Nepeňažné benefity"
+      },
+      "nezRodCis": {
+        "titl": "Rodné číslo partnera"
+      },
+      "od": {
+        "titl": "od"
+      },
+      "odpracovanaDoba": {
+        "titl": "Odpracovaná doba"
+      },
+      "prechodnaAdresa": {
+        "titl": "Prechodná adresa"
+      },
+      "prispevky": {
+        "titl": "Príspevky"
+      },
+      "rodneJmeno": {
+        "titl": "Rodné meno"
+      },
+      "rok": {
+        "titl": "Rok"
+      },
+      "spFirmaSniz": {
+        "titl": "Sociálna poisťovňa znížila"
+      },
+      "spolecneProPomery": {
+        "titl": "Spoločné pre všetky pracovné pomery"
+      },
+      "trvalaAdresa": {
+        "titl": "Trvalá adresa"
+      },
+      "uplatnenaSlevaNaDeti": {
+        "titl": "Uplatnená zľava na deti"
+      },
+      "vetaVypocetDane": {
+        "titl": "V prípade výpočtu dane z príjmov zo závislej činnosti je neoddeliteľnou súčasťou mzdového listu tlačivo Výpočet dane a daňového zvýhodnenia."
+      },
+      "vsSocPoj": {
+        "titl": "VS Soc. poisťovne"
+      },
+      "zalohaNaDanPoSleve": {
+        "titl": "Záloha na daň po zľave"
+      },
+      "zalohaNaDanPoZvyhodneni": {
+        "titl": "Záloha na daň po zvýhodnení"
+      },
+      "zamestnance": {
+        "titl": "Zamestnanca"
+      },
+      "zdravotniPojistovna": {
+        "titl": "Zdravotná poisťovňa"
+      }
+    },
+    "zamPodpisArch": {
+      "_title": {
+        "titl": "Výplata miezd - Podpisový arch"
+      },
+      "datumPodpisu": {
+        "titl": "Dátum podpisu"
+      },
+      "dobirka": {
+        "titl": "Dobierka"
+      },
+      "odpracovanoDnu": {
+        "titl": "Odpracované dní"
+      },
+      "odpracovanoHodin": {
+        "titl": "Odpracované hodín"
+      },
+      "podpis": {
+        "titl": "Podpis"
+      },
+      "srazky": {
+        "titl": "Zrážky"
+      },
+      "zaloha": {
+        "titl": "Záloha"
+      },
+      "zalohaMimoradna": {
+        "titl": "Záloha mimoriadna"
+      }
+    },
+    "zamPrehledMezd": {
+      "_title": {
+        "titl": "Prehľad miezd pre zamestnancov"
+      }
+    },
+    "zamestnanci": {
+      "_title": {
+        "titl": "Personalistika - prehľad"
+      }
+    },
+    "zapoctak": {
+      "_title": {
+        "titl": "Potvrdenie o zamestnaní (Zápočtový list)"
+      }
+    },
+    "zapoctak$$NES": {
+      "_title": {
+        "titl": "Potvrdenie o zamestnaní (Zápočtový list) - s dátumom narodenia"
+      }
+    },
+    "zapoctak$$SUM": {
+      "_title": {
+        "titl": "Potvrdenie o zamestnaní (Zápočtový list) - s rodným číslom"
+      }
+    },
+    "zdrPrehledPoj": {
+      "_title": {
+        "titl": "Prehľad zdravotného poistenia"
+      },
+      "zdrPojNull": {
+        "titl": "Zdravotná poisťovňa nevyplnená"
+      }
+    }
+  }
+}

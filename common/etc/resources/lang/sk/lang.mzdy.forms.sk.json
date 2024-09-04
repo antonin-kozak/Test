@@ -1,0 +1,249 @@
+{
+  "formsInfo": {
+    "mzdExternalId": {
+      "titl": "Externý ID pre mzdy"
+    },
+    "mzdUcel": {
+      "titl": "Účely"
+    },
+    "mzdyDuchSporHlaseni": {
+      "mnem": 73,
+      "titl": "Poistné na dôchodkové sporenie"
+    },
+    "mzdyDuchSporVyuc": {
+      "mnem": 205,
+      "titl": "Príspevky na dôchodkové sporenie"
+    },
+    "mzdyPotOZdanPrijmech": {
+      "mnem": 80,
+      "titl": "Potvrdenie o zdaniteľných príjmoch"
+    },
+    "mzdyVystFinUr": {
+      "mnem": 68,
+      "titl": "Pre daňový úrad"
+    },
+    "mzdyVystMzdVyst": {
+      "mnem": 77,
+      "titl": "Mzdové výstupy"
+    },
+    "mzdyVystOssz": {
+      "mnem": 80,
+      "titl": "Pre OSSZ"
+    },
+    "mzdyVystOst": {
+      "mnem": 79,
+      "titl": "Ostatné"
+    },
+    "mzdyVystZdrPoj": {
+      "mnem": 82,
+      "titl": "Pre zdravotné poisťovne"
+    },
+    "mzdyVystup000": {
+      "desc": "Legislatívne mzdové výstupy pre SP, zdravotné poisťovne a daňové úrady.",
+      "icon": "win/predpis.png",
+      "mnem": 77,
+      "titl": "Mzdové výstupy"
+    },
+    "mzdyVystupCsszEldp": {
+      "mnem": 69,
+      "titl": "ELDP"
+    },
+    "mzdyVystupCsszOznam": {
+      "mnem": 78,
+      "titl": "Oznámenie o nástupe do zamestnania/skončení"
+    },
+    "mzdyVystupCsszPrehledPoj": {
+      "mnem": 80,
+      "titl": "Prehľad o výške sociálneho poistného"
+    },
+    "mzdyVystupDanVypocet": {
+      "mnem": 68,
+      "titl": "Výpočet dane a daňového zvýhodnenia"
+    },
+    "mzdyVystupDovolCerpani": {
+      "mnem": 69,
+      "titl": "Prehľad čerpania dovolenky"
+    },
+    "mzdyVystupHzupn": {
+      "mnem": 76,
+      "titl": "Hlásenie zamestnávateľa o ukončení prac. neschopnosti"
+    },
+    "mzdyVystupIspv": {
+      "mnem": 73,
+      "titl": "ISPV"
+    },
+    "mzdyVystupMzdovyList": {
+      "mnem": 77,
+      "titl": "Mzdové listy"
+    },
+    "mzdyVystupPodklVyucDane": {
+      "mnem": 79,
+      "titl": "Podklady pre vyúčtovanie dane z príjmu zo závislej činnosti"
+    },
+    "mzdyVystupPojOdpovednosti": {
+      "mnem": 90,
+      "titl": "Zákonné poistenie zodpovednosti"
+    },
+    "mzdyVystupPracPravPrum": {
+      "mnem": 80,
+      "titl": "Pracovno právne priemery"
+    },
+    "mzdyVystupPrehlPracPom": {
+      "mnem": 72,
+      "titl": "Prehľad pracovných pomerov"
+    },
+    "mzdyVystupPrepPocZam": {
+      "mnem": 82,
+      "titl": "Prepočítaný počet zamestnancov"
+    },
+    "mzdyVystupPrilZadosti": {
+      "mnem": 82,
+      "titl": "Príloha k žiadosti o nemocenské, ..."
+    },
+    "mzdyVystupPrumCistyVyd": {
+      "mnem": 86,
+      "titl": "Výpočet priemerného čistého zárobku"
+    },
+    "mzdyVystupZapoctak": {
+      "mnem": 80,
+      "titl": "Potvrdenie o zamestnaní (Zápočtový list)"
+    },
+    "mzdyVystupZdrHromOzn": {
+      "mnem": 72,
+      "titl": "Hromadné oznámenie zamestnávateľa"
+    },
+    "mzdyVystupZdrPrehledPoj": {
+      "mnem": 80,
+      "titl": "Prehľad o platbe poistného"
+    },
+    "perAktualMzdy": {
+      "desc": "Mzdy môžete aktualizovať vo všetkých mesiacoch, ktoré nie sú oprávneným používateľom uzamknuté. Vypočítať mzdu môžete pre všetkých zamestnancov v zozname alebo individuálne pre každého samosatne. Neprítomnosť zadáte pomocou tlačidla \"Aktuualizácia neprítomnosti\". Zadanie je nezávislé na nastavenom období.  Môžete kľudne zadať neprítomnosť, ktorá začína v jednom mesiaci a končí v inom. Dôjde k automatickému vygenerovaniu \"mesačných zložiek\" pre každý mesiac zvlášť.  ",
+      "icon": "win/aktualizace-mezd.png",
+      "mnem": 65,
+      "titl": "Aktualizácia miezd"
+    },
+    "perAktualMzdyE": {
+      "titl": "Aktualizácia miezd"
+    },
+    "perBanSpojMzdy": {
+      "titl": "Bankové spojenie"
+    },
+    "perCisMzdSloz": {
+      "titl": "Číselník mzdových zložiek"
+    },
+    "perCisMzdSlozUziv": {
+      "desc": "Tu môžete zmeniť parametre príplatkov. Ďalej číselník obsahuje tzv. používateľsky definovateľné zložky príplatkov, odmien a zrážok",
+      "icon": "win/numbers.png",
+      "mnem": 69,
+      "titl": "Nastavenie mzdových zložiek"
+    },
+    "perDite": {
+      "titl": "Dieťa"
+    },
+    "perMzdCalc": {
+      "titl": "Riadok mzdovej kalkulačky"
+    },
+    "perMzdCalcHlav": {
+      "titl": "Hlavička mzdovej kalkulačky"
+    },
+    "perMzdCalcHrom": {
+      "titl": "Hromadná operácia mzdového kalkulátoru"
+    },
+    "perMzdCalcInit": {
+      "titl": "Inicializačný riadok mzdovej kalkulačky"
+    },
+    "perMzdSloz": {
+      "desc": "Vstup a výber mzdových zložiek má tri základné funkcie. Prvou funkciou je možnosť vstupu miezd nie podľa zamestnancov ale podľa zložiek. Príkladom môže byť hromadné zadávanie odmien. Vo vstupnom okne si zvolíte príslušnú zložku odmeny, vyberiete obdobie a zamestnancov. Zadáte čiastku a po stlačení tlačidla \"Uložiť a nový\" program automaticky ponúkne ďalšieho zamestnanca kde zadáte inú čiastku (Mzdy je potom nutné spracovať vo funkcii \"Aktualizácia miezd\"). Druhou funkciou je možnosť jednoduchej filtrácie vo všetkých zložkách mzdy a následnej tlače. Tretia funkcia umožňuje rekapituláciu mzdových zložiek (zoskupovanie) podľa rokov, štvrťrokov, stredisiek atď.",
+      "icon": "win/mzdove-slozky.png",
+      "mnem": 90,
+      "titl": "Mzdová zložka"
+    },
+    "perMzdSlozDan": {
+      "titl": "Daň"
+    },
+    "perMzdSlozFond": {
+      "titl": "Fond pracovnej doby"
+    },
+    "perMzdSlozHruba": {
+      "titl": "Hrubá mzda"
+    },
+    "perMzdSlozIspv": {
+      "titl": "ISPV"
+    },
+    "perMzdSlozNeprit": {
+      "titl": "Neprítomnosť"
+    },
+    "perMzdSlozOdmeny": {
+      "titl": "Odmeny"
+    },
+    "perMzdSlozSocPoj": {
+      "titl": "Sociálne poistenie"
+    },
+    "perMzdSlozSrazky": {
+      "titl": "Zrážky"
+    },
+    "perMzdSlozSum": {
+      "titl": "Sumarizácia"
+    },
+    "perMzdSlozZaklMzda": {
+      "titl": "Základná mzda"
+    },
+    "perMzdSlozZdrPoj": {
+      "titl": "Zdravotné poistenie"
+    },
+    "perNeprit": {
+      "titl": "Neprítomnosť"
+    },
+    "perOsoba": {
+      "desc": "Všetky informácie o zamestnancovi alebo o uchádzačovi o zamestnanie zadáte tu. Zadanie je rozdelené do záložiek podľa významu údajov. V hornej časti sú základné informácie a parametre pre výpočet mzdy. V dolnej časti sú pracovné pomery, stále zložky mzdy, zrážky, deti atď. Stále zložky mzdy obsahujú predpis, ktoré zložky mzdy sa pravidelne opakujú. Program ich automaticky doplní do každého mesiaca podľa rozsahu platnosti",
+      "icon": "win/personalistika.png",
+      "mnem": 80,
+      "titl": "Personalistika"
+    },
+    "perOsobaHlav": {
+      "titl": "Hlavičky osôb"
+    },
+    "perPracPom": {
+      "titl": "Pracovný pomer"
+    },
+    "perPracPomHlav": {
+      "titl": "Pracovný pomer"
+    },
+    "perPraceStred": {
+      "titl": "Práca pre strediská"
+    },
+    "perPrumer": {
+      "titl": "Priemer"
+    },
+    "perSkupOsob": {
+      "desc": "Skupiny osôb umožnujú členiť zamestnancov alebo uchádzačov o zamestnanie do skupín spoločných vlastností. Napríklad robotníci, roľníci alebo pracujúca inteligencia.",
+      "icon": "win/type-skupiny-osob.png",
+      "mnem": 83,
+      "titl": "Skupiny osôb"
+    },
+    "perSmeny": {
+      "titl": "Zmeny"
+    },
+    "perSrazka": {
+      "titl": "Zrážka"
+    },
+    "perStalaMzdSloz": {
+      "titl": "Stála mzdová zložka"
+    },
+    "perTypPracPom": {
+      "titl": "Typ pracovného pomeru"
+    },
+    "perTypPracPomParam": {
+      "titl": "Parameter typu pracovného pomeru"
+    },
+    "prehledMzdSlozek": {
+      "mnem": 82,
+      "titl": "Rekapitulácia mzdových zložiek"
+    },
+    "prehledZamestnancu": {
+      "icon": "win/adresar.png",
+      "mnem": 82,
+      "titl": "Prehľad zamestnancov"
+    }
+  }
+}

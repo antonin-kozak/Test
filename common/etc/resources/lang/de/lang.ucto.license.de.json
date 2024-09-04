@@ -1,0 +1,388 @@
+{
+  "buttons": {
+    "licenseDialogImportovat": {
+      "titl": "Lizenz importieren"
+    },
+    "licenseDialogRegister": {
+      "titl": "Registrieren"
+    },
+    "licenseDialogZavrit": {
+      "titl": "Schliessen"
+    },
+    "licenseShowUsers": {
+      "titl": "Angemeldete Benutzer"
+    },
+    "registerLicenseDialogNewsLetter": {
+      "titl": "Ich möchte die Informationen über neue Versionen erhalten."
+    },
+    "registerLicenseDialogRegister": {
+      "titl": "Registrieren"
+    },
+    "startLicenceDialogAktivovat": {
+      "titl": "Version kostenlos aktivieren"
+    },
+    "startLicenceDialogImportovat": {
+      "titl": "Lizenz aufnehmen"
+    },
+    "startLicenceDialogRequestDev": {
+      "titl": "Beantragen Sie eine Entwicklerlizenz"
+    },
+    "startLicenceDialogRequestTest": {
+      "titl": "Ein Monat kostenlos probieren"
+    }
+  },
+  "dialogs": {
+    "aktivaceProduktu": {
+      "titl": "Begleiter durch Aktivierung von Produkt ABRA Flexi"
+    }
+  },
+  "labels": {
+    "aktivaceProduktuAktivaceKod": {
+      "titl": "Aktivierungscode:"
+    },
+    "aktivaceProduktuAktivaceProlog": {
+      "titl": "Um technische Unterstützung und Aktualisierung erwerben zu können, müssen Sie folgende Informationen ausfüllen."
+    },
+    "aktivaceProduktuDic": {
+      "titl": "USt.ID-Nr.:"
+    },
+    "aktivaceProduktuIc": {
+      "titl": "ID-Nr.:"
+    },
+    "aktivaceProduktuKontrolaProlog": {
+      "titl": "Falls Sie das Produkt in einer Filiale kauften, ist dieses zu aktivieren. Sie werden dann technische Unterstützung ausnutzen und Aktualisierungen erwerben können."
+    },
+    "aktivaceProduktuMesto": {
+      "titl": "Stadt:"
+    },
+    "aktivaceProduktuNadpis": {
+      "titl": "Produktaktivierung durch Aktivierungscode"
+    },
+    "aktivaceProduktuProdejKod": {
+      "titl": "Verkaufscode:"
+    },
+    "aktivaceProduktuServerLink": {
+      "titl": "support.flexibee.eu/remote/activation/"
+    },
+    "aktivaceProduktuVyzva": {
+      "titl": "Eingeben von Aktivierungscode"
+    },
+    "buyLicenceDialogKoupit": {
+      "titl": "In der Version Start können Sie alle Operationen mit begrenzter Zahl von Eintragungen durchführen. Alle Beschränkungen beseitigen Sie durch den Kauf der Applikation."
+    },
+    "licenseDialogAktualne": {
+      "titl": "Aktuell:"
+    },
+    "licenseDialogCisloZakaznika": {
+      "titl": "Kundennummer:"
+    },
+    "licenseDialogFirem": {
+      "titl": "Firmenzahl:"
+    },
+    "licenseDialogLicUzivatelu": {
+      "titl": "Anzahl der lizenz. Benutzer:"
+    },
+    "licenseDialogNapis": {
+      "titl": "Lizenz"
+    },
+    "licenseDialogOdkaz": {
+      "titl": "http://www.flexibee.eu"
+    },
+    "licenseDialogOdkazAktHtml": {
+      "titl": "<html>Die Lizenz können Sie auf <br>aktualisieren.:</html>"
+    },
+    "licenseDialogPlatnostDo": {
+      "titl": "Gültigkeit bis:"
+    },
+    "licenseDialogPripojeno": {
+      "titl": "Angeschlossen:"
+    },
+    "licenseDialogPronajemDo": {
+      "titl": "Vermietung bis:"
+    },
+    "licenseDialogRegistrovan": {
+      "titl": "Registrierung für:"
+    },
+    "licenseDialogUzivatelu": {
+      "titl": "Benutzerzahl:"
+    },
+    "licenseDialogVarianta": {
+      "titl": "Lizenzvariante:"
+    },
+    "licenseDialogZarukaDo": {
+      "titl": "Jahresunterstützung bis:"
+    },
+    "licenseFileFilter": {
+      "titl": "Dateien mit Lizenz"
+    },
+    "licenseKonciTitle": {
+      "titl": "Die Lizenz läuft %p ab"
+    },
+    "licenseNeuvedeno": {
+      "titl": "Nicht angegeben"
+    },
+    "licenseServiceAcceptJesteNeplatna": {
+      "titl": "Andere Lizenz importieren"
+    },
+    "licenseServiceAcceptKonci": {
+      "titl": "Lizenz importieren"
+    },
+    "licenseServiceAcceptMiniNeViceJazyku": {
+      "titl": "Andere Lizenz importieren."
+    },
+    "licenseServiceAcceptMiniNeVzdalenyPristup": {
+      "titl": "Andere Lizenz importieren."
+    },
+    "licenseServiceAcceptNemaJinaVerze": {
+      "titl": "Lizenz importieren"
+    },
+    "licenseServiceAcceptUzNeplatna": {
+      "titl": "Neue Lizenz importieren"
+    },
+    "licenseServiceCancelPokracuj": {
+      "titl": "Fortsetzen"
+    },
+    "licenseServiceCancelUkonci": {
+      "titl": "Applikation beenden"
+    },
+    "licenseServiceLinkKonci": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceLinkMiniNeViceJazyku": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceLinkMiniNeVzdalenyPristup": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceLinkNemaJinaVerze": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceLinkUzNeplatna": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceNadpisJesteNeplatna": {
+      "titl": "Die Lizenz ist noch nicht gültig."
+    },
+    "licenseServiceNadpisKonci": {
+      "titl": "Die Lizenz läuft bald ab."
+    },
+    "licenseServiceNadpisMiniNeViceJazyku": {
+      "titl": "Lizenz Mini erlaubt nicht diese Sprache."
+    },
+    "licenseServiceNadpisNeVzdalenyPristup": {
+      "titl": "Lizenz unterstützt nicht den Fernzugriff."
+    },
+    "licenseServiceNadpisNemaJinaVerze": {
+      "titl": "Lizenzimport"
+    },
+    "licenseServiceNadpisUzNeplatna": {
+      "titl": "Die Lizenz ist nicht mehr gültig."
+    },
+    "licenseServiceText1JesteNeplatna": {
+      "titl": "Die Gültigkeit der Lizenz beginnt am Tag %p."
+    },
+    "licenseServiceText1Konci": {
+      "titl": "Die Lizenz, die Sie verwenden, läuft am Tag %p ab."
+    },
+    "licenseServiceText1NemaJinaVerze": {
+      "titl": "Die Applikation hat keine gültige Lizenz."
+    },
+    "licenseServiceText1UzNeplatna": {
+      "titl": "Die Gültigkeit der Lizenz ist am Tag %p abgelaufen."
+    },
+    "licenseServiceText2Konci": {
+      "titl": "Beantragen Sie bitte die Verlängerung der Lizenz an der Adresse:"
+    },
+    "licenseServiceText2MiniNeViceJazyku": {
+      "titl": "Um andere Sprachen kaufen zu können, kaufen Sie die Lizenz auf :"
+    },
+    "licenseServiceText2MiniNeVzdalenyPristup": {
+      "titl": "Um den Fernzugriff benutzen zu können, kaufen Sie die Lizenz auf:"
+    },
+    "licenseServiceText2NemaJinaVerze": {
+      "titl": "Importieren Sie die Lizenz, die Sie an der Adresse erwerben:"
+    },
+    "licenseServiceText2UzNeplatna": {
+      "titl": "Erhalten Sie eine neue Lizenz an der Adresse:"
+    },
+    "licenseUnlimited": {
+      "titl": "Nicht begrenzt"
+    },
+    "registerLicenseDialogAdress": {
+      "titl": "Adresse:"
+    },
+    "registerLicenseDialogCompany": {
+      "titl": "Gesellschaft:"
+    },
+    "registerLicenseDialogEmail": {
+      "titl": "E-Mail:"
+    },
+    "registerLicenseDialogFillDataRequest": {
+      "titl": "Füllen Sie bitte folgende Daten aus:"
+    },
+    "registerLicenseDialogFirstname": {
+      "titl": "Name:"
+    },
+    "registerLicenseDialogInfo": {
+      "titl": "Sie verwenden gerade nicht registrierte Applikation ABRA Flexi Start. Durch die Registrierung erwerben Sie die Möglichkeit, mehrere Posten zu erfassen und auch automatisch die Informationen über die neuen Programmversionen zu bekommen."
+    },
+    "registerLicenseDialogJobPosition": {
+      "titl": "Position:"
+    },
+    "registerLicenseDialogStartLicenseServerLink": {
+      "titl": "https://support.flexibee.eu/remote/register/start/"
+    },
+    "registerLicenseDialogStartRegisterLink": {
+      "titl": "support.flexibee.eu/redirect/register-start/"
+    },
+    "registerLicenseDialogSurname": {
+      "titl": "Familienname:"
+    },
+    "registerLicenseDialogTelephone": {
+      "titl": "Telefon:"
+    },
+    "registerLicenseDialogTitle": {
+      "titl": "Registrierung ABRA Flexi Start"
+    },
+    "registerLicenseDialogZipcode": {
+      "titl": "PLZ:"
+    },
+    "startLicenceDialogContactSales": {
+      "titl": "Wenn Sie keine ID-Nr. haben, wenden Sie sich bitte an die Verkaufsabteilung"
+    },
+    "startLicenceDialogImportovatTooltip": {
+      "titl": "Ermöglicht die Lizenzdatei auszuwählen."
+    },
+    "startLicenceDialogKoupit": {
+      "titl": "Applikation kaufen"
+    },
+    "startLicenceDialogKoupitLink": {
+      "titl": "http://www.flexibee.eu/licence/"
+    },
+    "startLicenceDialogNadpis": {
+      "titl": "Nicht registrierte Version"
+    },
+    "startLicenceDialogTextImportovat": {
+      "titl": "Falls Sie die Lizenz schon gekauft haben, spielen Sie diese in die Applikation ein."
+    },
+    "startLicenceDialogTextImportovatNeboAktivovat": {
+      "titl": "Wenn Sie keine Lizenzdatei haben, können Sie nach Eingabe der ID-Nr.:"
+    },
+    "startLicenceDialogTextInfo": {
+      "titl": "Sie haben die Installation der Buchhaltungssoftware ABRA Flexi durchgeführt.\nDer nächste Schritt ist die Eingabe der Lizenzdatei:"
+    }
+  },
+  "messages": {
+    "aktivaceProduktuChybaServeru": {
+      "titl": "Es ist nicht möglich, die Aktivierung durchzuführen. Versuchen Sie es später."
+    },
+    "aktivaceProduktuJizProbehla": {
+      "titl": "Der eingegebene Code ist schon einmal aktiviert worden."
+    },
+    "aktivaceProduktuNotMandatory": {
+      "titl": "Sie müssen alle fett gedruckten Felder ausfüllen."
+    },
+    "aktivaceProduktuTestNotMandatory": {
+      "titl": "Sie müssen alle Felder von Verkaufs- und Aktivierungscode ausfüllen."
+    },
+    "importLicenseJenomLicenseMgmt": {
+      "titl": "Nur Benutzer mit dem Verwaltungsrecht darf die Lizenz importieren."
+    },
+    "licenceCheckApplicationCount": {
+      "titl": "Die maximale Zahl von durch Lizenz genehmigten Benutzern wurde überschritten."
+    },
+    "licenceCheckCompaniesLimitVycerpan": {
+      "titl": "Die weitere Firma ist nicht beizufügen.\nLaut Ihrer Lizenz kann maximale Zahl von gegründeten Firmen sein: %p"
+    },
+    "licenceCheckLimitChybaPriKontrole": {
+      "titl": "Es ist nicht gelungen, die Kontrolle der Zahl von Eintragungen laut Lizenz durchzuführen."
+    },
+    "licenceCheckLimitVycerpanNelzeNovyDoklad": {
+      "titl": "Neuer Beleg ist nicht zu bilden.\nIhre Lizenz ermöglicht in diesem Modul nur %p von Belegen zu bilden."
+    },
+    "licenceCheckLimitVycerpanNelzeNovyZaznam": {
+      "titl": "Neue Eintragung ist nicht zu bilden.\nIhre Lizenz ermöglicht in diesem Modul nur %p von Eintragungen zu bilden."
+    },
+    "licenceCheckUsersLimitVycerpan": {
+      "titl": "Der weitere Benutzer ist nicht beizufügen.\nIhre Lizenz ermöglicht nur %p von Benutzern zu verwalten."
+    },
+    "licenceCheckValidToPrekrocenNaDokladech": {
+      "titl": "Die Lizenz läuft %p ab.\nDie Belege mit dem Ausstellungsdatum, die nach diesem Datum folgen, sind nicht einzugeben."
+    },
+    "licenceChybaNacitani": {
+      "titl": "Beim Einlesen der Lizenz ist ein Fehler entstanden."
+    },
+    "licenceChybaPodepisovani": {
+      "titl": "Es ist nicht gelungen, die Lizenz zu unterschreiben."
+    },
+    "licenceChybaPriOverovaniLicence": {
+      "titl": "Nicht spezifizierter Fehler bei Lizenzprüfung"
+    },
+    "licenceChybaStruktury": {
+      "titl": "Die Lizenz hat beschädigte Struktur."
+    },
+    "licenceChybaVytvareni": {
+      "titl": "Bei der Lizenzbildung ist ein Fehler entstanden."
+    },
+    "licenceImportDotaz": {
+      "titl": "Sie haben die Datei mit der Lizenz von ABRA Flexi gestartet. Wünschen Sie sie importieren?"
+    },
+    "licenceNeniPlatna": {
+      "titl": "Die Lizenz ist nicht gültig. Geben Sie bitte gültige Lizenz ein."
+    },
+    "licenceNeniPlatnyTyp": {
+      "titl": "Die Datei mit der Lizenz ist ungültig. Ist sie wirklich unterschrieben?"
+    },
+    "licenceNepodporujePristupSpecAplikaci": {
+      "titl": "Ihre Lizenz unterstützt nicht den Zutritt durch eine spezielle Applikation."
+    },
+    "licenceNeumoznujePodvojneUcetnictvi": {
+      "titl": "Die Lizenz ermöglicht nicht, eine Firma mit der doppelten Buchhaltung zu schaffen."
+    },
+    "licenceNotOnPremisesServer": {
+      "titl": "Ihre Lizenz genehmigt nicht den Betrieb auf dem eigenen Server. Für die Lizenzänderung nehmen Sie bitte Kontakt mit der Verkaufsabteilung auf."
+    },
+    "licencePrepsat": {
+      "titl": "Die Lizenz besteht schon in der Datenquelle. Wünschen Sie sich sie umzuschreiben?"
+    },
+    "licenceUzivatelPrihlasenYindeChceteYindeOdhlasit": {
+      "titl": "Sie sind auf einer anderen Einrichtung angemeldet. Wollen Sie sich dort abmelden?"
+    },
+    "licenseImportMessageOk": {
+      "titl": "Die Lizenz wurde erfolgreich importiert."
+    },
+    "licenseImportTitleOk": {
+      "titl": "Die Lizenz wurde importiert."
+    },
+    "licenseProslaZaruka": {
+      "titl": "Die Garantie der Lizenz, die Sie einspielen wollen, ist am %p abgelaufen. Die Applikation ist jedoch neuer, und deshalb kann man die Lizenz nicht einspielen."
+    },
+    "registerLicenseDialogNotMandatory": {
+      "titl": "Sie müssen alle Felder ausfüllen, die mit einem Sternchen bezeichnet sind."
+    },
+    "registerLicenseDialogPodekovaniText": {
+      "titl": "Danke für Registrierung von ABRA Flexi Start."
+    },
+    "registerLicenseDialogPodekovaniTitle": {
+      "titl": "Erfolgreich registriert."
+    },
+    "registerLicenseDialogRegisterError": {
+      "titl": "Bei der Registrierung über Applikation ist ein Fehler entstanden. Registrieren Sie sich bitte über Web-Interface."
+    },
+    "registerLicenseDialogUnvalidEmail": {
+      "titl": "Ungültiges E-Mail-Format. Geben Sie die E-Mail in Form ein: Name@server.domena"
+    },
+    "registerLicenseDialogUnvalidTelephone": {
+      "titl": "Ungültiges Telefon-Format. Geben Sie +420 XXX XXX XXX ein, wo X Ihre Telefonnummer ersetzt."
+    },
+    "urlActivate": {
+      "titl": "https://support.flexibee.eu/redirect/use-for-free/"
+    },
+    "urlBuy": {
+      "titl": "https://support.flexibee.eu/redirect/buy/"
+    },
+    "urlRequestDev": {
+      "titl": "https://www.flexibee.eu/api/licence-pro-vyvojare/zadost-o-vyvojarskou-licenci/"
+    }
+  }
+}

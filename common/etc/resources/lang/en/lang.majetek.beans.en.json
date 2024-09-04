@@ -1,0 +1,795 @@
+{
+  "beans": {
+    "cz.winstrom.vo.adr.AdrUdalostMaj": {
+      "_title": {
+        "titl": "Events"
+      },
+      "actRuTask": {
+        "titl": "ActRuTask"
+      },
+      "celodenni": {
+        "titl": "All-day"
+      },
+      "dokonceni": {
+        "titl": "Time of completion"
+      },
+      "firmaExterni": {
+        "titl": "External company"
+      },
+      "osoby": {
+        "titl": "Persons"
+      },
+      "predmet": {
+        "titl": "Subject"
+      },
+      "prioritaK": {
+        "titl": "Priority"
+      },
+      "processDefinitionId": {
+        "titl": "ProcessDefinitionId"
+      },
+      "stavUdalK": {
+        "titl": "Event status"
+      },
+      "taskDefinitionKey": {
+        "titl": "TaskDefinitionKey"
+      },
+      "termin": {
+        "titl": "Implementation deadline"
+      },
+      "typAkt": {
+        "titl": "Activity type"
+      },
+      "umisteni": {
+        "titl": "Location"
+      },
+      "volno": {
+        "titl": "Free"
+      },
+      "zahajeni": {
+        "titl": "Start time"
+      }
+    },
+    "cz.winstrom.vo.maj.DanNakl": {
+      "_title": {
+        "titl": "Tax costs"
+      },
+      "datVyst": {
+        "titl": "Date"
+      },
+      "kod": {
+        "titl": "Document number"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "sumZkl": {
+        "titl": "Basic [%currency-symbol]"
+      },
+      "sumZklMen": {
+        "titl": "Basic [curr.]"
+      },
+      "szbDph": {
+        "titl": "VAT rate"
+      },
+      "zklDalUcet": {
+        "titl": "Base account credit"
+      },
+      "zklMdUcet": {
+        "titl": "Base account debit"
+      }
+    },
+    "cz.winstrom.vo.maj.DanOdpis": {
+      "_title": {
+        "titl": "Tax depreciations"
+      },
+      "kod": {
+        "titl": "Document number"
+      },
+      "majetek": {
+        "titl": "Property"
+      },
+      "stariMaj": {
+        "abbr": "Age [year]",
+        "titl": "Age"
+      },
+      "sumZkl": {
+        "titl": "Tax write-off [%currency-symbol]"
+      },
+      "zklDalUcet": {
+        "abbr": "Acc. credit",
+        "titl": "Account credit of depreciation"
+      },
+      "zklMdUcet": {
+        "abbr": "Acc. debit",
+        "titl": "Account debit of depreciation"
+      }
+    },
+    "cz.winstrom.vo.maj.Leasing": {
+      "_title": {
+        "titl": "Leasing"
+      },
+      "casUcet": {
+        "abbr": "Acc. def. costs",
+        "titl": "Account of accrual and deferral costs"
+      },
+      "cena": {
+        "titl": "Price [%currency-symbol]"
+      },
+      "cidPoriz": {
+        "titl": "Number of comments"
+      },
+      "datKoupe": {
+        "abbr": "Pur. date",
+        "titl": "Purchase date"
+      },
+      "datVyroby": {
+        "abbr": "Prod. date",
+        "titl": "Production date"
+      },
+      "dodavatel": {
+        "titl": "supplier"
+      },
+      "dphSnizUcet": {
+        "abbr": "Acc. VAT:",
+        "titl": "Account VAT reduced"
+      },
+      "dphZaklUcet": {
+        "abbr": "Acc. VAT b.",
+        "titl": "Account VAT basic"
+      },
+      "druhK": {
+        "titl": "Leasing type"
+      },
+      "eanKod": {
+        "titl": "EAN"
+      },
+      "frekDanNaklK": {
+        "abbr": "Frequency",
+        "titl": "frequency of tax costs"
+      },
+      "mena": {
+        "titl": "Currency"
+      },
+      "mjZarukyK": {
+        "titl": "Guarantee unit"
+      },
+      "naklUcet": {
+        "abbr": "Acc tax. costs",
+        "titl": "Account of tax costs"
+      },
+      "pocetDanNakl": {
+        "abbr": "# tax costs",
+        "titl": "Number of tax costs"
+      },
+      "pocetSplatek": {
+        "abbr": "# instalment",
+        "titl": "Number of lease instalment"
+      },
+      "stredisko": {
+        "titl": "Centre"
+      },
+      "sumSplaceno": {
+        "titl": "Pay off [%currency-symbol]"
+      },
+      "sumZbyva": {
+        "titl": "Remain [%currency-symbol]"
+      },
+      "typLeasingu": {
+        "titl": "Leasingu type"
+      },
+      "vyrCis": {
+        "titl": "Serial number"
+      },
+      "vyrobce": {
+        "titl": "Producer"
+      },
+      "zakazka": {
+        "titl": "Order"
+      },
+      "zaruka": {
+        "titl": "Guarantee"
+      },
+      "zavazUcet": {
+        "abbr": "Obl.acc.",
+        "titl": "Account of obligation"
+      }
+    },
+    "cz.winstrom.vo.maj.Majetek": {
+      "_title": {
+        "titl": "Property"
+      },
+      "cena": {
+        "abbr": "Price",
+        "titl": "Price [%currency-symbol]"
+      },
+      "cidPoriz": {
+        "abbr": "Document #",
+        "titl": "Document number"
+      },
+      "datKoupe": {
+        "abbr": "Pur. date",
+        "titl": "Purchase date"
+      },
+      "datUdalVyr": {
+        "abbr": "Deleted",
+        "titl": "Date of deletion"
+      },
+      "datUdalZar": {
+        "abbr": "Fil. event date",
+        "titl": "Event date - filing"
+      },
+      "datVyroby": {
+        "abbr": "Prod. date",
+        "titl": "Production date"
+      },
+      "datZacDan": {
+        "abbr": "Start tax dep.",
+        "titl": "Start tax depreciations"
+      },
+      "datZacUcet": {
+        "abbr": "Start acc. dep.",
+        "titl": "Start accounting depreciations"
+      },
+      "datZar": {
+        "abbr": "Fil. date",
+        "titl": "Filing date"
+      },
+      "dodavatel": {
+        "titl": "Supplier"
+      },
+      "doklFaktury": {
+        "titl": "ID incoming invoice"
+      },
+      "druhK": {
+        "titl": "Property class"
+      },
+      "kod": {
+        "abbr": "Inventory #",
+        "titl": "Inventory number"
+      },
+      "kusySoubor": {
+        "abbr": "Units",
+        "titl": "Units in set"
+      },
+      "mistnost": {
+        "titl": "Room"
+      },
+      "nahrUcetOdpK": {
+        "abbr": "Acc. dep.?",
+        "titl": "Generate accounting depreciations"
+      },
+      "objekt": {
+        "titl": "Site"
+      },
+      "odpisovyUcet": {
+        "abbr": "Dep. acc.",
+        "titl": "Account of depreciation"
+      },
+      "opravnyUcet": {
+        "abbr": "Acc. dep. acc.",
+        "titl": "Acc. of accumulated depreciation"
+      },
+      "predpisUcetOdp": {
+        "abbr": "Dep. #",
+        "titl": "Month of depreciations"
+      },
+      "primarniUcet": {
+        "abbr": "Prim.acc.",
+        "titl": "Primary account"
+      },
+      "protiUcetZarazeni": {
+        "abbr": "Countercc.",
+        "titl": "Counteracc. of filing"
+      },
+      "sazba": {
+        "abbr": "Rate",
+        "titl": "Rate of depreciation"
+      },
+      "sekce": {
+        "titl": "Section"
+      },
+      "skp": {
+        "abbr": "SCP",
+        "titl": "Standard Classification of Production"
+      },
+      "stariPor": {
+        "abbr": "Written off months",
+        "titl": "Written off during filing (in months)"
+      },
+      "stariTechZhod": {
+        "abbr": "Tech. age",
+        "titl": "Technical valorization age [Months]"
+      },
+      "techZhod": {
+        "abbr": "Increase",
+        "titl": "Increase in value before filing"
+      },
+      "typMajetku": {
+        "titl": "Property type"
+      },
+      "uctovatZar": {
+        "titl": "Account entry"
+      },
+      "vyrobce": {
+        "titl": "Producer"
+      },
+      "zpusOdpK": {
+        "abbr": "Method",
+        "titl": "Depreciation's method"
+      },
+      "zpusPor": {
+        "abbr": "Acq. method",
+        "titl": "Acquisition method"
+      },
+      "zustDan": {
+        "abbr": "Tax bal.",
+        "titl": "Tax balance [%currency-symbol]"
+      },
+      "zustUcet": {
+        "abbr": "Acc. bal",
+        "titl": "Accounting balance [%currency-symbol]"
+      },
+      "zvysZrychK": {
+        "abbr": "a.First per.",
+        "titl": "Depreciation in first period"
+      }
+    },
+    "cz.winstrom.vo.maj.MajetekStavKDatu": {
+      "_title": {
+        "titl": "Balance of assets as at"
+      },
+      "cena": {
+        "titl": "Value"
+      },
+      "cenaAktualni": {
+        "titl": "Current value"
+      },
+      "danoveOdpisy": {
+        "titl": "Tax write-off"
+      },
+      "danoveOdpisyObdobi": {
+        "titl": "Tax write-off for period"
+      },
+      "datPoslDanOdpis": {
+        "titl": "Date of last tax depreciation"
+      },
+      "datPoslUcetOdpis": {
+        "titl": "Date of last accounting depreciation"
+      },
+      "datPuvZar": {
+        "titl": "Inclusion"
+      },
+      "datUdalVyr": {
+        "titl": "Exclusion"
+      },
+      "datZacDan": {
+        "titl": "Start of tax write-off"
+      },
+      "datZacUcet": {
+        "titl": "Start of book depreciation"
+      },
+      "datZar": {
+        "titl": "Inclusion in ABRA Flexi"
+      },
+      "dobaOdpMesic": {
+        "titl": "Depreciation period [month]"
+      },
+      "idMajetekStavKDatu": {
+        "titl": "ID"
+      },
+      "odpUcet": {
+        "titl": "Depreciation account"
+      },
+      "opravUcet": {
+        "titl": "Allowance account"
+      },
+      "predpisUcetOdp": {
+        "abbr": "Accounting depreciation duration",
+        "titl": "Number of months of depreciation"
+      },
+      "protiUcetZar": {
+        "titl": "Contra account for inclusion"
+      },
+      "sazba": {
+        "titl": "Depreciation group"
+      },
+      "stariPor": {
+        "titl": "Depreciated during inclusion [month]"
+      },
+      "sumPoslDanOdpis": {
+        "titl": "Last tax depreciation"
+      },
+      "sumPoslUcetOdpis": {
+        "titl": "Last accounting depreciation"
+      },
+      "sumTechZhodnoceni": {
+        "titl": "Total technical evaluation"
+      },
+      "sumVyrazeni": {
+        "titl": "Total eliminations"
+      },
+      "typMajetku": {
+        "titl": "Asset type"
+      },
+      "ucetniOdpisy": {
+        "titl": "Account depreciation"
+      },
+      "ucetniOdpisyObdobi": {
+        "titl": "Accounting depreciation for period"
+      },
+      "ucetniStejneJakoDanove": {
+        "titl": "Accounting depreciation = tax write-off"
+      },
+      "zmenaCenyZkl": {
+        "titl": "Total price change"
+      },
+      "zustatekDanovy": {
+        "titl": "Tax balance"
+      },
+      "zustatekUcetni": {
+        "titl": "Accounting balance"
+      }
+    },
+    "cz.winstrom.vo.maj.Sazba": {
+      "_title": {
+        "titl": "Deprecation tariff"
+      },
+      "dobaOdp": {
+        "abbr": "a.period",
+        "titl": "Deprecation period"
+      },
+      "koefZrOdp1": {
+        "abbr": "a.1.year",
+        "titl": "First year"
+      },
+      "koefZrOdpDalsi": {
+        "abbr": "a.next",
+        "titl": "Next years"
+      },
+      "koefZrOdpZvCeny": {
+        "abbr": "a.raising",
+        "titl": "Raising input price"
+      },
+      "minDobaOdp": {
+        "titl": "Min. Deprecation period"
+      },
+      "prcRoOdp1": {
+        "abbr": "u.1.year",
+        "titl": "First year"
+      },
+      "prcRoOdpDalsi": {
+        "abbr": "u.next",
+        "titl": "Next years"
+      },
+      "prcRoOdpZvCeny": {
+        "abbr": "u.raising",
+        "titl": "Input price rise"
+      },
+      "typOdpK": {
+        "titl": "deduction method"
+      },
+      "zmena": {
+        "abbr": "Cre. by u.",
+        "titl": "Created by user"
+      }
+    },
+    "cz.winstrom.vo.maj.SplatKal": {
+      "_title": {
+        "titl": "Schedule of payments"
+      },
+      "clenDph": {
+        "desc": "VAT classification determines rows of VAT return form, to which the prices are included.",
+        "titl": "VAT category"
+      },
+      "clenSplK": {
+        "titl": "Lease instalment category"
+      },
+      "datVyst": {
+        "titl": "Date lease instalment"
+      },
+      "doklFaktury": {
+        "titl": "Invoice"
+      },
+      "dphDalUcet": {
+        "abbr": "VAT acc.cr.",
+        "titl": "VAT account credit"
+      },
+      "dphMdUcet": {
+        "abbr": "VAT acc.deb.",
+        "titl": "VAT account debit"
+      },
+      "kod": {
+        "abbr": "Document #",
+        "titl": "Document number"
+      },
+      "leasing": {
+        "titl": "Leasing property"
+      },
+      "statDph": {
+        "titl": "Country VAT"
+      },
+      "sumDph": {
+        "titl": "VAT [%currency-symbol]"
+      },
+      "sumDphMen": {
+        "titl": "VAT [curr.]"
+      },
+      "sumZkl": {
+        "titl": "Base [%currency-symbol]"
+      },
+      "sumZklMen": {
+        "titl": "Base[curr.]"
+      },
+      "szbDphK": {
+        "titl": "VAT rate"
+      },
+      "typSplK": {
+        "titl": "Lease instalment type"
+      },
+      "zavazek": {
+        "titl": "Obligation"
+      },
+      "zklDalUcet": {
+        "abbr": "Base acc.cr.",
+        "titl": "Base account credit"
+      },
+      "zklMdUcet": {
+        "abbr": "Base acc.deb.",
+        "titl": "Base account debit"
+      }
+    },
+    "cz.winstrom.vo.maj.TypLeas": {
+      "_title": {
+        "titl": "Leasing types"
+      },
+      "casUcet": {
+        "abbr": "Acc. def. costs",
+        "titl": "Account of accrual and deferral costs"
+      },
+      "druhK": {
+        "titl": "Leasing class"
+      },
+      "naklUcet": {
+        "abbr": "Acc tax. costs",
+        "titl": "Account of tax costs"
+      },
+      "zavazUcet": {
+        "abbr": "Obl.acc",
+        "titl": "Account of obligation"
+      }
+    },
+    "cz.winstrom.vo.maj.TypMaj": {
+      "_title": {
+        "titl": "Property types"
+      },
+      "druhK": {
+        "titl": "Property class"
+      },
+      "jeOdpis": {
+        "titl": "Property is depreciated"
+      },
+      "odpisovyUcet": {
+        "titl": "Account of depreciation"
+      },
+      "opravnyUcet": {
+        "titl": "Account of accumulated d."
+      },
+      "primarniUcet": {
+        "titl": "Primary account"
+      },
+      "protiUcetZarazeni": {
+        "titl": "Contra acc.file"
+      }
+    },
+    "cz.winstrom.vo.maj.UcetOdpis": {
+      "_title": {
+        "titl": "Accounting depreciations"
+      },
+      "kod": {
+        "titl": "Document number"
+      },
+      "majetek": {
+        "titl": "Property"
+      },
+      "sumZkl": {
+        "titl": "Accounting depreciation [%currency-symbol]"
+      },
+      "zklDalUcet": {
+        "abbr": "Acc. credit",
+        "titl": "Account credit of depreciation"
+      },
+      "zklMdUcet": {
+        "abbr": "Acc. debit",
+        "titl": "Account debit of depreciation"
+      }
+    },
+    "cz.winstrom.vo.maj.Udalost": {
+      "_title": {
+        "titl": "Events"
+      },
+      "datVys": {
+        "titl": "Document date"
+      },
+      "dphDalUcet": {
+        "abbr": "Bal.acc. credit",
+        "titl": "Account Credit balance"
+      },
+      "dphMdUcet": {
+        "abbr": "Bal.acc.debit",
+        "titl": "Account Debit balance"
+      },
+      "kod": {
+        "titl": "Document number"
+      },
+      "majetek": {
+        "titl": "Property"
+      },
+      "sumDph": {
+        "titl": "Balance [%currency-symbol]"
+      },
+      "sumDphDanove": {
+        "titl": "Tax amount [%currency-symbol]"
+      },
+      "sumZkl": {
+        "titl": "Basic [%currency-symbol]"
+      },
+      "sumZklMena": {
+        "titl": "Basic [Currency]"
+      },
+      "typUdalostiK": {
+        "titl": "Event type"
+      },
+      "zklDalUcet": {
+        "titl": "Account Credit event"
+      },
+      "zklMdUcet": {
+        "titl": "Account Debit event"
+      },
+      "zmena": {
+        "abbr": "User change of balance",
+        "titl": "User change of balance"
+      },
+      "zmenaDobyOdpis": {
+        "abbr": "Dep.per.ch.",
+        "titl": "Depreciation period change"
+      }
+    },
+    "cz.winstrom.vo.maj.Umisteni": {
+      "_title": {
+        "titl": "Location"
+      }
+    },
+    "cz.winstrom.vo.maj.Zapujcka": {
+      "_title": {
+        "titl": "Loan / answerable person"
+      },
+      "datKonec": {
+        "titl": "from"
+      },
+      "datZahaj": {
+        "titl": "to"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "majetek": {
+        "titl": "Property"
+      },
+      "osoba": {
+        "titl": "ID of person"
+      }
+    },
+    "cz.winstrom.vo.w.MajetekExtId": {
+      "_title": {
+        "titl": "External identifier"
+      },
+      "extId": {
+        "titl": "Identifier"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "majetek": {
+        "titl": "Property"
+      },
+      "tabulka": {
+        "titl": "Table"
+      },
+      "typLeas": {
+        "titl": "Types of leasing"
+      },
+      "typMaj": {
+        "titl": "Types of property"
+      },
+      "umisteni": {
+        "titl": "Location"
+      }
+    },
+    "cz.winstrom.vo.w.PrilohaMajetek": {
+      "_title": {
+        "titl": "Attachments"
+      },
+      "data": {
+        "titl": "Attachment data"
+      },
+      "dataHash": {
+        "titl": "Attachment data copy (MD5 sum)"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "majetek": {
+        "titl": "Property"
+      },
+      "prilozit": {
+        "abbr": "Attach",
+        "titl": "Attach"
+      },
+      "typK": {
+        "titl": "Attachment type"
+      }
+    },
+    "cz.winstrom.vo.w.UcelMajetek": {
+      "_title": {
+        "titl": "Purpose"
+      },
+      "adresar": {
+        "titl": "Data subject"
+      },
+      "definiceUcelu": {
+        "titl": "Definition of purpose"
+      },
+      "polozkaPrikazu": {
+        "titl": "Order item"
+      },
+      "pozastaveno": {
+        "titl": "Paused"
+      },
+      "ucelLog": {
+        "titl": "Circumstances of origin of the purpose"
+      },
+      "vyreseno": {
+        "titl": "Resolved"
+      },
+      "zapujcka": {
+        "titl": "Loan"
+      }
+    },
+    "global": {
+      "majetek": {
+        "titl": "Property"
+      },
+      "vozCislo": {
+        "titl": "Number"
+      },
+      "vozHavar": {
+        "titl": "Accident insurance"
+      },
+      "vozHavarVyse": {
+        "titl": "Accident coverage amount"
+      },
+      "vozModel": {
+        "titl": "Model"
+      },
+      "vozObjem": {
+        "titl": "Displacement"
+      },
+      "vozSpz": {
+        "titl": "Licence plate No."
+      },
+      "vozTyp": {
+        "titl": "Type of vehicle"
+      },
+      "vozVybava": {
+        "titl": "Equipment"
+      },
+      "vozZnacka": {
+        "titl": "Brand"
+      },
+      "zustVyrazUcet": {
+        "titl": "Account balance for exclusion"
+      }
+    }
+  }
+}

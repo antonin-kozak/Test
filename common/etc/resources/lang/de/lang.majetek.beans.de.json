@@ -1,0 +1,795 @@
+{
+  "beans": {
+    "cz.winstrom.vo.adr.AdrUdalostMaj": {
+      "_title": {
+        "titl": "Vorfälle"
+      },
+      "actRuTask": {
+        "titl": "ActRuTask"
+      },
+      "celodenni": {
+        "titl": "ganztägig"
+      },
+      "dokonceni": {
+        "titl": "Beendigungszeit"
+      },
+      "firmaExterni": {
+        "titl": "Externes Unternehmen"
+      },
+      "osoby": {
+        "titl": "Personen"
+      },
+      "predmet": {
+        "titl": "Gegenstand"
+      },
+      "prioritaK": {
+        "titl": "Priorität"
+      },
+      "processDefinitionId": {
+        "titl": "ProcessDefinitionId"
+      },
+      "stavUdalK": {
+        "titl": "Vorfallstand"
+      },
+      "taskDefinitionKey": {
+        "titl": "TaskDefinitionKey"
+      },
+      "termin": {
+        "titl": "Realisierungstermin"
+      },
+      "typAkt": {
+        "titl": "Aktivitätstyp"
+      },
+      "umisteni": {
+        "titl": "Platzierung"
+      },
+      "volno": {
+        "titl": "Frei"
+      },
+      "zahajeni": {
+        "titl": "Beginn"
+      }
+    },
+    "cz.winstrom.vo.maj.DanNakl": {
+      "_title": {
+        "titl": "Steuerkosten"
+      },
+      "datVyst": {
+        "titl": "Datum der Verbuchung"
+      },
+      "kod": {
+        "titl": "Belegnummer"
+      },
+      "leasing": {
+        "titl": "Leasingvermögen"
+      },
+      "sumZkl": {
+        "titl": "Basis [%currency-symbol]"
+      },
+      "sumZklMen": {
+        "titl": "Basis [Währung]"
+      },
+      "szbDph": {
+        "titl": "MwSt.-Satz"
+      },
+      "zklDalUcet": {
+        "titl": "HABEN - Konto der Abschreibung"
+      },
+      "zklMdUcet": {
+        "titl": "SOLL - Konto der Abschreibung"
+      }
+    },
+    "cz.winstrom.vo.maj.DanOdpis": {
+      "_title": {
+        "titl": "Steuerabschreibungen"
+      },
+      "kod": {
+        "titl": "Belegnummer"
+      },
+      "majetek": {
+        "titl": "Vermögen"
+      },
+      "stariMaj": {
+        "abbr": "Alter(Jahre)",
+        "titl": "Vermögensalter (Jahre)"
+      },
+      "sumZkl": {
+        "titl": "Steuerabschreibung [%currency-symbol]"
+      },
+      "zklDalUcet": {
+        "abbr": "Haben-Konto",
+        "titl": "Haben-Konto der Abschreibung"
+      },
+      "zklMdUcet": {
+        "abbr": "Soll-Konto",
+        "titl": "Soll-Konto der Abschreibung"
+      }
+    },
+    "cz.winstrom.vo.maj.Leasing": {
+      "_title": {
+        "titl": "Leasingvermögen"
+      },
+      "casUcet": {
+        "abbr": "Rechnungsabgrenzungskonto",
+        "titl": "Rechnungsabgrenzungskonto von Kosten"
+      },
+      "cena": {
+        "titl": "Preis [%currency-symbol]"
+      },
+      "cidPoriz": {
+        "titl": "Vertragsnummer"
+      },
+      "datKoupe": {
+        "abbr": "Eröffnung",
+        "titl": "Datum der Leasingeröffnung"
+      },
+      "datVyroby": {
+        "abbr": "Hergestellt",
+        "titl": "Herstellungsdatum"
+      },
+      "dodavatel": {
+        "titl": "Lieferant"
+      },
+      "dphSnizUcet": {
+        "abbr": "MwSt. - Konto - Grundsatz",
+        "titl": "MwSt. - Konto - ermässigter Satz"
+      },
+      "dphZaklUcet": {
+        "abbr": "MwSt. - Konto - ermässigt",
+        "titl": "MwSt. - Konto - Grundsatz"
+      },
+      "druhK": {
+        "titl": "Art"
+      },
+      "eanKod": {
+        "titl": "EAN Code"
+      },
+      "frekDanNaklK": {
+        "abbr": "Frequenz der Steuerkosten",
+        "titl": "Frequenz der Steuerkosten"
+      },
+      "mena": {
+        "titl": "Währung"
+      },
+      "mjZarukyK": {
+        "titl": "ME - Garantien"
+      },
+      "naklUcet": {
+        "abbr": "Steuerkostenkonto",
+        "titl": "Steuerkostenkonto"
+      },
+      "pocetDanNakl": {
+        "abbr": "Steuerkosten",
+        "titl": "Zahl der Steuerkosten (in Monaten)"
+      },
+      "pocetSplatek": {
+        "abbr": "Abzahlungen",
+        "titl": "Zahl von Abzahlungen"
+      },
+      "stredisko": {
+        "titl": "Kostenstelle"
+      },
+      "sumSplaceno": {
+        "titl": "Abgezahlt [%currency-symbol]"
+      },
+      "sumZbyva": {
+        "titl": "Restlich [%currency-symbol]"
+      },
+      "typLeasingu": {
+        "titl": "Typ"
+      },
+      "vyrCis": {
+        "titl": "Produktionsnummer"
+      },
+      "vyrobce": {
+        "titl": "Hersteller"
+      },
+      "zakazka": {
+        "titl": "Auftrag"
+      },
+      "zaruka": {
+        "titl": "Garantie"
+      },
+      "zavazUcet": {
+        "abbr": "Verbindlichkeitskonto",
+        "titl": "Verbindlichkeitskonto"
+      }
+    },
+    "cz.winstrom.vo.maj.Majetek": {
+      "_title": {
+        "titl": "Geringwertiges, langfristiges und nicht abgeschriebenes Vermögen"
+      },
+      "cena": {
+        "abbr": "Preis",
+        "titl": "Preis bei der Eingliederung [%currency-symbol]"
+      },
+      "cidPoriz": {
+        "abbr": "Beleg",
+        "titl": "Beschaffungsbeleg"
+      },
+      "datKoupe": {
+        "abbr": "Gekauft",
+        "titl": "Ankaufsdatum"
+      },
+      "datUdalVyr": {
+        "abbr": "Ausgesondert",
+        "titl": "Datum der Aussonderung"
+      },
+      "datUdalZar": {
+        "abbr": "Dat. des Eingliederungsvorfalls",
+        "titl": "Datum des Eingliederungsvorfalls"
+      },
+      "datVyroby": {
+        "abbr": "Hergestellt",
+        "titl": "Datum der Herstellung"
+      },
+      "datZacDan": {
+        "abbr": "Beginn der Steuerabschreib.",
+        "titl": "Beginn der Steuerabschreibungen"
+      },
+      "datZacUcet": {
+        "abbr": "Beginn der buchhalterischen Abschreibungen",
+        "titl": "Beginn der buchhalterischen Abschreibungen"
+      },
+      "datZar": {
+        "abbr": "Eingegliedert",
+        "titl": "Datum der Eingliederung"
+      },
+      "dodavatel": {
+        "titl": "Lieferant"
+      },
+      "doklFaktury": {
+        "titl": "Identifikationsart der angenommenen Rechnungen"
+      },
+      "druhK": {
+        "titl": "Art"
+      },
+      "kod": {
+        "abbr": "Inventarnummer",
+        "titl": "Inventarnummer"
+      },
+      "kusySoubor": {
+        "abbr": "Stücke",
+        "titl": "Stücke in der Datei"
+      },
+      "mistnost": {
+        "titl": "\"Raum\""
+      },
+      "nahrUcetOdpK": {
+        "abbr": "Buchhalterische Abschreibungen.",
+        "titl": "Buchhalterische Abschreibungen schaffen"
+      },
+      "objekt": {
+        "titl": "Objekt"
+      },
+      "odpisovyUcet": {
+        "abbr": "Abschreibungskonto",
+        "titl": "Abschreibungskonto"
+      },
+      "opravnyUcet": {
+        "abbr": "Konto der Wertberichtigungen",
+        "titl": "Konto der Wertberichtigungen"
+      },
+      "predpisUcetOdp": {
+        "abbr": "Zeit der buchhalterischen Abschreibungen",
+        "titl": "Zahl von Monaten der Abschreibung"
+      },
+      "primarniUcet": {
+        "abbr": "Primärkonto",
+        "titl": "Primärkonto"
+      },
+      "protiUcetZarazeni": {
+        "abbr": "Gegenkonto der Eingliederung",
+        "titl": "Gegenkonto der Eingliederung"
+      },
+      "sazba": {
+        "abbr": "Abschreibungsgruppe",
+        "titl": "Abschreibungsgruppe"
+      },
+      "sekce": {
+        "titl": "Sektion"
+      },
+      "skp": {
+        "abbr": "SKP",
+        "titl": "Standardklassifizierung der Produktion"
+      },
+      "stariPor": {
+        "abbr": "Abgeschrieben monatlich",
+        "titl": "Abgeschrieben bei Eingliederung (monatlich)"
+      },
+      "stariTechZhod": {
+        "abbr": "Alter der technischen Verwertung",
+        "titl": "Alter der technischen Verwertung (Monate)"
+      },
+      "techZhod": {
+        "abbr": "Technische Verwertung",
+        "titl": "Vor der Eingliederung war technische Verwertung"
+      },
+      "typMajetku": {
+        "titl": "Typ"
+      },
+      "uctovatZar": {
+        "titl": "Eingliederung verbuchen"
+      },
+      "vyrobce": {
+        "titl": "Hersteller"
+      },
+      "zpusOdpK": {
+        "abbr": "Abschreibungsverfahren",
+        "titl": "Abschreibungsverfahren"
+      },
+      "zpusPor": {
+        "abbr": "Beschaffungsverfahren",
+        "titl": "Beschaffungsverfahren"
+      },
+      "zustDan": {
+        "abbr": "Steuerrest",
+        "titl": "Steuerrest [%currency-symbol]"
+      },
+      "zustUcet": {
+        "abbr": "Bestand",
+        "titl": "Bestand [%currency-symbol]"
+      },
+      "zvysZrychK": {
+        "abbr": "Erhöhung 1. Jahr",
+        "titl": "Erhöhung der Abschreibung im 1. Jahr"
+      }
+    },
+    "cz.winstrom.vo.maj.MajetekStavKDatu": {
+      "_title": {
+        "titl": "Vermögensstand bis zum Datum"
+      },
+      "cena": {
+        "titl": "Preis"
+      },
+      "cenaAktualni": {
+        "titl": "Aktueller Preis"
+      },
+      "danoveOdpisy": {
+        "titl": "Steuerabschreibungen"
+      },
+      "danoveOdpisyObdobi": {
+        "titl": "Steuerabschreibung für Periode"
+      },
+      "datPoslDanOdpis": {
+        "titl": "Datum der letzten steuerlichen Abschreibung"
+      },
+      "datPoslUcetOdpis": {
+        "titl": "Datum der letzten buchhalterischen Abschreibung"
+      },
+      "datPuvZar": {
+        "titl": "Einreihung"
+      },
+      "datUdalVyr": {
+        "titl": "Ausreihung"
+      },
+      "datZacDan": {
+        "titl": "Beginn der Steuer-Abschr."
+      },
+      "datZacUcet": {
+        "titl": "Beginn der Buchhaltung-Abschr."
+      },
+      "datZar": {
+        "titl": "In ABRA Flexi eingereiht"
+      },
+      "dobaOdpMesic": {
+        "titl": "Abschreibungszeit [Monat]"
+      },
+      "idMajetekStavKDatu": {
+        "titl": "ID"
+      },
+      "odpUcet": {
+        "titl": "Abschreibungsbeleg"
+      },
+      "opravUcet": {
+        "titl": "Korrektur-Konto"
+      },
+      "predpisUcetOdp": {
+        "abbr": "Zeit der Buch. Abschr.",
+        "titl": "Zahl der Monate von Abschreibungen"
+      },
+      "protiUcetZar": {
+        "titl": "Gegenkonto Einreihung"
+      },
+      "sazba": {
+        "titl": "Abschr. Gruppe"
+      },
+      "stariPor": {
+        "titl": "Abgeschrieben während der Einreihung [Monate]"
+      },
+      "sumPoslDanOdpis": {
+        "titl": "Letzte steuerliche Abschreibung"
+      },
+      "sumPoslUcetOdpis": {
+        "titl": "Letzte buchhalterische Abschreibung"
+      },
+      "sumTechZhodnoceni": {
+        "titl": "Technische Gesamtbewertung"
+      },
+      "sumVyrazeni": {
+        "titl": "Eliminierungen insgesamt"
+      },
+      "typMajetku": {
+        "titl": "Vermögenstyp"
+      },
+      "ucetniOdpisy": {
+        "titl": "Buchhalterische Abschreibungen"
+      },
+      "ucetniOdpisyObdobi": {
+        "titl": "Buchhalterische Abschreibungen für Periode"
+      },
+      "ucetniStejneJakoDanove": {
+        "titl": "Buch. Abschr. = Steuerabschr."
+      },
+      "zmenaCenyZkl": {
+        "titl": "Preisänderung insgesamt"
+      },
+      "zustatekDanovy": {
+        "titl": "Steuersaldo"
+      },
+      "zustatekUcetni": {
+        "titl": "Buchungssaldo"
+      }
+    },
+    "cz.winstrom.vo.maj.Sazba": {
+      "_title": {
+        "titl": "Abschreibungsgruppen"
+      },
+      "dobaOdp": {
+        "abbr": "Zeit",
+        "titl": "Zeit der Abschreibung"
+      },
+      "koefZrOdp1": {
+        "abbr": "1. Jahr - Beschleunigung",
+        "titl": "Das erste Jahr"
+      },
+      "koefZrOdpDalsi": {
+        "abbr": "Folgende Jahre - Beschleunigung",
+        "titl": "Folgende Jahre"
+      },
+      "koefZrOdpZvCeny": {
+        "abbr": "Erhöhung",
+        "titl": "Erhöhung der Beschleunigung"
+      },
+      "minDobaOdp": {
+        "titl": "Minimale Abschreibungszeit"
+      },
+      "prcRoOdp1": {
+        "abbr": "1. Jahr gleichmässig",
+        "titl": "Das erste Jahr"
+      },
+      "prcRoOdpDalsi": {
+        "abbr": "Folgende Jahre gleichmässig",
+        "titl": "Folgende Jahre"
+      },
+      "prcRoOdpZvCeny": {
+        "abbr": "Erhöhung des Eingangspreises",
+        "titl": "Erhöhung des Eingangspreises"
+      },
+      "typOdpK": {
+        "titl": "Abschreibungsweise"
+      },
+      "zmena": {
+        "abbr": "Vom Benutzer erstellt",
+        "titl": "Vom Benutzer erstellt"
+      }
+    },
+    "cz.winstrom.vo.maj.SplatKal": {
+      "_title": {
+        "titl": "Zahlungskalender"
+      },
+      "clenDph": {
+        "desc": "Die Gliederung von MwSt. bestimmt die Zeilen des Formulars für die MwSt.-Erklärung, in das die Summen eingerechnet sind.",
+        "titl": "Gliederung von MwSt."
+      },
+      "clenSplK": {
+        "titl": "Gliederung der Abzahlung"
+      },
+      "datVyst": {
+        "titl": "Datum der Abzahlung"
+      },
+      "doklFaktury": {
+        "titl": "Rechnungen"
+      },
+      "dphDalUcet": {
+        "abbr": "HABEN - Konto - MwSt.",
+        "titl": "HABEN - Konto - MwSt."
+      },
+      "dphMdUcet": {
+        "abbr": "SOLL - Konto - MwSt.",
+        "titl": "SOLL - Konto - MwSt."
+      },
+      "kod": {
+        "abbr": "Belegnummer",
+        "titl": "Belegnummer"
+      },
+      "leasing": {
+        "titl": "Leasingvermögen"
+      },
+      "statDph": {
+        "titl": "MwSt. - Staat"
+      },
+      "sumDph": {
+        "titl": "MwSt. [%currency-symbol]"
+      },
+      "sumDphMen": {
+        "titl": "MwSt. [Währung]"
+      },
+      "sumZkl": {
+        "titl": "Grundlage [%currency-symbol]"
+      },
+      "sumZklMen": {
+        "titl": "Grundlage [Währung]"
+      },
+      "szbDphK": {
+        "titl": "MwSt.-Satz"
+      },
+      "typSplK": {
+        "titl": "Typ der Abzahlung"
+      },
+      "zavazek": {
+        "titl": "Verbindlichkeit"
+      },
+      "zklDalUcet": {
+        "abbr": "HABEN - Konto der Grundlage",
+        "titl": "HABEN - Konto der Grundlage"
+      },
+      "zklMdUcet": {
+        "abbr": "SOLL - Konto der Grundlage",
+        "titl": "SOLL - Konto der Grundlage"
+      }
+    },
+    "cz.winstrom.vo.maj.TypLeas": {
+      "_title": {
+        "titl": "Typen von Leasingvermögen"
+      },
+      "casUcet": {
+        "abbr": "Rechnungsabgrenzungskonto",
+        "titl": "Rechnungsabgrenzungskonto der Kosten"
+      },
+      "druhK": {
+        "titl": "Art"
+      },
+      "naklUcet": {
+        "abbr": "Steuerkostenkonto",
+        "titl": "Steuerkostenkonto"
+      },
+      "zavazUcet": {
+        "abbr": "Verbindlichkeitskonto",
+        "titl": "Verbindlichkeitskonto"
+      }
+    },
+    "cz.winstrom.vo.maj.TypMaj": {
+      "_title": {
+        "titl": "Typen von Vermögen - langfristig und geringwertig"
+      },
+      "druhK": {
+        "titl": "Art"
+      },
+      "jeOdpis": {
+        "titl": "Das Vermögen wird abgeschrieben"
+      },
+      "odpisovyUcet": {
+        "titl": "Abschreibungskonto"
+      },
+      "opravnyUcet": {
+        "titl": "Korrekturkonto"
+      },
+      "primarniUcet": {
+        "titl": "Vermögenskonto"
+      },
+      "protiUcetZarazeni": {
+        "titl": "Eingliederungskonto"
+      }
+    },
+    "cz.winstrom.vo.maj.UcetOdpis": {
+      "_title": {
+        "titl": "Buchhalterische Abschreibungen"
+      },
+      "kod": {
+        "titl": "Belegnummer"
+      },
+      "majetek": {
+        "titl": "Vermögen"
+      },
+      "sumZkl": {
+        "titl": "Buchhalterische Abschreibung [%currency-symbol]"
+      },
+      "zklDalUcet": {
+        "abbr": "HABEN - Konto",
+        "titl": "HABEN - Konto der Abschreibung"
+      },
+      "zklMdUcet": {
+        "abbr": "SOLL - Konto",
+        "titl": "SOLL - Konto der Abschreibung"
+      }
+    },
+    "cz.winstrom.vo.maj.Udalost": {
+      "_title": {
+        "titl": "Vorfälle"
+      },
+      "datVys": {
+        "titl": "Belegdatum"
+      },
+      "dphDalUcet": {
+        "abbr": "HABEN - Konto des Restes.",
+        "titl": "HABEN - Konto des Restes"
+      },
+      "dphMdUcet": {
+        "abbr": "SOLL - Konto des Restes",
+        "titl": "SOLL - Konto des Restes"
+      },
+      "kod": {
+        "titl": "Belegnummer"
+      },
+      "majetek": {
+        "titl": "Vermögen"
+      },
+      "sumDph": {
+        "titl": "Buchhalterischer Betrag [%currency-symbol]"
+      },
+      "sumDphDanove": {
+        "titl": "Steuerbetrag [%currency-symbol]"
+      },
+      "sumZkl": {
+        "titl": "Betrag [%currency-symbol]"
+      },
+      "sumZklMena": {
+        "titl": "Grundlage [Währung]"
+      },
+      "typUdalostiK": {
+        "titl": "Typen von Vorfällen"
+      },
+      "zklDalUcet": {
+        "titl": "HABEN - Konto des Vorfalls"
+      },
+      "zklMdUcet": {
+        "titl": "SOLL - Konto des Vorfalls"
+      },
+      "zmena": {
+        "abbr": "Benutzeränd. des Sald.",
+        "titl": "Benutzeränderung des Saldos"
+      },
+      "zmenaDobyOdpis": {
+        "abbr": "Anpassung der Abschreibungszeit",
+        "titl": "Anpassung der Abschreibungszeit"
+      }
+    },
+    "cz.winstrom.vo.maj.Umisteni": {
+      "_title": {
+        "titl": "Platzierung"
+      }
+    },
+    "cz.winstrom.vo.maj.Zapujcka": {
+      "_title": {
+        "titl": "Darleihen / verantwortliche Person"
+      },
+      "datKonec": {
+        "titl": "Bis Datum"
+      },
+      "datZahaj": {
+        "titl": "Ab Datum"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "majetek": {
+        "titl": "Vermögen"
+      },
+      "osoba": {
+        "titl": "Person"
+      }
+    },
+    "cz.winstrom.vo.w.MajetekExtId": {
+      "_title": {
+        "titl": "Externe Identifizierer"
+      },
+      "extId": {
+        "titl": "Identifizierer"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "majetek": {
+        "titl": "Vermögen"
+      },
+      "tabulka": {
+        "titl": "Tabelle"
+      },
+      "typLeas": {
+        "titl": "Leasingtyp"
+      },
+      "typMaj": {
+        "titl": "Vermögenstyp"
+      },
+      "umisteni": {
+        "titl": "Platzierung"
+      }
+    },
+    "cz.winstrom.vo.w.PrilohaMajetek": {
+      "_title": {
+        "titl": "Anlagen"
+      },
+      "data": {
+        "titl": "Daten der Anlage"
+      },
+      "dataHash": {
+        "titl": "Datenabdruck Anlage(MD5 Summarisation)"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "majetek": {
+        "titl": "Vermögen"
+      },
+      "prilozit": {
+        "abbr": "Anlegen",
+        "titl": "Anlegen"
+      },
+      "typK": {
+        "titl": "Anlagentyp"
+      }
+    },
+    "cz.winstrom.vo.w.UcelMajetek": {
+      "_title": {
+        "titl": "Zweck"
+      },
+      "adresar": {
+        "titl": "Datensubjekt"
+      },
+      "definiceUcelu": {
+        "titl": "Definition des Zwecks"
+      },
+      "polozkaPrikazu": {
+        "titl": "Posten der Anweisung"
+      },
+      "pozastaveno": {
+        "titl": "Gestoppt"
+      },
+      "ucelLog": {
+        "titl": "Umstände der Entstehung des Zweckes"
+      },
+      "vyreseno": {
+        "titl": "Erledigt"
+      },
+      "zapujcka": {
+        "titl": "Darlehen"
+      }
+    },
+    "global": {
+      "majetek": {
+        "titl": "Vermögen"
+      },
+      "vozCislo": {
+        "titl": "Nummer"
+      },
+      "vozHavar": {
+        "titl": "Unfallversicherung"
+      },
+      "vozHavarVyse": {
+        "titl": "Versicherungshöhe"
+      },
+      "vozModel": {
+        "titl": "Modell"
+      },
+      "vozObjem": {
+        "titl": "Volumen"
+      },
+      "vozSpz": {
+        "titl": "Autokennzeichen"
+      },
+      "vozTyp": {
+        "titl": "Fahrzeugtyp"
+      },
+      "vozVybava": {
+        "titl": "Ausstattung"
+      },
+      "vozZnacka": {
+        "titl": "Automarke"
+      },
+      "zustVyrazUcet": {
+        "titl": "Konto der Ausreihung"
+      }
+    }
+  }
+}

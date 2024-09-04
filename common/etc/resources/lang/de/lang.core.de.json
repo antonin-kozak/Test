@@ -1,0 +1,2601 @@
+{
+  "actions": {
+    "activate": {
+      "icon": "win/save.png",
+      "titl": "Aktivieren Sie"
+    },
+    "add": {
+      "acck": 80,
+      "accm": 2,
+      "desc": "Neue Eintragung zugeben (Abkürzung Alt+P)",
+      "icon": "win/new.png",
+      "mnem": 80,
+      "titl": "Beifügen"
+    },
+    "aktualizujManyToMany": {
+      "titl": "Hinzufügen/entfernen"
+    },
+    "bottom": {
+      "desc": "Niedrigste Priorität beim ausgewählten Feld",
+      "icon": "win/arrow-bottom.png",
+      "titl": "B"
+    },
+    "cancel": {
+      "titl": "Aufheben"
+    },
+    "choose": {
+      "desc": "Bestätigt die Auswahl der aktuell markierten Eintragung",
+      "icon": "empty.png",
+      "titl": "Wählen"
+    },
+    "clearField": {
+      "icon": "erase.png",
+      "titl": "Feld löschen"
+    },
+    "close": {
+      "acck": 67,
+      "accm": 2,
+      "desc": "Schliessen",
+      "icon": "empty.png",
+      "mnem": 90,
+      "titl": "Schliessen"
+    },
+    "columnSelection": {
+      "desc": "Auswahl von abgebildeten Spalten und ihre Reihenfolge",
+      "icon": "empty.png",
+      "titl": "Spaltenauswahl"
+    },
+    "contextHelp": {
+      "desc": "Kontexthilfe",
+      "icon": "win/contexthelp.png",
+      "titl": "Hilfe"
+    },
+    "deactivate": {
+      "icon": "win/erase.png",
+      "titl": "Deaktivieren Sie"
+    },
+    "delete": {
+      "acck": 127,
+      "accm": 0,
+      "desc": "Ausgewählte Eintragung löschen (Abkürzung Alt+S)",
+      "icon": "win/erase.png",
+      "mnem": 83,
+      "titl": "Löschen"
+    },
+    "deselectAll": {
+      "titl": "Markierung aufheben"
+    },
+    "down": {
+      "desc": "Priorität beim ausgewählten Feld senken",
+      "icon": "win/arrow-down.png",
+      "titl": "D"
+    },
+    "downItem": {
+      "desc": "Den Posten nach unten schieben",
+      "icon": "win/arrow-down.png",
+      "titl": "Nach unten"
+    },
+    "edit": {
+      "acck": 69,
+      "accm": 2,
+      "desc": "Ausgewählte Eintragung ändern (Abkürzung Alt+Z)",
+      "icon": "win/edit.png",
+      "mnem": 90,
+      "titl": "Ändern"
+    },
+    "excel": {
+      "desc": "Export/Import aus Excel",
+      "icon": "win/excel.png",
+      "titl": "Excel"
+    },
+    "exportICal": {
+      "desc": "In Datei von Kalender iCal exportieren",
+      "icon": "win/ical-export.png",
+      "titl": "Export von Kalender iCal"
+    },
+    "exportImport": {
+      "desc": "Export/Import aus XML und Excel",
+      "icon": "win/import-export.png",
+      "titl": "Export/Import"
+    },
+    "exportVCard": {
+      "desc": "Als Visitenkarten vCard exportieren",
+      "icon": "win/vcard-export.png",
+      "titl": "Export von Visitenkarte vCard"
+    },
+    "exportXLS": {
+      "desc": "In Excel exportieren (Abkürzung Alt+E)",
+      "icon": "win/excel-export.png",
+      "mnem": 69,
+      "titl": "Export in Excel"
+    },
+    "exportXml": {
+      "desc": "in XML exportieren",
+      "icon": "win/xml-export.png",
+      "titl": "Export XML"
+    },
+    "extSearch": {
+      "desc": "Den Wert in einer beliebigen Spalte suchen (Abkürzung Alt-S)",
+      "icon": "win/find.png",
+      "titl": "Erweiterte Suche"
+    },
+    "filter": {
+      "acck": 73,
+      "accm": 1,
+      "desc": "Filter - Definition der Auswahlbedingung in der Tabelle (Abkürzung Alt+F)",
+      "icon": "win/filter.png",
+      "mnem": 73,
+      "titl": "Filter"
+    },
+    "filterNew": {
+      "desc": "Neue Einstellung der Filterung schaffen (Abkürzung Alt+N)",
+      "icon": "win/new.png",
+      "titl": "Neu"
+    },
+    "filterOpen": {
+      "desc": "Aktuelle Einstellung der Filterung öffnen (Abkürzung Alt+O)",
+      "icon": "win/open.png",
+      "titl": "Öffnen"
+    },
+    "filterOther": {
+      "icon": "win/filter.png",
+      "titl": "Weitere Filter..."
+    },
+    "filterSave": {
+      "desc": "Aktuelle Einstellung der Filterung speichern (Abkürzung Alt+U)",
+      "icon": "win/save.png",
+      "titl": "Speichern"
+    },
+    "find": {
+      "acck": 70,
+      "accm": 2,
+      "desc": "Den Wert in beliebiger Spalte finden (Abkürzung Alt+A)",
+      "icon": "win/find.png",
+      "mnem": 65,
+      "titl": "Finden"
+    },
+    "first": {
+      "desc": "Sprung auf die erste Eintragung der Tabelle",
+      "icon": "win/ar-first.png",
+      "mnem": 36,
+      "titl": "Erste"
+    },
+    "fullTextSearch": {
+      "desc": "Volltextsuche (Abkürzung Ctrl-F)",
+      "icon": "win/find.png",
+      "titl": "Suche"
+    },
+    "gdpr": {
+      "icon": "win/personalistika.png",
+      "titl": "DSGVO"
+    },
+    "graph": {
+      "icon": "win/graph.png",
+      "titl": "Graphen"
+    },
+    "help": {
+      "acck": 112,
+      "accm": 0,
+      "desc": "Hilfe",
+      "icon": "win/help.png",
+      "mnem": 112,
+      "titl": "Hilfe"
+    },
+    "hromZmenaVseWizard": {
+      "desc": "Führen Sie die Änderung im gewählten Feld in den angezeigten Posten",
+      "titl": "Alles Angezeigte"
+    },
+    "hromZmenaVybraneWizard": {
+      "desc": "Änderung im gewählten Feld in den gewählten Posten wird durchgeführt",
+      "titl": "Nur gewählte"
+    },
+    "hromZmenaWizard": {
+      "desc": "Änderung im gewählten Feld wird durchgeführt (Markierung der Zeile hat keinen Einfluss)",
+      "icon": "win/edit.png",
+      "titl": "Sammeländerungen"
+    },
+    "importXls": {
+      "desc": "Aus Excel importieren",
+      "icon": "win/excel-import.png",
+      "titl": "Import aus Excel"
+    },
+    "importXml": {
+      "desc": "Aus XML importieren",
+      "icon": "win/xml-import.png",
+      "titl": "Import XML"
+    },
+    "konfigurovatReport": {
+      "desc": "Öffnet die Formularkonfiguration im Webinterface.",
+      "icon": "win/generate.png",
+      "titl": "Formular konfigurieren"
+    },
+    "last": {
+      "desc": "Sprung auf die letzte Eintragung der Tabelle",
+      "icon": "win/ar-last.png",
+      "mnem": 35,
+      "titl": "Letzte"
+    },
+    "mail": {
+      "desc": "Durch E-Mail in PDF-Form absenden",
+      "icon": "win/mail.png",
+      "titl": "Absenden"
+    },
+    "mailSmtp": {
+      "desc": "Absenden per E-Mail in PDF-Form (SMTP)",
+      "icon": "win/mail.png",
+      "titl": "Absenden (SMTP)"
+    },
+    "new": {
+      "acck": 78,
+      "accm": 2,
+      "desc": "Neue Eintragung bilden (Abkürzung Alt+N)",
+      "icon": "win/new.png",
+      "mnem": 78,
+      "titl": "Neu"
+    },
+    "newWithCopy": {
+      "desc": "Kopie der Eintragung bilden (Abkürzung Alt+K)",
+      "icon": "win/new-copy.png",
+      "titl": "Kopie bilden"
+    },
+    "next": {
+      "desc": "Sprung auf weitere Eintragung der Tabelle (Alt+→)",
+      "icon": "win/ar-next.png",
+      "mnem": 39,
+      "titl": "Weitere"
+    },
+    "odebrat": {
+      "desc": "Ausgewähltes Feld entfernen",
+      "icon": "win/ar-prev.png",
+      "titl": "Entfernen"
+    },
+    "odebratVse": {
+      "desc": "Alle Felder entfernen",
+      "icon": "win/ar-prev-all.png",
+      "titl": "Alles entfernen"
+    },
+    "ok": {
+      "titl": "OK"
+    },
+    "open": {
+      "acck": 79,
+      "accm": 2,
+      "desc": "Ausgewählte Eintragung öffnen",
+      "icon": "win/open.png",
+      "mnem": 79,
+      "titl": "Öffnen"
+    },
+    "openNewWindow": {
+      "acck": 79,
+      "accm": 2,
+      "desc": "Ausgewählte Eintragung im neuen Fenster öffnen",
+      "icon": "win/open.png",
+      "mnem": 79,
+      "titl": "Im neuen Fenster öffnen"
+    },
+    "ostatniAkce": {
+      "titl": "Sonstige"
+    },
+    "prev": {
+      "desc": "Sprung auf vorgehende Eintragung der Tabelle (Alt+←)",
+      "icon": "win/ar-prev.png",
+      "mnem": 37,
+      "titl": "Vorgehende"
+    },
+    "pridat": {
+      "desc": "Ausgewähltes Feld hinzufügen",
+      "icon": "win/ar-next.png",
+      "titl": "U"
+    },
+    "pridatVse": {
+      "desc": "alle Felder hinzufügen",
+      "icon": "win/ar-next-all.png",
+      "titl": "Alles hinzufügen"
+    },
+    "print": {
+      "acck": 80,
+      "accm": 2,
+      "desc": "Drucken (Abkürzung Alt+T)",
+      "icon": "win/print.png",
+      "mnem": 84,
+      "titl": "Drucken"
+    },
+    "printNahled": {
+      "desc": "Sichtanzeige",
+      "icon": "win/current-print.png",
+      "titl": "Sicht"
+    },
+    "printNow": {
+      "desc": "Drucken (Abkürzung Alt+P)",
+      "icon": "win/print-now.png",
+      "titl": "Drucken"
+    },
+    "printPdf": {
+      "desc": "Drucken in PDF",
+      "icon": "win/pdf.png",
+      "titl": "PDF"
+    },
+    "printTiskarna": {
+      "desc": "Drucken am Drucker",
+      "icon": "win/print.png",
+      "titl": "Drucken"
+    },
+    "printXls": {
+      "desc": "Drucken in XLS",
+      "icon": "win/excel.png",
+      "titl": "XLS"
+    },
+    "refresh": {
+      "desc": "Wiedereinlesen von Daten aus der Datenbank wird durchgeführt",
+      "icon": "win/refresh.png",
+      "mnem": 82,
+      "titl": "Erneuern"
+    },
+    "resetColumnToDefault": {
+      "desc": "Wiederherstellung der Einstellung vor der benutzerdefinierten Änderung",
+      "icon": "empty.png",
+      "titl": "Wiederherstellung der Ausgangseinstellung"
+    },
+    "save": {
+      "acck": 83,
+      "accm": 2,
+      "desc": "Geöffnete Eintragung speichern (Abkürzung Alt+U)",
+      "icon": "win/save.png",
+      "mnem": 85,
+      "titl": "Speichern"
+    },
+    "saveAndClose": {
+      "acck": 83,
+      "accm": 2,
+      "desc": "Geöffnete Eintragung speichern und ihr Fenster schliessen (Abkürzung Alt+U)",
+      "mnem": 85,
+      "titl": "Speichern und schliessen"
+    },
+    "saveAndNew": {
+      "acck": 78,
+      "accm": 2,
+      "desc": "Speichert die Eintragung und öffnet neue (Abkürzung Alt + N)",
+      "mnem": 78,
+      "titl": "Speichern und neu"
+    },
+    "saveColumnAsDefault": {
+      "desc": "Einstellung der Spalten für alle Benutzer speichern",
+      "icon": "empty.png",
+      "titl": "Einstellung für alle Benutzer speichern"
+    },
+    "selectAll": {
+      "titl": "Alles markieren"
+    },
+    "sluzby": {
+      "icon": "win/generate.png",
+      "titl": "Dienstleistungen"
+    },
+    "sort": {
+      "desc": "Einstellung von Reihung der Eintragungen in der Tabelle",
+      "icon": "win/sort-az.png",
+      "titl": "Reihung"
+    },
+    "sort-az": {
+      "desc": "Steigende Reihung 0-9, A-Z",
+      "icon": "win/sort-az.png",
+      "titl": "Steigende Reihung"
+    },
+    "sort-za": {
+      "desc": "Absteigende Reihung Z-A, 9-0",
+      "icon": "win/sort-za.png",
+      "titl": "Absteigende Reihung"
+    },
+    "sum": {
+      "desc": "Einstellung von Summierungen der Eintragungen aus der Tabelle",
+      "icon": "win/sum.png",
+      "titl": "Summierung"
+    },
+    "top": {
+      "desc": "Höchste Priorität beim ausgewählten Feld",
+      "icon": "win/arrow-top.png",
+      "titl": "T"
+    },
+    "uhrady": {
+      "desc": "Zahlungen des Belegs einlesen",
+      "icon": "win/pay-cash.png",
+      "titl": "Zahlungen"
+    },
+    "ulozitFiltraci": {
+      "titl": "Filterung speichern"
+    },
+    "up": {
+      "desc": "Priorität beim ausgewählten Feld erhöhen",
+      "icon": "win/arrow-up.png",
+      "titl": "U"
+    },
+    "upItem": {
+      "desc": "Den Posten nach oben schieben",
+      "icon": "win/arrow-up.png",
+      "titl": "Nach oben"
+    },
+    "vazbyUrovenPlus": {
+      "desc": "Nächstes Niveau der Bindungen einlesen",
+      "icon": "win/i18nPlus.png",
+      "titl": "Nächstes Niveau einlesen"
+    },
+    "xml": {
+      "desc": "Export/Import aus XML",
+      "icon": "win/xml.png",
+      "titl": "XML"
+    },
+    "zmenitFiltraci": {
+      "titl": "Filterung bearbeiten"
+    },
+    "zrusitFiltraci": {
+      "titl": "Filterung aufheben"
+    }
+  },
+  "buttons": {
+    "ano": {
+      "titl": "Ja"
+    },
+    "cancel": {
+      "desc": "Schliesst das Fenster (Abkürzung ESC)",
+      "titl": "Aufheben"
+    },
+    "delete": {
+      "titl": "Löschen"
+    },
+    "findFormNajit": {
+      "titl": "Weitere finden"
+    },
+    "generovat": {
+      "titl": "Generieren"
+    },
+    "jenUlozit": {
+      "titl": "Nur speichern"
+    },
+    "konVykDph.nasledne": {
+      "titl": "Anschliessend"
+    },
+    "konVykDph.nasledne.opravne": {
+      "titl": "Anschliessend/berichtigend"
+    },
+    "konVykDph.opravne": {
+      "titl": "Berichtigend"
+    },
+    "konVykDph.radne": {
+      "titl": "Ordentlich"
+    },
+    "konVykDph.rychlaOdpoved.nema": {
+      "titl": "Ich bin nicht verpflichtet, die Kontrollmeldung einzureichen (Null-Kontrollmeldung)."
+    },
+    "konVykDph.rychlaOdpoved.potvr": {
+      "titl": "Ich bestätige die Richtigkeit der zuletzt eingereichten Kontrollmeldung."
+    },
+    "moreInfo": {
+      "titl": "Mehr Infos"
+    },
+    "multiPdfMail1MailPrijemciRB": {
+      "titl": "Eine E-Mail einem Empfänger"
+    },
+    "multiPdfMail1MailVsechnaDataRB": {
+      "titl": "Eine E-Mail mit allen Daten"
+    },
+    "multiPdfMailNMailuPrijemciRB": {
+      "titl": "Mehrere E-Mails an einen Empfänger"
+    },
+    "nahled": {
+      "titl": "Sicht"
+    },
+    "nahledZaznam": {
+      "titl": "Datensatz anzeigen"
+    },
+    "ne": {
+      "titl": "Nein"
+    },
+    "newElection": {
+      "titl": "Neue Wahl"
+    },
+    "odpojit": {
+      "titl": "Abstellen"
+    },
+    "ok": {
+      "titl": "OK"
+    },
+    "pdf": {
+      "titl": "PDF"
+    },
+    "pouzit": {
+      "titl": "Verwenden"
+    },
+    "prihlasit": {
+      "titl": "Anmelden"
+    },
+    "print": {
+      "titl": "Drucken"
+    },
+    "propertiesAll": {
+      "desc": "Von allen Programm-Feldern auswählen",
+      "titl": "Von allen Programm-Feldern auswählen"
+    },
+    "restart": {
+      "titl": "Neustart"
+    },
+    "settingColumnsSaveSetAsDefault": {
+      "titl": "Als ausgehend einstellen"
+    },
+    "skip": {
+      "desc": "Aktuelle Aufzeichnung überspringen",
+      "titl": "Überspringen"
+    },
+    "spojit": {
+      "titl": "Verbinden"
+    },
+    "taskMonitorEndTasks": {
+      "titl": "Aufgaben aufheben"
+    },
+    "taskMonitorWait": {
+      "titl": "Warten"
+    },
+    "ukoncit": {
+      "titl": "Beenden"
+    },
+    "vyberQueryForm": {
+      "titl": "Auswahl"
+    },
+    "vybrat": {
+      "titl": "Auswählen"
+    },
+    "vypocet": {
+      "titl": "Berechnung"
+    },
+    "wizDokoncit": {
+      "titl": "Abschliessen"
+    },
+    "wizNasledujici": {
+      "titl": "Weitere >"
+    },
+    "wizPredchozi": {
+      "titl": "< Vorgehend"
+    },
+    "wizVyber": {
+      "titl": "Auswahl"
+    },
+    "zamek": {
+      "titl": "Sperre"
+    },
+    "zavrit": {
+      "titl": "Schliessen"
+    }
+  },
+  "dialogs": {
+    "aplikace-ikona": {
+      "icon": "winstrom-16x16.png"
+    },
+    "chartWizardCreator": {
+      "titl": "Begleiter durch Graphen"
+    },
+    "dateChooserDialogTitle": {
+      "titl": "Datum-Auswahl"
+    },
+    "filter": {
+      "titl": "Einstellung der Filterung"
+    },
+    "find": {
+      "titl": "Finden"
+    },
+    "hromZmenyWizard": {
+      "titl": "Begleiter durch Sammeländerungen"
+    },
+    "multiPdfMailWizard": {
+      "titl": "Sendeeinstellungen"
+    },
+    "sort": {
+      "titl": "Einstellung der Reihung"
+    },
+    "userFilterOpen": {
+      "titl": "Gespeicherte Filtereinstellung öffnen"
+    },
+    "vyberZeSeznamu": {
+      "titl": "Wählen Sie ein Element aus der Liste"
+    },
+    "webHooks": {
+      "titl": "Web Hooks"
+    },
+    "webHooksInfo.status": {
+      "titl": "Verarbeitungsstand Web Hooks"
+    }
+  },
+  "labels": {
+    "aboutDialogAutori": {
+      "titl": "Autoren"
+    },
+    "aboutDialogAutoriObchod": {
+      "titl": "Geschäft:"
+    },
+    "aboutDialogAutoriPodpora": {
+      "titl": "Unterstützung:"
+    },
+    "aboutDialogAutoriPopis": {
+      "titl": "Kontakt an die Autoren des Programms."
+    },
+    "aboutDialogConfigDir": {
+      "titl": "Konfigurationsverzeichnis"
+    },
+    "aboutDialogCsAdresa": {
+      "titl": "Adresse des Zentralservers"
+    },
+    "aboutDialogDetaily": {
+      "titl": "Details über die Applikation"
+    },
+    "aboutDialogDetailyDBServeru": {
+      "titl": "Datenbank - Server"
+    },
+    "aboutDialogDistributor": {
+      "titl": "Verteilung und Unterstützung"
+    },
+    "aboutDialogDobaOdezvy": {
+      "titl": "Antwortzeit (akt./min./max./durchschn.)"
+    },
+    "aboutDialogDobaOdezvyProxy": {
+      "titl": "Antwortzeit von Proxy (akt./min./max./durchschn./Verlust)"
+    },
+    "aboutDialogDobaOdezvyWeb": {
+      "titl": "Antwortzeit der Web (akt./min./max./durchschn./Verlust)"
+    },
+    "aboutDialogGrafickeProstredi": {
+      "titl": "Graphische Umgebung"
+    },
+    "aboutDialogHodnota": {
+      "titl": "Wert"
+    },
+    "aboutDialogIPAdresa": {
+      "titl": "IP Adresse"
+    },
+    "aboutDialogJazyk": {
+      "titl": "Sprache"
+    },
+    "aboutDialogLicenceTretichStranTab": {
+      "titl": "Lizenzen von Drittanbietern"
+    },
+    "aboutDialogMail": {
+      "titl": "E-Mail:"
+    },
+    "aboutDialogOperacniSystem": {
+      "titl": "Operationssystem"
+    },
+    "aboutDialogPamet": {
+      "titl": "Speicher (aktuell, Stack, Gesamt/Speicher)"
+    },
+    "aboutDialogPodpora": {
+      "titl": "Für Unterstützung besuchen Sie die Seiten:"
+    },
+    "aboutDialogPopis": {
+      "titl": "Ökonomische Software."
+    },
+    "aboutDialogTel": {
+      "titl": "Telefon:"
+    },
+    "aboutDialogTmpDir": {
+      "titl": "Temporäres Datenverzeichnis"
+    },
+    "aboutDialogUserDir": {
+      "titl": "Verzeichnis der Benutzerkonfiguration"
+    },
+    "aboutDialogVerze": {
+      "titl": "Version"
+    },
+    "aboutDialogVerzeCentralDatabase": {
+      "titl": "Version der Zentraldatenbank"
+    },
+    "aboutDialogVerzeCentralServeru": {
+      "titl": "Version des Zentralservers"
+    },
+    "aboutDialogVerzeDatabazeFirmy": {
+      "titl": "Version der Datenbank der Firma"
+    },
+    "aboutDialogVerzeJavy": {
+      "titl": "Java - Version"
+    },
+    "aboutDialogVerzeJavyServer": {
+      "titl": "Java-Version auf dem Server"
+    },
+    "aboutDialogVlastnost": {
+      "titl": "Eigenschaft"
+    },
+    "aboutDialogWeb": {
+      "titl": "Web:"
+    },
+    "aktivni": {
+      "titl": "Aktive Filter"
+    },
+    "attrListAttributes": {
+      "titl": "Eigenschaften des Postens"
+    },
+    "attrListItems": {
+      "titl": "Liste der Posten"
+    },
+    "centServerUserType": {
+      "titl": "Typ des Benutzers"
+    },
+    "chart.data.ostatni": {
+      "titl": "Sonstige"
+    },
+    "chartWizard.typGrafu.carovy": {
+      "titl": "Strichcode"
+    },
+    "chartWizard.typGrafu.header": {
+      "titl": "Graphtyp"
+    },
+    "chartWizard.typGrafu.kolacovy": {
+      "titl": "Kreisdiagramm"
+    },
+    "chartWizard.typGrafu.oblastni": {
+      "titl": "Regional"
+    },
+    "chartWizard.typGrafu.sloupcovy": {
+      "titl": "Spalten"
+    },
+    "chartWizard.typGrafu.vyberte": {
+      "titl": "Wählen Sie den Graphtyp."
+    },
+    "chyba": {
+      "titl": "Fehler"
+    },
+    "ciselnikObdPlatnost": {
+      "titl": "Die Gültigkeit wird in den Buchungsperioden angegeben, für unbegrenzte Gültigkeit füllen Sie das Feld nicht aus."
+    },
+    "ciselnikRokPlatnost": {
+      "titl": "Die Gültigkeit wird in den Kalenderjahren angegeben, für unbegrenzte Gültigkeit füllen Sie das Feld nicht aus."
+    },
+    "clientVersionMissmatch": {
+      "titl": "Auf dem Server erfolgte eine Aktualisierung von ABRA Flexi. Speichern Sie bitte die unvollendete Arbeit und führen Sie den Neustart der App durch, diese wird aktualisiert. Andernfalls erfolgt das automatische Beenden von ABRA Flexi und Ihre nicht gespeicherten Daten gehen verloren."
+    },
+    "columnsNezobrazenaPole": {
+      "titl": "Nicht angezeigte Felder"
+    },
+    "columnsZobrazenaPole": {
+      "titl": "Angezeigte Felder"
+    },
+    "databazeFirmyNepripojena": {
+      "titl": "Sie sind nicht zur Datenbank der Firma angeschlossen."
+    },
+    "databazeProgressPripojeniDesc": {
+      "titl": "Ich schliesse mich an die Datenquelle an..."
+    },
+    "dayDatePart": {
+      "titl": "Tag"
+    },
+    "directoryBackup": {
+      "titl": "Datensicherung"
+    },
+    "directoryExport": {
+      "titl": "Export"
+    },
+    "directoryImport": {
+      "titl": "Import"
+    },
+    "do": {
+      "titl": "Bis"
+    },
+    "dotaz": {
+      "titl": "Frage"
+    },
+    "eanScanner.ean": {
+      "titl": "EAN:"
+    },
+    "eanScanner.mnoz": {
+      "titl": "Menge:"
+    },
+    "emailTemplate": {
+      "titl": "E-Mail-Vorlage:"
+    },
+    "exportNevybraneSloupce": {
+      "titl": "Nicht exportierte Spalten"
+    },
+    "exportOtevritPoUlozeni": {
+      "titl": "Nach Speicherung in Excel öffnen"
+    },
+    "exportProgresDesc": {
+      "titl": "Export in Excel läuft..."
+    },
+    "exportVyberteSloupce": {
+      "titl": "Wählen Sie die Spalten aus, die zu exportieren sind"
+    },
+    "exportVybraneSloupce": {
+      "titl": "Exportierte Spalten"
+    },
+    "exportXlsNativni": {
+      "titl": "Exportieren in dem für den Import geeigneten Format"
+    },
+    "fileChooserSesitMicrosftExcel": {
+      "titl": "Heft Microsoft Office Excel"
+    },
+    "fileChooserSesitMicrosftExcelXlsx": {
+      "titl": "Heft Microsoft Office Excel"
+    },
+    "fileChooserWinstromXml": {
+      "titl": "ABRA Flexi XML"
+    },
+    "fileChooserZip": {
+      "titl": "ZIP-Archiv"
+    },
+    "fileFilterIcal": {
+      "titl": "Kalender iCal"
+    },
+    "fileFilterPdf": {
+      "titl": "Adobe PDF"
+    },
+    "fileFilterTxt": {
+      "titl": "Textdatei"
+    },
+    "fileFilterVcf": {
+      "titl": "Visitenkarten vCard"
+    },
+    "filter.and": {
+      "titl": "Und gleichzeitig"
+    },
+    "filter.ano": {
+      "titl": "Ja"
+    },
+    "filter.dnyPredPo": {
+      "titl": "Anzahl der Tage vor / nach"
+    },
+    "filter.do": {
+      "titl": "bis"
+    },
+    "filter.inSubtree": {
+      "titl": "%p Filter im Unterbaum %p"
+    },
+    "filter.inelements": {
+      "titl": "Beinhalten"
+    },
+    "filter.interval": {
+      "titl": "in"
+    },
+    "filter.kodableOmezeno": {
+      "titl": "%p = %p"
+    },
+    "filter.konci": {
+      "titl": "endet"
+    },
+    "filter.mensiNeboRovnoNez": {
+      "titl": "Kleiner als oder gleich wie"
+    },
+    "filter.mensiNez": {
+      "titl": "Kleiner als"
+    },
+    "filter.ne": {
+      "titl": "Nein"
+    },
+    "filter.neinterval": {
+      "titl": "Ist nicht in"
+    },
+    "filter.neobsahuje": {
+      "titl": "Beinhaltet nicht"
+    },
+    "filter.neprazdny": {
+      "titl": "Nicht leer"
+    },
+    "filter.nerovno": {
+      "titl": "Nicht gleich"
+    },
+    "filter.notinelements": {
+      "titl": "Beinhalten nicht"
+    },
+    "filter.obsahuje": {
+      "titl": "Beinhaltet"
+    },
+    "filter.od": {
+      "titl": "ab"
+    },
+    "filter.odDo": {
+      "titl": "von..bis"
+    },
+    "filter.or": {
+      "titl": "oder"
+    },
+    "filter.prazdny": {
+      "titl": "leer"
+    },
+    "filter.rovno": {
+      "titl": "Gleich"
+    },
+    "filter.vetsiNeboRovnoNez": {
+      "titl": "Grösser als oder gleich wie"
+    },
+    "filter.vetsiNez": {
+      "titl": "Grösser als"
+    },
+    "filter.zacinaS": {
+      "titl": "Beginnt mit"
+    },
+    "filterFind": {
+      "titl": "Suchen:"
+    },
+    "filterFormMultipleAndFilter": {
+      "titl": "Alle"
+    },
+    "filterFormMultipleNoneFilter": {
+      "titl": "Kein"
+    },
+    "filterFormMultipleOrFilter": {
+      "titl": "Mindestens ein"
+    },
+    "filterFormPrivatni": {
+      "titl": "Privat"
+    },
+    "filterFormSaveColumns": {
+      "titl": "Spalten und Reihungen speichern"
+    },
+    "filterFormVyberMultipleTitle": {
+      "titl": "Auswahl von gewünschten Feldern"
+    },
+    "findFormDokonceno": {
+      "titl": "Durchsuchen der Tabelle wurde beendet."
+    },
+    "findFormDolu": {
+      "titl": "Nach unten"
+    },
+    "findFormHledat": {
+      "titl": "Suchen"
+    },
+    "findFormKonecTabulky": {
+      "titl": "Das Ende der Tabelle wurde erreicht. Vom Anfang suchen?"
+    },
+    "findFormNajitVeSloupci": {
+      "titl": "In der Spalte finden"
+    },
+    "findFormNenalezeno": {
+      "titl": "Keine Eintragung, die die gegebene Bedingung für die Spalte '%p' erfüllt, wurde gefunden."
+    },
+    "findFormVse": {
+      "titl": "Alles"
+    },
+    "fiscal-yearDatePart": {
+      "titl": "Fiskaljahr"
+    },
+    "floating-dayDatePart": {
+      "titl": "Relativer Tag"
+    },
+    "floating-monthDatePart": {
+      "titl": "relativer Monat"
+    },
+    "floating-n-daysDatePart": {
+      "titl": "Relative n Tage"
+    },
+    "floating-quarterDatePart": {
+      "titl": "Relatives Quartal"
+    },
+    "floating-weekDatePart": {
+      "titl": "Relative Woche"
+    },
+    "floating-yearDatePart": {
+      "titl": "Relatives Jahr"
+    },
+    "formETitleEdit": {
+      "titl": " - Änderung der Eintragung"
+    },
+    "formETitleNew": {
+      "titl": " - Neue Eintragung"
+    },
+    "hodnota1": {
+      "titl": "Wert 1:"
+    },
+    "hodnota2": {
+      "titl": "Wert 2:"
+    },
+    "hodnotaVDatabazi": {
+      "titl": "Wert in der Datenbank"
+    },
+    "hromZmenyWizard.hodnota": {
+      "titl": "Wert"
+    },
+    "hromZmenyWizard.pole": {
+      "titl": "Felder"
+    },
+    "importXlsCollection": {
+      "titl": "Werteliste"
+    },
+    "importXlsDate": {
+      "titl": "Datum"
+    },
+    "importXlsDatetime": {
+      "titl": "Datum und Zeit"
+    },
+    "importXlsDelimiters": {
+      "titl": "Separator: , oder eine neue Zeile"
+    },
+    "importXlsDigits": {
+      "titl": "Ziffer-Zahl"
+    },
+    "importXlsDostupneSloupce": {
+      "titl": "Zugängliche Spalten"
+    },
+    "importXlsInteger": {
+      "titl": "ganze Zahl"
+    },
+    "importXlsLogic": {
+      "titl": "Logischer Wert"
+    },
+    "importXlsMaxLength": {
+      "titl": "max. Länge"
+    },
+    "importXlsMaxValue": {
+      "titl": "max. Wert"
+    },
+    "importXlsMinLength": {
+      "titl": "min. Länge"
+    },
+    "importXlsMinValue": {
+      "titl": "min. Wert"
+    },
+    "importXlsNumeric": {
+      "titl": "Dezimalzahl"
+    },
+    "importXlsObject": {
+      "titl": "Objekt"
+    },
+    "importXlsProbihaImport": {
+      "titl": "Import läuft..."
+    },
+    "importXlsString": {
+      "titl": "Kette"
+    },
+    "importXlsVlastnostiSloupcu": {
+      "titl": "Eigenschaften der importierten Spalten"
+    },
+    "importXlsVyberTabulky": {
+      "titl": "Welche Tabelle wollen Sie importieren?"
+    },
+    "importXlsVyberteSloupce": {
+      "titl": "Wählen Sie die Spalten für Import"
+    },
+    "importXlsVybraneSloupce": {
+      "titl": "Ausgewählte Spalten"
+    },
+    "importXlsVyplnenoPriImportu": {
+      "titl": "Beim Import ausgefüllt"
+    },
+    "importXlsVysledekImportu": {
+      "titl": "Importergebnis"
+    },
+    "informace": {
+      "titl": "Information"
+    },
+    "interniChyba": {
+      "titl": "Interner Fehler"
+    },
+    "konfigurovatReport": {
+      "titl": "Formular konfigurieren"
+    },
+    "linkLabelTooltip": {
+      "titl": "Öffnet den Browser an der Adresse:"
+    },
+    "listChooserFormDostHodnoty": {
+      "titl": "Erreichbare Werte"
+    },
+    "listChooserFormDostPole": {
+      "titl": "Zugängliche Felder"
+    },
+    "listChooserFormVybHodnoty": {
+      "titl": "Ausgewählte Werte"
+    },
+    "listChooserFormVybPole": {
+      "titl": "Ausgewählte Felder"
+    },
+    "listChooserWizardForm.musiteVybratPolozku": {
+      "titl": "Zuerst müssen Sie einen Posten auswählen."
+    },
+    "mailDefaultBody": {
+      "titl": "Guten Tag\nals Anlage senden wir Ihnen das versprochene Dokument."
+    },
+    "mailDefaultBodyFooter": {
+      "titl": "\n\nMit freundlichen Grüßen\n\n"
+    },
+    "mailDefaultBodyMultipleAttachments": {
+      "titl": "Guten Tag,\n\nim Anhang senden wir Ihnen die versprochenen Dokumente."
+    },
+    "mailDefaultFooterGeneratedBy": {
+      "titl": "Generiert durch das ökonomische System"
+    },
+    "manyToMany.vyberteTitle": {
+      "titl": "Wählen Sie aus"
+    },
+    "migraceNazevSouboru": {
+      "titl": "Migration"
+    },
+    "monthDatePart": {
+      "titl": "Monat"
+    },
+    "multiPdfMail1MailPrijemciLB": {
+      "titl": "<html>Aus den Belegen für eine konkrete Firma wird eine Anlage einer selbständigen e-Mail geschaffen.</html>"
+    },
+    "multiPdfMail1MailVsechnaDataLB": {
+      "titl": "<html>Aus allen Belegen wird eine Anlage einer selbständigen e-Mail geschaffen.</html>"
+    },
+    "multiPdfMailNMailuPrijemciLB": {
+      "titl": "<html>Jeder Beleg wird als Anlage einer selbständigen e-Mail gesendet.</html>"
+    },
+    "multiPdfMailUvod": {
+      "titl": "<html>In der Auswahl ist die Firma mehrmals vertreten.<br> Möchten Sie die Belege für diese Firma getrennt oder in einer Nachricht senden?</html>"
+    },
+    "neniImplementovano": {
+      "titl": "Diese Funktion ist nicht vorläufig implementiert."
+    },
+    "neomezen": {
+      "titl": "Nicht begrenzt"
+    },
+    "neomezena": {
+      "titl": "Nicht begrenzt"
+    },
+    "nezaskrnuto": {
+      "titl": "Nicht angekreuzt"
+    },
+    "oProgramu": {
+      "titl": "Über die Applikation ABRA Flexi"
+    },
+    "obnovitDBProgressTitle": {
+      "titl": "Ich erneuere die Firma..."
+    },
+    "od": {
+      "titl": "Von"
+    },
+    "odebrat": {
+      "titl": "Entfernen"
+    },
+    "openWindowInNew": {
+      "titl": "Im neuen Fenster"
+    },
+    "openWindowStart": {
+      "titl": "Öffnen"
+    },
+    "operace": {
+      "titl": "Operation:"
+    },
+    "orderRaditPodlePole": {
+      "titl": "Nach den Feldern reihen"
+    },
+    "poslatReakciOsloveni": {
+      "titl": "Sie können uns die Reaktion schicken:"
+    },
+    "pridat": {
+      "titl": "Zugeben"
+    },
+    "progressDesc": {
+      "titl": "Warten Sie bitte..."
+    },
+    "progressInterupted": {
+      "titl": "Ich beende den Prozess..."
+    },
+    "quarterDatePart": {
+      "titl": "Quartal"
+    },
+    "razeni": {
+      "titl": "Reihung"
+    },
+    "remoteLogoutAction": {
+      "titl": "Ich erneuere die Session und warte auf die Abmeldung sonstiger Einrichtungen…"
+    },
+    "remoteLogoutHeading": {
+      "titl": "Fernabmeldung"
+    },
+    "remoteLogoutQuestion": {
+      "titl": "Ihr Konto wird gleichzeitig auch auf einer anderen Einrichtung verwendet.\nWollen Sie diese Session fortsetzen und so die sonstigen ungültig machen?"
+    },
+    "reportJazykReportu": {
+      "titl": "Sprache des Reportes"
+    },
+    "reportMailProgresDesc": {
+      "titl": "Die Vorbereitung der E-Mails läuft..."
+    },
+    "reportNahledTisku": {
+      "titl": "Druckansicht"
+    },
+    "reportProgresDesc": {
+      "titl": "Reporter-Bearbeitung läuft..."
+    },
+    "reportSmtpProgresDesc": {
+      "titl": "Das Absenden der E-Mails läuft..."
+    },
+    "reportTisknoutAktualniZaznam": {
+      "titl": "Aktuelle Eintragung"
+    },
+    "reportTisknoutRozsirenouVerzi": {
+      "titl": "Erweiterte Version der Drucklisten"
+    },
+    "reportTisknoutVodiciCary": {
+      "titl": "Leitlinien drucken"
+    },
+    "reportTisknoutVse": {
+      "titl": "Alle Eintragungen drucken"
+    },
+    "reportTisknoutVybrane": {
+      "titl": "Ausgewählte Eintragungen"
+    },
+    "reportTisknoutZaznamyOdDo": {
+      "titl": "Eintragungen"
+    },
+    "reportVyberReportu": {
+      "titl": "Auswahl der Druckliste"
+    },
+    "reportVytiskl": {
+      "titl": "Gedruckt"
+    },
+    "restartChangesWatcher.description": {
+      "titl": "Neue Wahl des Web Hooks Knotens (ohne Neustart der Komponenten)"
+    },
+    "restartWebHooks.description": {
+      "titl": "Kompletter Neustart von Web Hooks (inkl. der Komponenten)"
+    },
+    "settingColumnsDefaultDeleteColSettings": {
+      "titl": "Die Einstellung der Spalten von allen Benutzern löschen und dieses benutzen."
+    },
+    "skryte": {
+      "titl": "Verdeckte Spalten"
+    },
+    "staleStateDatabaze": {
+      "titl": "Datenbank"
+    },
+    "staleStateUzivatel": {
+      "titl": "Benutzer"
+    },
+    "status": {
+      "titl": "Stand"
+    },
+    "statusBar.cisloZakaznika": {
+      "titl": "Kundennummer:"
+    },
+    "substringPart": {
+      "titl": "Subkette"
+    },
+    "talkbackDescriptionConnectionError": {
+      "titl": "Die Kommunikation mit dem Daten-Server wurde aufgrund von Netzwerk-Fehler unterbrochen."
+    },
+    "talkbackDescriptionHowSendInfo": {
+      "titl": "Sie senden die Fehlermeldung ab, indem Sie auf die Taste \"Fehlermeldung absenden\" klicken."
+    },
+    "talkbackDescriptionUnknownError": {
+      "titl": "Fehler in der Applikation."
+    },
+    "talkbackDetail": {
+      "titl": "Detail des Fehlers:"
+    },
+    "talkbackDetailUnknown": {
+      "titl": "Es ist nicht gelungen, das Fehlerdetail zu gewinnen."
+    },
+    "talkbackTitle": {
+      "titl": "Applikationsfehler"
+    },
+    "technickePodrobnosti": {
+      "titl": "Technische Details"
+    },
+    "testerPane": {
+      "titl": "Tester - Panne"
+    },
+    "upgradovatDBSpousteniSkriptu": {
+      "titl": "Ich starte die Skripten für die Aktualisierung der Datenbank der Firma..."
+    },
+    "upravit": {
+      "titl": "Bearbeiten"
+    },
+    "varovani": {
+      "titl": "Warnung"
+    },
+    "vaseHodnota": {
+      "titl": "Ihr Wert"
+    },
+    "viditelne": {
+      "titl": "Sichtbare Spalten"
+    },
+    "vlastnost": {
+      "titl": "Eigenschaft"
+    },
+    "voFieldDefaultTooltip": {
+      "titl": "Drücken Sie die Taste \"F2\" für die Anzeige des Auswahldialogs"
+    },
+    "webHooksInfo.httpStatus.pool": {
+      "titl": "Verbindungsstatistik"
+    },
+    "webHooksInfo.httpStatus.routes": {
+      "titl": "Liste der Strecken"
+    },
+    "webHooksInfo.status.currentWatcherPriority": {
+      "titl": "Priorität des gewählten Servers"
+    },
+    "webHooksInfo.status.dedicated": {
+      "titl": "Bevorzugter Server"
+    },
+    "webHooksInfo.status.enabled": {
+      "titl": "Verarbeitung genehmigt"
+    },
+    "webHooksInfo.status.executorActiveThreads": {
+      "titl": "Der aktiven Faser"
+    },
+    "webHooksInfo.status.executorCompletedTasks": {
+      "titl": "Der beendeten Aufgaben"
+    },
+    "webHooksInfo.status.executorPoolSize": {
+      "titl": "Poolgrösse"
+    },
+    "webHooksInfo.status.executorPoolSizeMax": {
+      "titl": "Max. Poolgrösse"
+    },
+    "webHooksInfo.status.executorState": {
+      "titl": "Stand"
+    },
+    "webHooksInfo.status.executorWaitingTasks": {
+      "titl": "Der wartenden Aufgaben"
+    },
+    "webHooksInfo.status.firingHooks": {
+      "titl": "Aktuell abgesendete Hooks"
+    },
+    "webHooksInfo.status.firingHooksExecutor": {
+      "titl": "Absendung von Hooks"
+    },
+    "webHooksInfo.status.httpClient": {
+      "titl": "Stand von HTTP"
+    },
+    "webHooksInfo.status.notifiedCompanies": {
+      "titl": "Aktuell notifizierte Firmen"
+    },
+    "webHooksInfo.status.notifyHooksExecutor": {
+      "titl": "Notifizierung von Hooks"
+    },
+    "webHooksInfo.status.priority": {
+      "titl": "Priorität des Servers"
+    },
+    "webHooksInfo.status.scheduledHooks": {
+      "titl": "Geplante Hooks"
+    },
+    "webHooksInfo.status.watchedCompanies": {
+      "titl": "Beobachtete Firmen"
+    },
+    "webHooksInfo.status.watchingState": {
+      "titl": "Stand der Verfolgung der Änderungen"
+    },
+    "weekDatePart": {
+      "titl": "Woche"
+    },
+    "yearDatePart": {
+      "titl": "Jahr"
+    },
+    "zalohaProgressTitle": {
+      "titl": "Ich sichere die Firma ..."
+    },
+    "zalohovatDBUkoncit": {
+      "titl": "Nach erfolgreicher Sicherung sofort beenden"
+    },
+    "zaskrtnuto": {
+      "titl": "Angekreuzt"
+    }
+  },
+  "messages": {
+    "aboutDialogChybaNacitaniIP": {
+      "titl": "Es ist nicht gelungen, die IP -Adresse des Computers vor Ort zu gewinnen."
+    },
+    "adresaNeplatna": {
+      "titl": "Die Adresse ist ungültig."
+    },
+    "adresaNeplatnaUrl": {
+      "titl": "Die Adresse %p ist ungültig."
+    },
+    "akceEvidenceList": {
+      "titl": "Die Aktion ist für folgende Evidenzen verfügbar: %p"
+    },
+    "akceNepodporovana": {
+      "titl": "Diese Aktion wird hier nicht unterstützt."
+    },
+    "akcePristupOdepren": {
+      "titl": "Sie haben keinen Zutritt."
+    },
+    "aplikaceBezPripojeniDbNelzePokracovat": {
+      "titl": "Ohne Anschluss zur Datenquelle kann man nicht weiter fortfahren."
+    },
+    "aplikaceBudeUkoncena": {
+      "titl": "Applikation wird beendet werden."
+    },
+    "aplikacniNastaveniChybaNacitani": {
+      "titl": "Die Datei %p mit der Applikationseinstellung ist nicht einzulesen."
+    },
+    "aplikacniNastaveniChybaZapisu": {
+      "titl": "Es ist nicht gelungen, die Einstellung der Applikation zu speichern."
+    },
+    "authRequired": {
+      "titl": "Autorisierung erforderlich."
+    },
+    "authSessionClosed": {
+      "titl": "Ihre Session wurde beendet."
+    },
+    "autoZaokrouhleni": {
+      "titl": "Der Wert '%p' wurde auf '%p' gerundet."
+    },
+    "centServerBlokovanyUzivatel": {
+      "titl": "Eingegebenes Benutzerkonto ist blockiert."
+    },
+    "centServerChybaIO": {
+      "titl": "Eingangs-/Ausgangsfehler bei der Kommunikation mit dem Zentralserver."
+    },
+    "centServerChybaKomunikace": {
+      "titl": "Bei der Kommunikation mit dem Zentralserver ist ein Fehler vorgekommen."
+    },
+    "centServerChybaNavazani": {
+      "titl": "Bei der Anknüpfung der Verbindung mit dem Zentralserver ist ein Fehler vorgekommen."
+    },
+    "centServerChybneJmenoCiHeslo": {
+      "titl": "Der eingegebene Name oder das eingegebene Passwort war nicht richtig"
+    },
+    "centServerCompanyStateException": {
+      "titl": "Firma '%p' ist im Stand '%p'."
+    },
+    "centServerNepripojen": {
+      "titl": "Sie sind nicht zum Zentralserver angeschlossen."
+    },
+    "centServerNotApplicationUser": {
+      "titl": "Benutzer des Typs %p ist nicht berechtigt, die Benutzerschnittstelle zu verwenden."
+    },
+    "centServerNotAuthorizedOperation": {
+      "titl": "Benutzer ist nicht berechtigt (%p) zur Durchführung der verlangten Operation."
+    },
+    "centServerStartingException": {
+      "titl": "Der Zentralserver startet, warten Sie bitte."
+    },
+    "ciselnikDaoChybaMaximalniKod": {
+      "titl": "Es ist nicht gelungen, den Wert des maximalen Codes aus der Datenquelle zu gewinnen."
+    },
+    "ciselnikDaoChybaPosledniKod": {
+      "titl": "Es ist nicht gelungen, den Wert des letzten Codes aus der Datenquelle zu gewinnen."
+    },
+    "ciselnikDuplicitniZkratka": {
+      "titl": "Die Abkürzung '%p' benutzt schon eine andere Eintragung."
+    },
+    "ciselnikMimoObdobi": {
+      "titl": "Es ist nicht erlaubt, die Gültigkeit ausser aktueller Buchungsperiode einzustellen."
+    },
+    "codeIdNotSupported": {
+      "titl": "Objekt [%p] unterstützt keine CODE-ID (code:%p)."
+    },
+    "comboTextAreaTooltip": {
+      "titl": "Im Fenster öffnen."
+    },
+    "concurrentProcedureRunning": {
+      "titl": "Der derzeit laufende Vorgang '%p', der von Benutzer %p in %p gestartet wurde, erlaubt nicht die gleichzeitige Ausführung von '%p'."
+    },
+    "connectionBindDetailError": {
+      "titl": "Es ist nicht gelungen, sich zur Datenbank anzuschliessen. Server hat den Fehler zurückgegeben : %p"
+    },
+    "connectionBindError": {
+      "titl": "Es ist nicht gelungen, sich an die Datenbank anzuschliessen. Kontrollieren Sie ihre Adresse und Port."
+    },
+    "connectionCloseError": {
+      "titl": "Es ist nicht gelungen, den Anschluss an Datenbank zu beenden."
+    },
+    "connectionNepodariloZiskat": {
+      "titl": "Es ist nicht gelungen, sich an die Datenquelle anzuschliessen."
+    },
+    "countryNotAllowedByLicense": {
+      "titl": "Der Ländercode '%p' ist in der Lizenz nicht zulässig."
+    },
+    "daoChybaPraceSDatabazi": {
+      "titl": "Der Fehler ist bei der Arbeit mit der Datenbank entstanden."
+    },
+    "daoChybaProvadeniUlozeneProcedury": {
+      "titl": "Der Fehler während der Durchführung der gespeicherten Prozedur."
+    },
+    "daoDetekovanKonkurenciPristup": {
+      "titl": "Konkurrenzzugriff zu dieser Eintragung entdeckt."
+    },
+    "daoNejdeSmazatOdkaz": {
+      "titl": "Die Eintragung ist nicht zu löschen, weil eine andere Eintragung darauf gebunden ist."
+    },
+    "daoNekonzistDatabazeViceZaznamu": {
+      "titl": "Inkonsistenz in der Datenbank.\nEs wurden mehrere Eintragungen mit dem identischen Code '%p' gefunden."
+    },
+    "daoNekonzistDatabazeViceZaznamuDleCUctu": {
+      "titl": "Inkonsistenz in der Datenbank.\nEs wurden mehrere Eintragungen mit der identischen Kontonummer '%p‘ gefunden."
+    },
+    "daoNeniUnikatniKod": {
+      "titl": "Unter dem eingegebenen Code besteht schon eine Eintragung. Der eingegebene Code muss einzigartig sein."
+    },
+    "daoNepodariloOdstranitZDatabaze": {
+      "titl": "Es ist nicht gelungen, die Eintragung aus der Datenbank zu entfernen."
+    },
+    "daoPocetRadekMimoRozsah": {
+      "titl": "Die Reihenzahl in der Tabelle ist ausser dem begrenzten Bereich."
+    },
+    "daoPoruseniIntegrity": {
+      "titl": "Störung der integrierten Einschränkungen"
+    },
+    "daoSelhaloPripojeniKDatovemuZdroji": {
+      "titl": "Der Anschluss zur Datenquelle ist ausgefallen."
+    },
+    "daoZaznamNepodariloNacist": {
+      "titl": "Es ist nicht gelungen, die gewünschte Eintragung aus der Datenbank einzulesen."
+    },
+    "daoZaznamNepodariloUlozit": {
+      "titl": "Es ist nicht gelungen, die Eintragung in die Datenbank zu speichern."
+    },
+    "daoZaznamyCiselnikSeNepodariloNacist": {
+      "titl": "Es ist nicht gelungen, die Eintragungen für die Stammdatei '%p' (#%p) aus der Datenquelle einzulesen"
+    },
+    "daoZaznamyFormulareSeNepodariloNacist": {
+      "titl": "Es ist nicht gelungen, die Eintragungen für das Formular '%p' (#%p) aus der Datenquelle einzulesen"
+    },
+    "daoZaznamyLokCiselnikSeNepodariloNacist": {
+      "titl": "Es ist nicht gelungen, die Eintragungen für die lokalisierten Stammdaten (#%p) aus der Datenquelle einzulesen"
+    },
+    "daoZaznamyParamNeexistuje": {
+      "titl": "Es wurde die Eintragung nach den Parameters nicht gefunden: %p."
+    },
+    "daoZaznamyParamVice": {
+      "titl": "Mehrere Eintragungen nach den Parametern wurden gefunden: %p."
+    },
+    "daoZaznamySeznamuSeNepodariloNacist": {
+      "titl": "Es ist nicht gelungen, die Aufnahmen für die Liste '%p' (#%p) von der Datenquelle einzulesen."
+    },
+    "dbCreatingError": {
+      "titl": "Fehler bei der Gestaltung der Datenbank."
+    },
+    "dbCreatingImportInitialFailed": {
+      "titl": "Fehler beim Importieren der Ausgangsdaten."
+    },
+    "desktopErrorOpeningBrowser": {
+      "titl": "Es ist nicht gelungen, den Ausgangswebbrowser zu öffnen.\nBesuchen Sie bitte die Adresse %p."
+    },
+    "desktopErrorOpeningFile": {
+      "titl": "Es ist nicht gelungen, Datei %p zu öffnen.\n Öffnen sie diese bitte manuell."
+    },
+    "desktopErrorOpeningMail": {
+      "titl": "Es ist nicht gelungen, den postalischen Ausgangsklienten zu öffnen.\nSchreiben Sie an die Adresse %p."
+    },
+    "duvod": {
+      "titl": "Grund"
+    },
+    "eanIdNotSupported": {
+      "titl": "Objekt [%p] unterstützt keine EAN-ID (ean:%p)."
+    },
+    "exportICalNeprobehlUspesne": {
+      "titl": "Export in iCal war nicht erfolgreich."
+    },
+    "exportICalProbehlUspesne": {
+      "titl": "Export in iCal war erfolgreich."
+    },
+    "exportICalProgresDesc": {
+      "titl": "Export in iCal läuft."
+    },
+    "exportVCardNeprobehlUspesne": {
+      "titl": "Export in vCard war nicht erfolgreich."
+    },
+    "exportVCardProbehlUspesne": {
+      "titl": "Export in vCard war erfolgreich."
+    },
+    "exportVCardProgresDesc": {
+      "titl": "Export in vCard läuft."
+    },
+    "exportXlsNeprobehlUspesne": {
+      "titl": "Export in Excel ist nicht gelungen."
+    },
+    "exportXlsPrekrocenLimitPocetRadek": {
+      "titl": "Limit für die Zeilenanzahl (65536) des Formats XLS überschritten. Verwenden Sie das Format XLSX."
+    },
+    "exportXlsProbehlUspesne": {
+      "titl": "Export in Excel ist erfolgreich verlaufen."
+    },
+    "exportXmlNeprobehlUspesne": {
+      "titl": "Export in XML war nicht erfolgreich."
+    },
+    "exportXmlProbehlUspesne": {
+      "titl": "Export in XML war erfolgreich."
+    },
+    "exportXmlProgresDesc": {
+      "titl": "Export in XML läuft."
+    },
+    "featureNotSupportedByLicence": {
+      "titl": "Ihre Lizenz berechtigt Sie nicht zur Verwendung dieser Funktion."
+    },
+    "fileNepodariloSeUzavritSoubor": {
+      "titl": "Es ist nicht gelungen, die Datei zu schliessen."
+    },
+    "filePrepsatSoubor": {
+      "titl": "Wollen Sie die Datei umschreiben?"
+    },
+    "filterFind": {
+      "titl": "Suchen:"
+    },
+    "filterFormChybaPriUlozeniFiltru": {
+      "titl": "Es ist nicht gelungen, die aktuelle Filtereinstellung zu speichern."
+    },
+    "filterFormFiltrProVlastnostChybaPreset": {
+      "titl": "Die Einstellung der Filterung für Feld %p ist beschädigt."
+    },
+    "filterFormIgnorovanFiltrProVlastnost": {
+      "titl": "Filtereinstellung für Eigenschaft %p ignoriert."
+    },
+    "filterFormLoadDataFailed": {
+      "titl": "Es ist nicht gelungen, die Daten ins Formular für die Einstellung von Filtern einzulesen."
+    },
+    "filterFormNazevFiltruMusiBytVyplnen": {
+      "titl": "Name des Filters muss eingetragen sein."
+    },
+    "filterFormUlozeniPrepsatNeboNovy.message": {
+      "titl": "Wollen Sie die ursprüngliche Filtereinstellung umschreiben oder diese neu speichern?"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.novy": {
+      "titl": "Neu"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.prepsat": {
+      "titl": "Umschreiben"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.title": {
+      "titl": "Speicherung der Filtereinstellung."
+    },
+    "filterFormUlozeniPrepsatNeboNovy.zrusit": {
+      "titl": "Aufheben"
+    },
+    "filterFormZadejteNazevFiltru": {
+      "titl": "Geben Sie bitte den Namen der zu speichernden Filtereinstellung ein."
+    },
+    "filterIdUnsupported": {
+      "titl": "Dieser Datensatz unterstützt keine Identifikatoren oder Filterung von Datensätzen."
+    },
+    "filtrAplikovan": {
+      "titl": "Der Filter wird gerade appliziert."
+    },
+    "firmaNeexistuje": {
+      "titl": "Das Unternehmen %p existiert nicht."
+    },
+    "formBudeUzavren": {
+      "titl": "Das Formular wird geschlossen werden."
+    },
+    "formChybaAktualizaceBOkna": {
+      "titl": "Fehler bei der Aktualisierung des B - Fensters"
+    },
+    "formDaoException": {
+      "titl": "Es ist ein Problem in der Kommunikation mit der Datenquelle vorgekommen."
+    },
+    "formEVerifikaceSelhala": {
+      "titl": "Es ist nicht gelungen, die Kontrolle der Richtigkeit von Datenausfüllen durchzuführen."
+    },
+    "formInterruptFormBudeUzavren": {
+      "titl": "Es ist kritischer Fehler vorgekommen, deswegen wird es nötig sein, das Formular zu schliessen."
+    },
+    "formInterruptFormNelzeOtevrit": {
+      "titl": "Es ist kritischer Fehler vorgekommen, deswegen ist es nicht gelungen, das Formular zu öffnen."
+    },
+    "formNejdeOtevritZaznam": {
+      "titl": "Es ist unmöglich, gewünschte Eintragung zu öffnen."
+    },
+    "formNejdePrejitNovyZaznam": {
+      "titl": "Es ist unmöglich, auf neue Eintragung zu wechseln."
+    },
+    "formNeopravnenyPokusSmazani": {
+      "titl": "Unberechtigter Versuch um das Löschen der Eintragung."
+    },
+    "formPreSaveChcesUlozit": {
+      "titl": "Wollen Sie fortsetzen?"
+    },
+    "formRecordNotSaved": {
+      "titl": "Der Datensatz %p [%p] konnte nicht gespeichert werden. Bitte geben Sie diesen Fehler an und beschreiben Sie, was diesem Ereignis vorausgegangen ist."
+    },
+    "formUkladaniSelhalo": {
+      "titl": "Das Speichern hat versagt."
+    },
+    "formZaznamNelzeUlozit": {
+      "titl": "Die Eintragung kann man nicht speichern."
+    },
+    "formZaznamNenalezen": {
+      "titl": "Die Eintragung wurde in der Datenquelle nicht gefunden."
+    },
+    "formZdrojNenalezen": {
+      "titl": "Die geforderte Quelle nicht gefunden."
+    },
+    "formZnovunacneniProblem": {
+      "titl": "Beim Wiedereinlesen der gespeicherten Eintragung ist ein Fehler vorgekommen."
+    },
+    "formularNenastaven": {
+      "titl": "Für die Entität '%p' ist das Editationsformular nicht eingestellt."
+    },
+    "formularPrilisMnohoOken": {
+      "titl": "Sie haben zu viele geöffnete Fenster\nZuerst ist es nötig, einige zu schliessen."
+    },
+    "formularPristupOdepren": {
+      "titl": "Zu diesem Formular haben Sie keinen erlaubten Zugriff."
+    },
+    "helpChceteOtevritNapoveduKProblemu": {
+      "titl": "Wollen Sie die Hilfe zu diesem Problem öffnen?"
+    },
+    "hodnotyBudouVypoctenyPoUlozeni": {
+      "titl": "Feldwerte werden erst nach dem Speichern berechnet."
+    },
+    "hromZmenyWizard.header": {
+      "titl": "Einstellung der Sammeländerung"
+    },
+    "hromZmenyWizard.nothingSelected": {
+      "titl": "Kein Posten ist ausgewählt."
+    },
+    "hromZmenyWizard.updateDotaz": {
+      "titl": "Wollen Sie wirklich Sammeländerung durchführen?"
+    },
+    "hromZmenyWizard.updateError": {
+      "titl": "Es ist nicht gelungen, die Sammeländerung durchzuführen."
+    },
+    "hromZmenyWizard.vyberte": {
+      "titl": "Wählen Sie das Feld aus und geben Sie den verlangten Wert ein."
+    },
+    "i18nFieldSchovatOstatniJazyky": {
+      "titl": "Sonstige Sprachen ausblenden."
+    },
+    "i18nFieldZobrazitOstatniJazyky": {
+      "titl": "Sonstige Sprachen anzeigen."
+    },
+    "ibanIdNotSupported": {
+      "titl": "Objekt [%p] unterstützt keine IBAN-ID (iban:%p)."
+    },
+    "importSeNepodarilZDuvodu": {
+      "titl": "Import aus %p hat versagt. .\n Beseitigen Sie unten beschriebene Probleme und importieren Sie noch einmal."
+    },
+    "importSkoncilSVarovanim": {
+      "titl": "Import aus %p endete mit Warnung.\n Kontrollieren Sie oben beschriebene Warnung, wiederholen Sie eventuell den Import."
+    },
+    "importUkoncitProcesDotaz": {
+      "titl": "Wollen Sie wirklich den verlaufenden Import beenden?"
+    },
+    "importXlsBunkaNeniBoolean": {
+      "titl": "Die Zelle ist kein logischer Wert"
+    },
+    "importXlsBunkaNeniCalendar": {
+      "titl": "Die Zelle ist kein Datum."
+    },
+    "importXlsBunkaNeniDouble": {
+      "titl": "Die Zelle ist keine Dezimalzahl."
+    },
+    "importXlsBunkaNeniInteger": {
+      "titl": "Die Zelle ist keine ganze Zahl."
+    },
+    "importXlsBunkaNeniString": {
+      "titl": "Die Zelle ist keine Kette."
+    },
+    "importXlsCellLocation": {
+      "titl": "Zeile %p, Spalte %p -"
+    },
+    "importXlsCellLocationProperty": {
+      "titl": "Zeile %p, Eigenschaft %p -"
+    },
+    "importXlsChybnyFormatXls": {
+      "titl": "Es ist nicht gelungen, die Datei einzulesen.\nWollen Sie die Hilfe zum Problem anzeigen?"
+    },
+    "importXlsImportProbehlUspesne": {
+      "titl": "Der Import ist erfolgreich verlaufen."
+    },
+    "importXlsImportSeNezdaril": {
+      "titl": "Der Import ist nicht gelungen."
+    },
+    "importXlsNeexistujeObjekt": {
+      "titl": "Es gibt kein Objekt des Typs %p mit dem Wert des Codes %p."
+    },
+    "importXlsNeniMozneImportovatNecodableObjekt": {
+      "titl": "Es ist nicht möglich, das Objekt anders als nach der Abkürzung (%p) auszusuchen."
+    },
+    "importXlsNeniVyplnenoMandatory": {
+      "titl": "Die Pflichtzelle ist nicht ausgefüllt."
+    },
+    "importXlsNepodariloSeNacistSoubor": {
+      "titl": "Es ist nicht gelungen, die Datei für den Import einzulesen."
+    },
+    "importXlsNepodariloSeOtevritSoubor": {
+      "titl": "Das Öffnen der Datei versagte."
+    },
+    "importXlsNepodporovanyFormatOds": {
+      "titl": "Das OpenDocument Spreadsheet (ODS)-Dokumentenformat wird nicht unterstützt, konvertieren Sie die Datei zunächst in das XLS-Format."
+    },
+    "importXlsNeproslaValidace": {
+      "titl": "Es ist nicht gelungen das Objekt zu validieren."
+    },
+    "importXlsNevalidniFormat": {
+      "titl": "Die XLS-Version des importierten Dateiformats wird nicht unterstützt. Versuchen Sie, die Datei in einem anderen Format zu speichern."
+    },
+    "importXlsPolozkuNelzeOdstranit": {
+      "titl": "Der ausgewählte Posten muss importiert werden."
+    },
+    "importXlsSelhalZapisDoSouboru": {
+      "titl": "Die Eintragung in die Datei hat versagt"
+    },
+    "importXlsSkladKartaNeniVybranTypDokl": {
+      "titl": "Kein Lager Belegtyp ausgewählt."
+    },
+    "importXlsZadnaNovaDataNebylaNaimportovana": {
+      "titl": "Keine neuen Daten wurden gefunden."
+    },
+    "importXmlActionJenPersistentni": {
+      "titl": "Das Objekt muss noch erstellt werden, es kann keine Aktion durchgeführt werden."
+    },
+    "importXmlActionNotSupported": {
+      "titl": "Das Attribut 'action' enthält einen schlechten Wert. Für das gegebene Objekt darf es nur enthalten: %p"
+    },
+    "importXmlChceteProvestImport": {
+      "titl": "Wollen Sie folgende Eintragungen importieren?"
+    },
+    "importXmlEmptyIdentifier": {
+      "titl": "Leerer Wert von Identzifizierer (%p)."
+    },
+    "importXmlIdentRuznychObjektu": {
+      "titl": "Identifizierer %p spezifiziert eine andere Eintragung als %p."
+    },
+    "importXmlInternalError": {
+      "titl": "Interner Fehler der App."
+    },
+    "importXmlInvalidStartTag": {
+      "titl": "Das Wurzelelement %p wird nicht unterstützt. Unterstützte Elemente: %p."
+    },
+    "importXmlJeZamceno": {
+      "titl": "Die Eintragung ist gesperrt."
+    },
+    "importXmlKAktualizaci": {
+      "titl": "Zur Aktualisierung"
+    },
+    "importXmlKSmazani": {
+      "titl": "Zum Löschen"
+    },
+    "importXmlMissingElement": {
+      "titl": "Das Element '%p' ist obligatorisch."
+    },
+    "importXmlMissingIdentifier": {
+      "titl": "Der Bezeichner (%p) ist nicht angegeben."
+    },
+    "importXmlNeexistujeStitek": {
+      "titl": "Es gibt keine Etikette mit Code %p."
+    },
+    "importXmlNelzeUpdate": {
+      "titl": "Die Aufzeichnung %p kann nicht geändert werden."
+    },
+    "importXmlNeopravnenyCreate": {
+      "titl": "Sie sind nicht berechtigt, die Eintragung im Register %p zu schaffen."
+    },
+    "importXmlNeopravnenyDelete": {
+      "titl": "Sie sind nicht berechtigt, die Eintragung im Register %p zu löschen."
+    },
+    "importXmlNeopravnenyUpdate": {
+      "titl": "Sie sind nicht berechtigt, die Eintragung im Register %p zu ändern."
+    },
+    "importXmlNeplatnyCiselnik": {
+      "titl": "%p ist kein gültiger Code der lokalisierten Stammdaten %p."
+    },
+    "importXmlNepodporovanyUzel": {
+      "titl": "Nicht unterstützter Knoten %p gefunden."
+    },
+    "importXmlNepodporujeExtId": {
+      "titl": "%p unterstützt nicht externe Identifizierer."
+    },
+    "importXmlNeuvadetRemoveAllAMode": {
+      "titl": "In einem Element können nicht zugleich die Attribute 'removeAll' und 'mode‘ verwendet werden."
+    },
+    "importXmlNonScalarIdValue": {
+      "titl": "Wert '%p' Elements '%p' ist kein Skalarwert."
+    },
+    "importXmlNotFoundForIdentifier": {
+      "titl": "Der Datensatz für den Parameter '%p' wurde in der Datenquelle nicht gefunden."
+    },
+    "importXmlNove": {
+      "titl": "Neu"
+    },
+    "importXmlObjektNepodporujeExterniId": {
+      "titl": "%p unterstützt nicht externe id."
+    },
+    "importXmlRelacniRezim": {
+      "titl": "Der Importer '%p' ist im Relationsmodus und erlaubt lediglich die Erstellung von Bindungen zu existierenden Objekten."
+    },
+    "importXmlSchaziPravoZamykat": {
+      "titl": "Sie sind nicht berechtigt, die Belege zu sperren."
+    },
+    "importXmlSingletonElement": {
+      "titl": "Das Element '%p' kann nur einmal angegeben werden."
+    },
+    "importXmlUnsupportedVersion": {
+      "titl": "Die Version der importierten Datei fehlt oder wird nicht unterstützt. Unterstützte Version: %p."
+    },
+    "importXmlZaznamObsahujeChybu": {
+      "titl": "Eintragung Nr. %p beinhaltet Fehler: %p"
+    },
+    "inIdNotSupported": {
+      "titl": "Objekt [%p] unterstützt keine IN-ID (in:%p)."
+    },
+    "inputParamContr.nevyplnen": {
+      "titl": "Parameter '%p' muss eingetragen sein."
+    },
+    "invalidExtIdFormat": {
+      "titl": "ExtId hat die falsche Form %p."
+    },
+    "invalidWinstromId": {
+      "titl": "Die Winstrom-ID (%p) hat das falsche Format."
+    },
+    "itemAlreadyLinked": {
+      "titl": "Der Eintrag %p ist bereits an das übergeordnete Objekt [%p] gebunden, er kann nicht an ein anderes gebunden werden."
+    },
+    "jsonNeplatny": {
+      "titl": "Ungültiges JSON-Format: %p"
+    },
+    "keyIdNotSupported": {
+      "titl": "Objekt [%p] unterstützt KEY-ID (key:%p) nicht."
+    },
+    "licenceAfterRentToInfo": {
+      "titl": "Überprüfen Sie bitte die Gebührenbezahlung für ABRA Flexi nach %p.\n%p\n\n<b>Wenn keine Zahlung erfolgt, ist der Dienst nur im schreibgeschützten Modus ab %p verfügbar.</b>\n\nBeim Unklarheit kontaktieren Sie bitte Vertrieb [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceContactLicenseOwner": {
+      "titl": "Kontaktieren Sie den Eigentümer / Administrator der Lizenz."
+    },
+    "licenceReadOnlyDialog": {
+      "titl": "Die Lizenz hat keine Vermietungsdauer erfasst, darum ist der Dienst <b>nur zum Lesen</b>.\nBitte wenden Sie sich an den Vertrieb [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceReadOnlyInfo": {
+      "titl": "Weil Sie die Gebühr für ABRA Flexi nach %p nicht bezahlen haben, ist der Dienst <b>nur für Lesen</b> verfügbar.\n%p\n\n<b>Wenn keine Zahlung erfolgt, ist der Dienst ab %p nicht verfügbar.</b>\n\nBeim Unklarheit kontaktieren Sie bitte Vertrieb [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceValidToExpiredShutDown": {
+      "titl": "Die Lizenz war auf %p beschränkt. Der Grund hierfür können unbezahlte Belege sein. <b>Die Anwendung wird geschlossen.</b>\n%p\n\nBeim Unklarheit kontaktieren Sie bitte Vertrieb [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceZakaznickyOdkazMojeLicence": {
+      "titl": "Ihr Kundenlink mit einer Übersicht der ausgestellten Dokumente: <b>[Meine Lizenz](%p)</b>."
+    },
+    "licenseBlockedTitle": {
+      "titl": "Die gesperrte Lizenz"
+    },
+    "licenseRentToExpiredTitle": {
+      "titl": "Die abgelaufene Vermietungsdauer"
+    },
+    "loadingDataFailed": {
+      "titl": "Das Laden von Daten aus der Datenquelle ist fehlgeschlagen."
+    },
+    "loginDialogBlokovanaLicenceUzivatele": {
+      "titl": "Blockierte Lizenz: <b>%p</b>\n\nBei Unklarheit kontaktieren Sie bitte Vertrieb [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "longExceptionMessageCut": {
+      "titl": "Der Rest des Textes zugeschnitten."
+    },
+    "mailDefaultFooter": {
+      "titl": "Durch das ökonomische System %p generiert"
+    },
+    "mailDefaultFromNotFound": {
+      "titl": "Die Standard E-Mail-Adresse ist weder in den Benutzereinstellungen noch in den SMTP-Servereinstellungen definiert."
+    },
+    "mailNepodariloSeOdeslat": {
+      "titl": "Es ist nicht gelungen, die E-Mail zu schicken."
+    },
+    "manyToManyCtrl.OdeberVyberObjekt": {
+      "titl": "Zuerst ist das Objekt auszuwählen, das Sie entfernen wollen."
+    },
+    "massUpdateNotSupported": {
+      "titl": "Dieser Datensatz lässt keine Massenänderungen zu."
+    },
+    "massUpdateProgressInfo": {
+      "titl": "Sammeländerung verläuft..."
+    },
+    "massUpdateProgressInfoZamcObd": {
+      "titl": "Die Änderung der Sperre läuft..."
+    },
+    "month0": {
+      "titl": "Januar"
+    },
+    "month1": {
+      "titl": "Februar"
+    },
+    "month10": {
+      "titl": "November"
+    },
+    "month11": {
+      "titl": "Dezember"
+    },
+    "month2": {
+      "titl": "März"
+    },
+    "month3": {
+      "titl": "April"
+    },
+    "month4": {
+      "titl": "Mai"
+    },
+    "month5": {
+      "titl": "Juni"
+    },
+    "month6": {
+      "titl": "Juli"
+    },
+    "month7": {
+      "titl": "August"
+    },
+    "month8": {
+      "titl": "September"
+    },
+    "month9": {
+      "titl": "Oktober"
+    },
+    "nelzeNaleztJavu": {
+      "titl": "Es ist nicht gelungen, Java %p oder höher zu finden."
+    },
+    "nesloZmenitZaokrouhleni": {
+      "titl": "Jedoch konnte die Rundung des Belegs nicht geändert werden."
+    },
+    "neucetniSkladucetniTypDokl": {
+      "titl": "Sie haben ein nicht buchhalterisches Lager eingerichtet und die Belegart ist buchhalterisch!"
+    },
+    "noSpaceLeftOnDevice": {
+      "titl": "Mangel an Stauraum."
+    },
+    "notEnabledByLicense": {
+      "titl": "Funktion in der Lizenz nicht aktiviert."
+    },
+    "notUniqueIdentifier": {
+      "titl": "Der eingegebene Identifikator ist nicht einmalig! Es wurden mehrere Eintragungen gefunden, die die Eigenschaft '%p' mit dem Wert '%p‘ haben."
+    },
+    "obnovitDBChybaListObjektuDumpu": {
+      "titl": "Fehler bei der Bearbeitung der Sicherungsdatei."
+    },
+    "obnovitDBChybaOldAppServer": {
+      "titl": "Die Version der Datenbank der Firma %p ist neuer als die Version des ABRA Flexi Server."
+    },
+    "obnovitDBChybaPrideleniPrav": {
+      "titl": "Fehler bei der Zuordnung der Rechte den Datenbank - Objekten."
+    },
+    "obnovitDBChybaPrikazu": {
+      "titl": "Fehler beim Start des Befehls für die Erneuerung der Datenbank."
+    },
+    "obnovitDBError": {
+      "titl": "Fehler bei der Erneuerung der Buchhaltung der Firma."
+    },
+    "obnovitDBNenalezenNastrojPgRestore": {
+      "titl": "Es ist nicht gelungen, den Weg zum Gerät für die Erneuerung der Firma zu finden."
+    },
+    "obnovitDBNenalezenPgRestore": {
+      "titl": "Es wurde keine Installation des Gerätes pg_restore gefunden. Ist PostgreSQL wirklich installiert?"
+    },
+    "obnovitDBNepodariloSePripojit": {
+      "titl": "Es ist nicht gelungen , sich zum Zentralserver anzuschliessen."
+    },
+    "obnovitDBPridaniCsUzivatele": {
+      "titl": "Auf Zentralserver waren die folgenden Benutzer, bei denen ist es nötig das Kennwort zu ändern, damit sie sich anmelden können.\n"
+    },
+    "obnovitDBProbehloUspesne": {
+      "titl": "Die Datenbank wurde erfolgreich erneuert."
+    },
+    "obnovitDBServerNezadan": {
+      "titl": "Der Dateiname wurde nicht eingegeben. Wollen Sie den Namen wieder eingeben?"
+    },
+    "obnovitDBSouborNeexistuje": {
+      "titl": "Die Datei mit der Sicherung existiert noch nicht. Wollen Sie eine andere Datei wählen?"
+    },
+    "obnovitDBUnsupportedVersion": {
+      "titl": "Nicht unterstützte Version der Sicherungsdatei der Firma. Wahrscheinlich sind Sie bemüht, die Sicherungsdatei der Firma wiederherzustellen, die aus der neueste Version der PostgreSQL Datenbank stammt."
+    },
+    "obnovitDBZadatJmenoServeruTitulek": {
+      "titl": "Geben Sie den Namen der Datenbank für neue Firma ein."
+    },
+    "obnovitDBZadatJmenoSeveruVyzva": {
+      "titl": "Name der Datenbank der Firma."
+    },
+    "osNotSupportsScanning": {
+      "titl": "Es ist nicht möglich, auf Ihrem Betriebssystem zu scannen."
+    },
+    "pleaseRelogin": {
+      "titl": "Melden Sie sich bitte wieder an."
+    },
+    "pluIdNotSupported": {
+      "titl": "Objekt [%p] unterstützt keine PLU-ID (plu:%p)."
+    },
+    "postgreSQLChybiDokladovaRada": {
+      "titl": "Kontrollieren Sie die Einstellung der Belegreihe für %p: Lager \"%p: %p\", Belegtyp\"%p: %p\"."
+    },
+    "postgreSQLExceptionNeexistujeKurzSklad": {
+      "titl": "In der Kurs - Tabelle existiert kein Kurs für das Angebot des Lagers."
+    },
+    "postgreSQLExceptionZPrijemkyCerpaVydejka": {
+      "titl": "Die Empfangsbestätigung ist nicht mehr zu löschen oder zu stornieren. (Es existiert schon Ausgabebeleg)"
+    },
+    "postgreSQLExceptionZapornySklad": {
+      "titl": "Der negative Lagerbestand ist nicht bewilligt."
+    },
+    "postgreSQLExceptionZustavajiVazbyDoklad": {
+      "titl": "In der Bindungstabelle bleiben die Bindungen auf den Beleg."
+    },
+    "postgreSQLExceptionZustavajiVazbyPolozky": {
+      "titl": "In der Bindungstabelle bleiben die Bindungen auf den Belegposten."
+    },
+    "postgreSQLNelzeZmeniVydCis": {
+      "titl": "Sie ändern den %p Preis für eine bereits vergebene %p Seriennummer."
+    },
+    "postgreSQLUcetNavazanaPolozka": {
+      "titl": "Konto in Gewahrsam kann nicht geändert werden."
+    },
+    "postgreSQLVytvorPrijemkuVKusovnikuChybiDostatekMaterialu": {
+      "titl": "Produktzugang '%p' kann nicht erstellt werden wegen fehlendem Material '%p' im Lager '%p' (erforderlich: %p, verfügbar:% p) %p)."
+    },
+    "postgreSQLduplVyrCis": {
+      "titl": "Doppelte Produktionsnummer %p."
+    },
+    "postgreSQLzboziZpolozkyVyskladneno": {
+      "titl": "Waren von diesem Posten sind schon ausgelagert."
+    },
+    "postvalidaceZadanoPole": {
+      "titl": "Das Feld eingegeben"
+    },
+    "progressDlg.ukoncitProcesDotaz": {
+      "titl": "Wollen Sie wirklich den verlaufenden Prozess beenden?"
+    },
+    "progressDlg.ukoncitUlozitProcesDotaz": {
+      "titl": "Der verlaufende Prozess wird beendet. Wünschen Sie, die durchgeführten Änderungen zu speichern?"
+    },
+    "progressZrusen": {
+      "titl": "Die Aufgabe wurde unterbrochen."
+    },
+    "propertyCantBeChanged": {
+      "titl": "Die Eigenschaft '%p' (%p) kann jetzt nicht mehr bearbeitet werden."
+    },
+    "queryFormMultipleChybaNacitani": {
+      "titl": "Fehler beim Einlesen der Posten für die Auswahl."
+    },
+    "queryNelzeNastavitPozadovanyFiltr": {
+      "titl": "Für diesen Typ ist der gewünschte Filtertyp '%p' nicht zusammenzustellen."
+    },
+    "readOnlyUserNotAllowed": {
+      "titl": "Der Nur-Lese-Benutzer '%p' darf nur Leseanfragen stellen."
+    },
+    "recipientIsMissing": {
+      "titl": "Es muss mindestens ein Empfänger angegeben werden."
+    },
+    "remoteLogoutDemand": {
+      "titl": "Ihr Konto wird derzeit auch an einem anderen Gerät verwendet, melden Sie sich dort zuerst ab."
+    },
+    "reportChybaZobrazeni": {
+      "titl": "Während der Abbildung der Report-Ansicht ist ein Fehler vorgekommen."
+    },
+    "reportChybneHesloJenAscii": {
+      "titl": "Das eingegebene Passwort kann leider für die Verschlüsselung der Druckliste nicht verwendet werden.\nGeben Sie bitte das Passwort ohne Diakritika ein."
+    },
+    "reportFileNotFound": {
+      "titl": "Weder jrxml noch jasper konnten für den erforderlichen %p-Bericht gefunden werden."
+    },
+    "reportImplNeniPripojenaTiskarna": {
+      "titl": "Es ist kein Drucker angeschlossen."
+    },
+    "reportImplNepodariloVytisknout": {
+      "titl": "Es ist nicht gelungen, die Druckzusammenstellung zu drucken."
+    },
+    "reportKontaktujteVyrobce": {
+      "titl": "Ein Fehler im Report. Verbinden Sie sich mit dem Autor des Reports."
+    },
+    "reportNacitamPocetZaznamu": {
+      "titl": "Einlesen der Anzahl der Eintragungen."
+    },
+    "reportNebylNalezen": {
+      "titl": "Report in der Datenquelle nicht gefunden."
+    },
+    "reportNeniVybran": {
+      "titl": "Der Drucksatz ist nicht ausgewählt."
+    },
+    "reportNepodariloSeNacistPocetZaznamu": {
+      "titl": "Es ist nicht gelungen, die Anzahl der Eintragungen einzulesen."
+    },
+    "reportNepodariloSePDF": {
+      "titl": "Es ist nicht gelungen, die PDF-Datei zu generieren."
+    },
+    "reportNepodariloSeXls": {
+      "titl": "Es ist nicht gelungen, XLS Datei zu generieren."
+    },
+    "reportNepodariloSeXlsx": {
+      "titl": "Es ist nicht gelungen, Xlsx Datei zu generieren."
+    },
+    "reportNezdarilSeTisk": {
+      "titl": "Das Drucken der Zusammenstellung ist nicht gelungen."
+    },
+    "reportNoData": {
+      "titl": "Der Druckbericht hat keinen Datensatz."
+    },
+    "reportPDFExportUspesny": {
+      "titl": "Export in PDF ist erfolgreich verlaufen."
+    },
+    "reportPaneNepodariloNacistSeznamReportu": {
+      "titl": "Es ist nicht gelungen, die Liste von Reports einzulesen."
+    },
+    "reportTvorbaPrerusena": {
+      "titl": "Reportbildung unterbrochen. Versuchen Sie es noch einmal."
+    },
+    "reportXlsExportUspesny": {
+      "titl": "Export in XLS war erfolgreich."
+    },
+    "reportXlsxExportUspesny": {
+      "titl": "Export in Xlsx war erfolgreich."
+    },
+    "reportZadneStranky": {
+      "titl": "Report beinhaltet keine Seiten."
+    },
+    "restrictedProtocol": {
+      "titl": "Das Protokoll '%p' ist nicht genehmigt."
+    },
+    "scannerEnterKeyStroke": {
+      "titl": "Präfix von EAN Lesegerät:"
+    },
+    "scannerEnterKeyStrokeTitle": {
+      "titl": "Geben Sie den Wert ein"
+    },
+    "scannerNoCodeEntered": {
+      "titl": "Das Zeitlimit für die Eingabe des EAN Codes ist abgelaufen."
+    },
+    "sessionChybaDetasovaniDatObjektu": {
+      "titl": "Fehler im Laufe von Detachieren der Datenobjekte aus Arbeitssession."
+    },
+    "sessionChybaOtevirani": {
+      "titl": "Fehler im Laufe von Session - Öffnen"
+    },
+    "sessionChybaUzavirani": {
+      "titl": "Fehler im Laufe von Session - Schliessen."
+    },
+    "sessionChybaVkladaniDatObjektu": {
+      "titl": "Fehler während der Einlegung der Datenobjekte in Arbeitssession."
+    },
+    "sessionTimedOut": {
+      "titl": "Sitzung wurde beendet"
+    },
+    "settingChybaNacitaniElementu": {
+      "titl": "Fehler beim Einlesen des Elementes"
+    },
+    "settingColumnsDefaultInfo": {
+      "titl": "Wenn Sie weiterführen werden, stellen Sie die Verteilung von Spalten als ausgehend\nfür alle Benutzer dieser Applikation bei dieser Firma."
+    },
+    "settingColumnsDeleteError": {
+      "titl": "Das Löschen der Benutzereinstellung für das Objekt '%p' hat versagt."
+    },
+    "settingColumnsDeletePropertyError": {
+      "titl": "Das Löschen der Benutzereinstellung der Spalte für das Objekt: '%p' hat versagt."
+    },
+    "settingColumnsLoadBeanError": {
+      "titl": "Das Einlesen der Benutzereinstellung für das Objekt: '%p' hat versagt"
+    },
+    "settingColumnsLoadError": {
+      "titl": "Das Einlesen der Einstellungen von Spalten hat versagt."
+    },
+    "settingColumnsLoadFilterError": {
+      "titl": "Das Einlesen der benutzerdefinierten Einstellung der Spalten hat versagt - für den Filter:  '%p'."
+    },
+    "settingColumnsRestoreDefaultInfo": {
+      "titl": "Sofern Sie fortfahren, stellen Sie die Spaltenaufteilung im Zustand beim ersten Starten der App ein."
+    },
+    "settingColumnsSaveBeanError": {
+      "titl": "Die Speicherung der Benutzereinstellung der Spalten für das Objekt: '%p' hat versagt."
+    },
+    "settingColumnsSaveError": {
+      "titl": "Die Speicherung der Einstellung von Spalten hat versagt."
+    },
+    "settingColumnsSelhaloUkladaniSloupcu": {
+      "titl": "Die Speicherung der Einstellung der Spalten der Tabelle in die XML - Datei hat versagt."
+    },
+    "settingColumnsSouborProblem": {
+      "titl": "Problem mit der Datei mit den Einstellungen der Spalten der Tabelle"
+    },
+    "settingColumnsStaleStateWhenSave": {
+      "titl": "Bei der Speicherung von Spalten ist das Problem des Konkurrenzzugriffs entstanden.\nEin anderer Benutzer hat schon die Einstellung der Spalten des Objektes: '%p'."
+    },
+    "settingColumnsStaleStateWhenSaveUnspec": {
+      "titl": "Bei der Speicherung der Spalten ist das Problem des Konkurrenzzugriffs entstanden."
+    },
+    "settingIniChybnySoubor": {
+      "titl": "Initialisierungsfehlerdatei"
+    },
+    "settingIniSouborNenalezen": {
+      "titl": "Initialisierungsdatei '%p' wurde nicht gefunden."
+    },
+    "settingL10nSelhaloUkladani": {
+      "titl": "Die Speicherung der Lokalisationseinstellung in die XML-Datei hat versagt!"
+    },
+    "settingValLoadError": {
+      "titl": "Das Einlesen der Validationseinstellung hat versagt."
+    },
+    "settingValNastaveniProblem": {
+      "titl": "Problem mit der Datei mit den Validationseinstellungen"
+    },
+    "settingValSelhaloUkladani": {
+      "titl": "Die Speicherung der Validationseinstellung in die XML - Datei hat versagt!"
+    },
+    "settingValVicenasobnyElement": {
+      "titl": "Validations - XML beinhaltet mehrmals identisches Element"
+    },
+    "settingWindowsReadError2": {
+      "titl": "Das Einlesen der Benutzereinstellung von Fenstern für die Benutzer '%p' hat versagt."
+    },
+    "settingWindowsSaveError": {
+      "titl": "Die Speicherung der Benutzereinstellung des Fensters '%p' für den Benutzer '%p' hat versagt."
+    },
+    "settingsReadError": {
+      "titl": "Das Einlesen der Eigenschaft '%p' für den Benutzer '%p' hat versagt."
+    },
+    "settingsReportConfigNotAllowed": {
+      "titl": "Der Datensatz '%p' erlaubt keine Konfiguration von Berichten. Verwenden Sie '%p'."
+    },
+    "settingsWriteError": {
+      "titl": "Die Speicherung der Eigenschaft '%p' für den Benutzer '%p' hat versagt."
+    },
+    "souborNelzeZapisovat": {
+      "titl": "Zur Eintragung auf dem gegebenen Weg sind Sie nicht ausreichend berechtigt."
+    },
+    "spatnyFormatIDs": {
+      "titl": "Falsches Format für mehrere IDs, Fehler an der Position %p."
+    },
+    "staleStateResolverZmenenyZaznam": {
+      "titl": "Seit der Eröffnung der Eintragung wurde die Eintragung von einem anderen Benutzer geändert.\nBzw. konnte ein anderer Benutzer die übergeordnete Eintragung verändern, die diese Eintragung beinhaltet."
+    },
+    "tableNelzePosouvatPolozku": {
+      "titl": "In der Tabelle ist kein Posten für die Verschiebung ausgewählt."
+    },
+    "tableNelzePosunDolu": {
+      "titl": "Die letzte Eintragung kann man in der Tabelle nach unten nicht verschieben."
+    },
+    "tableNelzePosunNahoru": {
+      "titl": "Die erste Eintragung in der Tabelle kann man nach oben nicht verschieben."
+    },
+    "tableNepodariloPosunout": {
+      "titl": "Es ist nicht gelungen, die Eintragung zu verschieben."
+    },
+    "tableRowNumberChyba": {
+      "titl": "Fehler bei der Feststellung der Reihenzahl in der Tabelle."
+    },
+    "taskMonitorEndTasksQuestion": {
+      "titl": "Im Hintergrund laufen nicht beendete Aufgaben. Warten Sie bitte auf ihre Beendigung!."
+    },
+    "transakceNepodariloCommit": {
+      "titl": "Es ist nicht gelungen, die Speicherung von Transaktion durchzuführen."
+    },
+    "transakceNepodariloRollback": {
+      "titl": "Es ist nicht gelungen, die Rückgabe der Transaktion durchzuführen."
+    },
+    "transakceNepodariloZahajit": {
+      "titl": "Es ist nicht gelungen, die Transaktion aufzunehmen."
+    },
+    "twoPhaseAuthCodeRequired": {
+      "titl": "2FA-Bestätigungscode erforderlich."
+    },
+    "ucetniSkladNeucetniTypDokl": {
+      "titl": "Sie haben ein buchhalterisches Lager eingerichtet und die Belegart ist nicht buchhalterisch!"
+    },
+    "unsupportedDataTypeLike": {
+      "titl": "Die Operatoren like, begins, ends erfordern das Argument des Typs Kette."
+    },
+    "upgradovatDBChyba": {
+      "titl": "Es ist nicht gelungen, das Upgrade der  Datenbank starten."
+    },
+    "upgradovatDBChybaNahravaniLokCiselniku": {
+      "titl": "Fehler bei der Aktualisierung der Datenbank. Es ist nicht gelungen, lokalisierte Stammdaten aufzunehmen."
+    },
+    "upgradovatDBChybaOpravyLobu": {
+      "titl": "Fehler bei der Aktualisierung der Datenbank. Es ist nicht gelungen, die Rechte der bestehenden Anlagen einzustellen."
+    },
+    "upgradovatDBChybaSpousteniSkriptu": {
+      "titl": "Fehler bei der Aktualisierung der Datenbank. Es ist nicht gelungen, den Skript %p durchzuführen."
+    },
+    "urlReaction": {
+      "titl": "https://support.flexibee.eu/reakce/"
+    },
+    "urlSupport": {
+      "titl": "https://support.flexibee.eu/redirect/support-w10/"
+    },
+    "userFilterOpen.chybaPriMazaniFiltru": {
+      "titl": "Es ist nicht gelungen, die Einstellung der Filterung zu löschen."
+    },
+    "userFilterOpen.header": {
+      "titl": "Wahl der gespeicherten Filtereinstellung."
+    },
+    "userFilterOpen.musiteVybratFiltr": {
+      "titl": "Zuerst müssen Sie eine Filtereinstellung wählen."
+    },
+    "userFilterOpen.opravduSmazatFiltr": {
+      "titl": "Soll man die gewählte Einstellung der Filterung wirklich löschen?"
+    },
+    "userFilterOpen.vyberteFiltry": {
+      "titl": "Wählen Sie bitte Benutzereinstellung der Filterung, die Sie öffnen wollen."
+    },
+    "uuidNotSupported": {
+      "titl": "Das Objekt [%p] unterstützt keine UUID (uuid:%p)."
+    },
+    "uzivatelNeexistuje": {
+      "titl": "Der Benutzer %p existiert nicht."
+    },
+    "validace.chybiVS": {
+      "titl": "Fehlende Einstellung in der Validations-XML für [bean='%p',prop='%p']"
+    },
+    "validace.double": {
+      "titl": "Der Wert des Feldes '%p' muss eine reelle Zahl sein."
+    },
+    "validace.invalidCombination": {
+      "titl": "Der Wert der Eigenschaft '%p' in der Kombination mit dem Wert der Eigenschaft '%p' ist nicht gültig."
+    },
+    "validace.kodNotExist": {
+      "titl": "Feld '%p': Die Eintragung mit der eingegebenen Abkürzung existiert in der Datenbank nicht."
+    },
+    "validace.maxValue": {
+      "titl": "Der Wert des Feldes '%p' darf nicht höher als %p sein."
+    },
+    "validace.maxZnaku": {
+      "titl": "Das Feld '%p'darf nicht länger als %p der Zeichen sein."
+    },
+    "validace.minValue": {
+      "titl": "Der Wert des Feldes '%p' darf nicht kleiner als %p sein."
+    },
+    "validace.minZnaku": {
+      "titl": "Das Feld '%p' muss mindestens %p der Zeichen beinhalten."
+    },
+    "validace.mocCislic": {
+      "titl": "Der Wert des Feldes'%p' darf nicht mehr als %p der Ziffern beinhalten."
+    },
+    "validace.mocDesCis": {
+      "titl": "Der Wert des Feldes '%p' darf nicht mehr als %p der Dezimalstellen beinhalten."
+    },
+    "validace.neplatnyCiselnik": {
+      "titl": "Das Feld '%p' beinhaltet den ungültigen Posten der Stammdaten"
+    },
+    "validace.notAvailableValue": {
+      "titl": "Das Feld '%p' muss mit einem der Werte %p ausgefüllt sein."
+    },
+    "validace.notEmpty": {
+      "titl": "Das Feld '%p'muss ausgefüllt werden."
+    },
+    "validace.notNull": {
+      "titl": "Das Feld '%p' muss ausgefüllt werden."
+    },
+    "validace.notZero": {
+      "titl": "Der Wert des Feldes '%p' darf nicht-nullwertig sein."
+    },
+    "validace.rokDataMimoRozsah": {
+      "titl": "Das Datum Jahr für die Eigenschaft '%p' kann im Bereich -9999 bis 9999 angegeben werden: %p"
+    },
+    "validace.unknownType": {
+      "titl": "Unbekannter Typ in der Validations-XML für [bean='%p',prop='%p']"
+    },
+    "validace.valChyba": {
+      "titl": "Feld '%p': Fehler während der Validation."
+    },
+    "validace.vymazanoPole": {
+      "titl": "Das Feld %p golöscht."
+    },
+    "validace.zadano": {
+      "titl": "Eingegeben '%p'."
+    },
+    "validaceZadanoPole": {
+      "titl": "Das Feld eingegeben"
+    },
+    "vatIdNotSupported": {
+      "titl": "Objekt [%p] unterstützt keine VAT-ID (vatid:%p)."
+    },
+    "versionWarning": {
+      "titl": "Sie haben die Testversion gestartet, bei deren Verwendung die Daten irreversibel geschädigt werden.\nDiese Version ist für die Überprüfung neuer Funktionen ABRA Flexi\na bestimmt, sie darf in der Produktionsumgebung nicht verwendet werden, deshalb arbeiten Sie immer nur mit einer Kopie der Daten."
+    },
+    "voSelektorNepodariloNacistZaznam": {
+      "titl": "Aus der Datenquelle ist es nicht gelungen, die ausgewählte Eintragung einzulesen."
+    },
+    "wrongUserType": {
+      "titl": "Falscher Benutzertyp: '%p'"
+    },
+    "xmlStreamExceptionContentIsNotAllowedInProlog": {
+      "titl": "Die Datei enthält keine valide XML.\n(Content is not allowed in Prolog)"
+    },
+    "xmlStreamExceptionInvalidByte1ofUTF8": {
+      "titl": "Wir versuchen, die importierte Datei XML in der Codierung UTF-8 einzulesen, aber die Datei\n ist wahrscheinlich in einer anderen Codierung gespeichert. Ersuchen Sie um eine in der Codierung UTF-8 gespeicherte\n Datei oder speichern Sie sie in dieser Codierung selbst."
+    },
+    "zalohaJizExistuje": {
+      "titl": "Die Sicherung unter diesem Namen existiert schon. Wollen Sie sie umschreiben?"
+    },
+    "zalohaNedostatekMista": {
+      "titl": "Auf der Platte gibt es nicht genug Platz für Speicherung, die %p gross ist."
+    },
+    "zalohaProbehlaUspesne": {
+      "titl": "Die Sicherung ist erfolgreich abgeschlossen."
+    },
+    "zalohaSouborNenalezen": {
+      "titl": "Datei für Sicherung %p nicht gefunden oder Sie sind nicht berechtigt."
+    },
+    "zalohovatDBChybaPrejmenovani": {
+      "titl": "Fehler bei der Umbenennung der Datei mit den Kennwörtern in DB."
+    },
+    "zalohovatDBChybaPrikazu": {
+      "titl": "Fehler beim Start des Befehls für die Sicherung."
+    },
+    "zalohovatDBChybaPrikazuChmod": {
+      "titl": "Fehler beim Start des Befehls für die Änderung der Rechte zur Datei chmod."
+    },
+    "zalohovatDBChybaUkoncit": {
+      "titl": "Wollen Sie die Applikation beenden?"
+    },
+    "zalohovatDBError": {
+      "titl": "Fehler bei der Sicherung der Buchhaltung der Firma."
+    },
+    "zalohovatDBNenalezenPgDump": {
+      "titl": "Es ist nicht gelungen, den Weg zum Gerät für die Sicherung der Firma zu finden."
+    },
+    "zalohovatDBPGPassNenalezen": {
+      "titl": "Die Datei mit der Einstellung des Anschlusses zur Datenbank ist nicht zu finden."
+    },
+    "zalohovatDBQuestion": {
+      "titl": "Wollen Sie vor der Beendigung des Programms die Sicherung von Buchhaltung der Firma durchführen?"
+    },
+    "zalohovatNelzeVytvoritAdresarProPgConf": {
+      "titl": "Das Adressbuch für die Speicherung der Datei mit pgconf ist nicht zu schaffen."
+    },
+    "zalohovatNenalezenChmod": {
+      "titl": "Der Befehl für die Änderung der Rechte zur Datei chmod wurde nicht gefunden."
+    },
+    "zalohovatNenalezenPgDump": {
+      "titl": "Die Installation des Gerätes pg_dump wurde nicht gefunden. Ist PostgreSQL wirklich installiert?"
+    },
+    "zalohovatPrubeh": {
+      "titl": "Daten %p werden aus %p heruntergeladen."
+    },
+    "zalohovatServerZalohuje": {
+      "titl": "Die Sicherung der Firma wird gebildet..."
+    },
+    "zaznamAktualniZaznam": {
+      "titl": "aktuelle Eintragung"
+    },
+    "zaznamChceteUlozit": {
+      "titl": "Wollen Sie die durchgeführten Änderungen speichern?"
+    },
+    "zaznamChybaHledani": {
+      "titl": "Fehler während des Suchens der Eintragung in der Datenquelle"
+    },
+    "zaznamChybaHledaniNeboNacitani": {
+      "titl": "Fehler während des Suchens oder Einlesens der Eintragung in der Datenbank."
+    },
+    "zaznamChybaNacitaniPoctu": {
+      "titl": "Fehler während des Einlesens der Eintragungszahl."
+    },
+    "zaznamChybaNacitaniStranky": {
+      "titl": "Fehler während des Einlesens der Seite von Eintragungen."
+    },
+    "zaznamJizNeexistujeNelzeOdstranit": {
+      "titl": "Diese Eintragung kann nicht entfernt werden,\nweil sie jemand schon aus der Datenquelle entfernt hat."
+    },
+    "zaznamJizNeexistujeNelzeUlozit": {
+      "titl": "Die auf der geöffneten Eintragung gemachten Änderungen können nicht gespeichert werden,\nweil sie jemand aus der Datenquelle entfernt hat."
+    },
+    "zaznamJizSmazan": {
+      "titl": "Diese Eintragung hat schon jemand aus der Datenquelle beseitigt."
+    },
+    "zaznamNelzeEditovat": {
+      "titl": "In der Tabelle ist kein Posten für die Erfassung ausgewählt."
+    },
+    "zaznamNelzeOtevrit": {
+      "titl": "Die gewünschte Eintragung ist nicht zu öffnen."
+    },
+    "zaznamNelzeSmazat": {
+      "titl": "In der Tabelle ist kein Posten für das Löschen ausgewählt."
+    },
+    "zaznamNemateOpravneni": {
+      "titl": "Sie haben keine Berechtigung zur Abbildung der Eintragung."
+    },
+    "zaznamNeniVybranaPolozka": {
+      "titl": "In der Tabelle ist kein Posten ausgewählt."
+    },
+    "zaznamNepodariloNacist": {
+      "titl": "Es ist nicht gelungen, die Eintragungen aus der Datenbank einzulesen."
+    },
+    "zaznamNepodariloSmazat": {
+      "titl": "Es ist nicht gelungen, die Eintragung zu löschen."
+    },
+    "zaznamOpravduOdstranit": {
+      "titl": "Wollen Sie die Eintragung wirklich entfernen?"
+    },
+    "zaznamOpravduSmazatNeco": {
+      "titl": "Wollen Sie %p wirklich löschen?"
+    },
+    "zaznamOpravduSmazatVybranyZaznam": {
+      "titl": "Wollen Sie die ausgewählte Eintragung wirklich löschen?"
+    },
+    "zaznamOpravduUlozit": {
+      "titl": "Wollen Sie die Eintragung wirklich speichern?"
+    },
+    "zaznamSeNepodarilNacist": {
+      "titl": "Es ist nicht gelungen, die Eintragung aus der Datenquelle einzulesen."
+    },
+    "zaznamUlozeniPrepiseZmeny": {
+      "titl": "Wenn Sie die Eintragung speichern, schreiben Sie die von einem anderen Benutzer durchgeführten Änderungen um."
+    },
+    "zaznamVDatabaziNovejsiDataOdEditace": {
+      "titl": "Seit der Eröffnung der Eintragungskorrekturen wurde die Eintragung von einem anderen Benutzer verändert."
+    },
+    "zaznamVDatabaziNovejsiDataOdOtevreni": {
+      "titl": "Seit der Öffnung der Eintragung wurde die Eintragung von einem anderen Benutzer verändert."
+    },
+    "zaznamVybraneZaznamy": {
+      "titl": "ausgewählte Eintragungen"
+    }
+  }
+}

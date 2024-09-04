@@ -1,0 +1,3354 @@
+{
+  "reports": {
+    "Bsp$$BAN": {
+      "_title": {
+        "titl": "Список банковских счетов"
+      }
+    },
+    "Bsp$$POK": {
+      "_title": {
+        "titl": "Список кассовых аппаратов"
+      }
+    },
+    "Bsp$$SKL": {
+      "_title": {
+        "titl": "Список складов"
+      }
+    },
+    "Doklady": {
+      "_title": {
+        "titl": "Обзор документов"
+      }
+    },
+    "Doklady$$FAV": {
+      "_title": {
+        "titl": "Список выставленных счетов-фактур"
+      }
+    },
+    "Doklady$$PHL": {
+      "_title": {
+        "titl": "Список других требований"
+      }
+    },
+    "Doklady$$ZAV": {
+      "_title": {
+        "titl": "Список других обязательств"
+      }
+    },
+    "DokladyAdresar$$FAV": {
+      "_title": {
+        "titl": "Список выставленных счетов-фактур (суммирование по компаниям)"
+      }
+    },
+    "DokladyAdresarFAP$$FAP": {
+      "_title": {
+        "titl": "Список полученных счетов-фактур (обобщенный по компаниям)"
+      }
+    },
+    "DokladyBanPok$$BAN": {
+      "_title": {
+        "titl": "Список банковских документов"
+      }
+    },
+    "DokladyBanPok$$POK": {
+      "_title": {
+        "titl": "Список кассовых документов"
+      }
+    },
+    "DokladyFAP$$FAP": {
+      "_title": {
+        "titl": "Список полученных счетов-фактур (альбомный)"
+      }
+    },
+    "DokladyINT$$INT": {
+      "_title": {
+        "titl": "Список внутренних документов"
+      }
+    },
+    "Fakt_PRI": {
+      "SymbolPlateb": {
+        "titl": "Символ платежей"
+      },
+      "konSymbol": {
+        "titl": "Постоянная"
+      },
+      "specSymbol": {
+        "titl": "Конкретный"
+      },
+      "varSymPrikaz": {
+        "titl": "Переменная"
+      }
+    },
+    "Fakt_VYD": {
+      "datSmir": {
+        "titl": "дата примирения"
+      },
+      "datUp1": {
+        "titl": "Дата первого напоминания"
+      },
+      "datUp2": {
+        "titl": "2. напоминания"
+      },
+      "stav": {
+        "titl": "Статус документа"
+      }
+    },
+    "Hl_Kniha": {
+      "_title": {
+        "titl": "Главная книга"
+      },
+      "doklad": {
+        "titl": "Внутренний номер"
+      },
+      "duzpUcto": {
+        "titl": "Upl.zd.pl."
+      },
+      "obratDAL": {
+        "titl": "Оборот DAL"
+      },
+      "obratMD": {
+        "titl": "Текучесть кадров"
+      },
+      "sledovaneObdobi": {
+        "titl": "Рассматриваемый период"
+      },
+      "sumDal": {
+        "titl": "Сумма DAL"
+      },
+      "sumMd": {
+        "titl": "Сумма MD"
+      },
+      "varSym": {
+        "titl": "Var.sym."
+      },
+      "zacatek": {
+        "titl": "Начните с"
+      },
+      "zuctovano": {
+        "titl": "Размещение."
+      }
+    },
+    "Majetek": {
+      "datVyst": {
+        "titl": "Дата ликвидации"
+      },
+      "datZar": {
+        "titl": "Дата классификации"
+      }
+    },
+    "PokladniDenik": {
+      "hotove": {
+        "titl": "Денежные средства"
+      },
+      "kartou": {
+        "titl": "По платежной карте"
+      },
+      "koncovyZustatek": {
+        "titl": "Конечный баланс:"
+      },
+      "pocatecniZustatek": {
+        "titl": "Начальный баланс:"
+      },
+      "prijem": {
+        "titl": "Получение"
+      },
+      "vydej": {
+        "titl": "Извлечено из"
+      },
+      "zustatek": {
+        "titl": "Баланс"
+      }
+    },
+    "PokladniDenik$$BAN": {
+      "_title": {
+        "titl": "Банковская книга"
+      }
+    },
+    "PokladniDenik$$POK": {
+      "_title": {
+        "titl": "Кассовая книга"
+      }
+    },
+    "PokladniDenikPort$$BAN": {
+      "_title": {
+        "titl": "Банковская книга (портрет)"
+      }
+    },
+    "PokladniDenikPort$$POK": {
+      "_title": {
+        "titl": "Кассовая книга (портрет)"
+      }
+    },
+    "Predvaha$$SUM": {
+      "_title": {
+        "titl": "Оборотный баланс"
+      }
+    },
+    "PredvahaPort": {
+      "_title": {
+        "titl": "Оборотный баланс (портрет)"
+      }
+    },
+    "Prikaz$$BAN$$elInkaso": {
+      "_title": {
+        "titl": "ОПТОВЫЙ ОРДЕР НА ПРЯМОЙ ДЕБЕТ"
+      }
+    },
+    "Prikaz$$BAN$$elPrikaz": {
+      "_title": {
+        "titl": "ОПТОВОЕ ПЛАТЕЖНОЕ ПОРУЧЕНИЕ"
+      }
+    },
+    "Prikazy_kniha$$BAN$$elInkaso": {
+      "_title": {
+        "titl": "Книга заявок на прямое дебетование"
+      }
+    },
+    "Prikazy_kniha$$BAN$$elPrikaz": {
+      "_title": {
+        "titl": "Книга платежных поручений"
+      }
+    },
+    "Sazby_DPH": {
+      "_title": {
+        "titl": "Ставки НДС"
+      }
+    },
+    "Staty": {
+      "_title": {
+        "titl": "Государства"
+      }
+    },
+    "TypDokl": {
+      "_title": {
+        "titl": "Обзор типов документов"
+      }
+    },
+    "TypDokl$$BAN": {
+      "_title": {
+        "titl": "Перечень видов банковских документов"
+      }
+    },
+    "TypDokl$$POK": {
+      "_title": {
+        "titl": "Перечень видов кассовых документов"
+      }
+    },
+    "Zakazka": {
+      "_title": {
+        "titl": "Контракты"
+      }
+    },
+    "adrUdalosti": {
+      "_title": {
+        "titl": "События"
+      }
+    },
+    "adresar": {
+      "_title": {
+        "titl": "Каталог"
+      },
+      "nastaveniSidlo": {
+        "titl": "Адрес штаб-квартиры"
+      }
+    },
+    "analyzaZakazky": {
+      "_title": {
+        "titl": "Бухгалтерский анализ договора"
+      },
+      "sumaZaUcet": {
+        "titl": "Сумма на счет"
+      },
+      "sumaZaZakazku": {
+        "titl": "Сумма за заказ"
+      },
+      "zisk": {
+        "titl": "Прибыль"
+      }
+    },
+    "analyzaZakazkyRozsirena": {
+      "_title": {
+        "titl": "Контрактная карточка"
+      },
+      "celkovaBilanceZakazky": {
+        "titl": "Общий остаток по договору"
+      },
+      "cisDokl": {
+        "titl": "Документ"
+      },
+      "naklad": {
+        "titl": "Стоимость"
+      },
+      "polozkyFaktur": {
+        "titl": "Статьи счета-фактуры"
+      },
+      "polozkyPokladny": {
+        "titl": "Предметы кассовых документов"
+      },
+      "polozkySkladu": {
+        "titl": "Элементы складских документов"
+      },
+      "rozdil": {
+        "titl": "Баланс"
+      },
+      "ucetniAnalyzaZakazky": {
+        "titl": "Бухгалтерский анализ договора"
+      },
+      "vynos": {
+        "titl": "Доход"
+      }
+    },
+    "analyzaZakazkyRozsirena$$NES": {
+      "_title": {
+        "titl": "Анализ контрактов"
+      }
+    },
+    "balikNaPostu": {
+      "_title": {
+        "titl": "Посылка на почте/Посылка в руках"
+      }
+    },
+    "balikovyPodaciArch": {
+      "_title": {
+        "titl": "Почтовая картотека для посылок"
+      }
+    },
+    "cashFlow": {
+      "_title": {
+        "titl": "Обзор денежных потоков"
+      },
+      "cashFlow": {
+        "titl": "Обзор денежных потоков"
+      }
+    },
+    "cashFlow$$MIN_OBDOBI": {
+      "_title": {
+        "titl": "Отчет о движении денежных средств (включая исторические данные)"
+      },
+      "cashFlow": {
+        "titl": "Обзор денежных потоков"
+      }
+    },
+    "cenHladPrehled": {
+      "_title": {
+        "titl": "Обзор уровней цен"
+      }
+    },
+    "cenik": {
+      "_title": {
+        "titl": "Прайс-лист с указанием закупочных цен"
+      },
+      "cenaBezDph": {
+        "titl": "Цена без НДС"
+      },
+      "cenaSDph": {
+        "titl": "Цена с НДС"
+      }
+    },
+    "cenikBezNakupni": {
+      "_title": {
+        "titl": "Прейскурант без закупочных цен"
+      }
+    },
+    "cenikIndividualniVystupni": {
+      "_title": {
+        "titl": "Прайс-лист на продажу"
+      }
+    },
+    "cenikIndividualniVystupniMnoz": {
+      "_title": {
+        "titl": "Прайс-лист на продажу (скидки за количество, без НДС)"
+      },
+      "od": {
+        "titl": "С сайта"
+      }
+    },
+    "cenikIndividualniVystupniMnozDph": {
+      "_title": {
+        "titl": "Прайс-лист на продажу (скидки за количество, вкл. НДС)"
+      }
+    },
+    "cenikNakupProdej": {
+      "_title": {
+        "titl": "Прайс-лист с ценами покупки и продажи"
+      }
+    },
+    "cenikVystupni": {
+      "_title": {
+        "titl": "Прайс-лист на продажу"
+      }
+    },
+    "cenikVystupniSPoplatky": {
+      "_title": {
+        "titl": "Прайс-лист на продажу (с указанием сборов)"
+      },
+      "cenaVcetnePoplatku": {
+        "titl": "Цена с учетом сборов:"
+      },
+      "poplatky": {
+        "titl": "Сборы:"
+      }
+    },
+    "chart-landscape": {
+      "_title": {
+        "titl": "-"
+      }
+    },
+    "cisClenDph": {
+      "_title": {
+        "titl": "Строка НДС"
+      }
+    },
+    "danovaEvidence": {
+      "_title": {
+        "titl": "Выписка из налоговой отчетности"
+      },
+      "danEvid.NeDa": {
+        "titl": "Она не подпадает под налоговый учет"
+      },
+      "danEvid.SocP": {
+        "titl": "Выплата социального страхования"
+      },
+      "danEvid.Zdra": {
+        "titl": "Оплата медицинского страхования"
+      },
+      "nevyplnenTypUcOp": {
+        "titl": "Выписывание рецепта, не заполненного"
+      },
+      "nevyplneno": {
+        "titl": "Пустой"
+      },
+      "rozdilPrijemVydej": {
+        "titl": "Разница между доходами и расходами:"
+      }
+    },
+    "dodaciList": {
+      "_title": {
+        "titl": "Накладная"
+      },
+      "hmotnost": {
+        "titl": "Вес [кг]"
+      },
+      "kFAVtypPohybu.prijem": {
+        "titl": "к выданной фактуре"
+      },
+      "kPOKtypPohybu.prijem": {
+        "titl": "к доходному кассовому документу"
+      },
+      "kPOKtypPohybu.vydej": {
+        "titl": "к расходному кассовому документу"
+      },
+      "kSKLtypPohybu.prijem": {
+        "titl": "к торг.-трансп. накладной"
+      },
+      "kSKLtypPohybu.vydej": {
+        "titl": "к акту о приход."
+      },
+      "prevzatoDne": {
+        "titl": "Принято"
+      }
+    },
+    "dodaciList$$SUM_CEN": {
+      "_title": {
+        "titl": "Накладная с продажными ценами"
+      }
+    },
+    "doklSklad": {
+      "_title": {
+        "titl": "Перечень фондовых документов"
+      }
+    },
+    "dokladyObchod": {
+      "zbyvaRealizovat": {
+        "titl": "Осталось реализовать"
+      }
+    },
+    "dokladyObchod$$NAP": {
+      "_title": {
+        "titl": "Обзор полученных предложений"
+      }
+    },
+    "dokladyObchod$$NAV": {
+      "_title": {
+        "titl": "Обзор выпущенных предложений"
+      }
+    },
+    "dokladyObchod$$OBP": {
+      "_title": {
+        "titl": "Обзор полученных заказов"
+      }
+    },
+    "dokladyObchod$$OBV": {
+      "_title": {
+        "titl": "Обзор изданных приказов"
+      }
+    },
+    "dokladyObchod$$PPP": {
+      "_title": {
+        "titl": "Обзор полученных запросов"
+      }
+    },
+    "dokladyObchod$$PPV": {
+      "_title": {
+        "titl": "Обзор выданных запросов"
+      }
+    },
+    "dokladySRekapitulaciDph": {
+      "_title": {
+        "titl": "Список документов с пересчетом НДС"
+      },
+      "celkemNeucetniPrijem": {
+        "titl": "Итого неучтенный доход:"
+      },
+      "celkemNeucetniVydej": {
+        "titl": "Общие неподотчетные расходы:"
+      },
+      "celkemUcetniPrijem": {
+        "titl": "Общий бухгалтерский доход:"
+      },
+      "celkemUcetniVydej": {
+        "titl": "Общие бухгалтерские расходы:"
+      },
+      "datVyst": {
+        "titl": "Извлечено из"
+      },
+      "duzpUcto": {
+        "titl": "ДУЗП"
+      },
+      "kod": {
+        "titl": "Номер документа"
+      },
+      "snizena": {
+        "titl": "Сокращение"
+      },
+      "sumCelkem": {
+        "titl": "Итого [%currency-symbol]"
+      },
+      "sumDph": {
+        "titl": "Dph [%currency-symbol]"
+      },
+      "sumOsv": {
+        "titl": "Исключено [%currency-symbol]"
+      },
+      "sumZkl": {
+        "titl": "База [%currency-symbol]"
+      },
+      "ucetni": {
+        "titl": "Бухгалтер"
+      },
+      "zakladni": {
+        "titl": "Основной"
+      }
+    },
+    "dokladySRekapitulaciDph$$BAN": {
+      "_title": {
+        "titl": "Список банковских документов (с пересчетом НДС)"
+      }
+    },
+    "dokladySRekapitulaciDph$$FAP": {
+      "_title": {
+        "titl": "Список полученных счетов-фактур (с пересчетом НДС)"
+      }
+    },
+    "dokladySRekapitulaciDph$$FAV": {
+      "_title": {
+        "titl": "Список выставленных счетов-фактур (с пересчетом НДС)"
+      }
+    },
+    "dokladySRekapitulaciDph$$INT": {
+      "_title": {
+        "titl": "Список внутренних документов (с пересчетом НДС)"
+      }
+    },
+    "dokladySRekapitulaciDph$$PHL": {
+      "_title": {
+        "titl": "Перечень прочей дебиторской задолженности (с пересчетом НДС)"
+      }
+    },
+    "dokladySRekapitulaciDph$$POK": {
+      "_title": {
+        "titl": "Список кассовых документов (с пересчетом НДС)"
+      }
+    },
+    "dokladySRekapitulaciDph$$ZAV": {
+      "_title": {
+        "titl": "Перечень прочих обязательств (с пересчетом НДС)"
+      }
+    },
+    "eetOznameni": {
+      "duleziteOznameni": {
+        "titl": "Информационные уведомления"
+      },
+      "textBezny": {
+        "titl": "Согласно Закону о регистрации продаж, продавец обязан выдать покупателю чек.\nВ то же время продавец обязан зарегистрировать полученные продажи в режиме онлайн у налогового администратора; в случае технического сбоя - не позднее чем через 48 часов."
+      },
+      "textZjednoduseny": {
+        "titl": "Согласно Закону об учете продаж, продавец обязан выдать покупателю чек.\nПолучатель продаж ведет учет продаж в упрощенном режиме, т.е. он обязан зарегистрировать полученные продажи у налогового администратора не позднее, чем через 5 дней."
+      }
+    },
+    "eetOznameni$$NES": {
+      "_title": {
+        "titl": "Информационное уведомление EET - упрощенная схема"
+      }
+    },
+    "eetOznameni$$SUM": {
+      "_title": {
+        "titl": "Информационные уведомления EET - нормальный режим"
+      }
+    },
+    "fakPol$$FAP": {
+      "_title": {
+        "titl": "Сводка позиций полученных счетов-фактур"
+      }
+    },
+    "fakPol$$FAV": {
+      "_title": {
+        "titl": "Обзор выставленных счетов-фактур"
+      }
+    },
+    "fakPol$$NAP": {
+      "_title": {
+        "titl": "Обзор пунктов полученных тендерных заявок"
+      }
+    },
+    "fakPol$$NAV": {
+      "_title": {
+        "titl": "Обзор пунктов объявленных тендеров"
+      }
+    },
+    "fakPol$$OBP": {
+      "_title": {
+        "titl": "Обзор позиций в полученных заказах"
+      }
+    },
+    "fakPol$$OBV": {
+      "_title": {
+        "titl": "Обзор пунктов изданных приказов"
+      }
+    },
+    "fakPol$$POK": {
+      "_title": {
+        "titl": "Обзор статей кассового документа"
+      }
+    },
+    "fakPol$$PPP": {
+      "_title": {
+        "titl": "Краткое изложение пунктов полученных запросов"
+      }
+    },
+    "fakPol$$PPV": {
+      "_title": {
+        "titl": "Обзор пунктов в выданных запросах"
+      }
+    },
+    "faktura": {
+      "banka": {
+        "titl": "Банк"
+      },
+      "celkem": {
+        "titl": "Итого"
+      },
+      "celkemBezZaloh": {
+        "titl": "Итого без авансовых платежей"
+      },
+      "celkemDph": {
+        "titl": "Итого НДС"
+      },
+      "celkemFakturovano": {
+        "titl": "Итого выставлены счета-фактуры"
+      },
+      "celkemKUhrade": {
+        "titl": "Итого к оплате"
+      },
+      "celkemPredSlevou": {
+        "titl": "Итого до скидки"
+      },
+      "celkemZaklad": {
+        "titl": "Итого налоговая база"
+      },
+      "danOdvadiPrijemce": {
+        "titl": "Налог платит клиент."
+      },
+      "danPriPrijetiPlatby": {
+        "titl": "Налог платится на основе получения платежа."
+      },
+      "datumZdanitelnehoPlneni": {
+        "titl": "Дата реализации для целей налогообложения"
+      },
+      "datumZdanitelnehoPlneniOsobUpravaDph": {
+        "titl": "Дата поставки"
+      },
+      "dodavatel-sidlo": {
+        "titl": "Поставщик - место"
+      },
+      "doprava": {
+        "titl": "Способ транспортировки"
+      },
+      "dph19": {
+        "titl": "НДС 19%"
+      },
+      "dph9": {
+        "titl": "НДС 9%"
+      },
+      "dphCelkem": {
+        "titl": "Итого НДС"
+      },
+      "formaDopravy": {
+        "titl": "видом транспорта"
+      },
+      "jizUhrazeno": {
+        "titl": "Уже заплачено"
+      },
+      "mistoUrceni": {
+        "titl": "Место назначения"
+      },
+      "nejsemPlatceDph": {
+        "titl": "Неплательщик НДС"
+      },
+      "objednavka": {
+        "titl": "Заказ"
+      },
+      "odberatel-sidlo": {
+        "titl": "Клиент - место"
+      },
+      "oznaceniDodavky": {
+        "titl": "Обозначение поставки"
+      },
+      "postovniAdresa": {
+        "titl": "Почтовый адрес"
+      },
+      "predSlevou": {
+        "titl": "До скидки"
+      },
+      "prenesenaDanovaPovinnost": {
+        "titl": "Перенесенные налоговые обязательства"
+      },
+      "preplatky": {
+        "titl": "Переплаты"
+      },
+      "puvodniDoklad": {
+        "titl": "Изначальный документ №"
+      },
+      "razitkoAPodpis": {
+        "titl": "Печать и подпись"
+      },
+      "registraceU": {
+        "titl": "Регистрация"
+      },
+      "rekapitulaceDph": {
+        "titl": "Сводная ведомость  НДС в %currency-symbol"
+      },
+      "rekapitulaceDphV": {
+        "titl": "Резюме НДС в"
+      },
+      "sazbaDph": {
+        "titl": "Ставка НДС"
+      },
+      "za": {
+        "titl": "за"
+      },
+      "zaklad": {
+        "titl": "Налог. база"
+      },
+      "zaklad0": {
+        "titl": "Основа 0%"
+      },
+      "zaklad19": {
+        "titl": "Основа 19%"
+      },
+      "zaklad9": {
+        "titl": "Основа 9%"
+      },
+      "zakladCelkem": {
+        "titl": "Итого база"
+      },
+      "zakladOdpocet": {
+        "titl": "Аванс. док. нал. учета налоговая база"
+      },
+      "zbyvaUhradit": {
+        "titl": "Оставшаяся доплата"
+      },
+      "zeDne": {
+        "titl": "Дата выставления изначального документа"
+      }
+    },
+    "fakturaConfig": {
+      "banka": {
+        "titl": "Банк"
+      },
+      "bic": {
+        "titl": "SWIFT:"
+      },
+      "celkemPredSlevou": {
+        "titl": "Итого до скидки"
+      },
+      "cenaMj": {
+        "titl": "Цена за МДж"
+      },
+      "cenaSDph": {
+        "titl": "Цена с НДС"
+      },
+      "cenaVMene": {
+        "titl": "Цена в %p"
+      },
+      "cisloBanUctu": {
+        "titl": "Номер банковского счета"
+      },
+      "danOdvadiPrijemce": {
+        "titl": "Налог платит клиент."
+      },
+      "datSplat": {
+        "titl": "Срок исполнения"
+      },
+      "datSplatDatTermin": {
+        "titl": "Срок исполнения"
+      },
+      "datVyst": {
+        "titl": "Дата выпуска"
+      },
+      "dic": {
+        "titl": "ИНН"
+      },
+      "dobropisovanyDokladCislo": {
+        "titl": "Оригинальный документ"
+      },
+      "dobropisovanyDokladDatum": {
+        "titl": "Дата выдачи оригинала документа"
+      },
+      "dodavatel": {
+        "titl": "ПОСТАВЩИК"
+      },
+      "duzpPuv": {
+        "titl": "Дата налогооблагаемой операции"
+      },
+      "formaUhrady": {
+        "titl": "Форма оплаты"
+      },
+      "iban": {
+        "titl": "IBAN:"
+      },
+      "ic": {
+        "titl": "ID"
+      },
+      "icdph": {
+        "titl": "НОМЕР НДС"
+      },
+      "kurzKurzMnozstvi": {
+        "titl": "Ставка %p %p для %p %p"
+      },
+      "mj": {
+        "titl": "MJ"
+      },
+      "mnozMj": {
+        "titl": "Количество"
+      },
+      "neplatceDph": {
+        "titl": "Не является плательщиком НДС"
+      },
+      "odberatel": {
+        "titl": "ПОДПИСЧИК"
+      },
+      "polozka": {
+        "titl": "Пункт"
+      },
+      "predSlevou": {
+        "titl": "До скидки"
+      },
+      "prenesenaDanovaPovinnost": {
+        "titl": "Перенесенные налоговые обязательства"
+      },
+      "puvodniSazbaDph": {
+        "titl": "Изначальная ставка НДС"
+      },
+      "razitkoAPodpis": {
+        "titl": "Печать и подпись"
+      },
+      "rekapitulaceDphVMene": {
+        "titl": "Пересчет НДС в %p"
+      },
+      "slevaDokl": {
+        "titl": "Cкидка на документ"
+      },
+      "stornovano": {
+        "titl": "Отменено"
+      },
+      "sumCelkem": {
+        "titl": "Итого [%p]"
+      },
+      "sumZkl": {
+        "titl": "База [%p]"
+      },
+      "uhrazeno": {
+        "titl": "УЖЕ СПАСЕН!"
+      },
+      "varSym": {
+        "titl": "Символ переменной"
+      },
+      "zaklad": {
+        "titl": "База"
+      }
+    },
+    "fakturaConfig$$FAV": {
+      "_title": {
+        "titl": "Настраиваемый счет-фактура"
+      }
+    },
+    "fakturaConfig$$NAV": {
+      "_title": {
+        "titl": "Настраиваемое меню"
+      },
+      "datSplatDatTermin": {
+        "titl": "Крайний срок"
+      }
+    },
+    "fakturaConfig$$OBP": {
+      "_title": {
+        "titl": "Настраиваемый порядок"
+      },
+      "datSplatDatTermin": {
+        "titl": "Крайний срок"
+      }
+    },
+    "fakturaKB": {
+      "_title": {
+        "titl": "Фактура"
+      },
+      "bspBan": {
+        "titl": "Банк. счет"
+      },
+      "konSym": {
+        "titl": "Пост. код"
+      },
+      "specSym": {
+        "titl": "Спец. код"
+      },
+      "varSym": {
+        "titl": "Вар. код"
+      }
+    },
+    "fakturaKB$$R_DPH_V_MENE": {
+      "_title": {
+        "titl": "Счет-фактура (сводная ведомость НДС в валюте документа)"
+      }
+    },
+    "fakturaKB$$SUM_BEZ_QR": {
+      "_title": {
+        "titl": "Счет-фактура (без QR-кода)"
+      }
+    },
+    "geisPredavaciProtokol": {
+      "_title": {
+        "titl": "Протокол передачи данных Geis"
+      },
+      "adresat": {
+        "titl": "Адрес"
+      },
+      "balikCislo": {
+        "titl": "Номер пакета"
+      },
+      "celkemBaliku": {
+        "titl": "Всего пакетов"
+      },
+      "celkemCod": {
+        "titl": "Общий ХПК"
+      },
+      "cod": {
+        "titl": "Доб. (КОД)"
+      },
+      "datum": {
+        "titl": "Дата"
+      },
+      "exw": {
+        "titl": "EXW"
+      },
+      "geisNazev": {
+        "titl": "GEIS Parcel CZ s.r.o."
+      },
+      "paticka1": {
+        "titl": "Перевозка осуществляется в соответствии с Общими положениями и условиями, текущий статус GEIS PARCEL CZ, spol. s r. o., ID №: 63077051."
+      },
+      "paticka2": {
+        "titl": "Компания зарегистрирована в Торговом реестре, который ведет Региональный суд в Пльзене, раздел С, вкладыш № 9503."
+      },
+      "podpisOdesilatele": {
+        "titl": "Подпись отправителя"
+      },
+      "podpisRidice": {
+        "titl": "Подпись водителя"
+      },
+      "potvrzeniOPrevzeti": {
+        "titl": "Протокол передачи"
+      },
+      "poz": {
+        "titl": "Пункт."
+      },
+      "poznam": {
+        "titl": "Примечание"
+      },
+      "prikazce": {
+        "titl": "Директор (отправитель)"
+      },
+      "pripojisteni": {
+        "titl": "Страхование"
+      },
+      "strana": {
+        "titl": "Страница"
+      },
+      "varSym": {
+        "titl": "Вар. символ"
+      },
+      "zasilkyBezPoskozeni": {
+        "titl": "Вышеуказанные грузы были переданы без повреждений"
+      }
+    },
+    "geisstitek": {
+      "_title": {
+        "titl": "Geis Label (лист A4)"
+      },
+      "geisNazev": {
+        "titl": "Geis Parcel CZ, s.r.o."
+      },
+      "odesilatel": {
+        "titl": "Отправитель"
+      },
+      "prijemce": {
+        "titl": "Получатель"
+      },
+      "tel": {
+        "titl": "Тел."
+      },
+      "vs": {
+        "titl": "VS"
+      }
+    },
+    "global": {
+      "PenUstav": {
+        "titl": "Денежный институт"
+      },
+      "ZbyvaUhradit": {
+        "titl": "Остаток к оплате"
+      },
+      "boolean.ano": {
+        "titl": "Да"
+      },
+      "boolean.ne": {
+        "titl": "Нет"
+      },
+      "celkem": {
+        "titl": "Итого:"
+      },
+      "celkemKc": {
+        "titl": "Итого в %currency-symbol"
+      },
+      "celkemMena": {
+        "titl": "Итого в валюте"
+      },
+      "celkemNeucetni": {
+        "titl": "Итого не бухг.:"
+      },
+      "celkemPrijem": {
+        "titl": "Итого доход:"
+      },
+      "celkemUcetni": {
+        "titl": "Итого бухг.:"
+      },
+      "celkemVydej": {
+        "titl": "Целиком доход:"
+      },
+      "cisloUctu": {
+        "titl": "SÚ"
+      },
+      "clenEU": {
+        "titl": "Член ЕС"
+      },
+      "developerMode": {
+        "titl": "Недействительная распечатка"
+      },
+      "dodaciList": {
+        "titl": "Накладная"
+      },
+      "dodavatel": {
+        "titl": "Поставщик"
+      },
+      "dph": {
+        "titl": "НДС"
+      },
+      "eetBkp": {
+        "titl": "BKP / защитный код плательщика"
+      },
+      "error": {
+        "titl": "ОШИБКА"
+      },
+      "juh": {
+        "titl": "Уже оплачено"
+      },
+      "kUhrade": {
+        "titl": "К оплате"
+      },
+      "kUhradeMen": {
+        "titl": "К оплате [валюта]"
+      },
+      "kUhradekDatu": {
+        "titl": "К оплате к дате"
+      },
+      "konSymbol": {
+        "titl": "Конст.символ"
+      },
+      "konverzniKurz": {
+        "titl": "курс обмена"
+      },
+      "mena": {
+        "titl": "валюта"
+      },
+      "merJed": {
+        "titl": "Измерительная единица"
+      },
+      "mesic": {
+        "titl": "Месяц"
+      },
+      "mobil": {
+        "titl": "Мобильный"
+      },
+      "nazFirmy": {
+        "titl": "Название фирмы"
+      },
+      "nevyplnen": {
+        "titl": "Невыполнено"
+      },
+      "odberatel": {
+        "titl": "Получатель"
+      },
+      "prevzalDne": {
+        "titl": "Взято на"
+      },
+      "prodejkaNeplatce": {
+        "titl": "Упрощённый документ"
+      },
+      "prodejkaZaHotove": {
+        "titl": "Чек за наличный рассчёт"
+      },
+      "prodejkaZaHotoveDobropis": {
+        "titl": "Чек за наличный рассчёт - Сторно-фактура"
+      },
+      "provozovna": {
+        "titl": "Предприятие"
+      },
+      "razitko": {
+        "titl": "Печать"
+      },
+      "reportVytiskl": {
+        "titl": "Распечатал"
+      },
+      "rozdil": {
+        "titl": "Разница"
+      },
+      "rozvaha": {
+        "titl": "Баланс (Итог)"
+      },
+      "specSymbol": {
+        "titl": "Специфический символ"
+      },
+      "stornovano": {
+        "titl": "Отменено"
+      },
+      "stranka": {
+        "titl": "Страница"
+      },
+      "sumCelkemMen": {
+        "titl": "Итого [валюта]"
+      },
+      "sumacePotlacena": {
+        "titl": "(без суммирования)"
+      },
+      "syntetickyUcet": {
+        "titl": "Синтетический счёт"
+      },
+      "tisknutoDne": {
+        "titl": "Дата распечатки"
+      },
+      "ucetniObdobiNeniUzavreno": {
+        "titl": "Отчётный период не закрыт!"
+      },
+      "uhrazeneDoklady": {
+        "titl": "Оплаченные документы"
+      },
+      "varSymbol": {
+        "titl": "Вариативный код"
+      },
+      "vysledovka": {
+        "titl": "Сводка убытков и прибыли"
+      },
+      "vytistenoSystemem": {
+        "titl": "Отпечатано системой %p"
+      }
+    },
+    "intPol": {
+      "doklad": {
+        "titl": "Документ"
+      }
+    },
+    "intPol$$BAN$$SUM_BAN": {
+      "_title": {
+        "titl": "Обзор элементов банковских документов"
+      }
+    },
+    "intPol$$BAN$$SUM_ZAP": {
+      "_title": {
+        "titl": "Обзор кредитных статей"
+      }
+    },
+    "intPol$$INT": {
+      "_title": {
+        "titl": "Обзор пунктов внутренних документов"
+      }
+    },
+    "intPol$$PHL": {
+      "_title": {
+        "titl": "Краткая информация о прочих статьях дебиторской задолженности"
+      }
+    },
+    "intPol$$ZAV": {
+      "_title": {
+        "titl": "Краткая информация о прочих статьях кредиторской задолженности"
+      }
+    },
+    "inventarizacePohledavek": {
+      "_title": {
+        "titl": "Инвентаризация дебиторской и кредиторской задолженности"
+      },
+      "datSplat": {
+        "titl": "Зрелость"
+      },
+      "datVyst": {
+        "titl": "Извлечено из"
+      },
+      "dekujeme": {
+        "titl": "Благодарим вас за сотрудничество и наилучшие пожелания"
+      },
+      "dokladyVMenePhl": {
+        "titl": "Отдельные документы по дебиторской задолженности в валюте"
+      },
+      "dokladyVMeneZav": {
+        "titl": "Отдельные документы по обязательствам в валюте"
+      },
+      "dokladyVTuzPhl": {
+        "titl": "Отдельные документы по дебиторской задолженности в %currency-symbol"
+      },
+      "dokladyVTuzZav": {
+        "titl": "Документы по индивидуальным обязательствам в %currency-symbol"
+      },
+      "firma": {
+        "titl": "Компания:"
+      },
+      "inventurizace": {
+        "titl": "Инвентаризация дебиторской и кредиторской задолженности на дату"
+      },
+      "juhSum": {
+        "titl": "Уже оплачено"
+      },
+      "kod": {
+        "titl": "Int.no.doc."
+      },
+      "pokudPhl": {
+        "titl": "Если в течение %p мы не получаем подтвержденного документа или ваших комментариев о состоянии дебиторской задолженности, мы считаем дебиторскую задолженность согласованной и подтвержденной."
+      },
+      "pokudZav": {
+        "titl": "Если мы не получим подтвержденный документ или ваше заявление о состоянии обязательств в течение %p, мы будем считать обязательства согласованными и принятыми."
+      },
+      "potvrzeny": {
+        "titl": "Пожалуйста, отправьте подтвержденную форму с любыми отличиями на наш адрес или по электронной почте по адресу"
+      },
+      "sumCelkem": {
+        "titl": "Всего"
+      },
+      "vDne": {
+        "titl": "В %p дня %p"
+      },
+      "varSym": {
+        "titl": "вар.символ"
+      },
+      "zadamePhl": {
+        "titl": "Мы просим вас сравнить ситуацию, о которой мы сообщили, с записями, которые вы вели. В отношении различной дебиторской задолженности, пожалуйста, укажите стоимость, зафиксированную вами, или предоставьте соответствующие документы, касающиеся разницы.\n                "
+      },
+      "zadameZav": {
+        "titl": "Мы просим вас сравнить ситуацию, о которой мы сообщили, с записями, которые вы вели. Для разных обязательств, пожалуйста, укажите стоимость, зафиксированную вами, или предоставьте соответствующие подтверждающие документы, относящиеся к разнице.\n                "
+      },
+      "zakonPhl": {
+        "titl": "В соответствии с законом № 563/1991 Св. зак. о бухгалтерском учете, с поправками, мы просим Вас провести сверку дебиторской задолженности нашей организации на дату"
+      },
+      "zakonSkPhl": {
+        "titl": "В соответствии с Законом № 431/2002 Св. зак. о бухгалтерском учете, с поправками, мы просим Вас провести сверку дебиторской задолженности нашей организации на дату"
+      },
+      "zakonSkZav": {
+        "titl": "В соответствии с Законом № 431/2002 Св. зак. о бухгалтерском учете, с поправками, мы просим Вас провести сверку обязательств нашей организации по состоянию на дату"
+      },
+      "zakonZav": {
+        "titl": "В соответствии с Законом № 563/1991 Св. зак. о бухгалтерском учете, с поправками, мы просим Вас провести сверку обязательств нашей организации по состоянию на дату"
+      },
+      "zbyvaUhradit": {
+        "titl": "Остается к оплате"
+      }
+    },
+    "inventura": {
+      "_title": {
+        "titl": "Инвентаризация товаров"
+      }
+    },
+    "inventura$$SUM_ROZDILY": {
+      "_title": {
+        "titl": "Запасы товаров (разница)"
+      }
+    },
+    "inventuraUctu": {
+      "_title": {
+        "titl": "Инвентаризация счетов"
+      },
+      "datum": {
+        "titl": "Дата"
+      },
+      "podpisInventarizacniKomise": {
+        "titl": "Подпись инвентаризационной комиссии"
+      }
+    },
+    "kartaZakazky": {
+      "_title": {
+        "titl": "Контрактная карточка"
+      }
+    },
+    "knihaFakCzk": {
+      "nedoplatek": {
+        "titl": "Задолженность [%currency-symbol]"
+      },
+      "nedoplatekMen": {
+        "titl": "Задолженность [валюта]"
+      },
+      "sumaCastka": {
+        "titl": "Сумма:"
+      },
+      "sumaNedoplatek": {
+        "titl": "Сумма задолженности:"
+      }
+    },
+    "knihaFakCzk$$FAP": {
+      "_title": {
+        "titl": "Список полученных счетов-фактур (баланс)"
+      }
+    },
+    "knihaFakCzk$$FAP$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Список полученных счетов-фактур (баланс, в соответствии с заказом пользователя)"
+      }
+    },
+    "knihaFakCzk$$FAV": {
+      "_title": {
+        "titl": "Список выставленных счетов-фактур (баланс)"
+      }
+    },
+    "knihaFakCzk$$FAV$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Список выставленных счетов (баланс, в соответствии с порядком пользователя)"
+      }
+    },
+    "knihaFakCzk$$PHL": {
+      "_title": {
+        "titl": "Перечень прочей дебиторской задолженности (сальдо)"
+      }
+    },
+    "knihaFakCzk$$PHL$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Список прочей дебиторской задолженности (сальдо, по заказам пользователей)"
+      }
+    },
+    "knihaFakCzk$$ZAV": {
+      "_title": {
+        "titl": "Перечень прочих обязательств (сальдо)"
+      }
+    },
+    "knihaFakCzk$$ZAV$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Список прочих обязательств (баланс, по порядку пользователя)"
+      }
+    },
+    "knihaFakCzk$$vykazSaldoKdatu": {
+      "_title": {
+        "titl": "Состояние платежей на дату"
+      }
+    },
+    "knihaFakCzk$$vykazSaldoKdatu$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Статус платежей на сегодняшний день (по распоряжению пользователя)"
+      }
+    },
+    "knihaFakMen$$FAP": {
+      "_title": {
+        "titl": "Список полученных счетов-фактур (баланс в валюте)"
+      }
+    },
+    "knihaFakMen$$FAV": {
+      "_title": {
+        "titl": "Список выставленных счетов-фактур (баланс в валюте)"
+      }
+    },
+    "knihaFakMen$$PHL": {
+      "_title": {
+        "titl": "Перечень прочей дебиторской задолженности (остаток в валюте)"
+      }
+    },
+    "knihaFakMen$$ZAV": {
+      "_title": {
+        "titl": "Список прочих обязательств (остаток в валюте)"
+      }
+    },
+    "knihaFakMen$$vykazSaldoKdatu": {
+      "_title": {
+        "titl": "Статус платежей на дату в валюте"
+      }
+    },
+    "konSym": {
+      "_title": {
+        "titl": "Постоянные символы"
+      }
+    },
+    "kontakty": {
+      "_title": {
+        "titl": "Связаться с"
+      }
+    },
+    "kontrolniVykazPrehled": {
+      "_title": {
+        "titl": "Контрольный отчет по НДС (обзор)"
+      }
+    },
+    "kontrolniVykazPrehledCZ": {
+      "44zdph": {
+        "titl": "§44 ЗАКОНА ОБ НДС"
+      },
+      "_title": {
+        "titl": "Контрольные ведомости по НДС (обзор по Чехии)"
+      },
+      "duzp": {
+        "titl": "ДУЗП"
+      },
+      "kod": {
+        "titl": "Регистрационный номер\\таможенный документ"
+      },
+      "kodPredmetuPlneni": {
+        "titl": "Код субъекта исполнения"
+      },
+      "kodRezimuPlneni": {
+        "titl": "Код схемы выполнения"
+      },
+      "pouzityPomer": {
+        "titl": "Используемое соотношение"
+      }
+    },
+    "kontrolniVykazPrehledCZ$$SUM": {
+      "_title": {
+        "titl": "Контрольные строки для декларации по НДС"
+      }
+    },
+    "kontrolniVykazPrehledCZ$$SUMACE": {
+      "_title": {
+        "titl": "Отчет о контроле НДС (сводка по Чехии, только итоговые строки)"
+      }
+    },
+    "kurzy": {
+      "_title": {
+        "titl": "Курсы"
+      }
+    },
+    "kusovnik": {
+      "_title": {
+        "titl": "Сдельная работа"
+      },
+      "celkem": {
+        "titl": "Общий налог без учета."
+      },
+      "celkemMj": {
+        "titl": "Всего МДж"
+      },
+      "cenaBezDph": {
+        "titl": "Цена без НДС за МДж"
+      },
+      "cenaSDph": {
+        "titl": "Цена с НДС за МДж"
+      }
+    },
+    "kusovnikNakup": {
+      "_title": {
+        "titl": "Список деталей с указанием закупочных цен"
+      },
+      "nakupCenaCelkem": {
+        "titl": "Общая стоимость покупки"
+      },
+      "nakupCenaZaMj": {
+        "titl": "Покупная цена за МДж"
+      }
+    },
+    "leasing": {
+      "_title": {
+        "titl": "Обзор лизинга"
+      },
+      "kartaLeasingu": {
+        "titl": "Лизинговая карта:"
+      }
+    },
+    "leasingWithSubreports": {
+      "_title": {
+        "titl": "Лизинг (график погашения, налоговые расходы)"
+      }
+    },
+    "majOdpisSkup": {
+      "_title": {
+        "titl": "Активы - амортизационные группы"
+      },
+      "koefProZrychOdpis": {
+        "titl": "Коэф. ускоренной амортизации"
+      },
+      "procProRovnOdpis": {
+        "titl": "Проц. для линейной амортизации"
+      }
+    },
+    "majTyp": {
+      "_title": {
+        "titl": "Виды собственности"
+      }
+    },
+    "majUdalosti": {
+      "_title": {
+        "titl": "Недвижимость - события"
+      }
+    },
+    "majUmisteni": {
+      "_title": {
+        "titl": "Недвижимость - местоположение"
+      }
+    },
+    "majetek$$SUM": {
+      "_title": {
+        "titl": "Обзор активов"
+      }
+    },
+    "majetekStav": {
+      "_title": {
+        "titl": "Обзор активов"
+      },
+      "aktualniCena": {
+        "titl": "Текущая цена [%currency-symbol]"
+      },
+      "cenaZarazeni": {
+        "titl": "Цена классификации [%currency-symbol]"
+      },
+      "datVyr": {
+        "titl": "Выведенный из эксплуатации"
+      },
+      "datZacatDan": {
+        "titl": "Налог. Пожалуйста."
+      },
+      "datZacatUcet": {
+        "titl": "Цель."
+      },
+      "datZar": {
+        "titl": "Извлечено из"
+      },
+      "odpisovaSkupina": {
+        "titl": "Транскрипт. налоговая группа"
+      },
+      "pocetUcetnichOdpisu": {
+        "titl": "Количество амортизационных счетов"
+      },
+      "rokDanOdpis": {
+        "titl": "Налоговая амортизация за период"
+      },
+      "rokUcetOdpis": {
+        "titl": "Амортизационные отчисления за период"
+      },
+      "sumDanOdpis": {
+        "titl": "Итого налоговая амортизация"
+      },
+      "sumUcetOdpis": {
+        "titl": "Итого бухгалтерская амортизация"
+      }
+    },
+    "majetekStavKDatu": {
+      "_title": {
+        "titl": "Обзор активов"
+      },
+      "cenaAktualni": {
+        "titl": "Текущая\\цена [%currency-symbol]"
+      },
+      "cenaZarazeni": {
+        "titl": "Цена\\назначение [%currency-symbol]"
+      },
+      "danoveOdpisy": {
+        "titl": "Налог. амортизацияИтого"
+      },
+      "danoveOdpisyObdobi": {
+        "titl": "Налог. амортизация за период"
+      },
+      "datPoslDanOdpis": {
+        "titl": "Посл. налог. списание"
+      },
+      "datPoslUcetOdpis": {
+        "titl": "Счет в мессенджере. Копия"
+      },
+      "datPuvZar": {
+        "titl": "Извлечено из"
+      },
+      "datVyr": {
+        "titl": "Выведенный из эксплуатации"
+      },
+      "datZacDan": {
+        "titl": "Начисление\\налоговой амортизации"
+      },
+      "datZacUcet": {
+        "titl": "Начисление\\end амортизации"
+      },
+      "dobaOdp": {
+        "titl": "Период амортизации [месяц]"
+      },
+      "kod": {
+        "titl": "Инвентарный номер"
+      },
+      "odpisovaSkupina": {
+        "titl": "Транскрипт. налоговая группа"
+      },
+      "odpisovaSkupinaSum": {
+        "titl": "Транскрипт. налоговая группа"
+      },
+      "pocetUcetnichOdpisu": {
+        "titl": "Количество амортизационных счетов"
+      },
+      "sumPoslDanOdpis": {
+        "titl": "Посл. налог. списание"
+      },
+      "sumPoslUcetOdpis": {
+        "titl": "Счет в мессенджере. Копия"
+      },
+      "ucetniOdpisy": {
+        "titl": "Счет. амортизация\\нинтеграл"
+      },
+      "ucetniOdpisyObdobi": {
+        "titl": "Счет. амортизация\\нзационный период"
+      },
+      "zustatekDanovy": {
+        "titl": "Налог\\residual"
+      },
+      "zustatekUcetni": {
+        "titl": "Бухгалтерский учет\\баланс"
+      }
+    },
+    "majetekStavKDatu$$SUM": {
+      "_title": {
+        "titl": "Сводная информация об активах (с итоговыми показателями по группам)"
+      }
+    },
+    "majetekWithSubreports": {
+      "_title": {
+        "titl": "Активы (Налоговая амортизация, События, Бухгалтерская амортизация)"
+      },
+      "danoveAUcetniStejne": {
+        "titl": "Налоговая амортизация такая же, как и бухгалтерская амортизация"
+      },
+      "kartaMajetku": {
+        "titl": "Карта активов:"
+      },
+      "schvalilVyrazeni": {
+        "titl": "Одобрил ликвидацию"
+      },
+      "schvalilZarazeni": {
+        "titl": "Одобрил включение"
+      }
+    },
+    "meny": {
+      "_title": {
+        "titl": "Валюты"
+      }
+    },
+    "merJed": {
+      "_title": {
+        "titl": "Единицы измерения"
+      }
+    },
+    "obalkaC5": {
+      "_title": {
+        "titl": "Адрес для конверта C5 (162x229 мм)"
+      }
+    },
+    "obalkaC6": {
+      "_title": {
+        "titl": "Адрес для конверта C6 (114x162 мм)"
+      }
+    },
+    "obalkaDL": {
+      "_title": {
+        "titl": "Адрес для конверта DL (110x220 мм)"
+      }
+    },
+    "obchodDoklad": {
+      "_title": {
+        "titl": "Внутреннее описание документа"
+      },
+      "celkem": {
+        "titl": "Всего"
+      },
+      "celkemZakladniSazba": {
+        "titl": "Включая НДС - основная ставка"
+      },
+      "ciziMena": {
+        "titl": "Валюта"
+      },
+      "domaciMena": {
+        "titl": "Внутренняя валюта"
+      },
+      "dphSnizenaSazba": {
+        "titl": "НДС - пониженная ставка"
+      },
+      "dphZakladniSazba": {
+        "titl": "НДС - основная ставка"
+      },
+      "hotovo": {
+        "titl": "Готово"
+      },
+      "nakladyNaDoklad": {
+        "titl": "Стоимость документа"
+      },
+      "odberatelDodavatel": {
+        "titl": "Клиент / поставщик"
+      },
+      "titleNAP": {
+        "titl": "Предложение принято"
+      },
+      "titleNAV": {
+        "titl": "Предложение выдано"
+      },
+      "titleOBP": {
+        "titl": "Заказ получен"
+      },
+      "titleOBV": {
+        "titl": "Издан приказ"
+      },
+      "titlePPP": {
+        "titl": "Полученный спрос"
+      },
+      "titlePPV": {
+        "titl": "Выставленное требование"
+      },
+      "zakladOsvobozeno": {
+        "titl": "Освобождается от НДС или не облагается им"
+      },
+      "zakladSnizenaSazba": {
+        "titl": "База - сниженная ставка"
+      },
+      "zakladZakladniSazba": {
+        "titl": "База - базовая ставка"
+      }
+    },
+    "obchodDoklad$$NES": {
+      "_title": {
+        "titl": "Внутреннее описание документа (без суммирования)"
+      }
+    },
+    "obchodDokladVystupni": {
+      "_title": {
+        "titl": "Доказательство для клиента"
+      }
+    },
+    "obchodDokladVystupni$$BEZ": {
+      "_title": {
+        "titl": "Документ клиента (без цен)"
+      }
+    },
+    "obchodDokladVystupni$$NES": {
+      "_title": {
+        "titl": "Доказательство для клиента (без итогов)"
+      }
+    },
+    "obchodDokladVystupni$$NES_BEZ_DPH": {
+      "_title": {
+        "titl": "Доказательство для клиента (без НДС, без итогов)"
+      }
+    },
+    "obchodDokladVystupni$$SUM_BEZ_DPH": {
+      "_title": {
+        "titl": "Доказательство для клиента (без НДС)"
+      }
+    },
+    "obchodDokladVystupniOBP": {
+      "_title": {
+        "titl": "Доказательство для клиента"
+      },
+      "cisDosle": {
+        "titl": "Номер входящего заказа"
+      }
+    },
+    "obchodDokladVystupniOBP$$NES": {
+      "_title": {
+        "titl": "Доказательство для клиента (без итогов)"
+      }
+    },
+    "obratyPocatky": {
+      "_title": {
+        "titl": "Начальные остатки на счетах"
+      }
+    },
+    "opisDokladu": {
+      "_title": {
+        "titl": "Описание документа"
+      }
+    },
+    "opravaSkladu": {
+      "_title": {
+        "titl": "Предметы, переходящие в негатив"
+      },
+      "idPolSklad": {
+        "titl": "ID Элемент складского документа"
+      },
+      "idSkladKarty": {
+        "titl": "Фондовые карты ID"
+      },
+      "pocetRozbiti": {
+        "titl": "Количество элементов в негативе"
+      }
+    },
+    "penezniDenik": {
+      "_title": {
+        "titl": "Денежный дневник"
+      },
+      "castka": {
+        "titl": "Сумма в %currency-symbol"
+      },
+      "doklad": {
+        "titl": "Номер документа"
+      },
+      "prijem": {
+        "titl": "Получение"
+      },
+      "vydej": {
+        "titl": "Извлечено из"
+      }
+    },
+    "poSplatnosti": {
+      "_title": {
+        "titl": "Просроченная просроченная дебиторская/кредиторская задолженность"
+      },
+      "celkem": {
+        "titl": "Всего"
+      },
+      "celkemPoSplatnosti": {
+        "titl": "Итого просроченная задолженность"
+      },
+      "datSplat": {
+        "titl": "Зрелость"
+      },
+      "datUcto": {
+        "titl": "Бухгалтерский учет"
+      },
+      "firma": {
+        "titl": "Компания"
+      },
+      "firmaNevyplnena": {
+        "titl": "Компания не заполнена"
+      },
+      "kod": {
+        "titl": "Номер документа"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Просроченная просроченная дебиторская задолженность"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Непогашенные просроченные обязательства"
+      },
+      "rozmezi": {
+        "titl": "от %p до %p дней просрочки"
+      },
+      "rozmeziKonec": {
+        "titl": "%p и более дней просрочки"
+      },
+      "symbolSplatnosti.stav0": {
+        "titl": "Не просрочен"
+      },
+      "symbolSplatnosti.stavZnevyplneno": {
+        "titl": "Срок погашения не заполнен"
+      },
+      "uhrazeno": {
+        "titl": "Оплачивается"
+      },
+      "zbyva": {
+        "titl": "Остатки"
+      }
+    },
+    "poSplatnostiDleDokladu": {
+      "_title": {
+        "titl": "Непогашенная дебиторская/кредиторская задолженность по срокам погашения"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Непогашенная дебиторская задолженность по срокам погашения"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Непогашенные обязательства по срокам погашения"
+      }
+    },
+    "poSplatnostiDleFirmy": {
+      "_title": {
+        "titl": "Просроченная дебиторская/просроченная кредиторская задолженность (по компаниям)"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Просроченная дебиторская задолженность (по компаниям)"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Непогашенные просроченные обязательства (по компаниям)"
+      }
+    },
+    "podaciListek": {
+      "_title": {
+        "titl": "Квитанция о приеме документов"
+      }
+    },
+    "podkladyDPH": {
+      "MFin5401": {
+        "titl": "25 5401 MFin 5401 - модель № 14"
+      },
+      "bezDane": {
+        "titl": "Без налога"
+      },
+      "castkaZaPlneni": {
+        "titl": "Сумма за выполнение"
+      },
+      "celkem": {
+        "titl": "Всего"
+      },
+      "ctvrtleti": {
+        "titl": "Ежеквартально"
+      },
+      "dalsiUdaje": {
+        "titl": "Другие данные:"
+      },
+      "dan": {
+        "titl": "Налог"
+      },
+      "danNaVystupu": {
+        "titl": "Налог на выпуск продукции"
+      },
+      "danoveIdentifikacniCislo": {
+        "titl": "Идентификационный номер налогоплательщика"
+      },
+      "datum": {
+        "titl": "Дата"
+      },
+      "dodaniProstrednikem": {
+        "titl": "Доставка товара посредником"
+      },
+      "dodatecne": {
+        "titl": "дополнительно"
+      },
+      "doplnujiciUdaje": {
+        "titl": "Дополнительные данные"
+      },
+      "dph": {
+        "titl": "налог на добавленную стоимость"
+      },
+      "duvodyProDodatecne": {
+        "titl": "Основания для подачи дополнительной налоговой декларации, установленные на"
+      },
+      "financniUradPriznanouDanVymeril": {
+        "titl": "Налоговая служба начислила/добавила налог и предписала его в соответствии со статьей 46 Закона № 337/1992 Св. зак. об администрировании налогов и сборов, с поправками, внесенными"
+      },
+      "financnimuUradu": {
+        "titl": "В налоговую инспекцию в, в, для"
+      },
+      "fyzickaOsoba": {
+        "titl": "Индивидуально:"
+      },
+      "hlavniEkonomickaCinnost": {
+        "titl": "Основная экономическая деятельность"
+      },
+      "hodnota": {
+        "titl": "Значение"
+      },
+      "kDPH": {
+        "titl": "по налогу на добавленную стоимость"
+      },
+      "keDni": {
+        "titl": "в течение нескольких дней"
+      },
+      "koeficient": {
+        "titl": "Коэффициент"
+      },
+      "kraceniRadek1": {
+        "titl": "Рассчитанная пропорциональная часть налогового вычета (§ 76)"
+      },
+      "kraceniRadek2": {
+        "titl": "Урегулирование налогового вычета (§ 76 (7-10))"
+      },
+      "kraceniRadek3": {
+        "titl": "Корректировка налогового вычета (§ 78)"
+      },
+      "kraceniRadek4": {
+        "titl": "Урегулирование налогового вычета (§ 79)"
+      },
+      "kraceniVyporadavaniUprava": {
+        "titl": "Вычет, урегулирование, корректировка и компенсация налогового вычета"
+      },
+      "kracenyNarok": {
+        "titl": "Сокращенное право на льготы"
+      },
+      "kraj": {
+        "titl": "Страна"
+      },
+      "narokNaOdpocet": {
+        "titl": "Право на вычет налога по операциям для"
+      },
+      "nazevPravnickeOsoby": {
+        "titl": "Название юридического лица"
+      },
+      "neplatceDane": {
+        "titl": "Неплательщик налогов § 19 / 5, 6, § 108"
+      },
+      "nezZacnete": {
+        "titl": "Перед заполнением формы, пожалуйста, ознакомьтесь с инструкциями."
+      },
+      "odOsobNeregistrovanych": {
+        "titl": "от лиц, не зарегистрированных для уплаты налогов в другом государстве-члене (Статья 19(4))"
+      },
+      "odOsobRegistrovanych": {
+        "titl": "от лиц, зарегистрированных для уплаты налогов в другом государстве-члене ЕС (§ 19(3))"
+      },
+      "oddil": {
+        "titl": "РАЗДЕЛ"
+      },
+      "odpocetDane": {
+        "titl": "Налоговый вычет"
+      },
+      "odpocetRadek1": {
+        "titl": "Получение налогооблагаемых поставок с местом поставки на внутренней территории страны"
+      },
+      "odpocetRadek7": {
+        "titl": "При изменении режима"
+      },
+      "odpocetRadek8": {
+        "titl": "Общая сумма для уменьшения налогового вычета\n(строка 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)"
+      },
+      "odpocetRadek9": {
+        "titl": "Общая сумма полного права на налоговый вычет\n(строки 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)"
+      },
+      "oprava": {
+        "titl": "Коррекция"
+      },
+      "opravne": {
+        "titl": "Исправительные учреждения"
+      },
+      "osobaIdentifikovanaKDani": {
+        "titl": "Лицо, идентифицированное для целей налогообложения § 96"
+      },
+      "osobaOpravnenaKPodpisu": {
+        "titl": "Лицо, уполномоченное подписывать документы от имени налогового органа"
+      },
+      "otiskRazitka": {
+        "titl": "Оттиск печати"
+      },
+      "otiskRazitkaFU": {
+        "titl": "оттиск презентационной печати налоговой инспекции"
+      },
+      "platceDane": {
+        "titl": "Налогоплательщик § 94"
+      },
+      "plnyNarok": {
+        "titl": "Полное право"
+      },
+      "podpis": {
+        "titl": "Подпись"
+      },
+      "podpisOpravnenehoPracovnikaDPH": {
+        "titl": "Подпись уполномоченного сотрудника налогового администратора"
+      },
+      "porizeniProstrednikem": {
+        "titl": "Приобретение товаров средним лицом"
+      },
+      "postaveniVzhledemKPravnickeOsobe": {
+        "titl": "В случае юридического лица: статус по отношению к юридическому лицу"
+      },
+      "povinnostPriznatDanZa": {
+        "titl": "Обязанность по декларированию налога на"
+      },
+      "pozdejsichPredpisu": {
+        "titl": "с поправками, на"
+      },
+      "pravnickaOsoba": {
+        "titl": "Юридическое лицо:"
+      },
+      "priznani": {
+        "titl": "ПРИЗНАНИЕ"
+      },
+      "priznaniSestavil": {
+        "titl": "Исповедь, составленная"
+      },
+      "priznatRadek1": {
+        "titl": "Налогооблагаемые поставки с местом поставки в Чешской Республике"
+      },
+      "priznatRadek2": {
+        "titl": "Приобретение товаров из другого государства-члена (§ 16 и § 17(6)(e); кроме § 19)"
+      },
+      "priznatRadek3": {
+        "titl": "Поставка услуг лицом, зарегистрированным для уплаты налогов в другом государстве-члене (§ 15 и § 13(8))"
+      },
+      "priznatRadek4": {
+        "titl": "Отправка товаров из другого государства-члена ЕС с местом исполнения на внутренней территории (§ 18)"
+      },
+      "priznatRadek5": {
+        "titl": "Приобретение нового средства передвижения"
+      },
+      "priznatRadek6": {
+        "titl": "Импорт товаров (§ 20)"
+      },
+      "priznatRadek7": {
+        "titl": "Поставка услуг иностранным налогооблагаемым лицом (§ 15 и § 13(8))"
+      },
+      "prohlaseni": {
+        "titl": "Я заявляю, что вся информация, предоставленная мной в данной декларации, является достоверной и полной."
+      },
+      "proskrtneteNevzniklaDanovaPovinnost": {
+        "titl": "Зачеркните (X), если налоговые обязательства не возникли"
+      },
+      "radek": {
+        "titl": "ř."
+      },
+      "radne": {
+        "titl": "правильный"
+      },
+      "rok": {
+        "titl": "год"
+      },
+      "sDani": {
+        "titl": "С налогами"
+      },
+      "sSnizSazbou": {
+        "titl": "При сниженной налоговой ставке"
+      },
+      "sZklSazbou": {
+        "titl": "При базовой налоговой ставке"
+      },
+      "sidloNeboBydliste": {
+        "titl": "Зарегистрированный офис юридического лица или постоянное место жительства физического лица:"
+      },
+      "ulice": {
+        "titl": "Номер улицы и ориентира (или часть деревни и номер описания)"
+      },
+      "uskutecnenaCelkemRadek1": {
+        "titl": "Общая сумма поставок, дающая право на вычет (§ 72(2)(a)-(d))"
+      },
+      "uskutecnenaCelkemRadek2": {
+        "titl": "Операции, которые не включаются в расчет коэффициента (§ 76(3)) из перечисленных в строке 510"
+      },
+      "uskutecnenaCelkemRadek3": {
+        "titl": "Общая сумма необлагаемых поставок, осуществленных без права вычета налога (§ 51)"
+      },
+      "uskutecnenaCelkemRadek4": {
+        "titl": "Операции, которые не включаются в расчет коэффициента (§ 76(3)) из перечисленных в строке 530"
+      },
+      "uskutecnenaPlneniCelkem": {
+        "titl": "Всего проведенных операций"
+      },
+      "uskutecnenaPlneniOsvobozena": {
+        "titl": "Освобожденные операции с правом на налоговый вычет"
+      },
+      "uskutecnenaRadek1": {
+        "titl": "Поставка товаров в другое государство-член (§ 64, за исключением § 64(2) и § 17(2))"
+      },
+      "uskutecnenaRadek2": {
+        "titl": "Поставка нового транспортного средства в другое государство-член (§ 64(2))\\ субъекты, зарегистрированные для уплаты налога в государстве-члене"
+      },
+      "uskutecnenaRadek3": {
+        "titl": "Поставка нового транспортного средства в другое государство-член ЕС (§ 64(2))\\не зарегистрированного для уплаты налога в государстве-члене ЕС"
+      },
+      "uskutecnenaRadek4": {
+        "titl": "Экспорт товаров (§ 66)"
+      },
+      "uskutecnenaRadek5": {
+        "titl": "Другие необлагаемые поставки с налоговым вычетом"
+      },
+      "uvedeniHodnotyPriZjednoduseni": {
+        "titl": "Указание стоимости при использовании упрощенной процедуры\n для поставки товаров на территории Европейского сообщества в форме трехсторонней торговли (§ 17)"
+      },
+      "vraceniDane": {
+        "titl": "Возврат налога (§ 84)"
+      },
+      "vraceniDaneRadek1": {
+        "titl": "Возврат налога"
+      },
+      "vypocetDaneRadek1": {
+        "titl": "Расчеты по налогу на прибыль (§ 91)"
+      },
+      "vypocetDaneRadek2": {
+        "titl": "Налог на выпуск продукции (серия 210 + 215 + 220 + 225 + 230 + 235 + 240 + 245 + 250 + 255 + 260 + 265 + 270 + 275 - 600 + 710)"
+      },
+      "vypocetDaneRadek3": {
+        "titl": "Налоговый вычет (строка 390 + 550 + 560 + 570 + 580)"
+      },
+      "vypocetDaneRadek4": {
+        "titl": "Собственное налоговое обязательство (строки 730 - 750)"
+      },
+      "vypocetDaneRadek5": {
+        "titl": "Избыточный вычет (строки 750 - 730)"
+      },
+      "vypocetDaneRadek6": {
+        "titl": "Изменение налогового обязательства при подаче дополнительной декларации (строки 730 - 750)"
+      },
+      "vypocetDanovePovinnosti": {
+        "titl": "Расчет налогового обязательства"
+      },
+      "zaObdobi": {
+        "titl": "За налоговый период: месяц"
+      },
+      "zakladDane": {
+        "titl": "Налоговая база"
+      },
+      "zauctovanoVObdobi": {
+        "titl": "Учтено в течение периода"
+      },
+      "zmenaOdpoctuDane": {
+        "titl": "Изменение налогового вычета"
+      }
+    },
+    "podkladyDph$$NES": {
+      "_title": {
+        "titl": "Документы по НДС по дате проводки"
+      }
+    },
+    "podkladyDph$$SUM": {
+      "_title": {
+        "titl": "Документы по НДС"
+      }
+    },
+    "podkladyDphBezUctovani$$NES": {
+      "_title": {
+        "titl": "Документы по НДС по дате проводки (сгруппированные)"
+      }
+    },
+    "podkladyDphBezUctovani$$SUM": {
+      "_title": {
+        "titl": "Документы по НДС (сгруппированные)"
+      }
+    },
+    "podkladyDphNaVysku$$SUMACE": {
+      "_title": {
+        "titl": "Документы по НДС (только итоговые строки)"
+      }
+    },
+    "podkladyDphNaVyskuZRadku$$SUMACE": {
+      "_title": {
+        "titl": "Документы по НДС для других стран с НДС (только итоговые строки)"
+      }
+    },
+    "podkladyDphZRadku$$SUM": {
+      "_title": {
+        "titl": "Документы по НДС для других стран с НДС"
+      }
+    },
+    "pohybyNaUctech": {
+      "_title": {
+        "titl": "Движение по счетам"
+      }
+    },
+    "pohybyNaUctechZjednodusene": {
+      "_title": {
+        "titl": "Инвентаризация счетов"
+      },
+      "doklad": {
+        "titl": "Документ"
+      },
+      "pocatek": {
+        "titl": "Начало"
+      },
+      "sumTuzDal": {
+        "titl": "Оборот DAL [%currency-symbol]"
+      },
+      "sumTuzMd": {
+        "titl": "Оборот MD [%currency-symbol]"
+      },
+      "ucetDAL": {
+        "titl": "Счет DAL"
+      },
+      "ucetMD": {
+        "titl": "Счет MD"
+      },
+      "zustatek": {
+        "titl": "Баланс"
+      },
+      "zustatekTuz": {
+        "titl": "Баланс [%currency-symbol]"
+      }
+    },
+    "pohybyNaUctechZjednodusene$$SUM": {
+      "_title": {
+        "titl": "Движение по счетам - Запасы"
+      }
+    },
+    "pokDoklad": {
+      "_title": {
+        "titl": "Кассовый документ"
+      },
+      "bezDane2": {
+        "titl": "НДС 0%"
+      },
+      "castkaSlovy": {
+        "titl": "Сумма в словах"
+      },
+      "dan2": {
+        "titl": "НДС"
+      },
+      "dne": {
+        "titl": "На сайте"
+      },
+      "podpisPokladnika": {
+        "titl": "Подпись казначея"
+      },
+      "prevzal": {
+        "titl": "Извлечено из"
+      },
+      "prijatoOd": {
+        "titl": "Принято от"
+      },
+      "prijmovyDoklad": {
+        "titl": "Приходный кассовый документ"
+      },
+      "prijmovyDokladVratka": {
+        "titl": "Кассовый чек - возмещение"
+      },
+      "schvalil": {
+        "titl": "Одобрено"
+      },
+      "soucet": {
+        "titl": "Всего"
+      },
+      "ucel": {
+        "titl": "Назначение"
+      },
+      "vydejovyDoklad": {
+        "titl": "Документ о выплате денежных средств"
+      },
+      "vydejovyDokladVratka": {
+        "titl": "Документ о выплате денежных средств - возврат"
+      },
+      "vyplacenoKomu": {
+        "titl": "Кому выплачено"
+      },
+      "zaklad": {
+        "titl": "Справочная информация"
+      },
+      "zauctoval": {
+        "titl": "Опубликовано"
+      }
+    },
+    "pokDoklad$$SUM_UHR_DOKL": {
+      "_title": {
+        "titl": "Кассовый чек (с оплаченными документами)"
+      }
+    },
+    "pokDoklad$$SUM_ZAUCT": {
+      "_title": {
+        "titl": "Кассовый чек (с проводкой)"
+      }
+    },
+    "polozkyFaktur": {
+      "_title": {
+        "titl": "Анализ продаж"
+      },
+      "idCenik": {
+        "titl": "Товары"
+      },
+      "idFirmy": {
+        "titl": "Компания"
+      },
+      "idMistUrc": {
+        "titl": "Место назначения"
+      },
+      "idSkladu": {
+        "titl": "Склад"
+      },
+      "idSkupCen": {
+        "titl": "Группа прейскуранта"
+      },
+      "idSkupFir": {
+        "titl": "Группа компаний"
+      },
+      "idSkupZboz": {
+        "titl": "Группа товаров"
+      },
+      "idStred": {
+        "titl": "Центр"
+      },
+      "idZakazky": {
+        "titl": "Заказ"
+      },
+      "idZodpOsoba": {
+        "titl": "Ответственное лицо"
+      },
+      "idZodpOsobaAdresar": {
+        "titl": "Ответственное лицо из справочника"
+      },
+      "procObchodniRozpeti": {
+        "titl": "% Маржа"
+      },
+      "procSumZkl": {
+        "titl": "% Итого"
+      }
+    },
+    "polozkyFaktur$$NES": {
+      "_title": {
+        "titl": "Анализ продаж (без итоговых показателей)"
+      }
+    },
+    "polozkyFaktur$$NES_NAKUP": {
+      "_title": {
+        "titl": "Анализ покупок (без итогов)"
+      }
+    },
+    "polozkyFaktur$$SUM_NAKUP": {
+      "_title": {
+        "titl": "Анализ покупок"
+      }
+    },
+    "postovniPodaciArch": {
+      "_title": {
+        "titl": "Почтовая картотека"
+      }
+    },
+    "pplstitek": {
+      "_title": {
+        "titl": "Этикетка PPL (лист A4)"
+      },
+      "dobirka": {
+        "titl": "Наложенный платеж:"
+      },
+      "dokladCislo": {
+        "titl": "Номер документа:"
+      },
+      "email": {
+        "titl": "Электронная почта: info@ppl.cz"
+      },
+      "expresnibalikovasluzba": {
+        "titl": "служба экспресс-посылок"
+      },
+      "flexibee": {
+        "titl": "ABRA Flexi"
+      },
+      "modralinka": {
+        "titl": "Горячая линия: 840 775 775"
+      },
+      "odesilatel": {
+        "titl": "Отправитель/Заявитель:"
+      },
+      "prijemce": {
+        "titl": "Грузополучатель/Получатель:"
+      },
+      "www": {
+        "titl": "http://www.ppl.cz"
+      }
+    },
+    "pplstitekJeden": {
+      "_title": {
+        "titl": "Этикетка PPL (одинарная, 102x126 мм)"
+      }
+    },
+    "predvaha": {
+      "dal": {
+        "titl": "DAL"
+      },
+      "koncovyZustatek": {
+        "titl": "Конечный баланс"
+      },
+      "md": {
+        "titl": "MD"
+      },
+      "obratyZaObdobi": {
+        "titl": "Оборот за период"
+      },
+      "pocatecniZustatek": {
+        "titl": "Начальный баланс"
+      },
+      "uctovaTrida": {
+        "titl": "Бухгалтерский класс"
+      }
+    },
+    "prehledSmluv": {
+      "_title": {
+        "titl": "Обзор договоров"
+      }
+    },
+    "prehledSmluv$$SUM_POL": {
+      "_title": {
+        "titl": "Список контрактов (с перечнем предметов)"
+      }
+    },
+    "prehled_a4$$FAP": {
+      "_title": {
+        "titl": "Список полученных счетов-фактур (в портретном формате)"
+      }
+    },
+    "prijemkaVydejka": {
+      "_title": {
+        "titl": "Квитанция или диспенсер"
+      },
+      "cisFak": {
+        "titl": "Номер счета-фактуры"
+      },
+      "cislo": {
+        "titl": "Номер"
+      },
+      "maFakturu": {
+        "titl": "У него есть счет-фактура"
+      },
+      "prijemkaVydejkaUmisteni": {
+        "titl": "Приемный или раздаточный ящик (с указанием местоположения)"
+      },
+      "typPohybu.prijem": {
+        "titl": "Получатель"
+      },
+      "typPohybu.vydej": {
+        "titl": "Дозирование"
+      },
+      "umisteni": {
+        "titl": "Размещение"
+      },
+      "vydal": {
+        "titl": "Опубликовано"
+      }
+    },
+    "prikazDoVyroby": {
+      "_title": {
+        "titl": "Командировка на производство"
+      },
+      "cisloPrikazu": {
+        "titl": "Номер заказа"
+      },
+      "datumVyhotoveni": {
+        "titl": "Дата выполнения"
+      },
+      "mezioperacniKontrola": {
+        "titl": "Межоперационный контроль"
+      },
+      "ostatniSuroviny": {
+        "titl": "Прочее сырье и обоснование"
+      },
+      "sarze": {
+        "titl": "Партии"
+      },
+      "skladVyrobku": {
+        "titl": "Склад продукции"
+      },
+      "uzavreni": {
+        "titl": "Закрытие"
+      },
+      "vystupniKontrola": {
+        "titl": "Управление выходом"
+      },
+      "zamestnanci": {
+        "titl": "Персонал"
+      }
+    },
+    "priznaniDPH": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 14 (с 1.1.2008)"
+      }
+    },
+    "priznaniDPH2009": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 15 (с 1.1.2009)"
+      }
+    },
+    "priznaniDPH2009SK": {
+      "_title": {
+        "titl": "декларация по НДС (словацкая форма)"
+      }
+    },
+    "priznaniDPH2010": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 16 (с 1.1.2010)"
+      }
+    },
+    "priznaniDPH2010SK": {
+      "_title": {
+        "titl": "Налоговая декларация по НДС 2010-01 (с 1.1.2010) (словацкая форма)"
+      }
+    },
+    "priznaniDPH2011": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 17 (с 1.1.2011)"
+      }
+    },
+    "priznaniDPH2011SK": {
+      "_title": {
+        "titl": "Налоговая декларация по НДС 2011 - 01 (с 1.1.2011) (словацкая форма)"
+      }
+    },
+    "priznaniDPH2012SK": {
+      "_title": {
+        "titl": "Налоговая декларация по НДС 2012 - 01 (с 1.1.2012) (словацкая форма)"
+      }
+    },
+    "priznaniDPH2013": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 18 (с 1.1.2013)"
+      }
+    },
+    "priznaniDPH2015": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 19 (с 1.1.2015)"
+      }
+    },
+    "priznaniDPH2016": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 20 (от 29.7.2016)"
+      }
+    },
+    "priznaniDPH2019": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 21 (с 01.05.2019)"
+      }
+    },
+    "priznaniDPH2021": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 23 (с 01.10.2021)"
+      }
+    },
+    "priznaniDPH2021SK": {
+      "_title": {
+        "titl": "Декларация по НДС 2021 (с 1.1.2021) (словацкая форма)"
+      }
+    },
+    "priznaniDPH2024": {
+      "_title": {
+        "titl": "Декларация по НДС модель № 24 (с 01.01.2024)"
+      }
+    },
+    "prodejka": {
+      "_title": {
+        "titl": "Упрощенный налоговый документ"
+      },
+      "celkem": {
+        "titl": "Итого"
+      }
+    },
+    "prodejka60mm": {
+      "_title": {
+        "titl": "Упрощенный налоговый документ (60 мм)"
+      },
+      "celkem": {
+        "titl": "Всего"
+      },
+      "celkemV": {
+        "titl": "Всего в"
+      },
+      "datVyst": {
+        "titl": "Дата"
+      },
+      "duzp": {
+        "titl": "ДУЗП"
+      },
+      "mj": {
+        "titl": "MJ"
+      }
+    },
+    "prodejkaZaHotove": {
+      "_title": {
+        "titl": "Продавец за наличные"
+      }
+    },
+    "prodejniPrehled": {
+      "_title": {
+        "titl": "Обзор продаж"
+      },
+      "celkem": {
+        "titl": "Всего"
+      },
+      "sumCelkem": {
+        "titl": "Итого [%p]"
+      },
+      "sumDph": {
+        "titl": "НДС [%p]"
+      },
+      "sumZkl": {
+        "titl": "База [%p]"
+      },
+      "uhrazeno": {
+        "titl": "Оплачивается"
+      }
+    },
+    "pruvodka": {
+      "_title": {
+        "titl": "Руководство"
+      },
+      "celkem": {
+        "titl": "Всего"
+      },
+      "kBAN": {
+        "titl": "Банковский документ"
+      },
+      "kFAP": {
+        "titl": "Полученные счета-фактуры"
+      },
+      "kFAV": {
+        "titl": "Выставленные счета"
+      },
+      "kINT": {
+        "titl": "Внутренний документ"
+      },
+      "kPHL": {
+        "titl": "Претензии"
+      },
+      "kPOK": {
+        "titl": "Поступление денежных средств"
+      },
+      "kSKL": {
+        "titl": "Фондовый документ"
+      },
+      "kZAV": {
+        "titl": "Обязательства"
+      },
+      "kZapoctu": {
+        "titl": "Взаимный кредит"
+      },
+      "rekapitulaceDph": {
+        "titl": "Пересчет НДС"
+      },
+      "sazbaDph": {
+        "titl": "Ставка НДС"
+      },
+      "suma": {
+        "titl": "Сумма"
+      },
+      "ucetDal": {
+        "titl": "Кредитовый счет"
+      },
+      "ucetMD": {
+        "titl": "Дебетовый счет"
+      },
+      "uctovani": {
+        "titl": "Бухгалтерский учет"
+      },
+      "zdanitelnePlneni": {
+        "titl": "Налогооблагаемая поставка"
+      }
+    },
+    "radkySestavy": {
+      "rozsahPredSestavy": {
+        "titl": "Предыдущий период от:"
+      },
+      "rozsahSestavy": {
+        "titl": "За период с:"
+      },
+      "rozsahSestavyDo": {
+        "titl": "к:"
+      }
+    },
+    "rady": {
+      "_title": {
+        "titl": "Серия документов"
+      }
+    },
+    "rozvaha": {
+      "_title": {
+        "titl": "Бухгалтерский баланс в полном объеме"
+      },
+      "bilance": {
+        "titl": "(баланс)"
+      },
+      "doDne": {
+        "titl": "на"
+      },
+      "keDni": {
+        "titl": "в течение нескольких дней"
+      },
+      "nazevASidloUcetniJednotky": {
+        "titl": "Зарегистрированный офис, место жительства или место ведения бизнеса организации"
+      },
+      "obchodniFirma": {
+        "titl": "Фирменное наименование или другое название организации"
+      },
+      "odDne": {
+        "titl": "С сайта"
+      },
+      "okamzikSestaveni": {
+        "titl": "Момент сборки"
+      },
+      "podpisOrganu": {
+        "titl": "Подписная запись уставного органа или физического лица, являющегося субъектом бухгалтерского учета"
+      },
+      "podpisOsoby": {
+        "titl": "Подпись лица, ответственного за подготовку финансовой отчетности"
+      },
+      "pravniFormaUcetniJednotky": {
+        "titl": "Организационно-правовая форма предприятия"
+      },
+      "predmetPodnikani": {
+        "titl": "Предпринимательская или иная деятельность"
+      },
+      "rozvaha": {
+        "titl": "Бухгалтерский баланс"
+      },
+      "schvalenoMFCR": {
+        "titl": "Подготовлено в соответствии с Указом № 500/2002\nSb. с поправками"
+      },
+      "schvalenoMFCRnezisk": {
+        "titl": "Подготовлено в соответствии с Декретом № 504/2002\nSb. с поправками"
+      },
+      "schvalenoMFCRprispevk": {
+        "titl": "Подготовлено в соответствии с Указом № 505/2002\nSb. с поправками"
+      },
+      "schvalenoMFCRprispevk2010": {
+        "titl": "Подготовлено в соответствии с Декретом № 410/2009\nSb. с поправками"
+      },
+      "schvalenoMFCRslovaci": {
+        "titl": "Подготовлено в соответствии с Указом № 500/2002\nSb. с поправками"
+      },
+      "vKC": {
+        "titl": "(в тысячах %currency-symbol)"
+      },
+      "zakladniVerze": {
+        "titl": "в основном диапазоне"
+      },
+      "zjednodusenaVerze": {
+        "titl": "в упрощенном режиме"
+      },
+      "zkracenaVerze": {
+        "titl": "в сокращенном объеме"
+      }
+    },
+    "rozvaha$$SUM": {
+      "_title": {
+        "titl": "Упрощенный бухгалтерский баланс"
+      }
+    },
+    "rozvaha$$SUM_ZAKL": {
+      "_title": {
+        "titl": "Основной баланс"
+      }
+    },
+    "rozvahaPoUctechObraty": {
+      "_title": {
+        "titl": "Инвентаризация активов и обязательств (оборот)"
+      }
+    },
+    "rozvahaPoUctechStavy": {
+      "_title": {
+        "titl": "Инвентаризация активов и обязательств (остатки)"
+      }
+    },
+    "rozvahaVysledovkaPoUctech": {
+      "aktiva": {
+        "titl": "Активы"
+      },
+      "konecnyZustatek": {
+        "titl": "Окончательный баланс"
+      },
+      "naklady": {
+        "titl": "Стоимость"
+      },
+      "pasiva": {
+        "titl": "Пассивный"
+      },
+      "soucet": {
+        "titl": "Всего"
+      },
+      "uctovaTrida": {
+        "titl": "Бухгалтерский класс."
+      },
+      "vynosy": {
+        "titl": "Доход"
+      },
+      "vysledek": {
+        "titl": "Результат"
+      }
+    },
+    "saldo": {
+      "_title": {
+        "titl": "Баланс"
+      }
+    },
+    "saldo$$GRUP": {
+      "_title": {
+        "titl": "Баланс (сгруппированный)"
+      }
+    },
+    "saldoNaVysku": {
+      "_title": {
+        "titl": "Равновесие (портрет)"
+      }
+    },
+    "saldoNaVysku$$GRUP": {
+      "_title": {
+        "titl": "Баланс (портрет, сгруппированный)"
+      }
+    },
+    "sesRadky": {
+      "_title": {
+        "titl": "Строки отчета"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$BEZ_ROZPADU": {
+      "_title": {
+        "titl": "Строки отчета"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$ROZPAD_PREDPIS": {
+      "_title": {
+        "titl": "Строки отчета (Стандартный рецепт, Рецепт пользователя)"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$ROZPAD_UCET": {
+      "_title": {
+        "titl": "Строки отчета (разбивка по счетам)"
+      }
+    },
+    "sesRadkyRozpadUce": {
+      "_title": {
+        "titl": "Строки отчета (разбивка по счетам)"
+      }
+    },
+    "sesRadkyStdPred": {
+      "_title": {
+        "titl": "Строки отчета (Стандартный рецепт, Рецепт пользователя)"
+      }
+    },
+    "sestavy": {
+      "_title": {
+        "titl": "Бухгалтерские отчеты"
+      }
+    },
+    "sklPol$$SKL": {
+      "_title": {
+        "titl": "Список движений акций"
+      }
+    },
+    "sklRezervace": {
+      "_title": {
+        "titl": "Список оговорок"
+      }
+    },
+    "sklVyrCis": {
+      "_title": {
+        "titl": "Список серийных номеров"
+      }
+    },
+    "skladKarty": {
+      "_title": {
+        "titl": "Обзор фондовых карт"
+      },
+      "cenaTuz": {
+        "titl": "Цена [%currency-symbol]"
+      },
+      "poslCenaTuz": {
+        "titl": "Последний"
+      },
+      "prumCenaTuz": {
+        "titl": "Среднее"
+      },
+      "stav": {
+        "titl": "Состояние запасов"
+      },
+      "stavMJ": {
+        "titl": "в MJ"
+      },
+      "stavMen": {
+        "titl": "[валюта]."
+      },
+      "stavTuz": {
+        "titl": "[%currency-symbol]"
+      },
+      "sumPrijem": {
+        "titl": "Доход:"
+      },
+      "sumVydej": {
+        "titl": "Выпуск:"
+      }
+    },
+    "skladKarty$$SKL$$NES": {
+      "_title": {
+        "titl": "Обзор фондовых карт (с движениями)"
+      }
+    },
+    "skladKarty$$SKL$$NES_STR": {
+      "_title": {
+        "titl": "Обзор фондовых карт (с движениями, постранично)"
+      }
+    },
+    "skladKartyInventura": {
+      "_title": {
+        "titl": "Инвентаризация товаров"
+      },
+      "naSklade": {
+        "titl": "Фактический статус"
+      }
+    },
+    "skladKartyInventura$$NES": {
+      "_title": {
+        "titl": "Инвентаризация товаров (без запасов)"
+      }
+    },
+    "skupFir": {
+      "_title": {
+        "titl": "Группы компаний"
+      }
+    },
+    "skupZboz": {
+      "_title": {
+        "titl": "Группы товаров"
+      }
+    },
+    "slozenkaA": {
+      "_title": {
+        "titl": "Почтовый кредитный авизо A"
+      }
+    },
+    "smerKod": {
+      "_title": {
+        "titl": "Банковские коды"
+      }
+    },
+    "souhrnneHlaseni": {
+      "_title": {
+        "titl": "Краткий отчет (действителен до 2009 года)"
+      }
+    },
+    "souhrnnyVykazOPrijmechAVydajich": {
+      "_title": {
+        "titl": "Краткий отчет о доходах и расходах"
+      },
+      "danEvidSkupina.nespadaCelkem": {
+        "titl": "Не подпадает под j. ú. total"
+      },
+      "danEvidSkupina.nevyplnenoCelkem": {
+        "titl": "Итого не заполнено"
+      },
+      "danEvidSkupina.ostatniCelkem": {
+        "titl": "Прочее всего"
+      },
+      "danEvidSkupina.prijemCelkem": {
+        "titl": "Общий доход"
+      },
+      "danEvidSkupina.vydejCelkem": {
+        "titl": "Общие расходы"
+      },
+      "nevyplneno": {
+        "titl": "Пустой"
+      },
+      "rozdilPrijemVydej": {
+        "titl": "Разница между доходами и расходами"
+      }
+    },
+    "stavSkladu": {
+      "_title": {
+        "titl": "Состояние запасов на дату"
+      }
+    },
+    "stavyHlavniKniha": {
+      "_title": {
+        "titl": "Главная книга (суммарный оборот за месяц)"
+      }
+    },
+    "stavyUctu": {
+      "Dal": {
+        "titl": "Он дал"
+      },
+      "Md": {
+        "titl": "Он должен дать"
+      },
+      "_title": {
+        "titl": "Остатки на счетах"
+      },
+      "obrat": {
+        "titl": "Оборот"
+      },
+      "zaUcetObdobi": {
+        "titl": "За отчетный период"
+      },
+      "zustatek": {
+        "titl": "Баланс"
+      }
+    },
+    "stavyUctuPocatky": {
+      "_title": {
+        "titl": "Начальные остатки по счетам - контрольная распечатка"
+      }
+    },
+    "stitky": {
+      "_title": {
+        "titl": "Этикетки для полок (70x30 мм)"
+      },
+      "za": {
+        "titl": "Для"
+      }
+    },
+    "strediska": {
+      "_title": {
+        "titl": "Центры"
+      }
+    },
+    "typDoklSkl$$SKL": {
+      "_title": {
+        "titl": "Список типов складских документов"
+      }
+    },
+    "typLeasingu": {
+      "_title": {
+        "titl": "Виды аренды"
+      }
+    },
+    "typUcetOp": {
+      "_title": {
+        "titl": "Список правил бухгалтерского учета"
+      }
+    },
+    "ucetniDenik": {
+      "_title": {
+        "titl": "Бухгалтерский дневник"
+      }
+    },
+    "ucetniObdobi": {
+      "_title": {
+        "titl": "Отчетный период"
+      }
+    },
+    "ucetniOsnova": {
+      "_title": {
+        "titl": "План счетов"
+      }
+    },
+    "ucetniRozvrh": {
+      "_title": {
+        "titl": "План счетов"
+      }
+    },
+    "uhrazeneDoklady": {
+      "_title": {
+        "titl": "Оплаченные документы"
+      },
+      "castka": {
+        "titl": "Сумма"
+      },
+      "sumCelkem": {
+        "titl": "Итого"
+      },
+      "zbyvaSparovat": {
+        "titl": "Остатки для пары"
+      },
+      "zbyvaUhradit": {
+        "titl": "Оставшаяся доплата"
+      }
+    },
+    "upominka": {
+      "_title": {
+        "titl": "Напоминание"
+      },
+      "adresaDodavatele": {
+        "titl": "Адрес поставщика:"
+      }
+    },
+    "uzaverkoveOperace": {
+      "_title": {
+        "titl": "Закрытие операций"
+      },
+      "celkem": {
+        "titl": "Всего"
+      },
+      "mezisoucetObratu": {
+        "titl": "Промежуточный итог оборотов"
+      },
+      "zisk": {
+        "titl": "Прибыль 710 / 702"
+      },
+      "ztrata": {
+        "titl": "Убыток 702 / 710"
+      }
+    },
+    "vykazCenPohyby": {
+      "_title": {
+        "titl": "Закупки, продажи и движение запасов"
+      },
+      "sumCelkemFAP": {
+        "titl": "Полученные счета-фактуры"
+      },
+      "sumCelkemFAV": {
+        "titl": "Выставленные счета"
+      },
+      "sumCelkemPOKPrijem": {
+        "titl": "Кассовый аппарат - квитанция"
+      },
+      "sumCelkemPOKVydej": {
+        "titl": "Касса - выдача"
+      },
+      "sumCelkemSKLPrijem": {
+        "titl": "Склад - приемка"
+      },
+      "sumCelkemSKLVydej": {
+        "titl": "Склад - дозирование"
+      }
+    },
+    "vykazDanEvidSK": {
+      "_title": {
+        "titl": "Постатейный отчет о доходах и расходах"
+      }
+    },
+    "vykazHospodareni": {
+      "_title": {
+        "titl": "Экономическое заявление"
+      },
+      "mesic": {
+        "titl": "Луна"
+      },
+      "rok": {
+        "titl": "Год"
+      },
+      "vykazHospodareniZa": {
+        "titl": "Отчет об операциях за месяц"
+      },
+      "zahrnovany": {
+        "titl": "В комплекте"
+      },
+      "ziskZtrata": {
+        "titl": "Прибыль (+), убыток (-)"
+      }
+    },
+    "vykazMossPrehled": {
+      "_title": {
+        "titl": "Налоговая декларация по ОСНО (обзор)"
+      }
+    },
+    "vysledovka": {
+      "vysledovka": {
+        "titl": "Отчет о прибылях и убытках"
+      }
+    },
+    "vysledovka$$NES": {
+      "_title": {
+        "titl": "Отчет о прибылях и убытках в полном объеме"
+      }
+    },
+    "vysledovka$$SUM": {
+      "_title": {
+        "titl": "Отчет о прибылях и убытках в упрощенной форме"
+      }
+    },
+    "vysledovka$$SUM_ZAKL": {
+      "_title": {
+        "titl": "Отчет о прибылях и убытках в базовом диапазоне"
+      }
+    },
+    "vysledovkaPoUctechObraty": {
+      "_title": {
+        "titl": "Сводные данные о расходах и доходах (оборот)"
+      }
+    },
+    "vysledovkaPoUctechStavy": {
+      "_title": {
+        "titl": "Отчет о расходах и доходах (остатки)"
+      }
+    },
+    "zapocetPohledavek": {
+      "_title": {
+        "titl": "Соглашение о взаимном зачете требований"
+      },
+      "a": {
+        "titl": "a"
+      },
+      "celkemZapocteno": {
+        "titl": "Всего подсчитано:"
+      },
+      "cisDokl": {
+        "titl": "Документ"
+      },
+      "cisloZapoctu": {
+        "titl": "Количество кредитов"
+      },
+      "datSplat": {
+        "titl": "Зрелость"
+      },
+      "datVyst": {
+        "titl": "Извлечено из"
+      },
+      "dohoda": {
+        "titl": "Соглашение о взаимном зачете требований"
+      },
+      "obeStrany": {
+        "titl": "Обе стороны договорились на дату %p о взаимном зачете суммы %p %p."
+      },
+      "podleParagrafu": {
+        "titl": "в соответствии с §364 Торгового кодекса и §580 Гражданского кодекса"
+      },
+      "podleParagrafu1982": {
+        "titl": "в соответствии с §1982 Гражданского кодекса"
+      },
+      "pohledavka": {
+        "titl": "дебиторская задолженность на %p от %p:"
+      },
+      "potvrzenouKopii": {
+        "titl": "Пожалуйста, отправьте заверенную копию обратно на наш адрес."
+      },
+      "seDohodli": {
+        "titl": "заключить соглашение о взаимном зачете следующих требований и обязательств"
+      },
+      "sumCelkem": {
+        "titl": "Счет-фактура"
+      },
+      "varSym": {
+        "titl": "VS"
+      },
+      "za": {
+        "titl": "для %p"
+      },
+      "zapocteno": {
+        "titl": "Извлечено из"
+      },
+      "zavazek": {
+        "titl": "ответственность в размере от %p до %p:"
+      },
+      "zbyvaUhradit": {
+        "titl": "Остается к оплате"
+      }
+    },
+    "zapocetPohledavekJednostranny": {
+      "_title": {
+        "titl": "Односторонний зачет дебиторской задолженности"
+      },
+      "dohoda": {
+        "titl": "Односторонний зачет дебиторской и кредиторской задолженности"
+      },
+      "podleParagrafu": {
+        "titl": "в соответствии с § 364-368 Торгового кодекса и § 580-581 Гражданского кодекса"
+      },
+      "podleParagrafu1982": {
+        "titl": "в соответствии с §1982 Гражданского кодекса"
+      },
+      "sPozdravem": {
+        "titl": "Искренне ваш"
+      },
+      "sdelujemeVam": {
+        "titl": "Сообщаем, что по состоянию на дату %p мы проводим взаимозачет следующих дебиторских и кредиторских задолженностей:"
+      },
+      "vSidloOrganizaceDne": {
+        "titl": "В %p из %p."
+      }
+    },
+    "zapujcky": {
+      "_title": {
+        "titl": "Активы - кредиты"
+      }
+    },
+    "zebraStitkyMaster$$NES": {
+      "_title": {
+        "titl": "Этикетки (Zebra, 50x30 мм, для фрагмента на элементе документа)"
+      }
+    },
+    "zebraStitkyMaster$$SUM": {
+      "_title": {
+        "titl": "Этикетки (Zebra, 50x30 мм, для элементов документов)"
+      }
+    },
+    "zebraStitkyMaster$$cenAkt$$SUM": {
+      "_title": {
+        "titl": "Этикетки для полок (Zebra, 50x30 мм)"
+      }
+    }
+  }
+}

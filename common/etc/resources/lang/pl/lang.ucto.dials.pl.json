@@ -1,0 +1,2305 @@
+{
+  "dials": {
+    "autoSendMailMod.neodesilat": {
+      "titl": "Nie należy wysyłać"
+    },
+    "autoSendMailMod.odesilat": {
+      "titl": "Wyślij do"
+    },
+    "autoSendMailMod.odesilatBcc": {
+      "titl": "Wysyłaj tylko ukryte kopie na e-mail"
+    },
+    "automatickeOdvozovaniVarSymNaFap": {
+      "titl": "Aktywuje automatyczne wyprowadzenie symbolu zmiennego z numeru przychodzącego na otrzymanej fakturze."
+    },
+    "barvaMaterialu.bareNepruhled": {
+      "titl": "Nieprzezroczyste kolorowe"
+    },
+    "barvaMaterialu.barevPruhled": {
+      "titl": "Przezroczysty, kolorowy"
+    },
+    "barvaMaterialu.transparent": {
+      "titl": "Przezroczysta"
+    },
+    "clenSpl.financni": {
+      "titl": "działalność finansowa"
+    },
+    "clenSpl.vstupni": {
+      "titl": "Cena wstępna"
+    },
+    "creditCheck.green": {
+      "titl": "Zielona"
+    },
+    "creditCheck.red": {
+      "titl": "Czerwony"
+    },
+    "creditCheck.yellow": {
+      "titl": "Żółty"
+    },
+    "danEvid.NeDanEvid": {
+      "titl": "Nie wchodzi do ewidencji podatkowej"
+    },
+    "danEvid.Par10Ostatni": {
+      "titl": "§ 10 - Pozostałe przychody"
+    },
+    "danEvid.Par7JinePodn": {
+      "titl": "§ 7 - Inna działalność"
+    },
+    "danEvid.Par7PodilySpol": {
+      "titl": "§ 7 - Udziały wspólników"
+    },
+    "danEvid.Par7Prava": {
+      "titl": "§ 7 - Korzystanie z,  czy udzielenie praw"
+    },
+    "danEvid.Par7ZemVyroba": {
+      "titl": "§ 7 - Produkcja rolnicza"
+    },
+    "danEvid.Par7Zivnost": {
+      "titl": "§ 7 - Działalność gospodarcza"
+    },
+    "danEvid.Par8KapMaj": {
+      "titl": "§ 8 - Dochody  kapitałowe"
+    },
+    "danEvid.Par9Pronajem": {
+      "titl": "§ 9 - Dochody z najmu"
+    },
+    "danEvid.SocPoj": {
+      "titl": "Płatność na ubezpieczenie socjalne"
+    },
+    "danEvid.ZdravPoj": {
+      "titl": "Płatność na ubezpieczenie zdrowotne"
+    },
+    "danEvid.mzdy": {
+      "titl": "Lista płac"
+    },
+    "danEvid.ostatnePrijmy": {
+      "titl": "Inne dochody"
+    },
+    "danEvid.ostatneVydavky": {
+      "titl": "Inne wydatki"
+    },
+    "danEvid.platbyPojistnehoAPrispevkov": {
+      "titl": "Wypłata składek i premii ubezpieczeniowych"
+    },
+    "danEvid.predajTovaru": {
+      "titl": "Sprzedaż towarów"
+    },
+    "danEvid.predajVyrobkovSluzieb": {
+      "titl": "Sprzedaż produktów i usług"
+    },
+    "danEvid.sluzby": {
+      "titl": "Usługi"
+    },
+    "danEvid.tvorbaSocialnihoFondu": {
+      "titl": "Tworzenie Funduszu Społecznego"
+    },
+    "danEvid.zasoby": {
+      "titl": "Zapasy"
+    },
+    "danEvidSkupina.nespada": {
+      "titl": "Nie wchodzi w zakres DE"
+    },
+    "danEvidSkupina.nevyplneno": {
+      "titl": "Pusty"
+    },
+    "danEvidSkupina.ostatni": {
+      "titl": "Inne"
+    },
+    "danEvidSkupina.par07": {
+      "titl": "§7"
+    },
+    "danEvidSkupina.par08": {
+      "titl": "§8"
+    },
+    "danEvidSkupina.par09": {
+      "titl": "§9"
+    },
+    "danEvidSkupina.par10": {
+      "titl": "§10"
+    },
+    "danEvidSkupina.prijem": {
+      "titl": "Dochód"
+    },
+    "danEvidSkupina.vydej": {
+      "titl": "Wydatki"
+    },
+    "dashboardPanelVisibility.hidden": {
+      "titl": "Czy nikt nie widzi"
+    },
+    "dashboardPanelVisibility.private": {
+      "titl": "Tylko autor może zobaczyć"
+    },
+    "dashboardPanelVisibility.shared": {
+      "titl": "Możliwe jest udostępnienie"
+    },
+    "dashboardPanelVisibility.shared-all": {
+      "titl": "Każdy może zobaczyć"
+    },
+    "datazTypParam.actId": {
+      "titl": "Aktualny zapis"
+    },
+    "datazTypParam.actModul": {
+      "titl": "Aktualny moduł"
+    },
+    "datazTypParam.date": {
+      "titl": "Data"
+    },
+    "datazTypParam.integer": {
+      "titl": "Cały numer"
+    },
+    "datazTypParam.logic": {
+      "titl": "Wartość logiczna"
+    },
+    "datazTypParam.numeric": {
+      "titl": "Liczba dziesiętna"
+    },
+    "datazTypParam.object": {
+      "titl": "Obiekt"
+    },
+    "datazTypParam.string": {
+      "titl": "Łańcuch"
+    },
+    "denniKurz.aktualniDen": {
+      "titl": "Z  dnia bieżącego"
+    },
+    "denniKurz.predchoziDen": {
+      "titl": "Z dnia ubiegłego"
+    },
+    "druhLeas.financni": {
+      "titl": "Finansowy"
+    },
+    "druhLeas.operativ": {
+      "titl": "Operacyjny"
+    },
+    "druhMaj.drobny": {
+      "titl": "Drobny"
+    },
+    "druhMaj.hmDl": {
+      "titl": "Długoterminowy materialny"
+    },
+    "druhMaj.nehmDl": {
+      "titl": "Długoterminowy niematerialny"
+    },
+    "druhMaj.neodepis": {
+      "titl": "Nieodpisywany (tylko ewidencja)"
+    },
+    "druhStavuZakazky.hotovo": {
+      "titl": "Gotowe"
+    },
+    "druhStavuZakazky.mame": {
+      "titl": "Mamy"
+    },
+    "druhStavuZakazky.storno": {
+      "titl": "Stornowane"
+    },
+    "druhStavuZakazky.ziskavame": {
+      "titl": "Uzyskujemy"
+    },
+    "druhUctu.aktivni": {
+      "titl": "aktywny"
+    },
+    "druhUctu.aktpasvo": {
+      "titl": "aktywny/pasywny (wybór)"
+    },
+    "druhUctu.aktpasvy": {
+      "titl": "aktywny/pasywny (według wyników)"
+    },
+    "druhUctu.naklady": {
+      "titl": "Nakłady"
+    },
+    "druhUctu.otevknih": {
+      "titl": "otwarcie księgi"
+    },
+    "druhUctu.pasivhvy": {
+      "titl": "Pasywny wynik gospodarzenia"
+    },
+    "druhUctu.pasivni": {
+      "titl": "Pasywny"
+    },
+    "druhUctu.prhosvys": {
+      "titl": "Przeniesienie wyniku gospodarzenia"
+    },
+    "druhUctu.uzavknih": {
+      "titl": "Zamknięcie księgi"
+    },
+    "druhUctu.vynosy": {
+      "titl": "Dochody"
+    },
+    "druhUdal.pozn": {
+      "titl": "Uwaga"
+    },
+    "druhUdal.udal": {
+      "titl": "Zdarzenie/Transakcja"
+    },
+    "druhUdal.ukol": {
+      "titl": "Zadanie"
+    },
+    "druhUdal.workflow": {
+      "titl": "Zadanie workflow"
+    },
+    "duverCert.duverovat": {
+      "titl": "Ufać"
+    },
+    "duverCert.ptatSe": {
+      "titl": "Pytać"
+    },
+    "eetMod.ne": {
+      "titl": "Poza"
+    },
+    "eetMod.ostry": {
+      "titl": "Sharp"
+    },
+    "eetMod.ostryTest": {
+      "titl": "Nieprodukcyjny ostry (dla deweloperów)"
+    },
+    "eetMod.overovaci": {
+      "titl": "Weryfikacja"
+    },
+    "eetMod.overovaciTest": {
+      "titl": "Weryfikacja nieprodukcyjna (dla deweloperów)"
+    },
+    "eetStav.ne": {
+      "titl": "nie wysłany"
+    },
+    "eetStav.neStorno": {
+      "titl": "nie wysłano anulowania"
+    },
+    "eetStav.neuspech": {
+      "titl": "Porażka"
+    },
+    "eetStav.neuspechStorno": {
+      "titl": "brak anulowania"
+    },
+    "eetStav.odeslano": {
+      "titl": "Wysłane do"
+    },
+    "eetStav.odeslanoStorno": {
+      "titl": "wysłane anulowanie"
+    },
+    "eetTyp.anoBezny": {
+      "titl": "tryb normalny"
+    },
+    "eetTyp.anoEkasa": {
+      "titl": "eCash"
+    },
+    "eetTyp.anoZjednoduseny": {
+      "titl": "tryb uproszczony"
+    },
+    "eetTyp.ne": {
+      "titl": "nie podlega EET"
+    },
+    "eetTypPlatby.cestovni": {
+      "titl": "Płatności za usługi turystyczne"
+    },
+    "eetTypPlatby.poukaz": {
+      "titl": "Płatności kuponami, kuponami podarunkowymi, kartami, bonami itp."
+    },
+    "eetTypPlatby.pouzite": {
+      "titl": "Sprzedaż towarów używanych"
+    },
+    "ekokom.exportovaneObaly": {
+      "titl": "Opakowania eksportowane"
+    },
+    "ekokom.nezaplaceneObaly": {
+      "titl": "Opakowania nie zapłacone"
+    },
+    "ekokom.predplaceneObaly": {
+      "titl": "Opakowania opłacone z góry"
+    },
+    "ekokom.vyrazeneObaly": {
+      "titl": "Opakowania wybrakowane"
+    },
+    "ekokom.zpoplatneneObaly": {
+      "titl": "Opakowania opodatkowane"
+    },
+    "elPrikazPoplatek.odesilatel": {
+      "titl": "Nadawca"
+    },
+    "elPrikazPoplatek.prijemce": {
+      "titl": "Odbiorca"
+    },
+    "elPrikazPoplatek.spolecne": {
+      "titl": "Wspólna płatność"
+    },
+    "elPrikazStav.odeslan": {
+      "titl": "Wysłano"
+    },
+    "elPrikazStav.vytvoren": {
+      "titl": "Nie wysłano"
+    },
+    "elVypisDuplicita.nekontrolovat": {
+      "titl": "Nie kontrolować"
+    },
+    "elVypisDuplicita.polozka": {
+      "titl": "Ignorować pozycje już zapisane"
+    },
+    "elVypisDuplicita.vypis": {
+      "titl": "Ignorować już zapisane wyciągi"
+    },
+    "fapDatProDuzpUctoK.aktDatum": {
+      "titl": "Data bieżąca"
+    },
+    "fapDatProDuzpUctoK.datSplat": {
+      "titl": "Dojrzałość"
+    },
+    "fapDatProDuzpUctoK.datUcto": {
+      "titl": "Data umieszczenia w wykazie"
+    },
+    "fapDatProDuzpUctoK.datVyst": {
+      "titl": "Zaakceptowany"
+    },
+    "fapDatProDuzpUctoK.duzpPuv": {
+      "titl": "Data opodatkowania. pl."
+    },
+    "fapDatProDuzpUctoK.neplnit": {
+      "titl": "Nie napełniać wstępnie"
+    },
+    "finbricksActivateBic": {
+      "titl": "Aktywuje Finbricks dla konta instytucji finansowej, której jeszcze nie mamy na liście obsługiwanych."
+    },
+    "formExport.edi": {
+      "titl": "EDI Elektroniczna wymiana danych"
+    },
+    "formExport.xml": {
+      "titl": "XML"
+    },
+    "formaDopravy.ceskaPostaM": {
+      "titl": "Poczta Czeska (plik M)"
+    },
+    "formaDopravy.ceskaPostaPO": {
+      "titl": "Poczta czeska (złożenie wniosku online)"
+    },
+    "formaDopravy.geis": {
+      "titl": "Geis"
+    },
+    "formaDopravy.ppl": {
+      "titl": "PPL"
+    },
+    "formaUhr.cenina": {
+      "titl": "kuponem,bonem itp."
+    },
+    "formaUhr.dobirka": {
+      "titl": "za zaliczeniem"
+    },
+    "formaUhr.hotove": {
+      "titl": "gotówką"
+    },
+    "formaUhr.jina": {
+      "titl": "w innej formie"
+    },
+    "formaUhr.nespec": {
+      "titl": "nie określono"
+    },
+    "formaUhr.platKart": {
+      "titl": "kartą płatniczą"
+    },
+    "formaUhr.prevod": {
+      "titl": "przelewem"
+    },
+    "formaUhr.sek": {
+      "titl": "czekiem"
+    },
+    "formaUhr.slozenka": {
+      "titl": "przekazem"
+    },
+    "formaUhr.zapocet": {
+      "titl": "rozliczeniem"
+    },
+    "frDanNakl.ctvrtlet": {
+      "titl": "kwartalnie"
+    },
+    "frDanNakl.dvoumesi": {
+      "titl": "Co drugi miesiąc"
+    },
+    "frDanNakl.mesicne": {
+      "titl": "Miesięcznie"
+    },
+    "frDanNakl.pololet": {
+      "titl": "Półrocznie"
+    },
+    "frDanNakl.rocne": {
+      "titl": "Rocznie"
+    },
+    "frekAkt.5minut": {
+      "titl": "co 5 minut"
+    },
+    "frekAkt.denne": {
+      "titl": "co dzień"
+    },
+    "frekAkt.hodinu": {
+      "titl": "co godzina"
+    },
+    "frekAkt.rucne": {
+      "titl": "ręcznie"
+    },
+    "gdprPlatnost.manualne": {
+      "titl": "Ręcznie"
+    },
+    "gdprPlatnost.vznikAutoKonec": {
+      "titl": "Automatycznie od końca ważności zapisu"
+    },
+    "gdprPlatnost.vznikAutoPocatek": {
+      "titl": "Automatycznie od początku ważności rekordu"
+    },
+    "gdprPravTit.cuaVyslSouhl": {
+      "titl": "Dane wrażliwe: wyraźna zgoda na przetwarzanie"
+    },
+    "gdprPravTit.cubZpracNezb": {
+      "titl": "Dane wrażliwe: przetwarzanie konieczne"
+    },
+    "gdprPravTit.cucOchrZaj": {
+      "titl": "Dane wrażliwe: ochrona żywotnych interesów"
+    },
+    "gdprPravTit.cudClenNezis": {
+      "titl": "Dane wrażliwe: członek jednostki non-profit"
+    },
+    "gdprPravTit.cueZjevZver": {
+      "titl": "Dane wrażliwe: dane pozornie opublikowane"
+    },
+    "gdprPravTit.cufPravNarok": {
+      "titl": "Dane wrażliwe: realizacja lub obrona roszczeń prawnych"
+    },
+    "gdprPravTit.cugVyzVerZaj": {
+      "titl": "Dane wrażliwe: znaczący interes publiczny"
+    },
+    "gdprPravTit.cuhLekarOs": {
+      "titl": "Dane wrażliwe: opieka zdrowotna i społeczna"
+    },
+    "gdprPravTit.cuiVerZdr": {
+      "titl": "Dane wrażliwe: interes zdrowia publicznego"
+    },
+    "gdprPravTit.cujArchVyzStat": {
+      "titl": "Dane wrażliwe: archiwizacja, badania lub cele statystyczne"
+    },
+    "gdprPravTit.opravZaj": {
+      "titl": "Uzasadniony interes"
+    },
+    "gdprPravTit.plnSml": {
+      "titl": "Wykonanie umowy"
+    },
+    "gdprPravTit.souhlZprac": {
+      "titl": "Zgoda na przetwarzanie danych"
+    },
+    "gdprPravTit.splnPovin": {
+      "titl": "Spełnienie obowiązku prawnego"
+    },
+    "gdprPravTit.verejZaj": {
+      "titl": "Interes publiczny"
+    },
+    "gdprPravTit.zivotDulez": {
+      "titl": "Vital"
+    },
+    "gdprTypVztahu.jedenZeZprac": {
+      "titl": "Jeden z procesorów"
+    },
+    "gdprTypVztahu.prijemce": {
+      "titl": "Odbiorca"
+    },
+    "gdprTypVztahu.spolSpravce": {
+      "titl": "Wspólni Administratorzy"
+    },
+    "gdprTypVztahu.spravce": {
+      "titl": "Administrator"
+    },
+    "gdprTypVztahu.subzpracovatel": {
+      "titl": "Podprocesor"
+    },
+    "gdprTypVztahu.zastupce": {
+      "titl": "Przedstawiciel"
+    },
+    "gdprTypVztahu.zpracovatel": {
+      "titl": "Procesor"
+    },
+    "isdocPrilohaMailu.ano": {
+      "titl": "Tak"
+    },
+    "isdocPrilohaMailu.ne": {
+      "titl": "Nie"
+    },
+    "isdocPrilohaMailu.podleTypDokl": {
+      "titl": "Według rodzaju dokumentu"
+    },
+    "jakUhrazeno.autoBezVs": {
+      "titl": "Automatycznie według kwoty"
+    },
+    "jakUhrazeno.autoBuc": {
+      "titl": "Automatycznie według rachunku bankowego"
+    },
+    "jakUhrazeno.autoKod": {
+      "titl": "Automatycznie według numeru dokumentu int."
+    },
+    "jakUhrazeno.autoVs": {
+      "titl": "Automatycznie według zmiennego symbolu"
+    },
+    "jakUhrazeno.autoVsRuzneMeny": {
+      "titl": "Automatycznie przez var. sym. (różne waluty)"
+    },
+    "jakUhrazeno.autoZak": {
+      "titl": "Automatycznie według numeru klienta"
+    },
+    "jakUhrazeno.rucne1": {
+      "titl": "Ręcznie - 1 dokument"
+    },
+    "jakUhrazeno.rucneCast": {
+      "titl": "Ręcznie -  częściowa spłata"
+    },
+    "jakUhrazeno.rucneN": {
+      "titl": "Ręcznie - więcej dokumentów"
+    },
+    "jakyTypDokl.posledni": {
+      "titl": "Ostatni wybrany"
+    },
+    "jakyTypDokl.primarni": {
+      "titl": "Podstawowy"
+    },
+    "jakyTypDokl.zeptat": {
+      "titl": "Zapytać użytkownika"
+    },
+    "jazyk.cs": {
+      "titl": "Język czeski"
+    },
+    "jazyk.de": {
+      "titl": "Język niemiecki"
+    },
+    "jazyk.en": {
+      "titl": "Język angielski"
+    },
+    "jazyk.es": {
+      "titl": "Język hiszpański"
+    },
+    "jazyk.fr": {
+      "titl": "Język francuski"
+    },
+    "jazyk.hu": {
+      "titl": "Węgierski"
+    },
+    "jazyk.it": {
+      "titl": "Język włoski"
+    },
+    "jazyk.none": {
+      "titl": "nieaktywny"
+    },
+    "jazyk.pl": {
+      "titl": "Polska"
+    },
+    "jazyk.ro": {
+      "titl": "Rumuński"
+    },
+    "jazyk.ru": {
+      "titl": "Język rosyjski"
+    },
+    "jazyk.sk": {
+      "titl": "Język słowacki"
+    },
+    "kodPlneni.bezVlivu": {
+      "titl": "Bez wpływu na VAT"
+    },
+    "kodPlneni.doprProstr": {
+      "titl": "Środek transportu"
+    },
+    "kodPlneni.dovozOSS": {
+      "titl": "OSS - system przywozu"
+    },
+    "kodPlneni.knihy": {
+      "titl": "Dostawa książek i podobne usługi"
+    },
+    "kodPlneni.majetek": {
+      "titl": "Majątek"
+    },
+    "kodPlneni.mimoEuOSS": {
+      "titl": "OSS - poza UE"
+    },
+    "kodPlneni.nespec": {
+      "titl": "Nie określono"
+    },
+    "kodPlneni.oprava": {
+      "titl": "Korekta wypełnienia"
+    },
+    "kodPlneni.ostatni": {
+      "titl": "Pozostałe"
+    },
+    "kodPlneni.osv": {
+      "titl": "Zwolniono"
+    },
+    "kodPlneni.prenDanPov": {
+      "titl": "Przeniesione zobowiązanie podatkowe"
+    },
+    "kodPlneni.prenDanPovOprava": {
+      "titl": "Przeniesione zobowiązanie podatkowe - wybór użytkownika"
+    },
+    "kodPlneni.sluzby": {
+      "titl": "Świadczone usługi"
+    },
+    "kodPlneni.sluzbyMOSS": {
+      "titl": "Mini One Stop Shop"
+    },
+    "kodPlneni.sluzbyOSS": {
+      "titl": "OSS - usługi UE"
+    },
+    "kodPlneni.tristran": {
+      "titl": "Handel trójstronny"
+    },
+    "kodPlneni.zbozi": {
+      "titl": "Dostawa towaru"
+    },
+    "kodPlneni.zboziOSS": {
+      "titl": "OSS - towary z UE"
+    },
+    "logoPozice.nahore": {
+      "titl": "Logo na górze"
+    },
+    "logoPozice.vlevo": {
+      "titl": "Logo na lewo"
+    },
+    "material.drevo": {
+      "titl": "Drewno"
+    },
+    "material.drevoDrevoDrevotriska": {
+      "titl": "Drewno - drewno i płyta wiórowa"
+    },
+    "material.drevoKompozit": {
+      "titl": "Drewno - Kompozyt z elementami niedrewnianymi"
+    },
+    "material.jine": {
+      "titl": "Inne"
+    },
+    "material.kompozit": {
+      "titl": "Materiał kompozytowy"
+    },
+    "material.kompozitVetsi": {
+      "titl": "Materiał kompozytowy, ponad 3 l"
+    },
+    "material.kovy5Al": {
+      "titl": "Metale powyżej 5 l - Al"
+    },
+    "material.kovy5Fe": {
+      "titl": "Metale powyżej 5 l - Fe"
+    },
+    "material.kovyAl": {
+      "titl": "Metale - Al"
+    },
+    "material.kovyAlKompozit": {
+      "titl": "Metale - kompozyt Al"
+    },
+    "material.kovyAlKompozitVetsi": {
+      "titl": "Metale - kompozyt Al, powyżej 3 l"
+    },
+    "material.kovyAlVetsi": {
+      "titl": "Metale - Al, powyżej 3 l"
+    },
+    "material.kovyFe": {
+      "titl": "Metale - Fe"
+    },
+    "material.kovyFeKompozit": {
+      "titl": "Metale - kompozyt Fe"
+    },
+    "material.kovyFeKompozitVetsi": {
+      "titl": "Metale - Kompozyt Fe, powyżej 3 l"
+    },
+    "material.kovyFeVetsi": {
+      "titl": "Metale - Fe, powyżej 3 l"
+    },
+    "material.mekPlastBioRozlozit": {
+      "titl": "Miękkie tworzywa sztuczne - ulegające biodegradacji"
+    },
+    "material.mekPlastBioRozlozitVetsi": {
+      "titl": "Miękkie tworzywa sztuczne - Biodegradowalne, powyżej 3 l"
+    },
+    "material.mekPlastEps": {
+      "titl": "Miękkie tworzywa sztuczne - EPS"
+    },
+    "material.mekPlastEpsVetsi": {
+      "titl": "Miękkie tworzywa sztuczne - EPS, powyżej 3 l"
+    },
+    "material.mekPlastJine": {
+      "titl": "Miękki plastik - Inne"
+    },
+    "material.mekPlastJineVetsi": {
+      "titl": "Miękkie tworzywa sztuczne - Pozostałe, powyżej 3 l"
+    },
+    "material.mekPlastKompozit": {
+      "titl": "Miękkie tworzywa sztuczne - kompozyt"
+    },
+    "material.mekPlastKompozitVetsi": {
+      "titl": "Miękkie tworzywa sztuczne - Złożone, powyżej 3 l"
+    },
+    "material.mekPlastPe": {
+      "titl": "Miękki plastik - PE"
+    },
+    "material.mekPlastPeVetsi": {
+      "titl": "Miękkie tworzywa sztuczne - PE, powyżej 3 l"
+    },
+    "material.mekPlastPet": {
+      "titl": "Miękki plastik - PET"
+    },
+    "material.mekPlastPetVetsi": {
+      "titl": "Miękkie tworzywa sztuczne - PET, powyżej 3 l"
+    },
+    "material.mekPlastPp": {
+      "titl": "Miękki plastik - PP"
+    },
+    "material.mekPlastPpVetsi": {
+      "titl": "Tworzywa miękkie - PP, powyżej 3 l"
+    },
+    "material.mekPlastPs": {
+      "titl": "Miękki plastik - PS"
+    },
+    "material.mekPlastPsVetsi": {
+      "titl": "Miękkie tworzywa sztuczne - PS, powyżej 3 l"
+    },
+    "material.mekPlastPvc": {
+      "titl": "Miękki plastik - PCW"
+    },
+    "material.mekPlastPvcVetsi": {
+      "titl": "Miękkie tworzywa sztuczne - PVC, powyżej 3 l"
+    },
+    "material.mekPlastXps": {
+      "titl": "Miękkie tworzywa sztuczne - XPS"
+    },
+    "material.mekPlastXpsVetsi": {
+      "titl": "Miękkie tworzywa sztuczne - XPS, powyżej 3 l"
+    },
+    "material.napojoveKartony": {
+      "titl": "Kartony napojów"
+    },
+    "material.napojoveKartonyVetsi": {
+      "titl": "Kartony po napojach, powyżej 3 l"
+    },
+    "material.papir": {
+      "titl": "Papier"
+    },
+    "material.papirBezny": {
+      "titl": "Papier - zwykły"
+    },
+    "material.papirHladkaLepenka": {
+      "titl": "Papier - Gładka tektura"
+    },
+    "material.papirKompozit": {
+      "titl": "Papier - Kompozyt"
+    },
+    "material.papirNasavanaKart": {
+      "titl": "Papier - karton ssący"
+    },
+    "material.papirVlnitaLepenka": {
+      "titl": "Papier - Tektura falista"
+    },
+    "material.pevDut5PlastJine": {
+      "titl": "Twardy plastik ponad 5 l - Inny"
+    },
+    "material.pevDut5PlastPe": {
+      "titl": "Twardy plastik ponad 5 l - PE"
+    },
+    "material.pevDut5PlastPet": {
+      "titl": "Twardy plastik ponad 5 l - PET"
+    },
+    "material.pevDut5PlastPp": {
+      "titl": "Twardy plastik ponad 5 l - PP"
+    },
+    "material.pevDut5PlastPs": {
+      "titl": "Twardy plastik ponad 5 l - PS"
+    },
+    "material.pevDut5PlastPvc": {
+      "titl": "Twardy plastik ponad 5 l - PCW"
+    },
+    "material.pevDutePlastBioRozlozit": {
+      "titl": "Sztywne puste tworzywa sztuczne - Biodegradowalne"
+    },
+    "material.pevDutePlastBioRozlozitVetsi": {
+      "titl": "Sztywne puste tworzywa sztuczne - Biodegradowalne, powyżej 3 l"
+    },
+    "material.pevDutePlastEps": {
+      "titl": "Tworzywa sztuczne sztywne puste - EPS"
+    },
+    "material.pevDutePlastEpsVetsi": {
+      "titl": "Tworzywa sztuczne sztywne puste - EPS, powyżej 3 l"
+    },
+    "material.pevDutePlastJine": {
+      "titl": "Twardy plastik  - inny"
+    },
+    "material.pevDutePlastJineVetsi": {
+      "titl": "Sztywne puste tworzywa sztuczne - Pozostałe, powyżej 3 l"
+    },
+    "material.pevDutePlastKompozit": {
+      "titl": "Sztywne tworzywa sztuczne drążone - kompozyt"
+    },
+    "material.pevDutePlastKompozitVetsi": {
+      "titl": "Sztywne puste tworzywa sztuczne - Kompozyt, powyżej 3 l"
+    },
+    "material.pevDutePlastPe": {
+      "titl": "Twardy plastik  - PE"
+    },
+    "material.pevDutePlastPeVetsi": {
+      "titl": "Tworzywa sztuczne sztywne puste - PE, powyżej 3 l"
+    },
+    "material.pevDutePlastPet": {
+      "titl": "Twardy plastik  - PET"
+    },
+    "material.pevDutePlastPetVetsi": {
+      "titl": "Tworzywa sztuczne sztywne puste - PET, powyżej 3 l"
+    },
+    "material.pevDutePlastPp": {
+      "titl": "Twardy plastik  - PP"
+    },
+    "material.pevDutePlastPpVetsi": {
+      "titl": "Tworzywa sztuczne sztywne puste - PP, powyżej 3 l"
+    },
+    "material.pevDutePlastPs": {
+      "titl": "Twardy plastik  - PS"
+    },
+    "material.pevDutePlastPsVetsi": {
+      "titl": "Tworzywa sztuczne sztywne puste - PS, powyżej 3 l"
+    },
+    "material.pevDutePlastPvc": {
+      "titl": "Twardy plastik  - PCW"
+    },
+    "material.pevDutePlastPvcVetsi": {
+      "titl": "Tworzywa sztuczne sztywne puste - PVC, powyżej 3 l"
+    },
+    "material.pevDutePlastXps": {
+      "titl": "Sztywne puste tworzywa sztuczne - XPS"
+    },
+    "material.pevDutePlastXpsVetsi": {
+      "titl": "Tworzywa sztuczne sztywne puste - XPS, powyżej 3 l"
+    },
+    "material.sklo": {
+      "titl": "Szkło"
+    },
+    "material.skloBarevne": {
+      "titl": "Szkło - kolorowe"
+    },
+    "material.skloKompozit": {
+      "titl": "Szkło - Kompozyt"
+    },
+    "material.skloTransparent": {
+      "titl": "Szkło - przezroczyste"
+    },
+    "material.textil": {
+      "titl": "Tkanina"
+    },
+    "material.vlnitaLepenka": {
+      "titl": "Tektura falista"
+    },
+    "metodaZaokr.0sazba": {
+      "titl": "do 0 stawek"
+    },
+    "metodaZaokr.individ": {
+      "titl": "indywidualnie"
+    },
+    "metodaZaokr.zklDph": {
+      "titl": "w podstawie i VAT"
+    },
+    "mjHmot.gram": {
+      "titl": "gram"
+    },
+    "mjHmot.kilogram": {
+      "titl": "kilogram"
+    },
+    "mjHmot.tuna": {
+      "titl": "tona"
+    },
+    "mjZaruky.den": {
+      "titl": "Dzień"
+    },
+    "mjZaruky.mesic": {
+      "titl": "miesiąc"
+    },
+    "mjZaruky.rok": {
+      "titl": "rok"
+    },
+    "modulUcetni.BAN": {
+      "titl": "Bank"
+    },
+    "modulUcetni.FAH": {
+      "titl": "Sprzedaż za gotówkę"
+    },
+    "modulUcetni.FAP": {
+      "titl": "Faktury przyjęte"
+    },
+    "modulUcetni.FAV": {
+      "titl": "Faktury wydane"
+    },
+    "modulUcetni.INT": {
+      "titl": "Dokumenty wewnętrzne"
+    },
+    "modulUcetni.LEA": {
+      "titl": "Leasing"
+    },
+    "modulUcetni.MAJ": {
+      "titl": "Majątek"
+    },
+    "modulUcetni.NAP": {
+      "titl": "Oferty przyjęte"
+    },
+    "modulUcetni.NAV": {
+      "titl": "Oferty złożone"
+    },
+    "modulUcetni.OBP": {
+      "titl": "Zamówienia przyjęte"
+    },
+    "modulUcetni.OBV": {
+      "titl": "Zamówienia złożone"
+    },
+    "modulUcetni.PHL": {
+      "titl": "Należności"
+    },
+    "modulUcetni.POK": {
+      "titl": "Kasa"
+    },
+    "modulUcetni.PPP": {
+      "titl": "Popyt przyjęty"
+    },
+    "modulUcetni.PPV": {
+      "titl": "Popyt złożony"
+    },
+    "modulUcetni.SKL": {
+      "titl": "Magazyn"
+    },
+    "modulUcetni.SKLPRI": {
+      "titl": "Dowód przyjęcia"
+    },
+    "modulUcetni.SKLVYD": {
+      "titl": "Dowód wydania"
+    },
+    "modulUcetni.ZAV": {
+      "titl": "Zobowiązania"
+    },
+    "nahrUcet.aPocMes": {
+      "titl": "Tak"
+    },
+    "nahrUcet.ne": {
+      "titl": "Nie"
+    },
+    "normalMj.gram": {
+      "titl": "Gram"
+    },
+    "normalMj.kilogram": {
+      "titl": "Kilogram"
+    },
+    "normalMj.tuna": {
+      "titl": "Tuńczyk"
+    },
+    "objednat.neobjednat": {
+      "titl": "Nie zamawiać"
+    },
+    "objednat.objednano": {
+      "titl": "Już zamówiono"
+    },
+    "objednat.objednat": {
+      "titl": "Zamówić"
+    },
+    "omezPrenDanPov.bezOmezeni": {
+      "titl": "bez ograniczeń"
+    },
+    "omezPrenDanPov.odCastky100k": {
+      "titl": "od 100 000,- CZK"
+    },
+    "operaceZurnalSmlouvy.autoGenerace": {
+      "titl": "Generowanie automatyczne"
+    },
+    "operaceZurnalSmlouvy.manualGenerace": {
+      "titl": "Generowanie ręczne"
+    },
+    "paramDobropisSkladZProdejky": {
+      "titl": "Jeśli magazyn ustawiony na sprzedawcy na typie dokumentu ma być preferowany."
+    },
+    "paramEDIExportBaleni": {
+      "titl": "Czy należy brać pod uwagę przy eksporcie do opakowań EDI?"
+    },
+    "paramExpiraceMandatory": {
+      "titl": "Obowiązek wygaśnięcia"
+    },
+    "paramFirmaInfoUrl": {
+      "titl": "Adres URL do aktualizacji informacji o firmie."
+    },
+    "paramFirmyDavkaAktualizovatBanku": {
+      "titl": "Jeśli przy masowej aktualizacji danych firmy mają być aktualizowane tylko dane bankowe."
+    },
+    "paramFirmyDavkaInfoUrl": {
+      "titl": "Adres URL do masowej aktualizacji danych firmy."
+    },
+    "paramGenFunkceKoduFirmy": {
+      "titl": "Nazwa funkcji generującej kod firmy"
+    },
+    "paramGenFunkceKoduSmlouvy": {
+      "titl": "Nazwa funkcji generującej kod umowy"
+    },
+    "paramNaseptavaniFiremSk": {
+      "titl": "Firmy szepczące z systemu ARES"
+    },
+    "paramNaseptavaniFiremUrl": {
+      "titl": "URL dla firm szepczących."
+    },
+    "paramNeomezovatMnozstviObv": {
+      "titl": "Czy zmniejszyć ilość zadaną o ilość dostępną i zarezerwowaną dla zlecenia produkcyjnego."
+    },
+    "paramObjednavkaRealizaceKomplet": {
+      "titl": "Tylko całkowita realizacja zamówienia"
+    },
+    "paramPrenasetFirmuZeZakazkyNaDokl": {
+      "titl": "Przenieś firmę z zamówienia na dokument, jeżeli firma nie jest wpisana na dokumencie. Istnieje możliwość zdefiniowania dla konkretnego modułu i typu dokumentu."
+    },
+    "paramPrikladatPrilohuDoMailu": {
+      "titl": "Domyślna wartość flagi „Dołączona” dla załącznika typu pliku."
+    },
+    "paramRefundaceSkladove": {
+      "titl": "Refundacja towaru na składzie"
+    },
+    "paramRozsirenaZakazka": {
+      "titl": "Wydruk rozszerzonych parametrów zlecenia na raporcie wydruku."
+    },
+    "paramSarzeMandatory": {
+      "titl": "Partia - obowiązkowo"
+    },
+    "paramVychoziTiskarna": {
+      "titl": "Podstawowa drukarka"
+    },
+    "povolitBankuSPolozkami": {
+      "titl": "Umożliwia tworzenie dokumentów bankowych z pozycjami"
+    },
+    "pozadavekStav.novy": {
+      "titl": "Nowy"
+    },
+    "pozadavekStav.rozpracovan": {
+      "titl": "Opracowane"
+    },
+    "pozadavekStav.uzavren": {
+      "titl": "Zamknięte"
+    },
+    "pozadavekTyp.namitka": {
+      "titl": "Prawo do sprzeciwu"
+    },
+    "pozadavekTyp.omezeni": {
+      "titl": "Prawo do ograniczenia przetwarzania danych"
+    },
+    "pozadavekTyp.oprava": {
+      "titl": "Prawo do naprawy"
+    },
+    "pozadavekTyp.osobniUdaje": {
+      "titl": "Prawo dostępu do danych osobowych podmiotu danych"
+    },
+    "pozadavekTyp.oznamovaci": {
+      "titl": "Obowiązek powiadomienia o sprostowaniu lub usunięciu danych osobowych lub ograniczeniu przetwarzania"
+    },
+    "pozadavekTyp.prenositelnost": {
+      "titl": "Prawo do przenoszenia danych"
+    },
+    "pozadavekTyp.vymaz": {
+      "titl": "Prawo do usunięcia danych"
+    },
+    "pravFormaPodnik.as": {
+      "titl": "Spółka akcyjna"
+    },
+    "pravFormaPodnik.druzstvo": {
+      "titl": "Spółdzielnia"
+    },
+    "pravFormaPodnik.es": {
+      "titl": "Wspólnota Europejska"
+    },
+    "pravFormaPodnik.ks": {
+      "titl": "Spółka komandytowa"
+    },
+    "pravFormaPodnik.nadace": {
+      "titl": "Fundacja"
+    },
+    "pravFormaPodnik.nezOrg": {
+      "titl": "Niezyskowa organizacja"
+    },
+    "pravFormaPodnik.osvc": {
+      "titl": "Osoba prowadząca działalność gospodarczą"
+    },
+    "pravFormaPodnik.sdruzeni": {
+      "titl": "Stowarzyszenie przedsiębiorców"
+    },
+    "pravFormaPodnik.sro": {
+      "titl": "Spółka z ograniczoną odpowiedzialnością"
+    },
+    "pravFormaPodnik.vos": {
+      "titl": "Spółka jawna"
+    },
+    "predvybranyPocet.aktualni": {
+      "titl": "Aktualny zapis"
+    },
+    "predvybranyPocet.vsechny": {
+      "titl": "Wszystkie zapisy"
+    },
+    "prepocetCen.ask": {
+      "titl": "Zapytać się"
+    },
+    "prepocetCen.auto": {
+      "titl": "Przeliczyć ceny"
+    },
+    "prepocetCen.none": {
+      "titl": "Nie zmieniać ceny"
+    },
+    "priorita.kriticka": {
+      "titl": "Krytyczna"
+    },
+    "priorita.nizka": {
+      "titl": "Niska"
+    },
+    "priorita.stredni": {
+      "titl": "Średnia"
+    },
+    "priorita.velmiNizka": {
+      "titl": "Bardzo niska"
+    },
+    "priorita.vysoka": {
+      "titl": "Wysoka"
+    },
+    "razeniProTisk.kod": {
+      "titl": "Według kodu"
+    },
+    "razeniProTisk.nazev": {
+      "titl": "Według nazwy"
+    },
+    "razeniProTisk.poradi": {
+      "titl": "Według kolejności"
+    },
+    "rezimRezervaci.rucni": {
+      "titl": "Tylko ręczny"
+    },
+    "rezimRezervaci.zObj": {
+      "titl": "Automatycznie podczas tworzenia zamówienia"
+    },
+    "rezimRezervaci.zObjPriNaskladneni": {
+      "titl": "Automatycznie podczas tworzenia zamówienia i załadunku towarów"
+    },
+    "rocniKurz.kalendarniDen": {
+      "titl": "do 1. kalendarzowego dnia okresu"
+    },
+    "rocniKurz.pracovniDen": {
+      "titl": "do 1. roboczego dnia okresu"
+    },
+    "stavDoklObch.castHotovo": {
+      "titl": "Częściowo gotowe"
+    },
+    "stavDoklObch.castVydano": {
+      "titl": "Częściowo wydane/przyjęte"
+    },
+    "stavDoklObch.castecneNaCeste": {
+      "titl": "Częściowo na drodze"
+    },
+    "stavDoklObch.hotovo": {
+      "titl": "Gotowe"
+    },
+    "stavDoklObch.naCeste": {
+      "titl": "W drodze"
+    },
+    "stavDoklObch.nespec": {
+      "titl": "Nie określono"
+    },
+    "stavDoklObch.pripraveno": {
+      "titl": "Przygotowano"
+    },
+    "stavDoklObch.schvaleno": {
+      "titl": "Zatwierdzono"
+    },
+    "stavDoklObch.storno": {
+      "titl": "Storno"
+    },
+    "stavDoklObch.vydano": {
+      "titl": "Wydano/Przyjęto"
+    },
+    "stavInventury.1vlna": {
+      "titl": "1. fala"
+    },
+    "stavInventury.2vlna": {
+      "titl": "2. fala"
+    },
+    "stavInventury.3vlna": {
+      "titl": "3. fala"
+    },
+    "stavInventury.4vlna": {
+      "titl": "4. fala"
+    },
+    "stavInventury.hotova": {
+      "titl": "Gotowe"
+    },
+    "stavInventury.uzavrena": {
+      "titl": "Zamknięto"
+    },
+    "stavInventury.zahajena": {
+      "titl": "Rozpoczęto"
+    },
+    "stavMail.neodesilat": {
+      "titl": "Nie wysyłać"
+    },
+    "stavMail.odeslano": {
+      "titl": "Wysłano"
+    },
+    "stavMail.odeslat": {
+      "titl": "Wysłać"
+    },
+    "stavOdp.cast": {
+      "titl": "Częściowo odliczono"
+    },
+    "stavOdp.komplet": {
+      "titl": "Odliczono"
+    },
+    "stavOdp.vytvZdd": {
+      "titl": "Sporządzono uproszczony dokument podatkowy"
+    },
+    "stavPriznaniDph.dodatecne": {
+      "titl": "Dodatkowe"
+    },
+    "stavPriznaniDph.dodatecneOpravne": {
+      "titl": "Dodatkowe/Korygujące"
+    },
+    "stavPriznaniDph.opravne": {
+      "titl": "Korygujące"
+    },
+    "stavPriznaniDph.radne": {
+      "titl": "Zwykłe"
+    },
+    "stavPriznaniDph.radneOpravne": {
+      "titl": "Zwykłe/korygujące"
+    },
+    "stavSklad.nefakturovatelne": {
+      "titl": "Nie fakturowalne"
+    },
+    "stavSklad.prevodka": {
+      "titl": "Dokument przekazania"
+    },
+    "stavSklad.uhrazen": {
+      "titl": "Zapłacono w kasie"
+    },
+    "stavSklad.uhrazenCast": {
+      "titl": "Częściowo zapłacono w kasie"
+    },
+    "stavSklad.uhrazenHrom": {
+      "titl": "Zapłacono zbiorczo w kasie"
+    },
+    "stavSklad.uhrazenHromCast": {
+      "titl": "Częściowo zapłacono zbiorczo w kasie"
+    },
+    "stavSklad.vyfakt": {
+      "titl": "Wyfakturowano"
+    },
+    "stavSklad.vyfaktCast": {
+      "titl": "Częściowo wyfakturowano"
+    },
+    "stavSklad.vyfaktHrom": {
+      "titl": "Wyfakturowano zbiorowo"
+    },
+    "stavSklad.vyfaktHromCast": {
+      "titl": "Częściowo wyfakturowano zbiorowo"
+    },
+    "stavSklad.vygenFakt": {
+      "titl": "Wygenerowany z faktury"
+    },
+    "stavSklad.vygenFaktNeuplny": {
+      "titl": "Wygenerowany z faktury - niepełny"
+    },
+    "stavSklad.vygenPokl": {
+      "titl": "Wygenerowany z kasy"
+    },
+    "stavSklad.vygenPoklNeuplny": {
+      "titl": "Wygenerowany z kasy - niepełny"
+    },
+    "stavSklad.vyroba": {
+      "titl": "Produkcja"
+    },
+    "stavUdal.hotovo": {
+      "titl": "Gotowe"
+    },
+    "stavUdal.nove": {
+      "titl": "Nowa"
+    },
+    "stavUdal.rozprac": {
+      "titl": "Opracowano"
+    },
+    "stavUdal.zamitnuto": {
+      "titl": "Odmówiono"
+    },
+    "stavUhr.castUhr": {
+      "titl": "Częściowo zapłacono"
+    },
+    "stavUhr.storno": {
+      "titl": "Storno"
+    },
+    "stavUhr.uhrazeno": {
+      "titl": "Zapłacono"
+    },
+    "stavUhr.uhrazenoRucne": {
+      "titl": "Zapłacono (ręcznie)"
+    },
+    "stavUziv.bezPrikazu": {
+      "titl": "Bez zlecenia"
+    },
+    "stavUziv.castPrikaz": {
+      "titl": "Wysłano częściowe zlecenie"
+    },
+    "stavUziv.celPrikaz": {
+      "titl": "Wysłano zlecenie"
+    },
+    "stavUziv.genKasa": {
+      "titl": "Wygenerowano z kasy"
+    },
+    "stavUziv.nactenoEl": {
+      "titl": "Zarejestrowano elektronicznie"
+    },
+    "stavUziv.nactenoElPosledni": {
+      "titl": "Ostatnio zarejestrowano elektronicznie"
+    },
+    "stavUziv.obsaPrikaz": {
+      "titl": "Zawarte w zleceniu"
+    },
+    "stavUziv.zaucZmena": {
+      "titl": "Zmieniono po zaksięgowaniu"
+    },
+    "stavUziv.zauctovano": {
+      "titl": "Zaksięgowano do kasy"
+    },
+    "stavZak.castHot": {
+      "titl": "Częściowo gotowe"
+    },
+    "stavZak.hotovo": {
+      "titl": "gotowe"
+    },
+    "stavZak.vBehu": {
+      "titl": "w toku"
+    },
+    "surovina.primarni": {
+      "titl": "Podstawowy"
+    },
+    "surovina.recyklat": {
+      "titl": "Recykling"
+    },
+    "symbolSplatnosti.stavA360aVice": {
+      "titl": "361 i więcej dni po płatności"
+    },
+    "symbolSplatnosti.stavB360az180": {
+      "titl": "360 do 181 dni po płatności"
+    },
+    "symbolSplatnosti.stavC180az90": {
+      "titl": "180 do 91 dni po płatności"
+    },
+    "symbolSplatnosti.stavD90az30": {
+      "titl": "90 do 31 dni po płatności"
+    },
+    "symbolSplatnosti.stavE30az0": {
+      "titl": "30 do 1 dnia po płatności"
+    },
+    "symbolSplatnosti.stavFnejsou": {
+      "titl": "Nie ma po płatności"
+    },
+    "symbolSplatnosti.stavZnevyplneno": {
+      "titl": "Płatność nie dokonana"
+    },
+    "tydenPracDoba.dul": {
+      "titl": "Pracujący pod ziemią (37,5 godzin)"
+    },
+    "tydenPracDoba.dvousmenny": {
+      "titl": "Praca dwuzmianowy (38,75 godzin)"
+    },
+    "tydenPracDoba.standard": {
+      "titl": "Praca jednozmianowa (40 godzin)"
+    },
+    "tydenPracDoba.trismenny": {
+      "titl": "Praca trzyzmianowa (37,5 godzin)"
+    },
+    "typAtribut.1zN": {
+      "titl": "1 z N"
+    },
+    "typAtribut.MzN": {
+      "titl": "M z N"
+    },
+    "typAtribut.boolean": {
+      "titl": "Wartość logiczna"
+    },
+    "typAtribut.datumCas": {
+      "titl": "Data"
+    },
+    "typAtribut.integer": {
+      "titl": "Cała liczba"
+    },
+    "typAtribut.numeric": {
+      "titl": "Liczba dziesiętna"
+    },
+    "typAtribut.retezec": {
+      "titl": "Łańcuch"
+    },
+    "typAtribut.rozmezi": {
+      "titl": "Granica"
+    },
+    "typBanUctu.kc": {
+      "titl": "Zmiana %currency-symbol / Saldo %currency-symbol"
+    },
+    "typBanUctu.mena": {
+      "titl": "Zmiana stanu waluta / Saldo waluta"
+    },
+    "typCeny.bezDph": {
+      "titl": "Bez Vat"
+    },
+    "typCeny.sDph": {
+      "titl": "Łącznie z VAT"
+    },
+    "typCeny.sDphKoef": {
+      "titl": "Łącznie z VAT (współczynnik)"
+    },
+    "typCenyVychozi.nakCena": {
+      "titl": "Cena zakupu"
+    },
+    "typCenyVychozi.zadna": {
+      "titl": "Żadna cena"
+    },
+    "typCenyVychozi.zaklCena": {
+      "titl": "Cena sprzedaży"
+    },
+    "typCert.disk": {
+      "titl": "Dysk miejscowy"
+    },
+    "typCert.karta": {
+      "titl": "Karta chipowa"
+    },
+    "typCert.server": {
+      "titl": "serwer"
+    },
+    "typCinnosti.hlavni": {
+      "titl": "Główna działalność"
+    },
+    "typCinnosti.hospodar": {
+      "titl": "Działalność gospodarcza"
+    },
+    "typDokladu.dobropis": {
+      "titl": "Uznanie / dokument podatkowy korygujący"
+    },
+    "typDokladu.dodList": {
+      "titl": "List przewozowy"
+    },
+    "typDokladu.faktura": {
+      "titl": "Standardowa faktura"
+    },
+    "typDokladu.krZisk": {
+      "titl": "Zysk z różnicy kursowej"
+    },
+    "typDokladu.krZtrata": {
+      "titl": "Utrata różnicy kursowej"
+    },
+    "typDokladu.obecny": {
+      "titl": "Dokument ogólny"
+    },
+    "typDokladu.prodejka": {
+      "titl": "Dowód sprzedaży"
+    },
+    "typDokladu.proforma": {
+      "titl": "Pro forma (nieksięgowa)"
+    },
+    "typDokladu.zalohFaktura": {
+      "titl": "Faktura zaliczkowa"
+    },
+    "typDokladu.zbytekNaklad": {
+      "titl": "Reszta ładunku"
+    },
+    "typDokladu.zbytekVynos": {
+      "titl": "Reszta to przychody"
+    },
+    "typDokladu.zdd": {
+      "titl": "Zaliczkowy dokument podatkowy"
+    },
+    "typKonektoru.atcomp": {
+      "titl": "AT Computers S. A."
+    },
+    "typKonektoru.interObch": {
+      "titl": "Sklep internetowy"
+    },
+    "typKurzu.cenotvorba": {
+      "titl": "Kurs na wycenę"
+    },
+    "typKurzu.intrastat": {
+      "titl": "Kurs na Intrastat"
+    },
+    "typKurzu.obecny": {
+      "titl": "Ogólne"
+    },
+    "typKurzu.preceneni": {
+      "titl": "Kurs na rewaloryzację"
+    },
+    "typMj.cas": {
+      "titl": "czas"
+    },
+    "typMj.delka": {
+      "titl": "długość"
+    },
+    "typMj.hmotnost": {
+      "titl": "masa"
+    },
+    "typMj.objem": {
+      "titl": "objętość"
+    },
+    "typMj.plocha": {
+      "titl": "powierzchnia"
+    },
+    "typObalu.obchodPreprava": {
+      "titl": "Handlowy - Przewozowy"
+    },
+    "typObalu.obchodProdej": {
+      "titl": "Handlowy - Sprzedażny"
+    },
+    "typObalu.obchodSkupina": {
+      "titl": "Handlowy - Grupowy"
+    },
+    "typObalu.prumysl": {
+      "titl": "Przemysłowe"
+    },
+    "typObchodu.EUneplat": {
+      "titl": "UE nie płatnik VAT"
+    },
+    "typObchodu.EUplatce": {
+      "titl": "UE  płatnik VAT"
+    },
+    "typObchodu.cizina": {
+      "titl": "Poza  UE"
+    },
+    "typObchodu.tuzem": {
+      "titl": "Krajowy"
+    },
+    "typOdp.mesic": {
+      "titl": "Miesięczny"
+    },
+    "typOdp.rovn": {
+      "titl": "Równomiernie"
+    },
+    "typOdp.zrych": {
+      "titl": "Przyspieszony"
+    },
+    "typPlneni.obojiRCH": {
+      "titl": "Oba RCh (Reverse Charge)"
+    },
+    "typPlneni.prijata": {
+      "titl": "Przyjęta"
+    },
+    "typPlneni.prijataRCH": {
+      "titl": "Przyjęta  RCh (Reverse Charge)"
+    },
+    "typPlneni.uskutecnena": {
+      "titl": "Wykonana"
+    },
+    "typPlneni.uskutecnenaRCH": {
+      "titl": "Wykonana  RCh (Reverse Charge)"
+    },
+    "typPlneniEet.uvestOsv": {
+      "titl": "Stawka zwolniona z podatku jest wskazana"
+    },
+    "typPohybu.prijem": {
+      "titl": "Przyjęcie"
+    },
+    "typPohybu.vydej": {
+      "titl": "Wydanie"
+    },
+    "typPohybuSklad.prijemHoly": {
+      "titl": "Samo przyjęcie"
+    },
+    "typPohybuSklad.prijemPoFak": {
+      "titl": "Przyjęcie na podstawie faktury"
+    },
+    "typPohybuSklad.prijemPoObch": {
+      "titl": "Przyjęcie na podstawie zamówienia"
+    },
+    "typPohybuSklad.prijemPolot": {
+      "titl": "Przyjęcie półproduktu"
+    },
+    "typPohybuSklad.prijemPrevod": {
+      "titl": "Przyjęcie na podst. przesunięcia międzymagazynowego"
+    },
+    "typPohybuSklad.prijemProFak": {
+      "titl": "Przyjęcie do fakturowania"
+    },
+    "typPohybuSklad.prijemVratka": {
+      "titl": "Przyjęcie (uznanie, zwrot)"
+    },
+    "typPohybuSklad.prijemVydejVratka": {
+      "titl": "Wydanie (uznanie, zwrot)"
+    },
+    "typPohybuSklad.prijemVyrob": {
+      "titl": "Przyjęcie wyrobu"
+    },
+    "typPohybuSklad.vydejHoly": {
+      "titl": "Samo wydanie"
+    },
+    "typPohybuSklad.vydejPoFak": {
+      "titl": "Wydanie na podstawie faktury"
+    },
+    "typPohybuSklad.vydejPoObch": {
+      "titl": "Wydanie na podstawie zamówienia"
+    },
+    "typPohybuSklad.vydejPolot": {
+      "titl": "Wydanie półproduktu"
+    },
+    "typPohybuSklad.vydejPrevod": {
+      "titl": "Wydanie na dok.przesunięcia"
+    },
+    "typPohybuSklad.vydejProFakCenik": {
+      "titl": "Wydanie do fakturowania (ceny z cennika)"
+    },
+    "typPohybuSklad.vydejProFakRucne": {
+      "titl": "Wydanie do fakturowania (ceny ręcznie)"
+    },
+    "typPohybuSklad.vydejVyrob": {
+      "titl": "Wydanie wyrobu"
+    },
+    "typPolozky.dorovnaniTuz": {
+      "titl": "Wyrównanie waluty krajowej"
+    },
+    "typPolozky.katalog": {
+      "titl": "Pozycja z cennika"
+    },
+    "typPolozky.korekceKRZisk": {
+      "titl": "Korekta z tytułu różnic kursowych (zysk)"
+    },
+    "typPolozky.korekceKRZtrata": {
+      "titl": "Korekta różnic kursowych (strata)"
+    },
+    "typPolozky.korekceOdpoctu": {
+      "titl": "Korekta odliczenia zaliczki/zapłaty podatku"
+    },
+    "typPolozky.korekceRekapitulace": {
+      "titl": "Korekta rekapitulacji VAT"
+    },
+    "typPolozky.korekceTuz": {
+      "titl": "Korekta waluty krajowej"
+    },
+    "typPolozky.obecny": {
+      "titl": "Pozycja z ceną i ilością"
+    },
+    "typPolozky.odpocetZalohy": {
+      "titl": "Odliczenie zaliczki"
+    },
+    "typPolozky.odpocetZdd": {
+      "titl": "Odliczenie uproszczonego dokumentu podatkowego"
+    },
+    "typPolozky.text": {
+      "titl": "Wiersz tekstu"
+    },
+    "typPolozky.ucetni": {
+      "titl": "Pozycja do zaksięgowania"
+    },
+    "typPoplatku.obecny": {
+      "titl": "Ogólne"
+    },
+    "typPoplatku.recyklacni": {
+      "titl": "Recykling"
+    },
+    "typPouziti.1pouziti": {
+      "titl": "Opakowania jednorazowe"
+    },
+    "typPouziti.opakovane": {
+      "titl": "Opakowanie wielokrotnego użycia"
+    },
+    "typPrav.admin": {
+      "titl": "Administrator"
+    },
+    "typPrav.jenCist": {
+      "titl": "Tylko do odczytu"
+    },
+    "typPrav.mzdovyUcetni": {
+      "titl": "Księgowy d/s płac"
+    },
+    "typPrav.obchodnik": {
+      "titl": "Handlowiec"
+    },
+    "typPrav.skladnik": {
+      "titl": "Magazynier"
+    },
+    "typPrav.skladnikSPokladnou": {
+      "titl": "Magazynier z kasą"
+    },
+    "typPrav.superUzivatel": {
+      "titl": "Super użytkownik"
+    },
+    "typPrav.ucetni": {
+      "titl": "Księgowy"
+    },
+    "typPrav.uzivatel": {
+      "titl": "Standardowy użytkownik"
+    },
+    "typPrav.zablokovan": {
+      "titl": "Rachunek nieaktywny"
+    },
+    "typPrikazu.inkaso": {
+      "titl": "Zlecenie inkasa"
+    },
+    "typPrikazu.prikaz": {
+      "titl": "Zlecenie zapłaty"
+    },
+    "typPrilohy.adresar": {
+      "titl": "Załącznik adresarza"
+    },
+    "typPrilohy.cenik": {
+      "titl": "Załącznik cennika"
+    },
+    "typPrilohy.doklad": {
+      "titl": "Załącznik dokumentu"
+    },
+    "typPrilohy.kontakt": {
+      "titl": "Załącznik kontaktu"
+    },
+    "typPrilohy.leasing": {
+      "titl": "Leasing"
+    },
+    "typPrilohy.logo": {
+      "titl": "Logo"
+    },
+    "typPrilohy.majetek": {
+      "titl": "Majątek"
+    },
+    "typPrilohy.obrazek": {
+      "titl": "Załącznik do zdjęcia"
+    },
+    "typPrilohy.odkaz": {
+      "titl": "URL link do internetu lub pliku"
+    },
+    "typPrilohy.osoba": {
+      "titl": "Załącznik osoby"
+    },
+    "typPrilohy.ostatni": {
+      "titl": "Nieokreślony rodzaj mocowania"
+    },
+    "typPrilohy.podRaz": {
+      "titl": "Podpis i pieczęć"
+    },
+    "typPrilohy.polsmlouvy": {
+      "titl": "Załącznik pozycji umowy"
+    },
+    "typPrilohy.report": {
+      "titl": "Report - Wykaz plik wysyłany z e-konta do zamawiającego"
+    },
+    "typPrilohy.smlouva": {
+      "titl": "Załącznik umowy"
+    },
+    "typPrilohy.udalost": {
+      "titl": "Załącznik zdarzenia"
+    },
+    "typPrilohy.zakazka": {
+      "titl": "Załącznik zamówienia"
+    },
+    "typPristPrav.nepripustne": {
+      "titl": "Niedostępne"
+    },
+    "typPristPrav.plny": {
+      "titl": "Pełny dostęp"
+    },
+    "typPristPrav.pouzeCist": {
+      "titl": "Tylko do odczytu"
+    },
+    "typPristPrav.upresneni": {
+      "titl": "Uściślenie dostępu"
+    },
+    "typRole.adr": {
+      "titl": "adresarz"
+    },
+    "typRole.glo": {
+      "titl": "globalny"
+    },
+    "typRole.stred": {
+      "titl": "oddział"
+    },
+    "typRole.wf": {
+      "titl": "workflow"
+    },
+    "typRole.zak": {
+      "titl": "zamówienie"
+    },
+    "typSablony.druhaUpominka": {
+      "titl": "Drugie upomnienie"
+    },
+    "typSablony.inventarizace": {
+      "titl": "Inwentaryzacja"
+    },
+    "typSablony.pokusOSmir": {
+      "titl": "Próba ugody"
+    },
+    "typSablony.prvniUpominka": {
+      "titl": "Pierwsze upomnienie"
+    },
+    "typSestavy.cashflow": {
+      "titl": "cash flow"
+    },
+    "typSestavy.obecna": {
+      "titl": "ogólny"
+    },
+    "typSestavy.rozvaha": {
+      "titl": "bilans"
+    },
+    "typSestavy.rozvahaIfrs": {
+      "titl": "bilans w/g IFRS"
+    },
+    "typSestavy.vysledov": {
+      "titl": "rachunek zysków i strat"
+    },
+    "typSestavy.vysledovIfrs": {
+      "titl": "rachunek zysków i strat w/g IFRS"
+    },
+    "typSpl.akontace": {
+      "titl": "nadzwyczajna spłata"
+    },
+    "typSpl.bezna": {
+      "titl": "bieżąca spłata"
+    },
+    "typSpl.mimFinCin": {
+      "titl": "nadzw. operacja finansowa"
+    },
+    "typSpl.posledni": {
+      "titl": "ostatnia spłata"
+    },
+    "typSpl.prevod": {
+      "titl": "Przesunięcie po cenie obniżonej o wartość odpisów"
+    },
+    "typSpl.prvni": {
+      "titl": "zerowa spłata"
+    },
+    "typSynchCenik.naWebu": {
+      "titl": "Sklep internetowy"
+    },
+    "typSynchCenik.rucne": {
+      "titl": "Synchronizować ręcznie"
+    },
+    "typSynchCenik.veW10": {
+      "titl": "Flexibee"
+    },
+    "typSynchCenik.zadna": {
+      "titl": "Nie synchronizować cennika"
+    },
+    "typSzbDph.dphOsv": {
+      "titl": "uwolniono"
+    },
+    "typSzbDph.dphSniz": {
+      "titl": "Obniżona stawka VAT"
+    },
+    "typSzbDph.dphSniz2": {
+      "titl": "2. zmniejszone"
+    },
+    "typSzbDph.dphZakl": {
+      "titl": "podstawowa"
+    },
+    "typTiskDokladu.doklad": {
+      "titl": "Dokument"
+    },
+    "typTiskDokladu.dokladPokladny": {
+      "titl": "Dokument kasowy"
+    },
+    "typTiskDokladu.dokladSkladu": {
+      "titl": "Dokument magazynowy"
+    },
+    "typUcJednotky.mala": {
+      "titl": "Mała jednostka księgowa"
+    },
+    "typUcJednotky.mikro": {
+      "titl": "Jednostka mikroekonomiczna"
+    },
+    "typUcJednotky.velka": {
+      "titl": "Duża jednostka księgowa"
+    },
+    "typUcetniJednotkyCz.mala": {
+      "titl": "Mała jednostka księgowa"
+    },
+    "typUcetniJednotkyCz.mikro": {
+      "titl": "Jednostka mikroekonomiczna"
+    },
+    "typUcetniJednotkyCz.stredni": {
+      "titl": "Średnia jednostka rozliczeniowa"
+    },
+    "typUcetniJednotkyCz.velka": {
+      "titl": "Duża jednostka księgowa"
+    },
+    "typUctu.podrozvahovy": {
+      "titl": "pozabilansowy"
+    },
+    "typUctu.rozvahovy": {
+      "titl": "bilansowy"
+    },
+    "typUctu.vnitropodnikovy": {
+      "titl": "wewnętrzny firmy"
+    },
+    "typUctu.vysledkovy": {
+      "titl": "wynikowy"
+    },
+    "typUctu.zaverkovy": {
+      "titl": "bilansowy"
+    },
+    "typUdal.casVyr": {
+      "titl": "Częściowe usunięcie"
+    },
+    "typUdal.prerOdpDan": {
+      "titl": "Przerwanie odpisów podatkowych"
+    },
+    "typUdal.prerOdpUcet": {
+      "titl": "Przerwanie odpisów księgowych"
+    },
+    "typUdal.rozdilCenyAZustatku": {
+      "titl": "Różnica między ceną sprzedaży a saldem"
+    },
+    "typUdal.techZhod": {
+      "titl": "Ocena techniczna"
+    },
+    "typUdal.uplVyr": {
+      "titl": "Całkowite wykluczenie"
+    },
+    "typUdal.uzivatelska": {
+      "titl": "Zdarzenie z udziałem użytkownika"
+    },
+    "typUdal.zahOdpDan": {
+      "titl": "Ponowne wznowienie odpisów podatkowych"
+    },
+    "typUdal.zahOdpUcet": {
+      "titl": "Ponowne wznowienie odpisów księgowych"
+    },
+    "typUdal.zarazeni": {
+      "titl": "Zaklasyfikowanie"
+    },
+    "typUdal.zmenDob": {
+      "titl": "Zmiana okresu odpisywania"
+    },
+    "typUdal.zmenHodDan": {
+      "titl": "Zmiana stanu amortyzacji podatkowej"
+    },
+    "typUdal.zmenHodUcet": {
+      "titl": "Zmiana stanu amortyzacji księgowej"
+    },
+    "typUmisteniSklad.mistnost": {
+      "titl": "Pomieszczenie"
+    },
+    "typUmisteniSklad.police": {
+      "titl": "Policja"
+    },
+    "typUmisteniSklad.regal": {
+      "titl": "Regał"
+    },
+    "typVazbyDokl.KR": {
+      "titl": "Różnica kursów"
+    },
+    "typVazbyDokl.KROdpoctu": {
+      "titl": "Korekta odliczenia"
+    },
+    "typVazbyDokl.PP": {
+      "titl": "Nadpłata"
+    },
+    "typVazbyDokl.ZB": {
+      "titl": "Pozostałość"
+    },
+    "typVazbyDokl.hlavaDobropis": {
+      "titl": "Uznanie"
+    },
+    "typVazbyDokl.hlavaSkl": {
+      "titl": "Dokument magazynowy"
+    },
+    "typVazbyDokl.hlavaSklKus": {
+      "titl": "Dokument magazynowy (rozpad specyfikacji)"
+    },
+    "typVazbyDokl.hlavaSklPrevod": {
+      "titl": "Dokument magazynowy (przesunięcie)"
+    },
+    "typVazbyDokl.nakladVynos": {
+      "titl": "Rozkład nakładów i zysków"
+    },
+    "typVazbyDokl.obchod_faktura_hla": {
+      "titl": "Faktura wystawiona na podstawie zamówienia"
+    },
+    "typVazbyDokl.obchod_faktura_pol": {
+      "titl": "Pozycja faktury wystawionej na podstawie zamówienia"
+    },
+    "typVazbyDokl.obchod_obchod_hla": {
+      "titl": "Więź handlowa"
+    },
+    "typVazbyDokl.obchod_obchod_pol": {
+      "titl": "Więź handlowa pozycji"
+    },
+    "typVazbyDokl.obchod_sklad_hla": {
+      "titl": "Dok.magazynowy sporządzony na podstawie zamówienia"
+    },
+    "typVazbyDokl.obchod_sklad_pol": {
+      "titl": "Pozycja dok. magazynowego sporządzona na podst. zamówienia."
+    },
+    "typVazbyDokl.obchod_zaloha_hla": {
+      "titl": "Zaliczka wytworzona z zamówienia"
+    },
+    "typVazbyDokl.obchod_zaloha_pol": {
+      "titl": "Pozycja zaliczki wytworzonej z zamówienia"
+    },
+    "typVazbyDokl.odpocetPolZALOHY": {
+      "titl": "Odliczenie pozycji zaliczkowej"
+    },
+    "typVazbyDokl.odpocetZALOHY": {
+      "titl": "Odliczenie zaliczki"
+    },
+    "typVazbyDokl.odpocetZDD": {
+      "titl": "Odliczenie uproszczonego dokumentu podatkowego"
+    },
+    "typVazbyDokl.odpocetZddKr": {
+      "titl": "Różnica kursowa - potrącenie zaliczki"
+    },
+    "typVazbyDokl.odpocitavanaFaktura": {
+      "titl": "Faktura do potrącenia"
+    },
+    "typVazbyDokl.polozkaDobropis": {
+      "titl": "Pozycja uznaniowa"
+    },
+    "typVazbyDokl.polozkaSkl": {
+      "titl": "Pozycja magazynowa"
+    },
+    "typVazbyDokl.polozkaSklKus": {
+      "titl": "Pozycja magazynowa (rozpad specyfikacji)"
+    },
+    "typVazbyDokl.polozkaSklPrevod": {
+      "titl": "Pozycja magazynowa (przesunięcie)"
+    },
+    "typVazbyDokl.polozkaSklSada": {
+      "titl": "Pozycja magazynowa (rozpad zestawu)"
+    },
+    "typVazbyDokl.preceneni": {
+      "titl": "Przewartościowanie"
+    },
+    "typVazbyDokl.uhrada": {
+      "titl": "Spłata"
+    },
+    "typVazbyDokl.uhradaKR": {
+      "titl": "Spłata różnicy kursów"
+    },
+    "typVazbyDokl.uhradaZALOHY": {
+      "titl": "Spłata zaliczki"
+    },
+    "typVazbyDokl.uhrazovanaFaktura": {
+      "titl": "Faktura podlegająca zwrotowi"
+    },
+    "typVazbyDokl.uhrazujiciDoklad": {
+      "titl": "Dokument zwrotu kosztów"
+    },
+    "typVazbyDokl.vazbaZDD": {
+      "titl": "Więź uproszczonego dokumentu podatkowego"
+    },
+    "typVazbyDokl.zalHlavKr": {
+      "titl": "Różnica kursowa - zaliczka"
+    },
+    "typVazbyDokl.zalPolKr": {
+      "titl": "Różnice kursowe - pozycja zaliczkowa"
+    },
+    "typVazbyDokl.zaucProdejky": {
+      "titl": "Zaksięgowanie dokumentu sprzedaży"
+    },
+    "typVypCeny.marze": {
+      "titl": "marża"
+    },
+    "typVypCeny.neuveden": {
+      "titl": "nie podano"
+    },
+    "typVypCeny.rabat": {
+      "titl": "rabat"
+    },
+    "typVypCeny.sleva": {
+      "titl": "obniżka"
+    },
+    "typVypSestavy.vJednotkach": {
+      "titl": "w całych %currency-symbol"
+    },
+    "typVypSestavy.vKcPresne": {
+      "titl": "w %currency-symbol dokładnie"
+    },
+    "typVypSestavy.vTisicich": {
+      "titl": "w całych tysiącach %currency-symbol"
+    },
+    "typVzniku.importovaneDoCr": {
+      "titl": "Importowane do Czech"
+    },
+    "typVzniku.nakoupeneVCr": {
+      "titl": "Zakupione w Czechach"
+    },
+    "typVzniku.vyrobeneVCr": {
+      "titl": "Wyprodukowane w Czechach"
+    },
+    "typVztahu.dodavatel": {
+      "titl": "Dostawca"
+    },
+    "typVztahu.financniUrad": {
+      "titl": "Urząd Skarbowy"
+    },
+    "typVztahu.odberDodav": {
+      "titl": "Odbiorca / Dostawca"
+    },
+    "typVztahu.odberatel": {
+      "titl": "Odbiorca"
+    },
+    "typVztahu.socialka": {
+      "titl": "Ubezpieczenie socjalne"
+    },
+    "typVztahu.vsechno": {
+      "titl": "Wszystko"
+    },
+    "typVztahu.vyrobce": {
+      "titl": "Producent"
+    },
+    "typVztahu.vyrobna": {
+      "titl": "Zakład produkcyjny"
+    },
+    "typVztahu.zdravotka": {
+      "titl": "Ubezpieczenie zdrowotne"
+    },
+    "typZak.nevyrob": {
+      "titl": "nieprodukcyjne"
+    },
+    "typZak.vyrob": {
+      "titl": "produkcyjne"
+    },
+    "typZasoby.material": {
+      "titl": "Materiał"
+    },
+    "typZasoby.nedvyroba": {
+      "titl": "Produkcja nieukończona"
+    },
+    "typZasoby.polotovar": {
+      "titl": "Półfabrykat"
+    },
+    "typZasoby.poplatek": {
+      "titl": "Opłata"
+    },
+    "typZasoby.sluzba": {
+      "titl": "Usługa"
+    },
+    "typZasoby.vyrobek": {
+      "titl": "Produkt"
+    },
+    "typZasoby.zbozi": {
+      "titl": "Towar"
+    },
+    "typZasoby.zvire": {
+      "titl": "Zwierzę"
+    },
+    "ucelCertK.eet": {
+      "titl": "Certyfikat dla EET"
+    },
+    "ucelCertK.osobni": {
+      "titl": "Certyfikat osobisty"
+    },
+    "zamek.otevreno": {
+      "titl": "Otwarte"
+    },
+    "zamek.polozamceno": {
+      "titl": "Zamknięte - oprócz księgowych"
+    },
+    "zamek.prohlednuto": {
+      "titl": "Przejrzano"
+    },
+    "zamek.zamceno": {
+      "titl": "Zamknięto"
+    },
+    "zaokrJak.dolu": {
+      "titl": "w dół"
+    },
+    "zaokrJak.matem": {
+      "titl": "matematycznie"
+    },
+    "zaokrJak.nahoru": {
+      "titl": "w górę"
+    },
+    "zaokrNa.5desetiny": {
+      "titl": "0.5"
+    },
+    "zaokrNa.5jednotky": {
+      "titl": "5"
+    },
+    "zaokrNa.5setiny": {
+      "titl": "0.05"
+    },
+    "zaokrNa.desetiny": {
+      "titl": "0.1"
+    },
+    "zaokrNa.desitky": {
+      "titl": "10"
+    },
+    "zaokrNa.jednotky": {
+      "titl": "1"
+    },
+    "zaokrNa.setiny": {
+      "titl": "0.01"
+    },
+    "zaokrNa.stovky": {
+      "titl": "100"
+    },
+    "zaokrNa.tisice": {
+      "titl": "1000"
+    },
+    "zaokrNa.tisiciny": {
+      "titl": "0.001"
+    },
+    "zaokrNa.zadne": {
+      "titl": "nie zaokrąglać"
+    },
+    "zastupceTyp.fo": {
+      "titl": "Osoba fizyczna"
+    },
+    "zastupceTyp.po": {
+      "titl": "Osoba prawna"
+    },
+    "zmenaPohybuRealizace": {
+      "titl": "Umożliwienie zmiany specyfikacji rodzaju ruchu dla dyspozytora/odbiorcy utworzonego ze zlecenia/faktury"
+    },
+    "zobrLogo.prizFormat": {
+      "titl": "Dostosować do formatu"
+    },
+    "zobrLogo.prizFormatPomeryStran": {
+      "titl": "Dostosować do formatu i zachować stosunki stron"
+    },
+    "zobrLogo.zachovVelikost": {
+      "titl": "Zachować wielkość"
+    },
+    "zobrazWebKompMod.auto": {
+      "titl": "Wybór automatyczny"
+    },
+    "zobrazWebKompMod.browser": {
+      "titl": "Przeglądarka internetowa"
+    },
+    "zpusobFakt.dopredu": {
+      "titl": "Fakturować z wyprzedzeniem"
+    },
+    "zpusobFakt.zpetne": {
+      "titl": "Fakturować wstecznie"
+    },
+    "zpusobOdp.rocne": {
+      "titl": "% rocznie"
+    },
+    "zpusobOdp.zar100": {
+      "titl": "100%"
+    },
+    "zpusobOdp.zar5050": {
+      "titl": "50% / 50%"
+    },
+    "zpusobStahKurz.denne": {
+      "titl": "Dziennie"
+    },
+    "zpusobStahKurz.mesicne": {
+      "titl": "Miesięcznie"
+    },
+    "zpusobStahKurz.nikdy": {
+      "titl": "Nie ściągać"
+    },
+    "zpusobStahKurz.rocne": {
+      "titl": "Rocznie"
+    },
+    "zpusobVypo.obrat": {
+      "titl": "obrót za okres"
+    },
+    "zpusobVypo.obratDal": {
+      "titl": "obrót na stronie Ma za okres"
+    },
+    "zpusobVypo.obratMd": {
+      "titl": "obrót na stronie Winien za okres"
+    },
+    "zpusobVypo.stavKon": {
+      "titl": "stan rachunku na końcu okresu"
+    },
+    "zpusobVypo.stavPoc": {
+      "titl": "stan rachunku na początku okresu"
+    },
+    "zvysZrych.proc0": {
+      "titl": "0%"
+    },
+    "zvysZrych.proc10": {
+      "titl": "10%"
+    },
+    "zvysZrych.proc15": {
+      "titl": "15%"
+    },
+    "zvysZrych.proc20": {
+      "titl": "20%"
+    }
+  }
+}

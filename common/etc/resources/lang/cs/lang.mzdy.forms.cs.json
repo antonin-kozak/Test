@@ -1,0 +1,272 @@
+{
+  "formsInfo": {
+    "mzdExternalId": {
+      "titl": "Externí ID pro mzdy"
+    },
+    "mzdUcel": {
+      "titl": "Účely"
+    },
+    "mzdyDuchSporHlaseni": {
+      "mnem": 83,
+      "titl": "Pojistné na důchodové spoření"
+    },
+    "mzdyDuchSporVyuc": {
+      "mnem": 86,
+      "titl": "Vyúčtování pojistného na důchodové spoření"
+    },
+    "mzdyPotOZdanPrijmech": {
+      "mnem": 90,
+      "titl": "Potvrzení o zdanitelných příjmech"
+    },
+    "mzdyVystFinUr": {
+      "mnem": 70,
+      "titl": "Pro finanční úřad"
+    },
+    "mzdyVystMzdVyst": {
+      "mnem": 77,
+      "titl": "Mzdové výstupy"
+    },
+    "mzdyVystOssz": {
+      "mnem": 79,
+      "titl": "Pro OSSZ"
+    },
+    "mzdyVystOst": {
+      "mnem": 84,
+      "titl": "Ostatní"
+    },
+    "mzdyVystUrPrace": {
+      "mnem": 80,
+      "titl": "Pro úřad práce"
+    },
+    "mzdyVystZdrPoj": {
+      "mnem": 90,
+      "titl": "Pro zdravotní pojišťovny"
+    },
+    "mzdyVystup000": {
+      "desc": "Legislativní tiskové výstupy pro ČSSZ, zdravotná pojišťovny a finanční úřady.",
+      "icon": "win/predpis.png",
+      "mnem": 84,
+      "titl": "Tiskové výstupy"
+    },
+    "mzdyVystupCsszEldp": {
+      "mnem": 69,
+      "titl": "ELDP"
+    },
+    "mzdyVystupCsszOznam": {
+      "mnem": 79,
+      "titl": "Oznámení o nástupu do zaměstnání (skončení zaměstnání)"
+    },
+    "mzdyVystupCsszOzuspoj": {
+      "mnem": 90,
+      "titl": "Oznámení záměru uplatňovat slevu na pojistném za zaměstnance"
+    },
+    "mzdyVystupCsszPrehledPoj": {
+      "mnem": 80,
+      "titl": "Přehled o výši pojistného (Zákon č. 589/1992 Sb.)"
+    },
+    "mzdyVystupCsszVpdpp": {
+      "mnem": 86,
+      "titl": "Výkaz příjmů DPP"
+    },
+    "mzdyVystupDanVypocet": {
+      "mnem": 68,
+      "titl": "Výpočet daně a daňového zvýhodnění"
+    },
+    "mzdyVystupDovolCerpani": {
+      "mnem": 69,
+      "titl": "Přehled čerpání dovolené"
+    },
+    "mzdyVystupHzupn": {
+      "mnem": 76,
+      "titl": "Hlášení zaměstnavatele o ukončení prac. neschopnosti"
+    },
+    "mzdyVystupIspv": {
+      "mnem": 73,
+      "titl": "ISPV"
+    },
+    "mzdyVystupMzdovyList": {
+      "mnem": 76,
+      "titl": "Mzdové listy"
+    },
+    "mzdyVystupPodklVyucDane": {
+      "mnem": 80,
+      "titl": "Podklady pro vyúčtování daně z příjmu ze závislé činnosti"
+    },
+    "mzdyVystupPojOdpovednosti": {
+      "mnem": 75,
+      "titl": "Zákonné pojištění odpovědnosti"
+    },
+    "mzdyVystupPracPravPrum": {
+      "mnem": 80,
+      "titl": "Pracovněprávní průměry"
+    },
+    "mzdyVystupPrehlPracPom": {
+      "mnem": 72,
+      "titl": "Přehled pracovních poměrů"
+    },
+    "mzdyVystupPrepPocZam": {
+      "mnem": 90,
+      "titl": "Přepočtený počet zaměstnanců"
+    },
+    "mzdyVystupPrijmyZam": {
+      "mnem": 78,
+      "titl": "Doložení příjmů zaměstnance"
+    },
+    "mzdyVystupPrilZadosti": {
+      "mnem": 68,
+      "titl": "Příloha k žádosti o nemocenské, ..."
+    },
+    "mzdyVystupPrumCistyVyd": {
+      "mnem": 86,
+      "titl": "Výpočet průměrného čistého výdělku"
+    },
+    "mzdyVystupZapoctak": {
+      "mnem": 84,
+      "titl": "Potvrzení o zaměstnání (Zápočtový list)"
+    },
+    "mzdyVystupZdrHromOzn": {
+      "mnem": 72,
+      "titl": "Hromadné oznámení zaměstnavatele"
+    },
+    "mzdyVystupZdrPrehledPoj": {
+      "mnem": 66,
+      "titl": "Přehled o platbě pojistného"
+    },
+    "perAktualMzdy": {
+      "desc": "Mzdy můžete aktualizovat ve všech měsících, které nejsou oprávněným uživatelem uzamčeny. Vypočítat mzdu můžete pro všechny zaměstnance v seznamu nebo individuálně pro každého samosatně. Nepřítomnost zadáte pomocí tlačítka \"Aktualizace nepřítomnosti\". Zadání je nezávislé na nastaveném období.  Můžete klidně zadat nepřítomnost, která začíná v jednom měsíci a končí v jiném. Dojde k automatickému vygenerování \"měsíčních složek\" pro každý měsíc zvlášť.",
+      "icon": "win/aktualizace-mezd.png",
+      "mnem": 65,
+      "titl": "Aktualizace mezd"
+    },
+    "perAktualMzdyE": {
+      "titl": "Aktualizace mezd"
+    },
+    "perBanSpojMzdy": {
+      "titl": "Bankovní spojení"
+    },
+    "perCisMzdSloz": {
+      "titl": "Číselník mzdových složek"
+    },
+    "perCisMzdSlozUziv": {
+      "desc": "Zde můžete změnit parametry příplatků. Dále číselník obsahuje tzv. uživatelsky definovatelné složky příplatků, odměn a srážek",
+      "icon": "win/numbers.png",
+      "mnem": 69,
+      "titl": "Nastavení mzdových složek"
+    },
+    "perDite": {
+      "titl": "Dítě"
+    },
+    "perMzdCalc": {
+      "titl": "Řádka mzdové kalkulačky"
+    },
+    "perMzdCalcHlav": {
+      "mnem": 72,
+      "titl": "Hlavička mzdové kalkulačky"
+    },
+    "perMzdCalcHrom": {
+      "titl": "Hromadná operace mzdového calculátoru"
+    },
+    "perMzdCalcInit": {
+      "titl": "Inicializační řádka mzdové kalkulačky"
+    },
+    "perMzdSloz": {
+      "desc": "Vstup a výběr mzdových složek má tři základní funkce. První funkcí je možnost vstupu mezd ne podle zaměstnanců ale podle složek. Příkladem může být hromadné zadávání odměn. Ve vstupním okně si zvolíte příslušnou složku odměny, vyberete období a zaměstnance. Zadáte částku a po stisku tlačítka \"Uložit a nový\" program automaticky nabídne dalšího zaměstnance kde zadáte jinou částku (Mzdy je potom nutné zpracovat ve funkci \"Aktualizace mezd\"). Druhou funkcí je možnost snadné filtrace ve všech složkách mzdy a následného tisku. Třetí funkce umožňuje rekapitulaci mzdových složek (seskupování) podle roků, čtvrletí, středisek atd.",
+      "icon": "win/mzdove-slozky.png",
+      "mnem": 90,
+      "titl": "Mzdové složky - vstup a výběry"
+    },
+    "perMzdSlozBenefity": {
+      "titl": "Benefity"
+    },
+    "perMzdSlozDan": {
+      "titl": "Daň"
+    },
+    "perMzdSlozFond": {
+      "titl": "Fond pracovní doby"
+    },
+    "perMzdSlozHruba": {
+      "titl": "Hrubá mzda"
+    },
+    "perMzdSlozIspv": {
+      "titl": "ISPV"
+    },
+    "perMzdSlozNeprit": {
+      "titl": "Nepřítomnost"
+    },
+    "perMzdSlozOdmeny": {
+      "titl": "Odměny"
+    },
+    "perMzdSlozPrispevky": {
+      "titl": "Příspěvky"
+    },
+    "perMzdSlozSocPoj": {
+      "titl": "Sociální pojištění"
+    },
+    "perMzdSlozSrazky": {
+      "titl": "Srážky"
+    },
+    "perMzdSlozSum": {
+      "titl": "Sumarizace"
+    },
+    "perMzdSlozZaklMzda": {
+      "titl": "Základní mzda"
+    },
+    "perMzdSlozZdrPoj": {
+      "titl": "Zdravotní pojištění"
+    },
+    "perNeprit": {
+      "titl": "Nepřítomnost"
+    },
+    "perOsoba": {
+      "desc": "Všechny informace o zaměstnanci nebo o uchazeči o zaměstnání zadáte zde. Zadání je rozděleno do záložek podle významu údajů. V horní části jsou základní informace a parametry pro výpočet mzdy. V dolní části jsou pracovní poměry, stále složky mzdy, srážky, děti atd. Stále složky mzdy obsahují předpis, které složky mzdy se pravidelně opakují. Program je automaticky doplní do každého měsíce podle rozsahu platnosti",
+      "icon": "win/personalistika.png",
+      "mnem": 80,
+      "titl": "Personalistika"
+    },
+    "perOsobaHlav": {
+      "titl": "Hlavičky osob"
+    },
+    "perPracPom": {
+      "titl": "Pracovní poměr"
+    },
+    "perPracPomHlav": {
+      "titl": "Pracovní poměr"
+    },
+    "perPraceStred": {
+      "titl": "Práce pro střediska"
+    },
+    "perPrumer": {
+      "titl": "Průměr"
+    },
+    "perSkupOsob": {
+      "desc": "Skupiny osob umožnují členit zaměstnance nebo uchazeče o zaměstnání do skupin společných vlastností. Například dělníci, rolníci nebo pracující inteligence.",
+      "icon": "win/type-skupiny-osob.png",
+      "mnem": 83,
+      "titl": "Skupiny osob"
+    },
+    "perSmeny": {
+      "titl": "Směny"
+    },
+    "perSrazka": {
+      "titl": "Srážka"
+    },
+    "perStalaMzdSloz": {
+      "titl": "Stálá mzdová složka"
+    },
+    "perTypPracPom": {
+      "titl": "Typ pracovního poměru"
+    },
+    "perTypPracPomParam": {
+      "titl": "Parametr typu pracovního poměru"
+    },
+    "prehledMzdSlozek": {
+      "mnem": 77,
+      "titl": "Rekapitulace mzdových složek"
+    },
+    "prehledZamestnancu": {
+      "icon": "win/adresar.png",
+      "mnem": 72,
+      "titl": "Přehled zaměstnanců"
+    }
+  }
+}

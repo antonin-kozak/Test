@@ -1,0 +1,394 @@
+{
+  "reports": {
+    "5457_26": {
+      "_title": {
+        "titl": "Declaration of the taxpayer of personal income tax from dependent activities (model number 26)"
+      }
+    },
+    "5457_27$$NES": {
+      "_title": {
+        "titl": "Declaration of the taxpayer of personal income tax from dependent activities (model number 27)"
+      }
+    },
+    "5457_B": {
+      "_title": {
+        "titl": "Application for annual settlement of advances and tax credit (model number 2)"
+      }
+    },
+    "5457_B_v3": {
+      "_title": {
+        "titl": "Application for annual settlement of advances and tax credit (model number 3)"
+      }
+    },
+    "cerpaniDovolene": {
+      "_title": {
+        "titl": "Taken holiday"
+      }
+    },
+    "dovolena": {
+      "_title": {
+        "titl": "Holiday"
+      }
+    },
+    "finPodkladyDan": {
+      "_title": {
+        "titl": "Inputs for accounting advance income tax from dependent activities"
+      },
+      "bonus": {
+        "titl": "Bonuses"
+      },
+      "mesic": {
+        "titl": "Month"
+      },
+      "opravaBonusu": {
+        "titl": "Correction Bonuses"
+      },
+      "opravaDane": {
+        "titl": "Correction income tax"
+      },
+      "pocetZamestnancu": {
+        "titl": "Number of employees"
+      },
+      "vyuctovaniPredchoziho": {
+        "titl": "Prior accounting"
+      },
+      "zaRok": {
+        "titl": "for year"
+      },
+      "zalohovaDan": {
+        "titl": "Advance income tax"
+      }
+    },
+    "finPodkladyDanSrazka": {
+      "_title": {
+        "titl": "Inputs for accounting withholding income tax from dependent activities"
+      },
+      "mesic": {
+        "titl": "Month"
+      },
+      "opravaDane": {
+        "titl": "Correction income tax"
+      },
+      "srazkovaDan": {
+        "titl": "Withholding tax"
+      }
+    },
+    "finPrehledDan": {
+      "_title": {
+        "titl": "Income tax overview"
+      },
+      "danovyZaklad": {
+        "titl": "Tax base"
+      },
+      "rezidentDan": {
+        "titl": "Tax resident"
+      },
+      "srazkovaDan": {
+        "titl": "Deduction tax"
+      },
+      "zalohovaDan": {
+        "titl": "dvance tax"
+      }
+    },
+    "finPrehledDanSrazka": {
+      "_title": {
+        "titl": "Income tax overview - deduction tax"
+      }
+    },
+    "mzdSlozVstupAVybery": {
+      "_title": {
+        "titl": "Wage units overview (input and selections)"
+      }
+    },
+    "neodpracDobaNemocPojist": {
+      "_title": {
+        "titl": "Days not worked - sickness insurance"
+      }
+    },
+    "nepritomnost": {
+      "castMzd": {
+        "titl": "Amount"
+      },
+      "cisSlozky": {
+        "titl": "Unit no."
+      },
+      "datumDo": {
+        "titl": "Date till"
+      },
+      "datumOd": {
+        "titl": "Date from"
+      },
+      "dnyKalen": {
+        "titl": "Days calen."
+      },
+      "dnyPrac": {
+        "titl": "Days work."
+      },
+      "hlavicka": {
+        "titl": "Pension, disabelment, take out form evidence \nSickness insurance benefits \nHoliday, other unworked time"
+      },
+      "hodiny": {
+        "titl": "Hours"
+      },
+      "vymerZakl": {
+        "titl": "Assessed base"
+      }
+    },
+    "pracPravPrumer": {
+      "_title": {
+        "titl": "Overview of employment averages"
+      }
+    },
+    "pracovniPomery": {
+      "_title": {
+        "titl": "Employment relationships"
+      }
+    },
+    "prehledMzdSlozek": {
+      "_title": {
+        "titl": "Wage components overview"
+      },
+      "pocetPolozek": {
+        "titl": "Number"
+      }
+    },
+    "prehledZamestnancu": {
+      "_title": {
+        "titl": "Employee overview"
+      }
+    },
+    "prepPocZam": {
+      "_title": {
+        "titl": "Recounted number of employees"
+      }
+    },
+    "socPojOdpovednosti": {
+      "_title": {
+        "titl": "Legal liability insurance of organization"
+      }
+    },
+    "socPrehledPoj": {
+      "_title": {
+        "titl": "Social insurance overview"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "firma": {
+        "titl": "Company"
+      },
+      "pracovniPomery": {
+        "titl": "Labour relations"
+      },
+      "pracovnik": {
+        "titl": "Worker"
+      },
+      "zaklad": {
+        "titl": "Base"
+      }
+    },
+    "vycetkaPlatidel": {
+      "_title": {
+        "titl": "Tender list"
+      },
+      "castka": {
+        "titl": "Amount"
+      }
+    },
+    "vyplatniPaska": {
+      "_title": {
+        "titl": "Payslip"
+      },
+      "pojisteni": {
+        "titl": "Insurance"
+      },
+      "pojistne": {
+        "titl": "Premium"
+      },
+      "prehledSlozekCastkaMzdy": {
+        "titl": "[%currency-symbol]"
+      },
+      "prehledSlozekDny": {
+        "titl": "[Days]"
+      },
+      "prehledSlozekHodiny": {
+        "titl": "[Hours]"
+      },
+      "prehledSlozekZaklad": {
+        "titl": "Base"
+      },
+      "prijmeniJmenoATitul": {
+        "titl": "Surname, first name and title"
+      },
+      "shrnuti": {
+        "titl": "Summation"
+      },
+      "zdravotniPojistovna": {
+        "titl": "Health insurance fund"
+      }
+    },
+    "zamMzdovyList": {
+      "_title": {
+        "titl": "Earning record"
+      },
+      "deti": {
+        "titl": "Children"
+      },
+      "detiJmeno": {
+        "titl": "Name, Surname"
+      },
+      "detiRC": {
+        "titl": "Birth Certificate No."
+      },
+      "detiSleva": {
+        "titl": "Tax advantage for dependent children"
+      },
+      "detiSleva1": {
+        "titl": "1st child (CZK %p per month)"
+      },
+      "detiSleva1Min": {
+        "titl": "1st child (CZK %p per month; CZK %p per month as of effective date of Act No. 125/2016 Coll.)"
+      },
+      "detiSleva2": {
+        "titl": "2nd child (CZK %p per month)"
+      },
+      "detiSleva2Min": {
+        "titl": "2nd child (CZK %p  per month; CZK %p per month as of effective date of Act No. 125/2016 Coll.)"
+      },
+      "detiSleva3": {
+        "titl": "Next child (CZK %p per month)"
+      },
+      "detiSleva3Min": {
+        "titl": "Next child (CZK %p per month; CZK %p per month as of effective of Act No. 125/2016 Coll.)"
+      },
+      "detiZTP": {
+        "titl": "ZTP (severe disablement)"
+      },
+      "dite": {
+        "titl": "child"
+      },
+      "do": {
+        "titl": "to"
+      },
+      "invalidita": {
+        "titl": "Disability"
+      },
+      "nepBenefity": {
+        "titl": "Non-monetary benefits"
+      },
+      "nezRodCis": {
+        "titl": "Partner's birth certificate number"
+      },
+      "od": {
+        "titl": "since"
+      },
+      "odpracovanaDoba": {
+        "titl": "Time worked"
+      },
+      "prechodnaAdresa": {
+        "titl": "Temporary address"
+      },
+      "prispevky": {
+        "titl": "Contributions"
+      },
+      "rodneJmeno": {
+        "titl": "Maiden name"
+      },
+      "rok": {
+        "titl": "Year"
+      },
+      "spFirmaSniz": {
+        "titl": "Social ins. company, reduced"
+      },
+      "spolecneProPomery": {
+        "titl": "Common for all labour engagements"
+      },
+      "trvalaAdresa": {
+        "titl": "Permanent address"
+      },
+      "uplatnenaSlevaNaDeti": {
+        "titl": "Child tax credit applied"
+      },
+      "vetaVypocetDane": {
+        "titl": "If personal income tax from employment is carried out, then the printed copy of the Calculation of Income Tax and Tax Benefits shall be an integral part of the payroll sheet."
+      },
+      "vsSocPoj": {
+        "titl": "VS (variable symbol) for social insurance"
+      },
+      "zalohaNaDanPoSleve": {
+        "titl": "Advance income tax after credit"
+      },
+      "zalohaNaDanPoZvyhodneni": {
+        "titl": "Advance income tax after benefits applied"
+      },
+      "zamestnance": {
+        "titl": "Employee's"
+      },
+      "zdravotniPojistovna": {
+        "titl": "Health insurance fund"
+      }
+    },
+    "zamPodpisArch": {
+      "_title": {
+        "titl": "Wage payment - Signature sheet"
+      },
+      "datumPodpisu": {
+        "titl": "Signature date"
+      },
+      "dobirka": {
+        "titl": "Cash on delivery"
+      },
+      "odpracovanoDnu": {
+        "titl": "Days worked"
+      },
+      "odpracovanoHodin": {
+        "titl": "Hours worked"
+      },
+      "podpis": {
+        "titl": "Signature"
+      },
+      "srazky": {
+        "titl": "Deductions"
+      },
+      "zaloha": {
+        "titl": "Advance"
+      },
+      "zalohaMimoradna": {
+        "titl": "Extra advance"
+      }
+    },
+    "zamPrehledMezd": {
+      "_title": {
+        "titl": "Wages for employees overview"
+      }
+    },
+    "zamestnanci": {
+      "_title": {
+        "titl": "Human Resources - Overview"
+      }
+    },
+    "zapoctak": {
+      "_title": {
+        "titl": "Certificate of employment (credit list)"
+      }
+    },
+    "zapoctak$$NES": {
+      "_title": {
+        "titl": "Certificate of employment (credit list) - with date of birth"
+      }
+    },
+    "zapoctak$$SUM": {
+      "_title": {
+        "titl": "Certificate of employment (credit list) - with social security number"
+      }
+    },
+    "zdrPrehledPoj": {
+      "_title": {
+        "titl": "Health insurance overview"
+      },
+      "zdrPojNull": {
+        "titl": "Health Insurance Company not filled in"
+      }
+    }
+  }
+}

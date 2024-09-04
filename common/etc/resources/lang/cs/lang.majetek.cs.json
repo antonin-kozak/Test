@@ -1,0 +1,628 @@
+{
+  "actions": {
+    "deleteLeasing": {
+      "acck": 127,
+      "accm": 0,
+      "desc": "Smazat vybraný leasing (zkratka Alt+S)",
+      "icon": "win/erase.png",
+      "mnem": 83,
+      "titl": "Smazat leasing"
+    },
+    "deleteMajetek": {
+      "acck": 127,
+      "accm": 0,
+      "desc": "Smazat vybraný majetek (zkratka Alt+S)",
+      "icon": "win/erase.png",
+      "mnem": 83,
+      "titl": "Smazat majetek"
+    },
+    "genLeas": {
+      "desc": "Generovat splátkový kalendář a daňové náklady podle zadaných parametrů",
+      "icon": "win/generate.png",
+      "titl": "Generovat splát. kalendář"
+    },
+    "genMaj": {
+      "desc": "Generovat daňové odpisy, účetní odpisy a událost zařazení",
+      "icon": "win/generate.png",
+      "titl": "Generovat odpisy"
+    },
+    "hromOperace": {
+      "desc": "Provedení hromadné operace nad vybranými majetky",
+      "icon": "win/generate.png",
+      "titl": "Hromadné operace"
+    },
+    "majetekStavKDatu": {
+      "desc": "Vypočte stav majetku k zadanému datu",
+      "icon": "win/generate.png",
+      "titl": "Stav majetku k datu"
+    }
+  },
+  "dialogs": {
+    "leasingGenerovani": {
+      "titl": "Průvodce generováním leasingu"
+    },
+    "leasingVyberRaduZavazkum": {
+      "titl": "Zvolte dokladovou řadu pro vytvoření daňového dokladu závazku ..."
+    }
+  },
+  "labels": {
+    "dPravDefLeaSeznam": {
+      "titl": "Seznam typů leasingu"
+    },
+    "dPravDefLeaUzivatele": {
+      "titl": "Seznam uživatelů v lesingu"
+    },
+    "dPravDefMajSeznam": {
+      "titl": "Seznam typů majetku"
+    },
+    "dPravDefMajUzivatele": {
+      "titl": "Seznam uživatelů v majetku"
+    },
+    "danOdpisNeexistuje": {
+      "titl": "Daňový odpis byl systémově přegenerován."
+    },
+    "filterDruhLeasingu": {
+      "titl": "Filtr podle druhu leasingu"
+    },
+    "filterDruhLeasinguNeomezen": {
+      "titl": "Druh leasingu neomezen"
+    },
+    "filterDruhMajetku": {
+      "titl": "Filtr podle druhu majetku"
+    },
+    "filterDruhMajetkuNeomezen": {
+      "titl": "Druh majetku neomezen"
+    },
+    "filterMesicZahajeni": {
+      "titl": "Filtr podle období z data zahájení leasingu"
+    },
+    "filterMesicZahajeniNeomezen": {
+      "titl": "Měsíc zahájení neomezen"
+    },
+    "filterMesicZarazeni": {
+      "titl": "Filtr podle období z data zařazení"
+    },
+    "filterMesicZarazeniNeomezen": {
+      "titl": "Měsíc zařazení neomezen"
+    },
+    "filterRokZahajeni": {
+      "titl": "Filtr podle roku zahájení leasingu"
+    },
+    "filterRokZarazeni": {
+      "titl": "Filtr podle roku zařazení"
+    },
+    "filterTypLeasingu": {
+      "titl": "Filtr podle typu leasingu"
+    },
+    "filterTypLeasinguNeomezen": {
+      "titl": "Typ leasingu neomezen"
+    },
+    "filterTypMajetku": {
+      "titl": "Filtr podle typu majetku"
+    },
+    "filterTypMajetkuNeomezen": {
+      "titl": "Typ majetku neomezen"
+    },
+    "hromOperace.datum": {
+      "titl": "Datum:"
+    },
+    "hromOperace.prepocetDanOdpisuOdAktObdobi": {
+      "titl": "Přepočet daňových odpisů od aktuálního účetního období"
+    },
+    "hromOperace.preruseniDanOdpisu": {
+      "titl": "Přerušení daňových odpisů"
+    },
+    "hromOperace.preruseniUcetOdpisu": {
+      "titl": "Přerušení účetních odpisů"
+    },
+    "hromOperace.title": {
+      "titl": "Průvodce hromadnými operacemi"
+    },
+    "hromOperace.ucetDal": {
+      "titl": "Účet Dal:"
+    },
+    "hromOperace.ucetMD": {
+      "titl": "Účet MD:"
+    },
+    "hromOperace.uplneVyrazeni": {
+      "titl": "Úplné vyřazení majetků"
+    },
+    "hromOperace.welcome": {
+      "titl": "Nastavení hromadné operace"
+    },
+    "hromOperace.zahajeniDanOdpisu": {
+      "titl": "Opětovné zahájení daňových odpisů"
+    },
+    "hromOperace.zahajeniUcetOdpisu": {
+      "titl": "Opětovné zahájení účetních odpisů"
+    },
+    "hromOperace.zmenaZauctovaniDan": {
+      "titl": "Změna zaúčtování daňových odpisů od data"
+    },
+    "hromOperace.zmenaZauctovaniUcet": {
+      "titl": "Změna zaúčtování účetních odpisů od data"
+    },
+    "koeficientyPN": {
+      "titl": "Koeficienty"
+    },
+    "leasingAkontace": {
+      "titl": "Akontace leasingu"
+    },
+    "leasingFinnanCinnost": {
+      "titl": "Splátka - finanční činnost"
+    },
+    "leasingVstupniCena": {
+      "titl": "Splátka - vstupní cena"
+    },
+    "leasingWizDatum": {
+      "titl": "Datum:"
+    },
+    "leasingWizFinCinPN": {
+      "titl": "Finanční činnost"
+    },
+    "leasingWizLeasSplPN": {
+      "titl": "Leasingová splátka"
+    },
+    "leasingWizMesMeziSpl": {
+      "titl": "Měsíců mezi splátkami:"
+    },
+    "leasingWizMimFCVyzva": {
+      "titl": "Zadejte finační činnost (popl. za uzavření smlouvy)"
+    },
+    "leasingWizMimSplPN": {
+      "titl": "Mimořádná splátka"
+    },
+    "leasingWizMimSplVyzva": {
+      "titl": "Nejprve zadejte mimořádnou splátku"
+    },
+    "leasingWizObecSplVyzva": {
+      "titl": "Zadejte obecnou splátku"
+    },
+    "leasingWizOstatniPN": {
+      "titl": "Ostatní"
+    },
+    "leasingWizPocetSplatek": {
+      "titl": "Počet splátek:"
+    },
+    "leasingWizPoslSplVyzva": {
+      "titl": "Zadejte poslední splátku"
+    },
+    "leasingWizPosledniVyzva": {
+      "titl": "Nakonec vyplňte následující údaje"
+    },
+    "leasingWizPrvSplVyzva": {
+      "titl": "Zadejte nultou splátku"
+    },
+    "leasingWizTitle": {
+      "titl": "Generování splátkového kalendáře"
+    },
+    "leasingZmenaParametru": {
+      "titl": "Došlo ke změně parametrů leasingu. Mají se generovat splátky a náklady?"
+    },
+    "majetek.dlouhodoby": {
+      "titl": "Dlouhodobý"
+    },
+    "majetekPocetMesicu": {
+      "titl": "Doba odpisu [měsíce]:"
+    },
+    "majetekPocetMesicuStari": {
+      "titl": "Zbývá odepsat [měsíce]:"
+    },
+    "majetekPregenerovatUzZmeneneOdpisy": {
+      "titl": "Existují uživatelsky změněné odpisy, které budou přegenerovány."
+    },
+    "majetekProcentoRocne": {
+      "titl": "Procento ročně: "
+    },
+    "majetekPuvZarazeni": {
+      "titl": "Datum původního zařazení:"
+    },
+    "majetekStavKDatu.datum": {
+      "titl": "Datum zpracování:"
+    },
+    "majetekStavKDatu.datumObdobiOd": {
+      "titl": "Počátek období:"
+    },
+    "majetekStavKDatu.info1": {
+      "titl": "Zvolte datum ke kterému chcete sestavu zpracovat."
+    },
+    "majetekStavKDatu.title": {
+      "titl": "Stav majetku k datu %p"
+    },
+    "majetekStavKDatu.welcome": {
+      "titl": "Vítejte v průvodci tvorbou Stavu majetku k datu."
+    },
+    "majetekZmenaParametru": {
+      "titl": "Došlo ke změně parametrů majetku. Mají se změny promítnout i do odpisů?"
+    },
+    "odepisovaniPN": {
+      "titl": "Odpisování"
+    },
+    "parametryPN": {
+      "titl": "Parametry"
+    },
+    "sazbaENelzeUpravovat": {
+      "titl": "Skupiny dané legislativou či již používané skupiny nelze upravovat."
+    },
+    "sazbaRovnOdp": {
+      "titl": "Rovnoměrné odpisování"
+    },
+    "sazbaZrychOdp": {
+      "titl": "Zrychlené odpisování"
+    },
+    "typMajEOdpisUctoPN": {
+      "titl": "Odpisování a účtování"
+    },
+    "ucetOdpisNeexistuje": {
+      "titl": "Účetní odpis byl systémově přegenerován."
+    },
+    "uctovaniPN": {
+      "titl": "Účtování"
+    },
+    "udalostPN": {
+      "titl": "Událost"
+    },
+    "vozidloPN": {
+      "titl": "Vozidlo"
+    },
+    "zakladniListPN": {
+      "titl": "Základní list"
+    },
+    "zapujckaKontaktniUdaje": {
+      "titl": "Kontaktní údaje"
+    }
+  },
+  "messages": {
+    "aktualizaceOdpisuProgress": {
+      "titl": "Aktualizace odpisů majetku - %p / %p (%p záznamů / s, zbývající čas: %p)"
+    },
+    "aktualizaceOdpisuUkladani": {
+      "titl": "Ukládání aktualizovaných odpisů do databáze."
+    },
+    "danOdpisNepodariloAktualizovat": {
+      "titl": "Nepodařilo se aktualizovat daňové odpisy majetku."
+    },
+    "danOdpisPrepocitatDanOdpisyChyba": {
+      "titl": "Nepodařilo se přepočítat daňové odpisy."
+    },
+    "danOdpisPrepocitatUcetOdpisyChyba": {
+      "titl": "Nepodařilo se přepočítat účetní odpisy."
+    },
+    "danOdpisUcetNeniVyplnen": {
+      "titl": "Účet musí být vyplněn v případě, že nejsou generovány účetní odpisy."
+    },
+    "hromOperace.chyba": {
+      "titl": "Při provádění hromadné operace došlo k chybě."
+    },
+    "hromOperace.chybaPriNacitani": {
+      "titl": "Majetek se nepodařilo načíst."
+    },
+    "hromOperace.prepocetInfo": {
+      "titl": "Při přepočtu dojde ke zrušení případných uživatelských změn, které následují po prvním dni aktuálního účetního období.\nPřejete si pokračovat?"
+    },
+    "hromOperace.seznamChyb": {
+      "titl": "U následujících majetků se vyskytly chyby"
+    },
+    "hromOperace.uzJeVyrazeno": {
+      "titl": "Majetek %p už je vyřazen."
+    },
+    "hromOperace.vPoradku": {
+      "titl": "Hromadná operace proběhla úspěšně."
+    },
+    "hromOperace.vysledek": {
+      "titl": "Výsledek hromadné operace"
+    },
+    "konrolaDanOdpisuUkoncitProcesDotaz": {
+      "titl": "Opravdu chcete ukončit probíhající kontrolu daňových odpisů?"
+    },
+    "kontrolaDanOdpisuProbiha": {
+      "titl": "Probíhá kontrola daňových odpisů ..."
+    },
+    "kontrolaDanOpisuChyba": {
+      "titl": "Kontrola daňových odpisů se nezdařila."
+    },
+    "leasingChybaPriMazaniZavazku": {
+      "titl": "Nepodařilo se smazat závazek k leasingu."
+    },
+    "leasingNelzeGenerovatNeplatnyZavazek": {
+      "titl": "Při validaci závazku k leasingu '%p' a splatkovému kalendáři s datem '%p' a kódem '%p' nastala chyba:"
+    },
+    "leasingNelzeGenerovatPredUcetnimObdobi": {
+      "titl": "Splátkový kalendář a daňové náklady leasingu nelze generovat před aktuálním účetním obdobím."
+    },
+    "leasingNelzeGenerovatZavazekUhrazen": {
+      "titl": "Leasing nelze znovu generovat, protože k němu již existuje uhrazený závazek."
+    },
+    "leasingNelzeSmazatZavazekUhrazen": {
+      "titl": "Leasing nelze smazat, protože k němá již existuje uhrazený závazek."
+    },
+    "leasingNemaVstupniCenaSplatKalSPoradim": {
+      "titl": "K leasingu neexistuje splátkový kalendář pro '%p' k splátce s pořadím '%p'."
+    },
+    "leasingNepodariloVygenerovat": {
+      "titl": "Nepodařilo se vygenerovat splátkový kalendář."
+    },
+    "leasingWizChybaKontrolyRady": {
+      "titl": "Při ověřování řady nastala chyba databáze."
+    },
+    "leasingWizChybaNevyplnenaPole": {
+      "titl": "Musíte zadat všechna pole ve formuláři."
+    },
+    "leasingWizChybiRadaDokladu": {
+      "titl": "Vyplněný typ dokladu nemá zadanou řadu dokladu a žádná není specifikovaná."
+    },
+    "leasingWizChybiRocniPolozkaRady": {
+      "titl": "Vybraná řada typu dokladu nemá zadanou roční položku číselné řady k následujícímu účetnímu období."
+    },
+    "leasingWizNenalezenaSazbaDph": {
+      "titl": "Pro daný typ sazby DPH nebyla nalezena hodnota sazby. Splátky budou tudíž neplatné."
+    },
+    "leasingWizSazbyNenacteny": {
+      "titl": "Nepodařilo se načíst nastavení platných sazeb DPH. Generování nebude fungovat korektně."
+    },
+    "leasingWizardBezSplNeboVypl": {
+      "titl": "Na formuláři musíte vyplnit všechny údaje nebo nulový počet splátek."
+    },
+    "leasingWizardSplatkySePrekryvaji": {
+      "titl": "Leasingové splátky se nesmí překrývat. Zkontrolujte zadané datumy."
+    },
+    "majKontrolaKonec": {
+      "titl": "Doporučený postup pro výpočet částek, které je třeba nastavit do pole Daňový odpis: \n\n\nDaňový odpis = \n\n+ <součet správných odpisů včetně měsíce, kdy odpisy měníme>\n\n- <součet chybných odpisů bez měsíce, kdy odpisy měníme>\n\n\n(cílem je, abychom se u součtu daňových odpisů dostali na správnou částku, díky tomu se pak bude vycházet při dalším výpočtu ze správné zůstatkové ceny)\n\n Do pole Zůstatek doplnit správnou výši zůstatku.\n"
+    },
+    "majKontrolaNeniNovyOdpis": {
+      "titl": "U majetku existují odpisy, ale správně by neměly."
+    },
+    "majKontrolaNeniStaryOdpis": {
+      "titl": "U majetku neexistují odpisy, ale správně by měly."
+    },
+    "majKontrolaOk": {
+      "titl": "V daňových odpisech majetku, který je aktivní v účetním období %p nebyly nalezeny žádné nesrovnalosti."
+    },
+    "majKontrolaRuznaCastkaPoslOdpisu": {
+      "titl": "Nesouhlasí částka posledního odpisu (správně %p / aktuálně %p)."
+    },
+    "majKontrolaRuznaDelkaOdpisu": {
+      "titl": "Nesouhlasí délka odepisování (správně %p / aktuálně %p)."
+    },
+    "majKontrolaRuznySoucetOdpisu": {
+      "titl": "Nesouhlasí součet odpisů (správně %p / aktuálně %p)."
+    },
+    "majKontrolaRuznyZustPoslOdpisu": {
+      "titl": "Nesouhlasí zůstatek posledního odpisu (správně %p / aktuálně %p)."
+    },
+    "majKontrolaUvod": {
+      "titl": "Při kontrole daňových odpisů byly nalezeny rozdíly mezi odpisy uloženými a nově vypočtenými.\nDoporučujeme jejich kontrolu a případnou opravu pomocí uživatelské změny odpisu (návod na výpočet správné výše odpisu viz níže).\nRozdíly byla nalezeny u následujících majetků:"
+    },
+    "majetekChybiSazbaOdpisu": {
+      "titl": "Pro zvolený způsob odpisování musíte vybrat Odpisovou sazbu."
+    },
+    "majetekChybnaSazbaOdpisu": {
+      "titl": "Pro zvolený způsob odpisování je vybrána špatná Odpisová sazba."
+    },
+    "majetekChybnyTypOdpisu": {
+      "titl": "Pro zvolený druh majetku musíte vybrat správný způsob odepisování."
+    },
+    "majetekDatVystNelzeDoMinulosti": {
+      "titl": "Datum vystavení musí být v aktuálním účetní období nebo mladší."
+    },
+    "majetekGenPoMigraciStatus": {
+      "titl": "Generuji odpisy majetku: "
+    },
+    "majetekNehmotnyChybnyZpusOdpK": {
+      "titl": "Pro zvolený typ majetku je vybrán chybný způsob odepisování."
+    },
+    "majetekNelzeGenerovatCasVyrazeni": {
+      "titl": "Není možné vygenerovat událost s datem %p a částkou %p. Cena majetku by byla záporná či rovná nule."
+    },
+    "majetekNelzeGenerovatMimoObdobi": {
+      "titl": "Odpisy je možno generovat pouze v účetním období, v kterém byl majetek zařazen do evidence."
+    },
+    "majetekNelzeGenerovatUdalost": {
+      "titl": "Není možné vygenerovat událost s datem %p a částkou %p. Cena majetku by byla záporná či rovná nule."
+    },
+    "majetekNelzeVlozitDoZamcenehoObdobi": {
+      "titl": "Majetek nelze vložit do zamčeného období."
+    },
+    "majetekNenalezenyOdpovidajiSazby": {
+      "titl": "Nebyly nalezeny odpovídající odpisové sazby pro daný způsob odepisování."
+    },
+    "majetekNenulovyDanZustOdepsaneho": {
+      "titl": "Majetek má nenulový daňový zůstatek, ale měl by být podle sazby již odepsán."
+    },
+    "majetekNeodepisovanyNelzeGenerovat": {
+      "titl": "Pro neodepisovaný majetek nelze generovat odpisy."
+    },
+    "majetekNeodepisovanySOdpisy": {
+      "titl": "Neodepisovaný majetek nesmí mít žádné odpisy. Všechny existující odpisy budou smazány."
+    },
+    "majetekNepodariloSeNajitDokladProVytvoreniMajetku": {
+      "titl": "Nepodařilo se najít doklad pro vytvoření majetku."
+    },
+    "majetekNevyplnenoDatumZarazeni": {
+      "titl": "Nebylo vyplněno datum zařazení."
+    },
+    "majetekNevyplnenoOdpisovyUcet": {
+      "titl": "Nebyl vyplněn odpisový účet."
+    },
+    "majetekNevyplnenoOpravnyUcet": {
+      "titl": "Nebyl vyplněn opravný účet."
+    },
+    "majetekNevyplnenoPrimarniUcet": {
+      "titl": "Nebyl vyplněn primární účet."
+    },
+    "majetekNevyplnenoProtiUcet": {
+      "titl": "Nebyl vyplněn protiúčet."
+    },
+    "majetekNevyplnenoSazba": {
+      "titl": "Je potřeba vyplnit odpisovou skupinu."
+    },
+    "majetekNevyplnenoTypMajetku": {
+      "titl": "Je potřeba vyplnit typ majetku."
+    },
+    "majetekNevyplnenoUcetniOdpisy": {
+      "titl": "Je potřeba vyplnit informaci, zda vytvářet účetní odpisy."
+    },
+    "majetekNevyplnenoZacDanOdpisu": {
+      "titl": "Datum začátku daňových odpisů není vyplněno."
+    },
+    "majetekNevyplnenoZacUcetOdpisu": {
+      "titl": "Datum začátku účetních odpisů není vyplněno."
+    },
+    "majetekNevyplnenoZpusobOdepis": {
+      "titl": "Nebyl zvolen způsob odpisování."
+    },
+    "majetekNevyplnenoZrychOdepis": {
+      "titl": "U zrychleného odpisování je nutné vyplnit odpis v prvním roce."
+    },
+    "majetekOdpisyDanDatumZacatkuPredZaraz": {
+      "titl": "Datum začátku daňových odpisů nesmí předcházet datu zařazení majetku."
+    },
+    "majetekOdpisyNevygenerovany": {
+      "titl": "Nepodařilo se vygenerovat odpisy."
+    },
+    "majetekOdpisyUcetDatumZacatkuPredZaraz": {
+      "titl": "Datum začátku účetních odpisů nesmí předcházet datu zařazení majetku."
+    },
+    "majetekPocetMesicuNeniNenulovy": {
+      "titl": "Počet měsíců musí mít nenulovou hodnotu."
+    },
+    "majetekPocetMesicuNenulovyZustCenaNula": {
+      "titl": "Pokud je zadán počet měsíců účetních odpisů, nesmí být jejich zůstatková cena nulová."
+    },
+    "majetekProcentoNeniNenulove": {
+      "titl": "Procento ročně musí mít nenulovou hodnotu."
+    },
+    "majetekSazbaOdpisuNulovaDobaOdp": {
+      "titl": "Nelze použít sazbu s nulovou dobou odepisování."
+    },
+    "majetekSpadaDoJinehoObdobi": {
+      "titl": "Nelze zaevidovat majetek spadající do jiného účetního období."
+    },
+    "majetekTechZhodnocenJenDriveOdepsany": {
+      "titl": "Majetek, který nebyl dříve odepisován, nemůže být před zařazením technicky zhodnocen."
+    },
+    "majetekUcetniOdpisyVDE": {
+      "titl": "V daňové evidenci nelze generovat účetní odpisy."
+    },
+    "majetekUcetniOdpisyVDE_SK": {
+      "titl": "V jednoduchém účetnictví nelze generovat účetní odpisy."
+    },
+    "nelzeMazatOdpisy": {
+      "titl": "Odpisy nelze mazat, jsou generovány automaticky."
+    },
+    "nelzeVytvaretOdpisy": {
+      "titl": "Odpisy není možné vytvářet, jsou generovány automaticky."
+    },
+    "nepodariloSeAktualizovatMajetky": {
+      "titl": "Při změně účetního období se nepodařilo přepočítat odpisy majetků."
+    },
+    "nepodariloSeSpocitatMajetky": {
+      "titl": "Při změně účetního období se nepodařilo zjistit počet majetků k aktualizaci odpisů."
+    },
+    "odpisyZacatekPredUcobd": {
+      "titl": "Majetek [%p] - začátek odpisu %p předchází účetnímu období %p!"
+    },
+    "odpisyZmenaObdobiZamceno": {
+      "titl": "Nepodařilo se změnit odpis, protože období (%p) je zamčeno."
+    },
+    "sazbaChybaZjisteniNavazanychMajetku": {
+      "titl": "Nepodařilo se ověřit, zda na odpisovou sazbu nejsou navázány evidované majetky."
+    },
+    "splatKalNelzePrepocitatDph": {
+      "titl": "Chyba při nahrávání sazeb DPH nebo nastavení firmy."
+    },
+    "splatKalSumDphNevyplneno": {
+      "titl": "Pro zadanou sazbu Dph nelze mít nevyplněné DPH."
+    },
+    "udalostDveNeboViceVyrazeni": {
+      "titl": "Událost úplné vyřazení lze přidat pouze jednou."
+    },
+    "udalostDveNeboViceZarazeni": {
+      "titl": "Událost zařazení lze přidat pouze jednou."
+    },
+    "udalostMinHodnotaPolozky": {
+      "titl": "Minimální hodnota položky"
+    },
+    "udalostMinHodnotaProdlouzeni": {
+      "titl": "Hodnota pole %p musí být větší než nula."
+    },
+    "udalostMusiMitDatVystVAktualnimObdobi": {
+      "titl": "Událost musí mít datum vystavení v aktuálním účetním období."
+    },
+    "udalostNaDanOpdisyPredZacDanOdpisu": {
+      "titl": "Událost musí mít datum vystavení po začátku daňových odpisů."
+    },
+    "udalostNaUceOpdisyPredZacUceOdpisu": {
+      "titl": "Událost musí mít datum vystavení po začátku účetních odpisů."
+    },
+    "udalostNePoVyrazeni": {
+      "titl": "Žádná událost se nesmí vyskytovat po události úplné vyřazení."
+    },
+    "udalostNePredZarazenim": {
+      "titl": "Žádná událost se nesmí vyskytovat před událostí zařazení nebo ve stejný den."
+    },
+    "udalostNeexistujiUcetPolozky": {
+      "titl": "K datu {0} by neexistovaly žádné účetní odpisy"
+    },
+    "udalostNelzePridatVyrazeni": {
+      "titl": "Nelze přidat novou událost po vyřazení majetku."
+    },
+    "udalostNemaVyplnenoStredisko": {
+      "titl": "Událost musí mít vyplněné středisko."
+    },
+    "udalostNesmiBytPredZacOdpisu": {
+      "titl": "Událost nesmí mít datum vystavení před začátkem daňových a účetních odpisů."
+    },
+    "udalostOpetZahDanBezPreruseni": {
+      "titl": "Událost opětovné zahájení daňových odpisů nelze zadat, protože nepředchází odpovídající přerušení daňových odpisů."
+    },
+    "udalostOpetZahUcetBezPreruseni": {
+      "titl": "Událost opětovné zahájení účetních odpisů nelze zadat, protože nepředchází odpovídající přerušení účetních odpisů."
+    },
+    "udalostPoPreruseniJenomUrciteUdal": {
+      "titl": "Tuto událost nelze zadat, protože bylo přerušeno odepisování."
+    },
+    "udalostPredDatemZarazeni": {
+      "titl": "Datum události smí být až po datu zařazení majetku."
+    },
+    "udalostPrerDanOdpJizPreruseno": {
+      "titl": "Událost přerušení daňových odpisů nelze zadat. Daňové odpisy jsou již přerušeny."
+    },
+    "udalostPrerUcetOdpJizPreruseno": {
+      "titl": "Událost přerušení účetních odpisů nelze zadat. Účetní odpisy jsou již přerušeny."
+    },
+    "udalostSumZklTZNesmiBytZaporna": {
+      "titl": "Hodnota pole %p nesmí být u technického zhodnocení záporná."
+    },
+    "udalostVyplnitVsechnyUcty": {
+      "titl": "Při této události musí být vyplněny všechny účty."
+    },
+    "udalostVyrazeniNesmazat": {
+      "titl": "Nelze smazat událost zařazení, pokud na ní navazují další události."
+    },
+    "udalostVyrazeniObsazena": {
+      "titl": "Událost vyřazení je již v seznamu událostí obsažena."
+    },
+    "udalostZarazeniJizObsazena": {
+      "titl": "Událost zařazení je již v seznamu událostí obsažena."
+    },
+    "udalostZarazeniMusiBytPredZacOdpisu": {
+      "titl": "Událost zařazení musí být před začátky odpisů."
+    },
+    "udalostZmenaDobyOdpis": {
+      "titl": "'Změna doby odpisu'"
+    },
+    "udalostZmenaVstupniCenyDanovyZustatekNesmiBytZaporny": {
+      "titl": "Zůstatek daňových odpisů nesmí být po události změny vstupní ceny záporný."
+    },
+    "udalostZmenaVstupniCenyNelzeProDanoveOdepsanyMaj": {
+      "titl": "Událost změna vstupní ceny nelze použít pro majetek, který byl již daňově plně odepsán."
+    },
+    "udalostZmenaVstupniCenyNelzeProUcetneOdepsanyMaj": {
+      "titl": "Událost změna vstupní ceny je použita pro majetek, který byl již účetně plně odepsán."
+    },
+    "udalostZmenaVstupniCenyUcetniJeZaporna": {
+      "titl": "Po události změny vstupní ceny bude účetní zůstatek záporný."
+    }
+  }
+}

@@ -1,0 +1,720 @@
+{
+  "actions": {
+    "authn.require_otp": {
+      "titl": "Vyžadovať autorizáciu pomocou jednorázového hesla (OTP)"
+    },
+    "authn.type.GOOGLE": {
+      "titl": "Google"
+    },
+    "authn.type.INTERNAL": {
+      "titl": "Interné meno a heslo (východzie)"
+    },
+    "authn.type.IT_HIGHWAY": {
+      "titl": "IT Highway"
+    },
+    "authn.type.OPENID": {
+      "titl": "Vlastný OpenID Provider"
+    },
+    "authn.type.SAML": {
+      "titl": "Vlastný SAMLv2 Identity provider"
+    },
+    "authn.type.UCTUJTE": {
+      "titl": "Web Účtujte.cz"
+    },
+    "authn.use_old_http_authn": {
+      "titl": "Nepoužívať nový prihlasovací formulár, ale pôvodnu HTTP autorizáciu."
+    },
+    "logout": {
+      "titl": "Odhlásiť"
+    },
+    "nastavServerMzdyPristup": {
+      "titl": "Umožniť prístup pre WinStrom Mzdy"
+    },
+    "nastavServerVSiti": {
+      "titl": "Poskytovať službu ABRA Flexi v sieti"
+    },
+    "nastavZobrazeniVyzvyKVyplneniRegistracnihoEmailu": {
+      "titl": "Zobrazovať výzvu na vyplnenie registračného e-mailu"
+    },
+    "no": {
+      "titl": "Nie"
+    },
+    "vytvoritVazbuZDD": {
+      "titl": "Vytvoriť väzbu ZDD"
+    },
+    "yes": {
+      "titl": "Áno"
+    },
+    "zrusitVazbuZDD": {
+      "titl": "Zrušiť väzbu ZDD"
+    }
+  },
+  "buttons": {
+    "backup.confirmNo": {
+      "titl": "Nie, späť"
+    },
+    "backup.confirmYes": {
+      "titl": "Áno, zálohovať"
+    },
+    "continue": {
+      "titl": "Pokračovať"
+    },
+    "disable": {
+      "titl": "Deaktivácia stránky"
+    },
+    "enable": {
+      "titl": "Aktivácia stránky"
+    },
+    "goBack": {
+      "titl": "Späť"
+    },
+    "modify": {
+      "titl": "Zmeniť"
+    }
+  },
+  "dialogs": {
+    "actions.title": {
+      "titl": "Prehľad akcií"
+    },
+    "admin.accesses.title": {
+      "titl": "Prístupy"
+    },
+    "admin.accounting_units.title": {
+      "titl": "Účtovné jednotky"
+    },
+    "admin.authorization.title": {
+      "titl": "Autorizácia"
+    },
+    "admin.default_licence.title": {
+      "titl": "Východzia licencia"
+    },
+    "admin.disk_usage.title": {
+      "titl": "Využitie miesta na disku"
+    },
+    "admin.disk_usage.title.short": {
+      "titl": "Obsadenie disku"
+    },
+    "admin.license_groups.title": {
+      "titl": "Licenčné skupiny"
+    },
+    "admin.parameters.title": {
+      "titl": "Parametre"
+    },
+    "admin.run_in_cluster.title": {
+      "titl": "Clusterová prevádzka"
+    },
+    "admin.server.title": {
+      "titl": "ABRA Flexi server"
+    },
+    "admin.server_params.title": {
+      "titl": "Parametre servera"
+    },
+    "admin.server_params.title.short": {
+      "titl": "Servera"
+    },
+    "admin.ssl_certificate.title": {
+      "titl": "SSL certifikát"
+    },
+    "admin.title": {
+      "titl": "Administrácia"
+    },
+    "admin.users.title": {
+      "titl": "Používatelia"
+    },
+    "admin.users_logged_in.title": {
+      "titl": "Prihlásení používatelia"
+    },
+    "authentications.list": {
+      "titl": "Prehľad prihlásených používateľov"
+    },
+    "authn.additional_settings.header": {
+      "titl": "Doplňujúce nastavenie autorizácie"
+    },
+    "authn.additional_sso_settings.header": {
+      "titl": "Doplňujúce nastavenie pre <abbr title=\"Single sign-on\">SSO</abbr>"
+    },
+    "authn.authn_settings.header": {
+      "titl": "Nastavenie autorizácie"
+    },
+    "authn.basic_settings.header": {
+      "titl": "Základní nastavenie servera"
+    },
+    "changesApi.title": {
+      "titl": "Zmeny API"
+    },
+    "companies.title": {
+      "titl": "Zoznam firiem"
+    },
+    "connections.list": {
+      "titl": "Prehľad pripojených používateľov"
+    },
+    "devdoc.developers": {
+      "titl": "Vývojarská dokumentácia"
+    },
+    "error.403-access_denied": {
+      "titl": "403 - Prístup zamietnutý"
+    },
+    "error.429": {
+      "titl": "429 - Príliš veľa požiadaviek"
+    },
+    "error.503-service_unavailable": {
+      "titl": "503 - Služba nie je dostupná"
+    },
+    "error.could_not_complete_operation.title": {
+      "titl": "Operáciu nie je možné vykonať"
+    },
+    "evidences.title": {
+      "titl": "Prehľad evidencií"
+    },
+    "license.title": {
+      "titl": "Licencia"
+    },
+    "properties.title": {
+      "titl": "Prehľad položiek"
+    },
+    "relations.title": {
+      "titl": "Prehľad relácii"
+    },
+    "reports.title": {
+      "titl": "Prehľad tlačových zostáv"
+    },
+    "status.title": {
+      "titl": "Status"
+    },
+    "sum.title": {
+      "titl": "Sumácie"
+    },
+    "toolbars.title": {
+      "titl": "Toolbar"
+    },
+    "user_access.title": {
+      "titl": "Prístup používateľa"
+    },
+    "users.title": {
+      "titl": "Osoby a používatelia"
+    },
+    "users_access.title": {
+      "titl": "Prístupy používateľov"
+    }
+  },
+  "labels": {
+    "actions.confirm.dokoncit-prevodku": {
+      "titl": "Chcete dokončiť prevodku?"
+    },
+    "actions.confirm.lock": {
+      "titl": "Naozaj chcete dokument zablokovať?"
+    },
+    "actions.confirm.lock-for-ucetni": {
+      "titl": "Naozaj chcete dokument zablokovať pred účtovníkom?"
+    },
+    "actions.confirm.odeslat-eet": {
+      "titl": "Naozaj chcete dokument poslať do EET?"
+    },
+    "actions.confirm.sign-for-payment": {
+      "titl": "Skutočne chcete podpísať doklad k úhrade?"
+    },
+    "actions.confirm.storno": {
+      "titl": "Skutočne chcete doklad stornovať?"
+    },
+    "actions.confirm.uhrad-preplatky": {
+      "titl": "Naozaj chcete vracať preplatky v banke a v pokladni?"
+    },
+    "actions.confirm.uhrad-zapoctem": {
+      "titl": "Naozaj chcete zaplatiť doklad automatizovaným zápočtom?"
+    },
+    "actions.confirm.unlock": {
+      "titl": "Naozaj chcete dokument odomknúť?"
+    },
+    "actions.confirm.unsign-for-payment": {
+      "titl": "Skutočne chcete zrušiť podpis k úhrade dokladu?"
+    },
+    "actions.description": {
+      "titl": "Tento prehľad slúži k&nbsp;výpisu podporovaných akcií."
+    },
+    "actions.needInstance": {
+      "titl": "Potrebuje inštanciu objektu"
+    },
+    "authn.ACCESS_CONTROL_ALLOW_ORIGIN": {
+      "titl": "Sieťový prístup k dátam ABRA Flexi"
+    },
+    "authn.ACCESS_CONTROL_ALLOW_ORIGIN.description": {
+      "titl": "Ovplyvňuje nastavenie HTTP hlavičky Access-Control-Allow-Origin (domény oddelené medzerou)"
+    },
+    "authn.idp_settings.name_id_format": {
+      "titl": "Formát identifikátora používateľa"
+    },
+    "authn.idp_settings.response_consumer_url": {
+      "titl": "URL pre príjem odpovede"
+    },
+    "authn.idp_settings.single_logout_url": {
+      "titl": "URL pre odhlásenie používateľa"
+    },
+    "authn.password_quality": {
+      "titl": "Vyžadovaná kvalita hesla"
+    },
+    "authn.service_provider_id": {
+      "titl": "Service Provider identifikátor"
+    },
+    "authn.service_provider_id.description": {
+      "titl": "Identifikátor poskytovateľa služby, ktorý figuruje ako žiadateľ o autentizáciu používateľa. Typicky doména druhého rádu (napr. <b><tt>flexibee.eu</tt></b>)."
+    },
+    "authn.sso_cert_fingerprint": {
+      "titl": "Otlačok certifikátu <abbr title=\"Identity Provider\">IDP</abbr>"
+    },
+    "authn.sso_cert_fingerprint.description": {
+      "titl": "Tu sa zadáva SHA1 otlačok certifikátu, ktorým budú podpisované odpovede. Správný formát je možné získať napr. príkazom: <tt>openssl x509 -noout -in cert.pem -fingerprint -sha1</tt><br/>Ak sa validácia certifikátu nemá vykonávať, ponechajte prázdne."
+    },
+    "authn.sso_chng_passwd_url": {
+      "titl": "URL pre zmenu hesla u SSO"
+    },
+    "authn.sso_chng_passwd_url.description": {
+      "titl": "URL na ktoré bude možné používateľa presmerovať za účelom centrálneho odhlásenia alebo zmeny hesla u poskytovateľa ID."
+    },
+    "authn.sso_login_url": {
+      "titl": "Prihlasovacie URL pre SSO"
+    },
+    "authn.sso_login_url.description": {
+      "titl": "URL na ktoré bude ABRA Flexi (služba) odosielať požiadavky na autentizáciu používateľa. Požiadavka obsahuje všetky potrebné údaje k vykonaniu autentizácie, no často ešte býva nutné vytvoriť pre danú službu konfiguráciu na strane poskytovateľa ID. Obvykle je tu treba uviesť URL pre spracovanie odpovede a niektoré ďalšie parametre autentizačného protokolu:"
+    },
+    "authn.sso_logout_url": {
+      "titl": "Odhlasovacie URL pre SSO"
+    },
+    "authn.type.GOOGLE.description": {
+      "titl": "Autorizácia je vykonaná oproti serverom Google. Je možné využiť jak platené tak i zadarmo varianty Google Apps."
+    },
+    "authn.type.INTERNAL.description": {
+      "titl": "Je používané meno a heslo uložené vo ABRA Flexi."
+    },
+    "authn.type.IT_HIGHWAY.description": {
+      "titl": "Autorizácia prostredníctvom siete integrovaných služieb <i>IT Highway</i>."
+    },
+    "authn.type.OPENID.description": {
+      "titl": "Autorizácia je vykonaná oproti bežnému OpenID providerovi. Je nutné vykonať nastavenie."
+    },
+    "authn.type.SAML.description": {
+      "titl": "Autorizácia je vykonaná oproti bežnému SAMLv2 Identity Providerovi. Je nutné vykonať nastavenie."
+    },
+    "authn.type.UCTUJTE.description": {
+      "titl": "Špeciálna autentizácia na webe <tt>uctujte.cz</tt>."
+    },
+    "automatickeParovani": {
+      "titl": "Automatické párovanie"
+    },
+    "backTo": {
+      "titl": "Späť na"
+    },
+    "backToDocument": {
+      "titl": "Späť na doklad"
+    },
+    "cleneniDph": {
+      "titl": "Členenie DPH"
+    },
+    "company.backup": {
+      "titl": "Záloha firmy"
+    },
+    "company.settings": {
+      "titl": "Nastavenie firmy"
+    },
+    "devdoc": {
+      "titl": "Dokumentácia"
+    },
+    "devdoc.bezPolozek": {
+      "titl": "Obsahuje tento doklad položky? Ak obsahuje, je cena určena ich súčtom. V&nbsp;opačnom prípade je možné určovať výslednu cenu (sumCelkSniz apod.)"
+    },
+    "devdoc.datUhr": {
+      "titl": "Dátum úhrady. Je vyplnený až po uhradení dokladu."
+    },
+    "devdoc.dic": {
+      "titl": "Poštová adresa. Vyplňuje sa len ak postovniShodna je false. <i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.dphSnizKoef": {
+      "titl": "bol pri výpočte zníženej DPH použitý koeficient pre výpočet DPH? (podľa § 37 Zákona o DPH). Ovplyvňuje kontrolné súčty."
+    },
+    "devdoc.dphZaklKoef": {
+      "titl": "bol pri výpočte zníženej DPH použitý koeficient pre výpočet DPH? (podľa § 37 Zákona o DPH). Ovplyvňuje kontrolné súčty."
+    },
+    "devdoc.eanKod": {
+      "titl": "<i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.evidenceFilter": {
+      "titl": "Filter databázy:"
+    },
+    "devdoc.faEanKod": {
+      "titl": "Poštová adresa. Vyplňuje sa len ak postovniShodna je false. <i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.faMesto": {
+      "titl": "Poštová adresa. Vyplňuje sa len ak postovniShodna je false. <i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.faNazev": {
+      "titl": "Poštová adresa. Vyplňuje sa len ak postovniShodna je false. <i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.faPsc": {
+      "titl": "Poštová adresa. Vyplňuje sa len ak postovniShodna je false. <i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.faUlice": {
+      "titl": "Poštová adresa. Vyplňuje sa len ak postovniShodna je false. <i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.firma": {
+      "titl": "Väzba na firmu v adresári. Ak nie je vyplnená, mali by byť vyplnené položky s detailnými informáciami o firme."
+    },
+    "devdoc.ic": {
+      "titl": "<i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.kurz": {
+      "titl": "Kurz, ktorý určuje prepočet medzi menou firmy a menou dokladu. Ak nie je vyplnená mena, je rovný nule."
+    },
+    "devdoc.kurzMnozstvi": {
+      "titl": "Kurzové množstvo, ktoré určuje vzťah medzi základnou menou firmy a menou dokladu. Napr. kurz medzi Kč a Japonským jenom sa určuje ako 1 CZK : 100 JPY."
+    },
+    "devdoc.mesto": {
+      "titl": "<i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.nazFirmy": {
+      "titl": "<i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.postovniShodna": {
+      "titl": "Ak je true, je Poštová adresa zhodná s fakturačnou. <i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.psc": {
+      "titl": "<i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "devdoc.slevaDokl": {
+      "titl": "Celková zľava na doklade, ktorá sa aplikuje na výslednú cenu."
+    },
+    "devdoc.sumCelkSniz": {
+      "titl": "Celková suma všetkých základov v zníženej sadzbe DPH (tj. čiastka bez DPH) v základnej mene firmy. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumCelkSnizMen": {
+      "titl": "Celková suma všetkých základov v zníženej sadzbe DPH (tj. čiastka bez DPH) v mene dokladu. <i>Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumCelkZakl": {
+      "titl": "Celková suma všetkých základov v základnej sadzbe DPH (tj. čiastka bez DPH) v základnej mene firmy. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumCelkZaklMen": {
+      "titl": "Celková suma všetkých základov v základnej sadzbe DPH (tj. čiastka bez DPH) v mene dokladu. <i>Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumCelkem": {
+      "titl": "Celková suma vrátane DPH v základnej mene firmy. (tj. koľko má zákazník zaplatiť). <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumCelkemMen": {
+      "titl": "Celková suma vrátane DPH v mene dokladu. Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. (tj. koľko má zákazník zaplatiť). <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumDphCelkem": {
+      "titl": "Celková čiastka DPH (súčet zníženej a základnej sadzby) v základnej mene firmy. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumDphCelkemMen": {
+      "titl": "Celková čiastka DPH (súčet zníženej a základnej sadzby) v mene dokladu. <i>Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumDphSniz": {
+      "titl": "Celková čiastka DPH v zníženej sadzbe DPH v základnej mene firmy. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumDphSnizMen": {
+      "titl": "Celková čiastka DPH v zníženej sadzbe DPH v mene dokladu. <i>Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumDphZakl": {
+      "titl": "Celková čiastka DPH v základnej sadzbe DPH v základnej mene firmy. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumDphZaklMen": {
+      "titl": "Celková čiastka DPH v základnej sadzbe DPH v mene dokladu. <i>Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumOsv": {
+      "titl": "Celková suma základov oslobodených od DPH v základnej mene firmy. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumOsvMen": {
+      "titl": "Celková suma základov oslobodených od DPH v mene dokladu. <i>Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumZklCelkem": {
+      "titl": "Celková suma všetkých základov (tj. čiastka bez DPH)  v základnej mene firmy. Toto je výsledná čiastka bez DPH. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumZklCelkemMen": {
+      "titl": "Celková suma všetkých základov (tj. čiastka bez DPH)  v mene dokladu. Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. Toto je výsledná čiastka bez DPH. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumZklSniz": {
+      "titl": "Celková suma základov so zníženou DPH v základnej mene firmy. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumZklSnizMen": {
+      "titl": "Celková suma základov so zníženou DPH v mene dokladu. <i>Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumZklZakl": {
+      "titl": "Celková suma základov so základnej DPH v základnej mene firmy. <i>Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.sumZklZaklMen": {
+      "titl": "Celková suma základov so základnou DPH v mene dokladu. <i>Ak je mena dokladu zhodná so základnou menou firmy, je táto položka nulová. Ak je doklad položkový, je automaticky dopočítavané z položiek.</i>"
+    },
+    "devdoc.ulice": {
+      "titl": "<i>Ak sa vyplní položka 'firma' nie je treba doplňovať, pretože bude skopírovaná z adresára.</i>"
+    },
+    "doklFak.cancelled": {
+      "titl": "STORNOVANÉ"
+    },
+    "eula": {
+      "titl": "Podmienky služby"
+    },
+    "evidences.description": {
+      "titl": "Tento prehľad slúži k&nbsp;výpisu evidencií, ku ktorým je možné v tejto firme pristupovať. Je možné ho previesť do formátu XML či do JSON a následne strojovo spracovávať."
+    },
+    "filter": {
+      "titl": "Filtrácia"
+    },
+    "identifier": {
+      "titl": "Identifikátor"
+    },
+    "loginWithDesktopApp": {
+      "titl": "Prihlásenie pomocou klientskej aplikácie"
+    },
+    "loginWithDesktopAppToCloud": {
+      "titl": "Prihlásenie klientskej aplikácie do cloudu"
+    },
+    "majetek_dalsi": {
+      "titl": "Ďalší"
+    },
+    "nactiVypis": {
+      "titl": "Načítať výpis"
+    },
+    "name": {
+      "titl": "Názov"
+    },
+    "newInterfaceLink": {
+      "titl": "Vyskúšajte nové rozhranie"
+    },
+    "obchPartneri_dalsi": {
+      "titl": "Ďalší"
+    },
+    "odeslaniDokladu": {
+      "titl": "Odeoslanie dokladu"
+    },
+    "odpocetZalohyCastka": {
+      "titl": "Zvoľte čiastku pre odpočet od 0 do"
+    },
+    "openRecord": {
+      "titl": "Otvorený záznam"
+    },
+    "penize_dalsi": {
+      "titl": "Ďalší"
+    },
+    "podepsatKUhrade": {
+      "titl": "Podpísať k úhrade"
+    },
+    "prodej_dalsi": {
+      "titl": "Ďalší"
+    },
+    "properties.description": {
+      "titl": "Tento prehľad slúži k&nbsp;výpisu položiek, ktoré táto evidencia môže obsahovať. Je možné ho previesť do formátu XML či do JSON a následne strojovo spracovávať."
+    },
+    "root.explanation": {
+      "titl": "ABRA Flexi je moderný účtovný a ekonomický systém schopný zaistiť kvalitné spracovanie účtovníctva a naväzujúcich agend v širokom spektre spoločností. Za jednoducho ovládateľným používateľským prostredím je skrytá robustná a výkonná aplikácia typu client/server, kterú je možné prevádzkovať na platformách Windows, Linux a Mac OS X. Ekonomické systémy rady ABRA Flexi pôsobia na trhu od roku 1991."
+    },
+    "root.version": {
+      "titl": "Verzia"
+    },
+    "search": {
+      "titl": "Hľadať"
+    },
+    "settings.ITH_USERS_MANAGEMENT": {
+      "titl": "Správa používateľov \"IT Highway\""
+    },
+    "settings.ITH_USERS_MANAGEMENT.description": {
+      "titl": "Obmedzuje v aplikácii priraďovanie úlohy <code>ADMIN</code> a zmenu údajov o používateľovi. Správa používateľov prebieha primárne prostredníctvom <i>Batch API</i>."
+    },
+    "std_ciselniky": {
+      "titl": "Štandardné číselníky"
+    },
+    "typKurzu.faktury": {
+      "titl": "Sadzba prevzatá z faktúry"
+    },
+    "typKurzu.uhrady": {
+      "titl": "Sadzba v deň platby"
+    },
+    "typKurzu.vlastni": {
+      "titl": "Vlastný kurz"
+    },
+    "ucetni.denik.castky": {
+      "titl": "čiastky"
+    },
+    "ucetnictvi_uctovani": {
+      "titl": "Nastavenie účtovania"
+    },
+    "ucetnictvi_vystupy": {
+      "titl": "Účtovné výstupy"
+    },
+    "url": {
+      "titl": "URL"
+    },
+    "vygenerovatFaktury": {
+      "titl": "Vygenerovať faktúry"
+    },
+    "vytvorZdd.faktury": {
+      "titl": "Faktúry"
+    },
+    "zaloha": {
+      "titl": "Záloha"
+    },
+    "zalohaProgressDownloadTitle": {
+      "titl": "Záloha bude po chvíli ponúknuta k stiahnutiu."
+    },
+    "zbozi_atributy": {
+      "titl": "Atribúty"
+    },
+    "zbozi_dalsi": {
+      "titl": "Ďalší"
+    },
+    "zrusitPodpisKUhrade": {
+      "titl": "Zrušiť podpis k úhrade"
+    }
+  },
+  "messages": {
+    "automatickeParovaniJinyModul": {
+      "titl": "Automatické párovanie je možné vykonať len v banke a pokladni."
+    },
+    "backup.confirmQuestion": {
+      "titl": "Skutočne zálohovať firmu?"
+    },
+    "bankUcetNemaFormatElVypisu": {
+      "titl": "U bankového účtu nie je definovaný formát elektronického výpisu."
+    },
+    "changesApi.actionFailed": {
+      "titl": "Akcia sa neuskutočnila"
+    },
+    "changesApi.disableQuestion": {
+      "titl": "Rozhranie API zmien (sledovanie zmien) nad aktuálnou spoločnosťou je povolené. Chcete ho deaktivovať?"
+    },
+    "changesApi.disableSuccess": {
+      "titl": "Úspešne deaktivované."
+    },
+    "changesApi.enableQuestion": {
+      "titl": "Rozhranie API pre zmeny (sledovanie zmien) nad aktuálnou spoločnosťou nie je povolené. Chcete ho aktivovať?"
+    },
+    "changesApi.enableSuccess": {
+      "titl": "Úspešne aktivované."
+    },
+    "chybnyFormatCastky": {
+      "titl": "Chybný formát čiastky"
+    },
+    "chybnyFormatDatumu": {
+      "titl": "Chybný formát dátumu"
+    },
+    "chybnyVlastniKurzChybiKurz": {
+      "titl": "Ak chcete použiť vlastnú sadzbu, musíte zadať vlastnú sadzbu a sumu sadzby."
+    },
+    "creditcheck.end": {
+      "titl": "Spoločnosť bola ukončená alebo je v likvidácii."
+    },
+    "creditcheck.ok": {
+      "titl": "Nebola zachytená žiadna informácia negativne ovlivňujúca bonitu firmy."
+    },
+    "creditcheck.problem": {
+      "titl": "Sú k dispozícii informácie majúce spravidla negatívny vplyv na bonitu firmy."
+    },
+    "creditcheck.unknown": {
+      "titl": "Stav bonity neznámy."
+    },
+    "creditcheck.warning": {
+      "titl": "Sú k dispozícii informácie o skutočnostiach alebo zmenách vo firme, ktoré môžu (ale nemusia) mať vplyv na bonitu."
+    },
+    "eetCertifikatSpatnaProvozovna": {
+      "titl": "Hodnota musí byť celé číslo!"
+    },
+    "eetCertifikatSpatneHeslo": {
+      "titl": "Nesprávne heslo certifikátu!"
+    },
+    "eetCertifikatSpatnySoubor": {
+      "titl": "Pravdepodobne nejde o súbor s certifikátom, alebo ste zadali nesprávny typ obsahu!"
+    },
+    "eetDeactivated": {
+      "titl": "EET nie je podporované."
+    },
+    "error.company_in_wrong_state": {
+      "titl": "Firma '%p' je v stave '%p'."
+    },
+    "error.not_sha1_hash": {
+      "titl": "Toto nie je platný formát SHA1 otlačku. Správny má 20 hexa bajtov oddelených dvojbodkami."
+    },
+    "error.service_unavailable": {
+      "titl": "Služba je momentálne nedostupná, skúste to prosím neskôr."
+    },
+    "error.tooManyRequests": {
+      "titl": "V tejto firme momentálne dochádza k spracovaniu väčšieho počtu skorších požiadaviek, prosím počkajte."
+    },
+    "error_parsing_file_exception": {
+      "titl": "Súbor nebolo možné prečítať, pretože: '%p'."
+    },
+    "hotovUhrNemaTypPoklPoh": {
+      "titl": "nie je vybraný typ pokladničného pohybu"
+    },
+    "illegal_parameter_exception": {
+      "titl": "Parameter \"%p\" sa očakáva vo formáte \"%p\"."
+    },
+    "incompatible_param_values_exception": {
+      "titl": "Hodnoty parametrov %p nie sú vzájomne zlučiteľné"
+    },
+    "internetUpdate.ic_dic_empty": {
+      "titl": "Nie je vyplnené IČO ani DIČ."
+    },
+    "invalidBoolean": {
+      "titl": "{0} nie je platný logický typ."
+    },
+    "invalidDate": {
+      "titl": "{0} nie je platný formát dátumu."
+    },
+    "invalidNumber": {
+      "titl": "{0} nie je platný formát čísla."
+    },
+    "kopieDokladuNemaTypDokl": {
+      "titl": "nie je vybraný typ dokladu."
+    },
+    "missing_param_exception": {
+      "titl": "K vykonaniu operácie je vyžadovaný parameter '%p'"
+    },
+    "neexistujeReport": {
+      "titl": "Neexistuje žiadný report."
+    },
+    "no.records": {
+      "titl": "Žiadné záznamy"
+    },
+    "pageLoad.end": {
+      "titl": "Načítané všetky stránky."
+    },
+    "pageLoad.loadNext": {
+      "titl": "Načítať ďalšiu stránku"
+    },
+    "pageLoad.loading": {
+      "titl": "Načítam ďalšiu stránku ..."
+    },
+    "parametrPovinny": {
+      "titl": "Parameter %p je povinný."
+    },
+    "parseParameterMesicError": {
+      "titl": "V parametri %p sa očakáva číslo mesiaca (1-12) alebo štvrťroka (Q1-Q4), ale nájde sa '%p'."
+    },
+    "parseParameterNumberError": {
+      "titl": "V parametri %p očakávané číslo, ale nájdené %p."
+    },
+    "prilohaNepatriKObjektu": {
+      "titl": "Príloha %p nepatrí objektu %p."
+    },
+    "resource_not_found_exception": {
+      "titl": "Potrebný zdroj '%p' nebol nájdený"
+    },
+    "suggest.nothingFound": {
+      "titl": "Nič nenájdené"
+    },
+    "suggest.summary": {
+      "titl": "{start} až {end} z celkom {total}"
+    },
+    "suggest.watermark": {
+      "titl": "{name} (píšte názov)"
+    },
+    "udalostNepatriKObjektu": {
+      "titl": "Udalosť %p nepatrí objektu %p."
+    },
+    "unsavedChanges.confirm": {
+      "titl": "Na stránke sú neuložené zmeny. Skutočne ju chcete opustiť?"
+    },
+    "unsupported_param_value_exception": {
+      "titl": "Parameter '%p' má nepodporovanú hodnotu! Zvoľte jednu z následujúcich možností: %p"
+    },
+    "wait": {
+      "titl": "Pracujem..."
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "formsInfo": {
+    "mzdExternalId": {
+      "titl": "Externes ID für Löhne"
+    },
+    "mzdUcel": {
+      "titl": "Zwecke"
+    },
+    "mzdyDuchSporHlaseni": {
+      "mnem": 82,
+      "titl": "Versicherungshöhe für Rentensparen"
+    },
+    "mzdyDuchSporVyuc": {
+      "mnem": 65,
+      "titl": "Abrechnung des Beitrags zum Rentensparen"
+    },
+    "mzdyPotOZdanPrijmech": {
+      "mnem": 66,
+      "titl": "Bestätigung der steuerbaren Einkommen"
+    },
+    "mzdyVystFinUr": {
+      "mnem": 73,
+      "titl": "Für Finanzamt"
+    },
+    "mzdyVystMzdVyst": {
+      "mnem": 76,
+      "titl": "Lohnoutputs"
+    },
+    "mzdyVystOssz": {
+      "mnem": 70,
+      "titl": "Für AHV"
+    },
+    "mzdyVystOst": {
+      "mnem": 83,
+      "titl": "Sonstige"
+    },
+    "mzdyVystZdrPoj": {
+      "mnem": 82,
+      "titl": "Für Krankenkassen"
+    },
+    "mzdyVystup000": {
+      "desc": "Legislative Lohn-Outputs für AHV, Krankenkassen und Finanzamt.",
+      "icon": "win/predpis.png",
+      "mnem": 76,
+      "titl": "Lohn - Outputs"
+    },
+    "mzdyVystupCsszEldp": {
+      "mnem": 69,
+      "titl": "AHV-Registration"
+    },
+    "mzdyVystupCsszOznam": {
+      "mnem": 77,
+      "titl": "Mitteilung - Berufseinstieg/Berufsende"
+    },
+    "mzdyVystupCsszPrehledPoj": {
+      "mnem": 83,
+      "titl": "Übersicht von der Höhe des Versicherungsbeitrags (Ges. Nr. 589/1992 Slg.)"
+    },
+    "mzdyVystupDanVypocet": {
+      "mnem": 86,
+      "titl": "Verrechnung von Steuer und Steuerbegünstigung"
+    },
+    "mzdyVystupDovolCerpani": {
+      "mnem": 85,
+      "titl": "Übersicht des bezogenen Urlaubs"
+    },
+    "mzdyVystupHzupn": {
+      "mnem": 82,
+      "titl": "Arbeitgeberbericht über die Beendigung der Arbeitsunfähigkeit"
+    },
+    "mzdyVystupIspv": {
+      "mnem": 73,
+      "titl": "Lohninformationssystem"
+    },
+    "mzdyVystupMzdovyList": {
+      "mnem": 76,
+      "titl": "Lohnlisten"
+    },
+    "mzdyVystupPodklVyucDane": {
+      "mnem": 69,
+      "titl": "Verrechnungsunterlagen für Einkommensteuer"
+    },
+    "mzdyVystupPojOdpovednosti": {
+      "mnem": 72,
+      "titl": "Haftpflichtversicherung"
+    },
+    "mzdyVystupPracPravPrum": {
+      "mnem": 65,
+      "titl": "Arbeitsrechtliche Durchschnitte"
+    },
+    "mzdyVystupPrehlPracPom": {
+      "mnem": 66,
+      "titl": "Übersicht der Arbeitsverhältnisse"
+    },
+    "mzdyVystupPrepPocZam": {
+      "mnem": 85,
+      "titl": "Umgerechnete Zahl der Angestellten"
+    },
+    "mzdyVystupPrilZadosti": {
+      "mnem": 65,
+      "titl": "Beilage zu Antrag auf Krankengeld"
+    },
+    "mzdyVystupPrumCistyVyd": {
+      "mnem": 66,
+      "titl": "Berechnung des durchschnittlichen Nettolohns"
+    },
+    "mzdyVystupZapoctak": {
+      "mnem": 65,
+      "titl": "Arbeitsbestätigung (Arbeitslaufzettel)"
+    },
+    "mzdyVystupZdrHromOzn": {
+      "mnem": 83,
+      "titl": "Sammelmeldung der Arbeitgeber"
+    },
+    "mzdyVystupZdrPrehledPoj": {
+      "mnem": 90,
+      "titl": "Übersicht der Zahlung des Versicherungsbeitrags"
+    },
+    "perAktualMzdy": {
+      "desc": "Sie können die Löhne in allen Monaten aktualisieren, die von dem berechtigten Benutzer nicht gesperrt sind. Sie können den Lohn für alle Arbeitnehmer in der Liste oder für jeden Arbeitnehmer getrennt berechnen. Abwesenheit geben Sie mit der Taste \"Aktualisierung der Abwesenheit\" ein. Die Eingabe ist nicht von der eingestellten Periode abhängig. Sie können Abwesenheit eingeben, die in einem Monat beginnt und in einem anderen endet. Es kommt zur automatischen Generierung der \"monatlichen Komponenten\" für jeden Monat getrennt.",
+      "icon": "win/aktualizace-mezd.png",
+      "mnem": 65,
+      "titl": "Übersicht der Löhne für Arbeitnehmer"
+    },
+    "perAktualMzdyE": {
+      "titl": "Aktualisierung von Löhnen"
+    },
+    "perBanSpojMzdy": {
+      "titl": "Bankverbindung"
+    },
+    "perCisMzdSloz": {
+      "titl": "Stammdaten von Lohnkomponenten"
+    },
+    "perCisMzdSlozUziv": {
+      "desc": "Hier können Sie die Parameter der Zuschläge ändern. Die Stammdaten beinhalten vom Anwender definierte Komponenten der Zuschläge, Belohnungen und Abzüge",
+      "icon": "win/numbers.png",
+      "mnem": 78,
+      "titl": "Einstellung der Lohnkomponenten"
+    },
+    "perDite": {
+      "titl": "Kind"
+    },
+    "perMzdCalc": {
+      "titl": "Lohnberechnung"
+    },
+    "perMzdCalcHlav": {
+      "titl": "Kopfzeile - Lohnkalkulator"
+    },
+    "perMzdCalcHrom": {
+      "titl": "Sammeloperation von Lohnkalkulator"
+    },
+    "perMzdCalcInit": {
+      "titl": "Intialisierungszeile von Lohnkalkulator"
+    },
+    "perMzdSloz": {
+      "desc": "Input und Auswahl von Lohnkomponenten hat drei wichtige Funktionen. Die erste Funktion stellt die Möglichkeit dar, die Löhne nicht nach Arbeitnehmern, sondern nach Komponenten einzugehen. Ein Beispiel kann Sammeleingabe von Prämien sein. In dem Inputfeld wählen Sie die Komponente der Belohnung, dann Periode und Arbeitnehmer. Sie geben die Summe ein und drücken Taste \"Speichern neu\". Programm bietet automatisch den nächsten Arbeitnehmer und Sie geben eine andere Summe ein (Die Löhne sind dann in der Funktion \"Aktualisierung von Löhnen\" zu bearbeiten). Die zweite Funktion ist die Möglichkeit einer einfachen Filterung in allen Lohnkomponenten und des folgenden Ausdruckens. Die dritte Funktion ermöglicht die Rekapitulation von Lohnkomponenten (Gruppierung) nach Jahren, Quartalen, Kostenstellen, usw.",
+      "icon": "win/mzdove-slozky.png",
+      "mnem": 79,
+      "titl": "Lohnkomponenten Input und Output"
+    },
+    "perMzdSlozDan": {
+      "titl": "Steuer"
+    },
+    "perMzdSlozFond": {
+      "titl": "Arbeitszeitfonds"
+    },
+    "perMzdSlozHruba": {
+      "titl": "Bruttolohn"
+    },
+    "perMzdSlozIspv": {
+      "titl": "Lohninformationssystem"
+    },
+    "perMzdSlozNeprit": {
+      "titl": "Abwesenheit"
+    },
+    "perMzdSlozOdmeny": {
+      "titl": "Prämien"
+    },
+    "perMzdSlozSocPoj": {
+      "titl": "Sozialversicherung"
+    },
+    "perMzdSlozSrazky": {
+      "titl": "Abzüge"
+    },
+    "perMzdSlozSum": {
+      "titl": "Summe"
+    },
+    "perMzdSlozZaklMzda": {
+      "titl": "Grundlohn"
+    },
+    "perMzdSlozZdrPoj": {
+      "titl": "Krankenversicherung"
+    },
+    "perNeprit": {
+      "titl": "Abwesenheit"
+    },
+    "perOsoba": {
+      "desc": "Alle Informationen über Arbeitnehmer oder Bewerber geben Sie hier ein. Eingabe ist mit Hilfe der Lesezeichen nach Bedeutung der Angaben gegliedert. Im oberen Teil sind Grundinformationen und Parameter für die Lohnberechnung. Im unteren Teil gibt es Arbeitsverhältnisse, feste Lohnkomponenten, Abzüge, Kinder usw. Feste Lohnkomponenten beinhalten auch Vorschrift, welche Lohnkomponenten sich regelmässig wiederholen. Das Programm ergänzt diese automatisch in jeden Monat je nach Umfang der Gültigkeit.",
+      "icon": "win/personalistika.png",
+      "mnem": 80,
+      "titl": "Personalwesen"
+    },
+    "perOsobaHlav": {
+      "titl": "Kopfzeile Personen"
+    },
+    "perPracPom": {
+      "titl": "Arbeitsverhältnis"
+    },
+    "perPracPomHlav": {
+      "titl": "Arbeitsverhältnis"
+    },
+    "perPraceStred": {
+      "titl": "Arbeit für Kostenstellen"
+    },
+    "perPrumer": {
+      "titl": "Durchschnitt"
+    },
+    "perSkupOsob": {
+      "desc": "Personen-Gruppen ermöglichen, die Arbeitnehmer oder Bewerber in Gruppen nach gemeinsamen Eigenschaften zu gliedern, z.B. Arbeiter, Landwirte, Büromitarbeiter.",
+      "icon": "win/type-skupiny-osob.png",
+      "mnem": 71,
+      "titl": "Personen-Gruppen"
+    },
+    "perSmeny": {
+      "titl": "Schichten"
+    },
+    "perSrazka": {
+      "titl": "Abzug"
+    },
+    "perStalaMzdSloz": {
+      "titl": "Feste Lohnkomponente"
+    },
+    "perTypPracPom": {
+      "titl": "Art von Arbeitsverhältnis"
+    },
+    "perTypPracPomParam": {
+      "titl": "Parameter - Art von Arbeitsverhältnis"
+    },
+    "prehledMzdSlozek": {
+      "mnem": 82,
+      "titl": "Rekapitulation der Lohnkomponenten"
+    },
+    "prehledZamestnancu": {
+      "icon": "win/adresar.png",
+      "mnem": 73,
+      "titl": "Liste der Arbeitnehmer"
+    }
+  }
+}

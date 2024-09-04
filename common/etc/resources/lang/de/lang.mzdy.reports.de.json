@@ -1,0 +1,394 @@
+{
+  "reports": {
+    "5457_26": {
+      "_title": {
+        "titl": "Erklärung des Steuerpflichtigen zur Einkommensteuer aus abhängigen Tätigkeiten (Muster 26)"
+      }
+    },
+    "5457_27$$NES": {
+      "_title": {
+        "titl": "Erklärung des Steuerpflichtigen zur Einkommensteuer aus abhängigen Tätigkeiten (Muster 27)"
+      }
+    },
+    "5457_B": {
+      "_title": {
+        "titl": "Antrag auf jährliche Verrechnung von Vorschüssen und Steuergutschriften (Muster 2)"
+      }
+    },
+    "5457_B_v3": {
+      "_title": {
+        "titl": "Antrag auf jährliche Verrechnung von Vorschüssen und Steuergutschriften (Muster 3)"
+      }
+    },
+    "cerpaniDovolene": {
+      "_title": {
+        "titl": "Urlaub beziehen"
+      }
+    },
+    "dovolena": {
+      "_title": {
+        "titl": "Urlaub"
+      }
+    },
+    "finPodkladyDan": {
+      "_title": {
+        "titl": "Unterlagen für Berechnung der Vorschusssteuer aus nichtselbständiger Arbeit."
+      },
+      "bonus": {
+        "titl": "Bonus"
+      },
+      "mesic": {
+        "titl": "Monat"
+      },
+      "opravaBonusu": {
+        "titl": "Korrektur von Bonus"
+      },
+      "opravaDane": {
+        "titl": "Korrektur von Steuer"
+      },
+      "pocetZamestnancu": {
+        "titl": "Arbeitnehmer-Zahl"
+      },
+      "vyuctovaniPredchoziho": {
+        "titl": "Verrechnung vom Vorgehenden"
+      },
+      "zaRok": {
+        "titl": "Für das Jahr"
+      },
+      "zalohovaDan": {
+        "titl": "Vorschusssteuer"
+      }
+    },
+    "finPodkladyDanSrazka": {
+      "_title": {
+        "titl": "Unterlagen für Verrechnung der Abzugssteuer aus nichtselbständiger Arbeit"
+      },
+      "mesic": {
+        "titl": "Monat"
+      },
+      "opravaDane": {
+        "titl": "Steuer-Korrektur"
+      },
+      "srazkovaDan": {
+        "titl": "Abzugssteuer"
+      }
+    },
+    "finPrehledDan": {
+      "_title": {
+        "titl": "Übersicht Einkommensteuer - Vorschusssteuer"
+      },
+      "danovyZaklad": {
+        "titl": "Steuergrundlage"
+      },
+      "rezidentDan": {
+        "titl": "Steuer Inländer"
+      },
+      "srazkovaDan": {
+        "titl": "Abzugssteuer"
+      },
+      "zalohovaDan": {
+        "titl": "Vorschusssteuer"
+      }
+    },
+    "finPrehledDanSrazka": {
+      "_title": {
+        "titl": "Übersicht Einkommensteuer - Abzugssteuer"
+      }
+    },
+    "mzdSlozVstupAVybery": {
+      "_title": {
+        "titl": "Übersicht der Lohnkomponenten (Input und Bezüge)"
+      }
+    },
+    "neodpracDobaNemocPojist": {
+      "_title": {
+        "titl": "Nicht geleistete Arbeitszeit - Krankenversicherung"
+      }
+    },
+    "nepritomnost": {
+      "castMzd": {
+        "titl": "Summe"
+      },
+      "cisSlozky": {
+        "titl": "Komponentennummer"
+      },
+      "datumDo": {
+        "titl": "Datum bis"
+      },
+      "datumOd": {
+        "titl": "Datum von"
+      },
+      "dnyKalen": {
+        "titl": "Kalendertage"
+      },
+      "dnyPrac": {
+        "titl": "Arbeitstage"
+      },
+      "hlavicka": {
+        "titl": "Haftpflichtversicherung"
+      },
+      "hodiny": {
+        "titl": "Stunden"
+      },
+      "vymerZakl": {
+        "titl": "Bemessungsgrundlage"
+      }
+    },
+    "pracPravPrumer": {
+      "_title": {
+        "titl": "Übersicht der arbeitsrechtlichen Durchschnitte"
+      }
+    },
+    "pracovniPomery": {
+      "_title": {
+        "titl": "Arbeitsverhältnisse"
+      }
+    },
+    "prehledMzdSlozek": {
+      "_title": {
+        "titl": "Liste der Lohnkomponenten"
+      },
+      "pocetPolozek": {
+        "titl": "Anzahl"
+      }
+    },
+    "prehledZamestnancu": {
+      "_title": {
+        "titl": "Liste der Arbeitnehmer"
+      }
+    },
+    "prepPocZam": {
+      "_title": {
+        "titl": "Umgerechnete Arbeitnehmer-Zahl"
+      }
+    },
+    "socPojOdpovednosti": {
+      "_title": {
+        "titl": "Haftpflichtversicherung Organisation"
+      }
+    },
+    "socPrehledPoj": {
+      "_title": {
+        "titl": "Übersicht der Sozialversicherung"
+      },
+      "celkem": {
+        "titl": "Insgesamt"
+      },
+      "firma": {
+        "titl": "Firma"
+      },
+      "pracovniPomery": {
+        "titl": "Arbeitsverhältnisse"
+      },
+      "pracovnik": {
+        "titl": "Arbeitnehmer"
+      },
+      "zaklad": {
+        "titl": "Grundlage"
+      }
+    },
+    "vycetkaPlatidel": {
+      "_title": {
+        "titl": "Verzeichnis der Zahlungsmittel"
+      },
+      "castka": {
+        "titl": "Summe"
+      }
+    },
+    "vyplatniPaska": {
+      "_title": {
+        "titl": "Lohnbescheinigung"
+      },
+      "pojisteni": {
+        "titl": "Versicherung"
+      },
+      "pojistne": {
+        "titl": "Versicherungsbeitrag"
+      },
+      "prehledSlozekCastkaMzdy": {
+        "titl": "[%currency-symbol]"
+      },
+      "prehledSlozekDny": {
+        "titl": "[Tage]"
+      },
+      "prehledSlozekHodiny": {
+        "titl": "[Stunden]"
+      },
+      "prehledSlozekZaklad": {
+        "titl": "Grundlage"
+      },
+      "prijmeniJmenoATitul": {
+        "titl": "Familienname, Name und Titel"
+      },
+      "shrnuti": {
+        "titl": "Zusammenfassung"
+      },
+      "zdravotniPojistovna": {
+        "titl": "Krankenkasse"
+      }
+    },
+    "zamMzdovyList": {
+      "_title": {
+        "titl": "Lohnliste"
+      },
+      "deti": {
+        "titl": "Kinder"
+      },
+      "detiJmeno": {
+        "titl": "Vorname, Nachname"
+      },
+      "detiRC": {
+        "titl": "Personenkennzahl"
+      },
+      "detiSleva": {
+        "titl": "Rabatt für Kind"
+      },
+      "detiSleva1": {
+        "titl": "1. Kind (%p CHF/Monat)"
+      },
+      "detiSleva1Min": {
+        "titl": "1. Kind (%p CHF/Monat; %p CZK/Monat ab der Gültigkeit des Gesetzes Nr. 125/2016 Slg.)"
+      },
+      "detiSleva2": {
+        "titl": "2. Kind (%p CHF/Monat)"
+      },
+      "detiSleva2Min": {
+        "titl": "2. Kind (%p CHF/Monat; %p CZK/Monat ab der Gültigkeit des Gesetzes Nr. 125/2016 Slg.)"
+      },
+      "detiSleva3": {
+        "titl": "Weiteres Kind (%p CHF/Monat)"
+      },
+      "detiSleva3Min": {
+        "titl": "Weiteres Kind (%p CHF/Monat; %p CHF/Monat ab der Gültigkeit des Gesetzes Nr. 125/2016 Slg.)"
+      },
+      "detiZTP": {
+        "titl": "Invalide Kinder"
+      },
+      "dite": {
+        "titl": "Kind"
+      },
+      "do": {
+        "titl": "Bis"
+      },
+      "invalidita": {
+        "titl": "Invalidität"
+      },
+      "nepBenefity": {
+        "titl": "Nicht-monetäre Vorteile"
+      },
+      "nezRodCis": {
+        "titl": "Personenkennzahl des Partners"
+      },
+      "od": {
+        "titl": "Seit"
+      },
+      "odpracovanaDoba": {
+        "titl": "Geleistete Zeit"
+      },
+      "prechodnaAdresa": {
+        "titl": "Vorübergehende Adresse"
+      },
+      "prispevky": {
+        "titl": "Beiträge"
+      },
+      "rodneJmeno": {
+        "titl": "Geburtsname"
+      },
+      "rok": {
+        "titl": "Jahr"
+      },
+      "spFirmaSniz": {
+        "titl": "Sozialversicherung für die Firma vermindert"
+      },
+      "spolecneProPomery": {
+        "titl": "Gemeinsam für alle Arbeitsverhältnisse"
+      },
+      "trvalaAdresa": {
+        "titl": "Daueradresse"
+      },
+      "uplatnenaSlevaNaDeti": {
+        "titl": "Gültiger Kinderabzug"
+      },
+      "vetaVypocetDane": {
+        "titl": "Bei der Durchführung der Abrechnung der Lohnsteuer ist integrierender Bestandteil des Lohnscheins das Formblatt Berechnung der Steuer und der Steuerbegünstigung."
+      },
+      "vsSocPoj": {
+        "titl": "VS Sozialversicherung"
+      },
+      "zalohaNaDanPoSleve": {
+        "titl": "Steuervorschuss nach Steuerermässigung"
+      },
+      "zalohaNaDanPoZvyhodneni": {
+        "titl": "Steuervorschuss nach Begünstigung"
+      },
+      "zamestnance": {
+        "titl": "Arbeitnehmer"
+      },
+      "zdravotniPojistovna": {
+        "titl": "Krankenkasse"
+      }
+    },
+    "zamPodpisArch": {
+      "_title": {
+        "titl": "Auszahlung der Löhne - Unterschriftenliste"
+      },
+      "datumPodpisu": {
+        "titl": "Datum der Unterschrift"
+      },
+      "dobirka": {
+        "titl": "Nachzahlung"
+      },
+      "odpracovanoDnu": {
+        "titl": "Geleistete Tage"
+      },
+      "odpracovanoHodin": {
+        "titl": "Geleistete Stunden"
+      },
+      "podpis": {
+        "titl": "Unterschrift"
+      },
+      "srazky": {
+        "titl": "Abzüge"
+      },
+      "zaloha": {
+        "titl": "Vorauszahlung"
+      },
+      "zalohaMimoradna": {
+        "titl": "Sondervorauszahlung"
+      }
+    },
+    "zamPrehledMezd": {
+      "_title": {
+        "titl": "Übersicht der Löhne für Arbeitnehmer"
+      }
+    },
+    "zamestnanci": {
+      "_title": {
+        "titl": "Personal - Übersicht"
+      }
+    },
+    "zapoctak": {
+      "_title": {
+        "titl": "Arbeitsbestätigung (Arbeitslaufzettel)"
+      }
+    },
+    "zapoctak$$NES": {
+      "_title": {
+        "titl": "Arbeitsbestätigung (Arbeitslaufzettel) - mit Geburtsdatum"
+      }
+    },
+    "zapoctak$$SUM": {
+      "_title": {
+        "titl": "Arbeitsbestätigung (Arbeitslaufzettel) - mit Sozialversicherungsnummer"
+      }
+    },
+    "zdrPrehledPoj": {
+      "_title": {
+        "titl": "Übersicht der Krankenversicherung"
+      },
+      "zdrPojNull": {
+        "titl": "Krankenkasse nicht ausgefüllt"
+      }
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "actions": {
+    "deleteLeasing": {
+      "acck": 127,
+      "accm": 0,
+      "desc": "Ausgewähltes Leasing löschen",
+      "icon": "win/erase.png",
+      "mnem": 83,
+      "titl": "Leasing löschen"
+    },
+    "deleteMajetek": {
+      "desc": "Ausgewähltes Vermögen löschen (Abkürzung (Alt+S)",
+      "icon": "win/erase.png",
+      "titl": "Vermögen löschen"
+    },
+    "genLeas": {
+      "desc": "Zahlungskalender und Steuerkosten nach eingegebenen Parametern generieren",
+      "icon": "win/generate.png",
+      "titl": "Zahlungskalender generieren"
+    },
+    "genMaj": {
+      "desc": "Steuerabschreibungen, buchhalterische Abschreibungen und Eingliederungsfall generieren",
+      "icon": "win/generate.png",
+      "titl": "Abschreibungen generieren"
+    },
+    "hromOperace": {
+      "desc": "Durchführung einer Massentransaktion Transaktion über die ausgewählten Vermögen",
+      "icon": "win/generate.png",
+      "titl": "Massentransaktionen"
+    },
+    "majetekStavKDatu": {
+      "desc": "Vermögensstand bis zu eingegebenem Datum wird berechnet",
+      "icon": "win/generate.png",
+      "titl": "Vermögensstand bis zum Datum"
+    }
+  },
+  "dialogs": {
+    "leasingGenerovani": {
+      "titl": "Assistent durch Leasing-Generierung"
+    },
+    "leasingVyberRaduZavazkum": {
+      "titl": "Wählen Sie die Belegreihe für die Erstellung des Steuerbelegs der Verbindlichkeit."
+    }
+  },
+  "labels": {
+    "dPravDefLeaSeznam": {
+      "titl": "Liste der Leasingarten"
+    },
+    "dPravDefLeaUzivatele": {
+      "titl": "Liste der Benutzer -Leasing"
+    },
+    "dPravDefMajSeznam": {
+      "titl": "Liste der Vermögensarten"
+    },
+    "dPravDefMajUzivatele": {
+      "titl": "Liste der Benutzer - Vermögen"
+    },
+    "danOdpisNeexistuje": {
+      "titl": "Die Steuerabschreibung wurde systemgemäss umgeneriert."
+    },
+    "filterDruhLeasingu": {
+      "titl": "Filter nach der Leasingart"
+    },
+    "filterDruhLeasinguNeomezen": {
+      "titl": "Leasingart nicht begrenzt"
+    },
+    "filterDruhMajetku": {
+      "titl": "Filter nach der Vermögensart"
+    },
+    "filterDruhMajetkuNeomezen": {
+      "titl": "Vermögensart unbeschränkt"
+    },
+    "filterMesicZahajeni": {
+      "titl": "Filter nach der Periode vom Datum der Eröffnung von Leasing"
+    },
+    "filterMesicZahajeniNeomezen": {
+      "titl": "Monat des Beginns unbeschränkt"
+    },
+    "filterMesicZarazeni": {
+      "titl": "Filter nach der Periode vom Eingliederungsdatum"
+    },
+    "filterMesicZarazeniNeomezen": {
+      "titl": "Eingliederungsmonat nicht begrenzt"
+    },
+    "filterRokZahajeni": {
+      "titl": "Filter nach dem Jahr des Beginns von Leasing"
+    },
+    "filterRokZarazeni": {
+      "titl": "Filter nach dem Jahr der Eingliederung"
+    },
+    "filterTypLeasingu": {
+      "titl": "Filter nach der Leasingart"
+    },
+    "filterTypLeasinguNeomezen": {
+      "titl": "Leasingart nicht begrenzt"
+    },
+    "filterTypMajetku": {
+      "titl": "Filter nach der Vermögensart"
+    },
+    "filterTypMajetkuNeomezen": {
+      "titl": "Vermögensart unbeschränkt"
+    },
+    "hromOperace.datum": {
+      "titl": "Datum:"
+    },
+    "hromOperace.prepocetDanOdpisuOdAktObdobi": {
+      "titl": "Neuberechnung der steuerlichen Abschreibung aus dem laufenden Abrechnungszeitraum"
+    },
+    "hromOperace.preruseniDanOdpisu": {
+      "titl": "Unterbrechung der steuerrechtlichen Abschreibungen"
+    },
+    "hromOperace.preruseniUcetOdpisu": {
+      "titl": "Unterbrechung der buchhalterischen Abschreibungen"
+    },
+    "hromOperace.title": {
+      "titl": "Assistent durch Sammeltransaktionen"
+    },
+    "hromOperace.ucetDal": {
+      "titl": "Haben-Konto:"
+    },
+    "hromOperace.ucetMD": {
+      "titl": "Soll-Konto:"
+    },
+    "hromOperace.uplneVyrazeni": {
+      "titl": "Ganze Herausnahme des Vermögens"
+    },
+    "hromOperace.welcome": {
+      "titl": "Einstellung einer Sammeltransaktion"
+    },
+    "hromOperace.zahajeniDanOdpisu": {
+      "titl": "Wiederaufnahme der steuerrechtlichen Abschreibungen"
+    },
+    "hromOperace.zahajeniUcetOdpisu": {
+      "titl": "Wiederaufnahme der buchhalterischen Abschreibungen"
+    },
+    "hromOperace.zmenaZauctovaniDan": {
+      "titl": "Buchungsänderung der steuerrechtlichen Abschreibungen ab"
+    },
+    "hromOperace.zmenaZauctovaniUcet": {
+      "titl": "Buchungsänderung der buchhalterischen Abschreibungen ab"
+    },
+    "koeficientyPN": {
+      "titl": "Koeffizienten"
+    },
+    "leasingAkontace": {
+      "titl": "Akontozahlung des Leasings"
+    },
+    "leasingFinnanCinnost": {
+      "titl": "Abzahlung - Finanztätigkeit"
+    },
+    "leasingVstupniCena": {
+      "titl": "Abzahlung - Eingangspreis"
+    },
+    "leasingWizDatum": {
+      "titl": "Datum"
+    },
+    "leasingWizFinCinPN": {
+      "titl": "Finanztätigkeit"
+    },
+    "leasingWizLeasSplPN": {
+      "titl": "Leasingabzahlung"
+    },
+    "leasingWizMesMeziSpl": {
+      "titl": "Monate zwischen Abzahlungen"
+    },
+    "leasingWizMimFCVyzva": {
+      "titl": "Geben Sie die Finanztätigkeit ein (Gebühr für den Vertragsabschluss)"
+    },
+    "leasingWizMimSplPN": {
+      "titl": "Aussergewöhnliche Abzahlung"
+    },
+    "leasingWizMimSplVyzva": {
+      "titl": "Zuerst geben Sie aussergewöhnliche Abzahlung ein."
+    },
+    "leasingWizObecSplVyzva": {
+      "titl": "Geben Sie die allgemeine Abzahlung ein."
+    },
+    "leasingWizOstatniPN": {
+      "titl": "Andere"
+    },
+    "leasingWizPocetSplatek": {
+      "titl": "Anzahl der Abzahlungen"
+    },
+    "leasingWizPoslSplVyzva": {
+      "titl": "Geben Sie die letzte Abzahlung ein."
+    },
+    "leasingWizPosledniVyzva": {
+      "titl": "Zum Schluss füllen Sie folgende Angaben aus."
+    },
+    "leasingWizPrvSplVyzva": {
+      "titl": "Geben Sie die Nullabzahlung ein."
+    },
+    "leasingWizTitle": {
+      "titl": "Generieren des Zahlungskalenders"
+    },
+    "leasingZmenaParametru": {
+      "titl": "Es ist zur Änderung der Leasingparameter gekommen. Sollen die Abzahlungen und Kosten generiert werden?"
+    },
+    "majetek.dlouhodoby": {
+      "titl": "Langfristig"
+    },
+    "majetekPocetMesicu": {
+      "titl": "Abschreibungsdauer [Monate]:"
+    },
+    "majetekPocetMesicuStari": {
+      "titl": "Bleibt abzuschreiben [Monate]:"
+    },
+    "majetekPregenerovatUzZmeneneOdpisy": {
+      "titl": "Es gibt vom Benutzer geänderte Abschreibungen, die umgeneriert werden."
+    },
+    "majetekProcentoRocne": {
+      "titl": "Prozent jährlich:"
+    },
+    "majetekPuvZarazeni": {
+      "titl": "Datum der ursprünglichen Eingliederung:"
+    },
+    "majetekStavKDatu.datum": {
+      "titl": "Verarbeitungsdatum:"
+    },
+    "majetekStavKDatu.datumObdobiOd": {
+      "titl": "Beginn der Periode:"
+    },
+    "majetekStavKDatu.info1": {
+      "titl": "Wählen Sie das Datum, zu dem die Zusammenstellung bearbeitet werden soll."
+    },
+    "majetekStavKDatu.title": {
+      "titl": "Vermögensstand bis zum Datum %p"
+    },
+    "majetekStavKDatu.welcome": {
+      "titl": "Willkommen im Assistent durch Bildung des Vermögensstand bis zum Datum."
+    },
+    "majetekZmenaParametru": {
+      "titl": "Es ist zur Änderung von Vermögensparametern gekommen.Sollen die Änderungen auch in die Abschreibungen projiziert werden?"
+    },
+    "odepisovaniPN": {
+      "titl": "Abschreiben"
+    },
+    "parametryPN": {
+      "titl": "Parameter"
+    },
+    "sazbaENelzeUpravovat": {
+      "titl": "Die durch Gesetzgebung gegebenen Gruppen oder schon benutzte Gruppen sind nicht anzupassen"
+    },
+    "sazbaRovnOdp": {
+      "titl": "Gleichmässige Abschreibung"
+    },
+    "sazbaZrychOdp": {
+      "titl": "Beschleunigte Abschreibung"
+    },
+    "typMajEOdpisUctoPN": {
+      "titl": "Abschreibung und Buchung"
+    },
+    "ucetOdpisNeexistuje": {
+      "titl": "Buchhalterische Abschreibung wurde systemgemäss umgeneriert."
+    },
+    "uctovaniPN": {
+      "titl": "Buchung"
+    },
+    "udalostPN": {
+      "titl": "Vorfall"
+    },
+    "vozidloPN": {
+      "titl": "Fahrzeug"
+    },
+    "zakladniListPN": {
+      "titl": "Grundblatt"
+    },
+    "zapujckaKontaktniUdaje": {
+      "titl": "Kontaktdaten"
+    }
+  },
+  "messages": {
+    "aktualizaceOdpisuProgress": {
+      "titl": "Aktualisierung der Vermögensabschreibungen - %p / %p (%p Eintragungen / s, Restzeit: %p)"
+    },
+    "aktualizaceOdpisuUkladani": {
+      "titl": "Speicherung der aktualisierten Abschreibungen in die Datenbank."
+    },
+    "danOdpisNepodariloAktualizovat": {
+      "titl": "Es ist nicht gelungen, die Steuerabschreibungen des Vermögens zu aktualisieren."
+    },
+    "danOdpisPrepocitatDanOdpisyChyba": {
+      "titl": "Es ist nicht gelungen, die Steuerabschreibungen umzurechnen."
+    },
+    "danOdpisPrepocitatUcetOdpisyChyba": {
+      "titl": "Es ist nicht gelungen, die buchhalterischen Abschreibungen umzurechnen."
+    },
+    "danOdpisUcetNeniVyplnen": {
+      "titl": "Das Konto muss in dem Fall ausgefüllt werden, wenn buchhalterische Abschreibungen nicht generiert sind."
+    },
+    "hromOperace.chyba": {
+      "titl": "Bei der Durchführung einer Massentransaktion ist ein Fehler aufgetreten."
+    },
+    "hromOperace.chybaPriNacitani": {
+      "titl": "Es ist nicht gelungen, das Vermögen einzulesen."
+    },
+    "hromOperace.prepocetInfo": {
+      "titl": "Alle Benutzeränderungen nach dem ersten Tag des aktuellen Abrechnungszeitraums werden bei der Neuberechnung annulliert.\nWollen Sie fortfahren?"
+    },
+    "hromOperace.seznamChyb": {
+      "titl": "Bei folgenden Vermögen sind Fehler aufgetreten"
+    },
+    "hromOperace.uzJeVyrazeno": {
+      "titl": "Das Herausnehmen des Vermögens %p ist schon erfolgt."
+    },
+    "hromOperace.vPoradku": {
+      "titl": "Die sammelhafte Transaktion ist erfolgreich abgeschlossen."
+    },
+    "hromOperace.vysledek": {
+      "titl": "Ergebnis der Sammeltransaktion"
+    },
+    "konrolaDanOdpisuUkoncitProcesDotaz": {
+      "titl": "Wollen Sie wirklich die laufende Kontrolle der steuerlichen Abschreibungen beenden?"
+    },
+    "kontrolaDanOdpisuProbiha": {
+      "titl": "Es läuft die Kontrolle der steuerlichen Abschreibungen ..."
+    },
+    "kontrolaDanOpisuChyba": {
+      "titl": "Die Kontrolle der steuerlichen Abschreibungen war erfolglos."
+    },
+    "leasingChybaPriMazaniZavazku": {
+      "titl": "Es ist nicht gelungen, die Verbindlichkeit zum Leasing zu löschen."
+    },
+    "leasingNelzeGenerovatNeplatnyZavazek": {
+      "titl": "Bei der Validierung der Verbindlichkeit zum Leasing '%p'und zum Zahlungskalender mit dem Datum'%p' und dem Code '%p'ist ein Fehler vorgekommen."
+    },
+    "leasingNelzeGenerovatPredUcetnimObdobi": {
+      "titl": "Das Zahlungskalender und die Steuerkosten des Leasings sind vor der aktuellen Buchungsperiode nicht zu generieren."
+    },
+    "leasingNelzeGenerovatZavazekUhrazen": {
+      "titl": "Das Leasing ist nicht wieder zu generieren, weil zu ihm eine entrichtete Verbindlichkeit schon besteht."
+    },
+    "leasingNelzeSmazatZavazekUhrazen": {
+      "titl": "Das Leasing ist nicht zu löschen, weil zu ihm eine entrichtete Verbindlichkeit schon besteht."
+    },
+    "leasingNemaVstupniCenaSplatKalSPoradim": {
+      "titl": "Zum Leasing besteht kein Zahlungskalender für '%p' zur Abzahlung mit der Reihenfolge '%p'."
+    },
+    "leasingNepodariloVygenerovat": {
+      "titl": "Es ist nicht gelungen das Zahlungskalender zu generieren."
+    },
+    "leasingWizChybaKontrolyRady": {
+      "titl": "Bei dem Prüfen der Reihe ist ein Fehler der Datenbasis vorgekommen."
+    },
+    "leasingWizChybaNevyplnenaPole": {
+      "titl": "Sie haben alle Felder im Formular einzugeben."
+    },
+    "leasingWizChybiRadaDokladu": {
+      "titl": "Die ausgefüllte Belegart hat keine Belegreihe eingegeben und keine ist spezifiziert."
+    },
+    "leasingWizChybiRocniPolozkaRady": {
+      "titl": "Bei der gewählten Reihe der Belegart ist kein Jahresposten der Nummernreihe für nächste Periode eingegeben."
+    },
+    "leasingWizNenalezenaSazbaDph": {
+      "titl": "Für die gegebene MwSt. - Satztyp wurde kein Satzwert gefunden. Die Raten werden also ungültig sein."
+    },
+    "leasingWizSazbyNenacteny": {
+      "titl": "Es ist nicht gelungen, die Einstellung der gültigen MwSt.-Sätze einzulesen. Das Generieren wird nicht korrekt funktionieren."
+    },
+    "leasingWizardBezSplNeboVypl": {
+      "titl": "Im Formular müssen alle Angaben oder Nullabzahlung eingetragen sein."
+    },
+    "leasingWizardSplatkySePrekryvaji": {
+      "titl": "Leasingabzahlungen dürfen sich nicht decken. Überprüfen Sie eingegebene Daten."
+    },
+    "majKontrolaKonec": {
+      "titl": "Empfohlenes Verfahren für die Berechnung der Beträge, die im Feld Steuerliche Abschreibung einzustellen sind: \n\n\nSteuerliche Abschreibung = \n\n+ <Summe der richtigen Abschreibungen inkl. Monate, wenn wir Abschreibungen ändern.>\n\n- <Summe der fehlerhaften Abschreibungen ohne Monate, wenn wir Abschreibungen ändern.>\n\n\n(das Ziel ist, bei der Summe der steuerlichen Abschreibungen den korrekten Betrag zu ermitteln, sodass bei der nächsten Berechnung der richtige Restwert zugrunde gelegt werden kann)\n\n Im Feld Saldo ist die korrekte Höhe des Restwertes zu ergänzen.\n"
+    },
+    "majKontrolaNeniNovyOdpis": {
+      "titl": "Beim Vermögen existieren Abschreibungen, die nicht bestehen dürften."
+    },
+    "majKontrolaNeniStaryOdpis": {
+      "titl": "Beim Vermögen existieren keine Abschreibungen, die korrekt bestehen müssten."
+    },
+    "majKontrolaRuznaCastkaPoslOdpisu": {
+      "titl": "Der Betrag der letzten Abschreibung stimmt nicht (richtig %p / aktuell %p)."
+    },
+    "majKontrolaRuznaDelkaOdpisu": {
+      "titl": "Die Abschreibungsdauer ist unkorrekt (richtig %p / aktuell %p)."
+    },
+    "majKontrolaRuznySoucetOdpisu": {
+      "titl": "Die Summe der Abschreibung stimmt nicht (richtig %p / aktuell %p)."
+    },
+    "majKontrolaRuznyZustPoslOdpisu": {
+      "titl": "Der Saldo der letzten Abschreibung stimmt nicht (richtig %p / aktuell %p)."
+    },
+    "majKontrolaUvod": {
+      "titl": "Bei der Kontrolle der steuerlichen Abschreibungen wurden Differenzen zwischen den gespeicherten und den neu berechneten, steuerlichen Abschreibungen gefunden.\nWir empfehlen ihre Kontrolle und die eventuelle Berichtigung mithilfe der benutzerdefinierten Änderung der Abschreibung (Anleitung zur Berechnung der korrekten Höhe siehe unten).\nDifferenzen wurden bei folgenden Vermögen gefunden:"
+    },
+    "majetekChybiSazbaOdpisu": {
+      "titl": "Für das gewählte Abschreibungsverfahren müssen Sie den Abschreibungssatz auswählen."
+    },
+    "majetekChybnaSazbaOdpisu": {
+      "titl": "Für das gewählte Abschreibungsverfahren ist schlechter Abschreibungssatz ausgewählt."
+    },
+    "majetekChybnyTypOdpisu": {
+      "titl": "Für die gewählte Vermögensart müssen Sie das richtige Abschreibungsverfahren auswählen."
+    },
+    "majetekDatVystNelzeDoMinulosti": {
+      "titl": "Das Ausstellungsdatum muss in der aktuellen oder jüngeren Buchungsperiode sein."
+    },
+    "majetekGenPoMigraciStatus": {
+      "titl": "Generierung von Abschreibungen:"
+    },
+    "majetekNehmotnyChybnyZpusOdpK": {
+      "titl": "Für die gewählte Vermögensart wurde eine fehlerhafte Abschreibungsart ausgewählt."
+    },
+    "majetekNelzeGenerovatCasVyrazeni": {
+      "titl": "Es ist nicht möglich, den Vorfall mit Datum %p und Summe %p zu generieren. Der Vermögenswert wäre negativ oder nullwertig."
+    },
+    "majetekNelzeGenerovatMimoObdobi": {
+      "titl": "Die Abschreibungen sind nur in der Buchungsperiode zu generieren, in der das Vermögen in Evidenz eingegliedert wurde."
+    },
+    "majetekNelzeGenerovatUdalost": {
+      "titl": "Es ist nicht möglich, den Vorfall mit dem Datum %p und der Summe %p zu generieren. Der Preis des Vermögens wäre negativ oder Null gleich."
+    },
+    "majetekNelzeVlozitDoZamcenehoObdobi": {
+      "titl": "Vermögen kann man nicht in der gesperrten Periode einlegen."
+    },
+    "majetekNenalezenyOdpovidajiSazby": {
+      "titl": "Die entsprechenden Abschreibungssätze für das gegebene Abschreibungsverfahren wurden nicht gefunden."
+    },
+    "majetekNenulovyDanZustOdepsaneho": {
+      "titl": "Das Vermögen hat einen nicht-nullwertigen Steuerrest, dem Satz nach sollte aber dieses schon abgeschrieben werden."
+    },
+    "majetekNeodepisovanyNelzeGenerovat": {
+      "titl": "Fürs nicht abgeschriebene Vermögen sind die Abschreibungen nicht zu generieren"
+    },
+    "majetekNeodepisovanySOdpisy": {
+      "titl": "Das nicht abgeschriebene Vermögen darf keine Abschreibungen haben. Alle bestehenden Abschreibungen werden gelöscht werden."
+    },
+    "majetekNepodariloSeNajitDokladProVytvoreniMajetku": {
+      "titl": "Es ist nicht gelungen, den Beleg für die Vermögensbildung zu finden."
+    },
+    "majetekNevyplnenoDatumZarazeni": {
+      "titl": "Das Eingliederungsdatum wurde nicht ausgefüllt."
+    },
+    "majetekNevyplnenoOdpisovyUcet": {
+      "titl": "Das Abschreibungskonto wurde nicht ausgefüllt."
+    },
+    "majetekNevyplnenoOpravnyUcet": {
+      "titl": "Das Korrekturkonto wurde nicht ausgefüllt."
+    },
+    "majetekNevyplnenoPrimarniUcet": {
+      "titl": "Primärkonto wurde nicht ausgefüllt."
+    },
+    "majetekNevyplnenoProtiUcet": {
+      "titl": "Das Gegenkonto wurde nicht ausgefüllt."
+    },
+    "majetekNevyplnenoSazba": {
+      "titl": "Es ist nötig, die Abschreibungsgruppe auszufüllen."
+    },
+    "majetekNevyplnenoTypMajetku": {
+      "titl": "Die Vermögensart ist auszufüllen."
+    },
+    "majetekNevyplnenoUcetniOdpisy": {
+      "titl": "Es ist nötig die Information auszufüllen, ob man buchhalterische Abschreibungen bilden soll."
+    },
+    "majetekNevyplnenoZacDanOdpisu": {
+      "titl": "Das Datum des Beginns von Steuerabschreibungen ist nicht ausgefüllt."
+    },
+    "majetekNevyplnenoZacUcetOdpisu": {
+      "titl": "Das Datum des Beginns der buchhalterischen Abschreibungen ist nicht ausgefüllt."
+    },
+    "majetekNevyplnenoZpusobOdepis": {
+      "titl": "Das Abschreibungsverfahren wurde nicht gewählt."
+    },
+    "majetekNevyplnenoZrychOdepis": {
+      "titl": "Bei der beschleunigten Abschreibung ist die Abschreibung im ersten Jahr auszufüllen."
+    },
+    "majetekOdpisyDanDatumZacatkuPredZaraz": {
+      "titl": "Das Datum des Beginns von Steuerabschreibungen darf dem Datum der Vermögenseingliederung nicht vorgehen."
+    },
+    "majetekOdpisyNevygenerovany": {
+      "titl": "Es ist nicht gelungen, die Abschreibungen zu generieren."
+    },
+    "majetekOdpisyUcetDatumZacatkuPredZaraz": {
+      "titl": "Das Datum von buchhalterischen Abschreibungen darf nicht dem Datum der Vermögenseingliederung vorgehen."
+    },
+    "majetekPocetMesicuNeniNenulovy": {
+      "titl": "Die Zahl von Monaten darf nicht-nullwertig sein."
+    },
+    "majetekPocetMesicuNenulovyZustCenaNula": {
+      "titl": "Wenn die Anzahl der Monate der buchhalterischen Abschreibung angegeben wird, dürfen die fortgeführten Anschaffungskosten nicht Null sein."
+    },
+    "majetekProcentoNeniNenulove": {
+      "titl": "Das Prozent pro Jahr darf nicht-nulwertig sein."
+    },
+    "majetekSazbaOdpisuNulovaDobaOdp": {
+      "titl": "Ein Abschreibungssatz von Null kann nicht verwendet werden."
+    },
+    "majetekSpadaDoJinehoObdobi": {
+      "titl": "Das in andere Buchungsperiode fallende Vermögen ist nicht in Evidenz zu führen."
+    },
+    "majetekTechZhodnocenJenDriveOdepsany": {
+      "titl": "Vermögenswerte, die noch nicht abgeschrieben wurden, können vor der Klassifizierung nicht technisch bewertet werden."
+    },
+    "majetekUcetniOdpisyVDE": {
+      "titl": "In der Steuerevidenz kann man nicht Rechnungsabschreibungen generieren."
+    },
+    "majetekUcetniOdpisyVDE_SK": {
+      "titl": "Buchhalterische Abschreibungen können in der einfachen Buchhaltung nicht erzeugt werden."
+    },
+    "nepodariloSeAktualizovatMajetky": {
+      "titl": "Bei der Änderung der Buchungsperiode ist es nicht gelungen Vermögensabschreibungen zu berechnen."
+    },
+    "nepodariloSeSpocitatMajetky": {
+      "titl": "Bei der Änderung der Buchungsperiode ist es nicht gelungen Vermögen zur Aktualisierung der Abschreibungen sicherzustellen."
+    },
+    "odpisyZacatekPredUcobd": {
+      "titl": "Anlagegut [%p] - der Beginn der Abschreibung %p liegt vor dem Buchungszeitraum %p!"
+    },
+    "odpisyZmenaObdobiZamceno": {
+      "titl": "Es ist nicht gelungen, die Abschreibung zu ändern, weil der Zeitraum (%p) gesperrt ist."
+    },
+    "sazbaChybaZjisteniNavazanychMajetku": {
+      "titl": "Es ist nicht gelungen zu überprüfen, ob die registrierten Vermögen auf den Abschreibungssatz gebunden sind."
+    },
+    "splatKalSumDphNevyplneno": {
+      "titl": "Für den eingegebenen MwSt. - Satz ist die MwSt. unbedingt auszufüllen."
+    },
+    "udalostDveNeboViceVyrazeni": {
+      "titl": "Der Vorfall restloses Herausnehmen ist nur einmal beizufügen."
+    },
+    "udalostDveNeboViceZarazeni": {
+      "titl": "Der Vorfall der Eingliederung ist nur einmal beizufügen."
+    },
+    "udalostMinHodnotaPolozky": {
+      "titl": "Minimaler Postenwert"
+    },
+    "udalostMinHodnotaProdlouzeni": {
+      "titl": "Der Wert des %p-Feldes muss größer als Null sein."
+    },
+    "udalostMusiMitDatVystVAktualnimObdobi": {
+      "titl": "Der Vorfall muss das Datum der Ausstellung in der für das ganze Projekt gültigen Periode haben."
+    },
+    "udalostNaDanOpdisyPredZacDanOdpisu": {
+      "titl": "Das Ausstellungsdatum des Vorfalls darf nicht dem Beginn der Steuerabschreibungen vorgehen."
+    },
+    "udalostNaUceOpdisyPredZacUceOdpisu": {
+      "titl": "Das Ausstellungsdatum des Vorfalls darf nicht dem Beginn der Steuerabschreibungen vorgehen."
+    },
+    "udalostNePoVyrazeni": {
+      "titl": "Kein Vorfall darf nach dem Vorfall restloses Herausnehmen vorkommen."
+    },
+    "udalostNePredZarazenim": {
+      "titl": "Kein Vorfall darf vor dem Vorfall der Eingliederung oder an demselben Tag vorkommen."
+    },
+    "udalostNeexistujiUcetPolozky": {
+      "titl": "Zum Datum (O) gäbe es keine Rechnungsabschreibungen"
+    },
+    "udalostNelzePridatVyrazeni": {
+      "titl": "Neuer Vorfall ist nach dem Herausnehmen von Vermögen nicht beizufügen."
+    },
+    "udalostNemaVyplnenoStredisko": {
+      "titl": "Der Vorfall muss die ausgefüllte Kostenstelle haben."
+    },
+    "udalostNesmiBytPredZacOdpisu": {
+      "titl": "Das Ausstellungsdatum des Vorfalls darf nicht dem Beginn der Steuer- und Rechnungsabschreibungen vorgehen."
+    },
+    "udalostOpetZahDanBezPreruseni": {
+      "titl": "Der Vorfall Wiedereröffnung von Steuerabschreibungen ist nicht einzugeben, weil die entsprechende Unterbrechung von Steuerabschreibungen nicht vorgeht."
+    },
+    "udalostOpetZahUcetBezPreruseni": {
+      "titl": "Der Vorfall Wiedereröffnung von buchhalterischen Abschreibungen ist nicht einzugeben, weil die entsprechende Unterbrechung von buchhalterischen Abschreibungen nicht vorgeht."
+    },
+    "udalostPoPreruseniJenomUrciteUdal": {
+      "titl": "Dieses Ereignis ist nicht einzugeben,weil die Abschreibung unterbrochen wurde."
+    },
+    "udalostPredDatemZarazeni": {
+      "titl": "Das Datum des Vorfalls darf erst nach dem Datum der Eingliederung von Vermögen sein."
+    },
+    "udalostPrerDanOdpJizPreruseno": {
+      "titl": "Der Vorfall Unterbrechung von Steuerabschreibungen ist nicht einzugeben. Die Steuerabschreibungen sind schon unterbrochen."
+    },
+    "udalostPrerUcetOdpJizPreruseno": {
+      "titl": "Der Vorfall Unterbrechung von buchhalterischen Abschreibungen ist nicht einzugeben. Die buchhalterischen Abschreibungen sind schon unterbrochen."
+    },
+    "udalostSumZklTZNesmiBytZaporna": {
+      "titl": "Der Feldwert %p darf für die technische Auswertung nicht negativ sein."
+    },
+    "udalostVyplnitVsechnyUcty": {
+      "titl": "Bei diesem Vorfall müssen alle Kontos ausgefüllt werden."
+    },
+    "udalostVyrazeniNesmazat": {
+      "titl": "Der Vorfall der Eingliederung ist nicht zu löschen, wenn weitere Vorfälle an ihn aufbinden."
+    },
+    "udalostVyrazeniObsazena": {
+      "titl": "Ereignis der Herausnehmung ist schon in der Ereignisliste beinhaltet"
+    },
+    "udalostZarazeniJizObsazena": {
+      "titl": "Der Vorfall der Eingliederung ist schon in der Vorfallliste beinhaltet."
+    },
+    "udalostZarazeniMusiBytPredZacOdpisu": {
+      "titl": "Eingliederungsvorfall muss vor dem Beginn der Abschreibungen sein."
+    },
+    "udalostZmenaDobyOdpis": {
+      "titl": "'Veränderung der Abschreibungszeit'"
+    }
+  }
+}

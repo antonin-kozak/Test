@@ -1,0 +1,2305 @@
+{
+  "dials": {
+    "autoSendMailMod.neodesilat": {
+      "titl": "Не отправляйте"
+    },
+    "autoSendMailMod.odesilat": {
+      "titl": "Отправить на"
+    },
+    "autoSendMailMod.odesilatBcc": {
+      "titl": "Отправляйте скрытые копии только на электронную почту"
+    },
+    "automatickeOdvozovaniVarSymNaFap": {
+      "titl": "Активирует автоматическое извлечение переменного символа из входящего номера на полученном счете-фактуре"
+    },
+    "barvaMaterialu.bareNepruhled": {
+      "titl": "Непрозрачный цветной"
+    },
+    "barvaMaterialu.barevPruhled": {
+      "titl": "Прозрачный цветной"
+    },
+    "barvaMaterialu.transparent": {
+      "titl": "Прозрачный"
+    },
+    "clenSpl.financni": {
+      "titl": "финансовая деятельность"
+    },
+    "clenSpl.vstupni": {
+      "titl": "входящая цена"
+    },
+    "creditCheck.green": {
+      "titl": "Зеленый"
+    },
+    "creditCheck.red": {
+      "titl": "Красный"
+    },
+    "creditCheck.yellow": {
+      "titl": "Желтый"
+    },
+    "danEvid.NeDanEvid": {
+      "titl": "Не относится к налоговому учёту"
+    },
+    "danEvid.Par10Ostatni": {
+      "titl": "§10 - Остальная прибыль"
+    },
+    "danEvid.Par7JinePodn": {
+      "titl": "§7 - Другая предпринимательская деятельность"
+    },
+    "danEvid.Par7PodilySpol": {
+      "titl": "§7 - Участие компаньонов"
+    },
+    "danEvid.Par7Prava": {
+      "titl": "§7 - Использование или предоставление прав"
+    },
+    "danEvid.Par7ZemVyroba": {
+      "titl": "§7 - Сельскохозяйственное производство"
+    },
+    "danEvid.Par7Zivnost": {
+      "titl": "§7 - Мелкая торговля"
+    },
+    "danEvid.Par8KapMaj": {
+      "titl": "§8 -Прибыль с имущества капитала"
+    },
+    "danEvid.Par9Pronajem": {
+      "titl": "§9 - Прибыль с аренды"
+    },
+    "danEvid.SocPoj": {
+      "titl": "Оплата социального страхования"
+    },
+    "danEvid.ZdravPoj": {
+      "titl": "Оплата медицинского страхования"
+    },
+    "danEvid.mzdy": {
+      "titl": "Расчет заработной платы"
+    },
+    "danEvid.ostatnePrijmy": {
+      "titl": "Прочие доходы"
+    },
+    "danEvid.ostatneVydavky": {
+      "titl": "Прочие расходы"
+    },
+    "danEvid.platbyPojistnehoAPrispevkov": {
+      "titl": "Уплата страховых взносов и премий"
+    },
+    "danEvid.predajTovaru": {
+      "titl": "Продажа товаров"
+    },
+    "danEvid.predajVyrobkovSluzieb": {
+      "titl": "Продажа продуктов и услуг"
+    },
+    "danEvid.sluzby": {
+      "titl": "Услуги"
+    },
+    "danEvid.tvorbaSocialnihoFondu": {
+      "titl": "Формирование Социального фонда"
+    },
+    "danEvid.zasoby": {
+      "titl": "Акции"
+    },
+    "danEvidSkupina.nespada": {
+      "titl": "Она не относится к DE"
+    },
+    "danEvidSkupina.nevyplneno": {
+      "titl": "Пустой"
+    },
+    "danEvidSkupina.ostatni": {
+      "titl": "Другое"
+    },
+    "danEvidSkupina.par07": {
+      "titl": "§7"
+    },
+    "danEvidSkupina.par08": {
+      "titl": "§8"
+    },
+    "danEvidSkupina.par09": {
+      "titl": "§9"
+    },
+    "danEvidSkupina.par10": {
+      "titl": "§10"
+    },
+    "danEvidSkupina.prijem": {
+      "titl": "Доход"
+    },
+    "danEvidSkupina.vydej": {
+      "titl": "Расходы"
+    },
+    "dashboardPanelVisibility.hidden": {
+      "titl": "Неужели никто не видит."
+    },
+    "dashboardPanelVisibility.private": {
+      "titl": "Только автор может видеть."
+    },
+    "dashboardPanelVisibility.shared": {
+      "titl": "Можно обмениваться"
+    },
+    "dashboardPanelVisibility.shared-all": {
+      "titl": "Все могут видеть"
+    },
+    "datazTypParam.actId": {
+      "titl": "Актуальная заметка"
+    },
+    "datazTypParam.actModul": {
+      "titl": "Текущий модуль"
+    },
+    "datazTypParam.date": {
+      "titl": "Дата"
+    },
+    "datazTypParam.integer": {
+      "titl": "Целый номер"
+    },
+    "datazTypParam.logic": {
+      "titl": "Логическая величина"
+    },
+    "datazTypParam.numeric": {
+      "titl": "Десятичное число"
+    },
+    "datazTypParam.object": {
+      "titl": "Объект"
+    },
+    "datazTypParam.string": {
+      "titl": "Цепочка"
+    },
+    "denniKurz.aktualniDen": {
+      "titl": "С актуального дня"
+    },
+    "denniKurz.predchoziDen": {
+      "titl": "С предыдущего дня"
+    },
+    "druhLeas.financni": {
+      "titl": "Финансовый"
+    },
+    "druhLeas.operativ": {
+      "titl": "Оперативный"
+    },
+    "druhMaj.drobny": {
+      "titl": "Дробный"
+    },
+    "druhMaj.hmDl": {
+      "titl": "Денежный долговременный"
+    },
+    "druhMaj.nehmDl": {
+      "titl": "Бесплатный долговременный"
+    },
+    "druhMaj.neodepis": {
+      "titl": "Несписанный (только переучёт)"
+    },
+    "druhStavuZakazky.hotovo": {
+      "titl": "Готово"
+    },
+    "druhStavuZakazky.mame": {
+      "titl": "Она у нас есть"
+    },
+    "druhStavuZakazky.storno": {
+      "titl": "Отменено"
+    },
+    "druhStavuZakazky.ziskavame": {
+      "titl": "Приобретаем её"
+    },
+    "druhUctu.aktivni": {
+      "titl": "активный"
+    },
+    "druhUctu.aktpasvo": {
+      "titl": "активный+пассивный (выбор)"
+    },
+    "druhUctu.aktpasvy": {
+      "titl": "активный/пассивный (в соответствии с результатами)"
+    },
+    "druhUctu.naklady": {
+      "titl": "издержки"
+    },
+    "druhUctu.otevknih": {
+      "titl": "открытие книги"
+    },
+    "druhUctu.pasivhvy": {
+      "titl": "пассивный - г. результат"
+    },
+    "druhUctu.pasivni": {
+      "titl": "пассивный"
+    },
+    "druhUctu.prhosvys": {
+      "titl": "перевод экономического результата"
+    },
+    "druhUctu.uzavknih": {
+      "titl": "закрытие книги"
+    },
+    "druhUctu.vynosy": {
+      "titl": "прибыль"
+    },
+    "druhUdal.pozn": {
+      "titl": "Примечание"
+    },
+    "druhUdal.udal": {
+      "titl": "Событие"
+    },
+    "druhUdal.ukol": {
+      "titl": "Задание"
+    },
+    "druhUdal.workflow": {
+      "titl": "Задача рабочего процесса"
+    },
+    "duverCert.duverovat": {
+      "titl": "Доверять"
+    },
+    "duverCert.ptatSe": {
+      "titl": "Интересоваться"
+    },
+    "eetMod.ne": {
+      "titl": "На сайте"
+    },
+    "eetMod.ostry": {
+      "titl": "Sharp"
+    },
+    "eetMod.ostryTest": {
+      "titl": "Non-production sharp (для разработчиков)"
+    },
+    "eetMod.overovaci": {
+      "titl": "Верификация"
+    },
+    "eetMod.overovaciTest": {
+      "titl": "Непроизводственная проверка (для разработчиков)"
+    },
+    "eetStav.ne": {
+      "titl": "не отправлен"
+    },
+    "eetStav.neStorno": {
+      "titl": "не отправленная отмена"
+    },
+    "eetStav.neuspech": {
+      "titl": "Отказ"
+    },
+    "eetStav.neuspechStorno": {
+      "titl": "неспособность отменить"
+    },
+    "eetStav.odeslano": {
+      "titl": "Отправлено в"
+    },
+    "eetStav.odeslanoStorno": {
+      "titl": "отправленная отмена"
+    },
+    "eetTyp.anoBezny": {
+      "titl": "нормальный режим"
+    },
+    "eetTyp.anoEkasa": {
+      "titl": "eCash"
+    },
+    "eetTyp.anoZjednoduseny": {
+      "titl": "упрощённый режим"
+    },
+    "eetTyp.ne": {
+      "titl": "не облагается ЕЭТ"
+    },
+    "eetTypPlatby.cestovni": {
+      "titl": "Платежи за туристические услуги"
+    },
+    "eetTypPlatby.poukaz": {
+      "titl": "Оплата купонами, подарочными сертификатами, картами, ваучерами и т.д."
+    },
+    "eetTypPlatby.pouzite": {
+      "titl": "Продажа бывших в употреблении товаров"
+    },
+    "ekokom.exportovaneObaly": {
+      "titl": "Экспортированная упаковка"
+    },
+    "ekokom.nezaplaceneObaly": {
+      "titl": "Неоплаченная упаковка"
+    },
+    "ekokom.predplaceneObaly": {
+      "titl": "Предоплаченная упаковка"
+    },
+    "ekokom.vyrazeneObaly": {
+      "titl": "Выброшенная упаковка"
+    },
+    "ekokom.zpoplatneneObaly": {
+      "titl": "Заряженная упаковка"
+    },
+    "elPrikazPoplatek.odesilatel": {
+      "titl": "Отправитель"
+    },
+    "elPrikazPoplatek.prijemce": {
+      "titl": "Получатель"
+    },
+    "elPrikazPoplatek.spolecne": {
+      "titl": "Общая оплата"
+    },
+    "elPrikazStav.odeslan": {
+      "titl": "Отослано"
+    },
+    "elPrikazStav.vytvoren": {
+      "titl": "Неотослано"
+    },
+    "elVypisDuplicita.nekontrolovat": {
+      "titl": "Не проверяйте"
+    },
+    "elVypisDuplicita.polozka": {
+      "titl": "Игнорировать уже загруженные элементы"
+    },
+    "elVypisDuplicita.vypis": {
+      "titl": "Игнорировать уже загруженные утверждения"
+    },
+    "fapDatProDuzpUctoK.aktDatum": {
+      "titl": "Текущая дата"
+    },
+    "fapDatProDuzpUctoK.datSplat": {
+      "titl": "Зрелость"
+    },
+    "fapDatProDuzpUctoK.datUcto": {
+      "titl": "Дата размещения"
+    },
+    "fapDatProDuzpUctoK.datVyst": {
+      "titl": "Принято"
+    },
+    "fapDatProDuzpUctoK.duzpPuv": {
+      "titl": "Дата налогообложения. пл."
+    },
+    "fapDatProDuzpUctoK.neplnit": {
+      "titl": "Не заполняйте предварительно"
+    },
+    "finbricksActivateBic": {
+      "titl": "Активирует Finbricks для счета финансового учреждения, которого еще нет в списке поддерживаемых нами финансовых учреждений"
+    },
+    "formExport.edi": {
+      "titl": "EDI"
+    },
+    "formExport.xml": {
+      "titl": "XML"
+    },
+    "formaDopravy.ceskaPostaM": {
+      "titl": "Чешская почта (файл M)"
+    },
+    "formaDopravy.ceskaPostaPO": {
+      "titl": "Почта Чехии (Онлайн-подача)"
+    },
+    "formaDopravy.geis": {
+      "titl": "Geis"
+    },
+    "formaDopravy.ppl": {
+      "titl": "PPL"
+    },
+    "formaUhr.cenina": {
+      "titl": "Ценной бумагой на предъявит."
+    },
+    "formaUhr.dobirka": {
+      "titl": "наложенным платежом"
+    },
+    "formaUhr.hotove": {
+      "titl": "за наличный рассчёт"
+    },
+    "formaUhr.jina": {
+      "titl": "другой формой"
+    },
+    "formaUhr.nespec": {
+      "titl": "Неспецифицированно"
+    },
+    "formaUhr.platKart": {
+      "titl": "банковской картой"
+    },
+    "formaUhr.prevod": {
+      "titl": "банковским переводом"
+    },
+    "formaUhr.sek": {
+      "titl": "по чеку"
+    },
+    "formaUhr.slozenka": {
+      "titl": "почтовым переводом"
+    },
+    "formaUhr.zapocet": {
+      "titl": "пересчётом"
+    },
+    "frDanNakl.ctvrtlet": {
+      "titl": "Каждые три месяца"
+    },
+    "frDanNakl.dvoumesi": {
+      "titl": "Каждые два месяца"
+    },
+    "frDanNakl.mesicne": {
+      "titl": "Каждый месяц"
+    },
+    "frDanNakl.pololet": {
+      "titl": "Каждые полгода"
+    },
+    "frDanNakl.rocne": {
+      "titl": "Каждый год"
+    },
+    "frekAkt.5minut": {
+      "titl": "каждые 5 минут"
+    },
+    "frekAkt.denne": {
+      "titl": "каждый день"
+    },
+    "frekAkt.hodinu": {
+      "titl": "каждый час"
+    },
+    "frekAkt.rucne": {
+      "titl": "вручную"
+    },
+    "gdprPlatnost.manualne": {
+      "titl": "Вручную"
+    },
+    "gdprPlatnost.vznikAutoKonec": {
+      "titl": "Автоматически по окончании срока действия записи"
+    },
+    "gdprPlatnost.vznikAutoPocatek": {
+      "titl": "Автоматически с начала срока действия записи"
+    },
+    "gdprPravTit.cuaVyslSouhl": {
+      "titl": "Чувствительные данные: явное согласие на обработку"
+    },
+    "gdprPravTit.cubZpracNezb": {
+      "titl": "Чувствительные данные: необходимая обработка"
+    },
+    "gdprPravTit.cucOchrZaj": {
+      "titl": "Чувствительные данные: защита жизненно важных интересов"
+    },
+    "gdprPravTit.cudClenNezis": {
+      "titl": "Чувствительные данные: член некоммерческой организации"
+    },
+    "gdprPravTit.cueZjevZver": {
+      "titl": "Чувствительные данные: очевидно опубликованные данные"
+    },
+    "gdprPravTit.cufPravNarok": {
+      "titl": "Чувствительные данные: осуществление или защита юридических претензий"
+    },
+    "gdprPravTit.cugVyzVerZaj": {
+      "titl": "Чувствительные данные: значительный общественный интерес"
+    },
+    "gdprPravTit.cuhLekarOs": {
+      "titl": "Чувствительные данные: здравоохранение и социальное обеспечение"
+    },
+    "gdprPravTit.cuiVerZdr": {
+      "titl": "Чувствительные данные: интересы общественного здравоохранения"
+    },
+    "gdprPravTit.cujArchVyzStat": {
+      "titl": "Чувствительные данные: архивирование, исследовательские или статистические цели"
+    },
+    "gdprPravTit.opravZaj": {
+      "titl": "Законный интерес"
+    },
+    "gdprPravTit.plnSml": {
+      "titl": "Выполнение договора"
+    },
+    "gdprPravTit.souhlZprac": {
+      "titl": "Согласие на обработку"
+    },
+    "gdprPravTit.splnPovin": {
+      "titl": "Выполнение юридического обязательства"
+    },
+    "gdprPravTit.verejZaj": {
+      "titl": "Общественный интерес"
+    },
+    "gdprPravTit.zivotDulez": {
+      "titl": "Vital"
+    },
+    "gdprTypVztahu.jedenZeZprac": {
+      "titl": "Один из процессоров"
+    },
+    "gdprTypVztahu.prijemce": {
+      "titl": "Получатель"
+    },
+    "gdprTypVztahu.spolSpravce": {
+      "titl": "Совместные администраторы"
+    },
+    "gdprTypVztahu.spravce": {
+      "titl": "Администратор"
+    },
+    "gdprTypVztahu.subzpracovatel": {
+      "titl": "Субпроцессор"
+    },
+    "gdprTypVztahu.zastupce": {
+      "titl": "Представитель"
+    },
+    "gdprTypVztahu.zpracovatel": {
+      "titl": "Процессор"
+    },
+    "isdocPrilohaMailu.ano": {
+      "titl": "Да"
+    },
+    "isdocPrilohaMailu.ne": {
+      "titl": "Нет"
+    },
+    "isdocPrilohaMailu.podleTypDokl": {
+      "titl": "По типу документа"
+    },
+    "jakUhrazeno.autoBezVs": {
+      "titl": "Автоматически согласно сумме"
+    },
+    "jakUhrazeno.autoBuc": {
+      "titl": "Автоматически по банковскому счету"
+    },
+    "jakUhrazeno.autoKod": {
+      "titl": "Автоматически по инт. номеру документа"
+    },
+    "jakUhrazeno.autoVs": {
+      "titl": "Автоматически согласно вариаб.симв."
+    },
+    "jakUhrazeno.autoVsRuzneMeny": {
+      "titl": "Автоматически по вар. сим. (разные валюты)"
+    },
+    "jakUhrazeno.autoZak": {
+      "titl": "Автоматически по номеру клиента"
+    },
+    "jakUhrazeno.rucne1": {
+      "titl": "Вручную - 1 документ"
+    },
+    "jakUhrazeno.rucneCast": {
+      "titl": "Вручную - частичная уплата"
+    },
+    "jakUhrazeno.rucneN": {
+      "titl": "Вручную - больше документов"
+    },
+    "jakyTypDokl.posledni": {
+      "titl": "Последний выбранный"
+    },
+    "jakyTypDokl.primarni": {
+      "titl": "Первичный"
+    },
+    "jakyTypDokl.zeptat": {
+      "titl": "Опросить пользователей"
+    },
+    "jazyk.cs": {
+      "titl": "чешский"
+    },
+    "jazyk.de": {
+      "titl": "немецкий"
+    },
+    "jazyk.en": {
+      "titl": "английский"
+    },
+    "jazyk.es": {
+      "titl": "испанский"
+    },
+    "jazyk.fr": {
+      "titl": "французский язык"
+    },
+    "jazyk.hu": {
+      "titl": "Венгерский"
+    },
+    "jazyk.it": {
+      "titl": "итальянский язык"
+    },
+    "jazyk.none": {
+      "titl": "неактивный"
+    },
+    "jazyk.pl": {
+      "titl": "Польский"
+    },
+    "jazyk.ro": {
+      "titl": "Румынский"
+    },
+    "jazyk.ru": {
+      "titl": "русский язык"
+    },
+    "jazyk.sk": {
+      "titl": "словакский язык"
+    },
+    "kodPlneni.bezVlivu": {
+      "titl": "Без воздействия на НДС"
+    },
+    "kodPlneni.doprProstr": {
+      "titl": "Вид транспорта"
+    },
+    "kodPlneni.dovozOSS": {
+      "titl": "ОСС - режим импорта"
+    },
+    "kodPlneni.knihy": {
+      "titl": "Доставка книг и аналогичные услуги"
+    },
+    "kodPlneni.majetek": {
+      "titl": "Торговое имущество"
+    },
+    "kodPlneni.mimoEuOSS": {
+      "titl": "ОСС - за пределами ЕС"
+    },
+    "kodPlneni.nespec": {
+      "titl": "Неспецифицированно"
+    },
+    "kodPlneni.oprava": {
+      "titl": "Коррекция заполнения"
+    },
+    "kodPlneni.ostatni": {
+      "titl": "Остальное"
+    },
+    "kodPlneni.osv": {
+      "titl": "Освобождено"
+    },
+    "kodPlneni.prenDanPov": {
+      "titl": "Перенесенные налоговые обязательства"
+    },
+    "kodPlneni.prenDanPovOprava": {
+      "titl": "Переданные налоговые обязательства - выбор пользователя"
+    },
+    "kodPlneni.sluzby": {
+      "titl": "Предоставление услуги"
+    },
+    "kodPlneni.sluzbyMOSS": {
+      "titl": "Мини универсальный магазин"
+    },
+    "kodPlneni.sluzbyOSS": {
+      "titl": "OSS - услуги ЕС"
+    },
+    "kodPlneni.tristran": {
+      "titl": "Трёхсторонняя сделка"
+    },
+    "kodPlneni.zbozi": {
+      "titl": "Доставка товара"
+    },
+    "kodPlneni.zboziOSS": {
+      "titl": "ОСС - товары ЕС"
+    },
+    "logoPozice.nahore": {
+      "titl": "Логотип на верхней части"
+    },
+    "logoPozice.vlevo": {
+      "titl": "Логотип слева"
+    },
+    "material.drevo": {
+      "titl": "Дерево"
+    },
+    "material.drevoDrevoDrevotriska": {
+      "titl": "Дерево - Древесина и древесно-стружечные плиты"
+    },
+    "material.drevoKompozit": {
+      "titl": "Древесина - Композит с недревесными элементами"
+    },
+    "material.jine": {
+      "titl": "Другое"
+    },
+    "material.kompozit": {
+      "titl": "Композитный материал"
+    },
+    "material.kompozitVetsi": {
+      "titl": "Композитный материал, более 3 л"
+    },
+    "material.kovy5Al": {
+      "titl": "Металлы свыше 5L - AL"
+    },
+    "material.kovy5Fe": {
+      "titl": "Металлы свыше 5 л - FE"
+    },
+    "material.kovyAl": {
+      "titl": "Металлы - AL"
+    },
+    "material.kovyAlKompozit": {
+      "titl": "Металлы - композит Al"
+    },
+    "material.kovyAlKompozitVetsi": {
+      "titl": "Металлы - композитный Al, более 3 л"
+    },
+    "material.kovyAlVetsi": {
+      "titl": "Металлы - Al, более 3 л"
+    },
+    "material.kovyFe": {
+      "titl": "Металлы - FE"
+    },
+    "material.kovyFeKompozit": {
+      "titl": "Металлы - композитный Fe"
+    },
+    "material.kovyFeKompozitVetsi": {
+      "titl": "Металлы - композитное Fe, более 3 л"
+    },
+    "material.kovyFeVetsi": {
+      "titl": "Металлы - Fe, более 3 л"
+    },
+    "material.mekPlastBioRozlozit": {
+      "titl": "Мягкие пластмассы - Биоразлагаемые"
+    },
+    "material.mekPlastBioRozlozitVetsi": {
+      "titl": "Мягкие пластмассы - Биоразлагаемые, более 3 л"
+    },
+    "material.mekPlastEps": {
+      "titl": "Мягкие пластмассы - EPS"
+    },
+    "material.mekPlastEpsVetsi": {
+      "titl": "Мягкие пластмассы - EPS, более 3 л"
+    },
+    "material.mekPlastJine": {
+      "titl": "Мягкие пластмассы - Прочие"
+    },
+    "material.mekPlastJineVetsi": {
+      "titl": "Мягкие пластмассы - Прочие, более 3 л"
+    },
+    "material.mekPlastKompozit": {
+      "titl": "Мягкие пластмассы - композит"
+    },
+    "material.mekPlastKompozitVetsi": {
+      "titl": "Мягкие пластмассы - Композитные, более 3 л"
+    },
+    "material.mekPlastPe": {
+      "titl": "Мягкие пластмассы - полиэтилен"
+    },
+    "material.mekPlastPeVetsi": {
+      "titl": "Мягкие пластмассы - полиэтилен, более 3 л"
+    },
+    "material.mekPlastPet": {
+      "titl": "Мягкие пластмассы - ПЭТ"
+    },
+    "material.mekPlastPetVetsi": {
+      "titl": "Мягкие пластмассы - ПЭТ, более 3 л"
+    },
+    "material.mekPlastPp": {
+      "titl": "Мягкие пластмассы - полипропилен"
+    },
+    "material.mekPlastPpVetsi": {
+      "titl": "Мягкие пластмассы - полипропилен, более 3 л"
+    },
+    "material.mekPlastPs": {
+      "titl": "Мягкие пластмассы - PS"
+    },
+    "material.mekPlastPsVetsi": {
+      "titl": "Мягкие пластмассы - PS, более 3 л"
+    },
+    "material.mekPlastPvc": {
+      "titl": "Мягкие пластмассы - ПВХ"
+    },
+    "material.mekPlastPvcVetsi": {
+      "titl": "Мягкие пластмассы - ПВХ, более 3 л"
+    },
+    "material.mekPlastXps": {
+      "titl": "Мягкие пластмассы - XPS"
+    },
+    "material.mekPlastXpsVetsi": {
+      "titl": "Мягкие пластмассы - XPS, более 3 л"
+    },
+    "material.napojoveKartony": {
+      "titl": "Картонные коробки для напитков"
+    },
+    "material.napojoveKartonyVetsi": {
+      "titl": "Картонные коробки для напитков, более 3 л"
+    },
+    "material.papir": {
+      "titl": "Бумага"
+    },
+    "material.papirBezny": {
+      "titl": "Бумага - обычная"
+    },
+    "material.papirHladkaLepenka": {
+      "titl": "Бумага - гладкий картон"
+    },
+    "material.papirKompozit": {
+      "titl": "Бумага - композит"
+    },
+    "material.papirNasavanaKart": {
+      "titl": "Бумага - всасывающая картонная упаковка"
+    },
+    "material.papirVlnitaLepenka": {
+      "titl": "Бумага - Гофрированный картон"
+    },
+    "material.pevDut5PlastJine": {
+      "titl": "Жесткие полые пластмассы объемом более 5 л - Прочие"
+    },
+    "material.pevDut5PlastPe": {
+      "titl": "Жесткие полые пластики объемом более 5 л - ПЭ"
+    },
+    "material.pevDut5PlastPet": {
+      "titl": "Жесткие полые пластмассы объемом более 5 л - ПЭТ"
+    },
+    "material.pevDut5PlastPp": {
+      "titl": "Жесткие полые пластики объемом более 5 л - PP"
+    },
+    "material.pevDut5PlastPs": {
+      "titl": "Жесткие полые пластмассы объемом более 5 л - PS"
+    },
+    "material.pevDut5PlastPvc": {
+      "titl": "Жесткие полые пластики объемом более 5 л - ПВХ"
+    },
+    "material.pevDutePlastBioRozlozit": {
+      "titl": "Жесткие полые пластмассы - Биоразлагаемые"
+    },
+    "material.pevDutePlastBioRozlozitVetsi": {
+      "titl": "Жесткие полые пластмассы - Биоразлагаемые, более 3 л"
+    },
+    "material.pevDutePlastEps": {
+      "titl": "Жесткие полые пластики - EPS"
+    },
+    "material.pevDutePlastEpsVetsi": {
+      "titl": "Жесткие полые пластики - EPS, более 3 л"
+    },
+    "material.pevDutePlastJine": {
+      "titl": "Жесткие полые пластмассы - Прочее"
+    },
+    "material.pevDutePlastJineVetsi": {
+      "titl": "Жесткие полые пластмассы - Прочие, более 3 л"
+    },
+    "material.pevDutePlastKompozit": {
+      "titl": "Жесткие полые пластики - Композит"
+    },
+    "material.pevDutePlastKompozitVetsi": {
+      "titl": "Жесткие полые пластмассы - Композитные, более 3 л"
+    },
+    "material.pevDutePlastPe": {
+      "titl": "Жесткие полые пластмассы - полиэтилен"
+    },
+    "material.pevDutePlastPeVetsi": {
+      "titl": "Жесткие полые пластики - полиэтилен, более 3 л"
+    },
+    "material.pevDutePlastPet": {
+      "titl": "Жесткие полые пластмассы - ПЭТ"
+    },
+    "material.pevDutePlastPetVetsi": {
+      "titl": "Жесткие полые пластики - ПЭТ, более 3 л"
+    },
+    "material.pevDutePlastPp": {
+      "titl": "Жесткие полые пластмассы - ПП"
+    },
+    "material.pevDutePlastPpVetsi": {
+      "titl": "Жесткие полые пластмассы - полипропилен, более 3 л"
+    },
+    "material.pevDutePlastPs": {
+      "titl": "Жесткие полые пластмассы - PS"
+    },
+    "material.pevDutePlastPsVetsi": {
+      "titl": "Жесткие полые пластмассы - PS, более 3 л"
+    },
+    "material.pevDutePlastPvc": {
+      "titl": "Жесткие полые пластики - ПВХ"
+    },
+    "material.pevDutePlastPvcVetsi": {
+      "titl": "Жесткие полые пластики - ПВХ, более 3 л"
+    },
+    "material.pevDutePlastXps": {
+      "titl": "Жесткие полые пластики - XPS"
+    },
+    "material.pevDutePlastXpsVetsi": {
+      "titl": "Жесткие полые пластики - XPS, более 3 л"
+    },
+    "material.sklo": {
+      "titl": "Стекло"
+    },
+    "material.skloBarevne": {
+      "titl": "Стекло - цветное"
+    },
+    "material.skloKompozit": {
+      "titl": "Стекло - Композит"
+    },
+    "material.skloTransparent": {
+      "titl": "Стекло - прозрачное"
+    },
+    "material.textil": {
+      "titl": "Текстиль"
+    },
+    "material.vlnitaLepenka": {
+      "titl": "Гофрированный картон"
+    },
+    "metodaZaokr.0sazba": {
+      "titl": "до 0 ставок"
+    },
+    "metodaZaokr.individ": {
+      "titl": "индивидуально"
+    },
+    "metodaZaokr.zklDph": {
+      "titl": "в базе и НДС"
+    },
+    "mjHmot.gram": {
+      "titl": "грамм"
+    },
+    "mjHmot.kilogram": {
+      "titl": "килограмм"
+    },
+    "mjHmot.tuna": {
+      "titl": "тунец"
+    },
+    "mjZaruky.den": {
+      "titl": "День"
+    },
+    "mjZaruky.mesic": {
+      "titl": "месяц"
+    },
+    "mjZaruky.rok": {
+      "titl": "год"
+    },
+    "modulUcetni.BAN": {
+      "titl": "Банк"
+    },
+    "modulUcetni.FAH": {
+      "titl": "Продажа за наличный рассчёт"
+    },
+    "modulUcetni.FAP": {
+      "titl": "Фактуры принятые"
+    },
+    "modulUcetni.FAV": {
+      "titl": "Фактуры выданные"
+    },
+    "modulUcetni.INT": {
+      "titl": "Внутренние документы"
+    },
+    "modulUcetni.LEA": {
+      "titl": "Лизинг"
+    },
+    "modulUcetni.MAJ": {
+      "titl": "Имущество"
+    },
+    "modulUcetni.NAP": {
+      "titl": "Принятые предложения"
+    },
+    "modulUcetni.NAV": {
+      "titl": "Выданные предложения"
+    },
+    "modulUcetni.OBP": {
+      "titl": "Заказы принятые"
+    },
+    "modulUcetni.OBV": {
+      "titl": "Заказы выданные"
+    },
+    "modulUcetni.PHL": {
+      "titl": "Задолженность"
+    },
+    "modulUcetni.POK": {
+      "titl": "Касса"
+    },
+    "modulUcetni.PPP": {
+      "titl": "Запросы принятые"
+    },
+    "modulUcetni.PPV": {
+      "titl": "Запросы выданные"
+    },
+    "modulUcetni.SKL": {
+      "titl": "Склад"
+    },
+    "modulUcetni.SKLPRI": {
+      "titl": "Тов.-трансп. накладная"
+    },
+    "modulUcetni.SKLVYD": {
+      "titl": "Акт о приходовании"
+    },
+    "modulUcetni.ZAV": {
+      "titl": "Обязательства"
+    },
+    "nahrUcet.aPocMes": {
+      "titl": "Да"
+    },
+    "nahrUcet.ne": {
+      "titl": "Нет"
+    },
+    "normalMj.gram": {
+      "titl": "Грамм"
+    },
+    "normalMj.kilogram": {
+      "titl": "Килограмм"
+    },
+    "normalMj.tuna": {
+      "titl": "Тунец"
+    },
+    "objednat.neobjednat": {
+      "titl": "Не заказывать"
+    },
+    "objednat.objednano": {
+      "titl": "Уже заказано"
+    },
+    "objednat.objednat": {
+      "titl": "Заказать"
+    },
+    "omezPrenDanPov.bezOmezeni": {
+      "titl": "без ограничений"
+    },
+    "omezPrenDanPov.odCastky100k": {
+      "titl": "от 100 000 чешских крон"
+    },
+    "operaceZurnalSmlouvy.autoGenerace": {
+      "titl": "Автоматическая генерация"
+    },
+    "operaceZurnalSmlouvy.manualGenerace": {
+      "titl": "Ручная генерация"
+    },
+    "paramDobropisSkladZProdejky": {
+      "titl": "Если в типе документа склад установлен на поставщика, то предпочтение следует отдавать складу."
+    },
+    "paramEDIExportBaleni": {
+      "titl": "Что необходимо учитывать при экспорте в упаковку EDI?"
+    },
+    "paramExpiraceMandatory": {
+      "titl": "Срок действия обязателен"
+    },
+    "paramFirmaInfoUrl": {
+      "titl": "URL для обновления информации о компании."
+    },
+    "paramFirmyDavkaAktualizovatBanku": {
+      "titl": "Если при массовом обновлении данных о компании необходимо обновить только банковские реквизиты."
+    },
+    "paramFirmyDavkaInfoUrl": {
+      "titl": "URL для массового обновления данных компании."
+    },
+    "paramGenFunkceKoduFirmy": {
+      "titl": "Имя функции для генерации кода компании"
+    },
+    "paramGenFunkceKoduSmlouvy": {
+      "titl": "Имя функции для генерации кода контракта"
+    },
+    "paramNaseptavaniFiremSk": {
+      "titl": "Шепчущие компании из системы ARES"
+    },
+    "paramNaseptavaniFiremUrl": {
+      "titl": "URL для шепчущих компаний."
+    },
+    "paramNeomezovatMnozstviObv": {
+      "titl": "Уменьшать ли заданное количество на количество, доступное и зарезервированное для производственного заказа."
+    },
+    "paramObjednavkaRealizaceKomplet": {
+      "titl": "Только полное выполнение заказа"
+    },
+    "paramPrenasetFirmuZeZakazkyNaDokl": {
+      "titl": "Перенести компанию из заказа в документ, если в документе компания не заполнена. Можно определить для конкретного модуля и типа документа."
+    },
+    "paramPrikladatPrilohuDoMailu": {
+      "titl": "Значение по умолчанию для флага «Прикрепленный» для вложения типа файла."
+    },
+    "paramRefundaceSkladove": {
+      "titl": "Возврат товаров со склада"
+    },
+    "paramRozsirenaZakazka": {
+      "titl": "Печать расширенных параметров заказа в отчете о печати."
+    },
+    "paramSarzeMandatory": {
+      "titl": "Пакетная обязательная"
+    },
+    "paramVychoziTiskarna": {
+      "titl": "Принтер по умолчанию"
+    },
+    "povolitBankuSPolozkami": {
+      "titl": "Позволяет создавать банковские документы с элементами"
+    },
+    "pozadavekStav.novy": {
+      "titl": "Новый"
+    },
+    "pozadavekStav.rozpracovan": {
+      "titl": "Проработанный"
+    },
+    "pozadavekStav.uzavren": {
+      "titl": "Закрытый"
+    },
+    "pozadavekTyp.namitka": {
+      "titl": "Право на возражение"
+    },
+    "pozadavekTyp.omezeni": {
+      "titl": "Право на ограничение обработки"
+    },
+    "pozadavekTyp.oprava": {
+      "titl": "Право на ремонт"
+    },
+    "pozadavekTyp.osobniUdaje": {
+      "titl": "Право на доступ к персональным данным субъекта данных"
+    },
+    "pozadavekTyp.oznamovaci": {
+      "titl": "Обязательство по уведомлению относительно исправления или стирания персональных данных или ограничения обработки"
+    },
+    "pozadavekTyp.prenositelnost": {
+      "titl": "Право на переносимость данных"
+    },
+    "pozadavekTyp.vymaz": {
+      "titl": "Право на удаление"
+    },
+    "pravFormaPodnik.as": {
+      "titl": "Акционерное общество"
+    },
+    "pravFormaPodnik.druzstvo": {
+      "titl": "Товарищество"
+    },
+    "pravFormaPodnik.es": {
+      "titl": "Европейское общество"
+    },
+    "pravFormaPodnik.ks": {
+      "titl": "Паевое общество"
+    },
+    "pravFormaPodnik.nadace": {
+      "titl": "Благотворительный фонд"
+    },
+    "pravFormaPodnik.nezOrg": {
+      "titl": "Некоммерческая организация"
+    },
+    "pravFormaPodnik.osvc": {
+      "titl": "Индивидуальный предприниматель"
+    },
+    "pravFormaPodnik.sdruzeni": {
+      "titl": "Общество предпринимателей"
+    },
+    "pravFormaPodnik.sro": {
+      "titl": "Общество с ограниченной ответственностью"
+    },
+    "pravFormaPodnik.vos": {
+      "titl": "Открытое торговое общество"
+    },
+    "predvybranyPocet.aktualni": {
+      "titl": "Актуальная заметка"
+    },
+    "predvybranyPocet.vsechny": {
+      "titl": "Все заметки"
+    },
+    "prepocetCen.ask": {
+      "titl": "Спросите"
+    },
+    "prepocetCen.auto": {
+      "titl": "Пересчитать цены"
+    },
+    "prepocetCen.none": {
+      "titl": "Не менять цены"
+    },
+    "priorita.kriticka": {
+      "titl": "Критическая"
+    },
+    "priorita.nizka": {
+      "titl": "Низкая"
+    },
+    "priorita.stredni": {
+      "titl": "Средняя"
+    },
+    "priorita.velmiNizka": {
+      "titl": "Очень низкая"
+    },
+    "priorita.vysoka": {
+      "titl": "Высокая"
+    },
+    "razeniProTisk.kod": {
+      "titl": "Согласно коду"
+    },
+    "razeniProTisk.nazev": {
+      "titl": "Согласно названию"
+    },
+    "razeniProTisk.poradi": {
+      "titl": "Согласно позиции"
+    },
+    "rezimRezervaci.rucni": {
+      "titl": "Только ручное управление"
+    },
+    "rezimRezervaci.zObj": {
+      "titl": "Автоматически при создании заказа"
+    },
+    "rezimRezervaci.zObjPriNaskladneni": {
+      "titl": "Автоматически при создании заказа и загрузке товаров"
+    },
+    "rocniKurz.kalendarniDen": {
+      "titl": "К 1 календар. дню периода"
+    },
+    "rocniKurz.pracovniDen": {
+      "titl": "К 1 раб.дню в периоде врем."
+    },
+    "stavDoklObch.castHotovo": {
+      "titl": "Частично готово"
+    },
+    "stavDoklObch.castVydano": {
+      "titl": "Частично выдано/принято"
+    },
+    "stavDoklObch.castecneNaCeste": {
+      "titl": "Частично в пути"
+    },
+    "stavDoklObch.hotovo": {
+      "titl": "Готово"
+    },
+    "stavDoklObch.naCeste": {
+      "titl": "На дороге"
+    },
+    "stavDoklObch.nespec": {
+      "titl": "Неспецифицированно"
+    },
+    "stavDoklObch.pripraveno": {
+      "titl": "Приготовлено"
+    },
+    "stavDoklObch.schvaleno": {
+      "titl": "Утверждено"
+    },
+    "stavDoklObch.storno": {
+      "titl": "Отмена"
+    },
+    "stavDoklObch.vydano": {
+      "titl": "Выдано/принято"
+    },
+    "stavInventury.1vlna": {
+      "titl": "1-я волна"
+    },
+    "stavInventury.2vlna": {
+      "titl": "2-я волна"
+    },
+    "stavInventury.3vlna": {
+      "titl": "3-я волна"
+    },
+    "stavInventury.4vlna": {
+      "titl": "4-я волна"
+    },
+    "stavInventury.hotova": {
+      "titl": "Выполнено"
+    },
+    "stavInventury.uzavrena": {
+      "titl": "Закрытый"
+    },
+    "stavInventury.zahajena": {
+      "titl": "Запущен"
+    },
+    "stavMail.neodesilat": {
+      "titl": "Не отправляйте"
+    },
+    "stavMail.odeslano": {
+      "titl": "Отправлено из"
+    },
+    "stavMail.odeslat": {
+      "titl": "Отправить на"
+    },
+    "stavOdp.cast": {
+      "titl": "Частично отчислено"
+    },
+    "stavOdp.komplet": {
+      "titl": "Отчислено"
+    },
+    "stavOdp.vytvZdd": {
+      "titl": "Создана аванс. фактура"
+    },
+    "stavPriznaniDph.dodatecne": {
+      "titl": "Дополнительно"
+    },
+    "stavPriznaniDph.dodatecneOpravne": {
+      "titl": "Дополнительные/корректирующие расходы"
+    },
+    "stavPriznaniDph.opravne": {
+      "titl": "Исправительные учреждения"
+    },
+    "stavPriznaniDph.radne": {
+      "titl": "Правильно"
+    },
+    "stavPriznaniDph.radneOpravne": {
+      "titl": "Обычный/корректирующий"
+    },
+    "stavSklad.nefakturovatelne": {
+      "titl": "Не подлежит фактурированию"
+    },
+    "stavSklad.prevodka": {
+      "titl": "Накладная"
+    },
+    "stavSklad.uhrazen": {
+      "titl": "Уплачено кассой"
+    },
+    "stavSklad.uhrazenCast": {
+      "titl": "Частично уплачено кассой"
+    },
+    "stavSklad.uhrazenHrom": {
+      "titl": "Уплачено кассой совместно"
+    },
+    "stavSklad.uhrazenHromCast": {
+      "titl": "Частично уплачено кассой совместно"
+    },
+    "stavSklad.vyfakt": {
+      "titl": "Отфактурировано"
+    },
+    "stavSklad.vyfaktCast": {
+      "titl": "Частично отфактурирован"
+    },
+    "stavSklad.vyfaktHrom": {
+      "titl": "Отфактурирован массово"
+    },
+    "stavSklad.vyfaktHromCast": {
+      "titl": "Частично отфактурирован массово"
+    },
+    "stavSklad.vygenFakt": {
+      "titl": "Генерирован из фактуры"
+    },
+    "stavSklad.vygenFaktNeuplny": {
+      "titl": "Генерирован из фактуры - неполный"
+    },
+    "stavSklad.vygenPokl": {
+      "titl": "Генерирован из кассы"
+    },
+    "stavSklad.vygenPoklNeuplny": {
+      "titl": "Генерирован из кассы - неполный"
+    },
+    "stavSklad.vyroba": {
+      "titl": "Продукция"
+    },
+    "stavUdal.hotovo": {
+      "titl": "Готово"
+    },
+    "stavUdal.nove": {
+      "titl": "Новая"
+    },
+    "stavUdal.rozprac": {
+      "titl": "Разработано"
+    },
+    "stavUdal.zamitnuto": {
+      "titl": "Отклонено"
+    },
+    "stavUhr.castUhr": {
+      "titl": "Частично уплачено"
+    },
+    "stavUhr.storno": {
+      "titl": "Отмена"
+    },
+    "stavUhr.uhrazeno": {
+      "titl": "Оплачено"
+    },
+    "stavUhr.uhrazenoRucne": {
+      "titl": "Оплачено (вручную)"
+    },
+    "stavUziv.bezPrikazu": {
+      "titl": "Без поручения"
+    },
+    "stavUziv.castPrikaz": {
+      "titl": "Отослано частичное поручение"
+    },
+    "stavUziv.celPrikaz": {
+      "titl": "Отослано поручение"
+    },
+    "stavUziv.genKasa": {
+      "titl": "Генерирован из кассы"
+    },
+    "stavUziv.nactenoEl": {
+      "titl": "Начитано электронно"
+    },
+    "stavUziv.nactenoElPosledni": {
+      "titl": "В последний раз начитано электронно"
+    },
+    "stavUziv.obsaPrikaz": {
+      "titl": "Содержится в приказе"
+    },
+    "stavUziv.zaucZmena": {
+      "titl": "Изменено после записи на счёт"
+    },
+    "stavUziv.zauctovano": {
+      "titl": "Засчитано в кассу"
+    },
+    "stavZak.castHot": {
+      "titl": "частично готово"
+    },
+    "stavZak.hotovo": {
+      "titl": "готово"
+    },
+    "stavZak.vBehu": {
+      "titl": "в ходе"
+    },
+    "surovina.primarni": {
+      "titl": "Основной"
+    },
+    "surovina.recyklat": {
+      "titl": "Переработка"
+    },
+    "symbolSplatnosti.stavA360aVice": {
+      "titl": "360 и больше дней после срока оплаты"
+    },
+    "symbolSplatnosti.stavB360az180": {
+      "titl": "360 - 180 дней после срока оплаты"
+    },
+    "symbolSplatnosti.stavC180az90": {
+      "titl": "180 - 90дней после срока оплаты"
+    },
+    "symbolSplatnosti.stavD90az30": {
+      "titl": "90 - 30 дней после срока оплаты"
+    },
+    "symbolSplatnosti.stavE30az0": {
+      "titl": "30 - 0 дней после срока оплаты"
+    },
+    "symbolSplatnosti.stavFnejsou": {
+      "titl": "Не погашены"
+    },
+    "symbolSplatnosti.stavZnevyplneno": {
+      "titl": "Срок оплаты не выполнен"
+    },
+    "tydenPracDoba.dul": {
+      "titl": "Работа под землей (37,5 часов)"
+    },
+    "tydenPracDoba.dvousmenny": {
+      "titl": "Работа в две смены (38,75 часов)"
+    },
+    "tydenPracDoba.standard": {
+      "titl": "Работа в одну смену (40 часов)"
+    },
+    "tydenPracDoba.trismenny": {
+      "titl": "Работа в три смены (37,5 часов)"
+    },
+    "typAtribut.1zN": {
+      "titl": "1 из N"
+    },
+    "typAtribut.MzN": {
+      "titl": "M из N"
+    },
+    "typAtribut.boolean": {
+      "titl": "Логическое значение"
+    },
+    "typAtribut.datumCas": {
+      "titl": "Дата"
+    },
+    "typAtribut.integer": {
+      "titl": "Полный номер"
+    },
+    "typAtribut.numeric": {
+      "titl": "Десятичное число"
+    },
+    "typAtribut.retezec": {
+      "titl": "Цепь"
+    },
+    "typAtribut.rozmezi": {
+      "titl": "Диапазон"
+    },
+    "typBanUctu.kc": {
+      "titl": "Динамика %currency-symbol / Остаток %currency-symbol"
+    },
+    "typBanUctu.mena": {
+      "titl": "Динамика валюта / Остаток валюта"
+    },
+    "typCeny.bezDph": {
+      "titl": "без НДС"
+    },
+    "typCeny.sDph": {
+      "titl": "включая НДС"
+    },
+    "typCeny.sDphKoef": {
+      "titl": "включая НДС (коэффициент)"
+    },
+    "typCenyVychozi.nakCena": {
+      "titl": "закупочная цена"
+    },
+    "typCenyVychozi.zadna": {
+      "titl": "Нет цены"
+    },
+    "typCenyVychozi.zaklCena": {
+      "titl": "продажная цена"
+    },
+    "typCert.disk": {
+      "titl": "местный диск"
+    },
+    "typCert.karta": {
+      "titl": "чиповая карточка"
+    },
+    "typCert.server": {
+      "titl": "сервер"
+    },
+    "typCinnosti.hlavni": {
+      "titl": "Основная деятельность"
+    },
+    "typCinnosti.hospodar": {
+      "titl": "Экономическая деятельность"
+    },
+    "typDokladu.dobropis": {
+      "titl": "Сторно-фактура"
+    },
+    "typDokladu.dodList": {
+      "titl": "Накладная"
+    },
+    "typDokladu.faktura": {
+      "titl": "Стандартная фактура"
+    },
+    "typDokladu.krZisk": {
+      "titl": "Прибыль от курсовой разницы"
+    },
+    "typDokladu.krZtrata": {
+      "titl": "Убыток от курсовой разницы"
+    },
+    "typDokladu.obecny": {
+      "titl": "Общий документ"
+    },
+    "typDokladu.prodejka": {
+      "titl": "Чек"
+    },
+    "typDokladu.proforma": {
+      "titl": "Проформа (не бухгалтерия)"
+    },
+    "typDokladu.zalohFaktura": {
+      "titl": "Резервная фактура"
+    },
+    "typDokladu.zbytekNaklad": {
+      "titl": "Остальной груз"
+    },
+    "typDokladu.zbytekVynos": {
+      "titl": "Остальное - выручка"
+    },
+    "typDokladu.zdd": {
+      "titl": "Резервный налоговый документ"
+    },
+    "typKonektoru.atcomp": {
+      "titl": "AT Computers a.s."
+    },
+    "typKonektoru.interObch": {
+      "titl": "интернет-магазин"
+    },
+    "typKurzu.cenotvorba": {
+      "titl": "Курс на ценообразование"
+    },
+    "typKurzu.intrastat": {
+      "titl": "Курс для Интрастата"
+    },
+    "typKurzu.obecny": {
+      "titl": "Общий"
+    },
+    "typKurzu.preceneni": {
+      "titl": "Курс на переоценку"
+    },
+    "typMj.cas": {
+      "titl": "время"
+    },
+    "typMj.delka": {
+      "titl": "длина"
+    },
+    "typMj.hmotnost": {
+      "titl": "вес"
+    },
+    "typMj.objem": {
+      "titl": "объём"
+    },
+    "typMj.plocha": {
+      "titl": "площадь"
+    },
+    "typObalu.obchodPreprava": {
+      "titl": "Бизнес - Грузоперевозки"
+    },
+    "typObalu.obchodProdej": {
+      "titl": "Бизнес - Продажи"
+    },
+    "typObalu.obchodSkupina": {
+      "titl": "Бизнес - Группа"
+    },
+    "typObalu.prumysl": {
+      "titl": "Промышленность"
+    },
+    "typObchodu.EUneplat": {
+      "titl": "ЕС неплатящий налоги"
+    },
+    "typObchodu.EUplatce": {
+      "titl": "ЕС налогоплательщик"
+    },
+    "typObchodu.cizina": {
+      "titl": "Не в ЕС"
+    },
+    "typObchodu.tuzem": {
+      "titl": "Своя страна"
+    },
+    "typOdp.mesic": {
+      "titl": "Месячный"
+    },
+    "typOdp.rovn": {
+      "titl": "Ровномерное"
+    },
+    "typOdp.zrych": {
+      "titl": "Ускоренное"
+    },
+    "typPlneni.obojiRCH": {
+      "titl": "Обе издержки (Reverse charge)"
+    },
+    "typPlneni.prijata": {
+      "titl": "Принятая"
+    },
+    "typPlneni.prijataRCH": {
+      "titl": "Принятые издержки (Reverse charge)"
+    },
+    "typPlneni.uskutecnena": {
+      "titl": "Реализованная"
+    },
+    "typPlneni.uskutecnenaRCH": {
+      "titl": "Реализованные издержки (Reverse charge)"
+    },
+    "typPlneniEet.uvestOsv": {
+      "titl": "Освобожденная ставка указывается"
+    },
+    "typPohybu.prijem": {
+      "titl": "Доход"
+    },
+    "typPohybu.vydej": {
+      "titl": "Выход"
+    },
+    "typPohybuSklad.prijemHoly": {
+      "titl": "\"Чистый\" доход"
+    },
+    "typPohybuSklad.prijemPoFak": {
+      "titl": "Доход по фактуре"
+    },
+    "typPohybuSklad.prijemPoObch": {
+      "titl": "Доход по заявке"
+    },
+    "typPohybuSklad.prijemPolot": {
+      "titl": "Доход по заготовкам"
+    },
+    "typPohybuSklad.prijemPrevod": {
+      "titl": "Доход по накладной"
+    },
+    "typPohybuSklad.prijemProFak": {
+      "titl": "Получение для выдачи счетов-фактур"
+    },
+    "typPohybuSklad.prijemVratka": {
+      "titl": "Получение (сторно-фактура, возврат)"
+    },
+    "typPohybuSklad.prijemVydejVratka": {
+      "titl": "Выдача (сторно-фактура, возврат)"
+    },
+    "typPohybuSklad.prijemVyrob": {
+      "titl": "Приём изделия"
+    },
+    "typPohybuSklad.vydejHoly": {
+      "titl": "\"Чистый\" доход"
+    },
+    "typPohybuSklad.vydejPoFak": {
+      "titl": "Выход по фактуре"
+    },
+    "typPohybuSklad.vydejPoObch": {
+      "titl": "Выход по заявке"
+    },
+    "typPohybuSklad.vydejPolot": {
+      "titl": "Выход заготовок"
+    },
+    "typPohybuSklad.vydejPrevod": {
+      "titl": "Выход для накладной"
+    },
+    "typPohybuSklad.vydejProFakCenik": {
+      "titl": "Выдача для фактуры (цены из прейскуранта)"
+    },
+    "typPohybuSklad.vydejProFakRucne": {
+      "titl": "Выдача для фактуры (цены вручную)"
+    },
+    "typPohybuSklad.vydejVyrob": {
+      "titl": "Выдача изделия"
+    },
+    "typPolozky.dorovnaniTuz": {
+      "titl": "Выравнивание местной валюты"
+    },
+    "typPolozky.katalog": {
+      "titl": "Статья из прейскуранта"
+    },
+    "typPolozky.korekceKRZisk": {
+      "titl": "Корректировка (прибыль) от курсовой разницы"
+    },
+    "typPolozky.korekceKRZtrata": {
+      "titl": "Корректировка курсовой разницы (убыток)"
+    },
+    "typPolozky.korekceOdpoctu": {
+      "titl": "Корректировка вычета авансового платежа/уплаты налога"
+    },
+    "typPolozky.korekceRekapitulace": {
+      "titl": "Исправление перерасчета НДС"
+    },
+    "typPolozky.korekceTuz": {
+      "titl": "Коррекция своей валюты"
+    },
+    "typPolozky.obecny": {
+      "titl": "Статья с ценой и количесвом"
+    },
+    "typPolozky.odpocetZalohy": {
+      "titl": "Отсчёт аванса"
+    },
+    "typPolozky.odpocetZdd": {
+      "titl": "Зачет аванса"
+    },
+    "typPolozky.text": {
+      "titl": "Текстовая строка"
+    },
+    "typPolozky.ucetni": {
+      "titl": "Статья для внесен. в бухгалтерию"
+    },
+    "typPoplatku.obecny": {
+      "titl": "Общий"
+    },
+    "typPoplatku.recyklacni": {
+      "titl": "Переработка"
+    },
+    "typPouziti.1pouziti": {
+      "titl": "Одноразовая упаковка"
+    },
+    "typPouziti.opakovane": {
+      "titl": "Многоразовая упаковка"
+    },
+    "typPrav.admin": {
+      "titl": "Администратор"
+    },
+    "typPrav.jenCist": {
+      "titl": "Только чтение"
+    },
+    "typPrav.mzdovyUcetni": {
+      "titl": "Налоговый бухгалтер"
+    },
+    "typPrav.obchodnik": {
+      "titl": "Бизнесмен"
+    },
+    "typPrav.skladnik": {
+      "titl": "Кладовщик"
+    },
+    "typPrav.skladnikSPokladnou": {
+      "titl": "Кладовщик с кассой"
+    },
+    "typPrav.superUzivatel": {
+      "titl": "Супер пользователь"
+    },
+    "typPrav.ucetni": {
+      "titl": "Бухгалтер"
+    },
+    "typPrav.uzivatel": {
+      "titl": "Стандартный пользователь"
+    },
+    "typPrav.zablokovan": {
+      "titl": "Неактивный счёт"
+    },
+    "typPrikazu.inkaso": {
+      "titl": "Инкассовое поручение"
+    },
+    "typPrikazu.prikaz": {
+      "titl": "Платёжное поручен."
+    },
+    "typPrilohy.adresar": {
+      "titl": "Приложение адресной книги"
+    },
+    "typPrilohy.cenik": {
+      "titl": "Приложение ценника"
+    },
+    "typPrilohy.doklad": {
+      "titl": "Приложение документа"
+    },
+    "typPrilohy.kontakt": {
+      "titl": "Приложение контактов"
+    },
+    "typPrilohy.leasing": {
+      "titl": "Лизинг"
+    },
+    "typPrilohy.logo": {
+      "titl": "Лого"
+    },
+    "typPrilohy.majetek": {
+      "titl": "Недвижимость"
+    },
+    "typPrilohy.obrazek": {
+      "titl": "Вложение изображения"
+    },
+    "typPrilohy.odkaz": {
+      "titl": "URL ссылка на интернет или файл"
+    },
+    "typPrilohy.osoba": {
+      "titl": "Приложение лица"
+    },
+    "typPrilohy.ostatni": {
+      "titl": "Неуказанный тип крепления"
+    },
+    "typPrilohy.podRaz": {
+      "titl": "Подпись и печать"
+    },
+    "typPrilohy.polsmlouvy": {
+      "titl": "Приложение к пункту договора"
+    },
+    "typPrilohy.report": {
+      "titl": "Выход"
+    },
+    "typPrilohy.smlouva": {
+      "titl": "Приложение к договору"
+    },
+    "typPrilohy.udalost": {
+      "titl": "Приложение события"
+    },
+    "typPrilohy.zakazka": {
+      "titl": "Приложение заказа"
+    },
+    "typPristPrav.nepripustne": {
+      "titl": "Недоступны"
+    },
+    "typPristPrav.plny": {
+      "titl": "Полный доступ"
+    },
+    "typPristPrav.pouzeCist": {
+      "titl": "Только чтение"
+    },
+    "typPristPrav.upresneni": {
+      "titl": "Уточнение доступа"
+    },
+    "typRole.adr": {
+      "titl": "Каталог"
+    },
+    "typRole.glo": {
+      "titl": "Глобальный"
+    },
+    "typRole.stred": {
+      "titl": "Центр"
+    },
+    "typRole.wf": {
+      "titl": "рабочий процесс"
+    },
+    "typRole.zak": {
+      "titl": "заказать"
+    },
+    "typSablony.druhaUpominka": {
+      "titl": "Второе напоминание"
+    },
+    "typSablony.inventarizace": {
+      "titl": "Инвентаризация"
+    },
+    "typSablony.pokusOSmir": {
+      "titl": "Попытка мирового соглашения"
+    },
+    "typSablony.prvniUpominka": {
+      "titl": "Первое напоминание"
+    },
+    "typSestavy.cashflow": {
+      "titl": "cash flow"
+    },
+    "typSestavy.obecna": {
+      "titl": "обычная"
+    },
+    "typSestavy.rozvaha": {
+      "titl": "баланс"
+    },
+    "typSestavy.rozvahaIfrs": {
+      "titl": "МСФО баланс"
+    },
+    "typSestavy.vysledov": {
+      "titl": "отчётная таблица"
+    },
+    "typSestavy.vysledovIfrs": {
+      "titl": "МСФО отчётная таблица"
+    },
+    "typSpl.akontace": {
+      "titl": "нестанд. платёж"
+    },
+    "typSpl.bezna": {
+      "titl": "обычный взнос"
+    },
+    "typSpl.mimFinCin": {
+      "titl": "особ. фин. деят."
+    },
+    "typSpl.posledni": {
+      "titl": "последний взнос"
+    },
+    "typSpl.prevod": {
+      "titl": "Перечисление за остаточную цену"
+    },
+    "typSpl.prvni": {
+      "titl": "нолевой взнос"
+    },
+    "typSynchCenik.naWebu": {
+      "titl": "Интернет-магазин"
+    },
+    "typSynchCenik.rucne": {
+      "titl": "Синхронизировать вручную"
+    },
+    "typSynchCenik.veW10": {
+      "titl": "FlexiBee"
+    },
+    "typSynchCenik.zadna": {
+      "titl": "Несинхронизировать ценник"
+    },
+    "typSzbDph.dphOsv": {
+      "titl": "освобождено"
+    },
+    "typSzbDph.dphSniz": {
+      "titl": "снижена"
+    },
+    "typSzbDph.dphSniz2": {
+      "titl": "2. уменьшенный"
+    },
+    "typSzbDph.dphZakl": {
+      "titl": "базовый"
+    },
+    "typTiskDokladu.doklad": {
+      "titl": "Документ"
+    },
+    "typTiskDokladu.dokladPokladny": {
+      "titl": "Кассовый документ"
+    },
+    "typTiskDokladu.dokladSkladu": {
+      "titl": "Складской документ"
+    },
+    "typUcJednotky.mala": {
+      "titl": "Небольшая бухгалтерская единица"
+    },
+    "typUcJednotky.mikro": {
+      "titl": "Микроучетная единица"
+    },
+    "typUcJednotky.velka": {
+      "titl": "Крупное бухгалтерское подразделение"
+    },
+    "typUcetniJednotkyCz.mala": {
+      "titl": "Небольшая бухгалтерская единица"
+    },
+    "typUcetniJednotkyCz.mikro": {
+      "titl": "Микроучетная единица"
+    },
+    "typUcetniJednotkyCz.stredni": {
+      "titl": "Среднее бухгалтерское подразделение"
+    },
+    "typUcetniJednotkyCz.velka": {
+      "titl": "Крупное бухгалтерское подразделение"
+    },
+    "typUctu.podrozvahovy": {
+      "titl": "подитоговый"
+    },
+    "typUctu.rozvahovy": {
+      "titl": "балансовый"
+    },
+    "typUctu.vnitropodnikovy": {
+      "titl": "внутри организации"
+    },
+    "typUctu.vysledkovy": {
+      "titl": "итоговый"
+    },
+    "typUctu.zaverkovy": {
+      "titl": "отчётный"
+    },
+    "typUdal.casVyr": {
+      "titl": "Частичное исключение"
+    },
+    "typUdal.prerOdpDan": {
+      "titl": "Приостановка налоговых отчислений"
+    },
+    "typUdal.prerOdpUcet": {
+      "titl": "Приостановка приход.-расх. отчисл."
+    },
+    "typUdal.rozdilCenyAZustatku": {
+      "titl": "Разница между ценой продажи и остатком"
+    },
+    "typUdal.techZhod": {
+      "titl": "Техническая оценка"
+    },
+    "typUdal.uplVyr": {
+      "titl": "Полное исключение"
+    },
+    "typUdal.uzivatelska": {
+      "titl": "Пользовательское событие"
+    },
+    "typUdal.zahOdpDan": {
+      "titl": "Повторное открытие налоговых отчислений"
+    },
+    "typUdal.zahOdpUcet": {
+      "titl": "Повторное открытие приход.-расх. отчислений"
+    },
+    "typUdal.zarazeni": {
+      "titl": "Включение"
+    },
+    "typUdal.zmenDob": {
+      "titl": "Изменение периода отчисления"
+    },
+    "typUdal.zmenHodDan": {
+      "titl": "Изменение остатка налоговой амортизации"
+    },
+    "typUdal.zmenHodUcet": {
+      "titl": "Изменение в балансе бухгалтерской амортизации"
+    },
+    "typUmisteniSklad.mistnost": {
+      "titl": "Помещение"
+    },
+    "typUmisteniSklad.police": {
+      "titl": "Полка"
+    },
+    "typUmisteniSklad.regal": {
+      "titl": "Стеллаж"
+    },
+    "typVazbyDokl.KR": {
+      "titl": "Разница в курсах"
+    },
+    "typVazbyDokl.KROdpoctu": {
+      "titl": "Корректировка вычета"
+    },
+    "typVazbyDokl.PP": {
+      "titl": "Переплата"
+    },
+    "typVazbyDokl.ZB": {
+      "titl": "Остаток"
+    },
+    "typVazbyDokl.hlavaDobropis": {
+      "titl": "Кредит"
+    },
+    "typVazbyDokl.hlavaSkl": {
+      "titl": "Складской документ"
+    },
+    "typVazbyDokl.hlavaSklKus": {
+      "titl": "Складской документ (состав спецификации)"
+    },
+    "typVazbyDokl.hlavaSklPrevod": {
+      "titl": "Складской документ (накладная)"
+    },
+    "typVazbyDokl.nakladVynos": {
+      "titl": "Распределение расходов и доходов"
+    },
+    "typVazbyDokl.obchod_faktura_hla": {
+      "titl": "Фактура образована с заявки"
+    },
+    "typVazbyDokl.obchod_faktura_pol": {
+      "titl": "Пункт счета-фактуры, созданный на основе заказа"
+    },
+    "typVazbyDokl.obchod_obchod_hla": {
+      "titl": "Торговая связь"
+    },
+    "typVazbyDokl.obchod_obchod_pol": {
+      "titl": "Торговая привязка товара"
+    },
+    "typVazbyDokl.obchod_sklad_hla": {
+      "titl": "Складской документ образован с заявки"
+    },
+    "typVazbyDokl.obchod_sklad_pol": {
+      "titl": "Элемент документа запаса, созданный на основе заказа"
+    },
+    "typVazbyDokl.obchod_zaloha_hla": {
+      "titl": "Залог образован с заявки"
+    },
+    "typVazbyDokl.obchod_zaloha_pol": {
+      "titl": "Резервный элемент, созданный на основе заказа"
+    },
+    "typVazbyDokl.odpocetPolZALOHY": {
+      "titl": "Вычет статьи аванса"
+    },
+    "typVazbyDokl.odpocetZALOHY": {
+      "titl": "Отчисление залога"
+    },
+    "typVazbyDokl.odpocetZDD": {
+      "titl": "Зачет аванса"
+    },
+    "typVazbyDokl.odpocetZddKr": {
+      "titl": "Курсовая разница - вычет авансового платежа"
+    },
+    "typVazbyDokl.odpocitavanaFaktura": {
+      "titl": "Счет-фактура на вычеты"
+    },
+    "typVazbyDokl.polozkaDobropis": {
+      "titl": "Пункт кредитной ноты"
+    },
+    "typVazbyDokl.polozkaSkl": {
+      "titl": "Статья склада"
+    },
+    "typVazbyDokl.polozkaSklKus": {
+      "titl": "Статья склада (состав спецификации)"
+    },
+    "typVazbyDokl.polozkaSklPrevod": {
+      "titl": "Статья склада (накладная)"
+    },
+    "typVazbyDokl.polozkaSklSada": {
+      "titl": "Статья склада (разложение набора)"
+    },
+    "typVazbyDokl.preceneni": {
+      "titl": "Переоценка"
+    },
+    "typVazbyDokl.uhrada": {
+      "titl": "Оплата"
+    },
+    "typVazbyDokl.uhradaKR": {
+      "titl": "Оплата разницы в курсах"
+    },
+    "typVazbyDokl.uhradaZALOHY": {
+      "titl": "Оплата залога"
+    },
+    "typVazbyDokl.uhrazovanaFaktura": {
+      "titl": "Возмещаемый счет-фактура"
+    },
+    "typVazbyDokl.uhrazujiciDoklad": {
+      "titl": "Документ о возмещении расходов"
+    },
+    "typVazbyDokl.vazbaZDD": {
+      "titl": "Связь аванс. док."
+    },
+    "typVazbyDokl.zalHlavKr": {
+      "titl": "Курсовая разница - авансовый платеж"
+    },
+    "typVazbyDokl.zalPolKr": {
+      "titl": "Курсовая разница - авансовая статья"
+    },
+    "typVazbyDokl.zaucProdejky": {
+      "titl": "Внесение чека в бухгалтерию"
+    },
+    "typVypCeny.marze": {
+      "titl": "маржа"
+    },
+    "typVypCeny.neuveden": {
+      "titl": "не указано"
+    },
+    "typVypCeny.rabat": {
+      "titl": "уступка"
+    },
+    "typVypCeny.sleva": {
+      "titl": "скидка"
+    },
+    "typVypSestavy.vJednotkach": {
+      "titl": "в целых %currency-symbol"
+    },
+    "typVypSestavy.vKcPresne": {
+      "titl": "в %currency-symbol точно"
+    },
+    "typVypSestavy.vTisicich": {
+      "titl": "в целых тысячах %currency-symbol"
+    },
+    "typVzniku.importovaneDoCr": {
+      "titl": "импортируется в Чешскую Республику"
+    },
+    "typVzniku.nakoupeneVCr": {
+      "titl": "Приобретено в Чешской Республике"
+    },
+    "typVzniku.vyrobeneVCr": {
+      "titl": "Сделано в Чехии"
+    },
+    "typVztahu.dodavatel": {
+      "titl": "Поставщик"
+    },
+    "typVztahu.financniUrad": {
+      "titl": "Налоговый департамент"
+    },
+    "typVztahu.odberDodav": {
+      "titl": "Клиент/Поставщ."
+    },
+    "typVztahu.odberatel": {
+      "titl": "Клиент"
+    },
+    "typVztahu.socialka": {
+      "titl": "Социалка"
+    },
+    "typVztahu.vsechno": {
+      "titl": "Всё"
+    },
+    "typVztahu.vyrobce": {
+      "titl": "Изготовитель"
+    },
+    "typVztahu.vyrobna": {
+      "titl": "Цех"
+    },
+    "typVztahu.zdravotka": {
+      "titl": "Мед. страховка"
+    },
+    "typZak.nevyrob": {
+      "titl": "непроизводственный"
+    },
+    "typZak.vyrob": {
+      "titl": "производственный"
+    },
+    "typZasoby.material": {
+      "titl": "Материал"
+    },
+    "typZasoby.nedvyroba": {
+      "titl": "Недоконченное производство"
+    },
+    "typZasoby.polotovar": {
+      "titl": "Заготовка"
+    },
+    "typZasoby.poplatek": {
+      "titl": "Начисление"
+    },
+    "typZasoby.sluzba": {
+      "titl": "Услуга"
+    },
+    "typZasoby.vyrobek": {
+      "titl": "Изделие"
+    },
+    "typZasoby.zbozi": {
+      "titl": "Товар"
+    },
+    "typZasoby.zvire": {
+      "titl": "Животное"
+    },
+    "ucelCertK.eet": {
+      "titl": "Сертификат для EET"
+    },
+    "ucelCertK.osobni": {
+      "titl": "Персональный сертификат"
+    },
+    "zamek.otevreno": {
+      "titl": "Открыто"
+    },
+    "zamek.polozamceno": {
+      "titl": "Закрыто кроме бухгалтера"
+    },
+    "zamek.prohlednuto": {
+      "titl": "Рассмотрено"
+    },
+    "zamek.zamceno": {
+      "titl": "Блокировано"
+    },
+    "zaokrJak.dolu": {
+      "titl": "вниз"
+    },
+    "zaokrJak.matem": {
+      "titl": "математически"
+    },
+    "zaokrJak.nahoru": {
+      "titl": "вверх"
+    },
+    "zaokrNa.5desetiny": {
+      "titl": "0.5"
+    },
+    "zaokrNa.5jednotky": {
+      "titl": "5"
+    },
+    "zaokrNa.5setiny": {
+      "titl": "0.05"
+    },
+    "zaokrNa.desetiny": {
+      "titl": "0.1"
+    },
+    "zaokrNa.desitky": {
+      "titl": "10"
+    },
+    "zaokrNa.jednotky": {
+      "titl": "1"
+    },
+    "zaokrNa.setiny": {
+      "titl": "0.01"
+    },
+    "zaokrNa.stovky": {
+      "titl": "100"
+    },
+    "zaokrNa.tisice": {
+      "titl": "1000"
+    },
+    "zaokrNa.tisiciny": {
+      "titl": "0.001"
+    },
+    "zaokrNa.zadne": {
+      "titl": "неокруглять"
+    },
+    "zastupceTyp.fo": {
+      "titl": "Физическое лицо"
+    },
+    "zastupceTyp.po": {
+      "titl": "Юридическое лицо"
+    },
+    "zmenaPohybuRealizace": {
+      "titl": "Разрешить изменение спецификации типа движения для диспетчера/получателя, созданного на основе заказа/счета-фактуры"
+    },
+    "zobrLogo.prizFormat": {
+      "titl": "Приспособиться формату"
+    },
+    "zobrLogo.prizFormatPomeryStran": {
+      "titl": "Приспособиться формату и сохранить соотношение сторон"
+    },
+    "zobrLogo.zachovVelikost": {
+      "titl": "Сохранить размер"
+    },
+    "zobrazWebKompMod.auto": {
+      "titl": "Автоматический выбор"
+    },
+    "zobrazWebKompMod.browser": {
+      "titl": "Веб-браузер"
+    },
+    "zpusobFakt.dopredu": {
+      "titl": "Счет-фактура на аванс"
+    },
+    "zpusobFakt.zpetne": {
+      "titl": "Обратный счет-фактура"
+    },
+    "zpusobOdp.rocne": {
+      "titl": "% Каждый год"
+    },
+    "zpusobOdp.zar100": {
+      "titl": "100 %"
+    },
+    "zpusobOdp.zar5050": {
+      "titl": "50 % / 50 %"
+    },
+    "zpusobStahKurz.denne": {
+      "titl": "Каждый день"
+    },
+    "zpusobStahKurz.mesicne": {
+      "titl": "Каждый месяц"
+    },
+    "zpusobStahKurz.nikdy": {
+      "titl": "Не скачивать"
+    },
+    "zpusobStahKurz.rocne": {
+      "titl": "Каждый год"
+    },
+    "zpusobVypo.obrat": {
+      "titl": "оборот за период"
+    },
+    "zpusobVypo.obratDal": {
+      "titl": "кредиторский оборот за период"
+    },
+    "zpusobVypo.obratMd": {
+      "titl": "дебиторский оборот за период"
+    },
+    "zpusobVypo.stavKon": {
+      "titl": "состояние счёта в конце периода"
+    },
+    "zpusobVypo.stavPoc": {
+      "titl": "состояние счёта в начале периода"
+    },
+    "zvysZrych.proc0": {
+      "titl": "0 %"
+    },
+    "zvysZrych.proc10": {
+      "titl": "10 %"
+    },
+    "zvysZrych.proc15": {
+      "titl": "15 %"
+    },
+    "zvysZrych.proc20": {
+      "titl": "20 %"
+    }
+  }
+}

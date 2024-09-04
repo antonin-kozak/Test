@@ -1,0 +1,2305 @@
+{
+  "dials": {
+    "autoSendMailMod.neodesilat": {
+      "titl": "Do not send"
+    },
+    "autoSendMailMod.odesilat": {
+      "titl": "Send"
+    },
+    "autoSendMailMod.odesilatBcc": {
+      "titl": "Send by e-mail only in blind copy"
+    },
+    "automatickeOdvozovaniVarSymNaFap": {
+      "titl": "Activates automatic derivation of the variable symbol from the incoming number on the received invoice"
+    },
+    "barvaMaterialu.bareNepruhled": {
+      "titl": "Opaque coloured"
+    },
+    "barvaMaterialu.barevPruhled": {
+      "titl": "Transparent coloured"
+    },
+    "barvaMaterialu.transparent": {
+      "titl": "Transparent"
+    },
+    "clenSpl.financni": {
+      "titl": "Financing activity"
+    },
+    "clenSpl.vstupni": {
+      "titl": "Input price rise"
+    },
+    "creditCheck.green": {
+      "titl": "green"
+    },
+    "creditCheck.red": {
+      "titl": "red"
+    },
+    "creditCheck.yellow": {
+      "titl": "yellow"
+    },
+    "danEvid.NeDanEvid": {
+      "titl": "Not Tax evidence"
+    },
+    "danEvid.Par10Ostatni": {
+      "titl": "§10 - Other income"
+    },
+    "danEvid.Par7JinePodn": {
+      "titl": "§7 - Self-employment"
+    },
+    "danEvid.Par7PodilySpol": {
+      "titl": "§7 - Partnership shares"
+    },
+    "danEvid.Par7Prava": {
+      "titl": "§7 - Rights and royalties"
+    },
+    "danEvid.Par7ZemVyroba": {
+      "titl": "§7 - Agricultural production"
+    },
+    "danEvid.Par7Zivnost": {
+      "titl": "§7 - Self-employment (trade)"
+    },
+    "danEvid.Par8KapMaj": {
+      "titl": "§8 - Capital income"
+    },
+    "danEvid.Par9Pronajem": {
+      "titl": "§9 - Rental income"
+    },
+    "danEvid.SocPoj": {
+      "titl": "Social insurance payment"
+    },
+    "danEvid.ZdravPoj": {
+      "titl": "Health insurance payment"
+    },
+    "danEvid.mzdy": {
+      "titl": "Salaries"
+    },
+    "danEvid.ostatnePrijmy": {
+      "titl": "Other income"
+    },
+    "danEvid.ostatneVydavky": {
+      "titl": "Other outcome"
+    },
+    "danEvid.platbyPojistnehoAPrispevkov": {
+      "titl": "Insurance and fee payment"
+    },
+    "danEvid.predajTovaru": {
+      "titl": "Goods sale"
+    },
+    "danEvid.predajVyrobkovSluzieb": {
+      "titl": "Products and services sale"
+    },
+    "danEvid.sluzby": {
+      "titl": "Services"
+    },
+    "danEvid.tvorbaSocialnihoFondu": {
+      "titl": "Social fund creation"
+    },
+    "danEvid.zasoby": {
+      "titl": "Reserves"
+    },
+    "danEvidSkupina.nespada": {
+      "titl": "Not Tax evidence"
+    },
+    "danEvidSkupina.nevyplneno": {
+      "titl": "Undefined"
+    },
+    "danEvidSkupina.ostatni": {
+      "titl": "Others"
+    },
+    "danEvidSkupina.par07": {
+      "titl": "§7"
+    },
+    "danEvidSkupina.par08": {
+      "titl": "§8"
+    },
+    "danEvidSkupina.par09": {
+      "titl": "§9"
+    },
+    "danEvidSkupina.par10": {
+      "titl": "§10"
+    },
+    "danEvidSkupina.prijem": {
+      "titl": "Income"
+    },
+    "danEvidSkupina.vydej": {
+      "titl": "Outcome"
+    },
+    "dashboardPanelVisibility.hidden": {
+      "titl": "Not seen by anyone"
+    },
+    "dashboardPanelVisibility.private": {
+      "titl": "Seen only by author"
+    },
+    "dashboardPanelVisibility.shared": {
+      "titl": "Can be shared"
+    },
+    "dashboardPanelVisibility.shared-all": {
+      "titl": "Seen by everyone"
+    },
+    "datazTypParam.actId": {
+      "titl": "Current entry"
+    },
+    "datazTypParam.actModul": {
+      "titl": "Current module"
+    },
+    "datazTypParam.date": {
+      "titl": "Date"
+    },
+    "datazTypParam.integer": {
+      "titl": "Whole number"
+    },
+    "datazTypParam.logic": {
+      "titl": "Logical value"
+    },
+    "datazTypParam.numeric": {
+      "titl": "Real number"
+    },
+    "datazTypParam.object": {
+      "titl": "Object"
+    },
+    "datazTypParam.string": {
+      "titl": "String"
+    },
+    "denniKurz.aktualniDen": {
+      "titl": "From current day"
+    },
+    "denniKurz.predchoziDen": {
+      "titl": "From previous day"
+    },
+    "druhLeas.financni": {
+      "titl": "Financial"
+    },
+    "druhLeas.operativ": {
+      "titl": "Operative"
+    },
+    "druhMaj.drobny": {
+      "titl": "Small"
+    },
+    "druhMaj.hmDl": {
+      "titl": "Tangible long-term"
+    },
+    "druhMaj.nehmDl": {
+      "titl": "Intangible long-term"
+    },
+    "druhMaj.neodepis": {
+      "titl": "Not depreciated (only evidence)"
+    },
+    "druhStavuZakazky.hotovo": {
+      "titl": "Finished"
+    },
+    "druhStavuZakazky.mame": {
+      "titl": "Gained"
+    },
+    "druhStavuZakazky.storno": {
+      "titl": "Canceled"
+    },
+    "druhStavuZakazky.ziskavame": {
+      "titl": "Getting"
+    },
+    "druhUctu.aktivni": {
+      "titl": "Assets"
+    },
+    "druhUctu.aktpasvo": {
+      "titl": "Assets+Liabilities (choice)"
+    },
+    "druhUctu.aktpasvy": {
+      "titl": "Assets+Liabilities (on result)"
+    },
+    "druhUctu.naklady": {
+      "titl": "Costs"
+    },
+    "druhUctu.otevknih": {
+      "titl": "Open ledger"
+    },
+    "druhUctu.pasivhvy": {
+      "titl": "Liabilities - Profit"
+    },
+    "druhUctu.pasivni": {
+      "titl": "Liabilities"
+    },
+    "druhUctu.prhosvys": {
+      "titl": "Transfer of profit"
+    },
+    "druhUctu.uzavknih": {
+      "titl": "Close ledger"
+    },
+    "druhUctu.vynosy": {
+      "titl": "Profit"
+    },
+    "druhUdal.pozn": {
+      "titl": "Note"
+    },
+    "druhUdal.udal": {
+      "titl": "Event"
+    },
+    "druhUdal.ukol": {
+      "titl": "Task"
+    },
+    "druhUdal.workflow": {
+      "titl": "Task workflow"
+    },
+    "duverCert.duverovat": {
+      "titl": "Trust"
+    },
+    "duverCert.ptatSe": {
+      "titl": "Always ask"
+    },
+    "eetMod.ne": {
+      "titl": "Switched off"
+    },
+    "eetMod.ostry": {
+      "titl": "Live"
+    },
+    "eetMod.ostryTest": {
+      "titl": "Non-production live (for developers)"
+    },
+    "eetMod.overovaci": {
+      "titl": "Verifying"
+    },
+    "eetMod.overovaciTest": {
+      "titl": "Non-production verifying (for developers)"
+    },
+    "eetStav.ne": {
+      "titl": "Not sent"
+    },
+    "eetStav.neStorno": {
+      "titl": "Not sent cancelled"
+    },
+    "eetStav.neuspech": {
+      "titl": "Failure"
+    },
+    "eetStav.neuspechStorno": {
+      "titl": "Failure cancelled"
+    },
+    "eetStav.odeslano": {
+      "titl": "Sent"
+    },
+    "eetStav.odeslanoStorno": {
+      "titl": "Sent cancelled"
+    },
+    "eetTyp.anoBezny": {
+      "titl": "Regular mode"
+    },
+    "eetTyp.anoEkasa": {
+      "titl": "eCash"
+    },
+    "eetTyp.anoZjednoduseny": {
+      "titl": "Simplified mode"
+    },
+    "eetTyp.ne": {
+      "titl": "Not subject to electronic revenue registration"
+    },
+    "eetTypPlatby.cestovni": {
+      "titl": "Payments for travel service"
+    },
+    "eetTypPlatby.poukaz": {
+      "titl": "Payments with coupons, gift vouchers, cards, vouchers, etc."
+    },
+    "eetTypPlatby.pouzite": {
+      "titl": "Sale of used goods"
+    },
+    "ekokom.exportovaneObaly": {
+      "titl": "Exported packaging"
+    },
+    "ekokom.nezaplaceneObaly": {
+      "titl": "Packaging not paid for"
+    },
+    "ekokom.predplaceneObaly": {
+      "titl": "Prepaid packaging"
+    },
+    "ekokom.vyrazeneObaly": {
+      "titl": "Discarded packaging"
+    },
+    "ekokom.zpoplatneneObaly": {
+      "titl": "Charged packaging"
+    },
+    "elPrikazPoplatek.odesilatel": {
+      "titl": "Sender"
+    },
+    "elPrikazPoplatek.prijemce": {
+      "titl": "Recipient"
+    },
+    "elPrikazPoplatek.spolecne": {
+      "titl": "Collective"
+    },
+    "elPrikazStav.odeslan": {
+      "titl": "Sent"
+    },
+    "elPrikazStav.vytvoren": {
+      "titl": "Not sent"
+    },
+    "elVypisDuplicita.nekontrolovat": {
+      "titl": "Do not check"
+    },
+    "elVypisDuplicita.polozka": {
+      "titl": "Ignore already loaded items"
+    },
+    "elVypisDuplicita.vypis": {
+      "titl": "Ignore already loaded statements"
+    },
+    "fapDatProDuzpUctoK.aktDatum": {
+      "titl": "Current date"
+    },
+    "fapDatProDuzpUctoK.datSplat": {
+      "titl": "Due date"
+    },
+    "fapDatProDuzpUctoK.datUcto": {
+      "titl": "Settlement date"
+    },
+    "fapDatProDuzpUctoK.datVyst": {
+      "titl": "Accepted"
+    },
+    "fapDatProDuzpUctoK.duzpPuv": {
+      "titl": "Date of taxable supplies"
+    },
+    "fapDatProDuzpUctoK.neplnit": {
+      "titl": "Do not pre-fill"
+    },
+    "finbricksActivateBic": {
+      "titl": "Activates Finbricks for an account of a financial institution that we do not yet have on our supported list"
+    },
+    "formExport.edi": {
+      "titl": "EDI"
+    },
+    "formExport.xml": {
+      "titl": "XML"
+    },
+    "formaDopravy.ceskaPostaM": {
+      "titl": "Czech Post (File M)"
+    },
+    "formaDopravy.ceskaPostaPO": {
+      "titl": "Czech Post (e-filing)"
+    },
+    "formaDopravy.geis": {
+      "titl": "Geis"
+    },
+    "formaDopravy.ppl": {
+      "titl": "PPL"
+    },
+    "formaUhr.cenina": {
+      "titl": "Voucher/stamp amount"
+    },
+    "formaUhr.dobirka": {
+      "titl": "Cash on delivery"
+    },
+    "formaUhr.hotove": {
+      "titl": "Cash"
+    },
+    "formaUhr.jina": {
+      "titl": "In another form"
+    },
+    "formaUhr.nespec": {
+      "titl": "Non-specific"
+    },
+    "formaUhr.platKart": {
+      "titl": "Payment card"
+    },
+    "formaUhr.prevod": {
+      "titl": "Bank transfer"
+    },
+    "formaUhr.sek": {
+      "titl": "Cheque"
+    },
+    "formaUhr.slozenka": {
+      "titl": "Money postal order"
+    },
+    "formaUhr.zapocet": {
+      "titl": "Credit"
+    },
+    "frDanNakl.ctvrtlet": {
+      "titl": "Quarterly"
+    },
+    "frDanNakl.dvoumesi": {
+      "titl": "Every two months"
+    },
+    "frDanNakl.mesicne": {
+      "titl": "Monthly"
+    },
+    "frDanNakl.pololet": {
+      "titl": "Every six months"
+    },
+    "frDanNakl.rocne": {
+      "titl": "Yearly"
+    },
+    "frekAkt.5minut": {
+      "titl": "Every 5 minutes"
+    },
+    "frekAkt.denne": {
+      "titl": "Every day"
+    },
+    "frekAkt.hodinu": {
+      "titl": "Every hour"
+    },
+    "frekAkt.rucne": {
+      "titl": "Manually"
+    },
+    "gdprPlatnost.manualne": {
+      "titl": "Manually"
+    },
+    "gdprPlatnost.vznikAutoKonec": {
+      "titl": "Automatically from the end of the record's validity"
+    },
+    "gdprPlatnost.vznikAutoPocatek": {
+      "titl": "Automatically from the beginning of the record validity"
+    },
+    "gdprPravTit.cuaVyslSouhl": {
+      "titl": "Sensitive data: explicit consent to processing"
+    },
+    "gdprPravTit.cubZpracNezb": {
+      "titl": "Sensitive data: necessary processing"
+    },
+    "gdprPravTit.cucOchrZaj": {
+      "titl": "Sensitive data: protection of vital interests"
+    },
+    "gdprPravTit.cudClenNezis": {
+      "titl": "Sensitive data: member of a non-profit entity"
+    },
+    "gdprPravTit.cueZjevZver": {
+      "titl": "Sensitive data: apparently published data"
+    },
+    "gdprPravTit.cufPravNarok": {
+      "titl": "Sensitive data: enforcement or defence of legal claims"
+    },
+    "gdprPravTit.cugVyzVerZaj": {
+      "titl": "Sensitive data: significant public interest"
+    },
+    "gdprPravTit.cuhLekarOs": {
+      "titl": "Sensitive data: health and social care"
+    },
+    "gdprPravTit.cuiVerZdr": {
+      "titl": "Sensitive data: public interest in public health"
+    },
+    "gdprPravTit.cujArchVyzStat": {
+      "titl": "Sensitive data: archiving, research or statistical purposes"
+    },
+    "gdprPravTit.opravZaj": {
+      "titl": "Legitimate interest"
+    },
+    "gdprPravTit.plnSml": {
+      "titl": "Performance of contract"
+    },
+    "gdprPravTit.souhlZprac": {
+      "titl": "Consent to processing"
+    },
+    "gdprPravTit.splnPovin": {
+      "titl": "Fulfilment of legal obligation"
+    },
+    "gdprPravTit.verejZaj": {
+      "titl": "Public interest"
+    },
+    "gdprPravTit.zivotDulez": {
+      "titl": "Vital"
+    },
+    "gdprTypVztahu.jedenZeZprac": {
+      "titl": "One of the processors"
+    },
+    "gdprTypVztahu.prijemce": {
+      "titl": "Recipient"
+    },
+    "gdprTypVztahu.spolSpravce": {
+      "titl": "Joint administrators"
+    },
+    "gdprTypVztahu.spravce": {
+      "titl": "Administrator"
+    },
+    "gdprTypVztahu.subzpracovatel": {
+      "titl": "Sub-processor"
+    },
+    "gdprTypVztahu.zastupce": {
+      "titl": "Representative"
+    },
+    "gdprTypVztahu.zpracovatel": {
+      "titl": "Processor"
+    },
+    "isdocPrilohaMailu.ano": {
+      "titl": "Yes"
+    },
+    "isdocPrilohaMailu.ne": {
+      "titl": "No"
+    },
+    "isdocPrilohaMailu.podleTypDokl": {
+      "titl": "By document type"
+    },
+    "jakUhrazeno.autoBezVs": {
+      "titl": "Automatically by amount"
+    },
+    "jakUhrazeno.autoBuc": {
+      "titl": "Automatically according to bank account"
+    },
+    "jakUhrazeno.autoKod": {
+      "titl": "Automatically to Internal Document No."
+    },
+    "jakUhrazeno.autoVs": {
+      "titl": "Automatically by var.sym."
+    },
+    "jakUhrazeno.autoVsRuzneMeny": {
+      "titl": "Automatically by var.sym. (different currencies)"
+    },
+    "jakUhrazeno.autoZak": {
+      "titl": "Automatically according to customer number"
+    },
+    "jakUhrazeno.rucne1": {
+      "titl": "Manually - 1 document"
+    },
+    "jakUhrazeno.rucneCast": {
+      "titl": "Manually - partially paid"
+    },
+    "jakUhrazeno.rucneN": {
+      "titl": "Manually - multiple documents"
+    },
+    "jakyTypDokl.posledni": {
+      "titl": "Last chosen"
+    },
+    "jakyTypDokl.primarni": {
+      "titl": "Primary"
+    },
+    "jakyTypDokl.zeptat": {
+      "titl": "Ask user"
+    },
+    "jazyk.cs": {
+      "titl": "Czech"
+    },
+    "jazyk.de": {
+      "titl": "German"
+    },
+    "jazyk.en": {
+      "titl": "English"
+    },
+    "jazyk.es": {
+      "titl": "Spanish"
+    },
+    "jazyk.fr": {
+      "titl": "French"
+    },
+    "jazyk.hu": {
+      "titl": "Hungarian"
+    },
+    "jazyk.it": {
+      "titl": "Italian"
+    },
+    "jazyk.none": {
+      "titl": "Inactive"
+    },
+    "jazyk.pl": {
+      "titl": "Polish"
+    },
+    "jazyk.ro": {
+      "titl": "Romanian"
+    },
+    "jazyk.ru": {
+      "titl": "Russian"
+    },
+    "jazyk.sk": {
+      "titl": "Slovak"
+    },
+    "kodPlneni.bezVlivu": {
+      "titl": "No impact on VAT"
+    },
+    "kodPlneni.doprProstr": {
+      "titl": "Transportation vehicle"
+    },
+    "kodPlneni.dovozOSS": {
+      "titl": "OSS - import regime"
+    },
+    "kodPlneni.knihy": {
+      "titl": "Delivery of books and similar services"
+    },
+    "kodPlneni.majetek": {
+      "titl": "Business property"
+    },
+    "kodPlneni.mimoEuOSS": {
+      "titl": "OSS - outside the EU"
+    },
+    "kodPlneni.nespec": {
+      "titl": "Unspecified"
+    },
+    "kodPlneni.oprava": {
+      "titl": "Correction of filling"
+    },
+    "kodPlneni.ostatni": {
+      "titl": "Other"
+    },
+    "kodPlneni.osv": {
+      "titl": "Exempt"
+    },
+    "kodPlneni.prenDanPov": {
+      "titl": "Transferred tax obligation"
+    },
+    "kodPlneni.prenDanPovOprava": {
+      "titl": "Transferred tax obligation - user selection"
+    },
+    "kodPlneni.sluzby": {
+      "titl": "Services delivery"
+    },
+    "kodPlneni.sluzbyMOSS": {
+      "titl": "Special mode of one administrative location (Mini One Stop Shop)"
+    },
+    "kodPlneni.sluzbyOSS": {
+      "titl": "OSS - EU services"
+    },
+    "kodPlneni.tristran": {
+      "titl": "Three-way trade"
+    },
+    "kodPlneni.zbozi": {
+      "titl": "Goods delivery"
+    },
+    "kodPlneni.zboziOSS": {
+      "titl": "OSS - EU goods"
+    },
+    "logoPozice.nahore": {
+      "titl": "Logo at top"
+    },
+    "logoPozice.vlevo": {
+      "titl": "Logo at left"
+    },
+    "material.drevo": {
+      "titl": "Wood"
+    },
+    "material.drevoDrevoDrevotriska": {
+      "titl": "Wood - Wood and chipboard"
+    },
+    "material.drevoKompozit": {
+      "titl": "Wood - Composite with non-wood parts"
+    },
+    "material.jine": {
+      "titl": "Other"
+    },
+    "material.kompozit": {
+      "titl": "Composite material"
+    },
+    "material.kompozitVetsi": {
+      "titl": "Composite material, over 3 l"
+    },
+    "material.kovy5Al": {
+      "titl": "Metals above 5L - AL"
+    },
+    "material.kovy5Fe": {
+      "titl": "Metals above 5L - FE"
+    },
+    "material.kovyAl": {
+      "titl": "Metals - AL"
+    },
+    "material.kovyAlKompozit": {
+      "titl": "Metals - Composite Al"
+    },
+    "material.kovyAlKompozitVetsi": {
+      "titl": "Metals - Composite Al, over 3 l"
+    },
+    "material.kovyAlVetsi": {
+      "titl": "Metals - Al, over 3 l"
+    },
+    "material.kovyFe": {
+      "titl": "Metals - FE"
+    },
+    "material.kovyFeKompozit": {
+      "titl": "Metals - Composite Fe"
+    },
+    "material.kovyFeKompozitVetsi": {
+      "titl": "Metals - Composite Fe, over 3 l"
+    },
+    "material.kovyFeVetsi": {
+      "titl": "Metals - Fe, over 3 l"
+    },
+    "material.mekPlastBioRozlozit": {
+      "titl": "Soft plastics - Biodegradable"
+    },
+    "material.mekPlastBioRozlozitVetsi": {
+      "titl": "Soft plastics - Biodegradable, over 3 l"
+    },
+    "material.mekPlastEps": {
+      "titl": "Soft plastics - EPS"
+    },
+    "material.mekPlastEpsVetsi": {
+      "titl": "Soft plastics - EPS, over 3 l"
+    },
+    "material.mekPlastJine": {
+      "titl": "Soft plastics - Other"
+    },
+    "material.mekPlastJineVetsi": {
+      "titl": "Soft plastics - Other, over 3 l"
+    },
+    "material.mekPlastKompozit": {
+      "titl": "Soft Plastics - Composite"
+    },
+    "material.mekPlastKompozitVetsi": {
+      "titl": "Soft plastics - Composite, over 3 l"
+    },
+    "material.mekPlastPe": {
+      "titl": "Soft plastics - PE"
+    },
+    "material.mekPlastPeVetsi": {
+      "titl": "Soft plastics - PE, over 3 l"
+    },
+    "material.mekPlastPet": {
+      "titl": "Soft plastics - PET"
+    },
+    "material.mekPlastPetVetsi": {
+      "titl": "Soft plastics - PET, over 3 l"
+    },
+    "material.mekPlastPp": {
+      "titl": "Soft plastics - PP"
+    },
+    "material.mekPlastPpVetsi": {
+      "titl": "Soft plastics - PP, over 3 l"
+    },
+    "material.mekPlastPs": {
+      "titl": "Soft plastics - PS"
+    },
+    "material.mekPlastPsVetsi": {
+      "titl": "Soft plastics - PS, over 3 l"
+    },
+    "material.mekPlastPvc": {
+      "titl": "Soft plastics - PVC"
+    },
+    "material.mekPlastPvcVetsi": {
+      "titl": "Soft plastics - PVC, over 3 l"
+    },
+    "material.mekPlastXps": {
+      "titl": "Soft plastics - XPS"
+    },
+    "material.mekPlastXpsVetsi": {
+      "titl": "Soft plastics - XPS, over 3 l"
+    },
+    "material.napojoveKartony": {
+      "titl": "Beverage cartons"
+    },
+    "material.napojoveKartonyVetsi": {
+      "titl": "Beverage cartons, over 3 l"
+    },
+    "material.papir": {
+      "titl": "Paper"
+    },
+    "material.papirBezny": {
+      "titl": "Paper - Regular"
+    },
+    "material.papirHladkaLepenka": {
+      "titl": "Paper - Smooth cardboard"
+    },
+    "material.papirKompozit": {
+      "titl": "Paper - Composite"
+    },
+    "material.papirNasavanaKart": {
+      "titl": "Paper - Suction cartoning"
+    },
+    "material.papirVlnitaLepenka": {
+      "titl": "Paper - Corrugated board"
+    },
+    "material.pevDut5PlastJine": {
+      "titl": "Solid hollow plastics above 5L - Other"
+    },
+    "material.pevDut5PlastPe": {
+      "titl": "Solid hollow plastics above 5L - PE"
+    },
+    "material.pevDut5PlastPet": {
+      "titl": "Solid hollow plastics above 5L - PET"
+    },
+    "material.pevDut5PlastPp": {
+      "titl": "Solid hollow plastics above 5L - PP"
+    },
+    "material.pevDut5PlastPs": {
+      "titl": "Solid hollow plastics above 5L - PS"
+    },
+    "material.pevDut5PlastPvc": {
+      "titl": "Solid hollow plastics above 5L - PVC"
+    },
+    "material.pevDutePlastBioRozlozit": {
+      "titl": "Rigid hollow plastics - Biodegradable"
+    },
+    "material.pevDutePlastBioRozlozitVetsi": {
+      "titl": "Rigid hollow plastics - Biodegradable, over 3 l"
+    },
+    "material.pevDutePlastEps": {
+      "titl": "Rigid hollow plastics - EPS"
+    },
+    "material.pevDutePlastEpsVetsi": {
+      "titl": "Rigid hollow plastics - EPS, over 3 l"
+    },
+    "material.pevDutePlastJine": {
+      "titl": "Solid hollow plastics - Other"
+    },
+    "material.pevDutePlastJineVetsi": {
+      "titl": "Rigid hollow plastics - Other, over 3 l"
+    },
+    "material.pevDutePlastKompozit": {
+      "titl": "Rigid Hollow Plastics - Composite"
+    },
+    "material.pevDutePlastKompozitVetsi": {
+      "titl": "Rigid hollow plastics - Composite, over 3 l"
+    },
+    "material.pevDutePlastPe": {
+      "titl": "Solid hollow plastics - PE"
+    },
+    "material.pevDutePlastPeVetsi": {
+      "titl": "Rigid hollow plastics - PE, over 3 l"
+    },
+    "material.pevDutePlastPet": {
+      "titl": "Solid hollow plastics - PET"
+    },
+    "material.pevDutePlastPetVetsi": {
+      "titl": "Rigid hollow plastics - PET, over 3 l"
+    },
+    "material.pevDutePlastPp": {
+      "titl": "Solid hollow plastics - PP"
+    },
+    "material.pevDutePlastPpVetsi": {
+      "titl": "Rigid hollow plastics - PP, over 3 l"
+    },
+    "material.pevDutePlastPs": {
+      "titl": "Solid hollow plastics - PS"
+    },
+    "material.pevDutePlastPsVetsi": {
+      "titl": "Rigid hollow plastics - PS, over 3 l"
+    },
+    "material.pevDutePlastPvc": {
+      "titl": "Solid hollow plastics - PVC"
+    },
+    "material.pevDutePlastPvcVetsi": {
+      "titl": "Rigid hollow plastics - PVC, over 3 l"
+    },
+    "material.pevDutePlastXps": {
+      "titl": "Rigid hollow plastics - XPS"
+    },
+    "material.pevDutePlastXpsVetsi": {
+      "titl": "Rigid hollow plastics - XPS, over 3 l"
+    },
+    "material.sklo": {
+      "titl": "Glass"
+    },
+    "material.skloBarevne": {
+      "titl": "Glass - Coloured"
+    },
+    "material.skloKompozit": {
+      "titl": "Glass - Composite"
+    },
+    "material.skloTransparent": {
+      "titl": "Glass - Transparent"
+    },
+    "material.textil": {
+      "titl": "Textiles"
+    },
+    "material.vlnitaLepenka": {
+      "titl": "Corrugated cardboard"
+    },
+    "metodaZaokr.0sazba": {
+      "titl": "zero rate"
+    },
+    "metodaZaokr.individ": {
+      "titl": "individually"
+    },
+    "metodaZaokr.zklDph": {
+      "titl": "base and VAT"
+    },
+    "mjHmot.gram": {
+      "titl": "gram"
+    },
+    "mjHmot.kilogram": {
+      "titl": "kilogram"
+    },
+    "mjHmot.tuna": {
+      "titl": "ton"
+    },
+    "mjZaruky.den": {
+      "titl": "day"
+    },
+    "mjZaruky.mesic": {
+      "titl": "Month"
+    },
+    "mjZaruky.rok": {
+      "titl": "Year"
+    },
+    "modulUcetni.BAN": {
+      "titl": "Bank"
+    },
+    "modulUcetni.FAH": {
+      "titl": "Cash sale"
+    },
+    "modulUcetni.FAP": {
+      "titl": "Invoices in"
+    },
+    "modulUcetni.FAV": {
+      "titl": "Invoices out"
+    },
+    "modulUcetni.INT": {
+      "titl": "Internal documents"
+    },
+    "modulUcetni.LEA": {
+      "titl": "Leasing"
+    },
+    "modulUcetni.MAJ": {
+      "titl": "Property"
+    },
+    "modulUcetni.NAP": {
+      "titl": "Offers received"
+    },
+    "modulUcetni.NAV": {
+      "titl": "Offers issued"
+    },
+    "modulUcetni.OBP": {
+      "titl": "Orders received"
+    },
+    "modulUcetni.OBV": {
+      "titl": "Orders issued"
+    },
+    "modulUcetni.PHL": {
+      "titl": "Receivables"
+    },
+    "modulUcetni.POK": {
+      "titl": "Cash desk"
+    },
+    "modulUcetni.PPP": {
+      "titl": "Requests for product received"
+    },
+    "modulUcetni.PPV": {
+      "titl": "Requests for product issued"
+    },
+    "modulUcetni.SKL": {
+      "titl": "Warehouse"
+    },
+    "modulUcetni.SKLPRI": {
+      "titl": "WH receipt"
+    },
+    "modulUcetni.SKLVYD": {
+      "titl": "WH withdrawal"
+    },
+    "modulUcetni.ZAV": {
+      "titl": "Liabilities"
+    },
+    "nahrUcet.aPocMes": {
+      "titl": "Yes - months"
+    },
+    "nahrUcet.ne": {
+      "titl": "No"
+    },
+    "normalMj.gram": {
+      "titl": "Gram"
+    },
+    "normalMj.kilogram": {
+      "titl": "Kilogram"
+    },
+    "normalMj.tuna": {
+      "titl": "Ton"
+    },
+    "objednat.neobjednat": {
+      "titl": "Do not order"
+    },
+    "objednat.objednano": {
+      "titl": "Already ordered"
+    },
+    "objednat.objednat": {
+      "titl": "Order"
+    },
+    "omezPrenDanPov.bezOmezeni": {
+      "titl": "Unlimited"
+    },
+    "omezPrenDanPov.odCastky100k": {
+      "titl": "From CZK 100,000"
+    },
+    "operaceZurnalSmlouvy.autoGenerace": {
+      "titl": "Automated generation"
+    },
+    "operaceZurnalSmlouvy.manualGenerace": {
+      "titl": "Manual generation"
+    },
+    "paramDobropisSkladZProdejky": {
+      "titl": "If the warehouse set to vendor on the document type is to be preferred."
+    },
+    "paramEDIExportBaleni": {
+      "titl": "To be taken into account when exporting to EDI packaging?"
+    },
+    "paramExpiraceMandatory": {
+      "titl": "Expiration mandatory"
+    },
+    "paramFirmaInfoUrl": {
+      "titl": "URL for updating information about a company."
+    },
+    "paramFirmyDavkaAktualizovatBanku": {
+      "titl": "If true, when updating information about all companies, only bank details will be updated."
+    },
+    "paramFirmyDavkaInfoUrl": {
+      "titl": "URL for updating information about all companies."
+    },
+    "paramGenFunkceKoduFirmy": {
+      "titl": "Name of function for generating company code"
+    },
+    "paramGenFunkceKoduSmlouvy": {
+      "titl": "Name of function for generating contract code"
+    },
+    "paramNaseptavaniFiremSk": {
+      "titl": "Whispering companies' names from the ARES database"
+    },
+    "paramNaseptavaniFiremUrl": {
+      "titl": "URL for company whisperer."
+    },
+    "paramNeomezovatMnozstviObv": {
+      "titl": "Whether to reduce the preset quantity by the quantity available and reserved for the production order."
+    },
+    "paramObjednavkaRealizaceKomplet": {
+      "titl": "Only complete order realization"
+    },
+    "paramPrenasetFirmuZeZakazkyNaDokl": {
+      "titl": "Transfer the company from the order to the document, if the company is not filled out on the document. It is possible to define for a specific module and document type."
+    },
+    "paramPrikladatPrilohuDoMailu": {
+      "titl": "Default value for the \"Attach\" flag for a file type attachment."
+    },
+    "paramRefundaceSkladove": {
+      "titl": "Refunding for goods in storage"
+    },
+    "paramRozsirenaZakazka": {
+      "titl": "Print extended order parameters on a print report."
+    },
+    "paramSarzeMandatory": {
+      "titl": "Mandatory batch"
+    },
+    "paramVychoziTiskarna": {
+      "titl": "Original printer"
+    },
+    "povolitBankuSPolozkami": {
+      "titl": "Allows you to create bank documents with items"
+    },
+    "pozadavekStav.novy": {
+      "titl": "New"
+    },
+    "pozadavekStav.rozpracovan": {
+      "titl": "In progress"
+    },
+    "pozadavekStav.uzavren": {
+      "titl": "Closed"
+    },
+    "pozadavekTyp.namitka": {
+      "titl": "Right to object"
+    },
+    "pozadavekTyp.omezeni": {
+      "titl": "Right to restrict processing"
+    },
+    "pozadavekTyp.oprava": {
+      "titl": "Right of correction"
+    },
+    "pozadavekTyp.osobniUdaje": {
+      "titl": "The data subject 's right of access to personal data"
+    },
+    "pozadavekTyp.oznamovaci": {
+      "titl": "Notification obligation regarding the correction or deletion of personal data or restrictions on processing"
+    },
+    "pozadavekTyp.prenositelnost": {
+      "titl": "Right to data portability"
+    },
+    "pozadavekTyp.vymaz": {
+      "titl": "Right to be forgotten"
+    },
+    "pravFormaPodnik.as": {
+      "titl": "Stock company"
+    },
+    "pravFormaPodnik.druzstvo": {
+      "titl": "Cooperative"
+    },
+    "pravFormaPodnik.es": {
+      "titl": "European company"
+    },
+    "pravFormaPodnik.ks": {
+      "titl": "General partnership"
+    },
+    "pravFormaPodnik.nadace": {
+      "titl": "Charitable foundation"
+    },
+    "pravFormaPodnik.nezOrg": {
+      "titl": "Nonprofit organization"
+    },
+    "pravFormaPodnik.osvc": {
+      "titl": "Self-employed person"
+    },
+    "pravFormaPodnik.sdruzeni": {
+      "titl": "Syndicate"
+    },
+    "pravFormaPodnik.sro": {
+      "titl": "Limited liability company"
+    },
+    "pravFormaPodnik.vos": {
+      "titl": "Public trade company"
+    },
+    "predvybranyPocet.aktualni": {
+      "titl": "Current record"
+    },
+    "predvybranyPocet.vsechny": {
+      "titl": "All records"
+    },
+    "prepocetCen.ask": {
+      "titl": "Ask"
+    },
+    "prepocetCen.auto": {
+      "titl": "Recalculate prices"
+    },
+    "prepocetCen.none": {
+      "titl": "Do not change prices"
+    },
+    "priorita.kriticka": {
+      "titl": "Critical"
+    },
+    "priorita.nizka": {
+      "titl": "Low"
+    },
+    "priorita.stredni": {
+      "titl": "Middle"
+    },
+    "priorita.velmiNizka": {
+      "titl": "Very low"
+    },
+    "priorita.vysoka": {
+      "titl": "High"
+    },
+    "razeniProTisk.kod": {
+      "titl": "According to code"
+    },
+    "razeniProTisk.nazev": {
+      "titl": "According to name"
+    },
+    "razeniProTisk.poradi": {
+      "titl": "According to order"
+    },
+    "rezimRezervaci.rucni": {
+      "titl": "Only manualy"
+    },
+    "rezimRezervaci.zObj": {
+      "titl": "Automatically by creating order"
+    },
+    "rezimRezervaci.zObjPriNaskladneni": {
+      "titl": "Automatically by creating order and by goods income"
+    },
+    "rocniKurz.kalendarniDen": {
+      "titl": "1.running day in period"
+    },
+    "rocniKurz.pracovniDen": {
+      "titl": "1.week in period"
+    },
+    "stavDoklObch.castHotovo": {
+      "titl": "Partially finished"
+    },
+    "stavDoklObch.castVydano": {
+      "titl": "Partially withdrawn/received"
+    },
+    "stavDoklObch.castecneNaCeste": {
+      "titl": "Partially on its way"
+    },
+    "stavDoklObch.hotovo": {
+      "titl": "Finished"
+    },
+    "stavDoklObch.naCeste": {
+      "titl": "On its way"
+    },
+    "stavDoklObch.nespec": {
+      "titl": "Non-specified"
+    },
+    "stavDoklObch.pripraveno": {
+      "titl": "Ready"
+    },
+    "stavDoklObch.schvaleno": {
+      "titl": "Approved"
+    },
+    "stavDoklObch.storno": {
+      "titl": "Canceled"
+    },
+    "stavDoklObch.vydano": {
+      "titl": "Withdrawn/received"
+    },
+    "stavInventury.1vlna": {
+      "titl": "Wave 1"
+    },
+    "stavInventury.2vlna": {
+      "titl": "Wave 2"
+    },
+    "stavInventury.3vlna": {
+      "titl": "Wave 3"
+    },
+    "stavInventury.4vlna": {
+      "titl": "Wave 4"
+    },
+    "stavInventury.hotova": {
+      "titl": "Ready"
+    },
+    "stavInventury.uzavrena": {
+      "titl": "Closed"
+    },
+    "stavInventury.zahajena": {
+      "titl": "Commenced"
+    },
+    "stavMail.neodesilat": {
+      "titl": "Don't send"
+    },
+    "stavMail.odeslano": {
+      "titl": "Sent"
+    },
+    "stavMail.odeslat": {
+      "titl": "Send"
+    },
+    "stavOdp.cast": {
+      "titl": "Partially filled"
+    },
+    "stavOdp.komplet": {
+      "titl": "Filled"
+    },
+    "stavOdp.vytvZdd": {
+      "titl": "ZDD created"
+    },
+    "stavPriznaniDph.dodatecne": {
+      "titl": "Supplemental"
+    },
+    "stavPriznaniDph.dodatecneOpravne": {
+      "titl": "Supplemental/Corrective"
+    },
+    "stavPriznaniDph.opravne": {
+      "titl": "Corrective"
+    },
+    "stavPriznaniDph.radne": {
+      "titl": "Regular"
+    },
+    "stavPriznaniDph.radneOpravne": {
+      "titl": "Regular/Corrective"
+    },
+    "stavSklad.nefakturovatelne": {
+      "titl": "Not able to be invoiced"
+    },
+    "stavSklad.prevodka": {
+      "titl": "Transfer"
+    },
+    "stavSklad.uhrazen": {
+      "titl": "Settled by cash desk"
+    },
+    "stavSklad.uhrazenCast": {
+      "titl": "Partially settled in cash"
+    },
+    "stavSklad.uhrazenHrom": {
+      "titl": "Batch-settled in cash"
+    },
+    "stavSklad.uhrazenHromCast": {
+      "titl": "Batch- and partially-settled in cash"
+    },
+    "stavSklad.vyfakt": {
+      "titl": "Invoiced"
+    },
+    "stavSklad.vyfaktCast": {
+      "titl": "Partially invoiced"
+    },
+    "stavSklad.vyfaktHrom": {
+      "titl": "Batched invoiced"
+    },
+    "stavSklad.vyfaktHromCast": {
+      "titl": "Batch- and partially-invoiced"
+    },
+    "stavSklad.vygenFakt": {
+      "titl": "Generated from invoice"
+    },
+    "stavSklad.vygenFaktNeuplny": {
+      "titl": "Partially-generated from invoice"
+    },
+    "stavSklad.vygenPokl": {
+      "titl": "Generated from cash desk"
+    },
+    "stavSklad.vygenPoklNeuplny": {
+      "titl": "Partially-generated in cash"
+    },
+    "stavSklad.vyroba": {
+      "titl": "Production"
+    },
+    "stavUdal.hotovo": {
+      "titl": "Done"
+    },
+    "stavUdal.nove": {
+      "titl": "New"
+    },
+    "stavUdal.rozprac": {
+      "titl": "In-process"
+    },
+    "stavUdal.zamitnuto": {
+      "titl": "Rejected"
+    },
+    "stavUhr.castUhr": {
+      "titl": "Partially settled"
+    },
+    "stavUhr.storno": {
+      "titl": "Cancellation"
+    },
+    "stavUhr.uhrazeno": {
+      "titl": "Settled"
+    },
+    "stavUhr.uhrazenoRucne": {
+      "titl": "Settled (manually)"
+    },
+    "stavUziv.bezPrikazu": {
+      "titl": "Without order"
+    },
+    "stavUziv.castPrikaz": {
+      "titl": "Partial order sent"
+    },
+    "stavUziv.celPrikaz": {
+      "titl": "Order sent"
+    },
+    "stavUziv.genKasa": {
+      "titl": "Generated from cash-desk"
+    },
+    "stavUziv.nactenoEl": {
+      "titl": "Inputted electronically"
+    },
+    "stavUziv.nactenoElPosledni": {
+      "titl": "Last Inputted electronically"
+    },
+    "stavUziv.obsaPrikaz": {
+      "titl": "Included in order"
+    },
+    "stavUziv.zaucZmena": {
+      "titl": "Altered after accounting"
+    },
+    "stavUziv.zauctovano": {
+      "titl": "Accounted in cash desk"
+    },
+    "stavZak.castHot": {
+      "titl": "Partially finished"
+    },
+    "stavZak.hotovo": {
+      "titl": "Finished"
+    },
+    "stavZak.vBehu": {
+      "titl": "In process"
+    },
+    "surovina.primarni": {
+      "titl": "Primary"
+    },
+    "surovina.recyklat": {
+      "titl": "Recycle"
+    },
+    "symbolSplatnosti.stavA360aVice": {
+      "titl": "361+ days overdue"
+    },
+    "symbolSplatnosti.stavB360az180": {
+      "titl": "181-360 days overdue"
+    },
+    "symbolSplatnosti.stavC180az90": {
+      "titl": "91-180 days overdue"
+    },
+    "symbolSplatnosti.stavD90az30": {
+      "titl": "31-90 days overdue"
+    },
+    "symbolSplatnosti.stavE30az0": {
+      "titl": "1-30 days overdue"
+    },
+    "symbolSplatnosti.stavFnejsou": {
+      "titl": "Not due"
+    },
+    "symbolSplatnosti.stavZnevyplneno": {
+      "titl": "Due date not inserted"
+    },
+    "tydenPracDoba.dul": {
+      "titl": "Working underground (37.5 Hours)"
+    },
+    "tydenPracDoba.dvousmenny": {
+      "titl": "Two-shift operation (38.75 hours)"
+    },
+    "tydenPracDoba.standard": {
+      "titl": "One-shift operation (40 hours)"
+    },
+    "tydenPracDoba.trismenny": {
+      "titl": "Three-shift operation (37.5 Hours)"
+    },
+    "typAtribut.1zN": {
+      "titl": "1 of N"
+    },
+    "typAtribut.MzN": {
+      "titl": "M of N"
+    },
+    "typAtribut.boolean": {
+      "titl": "Logical value"
+    },
+    "typAtribut.datumCas": {
+      "titl": "Date"
+    },
+    "typAtribut.integer": {
+      "titl": "Whole number"
+    },
+    "typAtribut.numeric": {
+      "titl": "Decimal number"
+    },
+    "typAtribut.retezec": {
+      "titl": "Chain"
+    },
+    "typAtribut.rozmezi": {
+      "titl": "Range"
+    },
+    "typBanUctu.kc": {
+      "titl": "Movement %currency-symbol / Balance %currency-symbol"
+    },
+    "typBanUctu.mena": {
+      "titl": "Movement currency / Balance currency"
+    },
+    "typCeny.bezDph": {
+      "titl": "without VAT"
+    },
+    "typCeny.sDph": {
+      "titl": "VAT incl."
+    },
+    "typCeny.sDphKoef": {
+      "titl": "VAT incl. (coefficient)"
+    },
+    "typCenyVychozi.nakCena": {
+      "titl": "Purchase price"
+    },
+    "typCenyVychozi.zadna": {
+      "titl": "No price"
+    },
+    "typCenyVychozi.zaklCena": {
+      "titl": "Basic price"
+    },
+    "typCert.disk": {
+      "titl": "Local drive"
+    },
+    "typCert.karta": {
+      "titl": "Electronic payment card"
+    },
+    "typCert.server": {
+      "titl": "Server"
+    },
+    "typCinnosti.hlavni": {
+      "titl": "Main activity"
+    },
+    "typCinnosti.hospodar": {
+      "titl": "Economic activity"
+    },
+    "typDokladu.dobropis": {
+      "titl": "Invoice credit note"
+    },
+    "typDokladu.dodList": {
+      "titl": "Delivery note"
+    },
+    "typDokladu.faktura": {
+      "titl": "Invoice"
+    },
+    "typDokladu.krZisk": {
+      "titl": "Exchange rate difference profit"
+    },
+    "typDokladu.krZtrata": {
+      "titl": "Exchange rate difference loss"
+    },
+    "typDokladu.obecny": {
+      "titl": "General document"
+    },
+    "typDokladu.prodejka": {
+      "titl": "Cash sales receipt"
+    },
+    "typDokladu.proforma": {
+      "titl": "Pro forma"
+    },
+    "typDokladu.zalohFaktura": {
+      "titl": "Advance invoice"
+    },
+    "typDokladu.zbytekNaklad": {
+      "titl": "Rest of cost"
+    },
+    "typDokladu.zbytekVynos": {
+      "titl": "Rest of revenue"
+    },
+    "typDokladu.zdd": {
+      "titl": "Advance tax document"
+    },
+    "typKonektoru.atcomp": {
+      "titl": "AT Computers a.s."
+    },
+    "typKonektoru.interObch": {
+      "titl": "Internet store"
+    },
+    "typKurzu.cenotvorba": {
+      "titl": "Rate for pricing"
+    },
+    "typKurzu.intrastat": {
+      "titl": "Rate for Intrastat"
+    },
+    "typKurzu.obecny": {
+      "titl": "General"
+    },
+    "typKurzu.preceneni": {
+      "titl": "Revaluation rate"
+    },
+    "typMj.cas": {
+      "titl": "Time"
+    },
+    "typMj.delka": {
+      "titl": "Length"
+    },
+    "typMj.hmotnost": {
+      "titl": "Weight"
+    },
+    "typMj.objem": {
+      "titl": "Volume"
+    },
+    "typMj.plocha": {
+      "titl": "Surface"
+    },
+    "typObalu.obchodPreprava": {
+      "titl": "Trade - Transport"
+    },
+    "typObalu.obchodProdej": {
+      "titl": "Trade - Sales"
+    },
+    "typObalu.obchodSkupina": {
+      "titl": "Trade - Group"
+    },
+    "typObalu.prumysl": {
+      "titl": "Industrial"
+    },
+    "typObchodu.EUneplat": {
+      "titl": "EU VAT non-payer"
+    },
+    "typObchodu.EUplatce": {
+      "titl": "EU VAT payer"
+    },
+    "typObchodu.cizina": {
+      "titl": "ex-EU"
+    },
+    "typObchodu.tuzem": {
+      "titl": "Domestic"
+    },
+    "typOdp.mesic": {
+      "titl": "Monthly"
+    },
+    "typOdp.rovn": {
+      "titl": "Linear"
+    },
+    "typOdp.zrych": {
+      "titl": "Accelerated"
+    },
+    "typPlneni.obojiRCH": {
+      "titl": "Both RCH (Reverse charge)"
+    },
+    "typPlneni.prijata": {
+      "titl": "Input"
+    },
+    "typPlneni.prijataRCH": {
+      "titl": "Received RCH (Reverse charge)"
+    },
+    "typPlneni.uskutecnena": {
+      "titl": "Output"
+    },
+    "typPlneni.uskutecnenaRCH": {
+      "titl": "Realized RCH (Reverse charge)"
+    },
+    "typPlneniEet.uvestOsv": {
+      "titl": "Lifted rate specified"
+    },
+    "typPohybu.prijem": {
+      "titl": "Input"
+    },
+    "typPohybu.vydej": {
+      "titl": "Output"
+    },
+    "typPohybuSklad.prijemHoly": {
+      "titl": "\"Naked\" receipt"
+    },
+    "typPohybuSklad.prijemPoFak": {
+      "titl": "Receipt after the invoice"
+    },
+    "typPohybuSklad.prijemPoObch": {
+      "titl": "Receipt after the order"
+    },
+    "typPohybuSklad.prijemPolot": {
+      "titl": "Semi-finished goods receipt"
+    },
+    "typPohybuSklad.prijemPrevod": {
+      "titl": "Remittance letter receipt"
+    },
+    "typPohybuSklad.prijemProFak": {
+      "titl": "Invoice receipt"
+    },
+    "typPohybuSklad.prijemVratka": {
+      "titl": "Receipt (credit note, return)"
+    },
+    "typPohybuSklad.prijemVydejVratka": {
+      "titl": "Withdrawal (credit note, return)"
+    },
+    "typPohybuSklad.prijemVyrob": {
+      "titl": "Warehouse receipt"
+    },
+    "typPohybuSklad.vydejHoly": {
+      "titl": "\"Naked\" withdrawal"
+    },
+    "typPohybuSklad.vydejPoFak": {
+      "titl": "Withdrawal after the invoice"
+    },
+    "typPohybuSklad.vydejPoObch": {
+      "titl": "Withdrawal after the order"
+    },
+    "typPohybuSklad.vydejPolot": {
+      "titl": "Semi-finished goods withdrawal"
+    },
+    "typPohybuSklad.vydejPrevod": {
+      "titl": "Remittance letter withdrawal"
+    },
+    "typPohybuSklad.vydejProFakCenik": {
+      "titl": "Withdrawal invoice (pricelist prices)"
+    },
+    "typPohybuSklad.vydejProFakRucne": {
+      "titl": "Withdrawal invoice (manual prices)"
+    },
+    "typPohybuSklad.vydejVyrob": {
+      "titl": "Warehouse withdrawal"
+    },
+    "typPolozky.dorovnaniTuz": {
+      "titl": "Rounding domestic currency"
+    },
+    "typPolozky.katalog": {
+      "titl": "Catalogue item"
+    },
+    "typPolozky.korekceKRZisk": {
+      "titl": "Correction rate difference (profit)"
+    },
+    "typPolozky.korekceKRZtrata": {
+      "titl": "Correction rate difference (loss)"
+    },
+    "typPolozky.korekceOdpoctu": {
+      "titl": "Backup / ZDD deduction correction"
+    },
+    "typPolozky.korekceRekapitulace": {
+      "titl": "VAT recapitulation correction"
+    },
+    "typPolozky.korekceTuz": {
+      "titl": "Correction domestic currency"
+    },
+    "typPolozky.obecny": {
+      "titl": "General"
+    },
+    "typPolozky.odpocetZalohy": {
+      "titl": "Application of advance"
+    },
+    "typPolozky.odpocetZdd": {
+      "titl": "Application of advance tax document"
+    },
+    "typPolozky.text": {
+      "titl": "Text"
+    },
+    "typPolozky.ucetni": {
+      "titl": "Accounting"
+    },
+    "typPoplatku.obecny": {
+      "titl": "General"
+    },
+    "typPoplatku.recyklacni": {
+      "titl": "Recycling"
+    },
+    "typPouziti.1pouziti": {
+      "titl": "Packages for single use"
+    },
+    "typPouziti.opakovane": {
+      "titl": "Repeatedly used packaging"
+    },
+    "typPrav.admin": {
+      "titl": "Administrator"
+    },
+    "typPrav.jenCist": {
+      "titl": "Read-only"
+    },
+    "typPrav.mzdovyUcetni": {
+      "titl": "Wages accountant"
+    },
+    "typPrav.obchodnik": {
+      "titl": "Salesman"
+    },
+    "typPrav.skladnik": {
+      "titl": "Warehouseman"
+    },
+    "typPrav.skladnikSPokladnou": {
+      "titl": "Warehouseman w/cash desk"
+    },
+    "typPrav.superUzivatel": {
+      "titl": "Superuser"
+    },
+    "typPrav.ucetni": {
+      "titl": "Accountant"
+    },
+    "typPrav.uzivatel": {
+      "titl": "Standard user"
+    },
+    "typPrav.zablokovan": {
+      "titl": "Nonactive account"
+    },
+    "typPrikazu.inkaso": {
+      "titl": "Inkaso instruction"
+    },
+    "typPrikazu.prikaz": {
+      "titl": "Wire instruction"
+    },
+    "typPrilohy.adresar": {
+      "titl": "Addressbook"
+    },
+    "typPrilohy.cenik": {
+      "titl": "Price list"
+    },
+    "typPrilohy.doklad": {
+      "titl": "Document"
+    },
+    "typPrilohy.kontakt": {
+      "titl": "Contact"
+    },
+    "typPrilohy.leasing": {
+      "titl": "Leasing"
+    },
+    "typPrilohy.logo": {
+      "titl": "Logo"
+    },
+    "typPrilohy.majetek": {
+      "titl": "Property"
+    },
+    "typPrilohy.obrazek": {
+      "titl": "Image attachment"
+    },
+    "typPrilohy.odkaz": {
+      "titl": "URL link to internet site or file"
+    },
+    "typPrilohy.osoba": {
+      "titl": "Person"
+    },
+    "typPrilohy.ostatni": {
+      "titl": "Further unspecified type of attachment"
+    },
+    "typPrilohy.podRaz": {
+      "titl": "Signature and stamp"
+    },
+    "typPrilohy.polsmlouvy": {
+      "titl": "Contract item"
+    },
+    "typPrilohy.report": {
+      "titl": "Report"
+    },
+    "typPrilohy.smlouva": {
+      "titl": "Contract"
+    },
+    "typPrilohy.udalost": {
+      "titl": "Event"
+    },
+    "typPrilohy.zakazka": {
+      "titl": "Project"
+    },
+    "typPristPrav.nepripustne": {
+      "titl": "Not accessible"
+    },
+    "typPristPrav.plny": {
+      "titl": "Full-access"
+    },
+    "typPristPrav.pouzeCist": {
+      "titl": "Read-only"
+    },
+    "typPristPrav.upresneni": {
+      "titl": "Access - detail"
+    },
+    "typRole.adr": {
+      "titl": "Address book"
+    },
+    "typRole.glo": {
+      "titl": "Global"
+    },
+    "typRole.stred": {
+      "titl": "Centre"
+    },
+    "typRole.wf": {
+      "titl": "Workflow"
+    },
+    "typRole.zak": {
+      "titl": "Order"
+    },
+    "typSablony.druhaUpominka": {
+      "titl": "2nd Payment reminder"
+    },
+    "typSablony.inventarizace": {
+      "titl": "Inventory"
+    },
+    "typSablony.pokusOSmir": {
+      "titl": "Negotiated settlement"
+    },
+    "typSablony.prvniUpominka": {
+      "titl": "1st Payment reminder"
+    },
+    "typSestavy.cashflow": {
+      "titl": "Cash flow"
+    },
+    "typSestavy.obecna": {
+      "titl": "General"
+    },
+    "typSestavy.rozvaha": {
+      "titl": "Statement of financial position"
+    },
+    "typSestavy.rozvahaIfrs": {
+      "titl": "Statement of financial position (IFRS)"
+    },
+    "typSestavy.vysledov": {
+      "titl": "Statement of income and loss"
+    },
+    "typSestavy.vysledovIfrs": {
+      "titl": "Statement of income and loss (IFRS)"
+    },
+    "typSpl.akontace": {
+      "titl": "Payment schedule"
+    },
+    "typSpl.bezna": {
+      "titl": "Common quittance"
+    },
+    "typSpl.mimFinCin": {
+      "titl": "Miminum financial activity"
+    },
+    "typSpl.posledni": {
+      "titl": "Last installment"
+    },
+    "typSpl.prevod": {
+      "titl": "Transfer balance price"
+    },
+    "typSpl.prvni": {
+      "titl": "Zero installment"
+    },
+    "typSynchCenik.naWebu": {
+      "titl": "Internet store"
+    },
+    "typSynchCenik.rucne": {
+      "titl": "Synchronize manually"
+    },
+    "typSynchCenik.veW10": {
+      "titl": "ABRA Flexi"
+    },
+    "typSynchCenik.zadna": {
+      "titl": "Don't synchronize the price list"
+    },
+    "typSzbDph.dphOsv": {
+      "titl": "VAT-exempt"
+    },
+    "typSzbDph.dphSniz": {
+      "titl": "Reduced"
+    },
+    "typSzbDph.dphSniz2": {
+      "titl": "2nd reduced "
+    },
+    "typSzbDph.dphZakl": {
+      "titl": "Basic"
+    },
+    "typTiskDokladu.doklad": {
+      "titl": "Document"
+    },
+    "typTiskDokladu.dokladPokladny": {
+      "titl": "Cashdesk document"
+    },
+    "typTiskDokladu.dokladSkladu": {
+      "titl": "Warehouse document"
+    },
+    "typUcJednotky.mala": {
+      "titl": "Small accounting unit"
+    },
+    "typUcJednotky.mikro": {
+      "titl": "Micro accounting unit"
+    },
+    "typUcJednotky.velka": {
+      "titl": "Large accounting unit"
+    },
+    "typUcetniJednotkyCz.mala": {
+      "titl": "Small accounting unit"
+    },
+    "typUcetniJednotkyCz.mikro": {
+      "titl": "Micro accounting unit"
+    },
+    "typUcetniJednotkyCz.stredni": {
+      "titl": "Medium accounting unit"
+    },
+    "typUcetniJednotkyCz.velka": {
+      "titl": "Large accounting unit"
+    },
+    "typUctu.podrozvahovy": {
+      "titl": "off balance-sheet"
+    },
+    "typUctu.rozvahovy": {
+      "titl": "balance"
+    },
+    "typUctu.vnitropodnikovy": {
+      "titl": "intercompany"
+    },
+    "typUctu.vysledkovy": {
+      "titl": "income"
+    },
+    "typUctu.zaverkovy": {
+      "titl": "closing"
+    },
+    "typUdal.casVyr": {
+      "titl": "Partial put out"
+    },
+    "typUdal.prerOdpDan": {
+      "titl": "Interruption of tax depreciation"
+    },
+    "typUdal.prerOdpUcet": {
+      "titl": "Interruption of accounting depreciations"
+    },
+    "typUdal.rozdilCenyAZustatku": {
+      "titl": "Difference between sale price and balance"
+    },
+    "typUdal.techZhod": {
+      "titl": "Technical value increase"
+    },
+    "typUdal.uplVyr": {
+      "titl": "Put out"
+    },
+    "typUdal.uzivatelska": {
+      "titl": "User event"
+    },
+    "typUdal.zahOdpDan": {
+      "titl": "Repeated initiation of tax depreciation"
+    },
+    "typUdal.zahOdpUcet": {
+      "titl": "Repeated initiation of accounting depreciation"
+    },
+    "typUdal.zarazeni": {
+      "titl": "Capitalize"
+    },
+    "typUdal.zmenDob": {
+      "titl": "Change of depreciation period"
+    },
+    "typUdal.zmenHodDan": {
+      "titl": "Change of balance of tax depreciation"
+    },
+    "typUdal.zmenHodUcet": {
+      "titl": "Change balance of accounting depreciation"
+    },
+    "typUmisteniSklad.mistnost": {
+      "titl": "Location"
+    },
+    "typUmisteniSklad.police": {
+      "titl": "Shelf"
+    },
+    "typUmisteniSklad.regal": {
+      "titl": "Rack"
+    },
+    "typVazbyDokl.KR": {
+      "titl": "FX rate difference"
+    },
+    "typVazbyDokl.KROdpoctu": {
+      "titl": "Correction of deduction"
+    },
+    "typVazbyDokl.PP": {
+      "titl": "Overpayment"
+    },
+    "typVazbyDokl.ZB": {
+      "titl": "Remainder"
+    },
+    "typVazbyDokl.hlavaDobropis": {
+      "titl": "Credit note"
+    },
+    "typVazbyDokl.hlavaSkl": {
+      "titl": "Warehouse document"
+    },
+    "typVazbyDokl.hlavaSklKus": {
+      "titl": "Warehouse voucher (parts bill decomposition)"
+    },
+    "typVazbyDokl.hlavaSklPrevod": {
+      "titl": "Warehouse document (conveyance)"
+    },
+    "typVazbyDokl.nakladVynos": {
+      "titl": "Distribution of costs and revenues"
+    },
+    "typVazbyDokl.obchod_faktura_hla": {
+      "titl": "Invoice created from order"
+    },
+    "typVazbyDokl.obchod_faktura_pol": {
+      "titl": "Invoice line-item created from order"
+    },
+    "typVazbyDokl.obchod_obchod_hla": {
+      "titl": "Sales link"
+    },
+    "typVazbyDokl.obchod_obchod_pol": {
+      "titl": "Sales link line item"
+    },
+    "typVazbyDokl.obchod_sklad_hla": {
+      "titl": "Warehouse document generated from order"
+    },
+    "typVazbyDokl.obchod_sklad_pol": {
+      "titl": "Warehosue line item generated from order"
+    },
+    "typVazbyDokl.obchod_zaloha_hla": {
+      "titl": "Advance created from order"
+    },
+    "typVazbyDokl.obchod_zaloha_pol": {
+      "titl": "Advance line item generated from order"
+    },
+    "typVazbyDokl.odpocetPolZALOHY": {
+      "titl": "Deduction of advance items"
+    },
+    "typVazbyDokl.odpocetZALOHY": {
+      "titl": "Application of advance"
+    },
+    "typVazbyDokl.odpocetZDD": {
+      "titl": "Application of advance tax document"
+    },
+    "typVazbyDokl.odpocetZddKr": {
+      "titl": "Exchange rate - difference of advance payment"
+    },
+    "typVazbyDokl.odpocitavanaFaktura": {
+      "titl": "Deducted invoice"
+    },
+    "typVazbyDokl.polozkaDobropis": {
+      "titl": "Credit note item"
+    },
+    "typVazbyDokl.polozkaSkl": {
+      "titl": "Warehouse item"
+    },
+    "typVazbyDokl.polozkaSklKus": {
+      "titl": "Warehouse item (parts bill decomposition)"
+    },
+    "typVazbyDokl.polozkaSklPrevod": {
+      "titl": "Warehouse item (conveyance)"
+    },
+    "typVazbyDokl.polozkaSklSada": {
+      "titl": "Warehouse item (set decomposition)"
+    },
+    "typVazbyDokl.preceneni": {
+      "titl": "Revaluation"
+    },
+    "typVazbyDokl.uhrada": {
+      "titl": "Settlement"
+    },
+    "typVazbyDokl.uhradaKR": {
+      "titl": "FX rate difference settlement"
+    },
+    "typVazbyDokl.uhradaZALOHY": {
+      "titl": "Settlement of advance"
+    },
+    "typVazbyDokl.uhrazovanaFaktura": {
+      "titl": "Paid invoice"
+    },
+    "typVazbyDokl.uhrazujiciDoklad": {
+      "titl": "Payment document"
+    },
+    "typVazbyDokl.vazbaZDD": {
+      "titl": "Advance tax document link"
+    },
+    "typVazbyDokl.zalHlavKr": {
+      "titl": "Exchange rate - advance"
+    },
+    "typVazbyDokl.zalPolKr": {
+      "titl": "Exchange rate - advance item"
+    },
+    "typVazbyDokl.zaucProdejky": {
+      "titl": "Posting cash desk receipt"
+    },
+    "typVypCeny.marze": {
+      "titl": "Margin"
+    },
+    "typVypCeny.neuveden": {
+      "titl": "NO specify"
+    },
+    "typVypCeny.rabat": {
+      "titl": "Rebate"
+    },
+    "typVypCeny.sleva": {
+      "titl": "Discount"
+    },
+    "typVypSestavy.vJednotkach": {
+      "titl": "in whole %currency-symbol"
+    },
+    "typVypSestavy.vKcPresne": {
+      "titl": "in %currency-symbol precisely"
+    },
+    "typVypSestavy.vTisicich": {
+      "titl": "rounded to thousands %currency-symbol"
+    },
+    "typVzniku.importovaneDoCr": {
+      "titl": "Imported to the Czech Republic"
+    },
+    "typVzniku.nakoupeneVCr": {
+      "titl": "Purchased in the Czech Republic"
+    },
+    "typVzniku.vyrobeneVCr": {
+      "titl": "Produced in the Czech Republic"
+    },
+    "typVztahu.dodavatel": {
+      "titl": "Supplier"
+    },
+    "typVztahu.financniUrad": {
+      "titl": "Financial regulator"
+    },
+    "typVztahu.odberDodav": {
+      "titl": "Customer/Supplier"
+    },
+    "typVztahu.odberatel": {
+      "titl": "Customer"
+    },
+    "typVztahu.socialka": {
+      "titl": "Social insurance fund"
+    },
+    "typVztahu.vsechno": {
+      "titl": "All"
+    },
+    "typVztahu.vyrobce": {
+      "titl": "Manufacturer"
+    },
+    "typVztahu.vyrobna": {
+      "titl": "Manufacturing site"
+    },
+    "typVztahu.zdravotka": {
+      "titl": "Health insurance fund"
+    },
+    "typZak.nevyrob": {
+      "titl": "NO production"
+    },
+    "typZak.vyrob": {
+      "titl": "Manufacturing"
+    },
+    "typZasoby.material": {
+      "titl": "Material"
+    },
+    "typZasoby.nedvyroba": {
+      "titl": "Work in process"
+    },
+    "typZasoby.polotovar": {
+      "titl": "Semi-finished goods"
+    },
+    "typZasoby.poplatek": {
+      "titl": "Fee"
+    },
+    "typZasoby.sluzba": {
+      "titl": "Service"
+    },
+    "typZasoby.vyrobek": {
+      "titl": "Product"
+    },
+    "typZasoby.zbozi": {
+      "titl": "Goods"
+    },
+    "typZasoby.zvire": {
+      "titl": "Animal"
+    },
+    "ucelCertK.eet": {
+      "titl": "Certificate for electronic revenue registration"
+    },
+    "ucelCertK.osobni": {
+      "titl": "Personal certificate"
+    },
+    "zamek.otevreno": {
+      "titl": "Open"
+    },
+    "zamek.polozamceno": {
+      "titl": "Locked except bookkeeper"
+    },
+    "zamek.prohlednuto": {
+      "titl": "Viewed"
+    },
+    "zamek.zamceno": {
+      "titl": "Locked"
+    },
+    "zaokrJak.dolu": {
+      "titl": "Down"
+    },
+    "zaokrJak.matem": {
+      "titl": "mathematically"
+    },
+    "zaokrJak.nahoru": {
+      "titl": "up"
+    },
+    "zaokrNa.5desetiny": {
+      "titl": "0.5"
+    },
+    "zaokrNa.5jednotky": {
+      "titl": "5"
+    },
+    "zaokrNa.5setiny": {
+      "titl": "0.05"
+    },
+    "zaokrNa.desetiny": {
+      "titl": "0.1"
+    },
+    "zaokrNa.desitky": {
+      "titl": "10"
+    },
+    "zaokrNa.jednotky": {
+      "titl": "1"
+    },
+    "zaokrNa.setiny": {
+      "titl": "0.01"
+    },
+    "zaokrNa.stovky": {
+      "titl": "100"
+    },
+    "zaokrNa.tisice": {
+      "titl": "1000"
+    },
+    "zaokrNa.tisiciny": {
+      "titl": "0.001"
+    },
+    "zaokrNa.zadne": {
+      "titl": "NO rounding"
+    },
+    "zastupceTyp.fo": {
+      "titl": "Individual"
+    },
+    "zastupceTyp.po": {
+      "titl": "Corporation"
+    },
+    "zmenaPohybuRealizace": {
+      "titl": "Enable change of movement type specification to the dispatcher/receiver created from the order/invoice"
+    },
+    "zobrLogo.prizFormat": {
+      "titl": "Adapt to format"
+    },
+    "zobrLogo.prizFormatPomeryStran": {
+      "titl": "Adapt to format and keep size ratio"
+    },
+    "zobrLogo.zachovVelikost": {
+      "titl": "Keep size"
+    },
+    "zobrazWebKompMod.auto": {
+      "titl": "Automatic selection"
+    },
+    "zobrazWebKompMod.browser": {
+      "titl": "Web browser"
+    },
+    "zpusobFakt.dopredu": {
+      "titl": "Forward billing"
+    },
+    "zpusobFakt.zpetne": {
+      "titl": "Back billing"
+    },
+    "zpusobOdp.rocne": {
+      "titl": "% Yearly"
+    },
+    "zpusobOdp.zar100": {
+      "titl": "100%"
+    },
+    "zpusobOdp.zar5050": {
+      "titl": "50%/50%"
+    },
+    "zpusobStahKurz.denne": {
+      "titl": "Daily"
+    },
+    "zpusobStahKurz.mesicne": {
+      "titl": "Monthly"
+    },
+    "zpusobStahKurz.nikdy": {
+      "titl": "Don't download"
+    },
+    "zpusobStahKurz.rocne": {
+      "titl": "Annually"
+    },
+    "zpusobVypo.obrat": {
+      "titl": "period turnover"
+    },
+    "zpusobVypo.obratDal": {
+      "titl": "credit period turnover"
+    },
+    "zpusobVypo.obratMd": {
+      "titl": "debit period turnover"
+    },
+    "zpusobVypo.stavKon": {
+      "titl": "account at end of period"
+    },
+    "zpusobVypo.stavPoc": {
+      "titl": "account at start of period"
+    },
+    "zvysZrych.proc0": {
+      "titl": "0%"
+    },
+    "zvysZrych.proc10": {
+      "titl": "10%"
+    },
+    "zvysZrych.proc15": {
+      "titl": "15%"
+    },
+    "zvysZrych.proc20": {
+      "titl": "20%"
+    }
+  }
+}

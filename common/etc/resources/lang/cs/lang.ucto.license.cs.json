@@ -1,0 +1,388 @@
+{
+  "buttons": {
+    "licenseDialogImportovat": {
+      "titl": "Importovat licenci"
+    },
+    "licenseDialogRegister": {
+      "titl": "Registrovat"
+    },
+    "licenseDialogZavrit": {
+      "titl": "Zavřít"
+    },
+    "licenseShowUsers": {
+      "titl": "Přihlášení uživatelé"
+    },
+    "registerLicenseDialogNewsLetter": {
+      "titl": "Chci dostávat informace o nových verzích"
+    },
+    "registerLicenseDialogRegister": {
+      "titl": "Registrovat"
+    },
+    "startLicenceDialogAktivovat": {
+      "titl": "Aktivovat verzi zdarma"
+    },
+    "startLicenceDialogImportovat": {
+      "titl": "Nahrát licenci"
+    },
+    "startLicenceDialogRequestDev": {
+      "titl": "Zažádat o vývojářskou licenci"
+    },
+    "startLicenceDialogRequestTest": {
+      "titl": "Vyzkoušet na měsíc"
+    }
+  },
+  "dialogs": {
+    "aktivaceProduktu": {
+      "titl": "Průvodce aktivací produktu ABRA Flexi"
+    }
+  },
+  "labels": {
+    "aktivaceProduktuAktivaceKod": {
+      "titl": "Aktivační kód:"
+    },
+    "aktivaceProduktuAktivaceProlog": {
+      "titl": "Abychom Vám mohli poskytnout technickou podporu a aktualizace aplikace, potřebujeme vyplnit následující informace."
+    },
+    "aktivaceProduktuDic": {
+      "titl": "DIČ:"
+    },
+    "aktivaceProduktuIc": {
+      "titl": "IČO:"
+    },
+    "aktivaceProduktuKontrolaProlog": {
+      "titl": "Pokud jste zakoupili produkt v kamenné prodejně, je nutné jej aktivovat. Budete tak moci využívat technické podpory a získávat aktualizace."
+    },
+    "aktivaceProduktuMesto": {
+      "titl": "Město:"
+    },
+    "aktivaceProduktuNadpis": {
+      "titl": "Aktivace produktu pomocí aktivačního kódu"
+    },
+    "aktivaceProduktuProdejKod": {
+      "titl": "Prodejní kód:"
+    },
+    "aktivaceProduktuServerLink": {
+      "titl": "support.flexibee.eu/remote/activation/"
+    },
+    "aktivaceProduktuVyzva": {
+      "titl": "Zadání aktivačního kódu"
+    },
+    "buyLicenceDialogKoupit": {
+      "titl": "Ve verzi Start můžete provádět veškeré operace s omezeným počtem záznamů. Všechna omezení odstraníte zakoupením aplikace."
+    },
+    "licenseDialogAktualne": {
+      "titl": "Aktuálně:"
+    },
+    "licenseDialogCisloZakaznika": {
+      "titl": "Číslo zákazníka:"
+    },
+    "licenseDialogFirem": {
+      "titl": "Počet firem:"
+    },
+    "licenseDialogLicUzivatelu": {
+      "titl": "Počet licenc. uživ.:"
+    },
+    "licenseDialogNapis": {
+      "titl": "Licence"
+    },
+    "licenseDialogOdkaz": {
+      "titl": "http://www.flexibee.eu"
+    },
+    "licenseDialogOdkazAktHtml": {
+      "titl": "<html>Licenci můžete aktualizovat<br>na adrese:<html>"
+    },
+    "licenseDialogPlatnostDo": {
+      "titl": "Platnost do:"
+    },
+    "licenseDialogPripojeno": {
+      "titl": "Připojeno:"
+    },
+    "licenseDialogPronajemDo": {
+      "titl": "Pronájem do:"
+    },
+    "licenseDialogRegistrovan": {
+      "titl": "Registrování pro:"
+    },
+    "licenseDialogUzivatelu": {
+      "titl": "Počet uživatelů:"
+    },
+    "licenseDialogVarianta": {
+      "titl": "Varianta licence:"
+    },
+    "licenseDialogZarukaDo": {
+      "titl": "Roční podpora do:"
+    },
+    "licenseFileFilter": {
+      "titl": "Soubory s licencí"
+    },
+    "licenseKonciTitle": {
+      "titl": "Licence vyprší %p"
+    },
+    "licenseNeuvedeno": {
+      "titl": "Neuvedeno"
+    },
+    "licenseServiceAcceptJesteNeplatna": {
+      "titl": "Importovat jinou licenci"
+    },
+    "licenseServiceAcceptKonci": {
+      "titl": "Importovat licenci"
+    },
+    "licenseServiceAcceptMiniNeViceJazyku": {
+      "titl": "Importovat jinou licenci"
+    },
+    "licenseServiceAcceptMiniNeVzdalenyPristup": {
+      "titl": "Importovat jinou licenci"
+    },
+    "licenseServiceAcceptNemaJinaVerze": {
+      "titl": "Importovat licenci"
+    },
+    "licenseServiceAcceptUzNeplatna": {
+      "titl": "Importovat novou licenci"
+    },
+    "licenseServiceCancelPokracuj": {
+      "titl": "Pokračovat"
+    },
+    "licenseServiceCancelUkonci": {
+      "titl": "Ukončit aplikaci"
+    },
+    "licenseServiceLinkKonci": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceLinkMiniNeViceJazyku": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceLinkMiniNeVzdalenyPristup": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceLinkNemaJinaVerze": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceLinkUzNeplatna": {
+      "titl": "http://www.flexibee.eu/licence"
+    },
+    "licenseServiceNadpisJesteNeplatna": {
+      "titl": "Licence ještě není platná."
+    },
+    "licenseServiceNadpisKonci": {
+      "titl": "Licence brzy vyprší."
+    },
+    "licenseServiceNadpisMiniNeViceJazyku": {
+      "titl": "Licence Mini nepovoluje tento jazyk."
+    },
+    "licenseServiceNadpisNeVzdalenyPristup": {
+      "titl": "Licence nepovoluje vzdálený přístup."
+    },
+    "licenseServiceNadpisNemaJinaVerze": {
+      "titl": "Import licence"
+    },
+    "licenseServiceNadpisUzNeplatna": {
+      "titl": "Licence již není platná."
+    },
+    "licenseServiceText1JesteNeplatna": {
+      "titl": "Platnost licence začíná dne %p."
+    },
+    "licenseServiceText1Konci": {
+      "titl": "Licence, kterou používáte, vyprší dne %p."
+    },
+    "licenseServiceText1NemaJinaVerze": {
+      "titl": "Aplikace nemá platnou licenci."
+    },
+    "licenseServiceText1UzNeplatna": {
+      "titl": "Platnost licence vypršela dne %p."
+    },
+    "licenseServiceText2Konci": {
+      "titl": "Požádejte, prosím, o prodloužení licence na adrese:"
+    },
+    "licenseServiceText2MiniNeViceJazyku": {
+      "titl": "Pro používání ostatních jazyků si zakupte licenci z adresy:"
+    },
+    "licenseServiceText2MiniNeVzdalenyPristup": {
+      "titl": "Pro používání vzdáleného přístupu si zakupte licenci z adresy:"
+    },
+    "licenseServiceText2NemaJinaVerze": {
+      "titl": "Naimportujte licenci, kterou získáte na adrese:"
+    },
+    "licenseServiceText2UzNeplatna": {
+      "titl": "Získejte, prosím, novou licenci na adrese:"
+    },
+    "licenseUnlimited": {
+      "titl": "Neomezeno"
+    },
+    "registerLicenseDialogAdress": {
+      "titl": "Adresa:"
+    },
+    "registerLicenseDialogCompany": {
+      "titl": "Společnost:"
+    },
+    "registerLicenseDialogEmail": {
+      "titl": "E-mail:"
+    },
+    "registerLicenseDialogFillDataRequest": {
+      "titl": "Vyplňte, prosím, následující údaje:"
+    },
+    "registerLicenseDialogFirstname": {
+      "titl": "Jméno:"
+    },
+    "registerLicenseDialogInfo": {
+      "titl": "Právě používáte neregistrovanou aplikaci ABRA Flexi Start. Registrací získáte možnost evidovat více položek a také automaticky získávat informace o nových verzích programu."
+    },
+    "registerLicenseDialogJobPosition": {
+      "titl": "Pozice:"
+    },
+    "registerLicenseDialogStartLicenseServerLink": {
+      "titl": "https://support.flexibee.eu/remote/register/start/"
+    },
+    "registerLicenseDialogStartRegisterLink": {
+      "titl": "support.flexibee.eu/redirect/register-start/"
+    },
+    "registerLicenseDialogSurname": {
+      "titl": "Příjmení:"
+    },
+    "registerLicenseDialogTelephone": {
+      "titl": "Telefon:"
+    },
+    "registerLicenseDialogTitle": {
+      "titl": "Registrace ABRA Flexi Start"
+    },
+    "registerLicenseDialogZipcode": {
+      "titl": "PSČ:"
+    },
+    "startLicenceDialogContactSales": {
+      "titl": "Pokud nemáte IČO, kontaktujte prosím obchodní oddělení"
+    },
+    "startLicenceDialogImportovatTooltip": {
+      "titl": "Umožní vybrat licenční soubor."
+    },
+    "startLicenceDialogKoupit": {
+      "titl": "Koupit aplikaci"
+    },
+    "startLicenceDialogKoupitLink": {
+      "titl": "http://www.flexibee.eu/licence/"
+    },
+    "startLicenceDialogNadpis": {
+      "titl": "Neregistrovaná verze"
+    },
+    "startLicenceDialogTextImportovat": {
+      "titl": "Máte-li již licenci zakoupenou, nahrajte ji do aplikace."
+    },
+    "startLicenceDialogTextImportovatNeboAktivovat": {
+      "titl": "Pokud licenční soubor nevlastníte, tak po zadání IČO můžete:"
+    },
+    "startLicenceDialogTextInfo": {
+      "titl": "Provedli jste instalaci účetního software ABRA Flexi.\nDalším krokem je zadání licenčního souboru:"
+    }
+  },
+  "messages": {
+    "aktivaceProduktuChybaServeru": {
+      "titl": "Aktivaci nelze nyní provést. Zkuste to, prosím, později."
+    },
+    "aktivaceProduktuJizProbehla": {
+      "titl": "Zadaný kód byl již jednou aktivován."
+    },
+    "aktivaceProduktuNotMandatory": {
+      "titl": "Musíte vyplnit všechna tučně označená pole."
+    },
+    "aktivaceProduktuTestNotMandatory": {
+      "titl": "Musíte vyplnit všechna pole prodejního a aktivačního kódu."
+    },
+    "importLicenseJenomLicenseMgmt": {
+      "titl": "Import licence je povolen pouze uživateli s právem spravovat licence."
+    },
+    "licenceCheckApplicationCount": {
+      "titl": "Byl překročen maximální počet uživatelů povolených licencí."
+    },
+    "licenceCheckCompaniesLimitVycerpan": {
+      "titl": "Nelze přidat další firmu.\nPodle Vaší licence může být maximální počet založených firem: %p."
+    },
+    "licenceCheckLimitChybaPriKontrole": {
+      "titl": "Nepodařilo se provést kontrolu počtu záznamů podle licence."
+    },
+    "licenceCheckLimitVycerpanNelzeNovyDoklad": {
+      "titl": "Nelze vytvořit nový doklad.\nVaše licence umožňuje v tomto modulu vytvořit pouze %p dokladů."
+    },
+    "licenceCheckLimitVycerpanNelzeNovyZaznam": {
+      "titl": "Nelze vytvořit nový záznam.\nVaše licence umožňuje v tomto modulu vytvořit pouze %p záznamů."
+    },
+    "licenceCheckUsersLimitVycerpan": {
+      "titl": "Nelze přidat dalšího uživatele.\nVaše licence umožňuje spravovat pouze %p uživatelů."
+    },
+    "licenceCheckValidToPrekrocenNaDokladech": {
+      "titl": "Licence vyprší %p.\nNelze zadávat doklady s datumem vystavením následujícím po tomto datu."
+    },
+    "licenceChybaNacitani": {
+      "titl": "Při načítání licence nastala chyba."
+    },
+    "licenceChybaPodepisovani": {
+      "titl": "Licenci se nepodařilo podepsat."
+    },
+    "licenceChybaPriOverovaniLicence": {
+      "titl": "Nastala nespecifikovaná chyba při ověřování licence."
+    },
+    "licenceChybaStruktury": {
+      "titl": "Licence má poškozenou strukturu."
+    },
+    "licenceChybaVytvareni": {
+      "titl": "Při vytváření licence nastala chyba."
+    },
+    "licenceImportDotaz": {
+      "titl": "Spustili jste soubor s licencí ABRA Flexi. Přejete si ji naimportovat?"
+    },
+    "licenceNeniPlatna": {
+      "titl": "Licence není platná. Zadejte prosím platnou licenci."
+    },
+    "licenceNeniPlatnyTyp": {
+      "titl": "Soubor s licencí není platný. Je skutečně podepsán?"
+    },
+    "licenceNepodporujePristupSpecAplikaci": {
+      "titl": "Vaše licence nepodporuje přístup specializovanou aplikací."
+    },
+    "licenceNeumoznujePodvojneUcetnictvi": {
+      "titl": "Snažíte se vytvořit firmu s podvojným účetnictvím, ale licence to neumožňuje."
+    },
+    "licenceNotOnPremisesServer": {
+      "titl": "Vaše licence nepovoluje provoz na vlastním serveru. Pro změnu licence, prosím, kontaktuje obchodní oddělení."
+    },
+    "licencePrepsat": {
+      "titl": "Licence již existuje. Přejete si ji přepsat?"
+    },
+    "licenceUzivatelPrihlasenYindeChceteYindeOdhlasit": {
+      "titl": "Jste přihlášen na jiném zařízení. Chcete tam provést odhlášení?"
+    },
+    "licenseImportMessageOk": {
+      "titl": "Licence byla úspěšně naimportována."
+    },
+    "licenseImportTitleOk": {
+      "titl": "Licence byla naimportována."
+    },
+    "licenseProslaZaruka": {
+      "titl": "Licenci, kterou se snažíte nahrát, skončila záruka dne %p. Aplikace je ovšem novější a proto nelze licenci nahrát."
+    },
+    "registerLicenseDialogNotMandatory": {
+      "titl": "Musíte vyplnit všechna pole, u nichž je popisek s hvězdičkou."
+    },
+    "registerLicenseDialogPodekovaniText": {
+      "titl": "Děkujeme za registraci aplikace ABRA Flexi Start."
+    },
+    "registerLicenseDialogPodekovaniTitle": {
+      "titl": "Registrace proběhla úspěšně"
+    },
+    "registerLicenseDialogRegisterError": {
+      "titl": "Při registraci přes aplikaci nastala chyba. Registrujte se prosím přes webové rozhraní."
+    },
+    "registerLicenseDialogUnvalidEmail": {
+      "titl": "Neplatný formát e-mailu. Zadejte e-mail ve tvaru: jmeno@server.domena"
+    },
+    "registerLicenseDialogUnvalidTelephone": {
+      "titl": "Neplatný formát telefonu. Zadejte +420 XXX XXX XXX, kde X nahrazuje Vaše telefonní číslo."
+    },
+    "urlActivate": {
+      "titl": "https://support.flexibee.eu/redirect/use-for-free/"
+    },
+    "urlBuy": {
+      "titl": "https://support.flexibee.eu/redirect/buy/"
+    },
+    "urlRequestDev": {
+      "titl": "https://www.flexibee.eu/api/licence-pro-vyvojare/zadost-o-vyvojarskou-licenci/"
+    }
+  }
+}

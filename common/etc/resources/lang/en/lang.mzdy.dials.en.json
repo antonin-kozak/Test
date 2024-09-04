@@ -1,0 +1,574 @@
+{
+  "dials": {
+    "csszDuvodNeposkytnuti.01": {
+      "titl": "1 - death of the insured"
+    },
+    "csszDuvodNeposkytnuti.02": {
+      "titl": "2 - old-age pension or employment without insurance"
+    },
+    "csszDuvodNeposkytnuti.03": {
+      "titl": "3 - selected jobs"
+    },
+    "csszDuvodUkonceni.01": {
+      "titl": "1 - Termination of the PP of a foreigner or stateless person (§ 48/3)"
+    },
+    "csszDuvodUkonceni.02": {
+      "titl": "2 - By agreement with the employer (§ 49)"
+    },
+    "csszDuvodUkonceni.03": {
+      "titl": "3 - Termination by the employee (§ 50/3)"
+    },
+    "csszDuvodUkonceni.04": {
+      "titl": "4 - Reason for organisation (§ 52/a-c)"
+    },
+    "csszDuvodUkonceni.05": {
+      "titl": "5 - Health reasons (§ 52/e, § 56/1a)"
+    },
+    "csszDuvodUkonceni.05d": {
+      "titl": "5 - Health reasons (§ 52/d)"
+    },
+    "csszDuvodUkonceni.06": {
+      "titl": "6 - The employee does not meet the prerequisites or requirements for the performance of the agreed work (§ 52/f)"
+    },
+    "csszDuvodUkonceni.07": {
+      "titl": "7 - Breach of duty by an employee in a particularly serious manner (§ 52/g, first part of sentence or § 55/1b)"
+    },
+    "csszDuvodUkonceni.08": {
+      "titl": "8 - Consistent minor misconduct by an employee (§ 52/g, second part of sentence )"
+    },
+    "csszDuvodUkonceni.09": {
+      "titl": "9 - Violation of the temporary incapacity for work regime in a particularly serious manner (§ 52/h)"
+    },
+    "csszDuvodUkonceni.10": {
+      "titl": "10 - Immediate termination of employment due to a final conviction for a deliberate criminal offence (§ 55/1a)"
+    },
+    "csszDuvodUkonceni.11": {
+      "titl": "11 - Employer's breach of a material duty (§ 56/1b)"
+    },
+    "csszDuvodUkonceni.12": {
+      "titl": "12 - Fixed term (§ 65)"
+    },
+    "csszDuvodUkonceni.13": {
+      "titl": "13 - Probation by the employer (§ 66)"
+    },
+    "csszDuvodUkonceni.14": {
+      "titl": "14 - Probationary employee (§ 66)"
+    },
+    "csszDuvodUkonceni.15": {
+      "titl": "15 - Other"
+    },
+    "mzdCalcOper.krat": {
+      "titl": "Multiply (Out = In * Koef1 * Out + Koef2)"
+    },
+    "mzdCalcOper.lomeno": {
+      "titl": "Divide (Out = In * Koef1 / Out)"
+    },
+    "mzdCalcOper.max": {
+      "titl": "max (Out = max(In1*K1, In2*K2, Out*K3))"
+    },
+    "mzdCalcOper.mensi": {
+      "titl": "< (Out = (In1 < K1) then K2 else K3)"
+    },
+    "mzdCalcOper.mensiRovno": {
+      "titl": "<= (Out = (In1 <= K1) then K2 else K3)"
+    },
+    "mzdCalcOper.min": {
+      "titl": "min (Out = min(In1*K1, In2*K2, Out*K3))"
+    },
+    "mzdCalcOper.plus": {
+      "titl": "Plus (Out = In * Koef1 + Out * Koef2)"
+    },
+    "mzdCalcOper.rovno": {
+      "titl": "= (Out = (In1 = K1) then K2 else K3)"
+    },
+    "mzdCalcOper.rozdelPomer": {
+      "titl": "Divide In1 in proportion In2 to Out"
+    },
+    "mzdCalcOper.sinus": {
+      "titl": "sin (Out = sin(In1 * K1 + K2) * K3)"
+    },
+    "mzdCalcPlatnost.prvniCtvrtleti": {
+      "titl": "First quarter of labour engagement"
+    },
+    "mzdCalcPlatnost.prvniMesic": {
+      "titl": "First month of labour engagement"
+    },
+    "mzdCalcPlatnost.prvniRok": {
+      "titl": "First year of labour engagement"
+    },
+    "mzdCalcPlatnost.vzdy": {
+      "titl": "Always"
+    },
+    "mzdCalcPlatnost.zacatekPrvniRok": {
+      "titl": "First year of labour engagement according to beginning"
+    },
+    "mzdCalcSuma.konecPredchoziRok": {
+      "titl": "Months at the end of prior year"
+    },
+    "mzdCalcSuma.obdProplat": {
+      "titl": "Months where payment month agrees with current"
+    },
+    "mzdCalcSuma.obdobi": {
+      "titl": "Year division to periods of entered amount of months"
+    },
+    "mzdCalcSuma.obdobiAkt": {
+      "titl": "Dividing the year into periods of a specified number of months - the current period of the month before the current"
+    },
+    "mzdCalcSuma.predchozi": {
+      "titl": "Entered amount of preceding months"
+    },
+    "mzdCalcSuma.rokPred": {
+      "titl": "Preceding months in year"
+    },
+    "mzdCalcZdroj.nastaveni": {
+      "titl": "Settings"
+    },
+    "mzdCalcZdroj.osoba": {
+      "titl": "Person"
+    },
+    "mzdCalcZdroj.ostatni": {
+      "titl": "Other"
+    },
+    "mzdCalcZdroj.pracPom": {
+      "titl": "Engagement"
+    },
+    "mzdCalcZpracDatum.denVroce": {
+      "titl": "Consecutive day of the year - 0 outside the actual year"
+    },
+    "mzdCalcZpracDatum.denVroceKon": {
+      "titl": "Sequential day of the year - end date"
+    },
+    "mzdCalcZpracDatum.denVrocePoc": {
+      "titl": "Sequential day of the year - start date"
+    },
+    "mzdCalcZpracDatum.mesic": {
+      "titl": "Month of the year - 0 outside the actual year"
+    },
+    "mzdCalcZpracDatum.mesicNaslPoc": {
+      "titl": "Nearest following beginning of the month - month - 0 out of the actual year."
+    },
+    "mzdCalcZpracDatum.mesicPredKon": {
+      "titl": "Nearest (previous) end of month - month - 0 out of the actual year."
+    },
+    "mzdCalcZpracDatum.rozdilPracDnu": {
+      "titl": "Difference in working days"
+    },
+    "plneniOdprDoby.automaticky": {
+      "titl": "Automatically"
+    },
+    "plneniOdprDoby.rucne": {
+      "titl": "Manually"
+    },
+    "pohlavi.muz": {
+      "titl": "Male"
+    },
+    "pohlavi.zena": {
+      "titl": "Female"
+    },
+    "pracRozvrh.nepravidelny": {
+      "titl": "Irregular"
+    },
+    "pracRozvrh.pravidelny": {
+      "titl": "Regular"
+    },
+    "rodStav.druh": {
+      "titl": "Companion"
+    },
+    "rodStav.registrPartner": {
+      "titl": "Civil union"
+    },
+    "rodStav.rozvedeny": {
+      "titl": "Divorced"
+    },
+    "rodStav.svobodny": {
+      "titl": "Single"
+    },
+    "rodStav.vdana_zenaty": {
+      "titl": "Married"
+    },
+    "rodStav.vdovec": {
+      "titl": "Widow(er)"
+    },
+    "skupinaSlozky.dan": {
+      "titl": "Tax"
+    },
+    "skupinaSlozky.danSleva": {
+      "titl": "Tax - discount"
+    },
+    "skupinaSlozky.doba": {
+      "titl": "Working hours / month"
+    },
+    "skupinaSlozky.duchod": {
+      "titl": "Pension"
+    },
+    "skupinaSlozky.hrubaMzda": {
+      "titl": "Gross wage"
+    },
+    "skupinaSlozky.ispvFirma": {
+      "titl": "ISPV - company"
+    },
+    "skupinaSlozky.ispvZamestnanec": {
+      "titl": "ISPV - employee"
+    },
+    "skupinaSlozky.nemocNahrad": {
+      "titl": "Illness compensation"
+    },
+    "skupinaSlozky.nepritKaran": {
+      "titl": "Absence - quarantine"
+    },
+    "skupinaSlozky.nepritNemoc": {
+      "titl": "Absence - sickness"
+    },
+    "skupinaSlozky.nepritNeplac": {
+      "titl": "Absence - not paid"
+    },
+    "skupinaSlozky.nepritomnost": {
+      "titl": "Absence"
+    },
+    "skupinaSlozky.odmeny": {
+      "titl": "Bonuses"
+    },
+    "skupinaSlozky.ostatNahrad": {
+      "titl": "Other compensations"
+    },
+    "skupinaSlozky.priplatky": {
+      "titl": "Surcharges"
+    },
+    "skupinaSlozky.socPoj": {
+      "titl": "Social insurance"
+    },
+    "skupinaSlozky.srazky": {
+      "titl": "Deductions"
+    },
+    "skupinaSlozky.vyneti": {
+      "titl": "Removal"
+    },
+    "skupinaSlozky.vyplata": {
+      "titl": "Compensation"
+    },
+    "skupinaSlozky.zakladMzda": {
+      "titl": "Basic wage"
+    },
+    "skupinaSlozky.zaloha": {
+      "titl": "Advance"
+    },
+    "skupinaSlozky.zdravPoj": {
+      "titl": "Health insurance"
+    },
+    "typDuchodu.invalidniCast": {
+      "titl": "Partial disability pension"
+    },
+    "typDuchodu.invalidniPlny": {
+      "titl": "Full disability pension"
+    },
+    "typDuchodu.sirotci": {
+      "titl": "Orphan's annuity"
+    },
+    "typDuchodu.starobni": {
+      "titl": "Old-age pension"
+    },
+    "typDuchodu.starobniPredcas": {
+      "titl": "Early old-age pension"
+    },
+    "typDuchodu.vdovecky": {
+      "titl": "Widower's pension"
+    },
+    "typDuchodu.vdovsky": {
+      "titl": "Widow's pension"
+    },
+    "typEldp.01": {
+      "titl": "Employment continues"
+    },
+    "typEldp.02": {
+      "titl": "Employment terminated"
+    },
+    "typEldp.03": {
+      "titl": "Employment terminated by death"
+    },
+    "typEldp.51": {
+      "titl": "Correction - Employment continues"
+    },
+    "typEldp.52": {
+      "titl": "Correction - Employment terminated"
+    },
+    "typEldp.53": {
+      "titl": "Correction - Employment terminated by death"
+    },
+    "typEldp.91": {
+      "titl": "Reconstruction - Employment continues"
+    },
+    "typEldp.92": {
+      "titl": "Reconstruction - Employment terminated"
+    },
+    "typEldp.93": {
+      "titl": "Reconstruction - Employment terminated by death"
+    },
+    "typMzdy.hodinova": {
+      "titl": "Hourly"
+    },
+    "typMzdy.jina": {
+      "titl": "Another"
+    },
+    "typMzdy.mesicni": {
+      "titl": "Monthly"
+    },
+    "typMzdy.podilova": {
+      "titl": "Proportionate"
+    },
+    "typMzdy.smisena": {
+      "titl": "Mixed"
+    },
+    "typMzdy.ukolova": {
+      "titl": "Piece wage"
+    },
+    "typOdecitPol.dite": {
+      "titl": "Child"
+    },
+    "typOdecitPol.invalCast": {
+      "titl": "Partial disability pension"
+    },
+    "typOdecitPol.invalPlny": {
+      "titl": "Full disability pension"
+    },
+    "typOdecitPol.manzel": {
+      "titl": "Spouse"
+    },
+    "typOdecitPol.poplatnik": {
+      "titl": "Taxpayer"
+    },
+    "typOdecitPol.student": {
+      "titl": "Student"
+    },
+    "typOdecitPol.ztpP": {
+      "titl": "ZTP/P"
+    },
+    "typSlozky.dlouhodobNep": {
+      "titl": "Long-term absence"
+    },
+    "typSlozky.info": {
+      "titl": "Info"
+    },
+    "typSlozky.inicializace": {
+      "titl": "Initialization file"
+    },
+    "typSlozky.kopie": {
+      "titl": "Item generated from copy of another list"
+    },
+    "typSlozky.vstup": {
+      "titl": "Item entered by user"
+    },
+    "typSlozky.vypocet": {
+      "titl": "Item automatically generated"
+    },
+    "typVztahuOsoba.externi": {
+      "titl": "External person"
+    },
+    "typVztahuOsoba.uchazec": {
+      "titl": "Applicant"
+    },
+    "typVztahuOsoba.zamestnanec": {
+      "titl": "Employee"
+    },
+    "vyznamSlozky.bezneNahrady": {
+      "titl": "Regular reimbursements"
+    },
+    "vyznamSlozky.cistaMzda": {
+      "titl": "Net wage"
+    },
+    "vyznamSlozky.dan": {
+      "titl": "Tax"
+    },
+    "vyznamSlozky.danBonus": {
+      "titl": "Tax bonus"
+    },
+    "vyznamSlozky.danRezident": {
+      "titl": "Tax resident"
+    },
+    "vyznamSlozky.danSlevPrac": {
+      "titl": "Allowance - taxpayer"
+    },
+    "vyznamSlozky.danSlevSum": {
+      "titl": "Total tax deductions"
+    },
+    "vyznamSlozky.danSrazka": {
+      "titl": "Withholding tax"
+    },
+    "vyznamSlozky.danVypocet": {
+      "titl": "Tax calculation"
+    },
+    "vyznamSlozky.danZaklSraz": {
+      "titl": "Base for calculation of withholding tax for employment"
+    },
+    "vyznamSlozky.danZaklSrazSum": {
+      "titl": "Base for calculation of withholding tax"
+    },
+    "vyznamSlozky.danZaklSum": {
+      "titl": "Base for tax calculation"
+    },
+    "vyznamSlozky.danZaloha": {
+      "titl": "Tax prepayment - result after deductions and corrections"
+    },
+    "vyznamSlozky.dobaDovol": {
+      "titl": "Holiday"
+    },
+    "vyznamSlozky.dobaFond": {
+      "titl": "Working time fund"
+    },
+    "vyznamSlozky.dobaNeodpr": {
+      "titl": "Unworked time in total"
+    },
+    "vyznamSlozky.dobaOdpr": {
+      "titl": "Worked time in total"
+    },
+    "vyznamSlozky.dobirka": {
+      "titl": "Cash on delivery"
+    },
+    "vyznamSlozky.dovolPocatek": {
+      "titl": "Vacation start"
+    },
+    "vyznamSlozky.dovolVybrano": {
+      "titl": "Vacation taken - overall"
+    },
+    "vyznamSlozky.dovolZbyva": {
+      "titl": "Vacation left in year"
+    },
+    "vyznamSlozky.hrubaMzda": {
+      "titl": "Gross wage"
+    },
+    "vyznamSlozky.hrubaPrumer": {
+      "titl": "Base for average income"
+    },
+    "vyznamSlozky.mzdaMesicni": {
+      "titl": "Monthly wage (salary)"
+    },
+    "vyznamSlozky.mzdaNahrada": {
+      "titl": "Wages reimbursement"
+    },
+    "vyznamSlozky.nahradaNeschop": {
+      "titl": "Wages reimbursement - disability"
+    },
+    "vyznamSlozky.nemoc": {
+      "titl": "Sickness"
+    },
+    "vyznamSlozky.nepenezPrijmy": {
+      "titl": "Non-monetary incomes"
+    },
+    "vyznamSlozky.nepritCelk": {
+      "titl": "Time not worked - absence"
+    },
+    "vyznamSlozky.nocniPripl": {
+      "titl": "Night-shift bonus"
+    },
+    "vyznamSlozky.odmeny": {
+      "titl": "Bonuses"
+    },
+    "vyznamSlozky.podilNaZisku": {
+      "titl": "Profit-sharing"
+    },
+    "vyznamSlozky.pracPracPrum": {
+      "titl": "Labour legal hourly average"
+    },
+    "vyznamSlozky.premiePevna": {
+      "titl": "Bonus by fixed amount"
+    },
+    "vyznamSlozky.premieProc": {
+      "titl": "% of basic wage bonus"
+    },
+    "vyznamSlozky.premieProcUkaz": {
+      "titl": "Bonus % from indicator"
+    },
+    "vyznamSlozky.prescas": {
+      "titl": "Overtime work wage"
+    },
+    "vyznamSlozky.prescasPripl": {
+      "titl": "Overtime work bonus"
+    },
+    "vyznamSlozky.prescasy": {
+      "titl": "Worked - overtime"
+    },
+    "vyznamSlozky.prispIzolacka": {
+      "titl": "Contribution - insulation"
+    },
+    "vyznamSlozky.refundNeschop": {
+      "titl": "Wages refund - disability"
+    },
+    "vyznamSlozky.slevaDeti": {
+      "titl": "Credit - children"
+    },
+    "vyznamSlozky.socPojCelk": {
+      "titl": "Total social insurance"
+    },
+    "vyznamSlozky.socPojCelkDp": {
+      "titl": "Total social insurance - retirement insurance only"
+    },
+    "vyznamSlozky.socPojCelkSniz": {
+      "titl": "Social insurance, total, reduced"
+    },
+    "vyznamSlozky.socPojFirma": {
+      "titl": "Social insurance - company"
+    },
+    "vyznamSlozky.socPojFirmaSniz": {
+      "titl": "Social insurance - company, reduced"
+    },
+    "vyznamSlozky.socPojFirmaSnizZap": {
+      "titl": "Social insurance - company, reduced activated"
+    },
+    "vyznamSlozky.socPojPrac": {
+      "titl": "Social insurance - employee"
+    },
+    "vyznamSlozky.socPojSleva": {
+      "titl": "Social insurance - deduction"
+    },
+    "vyznamSlozky.socPojZakl": {
+      "titl": "Social insurance base"
+    },
+    "vyznamSlozky.socPojZaklDp": {
+      "titl": "Social insurance base - retirement insurance only"
+    },
+    "vyznamSlozky.socPojZaklSniz": {
+      "titl": "Social insurance base - reduced"
+    },
+    "vyznamSlozky.srazkaSporeni": {
+      "titl": "Savings plan"
+    },
+    "vyznamSlozky.superhrubaMzda": {
+      "titl": "Super-Gross wages"
+    },
+    "vyznamSlozky.svatek": {
+      "titl": "Worked - vacation"
+    },
+    "vyznamSlozky.svatekNahrada": {
+      "titl": "Refund for holiday"
+    },
+    "vyznamSlozky.weekend": {
+      "titl": "Worked - weekends"
+    },
+    "vyznamSlozky.zalohaMimoradna": {
+      "titl": "Extra advance"
+    },
+    "vyznamSlozky.zalohaRadna": {
+      "titl": "Regular advance"
+    },
+    "vyznamSlozky.zdravPojCelk": {
+      "titl": "Total health insurance"
+    },
+    "vyznamSlozky.zdravPojFirma": {
+      "titl": "Health insurance - employer"
+    },
+    "vyznamSlozky.zdravPojPrac": {
+      "titl": "Health insurance - employee"
+    },
+    "vyznamSlozky.zdravPojZakl": {
+      "titl": "Health insurance base"
+    },
+    "zpusobPlatby.adresa": {
+      "titl": "To address"
+    },
+    "zpusobPlatby.pokladna": {
+      "titl": "Cash desk"
+    },
+    "zpusobPlatby.ucet": {
+      "titl": "Bank account"
+    }
+  }
+}

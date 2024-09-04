@@ -1,0 +1,2355 @@
+{
+  "dials": {
+    "aktualizacePozadavkuFailZamcenyDoklad": {
+      "titl": "Aktualizace požadavků na výdej selže pokud je doklad zamčený."
+    },
+    "autoSendMailMod.neodesilat": {
+      "titl": "Neodesílat"
+    },
+    "autoSendMailMod.odesilat": {
+      "titl": "Odesílat"
+    },
+    "autoSendMailMod.odesilatBcc": {
+      "titl": "Odesílat jen na email skryté kopie"
+    },
+    "automatickeOdvozovaniVarSymNaFap": {
+      "titl": "Aktivuje automatické odvozování variabilního symbolu z čísla došlého na faktuře přijaté"
+    },
+    "barvaMaterialu.bareNepruhled": {
+      "titl": "Neprůhledné barevné"
+    },
+    "barvaMaterialu.barevPruhled": {
+      "titl": "Průhledné barevné"
+    },
+    "barvaMaterialu.transparent": {
+      "titl": "Transparentní"
+    },
+    "clenSpl.financni": {
+      "titl": "finanční činnost"
+    },
+    "clenSpl.vstupni": {
+      "titl": "vstupní cena"
+    },
+    "creditCheck.green": {
+      "titl": "zelená"
+    },
+    "creditCheck.red": {
+      "titl": "červená"
+    },
+    "creditCheck.yellow": {
+      "titl": "žlutá"
+    },
+    "danEvid.NeDanEvid": {
+      "titl": "Nespadá do DE"
+    },
+    "danEvid.Par10Ostatni": {
+      "titl": "§10 - Ostatní příjmy"
+    },
+    "danEvid.Par7JinePodn": {
+      "titl": "§7 - Jiné podnikání"
+    },
+    "danEvid.Par7PodilySpol": {
+      "titl": "§7 - Podíly společníků"
+    },
+    "danEvid.Par7Prava": {
+      "titl": "§7 - Užití či poskytnutí práv"
+    },
+    "danEvid.Par7ZemVyroba": {
+      "titl": "§7 - Zemědělská výroba"
+    },
+    "danEvid.Par7Zivnost": {
+      "titl": "§7 - Živnost"
+    },
+    "danEvid.Par8KapMaj": {
+      "titl": "§8 - Příjmy z kapitálového majetku"
+    },
+    "danEvid.Par9Pronajem": {
+      "titl": "§9 - Příjmy z pronájmu"
+    },
+    "danEvid.SocPoj": {
+      "titl": "Platba sociálního pojištění"
+    },
+    "danEvid.ZdravPoj": {
+      "titl": "Platba zdravotního pojištění"
+    },
+    "danEvid.mzdy": {
+      "titl": "Mzdy"
+    },
+    "danEvid.ostatnePrijmy": {
+      "titl": "Ostatní příjmy"
+    },
+    "danEvid.ostatneVydavky": {
+      "titl": "Ostatní výdaje"
+    },
+    "danEvid.platbyPojistnehoAPrispevkov": {
+      "titl": "Platby pojistného a příspěvků"
+    },
+    "danEvid.predajTovaru": {
+      "titl": "Prodej zboží"
+    },
+    "danEvid.predajVyrobkovSluzieb": {
+      "titl": "Prodej výrobků a služeb"
+    },
+    "danEvid.sluzby": {
+      "titl": "Služby"
+    },
+    "danEvid.tvorbaSocialnihoFondu": {
+      "titl": "Tvorba sociálního fondu"
+    },
+    "danEvid.zasoby": {
+      "titl": "Zásoby"
+    },
+    "danEvidSkupina.nespada": {
+      "titl": "Nespadá do DE"
+    },
+    "danEvidSkupina.nevyplneno": {
+      "titl": "Nevyplněno"
+    },
+    "danEvidSkupina.ostatni": {
+      "titl": "Ostatní"
+    },
+    "danEvidSkupina.par07": {
+      "titl": "§7"
+    },
+    "danEvidSkupina.par08": {
+      "titl": "§8"
+    },
+    "danEvidSkupina.par09": {
+      "titl": "§9"
+    },
+    "danEvidSkupina.par10": {
+      "titl": "§10"
+    },
+    "danEvidSkupina.prijem": {
+      "titl": "Příjmy"
+    },
+    "danEvidSkupina.vydej": {
+      "titl": "Výdaje"
+    },
+    "dashboardPanelVisibility.hidden": {
+      "titl": "Nevidí nikdo"
+    },
+    "dashboardPanelVisibility.private": {
+      "titl": "Vidí pouze autor"
+    },
+    "dashboardPanelVisibility.shared": {
+      "titl": "Je možné sdílet"
+    },
+    "dashboardPanelVisibility.shared-all": {
+      "titl": "Vidí všichni"
+    },
+    "datazTypParam.actId": {
+      "titl": "Aktuální záznam"
+    },
+    "datazTypParam.actModul": {
+      "titl": "Aktuální modul"
+    },
+    "datazTypParam.date": {
+      "titl": "Datum"
+    },
+    "datazTypParam.integer": {
+      "titl": "Celé číslo"
+    },
+    "datazTypParam.logic": {
+      "titl": "Logická hodnota"
+    },
+    "datazTypParam.numeric": {
+      "titl": "Desetinné číslo"
+    },
+    "datazTypParam.object": {
+      "titl": "Objekt"
+    },
+    "datazTypParam.string": {
+      "titl": "Řetězec"
+    },
+    "denniKurz.aktualniDen": {
+      "titl": "Z aktuálního dne"
+    },
+    "denniKurz.predchoziDen": {
+      "titl": "Z předchozího dne"
+    },
+    "doporuceniCil.uhrazeno": {
+      "desc": "Faktura po odpočtu této zálohy nebude ve ve stavu uhrazeno.",
+      "titl": "Uhrazeno"
+    },
+    "doporuceniCil.zaokrouhleno": {
+      "desc": "Faktura po odpočtu této zálohy možná nebude zaokrouhlena.",
+      "titl": "Zaokrouhleno"
+    },
+    "druhLeas.financni": {
+      "titl": "Finanční"
+    },
+    "druhLeas.operativ": {
+      "titl": "Operativní"
+    },
+    "druhMaj.drobny": {
+      "titl": "Drobný"
+    },
+    "druhMaj.hmDl": {
+      "titl": "Hmotný dlouhodobý"
+    },
+    "druhMaj.nehmDl": {
+      "titl": "Nehmotný dlouhodobý"
+    },
+    "druhMaj.neodepis": {
+      "titl": "Neodpisovaný (pouhá evidence)"
+    },
+    "druhStavuZakazky.hotovo": {
+      "titl": "Hotovo"
+    },
+    "druhStavuZakazky.mame": {
+      "titl": "Máme ji"
+    },
+    "druhStavuZakazky.storno": {
+      "titl": "Stornováno"
+    },
+    "druhStavuZakazky.ziskavame": {
+      "titl": "Získáváme ji"
+    },
+    "druhUctu.aktivni": {
+      "titl": "aktivní"
+    },
+    "druhUctu.aktpasvo": {
+      "titl": "aktivní+pasivní (volba)"
+    },
+    "druhUctu.aktpasvy": {
+      "titl": "aktivní/pasivní (dle výsledku)"
+    },
+    "druhUctu.naklady": {
+      "titl": "náklady"
+    },
+    "druhUctu.otevknih": {
+      "titl": "otevření knihy"
+    },
+    "druhUctu.pasivhvy": {
+      "titl": "pasivní - h. výsledek"
+    },
+    "druhUctu.pasivni": {
+      "titl": "pasivní"
+    },
+    "druhUctu.prhosvys": {
+      "titl": "převod hospodářského výsledku"
+    },
+    "druhUctu.uzavknih": {
+      "titl": "uzavření knihy"
+    },
+    "druhUctu.vynosy": {
+      "titl": "výnosy"
+    },
+    "druhUdal.pozn": {
+      "titl": "Poznámka"
+    },
+    "druhUdal.udal": {
+      "titl": "Událost"
+    },
+    "druhUdal.ukol": {
+      "titl": "Úkol"
+    },
+    "druhUdal.workflow": {
+      "titl": "Úkol workflow"
+    },
+    "duverCert.duverovat": {
+      "titl": "Důvěřovat"
+    },
+    "duverCert.ptatSe": {
+      "titl": "Ptát se"
+    },
+    "ediEanSklad": {
+      "titl": "Pokusí se určit EAN místa dodání, pokud není uveden."
+    },
+    "eetMod.ne": {
+      "titl": "Vypnuto"
+    },
+    "eetMod.ostry": {
+      "titl": "Ostrý"
+    },
+    "eetMod.ostryTest": {
+      "titl": "Neprodukční ostrý (pro vývojáře)"
+    },
+    "eetMod.overovaci": {
+      "titl": "Ověřovací"
+    },
+    "eetMod.overovaciTest": {
+      "titl": "Neprodukční ověřovací (pro vývojáře)"
+    },
+    "eetStav.ne": {
+      "titl": "neodesláno"
+    },
+    "eetStav.neStorno": {
+      "titl": "neodesláno storno"
+    },
+    "eetStav.neuspech": {
+      "titl": "neúspěch"
+    },
+    "eetStav.neuspechStorno": {
+      "titl": "neúspěch storno"
+    },
+    "eetStav.odeslano": {
+      "titl": "odesláno"
+    },
+    "eetStav.odeslanoStorno": {
+      "titl": "odesláno storno"
+    },
+    "eetTyp.anoBezny": {
+      "titl": "běžný režim"
+    },
+    "eetTyp.anoEkasa": {
+      "titl": "eKasa"
+    },
+    "eetTyp.anoZjednoduseny": {
+      "titl": "zjednodušený režim"
+    },
+    "eetTyp.ne": {
+      "titl": "nepodléhá EET"
+    },
+    "eetTypPlatby.cestovni": {
+      "titl": "Platby pro cestovní službu"
+    },
+    "eetTypPlatby.poukaz": {
+      "titl": "Platby kupony, dárkové poukazy, karty, vouchery atd."
+    },
+    "eetTypPlatby.pouzite": {
+      "titl": "Prodej použitého zboží"
+    },
+    "ekokom.exportovaneObaly": {
+      "titl": "Exportované obaly"
+    },
+    "ekokom.nezaplaceneObaly": {
+      "titl": "Nezaplacené obaly"
+    },
+    "ekokom.predplaceneObaly": {
+      "titl": "Předplacené obaly"
+    },
+    "ekokom.vyrazeneObaly": {
+      "titl": "Vyřazené obaly"
+    },
+    "ekokom.zpoplatneneObaly": {
+      "titl": "Zpoplatněné obaly"
+    },
+    "elPrikazPoplatek.odesilatel": {
+      "titl": "Odesílatel"
+    },
+    "elPrikazPoplatek.prijemce": {
+      "titl": "Příjemce"
+    },
+    "elPrikazPoplatek.spolecne": {
+      "titl": "Společná úhrada"
+    },
+    "elPrikazStav.odeslan": {
+      "titl": "Odesláno"
+    },
+    "elPrikazStav.vytvoren": {
+      "titl": "Neodesláno"
+    },
+    "elVypisDuplicita.nekontrolovat": {
+      "titl": "Nekontrolovat"
+    },
+    "elVypisDuplicita.polozka": {
+      "titl": "Ignorovat již načtené položky"
+    },
+    "elVypisDuplicita.vypis": {
+      "titl": "Ignorovat již načtené výpisy"
+    },
+    "fapDatProDuzpUctoK.aktDatum": {
+      "titl": "Aktuální datum"
+    },
+    "fapDatProDuzpUctoK.datSplat": {
+      "titl": "Splatnost"
+    },
+    "fapDatProDuzpUctoK.datUcto": {
+      "titl": "Datum zaúčtování"
+    },
+    "fapDatProDuzpUctoK.datVyst": {
+      "titl": "Přijato"
+    },
+    "fapDatProDuzpUctoK.duzpPuv": {
+      "titl": "Datum zdaň. pl."
+    },
+    "fapDatProDuzpUctoK.neplnit": {
+      "titl": "Nepředvyplňovat"
+    },
+    "finbricksActivateBic": {
+      "titl": "Aktivuje Finbricks pro účet fin. instituce, kterou zatím nemáme na seznamu podporovaných"
+    },
+    "formExport.edi": {
+      "titl": "EDI"
+    },
+    "formExport.xml": {
+      "titl": "XML"
+    },
+    "formaDopravy.ceskaPostaM": {
+      "titl": "Česká pošta (Soubor M)"
+    },
+    "formaDopravy.ceskaPostaPO": {
+      "titl": "Česká pošta (Podání online)"
+    },
+    "formaDopravy.geis": {
+      "titl": "Geis"
+    },
+    "formaDopravy.ppl": {
+      "titl": "PPL"
+    },
+    "formaUhr.cenina": {
+      "titl": "ceninou"
+    },
+    "formaUhr.dobirka": {
+      "titl": "dobírkou"
+    },
+    "formaUhr.hotove": {
+      "titl": "hotově"
+    },
+    "formaUhr.jina": {
+      "titl": "jinou formou"
+    },
+    "formaUhr.nespec": {
+      "titl": "nespecifikováno"
+    },
+    "formaUhr.platKart": {
+      "titl": "platební kartou"
+    },
+    "formaUhr.prevod": {
+      "titl": "převodem"
+    },
+    "formaUhr.sek": {
+      "titl": "šekem"
+    },
+    "formaUhr.slozenka": {
+      "titl": "složenkou"
+    },
+    "formaUhr.zapocet": {
+      "titl": "zápočtem"
+    },
+    "frDanNakl.ctvrtlet": {
+      "titl": "Čtvrtletně"
+    },
+    "frDanNakl.dvoumesi": {
+      "titl": "Každé dva měsíce"
+    },
+    "frDanNakl.mesicne": {
+      "titl": "Měsíčně"
+    },
+    "frDanNakl.pololet": {
+      "titl": "Pololetně"
+    },
+    "frDanNakl.rocne": {
+      "titl": "Ročně"
+    },
+    "frekAkt.5minut": {
+      "titl": "každých 5 minut"
+    },
+    "frekAkt.denne": {
+      "titl": "každý den"
+    },
+    "frekAkt.hodinu": {
+      "titl": "každou hodinu"
+    },
+    "frekAkt.rucne": {
+      "titl": "ručně"
+    },
+    "gdprPlatnost.manualne": {
+      "titl": "Manuálně"
+    },
+    "gdprPlatnost.vznikAutoKonec": {
+      "titl": "Automaticky od konce platnosti záznamu"
+    },
+    "gdprPlatnost.vznikAutoPocatek": {
+      "titl": "Automaticky od začátku platnosti záznamu"
+    },
+    "gdprPravTit.cuaVyslSouhl": {
+      "titl": "Citlivé údaje: výslovný souhlas se zpracováním"
+    },
+    "gdprPravTit.cubZpracNezb": {
+      "titl": "Citlivé údaje: nezbytné zpracování"
+    },
+    "gdprPravTit.cucOchrZaj": {
+      "titl": "Citlivé údaje: ochrana životně důležitých zájmů"
+    },
+    "gdprPravTit.cudClenNezis": {
+      "titl": "Citlivé údaje: člen neziskového subjektu"
+    },
+    "gdprPravTit.cueZjevZver": {
+      "titl": "Citlivé údaje: zjevně zveřejněné údaje"
+    },
+    "gdprPravTit.cufPravNarok": {
+      "titl": "Citlivé údaje: výkon nebo obhajoba právních nároků"
+    },
+    "gdprPravTit.cugVyzVerZaj": {
+      "titl": "Citlivé údaje: významný veřejný zájem"
+    },
+    "gdprPravTit.cuhLekarOs": {
+      "titl": "Citlivé údaje: zdravotní a sociální péče"
+    },
+    "gdprPravTit.cuiVerZdr": {
+      "titl": "Citlivé údaje: veřejný zájem v oblasti veřejného zdraví"
+    },
+    "gdprPravTit.cujArchVyzStat": {
+      "titl": "Citlivé údaje: archivace, výzkum nebo statistické účely"
+    },
+    "gdprPravTit.opravZaj": {
+      "titl": "Oprávněný zájem"
+    },
+    "gdprPravTit.plnSml": {
+      "titl": "Plnění smlouvy"
+    },
+    "gdprPravTit.souhlZprac": {
+      "titl": "Souhlas se zpracováním"
+    },
+    "gdprPravTit.splnPovin": {
+      "titl": "Splnění právní povinnosti"
+    },
+    "gdprPravTit.verejZaj": {
+      "titl": "Veřejný zájem"
+    },
+    "gdprPravTit.zivotDulez": {
+      "titl": "Životně důležité"
+    },
+    "gdprTypVztahu.jedenZeZprac": {
+      "titl": "Jeden ze zpracovatelů"
+    },
+    "gdprTypVztahu.prijemce": {
+      "titl": "Příjemce"
+    },
+    "gdprTypVztahu.spolSpravce": {
+      "titl": "Společní správci"
+    },
+    "gdprTypVztahu.spravce": {
+      "titl": "Správce"
+    },
+    "gdprTypVztahu.subzpracovatel": {
+      "titl": "Subzpracovatel"
+    },
+    "gdprTypVztahu.zastupce": {
+      "titl": "Zástupce"
+    },
+    "gdprTypVztahu.zpracovatel": {
+      "titl": "Zpracovatel"
+    },
+    "isdocPrilohaMailu.ano": {
+      "titl": "Ano"
+    },
+    "isdocPrilohaMailu.ne": {
+      "titl": "Ne"
+    },
+    "isdocPrilohaMailu.podleTypDokl": {
+      "titl": "Podle typu dokladu"
+    },
+    "jakUhrazeno.autoBezVs": {
+      "titl": "Automaticky dle částky"
+    },
+    "jakUhrazeno.autoBuc": {
+      "titl": "Automaticky dle bank. účtu"
+    },
+    "jakUhrazeno.autoKod": {
+      "titl": "Automaticky dle int. čís. dokladu"
+    },
+    "jakUhrazeno.autoVs": {
+      "titl": "Automaticky dle var. sym."
+    },
+    "jakUhrazeno.autoVsRuzneMeny": {
+      "titl": "Automaticky dle var. sym. (různé měny)"
+    },
+    "jakUhrazeno.autoZak": {
+      "titl": "Automaticky dle zákaznického čísla"
+    },
+    "jakUhrazeno.rucne1": {
+      "titl": "Ručně - 1 doklad"
+    },
+    "jakUhrazeno.rucneCast": {
+      "titl": "Ručně - částečná úhrada"
+    },
+    "jakUhrazeno.rucneN": {
+      "titl": "Ručně - více dokladů"
+    },
+    "jakyTypDokl.posledni": {
+      "titl": "Poslední vybraný"
+    },
+    "jakyTypDokl.primarni": {
+      "titl": "Primární"
+    },
+    "jakyTypDokl.zeptat": {
+      "titl": "Dotázat uživatele"
+    },
+    "jazyk.cs": {
+      "titl": "čeština"
+    },
+    "jazyk.de": {
+      "titl": "němčina"
+    },
+    "jazyk.en": {
+      "titl": "angličtina"
+    },
+    "jazyk.es": {
+      "titl": "španělština"
+    },
+    "jazyk.fr": {
+      "titl": "francouzština"
+    },
+    "jazyk.hu": {
+      "titl": "maďarština"
+    },
+    "jazyk.it": {
+      "titl": "italština"
+    },
+    "jazyk.none": {
+      "titl": "neaktivní"
+    },
+    "jazyk.pl": {
+      "titl": "polština"
+    },
+    "jazyk.ro": {
+      "titl": "rumunština"
+    },
+    "jazyk.ru": {
+      "titl": "ruština"
+    },
+    "jazyk.sk": {
+      "titl": "slovenština"
+    },
+    "kodPlneni.bezVlivu": {
+      "titl": "Bez vlivu na DPH"
+    },
+    "kodPlneni.doprProstr": {
+      "titl": "Dopravní prostředek"
+    },
+    "kodPlneni.dovozOSS": {
+      "titl": "OSS - dovozní režim"
+    },
+    "kodPlneni.knihy": {
+      "titl": "Dodání knih a obdobné služby"
+    },
+    "kodPlneni.majetek": {
+      "titl": "Obchodní majetek"
+    },
+    "kodPlneni.mimoEuOSS": {
+      "titl": "OSS - mimo EU"
+    },
+    "kodPlneni.nespec": {
+      "titl": "Nespecifikováno"
+    },
+    "kodPlneni.oprava": {
+      "titl": "Oprava plnění"
+    },
+    "kodPlneni.ostatni": {
+      "titl": "Ostatní"
+    },
+    "kodPlneni.osv": {
+      "titl": "Osvobozeno"
+    },
+    "kodPlneni.prenDanPov": {
+      "titl": "Přenesená daňová povinnost"
+    },
+    "kodPlneni.prenDanPovOprava": {
+      "titl": "Přenesená daňová povinnost - volba uživatele"
+    },
+    "kodPlneni.sluzby": {
+      "titl": "Dodání služby"
+    },
+    "kodPlneni.sluzbyMOSS": {
+      "titl": "Zvláštní režim jednoho správního místa (Mini One Stop Shop)"
+    },
+    "kodPlneni.sluzbyOSS": {
+      "titl": "OSS - EU služby"
+    },
+    "kodPlneni.tristran": {
+      "titl": "Třístranný obchod"
+    },
+    "kodPlneni.zbozi": {
+      "titl": "Dodání zboží"
+    },
+    "kodPlneni.zboziOSS": {
+      "titl": "OSS - EU zboží"
+    },
+    "litterObal.nadobyNaNapoje": {
+      "titl": "Nádoby na nápoje"
+    },
+    "litterObal.nadobyNaPotravinyCastPlast": {
+      "titl": "Nádoby na potraviny částečně z plastu"
+    },
+    "litterObal.nadobyNaPotravinyPlast": {
+      "titl": "Nádoby na potraviny z plastu"
+    },
+    "litterObal.napojKelimkyCastPlast": {
+      "titl": "Nápojové kelímky částečně z plastu"
+    },
+    "litterObal.napojKelimkyPlast": {
+      "titl": "Nápojové kelímky z plastu"
+    },
+    "litterObal.neni": {
+      "titl": "Není"
+    },
+    "litterObal.plastTasky15": {
+      "titl": "Plastové odnosné tašky: 0-15 mikronů"
+    },
+    "litterObal.plastTasky50": {
+      "titl": "Plastové odnosné tašky: 15-50 mikronů"
+    },
+    "litterObal.sackyNaPotraviny": {
+      "titl": "Sáčky a balení na potraviny"
+    },
+    "logoPozice.nahore": {
+      "titl": "Logo nahoře"
+    },
+    "logoPozice.vlevo": {
+      "titl": "Logo vlevo"
+    },
+    "material.drevo": {
+      "titl": "Dřevo"
+    },
+    "material.drevoDrevoDrevotriska": {
+      "titl": "Dřevo - Dřevo a dřevotříska"
+    },
+    "material.drevoKompozit": {
+      "titl": "Dřevo - Kompozit s nedřevěnými částmi"
+    },
+    "material.jine": {
+      "titl": "Jiné"
+    },
+    "material.kompozit": {
+      "titl": "Kompozitní materiál"
+    },
+    "material.kompozitVetsi": {
+      "titl": "Kompozitní materiál, nad 3 l"
+    },
+    "material.kovy5Al": {
+      "titl": "Kovy nad 5L - Al"
+    },
+    "material.kovy5Fe": {
+      "titl": "Kovy nad 5L - Fe"
+    },
+    "material.kovyAl": {
+      "titl": "Kovy - Al"
+    },
+    "material.kovyAlKompozit": {
+      "titl": "Kovy - Kompozitní Al"
+    },
+    "material.kovyAlKompozitVetsi": {
+      "titl": "Kovy - Kompozitní Al, nad 3 l"
+    },
+    "material.kovyAlVetsi": {
+      "titl": "Kovy - Al, nad 3 l"
+    },
+    "material.kovyFe": {
+      "titl": "Kovy - Fe"
+    },
+    "material.kovyFeKompozit": {
+      "titl": "Kovy - Kompozitní Fe"
+    },
+    "material.kovyFeKompozitVetsi": {
+      "titl": "Kovy - Kompozitní Fe, nad 3 l"
+    },
+    "material.kovyFeVetsi": {
+      "titl": "Kovy - Fe, nad 3 l"
+    },
+    "material.mekPlastBioRozlozit": {
+      "titl": "Měkké plasty - Biologicky rozložitelné"
+    },
+    "material.mekPlastBioRozlozitVetsi": {
+      "titl": "Měkké plasty - Biologicky rozložitelné, nad 3 l"
+    },
+    "material.mekPlastEps": {
+      "titl": "Měkké plasty - EPS"
+    },
+    "material.mekPlastEpsVetsi": {
+      "titl": "Měkké plasty - EPS, nad 3 l"
+    },
+    "material.mekPlastJine": {
+      "titl": "Měkké plasty - Jiné"
+    },
+    "material.mekPlastJineVetsi": {
+      "titl": "Měkké plasty - Jiné, nad 3 l"
+    },
+    "material.mekPlastKompozit": {
+      "titl": "Měkké plasty - Kompozitní"
+    },
+    "material.mekPlastKompozitVetsi": {
+      "titl": "Měkké plasty - Kompozitní, nad 3 l"
+    },
+    "material.mekPlastPe": {
+      "titl": "Měkké plasty - PE"
+    },
+    "material.mekPlastPeVetsi": {
+      "titl": "Měkké plasty - PE, nad 3 l"
+    },
+    "material.mekPlastPet": {
+      "titl": "Měkké plasty - PET"
+    },
+    "material.mekPlastPetVetsi": {
+      "titl": "Měkké plasty - PET, nad 3 l"
+    },
+    "material.mekPlastPp": {
+      "titl": "Měkké plasty - PP"
+    },
+    "material.mekPlastPpVetsi": {
+      "titl": "Měkké plasty - PP, nad 3 l"
+    },
+    "material.mekPlastPs": {
+      "titl": "Měkké plasty - PS"
+    },
+    "material.mekPlastPsVetsi": {
+      "titl": "Měkké plasty - PS, nad 3 l"
+    },
+    "material.mekPlastPvc": {
+      "titl": "Měkké plasty - PVC"
+    },
+    "material.mekPlastPvcVetsi": {
+      "titl": "Měkké plasty - PVC, nad 3 l"
+    },
+    "material.mekPlastXps": {
+      "titl": "Měkké plasty - XPS"
+    },
+    "material.mekPlastXpsVetsi": {
+      "titl": "Měkké plasty - XPS, nad 3 l"
+    },
+    "material.napojoveKartony": {
+      "titl": "Nápojové kartony"
+    },
+    "material.napojoveKartonyVetsi": {
+      "titl": "Nápojové kartony, nad 3 l"
+    },
+    "material.papir": {
+      "titl": "Papír"
+    },
+    "material.papirBezny": {
+      "titl": "Papír - Běžný"
+    },
+    "material.papirHladkaLepenka": {
+      "titl": "Papír - Hladká lepenka"
+    },
+    "material.papirKompozit": {
+      "titl": "Papír - Kompozitní"
+    },
+    "material.papirNasavanaKart": {
+      "titl": "Papír - Nasávaná kartonáž"
+    },
+    "material.papirVlnitaLepenka": {
+      "titl": "Papír - Vlnitá lepenka"
+    },
+    "material.pevDut5PlastJine": {
+      "titl": "Pevné duté plasty nad 5L - Jiné"
+    },
+    "material.pevDut5PlastPe": {
+      "titl": "Pevné duté plasty nad 5L - PE"
+    },
+    "material.pevDut5PlastPet": {
+      "titl": "Pevné duté plasty nad 5L - PET"
+    },
+    "material.pevDut5PlastPp": {
+      "titl": "Pevné duté plasty nad 5L - PP"
+    },
+    "material.pevDut5PlastPs": {
+      "titl": "Pevné duté plasty nad 5L - PS"
+    },
+    "material.pevDut5PlastPvc": {
+      "titl": "Pevné duté plasty nad 5L - PVC"
+    },
+    "material.pevDutePlastBioRozlozit": {
+      "titl": "Pevné duté plasty - Biologicky rozložitelné"
+    },
+    "material.pevDutePlastBioRozlozitVetsi": {
+      "titl": "Pevné duté plasty - Biologicky rozložitelné, nad 3 l"
+    },
+    "material.pevDutePlastEps": {
+      "titl": "Pevné duté plasty - EPS"
+    },
+    "material.pevDutePlastEpsVetsi": {
+      "titl": "Pevné duté plasty - EPS, nad 3 l"
+    },
+    "material.pevDutePlastJine": {
+      "titl": "Pevné duté plasty - Jiné"
+    },
+    "material.pevDutePlastJineVetsi": {
+      "titl": "Pevné duté plasty - Jiné, nad 3 l"
+    },
+    "material.pevDutePlastKompozit": {
+      "titl": "Pevné duté plasty - Kompozitní"
+    },
+    "material.pevDutePlastKompozitVetsi": {
+      "titl": "Pevné duté plasty - Kompozitní, nad 3 l"
+    },
+    "material.pevDutePlastPe": {
+      "titl": "Pevné duté plasty - PE"
+    },
+    "material.pevDutePlastPeVetsi": {
+      "titl": "Pevné duté plasty - PE, nad 3 l"
+    },
+    "material.pevDutePlastPet": {
+      "titl": "Pevné duté plasty - PET"
+    },
+    "material.pevDutePlastPetVetsi": {
+      "titl": "Pevné duté plasty - PET, nad 3 l"
+    },
+    "material.pevDutePlastPp": {
+      "titl": "Pevné duté plasty - PP"
+    },
+    "material.pevDutePlastPpVetsi": {
+      "titl": "Pevné duté plasty - PP, nad 3 l"
+    },
+    "material.pevDutePlastPs": {
+      "titl": "Pevné duté plasty - PS"
+    },
+    "material.pevDutePlastPsVetsi": {
+      "titl": "Pevné duté plasty - PS, nad 3 l"
+    },
+    "material.pevDutePlastPvc": {
+      "titl": "Pevné duté plasty - PVC"
+    },
+    "material.pevDutePlastPvcVetsi": {
+      "titl": "Pevné duté plasty - PVC, nad 3 l"
+    },
+    "material.pevDutePlastXps": {
+      "titl": "Pevné duté plasty - XPS"
+    },
+    "material.pevDutePlastXpsVetsi": {
+      "titl": "Pevné duté plasty - XPS, nad 3 l"
+    },
+    "material.sklo": {
+      "titl": "Sklo"
+    },
+    "material.skloBarevne": {
+      "titl": "Sklo - Barevné"
+    },
+    "material.skloKompozit": {
+      "titl": "Sklo - Kompozitní"
+    },
+    "material.skloTransparent": {
+      "titl": "Sklo - Transparentní"
+    },
+    "material.textil": {
+      "titl": "Textil"
+    },
+    "material.vlnitaLepenka": {
+      "titl": "Vlnitá lepenka"
+    },
+    "metodaZaokr.0sazba": {
+      "titl": "do 0 sazby"
+    },
+    "metodaZaokr.individ": {
+      "titl": "individuálně"
+    },
+    "metodaZaokr.zklDph": {
+      "titl": "do základu a DPH"
+    },
+    "mjHmot.gram": {
+      "titl": "gram"
+    },
+    "mjHmot.kilogram": {
+      "titl": "kilogram"
+    },
+    "mjHmot.tuna": {
+      "titl": "tuna"
+    },
+    "mjZaruky.den": {
+      "titl": "den"
+    },
+    "mjZaruky.mesic": {
+      "titl": "měsíc"
+    },
+    "mjZaruky.rok": {
+      "titl": "rok"
+    },
+    "modulUcetni.BAN": {
+      "titl": "Banka"
+    },
+    "modulUcetni.FAH": {
+      "titl": "Hotovostní prodej"
+    },
+    "modulUcetni.FAP": {
+      "titl": "Faktury přijaté"
+    },
+    "modulUcetni.FAV": {
+      "titl": "Faktury vydané"
+    },
+    "modulUcetni.INT": {
+      "titl": "Interní doklady"
+    },
+    "modulUcetni.LEA": {
+      "titl": "Leasing"
+    },
+    "modulUcetni.MAJ": {
+      "titl": "Majetek"
+    },
+    "modulUcetni.NAP": {
+      "titl": "Nabídky přijaté"
+    },
+    "modulUcetni.NAV": {
+      "titl": "Nabídky vydané"
+    },
+    "modulUcetni.OBP": {
+      "titl": "Objednávky přijaté"
+    },
+    "modulUcetni.OBV": {
+      "titl": "Objednávky vydané"
+    },
+    "modulUcetni.PHL": {
+      "titl": "Pohledávky"
+    },
+    "modulUcetni.POK": {
+      "titl": "Pokladna"
+    },
+    "modulUcetni.PPP": {
+      "titl": "Poptávky přijaté"
+    },
+    "modulUcetni.PPV": {
+      "titl": "Poptávky vydané"
+    },
+    "modulUcetni.SKL": {
+      "titl": "Sklad"
+    },
+    "modulUcetni.SKLPRI": {
+      "titl": "Příjemka"
+    },
+    "modulUcetni.SKLVYD": {
+      "titl": "Výdejka"
+    },
+    "modulUcetni.ZAV": {
+      "titl": "Závazky"
+    },
+    "nahrUcet.aPocMes": {
+      "titl": "Ano"
+    },
+    "nahrUcet.ne": {
+      "titl": "Ne"
+    },
+    "normalMj.gram": {
+      "titl": "Gram"
+    },
+    "normalMj.kilogram": {
+      "titl": "Kilogram"
+    },
+    "normalMj.tuna": {
+      "titl": "Tuna"
+    },
+    "objednat.neobjednat": {
+      "titl": "Neobjednávat"
+    },
+    "objednat.objednano": {
+      "titl": "Již je objednáno"
+    },
+    "objednat.objednat": {
+      "titl": "Objednat"
+    },
+    "omezPrenDanPov.bezOmezeni": {
+      "titl": "bez omezení"
+    },
+    "omezPrenDanPov.odCastky100k": {
+      "titl": "od částky 100 000,- Kč"
+    },
+    "operaceZurnalSmlouvy.autoGenerace": {
+      "titl": "Automatická generace"
+    },
+    "operaceZurnalSmlouvy.manualGenerace": {
+      "titl": "Ruční generace"
+    },
+    "paramDobropisSkladZProdejky": {
+      "titl": "Má-li se upřednostnit sklad nastavený na prodejce na typu dokladu."
+    },
+    "paramEDIExportBaleni": {
+      "titl": "Zohledňovat při exportu do EDI balení?"
+    },
+    "paramExpiraceMandatory": {
+      "titl": "Expirace povinná"
+    },
+    "paramFirmaInfoUrl": {
+      "titl": "URL pro aktualizaci údajů o firmě."
+    },
+    "paramFirmyDavkaAktualizovatBanku": {
+      "titl": "Mají-li se při hromadné aktualizaci ůdajů firem aktualizovat pouze bankovní údaje."
+    },
+    "paramFirmyDavkaInfoUrl": {
+      "titl": "URL pro hromadnou aktualizaci údajů firem."
+    },
+    "paramGenFunkceKoduFirmy": {
+      "titl": "Název funkce pro generování kódu firmy"
+    },
+    "paramGenFunkceKoduSmlouvy": {
+      "titl": "Název funkce pro generování kódu smlouvy"
+    },
+    "paramNaseptavaniFiremSk": {
+      "titl": "Našeptávání firem ze systému ARES"
+    },
+    "paramNaseptavaniFiremUrl": {
+      "titl": "URL pro našeptávání firem."
+    },
+    "paramNeomezovatMnozstviObv": {
+      "titl": "Zda se u objednávky do výroby nemá snižovat přednastavené množství o skladem dostupné a rezervované."
+    },
+    "paramObjednavkaRealizaceKomplet": {
+      "titl": "Pouze kompletní realizace objednávky"
+    },
+    "paramPrenasetFirmuZeZakazkyNaDokl": {
+      "titl": "Přenášet firmu ze zakázky na doklad, pokud není firma na dokladu vyplněná. Je možné definovat pro konkrétní modul a typ dokladu."
+    },
+    "paramPrikladatPrilohuDoMailu": {
+      "titl": "Výchozí hodnota pro příznak \"Přiložit\" u přílohy typu soubor."
+    },
+    "paramRefundaceSkladove": {
+      "titl": "Refundace skladového zboží"
+    },
+    "paramRozsirenaZakazka": {
+      "titl": "Tisk rozšířených parametrů zakázky na tiskovou sestavu."
+    },
+    "paramSarzeMandatory": {
+      "titl": "Šarže povinná"
+    },
+    "paramVychoziTiskarna": {
+      "titl": "Výchozí tiskárna"
+    },
+    "povolitBankuSPolozkami": {
+      "titl": "Umožní vytvářet bankovní doklady s položkami"
+    },
+    "pozadavekStav.novy": {
+      "titl": "Nový"
+    },
+    "pozadavekStav.rozpracovan": {
+      "titl": "Rozpracovaný"
+    },
+    "pozadavekStav.uzavren": {
+      "titl": "Uzavřený"
+    },
+    "pozadavekTyp.namitka": {
+      "titl": "Právo vznést námitku"
+    },
+    "pozadavekTyp.omezeni": {
+      "titl": "Právo na omezení zpracování"
+    },
+    "pozadavekTyp.oprava": {
+      "titl": "Právo na opravu"
+    },
+    "pozadavekTyp.osobniUdaje": {
+      "titl": "Právo subjektu údajů na přístup k osobním údajům"
+    },
+    "pozadavekTyp.oznamovaci": {
+      "titl": "Oznamovací povinnost ohledně opravy nebo výmazu osobních údajů nebo omezení zpracování"
+    },
+    "pozadavekTyp.prenositelnost": {
+      "titl": "Právo na přenositelnost údajů"
+    },
+    "pozadavekTyp.vymaz": {
+      "titl": "Právo na výmaz"
+    },
+    "pravFormaPodnik.as": {
+      "titl": "Akciová společnost"
+    },
+    "pravFormaPodnik.druzstvo": {
+      "titl": "Družstvo"
+    },
+    "pravFormaPodnik.es": {
+      "titl": "Evropská společnost"
+    },
+    "pravFormaPodnik.ks": {
+      "titl": "Komanditní společnost"
+    },
+    "pravFormaPodnik.nadace": {
+      "titl": "Nadace"
+    },
+    "pravFormaPodnik.nezOrg": {
+      "titl": "Nezisková organizace"
+    },
+    "pravFormaPodnik.osvc": {
+      "titl": "Osoba samostatně výdělečně činná"
+    },
+    "pravFormaPodnik.sdruzeni": {
+      "titl": "Sdružení podnikatelů"
+    },
+    "pravFormaPodnik.sro": {
+      "titl": "Společnost s ručením omezeným"
+    },
+    "pravFormaPodnik.vos": {
+      "titl": "Veřejná obchodní společnost"
+    },
+    "predvybranyPocet.aktualni": {
+      "titl": "Aktualní záznam"
+    },
+    "predvybranyPocet.vsechny": {
+      "titl": "Všechny záznamy"
+    },
+    "prepocetCen.ask": {
+      "titl": "Zeptat se"
+    },
+    "prepocetCen.auto": {
+      "titl": "Přepočítat ceny"
+    },
+    "prepocetCen.none": {
+      "titl": "Neměnit ceny"
+    },
+    "priorita.kriticka": {
+      "titl": "Kritická"
+    },
+    "priorita.nizka": {
+      "titl": "Nízká"
+    },
+    "priorita.stredni": {
+      "titl": "Střední"
+    },
+    "priorita.velmiNizka": {
+      "titl": "Velmi nízká"
+    },
+    "priorita.vysoka": {
+      "titl": "Vysoká"
+    },
+    "razeniProTisk.kod": {
+      "titl": "Podle kódu"
+    },
+    "razeniProTisk.nazev": {
+      "titl": "Podle názvu"
+    },
+    "razeniProTisk.poradi": {
+      "titl": "Podle pořadí"
+    },
+    "rezimRezervaci.rucni": {
+      "titl": "Pouze ruční"
+    },
+    "rezimRezervaci.zObj": {
+      "titl": "Automatická při vytvoření objednávky"
+    },
+    "rezimRezervaci.zObjPriNaskladneni": {
+      "titl": "Automatická při vytvoření objednávky i naskladnění zboží"
+    },
+    "rocniKurz.kalendarniDen": {
+      "titl": "K 1. kal. dni v období"
+    },
+    "rocniKurz.pracovniDen": {
+      "titl": "K 1. prac. dni v období"
+    },
+    "stavDoklObch.castHotovo": {
+      "titl": "Částečně hotovo"
+    },
+    "stavDoklObch.castVydano": {
+      "titl": "Částečně vydáno/přijato"
+    },
+    "stavDoklObch.castecneNaCeste": {
+      "titl": "Částečně na cestě"
+    },
+    "stavDoklObch.hotovo": {
+      "titl": "Hotovo"
+    },
+    "stavDoklObch.naCeste": {
+      "titl": "Na cestě"
+    },
+    "stavDoklObch.nespec": {
+      "titl": "Nespecifikováno"
+    },
+    "stavDoklObch.pripraveno": {
+      "titl": "Připraveno"
+    },
+    "stavDoklObch.schvaleno": {
+      "titl": "Schváleno"
+    },
+    "stavDoklObch.storno": {
+      "titl": "Storno"
+    },
+    "stavDoklObch.vydano": {
+      "titl": "Vydáno/přijato"
+    },
+    "stavInventury.1vlna": {
+      "titl": "1. vlna"
+    },
+    "stavInventury.2vlna": {
+      "titl": "2. vlna"
+    },
+    "stavInventury.3vlna": {
+      "titl": "3. vlna"
+    },
+    "stavInventury.4vlna": {
+      "titl": "4. vlna"
+    },
+    "stavInventury.hotova": {
+      "titl": "Hotovo"
+    },
+    "stavInventury.uzavrena": {
+      "titl": "Uzavřeno"
+    },
+    "stavInventury.zahajena": {
+      "titl": "Zahájena"
+    },
+    "stavMail.neodesilat": {
+      "titl": "Neodesílat"
+    },
+    "stavMail.odeslano": {
+      "titl": "Odesláno"
+    },
+    "stavMail.odeslat": {
+      "titl": "Odeslat"
+    },
+    "stavOdp.cast": {
+      "titl": "Částečně odpočteno"
+    },
+    "stavOdp.komplet": {
+      "titl": "Odpočteno"
+    },
+    "stavOdp.vytvZdd": {
+      "titl": "Vytvořen ZDD"
+    },
+    "stavPriznaniDph.dodatecne": {
+      "titl": "Dodatečné"
+    },
+    "stavPriznaniDph.dodatecneOpravne": {
+      "titl": "Dodatečné/opravné"
+    },
+    "stavPriznaniDph.opravne": {
+      "titl": "Opravné"
+    },
+    "stavPriznaniDph.radne": {
+      "titl": "Řádné"
+    },
+    "stavPriznaniDph.radneOpravne": {
+      "titl": "Řádné/opravné"
+    },
+    "stavSklad.nefakturovatelne": {
+      "titl": "Nefakturovatelné"
+    },
+    "stavSklad.prevodka": {
+      "titl": "Převodka"
+    },
+    "stavSklad.uhrazen": {
+      "titl": "Uhrazen pokladnou"
+    },
+    "stavSklad.uhrazenCast": {
+      "titl": "Částečně uhrazen pokladnou"
+    },
+    "stavSklad.uhrazenHrom": {
+      "titl": "Uhrazen pokladnou hromadně"
+    },
+    "stavSklad.uhrazenHromCast": {
+      "titl": "Částečně uhrazen pokladnou hromadně"
+    },
+    "stavSklad.vyfakt": {
+      "titl": "Vyfakturován"
+    },
+    "stavSklad.vyfaktCast": {
+      "titl": "Částečně vyfakturován"
+    },
+    "stavSklad.vyfaktHrom": {
+      "titl": "Vyfakturován hromadně"
+    },
+    "stavSklad.vyfaktHromCast": {
+      "titl": "Částečně vyfakturován hromadně"
+    },
+    "stavSklad.vygenFakt": {
+      "titl": "Vygenerován z faktury"
+    },
+    "stavSklad.vygenFaktNeuplny": {
+      "titl": "Vygenerován z faktury - neúplný"
+    },
+    "stavSklad.vygenPokl": {
+      "titl": "Vygenerován z pokladny"
+    },
+    "stavSklad.vygenPoklNeuplny": {
+      "titl": "Vygenerován z pokladny - neúplný"
+    },
+    "stavSklad.vyroba": {
+      "titl": "Výroba"
+    },
+    "stavUdal.hotovo": {
+      "titl": "Hotovo"
+    },
+    "stavUdal.nove": {
+      "titl": "Nová"
+    },
+    "stavUdal.rozprac": {
+      "titl": "Rozpracováno"
+    },
+    "stavUdal.zamitnuto": {
+      "titl": "Zamítnuto"
+    },
+    "stavUhr.castUhr": {
+      "titl": "Částečně uhrazeno"
+    },
+    "stavUhr.storno": {
+      "titl": "Storno"
+    },
+    "stavUhr.uhrazeno": {
+      "titl": "Uhrazeno"
+    },
+    "stavUhr.uhrazenoRucne": {
+      "titl": "Uhrazeno (ručně)"
+    },
+    "stavUziv.bezPrikazu": {
+      "titl": "Bez příkazu"
+    },
+    "stavUziv.castPrikaz": {
+      "titl": "Odeslán částečný příkaz"
+    },
+    "stavUziv.celPrikaz": {
+      "titl": "Odeslán příkaz"
+    },
+    "stavUziv.genKasa": {
+      "titl": "Vygenerován z kasy"
+    },
+    "stavUziv.nactenoEl": {
+      "titl": "Načteno elektronicky"
+    },
+    "stavUziv.nactenoElPosledni": {
+      "titl": "Naposledy načteno elektronicky"
+    },
+    "stavUziv.obsaPrikaz": {
+      "titl": "Obsažen v příkazu"
+    },
+    "stavUziv.zaucZmena": {
+      "titl": "Změněno po zaúčtování"
+    },
+    "stavUziv.zauctovano": {
+      "titl": "Zaúčtováno do pokladny"
+    },
+    "stavZak.castHot": {
+      "titl": "částečně hotovo"
+    },
+    "stavZak.hotovo": {
+      "titl": "hotovo"
+    },
+    "stavZak.vBehu": {
+      "titl": "v běhu"
+    },
+    "surovina.primarni": {
+      "titl": "Primární"
+    },
+    "surovina.recyklat": {
+      "titl": "Recyklát"
+    },
+    "symbolSplatnosti.stavA360aVice": {
+      "titl": "361 a více dní po splatnosti"
+    },
+    "symbolSplatnosti.stavB360az180": {
+      "titl": "360 až 181 dní po splatnosti"
+    },
+    "symbolSplatnosti.stavC180az90": {
+      "titl": "180 až 91 dní po splatnosti"
+    },
+    "symbolSplatnosti.stavD90az30": {
+      "titl": "90 až 31 dní po splatnosti"
+    },
+    "symbolSplatnosti.stavE30az0": {
+      "titl": "30 až 1 dní po splatnosti"
+    },
+    "symbolSplatnosti.stavFnejsou": {
+      "titl": "Nejsou po splatnosti"
+    },
+    "symbolSplatnosti.stavZnevyplneno": {
+      "titl": "Splatnost není vyplněna"
+    },
+    "tydenPracDoba.dul": {
+      "titl": "Pracující v podzemí (37,5 hodin)"
+    },
+    "tydenPracDoba.dvousmenny": {
+      "titl": "Dvousměnný provoz (38,75 hodin)"
+    },
+    "tydenPracDoba.standard": {
+      "titl": "Jednosměnný provoz (40 hodin)"
+    },
+    "tydenPracDoba.trismenny": {
+      "titl": "Třísměnný provoz (37,5 hodin)"
+    },
+    "typAtribut.1zN": {
+      "titl": "1 z N"
+    },
+    "typAtribut.MzN": {
+      "titl": "M z N"
+    },
+    "typAtribut.boolean": {
+      "titl": "Logická hodnota"
+    },
+    "typAtribut.datumCas": {
+      "titl": "Datum"
+    },
+    "typAtribut.integer": {
+      "titl": "Celé číslo"
+    },
+    "typAtribut.numeric": {
+      "titl": "Desetinné číslo"
+    },
+    "typAtribut.retezec": {
+      "titl": "Řetězec"
+    },
+    "typAtribut.rozmezi": {
+      "titl": "Rozmezí"
+    },
+    "typBanUctu.kc": {
+      "titl": "Pohyb %currency-symbol / Zůstatek %currency-symbol"
+    },
+    "typBanUctu.mena": {
+      "titl": "Pohyb měna / Zůstatek měna"
+    },
+    "typCeny.bezDph": {
+      "titl": "bez DPH"
+    },
+    "typCeny.sDph": {
+      "titl": "včetně DPH"
+    },
+    "typCeny.sDphKoef": {
+      "titl": "včetně DPH (koeficient)"
+    },
+    "typCenyVychozi.nakCena": {
+      "titl": "nákupní cena"
+    },
+    "typCenyVychozi.zadna": {
+      "titl": "žádná cena"
+    },
+    "typCenyVychozi.zaklCena": {
+      "titl": "prodejní cena"
+    },
+    "typCert.disk": {
+      "titl": "místní disk"
+    },
+    "typCert.karta": {
+      "titl": "čipová karta"
+    },
+    "typCert.server": {
+      "titl": "server"
+    },
+    "typCinnosti.hlavni": {
+      "titl": "Hlavní činnost"
+    },
+    "typCinnosti.hospodar": {
+      "titl": "Hospodářská činnost"
+    },
+    "typDokladu.dobropis": {
+      "titl": "Dobropis/opravný daň. d."
+    },
+    "typDokladu.dodList": {
+      "titl": "Dodací list"
+    },
+    "typDokladu.faktura": {
+      "titl": "Standardní faktura"
+    },
+    "typDokladu.krZisk": {
+      "titl": "Kurzový rozdíl zisk"
+    },
+    "typDokladu.krZtrata": {
+      "titl": "Kurzový rozdíl ztráta"
+    },
+    "typDokladu.obecny": {
+      "titl": "Obecný doklad"
+    },
+    "typDokladu.prodejka": {
+      "titl": "Prodejka"
+    },
+    "typDokladu.proforma": {
+      "titl": "Proforma (neúčetní)"
+    },
+    "typDokladu.zalohFaktura": {
+      "titl": "Zálohová faktura"
+    },
+    "typDokladu.zbytekNaklad": {
+      "titl": "Zbytek náklad"
+    },
+    "typDokladu.zbytekVynos": {
+      "titl": "Zbytek výnos"
+    },
+    "typDokladu.zdd": {
+      "titl": "Zálohový daňový doklad"
+    },
+    "typKonektoru.atcomp": {
+      "titl": "AT Computers a.s."
+    },
+    "typKonektoru.interObch": {
+      "titl": "Internetový obchod"
+    },
+    "typKurzu.cenotvorba": {
+      "titl": "Kurz pro cenotvorbu"
+    },
+    "typKurzu.intrastat": {
+      "titl": "Kurz pro Intrastat"
+    },
+    "typKurzu.obecny": {
+      "titl": "Obecný"
+    },
+    "typKurzu.preceneni": {
+      "titl": "Kurz pro přecenění"
+    },
+    "typMj.cas": {
+      "titl": "čas"
+    },
+    "typMj.delka": {
+      "titl": "délka"
+    },
+    "typMj.hmotnost": {
+      "titl": "hmotnost"
+    },
+    "typMj.objem": {
+      "titl": "objem"
+    },
+    "typMj.plocha": {
+      "titl": "plocha"
+    },
+    "typObalu.obchodPreprava": {
+      "titl": "Obchodní - Přepravní"
+    },
+    "typObalu.obchodProdej": {
+      "titl": "Obchodní - Prodejní"
+    },
+    "typObalu.obchodSkupina": {
+      "titl": "Obchodní - Skupinové"
+    },
+    "typObalu.prumysl": {
+      "titl": "Průmyslové"
+    },
+    "typObchodu.EUneplat": {
+      "titl": "EU neplátce DPH"
+    },
+    "typObchodu.EUplatce": {
+      "titl": "EU plátce DPH"
+    },
+    "typObchodu.cizina": {
+      "titl": "Mimo EU"
+    },
+    "typObchodu.tuzem": {
+      "titl": "Tuzemsko"
+    },
+    "typOdp.mesic": {
+      "titl": "Měsíční"
+    },
+    "typOdp.rovn": {
+      "titl": "Rovnoměrné"
+    },
+    "typOdp.zrych": {
+      "titl": "Zrychlené"
+    },
+    "typPlneni.obojiRCH": {
+      "titl": "Obojí RCH (Reverse charge)"
+    },
+    "typPlneni.prijata": {
+      "titl": "Přijatá"
+    },
+    "typPlneni.prijataRCH": {
+      "titl": "Přijatá RCH (Reverse charge)"
+    },
+    "typPlneni.uskutecnena": {
+      "titl": "Uskutečněná"
+    },
+    "typPlneni.uskutecnenaRCH": {
+      "titl": "Uskutečněná RCH (Reverse charge)"
+    },
+    "typPlneniEet.uvestOsv": {
+      "titl": "Uvádí se osvobozená sazba"
+    },
+    "typPohybu.prijem": {
+      "titl": "Příjem"
+    },
+    "typPohybu.vydej": {
+      "titl": "Výdej"
+    },
+    "typPohybuSklad.prijemHoly": {
+      "titl": "\"Holý\" příjem"
+    },
+    "typPohybuSklad.prijemPoFak": {
+      "titl": "Příjem po faktuře"
+    },
+    "typPohybuSklad.prijemPoObch": {
+      "titl": "Příjem po objednávce"
+    },
+    "typPohybuSklad.prijemPolot": {
+      "titl": "Příjem polotovaru"
+    },
+    "typPohybuSklad.prijemPrevod": {
+      "titl": "Příjem pro převodku"
+    },
+    "typPohybuSklad.prijemProFak": {
+      "titl": "Příjem pro fakturaci"
+    },
+    "typPohybuSklad.prijemVratka": {
+      "titl": "Příjem (dobropis, vratka)"
+    },
+    "typPohybuSklad.prijemVydejVratka": {
+      "titl": "Výdej (dobropis, vratka)"
+    },
+    "typPohybuSklad.prijemVyrob": {
+      "titl": "Příjem výrobku"
+    },
+    "typPohybuSklad.vydejHoly": {
+      "titl": "\"Holý\" výdej"
+    },
+    "typPohybuSklad.vydejPoFak": {
+      "titl": "Výdej po faktuře"
+    },
+    "typPohybuSklad.vydejPoObch": {
+      "titl": "Výdej po objednávce"
+    },
+    "typPohybuSklad.vydejPolot": {
+      "titl": "Výdej polotovaru"
+    },
+    "typPohybuSklad.vydejPrevod": {
+      "titl": "Výdej pro převodku"
+    },
+    "typPohybuSklad.vydejProFakCenik": {
+      "titl": "Výdej pro fakturaci (ceny z ceníku)"
+    },
+    "typPohybuSklad.vydejProFakRucne": {
+      "titl": "Výdej pro fakturaci (ceny ručně)"
+    },
+    "typPohybuSklad.vydejVyrob": {
+      "titl": "Výdej výrobku"
+    },
+    "typPolozky.dorovnaniTuz": {
+      "titl": "Dorovnání tuzemské měny"
+    },
+    "typPolozky.katalog": {
+      "titl": "Položka z ceníku"
+    },
+    "typPolozky.korekceKRZisk": {
+      "titl": "Korekce kurzového rozdílu (zisk)"
+    },
+    "typPolozky.korekceKRZtrata": {
+      "titl": "Korekce kurzového rozdílu (ztráta)"
+    },
+    "typPolozky.korekceOdpoctu": {
+      "titl": "Korekce odpočtu zálohy/ZDD"
+    },
+    "typPolozky.korekceRekapitulace": {
+      "titl": "Korekce rekapitulace DPH"
+    },
+    "typPolozky.korekceTuz": {
+      "titl": "Korekce tuzemské měny"
+    },
+    "typPolozky.obecny": {
+      "titl": "Položka s cenou a množstvím"
+    },
+    "typPolozky.odpocetZalohy": {
+      "titl": "Odpočet zálohy"
+    },
+    "typPolozky.odpocetZdd": {
+      "titl": "Odpočet ZDD"
+    },
+    "typPolozky.text": {
+      "titl": "Textový řádek"
+    },
+    "typPolozky.ucetni": {
+      "titl": "Položka pro zaúčtování"
+    },
+    "typPolozky.zaokrPoOdpoctu": {
+      "titl": "Položka zaokrouhlení po odpočtu záloh"
+    },
+    "typPoplatku.obecny": {
+      "titl": "Obecný"
+    },
+    "typPoplatku.recyklacni": {
+      "titl": "Recyklační"
+    },
+    "typPouziti.1pouziti": {
+      "titl": "Obaly na jedno použití"
+    },
+    "typPouziti.opakovane": {
+      "titl": "Opakovaně používané obaly"
+    },
+    "typPrav.admin": {
+      "titl": "Administrátor"
+    },
+    "typPrav.jenCist": {
+      "titl": "Jen číst"
+    },
+    "typPrav.mzdovyUcetni": {
+      "titl": "Mzdový účetní"
+    },
+    "typPrav.obchodnik": {
+      "titl": "Obchodník"
+    },
+    "typPrav.skladnik": {
+      "titl": "Skladník"
+    },
+    "typPrav.skladnikSPokladnou": {
+      "titl": "Skladník s pokladnou"
+    },
+    "typPrav.superUzivatel": {
+      "titl": "Super uživatel"
+    },
+    "typPrav.ucetni": {
+      "titl": "Účetní"
+    },
+    "typPrav.uzivatel": {
+      "titl": "Standardní uživatel"
+    },
+    "typPrav.zablokovan": {
+      "titl": "Neaktivní účet"
+    },
+    "typPrikazu.inkaso": {
+      "titl": "Příkaz k inkasu"
+    },
+    "typPrikazu.prikaz": {
+      "titl": "Příkaz k úhradě"
+    },
+    "typPrilohy.adresar": {
+      "titl": "Příloha adresáře"
+    },
+    "typPrilohy.cenik": {
+      "titl": "Příloha ceníku"
+    },
+    "typPrilohy.doklad": {
+      "titl": "Příloha dokladu"
+    },
+    "typPrilohy.kontakt": {
+      "titl": "Příloha kontaktu"
+    },
+    "typPrilohy.leasing": {
+      "titl": "Leasing"
+    },
+    "typPrilohy.logo": {
+      "titl": "Logo"
+    },
+    "typPrilohy.majetek": {
+      "titl": "Majetek"
+    },
+    "typPrilohy.obrazek": {
+      "titl": "Obrázková příloha"
+    },
+    "typPrilohy.odkaz": {
+      "titl": "URL odkaz na internet nebo soubor"
+    },
+    "typPrilohy.osoba": {
+      "titl": "Příloha osoby"
+    },
+    "typPrilohy.ostatni": {
+      "titl": "Blíže neurčený typ přílohy"
+    },
+    "typPrilohy.podRaz": {
+      "titl": "Podpis a razítko"
+    },
+    "typPrilohy.polsmlouvy": {
+      "titl": "Příloha položky smlouvy"
+    },
+    "typPrilohy.report": {
+      "titl": "Report"
+    },
+    "typPrilohy.smlouva": {
+      "titl": "Příloha smlouvy"
+    },
+    "typPrilohy.udalost": {
+      "titl": "Příloha události"
+    },
+    "typPrilohy.zakazka": {
+      "titl": "Příloha zakázky"
+    },
+    "typPristPrav.nepripustne": {
+      "titl": "Nepřístupné"
+    },
+    "typPristPrav.plny": {
+      "titl": "Plný přístup"
+    },
+    "typPristPrav.pouzeCist": {
+      "titl": "Pouze číst"
+    },
+    "typPristPrav.upresneni": {
+      "titl": "Upřesnění přístupu"
+    },
+    "typRole.adr": {
+      "titl": "adresář"
+    },
+    "typRole.glo": {
+      "titl": "globální"
+    },
+    "typRole.stred": {
+      "titl": "středisko"
+    },
+    "typRole.wf": {
+      "titl": "workflow"
+    },
+    "typRole.zak": {
+      "titl": "zakázka"
+    },
+    "typSablony.druhaUpominka": {
+      "titl": "Druhá upomínka"
+    },
+    "typSablony.inventarizace": {
+      "titl": "Inventarizace"
+    },
+    "typSablony.pokusOSmir": {
+      "titl": "Pokus o smír"
+    },
+    "typSablony.prvniUpominka": {
+      "titl": "První upomínka"
+    },
+    "typSestavy.cashflow": {
+      "titl": "cash flow"
+    },
+    "typSestavy.obecna": {
+      "titl": "obecná"
+    },
+    "typSestavy.rozvaha": {
+      "titl": "rozvaha"
+    },
+    "typSestavy.rozvahaIfrs": {
+      "titl": "IFRS rozvaha"
+    },
+    "typSestavy.vysledov": {
+      "titl": "výsledovka"
+    },
+    "typSestavy.vysledovIfrs": {
+      "titl": "IFRS výsledovka"
+    },
+    "typSpl.akontace": {
+      "titl": "mimoř. splátka"
+    },
+    "typSpl.bezna": {
+      "titl": "běžná splátka"
+    },
+    "typSpl.mimFinCin": {
+      "titl": "mim. fin. činnost"
+    },
+    "typSpl.posledni": {
+      "titl": "poslední splátka"
+    },
+    "typSpl.prevod": {
+      "titl": "Převod za zůstatkovou cenu"
+    },
+    "typSpl.prvni": {
+      "titl": "nultá splátka"
+    },
+    "typSynchCenik.naWebu": {
+      "titl": "Internetový obchod"
+    },
+    "typSynchCenik.rucne": {
+      "titl": "Synchronizovat ručně"
+    },
+    "typSynchCenik.veW10": {
+      "titl": "ABRA Flexi"
+    },
+    "typSynchCenik.zadna": {
+      "titl": "Nesynchronizovat ceník"
+    },
+    "typSzbDph.dphOsv": {
+      "titl": "osvobozeno"
+    },
+    "typSzbDph.dphSniz": {
+      "titl": "snížená"
+    },
+    "typSzbDph.dphSniz2": {
+      "titl": "2. snížená"
+    },
+    "typSzbDph.dphZakl": {
+      "titl": "základní"
+    },
+    "typTiskDokladu.doklad": {
+      "titl": "Doklad"
+    },
+    "typTiskDokladu.dokladPokladny": {
+      "titl": "Pokladní doklad"
+    },
+    "typTiskDokladu.dokladSkladu": {
+      "titl": "Skladový doklad"
+    },
+    "typUcJednotky.mala": {
+      "titl": "Malá účetní jednotka"
+    },
+    "typUcJednotky.mikro": {
+      "titl": "Mikro účetní jednotka"
+    },
+    "typUcJednotky.velka": {
+      "titl": "Velká účetní jednotka"
+    },
+    "typUcetniJednotkyCz.mala": {
+      "titl": "Malá účetní jednotka"
+    },
+    "typUcetniJednotkyCz.mikro": {
+      "titl": "Mikro účetní jednotka"
+    },
+    "typUcetniJednotkyCz.stredni": {
+      "titl": "Střední účetní jednotka"
+    },
+    "typUcetniJednotkyCz.velka": {
+      "titl": "Velká účetní jednotka"
+    },
+    "typUctu.podrozvahovy": {
+      "titl": "podrozvahový"
+    },
+    "typUctu.rozvahovy": {
+      "titl": "rozvahový"
+    },
+    "typUctu.vnitropodnikovy": {
+      "titl": "vnitropodnikový"
+    },
+    "typUctu.vysledkovy": {
+      "titl": "výsledkový"
+    },
+    "typUctu.zaverkovy": {
+      "titl": "závěrkový"
+    },
+    "typUdal.casVyr": {
+      "titl": "Částečné vyřazení"
+    },
+    "typUdal.prerOdpDan": {
+      "titl": "Přerušení daňových odpisů"
+    },
+    "typUdal.prerOdpUcet": {
+      "titl": "Přerušení účetních odpisů"
+    },
+    "typUdal.rozdilCenyAZustatku": {
+      "titl": "Rozdíl prodejní ceny a zůstatku"
+    },
+    "typUdal.techZhod": {
+      "titl": "Technické zhodnocení"
+    },
+    "typUdal.uplVyr": {
+      "titl": "Úplné vyřazení"
+    },
+    "typUdal.uzivatelska": {
+      "titl": "Uživatelská událost"
+    },
+    "typUdal.zahOdpDan": {
+      "titl": "Opětovné zahájení daňových odpisů"
+    },
+    "typUdal.zahOdpUcet": {
+      "titl": "Opětovné zahájení účetních odpisů"
+    },
+    "typUdal.zarazeni": {
+      "titl": "Zařazení"
+    },
+    "typUdal.zmenDob": {
+      "titl": "Změna doby odepisování"
+    },
+    "typUdal.zmenHodDan": {
+      "titl": "Změna zůstatku daňových odpisů"
+    },
+    "typUdal.zmenHodUcet": {
+      "titl": "Změna zůstatku účetních odpisů"
+    },
+    "typUdal.zmenaVstupniCeny": {
+      "titl": "Změna vstupní ceny"
+    },
+    "typUmisteniSklad.mistnost": {
+      "titl": "Místnost"
+    },
+    "typUmisteniSklad.police": {
+      "titl": "Police"
+    },
+    "typUmisteniSklad.regal": {
+      "titl": "Regál"
+    },
+    "typVazbyDokl.KR": {
+      "titl": "Kurzový rozdíl"
+    },
+    "typVazbyDokl.KROdpoctu": {
+      "titl": "Korekce odpočtu"
+    },
+    "typVazbyDokl.PP": {
+      "titl": "Přeplatek"
+    },
+    "typVazbyDokl.ZB": {
+      "titl": "Zbytek"
+    },
+    "typVazbyDokl.hlavaDobropis": {
+      "titl": "Dobropis"
+    },
+    "typVazbyDokl.hlavaSkl": {
+      "titl": "Skladový doklad"
+    },
+    "typVazbyDokl.hlavaSklKus": {
+      "titl": "Skladový doklad (rozpad kusovníku)"
+    },
+    "typVazbyDokl.hlavaSklPrevod": {
+      "titl": "Skladový doklad (převodka)"
+    },
+    "typVazbyDokl.nakladVynos": {
+      "titl": "Rozložení nákladů a výnosů"
+    },
+    "typVazbyDokl.obchod_faktura_hla": {
+      "titl": "Faktura vytvořená z objednávky"
+    },
+    "typVazbyDokl.obchod_faktura_pol": {
+      "titl": "Položka faktury vytvořená z objednávky"
+    },
+    "typVazbyDokl.obchod_obchod_hla": {
+      "titl": "Obchodní vazba"
+    },
+    "typVazbyDokl.obchod_obchod_pol": {
+      "titl": "Obchodní vazba položky"
+    },
+    "typVazbyDokl.obchod_sklad_hla": {
+      "titl": "Skladový doklad vytvořený z objednávky"
+    },
+    "typVazbyDokl.obchod_sklad_pol": {
+      "titl": "Položka skladového dokladu vytvořená z objednávky"
+    },
+    "typVazbyDokl.obchod_zaloha_hla": {
+      "titl": "Záloha vytvořená z objednávky"
+    },
+    "typVazbyDokl.obchod_zaloha_pol": {
+      "titl": "Položka zálohy vytvořená z objednávky"
+    },
+    "typVazbyDokl.odpocetPolZALOHY": {
+      "titl": "Odpočet zálohové položky"
+    },
+    "typVazbyDokl.odpocetZALOHY": {
+      "titl": "Odpočet zálohy"
+    },
+    "typVazbyDokl.odpocetZDD": {
+      "titl": "Odpočet ZDD"
+    },
+    "typVazbyDokl.odpocetZddKr": {
+      "titl": "Kurzový rozdíl - odpočet zálohy"
+    },
+    "typVazbyDokl.odpocitavanaFaktura": {
+      "titl": "Odpočítávaná faktura"
+    },
+    "typVazbyDokl.polozkaDobropis": {
+      "titl": "Položka dobropisu"
+    },
+    "typVazbyDokl.polozkaSkl": {
+      "titl": "Skladová položka"
+    },
+    "typVazbyDokl.polozkaSklKus": {
+      "titl": "Skladová položka (rozpad kusovníku)"
+    },
+    "typVazbyDokl.polozkaSklPrevod": {
+      "titl": "Skladová položka (převodka)"
+    },
+    "typVazbyDokl.polozkaSklSada": {
+      "titl": "Skladová položka (rozpad sady)"
+    },
+    "typVazbyDokl.preceneni": {
+      "titl": "Přecenění"
+    },
+    "typVazbyDokl.uhrada": {
+      "titl": "Úhrada"
+    },
+    "typVazbyDokl.uhradaKR": {
+      "titl": "Úhrada kurzového rozdílu"
+    },
+    "typVazbyDokl.uhradaZALOHY": {
+      "titl": "Úhrada zálohy"
+    },
+    "typVazbyDokl.uhrazovanaFaktura": {
+      "titl": "Uhrazovaná faktura"
+    },
+    "typVazbyDokl.uhrazujiciDoklad": {
+      "titl": "Uhrazující doklad"
+    },
+    "typVazbyDokl.vazbaZDD": {
+      "titl": "Vazba ZDD"
+    },
+    "typVazbyDokl.zalHlavKr": {
+      "titl": "Kurzový rozdíl - záloha"
+    },
+    "typVazbyDokl.zalPolKr": {
+      "titl": "Kurzový rozdíl - zálohová položka"
+    },
+    "typVazbyDokl.zaucProdejky": {
+      "titl": "Zaúčtování prodejky"
+    },
+    "typVypCeny.marze": {
+      "titl": "marže"
+    },
+    "typVypCeny.neuveden": {
+      "titl": "neuveden"
+    },
+    "typVypCeny.rabat": {
+      "titl": "rabat"
+    },
+    "typVypCeny.sleva": {
+      "titl": "sleva"
+    },
+    "typVypSestavy.vJednotkach": {
+      "titl": "v celých %currency-symbol"
+    },
+    "typVypSestavy.vKcPresne": {
+      "titl": "v %currency-symbol přesně"
+    },
+    "typVypSestavy.vTisicich": {
+      "titl": "v celých tisících %currency-symbol"
+    },
+    "typVzniku.importovaneDoCr": {
+      "titl": "importované do ČR"
+    },
+    "typVzniku.nakoupeneVCr": {
+      "titl": "Nakoupené v ČR"
+    },
+    "typVzniku.vyrobeneVCr": {
+      "titl": "Vyrobené v ČR"
+    },
+    "typVztahu.dodavatel": {
+      "titl": "Dodavatel"
+    },
+    "typVztahu.financniUrad": {
+      "titl": "Finanční úřad"
+    },
+    "typVztahu.odberDodav": {
+      "titl": "Odběr./Dodav."
+    },
+    "typVztahu.odberatel": {
+      "titl": "Odběratel"
+    },
+    "typVztahu.socialka": {
+      "titl": "Sociálka"
+    },
+    "typVztahu.vsechno": {
+      "titl": "Všechno"
+    },
+    "typVztahu.vyrobce": {
+      "titl": "Výrobce"
+    },
+    "typVztahu.vyrobna": {
+      "titl": "Výrobna"
+    },
+    "typVztahu.zdravotka": {
+      "titl": "Zdravotka"
+    },
+    "typZak.nevyrob": {
+      "titl": "nevýrobní"
+    },
+    "typZak.vyrob": {
+      "titl": "výrobní"
+    },
+    "typZasoby.material": {
+      "titl": "Materiál"
+    },
+    "typZasoby.nedvyroba": {
+      "titl": "Nedokončená výroba"
+    },
+    "typZasoby.polotovar": {
+      "titl": "Polotovar"
+    },
+    "typZasoby.poplatek": {
+      "titl": "Poplatek"
+    },
+    "typZasoby.sluzba": {
+      "titl": "Služba"
+    },
+    "typZasoby.vyrobek": {
+      "titl": "Výrobek"
+    },
+    "typZasoby.zbozi": {
+      "titl": "Zboží"
+    },
+    "typZasoby.zvire": {
+      "titl": "Zvíře"
+    },
+    "ucelCertK.eet": {
+      "titl": "Certifikát pro EET"
+    },
+    "ucelCertK.finbricks": {
+      "titl": "Privátní klíč pro Finbricks"
+    },
+    "ucelCertK.osobni": {
+      "titl": "Osobní certifikát"
+    },
+    "zamek.otevreno": {
+      "titl": "Otevřeno"
+    },
+    "zamek.polozamceno": {
+      "titl": "Zamknuto mimo účetní"
+    },
+    "zamek.prohlednuto": {
+      "titl": "Prohlédnuto"
+    },
+    "zamek.zamceno": {
+      "titl": "Zamknuto"
+    },
+    "zaokrJak.dolu": {
+      "titl": "dolů"
+    },
+    "zaokrJak.matem": {
+      "titl": "matematicky"
+    },
+    "zaokrJak.nahoru": {
+      "titl": "nahoru"
+    },
+    "zaokrNa.5desetiny": {
+      "titl": "0.5"
+    },
+    "zaokrNa.5jednotky": {
+      "titl": "5"
+    },
+    "zaokrNa.5setiny": {
+      "titl": "0.05"
+    },
+    "zaokrNa.desetiny": {
+      "titl": "0.1"
+    },
+    "zaokrNa.desitky": {
+      "titl": "10"
+    },
+    "zaokrNa.jednotky": {
+      "titl": "1"
+    },
+    "zaokrNa.setiny": {
+      "titl": "0.01"
+    },
+    "zaokrNa.stovky": {
+      "titl": "100"
+    },
+    "zaokrNa.tisice": {
+      "titl": "1000"
+    },
+    "zaokrNa.tisiciny": {
+      "titl": "0.001"
+    },
+    "zaokrNa.zadne": {
+      "titl": "nezaokrouhlovat"
+    },
+    "zastupceTyp.fo": {
+      "titl": "Fyzická osoba"
+    },
+    "zastupceTyp.po": {
+      "titl": "Právnická osoba"
+    },
+    "zmenaPohybuRealizace": {
+      "titl": "Umožnit změnu upřesnění typu pohybu na výdejce/příjemce vytvořené z objednávky/faktury"
+    },
+    "zobrLogo.prizFormat": {
+      "titl": "Přizpůsobit se formátu"
+    },
+    "zobrLogo.prizFormatPomeryStran": {
+      "titl": "Přizpůsobit se formátu a zachovat poměry stran"
+    },
+    "zobrLogo.zachovVelikost": {
+      "titl": "Zachovat velikost"
+    },
+    "zobrazWebKompMod.auto": {
+      "titl": "Automatická volba"
+    },
+    "zobrazWebKompMod.browser": {
+      "titl": "Webový prohlížeč"
+    },
+    "zpusobFakt.dopredu": {
+      "titl": "Fakturovat dopředu"
+    },
+    "zpusobFakt.zpetne": {
+      "titl": "Fakturovat zpětně"
+    },
+    "zpusobOdp.rocne": {
+      "titl": "% Ročně"
+    },
+    "zpusobOdp.zar100": {
+      "titl": "100 %"
+    },
+    "zpusobOdp.zar5050": {
+      "titl": "50 % / 50 %"
+    },
+    "zpusobStahKurz.denne": {
+      "titl": "Denně"
+    },
+    "zpusobStahKurz.mesicne": {
+      "titl": "Měsíčně"
+    },
+    "zpusobStahKurz.nikdy": {
+      "titl": "Nestahovat"
+    },
+    "zpusobStahKurz.rocne": {
+      "titl": "Ročně"
+    },
+    "zpusobVypo.obrat": {
+      "titl": "obrat za období"
+    },
+    "zpusobVypo.obratDal": {
+      "titl": "obrat D za období"
+    },
+    "zpusobVypo.obratMd": {
+      "titl": "obrat MD za období"
+    },
+    "zpusobVypo.stavKon": {
+      "titl": "stav účtu na konci období"
+    },
+    "zpusobVypo.stavPoc": {
+      "titl": "stav účtu na počátku období"
+    },
+    "zvysZrych.proc0": {
+      "titl": "0 %"
+    },
+    "zvysZrych.proc10": {
+      "titl": "10 %"
+    },
+    "zvysZrych.proc15": {
+      "titl": "15 %"
+    },
+    "zvysZrych.proc20": {
+      "titl": "20 %"
+    }
+  }
+}

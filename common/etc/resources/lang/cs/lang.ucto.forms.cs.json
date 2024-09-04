@@ -1,0 +1,2044 @@
+{
+  "formsInfo": {
+    "actClenstvi": {
+      "mnem": 78,
+      "titl": "Členství workflow"
+    },
+    "actDefinice": {
+      "mnem": 87,
+      "titl": "Definice workflow"
+    },
+    "actRunProcess": {
+      "icon": "win/folder.png",
+      "titl": "Spustit workflow"
+    },
+    "actSkupiny": {
+      "mnem": 75,
+      "titl": "Skupiny pro workflow"
+    },
+    "activationDialog": {
+      "titl": "Aktivovat aplikaci"
+    },
+    "adrAdresar": {
+      "desc": "Aktualizace seznamu obchodních partnerů. U partnera  ukládáte kontakty nebo osoby včetně jejich funkcí a kontaktních údajů. Komunikaci se zákazníkem a jeho požadavky evidujete v seznamu událostí. Událostí rozumějme schůzku ve firmě, setkání na veletrhu, úkol zadaný vašemu zaměstnanci, zápis z jednání atd. Ke každé adrese, kontaktu či události můžete \"přilepit\" neomezené množství štítků a díky tomu lépe specifikovat jejich vlastnosti. Dalším úkolem štítků je možnost data filtrovat podle kombinací štíktů s ostatními údaji.",
+      "icon": "win/adresar.png",
+      "mnem": 65,
+      "titl": "Adresy firem"
+    },
+    "adrAdresarNovy": {
+      "icon": "win/plus.png",
+      "titl": "Nová adresa firmy"
+    },
+    "adrBanSpoj": {
+      "titl": "Bankovní spojení"
+    },
+    "adrCert": {
+      "titl": "Certifikáty firmy"
+    },
+    "adrDodavatel": {
+      "desc": "Aktualizace dodavatelů, kontaktů, událostí a bankovních spojení dodavatelů.",
+      "icon": "win/adresar.png",
+      "titl": "Dodavatelé"
+    },
+    "adrDodavateleView": {
+      "titl": "Dodává zboží"
+    },
+    "adrKontakty": {
+      "desc": "Seznam všech kontaktů, které máte evidovány u firem. V seznamu můžete vyhledávat kontakty podle zadaných kritérií napříč firmami. U každé firmy v aktualizačním formuláři vidíte kontakty vázané na konkrétní adresu. U kontaktu zadáváte firmu, funkci nebo hodnost, telefon, e-mail, poznámky a štíky pro zatřídění a vyhledávání kontaktu.",
+      "icon": "win/kontakty.png",
+      "mnem": 75,
+      "titl": "Kontakty"
+    },
+    "adrMistUrc": {
+      "desc": "Seznam všech míst určení.",
+      "icon": "win/mista-urceni.png",
+      "mnem": 69,
+      "titl": "Místa určení"
+    },
+    "adrNaklAkt": {
+      "titl": "Náklady na události / aktivity"
+    },
+    "adrOdberatel": {
+      "desc": "Aktualizace odběratelů kontaktů, událostí a bankovních spojení odběratelů.",
+      "icon": "win/adresar.png",
+      "titl": "Odběratelé"
+    },
+    "adrOdberateleView": {
+      "titl": "Individuální ceny"
+    },
+    "adrPolSml": {
+      "titl": "Položky smluv"
+    },
+    "adrPolSmlExt": {
+      "titl": "Externí položky smluv"
+    },
+    "adrPolSmlInt": {
+      "titl": "Standardní položky smluv"
+    },
+    "adrRuUdalosti": {
+      "desc": "Seznam všech událostí z workflow",
+      "icon": "win/udalosti.png",
+      "mnem": 82,
+      "titl": "Úkoly k realizaci"
+    },
+    "adrSkupFir": {
+      "icon": "win/skupiny-firem.png",
+      "mnem": 83,
+      "titl": "Skupiny firem"
+    },
+    "adrSmlAkt": {
+      "desc": "Seznam všech odběratelských smluv.",
+      "icon": "win/prehled.png",
+      "mnem": 77,
+      "titl": "Odběratelské smlouvy"
+    },
+    "adrSmlAktView": {
+      "desc": "Seznam všech odběratelských smluv.",
+      "icon": "win/prehled.png",
+      "mnem": 77,
+      "titl": "Odběratelské smlouvy"
+    },
+    "adrSmlDodavAkt": {
+      "desc": "Seznam všech dodavatelských smluv.",
+      "icon": "win/prehled.png",
+      "mnem": 79,
+      "titl": "Dodavatelské smlouvy"
+    },
+    "adrSmlDodavAktView": {
+      "desc": "Seznam všech dodavatelských smluv.",
+      "icon": "win/prehled.png",
+      "mnem": 79,
+      "titl": "Dodavatelské smlouvy"
+    },
+    "adrStavSml": {
+      "mnem": 76,
+      "titl": "Stavy smluv"
+    },
+    "adrTypAkt": {
+      "desc": "Uživatelské zadání typických událostí nebo aktivit ve vaší firmě.",
+      "icon": "win/folder.png",
+      "mnem": 68,
+      "titl": "Typy událostí / aktivit"
+    },
+    "adrTypDodavSml": {
+      "icon": "win/folder.png",
+      "mnem": 89,
+      "titl": "Typy dodavatelských smluv"
+    },
+    "adrTypNaklAkt": {
+      "desc": "Seznam všech typů nákladů souvisejícími s aktivitou nebo událostí. Obsahuje vazbu na ceník.",
+      "icon": "win/folder.png",
+      "mnem": 78,
+      "titl": "Typy nákladů na události / aktivity"
+    },
+    "adrTypSml": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Typy odběratelských smluv"
+    },
+    "adrUdalosti": {
+      "desc": "Seznam všech událostí / aktivit, které jsou spojeny s partnerem. Událost / aktivitu můžeme také chápat jako zápis z jednání s parnerem nebo také jako úkol, který je nutné splnit do určitého termínu. V editačním okně adresy vidíte seznam událostí vztažené k vybranému partnerovi. Dobře vedený seznam událostí umožní manažerovi firmy úkolování zaměstnanců a sledování stavu řešení.",
+      "icon": "win/udalosti.png",
+      "mnem": 85,
+      "titl": "Události, aktivity"
+    },
+    "adrZurnalSml": {
+      "titl": "Žurnál pro smlouvy"
+    },
+    "aktivaceProduktu": {
+      "titl": "Průvodce aktivací produktu ABRA Flexi"
+    },
+    "aktualLicenci": {
+      "mnem": 77,
+      "titl": "Můj ABRA Flexi"
+    },
+    "analyzaNakupu": {
+      "titl": "Analýza nákupu"
+    },
+    "analyzaNakupuOdberatelZbozi": {
+      "titl": "Analýza nákupu - Nákup zboží podle firmy"
+    },
+    "analyzaNakupuVlastni": {
+      "titl": "Analýza nákupu - Vlastní"
+    },
+    "analyzaNakupuWizard": {
+      "desc": "Analýza nákupu vám může poskytnout následující informace: Obrat podle odběratelů / skupin odb./ prodaného zboží / skupin zboží / středisek atd.(zadání je v roletovém seznamu \"Co chcete analyzovat\"). Dále můžete zadat další podrobnější členění (zadání je v dalším seznamu \"Jaké bude další členění\") opět podle vyjmenovaných atributů . Výsledkem může být například analýza nákup od jednotlivých firmám s podrobným členěním které zboží firma dodala. Vše analyzujete v daném časovém rozsahu.",
+      "icon": "win/prehled.png",
+      "mnem": 65,
+      "titl": "Analýza nákupu"
+    },
+    "analyzaNakupuZboziOdberatele": {
+      "titl": "Analýza nákupu - Nákup od firem podle zboží"
+    },
+    "analyzaNakupuZiskOdberatele": {
+      "titl": "Analýza nákupu - Nákupy od firmem"
+    },
+    "analyzaNakupuZiskSkupinyCen": {
+      "titl": "Analýza nákupu - Nákupy od ceníkových skupin"
+    },
+    "analyzaNakupuZiskSkupinyFirem": {
+      "titl": "Analýza nákupu - Nákupy od skupin firem"
+    },
+    "analyzaNakupuZiskZbozi": {
+      "titl": "Analýza nákupu - Nákup zboží"
+    },
+    "autCert": {
+      "mnem": 67,
+      "titl": "Certifikační autority"
+    },
+    "autoTisk": {
+      "titl": "Automatický tisk"
+    },
+    "banAkt": {
+      "desc": "Aktualizace a vytváření položek bankovních výpisů v nastaveném účetním období. Tlačítko \"Služby\" umožní tisk aktuálního dokladu, spárovat doklad s fakturou, pohledávkou nebo závazkem.",
+      "icon": "win/banka.png",
+      "mnem": 66,
+      "titl": "Banka"
+    },
+    "banAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Nový bankovní doklad"
+    },
+    "banBanZapoctyPol": {
+      "titl": "Položky vzájemných zápočtů"
+    },
+    "banBsp": {
+      "desc": "Seznam bankovních účtů firmy včetně definice způsobu elektronické komunikace.",
+      "icon": "win/bank-ucty.png",
+      "mnem": 83,
+      "titl": "Seznam bankovních účtů"
+    },
+    "banDenik": {
+      "desc": "Provede výpočet a tisk bankovní knihy ",
+      "icon": "win/logs.png",
+      "mnem": 65,
+      "titl": "Bankovní kniha"
+    },
+    "banNonPaged": {
+      "titl": "Banka"
+    },
+    "banPokBsp": {
+      "titl": "Bankovní účty a pokladny"
+    },
+    "banPol": {
+      "mnem": 66,
+      "titl": "Položky bankovních dokladů"
+    },
+    "banProtiUcty": {
+      "titl": "Protiúčty banka"
+    },
+    "banRady": {
+      "desc": "Nastavení dokladových řad pro aktualizaci bankovních výpisů.",
+      "icon": "win/numbers.png",
+      "mnem": 66,
+      "titl": "Dokladové řady - bankovní doklady"
+    },
+    "banTyp": {
+      "icon": "win/bank-ucty.png",
+      "mnem": 66,
+      "titl": "Typy bankovních dokladů"
+    },
+    "banTypZapocty": {
+      "icon": "win/bank-ucty.png",
+      "mnem": 90,
+      "titl": "Typy zápočtů"
+    },
+    "banZapocty": {
+      "desc": "Tvorba vzájemného zápočtu je možná pomocí průvodce, kde zadáte firmu s kterou provádíte vzájemný zápočet. Poté zvolíte doklady pro započtení. Tvorbu zápúočtu také můžete tvořit doklad po dokladu podobně jako při tvorbě položek bankovních výpisů",
+      "icon": "win/vzajemne-zapocty.png",
+      "mnem": 86,
+      "titl": "Vzájemné zápočty"
+    },
+    "banZapoctyPol": {
+      "mnem": 76,
+      "titl": "Položky vzájemných zápočtů"
+    },
+    "bspModulFree": {
+      "titl": "Banky/pokladny/sklady"
+    },
+    "cServerDialog": {
+      "titl": "Správa datových zdrojů"
+    },
+    "cServerDialogNovy": {
+      "titl": "Přidat datový zdroj"
+    },
+    "casteDotazy": {
+      "mnem": 68,
+      "titl": "Časté dotazy"
+    },
+    "castkyKOdpoctu": {
+      "desc": "Částky, které ještě zbývá ze zálohy odpočítat. Pouze jako relace faktury.",
+      "titl": "Částky k odpočtu"
+    },
+    "cenAkt": {
+      "desc": "Ceník obsahuje kompletní přehled zboží, materiálu a služeb. Položky ceníku členíte do skupin se společnými vlastnostmi. U zboží definujete jeho umístění ve skladech a tím automaticky vytváříte skladové karty. Ke každé položce ceníku můžete \"přilepit\" štítek. kombinace přilepených štítků podstatně zjednodušuje vyhledávání ve celkém seznamu. Štítky mohou mít účel specializovaných upozornění. ",
+      "icon": "win/katalog.png",
+      "mnem": 67,
+      "titl": "Ceník"
+    },
+    "cenAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Nová položka ceníku"
+    },
+    "cenAtribut": {
+      "titl": "Atributy"
+    },
+    "cenCisAtribut000": {
+      "icon": "win/logs.png",
+      "mnem": 65,
+      "titl": "Číselníky atributů"
+    },
+    "cenDodavatele": {
+      "titl": "Dodavatelé, nákupní ceny, stavy jejich skladů"
+    },
+    "cenDodavateleView": {
+      "titl": "Dodavatelé"
+    },
+    "cenEkoKom": {
+      "titl": "Evidence obalů EkoKom"
+    },
+    "cenHlad": {
+      "desc": "Cenové úrovně vytváří vazbu mezi skupinou zboží a skupinou odběratelů a tím jasně definovanou cenotvorbu.",
+      "icon": "win/cenove-urovne.png",
+      "mnem": 69,
+      "titl": "Cenové úrovně"
+    },
+    "cenOdberateleView": {
+      "titl": "Ceny pro odběratele/skupiny odběratelů, speciální kódy"
+    },
+    "cenPodobne": {
+      "titl": "Podobné"
+    },
+    "cenPoplatky": {
+      "titl": "Poplatky"
+    },
+    "cenPrislusenstvi": {
+      "titl": "Příslušenství"
+    },
+    "cenSady": {
+      "titl": "Sady"
+    },
+    "cenSku": {
+      "desc": "Skupiny zboží a materiálu umožňují členit ceník do přehledných skupin společných vlastností. U skupiny můžete definovat její účtování při tvorbě dokladů, což při dobrém nastavení systému podstatně zjednoduší práci.",
+      "icon": "win/folder.png",
+      "mnem": 90,
+      "titl": "Skupiny zboží a materiálu"
+    },
+    "cenSkupCen": {
+      "desc": "Ceníkové skupiny",
+      "icon": "win/folder.png",
+      "mnem": 89,
+      "titl": "Ceníkové skupiny"
+    },
+    "cenSpec": {
+      "titl": "Speciální ceník"
+    },
+    "cenStav": {
+      "icon": "win/folder.png",
+      "mnem": 80,
+      "titl": "Číselník stavů položek ceníku"
+    },
+    "cenTypAtributu": {
+      "mnem": 65,
+      "titl": "Typy atributů"
+    },
+    "cenTypAtributuStandard": {
+      "titl": "Standardní typy atributů"
+    },
+    "cenTypZbozi": {
+      "mnem": 66,
+      "titl": "Skupiny atributů"
+    },
+    "cenTypZboziStandard": {
+      "titl": "Standardní skupiny atributů"
+    },
+    "cenyView": {
+      "titl": "Individuální ceník"
+    },
+    "cenyViewWizard": {
+      "icon": "win/folder.png",
+      "mnem": 73,
+      "titl": "Individuální ceník"
+    },
+    "cisCinnost": {
+      "mnem": 83,
+      "titl": "Činnost"
+    },
+    "cisClenDph": {
+      "desc": "Řádek DPH určuje do jakého řádku formuláře přiznání DPH patří částky dokladu (klávesa F2).",
+      "mnem": 68,
+      "titl": "Řádky přiznání DPH"
+    },
+    "cisClenKonVykDph": {
+      "mnem": 344,
+      "titl": "Řádky kontrolního hlášení DPH"
+    },
+    "cisDphPren": {
+      "desc": "Evidence pro daňové účely podle § 92a zákona o DPH",
+      "mnem": 86,
+      "titl": "Seznam zboží v režimu přenesení DPH"
+    },
+    "cisElBanFormaty": {
+      "titl": "Bankovní formáty"
+    },
+    "cisKlic": {
+      "titl": "Štítky"
+    },
+    "cisKonSym": {
+      "mnem": 79,
+      "titl": "Konstantní symboly"
+    },
+    "cisKurzy": {
+      "mnem": 75,
+      "titl": "Kurzy"
+    },
+    "cisKurzyCen": {
+      "mnem": 90,
+      "titl": "Kurzy pro cenotvorbu"
+    },
+    "cisKurzyIntr": {
+      "mnem": 75,
+      "titl": "Kurzy pro Intrastat"
+    },
+    "cisKurzyPreceneni": {
+      "titl": "Kurzy pro přecenění"
+    },
+    "cisLokCis": {
+      "titl": "Lokalizovaný číselník"
+    },
+    "cisMeny": {
+      "mnem": 77,
+      "titl": "Měny"
+    },
+    "cisMj": {
+      "mnem": 74,
+      "titl": "Měrné jednotky "
+    },
+    "cisOsoby": {
+      "mnem": 79,
+      "titl": "Osoby a uživatelé"
+    },
+    "cisPsc": {
+      "mnem": 82,
+      "titl": "Poštovní směrovací čísla"
+    },
+    "cisSkupVybKlic": {
+      "mnem": 366,
+      "titl": "Skupiny štítků"
+    },
+    "cisSmerKod": {
+      "mnem": 80,
+      "titl": "Peněžní ústavy"
+    },
+    "cisStaty": {
+      "mnem": 89,
+      "titl": "Státy"
+    },
+    "cisStavZak": {
+      "mnem": 83,
+      "titl": "Stavy zakázek"
+    },
+    "cisStr": {
+      "mnem": 65,
+      "titl": "Střediska"
+    },
+    "cisTexDok": {
+      "titl": "Pomocné texty na doklad"
+    },
+    "cisTexty": {
+      "mnem": 88,
+      "titl": "Předdefinované texty"
+    },
+    "cisTypUcOp": {
+      "icon": "win/predpis.png",
+      "mnem": 69,
+      "titl": "Předpisy zaúčtování"
+    },
+    "cisTypUcOpBan": {
+      "icon": "win/predpis.png",
+      "mnem": 66,
+      "titl": "Předpisy zaúčtování - bankovní doklady"
+    },
+    "cisTypUcOpFap": {
+      "icon": "win/predpis.png",
+      "mnem": 80,
+      "titl": "Předpisy zaúčtování - přijaté faktury"
+    },
+    "cisTypUcOpFav": {
+      "icon": "win/predpis.png",
+      "mnem": 86,
+      "titl": "Předpisy zaúčtování - vydané faktury"
+    },
+    "cisTypUcOpInt": {
+      "icon": "win/predpis.png",
+      "mnem": 73,
+      "titl": "Předpisy zaúčtování - interní doklady"
+    },
+    "cisTypUcOpPhl": {
+      "icon": "win/predpis.png",
+      "mnem": 80,
+      "titl": "Předpisy zaúčtování - ostatní pohledávky"
+    },
+    "cisTypUcOpPok": {
+      "icon": "win/predpis.png",
+      "mnem": 80,
+      "titl": "Předpisy zaúčtování - pokladní doklady"
+    },
+    "cisTypUcOpSkl": {
+      "icon": "win/predpis.png",
+      "mnem": 84,
+      "titl": "Předpisy zaúčtování - sklad"
+    },
+    "cisTypUcOpZav": {
+      "icon": "win/predpis.png",
+      "mnem": 90,
+      "titl": "Předpisy zaúčtování - ostatní závazky"
+    },
+    "cisTypZak": {
+      "mnem": 84,
+      "titl": "Typy zakázek"
+    },
+    "cisUceRoz": {
+      "mnem": 78,
+      "titl": "Standardní účetní osnova"
+    },
+    "cisVazbyMj": {
+      "titl": "Vazby MJ"
+    },
+    "cisVybKlice": {
+      "mnem": 352,
+      "titl": "Štítky"
+    },
+    "cisVyhZak": {
+      "mnem": 86,
+      "titl": "Vyhodnocení zakázek"
+    },
+    "cisZak": {
+      "desc": "Seznam zakázek. Každý doklad může obsahovat odkaz na zakázku. Pomocí standardních přehledů můžete analyzovat náklady na konkrétní zakázku.",
+      "icon": "win/zakazky.png",
+      "mnem": 90,
+      "titl": "Zakázky"
+    },
+    "cisZakNehotov": {
+      "desc": "Zakázky - nezobrazuje hotové",
+      "titl": "Zakázky (nehotové)"
+    },
+    "cisZakazky": {
+      "icon": "win/folder.png",
+      "mnem": 75,
+      "titl": "Číselníky zakázek"
+    },
+    "cisloBal": {
+      "titl": "Čísla balíků"
+    },
+    "customButton": {
+      "titl": "Uživatelské tlačítko"
+    },
+    "dashboard": {
+      "icon": "win/dashboard-vlastni.png",
+      "mnem": 69,
+      "titl": "Přehled"
+    },
+    "dashboard-konkretni": {
+      "icon": "win/dashboard-vlastni-konkretni.png",
+      "mnem": 69,
+      "titl": "Přehled"
+    },
+    "dashboard000": {
+      "icon": "win/dashboard.png",
+      "mnem": 80,
+      "titl": "Přehledy"
+    },
+    "dashboard000-konkretni": {
+      "icon": "win/dashboard-konkretni.png",
+      "mnem": 80,
+      "titl": "Přehledy"
+    },
+    "dashboardPanel": {
+      "icon": "win/folder.png",
+      "titl": "Správa přehledů"
+    },
+    "dashboardSharing": {
+      "titl": "Sdílení přehledů"
+    },
+    "desktop000": {
+      "titl": "Pracovní plocha"
+    },
+    "diskUsage": {
+      "mnem": 66,
+      "titl": "Obsazení disku"
+    },
+    "doklFakBezModulu": {
+      "titl": "Pohledávky/závazky"
+    },
+    "doklFakUhrady": {
+      "titl": "Doklady k úhradě"
+    },
+    "doklIntBezModulu": {
+      "titl": "Bankovní/pokladní/interní doklad"
+    },
+    "dokladView": {
+      "titl": "Přehled všech dokladů"
+    },
+    "doporuceni": {
+      "desc": "Doporučení na úpravu faktury nebo zálohy, aby po odpočtu byla faktura uhrazená.",
+      "titl": "Doporučení"
+    },
+    "dotaz": {
+      "mnem": 68,
+      "titl": "Uživatelské dotazy"
+    },
+    "dotazParam": {
+      "titl": "Parametry"
+    },
+    "dotazProp": {
+      "titl": "Vlastnosti"
+    },
+    "dotazView": {
+      "titl": "Uživatelský dotaz"
+    },
+    "eetKom": {
+      "mnem": 85,
+      "titl": "EET komunikace"
+    },
+    "eetKomView": {
+      "mnem": 85,
+      "titl": "EET komunikace"
+    },
+    "elInkaso": {
+      "desc": "Definice příkazu k inkasu ze seznamu vydaných faktur a pohledávek s možností jeho doplnění. Program podporuje export příkazu do elektronických formátů většiny bankovních ústavů.",
+      "icon": "win/prehled.png",
+      "mnem": 73,
+      "titl": "Příkaz k inkasu"
+    },
+    "elInkasoFak": {
+      "titl": "Výběr dokladů k uhrazení"
+    },
+    "elInkasoPol": {
+      "titl": "Položka inkasa"
+    },
+    "elPrikaz": {
+      "desc": "Definice příkazu k úhradě ze seznamu přijatých faktur a závazků s možností jeho doplnění. Program podporuje export příkazu do elektronických formátů většiny bankovních ústavů.",
+      "icon": "win/prehled.png",
+      "mnem": 72,
+      "titl": "Příkaz k úhradě"
+    },
+    "elPrikazFak": {
+      "titl": "Výběr dokladů k uhrazení"
+    },
+    "elPrikazPol": {
+      "titl": "Položka příkazu k úhradě"
+    },
+    "externalId": {
+      "titl": "Externí identifikátory"
+    },
+    "fapAkt": {
+      "desc": "Aktualizace přijatých faktur v nastaveném účetním období. Přijaté faktury se skladovými položkami automatiky vytváří příjemky. Tlačítko \"Služby\" umožní tisk aktuální faktury, dává souhrnné informace o odběrateli a vytvoří hotovostní úhradu.",
+      "icon": "win/fak-prijate.png",
+      "mnem": 70,
+      "titl": "Přijaté faktury"
+    },
+    "fapAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Přijmout novou fakturu"
+    },
+    "fapNonPaged": {
+      "titl": "Přijaté faktury"
+    },
+    "fapPol": {
+      "desc": "Souhrnný přehled všech fakturačních položek. Pomocí standardní filtrace vytváříte přehledy fakturačních položek nebo můžete vyhledávat skupiny položek podle zadaných kritérií nezávisle na dokladech. Příklad užití: Chcete vidět, které firmy vám fakturovali konkrétní zboží poslední dva měsíce.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 70,
+      "titl": "Položky přijatých faktur"
+    },
+    "fapProtiUcty": {
+      "titl": "Protiúčty přijaté"
+    },
+    "fapRady": {
+      "desc": "Nastavení dokladových řad pro aktualizaci přijatých faktur.",
+      "icon": "win/numbers.png",
+      "mnem": 70,
+      "titl": "Dokladové řady - přijaté faktury"
+    },
+    "fapTyp": {
+      "icon": "win/typ-prijata-faktura.png",
+      "mnem": 70,
+      "titl": "Typy přijatých faktur"
+    },
+    "favAkt": {
+      "desc": "Aktualizace vydaných faktur v nastaveném účetním období. Fakturace ze skladu automaticky vytváří výdejky. Tlačítko \"Služby\" umožní tisk aktuální faktury, dává souhrnné informace o odběrateli a vytvoří hotovostní úhradu.",
+      "icon": "win/fak-vydane.png",
+      "mnem": 70,
+      "titl": "Vydané faktury"
+    },
+    "favAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Vydat novou fakturu"
+    },
+    "favArch": {
+      "titl": "Archiv"
+    },
+    "favNonPaged": {
+      "titl": "Vydané faktury"
+    },
+    "favPol": {
+      "desc": "Souhrnný přehled všech fakturačních a prodejkových položek. Pomocí standardní filtrace vytváříte přehledy fakturačních položek nebo můžete vyhledávat skupiny položek podle zadaných kritérií nezávisle na dokladech. Příklad užití: Chcete vidět, kterým firmám jste fakturovali konkrétní zboží poslední dva měsíce.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 70,
+      "titl": "Položky vydaných faktur a prodejek"
+    },
+    "favProdPlat": {
+      "desc": "Úhrady dokladů v prodejní kase.",
+      "titl": "Úhrada"
+    },
+    "favProdejky": {
+      "desc": "Prodejní kasa je určena pro hotovostní prodej. Jedná se o maximálně zjednodušenou formu vytvoření prodejního dokladu. Jednou denně nahrajete prodeje do pokladny, která je připojená k prodejní kase. Vazba je definovaná v seznamu prodejních kas.",
+      "icon": "win/pokladna.png",
+      "mnem": 82,
+      "titl": "Prodejní kasa"
+    },
+    "favRady": {
+      "desc": "Nastavení dokladových řad pro aktualizaci vydaných faktur.",
+      "icon": "win/numbers.png",
+      "mnem": 70,
+      "titl": "Dokladové řady - vydané faktury"
+    },
+    "favTyp": {
+      "desc": "Typy vydaných faktur umožňují nastavit základní parametry. Je to zaúčtování, způsob platby, dokladové řady... ",
+      "icon": "win/typ-vydana-faktura.png",
+      "mnem": 70,
+      "titl": "Typy vydaných faktur"
+    },
+    "favTypProdejky": {
+      "icon": "win/typ-vydana-faktura.png",
+      "mnem": 82,
+      "titl": "Seznam prodejních kas"
+    },
+    "favUpo": {
+      "titl": "Upomínky"
+    },
+    "filtry": {
+      "titl": "Uživatelské filtry"
+    },
+    "firma000": {
+      "mnem": 70,
+      "titl": "Firma"
+    },
+    "formaDopravy": {
+      "mnem": 70,
+      "titl": "Formy dopravy"
+    },
+    "formaUhrCis": {
+      "icon": "win/folder.png",
+      "mnem": 72,
+      "titl": "Formy úhrady"
+    },
+    "formaUhrZauc": {
+      "titl": "Zaúčtování formy úhrady"
+    },
+    "gdpr000": {
+      "mnem": 71,
+      "titl": "GDPR"
+    },
+    "importExcel": {
+      "mnem": 69,
+      "titl": "Import z Excelu"
+    },
+    "importIsDoc": {
+      "mnem": 73,
+      "titl": "Import e-faktury ISDOC"
+    },
+    "importLicense": {
+      "mnem": 73,
+      "titl": "Import licence"
+    },
+    "importXml": {
+      "mnem": 88,
+      "titl": "Import z XML"
+    },
+    "initFirmaWiz": {
+      "mnem": 73,
+      "titl": "Průvodce nastavením firmy"
+    },
+    "insight": {
+      "titl": "Insight"
+    },
+    "intDokl": {
+      "desc": "Aktualizace a vytváření interních účetních dokladů v nastaveném účetním období.",
+      "icon": "win/int-dok.png",
+      "mnem": 73,
+      "titl": "Interní doklady"
+    },
+    "intDoklNovy": {
+      "icon": "win/plus.png",
+      "titl": "Nový interní doklad"
+    },
+    "intPol": {
+      "mnem": 73,
+      "titl": "Položky interních dokladů"
+    },
+    "intRady": {
+      "desc": "Nastavení dokladových řad pro aktualizaci interních dokladů.",
+      "icon": "win/numbers.png",
+      "mnem": 73,
+      "titl": "Dokladové řady - interní doklady"
+    },
+    "intTyp": {
+      "desc": "Typy interních dokladů umožňují nastavit základní parametry. Jedná se o zaúčtování, dokladové řady ... ",
+      "icon": "win/typ-interni-doklad.png",
+      "mnem": 73,
+      "titl": "Typy interních dokladů"
+    },
+    "interObch": {
+      "mnem": 66,
+      "titl": "Internetové obchody"
+    },
+    "intrDodPodm": {
+      "mnem": 80,
+      "titl": "Dodací podmínky"
+    },
+    "intrDruhDopr": {
+      "mnem": 68,
+      "titl": "Druh dopravy"
+    },
+    "intrKrajUrc": {
+      "mnem": 85,
+      "titl": "Kraje určení"
+    },
+    "intrMerJed": {
+      "mnem": 74,
+      "titl": "Měrné jednotky"
+    },
+    "intrNomenkla": {
+      "mnem": 78,
+      "titl": "Kódy nomenklatury"
+    },
+    "intrObchTrans": {
+      "mnem": 84,
+      "titl": "Obchodní transakce"
+    },
+    "intrVystupy": {
+      "titl": "Výstup"
+    },
+    "intrZvlPoh": {
+      "mnem": 90,
+      "titl": "Zvláštní pohyby"
+    },
+    "intrastatPol": {
+      "titl": "Položky vstupující do Intrastatu"
+    },
+    "intrastatRadka": {
+      "titl": "Řádky Intrastatu"
+    },
+    "intrastatWizard": {
+      "icon": "win/logs.png",
+      "mnem": 73,
+      "titl": "Generování Intrastatu"
+    },
+    "koupitLicenci": {
+      "titl": "ABRA Flexi"
+    },
+    "koupitWinStrom": {
+      "mnem": 75,
+      "titl": "Koupit licenci"
+    },
+    "kusovnik": {
+      "titl": "Kusovník"
+    },
+    "licence": {
+      "mnem": 76,
+      "titl": "Licence aplikace"
+    },
+    "loginDialog000": {
+      "titl": "Přihlášení do aplikace"
+    },
+    "majAkt": {
+      "titl": "Majetek"
+    },
+    "majBwithE": {
+      "desc": "Aktualizace dlouhodobého, drobného a neodpisovaného majetku. ",
+      "titl": "Majetek"
+    },
+    "majDanNakl": {
+      "titl": "Daňové náklady"
+    },
+    "majDanOdpisy": {
+      "titl": "Daňové odpisy"
+    },
+    "majExternalId": {
+      "titl": "Externí ID pro majetek"
+    },
+    "majLeasing": {
+      "desc": "Aktualizace leasingu, určení splátkového kalendáře a vytvoření účetních nákladů. Při generaci splátkového kalendáře vznikají automaticky závazky v účetním modulu.",
+      "icon": "win/leas.png",
+      "mnem": 76,
+      "titl": "Leasing"
+    },
+    "majLeasingNovy": {
+      "icon": "win/plus.png",
+      "titl": "Přidat nový leasing"
+    },
+    "majMajetek": {
+      "desc": "Aktualizace dlouhodobého, drobného a neodpisovaného majetku. Karta odpisovaného majetku obsahuje daňové odpisy, účetní odpisy, události a evidenci zápůjček, respektive zodpovědných osob. Odpisování můžete kdykoliv přerušit. Dobu účetních odpisů můžete během života majetku modifikovat.",
+      "icon": "win/maj.png",
+      "mnem": 77,
+      "titl": "Majetek"
+    },
+    "majMajetekNovy": {
+      "icon": "win/plus.png",
+      "titl": "Zařadit nový majetek"
+    },
+    "majSazby": {
+      "desc": "Skupiny odpisů obsahují standardní hodnoty definované aktuální legislativou. Dále umožňují definovat vlastní nestandardní skupiny.",
+      "icon": "win/folder.png",
+      "mnem": 83,
+      "titl": "Odpisové skupiny"
+    },
+    "majSku": {
+      "titl": "Odpisové skupiny"
+    },
+    "majSplatKal": {
+      "titl": "Splátkový kalendář"
+    },
+    "majStavKDatu": {
+      "titl": "Stav majetku k datu"
+    },
+    "majStavKDatuWizard": {
+      "titl": "Stav majetku k datu"
+    },
+    "majTypLeas": {
+      "desc": "Typy leasingu vám umožní rozčlenit leasing do předem definovaných skupin.",
+      "icon": "win/typ-leasing.png",
+      "mnem": 76,
+      "titl": "Typy leasingů"
+    },
+    "majTypMaj": {
+      "desc": "Typy majetku vám umožní rozčlenit majetek do předem definovaných skupin. Je tím zaručena možnost výběru a větší přehlednost.",
+      "icon": "win/typ-majetek.png",
+      "mnem": 77,
+      "titl": "Typy majetků"
+    },
+    "majUcel": {
+      "titl": "Účely"
+    },
+    "majUcetOdpisy": {
+      "titl": "Účetní odpisy"
+    },
+    "majUdalosti": {
+      "titl": "Události"
+    },
+    "majUmisteni": {
+      "desc": "Seznam použitelných umístění položek majetku. Je rozděleno na 3 kategorie - budova, sekce a místnost.",
+      "icon": "win/folder.png",
+      "mnem": 85,
+      "titl": "Umístění"
+    },
+    "majZapujcky": {
+      "titl": "Zápůjčky"
+    },
+    "majetek000": {
+      "icon": "win/majetek.png",
+      "mnem": 77,
+      "titl": "Majetek"
+    },
+    "majetekTypy": {
+      "mnem": 84,
+      "titl": "Typy"
+    },
+    "migraceFirem": {
+      "titl": "Migrace firem z XML souborů"
+    },
+    "migraceS3": {
+      "mnem": 83,
+      "titl": "Migrace agendy z Money S3"
+    },
+    "mzdyKontrolaSlozek": {
+      "mnem": 68,
+      "titl": "Kontrola mzdových složek"
+    },
+    "nCiselniky": {
+      "mnem": 76,
+      "titl": "Číselníky"
+    },
+    "nImport": {
+      "mnem": 73,
+      "titl": "Import"
+    },
+    "nNastav": {
+      "desc": "Nastavení základních údajů firmy, loga a razítka, legislativních parametrů a automatických operací.",
+      "mnem": 65,
+      "titl": "Nastavení"
+    },
+    "nUcetniObdobi": {
+      "titl": "Účetní období"
+    },
+    "nabidkaDoplnku": {
+      "mnem": 65,
+      "titl": "Nabídka doplňků"
+    },
+    "nakup000": {
+      "icon": "win/nakup.png",
+      "mnem": 75,
+      "titl": "Nákup"
+    },
+    "nakupRady": {
+      "icon": "win/numbers.png",
+      "mnem": 89,
+      "titl": "Dokladové řady"
+    },
+    "nakupTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 69,
+      "titl": "Předpisy zaúčtování"
+    },
+    "nakupTypy": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Typy dokladů"
+    },
+    "napoveda": {
+      "acck": 112,
+      "accm": 0,
+      "mnem": 78,
+      "titl": "Nápověda k programu"
+    },
+    "nasServer": {
+      "mnem": 69,
+      "titl": "Nastavení serveru"
+    },
+    "nasSmtp": {
+      "titl": "Nastavení SMTP serveru"
+    },
+    "nastav000": {
+      "mnem": 74,
+      "titl": "Nástroje"
+    },
+    "nastavProgram": {
+      "titl": "Nastavení programu a modulů"
+    },
+    "nastavZurnal": {
+      "titl": "Nastavení žurnálu"
+    },
+    "nastrojeKontrolaDanOdpisu": {
+      "mnem": 68,
+      "titl": "Kontrola daňových odpisů"
+    },
+    "nastrojePrepocet": {
+      "mnem": 83,
+      "titl": "Přepočet stavů účtů"
+    },
+    "nastrojePrepocetDe": {
+      "mnem": 67,
+      "titl": "Přepočet daňové evidence"
+    },
+    "nezDPolSkladF": {
+      "titl": "Pohled DPolSkladF"
+    },
+    "nezFifoVazby": {
+      "titl": "FIFO Vazby"
+    },
+    "nezRadyDiry": {
+      "titl": "Díry v dokladové řadě"
+    },
+    "nezRadyRok": {
+      "titl": "Roční položky dokladové řady"
+    },
+    "nezVazbyDokl": {
+      "titl": "Vazby dokladu"
+    },
+    "nezVazbyPolSklad": {
+      "titl": "FIFO vazby rozpadu vydejek"
+    },
+    "novaFirma": {
+      "mnem": 78,
+      "titl": "Nová firma"
+    },
+    "novaFirmaWiz": {
+      "mnem": 78,
+      "titl": "Založení nové firmy"
+    },
+    "noveSezeni": {
+      "mnem": 79,
+      "titl": "Výběr firmy v novém okně"
+    },
+    "oAplikaci": {
+      "mnem": 79,
+      "titl": "O aplikaci ABRA Flexi"
+    },
+    "obchodNapDokl": {
+      "desc": "Přijaté nabídky můžete vytvářet ručně nebo kopií vydané poptávky. Kopií poptávky do nabídky ušetříte čas zadáváním položek nabídky a stačí pouze modifikovat ceny upřesněné vaším dodavatelem.",
+      "icon": "win/nabidka-prijata.png",
+      "mnem": 78,
+      "titl": "Přijaté nabídky"
+    },
+    "obchodNapPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 78,
+      "titl": "Položky přijaté nabídky"
+    },
+    "obchodNapRady": {
+      "desc": "Nastavení dokladových řad pro přijaté nabídky",
+      "icon": "win/numbers.png",
+      "mnem": 78,
+      "titl": "Dokladové řady - přijaté nabídky"
+    },
+    "obchodNapTyp": {
+      "icon": "win/typ-nabidka-prijata.png",
+      "mnem": 78,
+      "titl": "Typy přijatých nabídek"
+    },
+    "obchodNavDokl": {
+      "desc": "Seznam eviduje veškeré vydané nabídky, které byly vašim odběratelům odeslány. Obsah nabídky je možné kopírovat do přijaté objednávky. Vydaná nabídka může vzniknout kopií přijaté poptávky.",
+      "icon": "win/nabidka-vydana.png",
+      "mnem": 78,
+      "titl": "Vydané nabídky"
+    },
+    "obchodNavPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 78,
+      "titl": "Položky vydané nabídky"
+    },
+    "obchodNavRady": {
+      "desc": "Nastavení dokladových řad pro vydané nabídky",
+      "icon": "win/numbers.png",
+      "mnem": 78,
+      "titl": "Dokladové řady - vydané nabídky"
+    },
+    "obchodNavTyp": {
+      "icon": "win/typ-nabidka-vydana.png",
+      "mnem": 78,
+      "titl": "Typy vydaných nabídek"
+    },
+    "obchodObpDokl": {
+      "desc": "Přijaté objednávky slouží k evidenci požadavků vašich odběratelů. U položek objednávky je uvedena dohodnutá prodejní cena. Při tvorbě faktury můžete objednávku tzv. realizovat, čili kopírovat její obsah do faktury.",
+      "icon": "win/objednavka-prijata.png",
+      "mnem": 79,
+      "titl": "Přijaté objednávky"
+    },
+    "obchodObpDoklNovy": {
+      "icon": "win/plus.png",
+      "titl": "Přijmout novou objednávku"
+    },
+    "obchodObpPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 79,
+      "titl": "Položky přijaté objednávky"
+    },
+    "obchodObpRady": {
+      "desc": "Nastavení dokladových řad pro přijaté objednávky",
+      "icon": "win/numbers.png",
+      "mnem": 79,
+      "titl": "Dokladové řady - přijaté objednávky"
+    },
+    "obchodObpTyp": {
+      "icon": "win/typ-objednavka-prijata.png",
+      "mnem": 79,
+      "titl": "Typy přijatých objednávek"
+    },
+    "obchodObvDokl": {
+      "desc": "Obsahově jsou vydané objednávky podobné přijatým objednávkám s tím, že směr objednávání je otočen a ceny jsou nákupní. Vydanou objednávku je možné vytvořit na základě přijaté objednávky, to znamená, že od svých dodavatelů budete požadovat to, co od vás požadují vaši odběratelé.",
+      "icon": "win/objednavka-vydana.png",
+      "mnem": 79,
+      "titl": "Vydané objednávky"
+    },
+    "obchodObvDoklNovy": {
+      "icon": "win/plus.png",
+      "titl": "Vydat novou objednávku"
+    },
+    "obchodObvPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 79,
+      "titl": "Položky vydané objednávky"
+    },
+    "obchodObvRady": {
+      "desc": "Nastavení dokladových řad pro vydané objednávky",
+      "icon": "win/numbers.png",
+      "mnem": 79,
+      "titl": "Dokladové řady - vydané objednávky"
+    },
+    "obchodObvTyp": {
+      "icon": "win/typ-objednavka-vydana.png",
+      "mnem": 79,
+      "titl": "Typy vydaných objednávek"
+    },
+    "obchodPppDokl": {
+      "desc": "Seznam přijatých poptávek eviduje veškeré poptávky vašich současných nebo potencionálních odběratelů. Obsah jedné poptávky je možné kopírovat do vydané nabídky nebo přímo do přijaté objednávky. ",
+      "icon": "win/poptavka-prijata.png",
+      "mnem": 80,
+      "titl": "Přijaté poptávky"
+    },
+    "obchodPppPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 80,
+      "titl": "Položky přijatých poptávek"
+    },
+    "obchodPppRady": {
+      "desc": "Nastavení dokladových řad pro přijaté poptávky",
+      "icon": "win/numbers.png",
+      "mnem": 80,
+      "titl": "Dokladové řady - přijaté poptávky"
+    },
+    "obchodPppTyp": {
+      "icon": "win/typ-poptavka-prijata.png",
+      "mnem": 80,
+      "titl": "Typy přijatých poptávek"
+    },
+    "obchodPpvDokl": {
+      "desc": "Vydané poptávky mohou vzniknout ručně nebo kopií přijaté objednávky. Na tomto místě se rozbíhá opačný proces proti prodeji, kdy vy potřebujete nakoupit zboží nebo materiál u vašich dodavatelů.",
+      "icon": "win/poptavka-vydana.png",
+      "mnem": 80,
+      "titl": "Vydané poptávky"
+    },
+    "obchodPpvPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 80,
+      "titl": "Položky vydané poptávky"
+    },
+    "obchodPpvRady": {
+      "desc": "Nastavení dokladových řad pro vydané poptávky",
+      "icon": "win/numbers.png",
+      "mnem": 80,
+      "titl": "Dokladové řady - vydané poptávky"
+    },
+    "obchodPpvTyp": {
+      "icon": "win/typ-poptavka-vydana.png",
+      "mnem": 80,
+      "titl": "Typy vydaných poptávek"
+    },
+    "odpojeneFirmy": {
+      "titl": "Odpojené firmy"
+    },
+    "opravSklad": {
+      "mnem": 80,
+      "titl": "Přepočet skladu"
+    },
+    "osCert": {
+      "mnem": 82,
+      "titl": "Certifikáty"
+    },
+    "osCertEet": {
+      "titl": "EET certifikáty"
+    },
+    "osCertFinbricks": {
+      "titl": "Klíče Finbricks"
+    },
+    "osCertOsobni": {
+      "titl": "Osobní certifikáty"
+    },
+    "osCertPrehled": {
+      "titl": "Certifikáty"
+    },
+    "parametry": {
+      "titl": "Pokročilá parametrizace pomocí parametrů"
+    },
+    "partneri000": {
+      "icon": "win/obch-partneri.png",
+      "mnem": 65,
+      "titl": "Obchodní partneři"
+    },
+    "penize000": {
+      "icon": "win/penize.png",
+      "mnem": 90,
+      "titl": "Peníze"
+    },
+    "penizePolDokl": {
+      "desc": "Přehledy všech pohybů v jednotlivých seznamech bankovního a pokladního modulu. Jedná se o položky banky a pokladny. Pomocí standardní filtrace vytváříte přehledy položek uvedených dokladů nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na dokladech, ve kterém položky vznikaly.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 68,
+      "titl": "Přehledy položek dokladů"
+    },
+    "penizeRady": {
+      "icon": "win/numbers.png",
+      "mnem": 89,
+      "titl": "Dokladové řady"
+    },
+    "penizeTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 69,
+      "titl": "Předpisy zaúčtování"
+    },
+    "penizeTypy": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Typy dokladů"
+    },
+    "phlAkt": {
+      "desc": "Aktualizace a vytváření pohledávek v nastaveném účetním období, které nejsou zařazeny ve vydaných fakturách. Například předpis pro platbu nájemného ve vašich objektech.",
+      "icon": "win/ostatni-pohledavky.png",
+      "mnem": 80,
+      "titl": "Ostatní pohledávky"
+    },
+    "phlAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Nová pohledávka"
+    },
+    "phlPol": {
+      "mnem": 80,
+      "titl": "Položky ostatních pohledávek"
+    },
+    "phlRady": {
+      "desc": "Nastavení dokladových řad pro pohledávky",
+      "icon": "win/numbers.png",
+      "mnem": 80,
+      "titl": "Dokladové řady - pohledávky"
+    },
+    "phlTyp": {
+      "desc": "Typy ostatních pohledávek umožňují nastavit základní parametry. Jedná se o zaúčtování, dokladové řady... ",
+      "icon": "win/typ-ostatni-pohledavka.png",
+      "mnem": 80,
+      "titl": "Typy ostatních pohledávek"
+    },
+    "podpora": {
+      "mnem": 80,
+      "titl": "Uživatelská podpora"
+    },
+    "pokAkt": {
+      "desc": "Aktualizace a vytváření pokladních dokladů v nastaveném účetním období. Tlačítko \"Služby\" umožní tisk aktuálního dokladu, spárovat doklad s fakturou, pohledávkou nebo závazkem. ",
+      "icon": "win/pokladna.png",
+      "mnem": 80,
+      "titl": "Pokladna"
+    },
+    "pokAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Nový pokladní doklad"
+    },
+    "pokBsp": {
+      "desc": "Aktualizace seznamu pokladen",
+      "icon": "win/seznam.png",
+      "mnem": 75,
+      "titl": "Seznam pokladen"
+    },
+    "pokDenik": {
+      "desc": "Provede výpočet a tisk pokladní knihy ",
+      "icon": "win/logs.png",
+      "mnem": 79,
+      "titl": "Pokladní kniha"
+    },
+    "pokNonPaged": {
+      "titl": "Pokladna"
+    },
+    "pokPol": {
+      "mnem": 80,
+      "titl": "Položky pokladních dokladů"
+    },
+    "pokRady": {
+      "desc": "Nastavení dokladových řad pro aktualizaci pokladních dokladů.",
+      "icon": "win/numbers.png",
+      "mnem": 80,
+      "titl": "Dokladové řady - pokladní doklady"
+    },
+    "pokTyp": {
+      "icon": "win/pokladna.png",
+      "mnem": 80,
+      "titl": "Typy pokladních dokladů"
+    },
+    "polDoklNakupProdej": {
+      "desc": "Přehledy všech pohybů v jednotlivých seznamech nákupního modulu. Jedná se o položky faktur přijatých,  poptávek vydaných, nabídek přijatých  a objednávek vydaných. Pomocí standardní filtrace vytváříte přehledy položek uvedených dokladů nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na dokladech, ve kterém položky vznikaly.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 68,
+      "titl": "Přehledy položek dokladů"
+    },
+    "polDoklPrehProdej": {
+      "desc": "Přehledy všech pohybů v jednotlivých seznamech prodejního modulu. Jedná se o položky vydaných faktur, přijatých poptávek, vydaných nabídek a přijatých objednávek. Pomocí standardní filtrace vytváříte přehledy položek uvedených dokladů nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na dokladech, ve kterém položky vznikaly.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 68,
+      "titl": "Přehledy položek dokladů"
+    },
+    "pomoc000": {
+      "mnem": 79,
+      "titl": "Nápověda"
+    },
+    "poslatReakci": {
+      "mnem": 82,
+      "titl": "Pošlete názor na ABRA Flexi"
+    },
+    "pravaFirma": {
+      "mnem": 80,
+      "titl": "Práva k firmám"
+    },
+    "pravaServeru": {
+      "titl": "Práva serveru"
+    },
+    "priloha": {
+      "titl": "Příloha"
+    },
+    "prilohaData": {
+      "titl": "Data přílohy"
+    },
+    "pristPrava": {
+      "titl": "Přístupová práva"
+    },
+    "priznaniDanPo": {
+      "icon": "win/logs-low.png",
+      "mnem": 88,
+      "titl": "Rozvaha a výkaz zisku a ztráty v XML"
+    },
+    "prodej000": {
+      "icon": "win/prodej.png",
+      "mnem": 68,
+      "titl": "Prodej"
+    },
+    "prodejRady": {
+      "icon": "win/numbers.png",
+      "mnem": 89,
+      "titl": "Dokladové řady"
+    },
+    "prodejTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 69,
+      "titl": "Předpisy zaúčtování"
+    },
+    "prodejTypy": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Typy dokladů"
+    },
+    "prvniSpusteni": {
+      "titl": "První spuštění"
+    },
+    "radaBezModulu": {
+      "titl": "dokladové řady"
+    },
+    "realizujPozadavky": {
+      "mnem": 65,
+      "titl": "Aktualizace požadavků na výdej"
+    },
+    "registrovatLicenci": {
+      "titl": "Registrace ABRA Flexi Start"
+    },
+    "report": {
+      "mnem": 86,
+      "titl": "Uživatelské reporty"
+    },
+    "reportData": {
+      "titl": "Data pro uživatelské reporty"
+    },
+    "role": {
+      "mnem": 84,
+      "titl": "Uživatelské role"
+    },
+    "root000": {
+      "titl": "ABRA Flexi"
+    },
+    "sablonaMail": {
+      "mnem": 77,
+      "titl": "Uživatelské e-mailové šablony"
+    },
+    "scanner": {
+      "titl": "Zadání počtu EAN kódů"
+    },
+    "servIntr": {
+      "mnem": 73,
+      "titl": "Intrastat"
+    },
+    "settings": {
+      "titl": "Úložiště nastavení"
+    },
+    "settingsAll": {
+      "titl": "Úložiště globálního nastavení"
+    },
+    "sklAkt": {
+      "desc": "Vytváření skladových dokladů a jejich aktualizace. Seznam skladů obsahuje základní parametry pro účtování dokladů. Výdejky a příjemky mohou automaticky vznikat při tvorbě faktury vydané respektive přijaté. Tlačítko \"Vazby\" ukáže navázané doklady k aktuální položce seznamu",
+      "icon": "win/prijem-vydej.png",
+      "mnem": 74,
+      "titl": "Příjemky/výdejky"
+    },
+    "sklAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Vystavit příjemku/výdejku"
+    },
+    "sklArch": {
+      "titl": "Archiv"
+    },
+    "sklBsp": {
+      "icon": "win/seznam.png",
+      "mnem": 83,
+      "titl": "Seznam skladů"
+    },
+    "sklInventura": {
+      "icon": "win/computation.png",
+      "mnem": 86,
+      "titl": "Inventury"
+    },
+    "sklInventuraPol": {
+      "titl": "Položky inventur"
+    },
+    "sklKar": {
+      "desc": "V ceníku se zakládají skladové karty. Vytvoříte položku ceníku a definujete umístění zboží nebo materiálu ve skladech. Zde máte přehled stavu skladu a pohybů na kartách včetně přehledných tisků.",
+      "icon": "win/skladove-karty.png",
+      "mnem": 75,
+      "titl": "Skladové karty"
+    },
+    "sklMapSklad": {
+      "desc": "Určuje priority použití skladů",
+      "icon": "win/folder.png",
+      "mnem": 77,
+      "titl": "Mapování skladů"
+    },
+    "sklPol": {
+      "desc": "Souhrnný přehled všech skladových pohybů. Pomocí standardní filtrace vytváříte přehledy skladových položek nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na skladových kartách nebo dokladech.",
+      "titl": "Položky příjemky/výdejky"
+    },
+    "sklPolPrehled": {
+      "desc": "Souhrnný přehled všech skladových pohybů. Pomocí standardní filtrace vytváříte přehledy skladových položek nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na skladových kartách nebo dokladech.",
+      "icon": "win/skladove-pohyby.png",
+      "mnem": 72,
+      "titl": "Skladové pohyby - přehled"
+    },
+    "sklProtiUcty": {
+      "titl": "Protiúčty sklad"
+    },
+    "sklRady": {
+      "desc": "Nastavení dokladových řad pro aktualizaci příjemky a výdejky.",
+      "icon": "win/numbers.png",
+      "mnem": 68,
+      "titl": "Dokladové řady - sklad"
+    },
+    "sklRezervace": {
+      "icon": "win/rezervace.png",
+      "mnem": 82,
+      "titl": "Rezervace"
+    },
+    "sklSarzeExpiracebezVC": {
+      "titl": "Šarže a expirace"
+    },
+    "sklSarzeExpiracebezVCGrouped": {
+      "titl": "Šarže a expirace (grupovaná)"
+    },
+    "sklTyp": {
+      "icon": "win/seznam.png",
+      "mnem": 76,
+      "titl": "Typy skladových dokladů"
+    },
+    "sklUmisteni": {
+      "icon": "win/folder.png",
+      "mnem": 78,
+      "titl": "Umístění ve skladu"
+    },
+    "sklVyrCis": {
+      "desc": "Přehled výrobních čísel",
+      "icon": "win/generate.png",
+      "mnem": 79,
+      "titl": "Výrobní čísla"
+    },
+    "sklVyrCisHlav": {
+      "titl": "Hlavička výrobních čísel"
+    },
+    "sklVyrCisHlavView": {
+      "desc": "Přehled výrobních čísel",
+      "icon": "win/logs.png",
+      "mnem": 79,
+      "titl": "Výrobní čísla"
+    },
+    "sklVyrCisView": {
+      "desc": "Přehled dokladů výrobních čísel",
+      "icon": "win/logs.png",
+      "mnem": 79,
+      "titl": "Doklady výrobních čísel"
+    },
+    "sklVyrCisVyb": {
+      "desc": "Výběr výrobních čísel",
+      "icon": "win/generate.png",
+      "titl": "Výběr výrobních čísel"
+    },
+    "skonto": {
+      "titl": "Skonto"
+    },
+    "skupPlneni": {
+      "titl": "Skupiny plnění"
+    },
+    "souKonec": {
+      "mnem": 75,
+      "titl": "Ukončit aplikaci"
+    },
+    "startVerzeDialog": {
+      "titl": "ABRA Flexi"
+    },
+    "stavDoklObchCis": {
+      "icon": "win/folder.png",
+      "titl": "Stav obchodního dokladu"
+    },
+    "stavSkl": {
+      "titl": "Stav skladu k datu"
+    },
+    "stavSklWizard": {
+      "desc": "Přehled stavu všech položek ceníku s jejich množstvím na konkrétním skladě k zadanému datu.",
+      "icon": "win/computation.png",
+      "mnem": 85,
+      "titl": "Stav skladu k datu"
+    },
+    "strom": {
+      "titl": "Obecný strom"
+    },
+    "test000": {
+      "titl": "* TEST *"
+    },
+    "twoPhaseAuth": {
+      "titl": "Dvoufázové ověření"
+    },
+    "typDoklBezModulu": {
+      "titl": "Typy dokladů"
+    },
+    "typSazbyDph": {
+      "titl": "Typ sazby DPH"
+    },
+    "uSazbyDph": {
+      "mnem": 66,
+      "titl": "Sazby DPH"
+    },
+    "uSesPricteniRozdilu": {
+      "titl": "Řádky pro přičtení rozdílu"
+    },
+    "uSesRadky": {
+      "titl": "Řádek sestavy"
+    },
+    "uSesRozpadUce": {
+      "titl": "Rozpad řádků sestavy na účty"
+    },
+    "uSesStdPred": {
+      "titl": "Standardní předpis sestavy"
+    },
+    "uSesSumace": {
+      "titl": "Sumace v sestavách"
+    },
+    "uSesUmisteniUctu": {
+      "titl": "Upřesnění umístění účtu"
+    },
+    "uSesUzivPred": {
+      "titl": "Předpis sestavy"
+    },
+    "uSestavy": {
+      "desc": "Nastavení a výpočet uživatelských sestav. Funkce vám umožní definovat libovolnou účetní sestavu, nastavit umístění a hodnotu účtů a aktivovat výpočet pro libovolný rozsah v měsících.",
+      "icon": "win/seznam.png",
+      "mnem": 83,
+      "titl": "Seznam sestav"
+    },
+    "uUzaverka": {
+      "mnem": 79,
+      "titl": "Inicializace následujícího účetního období (je možné opakovat)"
+    },
+    "ucDanEvid": {
+      "titl": "Daňová evidence"
+    },
+    "ucDoklObrat": {
+      "titl": "Obraty"
+    },
+    "ucDoklUcty": {
+      "desc": "Aktualizace účetního rozvrhu, nastavení vlastností standardní rozvahy a výkazu zisku a ztráty.",
+      "icon": "win/folder.png",
+      "mnem": 82,
+      "titl": "Účtový rozvrh"
+    },
+    "ucPocObraty": {
+      "icon": "win/folder.png",
+      "mnem": 78,
+      "titl": "Počáteční stavy účtů"
+    },
+    "ucTypOrg": {
+      "titl": "Typ organizace"
+    },
+    "ucetniVystup000": {
+      "icon": "win/logs.png",
+      "mnem": 86,
+      "titl": "Účetní výstupy"
+    },
+    "ucetnictvi000": {
+      "icon": "win/ucetnictvi.png",
+      "mnem": 84,
+      "titl": "Účetnictví"
+    },
+    "ucetnictviPolDokl": {
+      "desc": "Přehledy všech pohybů v jednotlivých seznamech interních dokladů, ostatních pohledávek a závazků. Jedná se o položky již zmíněných dokladů. Pomocí standardní filtrace vytváříte přehledy položek uvedených dokladů nebo můžete vyhledávat skupiny pohybů podle zadaných kritéríí nezávisle na dokladech, ve kterém položky vznikaly.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 76,
+      "titl": "Přehledy položek dokladů"
+    },
+    "ucetnictviRady": {
+      "icon": "win/numbers.png",
+      "mnem": 68,
+      "titl": "Dokladové řady"
+    },
+    "ucetnictviTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 69,
+      "titl": "Předpisy zaúčtování"
+    },
+    "ucetnictviTypy": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Typy dokladů"
+    },
+    "uctovnaUzaverka": {
+      "icon": "win/logs-low.png",
+      "mnem": 218,
+      "titl": "Účtovná závierka"
+    },
+    "ulozenePriznaniDph": {
+      "icon": "win/logs-low.png",
+      "titl": "Uložené přiznání DPH"
+    },
+    "upominky": {
+      "mnem": 85,
+      "titl": "Upomínky"
+    },
+    "uzel": {
+      "titl": "Uzel stromu"
+    },
+    "uzivPristup": {
+      "titl": "Práva viditelnosti dat"
+    },
+    "vazUzel": {
+      "titl": "Vazba uzlu na objekt"
+    },
+    "vazbaTyp": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Typy uživatelských vazeb"
+    },
+    "vazbaUziv": {
+      "titl": "Uživatelské vazby"
+    },
+    "vazbaUzivView": {
+      "titl": "Uživatelské vazby"
+    },
+    "vyberFirmy": {
+      "titl": "Výběr firmy"
+    },
+    "vyberFirmyAction": {
+      "mnem": 86,
+      "titl": "Výběr firmy"
+    },
+    "vykazAnalyzaZakazky": {
+      "icon": "win/logs.png",
+      "mnem": 76,
+      "titl": "Účetní analýza zakázky"
+    },
+    "vykazCashflow": {
+      "icon": "win/logs-low.png",
+      "mnem": 344,
+      "titl": "Přehled o peněžních tocích"
+    },
+    "vykazCenPohyby": {
+      "mnem": 83,
+      "titl": "Nákupní, prodejní a skladové pohyby"
+    },
+    "vykazDanEvid": {
+      "titl": "Výkaz daňové evidence"
+    },
+    "vykazDanEvidWizard": {
+      "icon": "win/logs.png",
+      "mnem": 69,
+      "titl": "Výkaz daňové evidence"
+    },
+    "vykazDanEvidWizard_SK": {
+      "titl": "Výkaz jednoduchého účetnictví"
+    },
+    "vykazDanEvid_SK": {
+      "titl": "Výkaz jednoduchého účetnictví"
+    },
+    "vykazEkokom": {
+      "icon": "win/logs.png",
+      "titl": "Podklad pro EKO-KOM"
+    },
+    "vykazEkokomWizard": {
+      "icon": "win/logs.png",
+      "titl": "Podklad pro EKO-KOM"
+    },
+    "vykazHlavniKniha": {
+      "icon": "win/logs-low.png",
+      "mnem": 72,
+      "titl": "Hlavní kniha"
+    },
+    "vykazKonVykDph": {
+      "icon": "win/logs.png",
+      "titl": "Kontrolní hlášení DPH"
+    },
+    "vykazKonVykDphWizard": {
+      "icon": "win/logs.png",
+      "mnem": 205,
+      "titl": "Kontrolní hlášení DPH"
+    },
+    "vykazMoss": {
+      "icon": "win/logs.png",
+      "titl": "Daňové přiznání MOSS"
+    },
+    "vykazMossWizard": {
+      "icon": "win/logs.png",
+      "mnem": 201,
+      "titl": "Daňové přiznání MOSS"
+    },
+    "vykazObratPolozkaView": {
+      "icon": "win/logs.png",
+      "mnem": 66,
+      "titl": "Položky obratů"
+    },
+    "vykazObratovaPredvaha": {
+      "titl": "Obratová předvaha"
+    },
+    "vykazObratovaPredvahaWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 79,
+      "titl": "Obratová předvaha"
+    },
+    "vykazOss": {
+      "icon": "win/logs.png",
+      "titl": "Daňové přiznání OSS"
+    },
+    "vykazOssWizard": {
+      "icon": "win/logs.png",
+      "mnem": 193,
+      "titl": "Daňové přiznání OSS"
+    },
+    "vykazPoSplatnostiWizard": {
+      "icon": "win/logs.png",
+      "mnem": 89,
+      "titl": "Neuhrazené pohledávky/závazky po splatnosti"
+    },
+    "vykazPodkladyDph": {
+      "titl": "Podklady DPH"
+    },
+    "vykazPodkladyDphWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 68,
+      "titl": "Podklady DPH"
+    },
+    "vykazPohybyNaUctech": {
+      "titl": "Pohyby na účtech"
+    },
+    "vykazPohybyNaUctechWizard": {
+      "icon": "win/logs.png",
+      "mnem": 80,
+      "titl": "Pohyby na účtech"
+    },
+    "vykazPolozkyFaktur": {
+      "titl": "Analýza prodeje"
+    },
+    "vykazPolozkyFakturOdberatelZbozi": {
+      "titl": "Analýza prodeje - Pohyb zboží podle firmy"
+    },
+    "vykazPolozkyFakturVlastni": {
+      "titl": "Analýza prodeje - Vlastní"
+    },
+    "vykazPolozkyFakturWizard": {
+      "desc": "Analýza prodeje vám může poskytnout následující informace: Obrat a obchodní rozpětí (zisk) podle odběratelů / skupin odb./ prodaného zboží / skupin zboží / středisek atd.(zadání je v roletovém seznamu \"Co chcete analyzovat\"). Dále můžete zadat další podrobnější členění (zadání je v dalším seznamu \"Jaké bude další členění\") opět podle vyjmenovaných atributů . Výsledkem může být například analýza prodeje jednotlivým firmám s podrobným členěním které zboží firma odebrala. Vše analyzujete v daném časovém rozsahu.",
+      "icon": "win/prehled.png",
+      "mnem": 76,
+      "titl": "Analýza prodeje"
+    },
+    "vykazPolozkyFakturZboziOdberatele": {
+      "titl": "Analýza prodeje - Prodej firmám podle zboží"
+    },
+    "vykazPolozkyFakturZiskOdberatele": {
+      "titl": "Analýza prodeje - Prodej firmám"
+    },
+    "vykazPolozkyFakturZiskSkupinyCen": {
+      "titl": "Analýza prodeje - Obraty ceníkových skupin"
+    },
+    "vykazPolozkyFakturZiskSkupinyFirem": {
+      "titl": "Analýza prodeje - Obraty skupin firem"
+    },
+    "vykazPolozkyFakturZiskZbozi": {
+      "titl": "Analýza prodeje - Pohyb zboží"
+    },
+    "vykazPrenDph": {
+      "titl": "Evidence dle § 92a"
+    },
+    "vykazPrenDphWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 67,
+      "titl": "Evidence dle § 92a"
+    },
+    "vykazPriznaniDph": {
+      "icon": "win/logs-low.png",
+      "mnem": 78,
+      "titl": "Přiznání DPH"
+    },
+    "vykazRadekPriznaniDph": {
+      "icon": "win/logs-low.png",
+      "titl": "Uložené řádky přiznání DPH"
+    },
+    "vykazRadekPriznaniOss": {
+      "icon": "win/logs-low.png",
+      "titl": "Uložené řádky přiznání OSS"
+    },
+    "vykazRozvaha": {
+      "icon": "win/logs-low.png",
+      "mnem": 82,
+      "titl": "Rozvaha"
+    },
+    "vykazRozvahaPoUctech": {
+      "icon": "win/logs-low.png",
+      "mnem": 84,
+      "titl": "Soupis aktiv a pasiv"
+    },
+    "vykazSaldo": {
+      "titl": "Saldo"
+    },
+    "vykazSaldoKdatu": {
+      "titl": "Stav úhrad k datu"
+    },
+    "vykazSaldoKdatuWizard": {
+      "titl": "Výpočet stav úhrad k datu"
+    },
+    "vykazSaldoWizard": {
+      "icon": "win/logs.png",
+      "mnem": 65,
+      "titl": "Saldo"
+    },
+    "vykazSouhrnneHlaseni": {
+      "titl": "Souhrnné hlášení k DPH"
+    },
+    "vykazSouhrnneHlaseniWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 85,
+      "titl": "Souhrnné hlášení k DPH"
+    },
+    "vykazStavyUctu": {
+      "titl": "Stavy účtů"
+    },
+    "vykazStavyUctuWizard": {
+      "icon": "win/logs.png",
+      "mnem": 83,
+      "titl": "Stavy účtů"
+    },
+    "vykazUcetniDenik": {
+      "titl": "Účetní deník"
+    },
+    "vykazUcetniDenikWizard": {
+      "icon": "win/logs.png",
+      "mnem": 75,
+      "titl": "Účetní deník"
+    },
+    "vykazUcetniDenikZjednoduseny": {
+      "icon": "win/logs.png",
+      "mnem": 74,
+      "titl": "Účetní deník - zjednodušený"
+    },
+    "vykazVazbyDokladu": {
+      "titl": "Navázané doklady"
+    },
+    "vykazVykazHospodareni": {
+      "icon": "win/logs-low.png",
+      "mnem": 77,
+      "titl": "Výkaz hospodaření za měsíc"
+    },
+    "vykazVysledovka": {
+      "icon": "win/logs-low.png",
+      "mnem": 90,
+      "titl": "Výkaz zisku a ztráty"
+    },
+    "vykazVysledovkaPoUctech": {
+      "icon": "win/logs-low.png",
+      "mnem": 86,
+      "titl": "Soupis nákladů a výnosů"
+    },
+    "wDefiniceUcelu": {
+      "mnem": 68,
+      "titl": "Definice účelu"
+    },
+    "wLocks": {
+      "titl": "Zámky záznamu"
+    },
+    "wPozadavek": {
+      "mnem": 80,
+      "titl": "Požadavky"
+    },
+    "wSubjekt": {
+      "mnem": 83,
+      "titl": "Subjekt"
+    },
+    "wUcel": {
+      "mnem": 76,
+      "titl": "Účely"
+    },
+    "wUcelLog": {
+      "titl": "Záznam účelu"
+    },
+    "weboveRozhrani": {
+      "mnem": 87,
+      "titl": "Webové rozhraní"
+    },
+    "xslt": {
+      "mnem": 70,
+      "titl": "Uživatelské transformace"
+    },
+    "zalohaDB": {
+      "desc": "Uložení zálohy dat na lokální počítač. Zálohu lze pak později obnovit i do systému ABRA Flexi.",
+      "mnem": 72,
+      "titl": "Záloha firmy"
+    },
+    "zalohyKOdpoctu": {
+      "desc": "Seznam záloh, které je možné odpočítat od dané faktury. Pouze jako relace faktury.",
+      "titl": "Zálohy k odpočtu"
+    },
+    "zamestnanc000": {
+      "icon": "win/zamestnanci.png",
+      "mnem": 83,
+      "titl": "Zaměstnanci"
+    },
+    "zamky": {
+      "mnem": 77,
+      "titl": "Zamykání období"
+    },
+    "zarizeniKom": {
+      "mnem": 88,
+      "titl": "Komunikace s ext. zařízením"
+    },
+    "zastupnosti": {
+      "mnem": 90,
+      "titl": "Zástupnosti"
+    },
+    "zavAkt": {
+      "desc": "Aktualizace a vytváření závazků v nastaveném účetním období, které nejsou zařazeny v přijatých fakturách. Například leasing, nájem atd.",
+      "icon": "win/ostatni-zavazky.png",
+      "mnem": 90,
+      "titl": "Ostatní závazky"
+    },
+    "zavAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Nový závazek"
+    },
+    "zavPol": {
+      "mnem": 90,
+      "titl": "Položky ostatních závazků"
+    },
+    "zavRady": {
+      "desc": "Nastavení dokladových řad pro závazky.",
+      "icon": "win/numbers.png",
+      "mnem": 90,
+      "titl": "Dokladové řady - závazky"
+    },
+    "zavTyp": {
+      "desc": "Typy ostatních závazků umožňují nastavit základní parametry. Je to zaúčtování, dokladové řady...",
+      "icon": "win/typ-ostatni-zavazky.png",
+      "mnem": 90,
+      "titl": "Typy ostatních závazků"
+    },
+    "zbozi000": {
+      "icon": "win/zbozi.png",
+      "mnem": 66,
+      "titl": "Zboží"
+    },
+    "zmenEmail": {
+      "titl": "Změnit registrační e-mail"
+    },
+    "zmenHeslo": {
+      "mnem": 72,
+      "titl": "Změnit heslo"
+    },
+    "zmenaParFirmy": {
+      "mnem": 81,
+      "titl": "Parametry firmy"
+    },
+    "zmenaUcetniObdobi000": {
+      "mnem": 90,
+      "titl": "Změna nebo přidání účetního období"
+    },
+    "zodpOsoba": {
+      "titl": "Zodpovědná osoba"
+    },
+    "zurnal": {
+      "titl": "Žurnál"
+    }
+  }
+}

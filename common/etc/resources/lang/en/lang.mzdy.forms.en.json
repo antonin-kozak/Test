@@ -1,0 +1,249 @@
+{
+  "formsInfo": {
+    "mzdExternalId": {
+      "titl": "External ID for wage"
+    },
+    "mzdUcel": {
+      "titl": "Purposes"
+    },
+    "mzdyDuchSporHlaseni": {
+      "mnem": 80,
+      "titl": "Premiums for retirement savings"
+    },
+    "mzdyDuchSporVyuc": {
+      "mnem": 76,
+      "titl": "Calculation of premiums for retirement savings"
+    },
+    "mzdyPotOZdanPrijmech": {
+      "mnem": 65,
+      "titl": "Confirmation of taxable earnings"
+    },
+    "mzdyVystFinUr": {
+      "mnem": 82,
+      "titl": "For financial regulator"
+    },
+    "mzdyVystMzdVyst": {
+      "mnem": 87,
+      "titl": "Wage outputs"
+    },
+    "mzdyVystOssz": {
+      "mnem": 70,
+      "titl": "For OSSZ"
+    },
+    "mzdyVystOst": {
+      "mnem": 84,
+      "titl": "Other"
+    },
+    "mzdyVystZdrPoj": {
+      "mnem": 79,
+      "titl": "For health insurance funds"
+    },
+    "mzdyVystup000": {
+      "desc": "Legislative wage outputs for ČSSZ, health insurance funds and revenue authorities.",
+      "icon": "win/predpis.png",
+      "mnem": 87,
+      "titl": "Wage outputs"
+    },
+    "mzdyVystupCsszEldp": {
+      "mnem": 69,
+      "titl": "ELDP"
+    },
+    "mzdyVystupCsszOznam": {
+      "mnem": 65,
+      "titl": "Advice of start/end of working period"
+    },
+    "mzdyVystupCsszPrehledPoj": {
+      "mnem": 83,
+      "titl": "Social insurance overview"
+    },
+    "mzdyVystupDanVypocet": {
+      "mnem": 67,
+      "titl": "Calculation of tax and tax preferences"
+    },
+    "mzdyVystupDovolCerpani": {
+      "mnem": 76,
+      "titl": "Overview of leave taking"
+    },
+    "mzdyVystupHzupn": {
+      "mnem": 80,
+      "titl": "Employer's report on termination of work incapacity"
+    },
+    "mzdyVystupIspv": {
+      "mnem": 73,
+      "titl": "ISPV"
+    },
+    "mzdyVystupMzdovyList": {
+      "mnem": 71,
+      "titl": "Wage slips"
+    },
+    "mzdyVystupPodklVyucDane": {
+      "mnem": 73,
+      "titl": "Inputs for accounting income tax withholding from dependent activities"
+    },
+    "mzdyVystupPojOdpovednosti": {
+      "mnem": 76,
+      "titl": "Legal liability insurance"
+    },
+    "mzdyVystupPracPravPrum": {
+      "mnem": 65,
+      "titl": "Employment averages"
+    },
+    "mzdyVystupPrehlPracPom": {
+      "mnem": 69,
+      "titl": "Overview of employment relationships"
+    },
+    "mzdyVystupPrepPocZam": {
+      "mnem": 82,
+      "titl": "Recounted number of employees"
+    },
+    "mzdyVystupPrilZadosti": {
+      "mnem": 85,
+      "titl": "Supplement to sickness benefit application"
+    },
+    "mzdyVystupPrumCistyVyd": {
+      "mnem": 69,
+      "titl": "Calculation of average net earnings"
+    },
+    "mzdyVystupZapoctak": {
+      "mnem": 67,
+      "titl": "Certificate of employment (list of offsets)"
+    },
+    "mzdyVystupZdrHromOzn": {
+      "mnem": 77,
+      "titl": "Health Insurance funds - Employer batch notice"
+    },
+    "mzdyVystupZdrPrehledPoj": {
+      "mnem": 72,
+      "titl": "Health insurance funds - Premium payment overview"
+    },
+    "perAktualMzdy": {
+      "desc": "You can update wages in all months that aren't locked by entitled user. You can calculate wage for all employees in list or individually for each employee. Entering absence with the button \"Update absence\". Entry is independent of set period. You can easily enter absence that starts in one month and ends in a different one. Automatic generation of \"month components\" separately for each month will be executed.",
+      "icon": "win/aktualizace-mezd.png",
+      "mnem": 85,
+      "titl": "Wage update"
+    },
+    "perAktualMzdyE": {
+      "titl": "Wage update"
+    },
+    "perBanSpojMzdy": {
+      "titl": "Bank connection"
+    },
+    "perCisMzdSloz": {
+      "titl": "Wage items codelist"
+    },
+    "perCisMzdSlozUziv": {
+      "desc": "You can change here parameters of surcharges. Codebook also includes so-called user defined files of surcharges, bonuses and deductions.",
+      "icon": "win/numbers.png",
+      "mnem": 68,
+      "titl": "Codelist of wage units"
+    },
+    "perDite": {
+      "titl": "Child"
+    },
+    "perMzdCalc": {
+      "titl": "Wage calculator line"
+    },
+    "perMzdCalcHlav": {
+      "titl": "Wage calculator heading"
+    },
+    "perMzdCalcHrom": {
+      "titl": "Wage calculator mass operation"
+    },
+    "perMzdCalcInit": {
+      "titl": "Initialize line of wage calculator"
+    },
+    "perMzdSloz": {
+      "desc": "Input and selection of wage components has three basic functions. First function is the possibility of wage input not according to employees but according to components. Multiple bonus entry can be a good example. In the initial window you select corresponding bonus component, period and employees. After entering amount and pushing the button \"save and new\", program will automatically offer next employee where you enter different amount (It's necessary to process the function \"Update wages\"). Second function is the possibility of easy filtration in all components of wage and following print. Third function enables recapitulation of wage components (grouping) by years, quarters, centres, etc.",
+      "icon": "win/mzdove-slozky.png",
+      "mnem": 65,
+      "titl": "Wage item"
+    },
+    "perMzdSlozDan": {
+      "titl": "Income tax"
+    },
+    "perMzdSlozFond": {
+      "titl": "Working time fund"
+    },
+    "perMzdSlozHruba": {
+      "titl": "Gross wage"
+    },
+    "perMzdSlozIspv": {
+      "titl": "ISPV"
+    },
+    "perMzdSlozNeprit": {
+      "titl": "Absences"
+    },
+    "perMzdSlozOdmeny": {
+      "titl": "Bonuses"
+    },
+    "perMzdSlozSocPoj": {
+      "titl": "Social insurance"
+    },
+    "perMzdSlozSrazky": {
+      "titl": "Deductions"
+    },
+    "perMzdSlozSum": {
+      "titl": "Summarization"
+    },
+    "perMzdSlozZaklMzda": {
+      "titl": "Basic wage"
+    },
+    "perMzdSlozZdrPoj": {
+      "titl": "Health insurance"
+    },
+    "perNeprit": {
+      "titl": "Absence"
+    },
+    "perOsoba": {
+      "desc": "You enter all data about employee or job applicant. Entry is divided into sections according to meaning of data. Basic information and parameters for wage calculation are in the upper part. Labour relations, permanent wage components, deductions, children, etc. are in the lower part. Permanent wage components include rule which wage components are regularly repeated. Program will automatically fill them into each month according to their validity extent.",
+      "icon": "win/personalistika.png",
+      "mnem": 72,
+      "titl": "Human resources management"
+    },
+    "perOsobaHlav": {
+      "titl": "Headings of persons"
+    },
+    "perPracPom": {
+      "titl": "Labour engagement"
+    },
+    "perPracPomHlav": {
+      "titl": "Employment relationship"
+    },
+    "perPraceStred": {
+      "titl": "Work for centres"
+    },
+    "perPrumer": {
+      "titl": "Average"
+    },
+    "perSkupOsob": {
+      "desc": "Group of persons enable to classify employees or job applicants into groups with common characteristics. For example workers, farmers or working intelligence.",
+      "icon": "win/type-skupiny-osob.png",
+      "mnem": 71,
+      "titl": "Groups of persons"
+    },
+    "perSmeny": {
+      "titl": "Shifts"
+    },
+    "perSrazka": {
+      "titl": "Deduction"
+    },
+    "perStalaMzdSloz": {
+      "titl": "Permanent wage item"
+    },
+    "perTypPracPom": {
+      "titl": "Labour engagement type"
+    },
+    "perTypPracPomParam": {
+      "titl": "Labour engagement type parameter"
+    },
+    "prehledMzdSlozek": {
+      "mnem": 67,
+      "titl": "Wage components summary"
+    },
+    "prehledZamestnancu": {
+      "icon": "win/adresar.png",
+      "mnem": 77,
+      "titl": "Employee overview"
+    }
+  }
+}

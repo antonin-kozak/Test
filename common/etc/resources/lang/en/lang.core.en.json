@@ -1,0 +1,2564 @@
+{
+  "actions": {
+    "activate": {
+      "icon": "win/save.png",
+      "titl": "Activate"
+    },
+    "add": {
+      "desc": "Add new record (shortcut Alt+P)",
+      "icon": "win/new.png",
+      "titl": "Add"
+    },
+    "aktualizujManyToMany": {
+      "titl": "Add/Remove"
+    },
+    "bottom": {
+      "desc": "The lowest priority for the selected field",
+      "icon": "win/arrow-bottom.png",
+      "titl": "B"
+    },
+    "cancel": {
+      "titl": "Cancel"
+    },
+    "choose": {
+      "desc": "Choose selected record",
+      "icon": "empty.png",
+      "titl": "Choose"
+    },
+    "clearField": {
+      "icon": "erase.png",
+      "titl": "Clear field"
+    },
+    "close": {
+      "desc": "Close",
+      "icon": "empty.png",
+      "titl": "Close"
+    },
+    "columnSelection": {
+      "desc": "Column selection end their order",
+      "icon": "empty.png",
+      "titl": "Column selection"
+    },
+    "contextHelp": {
+      "desc": "Context help",
+      "icon": "win/contexthelp.png",
+      "titl": "Context help"
+    },
+    "deactivate": {
+      "icon": "win/erase.png",
+      "titl": "Deactivate"
+    },
+    "delete": {
+      "desc": "Delete selected record (shortcut DEL)",
+      "icon": "win/erase.png",
+      "titl": "Delete"
+    },
+    "deselectAll": {
+      "titl": "Deselect all"
+    },
+    "down": {
+      "desc": "Down priority of selected field",
+      "icon": "win/arrow-down.png",
+      "titl": "Down"
+    },
+    "downItem": {
+      "desc": "Move item down",
+      "icon": "win/arrow-down.png",
+      "titl": "Down item"
+    },
+    "edit": {
+      "desc": "Edit selected record (shortcut Alt+E)",
+      "icon": "win/edit.png",
+      "mnem": 69,
+      "titl": "Edit"
+    },
+    "excel": {
+      "desc": "Export/Import to/from Excel",
+      "icon": "win/excel.png",
+      "titl": "Excel"
+    },
+    "exportICal": {
+      "desc": "Export to iCal calendar file.",
+      "icon": "win/ical-export.png",
+      "titl": "Calendar iCal export"
+    },
+    "exportImport": {
+      "desc": "Export/Import",
+      "icon": "win/import-export.png",
+      "titl": "Export/Import"
+    },
+    "exportVCard": {
+      "desc": "Export as vCard business card.",
+      "icon": "win/vcard-export.png",
+      "titl": "Biz card vCard export"
+    },
+    "exportXLS": {
+      "desc": "Export to Excel (shortcut Alt+X)",
+      "icon": "win/excel-export.png",
+      "mnem": 88,
+      "titl": "Export to Excel"
+    },
+    "exportXml": {
+      "desc": "Export to XML",
+      "icon": "win/xml-export.png",
+      "titl": "Export to XML"
+    },
+    "extSearch": {
+      "desc": "Find value in all columns (shortcut Alt-S)",
+      "icon": "win/find.png",
+      "titl": "Advanced search"
+    },
+    "filter": {
+      "desc": "Set filtering condition in table (shortcut Alt+I)",
+      "icon": "win/filter.png",
+      "mnem": 73,
+      "titl": "Filter"
+    },
+    "filterNew": {
+      "desc": "Create new filtration settings (shortcut Alt+N)",
+      "icon": "win/new.png",
+      "titl": "New filter"
+    },
+    "filterOpen": {
+      "desc": "Open stored filtration settings (shortcut Alt+O)",
+      "icon": "win/open.png",
+      "titl": "Open filter"
+    },
+    "filterOther": {
+      "icon": "win/filter.png",
+      "titl": "Other filters"
+    },
+    "filterSave": {
+      "desc": "Save current filtration settings (shortcut Alt+U)",
+      "icon": "win/save.png",
+      "titl": "Save filter"
+    },
+    "find": {
+      "desc": "Find value in any column (shortcut Alt+S)",
+      "icon": "win/find.png",
+      "mnem": 83,
+      "titl": "Find"
+    },
+    "first": {
+      "desc": "Skip on first record in table",
+      "icon": "win/ar-first.png",
+      "mnem": 36,
+      "titl": "First"
+    },
+    "fullTextSearch": {
+      "desc": "Fulltext search (shortcut Ctrl-F)",
+      "icon": "win/find.png",
+      "titl": "Search"
+    },
+    "gdpr": {
+      "icon": "win/personalistika.png",
+      "titl": "GDPR"
+    },
+    "graph": {
+      "icon": "win/graph.png",
+      "titl": "Graphs"
+    },
+    "help": {
+      "desc": "Help",
+      "icon": "win/help.png",
+      "titl": "Help"
+    },
+    "hromZmenaVseWizard": {
+      "desc": "Performs replacement in the selected field in the displayed items",
+      "titl": "All displayed"
+    },
+    "hromZmenaVybraneWizard": {
+      "desc": "Performs replacement in the selected field in the selected items",
+      "titl": "Only selected"
+    },
+    "hromZmenaWizard": {
+      "desc": "Performs replacement in the selected field in the assigned filter",
+      "icon": "win/edit.png",
+      "titl": "Batch changes"
+    },
+    "importXls": {
+      "desc": "Import from Excel",
+      "icon": "win/excel-import.png",
+      "titl": "Import from Excel"
+    },
+    "importXml": {
+      "desc": "Import from XML",
+      "icon": "win/xml-import.png",
+      "titl": "Import from XML"
+    },
+    "konfigurovatReport": {
+      "desc": "Opens the report configuration in the web interface.",
+      "icon": "win/generate.png",
+      "titl": "Configure report"
+    },
+    "last": {
+      "desc": "Skip on last record in table",
+      "icon": "win/ar-last.png",
+      "mnem": 35,
+      "titl": "Last"
+    },
+    "mail": {
+      "desc": "Send by e-mail as PDF",
+      "icon": "win/mail.png",
+      "titl": "Mail"
+    },
+    "mailSmtp": {
+      "desc": "Send via email in PDF format (SMTP)",
+      "icon": "win/mail.png",
+      "titl": "Send (SMTP)"
+    },
+    "new": {
+      "desc": "Create new record (shortcut Alt+N)",
+      "icon": "win/new.png",
+      "mnem": 78,
+      "titl": "New"
+    },
+    "newWithCopy": {
+      "desc": "Copy record as new one (shortcut Alt+K)",
+      "icon": "win/new-copy.png",
+      "titl": "Copy as new"
+    },
+    "next": {
+      "desc": "Skip on next record in table (Alt+→)",
+      "icon": "win/ar-next.png",
+      "mnem": 39,
+      "titl": "Next"
+    },
+    "odebrat": {
+      "desc": "Remove selected field",
+      "icon": "win/ar-prev.png",
+      "titl": "Remove"
+    },
+    "odebratVse": {
+      "desc": "Remove all fields",
+      "icon": "win/ar-prev-all.png",
+      "titl": "Remove <<"
+    },
+    "ok": {
+      "titl": "OK"
+    },
+    "open": {
+      "desc": "Open selected record",
+      "icon": "win/open.png",
+      "titl": "Open"
+    },
+    "openNewWindow": {
+      "desc": "Open selected record in new window",
+      "icon": "win/open.png",
+      "titl": "New window..."
+    },
+    "ostatniAkce": {
+      "titl": "Others"
+    },
+    "prev": {
+      "desc": "Skip on previous record in table (Alt+←)",
+      "icon": "win/ar-prev.png",
+      "mnem": 37,
+      "titl": "Previous"
+    },
+    "pridat": {
+      "desc": "Add selected field",
+      "icon": "win/ar-next.png",
+      "titl": "Add"
+    },
+    "pridatVse": {
+      "desc": "Add all fields",
+      "icon": "win/ar-next-all.png",
+      "titl": "Add >>"
+    },
+    "print": {
+      "desc": "Print (shortcut Alt+P)",
+      "icon": "win/print.png",
+      "mnem": 80,
+      "titl": "Print"
+    },
+    "printNahled": {
+      "desc": "Shows preview",
+      "icon": "win/current-print.png",
+      "titl": "Preview"
+    },
+    "printNow": {
+      "desc": "Print (shortcut Alt+P)",
+      "icon": "win/print-now.png",
+      "titl": "Print"
+    },
+    "printPdf": {
+      "desc": "Print to PDF",
+      "icon": "win/pdf.png",
+      "titl": "PDF"
+    },
+    "printTiskarna": {
+      "desc": "Print to printer",
+      "icon": "win/print.png",
+      "titl": "Print"
+    },
+    "printXls": {
+      "desc": "Print to Xls",
+      "icon": "win/excel.png",
+      "titl": "XLS"
+    },
+    "refresh": {
+      "desc": "Refresh data in table from database (shortcut Alt+R)",
+      "icon": "win/refresh.png",
+      "mnem": 82,
+      "titl": "Refresh"
+    },
+    "resetColumnToDefault": {
+      "desc": "Reset to settings before user change",
+      "icon": "empty.png",
+      "titl": "Restore default settings"
+    },
+    "save": {
+      "desc": "Save opened record",
+      "icon": "win/save.png",
+      "titl": "Save"
+    },
+    "saveAndClose": {
+      "desc": "Save open record and close its window (shortcut Alt+U)",
+      "titl": "Save & close"
+    },
+    "saveAndNew": {
+      "desc": "Saves record and opens new (shortcut Alt+N)",
+      "titl": "Save & new"
+    },
+    "saveColumnAsDefault": {
+      "desc": "Save settings as initial for all users",
+      "icon": "empty.png",
+      "titl": "Save column settings"
+    },
+    "selectAll": {
+      "titl": "Select all"
+    },
+    "sluzby": {
+      "icon": "win/generate.png",
+      "titl": "Services"
+    },
+    "sort": {
+      "desc": "Arrange by records in table",
+      "icon": "win/sort-az.png",
+      "titl": "Sort"
+    },
+    "sort-az": {
+      "desc": "Ascending sort in table",
+      "icon": "win/sort-az.png",
+      "titl": "Sort A to Z"
+    },
+    "sort-za": {
+      "desc": "Descending sort in table",
+      "icon": "win/sort-za.png",
+      "titl": "Sort Z to A"
+    },
+    "sum": {
+      "desc": "Set sum records in table",
+      "icon": "win/sum.png",
+      "titl": "Sum"
+    },
+    "top": {
+      "desc": "The highest priority for the selected field",
+      "icon": "win/arrow-top.png",
+      "titl": "T"
+    },
+    "uhrady": {
+      "desc": "Load payment documents",
+      "icon": "win/pay-cash.png",
+      "titl": "Payments"
+    },
+    "ulozitFiltraci": {
+      "titl": "Save filter"
+    },
+    "up": {
+      "desc": "Up priority of selected field",
+      "icon": "win/arrow-up.png",
+      "titl": "Up"
+    },
+    "upItem": {
+      "desc": "Move item up",
+      "icon": "win/arrow-up.png",
+      "titl": "Up item"
+    },
+    "vazbyUrovenPlus": {
+      "desc": "Load next level of links",
+      "icon": "win/i18nPlus.png",
+      "titl": "Next level of links"
+    },
+    "xml": {
+      "desc": "Export/Import from XML",
+      "icon": "win/xml.png",
+      "titl": "XML"
+    },
+    "zmenitFiltraci": {
+      "titl": "Modify filters"
+    },
+    "zrusitFiltraci": {
+      "titl": "Cancel filters"
+    }
+  },
+  "buttons": {
+    "ano": {
+      "titl": "Yes"
+    },
+    "cancel": {
+      "desc": "Close window (shortcut ESC)",
+      "titl": "Cancel"
+    },
+    "delete": {
+      "titl": "Delete"
+    },
+    "findFormNajit": {
+      "titl": "Find & next"
+    },
+    "generovat": {
+      "titl": "Generate"
+    },
+    "jenUlozit": {
+      "titl": "Save"
+    },
+    "konVykDph.nasledne": {
+      "titl": "subsequent"
+    },
+    "konVykDph.nasledne.opravne": {
+      "titl": "subsequent/corrective"
+    },
+    "konVykDph.opravne": {
+      "titl": "corrective"
+    },
+    "konVykDph.radne": {
+      "titl": "regular"
+    },
+    "konVykDph.rychlaOdpoved.nema": {
+      "titl": "I am not required to submit control reporting (zero CR)."
+    },
+    "konVykDph.rychlaOdpoved.potvr": {
+      "titl": "I confirm the accuracy of the most recently submitted CR."
+    },
+    "moreInfo": {
+      "titl": "More info"
+    },
+    "multiPdfMail1MailPrijemciRB": {
+      "titl": "One mail to one recipient."
+    },
+    "multiPdfMail1MailVsechnaDataRB": {
+      "titl": "One mail with all the data."
+    },
+    "multiPdfMailNMailuPrijemciRB": {
+      "titl": "Multiple mails to one recipient."
+    },
+    "nahled": {
+      "titl": "Preview"
+    },
+    "nahledZaznam": {
+      "titl": "View record"
+    },
+    "ne": {
+      "titl": "No"
+    },
+    "newElection": {
+      "titl": "New choice"
+    },
+    "odpojit": {
+      "titl": "Disconnect"
+    },
+    "ok": {
+      "titl": "OK"
+    },
+    "pdf": {
+      "titl": "PDF"
+    },
+    "pouzit": {
+      "titl": "Apply"
+    },
+    "prihlasit": {
+      "titl": "Log in"
+    },
+    "print": {
+      "titl": "Print"
+    },
+    "propertiesAll": {
+      "desc": "Choose from all agenda fields",
+      "titl": "Choose from all agenda fields"
+    },
+    "restart": {
+      "titl": "Restart"
+    },
+    "settingColumnsSaveSetAsDefault": {
+      "titl": "Save as default"
+    },
+    "skip": {
+      "desc": "Skip current record",
+      "titl": "Skip"
+    },
+    "spojit": {
+      "titl": "Connect"
+    },
+    "taskMonitorEndTasks": {
+      "titl": "Cancel tasks"
+    },
+    "taskMonitorWait": {
+      "titl": "Wait"
+    },
+    "ukoncit": {
+      "titl": "Exit"
+    },
+    "vyberQueryForm": {
+      "titl": "Select"
+    },
+    "vybrat": {
+      "titl": "Choose"
+    },
+    "vypocet": {
+      "titl": "Calc"
+    },
+    "wizDokoncit": {
+      "titl": "Finish"
+    },
+    "wizNasledujici": {
+      "titl": "Next >"
+    },
+    "wizPredchozi": {
+      "titl": "< Previous"
+    },
+    "wizVyber": {
+      "titl": "Select"
+    },
+    "zamek": {
+      "titl": "Lock"
+    },
+    "zavrit": {
+      "titl": "Close"
+    }
+  },
+  "dialogs": {
+    "aplikace-ikona": {
+      "icon": "winstrom-16x16.png"
+    },
+    "chartWizardCreator": {
+      "titl": "Graph wizard"
+    },
+    "dateChooserDialogTitle": {
+      "titl": "Select data"
+    },
+    "filter": {
+      "titl": "Filter"
+    },
+    "find": {
+      "titl": "Find"
+    },
+    "hromZmenyWizard": {
+      "titl": "Batch changes wizard"
+    },
+    "multiPdfMailWizard": {
+      "titl": "Email message settings"
+    },
+    "sort": {
+      "titl": "Sort"
+    },
+    "userFilterOpen": {
+      "titl": "Open stored settings for filtration"
+    },
+    "vyberZeSeznamu": {
+      "titl": "Select from list"
+    },
+    "webHooks": {
+      "titl": "Web Hooks"
+    },
+    "webHooksInfo.status": {
+      "titl": "Web Hooks processing status"
+    }
+  },
+  "labels": {
+    "aboutDialogAutori": {
+      "titl": "Authors"
+    },
+    "aboutDialogAutoriObchod": {
+      "titl": "Sales:"
+    },
+    "aboutDialogAutoriPodpora": {
+      "titl": "Tech Support:"
+    },
+    "aboutDialogAutoriPopis": {
+      "titl": "Contact to software authors."
+    },
+    "aboutDialogConfigDir": {
+      "titl": "Configuration directory"
+    },
+    "aboutDialogCsAdresa": {
+      "titl": "Central server address"
+    },
+    "aboutDialogDetaily": {
+      "titl": "Application details"
+    },
+    "aboutDialogDetailyDBServeru": {
+      "titl": "Details of database server version."
+    },
+    "aboutDialogDistributor": {
+      "titl": "Distribution and support"
+    },
+    "aboutDialogDobaOdezvy": {
+      "titl": "Response time (current/min./max./avg.)"
+    },
+    "aboutDialogDobaOdezvyProxy": {
+      "titl": "Proxy response time (current/min./max./avg./loss)"
+    },
+    "aboutDialogDobaOdezvyWeb": {
+      "titl": "Web response time (current/min./max./avg./loss)"
+    },
+    "aboutDialogGrafickeProstredi": {
+      "titl": "Graphic setting"
+    },
+    "aboutDialogHodnota": {
+      "titl": "Value"
+    },
+    "aboutDialogIPAdresa": {
+      "titl": "IP address"
+    },
+    "aboutDialogJazyk": {
+      "titl": "Language"
+    },
+    "aboutDialogLicenceTretichStranTab": {
+      "titl": "Third party licenses"
+    },
+    "aboutDialogMail": {
+      "titl": "E-mail:"
+    },
+    "aboutDialogOperacniSystem": {
+      "titl": "Operating system"
+    },
+    "aboutDialogPamet": {
+      "titl": "Memory (curr/stack/total)"
+    },
+    "aboutDialogPodpora": {
+      "titl": "Visit web-site for support:"
+    },
+    "aboutDialogPopis": {
+      "titl": "Economic software."
+    },
+    "aboutDialogTel": {
+      "titl": "Phone:"
+    },
+    "aboutDialogTmpDir": {
+      "titl": "Temporary data directory"
+    },
+    "aboutDialogUserDir": {
+      "titl": "User configuration directory"
+    },
+    "aboutDialogVerze": {
+      "titl": "Version"
+    },
+    "aboutDialogVerzeCentralDatabase": {
+      "titl": "Central database version"
+    },
+    "aboutDialogVerzeCentralServeru": {
+      "titl": "Central server version"
+    },
+    "aboutDialogVerzeDatabazeFirmy": {
+      "titl": "Company database version"
+    },
+    "aboutDialogVerzeJavy": {
+      "titl": "Java version"
+    },
+    "aboutDialogVerzeJavyServer": {
+      "titl": "Java version on server"
+    },
+    "aboutDialogVlastnost": {
+      "titl": "Feature"
+    },
+    "aboutDialogWeb": {
+      "titl": "Web:"
+    },
+    "aktivni": {
+      "titl": "Active filters"
+    },
+    "attrListAttributes": {
+      "titl": "Item properties"
+    },
+    "attrListItems": {
+      "titl": "List of items"
+    },
+    "centServerUserType": {
+      "titl": "User type"
+    },
+    "chart.data.ostatni": {
+      "titl": "Others"
+    },
+    "chartWizard.typGrafu.carovy": {
+      "titl": "barcodes"
+    },
+    "chartWizard.typGrafu.header": {
+      "titl": "Graph type"
+    },
+    "chartWizard.typGrafu.kolacovy": {
+      "titl": "Pie charts"
+    },
+    "chartWizard.typGrafu.oblastni": {
+      "titl": "Area"
+    },
+    "chartWizard.typGrafu.sloupcovy": {
+      "titl": "Columns"
+    },
+    "chartWizard.typGrafu.vyberte": {
+      "titl": "Choose graph type."
+    },
+    "chyba": {
+      "titl": "Error"
+    },
+    "ciselnikObdPlatnost": {
+      "titl": "Validity is quoted in accounting periods, leave the field blank for unlimited validity."
+    },
+    "ciselnikRokPlatnost": {
+      "titl": "Validity is quoted in calendar years, enter 0-9999 for unlimited validity."
+    },
+    "clientVersionMissmatch": {
+      "titl": "ABRA Flexi updated on the server. Please save your in-process work and restart the application to complete the update. Failure to do so will automatically terminate ABRA Flexi and you will lose unsaved changes."
+    },
+    "columnsNezobrazenaPole": {
+      "titl": "Non-displayed fields"
+    },
+    "columnsZobrazenaPole": {
+      "titl": "Displayed fields"
+    },
+    "databazeFirmyNepripojena": {
+      "titl": "You are not connected to company database."
+    },
+    "databazeProgressPripojeniDesc": {
+      "titl": "Connecting to data source..."
+    },
+    "dayDatePart": {
+      "titl": "day"
+    },
+    "directoryBackup": {
+      "titl": "Data back up."
+    },
+    "directoryExport": {
+      "titl": "Export"
+    },
+    "directoryImport": {
+      "titl": "Import"
+    },
+    "do": {
+      "titl": "To"
+    },
+    "dotaz": {
+      "titl": "Query"
+    },
+    "eanScanner.ean": {
+      "titl": "EAN:"
+    },
+    "eanScanner.mnoz": {
+      "titl": "Amount:"
+    },
+    "emailTemplate": {
+      "titl": "Email template:"
+    },
+    "exportNevybraneSloupce": {
+      "titl": "Non-exported columns"
+    },
+    "exportOtevritPoUlozeni": {
+      "titl": "Open in Excel after saving"
+    },
+    "exportProgresDesc": {
+      "titl": "Export to Excel executing..."
+    },
+    "exportVyberteSloupce": {
+      "titl": "Select columns, that are to be exported"
+    },
+    "exportVybraneSloupce": {
+      "titl": "Exported columns"
+    },
+    "exportXlsNativni": {
+      "titl": "Export in a format suitable for importing"
+    },
+    "fileChooserSesitMicrosftExcel": {
+      "titl": "Spreadsheet Microsoft Office Excel"
+    },
+    "fileChooserSesitMicrosftExcelXlsx": {
+      "titl": "Spreadsheet Microsoft Office Excel"
+    },
+    "fileChooserWinstromXml": {
+      "titl": "ABRA Flexi XML"
+    },
+    "fileChooserZip": {
+      "titl": "ZIP archive"
+    },
+    "fileFilterIcal": {
+      "titl": "Calendars iCal"
+    },
+    "fileFilterPdf": {
+      "titl": "Adobe PDF"
+    },
+    "fileFilterTxt": {
+      "titl": "Text file"
+    },
+    "fileFilterVcf": {
+      "titl": "Business cards vCard"
+    },
+    "filter.and": {
+      "titl": "and also"
+    },
+    "filter.ano": {
+      "titl": "yes"
+    },
+    "filter.dnyPredPo": {
+      "titl": "number of days before/after"
+    },
+    "filter.do": {
+      "titl": "to"
+    },
+    "filter.inSubtree": {
+      "titl": "%p in sub-tree %p"
+    },
+    "filter.inelements": {
+      "titl": "contains"
+    },
+    "filter.interval": {
+      "titl": "in"
+    },
+    "filter.kodableOmezeno": {
+      "titl": "%p equal %p"
+    },
+    "filter.konci": {
+      "titl": "ends"
+    },
+    "filter.mensiNeboRovnoNez": {
+      "titl": "less or equal"
+    },
+    "filter.mensiNez": {
+      "titl": "less than"
+    },
+    "filter.ne": {
+      "titl": "no"
+    },
+    "filter.neinterval": {
+      "titl": "isn't in"
+    },
+    "filter.neobsahuje": {
+      "titl": "doesn't include"
+    },
+    "filter.neprazdny": {
+      "titl": "not empty"
+    },
+    "filter.nerovno": {
+      "titl": "doesn't equal"
+    },
+    "filter.notinelements": {
+      "titl": "does not contains"
+    },
+    "filter.obsahuje": {
+      "titl": "includes"
+    },
+    "filter.od": {
+      "titl": "from"
+    },
+    "filter.odDo": {
+      "titl": "from...to"
+    },
+    "filter.or": {
+      "titl": "or"
+    },
+    "filter.prazdny": {
+      "titl": "empty"
+    },
+    "filter.rovno": {
+      "titl": "equals"
+    },
+    "filter.vetsiNeboRovnoNez": {
+      "titl": "more or equal"
+    },
+    "filter.vetsiNez": {
+      "titl": "greater than"
+    },
+    "filter.zacinaS": {
+      "titl": "starts with"
+    },
+    "filterFind": {
+      "titl": "Search:"
+    },
+    "filterFormMultipleAndFilter": {
+      "titl": "All"
+    },
+    "filterFormMultipleNoneFilter": {
+      "titl": "None"
+    },
+    "filterFormMultipleOrFilter": {
+      "titl": "At least one"
+    },
+    "filterFormPrivatni": {
+      "titl": "Private"
+    },
+    "filterFormSaveColumns": {
+      "titl": "Save columns and arrangement"
+    },
+    "filterFormVyberMultipleTitle": {
+      "titl": "Requested fields selection"
+    },
+    "findFormDokonceno": {
+      "titl": "Table searching was finished."
+    },
+    "findFormDolu": {
+      "titl": "down"
+    },
+    "findFormHledat": {
+      "titl": "Search"
+    },
+    "findFormKonecTabulky": {
+      "titl": "End of table. search from beginning?"
+    },
+    "findFormNajitVeSloupci": {
+      "titl": "Find in column"
+    },
+    "findFormNenalezeno": {
+      "titl": "No record for column '%p' condition."
+    },
+    "findFormVse": {
+      "titl": "all"
+    },
+    "fiscal-yearDatePart": {
+      "titl": "fiscal year"
+    },
+    "floating-dayDatePart": {
+      "titl": "relative day"
+    },
+    "floating-monthDatePart": {
+      "titl": "relative month"
+    },
+    "floating-n-daysDatePart": {
+      "titl": "relative n days"
+    },
+    "floating-quarterDatePart": {
+      "titl": "relative quarter"
+    },
+    "floating-weekDatePart": {
+      "titl": "relative week"
+    },
+    "floating-yearDatePart": {
+      "titl": "relative year"
+    },
+    "formETitleEdit": {
+      "titl": " - Record change"
+    },
+    "formETitleNew": {
+      "titl": " - New record"
+    },
+    "hodnota1": {
+      "titl": "Value 1:"
+    },
+    "hodnota2": {
+      "titl": "Value2:"
+    },
+    "hodnotaVDatabazi": {
+      "titl": "Value in database"
+    },
+    "hromZmenyWizard.hodnota": {
+      "titl": "Value"
+    },
+    "hromZmenyWizard.pole": {
+      "titl": "Field"
+    },
+    "importXlsCollection": {
+      "titl": "list of values"
+    },
+    "importXlsDate": {
+      "titl": "date"
+    },
+    "importXlsDatetime": {
+      "titl": "Date and time"
+    },
+    "importXlsDelimiters": {
+      "titl": "separator: , or newline"
+    },
+    "importXlsDigits": {
+      "titl": "number of numerals"
+    },
+    "importXlsDostupneSloupce": {
+      "titl": "Available columns"
+    },
+    "importXlsInteger": {
+      "titl": "integer number"
+    },
+    "importXlsLogic": {
+      "titl": "logical value"
+    },
+    "importXlsMaxLength": {
+      "titl": "max. length"
+    },
+    "importXlsMaxValue": {
+      "titl": "max. value"
+    },
+    "importXlsMinLength": {
+      "titl": "min. length"
+    },
+    "importXlsMinValue": {
+      "titl": "min. value"
+    },
+    "importXlsNumeric": {
+      "titl": "decimal number"
+    },
+    "importXlsObject": {
+      "titl": "object"
+    },
+    "importXlsProbihaImport": {
+      "titl": "Import is running..."
+    },
+    "importXlsString": {
+      "titl": "string"
+    },
+    "importXlsVlastnostiSloupcu": {
+      "titl": "Features of imported columns"
+    },
+    "importXlsVyberTabulky": {
+      "titl": "Which table do you want to import?"
+    },
+    "importXlsVyberteSloupce": {
+      "titl": "Select columns for import"
+    },
+    "importXlsVybraneSloupce": {
+      "titl": "Selected columns"
+    },
+    "importXlsVyplnenoPriImportu": {
+      "titl": "Filled in during import"
+    },
+    "importXlsVysledekImportu": {
+      "titl": "Import result"
+    },
+    "informace": {
+      "titl": "Information"
+    },
+    "interniChyba": {
+      "titl": "Internal error"
+    },
+    "konfigurovatReport": {
+      "titl": "Configure report"
+    },
+    "linkLabelTooltip": {
+      "titl": "This will open browser on address:"
+    },
+    "listChooserFormDostHodnoty": {
+      "titl": "Available values"
+    },
+    "listChooserFormDostPole": {
+      "titl": "Available fields"
+    },
+    "listChooserFormVybHodnoty": {
+      "titl": "Selected values"
+    },
+    "listChooserFormVybPole": {
+      "titl": "Chosen fields"
+    },
+    "listChooserWizardForm.musiteVybratPolozku": {
+      "titl": "You have to select an item first."
+    },
+    "mailDefaultBody": {
+      "titl": "We wish you good day\n\n we send you promised document as an attachment."
+    },
+    "mailDefaultBodyFooter": {
+      "titl": "\n\nBest regards\n\n"
+    },
+    "mailDefaultBodyMultipleAttachments": {
+      "titl": "Dear customer,\n\nPlease find attached the promised documents."
+    },
+    "mailDefaultFooterGeneratedBy": {
+      "titl": "Generated by economic system"
+    },
+    "manyToMany.vyberteTitle": {
+      "titl": "Choose"
+    },
+    "migraceNazevSouboru": {
+      "titl": "Migration"
+    },
+    "monthDatePart": {
+      "titl": "month"
+    },
+    "multiPdfMail1MailPrijemciLB": {
+      "titl": "<html>Documents for a specific firm will make one attachment in a separate mail.</html>"
+    },
+    "multiPdfMail1MailVsechnaDataLB": {
+      "titl": "<html>All documents will make one attachment in a separate mail.</html>"
+    },
+    "multiPdfMailNMailuPrijemciLB": {
+      "titl": "<html>Each document will be attached as an annex to a separate mail.</html>"
+    },
+    "multiPdfMailUvod": {
+      "titl": "<html>The firm is represented more than once in the selection.<br>Do you want to put the firm’s documents into one file or send each document separately?</html>"
+    },
+    "neniImplementovano": {
+      "titl": "Not implemented function."
+    },
+    "neomezen": {
+      "titl": "Unlimited"
+    },
+    "neomezena": {
+      "titl": "Unlimited"
+    },
+    "nezaskrnuto": {
+      "titl": "Check OFF"
+    },
+    "oProgramu": {
+      "titl": "About ABRA Flexi"
+    },
+    "obnovitDBProgressTitle": {
+      "titl": "Restoring back up..."
+    },
+    "od": {
+      "titl": "From"
+    },
+    "odebrat": {
+      "titl": "Away"
+    },
+    "openWindowInNew": {
+      "titl": "in new window"
+    },
+    "openWindowStart": {
+      "titl": "Open"
+    },
+    "operace": {
+      "titl": "Operation:"
+    },
+    "orderRaditPodlePole": {
+      "titl": "Classify by fields"
+    },
+    "poslatReakciOsloveni": {
+      "titl": "You can send us your response:"
+    },
+    "pridat": {
+      "titl": "Add"
+    },
+    "progressDesc": {
+      "titl": "Please wait..."
+    },
+    "progressInterupted": {
+      "titl": "Ending operation..."
+    },
+    "quarterDatePart": {
+      "titl": "quarter"
+    },
+    "razeni": {
+      "titl": "Sorting:"
+    },
+    "remoteLogoutAction": {
+      "titl": "Restoring session and waiting for other devices to log off..."
+    },
+    "remoteLogoutHeading": {
+      "titl": "Remote logoff"
+    },
+    "remoteLogoutQuestion": {
+      "titl": "Your account is currently being used on another device.\nDo you want to continue with this session and end all others?"
+    },
+    "reportJazykReportu": {
+      "titl": "Report language"
+    },
+    "reportMailProgresDesc": {
+      "titl": "Preparing emails ..."
+    },
+    "reportNahledTisku": {
+      "titl": "Print preview"
+    },
+    "reportProgresDesc": {
+      "titl": "Report filling executing..."
+    },
+    "reportSmtpProgresDesc": {
+      "titl": "Sending emails ..."
+    },
+    "reportTisknoutAktualniZaznam": {
+      "titl": "Current record"
+    },
+    "reportTisknoutRozsirenouVerzi": {
+      "titl": "Extended version of report"
+    },
+    "reportTisknoutVodiciCary": {
+      "titl": "Print guidelines"
+    },
+    "reportTisknoutVse": {
+      "titl": "All records"
+    },
+    "reportTisknoutVybrane": {
+      "titl": "Selected entries"
+    },
+    "reportTisknoutZaznamyOdDo": {
+      "titl": "Records"
+    },
+    "reportVyberReportu": {
+      "titl": "Print report selection"
+    },
+    "reportVytiskl": {
+      "titl": "Printed by"
+    },
+    "restartChangesWatcher.description": {
+      "titl": "New Web Hooks node selection (without component restart)"
+    },
+    "restartWebHooks.description": {
+      "titl": "Complete restart of Web Hooks (including components)"
+    },
+    "settingColumnsDefaultDeleteColSettings": {
+      "titl": "Delete existing setting of columns of all users and use this one."
+    },
+    "skryte": {
+      "titl": "Hidden columns"
+    },
+    "staleStateDatabaze": {
+      "titl": "Database"
+    },
+    "staleStateUzivatel": {
+      "titl": "User"
+    },
+    "status": {
+      "titl": "Status"
+    },
+    "statusBar.cisloZakaznika": {
+      "titl": "CN:"
+    },
+    "substringPart": {
+      "titl": "substring"
+    },
+    "talkbackDescriptionConnectionError": {
+      "titl": "Communication with data server was interrupted - network error."
+    },
+    "talkbackDescriptionHowSendInfo": {
+      "titl": "Press button to send information about the error to Tech support."
+    },
+    "talkbackDescriptionUnknownError": {
+      "titl": "An application error occurred."
+    },
+    "talkbackDetail": {
+      "titl": "Error detail:"
+    },
+    "talkbackDetailUnknown": {
+      "titl": "Error detail obtaining failed."
+    },
+    "talkbackTitle": {
+      "titl": "Application error"
+    },
+    "technickePodrobnosti": {
+      "titl": "Technical details"
+    },
+    "testerPane": {
+      "titl": "TesterPane"
+    },
+    "upgradovatDBSpousteniSkriptu": {
+      "titl": "Launching scripts for company database update..."
+    },
+    "upravit": {
+      "titl": "Adjust"
+    },
+    "varovani": {
+      "titl": "Warning"
+    },
+    "vaseHodnota": {
+      "titl": "Your value"
+    },
+    "viditelne": {
+      "titl": "Visible columns"
+    },
+    "vlastnost": {
+      "titl": "Feature"
+    },
+    "voFieldDefaultTooltip": {
+      "titl": "Push key F2 to display selection dialogue"
+    },
+    "webHooksInfo.httpStatus.pool": {
+      "titl": "Connection statistics"
+    },
+    "webHooksInfo.httpStatus.routes": {
+      "titl": "List of routes"
+    },
+    "webHooksInfo.status.currentWatcherPriority": {
+      "titl": "Selected server priority"
+    },
+    "webHooksInfo.status.dedicated": {
+      "titl": "Preferred server"
+    },
+    "webHooksInfo.status.enabled": {
+      "titl": "Processing enabled"
+    },
+    "webHooksInfo.status.executorActiveThreads": {
+      "titl": "of active fibres"
+    },
+    "webHooksInfo.status.executorCompletedTasks": {
+      "titl": "of completed jobs"
+    },
+    "webHooksInfo.status.executorPoolSize": {
+      "titl": "Pool size"
+    },
+    "webHooksInfo.status.executorPoolSizeMax": {
+      "titl": "Max. pool size"
+    },
+    "webHooksInfo.status.executorState": {
+      "titl": "Status"
+    },
+    "webHooksInfo.status.executorWaitingTasks": {
+      "titl": "of waiting jobs"
+    },
+    "webHooksInfo.status.firingHooks": {
+      "titl": "Currently sent hooks"
+    },
+    "webHooksInfo.status.firingHooksExecutor": {
+      "titl": "Sending hooks"
+    },
+    "webHooksInfo.status.httpClient": {
+      "titl": "HTTP Status"
+    },
+    "webHooksInfo.status.notifiedCompanies": {
+      "titl": "Currently notified companies"
+    },
+    "webHooksInfo.status.notifyHooksExecutor": {
+      "titl": "Notification hooks"
+    },
+    "webHooksInfo.status.priority": {
+      "titl": "Server priority"
+    },
+    "webHooksInfo.status.scheduledHooks": {
+      "titl": "Schedule-based hooks"
+    },
+    "webHooksInfo.status.watchedCompanies": {
+      "titl": "Tracked companies"
+    },
+    "webHooksInfo.status.watchingState": {
+      "titl": "Change tracking status"
+    },
+    "weekDatePart": {
+      "titl": "week"
+    },
+    "yearDatePart": {
+      "titl": "year"
+    },
+    "zalohaProgressTitle": {
+      "titl": "Making company back up..."
+    },
+    "zalohovatDBUkoncit": {
+      "titl": "End immediately after successful backup"
+    },
+    "zaskrtnuto": {
+      "titl": "Check ON"
+    }
+  },
+  "messages": {
+    "aboutDialogChybaNacitaniIP": {
+      "titl": "Obtaining of local computer IP address failed."
+    },
+    "adresaNeplatna": {
+      "titl": "The address is not valid."
+    },
+    "adresaNeplatnaUrl": {
+      "titl": "The %p address is not valid."
+    },
+    "akceEvidenceList": {
+      "titl": "Event available for registration: %p"
+    },
+    "akceNepodporovana": {
+      "titl": "This action is not supported here."
+    },
+    "akcePristupOdepren": {
+      "titl": "You don't have permission to this action."
+    },
+    "aplikaceBezPripojeniDbNelzePokracovat": {
+      "titl": "Impossible to continue without data source connection"
+    },
+    "aplikaceBudeUkoncena": {
+      "titl": "Application will be closed."
+    },
+    "aplikacniNastaveniChybaNacitani": {
+      "titl": "File %p with application setting cannot be read up."
+    },
+    "aplikacniNastaveniChybaZapisu": {
+      "titl": "Application settings saving failed."
+    },
+    "authRequired": {
+      "titl": "Authorization required."
+    },
+    "authSessionClosed": {
+      "titl": "Your session has been terminated."
+    },
+    "autoZaokrouhleni": {
+      "titl": "The value '%p' has been rounded to '%p'."
+    },
+    "centServerBlokovanyUzivatel": {
+      "titl": "The entered user account is blocked."
+    },
+    "centServerChybaIO": {
+      "titl": "Input/output error has occurred during communication with the central server."
+    },
+    "centServerChybaKomunikace": {
+      "titl": "Error has occurred during communication with the central server."
+    },
+    "centServerChybaNavazani": {
+      "titl": "Error has occurred during launching the connection with the central server."
+    },
+    "centServerChybneJmenoCiHeslo": {
+      "titl": "Username or password you entered is wrong."
+    },
+    "centServerCompanyStateException": {
+      "titl": "Company '%p' is in status '%p'."
+    },
+    "centServerNepripojen": {
+      "titl": "You are not connected to the central server."
+    },
+    "centServerNotApplicationUser": {
+      "titl": "User type %p is not authorized to use the user interface."
+    },
+    "centServerNotAuthorizedOperation": {
+      "titl": "The user does not have permission (%p) to carry out the requested operations."
+    },
+    "centServerStartingException": {
+      "titl": "Central server is starting up, please wait."
+    },
+    "ciselnikDaoChybaMaximalniKod": {
+      "titl": "Value of maximum code was not obtained from data source."
+    },
+    "ciselnikDaoChybaPosledniKod": {
+      "titl": "Value of last code was not obtained from data source."
+    },
+    "ciselnikDuplicitniZkratka": {
+      "titl": "Shortcut '%p' already used by other record."
+    },
+    "ciselnikMimoObdobi": {
+      "titl": "It is not allowed to set validity outside current accounting period."
+    },
+    "codeIdNotSupported": {
+      "titl": "Object [%p] does not support CODE ID (code:%p)."
+    },
+    "comboTextAreaTooltip": {
+      "titl": "Open in window."
+    },
+    "concurrentProcedureRunning": {
+      "titl": "The currently running operation '%p' launched by user %p in %p does not allow to run '%p' at the same time."
+    },
+    "connectionBindDetailError": {
+      "titl": "It wasn't possible to connect to the database. Server announced error: %p"
+    },
+    "connectionBindError": {
+      "titl": "Database connection failed. Check its address and port."
+    },
+    "connectionCloseError": {
+      "titl": "It wasn't possible to end connection to the database."
+    },
+    "connectionNepodariloZiskat": {
+      "titl": "Can't acquire access to data source"
+    },
+    "countryNotAllowedByLicense": {
+      "titl": "Country code '%p' is not allowed by the license."
+    },
+    "daoChybaPraceSDatabazi": {
+      "titl": "Error occurred during database processing."
+    },
+    "daoChybaProvadeniUlozeneProcedury": {
+      "titl": "Error during executing saved procedure."
+    },
+    "daoDetekovanKonkurenciPristup": {
+      "titl": "Detected competing access to this record."
+    },
+    "daoNejdeSmazatOdkaz": {
+      "titl": "Record can not be erased, because other record is related to it."
+    },
+    "daoNekonzistDatabazeViceZaznamu": {
+      "titl": "Inconsistancy in database.\nFound more record with identical code '%p'."
+    },
+    "daoNekonzistDatabazeViceZaznamuDleCUctu": {
+      "titl": "Inconsistency in the database.\n Multiple records found with the same '%p' account number."
+    },
+    "daoNeniUnikatniKod": {
+      "titl": "Record already exist uder the entered code. Entered code must be unique."
+    },
+    "daoNepodariloOdstranitZDatabaze": {
+      "titl": "Deleting record from database failed."
+    },
+    "daoPocetRadekMimoRozsah": {
+      "titl": "Number of chart rows out of defined range."
+    },
+    "daoPoruseniIntegrity": {
+      "titl": "Infringement of integrational restrictions."
+    },
+    "daoSelhaloPripojeniKDatovemuZdroji": {
+      "titl": "Connection to data source failed."
+    },
+    "daoZaznamNepodariloNacist": {
+      "titl": "Loading of requested record from database failed."
+    },
+    "daoZaznamNepodariloUlozit": {
+      "titl": "Record save failed."
+    },
+    "daoZaznamyCiselnikSeNepodariloNacist": {
+      "titl": "Impossible to read records for dial '%p' (#%p) from the data source."
+    },
+    "daoZaznamyFormulareSeNepodariloNacist": {
+      "titl": "Impossible to read records for form '%p' (#%p) from the data source."
+    },
+    "daoZaznamyLokCiselnikSeNepodariloNacist": {
+      "titl": "Impossible to read records for localized dial (#%p) from the data source."
+    },
+    "daoZaznamyParamNeexistuje": {
+      "titl": "No record was found based on the parameters: %p."
+    },
+    "daoZaznamyParamVice": {
+      "titl": "Multiple records were found based on the parameters: %p."
+    },
+    "daoZaznamySeznamuSeNepodariloNacist": {
+      "titl": "Impossible to read records for list '%p' (#%p) from the data source."
+    },
+    "dbCreatingError": {
+      "titl": "Error during database creation."
+    },
+    "dbCreatingImportInitialFailed": {
+      "titl": "Error during default data import."
+    },
+    "desktopErrorOpeningBrowser": {
+      "titl": "It wasn't successful to open default web browser.\nPlease visit the address %p."
+    },
+    "desktopErrorOpeningFile": {
+      "titl": "Opening file %p failed.\nPlease open it manually."
+    },
+    "desktopErrorOpeningMail": {
+      "titl": "It wasn't possible to open default postal client.\nWrite on address %p."
+    },
+    "duvod": {
+      "titl": "Reason"
+    },
+    "eanIdNotSupported": {
+      "titl": "Object [%p] does not support EAN ID (ean:%p)."
+    },
+    "exportICalNeprobehlUspesne": {
+      "titl": "Export to iCal failed."
+    },
+    "exportICalProbehlUspesne": {
+      "titl": "Export to iCal was successful."
+    },
+    "exportICalProgresDesc": {
+      "titl": "Export to iCal running..."
+    },
+    "exportVCardNeprobehlUspesne": {
+      "titl": "Export to vCard failed."
+    },
+    "exportVCardProbehlUspesne": {
+      "titl": "Export to vCard was successful."
+    },
+    "exportVCardProgresDesc": {
+      "titl": "Export to vCard running."
+    },
+    "exportXlsNeprobehlUspesne": {
+      "titl": "Export to Excel wasn't successful."
+    },
+    "exportXlsPrekrocenLimitPocetRadek": {
+      "titl": "Limit exceeded for the number of rows (65536) in XLS format. Use the format XLSX."
+    },
+    "exportXlsProbehlUspesne": {
+      "titl": "Export to Excel was successful."
+    },
+    "exportXmlNeprobehlUspesne": {
+      "titl": "Export to XML failed."
+    },
+    "exportXmlProbehlUspesne": {
+      "titl": "Export to XML was successful."
+    },
+    "exportXmlProgresDesc": {
+      "titl": "Export to XML running..."
+    },
+    "featureNotSupportedByLicence": {
+      "titl": "Your license does not authorize you to use this feature."
+    },
+    "fileNepodariloSeUzavritSoubor": {
+      "titl": "File closing failed."
+    },
+    "filePrepsatSoubor": {
+      "titl": "Do you want to overwrite the file?"
+    },
+    "filterFind": {
+      "titl": "Search:"
+    },
+    "filterFormChybaPriUlozeniFiltru": {
+      "titl": "Current filtration settings can't be stored."
+    },
+    "filterFormFiltrProVlastnostChybaPreset": {
+      "titl": "Failed filter settings for the field %p."
+    },
+    "filterFormIgnorovanFiltrProVlastnost": {
+      "titl": "Ignored filter settings for the property %p."
+    },
+    "filterFormLoadDataFailed": {
+      "titl": "Reading data into form for filter settings failed."
+    },
+    "filterFormNazevFiltruMusiBytVyplnen": {
+      "titl": "Filter name must be filled."
+    },
+    "filterFormUlozeniPrepsatNeboNovy.message": {
+      "titl": "Do you want to re-write the original filter setting or save it as new?"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.novy": {
+      "titl": "New"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.prepsat": {
+      "titl": "Overwrite"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.title": {
+      "titl": "Save filter setting."
+    },
+    "filterFormUlozeniPrepsatNeboNovy.zrusit": {
+      "titl": "Cancel"
+    },
+    "filterFormZadejteNazevFiltru": {
+      "titl": "Enter a name for the filter settings."
+    },
+    "filterIdUnsupported": {
+      "titl": "This record does not support identifiers or filtering of records."
+    },
+    "filtrAplikovan": {
+      "titl": "Filter is applied at the moment:"
+    },
+    "firmaNeexistuje": {
+      "titl": "The company %p does not exist."
+    },
+    "formBudeUzavren": {
+      "titl": "Form will be closed."
+    },
+    "formChybaAktualizaceBOkna": {
+      "titl": "Error during b-window update."
+    },
+    "formDaoException": {
+      "titl": "Problem occurred in communication with data source."
+    },
+    "formEVerifikaceSelhala": {
+      "titl": "Check of correct data entering failed."
+    },
+    "formInterruptFormBudeUzavren": {
+      "titl": "Critical error has occurred, because of which it is necessary to close the form."
+    },
+    "formInterruptFormNelzeOtevrit": {
+      "titl": "Critical error has occurred, because of which form opening failed."
+    },
+    "formNejdeOtevritZaznam": {
+      "titl": "Not possible to open required record."
+    },
+    "formNejdePrejitNovyZaznam": {
+      "titl": "Not possible to go over to new record."
+    },
+    "formNeopravnenyPokusSmazani": {
+      "titl": "Unauthorised attempt to erase record"
+    },
+    "formPreSaveChcesUlozit": {
+      "titl": "Do you want to continue?"
+    },
+    "formRecordNotSaved": {
+      "titl": "The record %p [%p] could not be saved. Please submit this error with a description of what preceded this event."
+    },
+    "formUkladaniSelhalo": {
+      "titl": "Saving failed."
+    },
+    "formZaznamNelzeUlozit": {
+      "titl": "Record can not be saved."
+    },
+    "formZaznamNenalezen": {
+      "titl": "Record not found in data source."
+    },
+    "formZdrojNenalezen": {
+      "titl": "Required source wasn't found."
+    },
+    "formZnovunacneniProblem": {
+      "titl": "An error occurred when re-loading saved record."
+    },
+    "formularNenastaven": {
+      "titl": "For entity '%p' no editing form set."
+    },
+    "formularPrilisMnohoOken": {
+      "titl": "Too many windows open\nclose some first."
+    },
+    "formularPristupOdepren": {
+      "titl": "Access to this form denied."
+    },
+    "helpChceteOtevritNapoveduKProblemu": {
+      "titl": "Do you want to open help to this problem?"
+    },
+    "hodnotyBudouVypoctenyPoUlozeni": {
+      "titl": "Field values will be calculated after saving."
+    },
+    "hromZmenyWizard.header": {
+      "titl": "Setting batch changes"
+    },
+    "hromZmenyWizard.nothingSelected": {
+      "titl": "No item has been selected."
+    },
+    "hromZmenyWizard.updateDotaz": {
+      "titl": "Are you sure you want to execute batch over-write?"
+    },
+    "hromZmenyWizard.updateError": {
+      "titl": "Batch overwrite was unsuccessful."
+    },
+    "hromZmenyWizard.vyberte": {
+      "titl": "Select fields and input requested value."
+    },
+    "i18nFieldSchovatOstatniJazyky": {
+      "titl": "Hide other languages."
+    },
+    "i18nFieldZobrazitOstatniJazyky": {
+      "titl": "Display other languages."
+    },
+    "ibanIdNotSupported": {
+      "titl": "Object [%p] does not support IBAN ID (iban:%p)."
+    },
+    "importSeNepodarilZDuvodu": {
+      "titl": "Import from %p failed.\nCorrect the problems described below and try the import again."
+    },
+    "importSkoncilSVarovanim": {
+      "titl": "Import from %p ended with a warning.\nCheck the warning below, repeat import if necessary."
+    },
+    "importUkoncitProcesDotaz": {
+      "titl": "Are you sure you want to cancel the running import?"
+    },
+    "importXlsBunkaNeniBoolean": {
+      "titl": "Cell is not a logical value."
+    },
+    "importXlsBunkaNeniCalendar": {
+      "titl": "Cell isn't a date."
+    },
+    "importXlsBunkaNeniDouble": {
+      "titl": "Cell isn't a decimal number."
+    },
+    "importXlsBunkaNeniInteger": {
+      "titl": "Cell isn't an integer number."
+    },
+    "importXlsBunkaNeniString": {
+      "titl": "Cell isn't a string character."
+    },
+    "importXlsCellLocation": {
+      "titl": "Row %p, column %p -"
+    },
+    "importXlsCellLocationProperty": {
+      "titl": "Row %p, property %p -"
+    },
+    "importXlsChybnyFormatXls": {
+      "titl": "File reading failed.\nDo you want to open help with this topic?"
+    },
+    "importXlsImportProbehlUspesne": {
+      "titl": "Import was successful."
+    },
+    "importXlsImportSeNezdaril": {
+      "titl": "Import wasn't successful."
+    },
+    "importXlsNeexistujeObjekt": {
+      "titl": "Object type %p with code value %p doesn't exist."
+    },
+    "importXlsNeniMozneImportovatNecodableObjekt": {
+      "titl": "It is not possible to search for an object otherwise than by abbreviation search (%p)."
+    },
+    "importXlsNeniVyplnenoMandatory": {
+      "titl": "Mandatory cell isn't filled in."
+    },
+    "importXlsNepodariloSeNacistSoubor": {
+      "titl": "Import of a file for reading failed."
+    },
+    "importXlsNepodariloSeOtevritSoubor": {
+      "titl": "File opening failed."
+    },
+    "importXlsNepodporovanyFormatOds": {
+      "titl": "The OpenDocument Spreadsheet (ODS) document format is not supported, convert the file to XLS format first."
+    },
+    "importXlsNeproslaValidace": {
+      "titl": "Object validation failed."
+    },
+    "importXlsNevalidniFormat": {
+      "titl": "The XLS version of the imported file format is not supported, try saving the file to another one."
+    },
+    "importXlsPolozkuNelzeOdstranit": {
+      "titl": "Selected item must be imported."
+    },
+    "importXlsSelhalZapisDoSouboru": {
+      "titl": "Writing to file failed."
+    },
+    "importXlsSkladKartaNeniVybranTypDokl": {
+      "titl": "Warehouse document type not selected."
+    },
+    "importXlsZadnaNovaDataNebylaNaimportovana": {
+      "titl": "No new data were found."
+    },
+    "importXmlActionJenPersistentni": {
+      "titl": "The object is yet to be created, no action can be performed."
+    },
+    "importXmlActionNotSupported": {
+      "titl": "The attribute 'action' contains the wrong value. For the particular object, it is permitted to contain only: %p"
+    },
+    "importXmlChceteProvestImport": {
+      "titl": "Do you want to import of following records?"
+    },
+    "importXmlEmptyIdentifier": {
+      "titl": "Blank identifier value (%p)."
+    },
+    "importXmlIdentRuznychObjektu": {
+      "titl": "Identifier %p specifies another record than %p."
+    },
+    "importXmlInternalError": {
+      "titl": "Internal application error."
+    },
+    "importXmlInvalidStartTag": {
+      "titl": "Root element %p not supported. Supported elements: %p."
+    },
+    "importXmlJeZamceno": {
+      "titl": "Record is locked."
+    },
+    "importXmlKAktualizaci": {
+      "titl": "Update"
+    },
+    "importXmlKSmazani": {
+      "titl": "Delete"
+    },
+    "importXmlMissingElement": {
+      "titl": "The '%p' element is mandatory."
+    },
+    "importXmlMissingIdentifier": {
+      "titl": "The identifier (%p) is not given."
+    },
+    "importXmlNeexistujeStitek": {
+      "titl": "Label with code %p does not exist."
+    },
+    "importXmlNelzeUpdate": {
+      "titl": "Record %pcannot be changed."
+    },
+    "importXmlNeopravnenyCreate": {
+      "titl": "You aren't entitled to create record in register of %p."
+    },
+    "importXmlNeopravnenyDelete": {
+      "titl": "You aren't entitled to delete record in register of %p."
+    },
+    "importXmlNeopravnenyUpdate": {
+      "titl": "You aren't entitled to change record in register of %p."
+    },
+    "importXmlNeplatnyCiselnik": {
+      "titl": "%p isn't valid code of localized code-book %p."
+    },
+    "importXmlNepodporovanyUzel": {
+      "titl": "Unsupported node %p found"
+    },
+    "importXmlNepodporujeExtId": {
+      "titl": "%p doesn't support external identifiers"
+    },
+    "importXmlNeuvadetRemoveAllAMode": {
+      "titl": "The 'removeAll' and 'mode' attributes cannot be used on the same element at the same time."
+    },
+    "importXmlNonScalarIdValue": {
+      "titl": "Value '%p' element '%p' is not scalar."
+    },
+    "importXmlNotFoundForIdentifier": {
+      "titl": "The record for the parameter (%p) was not found in the data source."
+    },
+    "importXmlNove": {
+      "titl": "New"
+    },
+    "importXmlObjektNepodporujeExterniId": {
+      "titl": "%p doesn't support external id."
+    },
+    "importXmlRelacniRezim": {
+      "titl": "Importer '%p' is in relational mode and only allows links to existing objects."
+    },
+    "importXmlSchaziPravoZamykat": {
+      "titl": "You do not have permission to lock the documents."
+    },
+    "importXmlSingletonElement": {
+      "titl": "The '%p' element can be specified no more than once."
+    },
+    "importXmlUnsupportedVersion": {
+      "titl": "The version of the imported file is missing or not supported. Supported version: %p."
+    },
+    "importXmlZaznamObsahujeChybu": {
+      "titl": "Record No. %p contains error: %p"
+    },
+    "inIdNotSupported": {
+      "titl": "Object [%p] does not support IN ID (in:%p)."
+    },
+    "inputParamContr.nevyplnen": {
+      "titl": "Parameter '%p' must be filled in."
+    },
+    "invalidExtIdFormat": {
+      "titl": "ExtId has an incorrect format %p."
+    },
+    "invalidWinstromId": {
+      "titl": "The Winstrom ID (%p) has the wrong format."
+    },
+    "itemAlreadyLinked": {
+      "titl": "The %p item is already bound to the parent object [%p], it cannot be bound to another one."
+    },
+    "jsonNeplatny": {
+      "titl": "Invalid JSON format: %p"
+    },
+    "keyIdNotSupported": {
+      "titl": "Object [%p] does not support KEY ID (key:%p)."
+    },
+    "licenceAfterRentToInfo": {
+      "titl": "Please, check charge payment for using ABRA Flexi after %p.\n%p\n\n<b>If there is no payment, the service will be available only in read-only mode from %p.</b>\n\nIn case of doubts, please contact sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceContactLicenseOwner": {
+      "titl": "Contact the owner / administrator of the license."
+    },
+    "licenceReadOnlyDialog": {
+      "titl": "The license lack date of validity and therefore the service is available only in <b>read-only mode</b>.\nPlease contact the sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceReadOnlyInfo": {
+      "titl": "The service is available only in <b>read-only mode</b> due to lack of the charge payment for using ABRA Flexi after %p.\n%p\n\n<b>If there is no payment, the service will be unavailable from %p.</b>\n\nIn case of doubts, please contact sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceValidToExpiredShutDown": {
+      "titl": "The license was limited to %p. The reason may be unpaid documents. <b>The application will close.</b>\n%p\n\nIn case of doubts, please contact sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceZakaznickyOdkazMojeLicence": {
+      "titl": "Your customer link with an overview of issued documents: <b>[My license](%p)</b>."
+    },
+    "licenseBlockedTitle": {
+      "titl": "Blocked license"
+    },
+    "licenseRentToExpiredTitle": {
+      "titl": "License rental expiration"
+    },
+    "loadingDataFailed": {
+      "titl": "Failed to load data from data source."
+    },
+    "loginDialogBlokovanaLicenceUzivatele": {
+      "titl": "Blocked license: <b>%p</b>\n\nIn case of doubts, please contact sales department [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "longExceptionMessageCut": {
+      "titl": "The rest of the text string will be cut short."
+    },
+    "mailDefaultFooter": {
+      "titl": "Generated by economic system '%p'"
+    },
+    "mailDefaultFromNotFound": {
+      "titl": "The default e-mail address is neither defined in the user settings nor in the SMTP server settings."
+    },
+    "mailNepodariloSeOdeslat": {
+      "titl": "E-mail sending failed."
+    },
+    "manyToManyCtrl.OdeberVyberObjekt": {
+      "titl": "First you must select the object that you want to remove."
+    },
+    "massUpdateNotSupported": {
+      "titl": "This record does not allow for bulk changes."
+    },
+    "massUpdateProgressInfo": {
+      "titl": "Batch change in progress..."
+    },
+    "massUpdateProgressInfoZamcObd": {
+      "titl": "Changing lock ..."
+    },
+    "month0": {
+      "titl": "January"
+    },
+    "month1": {
+      "titl": "February"
+    },
+    "month10": {
+      "titl": "November"
+    },
+    "month11": {
+      "titl": "December"
+    },
+    "month2": {
+      "titl": "March"
+    },
+    "month3": {
+      "titl": "April"
+    },
+    "month4": {
+      "titl": "May"
+    },
+    "month5": {
+      "titl": "June"
+    },
+    "month6": {
+      "titl": "July"
+    },
+    "month7": {
+      "titl": "August"
+    },
+    "month8": {
+      "titl": "September"
+    },
+    "month9": {
+      "titl": "October"
+    },
+    "nelzeNaleztJavu": {
+      "titl": "Java %p or newer version not found"
+    },
+    "nesloZmenitZaokrouhleni": {
+      "titl": "But it was not possible to change the rounding of the document."
+    },
+    "neucetniSkladucetniTypDokl": {
+      "titl": "You have set up a non-accounting warehouse and the document type is accounting!"
+    },
+    "noSpaceLeftOnDevice": {
+      "titl": "Not enough storage space left device."
+    },
+    "notEnabledByLicense": {
+      "titl": "Feature not enabled in license."
+    },
+    "notUniqueIdentifier": {
+      "titl": "The entered indicator is not unique! Multiple records were found, which have the property ‘%p’ with the value ‘%p’."
+    },
+    "obnovitDBChybaListObjektuDumpu": {
+      "titl": "Error processing backup file."
+    },
+    "obnovitDBChybaOldAppServer": {
+      "titl": "The database version of the company %p is newer than the ABRA Flexi Server version."
+    },
+    "obnovitDBChybaPrideleniPrav": {
+      "titl": "Error during rights assignment to database objects."
+    },
+    "obnovitDBChybaPrikazu": {
+      "titl": "Error during running the command for database recovery."
+    },
+    "obnovitDBError": {
+      "titl": "Error during company accountancy restoration."
+    },
+    "obnovitDBNenalezenNastrojPgRestore": {
+      "titl": "It wasn't successful to find the path to the tool for company restoration."
+    },
+    "obnovitDBNenalezenPgRestore": {
+      "titl": "Installation of the tool pg_restore wasn't found. Is PostgreSQL really installed?"
+    },
+    "obnovitDBNepodariloSePripojit": {
+      "titl": "Connection to the central server failed."
+    },
+    "obnovitDBPridaniCsUzivatele": {
+      "titl": "\nFollowing users (whose password need to be changed, so that they would be able to register) were found on central server."
+    },
+    "obnovitDBProbehloUspesne": {
+      "titl": "Database was successfully recovered."
+    },
+    "obnovitDBServerNezadan": {
+      "titl": "File name wasn't entered. Do you wish to enter it again?"
+    },
+    "obnovitDBSouborNeexistuje": {
+      "titl": "File with back up isn't existing yet. Do you wish to select another file?"
+    },
+    "obnovitDBUnsupportedVersion": {
+      "titl": "Unsupported version of the business backup file. You are probably trying to restore a company backup that comes from a newer version of the PostgreSQL database."
+    },
+    "obnovitDBZadatJmenoServeruTitulek": {
+      "titl": "Enter database name for new company."
+    },
+    "obnovitDBZadatJmenoSeveruVyzva": {
+      "titl": "Company database name:"
+    },
+    "osNotSupportsScanning": {
+      "titl": "It is not possible to scan on your operating system."
+    },
+    "pleaseRelogin": {
+      "titl": "Please login again."
+    },
+    "pluIdNotSupported": {
+      "titl": "Object [%p] does not support PLU ID (plu:%p)."
+    },
+    "postgreSQLChybiDokladovaRada": {
+      "titl": "Check the document series settings for the %p:warehouse \"%p: %p\", document type”%p: %p\"."
+    },
+    "postgreSQLExceptionNeexistujeKurzSklad": {
+      "titl": "Exchange rate for stock supply does not exist in the table of exchange rates."
+    },
+    "postgreSQLExceptionZPrijemkyCerpaVydejka": {
+      "titl": "It is not possible to delete or cancel the receipt card from which the issue card already draws on."
+    },
+    "postgreSQLExceptionZapornySklad": {
+      "titl": "Negative stock level is not allowed."
+    },
+    "postgreSQLExceptionZustavajiVazbyDoklad": {
+      "titl": "Links to document stay in the linking table."
+    },
+    "postgreSQLExceptionZustavajiVazbyPolozky": {
+      "titl": "Links to document item stay in the linking table."
+    },
+    "postgreSQLNelzeZmeniVydCis": {
+      "titl": "You are changing the %p pricing for an already issued %p serial number."
+    },
+    "postgreSQLUcetNavazanaPolozka": {
+      "titl": "Unable to change account in binding."
+    },
+    "postgreSQLVytvorPrijemkuVKusovnikuChybiDostatekMaterialu": {
+      "titl": "Unable to create product receipt '%p' due to missing material '%p' in stock '%p' (required: %p, available: %p)."
+    },
+    "postgreSQLduplVyrCis": {
+      "titl": "Duplicate production number %p."
+    },
+    "postgreSQLzboziZpolozkyVyskladneno": {
+      "titl": "The goods from the item have already been released."
+    },
+    "postvalidaceZadanoPole": {
+      "titl": "Set field"
+    },
+    "progressDlg.ukoncitProcesDotaz": {
+      "titl": "Do you really want to cancel current process?"
+    },
+    "progressDlg.ukoncitUlozitProcesDotaz": {
+      "titl": "The ongoing process will be terminated. Do you want to save changes you have made?"
+    },
+    "progressZrusen": {
+      "titl": "Action was cancelled."
+    },
+    "propertyCantBeChanged": {
+      "titl": "The '%p' (%p) property cannot be edited now."
+    },
+    "queryFormMultipleChybaNacitani": {
+      "titl": "Error during items for selection reading."
+    },
+    "queryNelzeNastavitPozadovanyFiltr": {
+      "titl": "For this type, It is not possible to set up requested filter of type '%p'."
+    },
+    "readOnlyUserNotAllowed": {
+      "titl": "The read-only user '%p' is only allowed to make read requests."
+    },
+    "recipientIsMissing": {
+      "titl": "At least one recipient must be provided."
+    },
+    "remoteLogoutDemand": {
+      "titl": "Your account is being used on another device at the same time, please log out on it first."
+    },
+    "reportChybaZobrazeni": {
+      "titl": "Error has occurred during report preview displaying."
+    },
+    "reportChybneHesloJenAscii": {
+      "titl": "The entered password unfortunately cannot be used for encrypting the print layout.\nPlease enter the password without diacritics."
+    },
+    "reportFileNotFound": {
+      "titl": "Neither jrxml nor jasper file could be found for the required %p report."
+    },
+    "reportImplNeniPripojenaTiskarna": {
+      "titl": "No printer is connected."
+    },
+    "reportImplNepodariloVytisknout": {
+      "titl": "Print report printing failed."
+    },
+    "reportKontaktujteVyrobce": {
+      "titl": "A report error has occurred. Contact the author of the report."
+    },
+    "reportNacitamPocetZaznamu": {
+      "titl": "Loading the number of records."
+    },
+    "reportNebylNalezen": {
+      "titl": "Report was not found in data source."
+    },
+    "reportNeniVybran": {
+      "titl": "The print report is not selected."
+    },
+    "reportNepodariloSeNacistPocetZaznamu": {
+      "titl": "The number of records could not be loaded."
+    },
+    "reportNepodariloSePDF": {
+      "titl": "PDF file generation failed."
+    },
+    "reportNepodariloSeXls": {
+      "titl": "Failed to generate xls file."
+    },
+    "reportNepodariloSeXlsx": {
+      "titl": "Failed to generate xlsx file."
+    },
+    "reportNezdarilSeTisk": {
+      "titl": "Print of the report wasn't successful."
+    },
+    "reportNoData": {
+      "titl": "The print report has no data."
+    },
+    "reportPDFExportUspesny": {
+      "titl": "Export to PDF was successful."
+    },
+    "reportPaneNepodariloNacistSeznamReportu": {
+      "titl": "Report list reading failed."
+    },
+    "reportTvorbaPrerusena": {
+      "titl": "Report generation was interrupted. Please try again."
+    },
+    "reportXlsExportUspesny": {
+      "titl": "Export to xls successful."
+    },
+    "reportXlsxExportUspesny": {
+      "titl": "Export to xlsx successful."
+    },
+    "reportZadneStranky": {
+      "titl": "Report doesn't contain any pages."
+    },
+    "restrictedProtocol": {
+      "titl": "Protocol '%p' is not permitted."
+    },
+    "scannerEnterKeyStroke": {
+      "titl": "Bar code reader EAN prefix:"
+    },
+    "scannerEnterKeyStrokeTitle": {
+      "titl": "Enter value"
+    },
+    "scannerNoCodeEntered": {
+      "titl": "The time limit for entering the EAN code has expired."
+    },
+    "sessionChybaDetasovaniDatObjektu": {
+      "titl": "Error during data objects detachment from working session."
+    },
+    "sessionChybaOtevirani": {
+      "titl": "Error during session opening."
+    },
+    "sessionChybaUzavirani": {
+      "titl": "Error during session closing."
+    },
+    "sessionChybaVkladaniDatObjektu": {
+      "titl": "Error during data objects insertion to working session."
+    },
+    "sessionTimedOut": {
+      "titl": "Session timed out"
+    },
+    "settingChybaNacitaniElementu": {
+      "titl": "Error when loading element"
+    },
+    "settingColumnsDefaultInfo": {
+      "titl": "If you continue you will set this column spreading as initial\n for all users of this application in this company."
+    },
+    "settingColumnsDeleteError": {
+      "titl": "Deletion of user setting for object: '%p' failed."
+    },
+    "settingColumnsDeletePropertyError": {
+      "titl": "Erasing user colmumns' setting for object failed: '%p'."
+    },
+    "settingColumnsLoadBeanError": {
+      "titl": "Loading user setting of columns for object failed: '%p'."
+    },
+    "settingColumnsLoadError": {
+      "titl": "Reading of column setting failed."
+    },
+    "settingColumnsLoadFilterError": {
+      "titl": "Failed to load custom column settings for filter: '%p'."
+    },
+    "settingColumnsRestoreDefaultInfo": {
+      "titl": "If you continue, you will set the column layout to the state when you first start the application."
+    },
+    "settingColumnsSaveBeanError": {
+      "titl": "Saving user columns' setting for object failed: '%p'."
+    },
+    "settingColumnsSaveError": {
+      "titl": "Saving of column setting failed."
+    },
+    "settingColumnsSelhaloUkladaniSloupcu": {
+      "titl": "Saving chart columns to XML file failed."
+    },
+    "settingColumnsSouborProblem": {
+      "titl": "Problem with the file with setting of chart columns"
+    },
+    "settingColumnsStaleStateWhenSave": {
+      "titl": "Competitive access problem has occurred during columns saving.\nAnother user has already changed columns setting of the object: '%p'."
+    },
+    "settingColumnsStaleStateWhenSaveUnspec": {
+      "titl": "Competitive access problem has occurred during columns saving."
+    },
+    "settingIniChybnySoubor": {
+      "titl": "Incorrect initialization file."
+    },
+    "settingIniSouborNenalezen": {
+      "titl": "Initialization file '%p' wasn't found."
+    },
+    "settingL10nSelhaloUkladani": {
+      "titl": "Save of localization setting to XML file failed!"
+    },
+    "settingValLoadError": {
+      "titl": "Reading of validation setting failed."
+    },
+    "settingValNastaveniProblem": {
+      "titl": "Problem with the file with validation settings"
+    },
+    "settingValSelhaloUkladani": {
+      "titl": "Saving validation setting to XML file failed!"
+    },
+    "settingValVicenasobnyElement": {
+      "titl": "Validation XML contains several identical elements"
+    },
+    "settingWindowsReadError2": {
+      "titl": "Reading of user's window setting for user '%p' failed."
+    },
+    "settingWindowsSaveError": {
+      "titl": "Saving window user setting failed '%p' for user '%p'."
+    },
+    "settingsReadError": {
+      "titl": "Feature '%p' reading for user '%p' failed."
+    },
+    "settingsReportConfigNotAllowed": {
+      "titl": "The '%p' record does not allow configuring reports. Use '%p'."
+    },
+    "settingsWriteError": {
+      "titl": "Feature '%p' saving for user '%p' failed."
+    },
+    "souborNelzeZapisovat": {
+      "titl": "You do not have sufficient permissions to create an entry to the particular path."
+    },
+    "spatnyFormatIDs": {
+      "titl": "Bad format of multiple IDs, error at %p position."
+    },
+    "staleStateResolverZmenenyZaznam": {
+      "titl": "Record was changed by another user from the last opening of the report.\n(Another user could possibly change superior record, that contains this record)"
+    },
+    "tableNelzePosouvatPolozku": {
+      "titl": "No selected item in table for move"
+    },
+    "tableNelzePosunDolu": {
+      "titl": "Not possible to move down last record in table"
+    },
+    "tableNelzePosunNahoru": {
+      "titl": "Not possible to move up first record in table"
+    },
+    "tableNepodariloPosunout": {
+      "titl": "Moving record failed."
+    },
+    "tableRowNumberChyba": {
+      "titl": "Error during row number identifying in table."
+    },
+    "taskMonitorEndTasksQuestion": {
+      "titl": "Unfinished tasks are running at the background. We strongly recommend to wait until their finishing."
+    },
+    "transakceNepodariloCommit": {
+      "titl": "Transaction save failed."
+    },
+    "transakceNepodariloRollback": {
+      "titl": "Transaction roll-back failed ."
+    },
+    "transakceNepodariloZahajit": {
+      "titl": "Transaction initiation failed."
+    },
+    "twoPhaseAuthCodeRequired": {
+      "titl": "2FA verification code required."
+    },
+    "ucetniSkladNeucetniTypDokl": {
+      "titl": "You have set up an accounting warehouse and the document type is non-accounting!"
+    },
+    "unsupportedDataTypeLike": {
+      "titl": "Operators like, begins, ends require a chain type argument."
+    },
+    "upgradovatDBChyba": {
+      "titl": "Database upgrade launching wasn't successful."
+    },
+    "upgradovatDBChybaNahravaniLokCiselniku": {
+      "titl": "Error during database update. Localized code-book reading failed."
+    },
+    "upgradovatDBChybaOpravyLobu": {
+      "titl": "Error updating the database. Failed to set the rights for the existing attachments."
+    },
+    "upgradovatDBChybaSpousteniSkriptu": {
+      "titl": "Error during database update. Script %p executing failed."
+    },
+    "urlReaction": {
+      "titl": "https://support.flexibee.eu/redirect/reaction/"
+    },
+    "urlSupport": {
+      "titl": "https://support.flexibee.eu/redirect/support-w10/"
+    },
+    "userFilterOpen.chybaPriMazaniFiltru": {
+      "titl": "Filter settings failed to clear."
+    },
+    "userFilterOpen.header": {
+      "titl": "Choose stored filtration settings."
+    },
+    "userFilterOpen.musiteVybratFiltr": {
+      "titl": "You must find stored settings at first."
+    },
+    "userFilterOpen.opravduSmazatFiltr": {
+      "titl": "Are you sure you want to delete the selected filter settings?"
+    },
+    "userFilterOpen.vyberteFiltry": {
+      "titl": "Select user filter settings that you want to open."
+    },
+    "uuidNotSupported": {
+      "titl": "Object [%p] does not support UUID (uuid:%p)."
+    },
+    "uzivatelNeexistuje": {
+      "titl": "The user %p does not exist."
+    },
+    "validace.chybiVS": {
+      "titl": "Missing setting in validation XML for [bean='%p',prop='%p']"
+    },
+    "validace.double": {
+      "titl": "The value of the '%p' field must be a real number."
+    },
+    "validace.invalidCombination": {
+      "titl": "The value of property '%p' in combination with the value of property '%p' is not valid."
+    },
+    "validace.kodNotExist": {
+      "titl": "Field '%p': Record with shortcut entered does not exist in database."
+    },
+    "validace.maxValue": {
+      "titl": "Value of field '%p' must not be higher than %p."
+    },
+    "validace.maxZnaku": {
+      "titl": "Field '%p' must not be longer than %p characters."
+    },
+    "validace.minValue": {
+      "titl": "Value of field '%p' must not be lower than %p."
+    },
+    "validace.minZnaku": {
+      "titl": "Field '%p' must contain at least %p characters."
+    },
+    "validace.mocCislic": {
+      "titl": "Value of field '%p' must not contain more than %p digits."
+    },
+    "validace.mocDesCis": {
+      "titl": "Value of field '%p' must not contain more than %p decimal places."
+    },
+    "validace.neplatnyCiselnik": {
+      "titl": "Field '%p' contains invalid dial item."
+    },
+    "validace.notAvailableValue": {
+      "titl": "Field '%p' must be completed with one of the %p values."
+    },
+    "validace.notEmpty": {
+      "titl": "Field '%p' must be filled in."
+    },
+    "validace.notNull": {
+      "titl": "Field '%p' must be filled in."
+    },
+    "validace.notZero": {
+      "titl": "Value of field '%p' must not be zero."
+    },
+    "validace.rokDataMimoRozsah": {
+      "titl": "The year of data for property '%p' can be specified in the range -9999 to 9999: %p"
+    },
+    "validace.unknownType": {
+      "titl": "Unknown type in validation XML for [bean='%p',prop='%p']"
+    },
+    "validace.valChyba": {
+      "titl": "Field '%p': Error during validation."
+    },
+    "validace.vymazanoPole": {
+      "titl": "Cleared field %p."
+    },
+    "validace.zadano": {
+      "titl": "Set '%p'."
+    },
+    "validaceZadanoPole": {
+      "titl": "Set field"
+    },
+    "vatIdNotSupported": {
+      "titl": "Object [%p] does not support VAT ID (vatid:%p)."
+    },
+    "versionWarning": {
+      "titl": "You have launched the testing version, and its use will lead to irreversible damage in the data.\nThis version is intended for verification of new functions of ABRA Flexi\nand may not be used in a production environment, so you should always work only with copies of data."
+    },
+    "voSelektorNepodariloNacistZaznam": {
+      "titl": "Selected record reading from data source failed."
+    },
+    "wrongUserType": {
+      "titl": "Wrong user type: '%p'"
+    },
+    "xmlStreamExceptionContentIsNotAllowedInProlog": {
+      "titl": "File does not contain a valid XML.\n(Content is not allowed in prolog)"
+    },
+    "xmlStreamExceptionInvalidByte1ofUTF8": {
+      "titl": "We are trying to read the imported XML file in UTF-8 encoding, but the file\nis probably saved in different encoding. Request file saved\nin encoding UTF-8, or save it in this encoding yourself."
+    },
+    "zalohaJizExistuje": {
+      "titl": "Back up under this name already exists. Do you wish to overwrite it?"
+    },
+    "zalohaNedostatekMista": {
+      "titl": "You don't have enough space for backup with size %p."
+    },
+    "zalohaProbehlaUspesne": {
+      "titl": "Back up made successfully."
+    },
+    "zalohaSouborNenalezen": {
+      "titl": "File %p for backup not found or you don't have enough permissions."
+    },
+    "zalohovatDBChybaPrejmenovani": {
+      "titl": "Error during rename of the file with passwords to DB"
+    },
+    "zalohovatDBChybaPrikazu": {
+      "titl": "Error during running the command for back up making."
+    },
+    "zalohovatDBChybaPrikazuChmod": {
+      "titl": "Error during running the command for changing rights to chmod file."
+    },
+    "zalohovatDBChybaUkoncit": {
+      "titl": "Do you wish to quit application?"
+    },
+    "zalohovatDBError": {
+      "titl": "Error during making back up of company's accountancy."
+    },
+    "zalohovatDBNenalezenPgDump": {
+      "titl": "It wasn't successful to find the path to the tool for making back up of the company."
+    },
+    "zalohovatDBPGPassNenalezen": {
+      "titl": "It is not possible to find the file with settings of connection to DB."
+    },
+    "zalohovatDBQuestion": {
+      "titl": "Do you want to back up company's accountancy before program closing?"
+    },
+    "zalohovatNelzeVytvoritAdresarProPgConf": {
+      "titl": "It is not possible to create directory for file pgconf saving."
+    },
+    "zalohovatNenalezenChmod": {
+      "titl": "No command for changing rights to chmod file was found."
+    },
+    "zalohovatNenalezenPgDump": {
+      "titl": "Installation of the tool pg_dump wasn't found. Is PostgreSQL really installed?"
+    },
+    "zalohovatPrubeh": {
+      "titl": "Downloading data... %p of %p."
+    },
+    "zalohovatServerZalohuje": {
+      "titl": "Creating company backup..."
+    },
+    "zaznamAktualniZaznam": {
+      "titl": "the current record"
+    },
+    "zaznamChceteUlozit": {
+      "titl": "Do you want to save the changes made?"
+    },
+    "zaznamChybaHledani": {
+      "titl": "Error during searching for record in the data source."
+    },
+    "zaznamChybaHledaniNeboNacitani": {
+      "titl": "Error during search or loading record from database."
+    },
+    "zaznamChybaNacitaniPoctu": {
+      "titl": "Error during loading records' count."
+    },
+    "zaznamChybaNacitaniStranky": {
+      "titl": "Error during loading records' page."
+    },
+    "zaznamJizNeexistujeNelzeOdstranit": {
+      "titl": "This record can not be deleted ,\nbecause someone has deleted in from data source."
+    },
+    "zaznamJizNeexistujeNelzeUlozit": {
+      "titl": "The changes in open record can not be saved,\nbecause someone has deleted in from data source."
+    },
+    "zaznamJizSmazan": {
+      "titl": "Someone has already deleted this record from data source."
+    },
+    "zaznamNelzeEditovat": {
+      "titl": "No item in the chart selected for editing."
+    },
+    "zaznamNelzeOtevrit": {
+      "titl": "Required record can not be open."
+    },
+    "zaznamNelzeSmazat": {
+      "titl": "No item in the chart selected for deleting."
+    },
+    "zaznamNemateOpravneni": {
+      "titl": "You are not entitled to display this record."
+    },
+    "zaznamNeniVybranaPolozka": {
+      "titl": "No item selected in the chart."
+    },
+    "zaznamNepodariloNacist": {
+      "titl": "Records' loading from database failed."
+    },
+    "zaznamNepodariloSmazat": {
+      "titl": "Record delete failed."
+    },
+    "zaznamOpravduOdstranit": {
+      "titl": "Really remove record?"
+    },
+    "zaznamOpravduSmazatNeco": {
+      "titl": "Do you really want to delete %p?"
+    },
+    "zaznamOpravduSmazatVybranyZaznam": {
+      "titl": "Really delete selected record?"
+    },
+    "zaznamOpravduUlozit": {
+      "titl": "Really save record?"
+    },
+    "zaznamSeNepodarilNacist": {
+      "titl": "Reading record from data source failed."
+    },
+    "zaznamUlozeniPrepiseZmeny": {
+      "titl": "If you save record, another user changes will be overwritten."
+    },
+    "zaznamVDatabaziNovejsiDataOdEditace": {
+      "titl": "Record was changed by another user since beginning of its modification."
+    },
+    "zaznamVDatabaziNovejsiDataOdOtevreni": {
+      "titl": "Record was changed by another user since opening the record."
+    },
+    "zaznamVybraneZaznamy": {
+      "titl": "selected records"
+    }
+  }
+}

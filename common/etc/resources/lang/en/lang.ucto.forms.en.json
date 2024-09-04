@@ -1,0 +1,2003 @@
+{
+  "formsInfo": {
+    "actClenstvi": {
+      "mnem": 66,
+      "titl": "Membership for workflow"
+    },
+    "actDefinice": {
+      "mnem": 87,
+      "titl": "Workflow definitions"
+    },
+    "actRunProcess": {
+      "icon": "win/folder.png",
+      "titl": "Start workflow"
+    },
+    "actSkupiny": {
+      "mnem": 75,
+      "titl": "Groups for workflow"
+    },
+    "activationDialog": {
+      "titl": "Activate application"
+    },
+    "adrAdresar": {
+      "desc": "Update of all addresses, contacts, bank accounts and events.",
+      "icon": "win/adresar.png",
+      "mnem": 66,
+      "titl": "Address book"
+    },
+    "adrAdresarNovy": {
+      "icon": "win/plus.png",
+      "titl": "New company address"
+    },
+    "adrBanSpoj": {
+      "titl": "Bank accounts"
+    },
+    "adrCert": {
+      "titl": "Organisation certificates"
+    },
+    "adrDodavatel": {
+      "desc": "Update of suppliers, contacts, events and supplier's bank accounts.",
+      "icon": "win/adresar.png",
+      "titl": "Suppliers"
+    },
+    "adrDodavateleView": {
+      "titl": "Supplies goods"
+    },
+    "adrKontakty": {
+      "desc": "List of all contacts that you record by companies. In the list you can search for contact by entered criterions through all companies. In update form by each company you can see contacts linked to concrete address. In contact you can enter company, position or rank, phone no., e-mail, notes and selective keys for filing and searching the contact.",
+      "icon": "win/kontakty.png",
+      "mnem": 67,
+      "titl": "Contacts"
+    },
+    "adrMistUrc": {
+      "desc": "List of all destinations.",
+      "icon": "win/mista-urceni.png",
+      "mnem": 68,
+      "titl": "Delivery address"
+    },
+    "adrNaklAkt": {
+      "titl": "Activity costs"
+    },
+    "adrOdberatel": {
+      "desc": "Actualization of customers, contacts, events and bank accounts of customers.",
+      "icon": "win/adresar.png",
+      "titl": "Customers"
+    },
+    "adrOdberateleView": {
+      "titl": "Individual prices"
+    },
+    "adrPolSml": {
+      "titl": "Contract items"
+    },
+    "adrPolSmlExt": {
+      "titl": "External contract items"
+    },
+    "adrPolSmlInt": {
+      "titl": "Standard contract items"
+    },
+    "adrRuUdalosti": {
+      "desc": "List of all events from workflow",
+      "icon": "win/udalosti.png",
+      "mnem": 86,
+      "titl": "Events from the workflow"
+    },
+    "adrSkupFir": {
+      "icon": "win/skupiny-firem.png",
+      "mnem": 71,
+      "titl": "Company groups"
+    },
+    "adrSmlAkt": {
+      "desc": "List of all contracts",
+      "icon": "win/prehled.png",
+      "titl": "Contracts"
+    },
+    "adrSmlAktView": {
+      "desc": "List of all contracts",
+      "icon": "win/prehled.png",
+      "mnem": 79,
+      "titl": "Contracts"
+    },
+    "adrSmlDodavAkt": {
+      "desc": "List of all supply contracts.",
+      "icon": "win/prehled.png",
+      "titl": "Supply contracts"
+    },
+    "adrSmlDodavAktView": {
+      "desc": "List of all supply contracts.",
+      "icon": "win/prehled.png",
+      "mnem": 83,
+      "titl": "Supply contracts"
+    },
+    "adrStavSml": {
+      "mnem": 82,
+      "titl": "Contract status"
+    },
+    "adrTypAkt": {
+      "desc": "Users setting of typical events or activities in your firm.",
+      "icon": "win/folder.png",
+      "mnem": 65,
+      "titl": "Activity type"
+    },
+    "adrTypDodavSml": {
+      "icon": "win/folder.png",
+      "mnem": 89,
+      "titl": "Types of supply contracts"
+    },
+    "adrTypNaklAkt": {
+      "desc": "List of all types of costs associated with an activity or event. It includes a link to pricelist.",
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Activity costs types"
+    },
+    "adrTypSml": {
+      "icon": "win/folder.png",
+      "mnem": 78,
+      "titl": "Contract types"
+    },
+    "adrUdalosti": {
+      "desc": "List of all events which are conected with partner. Event can be also understood as negotiation record with partner or task which needs to be fulfilled to certain date. In address edit window you see list of events linked to selected partner. Well managed event list enables company's manger to task the emloyees and to monitor solutions status.",
+      "icon": "win/udalosti.png",
+      "mnem": 69,
+      "titl": "Events"
+    },
+    "adrZurnalSml": {
+      "titl": "Contract journal"
+    },
+    "aktivaceProduktu": {
+      "titl": "Guide for activation of ABRA Flexi application"
+    },
+    "aktualLicenci": {
+      "mnem": 68,
+      "titl": "Update licence"
+    },
+    "analyzaNakupu": {
+      "titl": "Analysis of purchasing"
+    },
+    "analyzaNakupuOdberatelZbozi": {
+      "titl": "Analysis of purchasing - Purchasing of goods based on company"
+    },
+    "analyzaNakupuVlastni": {
+      "titl": "Analysis of purchasing - Custom"
+    },
+    "analyzaNakupuWizard": {
+      "desc": "Analysis of purchasing can provide you with the following information: Turnover by clients / groups of clients / sold goods / groups of goods / centres etc. (assignment is in drop-down list “What do you want to analyse?”) You can also enter additional more detailed categorization (entries in the next list “What will the further categorization be?”) again based on named attributes. The result could be, for example, analysis of purchasing from individual companies with detailed categorisation of which goods the company has supplied. You will analyse everything in the particular time range.",
+      "icon": "win/prehled.png",
+      "mnem": 80,
+      "titl": "Analysis of purchasing"
+    },
+    "analyzaNakupuZboziOdberatele": {
+      "titl": "Analysis of purchasing - Purchasing from companies according to goods"
+    },
+    "analyzaNakupuZiskOdberatele": {
+      "titl": "Analysis of purchasing - Purchases from companies"
+    },
+    "analyzaNakupuZiskSkupinyCen": {
+      "titl": "Analysis of purchasing - Purchases from price groups"
+    },
+    "analyzaNakupuZiskSkupinyFirem": {
+      "titl": "Analysis of purchasing - Purchases from groups of companies"
+    },
+    "analyzaNakupuZiskZbozi": {
+      "titl": "Analysis of purchasing - Purchasing of goods"
+    },
+    "autCert": {
+      "mnem": 72,
+      "titl": "Certificate authority"
+    },
+    "autoTisk": {
+      "titl": "Automatic print"
+    },
+    "banAkt": {
+      "desc": "Bank statement items update in set accounting period. Button \"Services\" enables print of current document, match document with invoice, debt or obligation.",
+      "icon": "win/banka.png",
+      "mnem": 66,
+      "titl": "Bank"
+    },
+    "banAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "New bank document"
+    },
+    "banBanZapoctyPol": {
+      "titl": "Mutual set-off items"
+    },
+    "banBsp": {
+      "desc": "List of bank accounts of the firm, including the definition of the method of electronic communication.",
+      "icon": "win/bank-ucty.png",
+      "mnem": 65,
+      "titl": "Bank account list"
+    },
+    "banDenik": {
+      "desc": "This will execute calculation and bank book print",
+      "icon": "win/logs.png",
+      "mnem": 75,
+      "titl": "Bank book"
+    },
+    "banNonPaged": {
+      "titl": "Bank"
+    },
+    "banPokBsp": {
+      "titl": "Bank accounts and cash registers"
+    },
+    "banPol": {
+      "mnem": 66,
+      "titl": "Bank document items"
+    },
+    "banProtiUcty": {
+      "titl": "Contra accounts bank"
+    },
+    "banRady": {
+      "desc": "Document series setting for bank statements update.",
+      "icon": "win/numbers.png",
+      "mnem": 66,
+      "titl": "Num. series - Bank"
+    },
+    "banTyp": {
+      "icon": "win/bank-ucty.png",
+      "mnem": 65,
+      "titl": "Bank accounts"
+    },
+    "banTypZapocty": {
+      "icon": "win/bank-ucty.png",
+      "mnem": 84,
+      "titl": "Reciprocal credit types"
+    },
+    "banZapocty": {
+      "desc": "Creation of reciprocal credit is possible through wizard, where you enter a firm you do a reciprocal credit with. Then you select credit documents for accounting. To create a credit you can also do document after document, similar to the creation of bank statements items.",
+      "icon": "win/vzajemne-zapocty.png",
+      "mnem": 73,
+      "titl": "Reciprocal credits"
+    },
+    "banZapoctyPol": {
+      "mnem": 76,
+      "titl": "Reciprocal credit items"
+    },
+    "bspModulFree": {
+      "titl": "Bank/cash desk/warehouse"
+    },
+    "cServerDialog": {
+      "titl": "Data source administration"
+    },
+    "cServerDialogNovy": {
+      "titl": "Add data source"
+    },
+    "casteDotazy": {
+      "titl": "#Frequently asked questions"
+    },
+    "cenAkt": {
+      "desc": "Price list contains complete goods, material and service overview. Everything is classified into groups. You define goods placement in the stocks.",
+      "icon": "win/katalog.png",
+      "mnem": 67,
+      "titl": "Catalogue"
+    },
+    "cenAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Add item to catalogue"
+    },
+    "cenAtribut": {
+      "titl": "Attributes"
+    },
+    "cenCisAtribut000": {
+      "icon": "win/logs.png",
+      "mnem": 84,
+      "titl": "Attribute code lists"
+    },
+    "cenDodavatele": {
+      "titl": "Suppliers"
+    },
+    "cenDodavateleView": {
+      "titl": "Suppliers"
+    },
+    "cenEkoKom": {
+      "titl": "EkoKom packaging records"
+    },
+    "cenHlad": {
+      "desc": "Price levels create link between item group and customer group and by it clearly defined pricing.",
+      "icon": "win/cenove-urovne.png",
+      "mnem": 80,
+      "titl": "Price levels"
+    },
+    "cenOdberateleView": {
+      "titl": "Prices for customers/customers groups, special codes"
+    },
+    "cenPodobne": {
+      "titl": "Similar"
+    },
+    "cenPoplatky": {
+      "titl": "Charges"
+    },
+    "cenPrislusenstvi": {
+      "titl": "Accessories"
+    },
+    "cenSady": {
+      "titl": "Sets"
+    },
+    "cenSku": {
+      "desc": "Item and material groups enables to classify price list/catalogue to transparent groups, definition of bringing to book of these groups and also setting pricing for these groups.",
+      "icon": "win/folder.png",
+      "mnem": 71,
+      "titl": "Groups of goods/products"
+    },
+    "cenSkupCen": {
+      "desc": "Price groups",
+      "icon": "win/folder.png",
+      "mnem": 69,
+      "titl": "Price groups"
+    },
+    "cenSpec": {
+      "titl": "Special pirce list"
+    },
+    "cenStav": {
+      "icon": "win/folder.png",
+      "mnem": 90,
+      "titl": "Price list itemization"
+    },
+    "cenTypAtributu": {
+      "mnem": 65,
+      "titl": "Types of attributes"
+    },
+    "cenTypAtributuStandard": {
+      "titl": "Standard types of attributes"
+    },
+    "cenTypZbozi": {
+      "mnem": 71,
+      "titl": "Attribute groups"
+    },
+    "cenTypZboziStandard": {
+      "titl": "Standard attribute groups"
+    },
+    "cenyView": {
+      "mnem": 68,
+      "titl": "Individual price list"
+    },
+    "cenyViewWizard": {
+      "icon": "win/folder.png",
+      "mnem": 68,
+      "titl": "Individual price list"
+    },
+    "cisCinnost": {
+      "mnem": 89,
+      "titl": "Activity"
+    },
+    "cisClenDph": {
+      "desc": "VAT category dictates placement of document values in the VAT return. (Key F2)",
+      "mnem": 86,
+      "titl": "VAT Categories"
+    },
+    "cisClenKonVykDph": {
+      "mnem": 0,
+      "titl": "Lines of VAT control report"
+    },
+    "cisDphPren": {
+      "desc": "Tax statement per §92a Law on VAT",
+      "mnem": 87,
+      "titl": "List of goods with VAT transfer regime"
+    },
+    "cisElBanFormaty": {
+      "titl": "Bank formats"
+    },
+    "cisKlic": {
+      "titl": "Tags"
+    },
+    "cisKonSym": {
+      "mnem": 83,
+      "titl": "Constant symbols"
+    },
+    "cisKurzy": {
+      "mnem": 69,
+      "titl": "Exchange rates"
+    },
+    "cisKurzyCen": {
+      "mnem": 88,
+      "titl": "Exchange rate for pricing"
+    },
+    "cisKurzyIntr": {
+      "mnem": 88,
+      "titl": "Exchange rate for Intrastat"
+    },
+    "cisKurzyPreceneni": {
+      "titl": "Exchange rates for revaluation"
+    },
+    "cisLokCis": {
+      "titl": "Localized codes"
+    },
+    "cisMeny": {
+      "mnem": 76,
+      "titl": "List of currencies"
+    },
+    "cisMj": {
+      "mnem": 85,
+      "titl": "Measuring units"
+    },
+    "cisOsoby": {
+      "mnem": 80,
+      "titl": "Persons and users"
+    },
+    "cisPsc": {
+      "mnem": 68,
+      "titl": "Post codes"
+    },
+    "cisSkupVybKlic": {
+      "mnem": 0,
+      "titl": "Tag groups"
+    },
+    "cisSmerKod": {
+      "mnem": 66,
+      "titl": "Banks"
+    },
+    "cisStaty": {
+      "mnem": 79,
+      "titl": "Countries"
+    },
+    "cisStavZak": {
+      "mnem": 83,
+      "titl": "Project status"
+    },
+    "cisStr": {
+      "mnem": 67,
+      "titl": "Centre"
+    },
+    "cisTexDok": {
+      "titl": "Help texts for document"
+    },
+    "cisTexty": {
+      "mnem": 80,
+      "titl": "Predefined texts"
+    },
+    "cisTypUcOp": {
+      "icon": "win/predpis.png",
+      "mnem": 71,
+      "titl": "Account mapping"
+    },
+    "cisTypUcOpBan": {
+      "icon": "win/predpis.png",
+      "mnem": 66,
+      "titl": "Account mapping - bank documents"
+    },
+    "cisTypUcOpFap": {
+      "icon": "win/predpis.png",
+      "mnem": 73,
+      "titl": "Account mapping - invoices in"
+    },
+    "cisTypUcOpFav": {
+      "icon": "win/predpis.png",
+      "mnem": 79,
+      "titl": "Account mapping - invoices out"
+    },
+    "cisTypUcOpInt": {
+      "icon": "win/predpis.png",
+      "mnem": 73,
+      "titl": "Account mapping - internal documents"
+    },
+    "cisTypUcOpPhl": {
+      "icon": "win/predpis.png",
+      "mnem": 79,
+      "titl": "Account mapping - other receivables"
+    },
+    "cisTypUcOpPok": {
+      "icon": "win/predpis.png",
+      "mnem": 86,
+      "titl": "Account mapping - cash vouchers"
+    },
+    "cisTypUcOpSkl": {
+      "icon": "win/predpis.png",
+      "mnem": 73,
+      "titl": "Account mapping - stock"
+    },
+    "cisTypUcOpZav": {
+      "icon": "win/predpis.png",
+      "mnem": 66,
+      "titl": "Account mapping - other liabilites"
+    },
+    "cisTypZak": {
+      "mnem": 79,
+      "titl": "Project types"
+    },
+    "cisUceRoz": {
+      "mnem": 77,
+      "titl": "Mandatory chart of accounts"
+    },
+    "cisVazbyMj": {
+      "titl": "Link units"
+    },
+    "cisVybKlice": {
+      "mnem": 84,
+      "titl": "Tags"
+    },
+    "cisVyhZak": {
+      "mnem": 69,
+      "titl": "Project evaluation"
+    },
+    "cisZak": {
+      "desc": "List of orders. Each document can contains link to order. You can analyze costs of concrete order with standard summaries.",
+      "icon": "win/zakazky.png",
+      "mnem": 67,
+      "titl": "Contract"
+    },
+    "cisZakNehotov": {
+      "desc": "Orders - not showing finished",
+      "titl": "Orders (unfinished)"
+    },
+    "cisZakazky": {
+      "icon": "win/folder.png",
+      "mnem": 80,
+      "titl": "Projects"
+    },
+    "cisloBal": {
+      "titl": "Package numbers"
+    },
+    "customButton": {
+      "titl": "Custom button"
+    },
+    "dashboard": {
+      "icon": "win/dashboard-vlastni.png",
+      "titl": "Overview"
+    },
+    "dashboard-konkretni": {
+      "icon": "win/dashboard-vlastni-konkretni.png",
+      "titl": "Overview"
+    },
+    "dashboard000": {
+      "icon": "win/dashboard.png",
+      "mnem": 79,
+      "titl": "Overviews"
+    },
+    "dashboard000-konkretni": {
+      "icon": "win/dashboard-konkretni.png",
+      "titl": "Overviews"
+    },
+    "dashboardPanel": {
+      "icon": "win/folder.png",
+      "titl": "Dashboard management"
+    },
+    "dashboardSharing": {
+      "titl": "Dashboard sharing"
+    },
+    "desktop000": {
+      "titl": "Working area"
+    },
+    "diskUsage": {
+      "mnem": 75,
+      "titl": "Disk usage"
+    },
+    "doklFakBezModulu": {
+      "titl": "Receivables/liabilities"
+    },
+    "doklFakUhrady": {
+      "titl": "Receipts to be paid"
+    },
+    "doklIntBezModulu": {
+      "titl": "Bank / cash / internal document"
+    },
+    "dokladView": {
+      "titl": "Overview of all documents"
+    },
+    "dotaz": {
+      "mnem": 81,
+      "titl": "User queries"
+    },
+    "dotazParam": {
+      "titl": "Parameters"
+    },
+    "dotazProp": {
+      "titl": "Properties"
+    },
+    "dotazView": {
+      "titl": "User query"
+    },
+    "eetKom": {
+      "titl": "EET communication"
+    },
+    "eetKomView": {
+      "mnem": 78,
+      "titl": "EET communication"
+    },
+    "elInkaso": {
+      "desc": "Definition of inkaso instruction from list of issued invoices and receivables with possibility of modification. Application supports the export of instructions to most Czech banking instituitions.",
+      "icon": "win/prehled.png",
+      "mnem": 78,
+      "titl": "Inkaso instruction"
+    },
+    "elInkasoFak": {
+      "titl": "Selection of documents to be paid"
+    },
+    "elInkasoPol": {
+      "titl": "Inkaso item"
+    },
+    "elPrikaz": {
+      "desc": "Definition payment order from list of invoices in wit possibility his addition. Program support export payment order into most of banks electronical formats .",
+      "icon": "win/prehled.png",
+      "mnem": 87,
+      "titl": "Wire instruction"
+    },
+    "elPrikazFak": {
+      "titl": "Selection of documents to be paid"
+    },
+    "elPrikazPol": {
+      "titl": "Elements of wire instruction"
+    },
+    "externalId": {
+      "titl": "External identifiers"
+    },
+    "fapAkt": {
+      "desc": "Invoices in update in set accounting period. Invoicing from the stock automatically creates receipt cards. Button \"Services\" enables print of current invoice, gives overal information about supplier and creates cash settlement.",
+      "icon": "win/fak-prijate.png",
+      "mnem": 73,
+      "titl": "Incoming invoices"
+    },
+    "fapAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Receive new invoice"
+    },
+    "fapNonPaged": {
+      "titl": "Invoices in"
+    },
+    "fapPol": {
+      "desc": "Overal overview of all invoice items. With help of standard filtration you create invoice items overviews or you can look for item groups according to entered criterions independently of documents. Example of use: You want to see, which companies invoiced you for concrete goods during the two last moths.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 73,
+      "titl": "Items of incoming invoices"
+    },
+    "fapProtiUcty": {
+      "titl": "Recieved contra accounts"
+    },
+    "fapRady": {
+      "desc": "Document series setting for invoices in update.",
+      "icon": "win/numbers.png",
+      "mnem": 73,
+      "titl": "Num. series - Invoice"
+    },
+    "fapTyp": {
+      "icon": "win/typ-prijata-faktura.png",
+      "mnem": 73,
+      "titl": "Incoming invoices types"
+    },
+    "favAkt": {
+      "desc": "Invoices out update in set accounting period. Invoicing from the stock automatically creates issue cards. Button \"Services\" enables print of current invoice, gives overal information about customer and creates cash settlement.",
+      "icon": "win/fak-vydane.png",
+      "mnem": 73,
+      "titl": "Outgoing Invoices"
+    },
+    "favAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Add new outgoing invoice"
+    },
+    "favArch": {
+      "titl": "e"
+    },
+    "favNonPaged": {
+      "titl": "Invoices out"
+    },
+    "favPol": {
+      "desc": "Overall overview of all invoice items. With help of standard filtration you can create invoice items overviews or you can search item groups by entered criterions independently on documents. Usage exmaple: You want to see which companies you have invoiced for concrete goods during the last two months.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 73,
+      "titl": "Invoice items"
+    },
+    "favProdPlat": {
+      "desc": "Payment of documents in cash register.",
+      "titl": "Payment"
+    },
+    "favProdejky": {
+      "desc": "Money box is designed for cash sale. It is the most simplified form of sales receipt. Once a day you upload sales to the cash desk, which is attached to the money box. Link is defined in the list of money boxes.",
+      "icon": "win/pokladna.png",
+      "mnem": 72,
+      "titl": "Cash invoices"
+    },
+    "favRady": {
+      "desc": "Document series setting for invoices out update.",
+      "icon": "win/numbers.png",
+      "mnem": 73,
+      "titl": "Num. series - Invoice"
+    },
+    "favTyp": {
+      "desc": "Invoices out types enables to set basic parameters. These are: bringing to book, payment method, document series...",
+      "icon": "win/typ-vydana-faktura.png",
+      "mnem": 73,
+      "titl": "Outgoing invoices types"
+    },
+    "favTypProdejky": {
+      "icon": "win/typ-vydana-faktura.png",
+      "mnem": 67,
+      "titl": "Cash invoice types"
+    },
+    "favUpo": {
+      "titl": "Payment reminders"
+    },
+    "filtry": {
+      "titl": "User filters"
+    },
+    "firma000": {
+      "mnem": 67,
+      "titl": "Company"
+    },
+    "formaDopravy": {
+      "mnem": 0,
+      "titl": "Forms of transport"
+    },
+    "formaUhrCis": {
+      "icon": "win/folder.png",
+      "mnem": 70,
+      "titl": "Form of payment"
+    },
+    "formaUhrZauc": {
+      "titl": "Posting forms of payment"
+    },
+    "gdpr000": {
+      "mnem": 71,
+      "titl": "GDPR"
+    },
+    "importExcel": {
+      "mnem": 73,
+      "titl": "Import from Excel"
+    },
+    "importIsDoc": {
+      "mnem": 69,
+      "titl": "Import e-invoice ISDOC"
+    },
+    "importLicense": {
+      "mnem": 73,
+      "titl": "Import license"
+    },
+    "importXml": {
+      "mnem": 88,
+      "titl": "Import from XML"
+    },
+    "initFirmaWiz": {
+      "mnem": 73,
+      "titl": "Initialize company"
+    },
+    "insight": {
+      "titl": "Insight"
+    },
+    "intDokl": {
+      "desc": "Actualization and creation of internal accounting documents in set accounting period.",
+      "icon": "win/int-dok.png",
+      "mnem": 68,
+      "titl": "Internal documents"
+    },
+    "intDoklNovy": {
+      "icon": "win/plus.png",
+      "titl": "New internal document"
+    },
+    "intPol": {
+      "mnem": 73,
+      "titl": "Internal document items"
+    },
+    "intRady": {
+      "desc": "Numerical rows setting for actualization of internal documents.",
+      "icon": "win/numbers.png",
+      "mnem": 73,
+      "titl": "Num. series - internal documents"
+    },
+    "intTyp": {
+      "desc": "Internal document types enable to set basic parameters. Those are bringing to book, document series...",
+      "icon": "win/typ-interni-doklad.png",
+      "mnem": 68,
+      "titl": "Internal document types"
+    },
+    "interObch": {
+      "mnem": 79,
+      "titl": "eShops"
+    },
+    "intrDodPodm": {
+      "mnem": 68,
+      "titl": "Delivery terms"
+    },
+    "intrDruhDopr": {
+      "mnem": 84,
+      "titl": "Form of transport"
+    },
+    "intrKrajUrc": {
+      "mnem": 82,
+      "titl": "Place of origin"
+    },
+    "intrMerJed": {
+      "mnem": 77,
+      "titl": "Units of measure"
+    },
+    "intrNomenkla": {
+      "mnem": 78,
+      "titl": "Nomenclature codes"
+    },
+    "intrObchTrans": {
+      "mnem": 66,
+      "titl": "Business transaction"
+    },
+    "intrVystupy": {
+      "titl": "Outputs"
+    },
+    "intrZvlPoh": {
+      "mnem": 83,
+      "titl": "Special movements"
+    },
+    "intrastatPol": {
+      "titl": "Items entering the Intrastat"
+    },
+    "intrastatRadka": {
+      "titl": "Intrastat lines"
+    },
+    "intrastatWizard": {
+      "icon": "win/logs.png",
+      "mnem": 71,
+      "titl": "Generate Intrastat"
+    },
+    "koupitLicenci": {
+      "titl": "ABRA Flexi"
+    },
+    "koupitWinStrom": {
+      "mnem": 66,
+      "titl": "Buy licence"
+    },
+    "kusovnik": {
+      "titl": "Bill of materials"
+    },
+    "licence": {
+      "mnem": 76,
+      "titl": "Application license"
+    },
+    "loginDialog000": {
+      "titl": "Log in to application"
+    },
+    "majAkt": {
+      "titl": "Property"
+    },
+    "majBwithE": {
+      "desc": "Updates of long-term, small and nondepreciative property.",
+      "titl": "Property"
+    },
+    "majDanNakl": {
+      "titl": "Tax-deductible"
+    },
+    "majDanOdpisy": {
+      "titl": "Tax depreciation"
+    },
+    "majExternalId": {
+      "titl": "External ID for Property"
+    },
+    "majLeasing": {
+      "desc": "Leasing property update, definition schedule of payments and creating accounting costs. By generation schedule of payments are automatically created debts in accounting module.",
+      "icon": "win/leas.png",
+      "mnem": 76,
+      "titl": "Leasing"
+    },
+    "majLeasingNovy": {
+      "icon": "win/plus.png",
+      "titl": "Add new leasing"
+    },
+    "majMajetek": {
+      "desc": "Fixed assets, low-values fixed assets and not depreicable assets update. Depreicable assets card contain tax depreciations, account depreciation, events and registrations loans and responsible persons. You can stop depreciations anytime. You can modify depreications period during the property life.",
+      "icon": "win/maj.png",
+      "mnem": 79,
+      "titl": "Property"
+    },
+    "majMajetekNovy": {
+      "icon": "win/plus.png",
+      "titl": "Add new property"
+    },
+    "majSazby": {
+      "desc": "Groups of depreciation rates contain standard values defined by current legislation. You can insert your specific depreciation rates.",
+      "icon": "win/folder.png",
+      "mnem": 68,
+      "titl": "Types of depreciation"
+    },
+    "majSku": {
+      "titl": "Depreciatiion groups"
+    },
+    "majSplatKal": {
+      "titl": "Installmet plan"
+    },
+    "majStavKDatu": {
+      "titl": "Balance of assets by date"
+    },
+    "majStavKDatuWizard": {
+      "titl": "Balance of assets by date"
+    },
+    "majTypLeas": {
+      "desc": "Leasing property types enables the classfication of property into groups with advanced definition.",
+      "icon": "win/typ-leasing.png",
+      "mnem": 76,
+      "titl": "Types of leasing"
+    },
+    "majTypMaj": {
+      "desc": "Property types enables the classfication of property into groups with advanced definition. Use of groups simplifies choice and delivers greater trnasparency.",
+      "icon": "win/typ-majetek.png",
+      "mnem": 79,
+      "titl": "Types of property"
+    },
+    "majUcel": {
+      "titl": "Purposes"
+    },
+    "majUcetOdpisy": {
+      "titl": "Accounting depreciation"
+    },
+    "majUdalosti": {
+      "titl": "Events"
+    },
+    "majUmisteni": {
+      "desc": "Location of property pre-defined with 3 categories - building, section and room.",
+      "icon": "win/folder.png",
+      "mnem": 67,
+      "titl": "Location"
+    },
+    "majZapujcky": {
+      "titl": "Loans"
+    },
+    "majetek000": {
+      "icon": "win/majetek.png",
+      "mnem": 83,
+      "titl": "Assets"
+    },
+    "majetekTypy": {
+      "mnem": 84,
+      "titl": "Types"
+    },
+    "migraceFirem": {
+      "titl": "Companies migration from XML files"
+    },
+    "migraceS3": {
+      "mnem": 77,
+      "titl": "Migration of agenda from Money S3"
+    },
+    "mzdyKontrolaSlozek": {
+      "mnem": 67,
+      "titl": "Check of wage components"
+    },
+    "nCiselniky": {
+      "mnem": 65,
+      "titl": "Catalogs"
+    },
+    "nImport": {
+      "mnem": 73,
+      "titl": "Import"
+    },
+    "nNastav": {
+      "desc": "Basic company settings, company data, logo and stamp, legislative parameters and automated operations.",
+      "mnem": 83,
+      "titl": "Settings"
+    },
+    "nUcetniObdobi": {
+      "titl": "Accounting period"
+    },
+    "nabidkaDoplnku": {
+      "mnem": 79,
+      "titl": "Add-ons offer"
+    },
+    "nakup000": {
+      "icon": "win/nakup.png",
+      "mnem": 85,
+      "titl": "Purchases"
+    },
+    "nakupRady": {
+      "icon": "win/numbers.png",
+      "mnem": 83,
+      "titl": "Series"
+    },
+    "nakupTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 65,
+      "titl": "Account mapping"
+    },
+    "nakupTypy": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Types"
+    },
+    "napoveda": {
+      "acck": 112,
+      "accm": 0,
+      "mnem": 80,
+      "titl": "Application help"
+    },
+    "nasServer": {
+      "mnem": 71,
+      "titl": "Server setting"
+    },
+    "nasSmtp": {
+      "titl": "SMTP server setting"
+    },
+    "nastav000": {
+      "mnem": 84,
+      "titl": "Tools"
+    },
+    "nastavProgram": {
+      "titl": "Application settings"
+    },
+    "nastavZurnal": {
+      "titl": "Journal setting"
+    },
+    "nastrojeKontrolaDanOdpisu": {
+      "mnem": 65,
+      "titl": "Audit of tax depreciation"
+    },
+    "nastrojePrepocet": {
+      "mnem": 82,
+      "titl": "States of accounts recalculation"
+    },
+    "nastrojePrepocetDe": {
+      "mnem": 84,
+      "titl": "States of tax record"
+    },
+    "nezDPolSkladF": {
+      "titl": "View DPolSkladF"
+    },
+    "nezFifoVazby": {
+      "titl": "FIFO Links"
+    },
+    "nezRadyDiry": {
+      "titl": "Gaps in number series"
+    },
+    "nezRadyRok": {
+      "titl": "Year items of numerical series"
+    },
+    "nezVazbyDokl": {
+      "titl": "Document links"
+    },
+    "nezVazbyPolSklad": {
+      "titl": "FIFO links of issue cards disintegartion"
+    },
+    "novaFirma": {
+      "titl": "New company"
+    },
+    "novaFirmaWiz": {
+      "mnem": 78,
+      "titl": "New company"
+    },
+    "noveSezeni": {
+      "mnem": 79,
+      "titl": "Open company in a new window"
+    },
+    "oAplikaci": {
+      "mnem": 65,
+      "titl": "About application"
+    },
+    "obchodNapDokl": {
+      "desc": "You can create received supplies manually or by copying the issued demand. By copying demand to supply you save time and you must modify just prices specified by your supplier.",
+      "icon": "win/nabidka-prijata.png",
+      "mnem": 70,
+      "titl": "Offers received"
+    },
+    "obchodNapPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 70,
+      "titl": "Offers received items"
+    },
+    "obchodNapRady": {
+      "desc": "Updates of number series for offers received.",
+      "icon": "win/numbers.png",
+      "mnem": 70,
+      "titl": "Num. series - offers received"
+    },
+    "obchodNapTyp": {
+      "icon": "win/typ-nabidka-prijata.png",
+      "mnem": 70,
+      "titl": "Offers received"
+    },
+    "obchodNavDokl": {
+      "desc": "List records all issued supplies, which were sent to your customers. It is possible to copy supply content to received order. Issued supply can be created by copying of received demand.",
+      "icon": "win/nabidka-vydana.png",
+      "mnem": 70,
+      "titl": "Offers issued"
+    },
+    "obchodNavPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 70,
+      "titl": "Offers issued items"
+    },
+    "obchodNavRady": {
+      "desc": "Updates of number series for offers issued.",
+      "icon": "win/numbers.png",
+      "mnem": 70,
+      "titl": "Num. series - offers issued"
+    },
+    "obchodNavTyp": {
+      "icon": "win/typ-nabidka-vydana.png",
+      "mnem": 70,
+      "titl": "Offers issued types"
+    },
+    "obchodObpDokl": {
+      "desc": "Received orders serve for records of requirements of your customers. Agreed sale price is mentioned in order items. By pressing one button, you can create issued invoice.",
+      "icon": "win/objednavka-prijata.png",
+      "mnem": 82,
+      "titl": "Orders received"
+    },
+    "obchodObpDoklNovy": {
+      "icon": "win/plus.png",
+      "titl": "Receive new order"
+    },
+    "obchodObpPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 82,
+      "titl": "Orders received items"
+    },
+    "obchodObpRady": {
+      "desc": "Updates of number series for orders received.",
+      "icon": "win/numbers.png",
+      "mnem": 82,
+      "titl": "Num. series - orders received"
+    },
+    "obchodObpTyp": {
+      "icon": "win/typ-objednavka-prijata.png",
+      "mnem": 82,
+      "titl": "Orders received types"
+    },
+    "obchodObvDokl": {
+      "desc": "Issued orders are similar (in content) with received orders. Only the ordering direction is opposite and prices are purchasing. It is possible to create issued order on the basis of received order. It means, that you will require from your suppliers only what your customers require.",
+      "icon": "win/objednavka-vydana.png",
+      "mnem": 82,
+      "titl": "Orders issued"
+    },
+    "obchodObvDoklNovy": {
+      "icon": "win/plus.png",
+      "titl": "Issue new order"
+    },
+    "obchodObvPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 82,
+      "titl": "Orders issued items"
+    },
+    "obchodObvRady": {
+      "desc": "Updates of number series for orders issued.",
+      "icon": "win/numbers.png",
+      "mnem": 82,
+      "titl": "Num. series - orders issued"
+    },
+    "obchodObvTyp": {
+      "icon": "win/typ-objednavka-vydana.png",
+      "mnem": 82,
+      "titl": "Issued orders types"
+    },
+    "obchodPppDokl": {
+      "desc": "Received requisiitions list records all requisitions of your current or potential customers. It is possible to copy one's requisition's content to issued supply or directly to received order.",
+      "icon": "win/poptavka-prijata.png",
+      "mnem": 68,
+      "titl": "Requisitions received"
+    },
+    "obchodPppPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 68,
+      "titl": "Requisitions received items"
+    },
+    "obchodPppRady": {
+      "desc": "Updates of number series for requisitions received.",
+      "icon": "win/numbers.png",
+      "mnem": 68,
+      "titl": "Num. series - requisitions received"
+    },
+    "obchodPppTyp": {
+      "icon": "win/typ-poptavka-prijata.png",
+      "mnem": 68,
+      "titl": "Requisitions received"
+    },
+    "obchodPpvDokl": {
+      "desc": "Issued requisitons can be created manually or by copying the received order. Here starts the reverse process (against sale), when you need to buy goods or material from your suppliers.",
+      "icon": "win/poptavka-vydana.png",
+      "mnem": 68,
+      "titl": "Requisitions issued"
+    },
+    "obchodPpvPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 68,
+      "titl": "Requisitions issued items"
+    },
+    "obchodPpvRady": {
+      "desc": "Updates of number series for requisitions issued.",
+      "icon": "win/numbers.png",
+      "mnem": 68,
+      "titl": "Num. series - Requisitions issued"
+    },
+    "obchodPpvTyp": {
+      "icon": "win/typ-poptavka-vydana.png",
+      "mnem": 68,
+      "titl": "Requisitions issued types"
+    },
+    "odpojeneFirmy": {
+      "titl": "Disconnected companies"
+    },
+    "opravSklad": {
+      "mnem": 83,
+      "titl": "Stock recalculation"
+    },
+    "osCert": {
+      "mnem": 67,
+      "titl": "Certificates"
+    },
+    "osCertEet": {
+      "titl": "EET certificates"
+    },
+    "osCertOsobni": {
+      "titl": "Personal certificates"
+    },
+    "osCertPrehled": {
+      "titl": "Certificates"
+    },
+    "parametry": {
+      "titl": "Advanced parametrization via parameters"
+    },
+    "partneri000": {
+      "icon": "win/obch-partneri.png",
+      "mnem": 66,
+      "titl": "Business partners"
+    },
+    "penize000": {
+      "icon": "win/penize.png",
+      "mnem": 77,
+      "titl": "Money"
+    },
+    "penizePolDokl": {
+      "desc": "Overview of all movements in the various lists of bank and cash modules. There are bank and cash desk items. Through standard filtering you create overviews of document items or you can search groups of movements according to set criteria, independently of documents in which the items originated.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 82,
+      "titl": "Overview of receipts"
+    },
+    "penizeRady": {
+      "icon": "win/numbers.png",
+      "mnem": 83,
+      "titl": "Series"
+    },
+    "penizeTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 79,
+      "titl": "Account mapping"
+    },
+    "penizeTypy": {
+      "icon": "win/folder.png",
+      "mnem": 68,
+      "titl": "Document type"
+    },
+    "phlAkt": {
+      "desc": "Updates and creation of receivables in set accounting period, which aren't placed in outgoing invoices. For example payment a rent regulation at your premises.",
+      "icon": "win/ostatni-pohledavky.png",
+      "mnem": 82,
+      "titl": "Other receivables"
+    },
+    "phlAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "New receivable"
+    },
+    "phlPol": {
+      "mnem": 82,
+      "titl": "Items of other receivables"
+    },
+    "phlRady": {
+      "desc": "Number series updates for receivables.",
+      "icon": "win/numbers.png",
+      "mnem": 82,
+      "titl": "Num. series - receivables"
+    },
+    "phlTyp": {
+      "desc": "#Types of other receivables enables to set basic parameters. Those are bringing to book, document series...",
+      "icon": "win/typ-ostatni-pohledavka.png",
+      "mnem": 82,
+      "titl": "Other receivables"
+    },
+    "podpora": {
+      "mnem": 85,
+      "titl": "User support"
+    },
+    "pokAkt": {
+      "desc": "Cash vouchers update in set accounting period. Button \"Services\" enables print of current document, match document with invoice, debt or obligation.",
+      "icon": "win/pokladna.png",
+      "mnem": 72,
+      "titl": "Cash desks"
+    },
+    "pokAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "New cash voucher"
+    },
+    "pokBsp": {
+      "desc": "Update of the cash desk list",
+      "icon": "win/seznam.png",
+      "mnem": 76,
+      "titl": "Cash desk list"
+    },
+    "pokDenik": {
+      "desc": "This will execute calculation and bank book print",
+      "icon": "win/logs.png",
+      "mnem": 67,
+      "titl": "Cash desk journal"
+    },
+    "pokNonPaged": {
+      "titl": "Cash desk"
+    },
+    "pokPol": {
+      "mnem": 67,
+      "titl": "Cash voucher items"
+    },
+    "pokRady": {
+      "desc": "Document series setting for Cash vouchers update.",
+      "icon": "win/numbers.png",
+      "mnem": 78,
+      "titl": "Num. series - Cash desk"
+    },
+    "pokTyp": {
+      "icon": "win/pokladna.png",
+      "mnem": 67,
+      "titl": "Cash desks types"
+    },
+    "polDoklNakupProdej": {
+      "desc": "Overviews of all movements in single lists of purchase module. Following items are concerned: received invoices, issued demands, received offers and issued orders. With help of standard filtration you can create items overviews of mentioned documents or you can search movement groups by entered criterions independently on documents in which the items were created.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 79,
+      "titl": "Document items overviews"
+    },
+    "polDoklPrehProdej": {
+      "desc": "Overviews of all movements in single lists of sale module. Following items are concerned: issued invoices, received demands, issued offers and received orders. With help of standard filtration you can create items overviews of mentioned documents or you can search movement groups by entered criterions independently on documents in which the items were created.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 79,
+      "titl": "Document items overviews"
+    },
+    "pomoc000": {
+      "mnem": 72,
+      "titl": "Help"
+    },
+    "poslatReakci": {
+      "mnem": 83,
+      "titl": "Send opinion on ABRA Flexi"
+    },
+    "pravaFirma": {
+      "titl": "Company rights"
+    },
+    "pravaServeru": {
+      "titl": "Server permissions"
+    },
+    "priloha": {
+      "titl": "Attachment"
+    },
+    "prilohaData": {
+      "titl": "Attachment data"
+    },
+    "pristPrava": {
+      "titl": "Permissions"
+    },
+    "priznaniDanPo": {
+      "icon": "win/logs-low.png",
+      "mnem": 0,
+      "titl": "Balance and Profit and Loss Statements in XML"
+    },
+    "prodej000": {
+      "icon": "win/prodej.png",
+      "mnem": 69,
+      "titl": "Sales"
+    },
+    "prodejRady": {
+      "icon": "win/numbers.png",
+      "mnem": 83,
+      "titl": "Series"
+    },
+    "prodejTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 85,
+      "titl": "Account mapping"
+    },
+    "prodejTypy": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Types"
+    },
+    "prvniSpusteni": {
+      "titl": "First launch of application"
+    },
+    "radaBezModulu": {
+      "titl": "Number series"
+    },
+    "realizujPozadavky": {
+      "mnem": 68,
+      "titl": "Update requests for withdrawal"
+    },
+    "registrovatLicenci": {
+      "titl": "ABRA Flexi Start registration"
+    },
+    "report": {
+      "mnem": 85,
+      "titl": "User reports"
+    },
+    "reportData": {
+      "titl": "Data for user reports"
+    },
+    "role": {
+      "mnem": 69,
+      "titl": "User roles"
+    },
+    "root000": {
+      "titl": "ABRA Flexi"
+    },
+    "sablonaMail": {
+      "mnem": 77,
+      "titl": "User email templates"
+    },
+    "scanner": {
+      "titl": "Entering of amount of EAN codes"
+    },
+    "servIntr": {
+      "mnem": 73,
+      "titl": "Intrastat"
+    },
+    "settings": {
+      "titl": "Settings store"
+    },
+    "settingsAll": {
+      "titl": "Global settings repository"
+    },
+    "sklAkt": {
+      "desc": "Stock cards creation and theirs update. Stock list contains basic parameters for documents posting.",
+      "icon": "win/prijem-vydej.png",
+      "mnem": 83,
+      "titl": "Warehouse"
+    },
+    "sklAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Make out a receipt card/withdrawal card"
+    },
+    "sklArch": {
+      "titl": "Archive"
+    },
+    "sklBsp": {
+      "icon": "win/seznam.png",
+      "mnem": 76,
+      "titl": "Warehouse list"
+    },
+    "sklInventura": {
+      "icon": "win/computation.png",
+      "mnem": 86,
+      "titl": "Inventory"
+    },
+    "sklInventuraPol": {
+      "titl": "Inventory items"
+    },
+    "sklKar": {
+      "desc": "Stock cards are created in price list. You will create price list item and define goods or material placement in the stocks. Here you can find overviews of stock level and movements on cards including well-arranged reports.",
+      "icon": "win/skladove-karty.png",
+      "mnem": 66,
+      "titl": "Warehouse balance"
+    },
+    "sklMapSklad": {
+      "desc": "This sets priorities of stocks use",
+      "icon": "win/folder.png",
+      "mnem": 87,
+      "titl": "Warehouse mapping"
+    },
+    "sklPol": {
+      "desc": "Summary of all stock movements. With help of standard filtration you can make stock items overviews or you can seek a groups of movements by entered criterions independently of stock cards or documents.",
+      "titl": "Receipt card//withdrawal card items"
+    },
+    "sklPolPrehled": {
+      "desc": "Summary of all stock movements. With help of standard filtration you can make stock items overviews or you can seek a groups of movements by entered criterions independently of stock cards or documents.",
+      "icon": "win/skladove-pohyby.png",
+      "mnem": 77,
+      "titl": "Stock movements - overview"
+    },
+    "sklProtiUcty": {
+      "titl": "Contra accounts stock"
+    },
+    "sklRady": {
+      "desc": "Document series setting for receipt/issue card update.",
+      "icon": "win/numbers.png",
+      "mnem": 82,
+      "titl": "Num. series - stock"
+    },
+    "sklRezervace": {
+      "icon": "win/rezervace.png",
+      "mnem": 79,
+      "titl": "Posting"
+    },
+    "sklSarzeExpiracebezVC": {
+      "titl": "Batch and expiration"
+    },
+    "sklTyp": {
+      "icon": "win/seznam.png",
+      "mnem": 72,
+      "titl": "Warehouse types"
+    },
+    "sklUmisteni": {
+      "icon": "win/folder.png",
+      "mnem": 65,
+      "titl": "Location in warehouse"
+    },
+    "sklVyrCis": {
+      "desc": "List of serial numbers",
+      "icon": "win/generate.png",
+      "mnem": 69,
+      "titl": "Serial numbers"
+    },
+    "sklVyrCisHlav": {
+      "titl": "Heading of serial numbers"
+    },
+    "sklVyrCisHlavView": {
+      "desc": "Overview of serial numbers",
+      "icon": "win/logs.png",
+      "mnem": 78,
+      "titl": "Serial numbers"
+    },
+    "sklVyrCisView": {
+      "desc": "Overview of documents of serial numbers",
+      "icon": "win/logs.png",
+      "titl": "Documents of serial numbers"
+    },
+    "sklVyrCisVyb": {
+      "desc": "Selection of serial numbers",
+      "icon": "win/generate.png",
+      "titl": "Selection of serial numbers"
+    },
+    "skonto": {
+      "titl": "Skonto"
+    },
+    "souKonec": {
+      "mnem": 88,
+      "titl": "Exit application"
+    },
+    "startVerzeDialog": {
+      "titl": "ABRA Flexi"
+    },
+    "stavDoklObchCis": {
+      "icon": "win/folder.png",
+      "titl": "Business document status"
+    },
+    "stavSkl": {
+      "titl": "Stock status to date"
+    },
+    "stavSklWizard": {
+      "desc": "An overview of the status of all items in the pricelist with their quantity on a particular stock to the specified date.",
+      "icon": "win/computation.png",
+      "mnem": 85,
+      "titl": "Stock status to date"
+    },
+    "strom": {
+      "titl": "Tree"
+    },
+    "test000": {
+      "titl": "* TEST *"
+    },
+    "twoPhaseAuth": {
+      "titl": "Two-step verification"
+    },
+    "typDoklBezModulu": {
+      "titl": "Document types"
+    },
+    "typSazbyDph": {
+      "titl": "Type of VAT rate"
+    },
+    "uSazbyDph": {
+      "mnem": 65,
+      "titl": "VAT rates"
+    },
+    "uSesRadky": {
+      "titl": "List row"
+    },
+    "uSesRozpadUce": {
+      "titl": "List rows disintegration to accounts"
+    },
+    "uSesStdPred": {
+      "titl": "Standard list regulation"
+    },
+    "uSesSumace": {
+      "titl": "Summation in lists"
+    },
+    "uSesUzivPred": {
+      "titl": "List regulation"
+    },
+    "uSestavy": {
+      "desc": "Users reports seting and calculation. Function enables to you definition sever accounting report, setting accounts placement a value and activate calculation for range of months.",
+      "icon": "win/seznam.png",
+      "mnem": 76,
+      "titl": "List of user's reports"
+    },
+    "uUzaverka": {
+      "mnem": 80,
+      "titl": "Period closing"
+    },
+    "ucDanEvid": {
+      "titl": "Tax record"
+    },
+    "ucDoklObrat": {
+      "titl": "Turnovers"
+    },
+    "ucDoklUcty": {
+      "desc": "Update of chart of accounts and properties setting of standard balance sheet and profit and lost account.",
+      "icon": "win/folder.png",
+      "mnem": 67,
+      "titl": "Chart of accounts"
+    },
+    "ucPocObraty": {
+      "icon": "win/folder.png",
+      "mnem": 65,
+      "titl": "Account opening balances"
+    },
+    "ucTypOrg": {
+      "titl": "Organization types"
+    },
+    "ucetniVystup000": {
+      "icon": "win/logs.png",
+      "mnem": 69,
+      "titl": "Reports"
+    },
+    "ucetnictvi000": {
+      "icon": "win/ucetnictvi.png",
+      "mnem": 65,
+      "titl": "Accounting"
+    },
+    "ucetnictviPolDokl": {
+      "desc": "Overview of all movements in the various lists of internal receipts, other receivables and liabilities. There are items of already mentioned receipts. Through standard filtering you create overviews of receipt items of the documents or you can search groups of movements according to set criteria independently of receipts in which the items originated.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 73,
+      "titl": "Overview of document items"
+    },
+    "ucetnictviRady": {
+      "icon": "win/numbers.png",
+      "mnem": 83,
+      "titl": "Num. series"
+    },
+    "ucetnictviTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 85,
+      "titl": "Account mapping"
+    },
+    "ucetnictviTypy": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Types"
+    },
+    "uctovnaUzaverka": {
+      "icon": "win/logs-low.png",
+      "mnem": 70,
+      "titl": "Financial statements"
+    },
+    "ulozenePriznaniDph": {
+      "icon": "win/logs-low.png"
+    },
+    "upominky": {
+      "mnem": 78,
+      "titl": "Payment reminders"
+    },
+    "uzel": {
+      "titl": "Tree node"
+    },
+    "uzivPristup": {
+      "titl": "Rights to view data"
+    },
+    "vazUzel": {
+      "titl": "Node to object link"
+    },
+    "vazbaTyp": {
+      "icon": "win/folder.png",
+      "mnem": 75,
+      "titl": "Types of user links"
+    },
+    "vazbaUziv": {
+      "titl": "User links"
+    },
+    "vazbaUzivView": {
+      "titl": "Named records"
+    },
+    "vyberFirmy": {
+      "titl": "Company selection"
+    },
+    "vyberFirmyAction": {
+      "mnem": 67,
+      "titl": "Change company"
+    },
+    "vykazAnalyzaZakazky": {
+      "icon": "win/logs.png",
+      "mnem": 89,
+      "titl": "Order accounting analysis"
+    },
+    "vykazCashflow": {
+      "icon": "win/logs-low.png",
+      "mnem": 87,
+      "titl": "Cash flow overview"
+    },
+    "vykazCenPohyby": {
+      "mnem": 80,
+      "titl": "Purchasing, sales and warehouse movements"
+    },
+    "vykazDanEvid": {
+      "titl": "Tax evidence report"
+    },
+    "vykazDanEvidWizard": {
+      "icon": "win/logs.png",
+      "mnem": 88,
+      "titl": "Tax evidence report"
+    },
+    "vykazDanEvidWizard_SK": {
+      "titl": "Simple accounting statement"
+    },
+    "vykazDanEvid_SK": {
+      "titl": "Simple accounting statement"
+    },
+    "vykazEkokom": {
+      "icon": "win/logs.png",
+      "titl": "Data of EKO-KOM packaging"
+    },
+    "vykazEkokomWizard": {
+      "icon": "win/logs.png",
+      "titl": "Data of EKO-KOM packaging"
+    },
+    "vykazHlavniKniha": {
+      "icon": "win/logs-low.png",
+      "mnem": 65,
+      "titl": "General ledger"
+    },
+    "vykazKonVykDph": {
+      "icon": "win/logs.png",
+      "titl": "VAT control report"
+    },
+    "vykazKonVykDphWizard": {
+      "icon": "win/logs.png",
+      "mnem": 67,
+      "titl": "VAT control report"
+    },
+    "vykazMoss": {
+      "icon": "win/logs.png",
+      "titl": "MOSS tax return"
+    },
+    "vykazMossWizard": {
+      "icon": "win/logs.png",
+      "mnem": 85,
+      "titl": "MOSS tax return"
+    },
+    "vykazObratPolozkaView": {
+      "icon": "win/logs.png",
+      "titl": "Turnover items"
+    },
+    "vykazObratovaPredvaha": {
+      "titl": "Trial balance"
+    },
+    "vykazObratovaPredvahaWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 84,
+      "titl": "Trial balance"
+    },
+    "vykazOss": {
+      "icon": "win/logs.png",
+      "titl": "OSS tax return"
+    },
+    "vykazOssWizard": {
+      "icon": "win/logs.png",
+      "mnem": 79,
+      "titl": "OSS tax return"
+    },
+    "vykazPoSplatnostiWizard": {
+      "icon": "win/logs.png",
+      "mnem": 78,
+      "titl": "Aging report"
+    },
+    "vykazPodkladyDph": {
+      "titl": "Documents VAT"
+    },
+    "vykazPodkladyDphWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 68,
+      "titl": "Documents VAT"
+    },
+    "vykazPohybyNaUctech": {
+      "titl": "Account movements"
+    },
+    "vykazPohybyNaUctechWizard": {
+      "icon": "win/logs.png",
+      "mnem": 77,
+      "titl": "Account movements"
+    },
+    "vykazPolozkyFaktur": {
+      "titl": "Sales analysis"
+    },
+    "vykazPolozkyFakturOdberatelZbozi": {
+      "titl": "Sales analysis - Goods movements per company"
+    },
+    "vykazPolozkyFakturVlastni": {
+      "titl": "Sales analysis - Custom"
+    },
+    "vykazPolozkyFakturWizard": {
+      "desc": "Sale analysis will help you to provide following information: Turnover and business margin (income) by customers / groups of cust. / sold goods / groups of goods / centres etc. (entry is in roller list \"What do you want to analyse\"). You can also enter another more detailed classification (entry is in next list \"What will be next classification\") again by selected attributes. Result can be for example analysis of sale to individual companies with detailed classification of which goods which company has taken. You analyse everything in given time range.",
+      "icon": "win/prehled.png",
+      "mnem": 65,
+      "titl": "Sales analysis"
+    },
+    "vykazPolozkyFakturZboziOdberatele": {
+      "titl": "Sales analysis - Sales to companies by goods"
+    },
+    "vykazPolozkyFakturZiskOdberatele": {
+      "titl": "Sales analysis - Sales to companies"
+    },
+    "vykazPolozkyFakturZiskSkupinyCen": {
+      "titl": "Analysis of sales - turnover of price groups"
+    },
+    "vykazPolozkyFakturZiskSkupinyFirem": {
+      "titl": "Sales analysis - Turnover company groups"
+    },
+    "vykazPolozkyFakturZiskZbozi": {
+      "titl": "Sales analysis - Goods movements"
+    },
+    "vykazPrenDph": {
+      "titl": "Evidence per §92a"
+    },
+    "vykazPrenDphWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 69,
+      "titl": "Evidence per §92a"
+    },
+    "vykazPriznaniDph": {
+      "icon": "win/logs-low.png",
+      "mnem": 86,
+      "titl": "VAT return"
+    },
+    "vykazRadekPriznaniDph": {
+      "icon": "win/logs-low.png",
+      "titl": "VAT return saved rows"
+    },
+    "vykazRadekPriznaniOss": {
+      "icon": "win/logs-low.png",
+      "titl": "Saved OSS return lines"
+    },
+    "vykazRozvaha": {
+      "icon": "win/logs-low.png",
+      "mnem": 72,
+      "titl": "Czech balance sheet"
+    },
+    "vykazRozvahaPoUctech": {
+      "icon": "win/logs-low.png",
+      "mnem": 76,
+      "titl": "Assets and liabilities schedule"
+    },
+    "vykazSaldo": {
+      "titl": "Control account balances"
+    },
+    "vykazSaldoKdatu": {
+      "titl": "Payment status as at"
+    },
+    "vykazSaldoKdatuWizard": {
+      "titl": "Calculation of payment balance as at"
+    },
+    "vykazSaldoWizard": {
+      "icon": "win/logs.png",
+      "mnem": 66,
+      "titl": "Control account balances"
+    },
+    "vykazSouhrnneHlaseni": {
+      "titl": "EU VAT aggregate report"
+    },
+    "vykazSouhrnneHlaseniWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 82,
+      "titl": "EU VAT aggregate report"
+    },
+    "vykazStavyUctu": {
+      "titl": "Account balances"
+    },
+    "vykazStavyUctuWizard": {
+      "icon": "win/logs.png",
+      "mnem": 83,
+      "titl": "Account balances"
+    },
+    "vykazUcetniDenik": {
+      "titl": "Journal"
+    },
+    "vykazUcetniDenikWizard": {
+      "icon": "win/logs.png",
+      "mnem": 74,
+      "titl": "Journal"
+    },
+    "vykazUcetniDenikZjednoduseny": {
+      "icon": "win/logs.png",
+      "titl": "Accounting logbook - simplified"
+    },
+    "vykazVazbyDokladu": {
+      "titl": "Established documents"
+    },
+    "vykazVykazHospodareni": {
+      "icon": "win/logs-low.png",
+      "mnem": 80,
+      "titl": "Sales report by month"
+    },
+    "vykazVysledovka": {
+      "icon": "win/logs-low.png",
+      "mnem": 90,
+      "titl": "Czech statement of income"
+    },
+    "vykazVysledovkaPoUctech": {
+      "icon": "win/logs-low.png",
+      "mnem": 73,
+      "titl": "Expenses and gains schedule"
+    },
+    "wDefiniceUcelu": {
+      "mnem": 68,
+      "titl": "Definition of purpose"
+    },
+    "wLocks": {
+      "titl": "Record locks"
+    },
+    "wPozadavek": {
+      "mnem": 82,
+      "titl": "Requirements"
+    },
+    "wSubjekt": {
+      "titl": "Subject"
+    },
+    "wUcel": {
+      "mnem": 80,
+      "titl": "Purposes"
+    },
+    "wUcelLog": {
+      "titl": "List of purposes"
+    },
+    "weboveRozhrani": {
+      "mnem": 87,
+      "titl": "Web interface"
+    },
+    "xslt": {
+      "mnem": 70,
+      "titl": "User transformation"
+    },
+    "zalohaDB": {
+      "desc": "Backup of data on local pc. Backups can be restored also to ABRA Flexi installation.",
+      "mnem": 66,
+      "titl": "Backup company"
+    },
+    "zamestnanc000": {
+      "icon": "win/zamestnanci.png",
+      "mnem": 80,
+      "titl": "Employees"
+    },
+    "zamky": {
+      "mnem": 69,
+      "titl": "Period locking"
+    },
+    "zarizeniKom": {
+      "mnem": 88,
+      "titl": "Communication with ext. device"
+    },
+    "zastupnosti": {
+      "mnem": 89,
+      "titl": "Substitutability"
+    },
+    "zavAkt": {
+      "desc": "Updates and creation of obligations in set accounting period, which aren't placed in invoices in. For example leasing, rent etc.",
+      "icon": "win/ostatni-zavazky.png",
+      "mnem": 79,
+      "titl": "Other liabilities"
+    },
+    "zavAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "New liability"
+    },
+    "zavPol": {
+      "mnem": 76,
+      "titl": "Items of other liabilities"
+    },
+    "zavRady": {
+      "desc": "Number series updates for obligations.",
+      "icon": "win/numbers.png",
+      "mnem": 78,
+      "titl": "Num. series - liabilities"
+    },
+    "zavTyp": {
+      "desc": "Other liability types enables to set basic parameters. Those are posting document series...",
+      "icon": "win/typ-ostatni-zavazky.png",
+      "mnem": 79,
+      "titl": "Other liabilities types"
+    },
+    "zbozi000": {
+      "icon": "win/zbozi.png",
+      "mnem": 87,
+      "titl": "Warehouse"
+    },
+    "zmenEmail": {
+      "titl": "Change registration email"
+    },
+    "zmenHeslo": {
+      "mnem": 72,
+      "titl": "Change password"
+    },
+    "zmenaParFirmy": {
+      "titl": "Company parameters"
+    },
+    "zmenaUcetniObdobi000": {
+      "mnem": 80,
+      "titl": "Change accounting period"
+    },
+    "zodpOsoba": {
+      "titl": "Responsible person"
+    },
+    "zurnal": {
+      "titl": "Journal"
+    }
+  }
+}

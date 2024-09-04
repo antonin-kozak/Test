@@ -1,0 +1,2600 @@
+{
+  "actions": {
+    "activate": {
+      "icon": "win/save.png",
+      "titl": "Aktivácia stránky"
+    },
+    "add": {
+      "acck": 80,
+      "accm": 2,
+      "desc": "Pridať nový záznam (skratka Alt+P)",
+      "icon": "win/new.png",
+      "mnem": 80,
+      "titl": "Pridať"
+    },
+    "aktualizujManyToMany": {
+      "titl": "Pridať/odobrať"
+    },
+    "bottom": {
+      "desc": "Najnižšia priorita pre vybrané pole",
+      "icon": "win/arrow-bottom.png",
+      "titl": "B"
+    },
+    "cancel": {
+      "titl": "Zrušiť"
+    },
+    "choose": {
+      "desc": "Potvrdí výber aktuálne označeného záznamu",
+      "icon": "empty.png",
+      "titl": "Zvoliť"
+    },
+    "clearField": {
+      "icon": "erase.png",
+      "titl": "Vymazať pole"
+    },
+    "close": {
+      "acck": 67,
+      "accm": 2,
+      "desc": "Zatvoriť",
+      "icon": "empty.png",
+      "mnem": 90,
+      "titl": "Zatvoriť"
+    },
+    "columnSelection": {
+      "desc": "Výber zobrazených stĺpcov a ich poradie",
+      "icon": "empty.png",
+      "titl": "Výber stĺpcov"
+    },
+    "contextHelp": {
+      "desc": "Kontextová nápoveda",
+      "icon": "win/contexthelp.png",
+      "titl": "Nápoveda"
+    },
+    "deactivate": {
+      "icon": "win/erase.png",
+      "titl": "Deaktivácia stránky"
+    },
+    "delete": {
+      "acck": 127,
+      "accm": 0,
+      "desc": "Zmazať vybraný záznam (skratka DEL)",
+      "icon": "win/erase.png",
+      "titl": "Zmazať"
+    },
+    "deselectAll": {
+      "titl": "Odznačit všetko"
+    },
+    "down": {
+      "desc": "Znížiť prioritu u vybraného poľa",
+      "icon": "win/arrow-down.png",
+      "titl": "D"
+    },
+    "downItem": {
+      "desc": "Posunúť položku dole",
+      "icon": "win/arrow-down.png",
+      "titl": "Dole"
+    },
+    "edit": {
+      "acck": 69,
+      "accm": 2,
+      "desc": "Zmeniť vybraný záznam (skratka Alt+E)",
+      "icon": "win/edit.png",
+      "mnem": 69,
+      "titl": "Zmeniť"
+    },
+    "excel": {
+      "desc": "Export/Import z Excelu",
+      "icon": "win/excel.png",
+      "titl": "Excel"
+    },
+    "exportICal": {
+      "desc": "Exportovať do súboru kalendára iCal",
+      "icon": "win/ical-export.png",
+      "titl": "Export kalendára iCal"
+    },
+    "exportImport": {
+      "desc": "Export/Import z XML a Excelu",
+      "icon": "win/import-export.png",
+      "titl": "Export/Import"
+    },
+    "exportVCard": {
+      "desc": "Exportovať ako vizitky vCard",
+      "icon": "win/vcard-export.png",
+      "titl": "Export vizitky vCard"
+    },
+    "exportXLS": {
+      "desc": "Exportovať do Excelu (skratka Alt+X)",
+      "icon": "win/excel-export.png",
+      "mnem": 88,
+      "titl": "Export do Excelu"
+    },
+    "exportXml": {
+      "desc": "Exportovať do XML",
+      "icon": "win/xml-export.png",
+      "titl": "Export XML"
+    },
+    "extSearch": {
+      "desc": "Nájsť hodnotu v ľubovoľnom stĺpci (skratka Alt-S)",
+      "icon": "win/find.png",
+      "titl": "Rozšírené hľadanie"
+    },
+    "filter": {
+      "acck": 70,
+      "accm": 1,
+      "desc": "Filter - Definícia podmienky výberu v tabuľke (skratka Alt+I)",
+      "icon": "win/filter.png",
+      "mnem": 73,
+      "titl": "Filter"
+    },
+    "filterNew": {
+      "desc": "Vytvoriť nové nastavenie filtrácie (skratka Alt+N)",
+      "icon": "win/new.png",
+      "titl": "Nový"
+    },
+    "filterOpen": {
+      "desc": "Otvoriť uložené nastavení filtrace (zkratka Alt+O)",
+      "icon": "win/open.png",
+      "titl": "Otvoriť"
+    },
+    "filterOther": {
+      "icon": "win/filter.png",
+      "titl": "Ďalše filtre..."
+    },
+    "filterSave": {
+      "desc": "Uložiť aktuálne nastavenie filtrácie (skratka Alt+U)",
+      "icon": "win/save.png",
+      "titl": "Uložiť"
+    },
+    "find": {
+      "acck": 70,
+      "accm": 2,
+      "desc": "Nájsť hodnotu v ľubovoľnom stĺpci (skratka Alt+S)",
+      "icon": "win/find.png",
+      "mnem": 83,
+      "titl": "Nájsť"
+    },
+    "first": {
+      "desc": "Skok na prvý záznam tabuľky",
+      "icon": "win/ar-first.png",
+      "mnem": 36,
+      "titl": "Prvý"
+    },
+    "fullTextSearch": {
+      "desc": "Fulltextové vyhľadávanie (skratka Ctrl-F)",
+      "icon": "win/find.png",
+      "titl": "Nájsť"
+    },
+    "gdpr": {
+      "icon": "win/personalistika.png",
+      "titl": "GDPR"
+    },
+    "graph": {
+      "icon": "win/graph.png",
+      "titl": "Grafy"
+    },
+    "help": {
+      "acck": 112,
+      "accm": 0,
+      "desc": "Nápoveda",
+      "icon": "win/help.png",
+      "mnem": 112,
+      "titl": "Nápoveda"
+    },
+    "hromZmenaVseWizard": {
+      "desc": "Vykoná substitúciu vo vybranom poli v zobrazených položkách",
+      "titl": "Všetky zobrazené"
+    },
+    "hromZmenaVybraneWizard": {
+      "desc": "Vykoná substitúciu vo vybranom poli vo vybraných položkách",
+      "titl": "Iba vybrané"
+    },
+    "hromZmenaWizard": {
+      "desc": "Vykoná zámenu vo vybranom poli v zadanom filtri (zaškrtnutie riadku nemá vplyv)",
+      "icon": "win/edit.png",
+      "titl": "Hromadné zmeny"
+    },
+    "importXls": {
+      "desc": "Importovať z Excelu",
+      "icon": "win/excel-import.png",
+      "titl": "Import z Excelu"
+    },
+    "importXml": {
+      "desc": "Importovať z XML",
+      "icon": "win/xml-import.png",
+      "titl": "Import XML"
+    },
+    "konfigurovatReport": {
+      "desc": "Otvorí konfiguráciu reportu vo webovom rozhraní.",
+      "icon": "win/generate.png",
+      "titl": "Konfigurovať report"
+    },
+    "last": {
+      "desc": "Skok na posledný záznam tabuľky",
+      "icon": "win/ar-last.png",
+      "mnem": 35,
+      "titl": "Posledný"
+    },
+    "mail": {
+      "desc": "Odoslať mailom vo forme PDF",
+      "icon": "win/mail.png",
+      "titl": "Odoslať"
+    },
+    "mailSmtp": {
+      "desc": "Odoslanie e-mailom ako PDF (SMTP)",
+      "icon": "win/mail.png",
+      "titl": "Odoslať (SMTP)"
+    },
+    "new": {
+      "acck": 78,
+      "accm": 2,
+      "desc": "Vytvoriť nový záznam (skratka Alt+N)",
+      "icon": "win/new.png",
+      "mnem": 78,
+      "titl": "Nový"
+    },
+    "newWithCopy": {
+      "desc": "Vytvoriť kópiu záznamu (skratka Alt+K)",
+      "icon": "win/new-copy.png",
+      "titl": "Vytvoriť kópiu"
+    },
+    "next": {
+      "desc": "Skok na ďalší záznam tabuľky (Alt+→)",
+      "icon": "win/ar-next.png",
+      "mnem": 39,
+      "titl": "Ďalší"
+    },
+    "odebrat": {
+      "desc": "Odobrať vybrané pole",
+      "icon": "win/ar-prev.png",
+      "titl": "D"
+    },
+    "odebratVse": {
+      "desc": "Odobrať všetky polia",
+      "icon": "win/ar-prev-all.png",
+      "titl": "<<"
+    },
+    "ok": {
+      "titl": "OK"
+    },
+    "open": {
+      "acck": 79,
+      "accm": 2,
+      "desc": "Otvoriť vybraný záznam",
+      "icon": "win/open.png",
+      "mnem": 79,
+      "titl": "Otvoriť"
+    },
+    "openNewWindow": {
+      "acck": 79,
+      "accm": 2,
+      "desc": "Otvoriť vybraný záznam v novom okne",
+      "icon": "win/open.png",
+      "mnem": 79,
+      "titl": "Otvoriť v novom okne"
+    },
+    "ostatniAkce": {
+      "titl": "Ostatní"
+    },
+    "prev": {
+      "desc": "Skok na predchádzajúci záznam tabuľky (Alt+←)",
+      "icon": "win/ar-prev.png",
+      "mnem": 37,
+      "titl": "Predchádzajúci"
+    },
+    "pridat": {
+      "desc": "Pridať vybrané pole",
+      "icon": "win/ar-next.png",
+      "titl": "U"
+    },
+    "pridatVse": {
+      "desc": "Pridať všetky polia",
+      "icon": "win/ar-next-all.png",
+      "titl": ">>"
+    },
+    "print": {
+      "acck": 80,
+      "accm": 2,
+      "desc": "Tlačiť (skratka Alt+P)",
+      "icon": "win/print.png",
+      "mnem": 80,
+      "titl": "Tlač"
+    },
+    "printNahled": {
+      "desc": "Zobrazenie náhľadu",
+      "icon": "win/current-print.png",
+      "titl": "Náhľad"
+    },
+    "printNow": {
+      "desc": "Tlačiť (skratka Alt+P)",
+      "icon": "win/print-now.png",
+      "titl": "Tlač"
+    },
+    "printPdf": {
+      "desc": "Tlač do PDF",
+      "icon": "win/pdf.png",
+      "titl": "PDF"
+    },
+    "printTiskarna": {
+      "desc": "Tlač na tlačiareň",
+      "icon": "win/print.png",
+      "titl": "Tlač"
+    },
+    "printXls": {
+      "desc": "Tlač do Xls",
+      "icon": "win/excel.png",
+      "titl": "XLS"
+    },
+    "refresh": {
+      "desc": "Vykoná sa opätovné načítanie dát z databázy (skratka Alt+R)",
+      "icon": "win/refresh.png",
+      "mnem": 82,
+      "titl": "Obnoviť"
+    },
+    "resetColumnToDefault": {
+      "desc": "Obnovenie nastavení pred zmenou používateľa",
+      "icon": "empty.png",
+      "titl": "Obnovenie predvolených nastavení"
+    },
+    "save": {
+      "acck": 83,
+      "accm": 2,
+      "desc": "Uložiť otvorený záznam (skratka Alt+U)",
+      "icon": "win/save.png",
+      "mnem": 85,
+      "titl": "Uložiť"
+    },
+    "saveAndClose": {
+      "acck": 83,
+      "accm": 2,
+      "desc": "Uložiť otvorený záznam a zatvoriť jeho okno (skratka Alt+U)",
+      "mnem": 85,
+      "titl": "Uložiť a zatvoriť"
+    },
+    "saveAndNew": {
+      "acck": 78,
+      "accm": 2,
+      "desc": "Uloží záznam a otvorí nový (skratka Alt+N)",
+      "mnem": 78,
+      "titl": "Uložiť a nový"
+    },
+    "saveColumnAsDefault": {
+      "desc": "Uložiť nastavenie ako východzie všetkým používateľom",
+      "icon": "empty.png",
+      "titl": "Ulož nastavenie ako východzie"
+    },
+    "selectAll": {
+      "titl": "Označiť všetko"
+    },
+    "sluzby": {
+      "icon": "win/generate.png",
+      "titl": "Služby"
+    },
+    "sort": {
+      "desc": "Nastavenie radenia záznamov v tabuľke",
+      "icon": "win/sort-az.png",
+      "titl": "Radenie"
+    },
+    "sort-az": {
+      "desc": "Vzostupné radenie 0-9, A-Z",
+      "icon": "win/sort-az.png",
+      "titl": "Vzostupné radenie"
+    },
+    "sort-za": {
+      "desc": "Zostupné radenie Z-A, 9-0",
+      "icon": "win/sort-za.png",
+      "titl": "Zostupné radenie"
+    },
+    "sum": {
+      "desc": "Nastavenie sumácií záznamov z tabuľky",
+      "icon": "win/sum.png",
+      "titl": "Sumácia"
+    },
+    "top": {
+      "desc": "Najvyššia priorita pre vybrané pole",
+      "icon": "win/arrow-top.png",
+      "titl": "T"
+    },
+    "uhrady": {
+      "desc": "Načítanie platieb dokumentov",
+      "icon": "win/pay-cash.png",
+      "titl": "Platby"
+    },
+    "ulozitFiltraci": {
+      "titl": "Uložiť filtráciu"
+    },
+    "up": {
+      "desc": "Zvýšiť prioritu u vybraného poľa",
+      "icon": "win/arrow-up.png",
+      "titl": "U"
+    },
+    "upItem": {
+      "desc": "Posunúť položku nahor",
+      "icon": "win/arrow-up.png",
+      "titl": "Nahor"
+    },
+    "vazbyUrovenPlus": {
+      "desc": "Načítanie ďalšej úrovne odkazov",
+      "icon": "win/i18nPlus.png",
+      "titl": "Ďalšia úroveň prepojení"
+    },
+    "xml": {
+      "desc": "Export/Import z XML",
+      "icon": "win/xml.png",
+      "titl": "XML"
+    },
+    "zmenitFiltraci": {
+      "titl": "Upraviť filtráciu"
+    },
+    "zrusitFiltraci": {
+      "titl": "Zrušiť filtráciu"
+    }
+  },
+  "buttons": {
+    "ano": {
+      "titl": "Áno"
+    },
+    "cancel": {
+      "desc": "Zatvorí okno (skratka ESC)",
+      "titl": "Zrušiť"
+    },
+    "delete": {
+      "titl": "Zmazať"
+    },
+    "findFormNajit": {
+      "titl": "Nájsť ďalší"
+    },
+    "generovat": {
+      "titl": "Generovať"
+    },
+    "jenUlozit": {
+      "titl": "Len uložiť"
+    },
+    "konVykDph.nasledne": {
+      "titl": "Po ňom nasleduje"
+    },
+    "konVykDph.nasledne.opravne": {
+      "titl": "následné opatrenia/opravy"
+    },
+    "konVykDph.opravne": {
+      "titl": "Opravy"
+    },
+    "konVykDph.radne": {
+      "titl": "správne"
+    },
+    "konVykDph.rychlaOdpoved.nema": {
+      "titl": "Nie som povinný predložiť KH (nulový KH)."
+    },
+    "konVykDph.rychlaOdpoved.potvr": {
+      "titl": "Potvrdzujem správnosť posledného predloženého KH."
+    },
+    "moreInfo": {
+      "titl": "Viac info"
+    },
+    "multiPdfMail1MailPrijemciRB": {
+      "titl": "Jeden mail jednému príjemcovi"
+    },
+    "multiPdfMail1MailVsechnaDataRB": {
+      "titl": "Jeden mail so všetkými dátami"
+    },
+    "multiPdfMailNMailuPrijemciRB": {
+      "titl": "Viac mailov jednému príjemcovi"
+    },
+    "nahled": {
+      "titl": "Náhľad"
+    },
+    "nahledZaznam": {
+      "titl": "Zobraziť záznam"
+    },
+    "ne": {
+      "titl": "Nie"
+    },
+    "newElection": {
+      "titl": "Nová možnosť"
+    },
+    "odpojit": {
+      "titl": "Odpojiť"
+    },
+    "ok": {
+      "titl": "OK"
+    },
+    "pdf": {
+      "titl": "PDF"
+    },
+    "pouzit": {
+      "titl": "Použiť"
+    },
+    "prihlasit": {
+      "titl": "Prihlásiť"
+    },
+    "print": {
+      "titl": "Tlač"
+    },
+    "propertiesAll": {
+      "desc": "Výber zo všetkých polí agendy",
+      "titl": "Výber zo všetkých polí agendy"
+    },
+    "restart": {
+      "titl": "Reštartovanie stránky"
+    },
+    "settingColumnsSaveSetAsDefault": {
+      "titl": "Nastaviť ako východzie"
+    },
+    "skip": {
+      "desc": "Preskočiť aktuálny záznam",
+      "titl": "Preskočiť"
+    },
+    "spojit": {
+      "titl": "Spojiť"
+    },
+    "taskMonitorEndTasks": {
+      "titl": "Zrušiť úlohy"
+    },
+    "taskMonitorWait": {
+      "titl": "Počkať"
+    },
+    "ukoncit": {
+      "titl": "Ukončiť"
+    },
+    "vyberQueryForm": {
+      "titl": "Výber"
+    },
+    "vybrat": {
+      "titl": "Vybrať"
+    },
+    "vypocet": {
+      "titl": "Výpočet"
+    },
+    "wizDokoncit": {
+      "titl": "Dokončiť"
+    },
+    "wizNasledujici": {
+      "titl": "Ďalší >"
+    },
+    "wizPredchozi": {
+      "titl": "< Predchádzajúci"
+    },
+    "wizVyber": {
+      "titl": "Výber"
+    },
+    "zamek": {
+      "titl": "Zámok"
+    },
+    "zavrit": {
+      "titl": "Zatvoriť"
+    }
+  },
+  "dialogs": {
+    "aplikace-ikona": {
+      "icon": "winstrom-16x16.png"
+    },
+    "chartWizardCreator": {
+      "titl": "Sprievodca grafmi"
+    },
+    "dateChooserDialogTitle": {
+      "titl": "Výber data"
+    },
+    "filter": {
+      "titl": "Nastavenie filtrácie"
+    },
+    "find": {
+      "titl": "Nájsť"
+    },
+    "hromZmenyWizard": {
+      "titl": "Sprievodca hromadnými zmenami"
+    },
+    "multiPdfMailWizard": {
+      "titl": "Nastavenia pre odoslanie"
+    },
+    "sort": {
+      "titl": "Nastavenie radenia"
+    },
+    "userFilterOpen": {
+      "titl": "Otvoriť uložené nastavení filtrace"
+    },
+    "vyberZeSeznamu": {
+      "titl": "Vyberte prvok zo záznamu"
+    },
+    "webHooks": {
+      "titl": "Web Hooks"
+    },
+    "webHooksInfo.status": {
+      "titl": "Stav spracovania Web Hooks"
+    }
+  },
+  "labels": {
+    "aboutDialogAutori": {
+      "titl": "Autori"
+    },
+    "aboutDialogAutoriObchod": {
+      "titl": "Obchod:"
+    },
+    "aboutDialogAutoriPodpora": {
+      "titl": "Podpora:"
+    },
+    "aboutDialogAutoriPopis": {
+      "titl": "Kontakt na autorov programu."
+    },
+    "aboutDialogConfigDir": {
+      "titl": "Konfiguračný adresár"
+    },
+    "aboutDialogCsAdresa": {
+      "titl": "Adresa centrálneho servera"
+    },
+    "aboutDialogDetaily": {
+      "titl": "Detaily o aplikácii"
+    },
+    "aboutDialogDetailyDBServeru": {
+      "titl": "Databázový server"
+    },
+    "aboutDialogDistributor": {
+      "titl": "Distribúcia a podpora"
+    },
+    "aboutDialogDobaOdezvy": {
+      "titl": "Doba odozvy (akt./min./max./priem.)"
+    },
+    "aboutDialogDobaOdezvyProxy": {
+      "titl": "Proxy odozva (akt/min/max/priemer/strata)"
+    },
+    "aboutDialogDobaOdezvyWeb": {
+      "titl": "Odozva lokality (akt./min./max./priemerná/strata)"
+    },
+    "aboutDialogGrafickeProstredi": {
+      "titl": "Grafické prostredie"
+    },
+    "aboutDialogHodnota": {
+      "titl": "Hodnota"
+    },
+    "aboutDialogIPAdresa": {
+      "titl": "IP adresa"
+    },
+    "aboutDialogJazyk": {
+      "titl": "Jazyk"
+    },
+    "aboutDialogLicenceTretichStranTab": {
+      "titl": "Licencie tretích strán"
+    },
+    "aboutDialogMail": {
+      "titl": "E-mail:"
+    },
+    "aboutDialogOperacniSystem": {
+      "titl": "Operačný systém"
+    },
+    "aboutDialogPamet": {
+      "titl": "Pamäť (akt./halda/celk.)"
+    },
+    "aboutDialogPodpora": {
+      "titl": "Pre podporu navštívte stránky:"
+    },
+    "aboutDialogPopis": {
+      "titl": "Ekonomický software."
+    },
+    "aboutDialogTel": {
+      "titl": "Telefón:"
+    },
+    "aboutDialogTmpDir": {
+      "titl": "Dočasný dátový adresár"
+    },
+    "aboutDialogUserDir": {
+      "titl": "Adresár konfigurácie používateľa"
+    },
+    "aboutDialogVerze": {
+      "titl": "Verzia"
+    },
+    "aboutDialogVerzeCentralDatabase": {
+      "titl": "Verzia centrálnej databázy"
+    },
+    "aboutDialogVerzeCentralServeru": {
+      "titl": "Verzia centrálneho servera"
+    },
+    "aboutDialogVerzeDatabazeFirmy": {
+      "titl": "Verzia databázy firmy"
+    },
+    "aboutDialogVerzeJavy": {
+      "titl": "Verzia Javy"
+    },
+    "aboutDialogVerzeJavyServer": {
+      "titl": "Verzie jazyka Java na serveri"
+    },
+    "aboutDialogVlastnost": {
+      "titl": "Vlastnosť"
+    },
+    "aboutDialogWeb": {
+      "titl": "Web:"
+    },
+    "aktivni": {
+      "titl": "Aktívne filtre"
+    },
+    "attrListAttributes": {
+      "titl": "Vlastnosti položky"
+    },
+    "attrListItems": {
+      "titl": "Zoznam položiek"
+    },
+    "centServerUserType": {
+      "titl": "Typ používateľa"
+    },
+    "chart.data.ostatni": {
+      "titl": "Ostatné"
+    },
+    "chartWizard.typGrafu.carovy": {
+      "titl": "Čiarový"
+    },
+    "chartWizard.typGrafu.header": {
+      "titl": "Typ grafu"
+    },
+    "chartWizard.typGrafu.kolacovy": {
+      "titl": "Koláčový"
+    },
+    "chartWizard.typGrafu.oblastni": {
+      "titl": "Oblastný"
+    },
+    "chartWizard.typGrafu.sloupcovy": {
+      "titl": "Stĺpcový"
+    },
+    "chartWizard.typGrafu.vyberte": {
+      "titl": "Vyberte typ grafu."
+    },
+    "chyba": {
+      "titl": "Chyba"
+    },
+    "ciselnikObdPlatnost": {
+      "titl": "Platnosť sa udáva v účtovných obdobiach, pre neobmedzenú platnosť nechajte polia nevyplnené."
+    },
+    "ciselnikRokPlatnost": {
+      "titl": "Platnosť sa udáva v kalendárnych rokoch, pre neobmedzenú platnosť zadajte 0-9999."
+    },
+    "clientVersionMissmatch": {
+      "titl": "Na serveri bola aktualizovaná aplikácia ABRA Flexi. Uloženie distribuovanej práce a reštartovanie aplikácie sa aktualizuje. Ak tak neurobíte, systém ABRA Flexi sa automaticky ukončí a vy stratíte všetky neuložené zmeny."
+    },
+    "columnsNezobrazenaPole": {
+      "titl": "Nezobrazené polia"
+    },
+    "columnsZobrazenaPole": {
+      "titl": "Zobrazené polia"
+    },
+    "databazeFirmyNepripojena": {
+      "titl": "Nie ste pripojení k databáze firmy."
+    },
+    "databazeProgressPripojeniDesc": {
+      "titl": "Pripájam sa k dátovému zdroju..."
+    },
+    "dayDatePart": {
+      "titl": "Deň"
+    },
+    "directoryBackup": {
+      "titl": "Záloha dát"
+    },
+    "directoryExport": {
+      "titl": "Export"
+    },
+    "directoryImport": {
+      "titl": "Import"
+    },
+    "do": {
+      "titl": "Do"
+    },
+    "dotaz": {
+      "titl": "Otázka"
+    },
+    "eanScanner.ean": {
+      "titl": "EAN:"
+    },
+    "eanScanner.mnoz": {
+      "titl": "Množstvo:"
+    },
+    "emailTemplate": {
+      "titl": "Šablóna e-mailu:"
+    },
+    "exportNevybraneSloupce": {
+      "titl": "Neexportované stĺpce"
+    },
+    "exportOtevritPoUlozeni": {
+      "titl": "Po uložení otvoriť v Excele"
+    },
+    "exportProgresDesc": {
+      "titl": "Prebieha export do Excelu..."
+    },
+    "exportVyberteSloupce": {
+      "titl": "Vyberte stĺpce, ktoré sa majú exportovať"
+    },
+    "exportVybraneSloupce": {
+      "titl": "Exportované stĺpce"
+    },
+    "exportXlsNativni": {
+      "titl": "Export vo formáte vhodnom na import"
+    },
+    "fileChooserSesitMicrosftExcel": {
+      "titl": "Zošit Microsoft Office Excel"
+    },
+    "fileChooserSesitMicrosftExcelXlsx": {
+      "titl": "Zošit Microsoft Office Excel"
+    },
+    "fileChooserWinstromXml": {
+      "titl": "ABRA Flexi XML"
+    },
+    "fileChooserZip": {
+      "titl": "Archív ZIP"
+    },
+    "fileFilterIcal": {
+      "titl": "Kalendáre iCal"
+    },
+    "fileFilterPdf": {
+      "titl": "Adobe PDF"
+    },
+    "fileFilterTxt": {
+      "titl": "Textový súbor"
+    },
+    "fileFilterVcf": {
+      "titl": "Vizitky vCard"
+    },
+    "filter.and": {
+      "titl": "a zároveň"
+    },
+    "filter.ano": {
+      "titl": "áno"
+    },
+    "filter.dnyPredPo": {
+      "titl": "počet dní pred/po"
+    },
+    "filter.do": {
+      "titl": "do"
+    },
+    "filter.inSubtree": {
+      "titl": "%p v podstrome %p"
+    },
+    "filter.inelements": {
+      "titl": "obsahujú"
+    },
+    "filter.interval": {
+      "titl": "v"
+    },
+    "filter.kodableOmezeno": {
+      "titl": "%p rovné %p"
+    },
+    "filter.konci": {
+      "titl": "končí"
+    },
+    "filter.mensiNeboRovnoNez": {
+      "titl": "menšie alebo rovné ako"
+    },
+    "filter.mensiNez": {
+      "titl": "menší než"
+    },
+    "filter.ne": {
+      "titl": "nie"
+    },
+    "filter.neinterval": {
+      "titl": "nie je v"
+    },
+    "filter.neobsahuje": {
+      "titl": "neobsahuje"
+    },
+    "filter.neprazdny": {
+      "titl": "neprázdny"
+    },
+    "filter.nerovno": {
+      "titl": "nerovné"
+    },
+    "filter.notinelements": {
+      "titl": "neobsahujú"
+    },
+    "filter.obsahuje": {
+      "titl": "obsahuje"
+    },
+    "filter.od": {
+      "titl": "od"
+    },
+    "filter.odDo": {
+      "titl": "od..do"
+    },
+    "filter.or": {
+      "titl": "alebo"
+    },
+    "filter.prazdny": {
+      "titl": "prázdny"
+    },
+    "filter.rovno": {
+      "titl": "rovné"
+    },
+    "filter.vetsiNeboRovnoNez": {
+      "titl": "väčšie alebo rovné ako"
+    },
+    "filter.vetsiNez": {
+      "titl": "väčšie ako"
+    },
+    "filter.zacinaS": {
+      "titl": "začína s"
+    },
+    "filterFind": {
+      "titl": "Hľadať: "
+    },
+    "filterFormMultipleAndFilter": {
+      "titl": "Všetky"
+    },
+    "filterFormMultipleNoneFilter": {
+      "titl": "Žiadny"
+    },
+    "filterFormMultipleOrFilter": {
+      "titl": "Aspoň jeden"
+    },
+    "filterFormPrivatni": {
+      "titl": "Privátny"
+    },
+    "filterFormSaveColumns": {
+      "titl": "Uloženie stĺpcov a triedenie"
+    },
+    "filterFormVyberMultipleTitle": {
+      "titl": "Výber požadovaných polí"
+    },
+    "findFormDokonceno": {
+      "titl": "Prehľadávanie tabuľky bolo dokončené."
+    },
+    "findFormDolu": {
+      "titl": "dole"
+    },
+    "findFormHledat": {
+      "titl": "Hľadať"
+    },
+    "findFormKonecTabulky": {
+      "titl": "Bol dosiahnutý koniec tabuľky. Hľadať od začiatku?"
+    },
+    "findFormNajitVeSloupci": {
+      "titl": "Nájsť v stĺpci"
+    },
+    "findFormNenalezeno": {
+      "titl": "Nebol nájdený žiadny záznam splňujúci danú podmienku pre stĺpec '%p'."
+    },
+    "findFormVse": {
+      "titl": "všetko"
+    },
+    "fiscal-yearDatePart": {
+      "titl": "fiškálny rok"
+    },
+    "floating-dayDatePart": {
+      "titl": "relatívny deň"
+    },
+    "floating-monthDatePart": {
+      "titl": "relatívny mesiac"
+    },
+    "floating-n-daysDatePart": {
+      "titl": "relatívne n dní"
+    },
+    "floating-quarterDatePart": {
+      "titl": "relatívny štvrťrok"
+    },
+    "floating-weekDatePart": {
+      "titl": "relatívny týždeň"
+    },
+    "floating-yearDatePart": {
+      "titl": "relatívny rok"
+    },
+    "formETitleEdit": {
+      "titl": " - Zmena záznamu"
+    },
+    "formETitleNew": {
+      "titl": " - Nový záznam"
+    },
+    "hodnota1": {
+      "titl": "Hodnota1: "
+    },
+    "hodnota2": {
+      "titl": "Hodnota2: "
+    },
+    "hodnotaVDatabazi": {
+      "titl": "hodnota v databáze"
+    },
+    "hromZmenyWizard.hodnota": {
+      "titl": "Hodnota"
+    },
+    "hromZmenyWizard.pole": {
+      "titl": "Pole"
+    },
+    "importXlsCollection": {
+      "titl": "zoznam hodnôt"
+    },
+    "importXlsDate": {
+      "titl": "dátum"
+    },
+    "importXlsDatetime": {
+      "titl": "dátum a čas"
+    },
+    "importXlsDelimiters": {
+      "titl": "oddeľovač: , alebo nový riadok"
+    },
+    "importXlsDigits": {
+      "titl": "počet číslic"
+    },
+    "importXlsDostupneSloupce": {
+      "titl": "Dostupné stĺpce"
+    },
+    "importXlsInteger": {
+      "titl": "celé číslo"
+    },
+    "importXlsLogic": {
+      "titl": "logická hodnota"
+    },
+    "importXlsMaxLength": {
+      "titl": "max. dĺžka"
+    },
+    "importXlsMaxValue": {
+      "titl": "max.hodnota"
+    },
+    "importXlsMinLength": {
+      "titl": "min. dĺžka"
+    },
+    "importXlsMinValue": {
+      "titl": "min. hodnota"
+    },
+    "importXlsNumeric": {
+      "titl": "desatinné číslo"
+    },
+    "importXlsObject": {
+      "titl": "objekt"
+    },
+    "importXlsProbihaImport": {
+      "titl": "Prebieha import..."
+    },
+    "importXlsString": {
+      "titl": "reťazec"
+    },
+    "importXlsVlastnostiSloupcu": {
+      "titl": "Vlastnosti importovaných stĺpcov"
+    },
+    "importXlsVyberTabulky": {
+      "titl": "Ktorú tabuľku chcete importovať?"
+    },
+    "importXlsVyberteSloupce": {
+      "titl": "Vyberte stĺpce pre import"
+    },
+    "importXlsVybraneSloupce": {
+      "titl": "Vybrané stĺpce"
+    },
+    "importXlsVyplnenoPriImportu": {
+      "titl": "Vyplnené pri importe"
+    },
+    "importXlsVysledekImportu": {
+      "titl": "Výsledok importu"
+    },
+    "informace": {
+      "titl": "Informácia"
+    },
+    "interniChyba": {
+      "titl": "Interná chyba"
+    },
+    "konfigurovatReport": {
+      "titl": "Konfigurovať report"
+    },
+    "linkLabelTooltip": {
+      "titl": "Otvorí prehliadač na adrese: "
+    },
+    "listChooserFormDostHodnoty": {
+      "titl": "Dostupné hodnoty"
+    },
+    "listChooserFormDostPole": {
+      "titl": "Dostupné polia"
+    },
+    "listChooserFormVybHodnoty": {
+      "titl": "Vybrané hodnoty"
+    },
+    "listChooserFormVybPole": {
+      "titl": "Vybrané polia"
+    },
+    "listChooserWizardForm.musiteVybratPolozku": {
+      "titl": "Najskôr musíte vybrať nejakú položku."
+    },
+    "mailDefaultBody": {
+      "titl": "Dobrý deň,\n\nv prílohe Vám zasielame sľúbený dokument."
+    },
+    "mailDefaultBodyFooter": {
+      "titl": "\n\nS pozdravom\n\n"
+    },
+    "mailDefaultBodyMultipleAttachments": {
+      "titl": "Dobrý deň,\n\nPriložené sú sľúbené dokumenty."
+    },
+    "mailDefaultFooterGeneratedBy": {
+      "titl": "Vygenerované ekonomickým systémom"
+    },
+    "manyToMany.vyberteTitle": {
+      "titl": "Vyberte "
+    },
+    "migraceNazevSouboru": {
+      "titl": "Migrácia"
+    },
+    "monthDatePart": {
+      "titl": "mesiac"
+    },
+    "multiPdfMail1MailPrijemciLB": {
+      "titl": "<html>Z dokladov pre konkrétnu firmu urobí jednu prílohu do samostatného mailu.</html>"
+    },
+    "multiPdfMail1MailVsechnaDataLB": {
+      "titl": "<html>Zo všetkých dokladov urobí jednu prílohu a priloží ju do samostatného mailu.</html>"
+    },
+    "multiPdfMailNMailuPrijemciLB": {
+      "titl": "<html>Každý doklad priloží ako prílohu do samostatného mailu.</html>"
+    },
+    "multiPdfMailUvod": {
+      "titl": "<html>Vo výbere je zastúpena firma viackrát.<br>Chcete pre túto firmu zoskupiť doklady do 1 správy alebo ich poslať samostatne?</html>"
+    },
+    "neniImplementovano": {
+      "titl": "Táto funkcia nie je zatiaľ implementovaná."
+    },
+    "neomezen": {
+      "titl": "Neobmedzený"
+    },
+    "neomezena": {
+      "titl": "Neobmedzená"
+    },
+    "nezaskrnuto": {
+      "titl": "Nezaškrtnuté"
+    },
+    "oProgramu": {
+      "titl": "O aplikácii ABRA Flexi"
+    },
+    "obnovitDBProgressTitle": {
+      "titl": "Obnovujem firmu..."
+    },
+    "od": {
+      "titl": "Od"
+    },
+    "odebrat": {
+      "titl": "Odobrať"
+    },
+    "openWindowInNew": {
+      "titl": "v novom okne"
+    },
+    "openWindowStart": {
+      "titl": "Otvoriť"
+    },
+    "operace": {
+      "titl": "Operácia: "
+    },
+    "orderRaditPodlePole": {
+      "titl": "Radiť podľa polí"
+    },
+    "poslatReakciOsloveni": {
+      "titl": "Môžete nám poslať reakciu:"
+    },
+    "pridat": {
+      "titl": "Pridať"
+    },
+    "progressDesc": {
+      "titl": "Čakajte prosím..."
+    },
+    "progressInterupted": {
+      "titl": "Ukončujem proces..."
+    },
+    "quarterDatePart": {
+      "titl": "štvrťrok"
+    },
+    "razeni": {
+      "titl": "Radenie"
+    },
+    "remoteLogoutAction": {
+      "titl": "Obnovujem reláciu a čakám, kým sa ostatné zariadenia odhlási..."
+    },
+    "remoteLogoutHeading": {
+      "titl": "Vzdialené odhlásenie"
+    },
+    "remoteLogoutQuestion": {
+      "titl": "Vaše konto sa v rovnakom čase používa na inom zariadení.\nChcete pokračovať v tejto relácii a zrušiť ostatné?"
+    },
+    "reportJazykReportu": {
+      "titl": "Jazyk reportu"
+    },
+    "reportMailProgresDesc": {
+      "titl": "Pripravujú sa e-maily..."
+    },
+    "reportNahledTisku": {
+      "titl": "Náhľad tlače"
+    },
+    "reportProgresDesc": {
+      "titl": "Prebieha plnenie reportu..."
+    },
+    "reportSmtpProgresDesc": {
+      "titl": "Rozosielame e-maily..."
+    },
+    "reportTisknoutAktualniZaznam": {
+      "titl": "Aktuálny záznam"
+    },
+    "reportTisknoutRozsirenouVerzi": {
+      "titl": "Rozšírená verzia tlačovej zostavy"
+    },
+    "reportTisknoutVodiciCary": {
+      "titl": "Tlačiť vodiace čiary"
+    },
+    "reportTisknoutVse": {
+      "titl": "Všetky záznamy"
+    },
+    "reportTisknoutVybrane": {
+      "titl": "Vybrané záznamy"
+    },
+    "reportTisknoutZaznamyOdDo": {
+      "titl": "Záznamy"
+    },
+    "reportVyberReportu": {
+      "titl": "Výber tlačovej zostavy"
+    },
+    "reportVytiskl": {
+      "titl": "Vytlačil"
+    },
+    "restartChangesWatcher.description": {
+      "titl": "Nová možnosť uzla Web Hooks (bez reštartovania komponentov)"
+    },
+    "restartWebHooks.description": {
+      "titl": "Kompletné reštartovanie Web Hooks (vrátane komponentov)"
+    },
+    "settingColumnsDefaultDeleteColSettings": {
+      "titl": "Vymazať existujúce nastavenie stĺpcov všetkých používateľov a použiť toto."
+    },
+    "skryte": {
+      "titl": "Skryté stĺpce"
+    },
+    "staleStateDatabaze": {
+      "titl": "databáza"
+    },
+    "staleStateUzivatel": {
+      "titl": "používateľ"
+    },
+    "status": {
+      "titl": "Stav"
+    },
+    "statusBar.cisloZakaznika": {
+      "titl": "ČZ:"
+    },
+    "substringPart": {
+      "titl": "Podreťazec"
+    },
+    "talkbackDescriptionConnectionError": {
+      "titl": "Komunikácia s dátovým serverom bola prerušená v dôsledku chyby siete."
+    },
+    "talkbackDescriptionHowSendInfo": {
+      "titl": "Ťuknutím na tlačidlo Odoslať informáciu o chybe odošlete chybové hlásenie."
+    },
+    "talkbackDescriptionUnknownError": {
+      "titl": "V aplikácii sa vyskytla chyba."
+    },
+    "talkbackDetail": {
+      "titl": "Detail chyby:"
+    },
+    "talkbackDetailUnknown": {
+      "titl": "Detail chyby sa nepodarilo získať."
+    },
+    "talkbackTitle": {
+      "titl": "Chyba aplikácie"
+    },
+    "technickePodrobnosti": {
+      "titl": "Technické údaje"
+    },
+    "testerPane": {
+      "titl": "TesterPane"
+    },
+    "upgradovatDBSpousteniSkriptu": {
+      "titl": "Spúšťam skripty na aktualizáciu databázy firmy..."
+    },
+    "upravit": {
+      "titl": "Upraviť"
+    },
+    "varovani": {
+      "titl": "Varovanie"
+    },
+    "vaseHodnota": {
+      "titl": "vaša hodnota"
+    },
+    "viditelne": {
+      "titl": "Viditeľné stĺpce"
+    },
+    "vlastnost": {
+      "titl": "Vlastnosť"
+    },
+    "voFieldDefaultTooltip": {
+      "titl": "Stlačte klávesu F2 pre zobrazenie dialógu výberu"
+    },
+    "webHooksInfo.httpStatus.pool": {
+      "titl": "Štatistiky pripojenia"
+    },
+    "webHooksInfo.httpStatus.routes": {
+      "titl": "Zoznam trás"
+    },
+    "webHooksInfo.status.currentWatcherPriority": {
+      "titl": "Priorita vybraného servera"
+    },
+    "webHooksInfo.status.dedicated": {
+      "titl": "Uprednostňovaný server"
+    },
+    "webHooksInfo.status.enabled": {
+      "titl": "Povolené spracovanie"
+    },
+    "webHooksInfo.status.executorActiveThreads": {
+      "titl": "Aktívne vlákna"
+    },
+    "webHooksInfo.status.executorCompletedTasks": {
+      "titl": "Ukončené úlohy"
+    },
+    "webHooksInfo.status.executorPoolSize": {
+      "titl": "Veľkosť poolu"
+    },
+    "webHooksInfo.status.executorPoolSizeMax": {
+      "titl": "Maximálna veľkosť poolu"
+    },
+    "webHooksInfo.status.executorState": {
+      "titl": "Stav"
+    },
+    "webHooksInfo.status.executorWaitingTasks": {
+      "titl": "Nevyriešené úlohy"
+    },
+    "webHooksInfo.status.firingHooks": {
+      "titl": "Aktuálne odoslané hooky"
+    },
+    "webHooksInfo.status.firingHooksExecutor": {
+      "titl": "Odosielanie hookov"
+    },
+    "webHooksInfo.status.httpClient": {
+      "titl": "Stav HTTP"
+    },
+    "webHooksInfo.status.notifiedCompanies": {
+      "titl": "V súčasnosti notifikované spoločnosti"
+    },
+    "webHooksInfo.status.notifyHooksExecutor": {
+      "titl": "Oznámenia o hooku"
+    },
+    "webHooksInfo.status.priority": {
+      "titl": "Priorita servera"
+    },
+    "webHooksInfo.status.scheduledHooks": {
+      "titl": "Plánované hooky"
+    },
+    "webHooksInfo.status.watchedCompanies": {
+      "titl": "Monitorované spoločnosti"
+    },
+    "webHooksInfo.status.watchingState": {
+      "titl": "Zmena stavu monitorovania"
+    },
+    "weekDatePart": {
+      "titl": "týždeň"
+    },
+    "yearDatePart": {
+      "titl": "rok"
+    },
+    "zalohaProgressTitle": {
+      "titl": "Zálohujem firmu..."
+    },
+    "zalohovatDBUkoncit": {
+      "titl": "Po úspešnom zálohovaní okamžite ukončite"
+    },
+    "zaskrtnuto": {
+      "titl": "Zaškrtnuté"
+    }
+  },
+  "messages": {
+    "aboutDialogChybaNacitaniIP": {
+      "titl": "Nepodarilo sa získať IP adresu miestneho počítača."
+    },
+    "adresaNeplatna": {
+      "titl": "Adresa nie je platná."
+    },
+    "adresaNeplatnaUrl": {
+      "titl": "Adresa %p nie je platná."
+    },
+    "akceEvidenceList": {
+      "titl": "Udalosť je k dispozícii pre tieto záznamy: %p"
+    },
+    "akceNepodporovana": {
+      "titl": "Táto akcia tu nie je podporovaná."
+    },
+    "akcePristupOdepren": {
+      "titl": "K tejto akcii nemáte prístup."
+    },
+    "aplikaceBezPripojeniDbNelzePokracovat": {
+      "titl": "Bez pripojena k dátovemu zdroju nie je možné ďalej pokračovať."
+    },
+    "aplikaceBudeUkoncena": {
+      "titl": "Aplikácia bude ukončená."
+    },
+    "aplikacniNastaveniChybaNacitani": {
+      "titl": "Súbor %p s aplikačným nastavením nie je možné načítať."
+    },
+    "aplikacniNastaveniChybaZapisu": {
+      "titl": "Nepodarilo sa uložiť nastavenie aplikácie."
+    },
+    "authRequired": {
+      "titl": "Je potrebná autorizácia."
+    },
+    "authSessionClosed": {
+      "titl": "Vaše sedenie sa skončilo."
+    },
+    "autoZaokrouhleni": {
+      "titl": "Hodnota \"%p\" bola zaokrúhlená na \"%p\"."
+    },
+    "centServerBlokovanyUzivatel": {
+      "titl": "Zadaný používateľský účet je blokovaný."
+    },
+    "centServerChybaIO": {
+      "titl": "Vstupno/výstupná chyba pri komunikácii s centrálnym serverom."
+    },
+    "centServerChybaKomunikace": {
+      "titl": "Pri komunikácii s centrálnym serverom nastala chyba."
+    },
+    "centServerChybaNavazani": {
+      "titl": "Pri nadväzovaní spojenia s centrálnym serverom nastala chyba."
+    },
+    "centServerChybneJmenoCiHeslo": {
+      "titl": "Zadané meno alebo heslo nebolo správne."
+    },
+    "centServerCompanyStateException": {
+      "titl": "Firma '%p' je v stave '%p'."
+    },
+    "centServerNepripojen": {
+      "titl": "Nie ste pripojení k centrálnemu serveru."
+    },
+    "centServerNotApplicationUser": {
+      "titl": "Používateľ typu %p nesmie používať používateľské rozhranie."
+    },
+    "centServerNotAuthorizedOperation": {
+      "titl": "Používateľ nemá oprávnenie (%p) k vykonaniu požadovanej operácie."
+    },
+    "centServerStartingException": {
+      "titl": "Centrálny server sa spúšťa, počkajte, prosím."
+    },
+    "ciselnikDaoChybaMaximalniKod": {
+      "titl": "Hodnotu maximálneho kódu sa nepodarilo získať z dátového zdroja."
+    },
+    "ciselnikDaoChybaPosledniKod": {
+      "titl": "Hodnotu posledného kódu se nepodarilo získať z dátového zdroja."
+    },
+    "ciselnikDuplicitniZkratka": {
+      "titl": "Skratku '%p' už používa iný záznam."
+    },
+    "ciselnikMimoObdobi": {
+      "titl": "Nie je povolené nastaviť platnosť mimo aktuálne účtovné obdobie."
+    },
+    "codeIdNotSupported": {
+      "titl": "Objekt [%p] nepodporuje CODE ID (kód:%p)."
+    },
+    "comboTextAreaTooltip": {
+      "titl": "Otvoriť v okne."
+    },
+    "concurrentProcedureRunning": {
+      "titl": "Aktuálne spustená operácia '%p', ktorú spustil používateľ %p v %p, neumožňuje súčasné spustenie operácie '%p'."
+    },
+    "connectionBindDetailError": {
+      "titl": "Nepodarilo sa pripojiť k databáze. Server vrátil chybu: %p"
+    },
+    "connectionBindError": {
+      "titl": "Nepodarilo sa pripojiť k databáze. Skontrolujte jej adresu a port."
+    },
+    "connectionCloseError": {
+      "titl": "Nepodarilo sa ukončiť pripojenie k databáze."
+    },
+    "connectionNepodariloZiskat": {
+      "titl": "Nepodarilo sa získať spojenie k dátovému zdroju."
+    },
+    "countryNotAllowedByLicense": {
+      "titl": "Kód krajiny '%p' nie je povolený licenciou."
+    },
+    "daoChybaPraceSDatabazi": {
+      "titl": "Nastala chyba pri práci s databázou."
+    },
+    "daoChybaProvadeniUlozeneProcedury": {
+      "titl": "Chyba behom vykonávania uloženej procedúry."
+    },
+    "daoDetekovanKonkurenciPristup": {
+      "titl": "Detekovaný konkurenčný prístup k tomuto záznamu."
+    },
+    "daoNejdeSmazatOdkaz": {
+      "titl": "Záznam nie je možné zmazať, pretože je na neho naviazaný iný záznam."
+    },
+    "daoNekonzistDatabazeViceZaznamu": {
+      "titl": "Nekonzistencia v databáze.\nNájdených viac záznamov so zhodným kódom '%p'."
+    },
+    "daoNekonzistDatabazeViceZaznamuDleCUctu": {
+      "titl": "Nekonzistentnosť v databáze.\nNájdených viacero záznamov s rovnakým číslom účtu '%p'."
+    },
+    "daoNeniUnikatniKod": {
+      "titl": "Pod zadaným kódom už existuje záznam. Zadaný kód musí byť unikátny."
+    },
+    "daoNepodariloOdstranitZDatabaze": {
+      "titl": "Záznam sa nepodarilo odstrániť z databázy."
+    },
+    "daoPocetRadekMimoRozsah": {
+      "titl": "Počet riadkov v tabuľke je mimo vymedzený rozsah."
+    },
+    "daoPoruseniIntegrity": {
+      "titl": "Porušenie integritných obmedzení."
+    },
+    "daoSelhaloPripojeniKDatovemuZdroji": {
+      "titl": "Zlyhalo pripojenie k dátovému zdroju."
+    },
+    "daoZaznamNepodariloNacist": {
+      "titl": "Požadovaný záznam sa nepodarilo načítať z databázy."
+    },
+    "daoZaznamNepodariloUlozit": {
+      "titl": "Záznam sa nepodarilo uložiť do databázy."
+    },
+    "daoZaznamyCiselnikSeNepodariloNacist": {
+      "titl": "Záznamy pre číselník '%p' (#%p) sa nepodarilo načítať z dátového zdroja."
+    },
+    "daoZaznamyFormulareSeNepodariloNacist": {
+      "titl": "Záznamy pre formulár '%p' (#%p) sa nepodarilo načítať z dátového zdroja."
+    },
+    "daoZaznamyLokCiselnikSeNepodariloNacist": {
+      "titl": "Záznamy pre lokalizovaný číselník (#%p) sa nepodarilo načítať z dátového zdroja."
+    },
+    "daoZaznamyParamNeexistuje": {
+      "titl": "Podľa parametrov nebol nájdený žiadny záznam: %p."
+    },
+    "daoZaznamyParamVice": {
+      "titl": "Ďalšie záznamy nájdené podľa parametrov: %p."
+    },
+    "daoZaznamySeznamuSeNepodariloNacist": {
+      "titl": "Záznamy pre zoznam '%p' (#%p) sa nepodarilo načítať z dátového zdroja."
+    },
+    "dbCreatingError": {
+      "titl": "Chyba pri vytváraní databázy."
+    },
+    "dbCreatingImportInitialFailed": {
+      "titl": "Chyba pri importovaní východzích dát."
+    },
+    "desktopErrorOpeningBrowser": {
+      "titl": "Nepodarilo sa otvoriť východzí webový prehliadač.\nProsím navštívte adresu %p."
+    },
+    "desktopErrorOpeningFile": {
+      "titl": "Nepodarilo sa otvoriť súbor %p.\nOtvorte si ho prosím ručne."
+    },
+    "desktopErrorOpeningMail": {
+      "titl": "Nepodaril sa otvoriť východzí poštový klient.\nNapíšte na adresu %p."
+    },
+    "duvod": {
+      "titl": "Dôvod"
+    },
+    "eanIdNotSupported": {
+      "titl": "Objekt [%p] nepodporuje EAN ID (ean:%p)."
+    },
+    "exportICalNeprobehlUspesne": {
+      "titl": "Export do iCal sa nepodaril."
+    },
+    "exportICalProbehlUspesne": {
+      "titl": "Export do iCal prebehol úspešne."
+    },
+    "exportICalProgresDesc": {
+      "titl": "Prebieha export do iCal..."
+    },
+    "exportVCardNeprobehlUspesne": {
+      "titl": "Export do vCard sa nepodaril."
+    },
+    "exportVCardProbehlUspesne": {
+      "titl": "Export do vCard prebehol úspešne."
+    },
+    "exportVCardProgresDesc": {
+      "titl": "Prebieha export do vCard..."
+    },
+    "exportXlsNeprobehlUspesne": {
+      "titl": "Export do Excelu se nepodaril."
+    },
+    "exportXlsPrekrocenLimitPocetRadek": {
+      "titl": "Bol prekročený limit počtu riadkov (65536) formátu XLS. Použite formát XLSX."
+    },
+    "exportXlsProbehlUspesne": {
+      "titl": "Export do Excelu prebehol úspešne."
+    },
+    "exportXmlNeprobehlUspesne": {
+      "titl": "Export do XML sa nepodaril."
+    },
+    "exportXmlProbehlUspesne": {
+      "titl": "Export do XML prebehol úspešne."
+    },
+    "exportXmlProgresDesc": {
+      "titl": "Prebieha export do XML..."
+    },
+    "featureNotSupportedByLicence": {
+      "titl": "Vaša licencia vás neoprávňuje na používanie tejto funkcie."
+    },
+    "fileNepodariloSeUzavritSoubor": {
+      "titl": "Nepodarilo sa uzatvoriť súbor."
+    },
+    "filePrepsatSoubor": {
+      "titl": "Chcete súbor prepísať?"
+    },
+    "filterFind": {
+      "titl": "Hľadať: "
+    },
+    "filterFormChybaPriUlozeniFiltru": {
+      "titl": "Aktuálne nastavenie filtrácie sa nepodarilo uložiť."
+    },
+    "filterFormFiltrProVlastnostChybaPreset": {
+      "titl": "Porušené nastavenie filtrácie pre pole %p."
+    },
+    "filterFormIgnorovanFiltrProVlastnost": {
+      "titl": "Ignorované nastavenie filtrácie pre vlastnosť %p."
+    },
+    "filterFormLoadDataFailed": {
+      "titl": "Nepodarilo sa načítať dáta do formulára pre nastavenie filtrov."
+    },
+    "filterFormNazevFiltruMusiBytVyplnen": {
+      "titl": "Názov filtra musí byť vyplnený."
+    },
+    "filterFormUlozeniPrepsatNeboNovy.message": {
+      "titl": "Chcete prepísať pôvodne nastavenie filtrácie alebo ho uložiť ako nové?"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.novy": {
+      "titl": "Nové"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.prepsat": {
+      "titl": "Prepísať"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.title": {
+      "titl": "Uloženie nastavenia filtrácie"
+    },
+    "filterFormUlozeniPrepsatNeboNovy.zrusit": {
+      "titl": "Zrušiť"
+    },
+    "filterFormZadejteNazevFiltru": {
+      "titl": "Zadajte názov ukladaného nastavenia filtrácie."
+    },
+    "filterIdUnsupported": {
+      "titl": "Tento záznam nepodporuje identifikátory ani filtrovanie záznamov."
+    },
+    "filtrAplikovan": {
+      "titl": "Práve je aplikovaný filter:"
+    },
+    "firmaNeexistuje": {
+      "titl": "Spoločnosť %p neexistuje."
+    },
+    "formBudeUzavren": {
+      "titl": "Formulár bude uzatvorený."
+    },
+    "formChybaAktualizaceBOkna": {
+      "titl": "Chyba behom aktualizácie B-okna"
+    },
+    "formDaoException": {
+      "titl": "Nastal problém v komunikácii s dátovým zdrojom."
+    },
+    "formEVerifikaceSelhala": {
+      "titl": "Nepodarilo sa vykonať kontrolu správnosti vyplnenia dát."
+    },
+    "formInterruptFormBudeUzavren": {
+      "titl": "Nastala kritická chyba, kvôli ktorej bude nutné uzatvoriť formulár."
+    },
+    "formInterruptFormNelzeOtevrit": {
+      "titl": "Nastala kritická chyba, kvôli ktorej se nepodarilo otvoriť formulár."
+    },
+    "formNejdeOtevritZaznam": {
+      "titl": "Nie je možné otvoriť požadovaný záznam."
+    },
+    "formNejdePrejitNovyZaznam": {
+      "titl": "Nie je možné prejsť na nový záznam."
+    },
+    "formNeopravnenyPokusSmazani": {
+      "titl": "Neoprávnený pokus o zmazanie záznamu"
+    },
+    "formPreSaveChcesUlozit": {
+      "titl": "Chcete pokračovať?"
+    },
+    "formRecordNotSaved": {
+      "titl": "Záznam %p [%p] sa nepodarilo uložiť. Odošlite túto chybu s popisom toho, čo tejto udalosti predchádzalo."
+    },
+    "formUkladaniSelhalo": {
+      "titl": "Ukladanie zlyhalo."
+    },
+    "formZaznamNelzeUlozit": {
+      "titl": "Záznam nie je možné uložiť."
+    },
+    "formZaznamNenalezen": {
+      "titl": "Záznam nebol v dátovom zdroji nájdený."
+    },
+    "formZdrojNenalezen": {
+      "titl": "Požadovaný zdroj nebol nájdený."
+    },
+    "formZnovunacneniProblem": {
+      "titl": "Pri opätovnom načítaní uloženého záznamu nastala chyba."
+    },
+    "formularNenastaven": {
+      "titl": "Pre entitu '%p' nie je nastavený editačný formulár."
+    },
+    "formularPrilisMnohoOken": {
+      "titl": "Máte otvorených príliš veľa okien\nNajskôr je nutné niektoré zatvoriť."
+    },
+    "formularPristupOdepren": {
+      "titl": "K tomuto formuláru nemáte povolený prístup."
+    },
+    "helpChceteOtevritNapoveduKProblemu": {
+      "titl": "Chcete otvoriť nápovedu k tomuto problému?"
+    },
+    "hodnotyBudouVypoctenyPoUlozeni": {
+      "titl": "Hodnoty polí budú vypočítané až po uložení."
+    },
+    "hromZmenyWizard.header": {
+      "titl": "Nastavenie hromadnej zmeny"
+    },
+    "hromZmenyWizard.nothingSelected": {
+      "titl": "Nie je vybratá žiadna položka."
+    },
+    "hromZmenyWizard.updateDotaz": {
+      "titl": "Skutočne chcete vykonať hromadnú zmenu?"
+    },
+    "hromZmenyWizard.updateError": {
+      "titl": "Hromadnú zmenu se nepodarilo vykonať."
+    },
+    "hromZmenyWizard.vyberte": {
+      "titl": "Vyberte pole a zadajte požadovanú hodnotu."
+    },
+    "i18nFieldSchovatOstatniJazyky": {
+      "titl": "Skryť ostatné jazyky."
+    },
+    "i18nFieldZobrazitOstatniJazyky": {
+      "titl": "Zobraziť ostatné jazyky."
+    },
+    "ibanIdNotSupported": {
+      "titl": "Objekt [%p] nepodporuje IBAN ID (iban:%p)."
+    },
+    "importSeNepodarilZDuvodu": {
+      "titl": "Import z %p sa nepodaril.\nOpravte problémy popísané nižšie a skúste import znova."
+    },
+    "importSkoncilSVarovanim": {
+      "titl": "Import z %p skončil s varovaním.\nSkontrolujte varovanie nižšie, prípadne import opakujte."
+    },
+    "importUkoncitProcesDotaz": {
+      "titl": "Skutočne chcete ukončiť prebiehajúci import?"
+    },
+    "importXlsBunkaNeniBoolean": {
+      "titl": "bunka nie je logická hodnota."
+    },
+    "importXlsBunkaNeniCalendar": {
+      "titl": "bunka nie je dátum."
+    },
+    "importXlsBunkaNeniDouble": {
+      "titl": "bunka nie je desatinné číslo."
+    },
+    "importXlsBunkaNeniInteger": {
+      "titl": "bunka nie je celé číslo."
+    },
+    "importXlsBunkaNeniString": {
+      "titl": "bunka nie je reťazec."
+    },
+    "importXlsCellLocation": {
+      "titl": "Riadok %p, stĺpec %p - "
+    },
+    "importXlsCellLocationProperty": {
+      "titl": "Riadok %p, vlastnosť %p - "
+    },
+    "importXlsChybnyFormatXls": {
+      "titl": "Súbor sa nepodarilo načítať.\nChcete zobraziť nápovedu k problému?"
+    },
+    "importXlsImportProbehlUspesne": {
+      "titl": "Import prebehol úspešne."
+    },
+    "importXlsImportSeNezdaril": {
+      "titl": "Import sa nepodaril."
+    },
+    "importXlsNeexistujeObjekt": {
+      "titl": "Neexistuje objekt typu %p s hodnotou kódu %p."
+    },
+    "importXlsNeniMozneImportovatNecodableObjekt": {
+      "titl": "Nie je možné vyhľadať objekt inak ako pomocou skratky (%p)."
+    },
+    "importXlsNeniVyplnenoMandatory": {
+      "titl": "povinná bunka nie je vyplnená."
+    },
+    "importXlsNepodariloSeNacistSoubor": {
+      "titl": "Nepodarilo sa načítať súbor pre import."
+    },
+    "importXlsNepodariloSeOtevritSoubor": {
+      "titl": "Súbor sa nepodarilo otvoriť."
+    },
+    "importXlsNepodporovanyFormatOds": {
+      "titl": "Formát dokumentu OpenDocument Spreadsheet (ODS) nie je podporovaný, súbor najskôr skonvertujte do formátu XLS."
+    },
+    "importXlsNeproslaValidace": {
+      "titl": "Nepodarilo sa zvalidovať objekt."
+    },
+    "importXlsNevalidniFormat": {
+      "titl": "Verzia XLS importovaného formátu súboru nie je podporovaná, skúste súbor uložiť do iného formátu."
+    },
+    "importXlsPolozkuNelzeOdstranit": {
+      "titl": "Vybraná položka musí byť importovaná."
+    },
+    "importXlsSelhalZapisDoSouboru": {
+      "titl": "Zlyhal zápis do súboru."
+    },
+    "importXlsSkladKartaNeniVybranTypDokl": {
+      "titl": "Nie je vybraný typ skladového dokladu."
+    },
+    "importXlsZadnaNovaDataNebylaNaimportovana": {
+      "titl": "Žiadne nové dáta neboli nájdené."
+    },
+    "importXmlActionJenPersistentni": {
+      "titl": "Objekt ešte nebol vytvorený, nie je možné vykonať žiadnu akciu."
+    },
+    "importXmlActionNotSupported": {
+      "titl": "Atribút \"action\" obsahuje zlú hodnotu. Môže obsahovať len: %p"
+    },
+    "importXmlChceteProvestImport": {
+      "titl": "Chcete uskutočniť import následujúcich záznamov?"
+    },
+    "importXmlEmptyIdentifier": {
+      "titl": "Prázdna hodnota identifikátora (%p)."
+    },
+    "importXmlIdentRuznychObjektu": {
+      "titl": "Identifikátor %p špecifikuje iný záznam než %p."
+    },
+    "importXmlInternalError": {
+      "titl": "Interná chyba aplikácie."
+    },
+    "importXmlInvalidStartTag": {
+      "titl": "Koreňový prvok %p nie je podporovaný. Podporované prvky: %p."
+    },
+    "importXmlJeZamceno": {
+      "titl": "Záznam je uzámknutý."
+    },
+    "importXmlKAktualizaci": {
+      "titl": "k aktualizácii"
+    },
+    "importXmlKSmazani": {
+      "titl": "k zmazaniu"
+    },
+    "importXmlMissingElement": {
+      "titl": "Prvok \"%p\" je povinný."
+    },
+    "importXmlMissingIdentifier": {
+      "titl": "Identifikátor (%p) nie je uvedený."
+    },
+    "importXmlNeexistujeStitek": {
+      "titl": "Neexistuje štítok s kódom %p."
+    },
+    "importXmlNelzeUpdate": {
+      "titl": "Položku %p nemožno zmeniť."
+    },
+    "importXmlNeopravnenyCreate": {
+      "titl": "Nemáte oprávnenie na vytvorenie záznamu v evidencii %p."
+    },
+    "importXmlNeopravnenyDelete": {
+      "titl": "Nemáte oprávnenie na zmazanie záznamu v evidencii %p."
+    },
+    "importXmlNeopravnenyUpdate": {
+      "titl": "Nemáte oprávnenie na zmenu záznamu v evidencii %p."
+    },
+    "importXmlNeplatnyCiselnik": {
+      "titl": "%p nie je platný kód lokalizovaného číselníka %p."
+    },
+    "importXmlNepodporovanyUzel": {
+      "titl": "Nájdený nepodporovaný uzol %p"
+    },
+    "importXmlNepodporujeExtId": {
+      "titl": "%p nepodoruje extern identifikátory."
+    },
+    "importXmlNeuvadetRemoveAllAMode": {
+      "titl": "Atribúty \"removeAll\" a \"mode\" nemožno použiť v tom istom prvku."
+    },
+    "importXmlNonScalarIdValue": {
+      "titl": "Hodnota '%p' elementu '%p' nie je skalárna."
+    },
+    "importXmlNotFoundForIdentifier": {
+      "titl": "Záznam pre parameter (%p) nebol nájdený v zdroji údajov."
+    },
+    "importXmlNove": {
+      "titl": "nové"
+    },
+    "importXmlObjektNepodporujeExterniId": {
+      "titl": "%p nepodporuje externý id."
+    },
+    "importXmlRelacniRezim": {
+      "titl": "Importér \"%p\" je v relačnom režime a umožňuje vytvárať väzby len na existujúce objekty."
+    },
+    "importXmlSchaziPravoZamykat": {
+      "titl": "Nemáte oprávnenie k zamykaniu dokladov."
+    },
+    "importXmlSingletonElement": {
+      "titl": "Prvok \"%p\" možno zadať najviac raz."
+    },
+    "importXmlUnsupportedVersion": {
+      "titl": "Verzia importovaného súboru chýba alebo nie je podporovaná. Podporovaná verzia: %p."
+    },
+    "importXmlZaznamObsahujeChybu": {
+      "titl": "Záznam č. %p obsahuje chybu: %p"
+    },
+    "inIdNotSupported": {
+      "titl": "Objekt [%p] nepodporuje IN ID (in:%p)."
+    },
+    "inputParamContr.nevyplnen": {
+      "titl": "Parameter '%p' musí byť vyplnený."
+    },
+    "invalidExtIdFormat": {
+      "titl": "ExtId má nesprávny tvar %p."
+    },
+    "invalidWinstromId": {
+      "titl": "ID Winstrom (%p) má nesprávny formát."
+    },
+    "itemAlreadyLinked": {
+      "titl": "Položka %p je už viazaná na nadradený objekt [%p], nemožno ju viazať na iný objekt."
+    },
+    "jsonNeplatny": {
+      "titl": "Nesprávny formát JSON: %p"
+    },
+    "keyIdNotSupported": {
+      "titl": "Objekt [%p] nepodporuje KEY ID (key:%p)."
+    },
+    "licenceAfterRentToInfo": {
+      "titl": "Skontrolujte, prosím, úhradu poplatku za používanie ABRA Flexi po %p.\n%p\n\n<b>Ak nedôjde k platbe, bude od %p služba prístupná len na čítanie.</b>\n\nV prípade nejasností kontaktujte prosím obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceContactLicenseOwner": {
+      "titl": "Obráťte sa na majiteľa / administrátora licencie."
+    },
+    "licenceReadOnlyDialog": {
+      "titl": "Licence nemá vyplnené dátum platnosti, a preto je služba prístupná <b>iba pre čítanie</b>.\nProsím kontaktujte obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)."
+    },
+    "licenceReadOnlyInfo": {
+      "titl": "Z dôvodu neuhradenia poplatku za používanie ABRA Flexi po %p, je služba prístupná <b>iba pre čítanie</b>.\n%p\n\n<b>Ak nedôjde k platbe, bude od %p služba nedostupná.</b>\n\nV prípade nejasností kontaktujte prosím obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceValidToExpiredShutDown": {
+      "titl": "Licencie mala obmedzenú platnosť do %p. Dôvodom môžu byť neuhradené doklady. <b>Aplikácia bude ukončená.</b>\n%p\n\nV prípade nejasností kontaktujte prosím obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "licenceZakaznickyOdkazMojeLicence": {
+      "titl": "Váš zákaznícky odkaz s prehľadom vystavených dokladov: <b>[Moje licencie](%p)</b>."
+    },
+    "licenseBlockedTitle": {
+      "titl": "Zablokovaná licencie"
+    },
+    "licenseRentToExpiredTitle": {
+      "titl": "Uplynutí doby prenájmu licencie"
+    },
+    "loadingDataFailed": {
+      "titl": "Nepodarilo sa načítať údaje zo zdroja údajov."
+    },
+    "loginDialogBlokovanaLicenceUzivatele": {
+      "titl": "Zablokovaná licencie: <b>%p</b>\n\nV prípade nejasností kontaktujte prosím obchodné oddelenie [ABRA Flexi](https://support.flexibee.eu/redirect/sales/)"
+    },
+    "longExceptionMessageCut": {
+      "titl": "Zvyšok textu bol orezaný."
+    },
+    "mailDefaultFooter": {
+      "titl": "Vygenerované ekonomickým systémom %p"
+    },
+    "mailDefaultFromNotFound": {
+      "titl": "Predvolená e-mailová adresa nie je definovaná v nastaveniach používateľa ani v nastaveniach servera SMTP."
+    },
+    "mailNepodariloSeOdeslat": {
+      "titl": "Nepodarilo sa odoslať e-mail."
+    },
+    "manyToManyCtrl.OdeberVyberObjekt": {
+      "titl": "Nejprv musíte zvoliť objekt, ktorý sa má odobrať."
+    },
+    "massUpdateNotSupported": {
+      "titl": "Tento záznam neumožňuje hromadné zmeny."
+    },
+    "massUpdateProgressInfo": {
+      "titl": "Prebieha hromadná zmena..."
+    },
+    "massUpdateProgressInfoZamcObd": {
+      "titl": "Prebieha výmena zámku..."
+    },
+    "month0": {
+      "titl": "január"
+    },
+    "month1": {
+      "titl": "február"
+    },
+    "month10": {
+      "titl": "november"
+    },
+    "month11": {
+      "titl": "december"
+    },
+    "month2": {
+      "titl": "marec"
+    },
+    "month3": {
+      "titl": "april"
+    },
+    "month4": {
+      "titl": "máj"
+    },
+    "month5": {
+      "titl": "jún"
+    },
+    "month6": {
+      "titl": "jul"
+    },
+    "month7": {
+      "titl": "august"
+    },
+    "month8": {
+      "titl": "september"
+    },
+    "month9": {
+      "titl": "október"
+    },
+    "nelzeNaleztJavu": {
+      "titl": "Nepodarilo sa nájsť Java %p alebo vyššiu."
+    },
+    "nesloZmenitZaokrouhleni": {
+      "titl": "Zaokrúhľovanie dokumentu však nebolo možné zmeniť."
+    },
+    "neucetniSkladucetniTypDokl": {
+      "titl": "Nastavili ste neúčtovný sklad a typ dokladu je účtovný!"
+    },
+    "noSpaceLeftOnDevice": {
+      "titl": "Nedostatok úložného priestoru."
+    },
+    "notEnabledByLicense": {
+      "titl": "Funkcia nie je povolená v licencii."
+    },
+    "notUniqueIdentifier": {
+      "titl": "Zadaný identifikátor nie je jedinečný! Bolo nájdených viacero záznamov, ktoré majú vlastnosť '%p' s hodnotou '%p'."
+    },
+    "obnovitDBChybaListObjektuDumpu": {
+      "titl": "Chyba pri spracovaní záložného súboru."
+    },
+    "obnovitDBChybaOldAppServer": {
+      "titl": "Verzia databázy %p je novšia ako verzia servera ABRA Flexi."
+    },
+    "obnovitDBChybaPrideleniPrav": {
+      "titl": "Chyba pri priradzovaní práv databázovým objektom."
+    },
+    "obnovitDBChybaPrikazu": {
+      "titl": "Chyba pri spustení príkazu pre obnovenie databázy."
+    },
+    "obnovitDBError": {
+      "titl": "Chyba pri obnove účtovníctva firmy."
+    },
+    "obnovitDBNenalezenNastrojPgRestore": {
+      "titl": "Nepodarilo sa nájsť cestu k nástroju pre obnovenie firmy."
+    },
+    "obnovitDBNenalezenPgRestore": {
+      "titl": "Nebola nájdena inštalácia nástroja pg_restore. Je PostgreSQL skutočne nainštalovaný?"
+    },
+    "obnovitDBNepodariloSePripojit": {
+      "titl": "Nepodarilo sa pripojiť na centrálny server."
+    },
+    "obnovitDBPridaniCsUzivatele": {
+      "titl": "\nNa centrálnom serveri boli pridaní následujúci používatelia, ktorým je treba zmeniť heslo, aby sa mohli prihlásiť.\n"
+    },
+    "obnovitDBProbehloUspesne": {
+      "titl": "Databáza bola úspešne obnovená."
+    },
+    "obnovitDBServerNezadan": {
+      "titl": "Nebolo zadané meno súboru. Prajete si meno zadať znovu?"
+    },
+    "obnovitDBSouborNeexistuje": {
+      "titl": "Súbor so zálohou ešte neexistuje. Prajete si vybrať iný súbor?"
+    },
+    "obnovitDBUnsupportedVersion": {
+      "titl": "Nepodporovaná verzia záložného súboru spoločnosti. Pravdepodobne sa snažíte obnoviť zálohu spoločnosti, ktorá pochádza z novšej verzie databázy PostgreSQL."
+    },
+    "obnovitDBZadatJmenoServeruTitulek": {
+      "titl": "Zadajte meno databázy pre novú firmu."
+    },
+    "obnovitDBZadatJmenoSeveruVyzva": {
+      "titl": "Meno databázy firmy:"
+    },
+    "osNotSupportsScanning": {
+      "titl": "V operačnom systéme nie je možné skenovať."
+    },
+    "pleaseRelogin": {
+      "titl": "Prihláste sa znova."
+    },
+    "pluIdNotSupported": {
+      "titl": "Objekt [%p] nepodporuje PLU ID (plu:%p)."
+    },
+    "postgreSQLChybiDokladovaRada": {
+      "titl": "Skontrolujte nastavenia série dokumentov pre %p: sklad \"%p: %p\", typ dokumentu \"%p: %p\"."
+    },
+    "postgreSQLExceptionNeexistujeKurzSklad": {
+      "titl": "V tabuľke kurzu neexistuje kurz pre ponuku skladu."
+    },
+    "postgreSQLExceptionZPrijemkyCerpaVydejka": {
+      "titl": "Nie je možné vymazať alebo stornovať príjemku z ktorej už čerpá výdajka."
+    },
+    "postgreSQLExceptionZapornySklad": {
+      "titl": "Nie je povolený záporný stav skladu."
+    },
+    "postgreSQLExceptionZustavajiVazbyDoklad": {
+      "titl": "Vo väzobnej tabuľke zostávajú väzby na doklad."
+    },
+    "postgreSQLExceptionZustavajiVazbyPolozky": {
+      "titl": "Vo väzobnej tabuľke zostávajú väzby na položku dokladu."
+    },
+    "postgreSQLNelzeZmeniVydCis": {
+      "titl": "Meníte cenu %p pre už vydané sériové číslo %p."
+    },
+    "postgreSQLUcetNavazanaPolozka": {
+      "titl": "Nemožno zmeniť účet vo väzbe."
+    },
+    "postgreSQLVytvorPrijemkuVKusovnikuChybiDostatekMaterialu": {
+      "titl": "Nie je možné vytvoriť príjemku výrobku \"%p\" z dôvodu chýbajúceho materiálu \"%p\" na sklade \"%p\" (požadované: %p, dostupné: %p)."
+    },
+    "postgreSQLduplVyrCis": {
+      "titl": "Duplicitné sériové číslo %p."
+    },
+    "postgreSQLzboziZpolozkyVyskladneno": {
+      "titl": "Tovar z položky už bol vyskladnený."
+    },
+    "postvalidaceZadanoPole": {
+      "titl": "Zadané pole"
+    },
+    "progressDlg.ukoncitProcesDotaz": {
+      "titl": "Skutočne chcete ukončiť prebiehajúci proces?"
+    },
+    "progressDlg.ukoncitUlozitProcesDotaz": {
+      "titl": "Prebiehajúci proces sa ukončí. Chcete svoje zmeny uložiť?"
+    },
+    "progressZrusen": {
+      "titl": "Úloha bola prerušená."
+    },
+    "propertyCantBeChanged": {
+      "titl": "Vlastnosť '%p' (%p) teraz nemožno upravovať."
+    },
+    "queryFormMultipleChybaNacitani": {
+      "titl": "Chyba pri načítaní položiek pre výber."
+    },
+    "queryNelzeNastavitPozadovanyFiltr": {
+      "titl": "Pre tento typ nie je možné zostaviť požadovaný filter typu '%p'."
+    },
+    "readOnlyUserNotAllowed": {
+      "titl": "Užívateľ '%p' bez práva zápisu smie používať iba požiadavky na čítanie."
+    },
+    "recipientIsMissing": {
+      "titl": "Musí byť uvedený aspoň jeden adresát."
+    },
+    "remoteLogoutDemand": {
+      "titl": "Ak sa vaše konto súčasne používa na inom zariadení, odhláste sa najprv na tomto zariadení."
+    },
+    "reportChybaZobrazeni": {
+      "titl": "Behom zobrazenia náhľadu reportu sa vyskytla chyba."
+    },
+    "reportChybneHesloJenAscii": {
+      "titl": "Zadané heslo sa bohužiaľ nedá použiť na zašifrovanie tlačovej zostavy.\nZadajte heslo bez diakritiky."
+    },
+    "reportFileNotFound": {
+      "titl": "Pre požadovanú správu %p sa nepodarilo nájsť soubor jrxml ani jasper."
+    },
+    "reportImplNeniPripojenaTiskarna": {
+      "titl": "Nie je pripojená žiadna tlačiareň."
+    },
+    "reportImplNepodariloVytisknout": {
+      "titl": "Nepodarilo sa vytlačiť tlačovú zostavu."
+    },
+    "reportKontaktujteVyrobce": {
+      "titl": "V reporte sa vyskytla chyba. Kontaktujte výrobcu reportu."
+    },
+    "reportNacitamPocetZaznamu": {
+      "titl": "Načítanie počtu záznamov."
+    },
+    "reportNebylNalezen": {
+      "titl": "Report nebol v datovom zdroji nájdený."
+    },
+    "reportNeniVybran": {
+      "titl": "Tlačová zostava nie je vybratá."
+    },
+    "reportNepodariloSeNacistPocetZaznamu": {
+      "titl": "Počet záznamov sa nepodarilo získať."
+    },
+    "reportNepodariloSePDF": {
+      "titl": "Nepodarilo se vygenerovať súbor PDF."
+    },
+    "reportNepodariloSeXls": {
+      "titl": "Nepodarilo sa vygenerovať súbor Xls."
+    },
+    "reportNepodariloSeXlsx": {
+      "titl": "Nepodarilo sa vygenerovať súbor Xlsx."
+    },
+    "reportNezdarilSeTisk": {
+      "titl": "Tlač zostavy sa nepodarila."
+    },
+    "reportNoData": {
+      "titl": "Tlačová zostava nemá žiadnu dátovú sadu."
+    },
+    "reportPDFExportUspesny": {
+      "titl": "Export do PDF prebehol úspešne."
+    },
+    "reportPaneNepodariloNacistSeznamReportu": {
+      "titl": "Nepodarilo sa načítať zoznam reportov."
+    },
+    "reportTvorbaPrerusena": {
+      "titl": "Tvorba reportu bola prerušená. Skúste to znovu."
+    },
+    "reportXlsExportUspesny": {
+      "titl": "Export do Xls prebehol úspešne."
+    },
+    "reportXlsxExportUspesny": {
+      "titl": "Export do Xlsx prebehol úspešne."
+    },
+    "reportZadneStranky": {
+      "titl": "Report neobsahuje žiadne stránky."
+    },
+    "restrictedProtocol": {
+      "titl": "Protokol '%p' nie je povolený."
+    },
+    "scannerEnterKeyStroke": {
+      "titl": "Prefix EAN čítačky:"
+    },
+    "scannerEnterKeyStrokeTitle": {
+      "titl": "Zadajte hodnotu"
+    },
+    "scannerNoCodeEntered": {
+      "titl": "Časový limit na zadanie kódu EAN uplynul."
+    },
+    "sessionChybaDetasovaniDatObjektu": {
+      "titl": "Chyba behom detašovania dátových objektov z pracovnej session."
+    },
+    "sessionChybaOtevirani": {
+      "titl": "Chyba behom otvárania session."
+    },
+    "sessionChybaUzavirani": {
+      "titl": "Chyba behom uzatvárania session."
+    },
+    "sessionChybaVkladaniDatObjektu": {
+      "titl": "Chyba behom vkládania dátových objektov do pracovnej session."
+    },
+    "sessionTimedOut": {
+      "titl": "Časový limit relácie vypršal"
+    },
+    "settingChybaNacitaniElementu": {
+      "titl": "Chyba pri načítaní elementu"
+    },
+    "settingColumnsDefaultInfo": {
+      "titl": "Ak budete pokračovať, nastavíte toto rozloženie stĺpcov ako východzie\nvšetkým používateľom aplikacie u tejto firmy."
+    },
+    "settingColumnsDeleteError": {
+      "titl": "Zlyhalo mazanie používateľského nastavenia pre objekt: '%p'."
+    },
+    "settingColumnsDeletePropertyError": {
+      "titl": "Zlyhalo mazanie používateľského nastavenia stĺpca pre objekt: '%p'."
+    },
+    "settingColumnsLoadBeanError": {
+      "titl": "Zlyhalo načítanie používateľského nastavenia stĺpcov pre objekt: '%p'."
+    },
+    "settingColumnsLoadError": {
+      "titl": "Načítanie nastavenia stĺpcov zlyhalo."
+    },
+    "settingColumnsLoadFilterError": {
+      "titl": "Nepodarilo sa načítať nastavenia používateľského stĺpca pre filter: '%p'."
+    },
+    "settingColumnsRestoreDefaultInfo": {
+      "titl": "Ak budete pokračovať, nastavíte rozloženie stĺpcov na stav pri prvom spustení aplikácie."
+    },
+    "settingColumnsSaveBeanError": {
+      "titl": "Zlyhalo ukladanie používateľského nastavenia stĺpcov pre objekt: '%p'."
+    },
+    "settingColumnsSaveError": {
+      "titl": "Uloženie nastavenia stĺpcov zlyhalo."
+    },
+    "settingColumnsSelhaloUkladaniSloupcu": {
+      "titl": "Zlyhalo ukladanie nastavenia stĺpcov tabuľky do XML súboru."
+    },
+    "settingColumnsSouborProblem": {
+      "titl": "Problém so súborom s nastaveniami stĺpcov tabuľky"
+    },
+    "settingColumnsStaleStateWhenSave": {
+      "titl": "Pri ukladaní stĺpcov nastal problém konkurenčného prístupu.\nIný používateľ už zmenil nastavenie stĺpcov objektu: '%p'."
+    },
+    "settingColumnsStaleStateWhenSaveUnspec": {
+      "titl": "Pri ukladaní stĺpcov nastal problém konkurenčného prístupu."
+    },
+    "settingIniChybnySoubor": {
+      "titl": "Chybný inicializačný súbor"
+    },
+    "settingIniSouborNenalezen": {
+      "titl": "Inicializačný súbor '%p' nebol nájdený."
+    },
+    "settingL10nSelhaloUkladani": {
+      "titl": "Zlyhalo ukladanie lokalizačného nastavenia do XML súboru!"
+    },
+    "settingValLoadError": {
+      "titl": "Načítanie validačného nastavenia zlyhalo."
+    },
+    "settingValNastaveniProblem": {
+      "titl": "Problém so súborom s validačnými nastaveniami"
+    },
+    "settingValSelhaloUkladani": {
+      "titl": "Zlyhalo ukladanie validačného nastavenia do XML súboru!"
+    },
+    "settingValVicenasobnyElement": {
+      "titl": "Validačný XML obsahuje niekoľkokrát rovnaký element"
+    },
+    "settingWindowsReadError2": {
+      "titl": "Zlyhalo načítanie používateľskeho nastavenia okien pre používateľa '%p'."
+    },
+    "settingWindowsSaveError": {
+      "titl": "Zlyhalo ukladanie používateľského nastavenia okna '%p' pre používateľa '%p'."
+    },
+    "settingsReadError": {
+      "titl": "Zlyhalo načítanie vlastností '%p' pre používateľa '%p'."
+    },
+    "settingsReportConfigNotAllowed": {
+      "titl": "Záznam \"%p\" neumožňuje konfiguráciu hlásení. Použite '%p'."
+    },
+    "settingsWriteError": {
+      "titl": "Zlyhalo ukladanie vlastností '%p' pre používateľa '%p'."
+    },
+    "souborNelzeZapisovat": {
+      "titl": "Nemáte dostatočné oprávnenia na to, aby ste sa mohli zapísať na cestu."
+    },
+    "spatnyFormatIDs": {
+      "titl": "Zlý formát viacerých ID, chyba na pozícii %p."
+    },
+    "staleStateResolverZmenenyZaznam": {
+      "titl": "Od otvorenia záznamu bol záznam zmenený iným používateľom.\n(Prípadne mohol iný používateľ zmeniť nadriadený záznam, ktorý obsahuje tento záznam.)"
+    },
+    "tableNelzePosouvatPolozku": {
+      "titl": "V tabuľke nie je vybraná žiadna položka pre posun."
+    },
+    "tableNelzePosunDolu": {
+      "titl": "Posledný záznam v tabuľke nie je možné posunúť dole."
+    },
+    "tableNelzePosunNahoru": {
+      "titl": "Prvý záznam v tabuľke nie je možné posunúť nahor."
+    },
+    "tableNepodariloPosunout": {
+      "titl": "Nepodarilo sa posunúť záznam."
+    },
+    "tableRowNumberChyba": {
+      "titl": "Chyba behom zisťovania čísla riadku v tabuľke."
+    },
+    "taskMonitorEndTasksQuestion": {
+      "titl": "Na pozadí bežia nedokončené úlohy. Dôrazne doporučujeme počkať na ich dokončenie."
+    },
+    "transakceNepodariloCommit": {
+      "titl": "Nepodarilo sa vykonať uloženie transakcie."
+    },
+    "transakceNepodariloRollback": {
+      "titl": "Nepodarilo sa vykonať vrátenie transakcie."
+    },
+    "transakceNepodariloZahajit": {
+      "titl": "Transakciu se nepodarilo začať."
+    },
+    "twoPhaseAuthCodeRequired": {
+      "titl": "Vyžaduje sa overovací kód 2FA."
+    },
+    "ucetniSkladNeucetniTypDokl": {
+      "titl": "Nastavili ste účtovný sklad a typ dokladu nie je účtovný!"
+    },
+    "unsupportedDataTypeLike": {
+      "titl": "Operátory like, begins, ends vyžadujú argument typu string."
+    },
+    "upgradovatDBChyba": {
+      "titl": "Nepodarilo sa spustiť upgrade databázy."
+    },
+    "upgradovatDBChybaNahravaniLokCiselniku": {
+      "titl": "Chyba pri aktualizácii databázy. Nepodarilo sa nahrať lokalizované číselníky."
+    },
+    "upgradovatDBChybaOpravyLobu": {
+      "titl": "Chyba aktualizácie databázy. Nepodarilo sa nastaviť práva existujúcich príloh."
+    },
+    "upgradovatDBChybaSpousteniSkriptu": {
+      "titl": "Chyba pri aktualizácii databázy. Nepodarilo sa vykonať skript %p."
+    },
+    "urlReaction": {
+      "titl": "https://support.flexibee.eu/reakce/"
+    },
+    "urlSupport": {
+      "titl": "https://support.flexibee.eu/redirect/support-w10/"
+    },
+    "userFilterOpen.chybaPriMazaniFiltru": {
+      "titl": "Nastavenie filtrácie sa nepodarilo vymazať."
+    },
+    "userFilterOpen.header": {
+      "titl": "Voľba uloženého nastavenia filtrácie"
+    },
+    "userFilterOpen.musiteVybratFiltr": {
+      "titl": "Najskôr musíte vybrať nejaké nastavenie filtrácie"
+    },
+    "userFilterOpen.opravduSmazatFiltr": {
+      "titl": "Skutočne chcete zmazať vybrané  nastavenie filtrácie?"
+    },
+    "userFilterOpen.vyberteFiltry": {
+      "titl": "Vyberte používateľské nastavenie filtrácie, ktoré chcete otvoriť."
+    },
+    "uuidNotSupported": {
+      "titl": "Objekt [%p] nepodporuje UUID (uuid:%p)."
+    },
+    "uzivatelNeexistuje": {
+      "titl": "Používateľ %p neexistuje."
+    },
+    "validace.chybiVS": {
+      "titl": "Chýbajúce nastavenie vo validačnom XML pre [bean='%p',prop='%p']"
+    },
+    "validace.double": {
+      "titl": "Hodnota poľa \"%p\" musí byť reálne číslo."
+    },
+    "validace.invalidCombination": {
+      "titl": "Hodnota vlastnosti \"%p\" v kombinácii s hodnotou vlastnosti \"%p\" nie je platná."
+    },
+    "validace.kodNotExist": {
+      "titl": "Pole '%p': Záznam so zadanou skratkou v databáze neexistuje."
+    },
+    "validace.maxValue": {
+      "titl": "Hodnota poľa '%p' nesmie byť väčšia než %p."
+    },
+    "validace.maxZnaku": {
+      "titl": "Pole '%p' nesmie byť dlhšie než %p znakov."
+    },
+    "validace.minValue": {
+      "titl": "Hodnota poľa '%p' nesmie byť menšia než %p."
+    },
+    "validace.minZnaku": {
+      "titl": "Pole '%p' musí obsahovať aspoň %p znakov."
+    },
+    "validace.mocCislic": {
+      "titl": "Hodnota poľa '%p' nesmie obsahovať viac než %p číslic."
+    },
+    "validace.mocDesCis": {
+      "titl": "Hodnota poľa '%p' nesmie obsahovať viac než %p desatinných miest."
+    },
+    "validace.neplatnyCiselnik": {
+      "titl": "Pole '%p' obsahuje neplatnú položku číselníka."
+    },
+    "validace.notAvailableValue": {
+      "titl": "Pole \"%p\" musí byť vyplnené jednou z hodnôt %p."
+    },
+    "validace.notEmpty": {
+      "titl": "Pole '%p' musí byť vyplnené."
+    },
+    "validace.notNull": {
+      "titl": "Pole '%p' musí byť vyplnené."
+    },
+    "validace.notZero": {
+      "titl": "Hodnota poľa '%p' musí byť nenulová."
+    },
+    "validace.rokDataMimoRozsah": {
+      "titl": "Rok údajov pre vlastnosť \"%p\" možno určiť v rozsahu -9999 až 9999: %p"
+    },
+    "validace.unknownType": {
+      "titl": "Neznámy typ vo validačnom XML pre [bean='%p',prop='%p']"
+    },
+    "validace.valChyba": {
+      "titl": "Pole '%p': Chyba behom validácie."
+    },
+    "validace.vymazanoPole": {
+      "titl": "Vymazáno pole %p."
+    },
+    "validace.zadano": {
+      "titl": "Zadané '%p'."
+    },
+    "validaceZadanoPole": {
+      "titl": "Zadané pole"
+    },
+    "vatIdNotSupported": {
+      "titl": "Objekt [%p] nepodporuje ID DPH (vatid:%p)."
+    },
+    "versionWarning": {
+      "titl": "Spustili ste testovaciu verziu, ak ju použijete, dáta budú nenávratne poškodené.\nTáto verzia je určená na overenie nových funkcií ABRA Flexi\na a nesmie sa používať v produkčnom prostredí, preto vždy pracujte len s kópiou dát."
+    },
+    "voSelektorNepodariloNacistZaznam": {
+      "titl": "Z dátového zdroja se nepodarilo načítať vybraný záznam."
+    },
+    "wrongUserType": {
+      "titl": "Nesprávny typ používateľa: '%p'"
+    },
+    "xmlStreamExceptionContentIsNotAllowedInProlog": {
+      "titl": "Súbor neobsahuje platné XML.\n(Obsah nie je povolený v prologu)"
+    },
+    "xmlStreamExceptionInvalidByte1ofUTF8": {
+      "titl": "Snažíme sa čítať importovaný súbor XML v kódovaní UTF-8, ale súbor\nje pravdepodobne uložený v inom kódovaní. Vyžiadajte si súbor uložený\nv kódovaní UTF-8 alebo ho sami uložte v tomto kódovaní."
+    },
+    "zalohaJizExistuje": {
+      "titl": "Záloha pod týmto menom už existuje. Prajete si ju prepísať?"
+    },
+    "zalohaNedostatekMista": {
+      "titl": "Pre zálohu o veľkosti %p nie je dostatok miesta na disku."
+    },
+    "zalohaProbehlaUspesne": {
+      "titl": "Zálohovanie prebehlo úspešne."
+    },
+    "zalohaSouborNenalezen": {
+      "titl": "Súbor pre zálohu %p nenájdený alebo k nemu nemáte dostatočné práva."
+    },
+    "zalohovatDBChybaPrejmenovani": {
+      "titl": "Chyba pri premenovaní súboru s heslami do DB."
+    },
+    "zalohovatDBChybaPrikazu": {
+      "titl": "Chyba pri spustení príkazu pre zálohovanie."
+    },
+    "zalohovatDBChybaPrikazuChmod": {
+      "titl": "Chyba pri spúšťaní príkazu pre zmenu práv k súboru chmod."
+    },
+    "zalohovatDBChybaUkoncit": {
+      "titl": "Prajete si aplikáciu ukončiť?"
+    },
+    "zalohovatDBError": {
+      "titl": "Chyba pri zálohovaní účtovníctva firmy."
+    },
+    "zalohovatDBNenalezenPgDump": {
+      "titl": "Nepodarilo sa nájsť cestu k nástroju na zálohovanie firmy."
+    },
+    "zalohovatDBPGPassNenalezen": {
+      "titl": "Nie je možné nájsť súbor s nastavením pripojenia do DB."
+    },
+    "zalohovatDBQuestion": {
+      "titl": "Chcete pred ukončením programu vykonať zálohovanie účtovníctva firmy?"
+    },
+    "zalohovatNelzeVytvoritAdresarProPgConf": {
+      "titl": "Nie je možné vytvoriť adresár pre uloženie súboru s pgconf."
+    },
+    "zalohovatNenalezenChmod": {
+      "titl": "Nebol nájdený príkaz pre zmenu práv k súboru chmod."
+    },
+    "zalohovatNenalezenPgDump": {
+      "titl": "Nebola nájdena inštalácia nástroja pg_dump. Je PostgreSQL skutočne nainštalovaný?"
+    },
+    "zalohovatPrubeh": {
+      "titl": "Sťahujem dáta... %p z %p."
+    },
+    "zalohovatServerZalohuje": {
+      "titl": "Vytváram zálohu firmy..."
+    },
+    "zaznamAktualniZaznam": {
+      "titl": "aktuálny záznam"
+    },
+    "zaznamChceteUlozit": {
+      "titl": "Chcete vykonané zmeny uložiť?"
+    },
+    "zaznamChybaHledani": {
+      "titl": "Chyba behom hľadania záznamu v dátovom zdroji."
+    },
+    "zaznamChybaHledaniNeboNacitani": {
+      "titl": "Chyba behom hľadania alebo načítania záznamu v databáze."
+    },
+    "zaznamChybaNacitaniPoctu": {
+      "titl": "Chyba behom načítania počtu záznamov."
+    },
+    "zaznamChybaNacitaniStranky": {
+      "titl": "Chyba behom načítania stránky záznamov."
+    },
+    "zaznamJizNeexistujeNelzeOdstranit": {
+      "titl": "Tento záznam nemôže byť odstránený,\npretože ho už niekto odstránil z dátového zdroja."
+    },
+    "zaznamJizNeexistujeNelzeUlozit": {
+      "titl": "Zmeny vykonané na otvorenom zázname nemôžu byť uložené,\npretože ho niekto odstránil z dátového zdroja."
+    },
+    "zaznamJizSmazan": {
+      "titl": "Tento záznam už niekto odstránil z dátového zdroja."
+    },
+    "zaznamNelzeEditovat": {
+      "titl": "V tabuľke nie je vybraná žiadna položka pre editáciu."
+    },
+    "zaznamNelzeOtevrit": {
+      "titl": "Nie je možné otvoriť požadovaný záznam"
+    },
+    "zaznamNelzeSmazat": {
+      "titl": "V tabuľke nie je vybraná žiadna položka pre vymazanie."
+    },
+    "zaznamNemateOpravneni": {
+      "titl": "Nemáte oprávnenie pre zobrazenie tohoto záznamu."
+    },
+    "zaznamNeniVybranaPolozka": {
+      "titl": "V tabuľke nie je vybraná žiadna položka."
+    },
+    "zaznamNepodariloNacist": {
+      "titl": "Záznamy sa nepodarilo načítať z databázy."
+    },
+    "zaznamNepodariloSmazat": {
+      "titl": "Záznam sa nepodarilo zmazať."
+    },
+    "zaznamOpravduOdstranit": {
+      "titl": "Skutočne chcete odstrániť záznam?"
+    },
+    "zaznamOpravduSmazatNeco": {
+      "titl": "Naozaj chcete odstrániť %p?"
+    },
+    "zaznamOpravduSmazatVybranyZaznam": {
+      "titl": "Skutočne chcete zmazať vybraný záznam?"
+    },
+    "zaznamOpravduUlozit": {
+      "titl": "Skutočne chcete uložiť záznam?"
+    },
+    "zaznamSeNepodarilNacist": {
+      "titl": "Záznam sa nepodarilo načítať z dátového zdroja.."
+    },
+    "zaznamUlozeniPrepiseZmeny": {
+      "titl": "Ak uložíte záznam, prepíšete zmeny vykonané iným používateľom."
+    },
+    "zaznamVDatabaziNovejsiDataOdEditace": {
+      "titl": "Od začatia úprav záznamu bol záznam zmenený iným používateľom."
+    },
+    "zaznamVDatabaziNovejsiDataOdOtevreni": {
+      "titl": "Od otvorenia záznamu bol záznam zmenený iným používateľom."
+    },
+    "zaznamVybraneZaznamy": {
+      "titl": "vybrané záznamy"
+    }
+  }
+}

@@ -1,0 +1,795 @@
+{
+  "beans": {
+    "cz.winstrom.vo.adr.AdrUdalostMaj": {
+      "_title": {
+        "titl": "Udalosti"
+      },
+      "actRuTask": {
+        "titl": "ActRuTask"
+      },
+      "celodenni": {
+        "titl": "Celodenný"
+      },
+      "dokonceni": {
+        "titl": "Čas dokončenia"
+      },
+      "firmaExterni": {
+        "titl": "Externá spoločnosť"
+      },
+      "osoby": {
+        "titl": "Osoby"
+      },
+      "predmet": {
+        "titl": "Predmet"
+      },
+      "prioritaK": {
+        "titl": "Priorita"
+      },
+      "processDefinitionId": {
+        "titl": "ProcessDefinitionId"
+      },
+      "stavUdalK": {
+        "titl": "Stav udalosti"
+      },
+      "taskDefinitionKey": {
+        "titl": "TaskDefinitionKey"
+      },
+      "termin": {
+        "titl": "Termín realizácie"
+      },
+      "typAkt": {
+        "titl": "Typ aktivity"
+      },
+      "umisteni": {
+        "titl": "Umiestnenie"
+      },
+      "volno": {
+        "titl": "Voľno"
+      },
+      "zahajeni": {
+        "titl": "Čas začatia"
+      }
+    },
+    "cz.winstrom.vo.maj.DanNakl": {
+      "_title": {
+        "titl": "Daňové náklady"
+      },
+      "datVyst": {
+        "titl": "Dátum účtovania"
+      },
+      "kod": {
+        "titl": "Číslo dokladu"
+      },
+      "leasing": {
+        "titl": "Leasingový majetok"
+      },
+      "sumZkl": {
+        "titl": "Základ [%currency-symbol]"
+      },
+      "sumZklMen": {
+        "titl": "Základ [mena]"
+      },
+      "szbDph": {
+        "titl": "Sadzba DPH"
+      },
+      "zklDalUcet": {
+        "titl": "Účet DAL základu"
+      },
+      "zklMdUcet": {
+        "titl": "Účet MD základu"
+      }
+    },
+    "cz.winstrom.vo.maj.DanOdpis": {
+      "_title": {
+        "titl": "Daňové odpisy"
+      },
+      "kod": {
+        "titl": "Číslo dokladu"
+      },
+      "majetek": {
+        "titl": "Majetok"
+      },
+      "stariMaj": {
+        "abbr": "Vek[Roky]",
+        "titl": "Vek majetku [Roky]"
+      },
+      "sumZkl": {
+        "titl": "Daň.odpis [%currency-symbol]"
+      },
+      "zklDalUcet": {
+        "abbr": "Účet DAL",
+        "titl": "Účet DAL odpisu"
+      },
+      "zklMdUcet": {
+        "abbr": "Účet MD",
+        "titl": "Účet MD odpisu"
+      }
+    },
+    "cz.winstrom.vo.maj.Leasing": {
+      "_title": {
+        "titl": "Leasingový majetok"
+      },
+      "casUcet": {
+        "abbr": "Úč.čas.rozl.",
+        "titl": "Účet časového rozlíšenia nákladov"
+      },
+      "cena": {
+        "titl": "Cena [%currency-symbol]"
+      },
+      "cidPoriz": {
+        "titl": "Číslo zmluvy"
+      },
+      "datKoupe": {
+        "abbr": "Započatie",
+        "titl": "Dátum započatia leasingu"
+      },
+      "datVyroby": {
+        "abbr": "Vyrobené",
+        "titl": "Dátum výroby"
+      },
+      "dodavatel": {
+        "titl": "Dodávateľ"
+      },
+      "dphSnizUcet": {
+        "abbr": "Úč.DPH zákl.",
+        "titl": "Účet DPH - znížená sadzba"
+      },
+      "dphZaklUcet": {
+        "abbr": "Úč.DPH zníž.",
+        "titl": "Účet DPH - základná sadzba"
+      },
+      "druhK": {
+        "titl": "Druh"
+      },
+      "eanKod": {
+        "titl": "EAN kód"
+      },
+      "frekDanNaklK": {
+        "abbr": "Frekv.daň.nákl.",
+        "titl": "Frekvencia daňových nákladov"
+      },
+      "mena": {
+        "titl": "Mena"
+      },
+      "mjZarukyK": {
+        "titl": "MJ záruky"
+      },
+      "naklUcet": {
+        "abbr": "Úč.daň.nákl.",
+        "titl": "Účet daňových nákladov"
+      },
+      "pocetDanNakl": {
+        "abbr": "? daň.nákl",
+        "titl": "Počet daňových nákladov [v mesiacoch]"
+      },
+      "pocetSplatek": {
+        "abbr": "? splátiek",
+        "titl": "Počet splátiek"
+      },
+      "stredisko": {
+        "titl": "Stredisko"
+      },
+      "sumSplaceno": {
+        "titl": "Splatené [%currency-symbol]"
+      },
+      "sumZbyva": {
+        "titl": "Zostáva [%currency-symbol]"
+      },
+      "typLeasingu": {
+        "titl": "Typ"
+      },
+      "vyrCis": {
+        "titl": "Výrobné číslo"
+      },
+      "vyrobce": {
+        "titl": "Výrobca"
+      },
+      "zakazka": {
+        "titl": "Zákazka"
+      },
+      "zaruka": {
+        "titl": "Záruka"
+      },
+      "zavazUcet": {
+        "abbr": "Úč.záväzku",
+        "titl": "Účet záväzku"
+      }
+    },
+    "cz.winstrom.vo.maj.Majetek": {
+      "_title": {
+        "titl": "Drobný, dlhodobý a neodpisovaný majetok"
+      },
+      "cena": {
+        "abbr": "Cena",
+        "titl": "Cena pri zaradení [%currency-symbol]"
+      },
+      "cidPoriz": {
+        "abbr": "Doklad",
+        "titl": "Doklad nadobudnutia"
+      },
+      "datKoupe": {
+        "abbr": "Kúpené",
+        "titl": "Dátum nákupu"
+      },
+      "datUdalVyr": {
+        "abbr": "Vyradené",
+        "titl": "Dátum udalosti vyradenia"
+      },
+      "datUdalZar": {
+        "abbr": "Dát. udal. zar.",
+        "titl": "Dátum udalosti zaradenia"
+      },
+      "datVyroby": {
+        "abbr": "Vyrobené",
+        "titl": "Dátum výroby"
+      },
+      "datZacDan": {
+        "abbr": "Zač.daň.odp",
+        "titl": "Začiatok daňových odpisov"
+      },
+      "datZacUcet": {
+        "abbr": "Zač.úč.odp.",
+        "titl": "Začiatok účtovných odpisov"
+      },
+      "datZar": {
+        "abbr": "Zaradené",
+        "titl": "Dátum zaradenia"
+      },
+      "dodavatel": {
+        "titl": "Dodávateľ"
+      },
+      "doklFaktury": {
+        "titl": "ID prijatej faktúry"
+      },
+      "druhK": {
+        "titl": "Druh"
+      },
+      "kod": {
+        "abbr": "Inv.čís.",
+        "titl": "Inventárne číslo"
+      },
+      "kusySoubor": {
+        "abbr": "Kusov",
+        "titl": "Kusov v súbore"
+      },
+      "mistnost": {
+        "titl": "Miestnosť"
+      },
+      "nahrUcetOdpK": {
+        "abbr": "Účt. odp.?",
+        "titl": "Vytvárať účtovné odpisy"
+      },
+      "objekt": {
+        "titl": "Objekt"
+      },
+      "odpisovyUcet": {
+        "abbr": "Účet odp.",
+        "titl": "Účet odpisu"
+      },
+      "opravnyUcet": {
+        "abbr": "Účet opr.",
+        "titl": "Účet oprávok"
+      },
+      "predpisUcetOdp": {
+        "abbr": "Doba úč.odp.",
+        "titl": "Počet mesiacov odpisovania"
+      },
+      "primarniUcet": {
+        "abbr": "Prim.účet",
+        "titl": "Primárny účet"
+      },
+      "protiUcetZarazeni": {
+        "abbr": "Protiúč.zar.",
+        "titl": "Protiúčet zaradenia"
+      },
+      "sazba": {
+        "abbr": "Odp.skup.",
+        "titl": "Odpisová skupina"
+      },
+      "sekce": {
+        "titl": "Sekcia"
+      },
+      "skp": {
+        "abbr": "ŠKP",
+        "titl": "Štandardná klasifikácia produkcie"
+      },
+      "stariPor": {
+        "abbr": "Vek zar.",
+        "titl": "Vek pri zaradení [Mesiace]"
+      },
+      "stariTechZhod": {
+        "abbr": "Vek tech.zh.",
+        "titl": "Vek tech. zhod. [Mesiace]"
+      },
+      "techZhod": {
+        "abbr": "Tech.zh.",
+        "titl": "Pred zaradením bolo technické zhodnotenie"
+      },
+      "typMajetku": {
+        "titl": "Typ"
+      },
+      "uctovatZar": {
+        "titl": "Účtovať zaradenie"
+      },
+      "vyrobce": {
+        "titl": "Výrobca"
+      },
+      "zpusOdpK": {
+        "abbr": "Spôs.odp.",
+        "titl": "Spôsob odpisovania"
+      },
+      "zpusPor": {
+        "abbr": "Spôs.nad.",
+        "titl": "Spôsob nadobudnutia"
+      },
+      "zustDan": {
+        "abbr": "Zost.daň.",
+        "titl": "Zostatok daňový [%currency-symbol]"
+      },
+      "zustUcet": {
+        "abbr": "Zost.účt.",
+        "titl": "Zostatok účtovný [%currency-symbol]"
+      },
+      "zvysZrychK": {
+        "abbr": "Zvýš.1.rok",
+        "titl": "Zvýšenie odpisu v 1. roku"
+      }
+    },
+    "cz.winstrom.vo.maj.MajetekStavKDatu": {
+      "_title": {
+        "titl": "Stav majetku k dátumu"
+      },
+      "cena": {
+        "titl": "Cena"
+      },
+      "cenaAktualni": {
+        "titl": "Aktuálna cena"
+      },
+      "danoveOdpisy": {
+        "titl": "Daňové odpisy"
+      },
+      "danoveOdpisyObdobi": {
+        "titl": "Daňové odpisy za obdobie"
+      },
+      "datPoslDanOdpis": {
+        "titl": "Dátum posledného odpisu dane"
+      },
+      "datPoslUcetOdpis": {
+        "titl": "Dátum posledného účtovného odpisu"
+      },
+      "datPuvZar": {
+        "titl": "Zaradenie"
+      },
+      "datUdalVyr": {
+        "titl": "Vyradenie"
+      },
+      "datZacDan": {
+        "titl": "Zač. daňových odp."
+      },
+      "datZacUcet": {
+        "titl": "Zač. účtovných odp."
+      },
+      "datZar": {
+        "titl": "Zaradenie do ABRA Flexi"
+      },
+      "dobaOdpMesic": {
+        "titl": "Doba odpisovania [měsíc]"
+      },
+      "idMajetekStavKDatu": {
+        "titl": "ID"
+      },
+      "odpUcet": {
+        "titl": "Účet odpisu"
+      },
+      "opravUcet": {
+        "titl": "Účet oprávok"
+      },
+      "predpisUcetOdp": {
+        "abbr": "Doba úč.odp.",
+        "titl": "Počet mesiacov odpisovania"
+      },
+      "protiUcetZar": {
+        "titl": "Protiúčet zaradenia"
+      },
+      "sazba": {
+        "titl": "Odp. skup."
+      },
+      "stariPor": {
+        "titl": "Odpísané pri zr. [mesiace]"
+      },
+      "sumPoslDanOdpis": {
+        "titl": "Posledný daňový odpis"
+      },
+      "sumPoslUcetOdpis": {
+        "titl": "Posledný účtovný odpis"
+      },
+      "sumTechZhodnoceni": {
+        "titl": "Celkové technické hodnotenie"
+      },
+      "sumVyrazeni": {
+        "titl": "Celkovo vyradené"
+      },
+      "typMajetku": {
+        "titl": "Typ majetku"
+      },
+      "ucetniOdpisy": {
+        "titl": "Účtovné odpisy"
+      },
+      "ucetniOdpisyObdobi": {
+        "titl": "Účtovné odpisy za obdobie"
+      },
+      "ucetniStejneJakoDanove": {
+        "titl": "Účtovné odp. = daňové odp."
+      },
+      "zmenaCenyZkl": {
+        "titl": "Celková zmena cien"
+      },
+      "zustatekDanovy": {
+        "titl": "Daňový zostatok"
+      },
+      "zustatekUcetni": {
+        "titl": "Účtovný zostatok"
+      }
+    },
+    "cz.winstrom.vo.maj.Sazba": {
+      "_title": {
+        "titl": "Odpisové skupiny"
+      },
+      "dobaOdp": {
+        "abbr": "Doba",
+        "titl": "Doba odpisu"
+      },
+      "koefZrOdp1": {
+        "abbr": "1.rok zrých.",
+        "titl": "Prvý rok"
+      },
+      "koefZrOdpDalsi": {
+        "abbr": "Ďalšie r.zrých.",
+        "titl": "Ďalšie roky"
+      },
+      "koefZrOdpZvCeny": {
+        "abbr": "Zvýšenie zrých.",
+        "titl": "Zvýšenie vst. ceny"
+      },
+      "minDobaOdp": {
+        "titl": "Min. doba odpisu"
+      },
+      "prcRoOdp1": {
+        "abbr": "1.rok rovn.",
+        "titl": "Prvý rok"
+      },
+      "prcRoOdpDalsi": {
+        "abbr": "Ďalšie r.rovn.",
+        "titl": "Ďalšie roky"
+      },
+      "prcRoOdpZvCeny": {
+        "abbr": "Zvýšenie rovn.",
+        "titl": "Zvýšenie vst.ceny"
+      },
+      "typOdpK": {
+        "titl": "Spôsob odp."
+      },
+      "zmena": {
+        "abbr": "Vytvorená už.",
+        "titl": "Vytvorená používateľom"
+      }
+    },
+    "cz.winstrom.vo.maj.SplatKal": {
+      "_title": {
+        "titl": "Splátkový kalendár"
+      },
+      "clenDph": {
+        "desc": "Členenie DPH určuje riadky formulára priznania DPH, do ktorého sú čiastky započítané",
+        "titl": "Členenie DPH"
+      },
+      "clenSplK": {
+        "titl": "Členenie splátky"
+      },
+      "datVyst": {
+        "titl": "Dátum splátky"
+      },
+      "doklFaktury": {
+        "titl": "Faktúra"
+      },
+      "dphDalUcet": {
+        "abbr": "Úč.DAL DPH",
+        "titl": "Účet DAL DPH"
+      },
+      "dphMdUcet": {
+        "abbr": "Úč.MD DPH",
+        "titl": "Účet MD DPH"
+      },
+      "kod": {
+        "abbr": "Čís.dokl.",
+        "titl": "Číslo dokladu"
+      },
+      "leasing": {
+        "titl": "Leasingový majetok"
+      },
+      "statDph": {
+        "titl": "Štát DPH"
+      },
+      "sumDph": {
+        "titl": "DPH [%currency-symbol]"
+      },
+      "sumDphMen": {
+        "titl": "DPH [mena]"
+      },
+      "sumZkl": {
+        "titl": "Základ [%currency-symbol]"
+      },
+      "sumZklMen": {
+        "titl": "Základ [mena]"
+      },
+      "szbDphK": {
+        "titl": "Sadzba DPH"
+      },
+      "typSplK": {
+        "titl": "Typ splátky"
+      },
+      "zavazek": {
+        "titl": "Záväzok"
+      },
+      "zklDalUcet": {
+        "abbr": "Úč.DAL zakl.",
+        "titl": "Účet DAL základu"
+      },
+      "zklMdUcet": {
+        "abbr": "Úč.MD zakl.",
+        "titl": "Účet MD základu"
+      }
+    },
+    "cz.winstrom.vo.maj.TypLeas": {
+      "_title": {
+        "titl": "Typy leasingového majetku"
+      },
+      "casUcet": {
+        "abbr": "Úč.čas.rozl.",
+        "titl": "Účet časového rozlíšenia nákladov"
+      },
+      "druhK": {
+        "titl": "Druh"
+      },
+      "naklUcet": {
+        "abbr": "Úč.daň.nákl.",
+        "titl": "Účet daňových nákladov"
+      },
+      "zavazUcet": {
+        "abbr": "Úč.záväz.",
+        "titl": "Účet záväzku"
+      }
+    },
+    "cz.winstrom.vo.maj.TypMaj": {
+      "_title": {
+        "titl": "Typy majetku - dlhodobý a drobný"
+      },
+      "druhK": {
+        "titl": "Druh"
+      },
+      "jeOdpis": {
+        "titl": "Majetok je odpisovaný"
+      },
+      "odpisovyUcet": {
+        "titl": "Účet odpisu"
+      },
+      "opravnyUcet": {
+        "titl": "Účet oprávok"
+      },
+      "primarniUcet": {
+        "titl": "Účet majetku"
+      },
+      "protiUcetZarazeni": {
+        "titl": "Účet zaradenia"
+      }
+    },
+    "cz.winstrom.vo.maj.UcetOdpis": {
+      "_title": {
+        "titl": "Účtovné odpisy"
+      },
+      "kod": {
+        "titl": "Číslo dokladu"
+      },
+      "majetek": {
+        "titl": "Majetok"
+      },
+      "sumZkl": {
+        "titl": "Účet. odpis [%currency-symbol]"
+      },
+      "zklDalUcet": {
+        "abbr": "Účet DAL",
+        "titl": "Účet DAL odpisu"
+      },
+      "zklMdUcet": {
+        "abbr": "Účet MD",
+        "titl": "Účet MD odpisu"
+      }
+    },
+    "cz.winstrom.vo.maj.Udalost": {
+      "_title": {
+        "titl": "Udalosti"
+      },
+      "datVys": {
+        "titl": "Dátum dokladu"
+      },
+      "dphDalUcet": {
+        "abbr": "Úč.DAL zost.",
+        "titl": "Účet DAL zostatku"
+      },
+      "dphMdUcet": {
+        "abbr": "Úč.MD zost.",
+        "titl": "Účet MD zostatku"
+      },
+      "kod": {
+        "titl": "Číslo dokladu"
+      },
+      "majetek": {
+        "titl": "Majetok"
+      },
+      "sumDph": {
+        "titl": "Čiastka účtovná [%currency-symbol]"
+      },
+      "sumDphDanove": {
+        "titl": "Výška dane [%currency-symbol]"
+      },
+      "sumZkl": {
+        "titl": "Čiastka [%currency-symbol]"
+      },
+      "sumZklMena": {
+        "titl": "Základ [mena]"
+      },
+      "typUdalostiK": {
+        "titl": "Typ udalosti"
+      },
+      "zklDalUcet": {
+        "titl": "Účet DAL udalosti"
+      },
+      "zklMdUcet": {
+        "titl": "Účet MD udalosti"
+      },
+      "zmena": {
+        "abbr": "Zm. zost. použív.",
+        "titl": "Zmena zostatku používateľa"
+      },
+      "zmenaDobyOdpis": {
+        "abbr": "Zm.doby odp.",
+        "titl": "Zmena doby odpisu"
+      }
+    },
+    "cz.winstrom.vo.maj.Umisteni": {
+      "_title": {
+        "titl": "Umiestnenie"
+      }
+    },
+    "cz.winstrom.vo.maj.Zapujcka": {
+      "_title": {
+        "titl": "Zápožičky/zodpovedná osoba"
+      },
+      "datKonec": {
+        "titl": "Do dátumu"
+      },
+      "datZahaj": {
+        "titl": "Od dátumu"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "majetek": {
+        "titl": "Majetok"
+      },
+      "osoba": {
+        "titl": "Osoba"
+      }
+    },
+    "cz.winstrom.vo.w.MajetekExtId": {
+      "_title": {
+        "titl": "Externé identifikátory"
+      },
+      "extId": {
+        "titl": "Identifikátor"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "majetek": {
+        "titl": "Majetok"
+      },
+      "tabulka": {
+        "titl": "Tabuľka"
+      },
+      "typLeas": {
+        "titl": "Typ leasingu"
+      },
+      "typMaj": {
+        "titl": "Typ majetku"
+      },
+      "umisteni": {
+        "titl": "Umiestnenie"
+      }
+    },
+    "cz.winstrom.vo.w.PrilohaMajetek": {
+      "_title": {
+        "titl": "Prílohy"
+      },
+      "data": {
+        "titl": "Dáta prílohy"
+      },
+      "dataHash": {
+        "titl": "Odtlačok dát prílohy (MD5 súčet)"
+      },
+      "leasing": {
+        "titl": "Leasing"
+      },
+      "majetek": {
+        "titl": "Majetok"
+      },
+      "prilozit": {
+        "abbr": "Priložiť",
+        "titl": "Priložiť"
+      },
+      "typK": {
+        "titl": "Typ prílohy"
+      }
+    },
+    "cz.winstrom.vo.w.UcelMajetek": {
+      "_title": {
+        "titl": "Účel"
+      },
+      "adresar": {
+        "titl": "Subjekt údajov"
+      },
+      "definiceUcelu": {
+        "titl": "Definícia účelu"
+      },
+      "polozkaPrikazu": {
+        "titl": "Príkazová položka"
+      },
+      "pozastaveno": {
+        "titl": "Pozastavené"
+      },
+      "ucelLog": {
+        "titl": "Okolnosti vzniku účelu"
+      },
+      "vyreseno": {
+        "titl": "Vyriešené"
+      },
+      "zapujcka": {
+        "titl": "Zápožička"
+      }
+    },
+    "global": {
+      "majetek": {
+        "titl": "Majetok"
+      },
+      "vozCislo": {
+        "titl": "Číslo"
+      },
+      "vozHavar": {
+        "titl": "Havarijné poistenie"
+      },
+      "vozHavarVyse": {
+        "titl": "Výška havarijného poistenia"
+      },
+      "vozModel": {
+        "titl": "Model"
+      },
+      "vozObjem": {
+        "titl": "Objem"
+      },
+      "vozSpz": {
+        "titl": "EČV"
+      },
+      "vozTyp": {
+        "titl": "Typ vozidla"
+      },
+      "vozVybava": {
+        "titl": "Výbava"
+      },
+      "vozZnacka": {
+        "titl": "Značka"
+      },
+      "zustVyrazUcet": {
+        "titl": "Účet zostatku vyrazenia"
+      }
+    }
+  }
+}

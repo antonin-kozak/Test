@@ -1,0 +1,963 @@
+{
+  "actions": {
+    "aktualizaceNepritomnosti": {
+      "icon": "win/aktualizuj-nepritomnost.png",
+      "titl": "Aktualizuj neprítomnosť"
+    },
+    "generujZavazky": {
+      "desc": "Vygeneruje záväzky pre zvolený mesiac",
+      "icon": "win/generate.png",
+      "titl": "Generuj záväzky"
+    },
+    "importXmlNeschopenka": {
+      "icon": "win/xml-import.png"
+    },
+    "predvyplnitDovoleneHod": {
+      "titl": "Predvyplnenie počtu hodín dovolenky"
+    },
+    "predvyplnitPrevedeneDovoleneHod": {
+      "titl": "Predvyplnenie počtu hodín prenesenej dovolenky"
+    },
+    "prepoctiMzdu": {
+      "icon": "win/prepocti-mzdu.png",
+      "titl": "Prepočítaj mzdu"
+    },
+    "rekapitulaceSlozek": {
+      "icon": "win/generate.png",
+      "titl": "Rekapitulácia zložiek"
+    },
+    "tiskExportVyplatnichPasek": {
+      "desc": "Exportuje výplatné pásky do zadaného adresára",
+      "icon": "win/pdf.png",
+      "titl": "Export pások"
+    },
+    "tiskVycetPlatidel": {
+      "desc": "Vytlačísúpis platidiel pre zamestnancov pre platbu v hotovosti",
+      "icon": "win/platidlo.png",
+      "titl": "Súpis platidiel"
+    },
+    "vypnoutProminutiSPFirma": {
+      "titl": "Vypnutie oslobodenia od SP pre spoločnosť"
+    },
+    "vypoctiMzdy": {
+      "desc": "Vypočíta mzdy pre zvolený mesiac",
+      "icon": "win/computation.png",
+      "titl": "Vypočítaj mzdy"
+    },
+    "zapnoutProminutiSPFirma": {
+      "titl": "Zapnutie oslobodenia od SP pre spoločnosť"
+    },
+    "zrusVypocetMzdy": {
+      "icon": "win/erase.png",
+      "titl": "Zruš výpočet"
+    }
+  },
+  "buttons": {
+    "mzdyOsobaDetiOdpocVyber": {
+      "titl": "Výber"
+    },
+    "mzdyPlatiOdDoAdd": {
+      "titl": "Pridaj nastavenie"
+    },
+    "mzdyPlatiOdDoDelete": {
+      "titl": "Zmaž nastavenie"
+    },
+    "mzdyVystupCsszOznameniAuto": {
+      "titl": "Automaticky určiť či sa jedná o nástup alebo ukončenie"
+    },
+    "mzdyVystupCsszOznameniKonec": {
+      "titl": "Oznámenie skončenia zamestnania"
+    },
+    "mzdyVystupCsszOznameniNastup": {
+      "titl": "Oznámenie nástupu do zamestnania"
+    },
+    "mzdyVystupDodatecneOpravneVyuc": {
+      "titl": "dodatočné opravné vyhlásenie"
+    },
+    "mzdyVystupDodatecneVyuc": {
+      "titl": "dodatočná fakturácia"
+    },
+    "mzdyVystupNasledneHlaseni": {
+      "titl": "následné hlásenie"
+    },
+    "mzdyVystupOpravneHlaseni": {
+      "titl": "opravné hlásenie"
+    },
+    "mzdyVystupOpravneVyuc": {
+      "titl": "opravná fakturácia"
+    },
+    "mzdyVystupPotOZdanPrijmechSraz": {
+      "titl": "Potvrdenie o zrážkovej dani"
+    },
+    "mzdyVystupPotOZdanPrijmechZal": {
+      "titl": "Potvrdenie o zaplatení preddavku na daň"
+    },
+    "mzdyVystupRadneHlaseni": {
+      "titl": "riadne hlásenie"
+    },
+    "mzdyVystupRadneVyuc": {
+      "titl": "správne vyúčtovanie"
+    },
+    "mzdyVystupSouborOutVyberOk": {
+      "titl": "Vybrať"
+    },
+    "mzdyVystupUlozitDoXml": {
+      "titl": "Uložiť do formátu XML (podklad pre elektronickú komunikáciu so SP)"
+    },
+    "mzdyVystupUlozitDoXmlSrazDan": {
+      "titl": "Zrážková daň - export do formátu XML"
+    },
+    "mzdyVystupUlozitDoXmlZalDan": {
+      "titl": "Preddavková daň - export do formátu XML"
+    },
+    "mzdyVystupVytvoritAOtevritPdf": {
+      "titl": "Vytvoriť a otvoriť súbor formátu PDF"
+    },
+    "mzdyVystupVytvoritTisk": {
+      "titl": "Tlač"
+    },
+    "mzdyVystupVytvoritTiskSrazDan": {
+      "titl": "Tlač dokladov o zrážkovej dani"
+    },
+    "mzdyVystupVytvoritTiskZalDan": {
+      "titl": "Tlač dokumentov pre preddavkovú daň"
+    },
+    "mzdyVystupZamknoutPdf": {
+      "titl": "Neumožniť editáciu"
+    },
+    "prehledMzdSlozSumStredisek": {
+      "titl": "Sumácia stredisiek"
+    }
+  },
+  "dialogs": {
+    "hzupnForm": {
+      "titl": "Hlásenie zamestnávateľa o ukončení pracovnej neschopnosti"
+    },
+    "mzdyGeneraceZavVyberMesice": {
+      "titl": "Mesiac pre generáciu záväzkov"
+    },
+    "mzdyOsobaDetiOdpoc": {
+      "titl": "Výber detí pre uplatnenie odpočtu"
+    },
+    "mzdyVycetPlatidelVyberMesice": {
+      "titl": "Parametre pre tlač súpisu platidel"
+    },
+    "mzdyVypocetVyberMesice": {
+      "titl": "Mesiac pre výpočet mzdy"
+    },
+    "mzdyVystupSouborOutVyber": {
+      "titl": "Výber súboru pre uloženie"
+    },
+    "potOZdanPrijmechTitle": {
+      "titl": "Potvrdenia o zdaniteľných príjmoch"
+    },
+    "prehledMzdSlozek": {
+      "titl": "Tvorba dotazu pre mzdové zložky"
+    },
+    "prilohaZadostiForm": {
+      "titl": "Príloha žiadosti o"
+    },
+    "zdrPojGenerovaniTitle": {
+      "titl": "Prehľad o platbe poistného"
+    },
+    "zdrPojHromadneOzn": {
+      "titl": "Hromadné oznámenia pre zdravotné poisťovne"
+    }
+  },
+  "labels": {
+    "cisMzdSlozViditelnost": {
+      "titl": "Viditelnosť polí na mzdovej zložke"
+    },
+    "dPravDefSkupOsob": {
+      "titl": "Zoznam skupín osôb"
+    },
+    "filterMesicMzdyNeomezen": {
+      "titl": "Mesiac neobmedzený"
+    },
+    "filterOsobaMzdyNeomezena": {
+      "titl": "Osoba neobmedzená"
+    },
+    "filterRokMzdyNeomezen": {
+      "titl": "Rok neobmedzený"
+    },
+    "filterSkupOsobNeomezena": {
+      "titl": "Skupina osôb neobmedzená"
+    },
+    "filterSkupSlozkyNeomezena": {
+      "titl": "Skupina zložky neobmedzená"
+    },
+    "filterSlozkaMzdyNeomezena": {
+      "titl": "Zložka neobmedzená"
+    },
+    "filterTypPracPomNeomezen": {
+      "titl": "Typ pracovného pomeru neobmedzený"
+    },
+    "mzdoveListy.info1": {
+      "titl": "Môžete špecifikovať parametre tvorby mzdových listov."
+    },
+    "mzdoveListy.info2": {
+      "titl": "Zobrazia sa iba tie údaje, které vyhovujú všetkým zadaným kritériam."
+    },
+    "mzdoveListy.obdobi": {
+      "titl": "Rok:"
+    },
+    "mzdoveListy.osoba": {
+      "titl": "Osoba:"
+    },
+    "mzdoveListy.skupOsob": {
+      "titl": "Skupina osôb:"
+    },
+    "mzdoveListy.vitejte": {
+      "titl": "Vítajte v sprievodcovi tvorby mzdových listov"
+    },
+    "mzdyGeneraceZavMesic": {
+      "titl": "Vyberte mesiac pre generáciu záväzkov:"
+    },
+    "mzdyIspvInfo": {
+      "titl": "Vyberte rok, štvrťrok a cieľový súbor pre vytvorenie výstupu ISPV."
+    },
+    "mzdyPlatiOdDoNeomezeno": {
+      "titl": "Neobmezené"
+    },
+    "mzdyVycetPlatidelMesic": {
+      "titl": "Vyberte mesiac pre súpis platidiel:"
+    },
+    "mzdyVycetPlatidelPole": {
+      "titl": "Zdrojové pole čiastky pre súpis platidiel:"
+    },
+    "mzdyVypocetMesic": {
+      "titl": "Vyberte mesiac pre výpočet mzdy:"
+    },
+    "mzdyVyst.finUrPotOZdanPrijmechNadpis": {
+      "titl": "Potvrdenie o zdaniteľných príjmoch"
+    },
+    "mzdyVyst.finUrPotOZdanPrijmechPopis": {
+      "titl": "Vyberte rok a osobu, pre ktorú chcete generovať formulár."
+    },
+    "mzdyVyst.pojDuchHlaseniNadpis": {
+      "titl": "Hlásenie k zálohe na poistné na dôchodkové sporenie"
+    },
+    "mzdyVyst.pojDuchHlaseniPopis": {
+      "titl": "Vyberte mesiac, rok a zvoľte typ hlásenia."
+    },
+    "mzdyVyst.pojDuchVyuctovaniNadpis": {
+      "titl": "Vyúčtovanie poistného na dôchodkové sporenie"
+    },
+    "mzdyVyst.pojDuchVyuctovaniPopis": {
+      "titl": "Vyberte rok a zvoľte typ vyúčtovania."
+    },
+    "mzdyVyst.prehledMzdSlozNadpis": {
+      "titl": "Tvorba otázky pre mzdové zložky"
+    },
+    "mzdyVyst.prehledMzdSlozPopis": {
+      "titl": "Zadajte vlastnosti zobrazených mzdových zložiek."
+    },
+    "mzdyVyst.prehledPojNadpis": {
+      "titl": "Prehľad o výške poistného"
+    },
+    "mzdyVyst.prehledPojPopis": {
+      "titl": "Vyberte mesiac a rok prehľadu. Môžete si tiež zvoliť výstupný formát."
+    },
+    "mzdyVyst.zdrPojHromadneOdhlaskaCB": {
+      "titl": "Odhláška"
+    },
+    "mzdyVyst.zdrPojHromadneOznNadpis": {
+      "titl": "Hromadné oznámenie pre zdravotné poisťovne"
+    },
+    "mzdyVyst.zdrPojHromadneOznPopis": {
+      "titl": "Vyberte mesiac a rok ohlašovaných zmien a cieľový súbor."
+    },
+    "mzdyVyst.zdrPojHromadneOznPopis2": {
+      "titl": "Zvoľte osoby pre predvyplnenie do formulára zdravotnej poisťovne."
+    },
+    "mzdyVyst.zdrPojHromadnePrihlaskaCB": {
+      "titl": "Prihláška"
+    },
+    "mzdyVyst.zdrPojPrehledOPlatbeNadpis": {
+      "titl": "Prehľad o platbe poistného"
+    },
+    "mzdyVyst.zdrPojPrehledOPlatbePopis": {
+      "titl": "<html>Vyberte mesiac a rok pre formulár mesačné hlásenie<br>o platbe poistného na zdravotné poistenie zamestnávateľa.</html>"
+    },
+    "mzdyVystupCtvrtleti": {
+      "titl": "Štvrťrok:"
+    },
+    "mzdyVystupDatumNavratDoPraceHzupn": {
+      "titl": "Dátum návratu do práce:"
+    },
+    "mzdyVystupDatumVystaveniHzupn": {
+      "titl": "Dátum vystavenia:"
+    },
+    "mzdyVystupDuvodNenavratDoPraceHzupn": {
+      "titl": "Zamestnanec nezačal vykonávať zamestnanie z dôvodu:"
+    },
+    "mzdyVystupEldpTyp": {
+      "titl": "Typ ELDP:"
+    },
+    "mzdyVystupHzupnCislo": {
+      "titl": "Číslo rozhodnutia o DPN:"
+    },
+    "mzdyVystupHzupnPopis": {
+      "titl": "Zadajte údaje potrebné pre Hlásenie zamestnávateľa o ukončení pracovnej neschopnosti."
+    },
+    "mzdyVystupMesic": {
+      "titl": "Mesiac:"
+    },
+    "mzdyVystupMesicDo": {
+      "titl": "Mesiac do:"
+    },
+    "mzdyVystupMesicOd": {
+      "titl": "Mesiac od:"
+    },
+    "mzdyVystupNavratDoPraceHzupn": {
+      "titl": "Návrat do práce:"
+    },
+    "mzdyVystupNepritomnost": {
+      "titl": "Neprítomnost:"
+    },
+    "mzdyVystupOpravaEldp": {
+      "titl": "Oprava ELDP z:"
+    },
+    "mzdyVystupOpravnePodaniHzupn": {
+      "titl": "Opravné podanie:"
+    },
+    "mzdyVystupOsoba": {
+      "titl": "Osoba:"
+    },
+    "mzdyVystupPocetOdpracHodPoslDenHzupn": {
+      "titl": "Odprac. posl. deň PN [hod]:"
+    },
+    "mzdyVystupPodklVyucDane": {
+      "titl": "Podklady pre vyúčtovanie dane z príjmu zo závislej činnosti"
+    },
+    "mzdyVystupPoslDenPnHzupn": {
+      "titl": "Posledný deň pracovnej neschopnosti"
+    },
+    "mzdyVystupPracDobaHodPoslDenHzupn": {
+      "titl": "Dĺžka smeny posl. den PN [hod]:"
+    },
+    "mzdyVystupPracPomer": {
+      "titl": "Pracovný pomer:"
+    },
+    "mzdyVystupPrilZadNemCislo": {
+      "titl": "Číslo potvrdenia:"
+    },
+    "mzdyVystupPrilZadNemTyp": {
+      "titl": "Typ žiadosti:"
+    },
+    "mzdyVystupPrilZadNemTypDlouhOsetrovne": {
+      "titl": "Príspevok na dlhodobú starostlivosť"
+    },
+    "mzdyVystupPrilZadNemTypNem": {
+      "titl": "Nemocenské"
+    },
+    "mzdyVystupPrilZadNemTypOset": {
+      "titl": "Ošetrovné"
+    },
+    "mzdyVystupPrilZadNemTypOtcovska": {
+      "titl": "Otcovská dovolenka"
+    },
+    "mzdyVystupPrilZadNemTypPenPom": {
+      "titl": "Peňažitá pomoc v materstve"
+    },
+    "mzdyVystupPrilZadNemTypVyrov": {
+      "titl": "Vyrovnávací príspevok v tehotenstve a materstve"
+    },
+    "mzdyVystupPrilZadPopis": {
+      "titl": "<html>Vyberte mesiac a rok, ktorý predchádza mesiacu, v ktorom sa sociálna udalosť stala.<br/>Uveďte ďalšie parametre typu žiadosti.</html>"
+    },
+    "mzdyVystupRok": {
+      "titl": "Rok:"
+    },
+    "mzdyVystupSouborOut": {
+      "titl": "Cieľový súbor:"
+    },
+    "mzdyVystupSrazkovaDan": {
+      "titl": "Zrážková daň"
+    },
+    "mzdyVystupZahranicniHzupn": {
+      "titl": "Zahraničné:"
+    },
+    "mzdyVystupZalohovaDan": {
+      "titl": "Zálohová daň"
+    },
+    "osobaAdrKonPN": {
+      "titl": "Kontaktná"
+    },
+    "osobaAdrKonTuzPN": {
+      "titl": "Pobyt v tuzemsku (trvalý je mimo)"
+    },
+    "osobaAdrTrvalaPN": {
+      "titl": "Trvalá"
+    },
+    "osobaAdresaPN": {
+      "titl": "Adresa"
+    },
+    "osobaMzdCiziPojPN": {
+      "titl": "Cudzie poistenie"
+    },
+    "osobaMzdSlevyDanPN": {
+      "titl": "Zľavy na dani"
+    },
+    "osobaMzdZaklPN": {
+      "titl": "Základné údaje"
+    },
+    "osobaMzdZdrPojPN": {
+      "titl": "Zdravotné poistenie"
+    },
+    "osobaMzdyPN": {
+      "titl": "Parametre mzdy"
+    },
+    "osobaNastaveni": {
+      "titl": "Nastavenie osoby:"
+    },
+    "osobaNezaopParPN": {
+      "titl": "Nezaopatrený partner"
+    },
+    "osobaOstatniPN": {
+      "titl": "Ostatné"
+    },
+    "osobaStitkyPN": {
+      "titl": "Štítky a poznámka"
+    },
+    "pracPomCsszPN": {
+      "titl": "ČSSZ"
+    },
+    "pracPomDniUvazku": {
+      "titl": "Pracovné dni"
+    },
+    "pracPomKonecPN": {
+      "titl": "Ukončenie"
+    },
+    "pracPomNastaveni": {
+      "titl": "Nastavenie pracovného pomeru:"
+    },
+    "pracPomPocatekPN": {
+      "titl": "Začiatok"
+    },
+    "pracPomUctovaniPN": {
+      "titl": "Účtovanie"
+    },
+    "pracPomUvazekPN": {
+      "titl": "Úväzok"
+    },
+    "pracPomZapoctovyListPN": {
+      "titl": "Zápočtový list"
+    },
+    "prehledMzdSlozCelyRok": {
+      "titl": "Celý rok"
+    },
+    "prehledMzdSlozKvartal": {
+      "titl": "kvartál"
+    },
+    "prehledMzdSlozObdobi": {
+      "titl": "Obdobie:"
+    },
+    "prehledMzdSlozPololeti": {
+      "titl": "polrok"
+    },
+    "prehledMzdSlozSkupSlozek": {
+      "titl": "Skupina zložiek:"
+    },
+    "prehledMzdSlozStredisko": {
+      "titl": "Stredisko:"
+    },
+    "vsechnySkupinyMzdSlozek": {
+      "titl": "Všetky skupiny"
+    },
+    "vsichniZamestnanci": {
+      "titl": "Všetci zamestnanci"
+    }
+  },
+  "messages": {
+    "hzupnPracDobaHodPoslDenToolTip": {
+      "titl": "Dĺžka smeny posledný deň pracovnej neschopnosti. Možno zmeniť na karte zamestnanca."
+    },
+    "hzupnZadnaNepritomnost": {
+      "titl": "Nebola nájdená žiadna neprítomnosť."
+    },
+    "konrolaMzdovychSlozekProbiha": {
+      "titl": "Prebieha kontrola mzdových zložiek..."
+    },
+    "konrolaMzdovychSlozekUkoncitProcesDotaz": {
+      "titl": "Naozaj chcete ukončiť prebiehajúci audit miezd?"
+    },
+    "mzdovyListSeNepodaril": {
+      "titl": "Nepodarilo sa spracovať dáta pre mzdový list."
+    },
+    "mzdyChybnyPocetMesOdmeny": {
+      "titl": "Odmenu je možné získať len na 6 alebo 12 mesiacov."
+    },
+    "mzdyDoplneniHodDovolNastavenoNic": {
+      "titl": "Nenašiel sa žiadny priečinok na prenos dovolenky, ktorý by bolo možné aktualizovať."
+    },
+    "mzdyDoplneniHodDovolNastavenoPocet": {
+      "titl": "Počet hodín dovolenky bol stanovený pre zložky prestupu dovolenky týchto osôb - pracovnoprávne vzťahy:"
+    },
+    "mzdyDoplneniHodDovolNenastavenoNic": {
+      "titl": "Nenašiel sa žiadny priečinok na prenos dovolenky, ktorý by sa NEDAL aktualizovať."
+    },
+    "mzdyDoplneniHodDovolNenastavenoPocet": {
+      "titl": "Zložky prechodu dovolenky týchto osôb - pracovnoprávne vzťahy NIE sú stanovené na počet hodín dovolenky:"
+    },
+    "mzdyDoplneniHodDovolUvod": {
+      "titl": "Vo vypočítaných mzdách za január 2021 bolo zistené %p zložiek s prevodom dovolenky."
+    },
+    "mzdyGeneraceNeniEmail": {
+      "titl": "E-mailová adresa nie je vyplnená."
+    },
+    "mzdyGeneraceZavJizExistuji": {
+      "titl": "Pre vybrané obdobie už existujú záväzky alebo interné doklady.\nChcete ich zmazať?"
+    },
+    "mzdyGeneraceZavNeniFiltr": {
+      "titl": "Filter pre výber miezd nie je vyplnený."
+    },
+    "mzdyGeneraceZavNeniMzda": {
+      "titl": "Vo zvolenomm mesiaci nie je žiadna mzda."
+    },
+    "mzdyGeneraceZavNeniVypocteno": {
+      "titl": "Vo zvolenomm mesiaci nie je vypočítaná mzda následujících osôb:"
+    },
+    "mzdyGeneraceZavOsobaNemaPojistovnu": {
+      "titl": "Osoba %p nemá zadanú zdravotnú poisťovňu."
+    },
+    "mzdyGeneraceZavOsobaNemaStatObcan": {
+      "titl": "Osoba %p nemá zadané státní občanství."
+    },
+    "mzdyGeneraceZavOsobaNemaStredisko": {
+      "titl": "Osoba %p nemá zadané stredisko."
+    },
+    "mzdyGeneraceZavOsobaNemaZadanoPoleNaPomeru": {
+      "titl": "Osoba %p nemá zadané pole '%p' pre pracovný pomer %p."
+    },
+    "mzdyGeneraceZavPraceStredPrekrocenaDoba": {
+      "titl": "U zamestnanca '%p' prekračuje zadanie práce pre strediská/zakázky/činnosti fond pracovnej doby."
+    },
+    "mzdyGeneraceZavProgressInfo": {
+      "titl": "Probíieha generácia záväzkov..."
+    },
+    "mzdyGeneraceZavSmazatPrikazChyba": {
+      "titl": "Niektorý zo záväzkov nie je možné zmazať, pretože je obsiahnutý v príkaze k úhrade."
+    },
+    "mzdyGeneraceZavTdNemaRadu": {
+      "titl": "U typu dokladu '%p' nie je vybraný dokladový rad."
+    },
+    "mzdyGeneraceZavZamceno": {
+      "titl": "Generáciu dokladov nie je možné vykonať, protože zvolené obdobie je zamknuté."
+    },
+    "mzdyGenerovaniZavazkuOsobaCastka": {
+      "titl": "Osoba: %p, Suma: %p"
+    },
+    "mzdyHodinyXNeniDatumDo": {
+      "titl": "Je potrebné vyplniť dátum ukončenia."
+    },
+    "mzdyKontrolaChyba": {
+      "titl": "Kontrola mzdových zložiek zlyhala."
+    },
+    "mzdyKontrolaKonec": {
+      "titl": "Chcete pridať komponenty k uvedeným mesiacom?\nPridanie komponentu ovplyvňuje výpočet pracovného zákonného priemeru. Po prepočítaní miezd v nasledujúcich obdobiach sa môžu zmeniť sumy miezd, pri ktorých bol použitý pracovný priemer."
+    },
+    "mzdyKontrolaNicNenalezeno": {
+      "titl": "Kontrolou mzdových podkladov sa nezistili žiadne mzdové podklady, ktoré by bolo potrebné opraviť."
+    },
+    "mzdyKontrolaOpraveno": {
+      "titl": "Boli pridané zložky miezd."
+    },
+    "mzdyKontrolaUvod": {
+      "titl": "Počas kontroly zložiek mzdy sa zistilo, že v nasledujúcich prípadoch nebola vyplnená pomocná zložka viacmesačného rozpisu mzdy. Táto zložka ovplyvňuje výšku PPP v nasledujúcom štvrťroku.\n\nPočet osôb: mesiace, v ktorých zložka nie je\n"
+    },
+    "mzdyMzdSlozPrispevekIzolackaKladna": {
+      "titl": "Príspevok na karanténu (izoláciu) sa zadáva ako kladná hodnota."
+    },
+    "mzdyNejsouZaznamy": {
+      "titl": "Pre zadaný filter nie sú k dispozícii žiadne mzdy."
+    },
+    "mzdyNeniPracPomDatum": {
+      "titl": "Pre vybraný dátum %p neexistuje pracovný pomer pre zamestnanca %p."
+    },
+    "mzdyNepritomnostCisloRozhodnutiNevalidni": {
+      "titl": "Číslo rozhodnutia je neplatné. Číslo rozhodnutia obsahuje 18 číslic (v prípade elektronickej práceneschopnosti) alebo písmeno a 6-7 číslic (v prípade papierovej práceneschopnosti)."
+    },
+    "mzdyNepritomnostExistJina": {
+      "titl": "V zadanom termíne neprítomnosti %p sa už vyskytuje iná neprítomnosť %p."
+    },
+    "mzdyNepritomnostNevypocteneMzdy": {
+      "titl": "Uloženie neprítomnosti %p nie je možné, pretože v zablokovanom období sú nevyplatené mzdy."
+    },
+    "mzdyNepritomnostZamceno": {
+      "titl": "Uloženie neprítomnosti %p nie je možné, pretože by došlo k ovplyvneniu miezd v zamknutom období."
+    },
+    "mzdyNeukoncenaNepritomnost": {
+      "titl": "Zamestnanec \"%p\" má nevyčerpanú absenciu, ale jeho pracovný pomer už skončil."
+    },
+    "mzdyOdeslaniOk": {
+      "titl": "Výplatné pásky pre výber \"%p\" boli zahrnuté na odoslanie. Celková suma na odoslanie: %p."
+    },
+    "mzdyOsobaChybiHeslo": {
+      "titl": "Heslo nie je vyplnené."
+    },
+    "mzdyOsobaNastaveniNeni": {
+      "titl": "Pre osobu %p neexistuje žiadne nastavenie."
+    },
+    "mzdyOsobaNastaveniVice": {
+      "titl": "Pre osobu %p existuje viacero nastavení."
+    },
+    "mzdyPlatiOdDoNelzeSmazatJedine": {
+      "titl": "Nie je možné zmazať jediné existujúce nastavenie."
+    },
+    "mzdyPlatiOdDoNotChangeAble": {
+      "titl": "Platnosť nemôžete zmeniť, ak zmena ovplyvňuje iné nastavenie ako predchádzajúce nastavenie."
+    },
+    "mzdyPlatiOdDoNotConsistent": {
+      "titl": "Jednotlivé obdobia netvoria súvislý chronologický rad."
+    },
+    "mzdyPlatiOdDoNovePlatneOd": {
+      "titl": "Vytvoriť nastavenie platné od:"
+    },
+    "mzdyPlatiOdDoOpravduSmazat": {
+      "titl": "Skutočne chcete zmazať aktuálne nastavenie?"
+    },
+    "mzdyPlatiOdDoPrvniNeomezena": {
+      "titl": "Prvé nastavenie vytvorené pre osobné číslo \"%p\" musí mať neobmedzenú platnosť."
+    },
+    "mzdyPlatiOdDoSingleDeleteNotPossible": {
+      "titl": "Nemôžete odstrániť jedno existujúce nastavenie pre \"%p\"."
+    },
+    "mzdyPlatiOdExists": {
+      "titl": "Nastavenie s rovnakým dátumom začiatku už existuje."
+    },
+    "mzdyPlatiOdNelzeZmenit": {
+      "titl": "Hodnotu začiatku platnosti existujúceho nastavenia už nemožno zmeniť."
+    },
+    "mzdyPreSavePlatnostCisNepritKonec": {
+      "titl": "Koniec neprítomnosti %p je po skončení dôvodu neprítomnosti (%p)."
+    },
+    "mzdyPreSavePlatnostCisNepritZac": {
+      "titl": "Začiatok neprítomnosti %p je pred začiatkom dôvodu neprítomnosti (%p)."
+    },
+    "mzdyPrekrizeniDatumu": {
+      "titl": "Dátum ukončenia nemôže předchádzať dátumu začatia."
+    },
+    "mzdyProcVozuNeniCeleCislo": {
+      "titl": "% auta musí byť celé číslo."
+    },
+    "mzdyUlozVyplatniPaskyChyba": {
+      "titl": "Výplatné pásky boli exportované."
+    },
+    "mzdyUlozVyplatniPaskyNejsouData": {
+      "titl": "Pre export miezd nie sú k dispozícii žiadne údaje."
+    },
+    "mzdyUlozVyplatniPaskyProbiha": {
+      "titl": "Prebiehajúci export miezd"
+    },
+    "mzdyUlozVyplatniPaskyUspech": {
+      "titl": "Výplatné pásky boli úspešne exportované."
+    },
+    "mzdyUlozeniZamceno": {
+      "titl": "Uloženie nie je možné, pretože by došlo k ovplyvneniu miezd v zamknutom období %p/%p."
+    },
+    "mzdyVypocetDovolena2021Info": {
+      "titl": "Pre správny výpočet dovolenky v roku 2021 je potrebné nastaviť počet hodín dovolenky na pracovisku v Personalistike.\nMôžete použiť novú službu \"Predvyplniť hodiny dovolenky\" a potom použiť výpočet mzdy v Aktualizácii miezd.\nV prípade prevodu dovolenky z minulého roka je potrebné v januári pridať zložku \"Prevod dovolenky z roku 2020 do roku 2021\" \na vyplniť hodiny a vybrať, že ide o zmenu času užívateľa.\nNa pridanie tejto zložky môžete použiť službu \"Predvyplniť počet hodín prenesenej dovolenky\" v Aktualizácii miezd.\nPo pridaní tejto zložky je potrebné prepočítať mzdy.\nPri výpočte mzdy za január odporúčame skontrolovať hodiny v poli \"Zostávajúca dovolenka\"\n, \"Prenos dovolenky z minulého roka\" a \"Prenos dovolenky z roku 2020 do roku 2021\"."
+    },
+    "mzdyVypocetDovolenaZaporna": {
+      "titl": "Po výpočte mzdy je zostávajúca dovolenka záporná."
+    },
+    "mzdyVypocetDovoleneZaporne": {
+      "titl": "U následujúcích osôb vyšla zostávajúca dovolenka záporná:"
+    },
+    "mzdyVypocetInfoOdmenyPrepocet": {
+      "titl": "Došlo k aktualizácii zložiek mzdy, ktoré ovplyvňujú výpočet PPP.\nAk ste v predchádzajúcom roku použili mzdy za viac mesiacov a máte vypočítané mzdy v aktuálnom roku, prepočítajte mzdy na správny PPP."
+    },
+    "mzdyVypocetJedneLicenceNespocteno": {
+      "titl": "Nie je možné spočítať mzdu z dôvodu licenčného obmedzenia na %p spočítaných miezd mesačne."
+    },
+    "mzdyVypocetLicenceNespocteno": {
+      "titl": "Z dôvodu licenčných obmedzení neboli spočítané mzdy pre %p osôb.\nLicencia dovoľuje spočítať mzdu pre maximálne %p osôb mesačne."
+    },
+    "mzdyVypocetMimoUcetniObdobi": {
+      "titl": "Mzdy nie je možné vypočítať mimo aktuálne stanoveného účtovného obdobia. Musíte najprv vytvoriť nové účtovné obdobie."
+    },
+    "mzdyVypocetNastaveniDetiVarov": {
+      "titl": "V prípade, že si zamestnanec uplatňuje daňové zvýhodnenie na deti, je potrebné nové nastavenie, ktoré zabezpečí, aby sa zrážka vykonávala v súlade s platnou legislatívou."
+    },
+    "mzdyVypocetNastaveniDruhyPilirVarov": {
+      "titl": "Z dôvodu zrušenia II. piliera k 1. januáru 2016 je potrebné v Personalistike pridať nové nastavenie pre zamestnancov, ktorí boli účastníkmi II. piliera a II. pilier zrušiť (Personalistika - Parametre miezd - Sociálne poistenie - Účastník dôchodkového sporenia)."
+    },
+    "mzdyVypocetNemocProplatVarov": {
+      "titl": "Před výpočtom je vhodné skontrolovať obdobia preplácania náhrad nemocí."
+    },
+    "mzdyVypocetNeniKalkulacka": {
+      "titl": "Pre zvolené obdobie %p nie je v programe obsiahnutý predpis pre výpočet miezd."
+    },
+    "mzdyVypocetPracujeVic": {
+      "titl": "Zamestnanec prekročil stanovený limit odpracovaných hodín."
+    },
+    "mzdyVypocetPracujouVic": {
+      "titl": "Následujúce osoby prekročili stanovený limit odpracovaných hodín:"
+    },
+    "mzdyVypocetProgressInfo": {
+      "titl": "Prebieha výpočet miezd..."
+    },
+    "mzdyVypocetUpozorneniVypnutiProminutiSPFirma": {
+      "titl": "Za obdobie <i>jún - august 2020</i> bolo možné pri splnení zákonných podmienok využiť <b>odhlásenie zo sociálneho poistenia za spoločnosť</b>.\nOdhlásenie bolo zapnuté v nastaveniach zamestnávania, s účinnosťou od 1. septembra 2020 by malo byť vypnuté. Prípadne ho možno vypnúť hromadne pomocou služby v HR.\nAk už boli vypočítané septembrové mzdy, je potrebné ich po vypnutí prepočítať a skontrolovať."
+    },
+    "mzdyVypocetUpozorneniZapnutiProminutiSPFirma": {
+      "titl": "Za obdobie <i>jún - august 2020</i> je možné, ak sú splnené zákonné podmienky, využiť <b>odstúpenie od sociálneho poistenia pre firmu</b>.\nOdstúpenie je potrebné aktivovať pred výpočtom miezd aktiváciou možnosti \"%p\" v nastaveniach jednotlivých pracovných pomerov s účinnosťou od 1. júna 2020 (alebo neskôr).\nAlebo ho možno aktivovať hromadne pre všetky štandardné pracovné pomery pomocou služby v HR.\n\nPokračovať vo výpočte miezd?"
+    },
+    "mzdyVypocetZamceno": {
+      "titl": "Výpočet miezd nie je možné vykonať, pretože zvolené obdobie je zamknuté."
+    },
+    "mzdyVystupChybaNacitaniDuchodu": {
+      "titl": "Pri načítaní dôchodku z databázy nastala chyba."
+    },
+    "mzdyVystupCsszOsobaNemaDatumDuchoduOd": {
+      "titl": "Osoba %p má vyplnené pole Typ dôchodku, ale nemá vyplnené pole Dôchodok od."
+    },
+    "mzdyVystupCsszOsobaNemaDuvodUkonceniCssz": {
+      "titl": "Osoba %p nemá zvolený dôvod ukončenia PP pre CSSA."
+    },
+    "mzdyVystupCsszOsobaNemaValidniDatumDuchoduOd": {
+      "titl": "Pre osobu %p je pole Dôchodok od vyplnené nesprávne, dátum musí byť väčší alebo rovný dátumu narodenia a menší alebo rovný dátumu vytvorenia hlásenia."
+    },
+    "mzdyVystupDBChybaNeprit": {
+      "titl": "Chyba pri hľadaní neprítomnosti."
+    },
+    "mzdyVystupDBChybaOsoba": {
+      "titl": "Chyba pri načítaní zoznamu osôb z databázy."
+    },
+    "mzdyVystupDanVypocetPresMax": {
+      "titl": "Maximálna prípustná hodnota pre tento riadok je %p.\nZadaná hodnota bola upravená."
+    },
+    "mzdyVystupExportUspech": {
+      "titl": "Prehľad bol úspešne vyexportovaný."
+    },
+    "mzdyVystupHzupnCisPotvrzeniPovinne": {
+      "titl": "Ak nejde o zahraničné osvedčenie, číslo rozhodnutia DPN je povinné."
+    },
+    "mzdyVystupHzupnDatNavratPovinny": {
+      "titl": "Pokiaľ sa jedná o návrat do práce, musí byť vyplnený dátum návratu."
+    },
+    "mzdyVystupHzupnDuvodNenavradDoPraceMaxDelka": {
+      "titl": "Dôvod, prečo nezačal zamestnanec vykonávať zamestnanie, môže byť dlhý maximálne 200 znakov."
+    },
+    "mzdyVystupHzupnDuvodNenavradDoPracePovinny": {
+      "titl": "Ak sa nejedná o návrat do práce, musí byť vyplnené, prečo nezačal zamestnanec vykonávať zamestnanie."
+    },
+    "mzdyVystupHzupnNenalezenaZadnaNepritomnost": {
+      "titl": "V aktuálnom účtovnom období nie je zadaná žiadna neprítomnosť pre zvolený pracnovní pomer zvoleného zamestnanca."
+    },
+    "mzdyVystupHzupnPovinnyDatVyst": {
+      "titl": "Dátum vystavenia Hlásenie je povinný."
+    },
+    "mzdyVystupNahrProcZaPoj": {
+      "titl": "V ceste k súboru musíte uviesť znak percenta, ktorý bude nahradený za dátum a kód príslušnej zdrav. poisťovne."
+    },
+    "mzdyVystupNarokNaBonus": {
+      "titl": "Skontrolujte, či máte nárok na bonusové platby. Minimálny príjem potrebný na získanie nároku na bonusy nebol dosiahnutý."
+    },
+    "mzdyVystupNelzeNacistMzdyZDB": {
+      "titl": "Nepodarilo sa načítať mzdy z databázy."
+    },
+    "mzdyVystupNelzeNacistNastOsobDB": {
+      "titl": "Nepodarilo sa načítať históriu nastavenia osoby."
+    },
+    "mzdyVystupNelzeNacistOsobyZDB": {
+      "titl": "Nepodarilo sa načíst osoby z databázy."
+    },
+    "mzdyVystupNeniAdrSocPoj2": {
+      "titl": "Nie je zadané bankové spojenie pre sociálne poistenie. Bankové spojenie pridáte editáciou záznamu OSSZ \nuvedeného v Nastavenie -> Moduly -> Zamestnanci -> Poistenie -> Adresa a bankové spojenie."
+    },
+    "mzdyVystupNeniVsSocPoj": {
+      "titl": "Na bankovom účte pre sociálne zabezpečenie sa neuvádza žiadny variabilný symbol. Bankové spojenie môžete upraviť úpravou záznamu OSSZ \nuvedeného v Nastaveniach -> Moduly -> Zamestnanci -> Poistenie -> Adresa a bankové spojenie."
+    },
+    "mzdyVystupNepritomnostPovinna": {
+      "titl": "Neprítomnost je povinná."
+    },
+    "mzdyVystupNevybranyOsoby": {
+      "titl": "Musíte vybrať najmenej jednu osobu."
+    },
+    "mzdyVystupNevytvariOznameni": {
+      "titl": "Pre tento typ pracovného pomeru sa nevytvára oznámenie."
+    },
+    "mzdyVystupOpravaEldpDatumPovinne": {
+      "titl": "Musíte zadať dátum ELDP, ktorý opravujete."
+    },
+    "mzdyVystupOsobaPovinna": {
+      "titl": "Musíte vyplniť osobu."
+    },
+    "mzdyVystupPracPomKonecPomeru": {
+      "titl": "U pracovného pomeru musí byť vyplnené pole 'Konec pomeru'."
+    },
+    "mzdyVystupPracPomPovinny": {
+      "titl": "Pracovný pomer je povinný."
+    },
+    "mzdyVystupPrepPocZamNeniNastaveniOsoby": {
+      "titl": "Zamestnanec '%p' nemá nastavenie osoby platné pre %p."
+    },
+    "mzdyVystupPrepPocZamNeniUvazek": {
+      "titl": "Je treba mať pre všetkých zamestnancov vyplnenú týždennú pracovnú dobu aspoň na jednom z následujúcich miest:\nPracovný pomer, Skupina osôb, Nastavenie firmy"
+    },
+    "mzdyVystupPrijmyZamSoubor": {
+      "titl": "prijmy"
+    },
+    "mzdyVystupPrilohaChybaZpusobPlatby": {
+      "titl": "Neznámy spôsob platby u změstnance %p."
+    },
+    "mzdyVystupPrilohaNeniAdresaObec": {
+      "titl": "U adresy zamestnanca %p nie je zadaná obec adresy pre výplatu."
+    },
+    "mzdyVystupPrilohaNeniAdresaPsc": {
+      "titl": "U adresy zamestnanca %p nie je zadané PSČ adresy pre výplatu."
+    },
+    "mzdyVystupPrilohaNeniAdresaUlice": {
+      "titl": "U adresy zamestnanca %p nie je zadaná ulica adresy pre výplatu."
+    },
+    "mzdyVystupPrilohaNeniCUctu": {
+      "titl": "U zamestnanca %p nie je zadané číslo účtu."
+    },
+    "mzdyVystupPrilohaNeniIban": {
+      "titl": "U zahraničného účtu zamestnanca %p nie je zadaný IBAN."
+    },
+    "mzdyVystupPrilohaNeniKodBanky": {
+      "titl": "Pri účte zamestnanca %p nie je zadaný kód banky."
+    },
+    "mzdyVystupPrilohaNeniStat": {
+      "titl": "U zahraničného účtu zamestnanca %p nie je zadaný stať."
+    },
+    "mzdyVystupPrilohaNeniUcet": {
+      "titl": "U zamestnanca %p nie je zadané bankové spojenie."
+    },
+    "mzdyVystupPrilohaNeniZpusobPlatby": {
+      "titl": "U zamestnanca %p nie je zadaný spôsob platby."
+    },
+    "mzdyVystupSouborChyba": {
+      "titl": "Pri ukládaní súboru došlo k chybe."
+    },
+    "mzdyVystupSouborPovinny": {
+      "titl": "Musíte zadať cestu k cieľovému súboru."
+    },
+    "mzdyVystupVsePovinne": {
+      "titl": "Musíte vyplniť všetky údaje."
+    },
+    "mzdyVystupZdrPrehledNeniZdrPoj": {
+      "titl": "Pre osobu %p musíte vyplniť zdravotnú poisťovňu."
+    },
+    "mzdyZamekTestChyba": {
+      "titl": "Chyba v priebehu overovania zámkov miezd."
+    },
+    "mzdyneniVypocteno": {
+      "titl": "Mzda %p/%p sa nevypočítava."
+    },
+    "nepodariloSeNacistMzdoveSlozky": {
+      "titl": "Nepodarilo sa načítať mzdové zložky."
+    },
+    "nepodariloSeNacistNeukonceneStdPP": {
+      "titl": "Nepodarilo sa vyhľadať neukončené štandardné pracovné pomery."
+    },
+    "osobaDatNarozPovinne": {
+      "titl": "U zamestnanca musí byť vyplnený dátumu narodenia."
+    },
+    "osobaDiteViceOdpoctu": {
+      "titl": "Dieťa '%p' je vybrané na viacerých miestach na odčítanie."
+    },
+    "osobaDuplicitniOsbCis": {
+      "titl": "Osobné číslo '%p' už používa iný zamestnanec."
+    },
+    "osobaJinaNezNaPracPomeru": {
+      "titl": "Definovaná osoba (%p: %p %p) sa líši od zamestnanej osoby (%p: %p %p)."
+    },
+    "osobaJmenoPrijmeniPovinne": {
+      "titl": "U zamestnanca musí byť vyplnené meno a priezvisko."
+    },
+    "osobaRodCisDatNarozPovinne": {
+      "titl": "U zamestnanca musí byť vyplnené rodné číslo a dátum narodenia."
+    },
+    "osobaRodCisNevyplneno": {
+      "titl": "U zamestnanca nie je vyplnené rodné číslo, nebude zobrazené v žiadnych výstupoch."
+    },
+    "osobaRodCisPovinne": {
+      "titl": "U zamestnanca musí byť vyplnené rodné číslo."
+    },
+    "osobaRodnePrijmeniPovinne": {
+      "titl": "Osoba %p nemá uvedené priezvisko."
+    },
+    "osobaSlevyNaDaniPrazdne": {
+      "titl": "Zľavy na dani sú prázdne."
+    },
+    "osobaStaleMzdoveSlozkyPrazdne": {
+      "titl": "Stále mzdové zložky sú prázdne."
+    },
+    "osobaStatObcanPovinne": {
+      "titl": "U zamestnanca musí byť vyplnené štátne občianstvo."
+    },
+    "osobaZdravPojNevyplneno": {
+      "titl": "U zamestnanca nie je vyplnená zdravotná poisťovňa."
+    },
+    "osobaZdravPojPovinne": {
+      "titl": "U zamestnanca musí byť vyplnená zdravotná poisťovňa."
+    },
+    "osobaZpusPlatbyPovinne": {
+      "titl": "U zamestnanca musí byť vyplnený spôsob platby."
+    },
+    "pracPomAktivniOdPovinne": {
+      "titl": "U pracovného pomeru musí byť vyplnené pole 'Aktívny od'."
+    },
+    "pracPomInitSlozkyPrazdne": {
+      "titl": "Inicializačné zložky sú prázdne."
+    },
+    "pracPomNepravNulujSmeny": {
+      "titl": "Pracovný rozvrh bol predtým pravidelný a teraz už nie je. Prajete si vynulovať pracovné zmeny?"
+    },
+    "pracPomPrekryvKoncu": {
+      "titl": "Dátum koniec pracovného pomeru nesmie byť neskorší než dátum aktívny do."
+    },
+    "pracPomUvazHodDnuZacPracDobyPovinne": {
+      "titl": "U pravidelného pracovného pomeru musia byť vyplnené hodiny denne, dni týždňa a začiatok pracovnej doby."
+    },
+    "pracPomZkraceniPomeru": {
+      "titl": "Varovanie. Pri skrátení trvania pracovného pomeru nedôjde k odstráneniu už existujúcich účtovných dokladov."
+    },
+    "praceStredObdobiMocProcent": {
+      "titl": "V niektorom období je rozdelených viac než sto percent fondu pracovnej doby."
+    },
+    "predvyplneniHodDovolPocetInfo": {
+      "titl": "Pre %p pracovných pomerov bol doplnený počet hodín dovolenky ročne."
+    },
+    "predvyplneniHodDovolZadnyPPInfo": {
+      "titl": "Nebol nájdený žiadny aktívny pracovný pomer, kde by bolo možné predvyplniť počet hodín dovolenky."
+    },
+    "prominutiSPWizard.infoVypnuto": {
+      "titl": "Bolo vytvorených %p nových nastavení pracovných pomerov, %p pracovným pomerom bolo vypnuté odpustenie SP za firmu."
+    },
+    "prominutiSPWizard.infoZapnuto": {
+      "titl": "Bolo vytvorených %p nových nastavení pracovných pomerov, %p pracovným pomerom bolo zapnuté odpustenie SP za firmu."
+    },
+    "prominutiSPWizard.vypnoutPro": {
+      "titl": "Vyberte mesiac, od ktorého si želáte vypnúť oslobodenie od SP pre spoločnosť na <b>všetkých PP</b>.\nAk sa vykoná zmena, vytvorí sa nové nastavenie PP k 1. dňu vybraného mesiaca:"
+    },
+    "prominutiSPWizard.vypnoutProHeader": {
+      "titl": "Vypnutie oslobodenia od SP pre spoločnosť"
+    },
+    "prominutiSPWizard.zapnoutPro": {
+      "titl": "Vyberte mesiac, od ktorého si želáte povoliť <b>na štandardných PP</b> oslobodenie od SP pre firmu.\nAk sa vykoná zmena, vytvorí sa nové nastavenie PP k 1. dňu vybraného mesiaca:"
+    },
+    "prominutiSPWizard.zapnoutProHeader": {
+      "titl": "Zapnutie oslobodenia od SP pre spoločnosť"
+    },
+    "vypocetVyzadovanyProperty": {
+      "titl": "Pri výpočte miezd je potrebné zadať %p a %p."
+    },
+    "vyzadovanPracovniPomer": {
+      "titl": "Komponent %p si vyžaduje pracovný pomer, pretože nie je spoločný pre všetky."
+    },
+    "vyzadovanaNepritomnost": {
+      "titl": "Pre zložku %p sa vyžaduje neprítomnosť."
+    },
+    "zrusVypocetMzdy.uzivZmeny": {
+      "titl": "Chcete zrušiť i používateľské zmeny?"
+    },
+    "zruseniVyzadovanyProperty": {
+      "titl": "Pri zrušení výpočtu miezd je potrebné zadať %p a %p."
+    }
+  }
+}

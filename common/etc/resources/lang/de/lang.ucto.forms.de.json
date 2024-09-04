@@ -1,0 +1,2004 @@
+{
+  "formsInfo": {
+    "actClenstvi": {
+      "mnem": 65,
+      "titl": "Mitgliedschaft Workflow"
+    },
+    "actDefinice": {
+      "mnem": 68,
+      "titl": "Definition Workflow"
+    },
+    "actRunProcess": {
+      "icon": "win/folder.png",
+      "mnem": 72,
+      "titl": "Workflow aufrufen"
+    },
+    "actSkupiny": {
+      "mnem": 71,
+      "titl": "Gruppen für Workflow"
+    },
+    "activationDialog": {
+      "titl": "Aktivieren die Anwendung"
+    },
+    "adrAdresar": {
+      "desc": "Aktualisierung von allen Adressen, Kontakten, Bankverbindungen und Ereignissen.",
+      "icon": "win/adresar.png",
+      "mnem": 65,
+      "titl": "Firmenadressen"
+    },
+    "adrAdresarNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neue Adresse der Firma"
+    },
+    "adrBanSpoj": {
+      "titl": "Bankverbindung"
+    },
+    "adrCert": {
+      "titl": "Zertifikate Firma"
+    },
+    "adrDodavatel": {
+      "desc": "Aktualisierung der Lieferanten, Kontakte, Ereignisse und der Bankverbindungen von Lieferanten.",
+      "icon": "win/adresar.png",
+      "titl": "Lieferanten"
+    },
+    "adrDodavateleView": {
+      "titl": "Liefert Ware"
+    },
+    "adrKontakty": {
+      "desc": "Liste aller Kontakte, die Sie bei den Firmen erfasst haben. In der Liste können Sie die Kontakte nach den eingegebenen Kriterien quer durch die Firmen aufsuchen. Bei jeder Firma im aktualisierten Formular sehen Sie die auf konkrete Adresse gebundenen Kontakte. Beim Kontakt geben Sie Firma, Funktion, Dienstrang, Telefon, E-Mail, Notizen und Etiketten für die Eingliederung und das Aufsuchen des Kontakts.",
+      "icon": "win/kontakty.png",
+      "mnem": 75,
+      "titl": "Kontakte"
+    },
+    "adrMistUrc": {
+      "desc": "Liste aller Bestimmungsorte.",
+      "icon": "win/mista-urceni.png",
+      "mnem": 66,
+      "titl": "Bestimmungsorte"
+    },
+    "adrNaklAkt": {
+      "titl": "Kosten Vorfälle / Aktivitäten"
+    },
+    "adrOdberatel": {
+      "desc": "Aktualisierung der Abnehmer, Kontakte, Ereignisse und Bankverbindungen der Abnehmer.",
+      "icon": "win/adresar.png",
+      "titl": "Abnehmer"
+    },
+    "adrOdberateleView": {
+      "titl": "Individuelle Preise"
+    },
+    "adrPolSml": {
+      "titl": "Vertragsposten"
+    },
+    "adrPolSmlExt": {
+      "titl": "Externe Vertragsposten"
+    },
+    "adrPolSmlInt": {
+      "titl": "Interne Standardposten vom Vertrag"
+    },
+    "adrRuUdalosti": {
+      "desc": "Liste aller Vorfälle aus Workflow",
+      "icon": "win/udalosti.png",
+      "mnem": 70,
+      "titl": "Vorfälle aus Workflow"
+    },
+    "adrSkupFir": {
+      "icon": "win/skupiny-firem.png",
+      "mnem": 71,
+      "titl": "Gruppen von Firmen"
+    },
+    "adrSmlAkt": {
+      "desc": "Liste aller Verträge",
+      "icon": "win/prehled.png",
+      "mnem": 82,
+      "titl": "Verträge"
+    },
+    "adrSmlAktView": {
+      "desc": "Liste aller Verträge.",
+      "icon": "win/prehled.png",
+      "mnem": 82,
+      "titl": "Verträge"
+    },
+    "adrSmlDodavAkt": {
+      "desc": "Liste aller Lieferverträge.",
+      "icon": "win/prehled.png",
+      "titl": "Lieferverträge"
+    },
+    "adrSmlDodavAktView": {
+      "desc": "Liste aller Lieferverträge.",
+      "icon": "win/prehled.png",
+      "mnem": 76,
+      "titl": "Lieferverträge"
+    },
+    "adrStavSml": {
+      "titl": "Vertragsstatus"
+    },
+    "adrTypAkt": {
+      "desc": "Benutzereingabe der typischen Vorfälle und Aktivitäten in Ihrer Firma.",
+      "icon": "win/folder.png",
+      "mnem": 86,
+      "titl": "Vorfall- und Aktivitätsarten"
+    },
+    "adrTypDodavSml": {
+      "icon": "win/folder.png",
+      "mnem": 73,
+      "titl": "Arten der Lieferverträge"
+    },
+    "adrTypNaklAkt": {
+      "desc": "Die Liste aller mit der Aktivität oder mit dem Vorfall zusammenhängenden Kostenarten. Sie beinhaltet eine Bindung an die Preisliste.",
+      "icon": "win/folder.png",
+      "mnem": 79,
+      "titl": "Kostenarten Vorfälle / Aktivitäten"
+    },
+    "adrTypSml": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Vertragsarten"
+    },
+    "adrUdalosti": {
+      "desc": "Die Liste aller Ereignisse, die mit dem Partner verbunden sind. Das Ereignis können wir auch als Protokoll aus der Verhandlung mit dem Partner ansehen oder das kann auch als die Aufgabe angesehen werden, die bis zum bestimmten Termin erfüllt werden muss.Im Fenster zum Editieren der Adresse sehen Sie die Liste von Ereignissen, die zum ausgewählten Partner gebunden sind. Eine gut geführte Liste von Ereignissen ermöglicht dem Manager der Firma die Beauftragung der Mitarbeiter mit den Aufgaben und Verfolgung des Lösungsstandes.",
+      "icon": "win/udalosti.png",
+      "mnem": 69,
+      "titl": "Ereignisse"
+    },
+    "adrZurnalSml": {
+      "titl": "Journal für Verträge"
+    },
+    "aktivaceProduktu": {
+      "titl": "Begleiter durch die Aktivierung von ABRA Flexi"
+    },
+    "aktualLicenci": {
+      "mnem": 76,
+      "titl": "Meine ABRA Flexi"
+    },
+    "analyzaNakupu": {
+      "titl": "Einkaufsanalyse"
+    },
+    "analyzaNakupuOdberatelZbozi": {
+      "titl": "Einkaufsanalyse - Wareneinkauf nach Firma"
+    },
+    "analyzaNakupuVlastni": {
+      "titl": "Einkaufsanalyse - Eigene"
+    },
+    "analyzaNakupuWizard": {
+      "desc": "Einkaufsanalyse kann Ihnen folgende Informationen bieten: Umsatz nach Abnehmern / Abnehmergruppen/ verkauften Waren/ Warengruppen / Kostenstellen usw.(Eingabe unter \"Was möchten Sie analysieren?\"). Sie können auch ausführliche Gliederung (nach erwähnten Attributen)eingeben(unter \"Wie ist weitere Gliederung?\"). Ergebnis kann z. B. die Verkaufsanalyse der einzelnen Firmen mit einer ausführlichen Einführung der Waren darstellen. Sie analysieren in der eingegebenen Periode.",
+      "icon": "win/prehled.png",
+      "mnem": 69,
+      "titl": "Einkaufsanalyse"
+    },
+    "analyzaNakupuZboziOdberatele": {
+      "titl": "Einkaufsanalyse - Einkauf von Firmen nach Waren"
+    },
+    "analyzaNakupuZiskOdberatele": {
+      "titl": "Einkaufsanalyse- Einkäufe von Firmen"
+    },
+    "analyzaNakupuZiskSkupinyCen": {
+      "titl": "Verkaufsanalyse - Einkäufe von Preislistengruppen"
+    },
+    "analyzaNakupuZiskSkupinyFirem": {
+      "titl": "Einkaufsanalyse - Einkäufe von Firmengruppen"
+    },
+    "analyzaNakupuZiskZbozi": {
+      "titl": "Einkaufsanalyse - Wareneinkauf"
+    },
+    "autCert": {
+      "mnem": 90,
+      "titl": "Zertifizierungsautoritäten"
+    },
+    "autoTisk": {
+      "titl": "Automatischer Druck"
+    },
+    "banAkt": {
+      "desc": "Aktualisierung und Bildung der Posten von Bankauszügen in der eingestellten Buchungsperiode. Die Taste \"Dienstleistungen\" ermöglicht den Druck des aktuellen Beleges,den Beleg mit der Rechnung, der Forderung oder mit der Verbindlichkeit zusammen zu paaren.",
+      "icon": "win/banka.png",
+      "mnem": 66,
+      "titl": "Bank"
+    },
+    "banAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neuer Bankbeleg"
+    },
+    "banBanZapoctyPol": {
+      "titl": "Posten gegenseitiger Anrechnungen"
+    },
+    "banBsp": {
+      "desc": "Liste der Bankkonten der Firma einschliesslich Definition der elektronischen Kommunikation.",
+      "icon": "win/bank-ucty.png",
+      "mnem": 73,
+      "titl": "Liste der Bankkonten"
+    },
+    "banDenik": {
+      "desc": "Berechnung und Druck des Bankbuches",
+      "icon": "win/logs.png",
+      "mnem": 78,
+      "titl": "Bankbuch"
+    },
+    "banNonPaged": {
+      "titl": "Bank"
+    },
+    "banPokBsp": {
+      "titl": "Bankkonten und Kassen"
+    },
+    "banPol": {
+      "mnem": 68,
+      "titl": "Die Posten des Bankbeleges"
+    },
+    "banProtiUcty": {
+      "titl": "Gegenkontos Bank"
+    },
+    "banRady": {
+      "desc": "Einstellung der Belegreihen für die Aktualisierung der Bankauszüge.",
+      "icon": "win/numbers.png",
+      "mnem": 66,
+      "titl": "Belegreihen - Bankbelege"
+    },
+    "banTyp": {
+      "icon": "win/bank-ucty.png",
+      "mnem": 76,
+      "titl": "Liste der Bankkontos"
+    },
+    "banTypZapocty": {
+      "icon": "win/bank-ucty.png",
+      "mnem": 73,
+      "titl": "Liste der Aufrechnungsarten"
+    },
+    "banZapocty": {
+      "desc": "Wechselseitige Aufrechnung ist mit der Hilfe des Begleiters möglich, in dem Sie eine Firma eingeben, mit der Sie die Aufrechnung machen wollen. Dann wählen Sie die Belege für Aufrechnung. Oder können Sie die Aufrechnung mit einem Beleg nach dem anderen ähnlich wie bei den Bankauszügen realisieren.",
+      "icon": "win/vzajemne-zapocty.png",
+      "mnem": 70,
+      "titl": "Aufrechnungen"
+    },
+    "banZapoctyPol": {
+      "mnem": 65,
+      "titl": "Aufrechnungsposten"
+    },
+    "bspModulFree": {
+      "titl": "Banken/Kassen/Lager"
+    },
+    "cServerDialog": {
+      "titl": "Verwaltung von Datenquellen"
+    },
+    "cServerDialogNovy": {
+      "titl": "Zugabe von Datenquellen"
+    },
+    "casteDotazy": {
+      "mnem": 72,
+      "titl": "Häufig gestellte Fragen"
+    },
+    "cenAkt": {
+      "desc": "Der Katalog beinhaltet komplette Übersicht von Ware, Material und Dienstleistungen. Alles ist in Gruppen gegliedert. Bei der Ware definieren Sie ihre Platzierung in den Lagern.",
+      "icon": "win/katalog.png",
+      "mnem": 84,
+      "titl": "Preisliste"
+    },
+    "cenAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neuer Posten in der Preisliste/im Katalog"
+    },
+    "cenAtribut": {
+      "titl": "Attribute"
+    },
+    "cenCisAtribut000": {
+      "icon": "win/logs.png",
+      "titl": "Stammdaten der Atribute"
+    },
+    "cenDodavatele": {
+      "titl": "Lieferanten"
+    },
+    "cenDodavateleView": {
+      "titl": "Lieferanten"
+    },
+    "cenEkoKom": {
+      "titl": "Evidenz von EkoKom Verpackungen"
+    },
+    "cenHlad": {
+      "desc": "Die Preisniveaus bilden die Verbindung zwischen der Warengruppe und der Gruppe der Abnehmer und dadurch deutlich definierte Preisbildung.",
+      "icon": "win/cenove-urovne.png",
+      "mnem": 80,
+      "titl": "Preisniveaus"
+    },
+    "cenOdberateleView": {
+      "titl": "Preise für Abnehmer/Gruppen von Abnehmern, spezielle Codes"
+    },
+    "cenPodobne": {
+      "titl": "Ähnliche"
+    },
+    "cenPoplatky": {
+      "titl": "Gebühren"
+    },
+    "cenPrislusenstvi": {
+      "titl": "Zubehör"
+    },
+    "cenSady": {
+      "titl": "Sätze"
+    },
+    "cenSku": {
+      "desc": "Waren - und Materialgruppen ermöglichen die Preisliste/den Katalog in die übersichtlichen Gruppen einzugliedern , Definition von diesen Gruppen und auch die Einstellung der Preisbildung für diese Gruppen.",
+      "icon": "win/folder.png",
+      "mnem": 87,
+      "titl": "Waren - und Materialgruppen"
+    },
+    "cenSkupCen": {
+      "desc": "Preislistengruppen",
+      "icon": "win/folder.png",
+      "mnem": 85,
+      "titl": "Preislistengruppen"
+    },
+    "cenSpec": {
+      "titl": "Spezielle Preisliste"
+    },
+    "cenStav": {
+      "icon": "win/folder.png",
+      "mnem": 68,
+      "titl": "Stammdaten-Status der Preislisteposten"
+    },
+    "cenTypAtributu": {
+      "mnem": 84,
+      "titl": "Attributenarten"
+    },
+    "cenTypAtributuStandard": {
+      "titl": "Standardart der Attribute"
+    },
+    "cenTypZbozi": {
+      "mnem": 71,
+      "titl": "Attributengruppen"
+    },
+    "cenTypZboziStandard": {
+      "titl": "Standardgruppen der Attribute"
+    },
+    "cenyView": {
+      "titl": "Individuelle Preisliste"
+    },
+    "cenyViewWizard": {
+      "icon": "win/folder.png",
+      "mnem": 78,
+      "titl": "Individuelle Preisliste"
+    },
+    "cisCinnost": {
+      "mnem": 84,
+      "titl": "Tätigkeit"
+    },
+    "cisClenDph": {
+      "desc": "Die MwSt. - Zeile bestimmt, in welche Zeile des Formulars der MwSt. - Erklärung die Summen des Beleges (Taste \"F2\") gehören.",
+      "mnem": 196,
+      "titl": "Zeilen der MwSt. - Erklärung"
+    },
+    "cisClenKonVykDph": {
+      "mnem": 0,
+      "titl": "Zeilen des MwSt.-Kontrollausweises"
+    },
+    "cisDphPren": {
+      "desc": "Evidenz für Steuerzwecke laut §92a MwSt.- Gesetzes",
+      "titl": "MwSt. nach Warengruppen"
+    },
+    "cisElBanFormaty": {
+      "titl": "Bankformate"
+    },
+    "cisKlic": {
+      "titl": "Auswahlschlüssel"
+    },
+    "cisKonSym": {
+      "mnem": 79,
+      "titl": "Konstante Symbole"
+    },
+    "cisKurzy": {
+      "mnem": 75,
+      "titl": "Kurse"
+    },
+    "cisKurzyCen": {
+      "mnem": 85,
+      "titl": "FW-Kurse zur Preisbildung"
+    },
+    "cisKurzyIntr": {
+      "mnem": 72,
+      "titl": "Währungskurse für Intrastat"
+    },
+    "cisKurzyPreceneni": {
+      "titl": "Neubewertungssätze"
+    },
+    "cisLokCis": {
+      "titl": "Lokalisierter Nummeranzeiger"
+    },
+    "cisMeny": {
+      "mnem": 87,
+      "titl": "Währungen"
+    },
+    "cisMj": {
+      "mnem": 72,
+      "titl": "Masseinheiten"
+    },
+    "cisOsoby": {
+      "mnem": 79,
+      "titl": "Personen und Benutzer"
+    },
+    "cisPsc": {
+      "mnem": 80,
+      "titl": "Postleitzahlen"
+    },
+    "cisSkupVybKlic": {
+      "mnem": 76,
+      "titl": "Schildergruppen"
+    },
+    "cisSmerKod": {
+      "mnem": 71,
+      "titl": "Geldinstitute"
+    },
+    "cisStaty": {
+      "mnem": 83,
+      "titl": "Staaten"
+    },
+    "cisStavZak": {
+      "mnem": 85,
+      "titl": "Auftragstatus"
+    },
+    "cisStr": {
+      "mnem": 78,
+      "titl": "Kostenstellen"
+    },
+    "cisTexDok": {
+      "titl": "Hilfstexte für den Beleg"
+    },
+    "cisTexty": {
+      "mnem": 86,
+      "titl": "Vordefinierte Texte"
+    },
+    "cisTypUcOp": {
+      "icon": "win/predpis.png",
+      "mnem": 66,
+      "titl": "Buchungsvorschriften"
+    },
+    "cisTypUcOpBan": {
+      "icon": "win/predpis.png",
+      "mnem": 66,
+      "titl": "Buchungsvorschriften - Bankbelege"
+    },
+    "cisTypUcOpFap": {
+      "icon": "win/predpis.png",
+      "mnem": 65,
+      "titl": "Buchungsvorschriften - angenommene Rechnungen"
+    },
+    "cisTypUcOpFav": {
+      "icon": "win/predpis.png",
+      "mnem": 65,
+      "titl": "Buchungsvorschriften - ausgegebene Rechnungen"
+    },
+    "cisTypUcOpInt": {
+      "icon": "win/predpis.png",
+      "mnem": 73,
+      "titl": "Buchungsvorschriften - interne Belege"
+    },
+    "cisTypUcOpPhl": {
+      "icon": "win/predpis.png",
+      "mnem": 70,
+      "titl": "Buchungsvorschriften - andere Forderungen"
+    },
+    "cisTypUcOpPok": {
+      "icon": "win/predpis.png",
+      "mnem": 75,
+      "titl": "Buchungsvorschriften - Kassenbelege"
+    },
+    "cisTypUcOpSkl": {
+      "icon": "win/predpis.png",
+      "mnem": 69,
+      "titl": "Buchungsvorschriften - Lager"
+    },
+    "cisTypUcOpZav": {
+      "icon": "win/predpis.png",
+      "mnem": 86,
+      "titl": "Buchungsvorschriften - andere Verbindlichkeiten"
+    },
+    "cisTypZak": {
+      "mnem": 65,
+      "titl": "Auftragsarten"
+    },
+    "cisUceRoz": {
+      "mnem": 67,
+      "titl": "Standardrechnungsbilanz"
+    },
+    "cisVazbyMj": {
+      "titl": "Bindungen der Masseinheit"
+    },
+    "cisVybKlice": {
+      "mnem": 82,
+      "titl": "Schilder"
+    },
+    "cisVyhZak": {
+      "mnem": 83,
+      "titl": "Auswertung von Aufträgen"
+    },
+    "cisZak": {
+      "desc": "Liste der Aufträge. Jeder Beleg kann einen Hinweis auf den Auftrag beinhalten. Mit Hilfe von Standardübersichten können Sie die Kosten für den konkreten Auftrag zu analysieren.",
+      "icon": "win/zakazky.png",
+      "mnem": 71,
+      "titl": "Aufträge"
+    },
+    "cisZakNehotov": {
+      "desc": "Aufträge - nicht als abgeschlossen angezeigt",
+      "titl": "Aufträge (unvollendet)"
+    },
+    "cisZakazky": {
+      "icon": "win/folder.png",
+      "mnem": 77,
+      "titl": "Stammdaten der Aufträge"
+    },
+    "cisloBal": {
+      "titl": "Paketnummern"
+    },
+    "customButton": {
+      "titl": "Benutzer-Taste"
+    },
+    "dashboard": {
+      "icon": "win/dashboard-vlastni.png",
+      "titl": "Übersicht"
+    },
+    "dashboard-konkretni": {
+      "icon": "win/dashboard-vlastni-konkretni.png",
+      "titl": "Übersicht"
+    },
+    "dashboard000": {
+      "icon": "win/dashboard.png",
+      "mnem": 220,
+      "titl": "Übersichten"
+    },
+    "dashboard000-konkretni": {
+      "icon": "win/dashboard-konkretni.png",
+      "titl": "Übersichten"
+    },
+    "dashboardPanel": {
+      "icon": "win/folder.png",
+      "titl": "Dashboard Management"
+    },
+    "dashboardSharing": {
+      "titl": "Dashboard Sharing"
+    },
+    "desktop000": {
+      "titl": "Arbeitsfläche"
+    },
+    "diskUsage": {
+      "mnem": 84,
+      "titl": "Festplattenkapazität"
+    },
+    "doklFakBezModulu": {
+      "titl": "Forderungen/Verbindlichkeiten"
+    },
+    "doklFakUhrady": {
+      "titl": "Zu zahlende Belege"
+    },
+    "doklIntBezModulu": {
+      "titl": "Bank/Kassen/interner Beleg"
+    },
+    "dokladView": {
+      "titl": "Übersicht über alle Dokumente"
+    },
+    "dotaz": {
+      "mnem": 70,
+      "titl": "Benutzerfragen"
+    },
+    "dotazParam": {
+      "titl": "Parameter"
+    },
+    "dotazProp": {
+      "titl": "Eigenschaften"
+    },
+    "dotazView": {
+      "titl": "Anwenderfrage"
+    },
+    "eetKom": {
+      "titl": "EET Kommunikation"
+    },
+    "eetKomView": {
+      "mnem": 69,
+      "titl": "EET Kommunikation"
+    },
+    "elInkaso": {
+      "desc": "Definieren des Inkassoauftrags aus der Liste der ausgestellten Rechnungen und Forderungen, mit der Möglichkeit der Ergänzung. Das Programm unterstützt den Export in elektronische Formate der meisten Banken.",
+      "icon": "win/prehled.png",
+      "mnem": 84,
+      "titl": "Inkassoauftrag"
+    },
+    "elInkasoFak": {
+      "titl": "Auswahl der Belege zur Zahlung"
+    },
+    "elInkasoPol": {
+      "titl": "Inkassoposten"
+    },
+    "elPrikaz": {
+      "desc": "Definition des Zahlungsauftrages aus der Liste der angenommenen Rechnungen und Verbindlichkeiten mit der Möglichkeit deren Ergänzung. Das Programm unterstützt den Export des Auftrags in die elektronischen Formate der meisten Bankinstitute.",
+      "icon": "win/prehled.png",
+      "mnem": 85,
+      "titl": "Zahlungsauftrag"
+    },
+    "elPrikazFak": {
+      "titl": "Auswahl der Belege zur Vergütung"
+    },
+    "elPrikazPol": {
+      "titl": "Zahlungsauftragsposten"
+    },
+    "externalId": {
+      "titl": "externe Kennzeichen"
+    },
+    "fapAkt": {
+      "desc": "Aktualisierung der angenommenen Rechnungen in der eingestellten Buchungsperiode. Die angenommenen Rechnungen bilden mit den Lagerposten Empfangsbestätigungen automatisch. Die Taste \"Dienstleistungen\" ermöglicht den Druck der aktuellen Faktur, bietet zusammenfassende Informationen über den Abnehmer und bildet die Bargeldvergütung.",
+      "icon": "win/fak-prijate.png",
+      "mnem": 71,
+      "titl": "Angenommene Rechnungen"
+    },
+    "fapAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neue Rechnung annehmen"
+    },
+    "fapNonPaged": {
+      "titl": "Angenommene Rechnungen"
+    },
+    "fapPol": {
+      "desc": "Zusammenfassende Übersicht von allen Fakturierungsposten. Mit Hilfe von Standardfilterung bilden Sie die Übersichten der Fakturierungsposten oder Sie können die Postengruppen nach den eingegebenen Kriterien unabhängig von den Belegen aufsuchen. Beispiel für Benutzung: Sie wollen wissen, welche Firmen Ihnen konkrete Ware in den letzten zwei Monaten fakturiert haben.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 68,
+      "titl": "Die Posten der angenommenen Rechnungen"
+    },
+    "fapProtiUcty": {
+      "titl": "Angenommene Gegenkontos"
+    },
+    "fapRady": {
+      "desc": "Einstellung der Belegreihen für die Aktualisierung der angenommenen Rechnungen.",
+      "icon": "win/numbers.png",
+      "mnem": 82,
+      "titl": "Belegreihen - angenommene Rechnungen"
+    },
+    "fapTyp": {
+      "icon": "win/typ-prijata-faktura.png",
+      "mnem": 84,
+      "titl": "Typen von angenommenen Rechnungen"
+    },
+    "favAkt": {
+      "desc": "Aktualisierung der ausgegebenen Rechnungen in der eingestellten Buchungsperiode. Die Fakturierung aus dem Lager bildet die Ausgabebelege automatisch. Die Taste \"Dienstleistungen\" ermöglicht den Druck der aktuellen Rechnung, bietet die zusammenfassenden Informationen über den Abnehmer und bildet Bargeldvergütung.",
+      "icon": "win/fak-vydane.png",
+      "mnem": 82,
+      "titl": "Ausgegebene Rechnungen"
+    },
+    "favAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neue Rechnung ausgeben"
+    },
+    "favArch": {
+      "titl": "Archiv"
+    },
+    "favNonPaged": {
+      "titl": "Ausgegebene Rechnungen"
+    },
+    "favPol": {
+      "desc": "Zusammenfassende Übersicht aller Rechnungsposten. Mit Hilfe von der Standardfilterung bilden Sie die Übersichten von Rechnungsposten oder Sie können die Postengruppen nach den eingegebenen Kriterien unabhängig von den Belegen aufsuchen. Beispiel für die Benutzung: Sie möchten wissen, welchen Firmen Sie konkrete Ware während zwei Monaten fakturiert haben.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 82,
+      "titl": "Die Posten der ausgegebenen Rechnungen - Übersicht"
+    },
+    "favProdPlat": {
+      "desc": "Zahlungen der Belege in der Verkaufskasse.",
+      "titl": "Zahlung"
+    },
+    "favProdejky": {
+      "desc": "Die Verkaufskasse ist für Barzahlung bestimmt. Es handelt sich um eine maximal vereinfachte Form der Bildung eines Verkaufsbelegs. Einmal pro Tag spielen Sie Verkaufe in die Kasse ein, die an die Verkaufskasse angeschlossen ist. Die Bindung ist in der Liste der Verkaufskassen definiert.",
+      "icon": "win/pokladna.png",
+      "mnem": 86,
+      "titl": "Verkaufskasse"
+    },
+    "favRady": {
+      "desc": "Einstellung der Belegreihen für die Aktualisierung von ausgegebenen Rechnungen.",
+      "icon": "win/numbers.png",
+      "mnem": 82,
+      "titl": "Belegreihen - ausgegebene Rechnungen"
+    },
+    "favTyp": {
+      "desc": "Arten von ausgegebenen Rechnungen ermöglichen die Grundparameter einzustellen. Das sind Verbuchung, Zahlungsweise, Belegreihen, usw.",
+      "icon": "win/typ-vydana-faktura.png",
+      "mnem": 82,
+      "titl": "Arten von ausgegebenen Rechnungen"
+    },
+    "favTypProdejky": {
+      "icon": "win/typ-vydana-faktura.png",
+      "mnem": 76,
+      "titl": "Liste der Verkaufskassen"
+    },
+    "favUpo": {
+      "titl": "Mahnungen"
+    },
+    "filtry": {
+      "titl": "Benutzerfilter"
+    },
+    "firma000": {
+      "mnem": 70,
+      "titl": "Firma"
+    },
+    "formaDopravy": {
+      "mnem": 69,
+      "titl": "Verkehrsart"
+    },
+    "formaUhrCis": {
+      "icon": "win/folder.png",
+      "titl": "Zahlungsarten"
+    },
+    "formaUhrZauc": {
+      "titl": "Verbuchung der Zahlungsart"
+    },
+    "gdpr000": {
+      "mnem": 68,
+      "titl": "DSGVO"
+    },
+    "importExcel": {
+      "mnem": 73,
+      "titl": "Import aus Excel"
+    },
+    "importIsDoc": {
+      "mnem": 77,
+      "titl": "Import E-Rechnungen ISDOC (Informationssystem für Dokumente)"
+    },
+    "importLicense": {
+      "mnem": 73,
+      "titl": "Importlizenz"
+    },
+    "importXml": {
+      "mnem": 88,
+      "titl": "Import aus XML"
+    },
+    "initFirmaWiz": {
+      "mnem": 73,
+      "titl": "Wegweiser durch die Einstellung von Firma"
+    },
+    "insight": {
+      "titl": "Insight"
+    },
+    "intDokl": {
+      "desc": "Aktualisierung und Bildung der internen Buchungsdokumente in der eingestellten Buchungsperiode.",
+      "icon": "win/int-dok.png",
+      "mnem": 68,
+      "titl": "Interne Dokumente"
+    },
+    "intDoklNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neues internes Dokument"
+    },
+    "intPol": {
+      "mnem": 73,
+      "titl": "Die Posten des internen Beleges"
+    },
+    "intRady": {
+      "desc": "Belegreihen für Aktualisierung der internen Belege.",
+      "icon": "win/numbers.png",
+      "mnem": 66,
+      "titl": "Belegreihen - interne Belege"
+    },
+    "intTyp": {
+      "desc": "Arten von internen Belegen ermöglichen, die Grundparameter einzustellen. Es handelt sich um Verbuchung, Belegreihen, usw.",
+      "icon": "win/typ-interni-doklad.png",
+      "mnem": 73,
+      "titl": "Arten von internen Belegen"
+    },
+    "interObch": {
+      "mnem": 72,
+      "titl": "Online-Shops"
+    },
+    "intrDodPodm": {
+      "mnem": 76,
+      "titl": "Lieferbedingungen"
+    },
+    "intrDruhDopr": {
+      "mnem": 84,
+      "titl": "Transportart"
+    },
+    "intrKrajUrc": {
+      "mnem": 66,
+      "titl": "Kanton - Bestimmung"
+    },
+    "intrMerJed": {
+      "mnem": 77,
+      "titl": "Masseinheiten"
+    },
+    "intrNomenkla": {
+      "mnem": 78,
+      "titl": "Code der Nomenklatur"
+    },
+    "intrObchTrans": {
+      "mnem": 71,
+      "titl": "Geschäftstransaktion"
+    },
+    "intrVystupy": {
+      "titl": "Ausgang"
+    },
+    "intrZvlPoh": {
+      "mnem": 87,
+      "titl": "Besondere Bewegungen"
+    },
+    "intrastatPol": {
+      "titl": "Die in Intrastat eintretenden Posten"
+    },
+    "intrastatRadka": {
+      "titl": "Zeilen von Intrastat"
+    },
+    "intrastatWizard": {
+      "icon": "win/logs.png",
+      "mnem": 71,
+      "titl": "Generieren von Intrastat"
+    },
+    "koupitLicenci": {
+      "titl": "ABRA Flexi"
+    },
+    "koupitWinStrom": {
+      "mnem": 70,
+      "titl": "Lizenz kaufen"
+    },
+    "kusovnik": {
+      "titl": "Stückliste"
+    },
+    "licence": {
+      "mnem": 65,
+      "titl": "Applikationslizenz"
+    },
+    "loginDialog000": {
+      "titl": "Anmeldung zur Applikation"
+    },
+    "majAkt": {
+      "titl": "Vermögen"
+    },
+    "majBwithE": {
+      "desc": "Aktualisierung des langfristigen, geringwertigen und nicht abgeschriebenen Vermögens. Die Karte des abgeschriebenen Vermögens beinhaltet Steuerabschreibungen, Buchungsabschreibungen, Vorfälle und Evidenz von Darlehen, resp. verantwortliche Personen. Abschreibungsaktion können Sie jederzeit unterbrechen. Die Zeit der Buchungsabschreibungen können Sie während des Lebens von Vermögen modifizieren.",
+      "titl": "Vermögen"
+    },
+    "majDanNakl": {
+      "titl": "Steuerkosten"
+    },
+    "majDanOdpisy": {
+      "titl": "Steuerabschreibungen"
+    },
+    "majExternalId": {
+      "titl": "Externes ID für Vermögen"
+    },
+    "majLeasing": {
+      "desc": "Aktualisierung des Leasings, Festsetzung des Zahlungskalenders und Bildung der Buchungskosten. Beim Generieren des Zahlungskalenders entstehen automatisch die Verbindlichkeiten im Buchungsmodul.",
+      "icon": "win/leas.png",
+      "mnem": 76,
+      "titl": "Leasing"
+    },
+    "majLeasingNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neues Leasing zugeben"
+    },
+    "majMajetek": {
+      "desc": "Aktualisierung des langfristigen, geringwertigen und nicht abgeschriebenen Vermögens. Die Karte des abgeschriebenen Vermögens beinhaltet Steuerabschreibungen, Buchungsabschreibungen, Vorfälle und Evidenz von Darlehen, resp. verantwortliche Personen. Abschreibungsaktion können Sie jederzeit unterbrechen. Die Zeit der Buchungsabschreibungen können Sie während des Lebens von Vermögen modifizieren",
+      "icon": "win/maj.png",
+      "mnem": 77,
+      "titl": "Vermögen"
+    },
+    "majMajetekNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neues Vermögen eingliedern"
+    },
+    "majSazby": {
+      "desc": "Die Abschreibungsgruppen beinhalten die durch die aktuelle Gesetzgebung definierten Standardwerte. Weiterhin ermöglichen sie eigene Nichtstandardgruppen zu definieren.",
+      "icon": "win/folder.png",
+      "mnem": 83,
+      "titl": "Abschreibungsgruppen"
+    },
+    "majSku": {
+      "titl": "Abschreibungsgruppen"
+    },
+    "majSplatKal": {
+      "titl": "Zahlungskalender"
+    },
+    "majStavKDatu": {
+      "titl": "Vermögenstand bis zum Datum"
+    },
+    "majStavKDatuWizard": {
+      "titl": "Vermögenstand bis zum Datum"
+    },
+    "majTypLeas": {
+      "desc": "Arten von Leasing ermöglichen Ihnen das Leasing in die im Voraus definierten Gruppen einzugliedern.",
+      "icon": "win/typ-leasing.png",
+      "mnem": 76,
+      "titl": "Arten von Leasing"
+    },
+    "majTypMaj": {
+      "desc": "Arten von Vermögen ermöglichen Ihnen das Vermögen in die im Voraus definierten Gruppen einzugliedern. Damit wird die Möglichkeit der Auswahl und bessere Übersichtbarkeit.",
+      "icon": "win/typ-majetek.png",
+      "mnem": 77,
+      "titl": "Arten von Vermögen"
+    },
+    "majUcel": {
+      "titl": "Zwecke"
+    },
+    "majUcetOdpisy": {
+      "titl": "Buchungsabschreibungen"
+    },
+    "majUdalosti": {
+      "titl": "Vorfälle"
+    },
+    "majUmisteni": {
+      "desc": "Liste der anwendbaren Platzierungen von Vermögensposten. Es ist in 3 Kategorien aufgeteilt - Gebäude, Abteilung und Zimmer.",
+      "icon": "win/folder.png",
+      "mnem": 85,
+      "titl": "Platzierung"
+    },
+    "majZapujcky": {
+      "titl": "Darlehen"
+    },
+    "majetek000": {
+      "icon": "win/majetek.png",
+      "mnem": 77,
+      "titl": "Vermögen"
+    },
+    "majetekTypy": {
+      "mnem": 84,
+      "titl": "Arten"
+    },
+    "migraceFirem": {
+      "titl": "Migration der Firmen aus XML Dateien."
+    },
+    "migraceS3": {
+      "mnem": 71,
+      "titl": "Migration der Agende aus Money S3"
+    },
+    "mzdyKontrolaSlozek": {
+      "mnem": 75,
+      "titl": "Kontrolle der Lohnkomponenten"
+    },
+    "nCiselniky": {
+      "mnem": 78,
+      "titl": "Stammdaten"
+    },
+    "nImport": {
+      "mnem": 73,
+      "titl": "Import"
+    },
+    "nNastav": {
+      "desc": "Einstellung von Grunddaten der Firma, Einstellung von Logo und Stempel, gesetzlich festgelegten Parametern und automatischen Operationen.",
+      "mnem": 69,
+      "titl": "Einstellen"
+    },
+    "nUcetniObdobi": {
+      "titl": "Buchungsperiode"
+    },
+    "nabidkaDoplnku": {
+      "mnem": 79,
+      "titl": "Zusatzangebot"
+    },
+    "nakup000": {
+      "icon": "win/nakup.png",
+      "mnem": 75,
+      "titl": "Einkauf"
+    },
+    "nakupRady": {
+      "icon": "win/numbers.png",
+      "mnem": 82,
+      "titl": "Belegreihen"
+    },
+    "nakupTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 66,
+      "titl": "Buchungsvorschriften"
+    },
+    "nakupTypy": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Belegarten"
+    },
+    "napoveda": {
+      "acck": 112,
+      "accm": 0,
+      "mnem": 80,
+      "titl": "Hilfe zum Programm"
+    },
+    "nasServer": {
+      "mnem": 83,
+      "titl": "Servereinstellung"
+    },
+    "nasSmtp": {
+      "titl": "SMTP-Servereinstellung"
+    },
+    "nastav000": {
+      "mnem": 73,
+      "titl": "Instrumente"
+    },
+    "nastavProgram": {
+      "titl": "Einstellen von Programmen und Modulen"
+    },
+    "nastavZurnal": {
+      "titl": "Einstellung von Journal"
+    },
+    "nastrojeKontrolaDanOdpisu": {
+      "mnem": 75,
+      "titl": "Kontrolle der steuerlichen Abschreibungen"
+    },
+    "nastrojePrepocet": {
+      "mnem": 196,
+      "titl": "Umrechnung der Kontostände"
+    },
+    "nastrojePrepocetDe": {
+      "mnem": 85,
+      "titl": "Umrechnung der Steuerevidenz"
+    },
+    "nezDPolSkladF": {
+      "titl": "Sicht DPolSkladF"
+    },
+    "nezFifoVazby": {
+      "titl": "FIFO Bindungen"
+    },
+    "nezRadyDiry": {
+      "titl": "Lücken in der Belegreihe"
+    },
+    "nezRadyRok": {
+      "titl": "Jahresposten der Belegreihe"
+    },
+    "nezVazbyDokl": {
+      "titl": "Bindungen des Beleges"
+    },
+    "nezVazbyPolSklad": {
+      "titl": "FIFO Bindungen des Zerfalls von Ausgabebelegen"
+    },
+    "novaFirma": {
+      "mnem": 78,
+      "titl": "Neue Firma"
+    },
+    "novaFirmaWiz": {
+      "mnem": 78,
+      "titl": "Gründung einer neuen Firma"
+    },
+    "noveSezeni": {
+      "mnem": 70,
+      "titl": "Auswahl der Firma im neuen Fenster"
+    },
+    "oAplikaci": {
+      "mnem": 88,
+      "titl": "Über die ABRA Flexi App"
+    },
+    "obchodNapDokl": {
+      "desc": "Angenommene Angebote können Sie manuell oder durch die Kopie der ausgegebenen Anfrage bilden. Durch die Kopie der Anfrage ins Angebot sparen Sie Zeit mit der Eingabe von Angebotsposten und es genügt nur die von Ihrem Lieferanten präzisierten Preise zu modifizieren.",
+      "icon": "win/nabidka-prijata.png",
+      "mnem": 78,
+      "titl": "Angenommene Angebote"
+    },
+    "obchodNapPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 78,
+      "titl": "Die Posten des angenommenen Angebotes"
+    },
+    "obchodNapRady": {
+      "desc": "Einstellung der Belegreihen für angenommene Angebote",
+      "icon": "win/numbers.png",
+      "mnem": 78,
+      "titl": "Belegreihen - angenommene Angebote"
+    },
+    "obchodNapTyp": {
+      "icon": "win/typ-nabidka-prijata.png",
+      "mnem": 78,
+      "titl": "Arten der angenommenen Angebote"
+    },
+    "obchodNavDokl": {
+      "desc": "Die Liste führt alle ausgegebenen Angebote in Evidenz, die an Ihre Abnehmer versendet wurden. Der Angebotsinhalt ist in die Aufträge zu kopieren. Das ausgegebene Angebot kann durch die Kopie der angenommene Anfrage gebildet.",
+      "icon": "win/nabidka-vydana.png",
+      "mnem": 78,
+      "titl": "Ausgegebene Angebote"
+    },
+    "obchodNavPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 78,
+      "titl": "Die Posten des ausgegebenen Angebotes"
+    },
+    "obchodNavRady": {
+      "desc": "Einstellung der Belegreihen für die ausgegebenen Angebote",
+      "icon": "win/numbers.png",
+      "mnem": 78,
+      "titl": "Belegreihen - ausgegebene Angebote"
+    },
+    "obchodNavTyp": {
+      "icon": "win/typ-nabidka-vydana.png",
+      "mnem": 78,
+      "titl": "Arten der ausgegebenen Angebote"
+    },
+    "obchodObpDokl": {
+      "desc": "Aufträge dienen zur Evidenz von Forderungen Ihrer Abnehmer. Bei den Bestellposten ist der vereinbarte Verkaufspreis angeführt. Bei der Erstellung der Rechnung können Sie die Bestellung sog. realisieren, also ihren Inhalt in die Rechnung kopieren.",
+      "icon": "win/objednavka-prijata.png",
+      "mnem": 70,
+      "titl": "Aufträge"
+    },
+    "obchodObpDoklNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neue Bestellung annehmen"
+    },
+    "obchodObpPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 79,
+      "titl": "Die Posten der Aufträge"
+    },
+    "obchodObpRady": {
+      "desc": "Einstellung der Belegreihen für Aufträge",
+      "icon": "win/numbers.png",
+      "mnem": 66,
+      "titl": "Belegreihen - Aufträge"
+    },
+    "obchodObpTyp": {
+      "icon": "win/typ-objednavka-prijata.png",
+      "mnem": 84,
+      "titl": "Arten der Aufträge"
+    },
+    "obchodObvDokl": {
+      "desc": "Was den Inhalt betrifft, sind die ausgegebenen Aufträge ähnlich wie die angenommenen Bestellungen, nur die Richtung des Bestellens ist umgedreht und die Preise sind die Einkaufspreise. Den ausgegebenen Auftrag ist aufgrund der angenommenen Bestellung zu bilden, d.h., dass Sie von Ihren Lieferanten das verlangen werden, was Ihre Abnehmer von Ihnen verlangen.",
+      "icon": "win/objednavka-vydana.png",
+      "mnem": 70,
+      "titl": "Ausgegebene Aufträge"
+    },
+    "obchodObvDoklNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neuen Auftrag ausgeben"
+    },
+    "obchodObvPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 79,
+      "titl": "Die Posten der ausgegebenen Aufträge"
+    },
+    "obchodObvRady": {
+      "desc": "Einstellung der Belegreihen für ausgegebene Aufträge",
+      "icon": "win/numbers.png",
+      "mnem": 66,
+      "titl": "Belegreihen - ausgegebene Aufträge"
+    },
+    "obchodObvTyp": {
+      "icon": "win/typ-objednavka-vydana.png",
+      "mnem": 66,
+      "titl": "Arten der ausgegebenen Aufträge"
+    },
+    "obchodPppDokl": {
+      "desc": "Die Liste der angenommenen Anfragen führt alle Anfragen Ihrer jetzigen oder potentiellen Abnehmer in Evidenz. Der Inhalt einer Anfrage ist ins ausgegebene Angebot oder direkt in die Aufträge zu kopieren.",
+      "icon": "win/poptavka-prijata.png",
+      "mnem": 65,
+      "titl": "Angenommene Anfragen"
+    },
+    "obchodPppPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 80,
+      "titl": "Die Posten der angenommenen Anfrage"
+    },
+    "obchodPppRady": {
+      "desc": "Einstellung der Belegreihen für angenommene Anfragen",
+      "icon": "win/numbers.png",
+      "mnem": 65,
+      "titl": "Belegreihen - angenommene Anfragen"
+    },
+    "obchodPppTyp": {
+      "icon": "win/typ-poptavka-prijata.png",
+      "mnem": 71,
+      "titl": "Arten der angenommenen Anfragen"
+    },
+    "obchodPpvDokl": {
+      "desc": "Ausgegebene Anfragen können manuell oder durch die Kopie der Aufträge entstehen. An dieser Stelle beginnt der Gegenprozess gegen den Verkauf zu laufen,in diesem Fall benötigen Sie die Ware oder das Material bei Ihren Lieferanten einzukaufen.",
+      "icon": "win/poptavka-vydana.png",
+      "mnem": 65,
+      "titl": "Ausgegebene Anfragen"
+    },
+    "obchodPpvPol": {
+      "icon": "win/faktury-polozky.png",
+      "mnem": 80,
+      "titl": "Die Posten der ausgegebenen Anfrage"
+    },
+    "obchodPpvRady": {
+      "desc": "Einstellung der Belegreihen für ausgegebene Anfragen",
+      "icon": "win/numbers.png",
+      "mnem": 65,
+      "titl": "der Belegreihen für ausgegebene Anfragen"
+    },
+    "obchodPpvTyp": {
+      "icon": "win/typ-poptavka-vydana.png",
+      "mnem": 82,
+      "titl": "Arten der ausgegebenen Anfragen"
+    },
+    "odpojeneFirmy": {
+      "titl": "Abgetrennte Firmen"
+    },
+    "opravSklad": {
+      "mnem": 76,
+      "titl": "Lagerbestand berechnen"
+    },
+    "osCert": {
+      "mnem": 90,
+      "titl": "Zertifikate"
+    },
+    "osCertEet": {
+      "titl": "EET Zertifikate"
+    },
+    "osCertOsobni": {
+      "titl": "Persönliche Zertifikate"
+    },
+    "osCertPrehled": {
+      "titl": "Zertifikate"
+    },
+    "parametry": {
+      "titl": "Fortgeschrittene Parametrisierung mit Hilfe der Parameter"
+    },
+    "partneri000": {
+      "icon": "win/obch-partneri.png",
+      "mnem": 65,
+      "titl": "Geschäftspartner"
+    },
+    "penize000": {
+      "icon": "win/penize.png",
+      "mnem": 71,
+      "titl": "Geld"
+    },
+    "penizePolDokl": {
+      "desc": "Übersichten aller Bewegungen in einzelnen Listen des Bank- und Kassenmoduls. Es handelt sich um Bank- und Kassenposten. Mit Hilfe einer Standardfilterung bilden Sie die Übersichten der Posten angeführter Belege oder können Sie die Gruppen der Bewegungen nach eingegebenen Kriterien aussuchen, ohne Rücksicht auf Belege, in denen die Posten entstanden sind.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 83,
+      "titl": "Übersichten der Belegposten"
+    },
+    "penizeRady": {
+      "icon": "win/numbers.png",
+      "mnem": 82,
+      "titl": "Belegreihen"
+    },
+    "penizeTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 67,
+      "titl": "Buchungsvorschriften"
+    },
+    "penizeTypy": {
+      "icon": "win/folder.png",
+      "mnem": 76,
+      "titl": "Belegarten"
+    },
+    "phlAkt": {
+      "desc": "Aktualisierung und Bildung der Forderungen in der eingestellten Buchungsperiode, die in den ausgegebenen Rechnungen nicht eingegliedert sind. Zum Beispiel die Instruktion für die Zahlung der Miete in Ihren Objekten.",
+      "icon": "win/ostatni-pohledavky.png",
+      "mnem": 70,
+      "titl": "Andere Forderungen"
+    },
+    "phlAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neue Forderung"
+    },
+    "phlPol": {
+      "mnem": 70,
+      "titl": "Posten sonstiger Forderungen"
+    },
+    "phlRady": {
+      "desc": "Einstellung der Belegreihen für Forderungen",
+      "icon": "win/numbers.png",
+      "mnem": 70,
+      "titl": "Belegreihen - Forderungen"
+    },
+    "phlTyp": {
+      "desc": "Arten von anderen Forderungen ermöglichen die Grundparameter einzustellen. Es handelt sich um die Verbuchung, Belegreihen, usw.",
+      "icon": "win/typ-ostatni-pohledavka.png",
+      "mnem": 82,
+      "titl": "Arten von anderen Forderungen"
+    },
+    "podpora": {
+      "mnem": 66,
+      "titl": "Benutzerunterstützung"
+    },
+    "pokAkt": {
+      "desc": "Aktualisierung und Bildung der Kassenbelege in der eingestellten Buchungsperiode. Die Taste \"Dienstleistungen\" ermöglicht den Druck des aktuellen Beleges, den Beleg mit der Rechnung, der Forderung oder Verbindlichkeit zusammenzupaaren.",
+      "icon": "win/pokladna.png",
+      "mnem": 69,
+      "titl": "Kasse"
+    },
+    "pokAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neuer Kassenbeleg"
+    },
+    "pokBsp": {
+      "desc": "Aktualisierung der Liste der Kassen",
+      "icon": "win/seznam.png",
+      "mnem": 75,
+      "titl": "Liste der Kassen"
+    },
+    "pokDenik": {
+      "desc": "Berechnung und Druck des Kassenbuches werden durchgeführt.",
+      "icon": "win/logs.png",
+      "mnem": 65,
+      "titl": "Kassenbuch"
+    },
+    "pokNonPaged": {
+      "titl": "Kasse"
+    },
+    "pokPol": {
+      "mnem": 80,
+      "titl": "Posten des Kassenbeleges"
+    },
+    "pokRady": {
+      "desc": "Einstellung der Belegreihen für die Aktualisierung der Kassenbelege",
+      "icon": "win/numbers.png",
+      "mnem": 75,
+      "titl": "Belegreihen - Kassenbelege"
+    },
+    "pokTyp": {
+      "icon": "win/pokladna.png",
+      "mnem": 75,
+      "titl": "Arten der Kassenbelege"
+    },
+    "polDoklNakupProdej": {
+      "desc": "Übersichten von allen Bewegungen in den einzelnen Listen des Einkaufsmoduls. Es geht um die Posten der angenommenen Rechnungen, der ausgegebenen Anfragen, der angenommenen Angebote und der ausgegebenen Bestellungen. Mit Hilfe der Standardfilterung bilden Sie die Übersichten der Posten der angeführten Belege oder Sie können die Gruppen von Bewegungen nach den eingegebenen Kriterien unabhängig von den Belegen aufsuchen, wie die Posten entstanden sind.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 68,
+      "titl": "Übersichten der Belegposten"
+    },
+    "polDoklPrehProdej": {
+      "desc": "Übersichten von allen Bewegungen in einzelnen Listen des Verkaufsmoduls. Es geht um die Posten der ausgegebenen Rechnungen, der angenommenen Anfragen, ausgegebenen Angebote un der angenommenen Bestellungen. Mit Hilfe der Standardfilterung bilden Sie die Übersichten der Posten der angeführten Belegen oder Sie können die Gruppen von Bewegungen nach den eingegebenen Kriterien unabhängig von den Belegen aufsuchen, wie die Posten entstanden sind.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 68,
+      "titl": "Übersichten der Belegposten"
+    },
+    "pomoc000": {
+      "mnem": 72,
+      "titl": "Hilfe"
+    },
+    "poslatReakci": {
+      "mnem": 77,
+      "titl": "Senden Sie Ihre Meinung an ABRA Flexi"
+    },
+    "pravaFirma": {
+      "mnem": 80,
+      "titl": "Rechte zu den Firmen"
+    },
+    "pravaServeru": {
+      "titl": "Serverrechte"
+    },
+    "priloha": {
+      "titl": "Beilage"
+    },
+    "prilohaData": {
+      "titl": "Daten der Beilage"
+    },
+    "pristPrava": {
+      "titl": "Zugriffsrechte"
+    },
+    "priznaniDanPo": {
+      "icon": "win/logs-low.png",
+      "mnem": 88,
+      "titl": "Bilanz und Gewinn- und Verlustrechnung in XML"
+    },
+    "prodej000": {
+      "icon": "win/prodej.png",
+      "mnem": 86,
+      "titl": "Verkauf"
+    },
+    "prodejRady": {
+      "icon": "win/numbers.png",
+      "mnem": 73,
+      "titl": "Belegreihen"
+    },
+    "prodejTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 85,
+      "titl": "Buchungsvorschriften"
+    },
+    "prodejTypy": {
+      "icon": "win/folder.png",
+      "mnem": 66,
+      "titl": "Belegarten"
+    },
+    "prvniSpusteni": {
+      "titl": "Erste Einschaltung"
+    },
+    "radaBezModulu": {
+      "titl": "Belegreihen"
+    },
+    "realizujPozadavky": {
+      "mnem": 87,
+      "titl": "Aktualisierung der Warenanforderungen für Lagerausgabe."
+    },
+    "registrovatLicenci": {
+      "titl": "Registrieren von ABRA Flexi Start"
+    },
+    "report": {
+      "mnem": 82,
+      "titl": "Benutzer-Reports"
+    },
+    "reportData": {
+      "titl": "Daten für Benutzer-Reports"
+    },
+    "role": {
+      "mnem": 66,
+      "titl": "Benutzerrollen"
+    },
+    "root000": {
+      "titl": "ABRA Flexi"
+    },
+    "sablonaMail": {
+      "mnem": 77,
+      "titl": "Benutzerdefinierte E-Mail-Schablonen"
+    },
+    "scanner": {
+      "titl": "Die Zahl von EAN Codes eingeben"
+    },
+    "servIntr": {
+      "mnem": 73,
+      "titl": "Intrastat"
+    },
+    "settings": {
+      "titl": "Einstellungen speichern"
+    },
+    "settingsAll": {
+      "titl": "Repository für globale Einstellungen"
+    },
+    "sklAkt": {
+      "desc": "Das Verzeichnis von Lagerbelegen beinhaltet die Grundparameter für die Buchung von Dokumenten.",
+      "icon": "win/prijem-vydej.png",
+      "mnem": 65,
+      "titl": "Empfangsbestätigungen/Ausgabebelege"
+    },
+    "sklAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Empfangsbestätigung/Ausgabebeleg ausstellen"
+    },
+    "sklArch": {
+      "titl": "Archiv"
+    },
+    "sklBsp": {
+      "icon": "win/seznam.png",
+      "mnem": 73,
+      "titl": "Liste der Lager"
+    },
+    "sklInventura": {
+      "icon": "win/computation.png",
+      "mnem": 86,
+      "titl": "Inventuren"
+    },
+    "sklInventuraPol": {
+      "titl": "Inventurposten"
+    },
+    "sklKar": {
+      "desc": "In der Preisliste/im Katalog werden die Lagerkarten angelegt. Sie bilden den Posten der Preisliste/des Katalogs und definieren Sie die Platzierung von Ware oder Material in den Lagern. Hier haben Sie die Evidenz über Lagerbestand und über Bewegungen auf den Karten und inklusive gedruckte Unterlagen.",
+      "icon": "win/skladove-karty.png",
+      "mnem": 75,
+      "titl": "Lagerkarten"
+    },
+    "sklMapSklad": {
+      "desc": "Bestimmt Prioritäten in Benutzung der Lager",
+      "icon": "win/folder.png",
+      "mnem": 66,
+      "titl": "Abbildung der Lager"
+    },
+    "sklPol": {
+      "desc": "Zusammenfassende Übersicht über alle Lagerbewegungen. Mit Hilfe von Standardfilterung bilden Sie die Übersichten von Lagerposten oder Sie können die Gruppenbewegungen nach den eingegebenen Kriterien unabhängig von den Lagerkarten oder Belegen aufsuchen.",
+      "titl": "Die Posten Empfangsbestätigung/Ausgabebeleg"
+    },
+    "sklPolPrehled": {
+      "desc": "Zusammenfassende Übersicht von allen Lagerbewegungen. Mit Hilfe von Standardfilterung bilden Sie die Übersichten von Lagerposten oder Sie können die Gruppenbewegungen nach den eingegebenen Kriterien unabhängig von den Lagerkarten oder Belegen aufsuchen.",
+      "icon": "win/skladove-pohyby.png",
+      "mnem": 76,
+      "titl": "Lagerbewegungen - Übersicht"
+    },
+    "sklProtiUcty": {
+      "titl": "Gegenkontos Lager"
+    },
+    "sklRady": {
+      "desc": "Einstellung von Belegreihen für die Aktualisierung der Empfangsbestätigung und Ausgabebeleg.",
+      "icon": "win/numbers.png",
+      "mnem": 72,
+      "titl": "Belegreihen - Lager"
+    },
+    "sklRezervace": {
+      "icon": "win/rezervace.png",
+      "mnem": 82,
+      "titl": "Reservierung"
+    },
+    "sklSarzeExpiracebezVC": {
+      "titl": "Charge und Expiration"
+    },
+    "sklTyp": {
+      "icon": "win/seznam.png",
+      "mnem": 83,
+      "titl": "Liste von Lagern"
+    },
+    "sklUmisteni": {
+      "icon": "win/folder.png",
+      "mnem": 90,
+      "titl": "Lagerplatzierung"
+    },
+    "sklVyrCis": {
+      "desc": "Übersicht der Produktionsnummern",
+      "icon": "win/generate.png",
+      "mnem": 72,
+      "titl": "Produktionsnummern"
+    },
+    "sklVyrCisHlav": {
+      "titl": "Kopfzeile der Produktionsnummern"
+    },
+    "sklVyrCisHlavView": {
+      "desc": "Übersicht der Produktionsnummern",
+      "icon": "win/logs.png",
+      "mnem": 79,
+      "titl": "Produktionsnummern"
+    },
+    "sklVyrCisView": {
+      "desc": "Übersicht der Belege von Produktionsnummern",
+      "icon": "win/logs.png",
+      "titl": "Belege von Produktionsnummern"
+    },
+    "sklVyrCisVyb": {
+      "desc": "Auswahl von Produktionsnummern",
+      "icon": "win/generate.png",
+      "titl": "Auswahl von Produktionsnummern"
+    },
+    "skonto": {
+      "titl": "Skonto"
+    },
+    "souKonec": {
+      "mnem": 75,
+      "titl": "Applikation beenden"
+    },
+    "startVerzeDialog": {
+      "titl": "ABRA Flexi"
+    },
+    "stavDoklObchCis": {
+      "icon": "win/folder.png",
+      "titl": "Geschäftsbelegstatus"
+    },
+    "stavSkl": {
+      "titl": "Lagerbestand bis zum Datum"
+    },
+    "stavSklWizard": {
+      "desc": "Übersicht vom Stand aller Preislistenposten mit deren Menge auf dem betreffenden Lager zum eingegebenen Datum.",
+      "icon": "win/computation.png",
+      "mnem": 71,
+      "titl": "Lagerbestand bis zum Datum"
+    },
+    "strom": {
+      "titl": "Baum allgemein"
+    },
+    "test000": {
+      "titl": "* TEST *"
+    },
+    "twoPhaseAuth": {
+      "titl": "Zweistufige Überprüfung"
+    },
+    "typDoklBezModulu": {
+      "titl": "Belegarten"
+    },
+    "typSazbyDph": {
+      "titl": "Art des Mehrwertsteuersatzes"
+    },
+    "uSazbyDph": {
+      "mnem": 77,
+      "titl": "MwSt. - Sätze"
+    },
+    "uSesRadky": {
+      "titl": "Zeile der Zusammenstellung"
+    },
+    "uSesRozpadUce": {
+      "titl": "Zerfall von Zeilen der Zusammenstellung auf Rechnungen"
+    },
+    "uSesStdPred": {
+      "titl": "Standardvorschrift der Zusammenstellung"
+    },
+    "uSesSumace": {
+      "titl": "Summierung in den Zusammenstellungen"
+    },
+    "uSesUzivPred": {
+      "titl": "Vorschrift der Zusammenstellung"
+    },
+    "uSestavy": {
+      "desc": "Einstellung und Berechnung der Benutzerzusammenstellungen. Die Funktion ermöglicht Ihnen beliebige Buchungszusammenstellung zu definieren, die Platzierung und den Wert der Rechnungen einzustellen und die Berechnung für beliebigen Umfang in den Monaten zu aktivieren.",
+      "icon": "win/seznam.png",
+      "mnem": 83,
+      "titl": "Liste der Zusammenstellungen"
+    },
+    "uUzaverka": {
+      "mnem": 65,
+      "titl": "Abschluss der folgenden Buchungsperiode (Wiederholung ist möglich)"
+    },
+    "ucDanEvid": {
+      "titl": "Steuerevidenz"
+    },
+    "ucDoklObrat": {
+      "titl": "Umsätze"
+    },
+    "ucDoklUcty": {
+      "desc": "Aktualisierung des Buchungszeitplans,Einstellen von Eigenschaften der Standardbilanz und des Berichtes von Gewinn und Verlust.",
+      "icon": "win/folder.png",
+      "mnem": 80,
+      "titl": "Buchungszeitplan"
+    },
+    "ucPocObraty": {
+      "icon": "win/folder.png",
+      "mnem": 75,
+      "titl": "Anfangskontostände"
+    },
+    "ucTypOrg": {
+      "titl": "Typ der Organisation"
+    },
+    "ucetniVystup000": {
+      "icon": "win/logs.png",
+      "mnem": 71,
+      "titl": "Buchungsoutputs"
+    },
+    "ucetnictvi000": {
+      "icon": "win/ucetnictvi.png",
+      "mnem": 85,
+      "titl": "Buchhaltung"
+    },
+    "ucetnictviPolDokl": {
+      "desc": "Übersichten aller Bewegungen in einzelnen Listen interner Belege, sonstiger Forderungen und Verbindlichkeiten. Es handelt sich um die Posten bereits erwähnter Belege. Mit Hilfe der Standardfilterung bilden Sie die Übersichten der Posten angeführter Belege oder können Sie die Gruppen der Bewegungen nach eingegebenen Kriterien aussuchen, ohne Rücksicht auf die Belege, in denen die Posten entstanden sind.",
+      "icon": "win/faktury-polozky.png",
+      "mnem": 82,
+      "titl": "Übersichten der Belegposten"
+    },
+    "ucetnictviRady": {
+      "icon": "win/numbers.png",
+      "mnem": 69,
+      "titl": "Belegreihen"
+    },
+    "ucetnictviTuo": {
+      "icon": "win/predpis.png",
+      "mnem": 66,
+      "titl": "Buchungsvorschriften"
+    },
+    "ucetnictviTypy": {
+      "icon": "win/folder.png",
+      "mnem": 84,
+      "titl": "Belegarten"
+    },
+    "uctovnaUzaverka": {
+      "icon": "win/logs-low.png",
+      "mnem": 74,
+      "titl": "Jahresabschluss"
+    },
+    "ulozenePriznaniDph": {
+      "icon": "win/logs-low.png"
+    },
+    "upominky": {
+      "mnem": 65,
+      "titl": "Mahnungen"
+    },
+    "uzel": {
+      "titl": "Baumknoten"
+    },
+    "uzivPristup": {
+      "titl": "Rechte der Datensichtbarkeit"
+    },
+    "vazUzel": {
+      "titl": "Bindung von Knoten und Objekt"
+    },
+    "vazbaTyp": {
+      "icon": "win/folder.png",
+      "mnem": 89,
+      "titl": "Typen der Benutzerverbindungen"
+    },
+    "vazbaUziv": {
+      "titl": "Benutzerverbindungen"
+    },
+    "vazbaUzivView": {
+      "titl": "Benutzerverbindungen"
+    },
+    "vyberFirmy": {
+      "titl": "Auswahl der Firma"
+    },
+    "vyberFirmyAction": {
+      "mnem": 87,
+      "titl": "Auswahl der Firma"
+    },
+    "vykazAnalyzaZakazky": {
+      "icon": "win/logs.png",
+      "mnem": 82,
+      "titl": "Rechnungsanalyse des Auftrages"
+    },
+    "vykazCashflow": {
+      "icon": "win/logs-low.png",
+      "mnem": 80,
+      "titl": "Kapitalflussrechnung"
+    },
+    "vykazCenPohyby": {
+      "mnem": 69,
+      "titl": "Einkaufs-, Verkaufs- und Lagerbewegungen"
+    },
+    "vykazDanEvid": {
+      "titl": "Ausweis der Steuerevidenz"
+    },
+    "vykazDanEvidWizard": {
+      "icon": "win/logs.png",
+      "mnem": 85,
+      "titl": "Ausweis der Steuerevidenz"
+    },
+    "vykazDanEvidWizard_SK": {
+      "titl": "Einfacher Kontoauszug"
+    },
+    "vykazDanEvid_SK": {
+      "titl": "Einfacher Kontoauszug"
+    },
+    "vykazEkokom": {
+      "icon": "win/logs.png",
+      "titl": "Daten von EKO-KOM Verpackungen"
+    },
+    "vykazEkokomWizard": {
+      "icon": "win/logs.png",
+      "titl": "Daten von EKO-KOM Verpackungen"
+    },
+    "vykazHlavniKniha": {
+      "icon": "win/logs-low.png",
+      "mnem": 72,
+      "titl": "Hauptbuch"
+    },
+    "vykazKonVykDph": {
+      "icon": "win/logs.png",
+      "titl": "MwSt.-Kontrollausweis"
+    },
+    "vykazKonVykDphWizard": {
+      "icon": "win/logs.png",
+      "mnem": 79,
+      "titl": "MwSt.-Kontrollausweis"
+    },
+    "vykazMoss": {
+      "icon": "win/logs.png",
+      "titl": "Steuererklärung MOSS"
+    },
+    "vykazMossWizard": {
+      "icon": "win/logs.png",
+      "mnem": 196,
+      "titl": "Steuererklärung MOSS"
+    },
+    "vykazObratPolozkaView": {
+      "icon": "win/logs.png",
+      "titl": "Umsatzposten"
+    },
+    "vykazObratovaPredvaha": {
+      "titl": "Umsatzbilanz"
+    },
+    "vykazObratovaPredvahaWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 90,
+      "titl": "Umsatzbilanz"
+    },
+    "vykazOss": {
+      "icon": "win/logs.png",
+      "titl": "OSS-Steuererklärung"
+    },
+    "vykazOssWizard": {
+      "icon": "win/logs.png",
+      "mnem": 84,
+      "titl": "OSS-Steuererklärung"
+    },
+    "vykazPoSplatnostiWizard": {
+      "icon": "win/logs.png",
+      "mnem": 70,
+      "titl": "Nicht bezahlte Forderungen/Verbindlichkeiten nach dem Fälligkeitsdatum"
+    },
+    "vykazPodkladyDph": {
+      "titl": "MwSt. - Unterlagen"
+    },
+    "vykazPodkladyDphWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 77,
+      "titl": "MwSt. - Unterlagen"
+    },
+    "vykazPohybyNaUctech": {
+      "titl": "Bewegungen auf den Kontos"
+    },
+    "vykazPohybyNaUctechWizard": {
+      "icon": "win/logs.png",
+      "mnem": 66,
+      "titl": "Bewegungen auf den Kontos"
+    },
+    "vykazPolozkyFaktur": {
+      "titl": "Verkaufsanalyse"
+    },
+    "vykazPolozkyFakturOdberatelZbozi": {
+      "titl": "Verkaufsanalyse - Warenbewegung nach Firma"
+    },
+    "vykazPolozkyFakturVlastni": {
+      "titl": "Verkaufsanalyse - eigene"
+    },
+    "vykazPolozkyFakturWizard": {
+      "desc": "Die Verkaufsanalyse bietet Ihnen folgende Informationen: Umsatz und Marge (Gewinn) nach Abnehmern / Gruppen der Abnehmer/ verkauften Waren / Warengruppen / Kostenstellen usw.(Eingabe ist in der Liste \"Was möchten Sie analysieren?\").Weiter können Sie eine weitere ausführlichere Gliederung eingeben (Eingabe in der Liste \"Wie ist weitere Gliederung\") wieder nach genannten Kriterien. Das Ergebnis ist z. B. die Verkaufsanalyse einzelner Firmen mit einer ausführlichen Gliederung der Ware, die die Firma abgenommen hat. Alles wird in einer bestimmten Periode realisiert.",
+      "icon": "win/prehled.png",
+      "mnem": 69,
+      "titl": "Verkaufsanalyse"
+    },
+    "vykazPolozkyFakturZboziOdberatele": {
+      "titl": "Verkaufsanalyse - Verkauf an Firmen nach Ware"
+    },
+    "vykazPolozkyFakturZiskOdberatele": {
+      "titl": "Verkaufsanalyse - Verkauf an Firmen"
+    },
+    "vykazPolozkyFakturZiskSkupinyCen": {
+      "titl": "Verkaufsanalyse - Umsätze der Preislistengruppen"
+    },
+    "vykazPolozkyFakturZiskSkupinyFirem": {
+      "titl": "Verkaufsanalyse - Umsätze der Firmengruppen"
+    },
+    "vykazPolozkyFakturZiskZbozi": {
+      "titl": "Verkaufsanalyse - Warenbewegungen"
+    },
+    "vykazPrenDph": {
+      "titl": "Evidenz laut §92a"
+    },
+    "vykazPrenDphWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 68,
+      "titl": "Evidenz laut §92a"
+    },
+    "vykazPriznaniDph": {
+      "icon": "win/logs-low.png",
+      "mnem": 78,
+      "titl": "MwSt.-Erklärung"
+    },
+    "vykazRadekPriznaniDph": {
+      "icon": "win/logs-low.png",
+      "titl": "Gespeicherte Zeilen der MWST.-Erklärung"
+    },
+    "vykazRadekPriznaniOss": {
+      "icon": "win/logs-low.png",
+      "titl": "Gespeicherte OSS-Rückleitungen"
+    },
+    "vykazRozvaha": {
+      "icon": "win/logs-low.png",
+      "mnem": 76,
+      "titl": "Bilanz"
+    },
+    "vykazRozvahaPoUctech": {
+      "icon": "win/logs-low.png",
+      "mnem": 73,
+      "titl": "Liste von Aktiva und Passiva"
+    },
+    "vykazSaldo": {
+      "titl": "Saldo"
+    },
+    "vykazSaldoKdatu": {
+      "titl": "Zahlungsstand bis zum Datum"
+    },
+    "vykazSaldoKdatuWizard": {
+      "titl": "Berechnung der Zahlungsstände bis zum Datum"
+    },
+    "vykazSaldoWizard": {
+      "icon": "win/logs.png",
+      "mnem": 65,
+      "titl": "Saldo"
+    },
+    "vykazSouhrnneHlaseni": {
+      "titl": "Sammelmeldung - MwSt."
+    },
+    "vykazSouhrnneHlaseniWizard": {
+      "icon": "win/logs-low.png",
+      "mnem": 69,
+      "titl": "Sammelmeldung MwSt."
+    },
+    "vykazStavyUctu": {
+      "titl": "Kontostände"
+    },
+    "vykazStavyUctuWizard": {
+      "icon": "win/logs.png",
+      "mnem": 83,
+      "titl": "Kontostände"
+    },
+    "vykazUcetniDenik": {
+      "titl": "Buchungsjournal"
+    },
+    "vykazUcetniDenikWizard": {
+      "icon": "win/logs.png",
+      "mnem": 67,
+      "titl": "Buchungsjournal"
+    },
+    "vykazUcetniDenikZjednoduseny": {
+      "icon": "win/logs.png",
+      "titl": "Buchungsjournal - vereinfacht"
+    },
+    "vykazVazbyDokladu": {
+      "titl": "Aufgebundene Belege"
+    },
+    "vykazVykazHospodareni": {
+      "icon": "win/logs-low.png",
+      "mnem": 87,
+      "titl": "Wirtschaftsbericht für Monat"
+    },
+    "vykazVysledovka": {
+      "icon": "win/logs-low.png",
+      "mnem": 86,
+      "titl": "Gewinn- und Verlustrechnung"
+    },
+    "vykazVysledovkaPoUctech": {
+      "icon": "win/logs-low.png",
+      "mnem": 75,
+      "titl": "Liste von Kostenaufwand und Erträgen"
+    },
+    "wDefiniceUcelu": {
+      "mnem": 68,
+      "titl": "Definition des Zweckes"
+    },
+    "wLocks": {
+      "titl": "Eintragungssperren"
+    },
+    "wPozadavek": {
+      "mnem": 85,
+      "titl": "Anforderungen"
+    },
+    "wSubjekt": {
+      "titl": "Subjekt"
+    },
+    "wUcel": {
+      "mnem": 87,
+      "titl": "Zwecke"
+    },
+    "wUcelLog": {
+      "titl": "Vermerk des Zweckes"
+    },
+    "weboveRozhrani": {
+      "mnem": 87,
+      "titl": "Web-Schnittstelle"
+    },
+    "xslt": {
+      "mnem": 84,
+      "titl": "Benutzertransformationen"
+    },
+    "zalohaDB": {
+      "desc": "Datensicherung im lokalen Computer speichern. Später kann man die Datensicherung im System Flexi Bee erneuern.",
+      "mnem": 72,
+      "titl": "Sicherung der Firma"
+    },
+    "zamestnanc000": {
+      "icon": "win/zamestnanci.png",
+      "mnem": 82,
+      "titl": "Arbeitnehmer"
+    },
+    "zamky": {
+      "mnem": 83,
+      "titl": "Sperren der Buchungsperiode"
+    },
+    "zarizeniKom": {
+      "mnem": 88,
+      "titl": "Kommunikation mit einer externen Anlage"
+    },
+    "zastupnosti": {
+      "mnem": 86,
+      "titl": "Vertretungen"
+    },
+    "zavAkt": {
+      "desc": "Aktualisierung und Bildung der Verbindlichkeiten in der eingestellten Buchungsperiode, die in den angenommenen Rechnungen eingegliedert sind. Zum Beispiel Leasing, Miete usw.",
+      "icon": "win/ostatni-zavazky.png",
+      "mnem": 86,
+      "titl": "Andere Verbindlichkeiten"
+    },
+    "zavAktNovy": {
+      "icon": "win/plus.png",
+      "titl": "Neue Verbindlichkeit"
+    },
+    "zavPol": {
+      "mnem": 80,
+      "titl": "Posten sonstiger Verbindlichkeiten"
+    },
+    "zavRady": {
+      "desc": "Einstellung der Belegreihen für Verbindlichkeiten.",
+      "icon": "win/numbers.png",
+      "mnem": 86,
+      "titl": "Belegreihen - Verbindlichkeiten"
+    },
+    "zavTyp": {
+      "desc": "Arten von anderen Verbindlichkeiten ermöglichen die Grundparameter einzustellen. Das sind Verbuchung, Belegreihen, usw.",
+      "icon": "win/typ-ostatni-zavazky.png",
+      "mnem": 65,
+      "titl": "Arten von anderen Verbindlichkeiten"
+    },
+    "zbozi000": {
+      "icon": "win/zbozi.png",
+      "mnem": 87,
+      "titl": "Ware"
+    },
+    "zmenEmail": {
+      "titl": "Registrierungs-E-Mail ändern"
+    },
+    "zmenHeslo": {
+      "mnem": 75,
+      "titl": "Kennwort ändern"
+    },
+    "zmenaParFirmy": {
+      "mnem": 81,
+      "titl": "Parameter der Firma"
+    },
+    "zmenaUcetniObdobi000": {
+      "mnem": 68,
+      "titl": "Änderung der Buchungsperiode"
+    },
+    "zodpOsoba": {
+      "titl": "Zuständige Person"
+    },
+    "zurnal": {
+      "titl": "Journal"
+    }
+  }
+}

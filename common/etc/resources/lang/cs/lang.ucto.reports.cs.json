@@ -1,0 +1,3372 @@
+{
+  "reports": {
+    "Bsp$$BAN": {
+      "_title": {
+        "titl": "Seznam bankovních účtů"
+      }
+    },
+    "Bsp$$POK": {
+      "_title": {
+        "titl": "Seznam pokladen"
+      }
+    },
+    "Bsp$$SKL": {
+      "_title": {
+        "titl": "Seznam skladů"
+      }
+    },
+    "Doklady": {
+      "_title": {
+        "titl": "Přehled dokladů"
+      }
+    },
+    "Doklady$$FAV": {
+      "_title": {
+        "titl": "Seznam vydaných faktur"
+      }
+    },
+    "Doklady$$PHL": {
+      "_title": {
+        "titl": "Seznam ostatních pohledávek"
+      }
+    },
+    "Doklady$$ZAV": {
+      "_title": {
+        "titl": "Seznam ostatních závazků"
+      }
+    },
+    "DokladyAdresar$$FAV": {
+      "_title": {
+        "titl": "Seznam vydaných faktur (sumace podle firmy)"
+      }
+    },
+    "DokladyAdresarFAP$$FAP": {
+      "_title": {
+        "titl": "Seznam přijatých faktur (sumace podle firmy)"
+      }
+    },
+    "DokladyBanPok$$BAN": {
+      "_title": {
+        "titl": "Seznam bankovních dokladů"
+      }
+    },
+    "DokladyBanPok$$POK": {
+      "_title": {
+        "titl": "Seznam pokladních dokladů"
+      }
+    },
+    "DokladyFAP$$FAP": {
+      "_title": {
+        "titl": "Seznam přijatých faktur (na šířku)"
+      }
+    },
+    "DokladyINT$$INT": {
+      "_title": {
+        "titl": "Seznam interních dokladů"
+      }
+    },
+    "Fakt_PRI": {
+      "SymbolPlateb": {
+        "titl": "Symbol plateb"
+      },
+      "konSymbol": {
+        "titl": "Konstantní"
+      },
+      "specSymbol": {
+        "titl": "Specifický"
+      },
+      "varSymPrikaz": {
+        "titl": "Variabilní"
+      }
+    },
+    "Fakt_VYD": {
+      "datSmir": {
+        "titl": "datum smíru"
+      },
+      "datUp1": {
+        "titl": "Datum 1. upomínky"
+      },
+      "datUp2": {
+        "titl": "2. upomínky"
+      },
+      "stav": {
+        "titl": "Stav dokladu"
+      }
+    },
+    "Hl_Kniha": {
+      "_title": {
+        "titl": "Hlavní kniha"
+      },
+      "doklad": {
+        "titl": "Interní číslo"
+      },
+      "duzpUcto": {
+        "titl": "Upl.zd.pl."
+      },
+      "obratDAL": {
+        "titl": "Obrat DAL"
+      },
+      "obratMD": {
+        "titl": "Obrat MD"
+      },
+      "sledovaneObdobi": {
+        "titl": "Sledované období"
+      },
+      "sumDal": {
+        "titl": "Částka DAL"
+      },
+      "sumMd": {
+        "titl": "Částka MD"
+      },
+      "varSym": {
+        "titl": "Var.sym."
+      },
+      "zacatek": {
+        "titl": "Začátek"
+      },
+      "zuctovano": {
+        "titl": "Zaúčt."
+      }
+    },
+    "Majetek": {
+      "datVyst": {
+        "titl": "Datum vyřazení"
+      },
+      "datZar": {
+        "titl": "Datum zařazení"
+      }
+    },
+    "PokladniDenik": {
+      "hotove": {
+        "titl": "Hotově"
+      },
+      "kartou": {
+        "titl": "Platební kartou"
+      },
+      "koncovyZustatek": {
+        "titl": "Koncový zůstatek:"
+      },
+      "pocatecniZustatek": {
+        "titl": "Počáteční zůstatek:"
+      },
+      "prijem": {
+        "titl": "Příjem"
+      },
+      "vydej": {
+        "titl": "Výdej"
+      },
+      "zustatek": {
+        "titl": "Zůstatek"
+      }
+    },
+    "PokladniDenik$$BAN": {
+      "_title": {
+        "titl": "Bankovní kniha"
+      }
+    },
+    "PokladniDenik$$POK": {
+      "_title": {
+        "titl": "Pokladní kniha"
+      }
+    },
+    "PokladniDenikPort$$BAN": {
+      "_title": {
+        "titl": "Bankovní kniha (na výšku)"
+      }
+    },
+    "PokladniDenikPort$$POK": {
+      "_title": {
+        "titl": "Pokladní kniha (na výšku)"
+      }
+    },
+    "Predvaha$$SUM": {
+      "_title": {
+        "titl": "Obratová předvaha"
+      }
+    },
+    "PredvahaPort": {
+      "_title": {
+        "titl": "Obratová předvaha (na výšku)"
+      }
+    },
+    "Prikaz$$BAN$$elInkaso": {
+      "_title": {
+        "titl": "HROMADNÝ PŘÍKAZ K INKASU"
+      }
+    },
+    "Prikaz$$BAN$$elPrikaz": {
+      "_title": {
+        "titl": "HROMADNÝ PŘÍKAZ K ÚHRADĚ"
+      }
+    },
+    "Prikazy_kniha$$BAN$$elInkaso": {
+      "_title": {
+        "titl": "Kniha příkazů k inkasu"
+      }
+    },
+    "Prikazy_kniha$$BAN$$elPrikaz": {
+      "_title": {
+        "titl": "Kniha příkazů k úhradě"
+      }
+    },
+    "Sazby_DPH": {
+      "_title": {
+        "titl": "Sazby DPH"
+      }
+    },
+    "Staty": {
+      "_title": {
+        "titl": "Státy"
+      }
+    },
+    "TypDokl": {
+      "_title": {
+        "titl": "Přehled typů dokladů"
+      }
+    },
+    "TypDokl$$BAN": {
+      "_title": {
+        "titl": "Seznam typů bankovních dokladů"
+      }
+    },
+    "TypDokl$$POK": {
+      "_title": {
+        "titl": "Seznam typů pokladních dokladů"
+      }
+    },
+    "Zakazka": {
+      "_title": {
+        "titl": "Zakázky"
+      }
+    },
+    "adrUdalosti": {
+      "_title": {
+        "titl": "Události"
+      }
+    },
+    "adresar": {
+      "_title": {
+        "titl": "Adresář"
+      },
+      "nastaveniSidlo": {
+        "titl": "Adresa sídla"
+      }
+    },
+    "analyzaZakazky": {
+      "_title": {
+        "titl": "Účetní analýza zakázky"
+      },
+      "sumaZaUcet": {
+        "titl": "Suma za účet"
+      },
+      "sumaZaZakazku": {
+        "titl": "Suma za zakázku"
+      },
+      "zisk": {
+        "titl": "Zisk"
+      }
+    },
+    "analyzaZakazkyRozsirena": {
+      "_title": {
+        "titl": "Karta zakázky"
+      },
+      "celkovaBilanceZakazky": {
+        "titl": "Celková bilance zakázky"
+      },
+      "cisDokl": {
+        "titl": "Doklad"
+      },
+      "naklad": {
+        "titl": "Náklady"
+      },
+      "polozkyFaktur": {
+        "titl": "Položky faktur"
+      },
+      "polozkyPokladny": {
+        "titl": "Položky pokladních dokladů"
+      },
+      "polozkySkladu": {
+        "titl": "Položky skladových dokladů"
+      },
+      "rozdil": {
+        "titl": "Bilance"
+      },
+      "ucetniAnalyzaZakazky": {
+        "titl": "Účetní analýza zakázky"
+      },
+      "vynos": {
+        "titl": "Výnosy"
+      }
+    },
+    "analyzaZakazkyRozsirena$$NES": {
+      "_title": {
+        "titl": "Analýza zakázky"
+      }
+    },
+    "balikNaPostu": {
+      "_title": {
+        "titl": "Balík na poštu/Balík do ruky"
+      }
+    },
+    "balikovyPodaciArch": {
+      "_title": {
+        "titl": "Poštovní podací arch na balíky"
+      }
+    },
+    "cashFlow": {
+      "_title": {
+        "titl": "Přehled o peněžních tocích"
+      },
+      "cashFlow": {
+        "titl": "Přehled o peněžních tocích"
+      }
+    },
+    "cashFlow$$MIN_OBDOBI": {
+      "_title": {
+        "titl": "Přehled o peněžních tocích (včetně údajů za minulé období)"
+      },
+      "cashFlow": {
+        "titl": "Přehled o peněžních tocích"
+      }
+    },
+    "cenHladPrehled": {
+      "_title": {
+        "titl": "Přehled cenových úrovní"
+      }
+    },
+    "cenik": {
+      "_title": {
+        "titl": "Ceník s nákupními cenami"
+      },
+      "cenaBezDph": {
+        "titl": "Cena bez DPH"
+      },
+      "cenaSDph": {
+        "titl": "Cena s DPH"
+      }
+    },
+    "cenikBezNakupni": {
+      "_title": {
+        "titl": "Ceník bez nákupních cen"
+      }
+    },
+    "cenikIndividualniVystupni": {
+      "_title": {
+        "titl": "Prodejní ceník"
+      }
+    },
+    "cenikIndividualniVystupniMnoz": {
+      "_title": {
+        "titl": "Prodejní ceník (množstevní slevy, bez DPH)"
+      },
+      "od": {
+        "titl": "od"
+      }
+    },
+    "cenikIndividualniVystupniMnozDph": {
+      "_title": {
+        "titl": "Prodejní ceník (množstevní slevy, s DPH)"
+      }
+    },
+    "cenikNakupProdej": {
+      "_title": {
+        "titl": "Ceník s nákupními a prodejními cenami"
+      }
+    },
+    "cenikVystupni": {
+      "_title": {
+        "titl": "Prodejní ceník"
+      }
+    },
+    "cenikVystupniSPoplatky": {
+      "_title": {
+        "titl": "Prodejní ceník (s poplatky)"
+      },
+      "cenaVcetnePoplatku": {
+        "titl": "Cena včetně poplatků:"
+      },
+      "poplatky": {
+        "titl": "Poplatky:"
+      }
+    },
+    "chart-landscape": {
+      "_title": {
+        "titl": "-"
+      }
+    },
+    "cisClenDph": {
+      "_title": {
+        "titl": "Řádek DPH"
+      }
+    },
+    "danovaEvidence": {
+      "_title": {
+        "titl": "Výkaz daňové evidence"
+      },
+      "danEvid.NeDa": {
+        "titl": "Nespadá do daňové evidence"
+      },
+      "danEvid.SocP": {
+        "titl": "Platba sociálního pojištění"
+      },
+      "danEvid.Zdra": {
+        "titl": "Platba zdravotního pojištění"
+      },
+      "nevyplnenTypUcOp": {
+        "titl": "Nevyplněn předpis zaúčtování"
+      },
+      "nevyplneno": {
+        "titl": "Nevyplněno"
+      },
+      "rozdilPrijemVydej": {
+        "titl": "Rozdíl příjmů a výdajů:"
+      }
+    },
+    "dodaciList": {
+      "_title": {
+        "titl": "Dodací list"
+      },
+      "hmotnost": {
+        "titl": "Hmotnost [kg]"
+      },
+      "kFAVtypPohybu.prijem": {
+        "titl": "k vydané faktuře"
+      },
+      "kPOKtypPohybu.prijem": {
+        "titl": "k příjmovému pokladnímu dokladu"
+      },
+      "kPOKtypPohybu.vydej": {
+        "titl": "k výdajovému pokladnímu dokladu"
+      },
+      "kSKLtypPohybu.prijem": {
+        "titl": "k příjemce"
+      },
+      "kSKLtypPohybu.vydej": {
+        "titl": "k výdejce"
+      },
+      "prevzatoDne": {
+        "titl": "Převzato dne"
+      }
+    },
+    "dodaciList$$SUM_CEN": {
+      "_title": {
+        "titl": "Dodací list s prodejními cenami"
+      }
+    },
+    "doklSklad": {
+      "_title": {
+        "titl": "Seznam skladových dokladů"
+      }
+    },
+    "dokladyObchod": {
+      "zbyvaRealizovat": {
+        "titl": "Zbývá realizovat"
+      }
+    },
+    "dokladyObchod$$NAP": {
+      "_title": {
+        "titl": "Přehled přijatých nabídek "
+      }
+    },
+    "dokladyObchod$$NAV": {
+      "_title": {
+        "titl": "Přehled vydaných nabídek"
+      }
+    },
+    "dokladyObchod$$OBP": {
+      "_title": {
+        "titl": "Přehled přijatých objednávek"
+      }
+    },
+    "dokladyObchod$$OBV": {
+      "_title": {
+        "titl": "Přehled vydaných objednávek"
+      }
+    },
+    "dokladyObchod$$PPP": {
+      "_title": {
+        "titl": "Přehled přijatých poptávek"
+      }
+    },
+    "dokladyObchod$$PPV": {
+      "_title": {
+        "titl": "Přehled vydaných poptávek"
+      }
+    },
+    "dokladySRekapitulaciDph": {
+      "_title": {
+        "titl": "Seznam dokladů s rekapitulací DPH"
+      },
+      "celkemNeucetniPrijem": {
+        "titl": "Celkem neúčetní příjem:"
+      },
+      "celkemNeucetniVydej": {
+        "titl": "Celkem neúčetní výdej:"
+      },
+      "celkemUcetniPrijem": {
+        "titl": "Celkem účetní příjem:"
+      },
+      "celkemUcetniVydej": {
+        "titl": "Celkem účetní výdej:"
+      },
+      "datVyst": {
+        "titl": "Vystaveno"
+      },
+      "duzpUcto": {
+        "titl": "DUZP"
+      },
+      "kod": {
+        "titl": "Číslo dokladu"
+      },
+      "snizena": {
+        "titl": "Snížená"
+      },
+      "sumCelkem": {
+        "titl": "Celkem [%currency-symbol]"
+      },
+      "sumDph": {
+        "titl": "Dph [%currency-symbol]"
+      },
+      "sumOsv": {
+        "titl": "Osvobozeno [%currency-symbol]"
+      },
+      "sumZkl": {
+        "titl": "Základ [%currency-symbol]"
+      },
+      "ucetni": {
+        "titl": "Účetní"
+      },
+      "zakladni": {
+        "titl": "Základní"
+      }
+    },
+    "dokladySRekapitulaciDph$$BAN": {
+      "_title": {
+        "titl": "Seznam bankovních dokladů (s rekapitulací DPH)"
+      }
+    },
+    "dokladySRekapitulaciDph$$FAP": {
+      "_title": {
+        "titl": "Seznam přijatých faktur (s rekapitulací DPH)"
+      }
+    },
+    "dokladySRekapitulaciDph$$FAV": {
+      "_title": {
+        "titl": "Seznam vydaných faktur (s rekapitulací DPH)"
+      }
+    },
+    "dokladySRekapitulaciDph$$INT": {
+      "_title": {
+        "titl": "Seznam interních dokladů (s rekapitulací DPH)"
+      }
+    },
+    "dokladySRekapitulaciDph$$PHL": {
+      "_title": {
+        "titl": "Seznam ostatních pohledávek (s rekapitulací DPH)"
+      }
+    },
+    "dokladySRekapitulaciDph$$POK": {
+      "_title": {
+        "titl": "Seznam pokladních dokladů (s rekapitulací DPH)"
+      }
+    },
+    "dokladySRekapitulaciDph$$ZAV": {
+      "_title": {
+        "titl": "Seznam ostatních závazků (s rekapitulací DPH)"
+      }
+    },
+    "eetOznameni": {
+      "duleziteOznameni": {
+        "titl": "Informační oznámení"
+      },
+      "textBezny": {
+        "titl": "Podle zákona o evidenci tržeb je prodávající povinen vystavit kupujícímu účtenku.\nZároveň je povinen zaevidovat přijatou tržbu\nu správce daně online; v případě technického výpadku pak nejpozději do 48 hodin."
+      },
+      "textZjednoduseny": {
+        "titl": "Podle zákona o evidenci tržeb je prodávající povinen vystavit kupujícímu účtenku.\nPříjemce tržby eviduje tržby ve zjednodušeném režimu, tzn. je povinen zaevidovat přijatou tržbu u správce daně nejpozději do 5 dnů."
+      }
+    },
+    "eetOznameni$$NES": {
+      "_title": {
+        "titl": "Informační oznámení EET - zjednodušený režim"
+      }
+    },
+    "eetOznameni$$SUM": {
+      "_title": {
+        "titl": "Informační oznámení EET - běžný režim"
+      }
+    },
+    "fakPol$$FAP": {
+      "_title": {
+        "titl": "Přehled položek přijatých faktur"
+      }
+    },
+    "fakPol$$FAV": {
+      "_title": {
+        "titl": "Přehled položek vydaných faktur"
+      }
+    },
+    "fakPol$$NAP": {
+      "_title": {
+        "titl": "Přehled položek přijatých nabídek"
+      }
+    },
+    "fakPol$$NAV": {
+      "_title": {
+        "titl": "Přehled položek vydaných nabídek"
+      }
+    },
+    "fakPol$$OBP": {
+      "_title": {
+        "titl": "Přehled položek přijatých objednávek"
+      }
+    },
+    "fakPol$$OBV": {
+      "_title": {
+        "titl": "Přehled položek vydaných objednávek"
+      }
+    },
+    "fakPol$$POK": {
+      "_title": {
+        "titl": "Přehled položek pokladních dokladů"
+      }
+    },
+    "fakPol$$PPP": {
+      "_title": {
+        "titl": "Přehled položek přijatých poptávek"
+      }
+    },
+    "fakPol$$PPV": {
+      "_title": {
+        "titl": "Přehled položek vydaných poptávek"
+      }
+    },
+    "faktura": {
+      "banka": {
+        "titl": "Banka"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "celkemBezZaloh": {
+        "titl": "Celkem bez záloh"
+      },
+      "celkemDph": {
+        "titl": "Celkem DPH"
+      },
+      "celkemFakturovano": {
+        "titl": "Celkem fakturováno"
+      },
+      "celkemKUhrade": {
+        "titl": "Celkem k úhradě"
+      },
+      "celkemPredSlevou": {
+        "titl": "Celkem před slevou"
+      },
+      "celkemZaklad": {
+        "titl": "Celkem základ"
+      },
+      "danOdvadiPrijemce": {
+        "titl": "Daň odvede zákazník."
+      },
+      "danPriPrijetiPlatby": {
+        "titl": "Daň se uplatňuje na základě přijetí platby."
+      },
+      "datumZdanitelnehoPlneni": {
+        "titl": "Datum uskutečnění zdanitelného plnění"
+      },
+      "datumZdanitelnehoPlneniOsobUpravaDph": {
+        "titl": "Datum dodání"
+      },
+      "dodavatel-sidlo": {
+        "titl": "Dodavatel - sídlo"
+      },
+      "doprava": {
+        "titl": "Způsob dopravy"
+      },
+      "dph19": {
+        "titl": "DPH 19%"
+      },
+      "dph9": {
+        "titl": "DPH 9%"
+      },
+      "dphCelkem": {
+        "titl": "DPH celkem"
+      },
+      "formaDopravy": {
+        "titl": "Forma dopravy"
+      },
+      "jizUhrazeno": {
+        "titl": "Již uhrazeno"
+      },
+      "mistoUrceni": {
+        "titl": "Místo určení"
+      },
+      "nejsemPlatceDph": {
+        "titl": "Neplátce DPH"
+      },
+      "objednavka": {
+        "titl": "Objednávka"
+      },
+      "odberatel-sidlo": {
+        "titl": "Odběratel - sídlo"
+      },
+      "oznaceniDodavky": {
+        "titl": "Označení dodávky"
+      },
+      "postovniAdresa": {
+        "titl": "Poštovní adresa"
+      },
+      "predSlevou": {
+        "titl": "Před slevou"
+      },
+      "prenesenaDanovaPovinnost": {
+        "titl": "Přenesená daňová povinnost"
+      },
+      "preplatky": {
+        "titl": "Přeplatky"
+      },
+      "puvodniDoklad": {
+        "titl": "Původní doklad č."
+      },
+      "razitkoAPodpis": {
+        "titl": "Razítko a podpis"
+      },
+      "registraceU": {
+        "titl": "Registrace"
+      },
+      "rekapitulaceDph": {
+        "titl": "Rekapitulace DPH v %currency-symbol"
+      },
+      "rekapitulaceDphV": {
+        "titl": "Rekapitulace DPH v"
+      },
+      "sazbaDph": {
+        "titl": "Sazba DPH"
+      },
+      "za": {
+        "titl": "za"
+      },
+      "zaklad": {
+        "titl": "Základ"
+      },
+      "zaklad0": {
+        "titl": "Základ 0%"
+      },
+      "zaklad19": {
+        "titl": "Základ 19%"
+      },
+      "zaklad9": {
+        "titl": "Základ 9%"
+      },
+      "zakladCelkem": {
+        "titl": "Základ celkem"
+      },
+      "zakladOdpocet": {
+        "titl": "Zál. daň. dokl. základ"
+      },
+      "zbyvaUhradit": {
+        "titl": "Zbývá uhradit"
+      },
+      "zeDne": {
+        "titl": "Datum vystavení původního dokladu"
+      }
+    },
+    "fakturaConfig": {
+      "banka": {
+        "titl": "Banka"
+      },
+      "bic": {
+        "titl": "SWIFT:"
+      },
+      "celkemPredSlevou": {
+        "titl": "Celkem před slevou"
+      },
+      "cenaMj": {
+        "titl": "Cena za MJ"
+      },
+      "cenaSDph": {
+        "titl": "Cena s DPH"
+      },
+      "cenaVMene": {
+        "titl": "Cena v %p"
+      },
+      "cisloBanUctu": {
+        "titl": "Číslo bankovního účtu"
+      },
+      "danOdvadiPrijemce": {
+        "titl": "Daň odvede zákazník."
+      },
+      "datSplat": {
+        "titl": "Datum splatnosti"
+      },
+      "datSplatDatTermin": {
+        "titl": "Datum splatnosti"
+      },
+      "datVyst": {
+        "titl": "Datum vystavení"
+      },
+      "dic": {
+        "titl": "DIČ"
+      },
+      "dobropisovanyDokladCislo": {
+        "titl": "Původní doklad"
+      },
+      "dobropisovanyDokladDatum": {
+        "titl": "Datum vystavení původního dokladu"
+      },
+      "dodavatel": {
+        "titl": "DODAVATEL"
+      },
+      "duzpPuv": {
+        "titl": "Datum zdaň. plnění"
+      },
+      "formaUhrady": {
+        "titl": "Forma úhrady"
+      },
+      "iban": {
+        "titl": "IBAN:"
+      },
+      "ic": {
+        "titl": "IČO"
+      },
+      "icdph": {
+        "titl": "IČ DPH"
+      },
+      "kurzKurzMnozstvi": {
+        "titl": "Kurz %p %p za %p %p"
+      },
+      "mj": {
+        "titl": "MJ"
+      },
+      "mnozMj": {
+        "titl": "Množství"
+      },
+      "neplatceDph": {
+        "titl": "Není plátce DPH"
+      },
+      "odberatel": {
+        "titl": "ODBĚRATEL"
+      },
+      "polozka": {
+        "titl": "Položka"
+      },
+      "predSlevou": {
+        "titl": "Před slevou"
+      },
+      "prenesenaDanovaPovinnost": {
+        "titl": "Přenesená daňová povinnost"
+      },
+      "puvodniSazbaDph": {
+        "titl": "Původní sazba DPH"
+      },
+      "razitkoAPodpis": {
+        "titl": "Razítko a podpis"
+      },
+      "rekapitulaceDphVMene": {
+        "titl": "Rekapitulace DPH v %p"
+      },
+      "slevaDokl": {
+        "titl": "Sleva dokladu"
+      },
+      "stornovano": {
+        "titl": "Stornováno"
+      },
+      "sumCelkem": {
+        "titl": "Celkem [%p]"
+      },
+      "sumZkl": {
+        "titl": "Základ [%p]"
+      },
+      "uhrazeno": {
+        "titl": "JIŽ UHRAZENO!"
+      },
+      "varSym": {
+        "titl": "Variabilní symbol"
+      },
+      "zaklad": {
+        "titl": "Základ"
+      }
+    },
+    "fakturaConfig$$FAV": {
+      "_attachment": {
+        "desc": "Název přílohy",
+        "titl": "Faktura"
+      },
+      "_title": {
+        "titl": "Konfigurovatelná faktura"
+      }
+    },
+    "fakturaConfig$$NAV": {
+      "_attachment": {
+        "desc": "Název přílohy",
+        "titl": "Nabídka"
+      },
+      "_title": {
+        "titl": "Konfigurovatelná nabídka"
+      },
+      "datSplatDatTermin": {
+        "titl": "Termín"
+      }
+    },
+    "fakturaConfig$$OBP": {
+      "_attachment": {
+        "desc": "Název přílohy",
+        "titl": "Objednávka"
+      },
+      "_title": {
+        "titl": "Konfigurovatelná objednávka"
+      },
+      "datSplatDatTermin": {
+        "titl": "Termín"
+      }
+    },
+    "fakturaKB": {
+      "_title": {
+        "titl": "Faktura"
+      },
+      "bspBan": {
+        "titl": "Bankovní účet"
+      },
+      "konSym": {
+        "titl": "Konst. sym."
+      },
+      "specSym": {
+        "titl": "Spec. sym."
+      },
+      "varSym": {
+        "titl": "Var. sym."
+      }
+    },
+    "fakturaKB$$R_DPH_V_MENE": {
+      "_title": {
+        "titl": "Faktura (rekapitulace DPH v měně dokladu)"
+      }
+    },
+    "fakturaKB$$SUM_BEZ_QR": {
+      "_title": {
+        "titl": "Faktura (bez QR kódu)"
+      }
+    },
+    "geisPredavaciProtokol": {
+      "_title": {
+        "titl": "Geis Předávací protokol"
+      },
+      "adresat": {
+        "titl": "Adresát"
+      },
+      "balikCislo": {
+        "titl": "Balík číslo"
+      },
+      "celkemBaliku": {
+        "titl": "Celkem balíků"
+      },
+      "celkemCod": {
+        "titl": "Celkem COD"
+      },
+      "cod": {
+        "titl": "Dob. (COD)"
+      },
+      "datum": {
+        "titl": "Datum"
+      },
+      "exw": {
+        "titl": "EXW"
+      },
+      "geisNazev": {
+        "titl": "GEIS Parcel CZ s.r.o"
+      },
+      "paticka1": {
+        "titl": "Přepravy se uskutečňují dle Všeobecných obchodních podmínek, aktuální stav GEIS PARCEL CZ, spol. s r. o., IČO: 63077051."
+      },
+      "paticka2": {
+        "titl": "Společnost je zapsaná v obchodním rejstříku vedeném Krajským soudem v Plzni, oddíl C, číslo vložky 9503."
+      },
+      "podpisOdesilatele": {
+        "titl": "Podpis odesílatele"
+      },
+      "podpisRidice": {
+        "titl": "Podpis řidiče"
+      },
+      "potvrzeniOPrevzeti": {
+        "titl": "Předávací protokol"
+      },
+      "poz": {
+        "titl": "Poz."
+      },
+      "poznam": {
+        "titl": "Poznámka"
+      },
+      "prikazce": {
+        "titl": "Příkazce (odesílatel)"
+      },
+      "pripojisteni": {
+        "titl": "Připojištění"
+      },
+      "strana": {
+        "titl": "Strana"
+      },
+      "varSym": {
+        "titl": "Var. symbol"
+      },
+      "zasilkyBezPoskozeni": {
+        "titl": "Výše uvedené zásilky byly předány bez poškození"
+      }
+    },
+    "geisstitek": {
+      "_title": {
+        "titl": "Geis Etiketa (arch A4)"
+      },
+      "geisNazev": {
+        "titl": "Geis Parcel CZ, s.r.o."
+      },
+      "odesilatel": {
+        "titl": "Odesílatel"
+      },
+      "prijemce": {
+        "titl": "Příjemce"
+      },
+      "tel": {
+        "titl": "Tel."
+      },
+      "vs": {
+        "titl": "VS"
+      }
+    },
+    "global": {
+      "PenUstav": {
+        "titl": "Peněžní ústav"
+      },
+      "ZbyvaUhradit": {
+        "titl": "Zbývá k úhradě"
+      },
+      "boolean.ano": {
+        "titl": "Ano"
+      },
+      "boolean.ne": {
+        "titl": "Ne"
+      },
+      "celkem": {
+        "titl": "Celkem:"
+      },
+      "celkemKc": {
+        "titl": "Celkem v %currency-symbol"
+      },
+      "celkemMena": {
+        "titl": "Celkem v měně"
+      },
+      "celkemNeucetni": {
+        "titl": "Celkem neúčetní:"
+      },
+      "celkemPrijem": {
+        "titl": "Celkem příjem:"
+      },
+      "celkemUcetni": {
+        "titl": "Celkem účetní:"
+      },
+      "celkemVydej": {
+        "titl": "Celkem výdej:"
+      },
+      "cisloUctu": {
+        "titl": "SÚ"
+      },
+      "clenEU": {
+        "titl": "Člen EU"
+      },
+      "developerMode": {
+        "titl": "Neplatný tisk"
+      },
+      "dodaciList": {
+        "titl": "Dodací list"
+      },
+      "dodavatel": {
+        "titl": "Dodavatel"
+      },
+      "dph": {
+        "titl": "DPH"
+      },
+      "eetBkp": {
+        "titl": "BKP"
+      },
+      "error": {
+        "titl": "CHYBA"
+      },
+      "juh": {
+        "titl": "Již uhrazeno"
+      },
+      "kUhrade": {
+        "titl": "K úhradě"
+      },
+      "kUhradeMen": {
+        "titl": "K úhradě [měna]"
+      },
+      "kUhradekDatu": {
+        "titl": "K úhradě k datu"
+      },
+      "konSymbol": {
+        "titl": "Konst. symbol"
+      },
+      "konverzniKurz": {
+        "titl": "konverzní kurz"
+      },
+      "mena": {
+        "titl": "měna"
+      },
+      "merJed": {
+        "titl": "Měrné jednotky"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "mobil": {
+        "titl": "Mobil"
+      },
+      "nazFirmy": {
+        "titl": "Název firmy"
+      },
+      "nevyplnen": {
+        "titl": "Nevyplněn"
+      },
+      "odberatel": {
+        "titl": "Odběratel"
+      },
+      "prevzalDne": {
+        "titl": "Převzal dne"
+      },
+      "prodejkaNeplatce": {
+        "titl": "Zjednodušený doklad"
+      },
+      "prodejkaZaHotove": {
+        "titl": "Prodejka za hotové"
+      },
+      "prodejkaZaHotoveDobropis": {
+        "titl": "Prodejka za hotové - Dobropis"
+      },
+      "provozovna": {
+        "titl": "Provozovna"
+      },
+      "razitko": {
+        "titl": "Razítko"
+      },
+      "reportVytiskl": {
+        "titl": "Vytiskl"
+      },
+      "rozdil": {
+        "titl": "Rozdíl"
+      },
+      "rozvaha": {
+        "titl": "Rozvaha (Bilance)"
+      },
+      "specSymbol": {
+        "titl": "Specifický symbol"
+      },
+      "stornovano": {
+        "titl": "Stornováno"
+      },
+      "stranka": {
+        "titl": "Stránka"
+      },
+      "sumCelkemMen": {
+        "titl": "Celkem [měna]"
+      },
+      "sumacePotlacena": {
+        "titl": " (bez sumací)"
+      },
+      "syntetickyUcet": {
+        "titl": "Syntetický účet"
+      },
+      "tisknutoDne": {
+        "titl": "Tisknuto dne"
+      },
+      "ucetniObdobiNeniUzavreno": {
+        "titl": "Účetní období není uzavřeno!"
+      },
+      "uhrazeneDoklady": {
+        "titl": "Uhrazené doklady"
+      },
+      "varSymbol": {
+        "titl": "Variabilní symbol"
+      },
+      "vysledovka": {
+        "titl": "Výkaz zisku a ztráty"
+      },
+      "vytistenoSystemem": {
+        "titl": "Vytištěno systémem %p"
+      }
+    },
+    "intPol": {
+      "doklad": {
+        "titl": "Doklad"
+      }
+    },
+    "intPol$$BAN$$SUM_BAN": {
+      "_title": {
+        "titl": "Přehled položek bankovních dokladů"
+      }
+    },
+    "intPol$$BAN$$SUM_ZAP": {
+      "_title": {
+        "titl": "Přehled položek zápočtů"
+      }
+    },
+    "intPol$$INT": {
+      "_title": {
+        "titl": "Přehled položek interních dokladů"
+      }
+    },
+    "intPol$$PHL": {
+      "_title": {
+        "titl": "Přehled položek ostatních pohledávek"
+      }
+    },
+    "intPol$$ZAV": {
+      "_title": {
+        "titl": "Přehled položek ostatních závazků"
+      }
+    },
+    "inventarizacePohledavek": {
+      "_title": {
+        "titl": "Inventarizace pohledávek a závazků"
+      },
+      "datSplat": {
+        "titl": "Splatnost"
+      },
+      "datVyst": {
+        "titl": "Vystaveno"
+      },
+      "dekujeme": {
+        "titl": "Děkujeme za spolupráci a jsme s pozdravem"
+      },
+      "dokladyVMenePhl": {
+        "titl": "Jednotlivé doklady pohledávek v měně"
+      },
+      "dokladyVMeneZav": {
+        "titl": "Jednotlivé doklady závazků v měně"
+      },
+      "dokladyVTuzPhl": {
+        "titl": "Jednotlivé doklady pohledávek v %currency-symbol"
+      },
+      "dokladyVTuzZav": {
+        "titl": "Jednotlivé doklady závazků v %currency-symbol"
+      },
+      "firma": {
+        "titl": "Firma:"
+      },
+      "inventurizace": {
+        "titl": "Inventarizace pohledávek a závazků k datu"
+      },
+      "juhSum": {
+        "titl": "Již uhrazeno"
+      },
+      "kod": {
+        "titl": "Int.č.dokl."
+      },
+      "pokudPhl": {
+        "titl": "Pokud neobdržíme potvrzený doklad nebo Vaše vyjádření ke stavu pohledávek do %p, považujeme pohledávky za odsouhlasené a uznané."
+      },
+      "pokudZav": {
+        "titl": "Pokud neobdržíme potvrzený doklad nebo Vaše vyjádření ke stavu závazků do %p, považujeme závazky za odsouhlasené a uznané."
+      },
+      "potvrzeny": {
+        "titl": "Potvrzený tiskopis s event. vyčíslenými rozdíly zašlete obratem na naši adresu nebo e-mailem na adresu "
+      },
+      "sumCelkem": {
+        "titl": "Celkem"
+      },
+      "vDne": {
+        "titl": "V %p dne %p"
+      },
+      "varSym": {
+        "titl": "Var.symbol"
+      },
+      "zadamePhl": {
+        "titl": "Žádáme Vás o porovnání námi vykazovaného stavu a Vámi vedené evidence. U rozdílných pohledávek uveďte, prosím, Vámi evidovanou hodnotu, popř. doložte příslušnými doklady vztahujícími se k rozdílu.\n                "
+      },
+      "zadameZav": {
+        "titl": "Žádáme Vás o porovnání námi vykazovaného stavu a Vámi vedené evidence. U rozdílných závazků uveďte, prosím, Vámi evidovanou hodnotu, popř. doložte příslušnými doklady vztahujícími se k rozdílu.\n                "
+      },
+      "zakonPhl": {
+        "titl": "Ve smyslu zákona č. 563/1991 Sb o účetnictví, ve znění pozdějších předpisů, Vás žádáme o odsouhlasení pohledávek naší organizace ve stavu k datu"
+      },
+      "zakonSkPhl": {
+        "titl": "Ve smyslu zákona č. 431/2002 Sb o účetnictví, ve znění pozdějších předpisů, Vás žádáme o odsouhlasení pohledávek naší organizace ve stavu k datu"
+      },
+      "zakonSkZav": {
+        "titl": "Ve smyslu zákona č. 431/2002 Sb o účetnictví, ve znění pozdějších předpisů, Vás žádáme o odsouhlasení závazků naší organizace ve stavu k datu"
+      },
+      "zakonZav": {
+        "titl": "Ve smyslu zákona č. 563/1991 Sb o účetnictví, ve znění pozdějších předpisů, Vás žádáme o odsouhlasení závazků naší organizace ve stavu k datu"
+      },
+      "zbyvaUhradit": {
+        "titl": "Zbývá uhradit"
+      }
+    },
+    "inventura": {
+      "_title": {
+        "titl": "Inventurní soupis zboží"
+      }
+    },
+    "inventura$$SUM_ROZDILY": {
+      "_title": {
+        "titl": "Inventurní soupis zboží (rozdíly)"
+      }
+    },
+    "inventuraUctu": {
+      "_title": {
+        "titl": "Inventura účtů"
+      },
+      "datum": {
+        "titl": "Datum"
+      },
+      "podpisInventarizacniKomise": {
+        "titl": "Podpis inventarizační komise"
+      }
+    },
+    "kartaZakazky": {
+      "_title": {
+        "titl": "Karta zakázky"
+      }
+    },
+    "knihaFakCzk": {
+      "nedoplatek": {
+        "titl": "Nedoplatek [%currency-symbol]"
+      },
+      "nedoplatekMen": {
+        "titl": "Nedoplatek [Měna]"
+      },
+      "sumaCastka": {
+        "titl": "Suma částka:"
+      },
+      "sumaNedoplatek": {
+        "titl": "Suma nedoplatek:"
+      }
+    },
+    "knihaFakCzk$$FAP": {
+      "_title": {
+        "titl": "Seznam přijatých faktur (saldo, dle firmy)"
+      }
+    },
+    "knihaFakCzk$$FAP$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Seznam přijatých faktur (saldo, dle řazení uživatele)"
+      }
+    },
+    "knihaFakCzk$$FAV": {
+      "_title": {
+        "titl": "Seznam vydaných faktur (saldo, dle firmy)"
+      }
+    },
+    "knihaFakCzk$$FAV$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Seznam vydaných faktur (saldo, dle řazení uživatele)"
+      }
+    },
+    "knihaFakCzk$$PHL": {
+      "_title": {
+        "titl": "Seznam ostatních pohledávek (saldo, dle firmy)"
+      }
+    },
+    "knihaFakCzk$$PHL$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Seznam ostatních pohledávek (saldo, dle řazení uživatele)"
+      }
+    },
+    "knihaFakCzk$$ZAV": {
+      "_title": {
+        "titl": "Seznam ostatních závazků (saldo, dle firmy)"
+      }
+    },
+    "knihaFakCzk$$ZAV$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Seznam ostatních závazků (saldo, dle řazení uživatele)"
+      }
+    },
+    "knihaFakCzk$$vykazSaldoKdatu": {
+      "_title": {
+        "titl": "Stav úhrad k datu (dle firmy)"
+      }
+    },
+    "knihaFakCzk$$vykazSaldoKdatu$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Stav úhrad k datu (dle řazení uživatele)"
+      }
+    },
+    "knihaFakMen$$FAP": {
+      "_title": {
+        "titl": "Seznam přijatých faktur (saldo v měně)"
+      }
+    },
+    "knihaFakMen$$FAV": {
+      "_title": {
+        "titl": "Seznam vydaných faktur (saldo v měně)"
+      }
+    },
+    "knihaFakMen$$PHL": {
+      "_title": {
+        "titl": "Seznam ostatních pohledávek (saldo v měně)"
+      }
+    },
+    "knihaFakMen$$ZAV": {
+      "_title": {
+        "titl": "Seznam ostatních závazků (saldo v měně)"
+      }
+    },
+    "knihaFakMen$$vykazSaldoKdatu": {
+      "_title": {
+        "titl": "Stav úhrad k datu v měně"
+      }
+    },
+    "konSym": {
+      "_title": {
+        "titl": "Konstantní symboly"
+      }
+    },
+    "kontakty": {
+      "_title": {
+        "titl": "Kontakty"
+      }
+    },
+    "kontrolniVykazPrehled": {
+      "_title": {
+        "titl": "Kontrolní výkaz DPH (slovenský přehled)"
+      },
+      "kod": {
+        "titl": "Pořadové číslo faktury"
+      }
+    },
+    "kontrolniVykazPrehledCZ": {
+      "44zdph": {
+        "titl": "§44 ZDPH"
+      },
+      "_title": {
+        "titl": "Kontrolní hlášení DPH (český přehled)"
+      },
+      "duzp": {
+        "titl": "DUZP"
+      },
+      "kod": {
+        "titl": "Evidenční číslo\ndaňového dokladu"
+      },
+      "kodDokl": {
+        "titl": "Interní číslo\ndokladu"
+      },
+      "kodPredmetuPlneni": {
+        "titl": "Kód předmětu plnění"
+      },
+      "kodRezimuPlneni": {
+        "titl": "Kód režimu plnění"
+      },
+      "pouzityPomer": {
+        "titl": "Použitý poměr"
+      }
+    },
+    "kontrolniVykazPrehledCZ$$SUM": {
+      "_title": {
+        "titl": "Kontrolní řádky na Daňové přiznání k DPH (DaP)"
+      }
+    },
+    "kontrolniVykazPrehledCZ$$SUMACE": {
+      "_title": {
+        "titl": "Kontrolní hlášení DPH (český přehled, jen sumační řádky)"
+      }
+    },
+    "kurzy": {
+      "_title": {
+        "titl": "Kurzy"
+      }
+    },
+    "kusovnik": {
+      "_title": {
+        "titl": "Kusovník"
+      },
+      "celkem": {
+        "titl": "Celkem bez DPH"
+      },
+      "celkemMj": {
+        "titl": "Celkem MJ"
+      },
+      "cenaBezDph": {
+        "titl": "Cena bez DPH za MJ"
+      },
+      "cenaSDph": {
+        "titl": "Cena s DPH za MJ"
+      }
+    },
+    "kusovnikNakup": {
+      "_title": {
+        "titl": "Kusovník s nákupními cenami"
+      },
+      "nakupCenaCelkem": {
+        "titl": "Nákupní cena celkem"
+      },
+      "nakupCenaZaMj": {
+        "titl": "Nákupní cena za MJ"
+      }
+    },
+    "leasing": {
+      "_title": {
+        "titl": "Přehled leasingu"
+      },
+      "kartaLeasingu": {
+        "titl": "Karta leasingu: "
+      }
+    },
+    "leasingWithSubreports": {
+      "_title": {
+        "titl": "Leasing (Splátkový kalendář, Daňové náklady)"
+      }
+    },
+    "majOdpisSkup": {
+      "_title": {
+        "titl": "Majetek - odpisové skupiny"
+      },
+      "koefProZrychOdpis": {
+        "titl": "Koef. pro zrychlené odpisy"
+      },
+      "procProRovnOdpis": {
+        "titl": "Proc. pro rovnoměrné odpisy"
+      }
+    },
+    "majTyp": {
+      "_title": {
+        "titl": "Typy majetků"
+      }
+    },
+    "majUdalosti": {
+      "_title": {
+        "titl": "Majetek - události"
+      }
+    },
+    "majUmisteni": {
+      "_title": {
+        "titl": "Majetek - umístění"
+      }
+    },
+    "majetek$$SUM": {
+      "_title": {
+        "titl": "Přehled majetku"
+      }
+    },
+    "majetekStav": {
+      "_title": {
+        "titl": "Přehled stavu majetku"
+      },
+      "aktualniCena": {
+        "titl": "Aktuální cena [%currency-symbol]"
+      },
+      "cenaZarazeni": {
+        "titl": "Cena zařazení [%currency-symbol]"
+      },
+      "datVyr": {
+        "titl": "Vyřazeno"
+      },
+      "datZacatDan": {
+        "titl": "Daň. zač"
+      },
+      "datZacatUcet": {
+        "titl": "Úč. zač"
+      },
+      "datZar": {
+        "titl": "Zařazeno"
+      },
+      "odpisovaSkupina": {
+        "titl": "Odpis. skup. daňová"
+      },
+      "pocetUcetnichOdpisu": {
+        "titl": "Počet úč. odpisů"
+      },
+      "rokDanOdpis": {
+        "titl": "Daň. odp. za období"
+      },
+      "rokUcetOdpis": {
+        "titl": "Úč. odp. za období"
+      },
+      "sumDanOdpis": {
+        "titl": "Celkový daňový odpis"
+      },
+      "sumUcetOdpis": {
+        "titl": "Celkový účetní odpis"
+      }
+    },
+    "majetekStavKDatu": {
+      "_title": {
+        "titl": "Přehled stavu majetku"
+      },
+      "cenaAktualni": {
+        "titl": "Aktuální\ncena [%currency-symbol]"
+      },
+      "cenaZarazeni": {
+        "titl": "Cena\nzařazení [%currency-symbol]"
+      },
+      "danoveOdpisy": {
+        "titl": "Daň. odpis\ncelkový"
+      },
+      "danoveOdpisyObdobi": {
+        "titl": "Daň. odpis\nza období"
+      },
+      "datPoslDanOdpis": {
+        "titl": "Posl. daň. odpis"
+      },
+      "datPoslUcetOdpis": {
+        "titl": "Posl. účet. odpis"
+      },
+      "datPuvZar": {
+        "titl": "Zařazeno"
+      },
+      "datVyr": {
+        "titl": "Vyřazeno"
+      },
+      "datZacDan": {
+        "titl": "Začátek\ndaň.odpisů"
+      },
+      "datZacUcet": {
+        "titl": "Začátek\núčet.odpisů"
+      },
+      "dobaOdp": {
+        "titl": "Doba odepisování [měsíc]"
+      },
+      "kod": {
+        "titl": "Inventární\nčíslo"
+      },
+      "odpisovaSkupina": {
+        "titl": "Odpis. skup.\ndaňová"
+      },
+      "odpisovaSkupinaSum": {
+        "titl": "Odpis. skup. daňová"
+      },
+      "pocetUcetnichOdpisu": {
+        "titl": "Počet úč.\nodpisů"
+      },
+      "sumPoslDanOdpis": {
+        "titl": "Posl. daň. odpis"
+      },
+      "sumPoslUcetOdpis": {
+        "titl": "Posl. účet. odpis"
+      },
+      "ucetniOdpisy": {
+        "titl": "Účet. odpis\ncelkový"
+      },
+      "ucetniOdpisyObdobi": {
+        "titl": "Účet. odpis\nza období"
+      },
+      "zustatekDanovy": {
+        "titl": "Daňový\nzůstatek"
+      },
+      "zustatekUcetni": {
+        "titl": "Účetní\nzůstatek"
+      }
+    },
+    "majetekStavKDatu$$SUM": {
+      "_title": {
+        "titl": "Přehled stavu majetku (se sumacemi za skupiny)"
+      }
+    },
+    "majetekWithSubreports": {
+      "_title": {
+        "titl": "Majetek (Daňové odpisy, Události, Účetní odpisy)"
+      },
+      "danoveAUcetniStejne": {
+        "titl": "Daňové odpisy jsou stejné jako účetní"
+      },
+      "kartaMajetku": {
+        "titl": "Karta majetku: "
+      },
+      "schvalilVyrazeni": {
+        "titl": "Schválil vyřazení"
+      },
+      "schvalilZarazeni": {
+        "titl": "Schválil zařazení"
+      }
+    },
+    "meny": {
+      "_title": {
+        "titl": "Měny"
+      }
+    },
+    "merJed": {
+      "_title": {
+        "titl": "Měrné jednotky"
+      }
+    },
+    "obalkaC5": {
+      "_title": {
+        "titl": "Adresa na obálku C5 (162x229mm)"
+      }
+    },
+    "obalkaC6": {
+      "_title": {
+        "titl": "Adresa na obálku C6 (114x162mm)"
+      }
+    },
+    "obalkaDL": {
+      "_title": {
+        "titl": "Adresa na obálku DL (110x220mm)"
+      }
+    },
+    "obchodDoklad": {
+      "_title": {
+        "titl": "Interní opis dokladu"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "celkemZakladniSazba": {
+        "titl": "Včetně DPH - základní sazba"
+      },
+      "ciziMena": {
+        "titl": "Měna"
+      },
+      "domaciMena": {
+        "titl": "Domácí měna"
+      },
+      "dphSnizenaSazba": {
+        "titl": "DPH - snížená sazba"
+      },
+      "dphZakladniSazba": {
+        "titl": "DPH - základní sazba"
+      },
+      "hotovo": {
+        "titl": "Hotovo"
+      },
+      "nakladyNaDoklad": {
+        "titl": "Náklady na doklad"
+      },
+      "odberatelDodavatel": {
+        "titl": "Odběratel / dodavatel"
+      },
+      "titleNAP": {
+        "titl": "Nabídka přijatá"
+      },
+      "titleNAV": {
+        "titl": "Nabídka vydaná"
+      },
+      "titleOBP": {
+        "titl": "Objednávka přijatá"
+      },
+      "titleOBV": {
+        "titl": "Objednávka vydaná"
+      },
+      "titlePPP": {
+        "titl": "Poptávka přijatá"
+      },
+      "titlePPV": {
+        "titl": "Poptávka vydaná"
+      },
+      "zakladOsvobozeno": {
+        "titl": "Osvobozeno nebo bez vlivu na DPH"
+      },
+      "zakladSnizenaSazba": {
+        "titl": "Základ - snížená sazba"
+      },
+      "zakladZakladniSazba": {
+        "titl": "Základ - základní sazba"
+      }
+    },
+    "obchodDoklad$$NES": {
+      "_title": {
+        "titl": "Interní opis dokladu (bez sumací)"
+      }
+    },
+    "obchodDokladVystupni": {
+      "_title": {
+        "titl": "Doklad pro klienta"
+      }
+    },
+    "obchodDokladVystupni$$BEZ": {
+      "_title": {
+        "titl": "Doklad pro klienta (bez cen)"
+      }
+    },
+    "obchodDokladVystupni$$NES": {
+      "_title": {
+        "titl": "Doklad pro klienta (bez sumací)"
+      }
+    },
+    "obchodDokladVystupni$$NES_BEZ_DPH": {
+      "_title": {
+        "titl": "Doklad pro klienta (bez dph, bez sumací)"
+      }
+    },
+    "obchodDokladVystupni$$SUM_BEZ_DPH": {
+      "_title": {
+        "titl": "Doklad pro klienta (bez dph)"
+      }
+    },
+    "obchodDokladVystupniOBP": {
+      "_title": {
+        "titl": "Doklad pro klienta"
+      },
+      "cisDosle": {
+        "titl": "Došlé číslo objednávky"
+      }
+    },
+    "obchodDokladVystupniOBP$$NES": {
+      "_title": {
+        "titl": "Doklad pro klienta (bez sumací)"
+      }
+    },
+    "obratyPocatky": {
+      "_title": {
+        "titl": "Počáteční stavy účtů"
+      }
+    },
+    "opisDokladu": {
+      "_title": {
+        "titl": "Opis dokladu"
+      }
+    },
+    "opravaSkladu": {
+      "_title": {
+        "titl": "Položky dostávající se do záporu"
+      },
+      "idPolSklad": {
+        "titl": "ID Položky skladového dokladu"
+      },
+      "idSkladKarty": {
+        "titl": "ID Skladové karty"
+      },
+      "pocetRozbiti": {
+        "titl": "Počet položek v záporu"
+      }
+    },
+    "penezniDenik": {
+      "_title": {
+        "titl": "Peněžní deník"
+      },
+      "castka": {
+        "titl": "Částka v %currency-symbol"
+      },
+      "doklad": {
+        "titl": "Číslo dokladu"
+      },
+      "prijem": {
+        "titl": "Příjem"
+      },
+      "vydej": {
+        "titl": "Výdej"
+      }
+    },
+    "poSplatnosti": {
+      "_title": {
+        "titl": "Neuhrazené pohledávky/závazky po splatnosti"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "celkemPoSplatnosti": {
+        "titl": "Celkem po splatnosti"
+      },
+      "datSplat": {
+        "titl": "Splatnost"
+      },
+      "datUcto": {
+        "titl": "Účtování"
+      },
+      "firma": {
+        "titl": "Firma"
+      },
+      "firmaNevyplnena": {
+        "titl": "Není vyplněna firma"
+      },
+      "kod": {
+        "titl": "Číslo dokladu"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Neuhrazené pohledávky po splatnosti"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Neuhrazené závazky po splatnosti"
+      },
+      "rozmezi": {
+        "titl": "%p až %p dní po splatnosti"
+      },
+      "rozmeziKonec": {
+        "titl": "%p a více dní po splatnosti"
+      },
+      "symbolSplatnosti.stav0": {
+        "titl": "Nejsou po splatnosti"
+      },
+      "symbolSplatnosti.stavZnevyplneno": {
+        "titl": "Splatnost není vyplněna"
+      },
+      "uhrazeno": {
+        "titl": "Uhrazeno"
+      },
+      "zbyva": {
+        "titl": "Zbývá"
+      }
+    },
+    "poSplatnostiDleDokladu": {
+      "_title": {
+        "titl": "Neuhrazené pohledávky/závazky dle splatnosti"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Neuhrazené pohledávky dle splatnosti"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Neuhrazené závazky dle splatnosti"
+      }
+    },
+    "poSplatnostiDleFirmy": {
+      "_title": {
+        "titl": "Neuhrazené pohledávky/závazky po splatnosti (dle firmy)"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Neuhrazené pohledávky po splatnosti (dle firmy)"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Neuhrazené závazky po splatnosti (dle firmy)"
+      }
+    },
+    "podaciListek": {
+      "_title": {
+        "titl": "Podací lístek"
+      }
+    },
+    "podkladyDPH": {
+      "MFin5401": {
+        "titl": "25 5401  MFin 5401 - vzor č. 14"
+      },
+      "bezDane": {
+        "titl": "Bez daně"
+      },
+      "castkaZaPlneni": {
+        "titl": "Částka za plnění"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "ctvrtleti": {
+        "titl": "čtvrtletí"
+      },
+      "dalsiUdaje": {
+        "titl": "Další údaje:"
+      },
+      "dan": {
+        "titl": "Daň"
+      },
+      "danNaVystupu": {
+        "titl": "Daň na výstupu"
+      },
+      "danoveIdentifikacniCislo": {
+        "titl": "Daňové identifikační číslo"
+      },
+      "datum": {
+        "titl": "Datum"
+      },
+      "dodaniProstrednikem": {
+        "titl": "Dodání zboží prostřední osobou"
+      },
+      "dodatecne": {
+        "titl": "dodatečné"
+      },
+      "doplnujiciUdaje": {
+        "titl": "Doplňující údaje"
+      },
+      "dph": {
+        "titl": "daň z přidané hodnoty"
+      },
+      "duvodyProDodatecne": {
+        "titl": "Důvody pro podání dodatečného\ndaňového přiznání zjištěny dne"
+      },
+      "financniUradPriznanouDanVymeril": {
+        "titl": "Finanční úřad přiznanou daň vyměřil/dodatečně vyměřil a předepsal podle § 46 zákona ČNR č. 337/1992 Sb., o správě daní a poplatků, ve znění"
+      },
+      "financnimuUradu": {
+        "titl": "Finančnímu úřadu v, ve, pro"
+      },
+      "fyzickaOsoba": {
+        "titl": "Fyzická osoba:"
+      },
+      "hlavniEkonomickaCinnost": {
+        "titl": "Hlavní ekonomická činnost"
+      },
+      "hodnota": {
+        "titl": "Hodnota"
+      },
+      "kDPH": {
+        "titl": "k dani z přidané hodnoty"
+      },
+      "keDni": {
+        "titl": "ke dni"
+      },
+      "koeficient": {
+        "titl": "Koeficient"
+      },
+      "kraceniRadek1": {
+        "titl": "Vypočtená poměrná část odpočtu daně (§ 76)"
+      },
+      "kraceniRadek2": {
+        "titl": "Vypořádání odpočtu daně (§ 76 odst 7-10)"
+      },
+      "kraceniRadek3": {
+        "titl": "Úprava odpočtu daně (§ 78)"
+      },
+      "kraceniRadek4": {
+        "titl": "Vyrovnání odpočtu daně (§ 79)"
+      },
+      "kraceniVyporadavaniUprava": {
+        "titl": "Krácení, vypořádávání, úprava a vyrovnání odpočtu daně"
+      },
+      "kracenyNarok": {
+        "titl": "Krácený nárok"
+      },
+      "kraj": {
+        "titl": "Kraj"
+      },
+      "narokNaOdpocet": {
+        "titl": "Nárok na odpočet daně z plnění za"
+      },
+      "nazevPravnickeOsoby": {
+        "titl": "Název právnické osoby"
+      },
+      "neplatceDane": {
+        "titl": "Neplátce daně § 19 / 5, 6, § 108"
+      },
+      "nezZacnete": {
+        "titl": "Než začnete vyplňovat tiskopis, přečtěte si, prosím, pokyny."
+      },
+      "odOsobNeregistrovanych": {
+        "titl": "Od osob neregistrovaných k dani v jiném členském státě (§ 19 odst. 4)"
+      },
+      "odOsobRegistrovanych": {
+        "titl": "Od osob registrovaných k dani v jiném členském státě (§ 19 odst. 3)"
+      },
+      "oddil": {
+        "titl": "ODDÍL"
+      },
+      "odpocetDane": {
+        "titl": "Odpočet daně"
+      },
+      "odpocetRadek1": {
+        "titl": "Přijatá zdanitelná plnění s místem plnění v tuzemsku"
+      },
+      "odpocetRadek7": {
+        "titl": "Při změně režimu"
+      },
+      "odpocetRadek8": {
+        "titl": "Celková suma pro krácení nároku na odpočet daně\n(ř. 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)"
+      },
+      "odpocetRadek9": {
+        "titl": "Celková suma plného nároku na odpočet daně\n(ř. 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)"
+      },
+      "oprava": {
+        "titl": "Oprava"
+      },
+      "opravne": {
+        "titl": "opravné"
+      },
+      "osobaIdentifikovanaKDani": {
+        "titl": "Osoba identifikovaná k dani § 96"
+      },
+      "osobaOpravnenaKPodpisu": {
+        "titl": "Osoba oprávněná k podpisu za daňový subjekt"
+      },
+      "otiskRazitka": {
+        "titl": "Otisk razítka"
+      },
+      "otiskRazitkaFU": {
+        "titl": "otisk prezentačního razítka finančního úřadu"
+      },
+      "platceDane": {
+        "titl": "Plátce daně § 94"
+      },
+      "plnyNarok": {
+        "titl": "Plný nárok"
+      },
+      "podpis": {
+        "titl": "Podpis"
+      },
+      "podpisOpravnenehoPracovnikaDPH": {
+        "titl": "Podpis oprávněného pracovníka správce daně"
+      },
+      "porizeniProstrednikem": {
+        "titl": "Pořízení zboží prostřední osobou"
+      },
+      "postaveniVzhledemKPravnickeOsobe": {
+        "titl": "U právnické osoby: postavení vzhledem k právnické osobě"
+      },
+      "povinnostPriznatDanZa": {
+        "titl": "Povinnost přiznat daň za"
+      },
+      "pozdejsichPredpisu": {
+        "titl": "pozdějších předpisů, dne"
+      },
+      "pravnickaOsoba": {
+        "titl": "Právnická osoba:"
+      },
+      "priznani": {
+        "titl": "PŘIZNÁNÍ"
+      },
+      "priznaniSestavil": {
+        "titl": "Přiznání sestavil"
+      },
+      "priznatRadek1": {
+        "titl": "Uskutečněná zdanitelná plnění s místem plnění v tuzemsku"
+      },
+      "priznatRadek2": {
+        "titl": "Pořízení zboží z jiného členského státu (§ 16 a § 17 odst. 6 písm. e); mimo § 19)"
+      },
+      "priznatRadek3": {
+        "titl": "Poskytnutí služby osobou registrovanou k dani v jiném členském státě (§ 15 a § 13 odst. 8)"
+      },
+      "priznatRadek4": {
+        "titl": "Zasílání zboží z jiného členského státu s místem plnění v tuzemsku (§ 18)"
+      },
+      "priznatRadek5": {
+        "titl": "Pořízení nového dopravního prostředku"
+      },
+      "priznatRadek6": {
+        "titl": "Dovoz zboží (§ 20)"
+      },
+      "priznatRadek7": {
+        "titl": "Poskytnutí služby zahraniční osobou povinnou k dani(§ 15 a § 13 odst. 8)"
+      },
+      "prohlaseni": {
+        "titl": "Prohlašuji, že všechny mnou uvedené údaje v tomto přiznání jsou pravdivé a úplné."
+      },
+      "proskrtneteNevzniklaDanovaPovinnost": {
+        "titl": "Proškrtněte (X) nevznikla-li daňová povinnost"
+      },
+      "radek": {
+        "titl": "ř."
+      },
+      "radne": {
+        "titl": "řádné"
+      },
+      "rok": {
+        "titl": "rok"
+      },
+      "sDani": {
+        "titl": "S daní"
+      },
+      "sSnizSazbou": {
+        "titl": "Se sníženou sazbou daně"
+      },
+      "sZklSazbou": {
+        "titl": "Se základní sazbou daně"
+      },
+      "sidloNeboBydliste": {
+        "titl": "Sídlo právnické osoby nebo trvalé bydliště fyzické osoby:"
+      },
+      "ulice": {
+        "titl": "Ulice a č. orientační (nebo část obce a č. popisné)"
+      },
+      "uskutecnenaCelkemRadek1": {
+        "titl": "Celková částka uskutečněných plnění s nárokem na odpočet daně (§ 72 odst. 2 písm. a) až d)"
+      },
+      "uskutecnenaCelkemRadek2": {
+        "titl": "Uskutečněná plnění, která se nezapočítávají do výpočtu koeficientu (§ 76 odst. 3) z uvedených v ř. 510"
+      },
+      "uskutecnenaCelkemRadek3": {
+        "titl": "Celková částka uskutečněných plnění osvobozených od daně bez nároku na odpočet daně (§ 51)"
+      },
+      "uskutecnenaCelkemRadek4": {
+        "titl": "Uskutečněná plnění, která se nezapočítávají do výpočtu koeficientu (§ 76 odst. 3) z uvedených v ř. 530"
+      },
+      "uskutecnenaPlneniCelkem": {
+        "titl": "Uskutečněná plnění celkem"
+      },
+      "uskutecnenaPlneniOsvobozena": {
+        "titl": "Uskutečněná plnění osvobozená od daně s nárokem na odpočet daně"
+      },
+      "uskutecnenaRadek1": {
+        "titl": "Dodání zboží do jiného členského státu (§ 64 mimo § 64 odst. 2 a § 17 odst. 2)"
+      },
+      "uskutecnenaRadek2": {
+        "titl": "Dodání nového dopravního prostředku do jiného členského státu (§ 64 odst. 2)\nosobě registrované k dani v členském státě"
+      },
+      "uskutecnenaRadek3": {
+        "titl": "Dodání nového dopravního prostředku do jiného členského státu (§ 64 odst. 2)\nosobě neregistrované k dani v členském státě"
+      },
+      "uskutecnenaRadek4": {
+        "titl": "Vývoz zboží (§ 66)"
+      },
+      "uskutecnenaRadek5": {
+        "titl": "Ostatní plnění osvobozená od daně s nárokem na odpočet daně"
+      },
+      "uvedeniHodnotyPriZjednoduseni": {
+        "titl": "Uvedení hodnoty při užití zjednodušeného postupu\npři dodání zboží uvnitř území Evropského společenství formou třístranného obchodu (§ 17)"
+      },
+      "vraceniDane": {
+        "titl": "Vrácení daně (§ 84)"
+      },
+      "vraceniDaneRadek1": {
+        "titl": "Vrácení daně"
+      },
+      "vypocetDaneRadek1": {
+        "titl": "Vypořádání daně na výstupu (§ 91)"
+      },
+      "vypocetDaneRadek2": {
+        "titl": "Daň na výstupu (ř. 210 + 215 + 220 + 225 + 230 + 235 + 240 + 245 + 250 + 255 + 260 + 265 + 270 + 275 - 600 + 710)"
+      },
+      "vypocetDaneRadek3": {
+        "titl": "Odpočet daně (ř. 390 + 550 + 560 + 570 + 580)"
+      },
+      "vypocetDaneRadek4": {
+        "titl": "Vlastní daňová povinnost (ř. 730 - 750)"
+      },
+      "vypocetDaneRadek5": {
+        "titl": "Nadměrný odpočet (ř. 750 - 730)"
+      },
+      "vypocetDaneRadek6": {
+        "titl": "Změna daňové povinnosti při podání dodatečného přiznání (ř. 730 - 750)"
+      },
+      "vypocetDanovePovinnosti": {
+        "titl": "Výpočet daňové povinnosti"
+      },
+      "zaObdobi": {
+        "titl": "Za zdaňovací období: měsíc"
+      },
+      "zakladDane": {
+        "titl": "Základ daně"
+      },
+      "zauctovanoVObdobi": {
+        "titl": "Zaúčtováno v období"
+      },
+      "zmenaOdpoctuDane": {
+        "titl": "Změna odpočtu daně"
+      }
+    },
+    "podkladyDph$$NES": {
+      "_title": {
+        "titl": "Podklady DPH dle data zaúčtování"
+      }
+    },
+    "podkladyDph$$SUM": {
+      "_title": {
+        "titl": "Podklady DPH"
+      }
+    },
+    "podkladyDphBezUctovani$$NES": {
+      "_title": {
+        "titl": "Podklady DPH dle data zaúčtování (seskupené)"
+      }
+    },
+    "podkladyDphBezUctovani$$SUM": {
+      "_title": {
+        "titl": "Podklady DPH (seskupené)"
+      }
+    },
+    "podkladyDphNaVysku$$SUMACE": {
+      "_title": {
+        "titl": "Podklady DPH (jen sumační řádky)"
+      }
+    },
+    "podkladyDphNaVyskuZRadku$$SUMACE": {
+      "_title": {
+        "titl": "Podklady DPH pro ostatní státy DPH (jen sumační řádky)"
+      }
+    },
+    "podkladyDphZRadku$$SUM": {
+      "_title": {
+        "titl": "Podklady DPH pro ostatní státy DPH"
+      }
+    },
+    "pohybyNaUctech": {
+      "_title": {
+        "titl": "Pohyby na účtech"
+      }
+    },
+    "pohybyNaUctechZjednodusene": {
+      "_title": {
+        "titl": "Inventura účtů"
+      },
+      "doklad": {
+        "titl": "Doklad"
+      },
+      "pocatek": {
+        "titl": "Počátek"
+      },
+      "sumTuzDal": {
+        "titl": "Obrat DAL [%currency-symbol]"
+      },
+      "sumTuzMd": {
+        "titl": "Obrat MD [%currency-symbol]"
+      },
+      "ucetDAL": {
+        "titl": "Účet DAL"
+      },
+      "ucetMD": {
+        "titl": "Účet MD"
+      },
+      "zustatek": {
+        "titl": "Zůstatek"
+      },
+      "zustatekTuz": {
+        "titl": "Zůstatek [%currency-symbol]"
+      }
+    },
+    "pohybyNaUctechZjednodusene$$SUM": {
+      "_title": {
+        "titl": "Pohyby na účtech - Inventura"
+      }
+    },
+    "pokDoklad": {
+      "_title": {
+        "titl": "Pokladní doklad"
+      },
+      "bezDane2": {
+        "titl": "DPH 0%"
+      },
+      "castkaSlovy": {
+        "titl": "Částka slovy"
+      },
+      "dan2": {
+        "titl": "DPH"
+      },
+      "dne": {
+        "titl": "Dne"
+      },
+      "podpisPokladnika": {
+        "titl": "Podpis pokladníka"
+      },
+      "prevzal": {
+        "titl": "Převzal"
+      },
+      "prijatoOd": {
+        "titl": "Přijato od"
+      },
+      "prijmovyDoklad": {
+        "titl": "Příjmový pokladní doklad"
+      },
+      "prijmovyDokladVratka": {
+        "titl": "Příjmový pokladní doklad - vratka"
+      },
+      "schvalil": {
+        "titl": "Schválil"
+      },
+      "soucet": {
+        "titl": "Součet"
+      },
+      "ucel": {
+        "titl": "Účel"
+      },
+      "vydejovyDoklad": {
+        "titl": "Výdajový pokladní doklad"
+      },
+      "vydejovyDokladVratka": {
+        "titl": "Výdajový pokladní doklad - vratka"
+      },
+      "vyplacenoKomu": {
+        "titl": "Vyplaceno komu"
+      },
+      "zaklad": {
+        "titl": "Základ"
+      },
+      "zauctoval": {
+        "titl": "Zaúčtoval"
+      }
+    },
+    "pokDoklad$$SUM_UHR_DOKL": {
+      "_title": {
+        "titl": "Pokladní doklad (s uhrazenými doklady)"
+      }
+    },
+    "pokDoklad$$SUM_ZAUCT": {
+      "_title": {
+        "titl": "Pokladní doklad (se zaúčtováním)"
+      }
+    },
+    "polozkyFaktur": {
+      "_title": {
+        "titl": "Analýza prodeje"
+      },
+      "idCenik": {
+        "titl": "Zboží"
+      },
+      "idFirmy": {
+        "titl": "Firma"
+      },
+      "idMistUrc": {
+        "titl": "Místo určení"
+      },
+      "idSkladu": {
+        "titl": "Sklad"
+      },
+      "idSkupCen": {
+        "titl": "Ceníková skupina"
+      },
+      "idSkupFir": {
+        "titl": "Skupina firem"
+      },
+      "idSkupZboz": {
+        "titl": "Skupina zboží"
+      },
+      "idStred": {
+        "titl": "Středisko"
+      },
+      "idZakazky": {
+        "titl": "Zakázka"
+      },
+      "idZodpOsoba": {
+        "titl": "Zodpovědná osoba z dokladu"
+      },
+      "idZodpOsobaAdresar": {
+        "titl": "Zodpovědná osoba z adresáře"
+      },
+      "procObchodniRozpeti": {
+        "titl": "% Rozpětí"
+      },
+      "procSumZkl": {
+        "titl": "% Celkem"
+      }
+    },
+    "polozkyFaktur$$NES": {
+      "_title": {
+        "titl": "Analýza prodeje (bez sumací)"
+      }
+    },
+    "polozkyFaktur$$NES_NAKUP": {
+      "_title": {
+        "titl": "Analýza nákupu (bez sumací)"
+      }
+    },
+    "polozkyFaktur$$SUM_NAKUP": {
+      "_title": {
+        "titl": "Analýza nákupu"
+      }
+    },
+    "postovniPodaciArch": {
+      "_title": {
+        "titl": "Poštovní podací arch"
+      }
+    },
+    "pplstitek": {
+      "_title": {
+        "titl": "PPL Etiketa (arch A4)"
+      },
+      "dobirka": {
+        "titl": "Dobírka:"
+      },
+      "dokladCislo": {
+        "titl": "Číslo dokladu:"
+      },
+      "email": {
+        "titl": "email: info@ppl.cz"
+      },
+      "expresnibalikovasluzba": {
+        "titl": "expresní balíková služba"
+      },
+      "flexibee": {
+        "titl": "ABRA Flexi"
+      },
+      "modralinka": {
+        "titl": "infolinka: 840 775 775"
+      },
+      "odesilatel": {
+        "titl": "Consignor/Odesilatel:"
+      },
+      "prijemce": {
+        "titl": "Consignee/Příjemce:"
+      },
+      "www": {
+        "titl": "http://www.ppl.cz"
+      }
+    },
+    "pplstitekJeden": {
+      "_title": {
+        "titl": "PPL Etiketa (jednotlivé, 102x126mm)"
+      }
+    },
+    "predvaha": {
+      "dal": {
+        "titl": "DAL"
+      },
+      "koncovyZustatek": {
+        "titl": "Koncový zůstatek"
+      },
+      "md": {
+        "titl": "MD"
+      },
+      "obratyZaObdobi": {
+        "titl": "Obraty za období"
+      },
+      "pocatecniZustatek": {
+        "titl": "Počáteční zůstatek"
+      },
+      "uctovaTrida": {
+        "titl": "Účtová třída"
+      }
+    },
+    "prehledSmluv": {
+      "_title": {
+        "titl": "Přehled smluv"
+      }
+    },
+    "prehledSmluv$$SUM_POL": {
+      "_title": {
+        "titl": "Přehled smluv (s výpisem položek)"
+      }
+    },
+    "prehled_a4$$FAP": {
+      "_title": {
+        "titl": "Seznam přijatých faktur (na výšku)"
+      }
+    },
+    "prijemkaVydejka": {
+      "_title": {
+        "titl": "Příjemka nebo výdejka"
+      },
+      "cisFak": {
+        "titl": "Číslo faktury"
+      },
+      "cislo": {
+        "titl": "číslo"
+      },
+      "maFakturu": {
+        "titl": "Má fakturu"
+      },
+      "prijemkaVydejkaUmisteni": {
+        "titl": "Příjemka nebo výdejka (s umístěním)"
+      },
+      "typPohybu.prijem": {
+        "titl": "Příjemka"
+      },
+      "typPohybu.vydej": {
+        "titl": "Výdejka"
+      },
+      "umisteni": {
+        "titl": "Umístění"
+      },
+      "vydal": {
+        "titl": "Vydal"
+      }
+    },
+    "prikazDoVyroby": {
+      "_title": {
+        "titl": "Příkaz do výroby"
+      },
+      "cisloPrikazu": {
+        "titl": "Číslo příkazu"
+      },
+      "datumVyhotoveni": {
+        "titl": "Datum vyhotovení"
+      },
+      "mezioperacniKontrola": {
+        "titl": "Mezioperační kontrola"
+      },
+      "ostatniSuroviny": {
+        "titl": "Ostatní suroviny a odůvodnění"
+      },
+      "sarze": {
+        "titl": "Šarže"
+      },
+      "skladVyrobku": {
+        "titl": "Sklad výrobků"
+      },
+      "uzavreni": {
+        "titl": "Uzavření"
+      },
+      "vystupniKontrola": {
+        "titl": "Výstupní kontrola"
+      },
+      "zamestnanci": {
+        "titl": "Zaměstnanci"
+      }
+    },
+    "priznaniDPH": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 14 (od 1.1.2008)"
+      }
+    },
+    "priznaniDPH2009": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 15 (od 1.1.2009)"
+      }
+    },
+    "priznaniDPH2009SK": {
+      "_title": {
+        "titl": "Přiznání DPH (Slovenský tiskopis)"
+      }
+    },
+    "priznaniDPH2010": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 16 (od 1.1.2010)"
+      }
+    },
+    "priznaniDPH2010SK": {
+      "_title": {
+        "titl": "Přiznání DPH 2010 - 01 (od 1.1.2010) (Slovenský tiskopis)"
+      }
+    },
+    "priznaniDPH2011": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 17 (od 1.1.2011)"
+      }
+    },
+    "priznaniDPH2011SK": {
+      "_title": {
+        "titl": "Přiznání DPH 2011 - 01 (od 1.1.2011) (Slovenský tiskopis)"
+      }
+    },
+    "priznaniDPH2012SK": {
+      "_title": {
+        "titl": "Přiznání DPH 2012 - 01 (od 1.1.2012) (Slovenský tiskopis)"
+      }
+    },
+    "priznaniDPH2013": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 18 (od 1.1.2013)"
+      }
+    },
+    "priznaniDPH2015": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 19 (od 1.1.2015)"
+      }
+    },
+    "priznaniDPH2016": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 20 (od 29.7.2016)"
+      }
+    },
+    "priznaniDPH2019": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 21 (od 01.05.2019)"
+      }
+    },
+    "priznaniDPH2021": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 23 (od 01.10.2021)"
+      }
+    },
+    "priznaniDPH2021SK": {
+      "_title": {
+        "titl": "Přiznání DPH 2021 (od 1.1.2021) (Slovenský tiskopis)"
+      }
+    },
+    "priznaniDPH2024": {
+      "_title": {
+        "titl": "Přiznání DPH vzor č. 24 (od 01.01.2024)"
+      }
+    },
+    "prodejka": {
+      "_title": {
+        "titl": "Zjednodušený daňový doklad"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      }
+    },
+    "prodejka60mm": {
+      "_title": {
+        "titl": "Zjednodušený daňový doklad (60mm)"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "celkemV": {
+        "titl": "Celkem v"
+      },
+      "datVyst": {
+        "titl": "Datum"
+      },
+      "duzp": {
+        "titl": "DUZP"
+      },
+      "mj": {
+        "titl": "MJ"
+      }
+    },
+    "prodejkaZaHotove": {
+      "_title": {
+        "titl": "Prodejka za hotové"
+      }
+    },
+    "prodejniPrehled": {
+      "_title": {
+        "titl": "Prodejní přehled"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "sumCelkem": {
+        "titl": "Celkem [%p]"
+      },
+      "sumDph": {
+        "titl": "DPH [%p]"
+      },
+      "sumZkl": {
+        "titl": "Základ [%p]"
+      },
+      "uhrazeno": {
+        "titl": "Uhrazeno"
+      }
+    },
+    "pruvodka": {
+      "_title": {
+        "titl": "Průvodka"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "kBAN": {
+        "titl": "Bankovního dokladu"
+      },
+      "kFAP": {
+        "titl": "Přijaté faktury"
+      },
+      "kFAV": {
+        "titl": "Vydané faktury"
+      },
+      "kINT": {
+        "titl": "Interního dokladu"
+      },
+      "kPHL": {
+        "titl": "Pohledávky"
+      },
+      "kPOK": {
+        "titl": "Pokladního dokladu"
+      },
+      "kSKL": {
+        "titl": "Skladového dokladu"
+      },
+      "kZAV": {
+        "titl": "Závazku"
+      },
+      "kZapoctu": {
+        "titl": "Vzájemného zápočtu"
+      },
+      "rekapitulaceDph": {
+        "titl": "Rekapitulace DPH"
+      },
+      "sazbaDph": {
+        "titl": "Sazba DPH"
+      },
+      "suma": {
+        "titl": "Součet"
+      },
+      "ucetDal": {
+        "titl": "Účet Dal"
+      },
+      "ucetMD": {
+        "titl": "Účet MD"
+      },
+      "uctovani": {
+        "titl": "Účtování"
+      },
+      "zdanitelnePlneni": {
+        "titl": "Zdanitelné plnění"
+      }
+    },
+    "radkySestavy": {
+      "rozsahPredSestavy": {
+        "titl": "Předcházející období od:"
+      },
+      "rozsahSestavy": {
+        "titl": "Za období od:"
+      },
+      "rozsahSestavyDo": {
+        "titl": "do:"
+      }
+    },
+    "rady": {
+      "_title": {
+        "titl": "Dokladové řady"
+      }
+    },
+    "rozvaha": {
+      "_title": {
+        "titl": "Rozvaha v plném rozsahu"
+      },
+      "bilance": {
+        "titl": "(bilance)"
+      },
+      "doDne": {
+        "titl": "do"
+      },
+      "keDni": {
+        "titl": "ke dni"
+      },
+      "nazevASidloUcetniJednotky": {
+        "titl": "Sídlo, bydliště nebo místo\npodnikání účetní jednotky"
+      },
+      "obchodniFirma": {
+        "titl": "Obchodní firma nebo jiný\nnázev účetní jednotky"
+      },
+      "odDne": {
+        "titl": "od"
+      },
+      "okamzikSestaveni": {
+        "titl": "Okamžik sestavení"
+      },
+      "podpisOrganu": {
+        "titl": "Podpisový záznam statutárního orgánu nebo fyzické osoby, která je účetní jednotkou"
+      },
+      "podpisOsoby": {
+        "titl": "Podpisový záznam osoby odpovědné za sestavení účetní uzávěrky"
+      },
+      "pravniFormaUcetniJednotky": {
+        "titl": "Právní forma účetní jednotky"
+      },
+      "predmetPodnikani": {
+        "titl": "Předmět podnikání nebo jiné činnosti"
+      },
+      "rozvaha": {
+        "titl": "Rozvaha"
+      },
+      "schvalenoMFCR": {
+        "titl": "Zpracované v souladu s vyhláškou č. 500/2002\nSb. ve znění pozdějších předpisů"
+      },
+      "schvalenoMFCRnezisk": {
+        "titl": "Zpracované v souladu s vyhláškou č. 504/2002\nSb. ve znění pozdějších předpisů"
+      },
+      "schvalenoMFCRprispevk": {
+        "titl": "Zpracované v souladu s vyhláškou č. 505/2002\nSb. ve znění pozdějších předpisů"
+      },
+      "schvalenoMFCRprispevk2010": {
+        "titl": "Zpracované v souladu s vyhláškou č. 410/2009\nSb. ve znění pozdějších předpisů"
+      },
+      "schvalenoMFCRslovaci": {
+        "titl": "Zpracované v souladu s vyhláškou č. 500/2002\nSb. ve znění pozdějších předpisů"
+      },
+      "vKC": {
+        "titl": "(v celých tisících %currency-symbol)"
+      },
+      "zakladniVerze": {
+        "titl": "v základním rozsahu"
+      },
+      "zjednodusenaVerze": {
+        "titl": "ve zjednodušeném rozsahu"
+      },
+      "zkracenaVerze": {
+        "titl": "ve zkráceném rozsahu"
+      }
+    },
+    "rozvaha$$SUM": {
+      "_title": {
+        "titl": "Rozvaha ve zjednodušeném rozsahu"
+      }
+    },
+    "rozvaha$$SUM_ZAKL": {
+      "_title": {
+        "titl": "Rozvaha v základním rozsahu"
+      }
+    },
+    "rozvahaPoUctechObraty": {
+      "_title": {
+        "titl": "Soupis aktiv a pasiv (obraty)"
+      }
+    },
+    "rozvahaPoUctechStavy": {
+      "_title": {
+        "titl": "Soupis aktiv a pasiv (zůstatky)"
+      }
+    },
+    "rozvahaVysledovkaPoUctech": {
+      "aktiva": {
+        "titl": "Aktiva"
+      },
+      "konecnyZustatek": {
+        "titl": "Konečný zůstatek"
+      },
+      "naklady": {
+        "titl": "Náklady"
+      },
+      "pasiva": {
+        "titl": "Pasiva"
+      },
+      "soucet": {
+        "titl": "Celkem"
+      },
+      "uctovaTrida": {
+        "titl": "Účt. tř."
+      },
+      "vynosy": {
+        "titl": "Výnosy"
+      },
+      "vysledek": {
+        "titl": "Výsledek"
+      }
+    },
+    "saldo": {
+      "_title": {
+        "titl": "Saldo"
+      }
+    },
+    "saldo$$GRUP": {
+      "_title": {
+        "titl": "Saldo (seskupené)"
+      }
+    },
+    "saldoNaVysku": {
+      "_title": {
+        "titl": "Saldo (na výšku)"
+      }
+    },
+    "saldoNaVysku$$GRUP": {
+      "_title": {
+        "titl": "Saldo (na výšku, seskupené)"
+      }
+    },
+    "sesRadky": {
+      "_title": {
+        "titl": "Řádky sestavy"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$BEZ_ROZPADU": {
+      "_title": {
+        "titl": "Řádky sestavy"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$ROZPAD_PREDPIS": {
+      "_title": {
+        "titl": "Řádky sestavy (Standardní předpis, Uživatelský předpis)"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$ROZPAD_UCET": {
+      "_title": {
+        "titl": "Řádky sestavy (Rozpad na účty)"
+      }
+    },
+    "sesRadkyRozpadUce": {
+      "_title": {
+        "titl": "Řádky sestavy (Rozpad na účty)"
+      }
+    },
+    "sesRadkyStdPred": {
+      "_title": {
+        "titl": "Řádky sestavy (Standardní předpis, Uživatelský předpis)"
+      }
+    },
+    "sestavy": {
+      "_title": {
+        "titl": "Účetní sestavy"
+      }
+    },
+    "sklPol$$SKL": {
+      "_title": {
+        "titl": "Seznam skladových pohybů"
+      }
+    },
+    "sklRezervace": {
+      "_title": {
+        "titl": "Seznam rezervací"
+      }
+    },
+    "sklVyrCis": {
+      "_title": {
+        "titl": "Seznam výrobních čísel"
+      }
+    },
+    "skladKarty": {
+      "_title": {
+        "titl": "Přehled skladových karet"
+      },
+      "cenaTuz": {
+        "titl": "Cena [%currency-symbol]"
+      },
+      "poslCenaTuz": {
+        "titl": "Poslední"
+      },
+      "prumCenaTuz": {
+        "titl": "Průměrná"
+      },
+      "stav": {
+        "titl": "Stav zásob"
+      },
+      "stavMJ": {
+        "titl": "v MJ"
+      },
+      "stavMen": {
+        "titl": "[měna]"
+      },
+      "stavTuz": {
+        "titl": "[%currency-symbol]"
+      },
+      "sumPrijem": {
+        "titl": "Příjem:"
+      },
+      "sumVydej": {
+        "titl": "Výdej:"
+      }
+    },
+    "skladKarty$$SKL$$NES": {
+      "_title": {
+        "titl": "Přehled skladových karet (s pohyby)"
+      }
+    },
+    "skladKarty$$SKL$$NES_STR": {
+      "_title": {
+        "titl": "Přehled skladových karet (s pohyby, stránkovaný)"
+      }
+    },
+    "skladKartyInventura": {
+      "_title": {
+        "titl": "Inventurní soupis zboží"
+      },
+      "naSklade": {
+        "titl": "Skutečný stav"
+      }
+    },
+    "skladKartyInventura$$NES": {
+      "_title": {
+        "titl": "Inventurní soupis zboží (bez stavů)"
+      }
+    },
+    "skupFir": {
+      "_title": {
+        "titl": "Skupiny firem"
+      }
+    },
+    "skupZboz": {
+      "_title": {
+        "titl": "Skupiny zboží"
+      }
+    },
+    "slozenkaA": {
+      "_title": {
+        "titl": "Poštovní dobírková poukázka A"
+      }
+    },
+    "smerKod": {
+      "_title": {
+        "titl": "Kódy bank"
+      }
+    },
+    "souhrnneHlaseni": {
+      "_title": {
+        "titl": "Souhrnné hlášení (platné do 2009)"
+      }
+    },
+    "souhrnnyVykazOPrijmechAVydajich": {
+      "_title": {
+        "titl": "Souhrnný výkaz o příjmech a výdajích"
+      },
+      "danEvidSkupina.nespadaCelkem": {
+        "titl": "Nespadá do j. ú. celkem"
+      },
+      "danEvidSkupina.nevyplnenoCelkem": {
+        "titl": "Nevyplněno celkem"
+      },
+      "danEvidSkupina.ostatniCelkem": {
+        "titl": "Ostatní celkem"
+      },
+      "danEvidSkupina.prijemCelkem": {
+        "titl": "Příjmy celkem"
+      },
+      "danEvidSkupina.vydejCelkem": {
+        "titl": "Výdaje celkem"
+      },
+      "nevyplneno": {
+        "titl": "Nevyplněno"
+      },
+      "rozdilPrijemVydej": {
+        "titl": "Rozdíl příjmů a výdajů"
+      }
+    },
+    "stavSkladu": {
+      "_title": {
+        "titl": "Stav skladu k datu"
+      }
+    },
+    "stavyHlavniKniha": {
+      "_title": {
+        "titl": "Hlavní kniha (souhrnné obraty za měsíc)"
+      }
+    },
+    "stavyUctu": {
+      "Dal": {
+        "titl": "Dal"
+      },
+      "Md": {
+        "titl": "Má dáti"
+      },
+      "_title": {
+        "titl": "Stavy účtů"
+      },
+      "obrat": {
+        "titl": "Obrat"
+      },
+      "zaUcetObdobi": {
+        "titl": "Za účetní období"
+      },
+      "zustatek": {
+        "titl": "Zůstatek"
+      }
+    },
+    "stavyUctuPocatky": {
+      "_title": {
+        "titl": "Počáteční stavy účtů - kontrolní tisk"
+      }
+    },
+    "stitky": {
+      "_title": {
+        "titl": "Regálové štítky (70x30 mm)"
+      },
+      "za": {
+        "titl": "za"
+      }
+    },
+    "strediska": {
+      "_title": {
+        "titl": "Střediska"
+      }
+    },
+    "typDoklSkl$$SKL": {
+      "_title": {
+        "titl": "Seznam typů skladových dokladů"
+      }
+    },
+    "typLeasingu": {
+      "_title": {
+        "titl": "Typy leasingů"
+      }
+    },
+    "typUcetOp": {
+      "_title": {
+        "titl": "Seznam předpisů zaúčtování"
+      }
+    },
+    "ucetniDenik": {
+      "_title": {
+        "titl": "Účetní deník"
+      }
+    },
+    "ucetniObdobi": {
+      "_title": {
+        "titl": "Účetní období"
+      }
+    },
+    "ucetniOsnova": {
+      "_title": {
+        "titl": "Účetní osnova"
+      }
+    },
+    "ucetniRozvrh": {
+      "_title": {
+        "titl": "Účtový rozvrh"
+      }
+    },
+    "uhrazeneDoklady": {
+      "_title": {
+        "titl": "Uhrazené doklady"
+      },
+      "castka": {
+        "titl": "Částka"
+      },
+      "sumCelkem": {
+        "titl": "Celkem"
+      },
+      "zbyvaSparovat": {
+        "titl": "Zbývá spárovat"
+      },
+      "zbyvaUhradit": {
+        "titl": "Zbývá uhradit"
+      }
+    },
+    "upominka": {
+      "_title": {
+        "titl": "Upomínka"
+      },
+      "adresaDodavatele": {
+        "titl": "Adresa dodavatele:"
+      }
+    },
+    "uzaverkoveOperace": {
+      "_title": {
+        "titl": "Uzávěrkové operace"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "mezisoucetObratu": {
+        "titl": "Mezisoučet obratů"
+      },
+      "zisk": {
+        "titl": "Zisk 710 / 702"
+      },
+      "ztrata": {
+        "titl": "Ztráta 702 / 710"
+      }
+    },
+    "vykazCenPohyby": {
+      "_title": {
+        "titl": "Nákupní, prodejní a skladové pohyby"
+      },
+      "sumCelkemFAP": {
+        "titl": "Faktury přijaté"
+      },
+      "sumCelkemFAV": {
+        "titl": "Faktury vydané"
+      },
+      "sumCelkemPOKPrijem": {
+        "titl": "Pokladna - příjem"
+      },
+      "sumCelkemPOKVydej": {
+        "titl": "Pokladna - výdej"
+      },
+      "sumCelkemSKLPrijem": {
+        "titl": "Sklad - příjem"
+      },
+      "sumCelkemSKLVydej": {
+        "titl": "Sklad - výdej"
+      }
+    },
+    "vykazDanEvidSK": {
+      "_title": {
+        "titl": "Položkový výkaz o příjmech a výdajích"
+      }
+    },
+    "vykazHospodareni": {
+      "_title": {
+        "titl": "Výkaz hospodaření"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "rok": {
+        "titl": "Rok"
+      },
+      "vykazHospodareniZa": {
+        "titl": "Výkaz hospodaření za měsíc"
+      },
+      "zahrnovany": {
+        "titl": "zahrnované"
+      },
+      "ziskZtrata": {
+        "titl": "Zisk (+), ztráta (-)"
+      }
+    },
+    "vykazMossPrehled": {
+      "_title": {
+        "titl": "Daňové přiznání MOSS (přehled)"
+      }
+    },
+    "vysledovka": {
+      "vysledovka": {
+        "titl": "Výkaz zisku a ztráty"
+      }
+    },
+    "vysledovka$$NES": {
+      "_title": {
+        "titl": "Výkaz zisku a ztráty v plném rozsahu"
+      }
+    },
+    "vysledovka$$SUM": {
+      "_title": {
+        "titl": "Výkaz zisku a ztráty ve zjednodušeném rozsahu"
+      }
+    },
+    "vysledovka$$SUM_ZAKL": {
+      "_title": {
+        "titl": "Výkaz zisku a ztráty v základním rozsahu"
+      }
+    },
+    "vysledovkaPoUctechObraty": {
+      "_title": {
+        "titl": "Soupis nákladů a výnosů (obraty)"
+      }
+    },
+    "vysledovkaPoUctechStavy": {
+      "_title": {
+        "titl": "Soupis nákladů a výnosů (zůstatky)"
+      }
+    },
+    "zapocetPohledavek": {
+      "_title": {
+        "titl": "Dohoda o vzájemném zápočtu pohledávek"
+      },
+      "a": {
+        "titl": "a"
+      },
+      "celkemZapocteno": {
+        "titl": "Celkem započteno:"
+      },
+      "cisDokl": {
+        "titl": "Doklad"
+      },
+      "cisloZapoctu": {
+        "titl": "Číslo zápočtu"
+      },
+      "datSplat": {
+        "titl": "Splatnost"
+      },
+      "datVyst": {
+        "titl": "Vystaveno"
+      },
+      "dohoda": {
+        "titl": "Dohoda o vzájemném započtení pohledávek"
+      },
+      "obeStrany": {
+        "titl": "Obě strany se ke dni %p dohodly na vzájemném zápočtu částky %p %p."
+      },
+      "podleParagrafu": {
+        "titl": "podle §364 Obchodního zákoníku a §580 Občanského zákoníku"
+      },
+      "podleParagrafu1982": {
+        "titl": "podle §1982 Občanského zákoníku"
+      },
+      "pohledavka": {
+        "titl": "pohledávka firmy %p za firmu %p:"
+      },
+      "potvrzenouKopii": {
+        "titl": "Potvrzenou kopii zašlete, prosím, zpět na naši adresu."
+      },
+      "seDohodli": {
+        "titl": "uzavírají dohodu o vzájemném zápočtu níže uvedených pohledávek a závazků"
+      },
+      "sumCelkem": {
+        "titl": "Fakturováno"
+      },
+      "varSym": {
+        "titl": "VS"
+      },
+      "za": {
+        "titl": "za %p"
+      },
+      "zapocteno": {
+        "titl": "Započteno"
+      },
+      "zavazek": {
+        "titl": "závazek firmy %p vůči firmě %p:"
+      },
+      "zbyvaUhradit": {
+        "titl": "Zbývá uhradit"
+      }
+    },
+    "zapocetPohledavekJednostranny": {
+      "_title": {
+        "titl": "Jednostranný zápočet pohledávek"
+      },
+      "dohoda": {
+        "titl": "Jednostranný zápočet pohledávek a závazků"
+      },
+      "podleParagrafu": {
+        "titl": "podle §364-368 Obchodního zákoníku a §580-581 Občanského zákoníku"
+      },
+      "podleParagrafu1982": {
+        "titl": "podle §1982 Občanského zákoníku"
+      },
+      "sPozdravem": {
+        "titl": "S pozdravem"
+      },
+      "sdelujemeVam": {
+        "titl": "Sdělujeme Vám, že ke dni %p započítáváme níže uvedené pohledávky a závazky:"
+      },
+      "vSidloOrganizaceDne": {
+        "titl": "V %p dne %p."
+      }
+    },
+    "zapujcky": {
+      "_title": {
+        "titl": "Majetek - zápůjčky"
+      }
+    },
+    "zebraStitkyMaster$$NES": {
+      "_title": {
+        "titl": "Štítky (Zebra, 50x30mm, pro kus na položce dokladu)"
+      }
+    },
+    "zebraStitkyMaster$$SUM": {
+      "_title": {
+        "titl": "Štítky (Zebra, 50x30mm, pro položku dokladu)"
+      }
+    },
+    "zebraStitkyMaster$$cenAkt$$SUM": {
+      "_title": {
+        "titl": "Regálové štítky (Zebra, 50x30mm)"
+      }
+    }
+  }
+}

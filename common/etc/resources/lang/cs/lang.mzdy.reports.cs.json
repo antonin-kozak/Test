@@ -1,0 +1,505 @@
+{
+  "reports": {
+    "5457_26": {
+      "_title": {
+        "titl": "Prohlášení poplatníka daně z příjmů fyzických osob ze závislé činnosti (vzor číslo 26)"
+      }
+    },
+    "5457_27$$NES": {
+      "_title": {
+        "titl": "Prohlášení poplatníka daně z příjmů fyzických osob ze závislé činnosti (vzor číslo 27)"
+      }
+    },
+    "5457_B": {
+      "_title": {
+        "titl": "Žádost o roční zúčtování záloh a daňového zvýhodnění (vzor číslo 2)"
+      }
+    },
+    "5457_B_v3": {
+      "_title": {
+        "titl": "Žádost o roční zúčtování záloh a daňového zvýhodnění (vzor číslo 3)"
+      }
+    },
+    "cerpaniDovolene": {
+      "_title": {
+        "titl": "Čerpání dovolené"
+      }
+    },
+    "dovolena": {
+      "_title": {
+        "titl": "Dovolená"
+      }
+    },
+    "finPodkladyDan": {
+      "_title": {
+        "titl": "Podklady pro vyúčtování zálohové daně z příjmu ze závislé činnosti"
+      },
+      "bonus": {
+        "titl": "Bonus"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "opravaBonusu": {
+        "titl": "Oprava bonusu"
+      },
+      "opravaDane": {
+        "titl": "Oprava daně"
+      },
+      "pocetZamestnancu": {
+        "titl": "Počet zaměstnanců"
+      },
+      "vyuctovaniPredchoziho": {
+        "titl": "Vyúčtování předchozího"
+      },
+      "zaRok": {
+        "titl": "za rok"
+      },
+      "zalohovaDan": {
+        "titl": "Zálohová daň"
+      }
+    },
+    "finPodkladyDanSrazka": {
+      "_title": {
+        "titl": "Podklady pro vyúčtování srážkové daně ze závislé činnosti"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "opravaDane": {
+        "titl": "Oprava daně"
+      },
+      "srazkovaDan": {
+        "titl": "Srážková daň"
+      }
+    },
+    "finPrehledDan": {
+      "_title": {
+        "titl": "Přehled daní z příjmu - zálohová daň"
+      },
+      "danovyZaklad": {
+        "titl": "Základ daně"
+      },
+      "rezidentDan": {
+        "titl": "Daň rezident"
+      },
+      "srazkovaDan": {
+        "titl": "Srážková daň"
+      },
+      "zalohovaDan": {
+        "titl": "Zálohová daň"
+      }
+    },
+    "finPrehledDanSrazka": {
+      "_title": {
+        "titl": "Přehled daní z příjmu - srážková daň"
+      }
+    },
+    "mzdSlozVstupAVybery": {
+      "_title": {
+        "titl": "Přehled mzdových složek (vstup a výběry)"
+      }
+    },
+    "neodpracDobaNemocPojist": {
+      "_title": {
+        "titl": "Neodpracovaná doba - nemocenské pojištění"
+      }
+    },
+    "nepritomnost": {
+      "castMzd": {
+        "titl": "Částka"
+      },
+      "cisSlozky": {
+        "titl": "Číslo složky"
+      },
+      "datumDo": {
+        "titl": "Datum do"
+      },
+      "datumOd": {
+        "titl": "Datum od"
+      },
+      "dnyKalen": {
+        "titl": "Dny kalen."
+      },
+      "dnyPrac": {
+        "titl": "Dny prac."
+      },
+      "hlavicka": {
+        "titl": "Důchod, invalidita, vynětí z evidence \nDávky nemocenského pojištění \nDovolená, ostatní neodpracovaná doba"
+      },
+      "hodiny": {
+        "titl": "Hodiny"
+      },
+      "vymerZakl": {
+        "titl": "Vyměř. základ"
+      }
+    },
+    "pracPravPrumer": {
+      "_title": {
+        "titl": "Přehled pracovněprávních průměrů"
+      }
+    },
+    "pracovniPomery": {
+      "_title": {
+        "titl": "Pracovní poměry"
+      }
+    },
+    "prehledMzdSlozek": {
+      "_title": {
+        "titl": "Přehled mzdových složek"
+      },
+      "pocetPolozek": {
+        "titl": "Počet"
+      }
+    },
+    "prehledZamestnancu": {
+      "_title": {
+        "titl": "Přehled zaměstnanců"
+      }
+    },
+    "prepPocZam": {
+      "_title": {
+        "titl": "Přepočtený počet zaměstnanců"
+      }
+    },
+    "socPojOdpovednosti": {
+      "_title": {
+        "titl": "Zákonné pojištění odpovědnosti organizace"
+      }
+    },
+    "socPrehledPoj": {
+      "_title": {
+        "titl": "Přehled sociálního pojištění"
+      },
+      "celkem": {
+        "titl": "Celkem"
+      },
+      "firma": {
+        "titl": "Firma"
+      },
+      "pracovniPomery": {
+        "titl": "Pracovní poměry"
+      },
+      "pracovnik": {
+        "titl": "Pracovník"
+      },
+      "prispKar": {
+        "titl": "Přísp. kar."
+      },
+      "slevaSp": {
+        "titl": "Sleva SP"
+      },
+      "zaklad": {
+        "titl": "Základ"
+      }
+    },
+    "socPrehledSlevaSp": {
+      "_title": {
+        "titl": "Přehled pro slevu SP za firmu pro krácené úvazky"
+      },
+      "duvod": {
+        "titl": "Důvod slevy"
+      },
+      "hodMzda": {
+        "titl": "Částka/hodina"
+      },
+      "mesMzda": {
+        "titl": "Částka/měsíc"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "pocetHodin": {
+        "titl": "Hodin/měsíc"
+      },
+      "podmHodMzda": {
+        "titl": "Podm. částka hod."
+      },
+      "podmMesMzda": {
+        "titl": "Podm. částka měsíc"
+      },
+      "podmPocetHodin": {
+        "titl": "Podm. počet hodin"
+      },
+      "podmSplneny": {
+        "titl": "Sleva uplatněna"
+      },
+      "stropHodinMesic": {
+        "titl": "Limit hodin/měsíc"
+      }
+    },
+    "vycetkaPlatidel": {
+      "_title": {
+        "titl": "Výčetka platidel"
+      },
+      "castka": {
+        "titl": "Částka"
+      }
+    },
+    "vyplatniPaska": {
+      "_title": {
+        "titl": "Výplatní páska"
+      },
+      "pojisteni": {
+        "titl": "Pojištění"
+      },
+      "pojistne": {
+        "titl": "Pojistné"
+      },
+      "prehledSlozekCastkaMzdy": {
+        "titl": "[%currency-symbol]"
+      },
+      "prehledSlozekDny": {
+        "titl": "[Dny]"
+      },
+      "prehledSlozekHodiny": {
+        "titl": "[Hod]"
+      },
+      "prehledSlozekZaklad": {
+        "titl": "Základ"
+      },
+      "prijmeniJmenoATitul": {
+        "titl": "Příjmení, jméno a titul"
+      },
+      "shrnuti": {
+        "titl": "Shrnutí"
+      },
+      "zdravotniPojistovna": {
+        "titl": "Zdravotní pojišťovna"
+      }
+    },
+    "vypocetPrepPocZam": {
+      "_title": {
+        "titl": "Výpočet přepočteného počtu zaměstnanců"
+      },
+      "do": {
+        "titl": "do"
+      },
+      "hodFond": {
+        "titl": "Fond prac. doby [hod]"
+      },
+      "hodZapoc": {
+        "titl": "Započtené hodiny"
+      },
+      "hodZapocDovolena": {
+        "titl": "Započ. dovolená"
+      },
+      "hodZapocNemoc": {
+        "titl": "Započ. nemoc"
+      },
+      "hodZapocOdpracovano": {
+        "titl": "Započ. odprac."
+      },
+      "hodZapocPrekazky": {
+        "titl": "Započ. překážky"
+      },
+      "hodZapocVolnoPlacene": {
+        "titl": "Započ. volno placené"
+      },
+      "obdobi": {
+        "titl": "Za období"
+      },
+      "od": {
+        "titl": "od"
+      },
+      "poZaokrouhleni": {
+        "titl": "Po zaokrouhlení:"
+      },
+      "prepPocZam": {
+        "titl": "Přep. počet zam."
+      },
+      "prepPocZamZtp": {
+        "titl": "Přep. počet zam. ZTP"
+      },
+      "vzorecekVypoctu": {
+        "titl": "Přepočtený počet zaměstnanců se počítá jako \"započteno\\fond\".\nDo započtených hodin se započítávají tyto složky: %slozkyVsechny%.\nDo \"Započ. odprac.\" spadá: %slozkyOdprac%. Do \"Započ. dovolená\" spadá %slozkyDovol%.\nDo \"Započ. nemoc\" spadá: %slozkyNemoc%.\nDo \"Započ. volno placené\" spadá: %slozkyVolnoPlac%. Do \"Započ. překážky\" spadá: %slozkyPrekazky%.\nZahrnují se tyto pracovní poměry: %zahrnovanePP%."
+      }
+    },
+    "zamMzdovyList": {
+      "_title": {
+        "titl": "Mzdový list"
+      },
+      "deti": {
+        "titl": "Děti"
+      },
+      "detiJmeno": {
+        "titl": "Jméno, příjmení"
+      },
+      "detiRC": {
+        "titl": "Rodné číslo"
+      },
+      "detiSleva": {
+        "titl": "Sleva na dítě"
+      },
+      "detiSleva1": {
+        "titl": "1. dítě (%p Kč/měsíc)"
+      },
+      "detiSleva1Min": {
+        "titl": "1. dítě (%p Kč/měsíc; %p Kč/měsíc do platnosti zákona %p Sb.)"
+      },
+      "detiSleva2": {
+        "titl": "2. dítě (%p Kč/měsíc)"
+      },
+      "detiSleva2Min": {
+        "titl": "2. dítě (%p Kč/měsíc; %p Kč/měsíc do platnosti zákona %p Sb.)"
+      },
+      "detiSleva3": {
+        "titl": "Další dítě (%p Kč/měsíc)"
+      },
+      "detiSleva3Min": {
+        "titl": "Další dítě (%p Kč/měsíc; %p Kč/měsíc do platnosti zákona %p Sb.)"
+      },
+      "detiZTP": {
+        "titl": "ZTP"
+      },
+      "dite": {
+        "titl": "dítě"
+      },
+      "do": {
+        "titl": "do"
+      },
+      "invalidita": {
+        "titl": "Invalidita"
+      },
+      "nepBenefity": {
+        "titl": "Nepeněžní benefity"
+      },
+      "nezRodCis": {
+        "titl": "Rodné číslo partnera"
+      },
+      "od": {
+        "titl": "od"
+      },
+      "odpracovanaDoba": {
+        "titl": "Odpracovaná doba"
+      },
+      "prechodnaAdresa": {
+        "titl": "Přechodná adresa"
+      },
+      "prispevky": {
+        "titl": "Příspěvky"
+      },
+      "rodneJmeno": {
+        "titl": "Rodné jméno"
+      },
+      "rok": {
+        "titl": "Rok"
+      },
+      "spFirmaSniz": {
+        "titl": "Sociální poj. firma snížené"
+      },
+      "spolecneProPomery": {
+        "titl": "Společné pro všechny pracovní poměry"
+      },
+      "trvalaAdresa": {
+        "titl": "Trvalá adresa"
+      },
+      "uplatnenaSlevaNaDeti": {
+        "titl": "Uplatněná sleva na děti"
+      },
+      "vetaVypocetDane": {
+        "titl": "V případě provedení vyúčtování daně z příjmu ze závislé činnosti je nedílnou součástí mzdového listu tiskopis Výpočet daně a daňového zvýhodnění."
+      },
+      "vsSocPoj": {
+        "titl": "VS Soc. pojišťovny"
+      },
+      "zalohaNaDanPoSleve": {
+        "titl": "Záloha na daň po slevě"
+      },
+      "zalohaNaDanPoZvyhodneni": {
+        "titl": "Záloha na daň po zvýhodnění"
+      },
+      "zamestnance": {
+        "titl": "Zaměstnance"
+      },
+      "zdravotniPojistovna": {
+        "titl": "Zdravotní pojišťovna"
+      }
+    },
+    "zamPodpisArch": {
+      "_title": {
+        "titl": "Výplata mezd - Podpisový arch"
+      },
+      "datumPodpisu": {
+        "titl": "Datum podpisu"
+      },
+      "dobirka": {
+        "titl": "Dobírka"
+      },
+      "odpracovanoDnu": {
+        "titl": "Odpracováno dnů"
+      },
+      "odpracovanoHodin": {
+        "titl": "Odpracováno hodin"
+      },
+      "podpis": {
+        "titl": "Podpis"
+      },
+      "srazky": {
+        "titl": "Srážky"
+      },
+      "zaloha": {
+        "titl": "Záloha"
+      },
+      "zalohaMimoradna": {
+        "titl": "Záloha mimořádná"
+      }
+    },
+    "zamPrehledMezd": {
+      "_title": {
+        "titl": "Přehled mezd pro zaměstnance"
+      }
+    },
+    "zamPrijmy": {
+      "_title": {
+        "titl": "Doložení příjmů zaměstnance"
+      },
+      "mesic": {
+        "titl": "Měsíc"
+      },
+      "prijemDo": {
+        "titl": "Příjem do"
+      },
+      "prijemOd": {
+        "titl": "Příjem od"
+      },
+      "rok": {
+        "titl": "Rok"
+      },
+      "vysePrijmuKodA1": {
+        "titl": "Příjmy ze závislé činnosti"
+      },
+      "vysePrijmuKodAB": {
+        "titl": "Příjmy získané z náhrady mzdy"
+      }
+    },
+    "zamestnanci": {
+      "_title": {
+        "titl": "Personalistika - přehled"
+      }
+    },
+    "zapoctak": {
+      "_title": {
+        "titl": "Potvrzení o zaměstnání (Zápočtový list)"
+      }
+    },
+    "zapoctak$$NES": {
+      "_title": {
+        "titl": "Potvrzení o zaměstnání (Zápočtový list) - s datem narození"
+      }
+    },
+    "zapoctak$$SUM": {
+      "_title": {
+        "titl": "Potvrzení o zaměstnání (Zápočtový list) - s rodným číslem"
+      }
+    },
+    "zdrPrehledPoj": {
+      "_title": {
+        "titl": "Přehled zdravotního pojištění"
+      },
+      "zdrPojNull": {
+        "titl": "Zdravotní pojišťovna nevyplněna"
+      }
+    }
+  }
+}

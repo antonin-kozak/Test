@@ -1,0 +1,3369 @@
+{
+  "reports": {
+    "Bsp$$BAN": {
+      "_title": {
+        "titl": "Bank account list"
+      }
+    },
+    "Bsp$$POK": {
+      "_title": {
+        "titl": "Cash desk list"
+      }
+    },
+    "Bsp$$SKL": {
+      "_title": {
+        "titl": "Store list"
+      }
+    },
+    "Doklady": {
+      "_title": {
+        "titl": "Documents"
+      }
+    },
+    "Doklady$$FAV": {
+      "_title": {
+        "titl": "List of invoices issued"
+      }
+    },
+    "Doklady$$PHL": {
+      "_title": {
+        "titl": "Other debts list"
+      }
+    },
+    "Doklady$$ZAV": {
+      "_title": {
+        "titl": "Other obligations list"
+      }
+    },
+    "DokladyAdresar$$FAV": {
+      "_title": {
+        "titl": "List of invoices issued (summation according to the firm)"
+      }
+    },
+    "DokladyAdresarFAP$$FAP": {
+      "_title": {
+        "titl": "List of invoices in (summation by company)"
+      }
+    },
+    "DokladyBanPok$$BAN": {
+      "_title": {
+        "titl": "Bank documents list"
+      }
+    },
+    "DokladyBanPok$$POK": {
+      "_title": {
+        "titl": "Cash vouchers list"
+      }
+    },
+    "DokladyFAP$$FAP": {
+      "_title": {
+        "titl": "Invoices in list (landscape)"
+      }
+    },
+    "DokladyINT$$INT": {
+      "_title": {
+        "titl": "Internal vouchers list"
+      }
+    },
+    "Fakt_PRI": {
+      "SymbolPlateb": {
+        "titl": "Symbol of payments"
+      },
+      "konSymbol": {
+        "titl": "Type"
+      },
+      "specSymbol": {
+        "titl": "Specific"
+      },
+      "varSymPrikaz": {
+        "titl": "Variable"
+      }
+    },
+    "Fakt_VYD": {
+      "datSmir": {
+        "titl": "Date of concilation"
+      },
+      "datUp1": {
+        "titl": "Date of 1st Demand for Payment"
+      },
+      "datUp2": {
+        "titl": "2nd Demand for Payment"
+      },
+      "stav": {
+        "titl": "State of document"
+      }
+    },
+    "Hl_Kniha": {
+      "_title": {
+        "titl": "Main book"
+      },
+      "doklad": {
+        "titl": "Internal number"
+      },
+      "duzpUcto": {
+        "titl": "Total taxable supplies"
+      },
+      "obratDAL": {
+        "titl": "Credit turnover"
+      },
+      "obratMD": {
+        "titl": "Debit turnover"
+      },
+      "sledovaneObdobi": {
+        "titl": "Monitored period"
+      },
+      "sumDal": {
+        "titl": "Amount credit"
+      },
+      "sumMd": {
+        "titl": "Amount debit"
+      },
+      "varSym": {
+        "titl": "Var.sym."
+      },
+      "zacatek": {
+        "titl": "Beginning"
+      },
+      "zuctovano": {
+        "titl": "Settlement"
+      }
+    },
+    "Majetek": {
+      "datVyst": {
+        "titl": "Rejection date"
+      },
+      "datZar": {
+        "titl": "Filing date"
+      }
+    },
+    "PokladniDenik": {
+      "hotove": {
+        "titl": "By cash"
+      },
+      "kartou": {
+        "titl": "By card"
+      },
+      "koncovyZustatek": {
+        "titl": "Final balance"
+      },
+      "pocatecniZustatek": {
+        "titl": "Initial balance"
+      },
+      "prijem": {
+        "titl": "Receipt"
+      },
+      "vydej": {
+        "titl": "Issue"
+      },
+      "zustatek": {
+        "titl": "Balance"
+      }
+    },
+    "PokladniDenik$$BAN": {
+      "_title": {
+        "titl": "Bank book"
+      }
+    },
+    "PokladniDenik$$POK": {
+      "_title": {
+        "titl": "Cash desk book"
+      }
+    },
+    "PokladniDenikPort$$BAN": {
+      "_title": {
+        "titl": "Bank book (portrait layout)"
+      }
+    },
+    "PokladniDenikPort$$POK": {
+      "_title": {
+        "titl": "Register book (portrait layout)"
+      }
+    },
+    "Predvaha$$SUM": {
+      "_title": {
+        "titl": "Turnover trial balance"
+      }
+    },
+    "PredvahaPort": {
+      "_title": {
+        "titl": "Trial balance sheet (portrait)"
+      }
+    },
+    "Prikaz$$BAN$$elInkaso": {
+      "_title": {
+        "titl": "BATCH WIRE TRANSFER INSTRUCTION"
+      }
+    },
+    "Prikaz$$BAN$$elPrikaz": {
+      "_title": {
+        "titl": "Mass payment order"
+      }
+    },
+    "Prikazy_kniha$$BAN$$elInkaso": {
+      "_title": {
+        "titl": "Batch inkaso instruction"
+      }
+    },
+    "Prikazy_kniha$$BAN$$elPrikaz": {
+      "_title": {
+        "titl": "Book of payments orders"
+      }
+    },
+    "Sazby_DPH": {
+      "_title": {
+        "titl": "VAT rates"
+      }
+    },
+    "Staty": {
+      "_title": {
+        "titl": "Countries"
+      }
+    },
+    "TypDokl": {
+      "_title": {
+        "titl": "Document types overview"
+      }
+    },
+    "TypDokl$$BAN": {
+      "_title": {
+        "titl": "List of types of bank documents"
+      }
+    },
+    "TypDokl$$POK": {
+      "_title": {
+        "titl": "List of types of cash vouchers"
+      }
+    },
+    "Zakazka": {
+      "_title": {
+        "titl": "Orders"
+      }
+    },
+    "adrUdalosti": {
+      "_title": {
+        "titl": "Events"
+      }
+    },
+    "adresar": {
+      "_title": {
+        "titl": "Address book"
+      },
+      "nastaveniSidlo": {
+        "titl": "Company address"
+      }
+    },
+    "analyzaZakazky": {
+      "_title": {
+        "titl": "Order accounting analysis"
+      },
+      "sumaZaUcet": {
+        "titl": "Amount per account"
+      },
+      "sumaZaZakazku": {
+        "titl": "Amount per order"
+      },
+      "zisk": {
+        "titl": "Profit"
+      }
+    },
+    "analyzaZakazkyRozsirena": {
+      "_title": {
+        "titl": "Order card"
+      },
+      "celkovaBilanceZakazky": {
+        "titl": "Total order balance"
+      },
+      "cisDokl": {
+        "titl": "Document"
+      },
+      "naklad": {
+        "titl": "Costs"
+      },
+      "polozkyFaktur": {
+        "titl": "Invoice items"
+      },
+      "polozkyPokladny": {
+        "titl": "Sales document items"
+      },
+      "polozkySkladu": {
+        "titl": "Stock document items"
+      },
+      "rozdil": {
+        "titl": "Balance"
+      },
+      "ucetniAnalyzaZakazky": {
+        "titl": "Accounting analysis of order"
+      },
+      "vynos": {
+        "titl": "Revenues"
+      }
+    },
+    "analyzaZakazkyRozsirena$$NES": {
+      "_title": {
+        "titl": "Order analysis"
+      }
+    },
+    "balikNaPostu": {
+      "_title": {
+        "titl": "Package to Post Office / Personal delivery"
+      }
+    },
+    "balikovyPodaciArch": {
+      "_title": {
+        "titl": "Postal filing folder for packages"
+      }
+    },
+    "cashFlow": {
+      "_title": {
+        "titl": "Cash flow overview"
+      },
+      "cashFlow": {
+        "titl": "Cash flow overview"
+      }
+    },
+    "cashFlow$$MIN_OBDOBI": {
+      "_title": {
+        "titl": "Cash flow overview (including data from previous period)"
+      },
+      "cashFlow": {
+        "titl": "Cash flow overview"
+      }
+    },
+    "cenHladPrehled": {
+      "_title": {
+        "titl": "Price levels overview"
+      }
+    },
+    "cenik": {
+      "_title": {
+        "titl": "Price list/Catalogue"
+      },
+      "cenaBezDph": {
+        "titl": "Price without VAT"
+      },
+      "cenaSDph": {
+        "titl": "Total amount"
+      }
+    },
+    "cenikBezNakupni": {
+      "_title": {
+        "titl": "Price list/catalogue (without buying prices)"
+      }
+    },
+    "cenikIndividualniVystupni": {
+      "_title": {
+        "titl": "Selling price list"
+      }
+    },
+    "cenikIndividualniVystupniMnoz": {
+      "_title": {
+        "titl": "Price list (volume discounts w/o VAT)"
+      },
+      "od": {
+        "titl": "from"
+      }
+    },
+    "cenikIndividualniVystupniMnozDph": {
+      "_title": {
+        "titl": "Price list (volume discounts with VAT)"
+      }
+    },
+    "cenikNakupProdej": {
+      "_title": {
+        "titl": "Price list with purchase and sales prices"
+      }
+    },
+    "cenikVystupni": {
+      "_title": {
+        "titl": "Selling price list"
+      }
+    },
+    "cenikVystupniSPoplatky": {
+      "_title": {
+        "titl": "Retail Price List (including fees)"
+      },
+      "cenaVcetnePoplatku": {
+        "titl": "Price including fees:"
+      },
+      "poplatky": {
+        "titl": "Fees:"
+      }
+    },
+    "chart-landscape": {
+      "_title": {
+        "titl": "-"
+      }
+    },
+    "cisClenDph": {
+      "_title": {
+        "titl": "Classification of VAT"
+      }
+    },
+    "danovaEvidence": {
+      "_title": {
+        "titl": "Tax record statement"
+      },
+      "danEvid.NeDa": {
+        "titl": "Does not fall into the tax audit"
+      },
+      "danEvid.SocP": {
+        "titl": "Payment of social insurance"
+      },
+      "danEvid.Zdra": {
+        "titl": "Payment of health insurance"
+      },
+      "nevyplnenTypUcOp": {
+        "titl": "Settlement rule not completed"
+      },
+      "nevyplneno": {
+        "titl": "Undefined"
+      },
+      "rozdilPrijemVydej": {
+        "titl": "Difference of receipts and issues:"
+      }
+    },
+    "dodaciList": {
+      "_title": {
+        "titl": "Delivery note"
+      },
+      "hmotnost": {
+        "titl": "Weight [kg]"
+      },
+      "kFAVtypPohybu.prijem": {
+        "titl": "to invoice out"
+      },
+      "kPOKtypPohybu.prijem": {
+        "titl": "to cash desk receipt"
+      },
+      "kPOKtypPohybu.vydej": {
+        "titl": "to cash desk expense voucher"
+      },
+      "kSKLtypPohybu.prijem": {
+        "titl": "to receipt card"
+      },
+      "kSKLtypPohybu.vydej": {
+        "titl": "to issue card"
+      },
+      "prevzatoDne": {
+        "titl": "Taken over on date"
+      }
+    },
+    "dodaciList$$SUM_CEN": {
+      "_title": {
+        "titl": "Delivery note with sales prices"
+      }
+    },
+    "doklSklad": {
+      "_title": {
+        "titl": "Stock documents list"
+      }
+    },
+    "dokladyObchod": {
+      "zbyvaRealizovat": {
+        "titl": "Remain to realize"
+      }
+    },
+    "dokladyObchod$$NAP": {
+      "_title": {
+        "titl": "Received offers overview"
+      }
+    },
+    "dokladyObchod$$NAV": {
+      "_title": {
+        "titl": "Issued offers overview"
+      }
+    },
+    "dokladyObchod$$OBP": {
+      "_title": {
+        "titl": "Received orders overview"
+      }
+    },
+    "dokladyObchod$$OBV": {
+      "_title": {
+        "titl": "Issued orders overview"
+      }
+    },
+    "dokladyObchod$$PPP": {
+      "_title": {
+        "titl": "Received demands overview"
+      }
+    },
+    "dokladyObchod$$PPV": {
+      "_title": {
+        "titl": "Issued demands overview"
+      }
+    },
+    "dokladySRekapitulaciDph": {
+      "_title": {
+        "titl": "List of documents (w/ VAT summary)"
+      },
+      "celkemNeucetniPrijem": {
+        "titl": "Total non-accounting income:"
+      },
+      "celkemNeucetniVydej": {
+        "titl": "Total non-accounting expense:"
+      },
+      "celkemUcetniPrijem": {
+        "titl": "Total accounting income:"
+      },
+      "celkemUcetniVydej": {
+        "titl": "Total accounting expense:"
+      },
+      "datVyst": {
+        "titl": "Issued"
+      },
+      "duzpUcto": {
+        "titl": "Tax Date"
+      },
+      "kod": {
+        "titl": "Document #"
+      },
+      "snizena": {
+        "titl": "Reduced"
+      },
+      "sumCelkem": {
+        "titl": "Total [%currency-symbol]"
+      },
+      "sumDph": {
+        "titl": "VAT [%currency-symbol]"
+      },
+      "sumOsv": {
+        "titl": "Exempt [%currency-symbol]"
+      },
+      "sumZkl": {
+        "titl": "Base [%currency-symbol]"
+      },
+      "ucetni": {
+        "titl": "Accounting"
+      },
+      "zakladni": {
+        "titl": "Base"
+      }
+    },
+    "dokladySRekapitulaciDph$$BAN": {
+      "_title": {
+        "titl": "List of banking documents (w/ VAT summary)"
+      }
+    },
+    "dokladySRekapitulaciDph$$FAP": {
+      "_title": {
+        "titl": "List of invoices received (w/ VAT summary)"
+      }
+    },
+    "dokladySRekapitulaciDph$$FAV": {
+      "_title": {
+        "titl": "List of invoices issued (w/ VAT summary)"
+      }
+    },
+    "dokladySRekapitulaciDph$$INT": {
+      "_title": {
+        "titl": "List of internal documents (w/ VAT summary)"
+      }
+    },
+    "dokladySRekapitulaciDph$$PHL": {
+      "_title": {
+        "titl": "List of other receivables (w/ VAT summary)"
+      }
+    },
+    "dokladySRekapitulaciDph$$POK": {
+      "_title": {
+        "titl": "List of cash desk documents (w/ VAT summary)"
+      }
+    },
+    "dokladySRekapitulaciDph$$ZAV": {
+      "_title": {
+        "titl": "List of other liabilities (w/ VAT summary)"
+      }
+    },
+    "eetOznameni": {
+      "duleziteOznameni": {
+        "titl": "Information notices"
+      },
+      "textBezny": {
+        "titl": "Under the Act on Revenue Registration, the Seller is required to issue the Buyer a receipt.\nThe Seller is also required to record the received revenue for the tax administrator to view online; or in the event of a technical outage at the latest within 48 hours."
+      },
+      "textZjednoduseny": {
+        "titl": "Under the Act on Revenue Registration, the Seller is required to issue the Buyer a Receipt.\\The recipient of the revenue shall record revenue in a simplified mode, and is required to record the received revenue with the tax administrator no later than within 5 days."
+      }
+    },
+    "eetOznameni$$NES": {
+      "_title": {
+        "titl": "EET Information notices - simplified mode"
+      }
+    },
+    "eetOznameni$$SUM": {
+      "_title": {
+        "titl": "EET Information notices - regular mode"
+      }
+    },
+    "fakPol$$FAP": {
+      "_title": {
+        "titl": "Invoices in item overview"
+      }
+    },
+    "fakPol$$FAV": {
+      "_title": {
+        "titl": "Invoices out item overview"
+      }
+    },
+    "fakPol$$NAP": {
+      "_title": {
+        "titl": "Offers received item overview"
+      }
+    },
+    "fakPol$$NAV": {
+      "_title": {
+        "titl": "Offers issued item overview"
+      }
+    },
+    "fakPol$$OBP": {
+      "_title": {
+        "titl": "Orders received item overview"
+      }
+    },
+    "fakPol$$OBV": {
+      "_title": {
+        "titl": "Orders issued item overview"
+      }
+    },
+    "fakPol$$POK": {
+      "_title": {
+        "titl": "Overview of cash voucher items"
+      }
+    },
+    "fakPol$$PPP": {
+      "_title": {
+        "titl": "Demands received item overview"
+      }
+    },
+    "fakPol$$PPV": {
+      "_title": {
+        "titl": "Demands issued item overview"
+      }
+    },
+    "faktura": {
+      "banka": {
+        "titl": "Bank"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "celkemBezZaloh": {
+        "titl": "Total without advances"
+      },
+      "celkemDph": {
+        "titl": "Total VAT"
+      },
+      "celkemFakturovano": {
+        "titl": "Total Invoiced"
+      },
+      "celkemKUhrade": {
+        "titl": "Total amount"
+      },
+      "celkemPredSlevou": {
+        "titl": "Total before discount"
+      },
+      "celkemZaklad": {
+        "titl": "Total base"
+      },
+      "danOdvadiPrijemce": {
+        "titl": "Reverse charge."
+      },
+      "danPriPrijetiPlatby": {
+        "titl": "Tax is applied on the basis of payment receipt."
+      },
+      "datumZdanitelnehoPlneni": {
+        "titl": "Date of taxable supplies"
+      },
+      "datumZdanitelnehoPlneniOsobUpravaDph": {
+        "titl": "Delivery date"
+      },
+      "dodavatel-sidlo": {
+        "titl": "Supplier - centre"
+      },
+      "doprava": {
+        "titl": "Mode of transport"
+      },
+      "dph19": {
+        "titl": "VAT 19%"
+      },
+      "dph9": {
+        "titl": "VAT 9%"
+      },
+      "dphCelkem": {
+        "titl": "VAT"
+      },
+      "formaDopravy": {
+        "titl": "Form of transport"
+      },
+      "jizUhrazeno": {
+        "titl": "Already settled"
+      },
+      "mistoUrceni": {
+        "titl": "Destination"
+      },
+      "nejsemPlatceDph": {
+        "titl": "I am not a VAT payer"
+      },
+      "objednavka": {
+        "titl": "Order"
+      },
+      "odberatel-sidlo": {
+        "titl": "Billing\naddress"
+      },
+      "oznaceniDodavky": {
+        "titl": "Item description"
+      },
+      "postovniAdresa": {
+        "titl": "Shipping address"
+      },
+      "predSlevou": {
+        "titl": "Before discount"
+      },
+      "prenesenaDanovaPovinnost": {
+        "titl": "Transferred tax obligation"
+      },
+      "preplatky": {
+        "titl": "Overpayment"
+      },
+      "puvodniDoklad": {
+        "titl": "Original invoice no."
+      },
+      "razitkoAPodpis": {
+        "titl": "Stamp and signature"
+      },
+      "registraceU": {
+        "titl": "Registration"
+      },
+      "rekapitulaceDph": {
+        "titl": "VAT recapitulation in %currency-symbol"
+      },
+      "rekapitulaceDphV": {
+        "titl": "VAT recapitulation in"
+      },
+      "sazbaDph": {
+        "titl": "VAT [%]"
+      },
+      "za": {
+        "titl": "For"
+      },
+      "zaklad": {
+        "titl": "Base"
+      },
+      "zaklad0": {
+        "titl": "Price with 0% VAT"
+      },
+      "zaklad19": {
+        "titl": "Price with 19% VAT"
+      },
+      "zaklad9": {
+        "titl": "Price with 9% VAT"
+      },
+      "zakladCelkem": {
+        "titl": "Price total"
+      },
+      "zakladOdpocet": {
+        "titl": "Advance tax document base"
+      },
+      "zbyvaUhradit": {
+        "titl": "Remains to pay"
+      },
+      "zeDne": {
+        "titl": "Date of issue of the original invoice"
+      }
+    },
+    "fakturaConfig": {
+      "banka": {
+        "titl": "Bank"
+      },
+      "bic": {
+        "titl": "SWIFT:"
+      },
+      "celkemPredSlevou": {
+        "titl": "Total before discount"
+      },
+      "cenaMj": {
+        "titl": "Price per unit"
+      },
+      "cenaSDph": {
+        "titl": "Price with VAT"
+      },
+      "cenaVMene": {
+        "titl": "Price in %p"
+      },
+      "cisloBanUctu": {
+        "titl": "Bank account number"
+      },
+      "danOdvadiPrijemce": {
+        "titl": "Reverse charge."
+      },
+      "datSplat": {
+        "titl": "Due date"
+      },
+      "datSplatDatTermin": {
+        "titl": "Due date"
+      },
+      "datVyst": {
+        "titl": "Issue date"
+      },
+      "dic": {
+        "titl": "VAT ID"
+      },
+      "dobropisovanyDokladCislo": {
+        "titl": "Original document"
+      },
+      "dobropisovanyDokladDatum": {
+        "titl": "Issue date of original document"
+      },
+      "dodavatel": {
+        "titl": "SUPPLIER"
+      },
+      "duzpPuv": {
+        "titl": "Date of taxable transaction"
+      },
+      "formaUhrady": {
+        "titl": "Form of payment"
+      },
+      "iban": {
+        "titl": "IBAN:"
+      },
+      "ic": {
+        "titl": "ID"
+      },
+      "icdph": {
+        "titl": "VAT NUMBER"
+      },
+      "kurzKurzMnozstvi": {
+        "titl": "Rate %p %p for %p %p"
+      },
+      "mj": {
+        "titl": "Unit"
+      },
+      "mnozMj": {
+        "titl": "Quantity"
+      },
+      "neplatceDph": {
+        "titl": "Not a VAT payer"
+      },
+      "odberatel": {
+        "titl": "CUSTOMER"
+      },
+      "polozka": {
+        "titl": "Item"
+      },
+      "predSlevou": {
+        "titl": "Before discount"
+      },
+      "prenesenaDanovaPovinnost": {
+        "titl": "Transferred tax obligation"
+      },
+      "puvodniSazbaDph": {
+        "titl": "Original VAT rate"
+      },
+      "razitkoAPodpis": {
+        "titl": "Stamp and signature"
+      },
+      "rekapitulaceDphVMene": {
+        "titl": "VAT recapitulation in %p"
+      },
+      "slevaDokl": {
+        "titl": "Document discount"
+      },
+      "stornovano": {
+        "titl": "Cancelled"
+      },
+      "sumCelkem": {
+        "titl": "Total [%p]"
+      },
+      "sumZkl": {
+        "titl": "Base [%p]"
+      },
+      "uhrazeno": {
+        "titl": "ALREADY PAID!"
+      },
+      "varSym": {
+        "titl": "Variable symbol"
+      },
+      "zaklad": {
+        "titl": "Base"
+      }
+    },
+    "fakturaConfig$$FAV": {
+      "_attachment": {
+        "desc": "Name of attachment",
+        "titl": "Invoice"
+      },
+      "_title": {
+        "titl": "Configurable invoice"
+      }
+    },
+    "fakturaConfig$$NAV": {
+      "_attachment": {
+        "desc": "Name of attachment",
+        "titl": "Offer"
+      },
+      "_title": {
+        "titl": "Configurable offer"
+      },
+      "datSplatDatTermin": {
+        "titl": "Deadline"
+      }
+    },
+    "fakturaConfig$$OBP": {
+      "_attachment": {
+        "desc": "Name of attachment",
+        "titl": "Order"
+      },
+      "_title": {
+        "titl": "Configurable order"
+      },
+      "datSplatDatTermin": {
+        "titl": "Deadline"
+      }
+    },
+    "fakturaKB": {
+      "_title": {
+        "titl": "Invoice"
+      },
+      "bspBan": {
+        "titl": "Bank account"
+      },
+      "konSym": {
+        "titl": "Type"
+      },
+      "specSym": {
+        "titl": "Spec. sym."
+      },
+      "varSym": {
+        "titl": "Var. sym."
+      }
+    },
+    "fakturaKB$$R_DPH_V_MENE": {
+      "_title": {
+        "titl": "Invoice (w/ VAT summary in original currency)"
+      }
+    },
+    "fakturaKB$$SUM_BEZ_QR": {
+      "_title": {
+        "titl": "Invoice (w/o QR code)"
+      }
+    },
+    "geisPredavaciProtokol": {
+      "_title": {
+        "titl": "Geis handover record"
+      },
+      "adresat": {
+        "titl": "Addressee"
+      },
+      "balikCislo": {
+        "titl": "Package No."
+      },
+      "celkemBaliku": {
+        "titl": "Packaging total"
+      },
+      "celkemCod": {
+        "titl": "COD total"
+      },
+      "cod": {
+        "titl": "Cash on Delivery (COD)"
+      },
+      "datum": {
+        "titl": "Date"
+      },
+      "exw": {
+        "titl": "EXW"
+      },
+      "geisNazev": {
+        "titl": "GEIS Parcel CZ s.r.o"
+      },
+      "paticka1": {
+        "titl": "Shipping is done based on the General Commercial Terms current status GEIS PARCEL CZ, spol. s r. o., Reg. No.: 63077051."
+      },
+      "paticka2": {
+        "titl": "The company is registered in the Commercial Register at the Regional Court in Plzeň, Section C, File 9503."
+      },
+      "podpisOdesilatele": {
+        "titl": "Sender’s signature"
+      },
+      "podpisRidice": {
+        "titl": "Driver's signature"
+      },
+      "potvrzeniOPrevzeti": {
+        "titl": "Confirmation for receipt of parcels for shipping"
+      },
+      "poz": {
+        "titl": "Note:"
+      },
+      "poznam": {
+        "titl": "Note"
+      },
+      "prikazce": {
+        "titl": "Originator (sender)"
+      },
+      "pripojisteni": {
+        "titl": "Supplementary insurance"
+      },
+      "strana": {
+        "titl": "Party"
+      },
+      "varSym": {
+        "titl": "Variable symbol"
+      },
+      "zasilkyBezPoskozeni": {
+        "titl": "The aforementioned parcels were handed over without damage"
+      }
+    },
+    "geisstitek": {
+      "_title": {
+        "titl": "Geis Etiketa (arch A4)"
+      },
+      "geisNazev": {
+        "titl": "Geis Parcel CZ, s.r.o."
+      },
+      "odesilatel": {
+        "titl": "Sender"
+      },
+      "prijemce": {
+        "titl": "Addressee"
+      },
+      "tel": {
+        "titl": "Tel."
+      },
+      "vs": {
+        "titl": "VS"
+      }
+    },
+    "global": {
+      "PenUstav": {
+        "titl": "Finance company"
+      },
+      "ZbyvaUhradit": {
+        "titl": "Remain to payment"
+      },
+      "boolean.ano": {
+        "titl": "Yes"
+      },
+      "boolean.ne": {
+        "titl": "No"
+      },
+      "celkem": {
+        "titl": "Total:"
+      },
+      "celkemKc": {
+        "titl": "Total in %currency-symbol"
+      },
+      "celkemMena": {
+        "titl": "Total in currency"
+      },
+      "celkemNeucetni": {
+        "titl": "Non-accounting in total:"
+      },
+      "celkemPrijem": {
+        "titl": "Income in total:"
+      },
+      "celkemUcetni": {
+        "titl": "Accounting in total:"
+      },
+      "celkemVydej": {
+        "titl": "Issue in total:"
+      },
+      "cisloUctu": {
+        "titl": "SÚ"
+      },
+      "clenEU": {
+        "titl": "Member of EU"
+      },
+      "developerMode": {
+        "titl": "Invalid print"
+      },
+      "dodaciList": {
+        "titl": "Delivery note"
+      },
+      "dodavatel": {
+        "titl": "Supplier"
+      },
+      "dph": {
+        "titl": "VAT"
+      },
+      "eetBkp": {
+        "titl": "BKP"
+      },
+      "error": {
+        "titl": "ERROR"
+      },
+      "juh": {
+        "titl": "Already paid"
+      },
+      "kUhrade": {
+        "titl": "To payment"
+      },
+      "kUhradeMen": {
+        "titl": "To settlement [currency]"
+      },
+      "kUhradekDatu": {
+        "titl": "To payment to date"
+      },
+      "konSymbol": {
+        "titl": "Types"
+      },
+      "konverzniKurz": {
+        "titl": "conversion exchange rate"
+      },
+      "mena": {
+        "titl": "Currency"
+      },
+      "merJed": {
+        "titl": "Units of measure"
+      },
+      "mesic": {
+        "titl": "Month"
+      },
+      "mobil": {
+        "titl": "Mobile phone"
+      },
+      "nazFirmy": {
+        "titl": "Company name"
+      },
+      "nevyplnen": {
+        "titl": "Unfilled"
+      },
+      "odberatel": {
+        "titl": "Customer"
+      },
+      "prevzalDne": {
+        "titl": "Taken over on date"
+      },
+      "prodejkaNeplatce": {
+        "titl": "Simplified tax document"
+      },
+      "prodejkaZaHotove": {
+        "titl": "Receipt"
+      },
+      "prodejkaZaHotoveDobropis": {
+        "titl": "Sales draft in cash - credit note"
+      },
+      "provozovna": {
+        "titl": "Branch"
+      },
+      "razitko": {
+        "titl": "Stamp"
+      },
+      "reportVytiskl": {
+        "titl": "Printed by"
+      },
+      "rozdil": {
+        "titl": "Difference"
+      },
+      "rozvaha": {
+        "titl": "Balance sheet budget"
+      },
+      "specSymbol": {
+        "titl": "Specific symbol"
+      },
+      "stornovano": {
+        "titl": "Cancelled"
+      },
+      "stranka": {
+        "titl": "Page"
+      },
+      "sumCelkemMen": {
+        "titl": "Total [currency]"
+      },
+      "sumacePotlacena": {
+        "titl": "(without summations)"
+      },
+      "syntetickyUcet": {
+        "titl": "Syntetic account"
+      },
+      "tisknutoDne": {
+        "titl": "Printed on day"
+      },
+      "ucetniObdobiNeniUzavreno": {
+        "titl": "Accounting period isn't closed!"
+      },
+      "uhrazeneDoklady": {
+        "titl": "Settled documents"
+      },
+      "varSymbol": {
+        "titl": "Variable symbol"
+      },
+      "vysledovka": {
+        "titl": "Profit and loss statement"
+      },
+      "vytistenoSystemem": {
+        "titl": "Printed by system %p"
+      }
+    },
+    "intPol": {
+      "doklad": {
+        "titl": "Document"
+      }
+    },
+    "intPol$$BAN$$SUM_BAN": {
+      "_title": {
+        "titl": "Overview of bank document items"
+      }
+    },
+    "intPol$$BAN$$SUM_ZAP": {
+      "_title": {
+        "titl": "Overview of settlement items"
+      }
+    },
+    "intPol$$INT": {
+      "_title": {
+        "titl": "Overview of internal document items"
+      }
+    },
+    "intPol$$PHL": {
+      "_title": {
+        "titl": "Overview of other receivables"
+      }
+    },
+    "intPol$$ZAV": {
+      "_title": {
+        "titl": "Overview of other liabilities"
+      }
+    },
+    "inventarizacePohledavek": {
+      "_title": {
+        "titl": "Inventory of receivables and payables"
+      },
+      "datSplat": {
+        "titl": "Maturity"
+      },
+      "datVyst": {
+        "titl": "Issue date"
+      },
+      "dekujeme": {
+        "titl": "Thank you for your cooperation and with regards"
+      },
+      "dokladyVMenePhl": {
+        "titl": "Individual receivables documents in currency"
+      },
+      "dokladyVMeneZav": {
+        "titl": "Individual payables documents in currency"
+      },
+      "dokladyVTuzPhl": {
+        "titl": "Individual receivables documents in %currency-symbol"
+      },
+      "dokladyVTuzZav": {
+        "titl": "Individual payables documents in %currency-symbol"
+      },
+      "firma": {
+        "titl": "Company:"
+      },
+      "inventurizace": {
+        "titl": "Inventory of receivables and payables at that date"
+      },
+      "juhSum": {
+        "titl": "Already settled"
+      },
+      "kod": {
+        "titl": "Int. doc. nr."
+      },
+      "pokudPhl": {
+        "titl": "If we do not receive a confirmed receipt or your statement of accounts receivable in %p, we consider receivables as approved and recognized."
+      },
+      "pokudZav": {
+        "titl": "If we do not receive a confirmed receipt or your statement of accounts payable in %p, we consider payables as approved and recognized."
+      },
+      "potvrzeny": {
+        "titl": "Confirm the form with eventually quantified differences by return to our address or e-mail to "
+      },
+      "sumCelkem": {
+        "titl": "Total"
+      },
+      "vDne": {
+        "titl": "In %p on the day %p"
+      },
+      "varSym": {
+        "titl": "Var. symb."
+      },
+      "zadamePhl": {
+        "titl": "We ask you to compare our reported status and your records. Please, for different receivables indicate your registered value or provide the relevant proofs relating to the difference.\n                "
+      },
+      "zadameZav": {
+        "titl": "We ask you to compare our reported status and your records. Please, for different payables indicate your registered value or provide the relevant proofs relating to the difference.\n                "
+      },
+      "zakonPhl": {
+        "titl": "Pursuant to Act No. 563/1991 Coll. On Accounting, as amended, we request the reconciliation of the receivables of our organization as at the date"
+      },
+      "zakonSkPhl": {
+        "titl": "In accordance with Act No. 431/2002 Coll. On Accounting, as amended, we ask you to reconcile the receivables of our organization as at the date"
+      },
+      "zakonSkZav": {
+        "titl": "In accordance with Act No. 431/2002 Coll. On Accounting, as amended, we ask you to reconcile the payables of our organization as at the date"
+      },
+      "zakonZav": {
+        "titl": "Pursuant to Act No. 563/1991 Coll. On Accounting, as amended, we request the reconciliation of the payables of our organization as at the date"
+      },
+      "zbyvaUhradit": {
+        "titl": "Amount due"
+      }
+    },
+    "inventura": {
+      "_title": {
+        "titl": "Inventory list of goods"
+      }
+    },
+    "inventura$$SUM_ROZDILY": {
+      "_title": {
+        "titl": "Inventory list of goods (differences)"
+      }
+    },
+    "inventuraUctu": {
+      "_title": {
+        "titl": "Accounts inventory"
+      },
+      "datum": {
+        "titl": "Date"
+      },
+      "podpisInventarizacniKomise": {
+        "titl": "Signature of stocktaking commission"
+      }
+    },
+    "kartaZakazky": {
+      "_title": {
+        "titl": "Order card"
+      }
+    },
+    "knihaFakCzk": {
+      "nedoplatek": {
+        "titl": "Due [%currency-symbol]"
+      },
+      "nedoplatekMen": {
+        "titl": "Due [Currency]"
+      },
+      "sumaCastka": {
+        "titl": "Total amount::"
+      },
+      "sumaNedoplatek": {
+        "titl": "Total due:"
+      }
+    },
+    "knihaFakCzk$$FAP": {
+      "_title": {
+        "titl": "List of invoices received (module)"
+      }
+    },
+    "knihaFakCzk$$FAP$$SUM_USERORDER": {
+      "_title": {
+        "titl": "List of received invoices (balance, according to the user categorization)"
+      }
+    },
+    "knihaFakCzk$$FAV": {
+      "_title": {
+        "titl": "List of invoices issued (module)"
+      }
+    },
+    "knihaFakCzk$$FAV$$SUM_USERORDER": {
+      "_title": {
+        "titl": "A list of issued invoices (balance, according to the user categorization)"
+      }
+    },
+    "knihaFakCzk$$PHL": {
+      "_title": {
+        "titl": "List of other receivables (module)"
+      }
+    },
+    "knihaFakCzk$$PHL$$SUM_USERORDER": {
+      "_title": {
+        "titl": "List of miscellaneous receivables (balance according to the user categorization)"
+      }
+    },
+    "knihaFakCzk$$ZAV": {
+      "_title": {
+        "titl": "List of other liabilties (module)"
+      }
+    },
+    "knihaFakCzk$$ZAV$$SUM_USERORDER": {
+      "_title": {
+        "titl": "List of miscellaneous liabilities (balance according to the user categorization)"
+      }
+    },
+    "knihaFakCzk$$vykazSaldoKdatu": {
+      "_title": {
+        "titl": "Payment status by date"
+      }
+    },
+    "knihaFakCzk$$vykazSaldoKdatu$$SUM_USERORDER": {
+      "_title": {
+        "titl": "Status of reimbursements by the date (according to the user categorization)"
+      }
+    },
+    "knihaFakMen$$FAP": {
+      "_title": {
+        "titl": "List of invoices received (module in currency)"
+      }
+    },
+    "knihaFakMen$$FAV": {
+      "_title": {
+        "titl": "List of invoices issued (module in currency)"
+      }
+    },
+    "knihaFakMen$$PHL": {
+      "_title": {
+        "titl": "List of other receivables (module in currency)"
+      }
+    },
+    "knihaFakMen$$ZAV": {
+      "_title": {
+        "titl": "List of other liabilties (module in currency)"
+      }
+    },
+    "knihaFakMen$$vykazSaldoKdatu": {
+      "_title": {
+        "titl": "Payment status by date in currency"
+      }
+    },
+    "konSym": {
+      "_title": {
+        "titl": "Types"
+      }
+    },
+    "kontakty": {
+      "_title": {
+        "titl": "Contacts"
+      }
+    },
+    "kontrolniVykazPrehled": {
+      "_title": {
+        "titl": "VAT control report (overview)"
+      },
+      "kod": {
+        "titl": "Record No. of invoice"
+      }
+    },
+    "kontrolniVykazPrehledCZ": {
+      "44zdph": {
+        "titl": "Section 44 of the VAT Act"
+      },
+      "_title": {
+        "titl": "VAT control report (Czech overview)"
+      },
+      "duzp": {
+        "titl": "Date of taxable supplies"
+      },
+      "kod": {
+        "titl": "Record No.of \\invoice"
+      },
+      "kodPredmetuPlneni": {
+        "titl": "Code of subject of fulfilment"
+      },
+      "kodRezimuPlneni": {
+        "titl": "Code of fulfilment mode"
+      },
+      "pouzityPomer": {
+        "titl": "Used ratio"
+      }
+    },
+    "kontrolniVykazPrehledCZ$$SUM": {
+      "_title": {
+        "titl": "Control lines on the VAT return (DAP)"
+      }
+    },
+    "kontrolniVykazPrehledCZ$$SUMACE": {
+      "_title": {
+        "titl": "Control VAT reporting (Czech overview, summational lines)"
+      }
+    },
+    "kurzy": {
+      "_title": {
+        "titl": "Rates"
+      }
+    },
+    "kusovnik": {
+      "_title": {
+        "titl": "BOM"
+      },
+      "celkem": {
+        "titl": "Total w/o VAT"
+      },
+      "celkemMj": {
+        "titl": "Total units"
+      },
+      "cenaBezDph": {
+        "titl": "Total w/o VAT per unit"
+      },
+      "cenaSDph": {
+        "titl": "Price w/ VAT per unit"
+      }
+    },
+    "kusovnikNakup": {
+      "_title": {
+        "titl": "BOM with purchase prices"
+      },
+      "nakupCenaCelkem": {
+        "titl": "Purchase price total"
+      },
+      "nakupCenaZaMj": {
+        "titl": "Purchase price per unit"
+      }
+    },
+    "leasing": {
+      "_title": {
+        "titl": "Leasing - overview"
+      },
+      "kartaLeasingu": {
+        "titl": "Leasing card:"
+      }
+    },
+    "leasingWithSubreports": {
+      "_title": {
+        "titl": "Leasing (Schedule of payments,Tax costs)"
+      }
+    },
+    "majOdpisSkup": {
+      "_title": {
+        "titl": "Property - depreciation groups"
+      },
+      "koefProZrychOdpis": {
+        "titl": "Coef. for accelerated depreciations"
+      },
+      "procProRovnOdpis": {
+        "titl": "Perc. for uniform depreciations"
+      }
+    },
+    "majTyp": {
+      "_title": {
+        "titl": "Types of property"
+      }
+    },
+    "majUdalosti": {
+      "_title": {
+        "titl": "Property - events"
+      }
+    },
+    "majUmisteni": {
+      "_title": {
+        "titl": "Property - placement"
+      }
+    },
+    "majetek$$SUM": {
+      "_title": {
+        "titl": "Property - overview"
+      }
+    },
+    "majetekStav": {
+      "_title": {
+        "titl": "State of property"
+      },
+      "aktualniCena": {
+        "titl": "Current price [%currency-symbol]"
+      },
+      "cenaZarazeni": {
+        "titl": "Capitalization price [%currency-symbol]"
+      },
+      "datVyr": {
+        "titl": "Retired"
+      },
+      "datZacatDan": {
+        "titl": "Tax begin"
+      },
+      "datZacatUcet": {
+        "titl": "Account begin"
+      },
+      "datZar": {
+        "titl": "Capitalized"
+      },
+      "odpisovaSkupina": {
+        "titl": "Deprec. group tax"
+      },
+      "pocetUcetnichOdpisu": {
+        "titl": "Begin acct. deprec."
+      },
+      "rokDanOdpis": {
+        "titl": "Tax write-off for period"
+      },
+      "rokUcetOdpis": {
+        "titl": "Book depreciation for period"
+      },
+      "sumDanOdpis": {
+        "titl": "Total tax write-off"
+      },
+      "sumUcetOdpis": {
+        "titl": "Total book depreciation"
+      }
+    },
+    "majetekStavKDatu": {
+      "_title": {
+        "titl": "Overview of asset balance"
+      },
+      "cenaAktualni": {
+        "titl": "Current\nprice [%currency-symbol]"
+      },
+      "cenaZarazeni": {
+        "titl": "Price\nclassifiaction [%currency-symbol]"
+      },
+      "danoveOdpisy": {
+        "titl": "Tax depreciation\ntotal"
+      },
+      "danoveOdpisyObdobi": {
+        "titl": "Tax depreciation\n for period"
+      },
+      "datPoslDanOdpis": {
+        "titl": "Last tax. depreciation"
+      },
+      "datPoslUcetOdpis": {
+        "titl": "Last acc. depreciation"
+      },
+      "datPuvZar": {
+        "titl": "Included"
+      },
+      "datVyr": {
+        "titl": "Excluded"
+      },
+      "datZacDan": {
+        "titl": "Start\nof tax depreciation"
+      },
+      "datZacUcet": {
+        "titl": "Start\nof accounting depreciation"
+      },
+      "dobaOdp": {
+        "titl": "Depreciation period [month]"
+      },
+      "kod": {
+        "titl": "Inventory\nNo."
+      },
+      "odpisovaSkupina": {
+        "titl": "Group tax depreciation"
+      },
+      "odpisovaSkupinaSum": {
+        "titl": "Group tax depreciation"
+      },
+      "pocetUcetnichOdpisu": {
+        "titl": "Number of accounting depreciations"
+      },
+      "sumPoslDanOdpis": {
+        "titl": "Last tax. depreciation"
+      },
+      "sumPoslUcetOdpis": {
+        "titl": "Last acc. depreciation"
+      },
+      "ucetniOdpisy": {
+        "titl": "Accounting depreciation\ntotal"
+      },
+      "ucetniOdpisyObdobi": {
+        "titl": "Accounting depreciation\nfor period"
+      },
+      "zustatekDanovy": {
+        "titl": "Tax\nbalance"
+      },
+      "zustatekUcetni": {
+        "titl": "Accounting\nbalance"
+      }
+    },
+    "majetekStavKDatu$$SUM": {
+      "_title": {
+        "titl": "Overview of asset balance (with summation for groups)"
+      }
+    },
+    "majetekWithSubreports": {
+      "_title": {
+        "titl": "Property (Tax write-off, Events, Accounting write-off)"
+      },
+      "danoveAUcetniStejne": {
+        "titl": "Tax depreciations are the same as accounting depreciations"
+      },
+      "kartaMajetku": {
+        "titl": "Property card:"
+      },
+      "schvalilVyrazeni": {
+        "titl": "Approved exclusion"
+      },
+      "schvalilZarazeni": {
+        "titl": "Approved inclusion"
+      }
+    },
+    "meny": {
+      "_title": {
+        "titl": "Currencies"
+      }
+    },
+    "merJed": {
+      "_title": {
+        "titl": "Units of measure"
+      }
+    },
+    "obalkaC5": {
+      "_title": {
+        "titl": "Address to envelope C5 (162x229mm)"
+      }
+    },
+    "obalkaC6": {
+      "_title": {
+        "titl": "Address to envelope C6 (114x162mm)"
+      }
+    },
+    "obalkaDL": {
+      "_title": {
+        "titl": "Addresa to envelope DL (110x220mm)"
+      }
+    },
+    "obchodDoklad": {
+      "_title": {
+        "titl": "Documents (copies of indivuduals)"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "celkemZakladniSazba": {
+        "titl": "including VAT - basic rate"
+      },
+      "ciziMena": {
+        "titl": "Currency"
+      },
+      "domaciMena": {
+        "titl": "Domestic currency"
+      },
+      "dphSnizenaSazba": {
+        "titl": "VAT - reduced rate"
+      },
+      "dphZakladniSazba": {
+        "titl": "VAT - basic rate"
+      },
+      "hotovo": {
+        "titl": "Finished"
+      },
+      "nakladyNaDoklad": {
+        "titl": "Cost for document"
+      },
+      "odberatelDodavatel": {
+        "titl": "Customer / supplier"
+      },
+      "titleNAP": {
+        "titl": "Received supply"
+      },
+      "titleNAV": {
+        "titl": "Issued supply"
+      },
+      "titleOBP": {
+        "titl": "Received order"
+      },
+      "titleOBV": {
+        "titl": "Issued order"
+      },
+      "titlePPP": {
+        "titl": "Received demand"
+      },
+      "titlePPV": {
+        "titl": "Isued demand"
+      },
+      "zakladOsvobozeno": {
+        "titl": "Freed"
+      },
+      "zakladSnizenaSazba": {
+        "titl": "Base - reduced rate"
+      },
+      "zakladZakladniSazba": {
+        "titl": "Base - basic rate"
+      }
+    },
+    "obchodDoklad$$NES": {
+      "_title": {
+        "titl": "Internal copy of document (w/o summation)"
+      }
+    },
+    "obchodDokladVystupni": {
+      "_title": {
+        "titl": "Documents (separately)"
+      }
+    },
+    "obchodDokladVystupni$$BEZ": {
+      "_title": {
+        "titl": "Copy for client (w/o prices)"
+      }
+    },
+    "obchodDokladVystupni$$NES": {
+      "_title": {
+        "titl": "Copy for client (w/o summation)"
+      }
+    },
+    "obchodDokladVystupni$$NES_BEZ_DPH": {
+      "_title": {
+        "titl": "Copy for client (w/o VAT, w/o summation)"
+      }
+    },
+    "obchodDokladVystupni$$SUM_BEZ_DPH": {
+      "_title": {
+        "titl": "Copy for client (w/o VAT)"
+      }
+    },
+    "obchodDokladVystupniOBP": {
+      "_title": {
+        "titl": "Document for client"
+      },
+      "cisDosle": {
+        "titl": "# Order received"
+      }
+    },
+    "obchodDokladVystupniOBP$$NES": {
+      "_title": {
+        "titl": "Copy for client (w/o summation)"
+      }
+    },
+    "obratyPocatky": {
+      "_title": {
+        "titl": "Opening account balances"
+      }
+    },
+    "opisDokladu": {
+      "_title": {
+        "titl": "Document copy"
+      }
+    },
+    "opravaSkladu": {
+      "_title": {
+        "titl": "Items running into negative values"
+      },
+      "idPolSklad": {
+        "titl": "Warehouse document items item ID"
+      },
+      "idSkladKarty": {
+        "titl": "Warehouse card ID"
+      },
+      "pocetRozbiti": {
+        "titl": "No. of negative items"
+      }
+    },
+    "penezniDenik": {
+      "_title": {
+        "titl": "Cash book"
+      },
+      "castka": {
+        "titl": "Amount in %currency-symbol"
+      },
+      "doklad": {
+        "titl": "Document number"
+      },
+      "prijem": {
+        "titl": "Income"
+      },
+      "vydej": {
+        "titl": "Expense"
+      }
+    },
+    "poSplatnosti": {
+      "_title": {
+        "titl": "Outstanding receivables/payables overdue"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "celkemPoSplatnosti": {
+        "titl": "Total overdue"
+      },
+      "datSplat": {
+        "titl": "Maturity"
+      },
+      "datUcto": {
+        "titl": "Book date"
+      },
+      "firma": {
+        "titl": "Firm"
+      },
+      "firmaNevyplnena": {
+        "titl": "Firm is not filled in"
+      },
+      "kod": {
+        "titl": "Document no."
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Outstanding receivables overdue"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Outstanding payables overdue"
+      },
+      "rozmezi": {
+        "titl": "%p to %p days overdue"
+      },
+      "rozmeziKonec": {
+        "titl": "%p or more days overdue"
+      },
+      "symbolSplatnosti.stav0": {
+        "titl": "Not overdue"
+      },
+      "symbolSplatnosti.stavZnevyplneno": {
+        "titl": "Due date not filled in"
+      },
+      "uhrazeno": {
+        "titl": "Paid"
+      },
+      "zbyva": {
+        "titl": "Unpaid"
+      }
+    },
+    "poSplatnostiDleDokladu": {
+      "_title": {
+        "titl": "Unpaid receivables/liabilities based on maturity"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Unpaid receivables based on maturity"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Unpaid liabilities based on maturity"
+      }
+    },
+    "poSplatnostiDleFirmy": {
+      "_title": {
+        "titl": "Outstanding receivables/payables overdue (by firm)"
+      },
+      "neuhrazenePohledavky": {
+        "titl": "Outstanding receivables overdue (by firm)"
+      },
+      "neuhrazeneZavazky": {
+        "titl": "Outstanding payables overdue (by firm)"
+      }
+    },
+    "podaciListek": {
+      "_title": {
+        "titl": "Filing receipt"
+      }
+    },
+    "podkladyDPH": {
+      "MFin5401": {
+        "titl": "25 5401 MFin 5401 - pattern # 14"
+      },
+      "bezDane": {
+        "titl": "Without tax"
+      },
+      "castkaZaPlneni": {
+        "titl": "Amount for fulfilment"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "ctvrtleti": {
+        "titl": "Quarter"
+      },
+      "dalsiUdaje": {
+        "titl": "Another data:"
+      },
+      "dan": {
+        "titl": "Tax"
+      },
+      "danNaVystupu": {
+        "titl": "Output date"
+      },
+      "danoveIdentifikacniCislo": {
+        "titl": "Tax identificational number"
+      },
+      "datum": {
+        "titl": "Date"
+      },
+      "dodaniProstrednikem": {
+        "titl": "Delivery of goods by middle person"
+      },
+      "dodatecne": {
+        "titl": "additional"
+      },
+      "doplnujiciUdaje": {
+        "titl": "Additional data"
+      },
+      "dph": {
+        "titl": "VAT"
+      },
+      "duvodyProDodatecne": {
+        "titl": "Reasons for (additional)making returns acknowledged on day"
+      },
+      "financniUradPriznanouDanVymeril": {
+        "titl": "Revenue authority assessed (additionally) tax according to § 46 law ČNR č. 337/1992 Sb., about tax and charge management, in version"
+      },
+      "financnimuUradu": {
+        "titl": "For revenue authority at"
+      },
+      "fyzickaOsoba": {
+        "titl": "Natural person:"
+      },
+      "hlavniEkonomickaCinnost": {
+        "titl": "Main economic activity"
+      },
+      "hodnota": {
+        "titl": "Value"
+      },
+      "kDPH": {
+        "titl": "To VAT"
+      },
+      "keDni": {
+        "titl": "to date"
+      },
+      "koeficient": {
+        "titl": "Coefficient"
+      },
+      "kraceniRadek1": {
+        "titl": "Calculated relative part of tax deduction (§ 76)"
+      },
+      "kraceniRadek2": {
+        "titl": "Tax deduction settlement (§ 76 par 7-10)"
+      },
+      "kraceniRadek3": {
+        "titl": "Tax deduction adjustment (§ 78)"
+      },
+      "kraceniRadek4": {
+        "titl": "Tax deduction compensation (§ 79)"
+      },
+      "kraceniVyporadavaniUprava": {
+        "titl": "Shortage, settlement, adjustment, compensation of tax deduction"
+      },
+      "kracenyNarok": {
+        "titl": "Shortened claim"
+      },
+      "kraj": {
+        "titl": "Region"
+      },
+      "narokNaOdpocet": {
+        "titl": "Claim for tax deduction of fulfilment for"
+      },
+      "nazevPravnickeOsoby": {
+        "titl": "Legal entity name"
+      },
+      "neplatceDane": {
+        "titl": "Bad payer of tax § 19 / 5, 6, § 108"
+      },
+      "nezZacnete": {
+        "titl": "Before you start filling in a form, please read the instructions."
+      },
+      "odOsobNeregistrovanych": {
+        "titl": "From persons non-registered to tax in another member country (§ 19 par 4)"
+      },
+      "odOsobRegistrovanych": {
+        "titl": "From persons registered to tax in another member country (§ 19 par 3)"
+      },
+      "oddil": {
+        "titl": "Section"
+      },
+      "odpocetDane": {
+        "titl": "Tax deduction"
+      },
+      "odpocetRadek1": {
+        "titl": "Received taxable fulfilments with places of fulfilment at home"
+      },
+      "odpocetRadek7": {
+        "titl": "By regime change"
+      },
+      "odpocetRadek8": {
+        "titl": "Total sum for shortage of claim for tax deduction\n(row. 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)"
+      },
+      "odpocetRadek9": {
+        "titl": "Total sum of full claim for tax deduction\n(row. 310 + 315 + 320 + 325 + 330 + 335 + 340 + 345 + 350 + 355 + 360 + 365 + 370)"
+      },
+      "oprava": {
+        "titl": "Correction"
+      },
+      "opravne": {
+        "titl": "correction amount"
+      },
+      "osobaIdentifikovanaKDani": {
+        "titl": "Person identified to tax § 96"
+      },
+      "osobaOpravnenaKPodpisu": {
+        "titl": "Justified person to signature for tax subject"
+      },
+      "otiskRazitka": {
+        "titl": "Imprint of a stamp"
+      },
+      "otiskRazitkaFU": {
+        "titl": "Imprint of a presentation stamp of revenue office"
+      },
+      "platceDane": {
+        "titl": "Taxpayer § 94"
+      },
+      "plnyNarok": {
+        "titl": "Full claim"
+      },
+      "podpis": {
+        "titl": "Signature"
+      },
+      "podpisOpravnenehoPracovnikaDPH": {
+        "titl": "Signature of justified tax administrator"
+      },
+      "porizeniProstrednikem": {
+        "titl": "Cost of merchandise by middle person"
+      },
+      "postaveniVzhledemKPravnickeOsobe": {
+        "titl": "At legal entity: status to legal entity"
+      },
+      "povinnostPriznatDanZa": {
+        "titl": "Tax return liability for"
+      },
+      "pozdejsichPredpisu": {
+        "titl": "later regilations, on day"
+      },
+      "pravnickaOsoba": {
+        "titl": "Legal entity:"
+      },
+      "priznani": {
+        "titl": "Tax return"
+      },
+      "priznaniSestavil": {
+        "titl": "Tax return set up by"
+      },
+      "priznatRadek1": {
+        "titl": "Executed taxable fulfilments with places of fulfilment at home"
+      },
+      "priznatRadek2": {
+        "titl": "Cost of merchandise from different member state (§ 16 a § 17 par 6 letter e); except § 19)"
+      },
+      "priznatRadek3": {
+        "titl": "Providing a service by person registered to tax in another member country (§ 15 and § 13 par 8)"
+      },
+      "priznatRadek4": {
+        "titl": "Goods sending from different member state with places of fulfilment at home (§ 18)"
+      },
+      "priznatRadek5": {
+        "titl": "New means of transport acquisition"
+      },
+      "priznatRadek6": {
+        "titl": "Import of goods (§ 20)"
+      },
+      "priznatRadek7": {
+        "titl": "Service provision by foreign person liable to tax(§ 15 and § 13 par 8)"
+      },
+      "prohlaseni": {
+        "titl": "I declare, that all data given by me in this tax return are true and complete."
+      },
+      "proskrtneteNevzniklaDanovaPovinnost": {
+        "titl": "Cross out, if the tax liability didn't arise."
+      },
+      "radek": {
+        "titl": "row"
+      },
+      "radne": {
+        "titl": "regular"
+      },
+      "rok": {
+        "titl": "year"
+      },
+      "sDani": {
+        "titl": "With tax"
+      },
+      "sSnizSazbou": {
+        "titl": "With reduced tax rate"
+      },
+      "sZklSazbou": {
+        "titl": "With base tax rate."
+      },
+      "sidloNeboBydliste": {
+        "titl": "Seat of legal entity or permanent residence of natural person."
+      },
+      "ulice": {
+        "titl": "Street and orientational number (or district and descriptive number )"
+      },
+      "uskutecnenaCelkemRadek1": {
+        "titl": "Total amount of executed fulfilments with claim for tax deduction (§ 72 par 2 letters a) to d))"
+      },
+      "uskutecnenaCelkemRadek2": {
+        "titl": "Executed fulfilments which aren't included in coefficient calculation (§ 76 par 3) from mentioned in row 510"
+      },
+      "uskutecnenaCelkemRadek3": {
+        "titl": "Total amount of executed fulfilments free of tax without claim for tax deduction (§ 51)"
+      },
+      "uskutecnenaCelkemRadek4": {
+        "titl": "Executed fulfilments which aren't included in coefficient calculation (§ 76 par 3) from mentioned in row 530"
+      },
+      "uskutecnenaPlneniCelkem": {
+        "titl": "Executed fulfilments in total"
+      },
+      "uskutecnenaPlneniOsvobozena": {
+        "titl": "Executed fulfilments free of tax without claim for tax deduction"
+      },
+      "uskutecnenaRadek1": {
+        "titl": "Delivery of goods to different member state (§ 64 except § 64 par 2 and § 17 par 2)"
+      },
+      "uskutecnenaRadek2": {
+        "titl": "New means of transport delivery to different member state (§ 64 par 2)\nto person registered to tax in member state"
+      },
+      "uskutecnenaRadek3": {
+        "titl": "New means of transport delivery to different member state (§ 64 par 2)\nto person non-registered to tax in member state"
+      },
+      "uskutecnenaRadek4": {
+        "titl": "Export of goods (§ 66)"
+      },
+      "uskutecnenaRadek5": {
+        "titl": "Other fulfilments freed of tax with claim for tax deduction"
+      },
+      "uvedeniHodnotyPriZjednoduseni": {
+        "titl": "Value introduction when simplified procedure is used\nwhen goods is delivered inside European union by tripartide trade form (§ 17)"
+      },
+      "vraceniDane": {
+        "titl": "Tax refund (§ 84)"
+      },
+      "vraceniDaneRadek1": {
+        "titl": "Tax refund"
+      },
+      "vypocetDaneRadek1": {
+        "titl": "Tax settlement at output (§ 91)"
+      },
+      "vypocetDaneRadek2": {
+        "titl": "Tax at output (rows 210 + 215 + 220 + 225 + 230 + 235 + 240 + 245 + 250 + 255 + 260 + 265 + 270 + 275 - 600 + 710)"
+      },
+      "vypocetDaneRadek3": {
+        "titl": "Tax deduction (rows 390 + 550 + 560 + 570 + 580)"
+      },
+      "vypocetDaneRadek4": {
+        "titl": "Own tax liability (rows 730 - 750)"
+      },
+      "vypocetDaneRadek5": {
+        "titl": "Excessive deduction (rows 750 - 730)"
+      },
+      "vypocetDaneRadek6": {
+        "titl": "Tax liability change when supplementary returns are made (rows 730 - 750)"
+      },
+      "vypocetDanovePovinnosti": {
+        "titl": "Tax liability calculation"
+      },
+      "zaObdobi": {
+        "titl": "In tax period:month"
+      },
+      "zakladDane": {
+        "titl": "Tax base"
+      },
+      "zauctovanoVObdobi": {
+        "titl": "Posted during the period"
+      },
+      "zmenaOdpoctuDane": {
+        "titl": "Tax deduction change"
+      }
+    },
+    "podkladyDph$$NES": {
+      "_title": {
+        "titl": "VAT supporting documentation per post date"
+      }
+    },
+    "podkladyDph$$SUM": {
+      "_title": {
+        "titl": "VAT documents"
+      }
+    },
+    "podkladyDphBezUctovani$$NES": {
+      "_title": {
+        "titl": "VAT data documents by settlement date (grouped)"
+      }
+    },
+    "podkladyDphBezUctovani$$SUM": {
+      "_title": {
+        "titl": "VAT data documents (grouped)"
+      }
+    },
+    "podkladyDphNaVysku$$SUMACE": {
+      "_title": {
+        "titl": "VAT data documents (only summed lines)"
+      }
+    },
+    "podkladyDphNaVyskuZRadku$$SUMACE": {
+      "_title": {
+        "titl": "VAT documents for other VAT countries (summary lines only)"
+      }
+    },
+    "podkladyDphZRadku$$SUM": {
+      "_title": {
+        "titl": "VAT documents for other VAT countries"
+      }
+    },
+    "pohybyNaUctech": {
+      "_title": {
+        "titl": "Movements on accounts"
+      }
+    },
+    "pohybyNaUctechZjednodusene": {
+      "_title": {
+        "titl": "Accounts inventory"
+      },
+      "doklad": {
+        "titl": "Document"
+      },
+      "pocatek": {
+        "titl": "Beginning"
+      },
+      "sumTuzDal": {
+        "titl": "Turnover DAL [%currency-symbol]"
+      },
+      "sumTuzMd": {
+        "titl": "Turnover MD [%currency-symbol]"
+      },
+      "ucetDAL": {
+        "titl": "Account DAL"
+      },
+      "ucetMD": {
+        "titl": "Account MD"
+      },
+      "zustatek": {
+        "titl": "Balance"
+      },
+      "zustatekTuz": {
+        "titl": "Balance [%currency-symbol]"
+      }
+    },
+    "pohybyNaUctechZjednodusene$$SUM": {
+      "_title": {
+        "titl": "Movements in accounts - inventory"
+      }
+    },
+    "pokDoklad": {
+      "_title": {
+        "titl": "Cash document"
+      },
+      "bezDane2": {
+        "titl": "VAT 0%"
+      },
+      "castkaSlovy": {
+        "titl": "Sum in words"
+      },
+      "dan2": {
+        "titl": "VAT"
+      },
+      "dne": {
+        "titl": "Day"
+      },
+      "podpisPokladnika": {
+        "titl": "Cashier's signature"
+      },
+      "prevzal": {
+        "titl": "Taken over"
+      },
+      "prijatoOd": {
+        "titl": "Recieved from"
+      },
+      "prijmovyDoklad": {
+        "titl": "Receipt cash voucher"
+      },
+      "prijmovyDokladVratka": {
+        "titl": "Income cash voucher - return premium"
+      },
+      "schvalil": {
+        "titl": "Approved by"
+      },
+      "soucet": {
+        "titl": "Sum"
+      },
+      "ucel": {
+        "titl": "Purpose"
+      },
+      "vydejovyDoklad": {
+        "titl": "Issue cash voucher"
+      },
+      "vydejovyDokladVratka": {
+        "titl": "Expenditure cash voucher - return premium"
+      },
+      "vyplacenoKomu": {
+        "titl": "Paid out to"
+      },
+      "zaklad": {
+        "titl": "Base"
+      },
+      "zauctoval": {
+        "titl": "Brought to book by"
+      }
+    },
+    "pokDoklad$$SUM_UHR_DOKL": {
+      "_title": {
+        "titl": "Cash desk voucher (w/ list of settled documents)"
+      }
+    },
+    "pokDoklad$$SUM_ZAUCT": {
+      "_title": {
+        "titl": "Cash voucher (with bookkeeping)"
+      }
+    },
+    "polozkyFaktur": {
+      "_title": {
+        "titl": "Sale analysis"
+      },
+      "idCenik": {
+        "titl": "Goods"
+      },
+      "idFirmy": {
+        "titl": "Company"
+      },
+      "idMistUrc": {
+        "titl": "Destination"
+      },
+      "idSkladu": {
+        "titl": "Stock"
+      },
+      "idSkupCen": {
+        "titl": "Price group"
+      },
+      "idSkupFir": {
+        "titl": "Group of companies"
+      },
+      "idSkupZboz": {
+        "titl": "Group of goods"
+      },
+      "idStred": {
+        "titl": "Centre"
+      },
+      "idZakazky": {
+        "titl": "Order"
+      },
+      "idZodpOsoba": {
+        "titl": "Person in charge"
+      },
+      "idZodpOsobaAdresar": {
+        "titl": "Responsible person from directory"
+      },
+      "procObchodniRozpeti": {
+        "titl": "% Range"
+      },
+      "procSumZkl": {
+        "titl": "% Total"
+      }
+    },
+    "polozkyFaktur$$NES": {
+      "_title": {
+        "titl": "Sales analysis (w/o summation)"
+      }
+    },
+    "polozkyFaktur$$NES_NAKUP": {
+      "_title": {
+        "titl": "Purchases analysis (w/o summation)"
+      }
+    },
+    "polozkyFaktur$$SUM_NAKUP": {
+      "_title": {
+        "titl": "Purchases analysis"
+      }
+    },
+    "postovniPodaciArch": {
+      "_title": {
+        "titl": "Postal filing sheet"
+      }
+    },
+    "pplstitek": {
+      "_title": {
+        "titl": "PPL Tag (size A4)"
+      },
+      "dobirka": {
+        "titl": "Cash on Delivery:"
+      },
+      "dokladCislo": {
+        "titl": "Document number:"
+      },
+      "email": {
+        "titl": "email: info@ppl.cz"
+      },
+      "expresnibalikovasluzba": {
+        "titl": "Express package service"
+      },
+      "flexibee": {
+        "titl": "ABRA Flexi"
+      },
+      "modralinka": {
+        "titl": "Info line: 840 775 775"
+      },
+      "odesilatel": {
+        "titl": "Consignor/Sender:"
+      },
+      "prijemce": {
+        "titl": "Consignee/Recipient:"
+      },
+      "www": {
+        "titl": "http://www.ppl.cz"
+      }
+    },
+    "pplstitekJeden": {
+      "_title": {
+        "titl": "PPL Tag (individual, 102x126mm)"
+      }
+    },
+    "predvaha": {
+      "dal": {
+        "titl": "Credit"
+      },
+      "koncovyZustatek": {
+        "titl": "Closing balance"
+      },
+      "md": {
+        "titl": "Debit"
+      },
+      "obratyZaObdobi": {
+        "titl": "Turnovers for period"
+      },
+      "pocatecniZustatek": {
+        "titl": "Opening balance"
+      },
+      "uctovaTrida": {
+        "titl": "Account class"
+      }
+    },
+    "prehledSmluv": {
+      "_title": {
+        "titl": "Overview of contracts"
+      }
+    },
+    "prehledSmluv$$SUM_POL": {
+      "_title": {
+        "titl": "Overview of contracts (w/ list of items)"
+      }
+    },
+    "prehled_a4$$FAP": {
+      "_title": {
+        "titl": "Invoices in list (Portrait)"
+      }
+    },
+    "prijemkaVydejka": {
+      "_title": {
+        "titl": "Stock documents - individual"
+      },
+      "cisFak": {
+        "titl": "Invoice number"
+      },
+      "cislo": {
+        "titl": "Number"
+      },
+      "maFakturu": {
+        "titl": "Have a invoice"
+      },
+      "prijemkaVydejkaUmisteni": {
+        "titl": "Receipt or withdrawal (w/ location)"
+      },
+      "typPohybu.prijem": {
+        "titl": "Receipt card"
+      },
+      "typPohybu.vydej": {
+        "titl": "Issue card"
+      },
+      "umisteni": {
+        "titl": "Location"
+      },
+      "vydal": {
+        "titl": "Issued by"
+      }
+    },
+    "prikazDoVyroby": {
+      "_title": {
+        "titl": "Command to production"
+      },
+      "cisloPrikazu": {
+        "titl": "Order number"
+      },
+      "datumVyhotoveni": {
+        "titl": "Date of completion"
+      },
+      "mezioperacniKontrola": {
+        "titl": "Intermediate examination"
+      },
+      "ostatniSuroviny": {
+        "titl": "Other materials and justification"
+      },
+      "sarze": {
+        "titl": "Charge"
+      },
+      "skladVyrobku": {
+        "titl": "Stock products"
+      },
+      "uzavreni": {
+        "titl": "Conclusion"
+      },
+      "vystupniKontrola": {
+        "titl": "Final inspection"
+      },
+      "zamestnanci": {
+        "titl": "Employees"
+      }
+    },
+    "priznaniDPH": {
+      "_title": {
+        "titl": "VAT return (valid to year 2008)"
+      }
+    },
+    "priznaniDPH2009": {
+      "_title": {
+        "titl": "VAT return (valid from year 2009)"
+      }
+    },
+    "priznaniDPH2009SK": {
+      "_title": {
+        "titl": "VAT return (Slovakian printed matter)"
+      }
+    },
+    "priznaniDPH2010": {
+      "_title": {
+        "titl": "VAT return specimen no. č. 16 (from 1.1.2010)"
+      }
+    },
+    "priznaniDPH2010SK": {
+      "_title": {
+        "titl": "VAT returns from 2010 - 01 (from 1.1.2010) (Slovak form)"
+      }
+    },
+    "priznaniDPH2011": {
+      "_title": {
+        "titl": "VAT return specimen no, 17 (since 1.1.2011)"
+      }
+    },
+    "priznaniDPH2011SK": {
+      "_title": {
+        "titl": "VAT return specimen 2011 - 01 (since 1.1.2011) (Slovakia form)"
+      }
+    },
+    "priznaniDPH2012SK": {
+      "_title": {
+        "titl": "VAT Return 2012 - 01 (from 1.1.2012) (Slovak version)"
+      }
+    },
+    "priznaniDPH2013": {
+      "_title": {
+        "titl": "VAT return specimen no. 18 (since 1.1.2013)"
+      }
+    },
+    "priznaniDPH2015": {
+      "_title": {
+        "titl": "VAT return specimen no. 19 (since 1.1.2015)"
+      }
+    },
+    "priznaniDPH2016": {
+      "_title": {
+        "titl": "VAT return template No. 20 (from 29/7/2016)"
+      }
+    },
+    "priznaniDPH2019": {
+      "_title": {
+        "titl": "VAT return template No. 21 (since 01/05/2019)"
+      }
+    },
+    "priznaniDPH2021": {
+      "_title": {
+        "titl": "VAT declaration model No. 23 (from 01.10.2021)"
+      }
+    },
+    "priznaniDPH2021SK": {
+      "_title": {
+        "titl": "VAT return 2021 (from 1.1.2021) (Slovak form)"
+      }
+    },
+    "priznaniDPH2024": {
+      "_title": {
+        "titl": "VAT declaration model No. 24 (from 01.01.2024)"
+      }
+    },
+    "prodejka": {
+      "_title": {
+        "titl": "Simplified tax certificate"
+      },
+      "celkem": {
+        "titl": "Total"
+      }
+    },
+    "prodejka60mm": {
+      "_title": {
+        "titl": "Simplified tax certificate (60mm)"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "celkemV": {
+        "titl": "Total in"
+      },
+      "datVyst": {
+        "titl": "Date"
+      },
+      "duzp": {
+        "titl": "Taxable supp."
+      },
+      "mj": {
+        "titl": "Amount"
+      }
+    },
+    "prodejkaZaHotove": {
+      "_title": {
+        "titl": "Receipt"
+      }
+    },
+    "prodejniPrehled": {
+      "_title": {
+        "titl": "Sales overview"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "sumCelkem": {
+        "titl": "Total [%p]"
+      },
+      "sumDph": {
+        "titl": "VAT [%p]"
+      },
+      "sumZkl": {
+        "titl": "Base [%p]"
+      },
+      "uhrazeno": {
+        "titl": "Paid"
+      }
+    },
+    "pruvodka": {
+      "_title": {
+        "titl": "Route-sheet"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "kBAN": {
+        "titl": "Bank document"
+      },
+      "kFAP": {
+        "titl": "Invoice in"
+      },
+      "kFAV": {
+        "titl": "Invoice out"
+      },
+      "kINT": {
+        "titl": "Internal document"
+      },
+      "kPHL": {
+        "titl": "Receivables"
+      },
+      "kPOK": {
+        "titl": "Cash document"
+      },
+      "kSKL": {
+        "titl": "Stock document"
+      },
+      "kZAV": {
+        "titl": "Obligation"
+      },
+      "kZapoctu": {
+        "titl": "Mutual credit"
+      },
+      "rekapitulaceDph": {
+        "titl": "VAT recapitulation"
+      },
+      "sazbaDph": {
+        "titl": "VAT rate"
+      },
+      "suma": {
+        "titl": "Sum"
+      },
+      "ucetDal": {
+        "titl": "Credit account"
+      },
+      "ucetMD": {
+        "titl": "Debit account"
+      },
+      "uctovani": {
+        "titl": "Posting"
+      },
+      "zdanitelnePlneni": {
+        "titl": "Taxable fulfilment"
+      }
+    },
+    "radkySestavy": {
+      "rozsahPredSestavy": {
+        "titl": "Prior period from:"
+      },
+      "rozsahSestavy": {
+        "titl": "For period beginning:"
+      },
+      "rozsahSestavyDo": {
+        "titl": "to:"
+      }
+    },
+    "rady": {
+      "_title": {
+        "titl": "Document series"
+      }
+    },
+    "rozvaha": {
+      "_title": {
+        "titl": "Balance sheet in full extent"
+      },
+      "bilance": {
+        "titl": "(bilance)"
+      },
+      "doDne": {
+        "titl": "to"
+      },
+      "keDni": {
+        "titl": "to date"
+      },
+      "nazevASidloUcetniJednotky": {
+        "titl": "Seat, residence or place\nof business of accounting unit"
+      },
+      "obchodniFirma": {
+        "titl": "Business company or another\naccounting item name"
+      },
+      "odDne": {
+        "titl": "since"
+      },
+      "okamzikSestaveni": {
+        "titl": "Arrangement moment"
+      },
+      "podpisOrganu": {
+        "titl": "Signature record of statutory authority or natural person which is accounting unit"
+      },
+      "podpisOsoby": {
+        "titl": "Signature record of person responsible for closing of books arrangement"
+      },
+      "pravniFormaUcetniJednotky": {
+        "titl": "Legal form of accounting unit"
+      },
+      "predmetPodnikani": {
+        "titl": "Bussiness or another activity objective"
+      },
+      "rozvaha": {
+        "titl": "Balance sheet"
+      },
+      "schvalenoMFCR": {
+        "titl": "Proccessed in accordance with official announcement no. 500/2002\nSb. in version of later regulations"
+      },
+      "schvalenoMFCRnezisk": {
+        "titl": "Processed in accordance with Decree No. 504/2002\nColl., as amended"
+      },
+      "schvalenoMFCRprispevk": {
+        "titl": "Proccessed in accordance with official announcement no. 505/2002\nSb. in version of later regulations"
+      },
+      "schvalenoMFCRprispevk2010": {
+        "titl": "Proccessed in accordance with official announcement no. 410/2009\nSb. in version of later regulations"
+      },
+      "schvalenoMFCRslovaci": {
+        "titl": "Proccessed in accordance with official announcement no. 500/2002\nSb. in version of later regulations"
+      },
+      "vKC": {
+        "titl": "(in whole thousands %currency-symbol)"
+      },
+      "zakladniVerze": {
+        "titl": "In basic extent"
+      },
+      "zjednodusenaVerze": {
+        "titl": "in simplified extent"
+      },
+      "zkracenaVerze": {
+        "titl": "shortened"
+      }
+    },
+    "rozvaha$$SUM": {
+      "_title": {
+        "titl": "Balance sheet in simplified extent"
+      }
+    },
+    "rozvaha$$SUM_ZAKL": {
+      "_title": {
+        "titl": "Balance sheet in basic extent"
+      }
+    },
+    "rozvahaPoUctechObraty": {
+      "_title": {
+        "titl": "Assets and liabilities list (turnovers)"
+      }
+    },
+    "rozvahaPoUctechStavy": {
+      "_title": {
+        "titl": "Assets and liabilities list (balances)"
+      }
+    },
+    "rozvahaVysledovkaPoUctech": {
+      "aktiva": {
+        "titl": "Assets"
+      },
+      "konecnyZustatek": {
+        "titl": "Closing balance"
+      },
+      "naklady": {
+        "titl": "Expenses"
+      },
+      "pasiva": {
+        "titl": "Liabilities"
+      },
+      "soucet": {
+        "titl": "Sum"
+      },
+      "uctovaTrida": {
+        "titl": "Accounting class"
+      },
+      "vynosy": {
+        "titl": "Profits"
+      },
+      "vysledek": {
+        "titl": "Result"
+      }
+    },
+    "saldo": {
+      "_title": {
+        "titl": "Balance"
+      }
+    },
+    "saldo$$GRUP": {
+      "_title": {
+        "titl": "Balance (grouped)"
+      }
+    },
+    "saldoNaVysku": {
+      "_title": {
+        "titl": "Balance (high size)"
+      }
+    },
+    "saldoNaVysku$$GRUP": {
+      "_title": {
+        "titl": "Balance (portrait, grouped)"
+      }
+    },
+    "sesRadky": {
+      "_title": {
+        "titl": "Composition rows"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$BEZ_ROZPADU": {
+      "_title": {
+        "titl": "Composition rows"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$ROZPAD_PREDPIS": {
+      "_title": {
+        "titl": "Composition rows (Standard regulation, User regulation)"
+      }
+    },
+    "sesRadkyPort$$SES$$uSestavy$$ROZPAD_UCET": {
+      "_title": {
+        "titl": "Composition rows (Disintegration to accounts)"
+      }
+    },
+    "sesRadkyRozpadUce": {
+      "_title": {
+        "titl": "Composition rows (Disintegration to accounts)"
+      }
+    },
+    "sesRadkyStdPred": {
+      "_title": {
+        "titl": "Composition rows (Standard regulation, User regulation)"
+      }
+    },
+    "sestavy": {
+      "_title": {
+        "titl": "Accounting compositions"
+      }
+    },
+    "sklPol$$SKL": {
+      "_title": {
+        "titl": "Stock movements list"
+      }
+    },
+    "sklRezervace": {
+      "_title": {
+        "titl": "Bookings list"
+      }
+    },
+    "sklVyrCis": {
+      "_title": {
+        "titl": "Serial numbers list"
+      }
+    },
+    "skladKarty": {
+      "_title": {
+        "titl": "Stock cards"
+      },
+      "cenaTuz": {
+        "titl": "Price [%currency-symbol]"
+      },
+      "poslCenaTuz": {
+        "titl": "Last"
+      },
+      "prumCenaTuz": {
+        "titl": "Average"
+      },
+      "stav": {
+        "titl": "Goods level"
+      },
+      "stavMJ": {
+        "titl": "in units"
+      },
+      "stavMen": {
+        "titl": "[currency]"
+      },
+      "stavTuz": {
+        "titl": "[%currency-symbol]"
+      },
+      "sumPrijem": {
+        "titl": "Receipt:"
+      },
+      "sumVydej": {
+        "titl": "Withdrawal:"
+      }
+    },
+    "skladKarty$$SKL$$NES": {
+      "_title": {
+        "titl": "Overview of warehouse cards (w/ movements)"
+      }
+    },
+    "skladKarty$$SKL$$NES_STR": {
+      "_title": {
+        "titl": "Overview of warehouse cards (w/ movements, paginated)"
+      }
+    },
+    "skladKartyInventura": {
+      "_title": {
+        "titl": "Stocktacking list of goods"
+      },
+      "naSklade": {
+        "titl": "Real status"
+      }
+    },
+    "skladKartyInventura$$NES": {
+      "_title": {
+        "titl": "Inventory list of goods (without balances)"
+      }
+    },
+    "skupFir": {
+      "_title": {
+        "titl": "Groups of companies"
+      }
+    },
+    "skupZboz": {
+      "_title": {
+        "titl": "Groups of goods"
+      }
+    },
+    "slozenkaA": {
+      "_title": {
+        "titl": "Postal COD type A"
+      }
+    },
+    "smerKod": {
+      "_title": {
+        "titl": "Directional codes"
+      }
+    },
+    "souhrnneHlaseni": {
+      "_title": {
+        "titl": "Summary report"
+      }
+    },
+    "souhrnnyVykazOPrijmechAVydajich": {
+      "_title": {
+        "titl": "Income-outcome statement: summary"
+      },
+      "danEvidSkupina.nespadaCelkem": {
+        "titl": "Not tax total"
+      },
+      "danEvidSkupina.nevyplnenoCelkem": {
+        "titl": "Undefined total"
+      },
+      "danEvidSkupina.ostatniCelkem": {
+        "titl": "Others total"
+      },
+      "danEvidSkupina.prijemCelkem": {
+        "titl": "Income total"
+      },
+      "danEvidSkupina.vydejCelkem": {
+        "titl": "Outcome total"
+      },
+      "nevyplneno": {
+        "titl": "Undefined"
+      },
+      "rozdilPrijemVydej": {
+        "titl": "Income-outcome difference"
+      }
+    },
+    "stavSkladu": {
+      "_title": {
+        "titl": "Stock status to the date"
+      }
+    },
+    "stavyHlavniKniha": {
+      "_title": {
+        "titl": "Main book (total turnovers for months)"
+      }
+    },
+    "stavyUctu": {
+      "Dal": {
+        "titl": "Credit"
+      },
+      "Md": {
+        "titl": "Debit"
+      },
+      "_title": {
+        "titl": "States of accounts"
+      },
+      "obrat": {
+        "titl": "Turnover"
+      },
+      "zaUcetObdobi": {
+        "titl": "For accounting period"
+      },
+      "zustatek": {
+        "titl": "Balance"
+      }
+    },
+    "stavyUctuPocatky": {
+      "_title": {
+        "titl": "Initial accounts statuses - control print"
+      }
+    },
+    "stitky": {
+      "_title": {
+        "titl": "Shelf labels (70x30 mm)"
+      },
+      "za": {
+        "titl": "for"
+      }
+    },
+    "strediska": {
+      "_title": {
+        "titl": "Centres"
+      }
+    },
+    "typDoklSkl$$SKL": {
+      "_title": {
+        "titl": "List of types of stock documents"
+      }
+    },
+    "typLeasingu": {
+      "_title": {
+        "titl": "Types of leasing"
+      }
+    },
+    "typUcetOp": {
+      "_title": {
+        "titl": "Bookkeeping methods list"
+      }
+    },
+    "ucetniDenik": {
+      "_title": {
+        "titl": "Accounting diary"
+      }
+    },
+    "ucetniObdobi": {
+      "_title": {
+        "titl": "Accounting period"
+      }
+    },
+    "ucetniOsnova": {
+      "_title": {
+        "titl": "Accounting classsifications"
+      }
+    },
+    "ucetniRozvrh": {
+      "_title": {
+        "titl": "Accounting schedule"
+      }
+    },
+    "uhrazeneDoklady": {
+      "_title": {
+        "titl": "Paid documents"
+      },
+      "castka": {
+        "titl": "Amount"
+      },
+      "sumCelkem": {
+        "titl": "Total"
+      },
+      "zbyvaSparovat": {
+        "titl": "Remaining to pair"
+      },
+      "zbyvaUhradit": {
+        "titl": "Remaining to pay"
+      }
+    },
+    "upominka": {
+      "_title": {
+        "titl": "Demand for Payment"
+      },
+      "adresaDodavatele": {
+        "titl": "Supplier Address:"
+      }
+    },
+    "uzaverkoveOperace": {
+      "_title": {
+        "titl": "Closing operations"
+      },
+      "celkem": {
+        "titl": "Total"
+      },
+      "mezisoucetObratu": {
+        "titl": "Subtotal turnovers"
+      },
+      "zisk": {
+        "titl": "Profit 710 / 702"
+      },
+      "ztrata": {
+        "titl": "Loss 702 / 710"
+      }
+    },
+    "vykazCenPohyby": {
+      "_title": {
+        "titl": "Purchasing, sales and stock movements"
+      },
+      "sumCelkemFAP": {
+        "titl": "Incomming invoices"
+      },
+      "sumCelkemFAV": {
+        "titl": "Outgoing invoices"
+      },
+      "sumCelkemPOKPrijem": {
+        "titl": "Cash desk - received"
+      },
+      "sumCelkemPOKVydej": {
+        "titl": "Cash desk - issued"
+      },
+      "sumCelkemSKLPrijem": {
+        "titl": "Stock - received"
+      },
+      "sumCelkemSKLVydej": {
+        "titl": "Stock - issued"
+      }
+    },
+    "vykazDanEvidSK": {
+      "_title": {
+        "titl": "Income-outcome statement: details"
+      }
+    },
+    "vykazHospodareni": {
+      "_title": {
+        "titl": "Czech statement of income"
+      },
+      "mesic": {
+        "titl": "Month"
+      },
+      "rok": {
+        "titl": "Year"
+      },
+      "vykazHospodareniZa": {
+        "titl": "Czech statement of income monthly"
+      },
+      "zahrnovany": {
+        "titl": "included"
+      },
+      "ziskZtrata": {
+        "titl": "profit (+), loss (-)"
+      }
+    },
+    "vykazMossPrehled": {
+      "_title": {
+        "titl": "MOSS tax return MOSS (overview)"
+      }
+    },
+    "vysledovka": {
+      "vysledovka": {
+        "titl": "Profit and loss statement"
+      }
+    },
+    "vysledovka$$NES": {
+      "_title": {
+        "titl": "Profit and loss statement in full extent"
+      }
+    },
+    "vysledovka$$SUM": {
+      "_title": {
+        "titl": "Profit and loss statement in simplified extent"
+      }
+    },
+    "vysledovka$$SUM_ZAKL": {
+      "_title": {
+        "titl": "Basic Profit and Loss Statement"
+      }
+    },
+    "vysledovkaPoUctechObraty": {
+      "_title": {
+        "titl": "List of expenses and profits (turnovers)"
+      }
+    },
+    "vysledovkaPoUctechStavy": {
+      "_title": {
+        "titl": "List of expenses and profits (balances)"
+      }
+    },
+    "zapocetPohledavek": {
+      "_title": {
+        "titl": "Agreement on reciprocal credit of receivables"
+      },
+      "a": {
+        "titl": "and"
+      },
+      "celkemZapocteno": {
+        "titl": "Total accounted:"
+      },
+      "cisDokl": {
+        "titl": "Document"
+      },
+      "cisloZapoctu": {
+        "titl": "Credit number"
+      },
+      "datSplat": {
+        "titl": "Maturity"
+      },
+      "datVyst": {
+        "titl": "Issue date"
+      },
+      "dohoda": {
+        "titl": "Agreement on reciprocal credit of receivables"
+      },
+      "obeStrany": {
+        "titl": "On the day of %p both parties agreed on reciprocal credit of the amount of %p %p."
+      },
+      "podleParagrafu": {
+        "titl": "Under § 364 of the Commercial Code and § 580 of the Civil Code"
+      },
+      "podleParagrafu1982": {
+        "titl": "Under § 1982 of the Civil Code"
+      },
+      "pohledavka": {
+        "titl": "Receivables to the firm %p from the firm %p:"
+      },
+      "potvrzenouKopii": {
+        "titl": "Please send confirmed copy back to our address."
+      },
+      "seDohodli": {
+        "titl": "They conclude an agreement on reciprocal credits of the following receivables and liabilities"
+      },
+      "sumCelkem": {
+        "titl": "Invoiced"
+      },
+      "varSym": {
+        "titl": "VS"
+      },
+      "za": {
+        "titl": "for the period of %p"
+      },
+      "zapocteno": {
+        "titl": "Accounted"
+      },
+      "zavazek": {
+        "titl": "Liabilities of the firm %p to the firm %p:"
+      },
+      "zbyvaUhradit": {
+        "titl": "Remains to be paid"
+      }
+    },
+    "zapocetPohledavekJednostranny": {
+      "_title": {
+        "titl": "Unilateral set-off of receivables"
+      },
+      "dohoda": {
+        "titl": "Unilateral set-off of receivables and liabilities"
+      },
+      "podleParagrafu": {
+        "titl": "Under § 364-368 of the Commercial Code and § 580-581 of the Civil Code"
+      },
+      "podleParagrafu1982": {
+        "titl": "Under § 1982 of the Civil Code"
+      },
+      "sPozdravem": {
+        "titl": "Sincerely"
+      },
+      "sdelujemeVam": {
+        "titl": "We hereby notify you that by the date %p we are figuring in the following receivables and liabilities:"
+      },
+      "vSidloOrganizaceDne": {
+        "titl": "In %p dated %p."
+      }
+    },
+    "zapujcky": {
+      "_title": {
+        "titl": "Property - loans"
+      }
+    },
+    "zebraStitkyMaster$$NES": {
+      "_title": {
+        "titl": "Tags (Zebra, 50x30mm, for piece in document item)"
+      }
+    },
+    "zebraStitkyMaster$$SUM": {
+      "_title": {
+        "titl": "Tags (Zebra, 50x30mm, for document item)"
+      }
+    },
+    "zebraStitkyMaster$$cenAkt$$SUM": {
+      "_title": {
+        "titl": "Shelf tags (Zebra, 50x30mm)"
+      }
+    }
+  }
+}

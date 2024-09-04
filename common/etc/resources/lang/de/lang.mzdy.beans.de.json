@@ -1,0 +1,1847 @@
+{
+  "beans": {
+    "cz.winstrom.vo.mzdy.AktualMzdy": {
+      "_title": {
+        "titl": "Lohn-Aktualisierung"
+      },
+      "bezneNahrady": {
+        "titl": "Geläufige Ersatzleistungen"
+      },
+      "cistaMzda": {
+        "titl": "Nettolohn"
+      },
+      "dan": {
+        "titl": "Steuer"
+      },
+      "danBonus": {
+        "abbr": "Bonus",
+        "titl": "Steuerbonus"
+      },
+      "danRezident": {
+        "titl": "Steuer Inländer"
+      },
+      "danSlevPrac": {
+        "abbr": "Rabatt Steuerz.",
+        "titl": "Rabatt - Steuerzahler"
+      },
+      "danSlevSum": {
+        "abbr": "Rabatt ins.",
+        "titl": "Steuerrabatt insgesamt"
+      },
+      "danSrazka": {
+        "abbr": "Abzugsst.",
+        "titl": "Abzugssteuer"
+      },
+      "danVypocet": {
+        "titl": "Berechnete Steuer"
+      },
+      "danZaklSraz": {
+        "titl": "Abzugssteuerbemessungsgrundlage"
+      },
+      "danZaklSrazSum": {
+        "abbr": "Grundl. Abzugssteuer",
+        "titl": "Abzugssteuerbemessungsgrundlage insgesamt"
+      },
+      "danZaklSum": {
+        "abbr": "Grundl.Steuer",
+        "titl": "Steuerbemessungsgrundlage"
+      },
+      "danZaloha": {
+        "abbr": "Anzahlung",
+        "titl": "Steueranzahlung"
+      },
+      "datum": {
+        "titl": "Datum"
+      },
+      "datumVypocet": {
+        "abbr": "Berechnet",
+        "titl": "Berechnungsdatum"
+      },
+      "dobaDovol": {
+        "titl": "Urlaub"
+      },
+      "dobaDovolCastka": {
+        "titl": "Urlaub Summe"
+      },
+      "dobaFond": {
+        "abbr": "Fond",
+        "titl": "Arbeitszeitfonds"
+      },
+      "dobaNeodpr": {
+        "abbr": "AZ - nicht geleistet",
+        "titl": "Nicht geleistete Arbeitszeit insgesamt"
+      },
+      "dobaOdpr": {
+        "abbr": "AZ - geleistet",
+        "titl": "Geleistete Arbeitszeit insgesamt"
+      },
+      "dobaOdprDny": {
+        "abbr": "Gel. Arbeitstage",
+        "titl": "Geleistete Arbeitstage insgesamt"
+      },
+      "dobirka": {
+        "titl": "Nachzahlung"
+      },
+      "dovolVybrano": {
+        "abbr": "Urlaub - genom.",
+        "titl": "Genommener Urlaub - insgesamt"
+      },
+      "dovolZbyva": {
+        "abbr": "Resturlaub",
+        "titl": "Resturlaub - im Jahr"
+      },
+      "duchodSpor": {
+        "titl": "Zweite Säule"
+      },
+      "hrubaMzda": {
+        "abbr": "Bruttolohn",
+        "titl": "Bruttolohn"
+      },
+      "hrubaPrumer": {
+        "titl": "Grundlage für Durchschnittslohn"
+      },
+      "idAktualMzdy": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Familienname und Vorname"
+      },
+      "mesic": {
+        "titl": "Monat"
+      },
+      "mzdaMesicni": {
+        "abbr": "Monatsgehalt",
+        "titl": "Monatsgehalt"
+      },
+      "mzdaNahrada": {
+        "abbr": "Kompensation",
+        "titl": "Lohnkompensation"
+      },
+      "nahradaNeschop": {
+        "abbr": "Komp. Arbeitunf.",
+        "titl": "Kompensation der Arbeitsunfähigkeit"
+      },
+      "nemoc": {
+        "titl": "Krankheit"
+      },
+      "nepenezPrijmy": {
+        "abbr": "Sachbezüge",
+        "titl": "Sachbezüge"
+      },
+      "nepritCelk": {
+        "abbr": "Abwes.",
+        "titl": "Nicht geleistete Arbeitszeit - Abwesenheit"
+      },
+      "nocniPripl": {
+        "abbr": "Zuschl.Nacht",
+        "titl": "Zuschlag für Nachtarbeit"
+      },
+      "odmeny": {
+        "titl": "Entlohnungen"
+      },
+      "osbCis": {
+        "abbr": "Personal-Nr.",
+        "titl": "Personalnummer"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "osobaHlav": {
+        "titl": "Kopfzeile der Person"
+      },
+      "podilNaZisku": {
+        "abbr": "Anteil",
+        "titl": "Gewinnanteil"
+      },
+      "pracPracPrum": {
+        "abbr": "Arb.recht.Stundendurch.",
+        "titl": "Arbeitsrechtlicher Stundendurchschnitt"
+      },
+      "premiePevna": {
+        "abbr": "Prämie fix",
+        "titl": "Prämie - fixe Summe"
+      },
+      "premieProc": {
+        "abbr": "Prämie %",
+        "titl": "Prämie % von Bruttolohn"
+      },
+      "premieProcUkaz": {
+        "abbr": "Prämie % Kennz.",
+        "titl": "Prämie von der Kennziffer / Grundlage"
+      },
+      "prescasCastka": {
+        "abbr": "Überstunden %currency-symbol",
+        "titl": "Überstunden - Summe"
+      },
+      "prescasHodiny": {
+        "titl": "Überstunden"
+      },
+      "prescasPripl": {
+        "abbr": "Zuschl. Überst.",
+        "titl": "Zuschlag für Überstunden"
+      },
+      "prispIzolacka": {
+        "abbr": "Beitrag: Izolačka",
+        "titl": "Beitrag zur Quarantäne (izolačka)"
+      },
+      "refundNeschop": {
+        "abbr": "Rückerstattung",
+        "titl": "Rückerstattung Abwesenheit"
+      },
+      "skupOsob": {
+        "abbr": "Gruppe",
+        "titl": "Personengruppe"
+      },
+      "slevaDeti": {
+        "titl": "Kinderrabatt"
+      },
+      "socPojCelk": {
+        "abbr": "SozV",
+        "titl": "Sozialversicherung insgesamt"
+      },
+      "socPojCelkDp": {
+        "abbr": "SozV Steuerzahler",
+        "titl": "Sozialversicherung insgesamt Rentenversicherung"
+      },
+      "socPojCelkSniz": {
+        "abbr": "Sozialversicherung vermindert",
+        "titl": "Sozialversicherung insgesamt vermindert"
+      },
+      "socPojCelkSpada": {
+        "titl": "Fällt unter die Sozialversicherung"
+      },
+      "socPojFirma": {
+        "abbr": "SozV Firma",
+        "titl": "Sozialversicherung Firma"
+      },
+      "socPojFirmaSniz": {
+        "abbr": "SozV für die Firma vermindert",
+        "titl": "Sozialversicherung für die Firma vermindert"
+      },
+      "socPojFirmaSnizZap": {
+        "abbr": "SozV für die Firma vermindert - aktiviert",
+        "titl": "Sozialversicherung für die Firma vermindert - aktiviert"
+      },
+      "socPojPrac": {
+        "abbr": "SozV Arbeitnehmer",
+        "titl": "Sozialversicherung Arbeitnehmer"
+      },
+      "socPojSleva": {
+        "titl": "Sozialversicherung - Rabatt"
+      },
+      "socPojZakl": {
+        "abbr": "SozV Grundlage",
+        "titl": "Sozialversicherung Grundlage"
+      },
+      "socPojZaklDp": {
+        "abbr": "SozV Grundlage Rentenvers.",
+        "titl": "Sozialversicherung Grundlage Rentenversicherung"
+      },
+      "socPojZaklSniz": {
+        "abbr": "SozV Grundlage - vermindert",
+        "titl": "Sozialversicherung Grundlage - vermindert"
+      },
+      "srazkaSporeni": {
+        "titl": "Abzüge"
+      },
+      "superhrubaMzda": {
+        "abbr": "SBL",
+        "titl": "Superbruttolohn"
+      },
+      "svatekCastka": {
+        "abbr": "Feiertage CHF",
+        "titl": "Geleistet - Feiertage - Summe"
+      },
+      "svatekHodiny": {
+        "abbr": "Feiertage Std.",
+        "titl": "Geleistet - Feiertage - Stunden"
+      },
+      "svatekNahrada": {
+        "abbr": "Komp. Feiertag",
+        "titl": "Kompensation für Feiertage"
+      },
+      "svatekNahradaHodiny": {
+        "abbr": "Std. Komp. Feiert.",
+        "titl": "Kompensation für Feiertage - Stunden"
+      },
+      "weekendCastka": {
+        "abbr": "Wochenende CHF",
+        "titl": "Geleistet - Wochenende - Summe"
+      },
+      "weekendHodiny": {
+        "abbr": "Wochenende Std.",
+        "titl": "Geleistet - Wochenende - Stunden"
+      },
+      "zalohaMimoradna": {
+        "abbr": "Sonderanz.",
+        "titl": "Sonderanzahlung"
+      },
+      "zalohaRadna": {
+        "titl": "Ordnungsmässige Anzahlung"
+      },
+      "zdravPoj": {
+        "abbr": "Krankenkasse",
+        "titl": "Krankenkasse"
+      },
+      "zdravPojCelk": {
+        "abbr": "KV",
+        "titl": "Krankenversicherung insgesamt"
+      },
+      "zdravPojFirma": {
+        "abbr": "KV Firma",
+        "titl": "Krankenversicherung Firma"
+      },
+      "zdravPojPrac": {
+        "abbr": "KV Arbeitnehmer",
+        "titl": "Krankenversicherung Arbeitnehmer"
+      },
+      "zdravPojZakl": {
+        "abbr": "KV Grundlage",
+        "titl": "Krankenversicherung Grundlage"
+      }
+    },
+    "cz.winstrom.vo.mzdy.BanSpojMzdy": {
+      "_title": {
+        "titl": "Bankverbindung"
+      },
+      "osoba": {
+        "titl": "Person"
+      }
+    },
+    "cz.winstrom.vo.mzdy.CisMzdSloz": {
+      "_title": {
+        "titl": "Stammdaten von Lohnkomponenten"
+      },
+      "castMzd": {
+        "titl": "Lohnsumme"
+      },
+      "castkaDen": {
+        "abbr": "CHF/Tag",
+        "titl": "Summe pro Tag"
+      },
+      "castkaHod": {
+        "abbr": "CHF/Std.",
+        "titl": "Summe pro Stunde"
+      },
+      "cisDoklNem": {
+        "abbr": "Beleg",
+        "titl": "Belegnummer (für Krankheit)"
+      },
+      "dnyKal": {
+        "abbr": "Kalendertage",
+        "titl": "Kalendertage"
+      },
+      "dnyPrac": {
+        "abbr": "Arbeitstage",
+        "titl": "Arbeitstage"
+      },
+      "dnySvatek": {
+        "abbr": "Feiertage",
+        "titl": "Feiertage"
+      },
+      "doplatZdravK": {
+        "abbr": "Nachzahlung Krankenv.",
+        "titl": "Nachzahlung Krankenkassebeitrag"
+      },
+      "hodiny": {
+        "titl": "Stunden"
+      },
+      "naOsobu": {
+        "titl": "Gemeinsam für alle Arbeitsverhältnisse der Person"
+      },
+      "paskaMala": {
+        "titl": "Lohnbescheinigung kurz"
+      },
+      "paskaPole": {
+        "titl": "Sichtbare Felder"
+      },
+      "paskaVelka": {
+        "titl": "Lohnbescheinigung lang"
+      },
+      "pocetMes": {
+        "abbr": "Gilt",
+        "titl": "Anzahl der Monate, für die die Komponente gilt"
+      },
+      "pracovni": {
+        "titl": "Interne Komponente (wird nicht angezeigt)"
+      },
+      "procMzd": {
+        "abbr": "% / konst.",
+        "titl": "Prozentsatz der Grundlage"
+      },
+      "prumNaDenNem": {
+        "titl": "Tagesdurchschnitt"
+      },
+      "prumNaHodNem": {
+        "titl": "Stundendurchschnitt"
+      },
+      "skupSlozkyK": {
+        "titl": "Komponentengruppe"
+      },
+      "typSlozkyK": {
+        "titl": "Komponententyp"
+      },
+      "ukladatNulove": {
+        "titl": "Mit null speichern"
+      },
+      "uuid": {
+        "titl": "UUID"
+      },
+      "vsCastMzd": {
+        "titl": "Betrag (Lohn)"
+      },
+      "vsCastNaDen": {
+        "titl": "Betrag pro Tag"
+      },
+      "vsCastNaHod": {
+        "titl": "Betrag pro Stunde"
+      },
+      "vsCisDoklNem": {
+        "titl": "Belegnummer (für Krankheit)"
+      },
+      "vsDatDo": {
+        "titl": "Enddatum"
+      },
+      "vsDatOd": {
+        "titl": "Anfangsdatum"
+      },
+      "vsDnyKal": {
+        "titl": "Kalendertage"
+      },
+      "vsDnyPrac": {
+        "titl": "Arbeitstage"
+      },
+      "vsDnySvatek": {
+        "titl": "Feiertage"
+      },
+      "vsDoplatZdrPoj": {
+        "titl": "Nachzahlung Krankenkassebeitrag"
+      },
+      "vsHodiny": {
+        "titl": "Stunden"
+      },
+      "vsHodinySvatek": {
+        "titl": "Stunden pro Feiertag"
+      },
+      "vsPocetMes": {
+        "titl": "Anzahl der Monate, für die die Komponente gilt."
+      },
+      "vsProcMzd": {
+        "titl": "Prozentsatz von der Grundlage"
+      },
+      "vsPrumNaDenNem": {
+        "titl": "Tagesdurchschnitt"
+      },
+      "vsPrumNaHodNem": {
+        "titl": "Stundendurchschnitt"
+      },
+      "vsZaklJeKracen": {
+        "titl": "Grundlage nach dem Arbeitsumfang gekürzt"
+      },
+      "vsZaklMzd": {
+        "titl": "Lohngrundlage"
+      },
+      "vsZmenaCastMzd": {
+        "titl": "Änderung der Summe vom Anwender"
+      },
+      "vyznamK": {
+        "titl": "Bedeutung"
+      },
+      "zaklJeKracen": {
+        "titl": "Grundlage nach Arbeitsumfang gekürzt"
+      },
+      "zaklMzd": {
+        "abbr": "Grundlage",
+        "titl": "Lohngrundlage"
+      },
+      "zapoctovyList": {
+        "titl": "Arbeitslaufzettel"
+      },
+      "zmenaCastMzd": {
+        "abbr": "Anwenderänder.",
+        "titl": "Änderung der Summe vom Anwender"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Dite": {
+      "_title": {
+        "titl": "Kinder"
+      },
+      "datNaroz": {
+        "titl": "Geburtsdatum"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pohlaviK": {
+        "titl": "Geschlecht"
+      },
+      "rodCis": {
+        "titl": "Personenkennzahl"
+      },
+      "ztp_P": {
+        "titl": "Schwerbehinderte Grad ZTP/P"
+      },
+      "ztp_PDo": {
+        "titl": "bis"
+      },
+      "ztp_POd": {
+        "titl": "von"
+      }
+    },
+    "cz.winstrom.vo.mzdy.DovolenaCerpani": {
+      "_title": {
+        "titl": "Urlaubnehmen"
+      },
+      "celkem": {
+        "titl": "Insgesamt"
+      },
+      "idDovolenaCerpani": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Familienname und Name"
+      },
+      "kraceno": {
+        "titl": "Gekürzt"
+      },
+      "lonska": {
+        "titl": "Vom letzten Jahr"
+      },
+      "narok": {
+        "titl": "Anspruch"
+      },
+      "necerpana": {
+        "titl": "Bezahlt"
+      },
+      "pomCast": {
+        "titl": "Bezugsteil"
+      },
+      "vybrano": {
+        "titl": "Bezogen"
+      },
+      "zbyva": {
+        "titl": "Resturlaub"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalc": {
+      "_title": {
+        "abbr": "Zeile LK",
+        "titl": "Zeile Lohnkalkulator"
+      },
+      "doHodnoty": {
+        "titl": "Wert bis"
+      },
+      "ispv": {
+        "titl": "ISPV"
+      },
+      "koeficient": {
+        "abbr": "Koef.1",
+        "titl": "Koeffizient 1"
+      },
+      "koeficient2": {
+        "abbr": "Koef.2",
+        "titl": "Koeffizient 2"
+      },
+      "koeficient3": {
+        "abbr": "Koef.3",
+        "titl": "Koeffizient 3"
+      },
+      "mzdCalcHlav": {
+        "titl": "Kopfzeile"
+      },
+      "mzdSlozIn": {
+        "abbr": "Eingabe 1",
+        "titl": "Eingabekomponente"
+      },
+      "mzdSlozIn2": {
+        "abbr": "Eingabe 2",
+        "titl": "Eingabekomponente 2"
+      },
+      "mzdSlozOut": {
+        "abbr": "Ausgabe",
+        "titl": "Ausgabekomponente"
+      },
+      "odHodnoty": {
+        "titl": "Wert von"
+      },
+      "operaceK": {
+        "titl": "Operation"
+      },
+      "poleIn": {
+        "abbr": "Feld 1",
+        "titl": "Eingabefeld"
+      },
+      "poleIn2": {
+        "abbr": "Feld 2",
+        "titl": "Eingabefeld 2"
+      },
+      "poleOut": {
+        "abbr": "Feld out",
+        "titl": "Ausgabefeld"
+      },
+      "sumMesicu": {
+        "titl": "Summation der Monate"
+      },
+      "sumTypK": {
+        "titl": "Summationstyp"
+      },
+      "vstupNapricPomery": {
+        "titl": "Eingang quer durch die Verhältnisse"
+      },
+      "vyhodnotRocne": {
+        "titl": "Auswerten pro Jahr"
+      },
+      "vyslDoHodnoty": {
+        "titl": "Ergebnis bis Wert"
+      },
+      "vyslOdHodnoty": {
+        "titl": "Ergebnis ab Wert"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalcHlav": {
+      "_title": {
+        "titl": "Kopfteil von Lohnkalkulator"
+      },
+      "radkaHromadne": {
+        "titl": "Sammeloperationen vor"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalcHrom": {
+      "_title": {
+        "titl": "Sammeloperation"
+      },
+      "mzdCalcHlav": {
+        "titl": "Kopfzeile"
+      },
+      "mzdSlozIn": {
+        "titl": "Eingabekomponente"
+      },
+      "mzdSlozOut": {
+        "titl": "Ausgabekomponente"
+      },
+      "poleIn": {
+        "titl": "Eingabefeld"
+      },
+      "poleOut": {
+        "titl": "Ausgabefeld"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdCalcInit": {
+      "_title": {
+        "titl": "Initialisierug"
+      },
+      "mzdCalcHlav": {
+        "titl": "Kopfzeile"
+      },
+      "mzdSlozOut": {
+        "titl": "Zielkomponente"
+      },
+      "platnostK": {
+        "titl": "Gültigkeit"
+      },
+      "poleIn": {
+        "titl": "Ursprungsfeld"
+      },
+      "poleOut": {
+        "titl": "Zielfeld"
+      },
+      "typPracPom": {
+        "titl": "Typ des Arbeitsverhältnisses"
+      },
+      "zdrojK": {
+        "titl": "Ursprungsobjekt"
+      },
+      "zpracDatumK": {
+        "titl": "Methode der Datenbearbeitung"
+      }
+    },
+    "cz.winstrom.vo.mzdy.MzdSloz": {
+      "_title": {
+        "titl": "Initialisirungskomponenten"
+      },
+      "castMzd": {
+        "titl": "Summe"
+      },
+      "castkaDen": {
+        "titl": "Summe pro Tag"
+      },
+      "castkaHod": {
+        "titl": "Summe pro Stunde"
+      },
+      "cisDoklNem": {
+        "titl": "Belegnummer (für Krankheit)"
+      },
+      "cisMzdSloz": {
+        "titl": "Lohnkomponente"
+      },
+      "datumDo": {
+        "titl": "Enddatum"
+      },
+      "datumDoklad": {
+        "titl": "Datum der Beleglieferung"
+      },
+      "datumOd": {
+        "titl": "Anfangsdatum"
+      },
+      "dnyKal": {
+        "titl": "Kalendertage"
+      },
+      "dnyKalReal": {
+        "titl": "Reale Kalendertage"
+      },
+      "dnyPrac": {
+        "titl": "Arbeitstage"
+      },
+      "dnySvatek": {
+        "titl": "Feiertage - Tage"
+      },
+      "doplatZdravK": {
+        "titl": "Nachzahlung Krankenkasssebeitrag"
+      },
+      "doubleX": {
+        "titl": "Summe genau"
+      },
+      "hodiny": {
+        "titl": "Stunden"
+      },
+      "hodinySvatek": {
+        "titl": "Feiertage - Stunden"
+      },
+      "mesic": {
+        "titl": "Monat"
+      },
+      "mesicPlatba": {
+        "titl": "Monat der Zahlung"
+      },
+      "nepritomnost": {
+        "titl": "Abwesenheit"
+      },
+      "odmena": {
+        "titl": "Prämie"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pocetMes": {
+        "titl": "Entlohnung/ Prämie für [Monate]"
+      },
+      "pracPom": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "pracovni": {
+        "titl": "Arb."
+      },
+      "procMzd": {
+        "titl": "Prozentsatz von der Grundlage"
+      },
+      "prumNaDenNem": {
+        "titl": "Tagesdurchschnitt"
+      },
+      "prumNaHodNem": {
+        "titl": "Stundendurchschnitt"
+      },
+      "rokPlatba": {
+        "titl": "Jahr der Zahlung"
+      },
+      "skupSlozkyK": {
+        "titl": "Komponentengruppe"
+      },
+      "srazka": {
+        "titl": "Abzug"
+      },
+      "stalaMzdSloz": {
+        "titl": "feste Lohnkomponente"
+      },
+      "typSlozkyK": {
+        "titl": "Komponententyp"
+      },
+      "zaklJeKracen": {
+        "titl": "Grundlage nach dem Arbeitsumfang gekürzt"
+      },
+      "zaklMzd": {
+        "titl": "Grundlage"
+      },
+      "zmenaCastMzd": {
+        "titl": "Summe-Änderung vom Anwender"
+      },
+      "zmenaCasu": {
+        "titl": "Zeit-Änderung vom Anwender"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Nepritomnost": {
+      "_title": {
+        "titl": "Abwesenheit"
+      },
+      "cisMzdSloz": {
+        "titl": "Grund der Abwesenheit"
+      },
+      "cisloRozhodnuti": {
+        "titl": "Nummer der Entscheidung"
+      },
+      "hodin1Den": {
+        "titl": "Stunden - der erste Tag der Abwesenheit"
+      },
+      "hodinXDen": {
+        "titl": "Stunden - der letzte Tag der Abwesenheit"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "platiDo": {
+        "titl": "Ende"
+      },
+      "platiOd": {
+        "titl": "Beginn"
+      },
+      "pracPom": {
+        "titl": "Arbeitsverhältniss"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Osoba": {
+      "_title": {
+        "titl": "Personen"
+      },
+      "cisDomu": {
+        "titl": "Hausnummer"
+      },
+      "cisDomuKon": {
+        "titl": "Korrespondenzadresse Hausnummer"
+      },
+      "cisDomuKonTuz": {
+        "titl": "Korrespondenzadresse Inland Hausnummer"
+      },
+      "cisPojist": {
+        "titl": "Versicherungsnnummer"
+      },
+      "cisPrukaz": {
+        "titl": "Ausweisnummer"
+      },
+      "cisUcastDuchSpor": {
+        "titl": "Rentenversicherungnummer für Ersparnisse"
+      },
+      "cizPojCisDomu": {
+        "titl": "Fremdversicherung - Hausnummer"
+      },
+      "cizPojCislo": {
+        "titl": "Fremdversicherung - Nummer"
+      },
+      "cizPojMesto": {
+        "titl": "Fremdversicherung - Stadt"
+      },
+      "cizPojNazev": {
+        "titl": "Fremdversicherung - Name"
+      },
+      "cizPojPsc": {
+        "titl": "Fremdversicherung - Postleitzahl"
+      },
+      "cizPojSpec": {
+        "titl": "Fremdversicherung - Spezifikation"
+      },
+      "cizPojStat": {
+        "titl": "Fremdversicherung - Staat"
+      },
+      "cizPojUlice": {
+        "titl": "Fremdversicherung - Strasse"
+      },
+      "danNerezid": {
+        "titl": "Steuerausländer"
+      },
+      "datNaroz": {
+        "titl": "Geburtsdatum"
+      },
+      "detiOdpoc": {
+        "titl": "Kinderzahl für den Kinderabzug"
+      },
+      "diteOdpoc1": {
+        "titl": "1. Kind für Abzug"
+      },
+      "diteOdpoc2": {
+        "titl": "2. Kind für Abzug"
+      },
+      "duchodOd": {
+        "titl": "Rente ab"
+      },
+      "invalCast": {
+        "titl": "Invalidität - Grad 1 und 2"
+      },
+      "invalOd": {
+        "titl": "Invalidität seit"
+      },
+      "invalPlna": {
+        "titl": "Invalidität - Grad 3"
+      },
+      "ispvOkres": {
+        "titl": "ISPV Gemeinde"
+      },
+      "ispvPostaveni": {
+        "titl": "ISPV Position"
+      },
+      "ispvVedouci": {
+        "titl": "ISPV Leiter"
+      },
+      "ispvVzdelani": {
+        "titl": "ISPV Ausbildung"
+      },
+      "ispvZamest": {
+        "titl": "ISPV Beruf"
+      },
+      "kvalifikace": {
+        "titl": "Qualifizierung"
+      },
+      "mestoKon": {
+        "titl": "Korrespondenzadresse Stadt"
+      },
+      "mestoKonTuz": {
+        "titl": "Korrespondenzadresse Stadt Inland"
+      },
+      "minuleSoc": {
+        "titl": "Versicherungsbeitrag (Sozialversicherung) vorige Arbeitsstelle"
+      },
+      "minuleZdrav": {
+        "titl": "Versicherungsbeitrag (Krankenversicherung) vorige Arbeitsstelle"
+      },
+      "mistoNaroz": {
+        "titl": "Geburtsort"
+      },
+      "nadzizeny": {
+        "titl": "Vorgesetzter"
+      },
+      "nezDatNaroz": {
+        "abbr": "Nicht versorgter Partner Geburtsdatum",
+        "titl": "Geburtsdatum"
+      },
+      "nezDo": {
+        "abbr": "Nicht versorgter Partner bis",
+        "titl": "Gilt bis"
+      },
+      "nezJmeno": {
+        "abbr": "Nicht versorgter Partner Name",
+        "titl": "Name"
+      },
+      "nezOd": {
+        "abbr": "Nicht versorgter Partner seit",
+        "titl": "Gilt von"
+      },
+      "nezPartner": {
+        "titl": "Nicht versorgter Partner"
+      },
+      "nezPohlaviK": {
+        "abbr": "Nicht versorgter Partner Geschlecht",
+        "titl": "Geschlecht"
+      },
+      "nezPrijmeni": {
+        "abbr": "Nicht versorgter Partner Familienname",
+        "titl": "Familienname"
+      },
+      "nezPrijmeniRod": {
+        "abbr": "Nicht versorgter Partner Geburtsname",
+        "titl": "Geburtsname"
+      },
+      "nezRodCis": {
+        "abbr": "Nicht versorgter Partner Personenkennzahl",
+        "titl": "Personenkennzahl"
+      },
+      "nezTitul": {
+        "abbr": "Nicht versorgter Partner Titel",
+        "titl": "Titel"
+      },
+      "nezZTP": {
+        "abbr": "Nicht versorgter Partner Schwerbehinderte Grad",
+        "titl": "Schwerbehinderte Grad"
+      },
+      "nezZTPDo": {
+        "abbr": "Nicht versorgter Partner Schwerbehinderte Grad gilt bis",
+        "titl": "Schwerbehinderte Grad gilt bis"
+      },
+      "nezZTPOd": {
+        "abbr": "Nicht versorgter Partner Schwerbehinderte Grad gilt von",
+        "titl": "Schwerbehinderte Grad gilt von"
+      },
+      "odpocetDeti": {
+        "titl": "Kinderzahl für Abzug"
+      },
+      "odpocetDeti3": {
+        "titl": "Kinderzahl dritte und weitere zum Abzug"
+      },
+      "odpocetDetiZtp": {
+        "titl": "Behinderte Kinder für Abzug"
+      },
+      "odpocetDite1Ztp": {
+        "titl": "Das erste Kind für Abzug ist schwerbehindert"
+      },
+      "odpocetDite2Ztp": {
+        "titl": "Das zweite Kind für Abzug ist schwerbehindert"
+      },
+      "odpracDnuPred": {
+        "titl": "Berufstage-Zahl seit Arbeitsbeginn"
+      },
+      "odpracRokuPred": {
+        "titl": "Berufsjahre-Zahl seit Arbeitsbeginn"
+      },
+      "osbCis": {
+        "titl": "Personal-Nr."
+      },
+      "osbCisAlter": {
+        "titl": "Alternative Personal.-Nr."
+      },
+      "osobaHlav": {
+        "titl": "Person"
+      },
+      "podpisProhl": {
+        "titl": "Unterschrift des Antrages auf Lohnermässigung"
+      },
+      "pohlaviK": {
+        "titl": "Geschlecht"
+      },
+      "posta": {
+        "titl": "Post"
+      },
+      "postaKon": {
+        "titl": "Korrespondenzpost"
+      },
+      "postaKonTuz": {
+        "titl": "Korrespondenzpost Inland"
+      },
+      "predNemPoj": {
+        "titl": "Vorgehende Krankenversicherung"
+      },
+      "prijmeniPred": {
+        "titl": "Vorheriger Familienname"
+      },
+      "prijmeniRod": {
+        "titl": "Geburtsname"
+      },
+      "prukazZTP": {
+        "titl": "Inhaber von Schwerbehindertenausweis"
+      },
+      "pscKon": {
+        "titl": "PLZ zur Korrespondenzadresse "
+      },
+      "pscKonTuz": {
+        "titl": "PLZ zur Korrespondenzadresse Inland"
+      },
+      "rodCis": {
+        "desc": "Personenkennzahl oder Versicherungsnummer des Versicherten",
+        "titl": "Personenkennzahl"
+      },
+      "rodStavK": {
+        "titl": "Familienstand"
+      },
+      "sirotciDuch": {
+        "titl": "Waisenrente"
+      },
+      "skupOsob": {
+        "titl": "Gruppe von Personen"
+      },
+      "slevaPoplat": {
+        "titl": "Steuerzahler-Rabatt"
+      },
+      "snizVymZaklZp": {
+        "abbr": "Senkung der Bemessungsgrundl. Krankenvers.",
+        "titl": "Senkung der Bemessungsgrundlage der Krankenversicherung (Gesetz Nr. 592/1992 Slg., § 3 -Bemessungsgrundlage, Abs. 7)"
+      },
+      "soucNemPoj": {
+        "titl": "Gegenwärtige Krankenversicherung"
+      },
+      "starobniDuch": {
+        "titl": "Altersrente"
+      },
+      "starobniPredDuch": {
+        "titl": "Frührente"
+      },
+      "statKon": {
+        "titl": "Korrespondenzadresse Staat"
+      },
+      "statKonTuz": {
+        "titl": "Korrespondenzadresse Staat"
+      },
+      "statNaroz": {
+        "titl": "Geburtsstaat"
+      },
+      "statObcan": {
+        "titl": "Staatsangehörigkeit"
+      },
+      "student": {
+        "titl": "Student"
+      },
+      "tdDobirka": {
+        "titl": "Verbindlichkeitsart der Nachzahlung"
+      },
+      "tdZaloha": {
+        "titl": "Verbindlichkeitsart des Vorschusses"
+      },
+      "telefon": {
+        "titl": "Telefon"
+      },
+      "typVztahuK": {
+        "titl": "Beziehungstyp zur Firma"
+      },
+      "ucastnikDuchSpor": {
+        "titl": "Nimmt an Rentenversicherung teil"
+      },
+      "uliceKon": {
+        "titl": "Korrespondenzadresse Strasse"
+      },
+      "uliceKonTuz": {
+        "titl": "Korrespondenzadresse Strasse Inland"
+      },
+      "vdovskyDuch": {
+        "titl": "Witwen/Witwerrente"
+      },
+      "zahranicniDuch": {
+        "titl": "Rente bezogen aus dem Ausland"
+      },
+      "zdrPojDoplat": {
+        "titl": "Krankenversicherung - Nachzahlung"
+      },
+      "zdrPojDoplatRozdel": {
+        "titl": "Aufteilen zwischen die Firma und den Arbeitnehmer"
+      },
+      "zdravPoj": {
+        "abbr": "Krankenkasse",
+        "titl": "Krankenkasse"
+      },
+      "zpusPlatbyK": {
+        "titl": "Zahlungsart"
+      }
+    },
+    "cz.winstrom.vo.mzdy.OsobaHlav": {
+      "_title": {
+        "titl": "Personen-Kopfzeile"
+      },
+      "osbCis": {
+        "titl": "Personalnummer"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPom": {
+      "_title": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "aktivniDo": {
+        "titl": "aktiv bis"
+      },
+      "aktivniOd": {
+        "titl": "aktiv von"
+      },
+      "dovoleneRocne": {
+        "titl": "Urlaubstage pro Jahr"
+      },
+      "dovoleneRocneHod": {
+        "titl": "Urlaubsstunden pro Jahr"
+      },
+      "duvodNeposkytnutiCsszK": {
+        "titl": "Grund für die Nichtvorlage von Belegen"
+      },
+      "duvodUkonceniCsszK": {
+        "titl": "Grund für die Beendigung des Arbeitsverhältnisses"
+      },
+      "hlavni": {
+        "titl": "Haupt-"
+      },
+      "hodinovaMzda": {
+        "titl": "Stundenlohn"
+      },
+      "kodELDP": {
+        "titl": "Code für Rentenversicherung"
+      },
+      "konecPomeru": {
+        "titl": "Ende des Arbeitsverhältnisses"
+      },
+      "malyRozsah": {
+        "titl": "Arbeit von kleinem Umfang"
+      },
+      "mesicniMzda": {
+        "titl": "Monatsgehalt"
+      },
+      "narokOdstupne": {
+        "titl": "Anspruch auf Abfindung"
+      },
+      "nastup": {
+        "titl": "Arbeitsbeginn"
+      },
+      "odstupneNasobek": {
+        "titl": "Abgangsentschädigung - Multiplikator"
+      },
+      "odstupnePlnaVyse": {
+        "titl": "Vollständig gezahlte Abfindungen"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "plneniOdprDobyK": {
+        "titl": "Leistung der Arbeitszeit"
+      },
+      "pracPomHlav": {
+        "titl": "Kopfzeile - Arbeitsverhältnis"
+      },
+      "pracRozvrhK": {
+        "titl": "Arbeitsverteilerliste"
+      },
+      "predHrubPrijem": {
+        "titl": "Arbeitsrechtlicher Durchschnitt [%currency-symbol/Std.]"
+      },
+      "procMinMzd": {
+        "titl": "Prozentsatz von Mindestlohn"
+      },
+      "prominutiSPFirma": {
+        "titl": "Erlass der Sozialversicherung für die Firma"
+      },
+      "svatkyPrumer": {
+        "titl": "Durchschnittsberechnung vom Ersatz für Feiertage"
+      },
+      "tarifTrida": {
+        "titl": "Lohnklasse"
+      },
+      "tdIntCestDoLim": {
+        "titl": "Interne Belegart für Reisekosten bis zum Limit"
+      },
+      "tdIntHruba": {
+        "titl": "Interne Belegart von Bruttolohn"
+      },
+      "tdIntNahrad": {
+        "titl": "Interne Belegart von Lohnersatz für Arbeitsunfähigkeit"
+      },
+      "tdIntStravPausDoLim": {
+        "titl": "Art des internen Belegs für pauschale Mahlzeiten bis zum Höchstbetrag"
+      },
+      "tuoZavDan": {
+        "titl": "Buchungsvorschrift Steuer"
+      },
+      "tuoZavSocFir": {
+        "abbr": "Buch. Vor. Soz. Firma",
+        "titl": "Sozialversicherung Arbeitgeber"
+      },
+      "tuoZavSocZam": {
+        "abbr": "Buch. Vor. Soz. Arbeitn.",
+        "titl": "Sozialversicherung - Arbeitnehmer"
+      },
+      "tuoZavZdrFir": {
+        "abbr": "Buch. Vor. Kr. Firma",
+        "titl": "Krankenversicherung - Arbeitgeber"
+      },
+      "tuoZavZdrZam": {
+        "abbr": "Buch. Vor. Kr. Arbeitn.",
+        "titl": "Krankenversicherung - Arbeitnehmer"
+      },
+      "tydenPracDobaK": {
+        "titl": "Arbeitszeit pro Woche"
+      },
+      "typMzdyK": {
+        "titl": "Lohnart"
+      },
+      "typPracPom": {
+        "titl": "Typ von Arbeitsverhältnis"
+      },
+      "uvazCt": {
+        "titl": "Donnerstag"
+      },
+      "uvazDnuTydne": {
+        "titl": "Arbeitsverpflichtung - Tage [wöchentlich]"
+      },
+      "uvazHodDenne": {
+        "titl": "Arbeitsverpflichtung Stunden [täglich]"
+      },
+      "uvazHodTydne": {
+        "titl": "Arbeitsverpflichtung - Stunden [wöchentlich]"
+      },
+      "uvazNe": {
+        "titl": "Sonntag"
+      },
+      "uvazPa": {
+        "titl": "Freitag"
+      },
+      "uvazPo": {
+        "titl": "Montag"
+      },
+      "uvazSo": {
+        "titl": "Samstag"
+      },
+      "uvazSt": {
+        "titl": "Mittwoch"
+      },
+      "uvazUt": {
+        "titl": "Dienstag"
+      },
+      "zacPracDoby": {
+        "titl": "Anfang der Arbeitszeit"
+      },
+      "zacatek": {
+        "titl": "Anfang des Arbeitsverhältnisses"
+      },
+      "zlistDuvod": {
+        "titl": "Grund der Beendigung"
+      },
+      "zlistSdeleni": {
+        "titl": "Mitteilung der Organisation"
+      },
+      "zlistUkonceni": {
+        "titl": "Grund der Beendigung"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPomHlav": {
+      "_title": {
+        "titl": "Kopf des Arbeitsverhältnisses"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PracPravPrumer": {
+      "_title": {
+        "titl": "Arbeitsrechtliche Durchschnitte"
+      },
+      "idPracPravPrumer": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Familienname und Name"
+      },
+      "prum1": {
+        "titl": "1. Quartal"
+      },
+      "prum2": {
+        "titl": "2. Quartal"
+      },
+      "prum3": {
+        "titl": "3. Quartal"
+      },
+      "prum4": {
+        "titl": "4. Quartal"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PraceStred": {
+      "_title": {
+        "titl": "Arbeit für Kostenstellen"
+      },
+      "datumDo": {
+        "titl": "Datum bis"
+      },
+      "datumOd": {
+        "titl": "Datum von"
+      },
+      "hodin": {
+        "titl": "Stunden"
+      },
+      "mesic": {
+        "titl": "Monat"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pracPom": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "procento": {
+        "titl": "Prozentsatz"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PrehledMzdSlozky": {
+      "_title": {
+        "titl": "Übersicht der Lohnkomponenten"
+      },
+      "castka": {
+        "titl": "Summe"
+      },
+      "cisRad": {
+        "titl": "Zeilennummer"
+      },
+      "dny": {
+        "titl": "Tage"
+      },
+      "hodiny": {
+        "titl": "Stunden"
+      },
+      "idPrehledMzdSlozky": {
+        "titl": "ID"
+      },
+      "pocetPolozek": {
+        "titl": "Zahl der Posten"
+      },
+      "zaklad": {
+        "titl": "Grundlage"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PrehledPracPom": {
+      "_title": {
+        "titl": "Übersicht der Arbeitsverhältnisse"
+      },
+      "castHod": {
+        "titl": "CHF/Std."
+      },
+      "castMes": {
+        "titl": "CHF/Monat"
+      },
+      "idPrehledPracPom": {
+        "titl": "ID"
+      },
+      "nastup": {
+        "titl": "Berufseinstieg"
+      },
+      "pracRozvrhK": {
+        "titl": "Typ der Arbeitsverteilung"
+      },
+      "stalaMzdSloz": {
+        "titl": "Lohnart"
+      },
+      "ukonceni": {
+        "titl": "Beendigung"
+      },
+      "uvazek": {
+        "titl": "Arbeitsverpflichtung Std./Woche"
+      }
+    },
+    "cz.winstrom.vo.mzdy.PrehledZamestnancu": {
+      "_title": {
+        "titl": "Übersicht der Arbeitnehmer"
+      },
+      "datNaroz": {
+        "titl": "Geburtsdatum"
+      },
+      "dobaOdpr": {
+        "titl": "Geleistete Arbeitszeit"
+      },
+      "dovolPocatek": {
+        "titl": "Urlaub - Beginn"
+      },
+      "dovolVybrano": {
+        "titl": "Urlaub - genommen"
+      },
+      "dovolZbyva": {
+        "titl": "Rest-Urlaub"
+      },
+      "idPrehledZamestnancu": {
+        "titl": "ID"
+      },
+      "jmeno": {
+        "titl": "Familienname und Vorname"
+      },
+      "konecPomeru": {
+        "titl": "Arbeitsverhältnis-Ende"
+      },
+      "odpocetDeti": {
+        "titl": "Kinderabzug"
+      },
+      "osbCis": {
+        "titl": "Personalnummer"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pracPom": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "pracPravPrum": {
+        "titl": "Arbeitsrechtlicher Durchschnitt"
+      },
+      "typPracPom": {
+        "titl": "Typ des Arbeitsverhältnisses"
+      },
+      "uvazHodTydne": {
+        "titl": "Arbeitsverpflichtung Std./Woche"
+      },
+      "uvazKoef": {
+        "titl": "Arbeitsverpflichtung - Koeffizient"
+      },
+      "zacatek": {
+        "titl": "Berufseinstieg"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Prumer": {
+      "_title": {
+        "titl": "Durchschnitt"
+      },
+      "hrubaHodMzda": {
+        "titl": "Durchschnittsbruttostundenlohn"
+      },
+      "mesicCtvrtleti": {
+        "titl": "Monat / Quartal"
+      },
+      "nemocDenPrum": {
+        "titl": "Durchschnitt für Krankheit [CHF/Tag]"
+      },
+      "pracPom": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "pracPravPrum": {
+        "titl": "Arbeitsrechtlicher Durchschnitt [CHF/Std.]"
+      }
+    },
+    "cz.winstrom.vo.mzdy.SkupOsob": {
+      "_title": {
+        "titl": "Personen-Gruppen"
+      },
+      "tdIntCestDoLim": {
+        "titl": "Typ für Reisegeld bis zum Limit"
+      },
+      "tdIntHruba": {
+        "titl": "Art von Bruttolohn"
+      },
+      "tdIntNahrad": {
+        "titl": "Art von Lohnersatz"
+      },
+      "tdIntStravPausDoLim": {
+        "titl": "Typ für Verpflegungspauschale bis zum Limit"
+      },
+      "tuoZavDan": {
+        "titl": "Buchungsvorschrift Steuer"
+      },
+      "tuoZavSocFir": {
+        "abbr": "Buch. Vor. Soz. Firma",
+        "titl": "Buchungsvorschrift - Arbeitgeber"
+      },
+      "tuoZavSocZam": {
+        "abbr": "Buch. Vor. Soz. Arbeitn.",
+        "titl": "Buchungsvorschrift - Arbeitnehmer"
+      },
+      "tuoZavZdrFir": {
+        "abbr": "Buch. Vor. Kr. Firma",
+        "titl": "Buchungsvorschrift Arbeitgeber"
+      },
+      "tuoZavZdrZam": {
+        "abbr": "Buch. Vor. Kr. Arbeitn.",
+        "titl": "Buchungsvorschrift Arbeitnehmer"
+      },
+      "tydenPracDobaK": {
+        "titl": "Arbeitszeit wöchentlich"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Smeny": {
+      "_title": {
+        "titl": "Schichten"
+      },
+      "mesic": {
+        "titl": "Monat"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "planovane": {
+        "titl": "Geplante Schichten"
+      },
+      "pracPom": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "skupOsob": {
+        "titl": "Personen-Gruppen"
+      },
+      "skutecne": {
+        "titl": "Wirklich geleistet"
+      }
+    },
+    "cz.winstrom.vo.mzdy.Srazka": {
+      "_title": {
+        "titl": "Abzüge"
+      },
+      "banSpoj": {
+        "titl": "Bankverbindung"
+      },
+      "castka": {
+        "titl": "Summe"
+      },
+      "celkem": {
+        "titl": "Insgesamt"
+      },
+      "cisMzdSloz": {
+        "titl": "Abzugsart"
+      },
+      "deponovatDo": {
+        "titl": "Deponieren bis"
+      },
+      "kdatu": {
+        "titl": "Bis zum Datum"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pocatek": {
+        "titl": "Anfangsstand"
+      },
+      "poradi": {
+        "titl": "Abzüge - Reihenfolge"
+      },
+      "prednostni": {
+        "titl": "Lohnabzug mit Priorität"
+      },
+      "procMzd": {
+        "titl": "Prozentsatz von der Grundlage"
+      },
+      "skupSlozkyK": {
+        "titl": "Komponentengruppe"
+      },
+      "splatnost": {
+        "titl": "Fälligkeitsdatum"
+      },
+      "srazkaDo": {
+        "titl": "Abziehen bis"
+      },
+      "srazkaOd": {
+        "titl": "Abziehen von"
+      },
+      "typIntDokl": {
+        "titl": "Art des internen Belegs"
+      },
+      "typOstZav": {
+        "titl": "Verbindlichkeitsart"
+      },
+      "typSlozkyK": {
+        "titl": "Komponententyp"
+      },
+      "zbyva": {
+        "titl": "Rest"
+      },
+      "zpusobPlatbyK": {
+        "titl": "Zahlungsart"
+      }
+    },
+    "cz.winstrom.vo.mzdy.StalaMzdSloz": {
+      "_title": {
+        "titl": "Feste Lohnkomponenten"
+      },
+      "castMzd": {
+        "titl": "Summe"
+      },
+      "castkaDen": {
+        "titl": "Summe pro Tag"
+      },
+      "castkaHod": {
+        "titl": "Summe pro Stunde"
+      },
+      "cisMzdSloz": {
+        "titl": "Lohnkomponente"
+      },
+      "datumDo": {
+        "titl": "Enddatum"
+      },
+      "datumOd": {
+        "titl": "Anfangsdatum"
+      },
+      "dnyKal": {
+        "titl": "Kalendertage"
+      },
+      "dnyPrac": {
+        "titl": "Arbeitstage"
+      },
+      "dnySvatek": {
+        "titl": "Feiertage"
+      },
+      "hodiny": {
+        "titl": "Stunden"
+      },
+      "hodinySvatek": {
+        "titl": "Feiertage in Std."
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "pocetMes": {
+        "titl": "Monate-Zahl, für die die Komponente gilt"
+      },
+      "podil": {
+        "titl": "Anteil der Komponente in Monat"
+      },
+      "pracPom": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "procMzd": {
+        "titl": "Prozentsatz von der Grundlage"
+      },
+      "prumNaDenNem": {
+        "titl": "Tagesdurchschnitt"
+      },
+      "prumNaHodNem": {
+        "titl": "Stundendurchschnitt"
+      },
+      "skupSlozkyK": {
+        "titl": "Gruppe der Komponente"
+      },
+      "typPodilK": {
+        "titl": "Typ von Anteilberechnung"
+      },
+      "typSlozkyK": {
+        "titl": "Komponententyp"
+      },
+      "zaklJeKracen": {
+        "titl": "Grundlage nach dem Arbeitsumfang gekürzt"
+      },
+      "zaklMzd": {
+        "titl": "Lohngrundlage"
+      }
+    },
+    "cz.winstrom.vo.mzdy.TypPracPom": {
+      "_title": {
+        "titl": "Typ von Arbeitsverhältnis"
+      }
+    },
+    "cz.winstrom.vo.mzdy.TypPracPomParam": {
+      "_title": {
+        "titl": "Parameter/ Typ von Arbeitsverhältnis"
+      },
+      "actDanNerez": {
+        "titl": "Gilt für Steuerausländer"
+      },
+      "actDanRez": {
+        "titl": "Gilt für Steuerinländer"
+      },
+      "actMaProhl": {
+        "titl": "Gilt bei dem unterschriebenen Antrag auf Lohnermässigung"
+      },
+      "actMalyRoz": {
+        "titl": "Gilt für die Arbeit des kleinen Umfangs"
+      },
+      "actNemaProhl": {
+        "titl": "Gilt bei nicht unterschriebenen Antrag auf Lohnermässigung"
+      },
+      "actVelkyRoz": {
+        "titl": "Gilt für die Arbeit von nicht kleinem Umfang"
+      },
+      "actZdrDopl": {
+        "titl": "Gilt für Krankenversicherung - Restzahlung"
+      },
+      "actZdrNedopl": {
+        "titl": "Gilt für Krankenversicherung - Rückstand"
+      },
+      "cisMzdSloz": {
+        "titl": "Lohnkomponente"
+      },
+      "doHodnoty": {
+        "titl": "Wert bis"
+      },
+      "koeficient": {
+        "titl": "Koeffizient"
+      },
+      "mzdCalcHlav": {
+        "titl": "Lohnberechnung"
+      },
+      "odHodnoty": {
+        "titl": "Wert von"
+      },
+      "poleNuluj": {
+        "titl": "Feld für Abändern"
+      },
+      "poleTest": {
+        "titl": "Feld für Test"
+      },
+      "typPracPom": {
+        "titl": "Typ von Arbeitsverhältnis"
+      }
+    },
+    "cz.winstrom.vo.w.MzdyExtId": {
+      "_title": {
+        "titl": "Externe Identifikatoren"
+      },
+      "banSpojMzdy": {
+        "titl": "Bankverbindung"
+      },
+      "dite": {
+        "titl": "Kind"
+      },
+      "extId": {
+        "titl": "Identifikator"
+      },
+      "nepritomnost": {
+        "titl": "Abwesenheit"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "osobaHlav": {
+        "titl": "Kopfzeile Person"
+      },
+      "pracPom": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "pracPomHlav": {
+        "titl": "Kopfzeile Arbeitsverhältnis"
+      },
+      "praceStred": {
+        "titl": "Arbeit für Kostenstellen"
+      },
+      "skupOsob": {
+        "titl": "Personen-Gruppe"
+      },
+      "smeny": {
+        "titl": "Schichten"
+      },
+      "srazka": {
+        "titl": "Abzug"
+      },
+      "stalaMzdSloz": {
+        "titl": "Feste Lohnkomponente"
+      },
+      "tabulka": {
+        "titl": "Tabelle"
+      }
+    },
+    "cz.winstrom.vo.w.PrilohaMzdy": {
+      "_title": {
+        "titl": "Beilagen"
+      },
+      "data": {
+        "titl": "Beilagen-Daten"
+      },
+      "dataHash": {
+        "titl": "Datenabdruck der Beilage (MD5 Summarisation)"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "prilozit": {
+        "abbr": "Beilegen",
+        "titl": "Zu isdoc beilegen"
+      },
+      "typK": {
+        "titl": "Beilagentyp"
+      }
+    },
+    "cz.winstrom.vo.w.UcelMzdy": {
+      "_title": {
+        "titl": "Zweck"
+      },
+      "adresar": {
+        "titl": "Datensubjekt"
+      },
+      "definiceUcelu": {
+        "titl": "Definition des Zwecks"
+      },
+      "polozkaPrikazu": {
+        "titl": "Posten der Anweisung"
+      },
+      "pozastaveno": {
+        "titl": "Gestoppt"
+      },
+      "ucelLog": {
+        "titl": "Umstände der Entstehung des Zweckes"
+      },
+      "vyreseno": {
+        "titl": "Erledigt"
+      }
+    },
+    "global": {
+      "mzdSloz": {
+        "titl": "Lohnkomponente"
+      },
+      "osbCis": {
+        "titl": "Personalnummer"
+      },
+      "osoba": {
+        "titl": "Person"
+      },
+      "osobaHlav": {
+        "titl": "Person"
+      },
+      "pracPom": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "pracPomHlav": {
+        "titl": "Arbeitsverhältnis"
+      },
+      "skupOsob": {
+        "titl": "Personen-Gruppe"
+      }
+    },
+    "vzor": {
+      "xyz": {
+        "desc": "Bbb ccc ddd.",
+        "icon": "aaa.gif",
+        "titl": "!Abcdef"
+      }
+    }
+  }
+}

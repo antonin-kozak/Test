@@ -1,0 +1,720 @@
+{
+  "actions": {
+    "authn.require_otp": {
+      "titl": "Verlangen die Autorisierung mit dem einmaligen Passwort (OTP)"
+    },
+    "authn.type.GOOGLE": {
+      "titl": "Google"
+    },
+    "authn.type.INTERNAL": {
+      "titl": "Interner Name und Passwort (Ausgangspasswort)"
+    },
+    "authn.type.IT_HIGHWAY": {
+      "titl": "IT Highway"
+    },
+    "authn.type.OPENID": {
+      "titl": "Eigener OpenID Provider"
+    },
+    "authn.type.SAML": {
+      "titl": "Eigener SAMLv2 Identity Provider"
+    },
+    "authn.type.UCTUJTE": {
+      "titl": "Web Účtujte.cz"
+    },
+    "authn.use_old_http_authn": {
+      "titl": "Ein neues Anmeldeformular nicht verwenden, sondern die ursprüngliche HTTP Autorisierung."
+    },
+    "logout": {
+      "titl": "Abmelden"
+    },
+    "nastavServerMzdyPristup": {
+      "titl": "Zugriff für WinStrom Löhne ermöglichen"
+    },
+    "nastavServerVSiti": {
+      "titl": "Dienstleistung ABRA Flexi im Netz anbieten"
+    },
+    "nastavZobrazeniVyzvyKVyplneniRegistracnihoEmailu": {
+      "titl": "Aufforderung zum Ausfüllen der Registrierungs-E-Mail"
+    },
+    "no": {
+      "titl": "Nein"
+    },
+    "vytvoritVazbuZDD": {
+      "titl": "Bindung Vorschusssteuerbeleg bilden"
+    },
+    "yes": {
+      "titl": "Ja"
+    },
+    "zrusitVazbuZDD": {
+      "titl": "Bindung Vorschusssteuerbeleg aufheben"
+    }
+  },
+  "buttons": {
+    "backup.confirmNo": {
+      "titl": "Nein, zurück"
+    },
+    "backup.confirmYes": {
+      "titl": "Ja, sichern"
+    },
+    "continue": {
+      "titl": "Fortsetzen"
+    },
+    "disable": {
+      "titl": "Deaktivieren"
+    },
+    "enable": {
+      "titl": "Aktivieren"
+    },
+    "goBack": {
+      "titl": "Zurück"
+    },
+    "modify": {
+      "titl": "Ändern"
+    }
+  },
+  "dialogs": {
+    "actions.title": {
+      "titl": "Übersicht der Aktionen"
+    },
+    "admin.accesses.title": {
+      "titl": "Zugriffe"
+    },
+    "admin.accounting_units.title": {
+      "titl": "Buchhaltungseinheiten"
+    },
+    "admin.authorization.title": {
+      "titl": "Autorisierung"
+    },
+    "admin.default_licence.title": {
+      "titl": "Ausgangslizenz"
+    },
+    "admin.disk_usage.title": {
+      "titl": "Speicherplatznutzung"
+    },
+    "admin.disk_usage.title.short": {
+      "titl": "Speicherplatzbelegung"
+    },
+    "admin.license_groups.title": {
+      "titl": "Lizenzgruppen"
+    },
+    "admin.parameters.title": {
+      "titl": "Parameter"
+    },
+    "admin.run_in_cluster.title": {
+      "titl": "Cluster-Betrieb"
+    },
+    "admin.server.title": {
+      "titl": "ABRA Flexi Server"
+    },
+    "admin.server_params.title": {
+      "titl": "Parameter des Servers"
+    },
+    "admin.server_params.title.short": {
+      "titl": "des Servers"
+    },
+    "admin.ssl_certificate.title": {
+      "titl": "SSL-Zertifikat"
+    },
+    "admin.title": {
+      "titl": "Administration"
+    },
+    "admin.users.title": {
+      "titl": "Benutzer"
+    },
+    "admin.users_logged_in.title": {
+      "titl": "Angemeldete Benutzer"
+    },
+    "authentications.list": {
+      "titl": "Übersicht der angemeldeten Benutzer"
+    },
+    "authn.additional_settings.header": {
+      "titl": "Ergänzende Einstellung der Authentifizierung"
+    },
+    "authn.additional_sso_settings.header": {
+      "titl": "Ergänzende Einstellung für <abbr title=\"Single sign-on\">SSO</abbr>"
+    },
+    "authn.authn_settings.header": {
+      "titl": "Einstellung der Authentifizierung"
+    },
+    "authn.basic_settings.header": {
+      "titl": "Grundeinstellung der Authentifizierung"
+    },
+    "changesApi.title": {
+      "titl": "Changes API"
+    },
+    "companies.title": {
+      "titl": "Liste der Firmen"
+    },
+    "connections.list": {
+      "titl": "Übersicht der angeschlossenen Benutzer"
+    },
+    "devdoc.developers": {
+      "titl": "Entwicklungsdokumentation"
+    },
+    "error.403-access_denied": {
+      "titl": "403 - Zugriff verweigert"
+    },
+    "error.429": {
+      "titl": "429 - Zu viele Anfragen"
+    },
+    "error.503-service_unavailable": {
+      "titl": "503 - Die Dienstleistung ist nicht zugänglich"
+    },
+    "error.could_not_complete_operation.title": {
+      "titl": "Die Transaktion kann nicht durchgeführt werden"
+    },
+    "evidences.title": {
+      "titl": "Übersicht der Evidenzen"
+    },
+    "license.title": {
+      "titl": "Lizenz"
+    },
+    "properties.title": {
+      "titl": "Postenübersicht"
+    },
+    "relations.title": {
+      "titl": "Relationenübersicht"
+    },
+    "reports.title": {
+      "titl": "Übersicht der Druckzusammenstellungen"
+    },
+    "status.title": {
+      "titl": "Status"
+    },
+    "sum.title": {
+      "titl": "Summarisierung"
+    },
+    "toolbars.title": {
+      "titl": "Toolbar"
+    },
+    "user_access.title": {
+      "titl": "Zugriff des Benutzers"
+    },
+    "users.title": {
+      "titl": "Personen und Anwender"
+    },
+    "users_access.title": {
+      "titl": "Zugriffe der Benutzer"
+    }
+  },
+  "labels": {
+    "actions.confirm.dokoncit-prevodku": {
+      "titl": "Wollen Sie einen Umlagerungsbeleg beenden?"
+    },
+    "actions.confirm.lock": {
+      "titl": "Wollen Sie wirklich den Beleg sperren?"
+    },
+    "actions.confirm.lock-for-ucetni": {
+      "titl": "Wollen Sie wirklich den Beleg ausser Buchungsbelege sperren?"
+    },
+    "actions.confirm.odeslat-eet": {
+      "titl": "Wollen Sie wirklich Beleg nach EET absenden?"
+    },
+    "actions.confirm.sign-for-payment": {
+      "titl": "Wollen Sie wirklich den Beleg zur Zahlung unterzeichnen?"
+    },
+    "actions.confirm.storno": {
+      "titl": "Wollen Sie wirklich den Beleg stornieren?"
+    },
+    "actions.confirm.uhrad-preplatky": {
+      "titl": "Wollen Sie wirklich von den Mehrbeträgen in der Bank und an der Kasse zahlen?"
+    },
+    "actions.confirm.uhrad-zapoctem": {
+      "titl": "Wollen Sie wirklich den Beleg durch die automatisierte gegenseitige Verrechnung bezahlen?"
+    },
+    "actions.confirm.unlock": {
+      "titl": "Wollen Sie wirklich den Beleg freigeben?"
+    },
+    "actions.confirm.unsign-for-payment": {
+      "titl": "Wollen Sie wirklich die Unterschrift zur Zahlung des Belegs stornieren?"
+    },
+    "actions.description": {
+      "titl": "Diese Übersicht dient zu k&nbsp;dem Auszug der unterstützten Aktionen."
+    },
+    "actions.needInstance": {
+      "titl": "Erfordert Objektinstanz."
+    },
+    "authn.ACCESS_CONTROL_ALLOW_ORIGIN": {
+      "titl": "Netzzugriff auf Daten ABRA Flexi"
+    },
+    "authn.ACCESS_CONTROL_ALLOW_ORIGIN.description": {
+      "titl": "Beeinflusst die Einstellung des HTTP Kopfs Access-Control-Allow-Origin (mit einer Lücke getrennte Domäne)"
+    },
+    "authn.idp_settings.name_id_format": {
+      "titl": "Format des Identifikators des Benutzers"
+    },
+    "authn.idp_settings.response_consumer_url": {
+      "titl": "URL für Empfang der Antwort"
+    },
+    "authn.idp_settings.single_logout_url": {
+      "titl": "URL für Abmeldung des Benutzers"
+    },
+    "authn.password_quality": {
+      "titl": "Geforderte Qualität des Passwortes"
+    },
+    "authn.service_provider_id": {
+      "titl": "Service Provider Identifikator"
+    },
+    "authn.service_provider_id.description": {
+      "titl": "Identifikator des Dienstleisters, der als Antragsteller auf Authentisierung des Benutzers vorkommt. Typisch ist die Domäne der zweiten Ordnung (z.B. <b><tt>flexibee.eu</tt></b>) oder den ganzen URL Dienst zu benutzen. Für den eingetragenen Identifikator ist nötig die Providerseite ID zu konfigurieren, siehe Beschreibung zu <i>Anmeldungs-URL für SSO</i>."
+    },
+    "authn.sso_cert_fingerprint": {
+      "titl": "Abdruck des Zertifikats <abbr title=\"Identity Provider\">IDP</abbr>"
+    },
+    "authn.sso_cert_fingerprint.description": {
+      "titl": "Hier wird der SHA1 Abdruck des Zertifikats eingegeben, mit welchem die Antworten unterzeichnet werden. Das richtige Format kann z.B. durch den Auftrag erhalten werden: <tt>openssl x509 -noout -in cert.pem -fingerprint -sha1</tt><br/>Frei lassen, falls die Validierung des Zertifikats nicht durchgeführt werden soll."
+    },
+    "authn.sso_chng_passwd_url": {
+      "titl": "URL für Änderung des Passwortes bei SSO"
+    },
+    "authn.sso_chng_passwd_url.description": {
+      "titl": "URL, auf welchen die Benutzer zum Zweck der zentralen Abmeldung oder der Änderung des Passwortes beim ID-Anbieter umgeleitet werden können."
+    },
+    "authn.sso_login_url": {
+      "titl": "Anmelde-URL für SSO"
+    },
+    "authn.sso_login_url.description": {
+      "titl": "URL, auf welche ABRA Flexi (Dienst) die Anforderungen an Authentisierung des Benutzers absenden wird. Die Anforderung enthält alle benötigten Daten für die Durchführung der Authentisierung, nichtsdestoweniger ist oft noch notwendig, die Konfiguration auf der Seite des ID-Anbieters zu erstellen. In der Regel ist hier nötig, URL für die Verarbeitung der Antwort und einige weitere Parameter des Authentisierungsprotokolls anzugeben:"
+    },
+    "authn.sso_logout_url": {
+      "titl": "Abmelde-URL für SSO"
+    },
+    "authn.type.GOOGLE.description": {
+      "titl": "Die Autorisierung ist gegen die Server Google durchgeführt. Es können die gezahlten sowie die gratis Varianten von Google Apps benutzt werden."
+    },
+    "authn.type.INTERNAL.description": {
+      "titl": "Der in ABRA Flexi gespeicherte Name und Kennzeichen werden verwendet."
+    },
+    "authn.type.IT_HIGHWAY.description": {
+      "titl": "Die Autorisierung durch das Netz der integrierten Dienstleistungen <i>IT Highway</i>."
+    },
+    "authn.type.OPENID.description": {
+      "titl": "Die Autorisierung wird gegen den üblichen OpenID Provider durchgeführt. Es ist nötig, die Einstellung durchzuführen"
+    },
+    "authn.type.SAML.description": {
+      "titl": "Die Autorisierung wird gegen den üblichen SAMLv2 Identity Provider durchgeführt. Es ist nötig, die Einstellung durchzuführen"
+    },
+    "authn.type.UCTUJTE.description": {
+      "titl": "Spezielle Authentisierung auf der Web <tt>uctujte.cz</tt>."
+    },
+    "automatickeParovani": {
+      "titl": "Automatische Paarung"
+    },
+    "backTo": {
+      "titl": "Zurück auf"
+    },
+    "backToDocument": {
+      "titl": "Zurück auf Beleg"
+    },
+    "cleneniDph": {
+      "titl": "MwSt. - Arten"
+    },
+    "company.backup": {
+      "titl": "Firmensicherung"
+    },
+    "company.settings": {
+      "titl": "Einstellung der Firma"
+    },
+    "devdoc": {
+      "titl": "Dokumentation"
+    },
+    "devdoc.bezPolozek": {
+      "titl": "Beinhaltet dieser Beleg einen Posten? Falls der Beleg Posten beinhaltet, ist der Preis von deren Summarisierung bestimmt.  V&nbsp;anderenfalls ist möglich, den resultierenden Preis zu bestimmen (sumCelkSniz u.ä.)"
+    },
+    "devdoc.datUhr": {
+      "titl": "Zahlungsdatum. Wird erst nach der Zahlung des Belegs eingetragen."
+    },
+    "devdoc.dic": {
+      "titl": "/i>Falls Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen,diese werden aus dem Adressbuch kopiert.</i>"
+    },
+    "devdoc.dphSnizKoef": {
+      "titl": "Ist bei der Berechnung der ermässigten MwSt. der MwSt. Koeffizient (laut § 37 MwSt. Gesetz) benutzt worden? Dieser beeinflusst Kontroll-Zusammenfassung."
+    },
+    "devdoc.dphZaklKoef": {
+      "titl": "Ist bei der Berechnung der Grund-MwSt. der MwSt. Koeffizient (laut § 37 MwSt. Gesetz) benutzt worden? Dieser beeinflusst Kontroll-Zusammenfassung."
+    },
+    "devdoc.eanKod": {
+      "titl": "</i>Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.</i>"
+    },
+    "devdoc.evidenceFilter": {
+      "titl": "Datenbankfilter: "
+    },
+    "devdoc.faEanKod": {
+      "titl": "Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. <i>Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.</i>"
+    },
+    "devdoc.faMesto": {
+      "titl": "Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. <i>Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.</i>"
+    },
+    "devdoc.faNazev": {
+      "titl": "Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. <i>Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.</i>"
+    },
+    "devdoc.faPsc": {
+      "titl": "Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. <i>Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.</i>"
+    },
+    "devdoc.faUlice": {
+      "titl": "Postanschrift wird nur in dem Falle ergänzt, wenn bei der Angabe Postalische Identisch false angezeigt wird. <i>Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.</i>"
+    },
+    "devdoc.firma": {
+      "titl": "Bindung auf eine Firma im Adressbuch, Falls diese nicht im Adressbuch eingetragen ist, muss man Posten mit detaillierten Informationen über Firma eintragen."
+    },
+    "devdoc.ic": {
+      "titl": "</i>Falls Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen,diese werden aus dem Adressbuch kopiert.</i>"
+    },
+    "devdoc.kurz": {
+      "titl": "Währungskurs, der die Umrechnung zwischen der Währung der Firma und der Währung des Belegs bestimmt. Falls die Währung nicht eingetragen ist, ist der Kurs gleich 0."
+    },
+    "devdoc.kurzMnozstvi": {
+      "titl": "Kursmenge, die das Verhältnis zwischen der Grundwährung und der Währung des Belegs bestimmt, z. B. Den Kurs von zwischen CZK und dem japanischen Jen bestimmt man als 1 CZK : 100 JPY."
+    },
+    "devdoc.mesto": {
+      "titl": "</i>Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.</i>"
+    },
+    "devdoc.nazFirmy": {
+      "titl": "</i>Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.</i>"
+    },
+    "devdoc.postovniShodna": {
+      "titl": "Falls true angezeigt wird, ist die Postanschrift mit der Rechnungsadresse identisch. <i>Falls der Posten ´Firma´ eingetragen ist, wird die Adresse aus dem Adressbuch kopiert und muss nicht eingetragen werden.</i>"
+    },
+    "devdoc.psc": {
+      "titl": "</i>Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.</i>"
+    },
+    "devdoc.slevaDokl": {
+      "titl": "Gesamtrabatt auf dem Beleg, der auf den resultierenden Preis angewendet wird."
+    },
+    "devdoc.sumCelkSniz": {
+      "titl": "Gesamtsumme aller Grundlagen im ermässigten MwSt.-Satz (d. h. Summe ohne MwSt.) in Grundwährung der Firma. <i>Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumCelkSnizMen": {
+      "titl": "Gesamtsumme aller Grundlagen im ermässigten MwSt.-Satz (d.h. Summe ohne MwSt.)in Währung des Belegs. <i>Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumCelkZakl": {
+      "titl": "Gesamtsumme aller Grundlagen im MwSt.-Grundsatz (d. h.Summe ohne MwSt.) in Grundwährung der Firma. <i>Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumCelkZaklMen": {
+      "titl": "Gesamtsumme aller Grundlagen im MwSt.-Grundsatz (d.h. Summe ohne MwSt.) in Währung des Belegs. <i>Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumCelkem": {
+      "titl": "Gesamtsumme mit MwSt.in der Grundwährung der Firma (d. h. wie viel der Kunde bezahlen soll). <i>Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumCelkemMen": {
+      "titl": "Gesamtsumme mit MwSt. in der Währung des Belegs (d. h. wie viel der Kunde bezahlen soll). </i>Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumDphCelkem": {
+      "titl": "Gesamtsumme MwSt. (ermässigter Satz+Grundsatz) in Grundwährung der Firma. <i>Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumDphCelkemMen": {
+      "titl": "Gesamtsumme MwSt. (ermässigter + Grundsatz)in der Währung des Belegs. <i>Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumDphSniz": {
+      "titl": "Gesamtsumme MwSt. im ermässigten Steuersatz in Grundwährung der Firma. <i>Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumDphSnizMen": {
+      "titl": "Gesamtsumme MwSt. im ermässigten MwSt-Satz in der Währung des Belegs. <i>Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumDphZakl": {
+      "titl": "Gesamtsumme MwSt. im Grundsatz in Grundwährung der Firma <i>Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumDphZaklMen": {
+      "titl": "Gesamtsumme MwSt. im MwSt.-Grundsatz in der Währung des Belegs. <i>Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumOsv": {
+      "titl": "Gesamtsumme der von der MwSt., befreiten Grundlagen in Grundwährung der Firma.<i> Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumOsvMen": {
+      "titl": "Gesamtsumme der von der MwSt., befreiten Grundlagen in Währung des Belegs.<i> Falls die Währung des Belegs mit der Grundwährung der Firma identisch, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumZklCelkem": {
+      "titl": "Gesamtsumme aller Grundlagen (d. h. Summe ohne MwSt.) in Grundwährung der Firma. Das ist die Endsumme ohne MwSt. <i>Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumZklCelkemMen": {
+      "titl": "Gesamtsumme aller Grundlagen (d.h. Summe ohne MwSt.) in Währung des Belegs.<i> Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumZklSniz": {
+      "titl": "Gesamtsumme der Grundlagen mit dem ermässigten MwSt.-Satz in Grundwährung der Firma.<i> Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumZklSnizMen": {
+      "titl": "Gesamtsumme der Grundlagen mit dem ermässigten MwSt.-Satz in der Währung des Belegs. <i>Falls die Währung des Belegs mit der Grundwährung der Firma identisch, ist dieser Posten nullwertig.Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumZklZakl": {
+      "titl": "Gesamtsumme der Grundlagen mit dem MwSt.-Grundsatz in Grundwährung der Firma.<i> Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.sumZklZaklMen": {
+      "titl": "Gesamtsumme der Grundlagen mit dem MwSt.-Grundsatz in Währung des Belegs.<i> Falls die Währung des Belegs mit der Grundwährung der Firma identisch ist, ist dieser Posten nullwertig. Falls Beleg Posten beinhaltet, wird die Summe automatisch aus den Posten berechnet.</i>"
+    },
+    "devdoc.ulice": {
+      "titl": "</i>Falls der Posten ´Firma´eingetragen ist, muss man die Angaben nicht ergänzen, sie werden aus dem Adressbuch kopiert.</i>"
+    },
+    "doklFak.cancelled": {
+      "titl": "STORNIERT"
+    },
+    "eula": {
+      "titl": "Bedingungen der Dienstleistung"
+    },
+    "evidences.description": {
+      "titl": "Diese Übersicht dient zu k&nbsp; zum Auszug der Evidenzen, die dieser Firma verfügbar sind . Man kann den Auszug in XML oder JSON Format überführen und diesen weiter verarbeiten."
+    },
+    "filter": {
+      "titl": "Filter"
+    },
+    "identifier": {
+      "titl": "Identifikator"
+    },
+    "loginWithDesktopApp": {
+      "titl": "Anmeldung mit der Kundenanwendung"
+    },
+    "loginWithDesktopAppToCloud": {
+      "titl": "Anmeldung mit der Kundenanwendung nach Cloud"
+    },
+    "majetek_dalsi": {
+      "titl": "Weitere"
+    },
+    "nactiVypis": {
+      "titl": "Auszug einlesen"
+    },
+    "name": {
+      "titl": "Name"
+    },
+    "newInterfaceLink": {
+      "titl": "Probieren Sie die neue Schnittstelle"
+    },
+    "obchPartneri_dalsi": {
+      "titl": "Weitere"
+    },
+    "odeslaniDokladu": {
+      "titl": "Versand des Belegs"
+    },
+    "odpocetZalohyCastka": {
+      "titl": "Wählen Sie die Summe für Abrechnung von 0 bis"
+    },
+    "openRecord": {
+      "titl": "Öffnen die Aufzeichnung"
+    },
+    "penize_dalsi": {
+      "titl": "Weitere"
+    },
+    "podepsatKUhrade": {
+      "titl": "Unterzeichnen zur Zahlung"
+    },
+    "prodej_dalsi": {
+      "titl": "Weitere"
+    },
+    "properties.description": {
+      "titl": "Diese Übersicht dient zu k&nbsp; dem Auszug der Posten, die diese Evidenz beinhalten kann. Man kann den Auszug in XML oder JSON Format überführen und diesen weiter verarbeiten."
+    },
+    "root.explanation": {
+      "titl": "ABRA Flexi ist ein modernes Warenwirtschaftssystem, das die Verarbeitung der Buchhaltung und der entsprechenden Programme in einer hohen Qualität und in einem breiten Spektrum der Unternehmen gewährleistet. ABRA Flexi verfügt über eine einfache Bedienung, die Applikation vom Typ Kunde/Server ist allerdings robust und leistungsfähig und kann auf Windows-, Linux- und Mac OS X- Plattformen betreiben werden. Wirtschaftssysteme der ABRA Flexi-Reihe sind seit 1991 auf dem Markt tätig."
+    },
+    "root.version": {
+      "titl": "Version"
+    },
+    "search": {
+      "titl": "Suchen"
+    },
+    "settings.ITH_USERS_MANAGEMENT": {
+      "titl": "Benutzerverwaltung \"IT Highway\""
+    },
+    "settings.ITH_USERS_MANAGEMENT.description": {
+      "titl": "Beschränkt in der Anwendung die Zuordnung der Rolle <code>ADMIN</code> und die Änderung der Benutzerdaten. Die Benutzerverwaltung erfolgt primär durch <i>Batch API</i>."
+    },
+    "std_ciselniky": {
+      "titl": "Standard Stammdaten"
+    },
+    "typKurzu.faktury": {
+      "titl": "Aus der Rechnung übernommener Kurs"
+    },
+    "typKurzu.uhrady": {
+      "titl": "Kurs zum Zahlungsdatum"
+    },
+    "typKurzu.vlastni": {
+      "titl": "Eigener Kurs"
+    },
+    "ucetni.denik.castky": {
+      "titl": "Summen"
+    },
+    "ucetnictvi_uctovani": {
+      "titl": "Einstellung der Verbuchung"
+    },
+    "ucetnictvi_vystupy": {
+      "titl": "Buchungsausgänge"
+    },
+    "url": {
+      "titl": "URL"
+    },
+    "vygenerovatFaktury": {
+      "titl": "Rechnungen generieren"
+    },
+    "vytvorZdd.faktury": {
+      "titl": "Rechnungen"
+    },
+    "zaloha": {
+      "titl": "Vorschuss"
+    },
+    "zalohaProgressDownloadTitle": {
+      "titl": "Der Vorschuss wird nach einer Weile zum Downloaden angeboten."
+    },
+    "zbozi_atributy": {
+      "titl": "Attribute"
+    },
+    "zbozi_dalsi": {
+      "titl": "Weitere"
+    },
+    "zrusitPodpisKUhrade": {
+      "titl": "Aufheben die Unterschrift zur Zahlung"
+    }
+  },
+  "messages": {
+    "automatickeParovaniJinyModul": {
+      "titl": "Automatische Paarung ist nur auf der Bank und an der Kasse durchzuführen."
+    },
+    "backup.confirmQuestion": {
+      "titl": "Soll man die Firma wirklich sichern?"
+    },
+    "bankUcetNemaFormatElVypisu": {
+      "titl": "Bei Bankkonto ist kein Format des elektronischen Auszugs definiert."
+    },
+    "changesApi.actionFailed": {
+      "titl": "Es ist nicht gelungen, die Aktion durchzuführen"
+    },
+    "changesApi.disableQuestion": {
+      "titl": "Changes API (Verfolgung von Änderungen) über die aktuelle Firma ist eingeschaltet. Wollen Sie es deaktivieren?"
+    },
+    "changesApi.disableSuccess": {
+      "titl": "Erfolgreich deaktiviert."
+    },
+    "changesApi.enableQuestion": {
+      "titl": "Changes API (Verfolgung von Änderungen) über die aktuelle Firma ist nicht eingeschaltet. Wollen Sie es aktivieren?"
+    },
+    "changesApi.enableSuccess": {
+      "titl": "Erfolgreich aktiviert."
+    },
+    "chybnyFormatCastky": {
+      "titl": "Fehlerhaftes Format der Summe"
+    },
+    "chybnyFormatDatumu": {
+      "titl": "Fehlerhaftes Datumsformat"
+    },
+    "chybnyVlastniKurzChybiKurz": {
+      "titl": "Wenn Sie einen eigenen Kurs verwenden wollen, müssen Sie auch den eigenen Kurs und die Kursmenge eingeben."
+    },
+    "creditcheck.end": {
+      "titl": "Gesellschaft wurde gelöscht oder wird liquidiert."
+    },
+    "creditcheck.ok": {
+      "titl": "Es wurde keine Information erfasst, die einen negativen Einfluss auf die Firmenbonität hat."
+    },
+    "creditcheck.problem": {
+      "titl": "Es gibt Informationen, die einen negativen Einfluss auf die Firmenbonität haben."
+    },
+    "creditcheck.unknown": {
+      "titl": "Bonitätsstand unbekannt"
+    },
+    "creditcheck.warning": {
+      "titl": "Es bestehen Informationen über Tatsachen oder Änderungen in der Firma, die deren Bonität negativ beeinflussen können (aber nicht müssen)."
+    },
+    "eetCertifikatSpatnaProvozovna": {
+      "titl": "Der Wert muss eine Ganzzahl sein!"
+    },
+    "eetCertifikatSpatneHeslo": {
+      "titl": "Falsches Zertifikatkennwort!"
+    },
+    "eetCertifikatSpatnySoubor": {
+      "titl": "Dies ist wahrscheinlich keine Zertifikatdatei, oder Sie listen den falschen Inhaltstyp auf!"
+    },
+    "eetDeactivated": {
+      "titl": "EET wird nicht unterstützt."
+    },
+    "error.company_in_wrong_state": {
+      "titl": "Die Firma '%p' ist in dem Stand '%p'."
+    },
+    "error.not_sha1_hash": {
+      "titl": "Es ist kein gültiges Format des SHA1 Abdrucks. Das richtige hat 20 Hex Bytes getrennt mit Doppelpunkten."
+    },
+    "error.service_unavailable": {
+      "titl": "Die Dienstleistung ist momentan nicht zugänglich, versuchen Sie es bitte später."
+    },
+    "error.tooManyRequests": {
+      "titl": "Dieses Unternehmen bearbeitet derzeit eine große Anzahl früherer Anfragen. Bitte warten Sie."
+    },
+    "error_parsing_file_exception": {
+      "titl": "Die Datei konnte nicht eingelesen werden, da: '%p'."
+    },
+    "hotovUhrNemaTypPoklPoh": {
+      "titl": "Keine Art der Kassenbucheinträge ausgewählt."
+    },
+    "illegal_parameter_exception": {
+      "titl": "Der Parameter '%p' wird im Format '%p‘ erwartet."
+    },
+    "incompatible_param_values_exception": {
+      "titl": "Die Parameterwerte %p sind nicht gegenseitig kompatibel"
+    },
+    "internetUpdate.ic_dic_empty": {
+      "titl": "Keine ID und UID eingetragen."
+    },
+    "invalidBoolean": {
+      "titl": "{0} ist kein gültiger logischer Typ."
+    },
+    "invalidDate": {
+      "titl": "{0} ist kein gültiges Datenformat."
+    },
+    "invalidNumber": {
+      "titl": "{0} ist kein gültiges Nummernformat."
+    },
+    "kopieDokladuNemaTypDokl": {
+      "titl": "Keine Belegart ausgewählt."
+    },
+    "missing_param_exception": {
+      "titl": "Für die Durchführung der Transaktion wird der Parameter '%p‘ gefordert"
+    },
+    "neexistujeReport": {
+      "titl": "Es gibt keinen Report."
+    },
+    "no.records": {
+      "titl": "Keine Eintragungen"
+    },
+    "pageLoad.end": {
+      "titl": "Alle Seiten eingelesen"
+    },
+    "pageLoad.loadNext": {
+      "titl": "Nächste Seite einlesen"
+    },
+    "pageLoad.loading": {
+      "titl": "Weitere Seite wird eingelesen..."
+    },
+    "parametrPovinny": {
+      "titl": "Parameter %p ist eine Pflichtangabe."
+    },
+    "parseParameterMesicError": {
+      "titl": "Im Parameter %p wird die Nummer des Monats (1-12) oder des Quartals (Q1-Q4) erwartet, aber '%p' wird gefunden."
+    },
+    "parseParameterNumberError": {
+      "titl": "Im Parameter %p erwartet man eine Nummer, gefunden aber %p."
+    },
+    "prilohaNepatriKObjektu": {
+      "titl": "Beilage %p gehört nicht dem Objekt %p an."
+    },
+    "resource_not_found_exception": {
+      "titl": "Die benötigte Quelle '%p' nicht gefunden"
+    },
+    "suggest.nothingFound": {
+      "titl": "Nichts gefunden"
+    },
+    "suggest.summary": {
+      "titl": "{start} bis {end} von insgesamt {total}"
+    },
+    "suggest.watermark": {
+      "titl": "{name} (schreiben Sie Benennung)"
+    },
+    "udalostNepatriKObjektu": {
+      "titl": "Vorfall %p gehört nicht dem Objekt %p an."
+    },
+    "unsavedChanges.confirm": {
+      "titl": "Auf der Seite sind nicht gespeicherte Änderungen. Wollen Sie die Seite wirklich verlassen?"
+    },
+    "unsupported_param_value_exception": {
+      "titl": "Der Parameter '%p' hat einen nicht unterstützen Wert! Wählen Sie eine der folgenden Möglichkeiten: %p"
+    },
+    "wait": {
+      "titl": "Warten Sie..."
+    }
+  }
+}

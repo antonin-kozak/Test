@@ -1,0 +1,963 @@
+{
+  "actions": {
+    "aktualizaceNepritomnosti": {
+      "icon": "win/aktualizuj-nepritomnost.png",
+      "titl": "Abwesenheit aktualisieren"
+    },
+    "generujZavazky": {
+      "desc": "Generiert die Verbindlichkeiten für den gewählten Monat.",
+      "icon": "win/generate.png",
+      "titl": "Generiere Verbindlichkeiten"
+    },
+    "importXmlNeschopenka": {
+      "icon": "win/xml-import.png"
+    },
+    "predvyplnitDovoleneHod": {
+      "titl": "Füllen Sie die Anzahl der Urlaubsstunden vor"
+    },
+    "predvyplnitPrevedeneDovoleneHod": {
+      "titl": "Füllen Sie die Anzahl der Stunden des übertragenen Urlaubs vor"
+    },
+    "prepoctiMzdu": {
+      "icon": "win/prepocti-mzdu.png",
+      "titl": "Lohn berechnen"
+    },
+    "rekapitulaceSlozek": {
+      "icon": "win/generate.png",
+      "titl": "Rekapitulation der Komponenten:"
+    },
+    "tiskExportVyplatnichPasek": {
+      "desc": "Exportiert die Gehaltsabrechnungen in das bestimmte Verzeichnis",
+      "icon": "win/pdf.png",
+      "titl": "Export der Gehaltsabrechnungen"
+    },
+    "tiskVycetPlatidel": {
+      "desc": "Verzeichnis der Zahlungsmittel für Arbeitnehmer für Bargeldzahlung wird ausgedruckt.",
+      "icon": "win/platidlo.png",
+      "titl": "Verzeichnis der Zahlungsmittel"
+    },
+    "vypnoutProminutiSPFirma": {
+      "titl": "Erlass der Sozialversicherung für die Firma deaktivieren"
+    },
+    "vypoctiMzdy": {
+      "desc": "Berechnet Löhne für den gewählten Monat.",
+      "icon": "win/computation.png",
+      "titl": "Löhne berechnen"
+    },
+    "zapnoutProminutiSPFirma": {
+      "titl": "Erlass der Sozialversicherung für die Firma aktivieren"
+    },
+    "zrusVypocetMzdy": {
+      "icon": "win/erase.png",
+      "titl": "Berechnung aufheben"
+    }
+  },
+  "buttons": {
+    "mzdyOsobaDetiOdpocVyber": {
+      "titl": "Wählen Sie aus"
+    },
+    "mzdyPlatiOdDoAdd": {
+      "titl": "Einstellung zugeben"
+    },
+    "mzdyPlatiOdDoDelete": {
+      "titl": "Einstellung löschen"
+    },
+    "mzdyVystupCsszOznameniAuto": {
+      "titl": "Automatisch bestimmen, ob es sich um den Anfang oder Ende handelt"
+    },
+    "mzdyVystupCsszOznameniKonec": {
+      "titl": "Meldung Ende der Beschäftigung"
+    },
+    "mzdyVystupCsszOznameniNastup": {
+      "titl": "Meldung Beschäftigungsanfang"
+    },
+    "mzdyVystupDodatecneOpravneVyuc": {
+      "titl": "Nachträglich korrigierte Abrechnung"
+    },
+    "mzdyVystupDodatecneVyuc": {
+      "titl": "Nachträgliche Abrechnung"
+    },
+    "mzdyVystupNasledneHlaseni": {
+      "titl": "Nächste Meldung"
+    },
+    "mzdyVystupOpravneHlaseni": {
+      "titl": "Berichtigte Meldung"
+    },
+    "mzdyVystupOpravneVyuc": {
+      "titl": "Berichtigte Abrechnung"
+    },
+    "mzdyVystupPotOZdanPrijmechSraz": {
+      "titl": "Bestätigung über die Abzugssteuer"
+    },
+    "mzdyVystupPotOZdanPrijmechZal": {
+      "titl": "Bestätigung über die Steuervorauszahlung"
+    },
+    "mzdyVystupRadneHlaseni": {
+      "titl": "Ordnungsmässige Meldung"
+    },
+    "mzdyVystupRadneVyuc": {
+      "titl": "Ordentliche Abrechnung"
+    },
+    "mzdyVystupSouborOutVyberOk": {
+      "titl": "Auswählen"
+    },
+    "mzdyVystupUlozitDoXml": {
+      "titl": "In XML-Format speichern ( Unterlage für elektronische Kommunikation mit AHV)"
+    },
+    "mzdyVystupUlozitDoXmlSrazDan": {
+      "titl": "Quellensteuer - Export in das Format XML"
+    },
+    "mzdyVystupUlozitDoXmlZalDan": {
+      "titl": "Vorsteuer - Export in das Format XML"
+    },
+    "mzdyVystupVytvoritAOtevritPdf": {
+      "titl": "Datei im PDF-Format erstellen und öffnen"
+    },
+    "mzdyVystupVytvoritTisk": {
+      "titl": "Drucken"
+    },
+    "mzdyVystupVytvoritTiskSrazDan": {
+      "titl": "Unterlagen für Quellensteuer ausdrucken"
+    },
+    "mzdyVystupVytvoritTiskZalDan": {
+      "titl": "Unterlagen für Vorsteuer ausdrucken"
+    },
+    "mzdyVystupZamknoutPdf": {
+      "titl": "Editierung nicht ermöglichen"
+    },
+    "prehledMzdSlozSumStredisek": {
+      "titl": "Summarisierung der Kostenstellen"
+    }
+  },
+  "dialogs": {
+    "hzupnForm": {
+      "titl": "Bericht des Arbeitgebers über die Beendigung der Arbeitsunfähigkeit"
+    },
+    "mzdyGeneraceZavVyberMesice": {
+      "titl": "Monat für Generieren der Verbindlichkeiten."
+    },
+    "mzdyOsobaDetiOdpoc": {
+      "titl": "Kinder-Auswahl für Kinderabzug"
+    },
+    "mzdyVycetPlatidelVyberMesice": {
+      "titl": "Parameter für Druck vom Verzeichnis der Zahlungsmittel"
+    },
+    "mzdyVypocetVyberMesice": {
+      "titl": "Monat für die Lohnberechnung."
+    },
+    "mzdyVystupSouborOutVyber": {
+      "titl": "Auswahl der Datei für die Speicherung."
+    },
+    "potOZdanPrijmechTitle": {
+      "titl": "Bestätigung der steuerbaren Einkommen"
+    },
+    "prehledMzdSlozek": {
+      "titl": "Bildung der Frage für Lohnkomponenten"
+    },
+    "prilohaZadostiForm": {
+      "titl": "Antragsbeilage"
+    },
+    "zdrPojGenerovaniTitle": {
+      "titl": "Übersicht der Zahlung des Versicherungsbeitrags"
+    },
+    "zdrPojHromadneOzn": {
+      "titl": "Sammelmeldung für Krankenkassen"
+    }
+  },
+  "labels": {
+    "cisMzdSlozViditelnost": {
+      "titl": "Sichtbarkeit von Feldern - Lohnkomponente"
+    },
+    "dPravDefSkupOsob": {
+      "titl": "Liste der Personen-Gruppen"
+    },
+    "filterMesicMzdyNeomezen": {
+      "titl": "Monat nicht begrenzt"
+    },
+    "filterOsobaMzdyNeomezena": {
+      "titl": "Person nicht begrenzt"
+    },
+    "filterRokMzdyNeomezen": {
+      "titl": "Jahr nicht begrenzt"
+    },
+    "filterSkupOsobNeomezena": {
+      "titl": "Personen-Gruppe nicht begrenzt"
+    },
+    "filterSkupSlozkyNeomezena": {
+      "titl": "Komponenten-Gruppe nicht begrenzt."
+    },
+    "filterSlozkaMzdyNeomezena": {
+      "titl": "Komponente nicht begrenzt"
+    },
+    "filterTypPracPomNeomezen": {
+      "titl": "Typ des Arbeitsverhältnisses nicht begrenzt"
+    },
+    "mzdoveListy.info1": {
+      "titl": "Sie können die Parameter der Bildung der Lohnlisten spezifizieren."
+    },
+    "mzdoveListy.info2": {
+      "titl": "Nur die Angaben werden abgebildet, die allen eingegebenen Kriterien entsprechen."
+    },
+    "mzdoveListy.obdobi": {
+      "titl": "Jahr:"
+    },
+    "mzdoveListy.osoba": {
+      "titl": "Person:"
+    },
+    "mzdoveListy.skupOsob": {
+      "titl": "Personen-Gruppe:"
+    },
+    "mzdoveListy.vitejte": {
+      "titl": "Willkommen im Begleiter der Bildung der Lohnlisten."
+    },
+    "mzdyGeneraceZavMesic": {
+      "titl": "Wählen Sie den Monat für Generieren der Verbindlichkeiten."
+    },
+    "mzdyIspvInfo": {
+      "titl": "Wählen Sie Jahr, Quartal und Zieldatei für Bildung von Info-Output betr. Durchschnittslohn."
+    },
+    "mzdyPlatiOdDoNeomezeno": {
+      "titl": "Nicht begrenzt"
+    },
+    "mzdyVycetPlatidelMesic": {
+      "titl": "Wählen Sie den Monat für Verzeichnis der Zahlungsmittel:"
+    },
+    "mzdyVycetPlatidelPole": {
+      "titl": "Ursprungsfeld der Summe für Verzeichnis der Zahlungsmittel:"
+    },
+    "mzdyVypocetMesic": {
+      "titl": "Wählen Sie den Monat für die Lohnberechnung aus."
+    },
+    "mzdyVyst.finUrPotOZdanPrijmechNadpis": {
+      "titl": "Bestätigung der steuerbaren Einkommen"
+    },
+    "mzdyVyst.finUrPotOZdanPrijmechPopis": {
+      "titl": "Wählen Sie das Jahr und die Person, für die Sie das Formular generieren möchten."
+    },
+    "mzdyVyst.pojDuchHlaseniNadpis": {
+      "titl": "Meldung zur Vorauszahlung Rentenversicherung"
+    },
+    "mzdyVyst.pojDuchHlaseniPopis": {
+      "titl": "Wählen Sie Monat, Jahr und Meldungsart."
+    },
+    "mzdyVyst.pojDuchVyuctovaniNadpis": {
+      "titl": "Abrechnung des Beitrags zum Rentensparen"
+    },
+    "mzdyVyst.pojDuchVyuctovaniPopis": {
+      "titl": "Wählen Sie das Jahr aus und wählen Sie die Abrechnungsart."
+    },
+    "mzdyVyst.prehledMzdSlozNadpis": {
+      "titl": "Bildung der Frage für Lohnkomponenten"
+    },
+    "mzdyVyst.prehledMzdSlozPopis": {
+      "titl": "Geben Sie die Eigenschaften der angezeigten Lohnkomponenten ein."
+    },
+    "mzdyVyst.prehledPojNadpis": {
+      "titl": "Übersicht von der Höhe des Versicherungsbeitrags"
+    },
+    "mzdyVyst.prehledPojPopis": {
+      "titl": "Wählen Sie den Monat und Jahr der Übersicht. Sie können auch das Ausgangsformat wählen."
+    },
+    "mzdyVyst.zdrPojHromadneOdhlaskaCB": {
+      "titl": "Abmelden"
+    },
+    "mzdyVyst.zdrPojHromadneOznNadpis": {
+      "titl": "Sammelmeldung für Krankenkassen"
+    },
+    "mzdyVyst.zdrPojHromadneOznPopis": {
+      "titl": "Wählen Sie den Monat und das Jahr der gemeldeten Änderungen und die Zieldatei aus."
+    },
+    "mzdyVyst.zdrPojHromadneOznPopis2": {
+      "titl": "Wählen Sie die Personen für Voreintragung ins Formular der Krankenkasse."
+    },
+    "mzdyVyst.zdrPojHromadnePrihlaskaCB": {
+      "titl": "Bewerbungsformular"
+    },
+    "mzdyVyst.zdrPojPrehledOPlatbeNadpis": {
+      "titl": "Übersicht der Zahlung des Versicherungsbeitrags"
+    },
+    "mzdyVyst.zdrPojPrehledOPlatbePopis": {
+      "titl": "<html>Wählen Sie den Monat und das Jahr für das Formular der monatlichen Meldung<br> der Zahlung des Versicherungsbeitrags von dem Arbeitgeber.</html>"
+    },
+    "mzdyVystupCtvrtleti": {
+      "titl": "Quartal:"
+    },
+    "mzdyVystupDatumNavratDoPraceHzupn": {
+      "titl": "Datum der Rückkehr zur Arbeit:"
+    },
+    "mzdyVystupDatumVystaveniHzupn": {
+      "titl": "Ausstellungsdatum:"
+    },
+    "mzdyVystupDuvodNenavratDoPraceHzupn": {
+      "titl": "Der Mitarbeiter hat keine Arbeit aufgenommen, weil:"
+    },
+    "mzdyVystupEldpTyp": {
+      "titl": "Art der Rentenversicherung:"
+    },
+    "mzdyVystupHzupnCislo": {
+      "titl": "Nummer der langfristigen Arbeitsunfähigkeitsentscheidungen:"
+    },
+    "mzdyVystupHzupnPopis": {
+      "titl": "Geben Sie die erforderlichen Informationen zum Abschluss für den Arbeitgeberinvaliditätsbericht ein."
+    },
+    "mzdyVystupMesic": {
+      "titl": "Monat"
+    },
+    "mzdyVystupMesicDo": {
+      "titl": "Monat bis:"
+    },
+    "mzdyVystupMesicOd": {
+      "titl": "Monat ab:"
+    },
+    "mzdyVystupNavratDoPraceHzupn": {
+      "titl": "Rückkehr zur Arbeit:"
+    },
+    "mzdyVystupNepritomnost": {
+      "titl": "Abwesenheit:"
+    },
+    "mzdyVystupOpravaEldp": {
+      "titl": "Korrektur der Rentenversicherung vom:"
+    },
+    "mzdyVystupOpravnePodaniHzupn": {
+      "titl": "Korrekturmeldung:"
+    },
+    "mzdyVystupOsoba": {
+      "titl": "Person:"
+    },
+    "mzdyVystupPocetOdpracHodPoslDenHzupn": {
+      "titl": "Arbeitsstunden letzter Tag der Arbeitsunfähigkeit:"
+    },
+    "mzdyVystupPodklVyucDane": {
+      "titl": "Unterlagen für die Abrechnung der Einkommensteuer aus abhängiger Tätigkeit"
+    },
+    "mzdyVystupPoslDenPnHzupn": {
+      "titl": "Der letzte Tag der Arbeitsunfähigkeit"
+    },
+    "mzdyVystupPracDobaHodPoslDenHzupn": {
+      "titl": "Schichtdauer letzter Tag der Arbeitsunfähigkeit:"
+    },
+    "mzdyVystupPracPomer": {
+      "titl": "Arbeitsverhältnis:"
+    },
+    "mzdyVystupPrilZadNemCislo": {
+      "titl": "Bestätigungsnummer:"
+    },
+    "mzdyVystupPrilZadNemTyp": {
+      "titl": "Antragsart:"
+    },
+    "mzdyVystupPrilZadNemTypDlouhOsetrovne": {
+      "titl": "Langfristiges Pflegegeld"
+    },
+    "mzdyVystupPrilZadNemTypNem": {
+      "titl": "Krankengeld"
+    },
+    "mzdyVystupPrilZadNemTypOset": {
+      "titl": "Pflegegeld"
+    },
+    "mzdyVystupPrilZadNemTypOtcovska": {
+      "titl": "Vaterschaftsurlaub"
+    },
+    "mzdyVystupPrilZadNemTypPenPom": {
+      "titl": "Mutterschaftsgeld"
+    },
+    "mzdyVystupPrilZadNemTypVyrov": {
+      "titl": "Kompensationszuschuss in der Schwangerschaft und Mutterschaft"
+    },
+    "mzdyVystupPrilZadPopis": {
+      "titl": "<html>Wählen Sie den Monat (und das Jahr), welcher jenem Monat vorangeht, in welchem der Sozialfall eintrat.<br/>Führen Sie ferner präzisierende Parameter der Antragsart an.</html>"
+    },
+    "mzdyVystupRok": {
+      "titl": "Jahr"
+    },
+    "mzdyVystupSouborOut": {
+      "titl": "Zieldatei"
+    },
+    "mzdyVystupSrazkovaDan": {
+      "titl": "Abzugssteuer"
+    },
+    "mzdyVystupZahranicniHzupn": {
+      "titl": "Ausland:"
+    },
+    "mzdyVystupZalohovaDan": {
+      "titl": "Vorschusssteuer"
+    },
+    "osobaAdrKonPN": {
+      "titl": "Korrespondenzadresse"
+    },
+    "osobaAdrKonTuzPN": {
+      "titl": "Adresse im Inland (Dauerwohnsitz ist im Ausland)"
+    },
+    "osobaAdrTrvalaPN": {
+      "titl": "Adresse - Dauerwohnsitz"
+    },
+    "osobaAdresaPN": {
+      "titl": "Adresse"
+    },
+    "osobaMzdCiziPojPN": {
+      "titl": "Fremdversicherung"
+    },
+    "osobaMzdSlevyDanPN": {
+      "titl": "Steuerabzüge"
+    },
+    "osobaMzdZaklPN": {
+      "titl": "Grundangaben"
+    },
+    "osobaMzdZdrPojPN": {
+      "titl": "Krankenversicherung"
+    },
+    "osobaMzdyPN": {
+      "titl": "Parameter von Lohn"
+    },
+    "osobaNastaveni": {
+      "titl": "Einstellung der Person:"
+    },
+    "osobaNezaopParPN": {
+      "titl": "Unversorgter Partner"
+    },
+    "osobaOstatniPN": {
+      "titl": "Sonstige"
+    },
+    "osobaStitkyPN": {
+      "titl": "Etiketten und Anmerkung"
+    },
+    "pracPomCsszPN": {
+      "titl": "ČSSZ"
+    },
+    "pracPomDniUvazku": {
+      "titl": "Arbeitstage"
+    },
+    "pracPomKonecPN": {
+      "titl": "Beendigung"
+    },
+    "pracPomNastaveni": {
+      "titl": "Einstellung des Arbeitsverhältnisses:"
+    },
+    "pracPomPocatekPN": {
+      "titl": "Beginn"
+    },
+    "pracPomUctovaniPN": {
+      "titl": "Buchen"
+    },
+    "pracPomUvazekPN": {
+      "titl": "Arbeitsverpflichtung"
+    },
+    "pracPomZapoctovyListPN": {
+      "titl": "Kreditbrief"
+    },
+    "prehledMzdSlozCelyRok": {
+      "titl": "Das ganze Jahr"
+    },
+    "prehledMzdSlozKvartal": {
+      "titl": "Quartal"
+    },
+    "prehledMzdSlozObdobi": {
+      "titl": "Periode"
+    },
+    "prehledMzdSlozPololeti": {
+      "titl": "Halbjahr"
+    },
+    "prehledMzdSlozSkupSlozek": {
+      "titl": "Komponenten-Gruppe:"
+    },
+    "prehledMzdSlozStredisko": {
+      "titl": "Kostenstelle:"
+    },
+    "vsechnySkupinyMzdSlozek": {
+      "titl": "Alle Gruppen"
+    },
+    "vsichniZamestnanci": {
+      "titl": "Alle Arbeitnehmer"
+    }
+  },
+  "messages": {
+    "hzupnPracDobaHodPoslDenToolTip": {
+      "titl": "Schichtdauer letzter Tag der Arbeitsunfähigkeit. Kann auf der Registerkarte Mitarbeiter geändert werden."
+    },
+    "hzupnZadnaNepritomnost": {
+      "titl": "Es wurde keine Abwesenheit festgestellt."
+    },
+    "konrolaMzdovychSlozekProbiha": {
+      "titl": "Es läuft die Kontrolle der Lohnkomponenten..."
+    },
+    "konrolaMzdovychSlozekUkoncitProcesDotaz": {
+      "titl": "Wollen Sie wirklich die laufende Kontrolle der Lohnkomponenten beenden?"
+    },
+    "mzdovyListSeNepodaril": {
+      "titl": "Es ist nicht gelungen, die Daten für die Lohnliste zu verarbeiten."
+    },
+    "mzdyChybnyPocetMesOdmeny": {
+      "titl": "Die Vergütung kann nur für 6 oder 12 Monate eingegeben werden."
+    },
+    "mzdyDoplneniHodDovolNastavenoNic": {
+      "titl": "Es wurde kein Urlaubsübertragungsordner gefunden, der aktualisiert werden konnte."
+    },
+    "mzdyDoplneniHodDovolNastavenoPocet": {
+      "titl": "Die Anzahl der Urlaubsstunden wurde für die Urlaubsübertragungsanteile folgender Personen - Arbeitsverhältnisse festgelegt"
+    },
+    "mzdyDoplneniHodDovolNenastavenoNic": {
+      "titl": "Es wurde kein Urlaubsübertragungsordner gefunden, der NICHT aktualisiert werden konnte."
+    },
+    "mzdyDoplneniHodDovolNenastavenoPocet": {
+      "titl": "Die Urlaubsübertragungsanteile der folgenden Personen - Beschäftigungsverhältnisse wurden NICHT auf die Anzahl der Urlaubsstunden gesetzt"
+    },
+    "mzdyDoplneniHodDovolUvod": {
+      "titl": "Der %p der Komponenten mit Urlaubsübertragung wurde in den berechneten Löhnen für Januar 2021 gefunden."
+    },
+    "mzdyGeneraceNeniEmail": {
+      "titl": "Die E-Mail-Adresse ist nicht ausgefüllt."
+    },
+    "mzdyGeneraceZavJizExistuji": {
+      "titl": "Für die gewählte Periode bestehen schon Verpflichtungen oder interne Belege\n Wollen Sie diese löschen?"
+    },
+    "mzdyGeneraceZavNeniFiltr": {
+      "titl": "Der Filter für die Auswahl der Löhne ist nicht festgelegt."
+    },
+    "mzdyGeneraceZavNeniMzda": {
+      "titl": "In dem gewählten Monat gibt es keinen Lohn."
+    },
+    "mzdyGeneraceZavNeniVypocteno": {
+      "titl": "Im gewählten Monat kein Lohn folgender Personen berechnet:"
+    },
+    "mzdyGeneraceZavOsobaNemaPojistovnu": {
+      "titl": "Bei Person %p ist keine Krankenkasse eingetragen."
+    },
+    "mzdyGeneraceZavOsobaNemaStatObcan": {
+      "titl": "Bei Person %p ist keine Staatsbürgerschaft."
+    },
+    "mzdyGeneraceZavOsobaNemaStredisko": {
+      "titl": "Bei Person %p ist keine Kostenstelle eingetragen."
+    },
+    "mzdyGeneraceZavOsobaNemaZadanoPoleNaPomeru": {
+      "titl": "Bei Person %p ist das Feld '%p' für die Arbeitsverhältnis %p nicht ausgefüllt."
+    },
+    "mzdyGeneraceZavPraceStredPrekrocenaDoba": {
+      "titl": "Bei dem Arbeitnehmer '%p' überschreitet der Arbeitsumfang für die Kostenstelle/die Aufträge/die Tätigkeiten den Arbeitszeitfond."
+    },
+    "mzdyGeneraceZavProgressInfo": {
+      "titl": "Generieren der Verbindlichkeiten verläuft..."
+    },
+    "mzdyGeneraceZavSmazatPrikazChyba": {
+      "titl": "Eine der Verbindlichkeiten ist nicht zu löschen, da diese im Zahlungsauftrag beinhaltet ist."
+    },
+    "mzdyGeneraceZavTdNemaRadu": {
+      "titl": "Bei der Belegart '%p' ist keine Belegreihe ausgewählt."
+    },
+    "mzdyGeneraceZavZamceno": {
+      "titl": "Die Belege kann man nicht generieren, da die gewählte Periode gesperrt ist."
+    },
+    "mzdyGenerovaniZavazkuOsobaCastka": {
+      "titl": "Person: %p, Betrag: %p"
+    },
+    "mzdyHodinyXNeniDatumDo": {
+      "titl": "Das Datumende muss ausgefüllt sein."
+    },
+    "mzdyKontrolaChyba": {
+      "titl": "Die Kontrolle der Lohnkomponenten war nicht erfolgreich."
+    },
+    "mzdyKontrolaKonec": {
+      "titl": "Möchten Sie die Komponenten für die oben angeführten Monate ergänzen?\nDie Ergänzung der Komponente hat Einfluss auf die Berechnung des arbeitsrechtlichen Durchschnitts. Nach der Umrechnung der Löhne in den Folgezeiträumen kann eine Änderung der Lohnbeträge dort eintreten, wo der arbeitsrechtliche Durchschnitt verwendet wurde."
+    },
+    "mzdyKontrolaNicNenalezeno": {
+      "titl": "Bei der Kontrolle der Lohnkomponenten wurden keine Lohnkomponenten gefunden, die eine Korrektur brauchen."
+    },
+    "mzdyKontrolaOpraveno": {
+      "titl": "Die Lohnkomponenten wurden ergänzt."
+    },
+    "mzdyKontrolaUvod": {
+      "titl": "Bei der Kontrolle der Lohnkomponenten wurde festgestellt, dass in den nachstehenden Fällen die Hilfskomponente für die Auflösung der Prämie für mehrere Monate nicht ausgefüllt ist. Diese Komponente hat Einfluss auf die Höhe des (arbeitsrechtlichen) Durchschnitts im nachfolgenden Quartal.\n\nPersonennummer: Monate, in denen die Komponente fehlt\n"
+    },
+    "mzdyMzdSlozPrispevekIzolackaKladna": {
+      "titl": "Der Beitrag zur Quarantäne (izolačka) wird als positiver Wert eingegeben."
+    },
+    "mzdyNejsouZaznamy": {
+      "titl": "Für den eingegebenen Filter existieren keine Löhne."
+    },
+    "mzdyNeniPracPomDatum": {
+      "titl": "Für das gewählte Datum %p besteht für den Arbeitnehmer %p kein Arbeitsverhältnis."
+    },
+    "mzdyNepritomnostCisloRozhodnutiNevalidni": {
+      "titl": "Die Nummer der Entscheidung ist ungültig. Die Nummer der Entscheidung enthält 18 Ziffern (bei elektronischem Krankenschein) oder einen Buchstaben und 6-7 Ziffern (bei Papier-Krankenschein)."
+    },
+    "mzdyNepritomnostExistJina": {
+      "titl": "Im gewählten Termin der Abwesenheit %p gibt es schon eine andere Abwesenheit %p."
+    },
+    "mzdyNepritomnostNevypocteneMzdy": {
+      "titl": "Die Speicherung der Abwesenheit %p ist nicht möglich, weil in dem Zeitraum der Abwesenheit die nicht berechneten Löhne im gesperrten Zeitraum existieren."
+    },
+    "mzdyNepritomnostZamceno": {
+      "titl": "Es ist nicht möglich, die Abwesenheit %p zu speichern, da die Löhne der gesperrten Periode beeinflusst wären."
+    },
+    "mzdyNeukoncenaNepritomnost": {
+      "titl": "Der Arbeitnehmer '%p' hat keine beendete Abwesenheit, dabei sein Arbeitsverhältnis ist bereits abgeschlossen."
+    },
+    "mzdyOdeslaniOk": {
+      "titl": "Die Lohnstreifen für die Auswahl '%p' sind zum Absenden bereit. Insgesamt zum Absenden: %p."
+    },
+    "mzdyOsobaChybiHeslo": {
+      "titl": "Das Passwort ist nicht ausgefüllt."
+    },
+    "mzdyOsobaNastaveniNeni": {
+      "titl": "Es gibt keine Einstellung für Person %p."
+    },
+    "mzdyOsobaNastaveniVice": {
+      "titl": "Es gibt mehrere Einstellungen für Person %p."
+    },
+    "mzdyPlatiOdDoNelzeSmazatJedine": {
+      "titl": "Man kann nicht die eine einzige bestehende Einstellung löschen."
+    },
+    "mzdyPlatiOdDoNotChangeAble": {
+      "titl": "Sie können die Gültigkeit nicht ändern, wenn die Änderung eine andere als die vorherige Einstellung betrifft."
+    },
+    "mzdyPlatiOdDoNotConsistent": {
+      "titl": "Die Einstellzeiträume bilden keine kontinuierliche chronologische Reihe."
+    },
+    "mzdyPlatiOdDoNovePlatneOd": {
+      "titl": "Festlegung der Einstellung gültig von:"
+    },
+    "mzdyPlatiOdDoOpravduSmazat": {
+      "titl": "Wollen Sie wirklich aktuelle Einstellung löschen?"
+    },
+    "mzdyPlatiOdDoPrvniNeomezena": {
+      "titl": "Die erste Einstellung, die für die Personennummer '%p' angelegt wird, muss eine unbegrenzte Gültigkeit haben."
+    },
+    "mzdyPlatiOdDoSingleDeleteNotPossible": {
+      "titl": "Sie können keine einzige bestehende Einstellung für '%p' löschen."
+    },
+    "mzdyPlatiOdExists": {
+      "titl": "Es existiert bereits eine Einstellung mit demselben Startdatum."
+    },
+    "mzdyPlatiOdNelzeZmenit": {
+      "titl": "Der Wert des Gültigkeitsbeginns einer bestehenden Einstellung kann nicht mehr geändert werden."
+    },
+    "mzdyPreSavePlatnostCisNepritKonec": {
+      "titl": "Das Ende der Abwesenheit %p ist nach dem Ende der Gültigkeit des Abwesenheitsgrundes (%p)."
+    },
+    "mzdyPreSavePlatnostCisNepritZac": {
+      "titl": "Der Beginn der Abwesenheit %p ist vor Beginn der Gültigkeit des Abwesenheitsgrundes (%p)."
+    },
+    "mzdyPrekrizeniDatumu": {
+      "titl": "Enddatum kann dem Anfangsdatum nicht vorkommen."
+    },
+    "mzdyProcVozuNeniCeleCislo": {
+      "titl": "% des Fahrzeugs muss eine ganze Zahl sein."
+    },
+    "mzdyUlozVyplatniPaskyChyba": {
+      "titl": "Es ist nicht gelungen, die Gehaltsabrechnungen zu exportieren."
+    },
+    "mzdyUlozVyplatniPaskyNejsouData": {
+      "titl": "Für den Export der Gehaltsabrechnungen liegen keine Daten vor."
+    },
+    "mzdyUlozVyplatniPaskyProbiha": {
+      "titl": "Die Gehaltsabrechnungen werden exportiert"
+    },
+    "mzdyUlozVyplatniPaskyUspech": {
+      "titl": "Die Gehaltsabrechnungen wurden erfolgreich exportiert."
+    },
+    "mzdyUlozeniZamceno": {
+      "titl": "Die Speicherung ist nicht möglich, da die Löhne der gesperrten Periode %p/%p beeinflusst wären."
+    },
+    "mzdyVypocetDovolena2021Info": {
+      "titl": "Um den Urlaub im Jahr 2021 korrekt zu berechnen, müssen Sie die Anzahl der Urlaubsstunden auf dem Arbeitsplatz in der Personalabteilung festlegen.\n Sie können den neuen Service \"Urlaubsstunden vorausfüllen\" nutzen und dann die Berechnung in Payroll Update verwenden.\n Im Falle der Übertragung von Urlaub aus dem letzten Jahr müssen Sie im Januar den Ordner \"Übertragung von Urlaub von 2020 auf 2021\" hinzufügen \nund die Stunden eingeben und auswählen, dass es sich um eine Benutzerzeitänderung handelt.\nUm diesen Ordner hinzuzufügen, können Sie in Payroll Update den Dienst \"Pre-fill the number of hours of transferred leave\" nutzen.\nNach dem Hinzufügen dieses Ordners müssen Sie die Gehaltsabrechnung neu berechnen.\nBei der Berechnung des Gehalts für Januar empfehlen wir, die Stunden im Feld \"Resturlaub\"\n, \"Übertragung von Urlaub aus dem letzten Jahr\" und \"Übertragung von Urlaub von 2020 bis 2021\" zu überprüfen."
+    },
+    "mzdyVypocetDovolenaZaporna": {
+      "titl": "Nach der Lohnberechnung ist der Resturlaub negativ."
+    },
+    "mzdyVypocetDovoleneZaporne": {
+      "titl": "Bei folgenden Person ist der Resturlaub negativ:"
+    },
+    "mzdyVypocetInfoOdmenyPrepocet": {
+      "titl": "Es erfolgte die Aktualisierung jener Lohnkomponenten, die Einfluss auf die Berechnung des sog. Durchschnitts für arbeitsrechtliche Zwecke haben.\nSofern Sie im Vorjahr Prämien für mehrere Monate verwendet und im aktuellen Jahr die Löhne berechnet haben, rechnen Sie die Löhne für den korrekten (arbeitsrechtlichen) Durchschnitt um."
+    },
+    "mzdyVypocetJedneLicenceNespocteno": {
+      "titl": "Es ist nicht möglich, den Lohn zu berechnen. Lizenzlimit sind %p berechnete Löhne monatlich."
+    },
+    "mzdyVypocetLicenceNespocteno": {
+      "titl": "Infolge der Lizenzbegrenzungen sind nicht Löhne für %p Personen berechnet worden.\nDie Lizenz ermöglicht, die Löhne für maximal %p Personen monatlich zu berechnen."
+    },
+    "mzdyVypocetMimoUcetniObdobi": {
+      "titl": "Es ist nicht möglich, Löhne außerhalb des aktuell festgelegten Abrechnungszeitraums zu berechnen. Sie müssen zuerst eine neue Abrechnungsperiode erstellen."
+    },
+    "mzdyVypocetNastaveniDetiVarov": {
+      "titl": "Wenn der Arbeitnehmer die Steuervergünstigung für Kinder geltend macht,\nist nötig, eine neue Einstellung durchzuführen, damit der Abzug nach der gültigen Gesetzgebung erfolgt."
+    },
+    "mzdyVypocetNastaveniDruhyPilirVarov": {
+      "titl": "In Bezug auf die Aufhebung des II. Pfeilers ab 1.1.2016 ist nötig, bei den Arbeitnehmern, die Teilnehmer des II. Pfeilers waren, im Personalwesen eine neue Einstellung des Arbeitnehmers zuzugeben und den II. Pfeiler aufzuheben (Personenwesen - Lohnparameter - Sozialversicherung - Er ist Rentenversicherter).\n\nDurch die Fortsetzung kommt es zu einer falschen Berechnung der Sozialversicherung."
+    },
+    "mzdyVypocetNemocProplatVarov": {
+      "titl": "Vor der Berechnung ist die Zahlung-Zeitperiode der Krankheitsersatzes zu kontrolieren."
+    },
+    "mzdyVypocetNeniKalkulacka": {
+      "titl": "Für gewählte Periode %p gibt es im Programm keine Vorschrift für die Lohnberechnung."
+    },
+    "mzdyVypocetPracujeVic": {
+      "titl": "Angestellte hat gegebenes Limit der geleisteten Arbeitsstunden überschritten."
+    },
+    "mzdyVypocetPracujouVic": {
+      "titl": "Folgende Personen haben gegebenes Limit der geleisteten Arbeitsstunden überschritten:"
+    },
+    "mzdyVypocetProgressInfo": {
+      "titl": "Lohnberechnung verläuft..."
+    },
+    "mzdyVypocetUpozorneniVypnutiProminutiSPFirma": {
+      "titl": "Für den Zeitraum <i>Juni - August 2020</i> konnte bei Erfüllung der gesetzlichen Bedingungen der <b>Erlass der Sozialversicherung für die Firma</b> in Anspruch genommen werden.\n Sofern der Erlass in der Einstellung der Arbeitsverhältnisse eingeschaltet war, ist er mit Gültigkeit ab dem 1. 9. 2020 zu deaktivieren. Gegebenenfalls kann er gesammelt durch den Dienst im Personalwesen deaktiviert werden.\n\nIn der Lohnberechnung fortfahren?"
+    },
+    "mzdyVypocetUpozorneniZapnutiProminutiSPFirma": {
+      "titl": "Für den Zeitraum <i>Juni - August 2020</i> kann bei Erfüllung der gesetzlichen Bedingungen der <b>Erlass der Sozialversicherung für die Firma</b>in Anspruch genommen werden.\n Der Erlass ist noch vor der Berechnung der Löhne durch Einschalten der Wahl \"%p\" in der Einstellung der einzelnen Arbeitsverhältnisse mit Gültigkeit ab dem 1. 6. 2020 (ggf. später) zu aktivieren.\nGegebenenfalls kann sie gesammelt für alle Standardarbeitsverhältnisse durch den Dienst im Personalwesen aktiviert werden.\n\nIn der Lohnberechnung fortfahren?"
+    },
+    "mzdyVypocetZamceno": {
+      "titl": "Man kann die Löhne nicht berechnen, da die gewählte Periode gesperrt ist."
+    },
+    "mzdyVystupChybaNacitaniDuchodu": {
+      "titl": "Es ist zu einem Fehler während des Einlesens der Rente gekommen."
+    },
+    "mzdyVystupCsszOsobaNemaDatumDuchoduOd": {
+      "titl": "Bei der Person %p ist das Feld Art der Rente ausgefüllt, nicht aber das Feld Rente von."
+    },
+    "mzdyVystupCsszOsobaNemaDuvodUkonceniCssz": {
+      "titl": "Person %p hat keinen ausgewählten Grund für die Beendigung von PP für CSSA."
+    },
+    "mzdyVystupCsszOsobaNemaValidniDatumDuchoduOd": {
+      "titl": "Bei Person %p ist das Feld Pension von falsch ausgefüllt, das Datum muss größer oder gleich dem Geburtsdatum und kleiner oder gleich dem Erstellungsdatum des Berichts sein."
+    },
+    "mzdyVystupDBChybaNeprit": {
+      "titl": "Fehler während der Suche nach Abwesenheit aus der Datenbank."
+    },
+    "mzdyVystupDBChybaOsoba": {
+      "titl": "Fehler während des Einlesens der Personen aus der Datenbank."
+    },
+    "mzdyVystupDanVypocetPresMax": {
+      "titl": "Maximaler zulässiger Wert für diese Zeile ist %p.\nEingegebener Wert wurde angepasst."
+    },
+    "mzdyVystupExportUspech": {
+      "titl": "Die Übersicht ist erfolgreich expediert worden."
+    },
+    "mzdyVystupHzupnCisPotvrzeniPovinne": {
+      "titl": "Wenn es sich nicht um ein ausländisches Zertifikat handelt, ist die DPN-Entscheidungsnummer obligatorisch."
+    },
+    "mzdyVystupHzupnDatNavratPovinny": {
+      "titl": "Wenn es sich um eine Rückkehr zur Arbeit handelt, muss der Rückkehrtermin vervollständigt werden."
+    },
+    "mzdyVystupHzupnDuvodNenavradDoPraceMaxDelka": {
+      "titl": "Der Grund, warum der Mitarbeiter seine Arbeit nicht aufgenommen hat, kann bis zu 200 Zeichen umfassen."
+    },
+    "mzdyVystupHzupnDuvodNenavradDoPracePovinny": {
+      "titl": "Wenn es sich nicht um eine Rückkehr zur Arbeit handelt, muss ausgefüllt werden, warum der Mitarbeiter seine Arbeit nicht aufgenommen hat."
+    },
+    "mzdyVystupHzupnNenalezenaZadnaNepritomnost": {
+      "titl": "In der aktuellen Abrechnungsperiode ist für das ausgewählte Arbeitsverhältnis des ausgewählten Mitarbeiters keine Abwesenheit eingetragen."
+    },
+    "mzdyVystupHzupnPovinnyDatVyst": {
+      "titl": "Meldedatum ist obgligatorisch."
+    },
+    "mzdyVystupNahrProcZaPoj": {
+      "titl": "Auf dem Weg zur Datei müssen Sie das Symbol % eintragen, das durch das Datum und Code der jeweiligen Krankenkasse ersetzt wird."
+    },
+    "mzdyVystupNarokNaBonus": {
+      "titl": "Überprüfen Sie, ob der Anspruch auf Bonuszahlung besteht. Das für die Geltendmachung der Bonusse erforderliche Mindesteinkommen wurde nicht erreicht."
+    },
+    "mzdyVystupNelzeNacistMzdyZDB": {
+      "titl": "Es ist nicht gelungen, die Löhne aus der Datenbank einzulesen."
+    },
+    "mzdyVystupNelzeNacistNastOsobDB": {
+      "titl": "Es ist nicht gelungen, vorgängige Einstellung der Person einzulesen."
+    },
+    "mzdyVystupNelzeNacistOsobyZDB": {
+      "titl": "Es ist nicht gelungen, die Personen aus der Datenbank einzulesen."
+    },
+    "mzdyVystupNeniAdrSocPoj2": {
+      "titl": "Keine Bankverbindung für die Sozialversicherung eingegeben. Die Bankverbindung fügen Sie hinzu, indem Sie die Eintragung der Sozialversicherung editieren \nin der Einstellung -> Module -> Angestellten -> Versicherung -> Adresse und Bankverbindung."
+    },
+    "mzdyVystupNeniVsSocPoj": {
+      "titl": "Bei der Bankverbindung für die Sozialversicherung ist das variable Symbol nicht eingegeben. Die Bankverbindung wird durch die Datenaufbereitung von Sozialversicherung \nin der Einstellung -> Module -> Arbeitnehmer -> Versicherung -> Adresse und Bankverbindung."
+    },
+    "mzdyVystupNepritomnostPovinna": {
+      "titl": "Abwesenheit ist obligatorisch."
+    },
+    "mzdyVystupNevybranyOsoby": {
+      "titl": "Sie müssen wenigstens eine Person eintragen."
+    },
+    "mzdyVystupNevytvariOznameni": {
+      "titl": "Für diesen Typ des Arbeitsverhältnisses macht man keine Meldung."
+    },
+    "mzdyVystupOpravaEldpDatumPovinne": {
+      "titl": "Sie müssen das Datum die von Ihnen korrigierten Registration der Sozialversicherung eingeben."
+    },
+    "mzdyVystupOsobaPovinna": {
+      "titl": "Personeneintrag ist obligatorisch"
+    },
+    "mzdyVystupPracPomKonecPomeru": {
+      "titl": "Das Feld 'Ende des Arbeitsverhältnisses' muss eingetragen werden."
+    },
+    "mzdyVystupPracPomPovinny": {
+      "titl": "Arbeitsverhältnis ist obligatorisch."
+    },
+    "mzdyVystupPrepPocZamNeniNastaveniOsoby": {
+      "titl": "Der Mitarbeiter '%p' hat keine für %p gültige Personeneinstellung."
+    },
+    "mzdyVystupPrepPocZamNeniUvazek": {
+      "titl": "Alle Arbeitnehmer müssen wöchentliche Arbeitszeit an mindestens einer von folgenden Stellen eingetragen haben:\nArbeitsverhältnis, Personen-Gruppe, Firmeneinstellung"
+    },
+    "mzdyVystupPrijmyZamSoubor": {
+      "titl": "einnahmen"
+    },
+    "mzdyVystupPrilohaChybaZpusobPlatby": {
+      "titl": "Unbekannte Zahlungsart bei Mitarbeiter %p."
+    },
+    "mzdyVystupPrilohaNeniAdresaObec": {
+      "titl": "Gemeinde ist für die Mitarbeiteradresse %p nicht angegeben."
+    },
+    "mzdyVystupPrilohaNeniAdresaPsc": {
+      "titl": "Die Adresse von Mitarbeiter %p hat keine PLZ-Adresse."
+    },
+    "mzdyVystupPrilohaNeniAdresaUlice": {
+      "titl": "Strasse ist für Mitarbeiteradresse %p nicht angegeben."
+    },
+    "mzdyVystupPrilohaNeniCUctu": {
+      "titl": "Keine Kontonummer für Mitarbeiter %p angegeben."
+    },
+    "mzdyVystupPrilohaNeniIban": {
+      "titl": "Für das Auslandskonto %p des Mitarbeiters ist keine IBAN angegeben."
+    },
+    "mzdyVystupPrilohaNeniKodBanky": {
+      "titl": "Für das Mitarbeiterkonto %p ist keine Bankleitzahl angegeben."
+    },
+    "mzdyVystupPrilohaNeniStat": {
+      "titl": "Für das Auslandskonto des Mitarbeiters %p ist kein Staat angegeben."
+    },
+    "mzdyVystupPrilohaNeniUcet": {
+      "titl": "Für Mitarbeiter %p wurde kein Bankkonto angegeben."
+    },
+    "mzdyVystupPrilohaNeniZpusobPlatby": {
+      "titl": "Keine Zahlungsart für Mitarbeiter %p angegeben."
+    },
+    "mzdyVystupSouborChyba": {
+      "titl": "Beim Speichern der Datei ist ein Fehler vorgekommen."
+    },
+    "mzdyVystupSouborPovinny": {
+      "titl": "Sie müssen den Weg zur Zieldatei eingeben."
+    },
+    "mzdyVystupVsePovinne": {
+      "titl": "Alle Angaben müssen eingetragen sein."
+    },
+    "mzdyVystupZdrPrehledNeniZdrPoj": {
+      "titl": "Bei Person %p müssen Sie die Krankenkasse eintragen."
+    },
+    "mzdyZamekTestChyba": {
+      "titl": "Fehler beim Prüfen der Lohnsperren,"
+    },
+    "mzdyneniVypocteno": {
+      "titl": "Der Lohn ist nicht berechnet %p/%p."
+    },
+    "nepodariloSeNacistMzdoveSlozky": {
+      "titl": "Es ist nicht gelungen, die Lohnkomponenten einzulesen."
+    },
+    "nepodariloSeNacistNeukonceneStdPP": {
+      "titl": "Die Nichtbeendigung der Standardarbeitsverhältnisse konnte nicht eingelesen werden."
+    },
+    "osobaDatNarozPovinne": {
+      "titl": "Das Geburtsdatum des Arbeitnehmers muss angegeben werden."
+    },
+    "osobaDiteViceOdpoctu": {
+      "titl": "Das Kind '%p' ist an mehreren Stellen für den Abzug ausgewählt."
+    },
+    "osobaDuplicitniOsbCis": {
+      "titl": "Personal -Nr. '%p' wird schon von einem Arbeitnehmer benutzt."
+    },
+    "osobaJinaNezNaPracPomeru": {
+      "titl": "Eine definierte Person (%p: %p %p) unterscheidet sich von einer beschäftigten Person (%p: %p %p)."
+    },
+    "osobaJmenoPrijmeniPovinne": {
+      "titl": "Bei dem Arbeitnehmer muss der Vorname und der Nachname angegeben werden."
+    },
+    "osobaRodCisDatNarozPovinne": {
+      "titl": "Bei dem Arbeitnehmer muss die Personenkennzahl und das Geburtsdatum angegeben werden."
+    },
+    "osobaRodCisNevyplneno": {
+      "titl": "Bei dem Arbeitnehmer ist keine Personenkennzahl eingegeben."
+    },
+    "osobaRodCisPovinne": {
+      "titl": "Bei dem Arbeitnehmer muss die Personenkennzahl eingegeben werden."
+    },
+    "osobaRodnePrijmeniPovinne": {
+      "titl": "Die Person %p hat keinen Nachnamen."
+    },
+    "osobaSlevyNaDaniPrazdne": {
+      "titl": "Steuerrabatte sind leer."
+    },
+    "osobaStaleMzdoveSlozkyPrazdne": {
+      "titl": "Feste Lohnkomponenten sind leer."
+    },
+    "osobaStatObcanPovinne": {
+      "titl": "Die Staatsangehörigkeit des Arbeitnehmers muss angegeben werden."
+    },
+    "osobaZdravPojNevyplneno": {
+      "titl": "Bei dem Arbeitnehmer ist keine Krankenkasse eingetragen."
+    },
+    "osobaZdravPojPovinne": {
+      "titl": "Bei dem Arbeitnehmer muss die Krankenkasse eingegeben werden."
+    },
+    "osobaZpusPlatbyPovinne": {
+      "titl": "Beim Arbeitnehmer muss die Zahlungsweise ausgefüllt werden"
+    },
+    "pracPomAktivniOdPovinne": {
+      "titl": "Bei dem Arbeitsverhältnis muss das Feld 'Aktiv von' eingetragen werden."
+    },
+    "pracPomInitSlozkyPrazdne": {
+      "titl": "Initialisierungskomponenten sind leer."
+    },
+    "pracPomNepravNulujSmeny": {
+      "titl": "Arbeitsverteilung war früher regelmässig, aber zur Zeit ist nicht mehr. Wollen Sie die Arbeitsschichten annullieren?"
+    },
+    "pracPomPrekryvKoncu": {
+      "titl": "Das Datum der Beendigung des Arbeitsverhältnisses darf nicht später als das Datum von \"aktiv bis\" sein."
+    },
+    "pracPomUvazHodDnuZacPracDobyPovinne": {
+      "titl": "Bei dem regelmässigen Arbeitsverhältnis muss folgendes eingegeben werden: Stunden pro Tag, Tage pro Woche, Beginn der Arbeitszeit"
+    },
+    "pracPomZkraceniPomeru": {
+      "titl": "Warnung. Wird das Arbeitsverhältnis gekürzt, werden die bereits bestehenden Rechnungsbelege nicht beseitigt."
+    },
+    "praceStredObdobiMocProcent": {
+      "titl": "In einer der Perioden sind mehr als 100% des Arbeitszeitfonds."
+    },
+    "predvyplneniHodDovolPocetInfo": {
+      "titl": "Die Anzahl der Urlaubsstunden pro Jahr wurde zu %p der Beschäftigungsverhältnisse addiert."
+    },
+    "predvyplneniHodDovolZadnyPPInfo": {
+      "titl": "Es wurde keine aktive Beschäftigung gefunden, bei der die Anzahl der Urlaubsstunden vorausgefüllt werden konnte."
+    },
+    "prominutiSPWizard.infoVypnuto": {
+      "titl": "Es wurden %p der Neueinstellungen der Arbeitsverhältnisse erstellt, %p für die Arbeitsverhältnisse wurde der Erlass der Sozialversicherung für die Firma deaktiviert."
+    },
+    "prominutiSPWizard.infoZapnuto": {
+      "titl": "Es wurden %p der neuen Arbeitsverhältnisse erstellt, %p für die Arbeitsverhältnisse wurde der Erlass der Sozialversicherung für die Firma aktiviert."
+    },
+    "prominutiSPWizard.vypnoutPro": {
+      "titl": "Wählen Sie aus, ab welchem Monat Sie <b>für alle Arbeitsverhältnisse</b> den Erlass der Sozialversicherung für die Firma deaktivieren wollen.\n Sofern eine Änderung eintritt, erfolgt zum 1.Tage des gewählten Monats eine Neueinstellung der Arbeitsverhältnisse:"
+    },
+    "prominutiSPWizard.vypnoutProHeader": {
+      "titl": "Erlass der Sozialversicherung für die Firma deaktivieren"
+    },
+    "prominutiSPWizard.zapnoutPro": {
+      "titl": "Wählen Sie aus, ab welchem Monat Sie <b>für die Standard-Arbeitsverhältnisse</b> den Erlass der Sozialversicherung für die Firma aktivieren wollen.\n Sofern eine Änderung eintritt, erfolgt zum 1.Tage des gewählten Monats eine Neueinstellung der Arbeitsverhältnisse:"
+    },
+    "prominutiSPWizard.zapnoutProHeader": {
+      "titl": "Erlass der Sozialversicherung für die Firma aktivieren"
+    },
+    "vypocetVyzadovanyProperty": {
+      "titl": "Bei der Lohnberechnung müssen %p und %p eingegeben werden."
+    },
+    "vyzadovanPracovniPomer": {
+      "titl": "Die Komponente %p erfordert ein Arbeitsverhältnis, da sie nicht für alle gleich ist."
+    },
+    "vyzadovanaNepritomnost": {
+      "titl": "Für die Komponente %p ist die Abwesenheit erforderlich."
+    },
+    "zrusVypocetMzdy.uzivZmeny": {
+      "titl": "Möchten Sie die Benutzeränderungen annullieren?"
+    },
+    "zruseniVyzadovanyProperty": {
+      "titl": "Bei der Stornierung der Abrechnungsberechnung müssen %p und %p eingegeben werden."
+    }
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "dials": {
+    "csszDuvodNeposkytnuti.01": {
+      "titl": "1 - úmrtí pojištěnce"
+    },
+    "csszDuvodNeposkytnuti.02": {
+      "titl": "2 - starobní důchod, zaměstnání bez účasti na pojištění nebo zaměstnání s druhem činnosti dohoda o provedení práce"
+    },
+    "csszDuvodNeposkytnuti.03": {
+      "titl": "3 - vybraná zaměstnání"
+    },
+    "csszDuvodUkonceni.01": {
+      "titl": "1 - Ukončení PP cizince či osoby bez státní příslušnosti (§ 48/3)"
+    },
+    "csszDuvodUkonceni.02": {
+      "titl": "2 - Dohodou se zaměstnavatelem (§ 49)"
+    },
+    "csszDuvodUkonceni.03": {
+      "titl": "3 - Výpověď ze strany zaměstnance (§ 50/3)"
+    },
+    "csszDuvodUkonceni.04": {
+      "titl": "4 - Organizační důvod (§ 52/a-c)"
+    },
+    "csszDuvodUkonceni.05": {
+      "titl": "5 - Zdravotní důvody (§ 52/e, § 56/1a)"
+    },
+    "csszDuvodUkonceni.05d": {
+      "titl": "5 - Zdravotní důvody (§ 52/d)"
+    },
+    "csszDuvodUkonceni.06": {
+      "titl": "6 - Zaměstnanec nesplňuje předpoklady nebo požadavky pro výkon sjednané práce (§ 52/f)"
+    },
+    "csszDuvodUkonceni.07": {
+      "titl": "7 - Porušení povinností zaměstnancem zvlášť hrubým způsobem (§ 52/g první část věty nebo § 55/1b)"
+    },
+    "csszDuvodUkonceni.08": {
+      "titl": "8 - Soustavné méně závažné porušení povinností zaměstnancem (§ 52/g druhá část věty )"
+    },
+    "csszDuvodUkonceni.09": {
+      "titl": "9 - Porušení režimu dočasně práce neschopného zvlášť hrubým způsobem (§ 52/h)"
+    },
+    "csszDuvodUkonceni.10": {
+      "titl": "10 - Okamžité zrušení pracovního poměru z důvodu pravomocného odsouzení pro úmyslný trestný čin  (§ 55/1a)"
+    },
+    "csszDuvodUkonceni.11": {
+      "titl": "11 - Porušení podstatné povinností zaměstnavatelem (§ 56/1b)"
+    },
+    "csszDuvodUkonceni.12": {
+      "titl": "12 - Doba určitá (§ 65)"
+    },
+    "csszDuvodUkonceni.13": {
+      "titl": "13 - Ve zkušební době zaměstnavatelem (§ 66)"
+    },
+    "csszDuvodUkonceni.14": {
+      "titl": "14 - Ve zkušební době zaměstnancem (§ 66)"
+    },
+    "csszDuvodUkonceni.15": {
+      "titl": "15 - Ostatní"
+    },
+    "duvodSlevaSpFirma.a": {
+      "titl": "a) osoba starší 55 let"
+    },
+    "duvodSlevaSpFirma.b": {
+      "titl": "b) péče o dítě mladší 10 let, jehož je rodičem"
+    },
+    "duvodSlevaSpFirma.c": {
+      "titl": "c) péče o osobu blízkou mladší 10 let"
+    },
+    "duvodSlevaSpFirma.d": {
+      "titl": "d) příprava na budoucí povolání studiem"
+    },
+    "duvodSlevaSpFirma.e": {
+      "titl": "e) nejdéle před 12 měsíci absolvoval rekvalifikaci"
+    },
+    "duvodSlevaSpFirma.f": {
+      "titl": "f) osoba se zdravotním postižením"
+    },
+    "duvodSlevaSpFirma.g": {
+      "titl": "g) osoba mladší 21 let"
+    },
+    "mzdCalcOper.krat": {
+      "titl": "* (Out = In1 * K1 * In2 + K2 + Out * K3)"
+    },
+    "mzdCalcOper.lomeno": {
+      "titl": "/ (Out = In1 * K1 / In2)"
+    },
+    "mzdCalcOper.max": {
+      "titl": "max (Out = max(In1*K1, In2*K2, Out*K3))"
+    },
+    "mzdCalcOper.mensi": {
+      "titl": "< (Out = (In1 < K1) then K2 else K3)"
+    },
+    "mzdCalcOper.mensiRovno": {
+      "titl": "<= (Out = (In1 <= K1) then K2 else K3)"
+    },
+    "mzdCalcOper.mensiRovnoIn": {
+      "titl": "<= (Out = (In1 <= In2) then K1 else K2)"
+    },
+    "mzdCalcOper.min": {
+      "titl": "min (Out = min(In1*K1, In2*K2, Out*K3))"
+    },
+    "mzdCalcOper.plus": {
+      "titl": "+ (Out = In1 * K1 + Out * K2 + K3)"
+    },
+    "mzdCalcOper.rovno": {
+      "titl": "= (Out = (In1 = K1) then K2 else K3)"
+    },
+    "mzdCalcOper.rozdelPomer": {
+      "titl": "Rozdělí In1 v poměru In2 do Out"
+    },
+    "mzdCalcOper.sinus": {
+      "titl": "sin (Out = sin(In1 * K1 + K2) * K3)"
+    },
+    "mzdCalcPlatnost.prvniCtvrtleti": {
+      "titl": "První aktivní čtvrtletí pracovního poměru"
+    },
+    "mzdCalcPlatnost.prvniMesic": {
+      "titl": "První aktivní měsíc pracovního poměru"
+    },
+    "mzdCalcPlatnost.prvniRok": {
+      "titl": "První aktivní rok pracovního poměru"
+    },
+    "mzdCalcPlatnost.vzdy": {
+      "titl": "Vždy"
+    },
+    "mzdCalcPlatnost.zacatekPrvniRok": {
+      "titl": "První rok pracovního poměru dle začatku"
+    },
+    "mzdCalcSuma.konecPredchoziRok": {
+      "titl": "Měsíce na konci minulého roku"
+    },
+    "mzdCalcSuma.obdProplat": {
+      "titl": "Měsíce, kde souhlasí měsíc platby s aktuálním"
+    },
+    "mzdCalcSuma.obdobi": {
+      "titl": "Dělba roku na období o zadaném počtu měsíců - předchozího období"
+    },
+    "mzdCalcSuma.obdobiAkt": {
+      "titl": "Dělba roku na období o zadaném počtu měsíců - aktuální období měsíce před aktuálním"
+    },
+    "mzdCalcSuma.predchozi": {
+      "titl": "Zadaný počet předchozích měsíců"
+    },
+    "mzdCalcSuma.rokPred": {
+      "titl": "Předchozí měsíce v roce"
+    },
+    "mzdCalcZdroj.nastaveni": {
+      "titl": "Nastavení"
+    },
+    "mzdCalcZdroj.osoba": {
+      "titl": "Osoba"
+    },
+    "mzdCalcZdroj.ostatni": {
+      "titl": "Ostatní"
+    },
+    "mzdCalcZdroj.pracPom": {
+      "titl": "Pracovní poměr"
+    },
+    "mzdCalcZpracDatum.denVroce": {
+      "titl": "Pořadový den v roce - 0 mimo aktuální rok"
+    },
+    "mzdCalcZpracDatum.denVroceKon": {
+      "titl": "Pořadový den v roce - koncové datum"
+    },
+    "mzdCalcZpracDatum.denVrocePoc": {
+      "titl": "Pořadový den v roce - počáteční datum"
+    },
+    "mzdCalcZpracDatum.mesic": {
+      "titl": "Měsíc v roce - 0 mimo aktuální rok"
+    },
+    "mzdCalcZpracDatum.mesicNaslPoc": {
+      "titl": "Nejbližší následující počátek měsíce - měsíc - 0 mimo aktuální rok"
+    },
+    "mzdCalcZpracDatum.mesicPredKon": {
+      "titl": "První nekompletní měsíc v roce - 0 mimo aktuální rok nebo 31.12."
+    },
+    "mzdCalcZpracDatum.rozdilPracDnu": {
+      "titl": "Rozdíl pracovních dnů"
+    },
+    "plneniOdprDoby.automaticky": {
+      "titl": "Automaticky"
+    },
+    "plneniOdprDoby.rucne": {
+      "titl": "Ručně"
+    },
+    "pohlavi.muz": {
+      "titl": "Muž"
+    },
+    "pohlavi.zena": {
+      "titl": "Žena"
+    },
+    "pracRozvrh.nepravidelny": {
+      "titl": "Nepravidelný"
+    },
+    "pracRozvrh.pravidelny": {
+      "titl": "Pravidelný"
+    },
+    "rodStav.druh": {
+      "titl": "Družka/druh"
+    },
+    "rodStav.registrPartner": {
+      "titl": "Registrovaný partner"
+    },
+    "rodStav.rozvedeny": {
+      "titl": "Rozvedená(-ý)"
+    },
+    "rodStav.svobodny": {
+      "titl": "Svobodná(-ý)"
+    },
+    "rodStav.vdana_zenaty": {
+      "titl": "Vdaná/ženatý"
+    },
+    "rodStav.vdovec": {
+      "titl": "Vdova(-ec)"
+    },
+    "skupinaSlozky.benefity": {
+      "titl": "Benefity"
+    },
+    "skupinaSlozky.dan": {
+      "titl": "Daň"
+    },
+    "skupinaSlozky.danSleva": {
+      "titl": "Daň - sleva"
+    },
+    "skupinaSlozky.doba": {
+      "titl": "Fond pracovní doby"
+    },
+    "skupinaSlozky.duchod": {
+      "titl": "Důchod"
+    },
+    "skupinaSlozky.hrubaMzda": {
+      "titl": "Hrubá mzda"
+    },
+    "skupinaSlozky.ispvFirma": {
+      "titl": "ISPV - firma"
+    },
+    "skupinaSlozky.ispvZamestnanec": {
+      "titl": "ISPV - zaměstnanec"
+    },
+    "skupinaSlozky.nemocNahrad": {
+      "titl": "Náhrady nemoc"
+    },
+    "skupinaSlozky.nepritKaran": {
+      "titl": "Nepřítomnost - karanténa"
+    },
+    "skupinaSlozky.nepritNemoc": {
+      "titl": "Nepřítomnost - nemoc"
+    },
+    "skupinaSlozky.nepritNeplac": {
+      "titl": "Nepřítomnost - neplacená"
+    },
+    "skupinaSlozky.nepritomnost": {
+      "titl": "Nepřítomnost"
+    },
+    "skupinaSlozky.odmeny": {
+      "titl": "Odměny"
+    },
+    "skupinaSlozky.ostatNahrad": {
+      "titl": "Ostatní náhrady"
+    },
+    "skupinaSlozky.priplatky": {
+      "titl": "Příplatky"
+    },
+    "skupinaSlozky.prispevky": {
+      "titl": "Příspěvky"
+    },
+    "skupinaSlozky.socPoj": {
+      "titl": "Sociální pojištění"
+    },
+    "skupinaSlozky.srazky": {
+      "titl": "Srážky"
+    },
+    "skupinaSlozky.vyneti": {
+      "titl": "Vynětí"
+    },
+    "skupinaSlozky.vyplata": {
+      "titl": "Výplata"
+    },
+    "skupinaSlozky.zakladMzda": {
+      "titl": "Základní mzda"
+    },
+    "skupinaSlozky.zaloha": {
+      "titl": "Záloha"
+    },
+    "skupinaSlozky.zdravPoj": {
+      "titl": "Zdravotní pojištění"
+    },
+    "typDuchodu.invalidniCast": {
+      "titl": "Částečný invalidní důchod"
+    },
+    "typDuchodu.invalidniPlny": {
+      "titl": "Plný invalidní důchod"
+    },
+    "typDuchodu.sirotci": {
+      "titl": "Sirotčí důchod"
+    },
+    "typDuchodu.starobni": {
+      "titl": "Starobní důchod "
+    },
+    "typDuchodu.starobniPredcas": {
+      "titl": "Předčasný starobní důchod"
+    },
+    "typDuchodu.vdovecky": {
+      "titl": "Vdovecký důchod "
+    },
+    "typDuchodu.vdovsky": {
+      "titl": "Vdovský důchod"
+    },
+    "typEldp.01": {
+      "titl": "Zaměstnání trvá"
+    },
+    "typEldp.02": {
+      "titl": "Zaměstnání ukončeno"
+    },
+    "typEldp.03": {
+      "titl": "Zaměstnání ukončeno smrtí"
+    },
+    "typEldp.51": {
+      "titl": "Opravný - Zaměstnání trvá"
+    },
+    "typEldp.52": {
+      "titl": "Opravný - Zaměstnání ukončeno"
+    },
+    "typEldp.53": {
+      "titl": "Opravný - Zaměstnání ukončeno smrtí"
+    },
+    "typEldp.91": {
+      "titl": "Rekonstruovaný - Zaměstnání trvá"
+    },
+    "typEldp.92": {
+      "titl": "Rekonstruovaný - Zaměstnání ukončeno"
+    },
+    "typEldp.93": {
+      "titl": "Rekonstruovaný - Zaměstnání ukončeno smrtí"
+    },
+    "typMzdy.hodinova": {
+      "titl": "Hodinová"
+    },
+    "typMzdy.jina": {
+      "titl": "Jiná"
+    },
+    "typMzdy.mesicni": {
+      "titl": "Měsícní"
+    },
+    "typMzdy.podilova": {
+      "titl": "Podílová"
+    },
+    "typMzdy.smisena": {
+      "titl": "Smíšená"
+    },
+    "typMzdy.ukolova": {
+      "titl": "Úkolová"
+    },
+    "typOdecitPol.dite": {
+      "titl": "Dítě"
+    },
+    "typOdecitPol.invalCast": {
+      "titl": "Částečný invalidní důchod"
+    },
+    "typOdecitPol.invalPlny": {
+      "titl": "Plný invalidní důchod"
+    },
+    "typOdecitPol.manzel": {
+      "titl": "Na manželku/manžela"
+    },
+    "typOdecitPol.poplatnik": {
+      "titl": "Na poplatníka"
+    },
+    "typOdecitPol.student": {
+      "titl": "Student"
+    },
+    "typOdecitPol.ztpP": {
+      "titl": "ZTP/P"
+    },
+    "typSlozky.dlouhodobNep": {
+      "titl": "Dlouhodobá nepřítomnost"
+    },
+    "typSlozky.info": {
+      "titl": "Info"
+    },
+    "typSlozky.inicializace": {
+      "titl": "Inicializační složka"
+    },
+    "typSlozky.kopie": {
+      "titl": "Položka vznikla kopií z jiného seznamu"
+    },
+    "typSlozky.vstup": {
+      "titl": "Složku zadá uživatel"
+    },
+    "typSlozky.vypocet": {
+      "titl": "Složka je automaticky generována"
+    },
+    "typVztahuOsoba.externi": {
+      "titl": "Externí osoba"
+    },
+    "typVztahuOsoba.uchazec": {
+      "titl": "Uchazeč"
+    },
+    "typVztahuOsoba.zamestnanec": {
+      "titl": "Zaměstnanec"
+    },
+    "vyznamSlozky.bezneNahrady": {
+      "titl": "Běžné náhrady"
+    },
+    "vyznamSlozky.cistaMzda": {
+      "titl": "Čistá mzda"
+    },
+    "vyznamSlozky.dan": {
+      "titl": "Daň"
+    },
+    "vyznamSlozky.danBonus": {
+      "titl": "Daňový bonus"
+    },
+    "vyznamSlozky.danRezident": {
+      "titl": "Daň rezident"
+    },
+    "vyznamSlozky.danSlevPrac": {
+      "titl": "Sleva - poplatníka"
+    },
+    "vyznamSlozky.danSlevSum": {
+      "titl": "Sleva na dani celkem"
+    },
+    "vyznamSlozky.danSrazka": {
+      "titl": "Daň srážková"
+    },
+    "vyznamSlozky.danVypocet": {
+      "titl": "Daň výpočet"
+    },
+    "vyznamSlozky.danZaklSraz": {
+      "titl": "Základ pro výpočet srážkové daně pro pracovní poměr"
+    },
+    "vyznamSlozky.danZaklSrazSum": {
+      "titl": "Základ pro výpočet srážkové daně"
+    },
+    "vyznamSlozky.danZaklSum": {
+      "titl": "Základ pro výpočet daně"
+    },
+    "vyznamSlozky.danZaloha": {
+      "titl": "Záloha na daň - výsledek po slevách a opravách"
+    },
+    "vyznamSlozky.dobaDovol": {
+      "titl": "Dovolená"
+    },
+    "vyznamSlozky.dobaFond": {
+      "titl": "Fond pracovní doby"
+    },
+    "vyznamSlozky.dobaNeodpr": {
+      "titl": "Neodpracovaná doba celkem"
+    },
+    "vyznamSlozky.dobaOdpr": {
+      "titl": "Odpracovaná doba celkem"
+    },
+    "vyznamSlozky.dobirka": {
+      "titl": "Dobírka"
+    },
+    "vyznamSlozky.dovolPocatek": {
+      "titl": "Dovolená počátek"
+    },
+    "vyznamSlozky.dovolVybrano": {
+      "titl": "Čerpaná dovolená od počátku roku - celkem"
+    },
+    "vyznamSlozky.dovolZbyva": {
+      "titl": "Zbývá dovolené v roce"
+    },
+    "vyznamSlozky.hrubaMzda": {
+      "titl": "Hrubá mzda"
+    },
+    "vyznamSlozky.hrubaPrumer": {
+      "titl": "Základ pro průměrný výdělek"
+    },
+    "vyznamSlozky.mzdaMesicni": {
+      "titl": "Měsíční mzda (plat)"
+    },
+    "vyznamSlozky.mzdaNahrada": {
+      "titl": "Náhrada mzdy"
+    },
+    "vyznamSlozky.nahradaNeschop": {
+      "titl": "Náhrada mzdy za prac. neschopnost"
+    },
+    "vyznamSlozky.nemoc": {
+      "titl": "Nemoc"
+    },
+    "vyznamSlozky.nepBenefity": {
+      "titl": "Nepeněžní benefity"
+    },
+    "vyznamSlozky.nepenezPrijmy": {
+      "titl": "Nepeněžní příjmy"
+    },
+    "vyznamSlozky.nepritCelk": {
+      "titl": "Neodpracovaná doba - nepřítomnost"
+    },
+    "vyznamSlozky.nocniPripl": {
+      "titl": "Příplatek za noční práci"
+    },
+    "vyznamSlozky.odmeny": {
+      "titl": "Odměny"
+    },
+    "vyznamSlozky.podilNaZisku": {
+      "titl": "Podíl na zisku"
+    },
+    "vyznamSlozky.pracPracPrum": {
+      "titl": "Pracovněprávní hodinový průměr"
+    },
+    "vyznamSlozky.premiePevna": {
+      "titl": "Prémie pevnou částkou"
+    },
+    "vyznamSlozky.premieProc": {
+      "titl": "Prémie % ze základní mzdy"
+    },
+    "vyznamSlozky.premieProcUkaz": {
+      "titl": "Prémie % z ukazatele / základu"
+    },
+    "vyznamSlozky.prescas": {
+      "titl": "Mzda za práci přesčas"
+    },
+    "vyznamSlozky.prescasPripl": {
+      "titl": "Příplatek za práci přesčas"
+    },
+    "vyznamSlozky.prescasy": {
+      "titl": "Odpracováno - z toho  přesčas"
+    },
+    "vyznamSlozky.prispIzolacka": {
+      "titl": "Příspěvek - izolačka"
+    },
+    "vyznamSlozky.prispevky": {
+      "titl": "Příspěvky"
+    },
+    "vyznamSlozky.prispevkySporStari": {
+      "titl": "Příspěvky spoř. na stáří"
+    },
+    "vyznamSlozky.prostrediPripl": {
+      "titl": "Příplatek za prostředí"
+    },
+    "vyznamSlozky.refundNeschop": {
+      "titl": "Refundace náhrady za prac. neschopnost"
+    },
+    "vyznamSlozky.slevaDeti": {
+      "titl": "Sleva děti"
+    },
+    "vyznamSlozky.slevaSpFirma": {
+      "titl": "Sleva SP firma"
+    },
+    "vyznamSlozky.socPojCelk": {
+      "titl": "Sociální pojištění celkem"
+    },
+    "vyznamSlozky.socPojCelkDp": {
+      "titl": "Sociální pojištění celkem - pouze DP"
+    },
+    "vyznamSlozky.socPojCelkSniz": {
+      "titl": "Sociální pojištění celkem snížené"
+    },
+    "vyznamSlozky.socPojFirma": {
+      "titl": "Soc. pojištění - firma"
+    },
+    "vyznamSlozky.socPojFirmaSniz": {
+      "titl": "Soc. pojištění - firma snížené"
+    },
+    "vyznamSlozky.socPojFirmaSnizZap": {
+      "titl": "Soc. pojištění - firma snížené zapnuto"
+    },
+    "vyznamSlozky.socPojPrac": {
+      "titl": "Soc. pojištění - pracovník"
+    },
+    "vyznamSlozky.socPojSleva": {
+      "titl": "Sleva na sociálním pojištění"
+    },
+    "vyznamSlozky.socPojZakl": {
+      "titl": "Základ pro sociální pojištění"
+    },
+    "vyznamSlozky.socPojZaklDp": {
+      "titl": "Základ pro sociální pojištění - pouze DP"
+    },
+    "vyznamSlozky.socPojZaklSniz": {
+      "titl": "Základ pro sociální pojištění - snížený"
+    },
+    "vyznamSlozky.srazkaSporeni": {
+      "titl": "Spoření"
+    },
+    "vyznamSlozky.stravenky": {
+      "titl": "Stravenky"
+    },
+    "vyznamSlozky.stravenkyDoLim": {
+      "titl": "Stravenky do limitu"
+    },
+    "vyznamSlozky.stravenkyNadLim": {
+      "titl": "Stravenky nad limit"
+    },
+    "vyznamSlozky.stravenkySrazka": {
+      "titl": "Stravenky srážka zaměstnanec"
+    },
+    "vyznamSlozky.superhrubaMzda": {
+      "titl": "Superhrubá mzda"
+    },
+    "vyznamSlozky.svatek": {
+      "titl": "Odpracováno - z toho  svátek"
+    },
+    "vyznamSlozky.svatekNahrada": {
+      "titl": "Náhrada za svátek"
+    },
+    "vyznamSlozky.weekend": {
+      "titl": "Odpracováno - z toho v sobotu a v neděli"
+    },
+    "vyznamSlozky.zalohaMimoradna": {
+      "titl": "Záloha mimořádná"
+    },
+    "vyznamSlozky.zalohaRadna": {
+      "titl": "Záloha řádná"
+    },
+    "vyznamSlozky.zdravPojCelk": {
+      "titl": "Zdravotní pojištění celkem"
+    },
+    "vyznamSlozky.zdravPojFirma": {
+      "titl": "Zdrav. pojištění - zaměstnavatel"
+    },
+    "vyznamSlozky.zdravPojPrac": {
+      "titl": "Zdrav. pojištění - pracovník"
+    },
+    "vyznamSlozky.zdravPojZakl": {
+      "titl": "Základ pro zdravotní pojištění"
+    },
+    "zpusobPlatby.adresa": {
+      "titl": "Na adresu"
+    },
+    "zpusobPlatby.pokladna": {
+      "titl": "Pokladnou"
+    },
+    "zpusobPlatby.ucet": {
+      "titl": "Na účet"
+    }
+  }
+}
